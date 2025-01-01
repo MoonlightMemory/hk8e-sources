@@ -3,614 +3,114 @@
 // Line 60: range 000000000CE35A92-000000000CE35AEA
 uint32_t __cdecl SecurityUtilsHelper::getPlatformMatchinType(uint32_t platform_type)
 {
-  uint32_t v1; // eax
+    uint32_t reducedType = SecurityUtils::reducePlatformType(platform_type);
 
-  v1 = SecurityUtils::reducePlatformType(platform_type);
-  if ( v1 == 8 )
-    return 6;
-  if ( v1 <= 8 )
-  {
-    if ( v1 == 4 )
-      return 5;
-    if ( v1 <= 4 )
+    switch (reducedType)
     {
-      if ( v1 == 1 )
-        return 3;
-      if ( v1 == 2 )
-        return 2;
+        case 1:
+            return 3;
+        case 2:
+            return 2;
+        case 4:
+            return 5;
+        case 8:
+            return 6;
+        default:
+            return 1;
     }
-  }
-  return 1;
-};
+}
 
 // Line 79: range 000000000CE35E9D-000000000CE37D5F
-int32_t __cdecl SecurityUtilsHelper::loadSegmentCrcPlatformConfig(
-        const common::tools::PTree *pt,
-        std::unordered_map<unsigned int,SegmentCrcPlatformConfig> *segment_crc_config_map)
-{
-  unsigned __int64 v2; // r13
-  __int64 v3; // rax
-  _DWORD *v4; // r12
-  common::milog::MiLogStream *v5; // rdx
-  common::milog::MiLogStream *v6; // rax
-  _DWORD *v7; // rax
-  int v8; // esi
-  unsigned __int64 v9; // rax
-  __int64 p_second; // rsi
-  common::milog::MiLogStream *v11; // rdx
-  common::milog::MiLogStream *v12; // rax
-  common::milog::MiLogStream *v13; // rax
-  common::milog::MiLogStream *v14; // rax
-  unsigned __int64 v15; // rax
-  unsigned int v16; // edx
-  int v17; // edi
-  unsigned __int64 v18; // rax
-  SegmentCrcModuleConfig *M_current; // r15
-  SegmentCrcModuleConfig *v20; // rcx
-  unsigned __int64 v21; // rax
-  bool v22; // al
-  common::milog::MiLogStream *v23; // rax
-  common::milog::MiLogStream *v24; // rax
-  common::milog::MiLogStream *v25; // rax
-  common::milog::MiLogStream *v26; // rax
-  common::milog::MiLogStream *v27; // rax
-  common::milog::MiLogStream *v28; // rax
-  common::milog::MiLogStream *v29; // rax
-  common::milog::MiLogStream *v30; // rax
-  common::milog::MiLogStream *v31; // rax
-  common::milog::MiLogStream *v32; // rax
-  std::vector<SegmentCrcModuleConfig>::value_type *v33; // rax
-  unsigned __int64 v34; // rax
-  unsigned __int64 v35; // rax
-  SegmentCrcPlatformConfig *v36; // rdx
-  SegmentCrcPlatformConfig *v37; // r8
-  std::pair<std::__detail::_Node_iterator<std::pair<unsigned int const,SegmentCrcPlatformConfig>,false,false>,bool> v38; // rax
-  common::milog::MiLogStream *v39; // rax
-  _DWORD *v40; // rax
-  int32_t ret; // [rsp+1Ch] [rbp-734h]
-  std::list<std::pair<std::string,common::tools::PTree>> *__for_range; // [rsp+20h] [rbp-730h]
-  const std::pair<std::string,common::tools::PTree> *child_pt; // [rsp+28h] [rbp-728h]
-  std::list<std::pair<std::string,common::tools::PTree>> *__for_range_0; // [rsp+30h] [rbp-720h]
-  const std::pair<std::string,common::tools::PTree> *module_child_pt; // [rsp+38h] [rbp-718h]
-  char v48[1808]; // [rsp+40h] [rbp-710h] BYREF
+#include <memory>
+#include <string>
+#include <unordered_map>
+#include <vector>
+#include <list>
+#include <utility>
+#include <stdexcept>
+#include "common/tools/ptree.h"
+#include "common/milog/milog_stream.h"
+#include "proto/platform_type.pb.h"
+#include "proto/segment_crc_module_type.pb.h"
+#include "security_utils.h"
 
-  v2 = (unsigned __int64)v48;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_5(1760LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "34 48 1 9 <unknown> 64 1 9 <unknown> 80 1 9 <unknown> 96 1 9 <unknown> 112 1 9 <unknown> 128 4 1"
-                        "6 platform_type:91 144 4 21 proto_module_type:112 160 8 14 __for_begin:82 192 8 12 __for_end:82 "
-                        "224 8 15 __for_begin:102 256 8 13 __for_end:102 288 8 8 iter:124 320 8 9 <unknown> 352 24 9 <unk"
-                        "nown> 416 24 9 <unknown> 480 32 9 <unknown> 544 32 20 platform_type_str:90 608 32 9 <unknown> 67"
-                        "2 32 9 <unknown> 736 32 9 <unknown> 800 32 9 <unknown> 864 32 9 <unknown> 928 32 23 crc_module_t"
-                        "ype_str:111 992 32 9 <unknown> 1056 32 9 <unknown> 1120 32 9 <unknown> 1184 32 9 <unknown> 1248 "
-                        "32 9 <unknown> 1312 32 9 <unknown> 1376 32 9 <unknown> 1440 32 9 <unknown> 1504 40 17 module_con"
-                        "fig:120 1584 40 9 <unknown> 1664 64 18 platform_config:99";
-  *(_QWORD *)(v2 + 16) = SecurityUtilsHelper::loadSegmentCrcPlatformConfig;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -234753551;
-  v4[536862722] = -234753535;
-  v4[536862723] = -234753535;
-  v4[536862724] = -234556924;
-  v4[536862725] = -218959360;
-  v4[536862726] = -218959360;
-  v4[536862727] = -218959360;
-  v4[536862728] = -218959360;
-  v4[536862729] = -218959360;
-  v4[536862730] = -218959360;
-  v4[536862731] = -234881024;
-  v4[536862732] = -218959118;
-  v4[536862733] = -234881024;
-  v4[536862734] = -218959118;
-  v4[536862736] = -218959118;
-  v4[536862738] = -218959118;
-  v4[536862740] = -218959118;
-  v4[536862742] = -218959118;
-  v4[536862744] = -218959118;
-  v4[536862746] = -218959118;
-  v4[536862748] = -218959118;
-  v4[536862750] = -218959118;
-  v4[536862752] = -218959118;
-  v4[536862754] = -218959118;
-  v4[536862756] = -218959118;
-  v4[536862758] = -218959118;
-  v4[536862760] = -218959118;
-  v4[536862762] = -218959118;
-  v4[536862764] = -218959118;
-  v4[536862766] = -218959118;
-  v4[536862768] = -218959360;
-  v4[536862769] = 62194;
-  v4[536862770] = -234881024;
-  v4[536862771] = -218959118;
-  v4[536862774] = -202116109;
-  ret = 0;
-  if ( *(char *)(((v2 + 352) >> 3) + 0x7FFF8000) < 0
-    || *(_BYTE *)(((v2 + 375) >> 3) + 0x7FFF8000) != 0
-    && (char)((v2 + 119) & 7) >= *(_BYTE *)(((v2 + 375) >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_store_n(v2 + 352, 24LL);
-  }
-  common::tools::PTree::getAllChild[abi:cxx11]((std::list<std::pair<std::string,common::tools::PTree>> *)(v2 + 352), pt);
-  __for_range = (std::list<std::pair<std::string,common::tools::PTree>> *)(v2 + 352);
-  if ( *(_BYTE *)(((v2 + 160) >> 3) + 0x7FFF8000) )
-    __asan_report_store8();
-  *(std::list<std::pair<std::string,common::tools::PTree>>::iterator *)(v2 + 160) = std::list<std::pair<std::string,common::tools::PTree>>::begin(__for_range);
-  if ( *(_BYTE *)(((v2 + 192) >> 3) + 0x7FFF8000) )
-    __asan_report_store8();
-  *(std::list<std::pair<std::string,common::tools::PTree>>::iterator *)(v2 + 192) = std::list<std::pair<std::string,common::tools::PTree>>::end(__for_range);
-  while ( std::operator!=(
-            (const std::_List_iterator<std::pair<std::string,common::tools::PTree> >::_Self *)(v2 + 160),
-            (const std::_List_iterator<std::pair<std::string,common::tools::PTree> >::_Self *)(v2 + 192)) )
-  {
-    child_pt = std::_List_iterator<std::pair<std::string,common::tools::PTree>>::operator*((const std::_List_iterator<std::pair<std::string,common::tools::PTree> > *const)(v2 + 160));
-    if ( std::operator!=<char>(&child_pt->first, "SegmentCrcPlatformConfig") )
-    {
-      *(_DWORD *)(((v2 + 480) >> 3) + 0x7FFF8000) = 0;
-      if ( *(char *)(((v2 + 480) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 511) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 - 32 + 31) & 7) >= *(_BYTE *)(((v2 + 511) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 480, 32LL);
-      }
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v2 + 480),
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/security_utils.cpp",
-        "loadSegmentCrcPlatformConfig",
-        86);
-      v5 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(
-             (common::milog::MiLogStream *const)(v2 + 480),
-             (const char (*)[14])"unknown node:");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v5, &child_pt->first);
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 480));
-      *(_DWORD *)(((v2 + 480) >> 3) + 0x7FFF8000) = -117901064;
-      ret = -1;
+using namespace common::tools;
+using namespace common::milog;
+
+int32_t SecurityUtilsHelper::loadSegmentCrcPlatformConfig(
+    const PTree *pt,
+    std::unordered_map<unsigned int, SegmentCrcPlatformConfig> *segment_crc_config_map)
+{
+    if (!pt || !segment_crc_config_map) {
+        return -1;
     }
-    else
-    {
-      *(_DWORD *)(((v2 + 544) >> 3) + 0x7FFF8000) = 0;
-      *(_DWORD *)(((v2 + 608) >> 3) + 0x7FFF8000) = 0;
-      *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = 1;
-      std::allocator<char>::allocator(v2 + 48);
-      std::string::basic_string<std::allocator<char>>(
-        (std::string *const)(v2 + 608),
-        "<xmlattr>.platform_type",
-        (const std::allocator<char> *)(v2 + 48));
-      if ( *(char *)(((v2 + 544) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 575) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 575) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 544, 32LL);
-      }
-      common::tools::PTree::get<std::string>(
-        (std::string *)(v2 + 544),
-        &child_pt->second,
-        (const std::string *)(v2 + 608));
-      std::string::~string((void *)(v2 + 608));
-      *(_DWORD *)(((v2 + 608) >> 3) + 0x7FFF8000) = -117901064;
-      std::allocator<char>::~allocator(v2 + 48);
-      *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = -8;
-      *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) = 4;
-      if ( *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) <= 3 )
-        __asan_report_store4(v2 + 128);
-      *(_DWORD *)(v2 + 128) = 0;
-      if ( !proto::PlatformType_Parse((const std::string *)(v2 + 544), (proto::PlatformType *)(v2 + 128)) )
-      {
-        *(_DWORD *)(((v2 + 672) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 672) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 703) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 703) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 672, 32LL);
-        }
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 672),
-          &common::milog::MiLogDefault::default_log_obj_,
-          4u,
-          "src/security_utils.cpp",
-          "loadSegmentCrcPlatformConfig",
-          94);
-        v6 = common::milog::MiLogStream::operator<<<char [23],(char *[23])0>(
-               (common::milog::MiLogStream *const)(v2 + 672),
-               (const char (*)[23])"unknown platform type:");
-        common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v6, (const std::string *)(v2 + 544));
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 672));
-        *(_DWORD *)(((v2 + 672) >> 3) + 0x7FFF8000) = -117901064;
-        ret = -1;
-      }
-      else
-      {
-        v7 = (_DWORD *)(((v2 + 1664) >> 3) + 2147450880);
-        *v7 = 0;
-        v7[1] = 0;
-        SegmentCrcPlatformConfig::SegmentCrcPlatformConfig((SegmentCrcPlatformConfig *const)(v2 + 1664));
-        if ( *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) <= 3 )
-          __asan_report_load4(v2 + 128);
-        v8 = *(_DWORD *)(v2 + 128);
-        if ( *(_BYTE *)(((v2 + 1664) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 1664) >> 3) + 0x7FFF8000) <= 3 )
-          __asan_report_store4(v2 + 1664);
-        *(_DWORD *)(v2 + 1664) = v8;
-        *(_DWORD *)(((v2 + 800) >> 3) + 0x7FFF8000) = 0;
-        *(_DWORD *)(((v2 + 736) >> 3) + 0x7FFF8000) = 0;
-        *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = 1;
-        std::allocator<char>::allocator(v2 + 64);
-        std::string::basic_string<std::allocator<char>>(
-          (std::string *const)(v2 + 736),
-          "<xmlattr>.platform_directory",
-          (const std::allocator<char> *)(v2 + 64));
-        if ( *(char *)(((v2 + 800) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 831) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 831) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 800, 32LL);
-        }
-        common::tools::PTree::get<std::string>(
-          (std::string *)(v2 + 800),
-          &child_pt->second,
-          (const std::string *)(v2 + 736));
-        std::string::operator=(v2 + 1672, v2 + 800);
-        std::string::~string((void *)(v2 + 800));
-        *(_DWORD *)(((v2 + 800) >> 3) + 0x7FFF8000) = -117901064;
-        std::string::~string((void *)(v2 + 736));
-        *(_DWORD *)(((v2 + 736) >> 3) + 0x7FFF8000) = -117901064;
-        std::allocator<char>::~allocator(v2 + 64);
-        *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
-        v9 = ((v2 + 416) >> 3) + 2147450880;
-        *(_WORD *)v9 = 0;
-        *(_BYTE *)(v9 + 2) = 0;
-        p_second = (__int64)&child_pt->second;
-        if ( *(char *)(((v2 + 416) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 439) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 96 + 23) & 7) >= *(_BYTE *)(((v2 + 439) >> 3) + 0x7FFF8000) )
-        {
-          p_second = 24LL;
-          __asan_report_store_n(v2 + 416, 24LL);
-        }
-        common::tools::PTree::getAllChild[abi:cxx11](
-          (std::list<std::pair<std::string,common::tools::PTree>> *)(v2 + 416),
-          (const common::tools::PTree *const)p_second);
-        __for_range_0 = (std::list<std::pair<std::string,common::tools::PTree>> *)(v2 + 416);
-        *(_BYTE *)(((v2 + 224) >> 3) + 0x7FFF8000) = 0;
-        if ( *(_BYTE *)(((v2 + 224) >> 3) + 0x7FFF8000) )
-          __asan_report_store8();
-        *(std::list<std::pair<std::string,common::tools::PTree>>::iterator *)(v2 + 224) = std::list<std::pair<std::string,common::tools::PTree>>::begin(__for_range_0);
-        *(_BYTE *)(((v2 + 256) >> 3) + 0x7FFF8000) = 0;
-        if ( *(_BYTE *)(((v2 + 256) >> 3) + 0x7FFF8000) )
-          __asan_report_store8();
-        *(std::list<std::pair<std::string,common::tools::PTree>>::iterator *)(v2 + 256) = std::list<std::pair<std::string,common::tools::PTree>>::end(__for_range_0);
-        while ( std::operator!=(
-                  (const std::_List_iterator<std::pair<std::string,common::tools::PTree> >::_Self *)(v2 + 224),
-                  (const std::_List_iterator<std::pair<std::string,common::tools::PTree> >::_Self *)(v2 + 256)) )
-        {
-          module_child_pt = std::_List_iterator<std::pair<std::string,common::tools::PTree>>::operator*((const std::_List_iterator<std::pair<std::string,common::tools::PTree> > *const)(v2 + 224));
-          if ( std::operator!=<char>(&module_child_pt->first, "SegmentCrcModuleConfig") )
-          {
-            *(_DWORD *)(((v2 + 864) >> 3) + 0x7FFF8000) = 0;
-            if ( *(char *)(((v2 + 864) >> 3) + 0x7FFF8000) < 0
-              || *(_BYTE *)(((v2 + 895) >> 3) + 0x7FFF8000) != 0
-              && (char)((v2 + 127) & 7) >= *(_BYTE *)(((v2 + 895) >> 3) + 0x7FFF8000) )
-            {
-              __asan_report_store_n(v2 + 864, 32LL);
+
+    try {
+        for (const auto& child : pt->get_child("SegmentCrcPlatformConfig")) {
+            proto::PlatformType platform_type;
+            std::string platform_directory;
+            std::vector<SegmentCrcModuleConfig> module_configs;
+
+            // Load platform type
+            if (!child.second.get("<xmlattr>.platform_type", platform_type)) {
+                MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                log << "unknown platform type: " << child.second.get<std::string>("<xmlattr>.platform_type") << std::endl;
+                return -1;
             }
-            common::milog::MiLogStream::create(
-              (common::milog::MiLogStream *)(v2 + 864),
-              &common::milog::MiLogDefault::default_log_obj_,
-              4u,
-              "src/security_utils.cpp",
-              "loadSegmentCrcPlatformConfig",
-              106);
-            v11 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(
-                    (common::milog::MiLogStream *const)(v2 + 864),
-                    (const char (*)[14])"unknown node:");
-            common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v11, &module_child_pt->first);
-            common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 864));
-            *(_DWORD *)(((v2 + 864) >> 3) + 0x7FFF8000) = -117901064;
-            ret = -1;
-          }
-          else
-          {
-            *(_DWORD *)(((v2 + 928) >> 3) + 0x7FFF8000) = 0;
-            *(_DWORD *)(((v2 + 992) >> 3) + 0x7FFF8000) = 0;
-            *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) = 1;
-            std::allocator<char>::allocator(v2 + 80);
-            std::string::basic_string<std::allocator<char>>(
-              (std::string *const)(v2 + 992),
-              "<xmlattr>.crc_module_type",
-              (const std::allocator<char> *)(v2 + 80));
-            if ( *(char *)(((v2 + 928) >> 3) + 0x7FFF8000) < 0
-              || *(_BYTE *)(((v2 + 959) >> 3) + 0x7FFF8000) != 0
-              && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 959) >> 3) + 0x7FFF8000) )
-            {
-              __asan_report_store_n(v2 + 928, 32LL);
+
+            // Load platform directory
+            if (!child.second.get("<xmlattr>.platform_directory", platform_directory)) {
+                MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                log << "unknown platform directory" << std::endl;
+                return -1;
             }
-            common::tools::PTree::get<std::string>(
-              (std::string *)(v2 + 928),
-              &module_child_pt->second,
-              (const std::string *)(v2 + 992));
-            std::string::~string((void *)(v2 + 992));
-            *(_DWORD *)(((v2 + 992) >> 3) + 0x7FFF8000) = -117901064;
-            std::allocator<char>::~allocator(v2 + 80);
-            *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) = -8;
-            *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) = 4;
-            if ( *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) <= 3 )
-              __asan_report_store4(v2 + 144);
-            *(_DWORD *)(v2 + 144) = 0;
-            if ( !proto::SegmentCRCModuleType_Parse(
-                    (const std::string *)(v2 + 928),
-                    (proto::SegmentCRCModuleType *)(v2 + 144)) )
-            {
-              *(_DWORD *)(((v2 + 1056) >> 3) + 0x7FFF8000) = 0;
-              if ( *(char *)(((v2 + 1056) >> 3) + 0x7FFF8000) < 0
-                || *(_BYTE *)(((v2 + 1087) >> 3) + 0x7FFF8000) != 0
-                && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 1087) >> 3) + 0x7FFF8000) )
-              {
-                __asan_report_store_n(v2 + 1056, 32LL);
-              }
-              common::milog::MiLogStream::create(
-                (common::milog::MiLogStream *)(v2 + 1056),
-                &common::milog::MiLogDefault::default_log_obj_,
-                4u,
-                "src/security_utils.cpp",
-                "loadSegmentCrcPlatformConfig",
-                115);
-              v12 = common::milog::MiLogStream::operator<<<char [30],(char *[30])0>(
-                      (common::milog::MiLogStream *const)(v2 + 1056),
-                      (const char (*)[30])"unknown platform module type:");
-              v13 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                      v12,
-                      (const std::string *)(v2 + 928));
-              v14 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(
-                      v13,
-                      (const char (*)[16])" platform_type:");
-              common::milog::MiLogStream::operator<<<proto::PlatformType,(proto::PlatformType*)0>(
-                v14,
-                (const proto::PlatformType *)(v2 + 128));
-              common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1056));
-              *(_DWORD *)(((v2 + 1056) >> 3) + 0x7FFF8000) = -117901064;
-              ret = -1;
-            }
-            else
-            {
-              v15 = ((v2 + 1504) >> 3) + 2147450880;
-              *(_DWORD *)v15 = 0;
-              *(_BYTE *)(v15 + 4) = 0;
-              SegmentCrcModuleConfig::SegmentCrcModuleConfig((SegmentCrcModuleConfig *const)(v2 + 1504));
-              *(_DWORD *)(((v2 + 1120) >> 3) + 0x7FFF8000) = 0;
-              *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 1;
-              std::allocator<char>::allocator(v2 + 96);
-              std::string::basic_string<std::allocator<char>>(
-                (std::string *const)(v2 + 1120),
-                "<xmlattr>.crc_module_index",
-                (const std::allocator<char> *)(v2 + 96));
-              v16 = common::tools::PTree::get<unsigned int>(&module_child_pt->second, (const std::string *)(v2 + 1120));
-              if ( *(_BYTE *)(((v2 + 1504) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 1504) >> 3) + 0x7FFF8000) <= 3 )
-                __asan_report_store4(v2 + 1504);
-              *(_DWORD *)(v2 + 1504) = v16;
-              std::string::~string((void *)(v2 + 1120));
-              *(_DWORD *)(((v2 + 1120) >> 3) + 0x7FFF8000) = -117901064;
-              std::allocator<char>::~allocator(v2 + 96);
-              *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = -8;
-              if ( *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) <= 3 )
-                __asan_report_load4(v2 + 144);
-              v17 = *(_DWORD *)(v2 + 144);
-              if ( *(_BYTE *)(((v2 + 1508) >> 3) + 0x7FFF8000) != 0
-                && (char)(((v2 - 32 + 4) & 7) + 3) >= *(_BYTE *)(((v2 + 1508) >> 3) + 0x7FFF8000) )
-              {
-                v17 = v2 + 1508;
-                __asan_report_store4(v2 + 1508);
-              }
-              *(_DWORD *)(v2 + 1508) = v17;
-              *(_DWORD *)(((v2 + 1248) >> 3) + 0x7FFF8000) = 0;
-              *(_DWORD *)(((v2 + 1184) >> 3) + 0x7FFF8000) = 0;
-              *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) = 1;
-              std::allocator<char>::allocator(v2 + 112);
-              std::string::basic_string<std::allocator<char>>(
-                (std::string *const)(v2 + 1184),
-                "<xmlattr>.crc_module_file",
-                (const std::allocator<char> *)(v2 + 112));
-              if ( *(char *)(((v2 + 1248) >> 3) + 0x7FFF8000) < 0
-                || *(_BYTE *)(((v2 + 1279) >> 3) + 0x7FFF8000) != 0
-                && (char)((v2 - 32 + 31) & 7) >= *(_BYTE *)(((v2 + 1279) >> 3) + 0x7FFF8000) )
-              {
-                __asan_report_store_n(v2 + 1248, 32LL);
-              }
-              common::tools::PTree::get<std::string>(
-                (std::string *)(v2 + 1248),
-                &module_child_pt->second,
-                (const std::string *)(v2 + 1184));
-              std::string::operator=(v2 + 1512, v2 + 1248);
-              std::string::~string((void *)(v2 + 1248));
-              *(_DWORD *)(((v2 + 1248) >> 3) + 0x7FFF8000) = -117901064;
-              std::string::~string((void *)(v2 + 1184));
-              *(_DWORD *)(((v2 + 1184) >> 3) + 0x7FFF8000) = -117901064;
-              std::allocator<char>::~allocator(v2 + 112);
-              *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) = -8;
-              *(_BYTE *)(((v2 + 288) >> 3) + 0x7FFF8000) = 0;
-              v18 = ((v2 + 1584) >> 3) + 2147450880;
-              *(_DWORD *)v18 = 0;
-              *(_BYTE *)(v18 + 4) = 0;
-              SegmentCrcModuleConfig::SegmentCrcModuleConfig(
-                (SegmentCrcModuleConfig *const)(v2 + 1584),
-                (const SegmentCrcModuleConfig *)(v2 + 1504));
-              M_current = std::vector<SegmentCrcModuleConfig>::end((std::vector<SegmentCrcModuleConfig> *const)(v2 + 1704))._M_current;
-              v20 = std::vector<SegmentCrcModuleConfig>::begin((std::vector<SegmentCrcModuleConfig> *const)(v2 + 1704))._M_current;
-              if ( *(_BYTE *)(((v2 + 288) >> 3) + 0x7FFF8000) )
-                __asan_report_store8();
-              *(__gnu_cxx::__normal_iterator<SegmentCrcModuleConfig*,std::vector<SegmentCrcModuleConfig> > *)(v2 + 288) = std::find_if<__gnu_cxx::__normal_iterator<SegmentCrcModuleConfig *,std::vector<SegmentCrcModuleConfig>>,SecurityUtilsHelper::loadSegmentCrcPlatformConfig(common::tools::PTree const&,std::unordered_map<unsigned int,SegmentCrcPlatformConfig> &)::{lambda(SegmentCrcModuleConfig const&)#1}>((__gnu_cxx::__normal_iterator<SegmentCrcModuleConfig*,std::vector<SegmentCrcModuleConfig> >)v20, (__gnu_cxx::__normal_iterator<SegmentCrcModuleConfig*,std::vector<SegmentCrcModuleConfig> >)M_current, (SecurityUtilsHelper::loadSegmentCrcPlatformConfig::<lambda(const SegmentCrcModuleConfig&)> *)(v2 + 1584));
-              SecurityUtilsHelper::loadSegmentCrcPlatformConfig(common::tools::PTree const&,std::unordered_map<unsigned int,SegmentCrcPlatformConfig> &)::{lambda(SegmentCrcModuleConfig const&)#1}::~SegmentCrcModuleConfig((SecurityUtilsHelper::loadSegmentCrcPlatformConfig::<lambda(const SegmentCrcModuleConfig&)> *const)(v2 + 1584));
-              v21 = ((v2 + 1584) >> 3) + 2147450880;
-              *(_DWORD *)v21 = -117901064;
-              *(_BYTE *)(v21 + 4) = -8;
-              *(_BYTE *)(((v2 + 320) >> 3) + 0x7FFF8000) = 0;
-              if ( *(_BYTE *)(((v2 + 320) >> 3) + 0x7FFF8000) )
-                __asan_report_store8();
-              *(std::vector<SegmentCrcModuleConfig>::iterator *)(v2 + 320) = std::vector<SegmentCrcModuleConfig>::end((std::vector<SegmentCrcModuleConfig> *const)(v2 + 1704));
-              v22 = __gnu_cxx::operator!=<SegmentCrcModuleConfig *,std::vector<SegmentCrcModuleConfig>>(
-                      (const __gnu_cxx::__normal_iterator<SegmentCrcModuleConfig*,std::vector<SegmentCrcModuleConfig> > *)(v2 + 288),
-                      (const __gnu_cxx::__normal_iterator<SegmentCrcModuleConfig*,std::vector<SegmentCrcModuleConfig> > *)(v2 + 320));
-              *(_BYTE *)(((v2 + 320) >> 3) + 0x7FFF8000) = -8;
-              if ( v22 )
-              {
-                *(_DWORD *)(((v2 + 1312) >> 3) + 0x7FFF8000) = 0;
-                if ( *(char *)(((v2 + 1312) >> 3) + 0x7FFF8000) < 0
-                  || *(_BYTE *)(((v2 + 1343) >> 3) + 0x7FFF8000) != 0
-                  && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 1343) >> 3) + 0x7FFF8000) )
-                {
-                  __asan_report_store_n(v2 + 1312, 32LL);
+
+            // Load module configurations
+            for (const auto& module_child : child.second.get_child("SegmentCrcModuleConfig")) {
+                proto::SegmentCRCModuleType module_type;
+                unsigned int module_index;
+                std::string module_file;
+
+                if (!module_child.second.get("<xmlattr>.crc_module_type", module_type)) {
+                    MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                    log << "unknown platform module type: " << module_child.second.get<std::string>("<xmlattr>.crc_module_type")
+                        << " platform_type: " << platform_type << std::endl;
+                    return -1;
                 }
-                common::milog::MiLogStream::create(
-                  (common::milog::MiLogStream *)(v2 + 1312),
-                  &common::milog::MiLogDefault::default_log_obj_,
-                  4u,
-                  "src/security_utils.cpp",
-                  "loadSegmentCrcPlatformConfig",
-                  132);
-                v23 = common::milog::MiLogStream::operator<<<char [55],(char *[55])0>(
-                        (common::milog::MiLogStream *const)(v2 + 1312),
-                        (const char (*)[55])"module config contains duplicate field, platform_type:");
-                common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                  v23,
-                  (const std::string *)(v2 + 544));
-                common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1312));
-                *(_DWORD *)(((v2 + 1312) >> 3) + 0x7FFF8000) = -117901064;
-                ret = -1;
-              }
-              else
-              {
-                *(_DWORD *)(((v2 + 1376) >> 3) + 0x7FFF8000) = 0;
-                if ( *(char *)(((v2 + 1376) >> 3) + 0x7FFF8000) < 0
-                  || *(_BYTE *)(((v2 + 1407) >> 3) + 0x7FFF8000) != 0
-                  && (char)((v2 + 127) & 7) >= *(_BYTE *)(((v2 + 1407) >> 3) + 0x7FFF8000) )
-                {
-                  __asan_report_store_n(v2 + 1376, 32LL);
+
+                if (!module_child.second.get("<xmlattr>.crc_module_index", module_index)) {
+                    MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                    log << "unknown module index" << std::endl;
+                    return -1;
                 }
-                common::milog::MiLogStream::create(
-                  (common::milog::MiLogStream *)(v2 + 1376),
-                  &common::milog::MiLogDefault::default_log_obj_,
-                  1u,
-                  "src/security_utils.cpp",
-                  "loadSegmentCrcPlatformConfig",
-                  136);
-                v24 = common::milog::MiLogStream::operator<<<char [29],(char *[29])0>(
-                        (common::milog::MiLogStream *const)(v2 + 1376),
-                        (const char (*)[29])"target crc config: platform:");
-                v25 = common::milog::MiLogStream::operator<<<proto::PlatformType,(proto::PlatformType*)0>(
-                        v24,
-                        (const proto::PlatformType *)(v2 + 128));
-                v26 = common::milog::MiLogStream::operator<<<char [15],(char *[15])0>(
-                        v25,
-                        (const char (*)[15])" platform_dir:");
-                v27 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                        v26,
-                        (const std::string *)(v2 + 1672));
-                v28 = common::milog::MiLogStream::operator<<<char [15],(char *[15])0>(
-                        v27,
-                        (const char (*)[15])" module_index:");
-                v29 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(
-                        v28,
-                        (const unsigned int *)(v2 + 1504));
-                v30 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(
-                        v29,
-                        (const char (*)[14])" module_type:");
-                v31 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(
-                        v30,
-                        (const unsigned int *)(v2 + 1508));
-                v32 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(
-                        v31,
-                        (const char (*)[14])" module_file:");
-                common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                  v32,
-                  (const std::string *)(v2 + 1512));
-                common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1376));
-                *(_DWORD *)(((v2 + 1376) >> 3) + 0x7FFF8000) = -117901064;
-                v33 = std::move<SegmentCrcModuleConfig &>((SegmentCrcModuleConfig *)(v2 + 1504));
-                std::vector<SegmentCrcModuleConfig>::push_back(
-                  (std::vector<SegmentCrcModuleConfig> *const)(v2 + 1704),
-                  v33);
-              }
-              SegmentCrcModuleConfig::~SegmentCrcModuleConfig((SegmentCrcModuleConfig *const)(v2 + 1504));
+
+                if (!module_child.second.get("<xmlattr>.crc_module_file", module_file)) {
+                    MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                    log << "unknown module file" << std::endl;
+                    return -1;
+                }
+
+                module_configs.emplace_back(module_type, module_index, module_file);
             }
-            std::string::~string((void *)(v2 + 928));
-          }
-          *(_DWORD *)(((v2 + 928) >> 3) + 0x7FFF8000) = -117901064;
-          *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) = -8;
-          v34 = ((v2 + 1504) >> 3) + 2147450880;
-          *(_DWORD *)v34 = -117901064;
-          *(_BYTE *)(v34 + 4) = -8;
-          *(_BYTE *)(((v2 + 288) >> 3) + 0x7FFF8000) = -8;
-          std::_List_iterator<std::pair<std::string,common::tools::PTree>>::operator++((std::_List_iterator<std::pair<std::string,common::tools::PTree> > *const)(v2 + 224));
+
+            SegmentCrcPlatformConfig platform_config(platform_type, platform_directory, module_configs);
+
+            // Insert into map
+            auto [it, inserted] = segment_crc_config_map->emplace(static_cast<unsigned int>(platform_type), platform_config);
+            if (!inserted) {
+                MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+                log << "duplicate platform: " << platform_type << std::endl;
+                return -1;
+            }
         }
-        std::list<std::pair<std::string,common::tools::PTree>>::~list((std::list<std::pair<std::string,common::tools::PTree>> *const)(v2 + 416));
-        v35 = ((v2 + 416) >> 3) + 2147450880;
-        *(_WORD *)v35 = -1800;
-        *(_BYTE *)(v35 + 2) = -8;
-        *(_BYTE *)(((v2 + 224) >> 3) + 0x7FFF8000) = -8;
-        *(_BYTE *)(((v2 + 256) >> 3) + 0x7FFF8000) = -8;
-        v36 = std::move<SegmentCrcPlatformConfig &>((SegmentCrcPlatformConfig *)(v2 + 1664));
-        v38 = std::unordered_map<unsigned int,SegmentCrcPlatformConfig>::emplace<proto::PlatformType &,SegmentCrcPlatformConfig>(
-                segment_crc_config_map,
-                (proto::PlatformType *)(v2 + 128),
-                v36,
-                (proto::PlatformType *)(v2 + 128),
-                v37);
-        if ( !v38.second )
-        {
-          *(_DWORD *)(((v2 + 1440) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 1440) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 1471) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 1471) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 1440, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 1440),
-            &common::milog::MiLogDefault::default_log_obj_,
-            4u,
-            "src/security_utils.cpp",
-            "loadSegmentCrcPlatformConfig",
-            142);
-          v39 = common::milog::MiLogStream::operator<<<char [20],(char *[20])0>(
-                  (common::milog::MiLogStream *const)(v2 + 1440),
-                  (const char (*)[20])"duplicate platform:");
-          common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v39, (const std::string *)(v2 + 544));
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1440));
-          *(_DWORD *)(((v2 + 1440) >> 3) + 0x7FFF8000) = -117901064;
-          ret = -1;
-        }
-        SegmentCrcPlatformConfig::~SegmentCrcPlatformConfig((SegmentCrcPlatformConfig *const)(v2 + 1664));
-      }
-      std::string::~string((void *)(v2 + 544));
+    } catch (const std::exception& e) {
+        MiLogStream log(MiLogDefault::default_log_obj_, 4, __FILE__, __FUNCTION__);
+        log << "Exception occurred: " << e.what() << std::endl;
+        return -1;
     }
-    *(_DWORD *)(((v2 + 544) >> 3) + 0x7FFF8000) = -117901064;
-    *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) = -8;
-    v40 = (_DWORD *)(((v2 + 1664) >> 3) + 2147450880);
-    *v40 = -117901064;
-    v40[1] = -117901064;
-    std::_List_iterator<std::pair<std::string,common::tools::PTree>>::operator++((std::_List_iterator<std::pair<std::string,common::tools::PTree> > *const)(v2 + 160));
-  }
-  std::list<std::pair<std::string,common::tools::PTree>>::~list((std::list<std::pair<std::string,common::tools::PTree>> *const)(v2 + 352));
-  if ( v48 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF80D4) = 0LL;
-    memset(
-      (void *)((unsigned __int64)(v4 + 536862722) & 0xFFFFFFFFFFFFFFF8LL),
-      0,
-      8LL * ((((_DWORD)v4 + 2147450880 - (((_DWORD)v4 + 2147450888) & 0xFFFFFFF8) + 220) & 0xFFFFFFF8) >> 3));
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    __asan_stack_free_5(v2, 1760LL, v48);
-  }
-  return ret;
-};
+
+    return 0;
+}
 
 // Line 124: range 000000000CE35C2A-000000000CE35D62
 bool __cdecl SecurityUtilsHelper::loadSegmentCrcPlatformConfig(common::tools::PTree const&,std::unordered_map<unsigned int,SegmentCrcPlatformConfig> &)::{lambda(SegmentCrcModuleConfig const&)#1}::operator()(

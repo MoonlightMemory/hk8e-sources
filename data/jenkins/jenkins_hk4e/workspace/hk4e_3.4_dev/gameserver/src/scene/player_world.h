@@ -42,7 +42,7 @@ void __cdecl PlayerWorld::~PlayerWorld(PlayerWorld *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerWorld + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_World = v2;
@@ -87,7 +87,7 @@ void __fastcall ZN11PlayerWorldCI25WorldEj(PlayerWorld *const this, int a2)
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   World::World(this, v5);
-  v6 = (int (**)(...))(&`vtable for'PlayerWorld + 2);
+  v6 = (int (**)(...))(&`vtable for PlayerWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   this->_vptr_World = v6;

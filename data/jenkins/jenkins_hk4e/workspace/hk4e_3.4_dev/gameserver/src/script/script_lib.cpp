@@ -75075,11 +75075,11 @@ std::vector<unsigned int> *__cdecl ScriptLib::GetHuntingMonsterExtraSuiteIndexVe
   v4[536862723] = -219021312;
   v4[536862724] = -219021312;
   v4[536862725] = -202178560;
-  if ( !(_BYTE)`guard variable for'ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec) )
+  if ( !(_BYTE)`guard variable for ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec);
-    __cxa_guard_release(&`guard variable for'ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec);
+    __cxa_guard_release(&`guard variable for ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
       &ScriptLib::GetHuntingMonsterExtraSuiteIndexVec(ScriptContext const&)::empty_vec,
@@ -99350,11 +99350,11 @@ std::vector<unsigned int> *__cdecl ScriptLib::GetCurFungusFighterTrainingValidBa
   v4[536862725] = 62194;
   v4[536862730] = -202116109;
   v4[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec) )
+  if ( !(_BYTE)`guard variable for ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec);
-    __cxa_guard_release(&`guard variable for'ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec);
+    __cxa_guard_release(&`guard variable for ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
       &ScriptLib::GetCurFungusFighterTrainingValidBackupFungusIdList(ScriptContext const&)::empty_vec,

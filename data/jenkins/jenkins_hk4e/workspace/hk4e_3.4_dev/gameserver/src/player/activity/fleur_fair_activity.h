@@ -6,7 +6,7 @@ void __cdecl FleurFairMinigame::FleurFairMinigame(FleurFairMinigame *const this,
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<FleurFairMinigame>::enable_shared_from_this(&this->std::enable_shared_from_this<FleurFairMinigame>);
-  v2 = (int (**)(...))(&`vtable for'FleurFairMinigame + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairMinigame + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v2;
@@ -29,7 +29,7 @@ void __cdecl FleurFairMinigame::~FleurFairMinigame(FleurFairMinigame *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FleurFairMinigame + 2);
+  v1 = (int (**)(...))(&`vtable for FleurFairMinigame + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v1;
@@ -112,7 +112,7 @@ void __cdecl FleurFairBalloon::~FleurFairBalloon(FleurFairBalloon *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FleurFairBalloon + 2);
+  v1 = (int (**)(...))(&`vtable for FleurFairBalloon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v1;
@@ -143,7 +143,7 @@ void __fastcall ZN16FleurFairBalloonCI217FleurFairMinigameEj(FleurFairBalloon *c
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   FleurFairMinigame::FleurFairMinigame(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'FleurFairBalloon + 2);
+  v5 = (int (**)(...))(&`vtable for FleurFairBalloon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v5;
@@ -198,7 +198,7 @@ void __cdecl FleurFairFall::~FleurFairFall(FleurFairFall *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FleurFairFall + 2);
+  v1 = (int (**)(...))(&`vtable for FleurFairFall + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v1;
@@ -229,7 +229,7 @@ void __fastcall ZN13FleurFairFallCI217FleurFairMinigameEj(FleurFairFall *const t
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   FleurFairMinigame::FleurFairMinigame(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'FleurFairFall + 2);
+  v5 = (int (**)(...))(&`vtable for FleurFairFall + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v5;
@@ -300,7 +300,7 @@ void __cdecl FleurFairMusic::~FleurFairMusic(FleurFairMusic *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FleurFairMusic + 2);
+  v1 = (int (**)(...))(&`vtable for FleurFairMusic + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v1;
@@ -339,7 +339,7 @@ void __fastcall ZN14FleurFairMusicCI217FleurFairMinigameEj(FleurFairMusic *const
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   FleurFairMinigame::FleurFairMinigame(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'FleurFairMusic + 2);
+  v5 = (int (**)(...))(&`vtable for FleurFairMusic + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FleurFairMinigame = v5;
@@ -360,7 +360,7 @@ void __cdecl FleurFairActivity::~FleurFairActivity(FleurFairActivity *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FleurFairActivity + 2);
+  v1 = (int (**)(...))(&`vtable for FleurFairActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -404,7 +404,7 @@ void __fastcall ZN17FleurFairActivityCI212BaseActivityER6Playerj(FleurFairActivi
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseActivity::BaseActivity((BaseActivity *const)this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'FleurFairActivity + 2);
+  v6 = (int (**)(...))(&`vtable for FleurFairActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v6;

@@ -6,7 +6,7 @@ void __cdecl BaseStageInfo::BaseStageInfo(BaseStageInfo *const this, uint32_t st
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseStageInfo + 2);
+  v2 = (int (**)(...))(&`vtable for BaseStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&stage_id);
   this->_vptr_BaseStageInfo = v2;
@@ -24,7 +24,7 @@ void __cdecl BaseStageInfo::~BaseStageInfo(BaseStageInfo *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseStageInfo + 2);
+  v2 = (int (**)(...))(&`vtable for BaseStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseStageInfo = v2;
@@ -50,7 +50,7 @@ void __cdecl VintageHuntingFirstStageInfo::~VintageHuntingFirstStageInfo(Vintage
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingFirstStageInfo + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingFirstStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseStageInfo = v2;
@@ -87,7 +87,7 @@ void __fastcall ZN28VintageHuntingFirstStageInfoCI213BaseStageInfoEj(VintageHunt
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   BaseStageInfo::BaseStageInfo((BaseStageInfo *const)this, v5);
-  v6 = (int (**)(...))(&`vtable for'VintageHuntingFirstStageInfo + 2);
+  v6 = (int (**)(...))(&`vtable for VintageHuntingFirstStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   this->_vptr_BaseStageInfo = v6;
@@ -132,7 +132,7 @@ void __cdecl VintageHuntingSecondStageInfo::~VintageHuntingSecondStageInfo(Vinta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingSecondStageInfo + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingSecondStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseStageInfo = v2;
@@ -180,7 +180,7 @@ void __fastcall ZN29VintageHuntingSecondStageInfoCI213BaseStageInfoEj(
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   BaseStageInfo::BaseStageInfo((BaseStageInfo *const)this, v5);
-  v6 = (int (**)(...))(&`vtable for'VintageHuntingSecondStageInfo + 2);
+  v6 = (int (**)(...))(&`vtable for VintageHuntingSecondStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   this->_vptr_BaseStageInfo = v6;
@@ -227,7 +227,7 @@ void __cdecl VintageHuntingThirdStageInfo::~VintageHuntingThirdStageInfo(Vintage
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingThirdStageInfo + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingThirdStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseStageInfo = v2;
@@ -268,7 +268,7 @@ void __fastcall ZN28VintageHuntingThirdStageInfoCI213BaseStageInfoEj(VintageHunt
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   BaseStageInfo::BaseStageInfo((BaseStageInfo *const)this, v5);
-  v6 = (int (**)(...))(&`vtable for'VintageHuntingThirdStageInfo + 2);
+  v6 = (int (**)(...))(&`vtable for VintageHuntingThirdStageInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   this->_vptr_BaseStageInfo = v6;
@@ -301,7 +301,7 @@ void __cdecl VintageHuntingGallery::~VintageHuntingGallery(VintageHuntingGallery
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingGallery + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseGallery = v2;
@@ -340,7 +340,7 @@ void __fastcall ZN21VintageHuntingGalleryCI211BaseGalleryER5Scenej(
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseGallery::BaseGallery((BaseGallery *const)this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'VintageHuntingGallery + 2);
+  v6 = (int (**)(...))(&`vtable for VintageHuntingGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseGallery = v6;

@@ -6,7 +6,7 @@ void __cdecl CharAmusementMultistagePlay::~CharAmusementMultistagePlay(CharAmuse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CharAmusementMultistagePlay + 2);
+  v2 = (int (**)(...))(&`vtable for CharAmusementMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -62,7 +62,7 @@ void __fastcall ZN27CharAmusementMultistagePlayCI219SceneMultistagePlayER5SceneR
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a4;
   SceneMultistagePlay::SceneMultistagePlay(this, a2, a3, *(_DWORD *)(v4 + 32));
-  v7 = (int (**)(...))(&`vtable for'CharAmusementMultistagePlay + 2);
+  v7 = (int (**)(...))(&`vtable for CharAmusementMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v7;

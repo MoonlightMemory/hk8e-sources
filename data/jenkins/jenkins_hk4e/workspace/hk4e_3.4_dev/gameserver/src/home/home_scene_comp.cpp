@@ -24,7 +24,7 @@ void __cdecl HomeSceneComp::HomeSceneComp(HomeSceneComp *const this, Home *home)
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   HomeCompBase::HomeCompBase(this, home);
-  v5 = (int (**)(...))(&`vtable for'HomeSceneComp + 2);
+  v5 = (int (**)(...))(&`vtable for HomeSceneComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v5;

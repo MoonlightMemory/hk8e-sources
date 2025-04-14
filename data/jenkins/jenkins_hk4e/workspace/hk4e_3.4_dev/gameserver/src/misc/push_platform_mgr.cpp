@@ -753,15 +753,15 @@ const std::string *__fastcall PushPlatformManager::genPlayerLanguageTags[abi:cxx
   v4[536862721] = -234556943;
   v4[536862722] = -202116352;
   *(_DWORD *)(v2 + 48) = type;
-  if ( !(_BYTE)`guard variable for'PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none
-    && __cxa_guard_acquire(&`guard variable for'PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none) )
+  if ( !(_BYTE)`guard variable for PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none
+    && __cxa_guard_acquire(&`guard variable for PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none) )
   {
     std::allocator<char>::allocator(&__a);
     std::string::basic_string<std::allocator<char>>(
       (std::string *const)&PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none,
       "NONE",
       &__a);
-    __cxa_guard_release(&`guard variable for'PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none);
+    __cxa_guard_release(&`guard variable for PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       (void *)&PushPlatformManager::genPlayerLanguageTags[abi:cxx11](unsigned int)::none,

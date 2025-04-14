@@ -6,7 +6,7 @@ void __cdecl HomeWorld::~HomeWorld(HomeWorld *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HomeWorld + 2);
+  v2 = (int (**)(...))(&`vtable for HomeWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_World = v2;

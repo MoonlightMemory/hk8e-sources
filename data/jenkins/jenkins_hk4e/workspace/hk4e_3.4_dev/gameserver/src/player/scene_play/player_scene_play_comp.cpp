@@ -1467,11 +1467,11 @@ std::tuple<int,unsigned int,std::vector<unsigned int> > *__fastcall PlayerSceneP
   *(_DWORD *)(p_invite_info + 64) = play_id;
   *(_DWORD *)(p_invite_info + 32) = 0;
   *(_DWORD *)(p_invite_info + 48) = 0;
-  if ( !(_BYTE)`guard variable for'PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec
-    && __cxa_guard_acquire(&`guard variable for'PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec) )
+  if ( !(_BYTE)`guard variable for PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec
+    && __cxa_guard_acquire(&`guard variable for PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec) )
   {
     std::vector<unsigned int>::vector(&PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec);
-    __cxa_guard_release(&`guard variable for'PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec);
+    __cxa_guard_release(&`guard variable for PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
       &PlayerScenePlayComp::checkInviteFlowCond(unsigned int,bool)::default_param_vec,

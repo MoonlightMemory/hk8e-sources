@@ -12,7 +12,7 @@ void __cdecl GadgetSealComp::~GadgetSealComp(GadgetSealComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GadgetSealComp + 2);
+  v1 = (int (**)(...))(&`vtable for GadgetSealComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v1;
@@ -27,7 +27,7 @@ void __cdecl ZN14GadgetSealCompCI214GadgetCompBaseER6Gadget(GadgetSealComp *cons
   int (**v2)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GadgetSealComp + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetSealComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;
@@ -45,7 +45,7 @@ void __cdecl SealBattleBase::SealBattleBase(
   int (**v4)(...); // rdx
 
   std::enable_shared_from_this<SealBattleBase>::enable_shared_from_this(&this->std::enable_shared_from_this<SealBattleBase>);
-  v4 = (int (**)(...))(&`vtable for'SealBattleBase + 2);
+  v4 = (int (**)(...))(&`vtable for SealBattleBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v4;
@@ -82,7 +82,7 @@ void __cdecl SealBattleBase::~SealBattleBase(SealBattleBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SealBattleBase + 2);
+  v1 = (int (**)(...))(&`vtable for SealBattleBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v1;
@@ -161,7 +161,7 @@ void __cdecl SealKeepAliveBattle::~SealKeepAliveBattle(SealKeepAliveBattle *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SealKeepAliveBattle + 2);
+  v1 = (int (**)(...))(&`vtable for SealKeepAliveBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v1;
@@ -178,7 +178,7 @@ void __cdecl SealKeepAliveBattle::SealKeepAliveBattle(
   int (**v4)(...); // rdx
 
   SealBattleBase::SealBattleBase(this, radius, max_progress, SEAL_BATTLE_KEEP_ALIVE);
-  v4 = (int (**)(...))(&`vtable for'SealKeepAliveBattle + 2);
+  v4 = (int (**)(...))(&`vtable for SealKeepAliveBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v4;
@@ -232,7 +232,7 @@ void __cdecl SealKillMonsterBattle::~SealKillMonsterBattle(SealKillMonsterBattle
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SealKillMonsterBattle + 2);
+  v1 = (int (**)(...))(&`vtable for SealKillMonsterBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v1;
@@ -249,7 +249,7 @@ void __cdecl SealKillMonsterBattle::SealKillMonsterBattle(
   int (**v4)(...); // rdx
 
   SealBattleBase::SealBattleBase(this, radius, max_progress, SEAL_BATTLE_KILL_MONSTER);
-  v4 = (int (**)(...))(&`vtable for'SealKillMonsterBattle + 2);
+  v4 = (int (**)(...))(&`vtable for SealKillMonsterBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v4;
@@ -284,7 +284,7 @@ void __cdecl SealEnergyChargeBattle::~SealEnergyChargeBattle(SealEnergyChargeBat
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SealEnergyChargeBattle + 2);
+  v1 = (int (**)(...))(&`vtable for SealEnergyChargeBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v1;
@@ -303,7 +303,7 @@ void __cdecl SealEnergyChargeBattle::SealEnergyChargeBattle(
   __int64 v5; // rdx
 
   SealBattleBase::SealBattleBase(this, radius, max_progress, SEAL_BATTLE_ENERGY_CHARGE);
-  v4 = (int (**)(...))(&`vtable for'SealEnergyChargeBattle + 2);
+  v4 = (int (**)(...))(&`vtable for SealEnergyChargeBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SealBattleBase = v4;

@@ -27946,8 +27946,8 @@ int32_t __cdecl PlayerItemComp::checkFrontLooseAddItemBatch(
         if ( item_config_ptr )
           v15 = (const data::MaterialExcelConfig *)__dynamic_cast(
                                                      item_config_ptr,
-                                                     (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                     (const struct __class_type_info *)&`typeinfo for'data::MaterialExcelConfig,
+                                                     (const struct __class_type_info *)&`typeinfo for data::ItemConfig,
+                                                     (const struct __class_type_info *)&`typeinfo for data::MaterialExcelConfig,
                                                      0LL);
         else
           v15 = 0LL;
@@ -28001,8 +28001,8 @@ int32_t __cdecl PlayerItemComp::checkFrontLooseAddItemBatch(
         if ( item_config_ptr )
           v16 = (const data::HomeWorldFurnitureExcelConfig *)__dynamic_cast(
                                                                item_config_ptr,
-                                                               (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                               (const struct __class_type_info *)&`typeinfo for'data::HomeWorldFurnitureExcelConfig,
+                                                               (const struct __class_type_info *)&`typeinfo for data::ItemConfig,
+                                                               (const struct __class_type_info *)&`typeinfo for data::HomeWorldFurnitureExcelConfig,
                                                                0LL);
         else
           v16 = 0LL;

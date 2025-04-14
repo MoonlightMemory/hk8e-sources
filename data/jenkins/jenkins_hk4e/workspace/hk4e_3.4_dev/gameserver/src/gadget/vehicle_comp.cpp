@@ -9,7 +9,7 @@ void __cdecl GadgetVehicleComp::GadgetVehicleComp(
   int (**v3)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'GadgetVehicleComp + 2);
+  v3 = (int (**)(...))(&`vtable for GadgetVehicleComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

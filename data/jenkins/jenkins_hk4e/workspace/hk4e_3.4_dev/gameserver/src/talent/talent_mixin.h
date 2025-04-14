@@ -6,7 +6,7 @@ void __cdecl BaseTalentMixin::~BaseTalentMixin(BaseTalentMixin *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseTalentMixin + 2);
+  v2 = (int (**)(...))(&`vtable for BaseTalentMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -24,7 +24,7 @@ void __cdecl BaseTalentMixin::BaseTalentMixin(
   Avatar *target; // rdx
 
   std::enable_shared_from_this<BaseTalentMixin>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseTalentMixin>);
-  v3 = (int (**)(...))(&`vtable for'BaseTalentMixin + 2);
+  v3 = (int (**)(...))(&`vtable for BaseTalentMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, param);
   this->_vptr_BaseTalentMixin = v3;
@@ -57,7 +57,7 @@ void __cdecl TalentAddAbilityMixin::~TalentAddAbilityMixin(TalentAddAbilityMixin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentAddAbilityMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentAddAbilityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -81,7 +81,7 @@ void __cdecl TalentModifyAbilityMixin::~TalentModifyAbilityMixin(TalentModifyAbi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentModifyAbilityMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentModifyAbilityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -139,7 +139,7 @@ void __cdecl TalentModifySkillCDMixin::~TalentModifySkillCDMixin(TalentModifySki
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentModifySkillCDMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentModifySkillCDMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -155,7 +155,7 @@ void __cdecl ZN24TalentModifySkillCDMixinCI215BaseTalentMixinERK11TalentParamRN4
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentModifySkillCDMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentModifySkillCDMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;
@@ -167,7 +167,7 @@ void __cdecl TalentModifySkillCostMixin::~TalentModifySkillCostMixin(TalentModif
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentModifySkillCostMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentModifySkillCostMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -183,7 +183,7 @@ void __cdecl ZN26TalentModifySkillCostMixinCI215BaseTalentMixinERK11TalentParamR
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentModifySkillCostMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentModifySkillCostMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;
@@ -195,7 +195,7 @@ void __cdecl TalentModifySkillPointMixin::~TalentModifySkillPointMixin(TalentMod
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentModifySkillPointMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentModifySkillPointMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -211,7 +211,7 @@ void __cdecl ZN27TalentModifySkillPointMixinCI215BaseTalentMixinERK11TalentParam
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentModifySkillPointMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentModifySkillPointMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;
@@ -224,7 +224,7 @@ void __cdecl TalentUnlockControllerConditionsMixin::~TalentUnlockControllerCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentUnlockControllerConditionsMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentUnlockControllerConditionsMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -240,7 +240,7 @@ void __cdecl ZN37TalentUnlockControllerConditionsMixinCI215BaseTalentMixinERK11T
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentUnlockControllerConditionsMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentUnlockControllerConditionsMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;
@@ -252,7 +252,7 @@ void __cdecl TalentUnlockTalentParamMixin::~TalentUnlockTalentParamMixin(TalentU
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentUnlockTalentParamMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentUnlockTalentParamMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -268,7 +268,7 @@ void __cdecl ZN28TalentUnlockTalentParamMixinCI215BaseTalentMixinERK11TalentPara
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentUnlockTalentParamMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentUnlockTalentParamMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;
@@ -280,7 +280,7 @@ void __cdecl TalentAddExtraLevelMixin::~TalentAddExtraLevelMixin(TalentAddExtraL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentAddExtraLevelMixin + 2);
+  v2 = (int (**)(...))(&`vtable for TalentAddExtraLevelMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentMixin = v2;
@@ -296,7 +296,7 @@ void __cdecl ZN24TalentAddExtraLevelMixinCI215BaseTalentMixinERK11TalentParamRN4
   int (**v3)(...); // rdx
 
   BaseTalentMixin::BaseTalentMixin(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'TalentAddExtraLevelMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentAddExtraLevelMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentMixin = v3;

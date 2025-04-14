@@ -11,7 +11,7 @@ void __cdecl TalentAddAbilityMixin::TalentAddAbilityMixin(
   char v5; // al
 
   BaseTalentMixin::BaseTalentMixin(this, param, config_add_ability);
-  v3 = (int (**)(...))(&`vtable for'TalentAddAbilityMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentAddAbilityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, param);
   this->_vptr_BaseTalentMixin = v3;
@@ -91,7 +91,7 @@ void __cdecl TalentModifyAbilityMixin::TalentModifyAbilityMixin(
   bool v22; // dl
 
   BaseTalentMixin::BaseTalentMixin(this, param, config_modify_ability);
-  v3 = (int (**)(...))(&`vtable for'TalentModifyAbilityMixin + 2);
+  v3 = (int (**)(...))(&`vtable for TalentModifyAbilityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, param);
   this->_vptr_BaseTalentMixin = v3;
@@ -266,7 +266,7 @@ float __cdecl TalentModifyAbilityMixin::evaluateParam(
   {
     std::any::any((std::any *const)(v4 + 64), &dynamic_argument->value);
     v10 = std::any::type((const std::any *const)(v4 + 64));
-    if ( std::type_info::operator==(v10, (const std::type_info *)&`typeinfo for'float) )
+    if ( std::type_info::operator==(v10, (const std::type_info *)&`typeinfo for float) )
     {
       *(float *)v3.m128i_i32 = safeAnyCast<float>((const std::any *)(v4 + 64));
       v9 = COERCE_FLOAT(_mm_cvtsi128_si32(v3));
@@ -274,7 +274,7 @@ float __cdecl TalentModifyAbilityMixin::evaluateParam(
     else
     {
       v11 = std::any::type((const std::any *const)(v4 + 64));
-      if ( std::type_info::operator==(v11, (const std::type_info *)&`typeinfo for'std::string) )
+      if ( std::type_info::operator==(v11, (const std::type_info *)&`typeinfo for std::string) )
       {
         safeAnyCast<std::string>((std::string *)(v4 + 96), (const std::any *)(v4 + 64));
         if ( (unsigned __int8)std::string::empty(v4 + 96) )
@@ -456,7 +456,7 @@ LABEL_23:
       else
       {
         v40 = std::any::type((const std::any *const)(v4 + 64));
-        if ( std::type_info::operator!=(v40, (const std::type_info *)&`typeinfo for'void) )
+        if ( std::type_info::operator!=(v40, (const std::type_info *)&`typeinfo for void) )
         {
           common::milog::MiLogStream::create(
             &v51,

@@ -255,7 +255,7 @@ void __cdecl BaseHomePlayRankInfo::BaseHomePlayRankInfo(BaseHomePlayRankInfo *co
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BaseHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -266,7 +266,7 @@ void __cdecl BaseHomePlaySettleInfo::BaseHomePlaySettleInfo(BaseHomePlaySettleIn
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BaseHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -277,7 +277,7 @@ void __cdecl BaseHomePlaySettleInfo::~BaseHomePlaySettleInfo(BaseHomePlaySettleI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BaseHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -302,7 +302,7 @@ void __cdecl BaseHomePlayRankInfo::~BaseHomePlayRankInfo(BaseHomePlayRankInfo *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BaseHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -314,7 +314,7 @@ void __cdecl BaseHomeGroupRecord::BaseHomeGroupRecord(BaseHomeGroupRecord *const
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<BaseHomeGroupRecord>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseHomeGroupRecord>);
-  v2 = (int (**)(...))(&`vtable for'BaseHomeGroupRecord + 2);
+  v2 = (int (**)(...))(&`vtable for BaseHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v2;
@@ -338,7 +338,7 @@ void __cdecl BaseHomeGroupRecord::~BaseHomeGroupRecord(BaseHomeGroupRecord *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseHomeGroupRecord + 2);
+  v1 = (int (**)(...))(&`vtable for BaseHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v1;

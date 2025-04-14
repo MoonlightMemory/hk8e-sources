@@ -12,7 +12,7 @@ void __cdecl BaseAbilityMixin::BaseAbilityMixin(
   std::shared_ptr<Creature> __r; // [rsp+20h] [rbp-20h] BYREF
 
   std::enable_shared_from_this<BaseAbilityMixin>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseAbilityMixin>);
-  v3 = (int (**)(...))(&`vtable for'BaseAbilityMixin + 2);
+  v3 = (int (**)(...))(&`vtable for BaseAbilityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -414,7 +414,7 @@ data::AbilityFilterIndex __cdecl BaseAbilityMixin::getAbilityFilterIndex(const B
   v3[536862720] = -235802127;
   v3[536862721] = -219021312;
   v3[536862722] = -202178560;
-  v4 = (int (**)(...))(&`vtable for'data::AbilityFilterIndex + 2);
+  v4 = (int (**)(...))(&`vtable for data::AbilityFilterIndex + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v4;

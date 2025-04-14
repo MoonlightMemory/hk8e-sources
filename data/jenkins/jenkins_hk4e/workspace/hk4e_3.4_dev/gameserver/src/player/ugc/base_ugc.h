@@ -7,7 +7,7 @@ void __cdecl BaseUgc::BaseUgc(BaseUgc *const this, Player *player, uint32_t ugc_
 
   std::enable_shared_from_this<BaseUgc>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseUgc>);
   common::milog::DescribalBase::DescribalBase(this);
-  v3 = (int (**)(...))(&`vtable for'BaseUgc + 2);
+  v3 = (int (**)(...))(&`vtable for BaseUgc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_DescribalBase = v3;
@@ -28,7 +28,7 @@ void __cdecl BaseUgc::~BaseUgc(BaseUgc *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseUgc + 2);
+  v2 = (int (**)(...))(&`vtable for BaseUgc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;

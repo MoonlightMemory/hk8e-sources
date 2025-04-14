@@ -6,7 +6,7 @@ void __cdecl BounceConjuringMultistagePlay::~BounceConjuringMultistagePlay(Bounc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BounceConjuringMultistagePlay + 2);
+  v2 = (int (**)(...))(&`vtable for BounceConjuringMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -30,7 +30,7 @@ void __cdecl BounceConjuringMultistagePlay::BounceConjuringMultistagePlay(
   int (**v4)(...); // rdx
 
   SceneMultistagePlay::SceneMultistagePlay(this, scene, group, play_index);
-  v4 = (int (**)(...))(&`vtable for'BounceConjuringMultistagePlay + 2);
+  v4 = (int (**)(...))(&`vtable for BounceConjuringMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_DescribalBase = v4;

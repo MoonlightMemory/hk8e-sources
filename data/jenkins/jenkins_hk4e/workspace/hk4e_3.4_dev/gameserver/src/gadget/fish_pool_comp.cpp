@@ -187,7 +187,7 @@ void __cdecl FishPoolComp::FishPoolComp(FishPoolComp *const this, Gadget *gadget
   int (**v2)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, gadget);
-  v2 = (int (**)(...))(&`vtable for'FishPoolComp + 2);
+  v2 = (int (**)(...))(&`vtable for FishPoolComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;

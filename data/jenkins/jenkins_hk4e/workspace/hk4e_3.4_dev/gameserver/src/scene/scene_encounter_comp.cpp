@@ -34,7 +34,7 @@ void __cdecl SceneEncounterComp::SceneEncounterComp(SceneEncounterComp *const th
   v4[536862721] = -234556924;
   v4[536862722] = -202178560;
   SceneCompBase::SceneCompBase(this, scene);
-  v5 = (int (**)(...))(&`vtable for'SceneEncounterComp + 2);
+  v5 = (int (**)(...))(&`vtable for SceneEncounterComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneCompBase = v5;
@@ -195,8 +195,8 @@ int32_t __cdecl SceneEncounterComp::toBin(const SceneEncounterComp *const this, 
     if ( v7 )
       v8 = (const SceneEncounterRandQuest *)__dynamic_cast(
                                               v7,
-                                              (const struct __class_type_info *)&`typeinfo for'SceneEncounterBase,
-                                              (const struct __class_type_info *)&`typeinfo for'SceneEncounterRandQuest,
+                                              (const struct __class_type_info *)&`typeinfo for SceneEncounterBase,
+                                              (const struct __class_type_info *)&`typeinfo for SceneEncounterRandQuest,
                                               0LL);
     else
       v8 = 0LL;
@@ -301,8 +301,8 @@ int32_t __cdecl SceneEncounterComp::start(SceneEncounterComp *const this)
       if ( v7 )
         v8 = (SceneEncounterRandQuest *)__dynamic_cast(
                                           v7,
-                                          (const struct __class_type_info *)&`typeinfo for'SceneEncounterBase,
-                                          (const struct __class_type_info *)&`typeinfo for'SceneEncounterRandQuest,
+                                          (const struct __class_type_info *)&`typeinfo for SceneEncounterBase,
+                                          (const struct __class_type_info *)&`typeinfo for SceneEncounterRandQuest,
                                           0LL);
       else
         v8 = 0LL;
@@ -499,8 +499,8 @@ LABEL_10:
               if ( v16 )
                 v17 = (SceneEncounterRandTask *)__dynamic_cast(
                                                   v16,
-                                                  (const struct __class_type_info *)&`typeinfo for'SceneEncounterBase,
-                                                  (const struct __class_type_info *)&`typeinfo for'SceneEncounterRandTask,
+                                                  (const struct __class_type_info *)&`typeinfo for SceneEncounterBase,
+                                                  (const struct __class_type_info *)&`typeinfo for SceneEncounterRandTask,
                                                   0LL);
               else
                 v17 = 0LL;
@@ -1324,8 +1324,8 @@ SceneEncounterRandTask *__cdecl SceneEncounterComp::findSceneEncounterRandTask(S
   if ( v5 )
     result = (SceneEncounterRandTask *)__dynamic_cast(
                                          v5,
-                                         (const struct __class_type_info *)&`typeinfo for'SceneEncounterBase,
-                                         (const struct __class_type_info *)&`typeinfo for'SceneEncounterRandTask,
+                                         (const struct __class_type_info *)&`typeinfo for SceneEncounterBase,
+                                         (const struct __class_type_info *)&`typeinfo for SceneEncounterRandTask,
                                          0LL);
   else
     result = 0LL;
@@ -1373,8 +1373,8 @@ SceneEncounterRandQuest *__cdecl SceneEncounterComp::findSceneEncounterRandQuest
   if ( v5 )
     result = (SceneEncounterRandQuest *)__dynamic_cast(
                                           v5,
-                                          (const struct __class_type_info *)&`typeinfo for'SceneEncounterBase,
-                                          (const struct __class_type_info *)&`typeinfo for'SceneEncounterRandQuest,
+                                          (const struct __class_type_info *)&`typeinfo for SceneEncounterBase,
+                                          (const struct __class_type_info *)&`typeinfo for SceneEncounterRandQuest,
                                           0LL);
   else
     result = 0LL;

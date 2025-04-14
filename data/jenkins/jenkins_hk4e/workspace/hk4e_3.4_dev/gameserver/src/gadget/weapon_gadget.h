@@ -5,7 +5,7 @@ void __cdecl WeaponGadget::~WeaponGadget(WeaponGadget *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'WeaponGadget + 2;
+  v1 = &`vtable for WeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -43,7 +43,7 @@ void __fastcall ZN12WeaponGadgetCI26GadgetEj(WeaponGadget *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   Gadget::Gadget(this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'WeaponGadget + 2;
+  v5 = &`vtable for WeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;
@@ -82,7 +82,7 @@ void __fastcall ZN18AvatarWeaponGadgetCI26GadgetEj(AvatarWeaponGadget *const thi
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN12WeaponGadgetCI26GadgetEj(this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'AvatarWeaponGadget + 2;
+  v5 = &`vtable for AvatarWeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;
@@ -122,7 +122,7 @@ void __cdecl AvatarWeaponGadget::~AvatarWeaponGadget(AvatarWeaponGadget *const t
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'AvatarWeaponGadget + 2;
+  v1 = &`vtable for AvatarWeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -148,7 +148,7 @@ void __cdecl MonsterWeaponGadget::~MonsterWeaponGadget(MonsterWeaponGadget *cons
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'MonsterWeaponGadget + 2;
+  v1 = &`vtable for MonsterWeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -180,7 +180,7 @@ void __fastcall ZN19MonsterWeaponGadgetCI26GadgetEj(MonsterWeaponGadget *const t
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN12WeaponGadgetCI26GadgetEj(this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'MonsterWeaponGadget + 2;
+  v5 = &`vtable for MonsterWeaponGadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;

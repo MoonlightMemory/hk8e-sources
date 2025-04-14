@@ -3564,20 +3564,20 @@ LABEL_18:
         v11 = 0;
       if ( v11 )
       {
-        if ( !(_BYTE)`guard variable for'Gadget::initAbility(bool)::type_set
-          && __cxa_guard_acquire(&`guard variable for'Gadget::initAbility(bool)::type_set) )
+        if ( !(_BYTE)`guard variable for Gadget::initAbility(bool)::type_set
+          && __cxa_guard_acquire(&`guard variable for Gadget::initAbility(bool)::type_set) )
         {
-          v27.log_ = (common::milog::MiLog *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for'data::ConfigSimpleMove);
-          v27.ostr_ptr_._M_ptr = (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for'data::ConfigRigidbodyMove);
-          v27.ostr_ptr_._M_refcount._M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for'data::ConfigAnimatorMove);
-          v27.ostr_ = (common::milog::MilogStringStream *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for'data::ConfigMixinDriveMove);
+          v27.log_ = (common::milog::MiLog *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for data::ConfigSimpleMove);
+          v27.ostr_ptr_._M_ptr = (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for data::ConfigRigidbodyMove);
+          v27.ostr_ptr_._M_refcount._M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for data::ConfigAnimatorMove);
+          v27.ostr_ = (common::milog::MilogStringStream *)std::type_info::hash_code((const std::type_info *const)&`typeinfo for data::ConfigMixinDriveMove);
           std::allocator<unsigned long>::allocator(&__a);
           std::set<unsigned long>::set(
             &Gadget::initAbility(bool)::type_set,
             (std::initializer_list<long unsigned int>)__PAIR128__(4LL, &v27),
             &__comp,
             &__a);
-          __cxa_guard_release(&`guard variable for'Gadget::initAbility(bool)::type_set);
+          __cxa_guard_release(&`guard variable for Gadget::initAbility(bool)::type_set);
           __cxa_atexit(
             (void (__fastcall *)(void *))std::set<unsigned long>::~set,
             &Gadget::initAbility(bool)::type_set,

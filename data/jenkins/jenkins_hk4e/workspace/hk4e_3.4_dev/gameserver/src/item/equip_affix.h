@@ -5,7 +5,7 @@ void __cdecl EquipAffix::~EquipAffix(EquipAffix *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EquipAffix + 2);
+  v1 = (int (**)(...))(&`vtable for EquipAffix + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseTalent = v1;
@@ -18,7 +18,7 @@ void __cdecl EquipAffix::EquipAffix(EquipAffix *const this, Avatar *avatar, uint
   int (**v4)(...); // rdx
 
   BaseTalent::BaseTalent(this, avatar, level + 10 * affix_id);
-  v4 = (int (**)(...))(&`vtable for'EquipAffix + 2);
+  v4 = (int (**)(...))(&`vtable for EquipAffix + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseTalent = v4;

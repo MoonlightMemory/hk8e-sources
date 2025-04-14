@@ -71,7 +71,7 @@ void __cdecl FightPropValue::FightPropValue(FightPropValue *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FightPropValue + 2);
+  v1 = (int (**)(...))(&`vtable for FightPropValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FightPropValue = v1;
@@ -96,7 +96,7 @@ void __cdecl FightPropValue::FightPropValue(FightPropValue *const this, const Fi
   float base_value; // xmm0_4
   float ability_value; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'FightPropValue + 2);
+  v2 = (int (**)(...))(&`vtable for FightPropValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FightPropValue = v2;
@@ -178,7 +178,7 @@ void __cdecl AbilityClampFightPropValue::AbilityClampFightPropValue(
   int (**v2)(...); // rdx
 
   FightPropValue::FightPropValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AbilityClampFightPropValue + 2);
+  v2 = (int (**)(...))(&`vtable for AbilityClampFightPropValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FightPropValue = v2;
@@ -190,7 +190,7 @@ void __cdecl AbilityClampFightPropValue::~AbilityClampFightPropValue(AbilityClam
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityClampFightPropValue + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityClampFightPropValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FightPropValue = v1;
@@ -205,7 +205,7 @@ void __cdecl AbilityClampFightPropValue::AbilityClampFightPropValue(
   int (**v2)(...); // rdx
 
   FightPropValue::FightPropValue(this);
-  v2 = (int (**)(...))(&`vtable for'AbilityClampFightPropValue + 2);
+  v2 = (int (**)(...))(&`vtable for AbilityClampFightPropValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FightPropValue = v2;
@@ -230,7 +230,7 @@ void __cdecl FightPropComp::~FightPropComp(FightPropComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FightPropComp + 2);
+  v1 = (int (**)(...))(&`vtable for FightPropComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CreatureCompBase = v1;
@@ -250,7 +250,7 @@ void __cdecl ZN13FightPropCompCI216CreatureCompBaseER8Creature(FightPropComp *co
   int (**v2)(...); // rdx
 
   CreatureCompBase::CreatureCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'FightPropComp + 2);
+  v2 = (int (**)(...))(&`vtable for FightPropComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CreatureCompBase = v2;

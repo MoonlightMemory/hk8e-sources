@@ -717,7 +717,7 @@ void __cdecl RoutePoint::RoutePoint(RoutePoint *const this)
   __int64 v11; // rsi
   bool v12; // dl
 
-  v2 = (int (**)(...))(&`vtable for'RoutePoint + 2);
+  v2 = (int (**)(...))(&`vtable for RoutePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutePoint = v2;
@@ -804,7 +804,7 @@ void __cdecl RoutePoint::~RoutePoint(RoutePoint *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RoutePoint + 2);
+  v2 = (int (**)(...))(&`vtable for RoutePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutePoint = v2;
@@ -919,7 +919,7 @@ void __cdecl ArrayRoutePoint::~ArrayRoutePoint(ArrayRoutePoint *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ArrayRoutePoint + 2);
+  v2 = (int (**)(...))(&`vtable for ArrayRoutePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutePoint = v2;
@@ -942,7 +942,7 @@ void __cdecl ArrayRoutePoint::ArrayRoutePoint(ArrayRoutePoint *const this)
   bool v4; // dl
 
   RoutePoint::RoutePoint((RoutePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'ArrayRoutePoint + 2);
+  v2 = (int (**)(...))(&`vtable for ArrayRoutePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutePoint = v2;

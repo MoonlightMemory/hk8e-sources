@@ -10,7 +10,7 @@ void __cdecl CoinCollectOperatorComp::CoinCollectOperatorComp(
   uint32_t level_id; // ecx
 
   GadgetCompBase::GadgetCompBase(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'CoinCollectOperatorComp + 2);
+  v3 = (int (**)(...))(&`vtable for CoinCollectOperatorComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

@@ -5,7 +5,7 @@ void __cdecl ShopHandler::~ShopHandler(ShopHandler *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ShopHandler + 2);
+  v1 = (int (**)(...))(&`vtable for ShopHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerHandlerBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ZN11ShopHandlerCI217PlayerHandlerBaseER6Player(ShopHandler *const t
   int (**v2)(...); // rdx
 
   PlayerHandlerBase::PlayerHandlerBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ShopHandler + 2);
+  v2 = (int (**)(...))(&`vtable for ShopHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerHandlerBase = v2;

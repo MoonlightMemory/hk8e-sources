@@ -480,11 +480,11 @@ GridMgrUtr *__cdecl SceneGridComp::getGridMgr(SceneGridComp *const this, data::V
   val = (char *)data::enumValToStr(range_type);
   common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v2, (const char *const *)&val);
   common::milog::MiLogStream::~MiLogStream(&v5);
-  if ( !(_BYTE)`guard variable for'SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr )
+  if ( !(_BYTE)`guard variable for SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr )
   {
-    if ( __cxa_guard_acquire(&`guard variable for'SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr) )
+    if ( __cxa_guard_acquire(&`guard variable for SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr) )
     {
-      __cxa_guard_release(&`guard variable for'SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr);
+      __cxa_guard_release(&`guard variable for SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unique_ptr<GridMgr>::~unique_ptr,
         &SceneGridComp::getGridMgr(data::VisionLevelType)::dummy_grid_mgr_utr,

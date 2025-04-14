@@ -197,7 +197,7 @@ void __cdecl Item::Item(Item *const this, uint32_t item_type, uint32_t item_id)
   __int64 v5; // rdx
 
   std::enable_shared_from_this<Item>::enable_shared_from_this(&this->std::enable_shared_from_this<Item>);
-  v3 = (int (**)(...))(&`vtable for'Item + 2);
+  v3 = (int (**)(...))(&`vtable for Item + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&item_type);
   this->_vptr_Item = v3;
@@ -231,7 +231,7 @@ void __cdecl Item::~Item(Item *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Item + 2);
+  v2 = (int (**)(...))(&`vtable for Item + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Item = v2;

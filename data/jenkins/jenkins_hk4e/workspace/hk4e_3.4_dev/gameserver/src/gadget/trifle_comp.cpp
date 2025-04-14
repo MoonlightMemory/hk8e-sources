@@ -9,7 +9,7 @@ void __cdecl TrifleComp::TrifleComp(TrifleComp *const this, Gadget *gadget, cons
   bool is_fake; // cl
 
   ZN22GadgetBaseInteractCompCI214GadgetCompBaseER6Gadget(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'TrifleComp + 2);
+  v3 = (int (**)(...))(&`vtable for TrifleComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

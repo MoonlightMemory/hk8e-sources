@@ -216,7 +216,7 @@ void __fastcall ZN13WidgetFishingCI210WidgetBaseER16PlayerWidgetCompR6Playerj(
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a4;
   ZN16WidgetBackgroundCI210WidgetBaseER16PlayerWidgetCompR6Playerj(this, a2, a3, *(_DWORD *)(v4 + 32));
-  v7 = (int (**)(...))(&`vtable for'WidgetFishing + 2);
+  v7 = (int (**)(...))(&`vtable for WidgetFishing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetBase = v7;
@@ -237,7 +237,7 @@ void __cdecl WidgetFishing::~WidgetFishing(WidgetFishing *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WidgetFishing + 2);
+  v2 = (int (**)(...))(&`vtable for WidgetFishing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetBase = v2;

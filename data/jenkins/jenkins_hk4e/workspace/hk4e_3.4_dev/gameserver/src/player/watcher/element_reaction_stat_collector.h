@@ -7,7 +7,7 @@ void __cdecl ElementReactionStat::ElementReactionStat(ElementReactionStat *const
   int (**v2)(...); // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v2 = (int (**)(...))(&`vtable for'ElementReactionStat + 2);
+  v2 = (int (**)(...))(&`vtable for ElementReactionStat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -22,7 +22,7 @@ void __cdecl ElementReactionStat::~ElementReactionStat(ElementReactionStat *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ElementReactionStat + 2);
+  v2 = (int (**)(...))(&`vtable for ElementReactionStat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -74,7 +74,7 @@ void __cdecl ElementReactionStatUpdateEvent::~ElementReactionStatUpdateEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ElementReactionStatUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ElementReactionStatUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;

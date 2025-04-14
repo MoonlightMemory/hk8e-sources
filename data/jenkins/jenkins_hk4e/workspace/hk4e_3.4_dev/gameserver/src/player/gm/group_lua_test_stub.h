@@ -5,7 +5,7 @@ void __cdecl GroupLuaTestStub::GroupLuaTestStub(GroupLuaTestStub *const this, Pl
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GroupLuaTestStub + 2);
+  v2 = (int (**)(...))(&`vtable for GroupLuaTestStub + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_GroupLuaTestStub = v2;
@@ -21,7 +21,7 @@ void __cdecl GroupLuaTestStub::~GroupLuaTestStub(GroupLuaTestStub *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GroupLuaTestStub + 2);
+  v2 = (int (**)(...))(&`vtable for GroupLuaTestStub + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GroupLuaTestStub = v2;

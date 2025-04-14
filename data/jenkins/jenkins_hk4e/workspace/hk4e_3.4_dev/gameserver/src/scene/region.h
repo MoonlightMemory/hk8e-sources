@@ -6,7 +6,7 @@ void __cdecl Region::~Region(Region *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Region + 2);
+  v2 = (int (**)(...))(&`vtable for Region + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -32,7 +32,7 @@ void __cdecl Region::Region(Region *const this)
   __int64 v4; // rdx
 
   Entity::Entity(this);
-  v2 = (int (**)(...))(&`vtable for'Region + 2);
+  v2 = (int (**)(...))(&`vtable for Region + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -267,7 +267,7 @@ void __cdecl SphereRegion::SphereRegion(SphereRegion *const this)
   int (**v2)(...); // rdx
 
   Region::Region(this);
-  v2 = (int (**)(...))(&`vtable for'SphereRegion + 2);
+  v2 = (int (**)(...))(&`vtable for SphereRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -285,7 +285,7 @@ void __cdecl SphereRegion::~SphereRegion(SphereRegion *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SphereRegion + 2);
+  v2 = (int (**)(...))(&`vtable for SphereRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -336,7 +336,7 @@ void __cdecl CubicRegion::CubicRegion(CubicRegion *const this)
   int (**v2)(...); // rdx
 
   Region::Region(this);
-  v2 = (int (**)(...))(&`vtable for'CubicRegion + 2);
+  v2 = (int (**)(...))(&`vtable for CubicRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -349,7 +349,7 @@ void __cdecl CubicRegion::~CubicRegion(CubicRegion *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CubicRegion + 2);
+  v2 = (int (**)(...))(&`vtable for CubicRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -402,7 +402,7 @@ void __cdecl CylinderRegion::CylinderRegion(CylinderRegion *const this)
   bool v3; // dl
 
   Region::Region(this);
-  v2 = (int (**)(...))(&`vtable for'CylinderRegion + 2);
+  v2 = (int (**)(...))(&`vtable for CylinderRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -432,7 +432,7 @@ void __cdecl CylinderRegion::~CylinderRegion(CylinderRegion *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CylinderRegion + 2);
+  v2 = (int (**)(...))(&`vtable for CylinderRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -499,7 +499,7 @@ void __cdecl PolygonRegion::PolygonRegion(PolygonRegion *const this)
   int (**v2)(...); // rdx
 
   Region::Region(this);
-  v2 = (int (**)(...))(&`vtable for'PolygonRegion + 2);
+  v2 = (int (**)(...))(&`vtable for PolygonRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -513,7 +513,7 @@ void __cdecl PolygonRegion::~PolygonRegion(PolygonRegion *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PolygonRegion + 2);
+  v2 = (int (**)(...))(&`vtable for PolygonRegion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;

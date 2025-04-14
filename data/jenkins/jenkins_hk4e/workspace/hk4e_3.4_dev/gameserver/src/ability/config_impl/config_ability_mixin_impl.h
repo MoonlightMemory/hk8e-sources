@@ -6,7 +6,7 @@ void __cdecl DebugMixinImpl::DebugMixinImpl(DebugMixinImpl *const this, const De
   int (**v2)(...); // rdx
 
   data::DebugMixin::DebugMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DebugMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DebugMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -24,7 +24,7 @@ void __cdecl DebugMixinImpl::~DebugMixinImpl(DebugMixinImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DebugMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DebugMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -39,7 +39,7 @@ void __cdecl AvatarSteerByCameraMixinImpl::AvatarSteerByCameraMixinImpl(
   int (**v2)(...); // rdx
 
   data::AvatarSteerByCameraMixin::AvatarSteerByCameraMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AvatarSteerByCameraMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarSteerByCameraMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -50,7 +50,7 @@ void __cdecl AvatarSteerByCameraMixinImpl::~AvatarSteerByCameraMixinImpl(AvatarS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarSteerByCameraMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSteerByCameraMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -91,7 +91,7 @@ void __cdecl CostStaminaMixinImpl::CostStaminaMixinImpl(
   int (**v2)(...); // rdx
 
   data::CostStaminaMixin::CostStaminaMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CostStaminaMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for CostStaminaMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -102,7 +102,7 @@ void __cdecl CostStaminaMixinImpl::~CostStaminaMixinImpl(CostStaminaMixinImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CostStaminaMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CostStaminaMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -138,7 +138,7 @@ void __cdecl ReviveElemEnergyMixinImpl::ReviveElemEnergyMixinImpl(ReviveElemEner
   int (**v1)(...); // rdx
 
   data::ReviveElemEnergyMixin::ReviveElemEnergyMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ReviveElemEnergyMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveElemEnergyMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -152,7 +152,7 @@ void __cdecl ReviveElemEnergyMixinImpl::ReviveElemEnergyMixinImpl(
   int (**v2)(...); // rdx
 
   data::ReviveElemEnergyMixin::ReviveElemEnergyMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ReviveElemEnergyMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ReviveElemEnergyMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -170,7 +170,7 @@ void __cdecl ReviveElemEnergyMixinImpl::~ReviveElemEnergyMixinImpl(ReviveElemEne
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReviveElemEnergyMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveElemEnergyMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -202,7 +202,7 @@ void __cdecl ElementShieldMixinImpl::ElementShieldMixinImpl(ElementShieldMixinIm
   int (**v1)(...); // rdx
 
   data::ElementShieldMixin::ElementShieldMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ElementShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ElementShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -216,7 +216,7 @@ void __cdecl ElementShieldMixinImpl::ElementShieldMixinImpl(
   int (**v2)(...); // rdx
 
   data::ElementShieldMixin::ElementShieldMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ElementShieldMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ElementShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -227,7 +227,7 @@ void __cdecl ElementShieldMixinImpl::~ElementShieldMixinImpl(ElementShieldMixinI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ElementShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ElementShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -263,7 +263,7 @@ void __cdecl EliteShieldMixinImpl::EliteShieldMixinImpl(EliteShieldMixinImpl *co
   int (**v1)(...); // rdx
 
   data::EliteShieldMixin::EliteShieldMixin(this);
-  v1 = (int (**)(...))(&`vtable for'EliteShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EliteShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -277,7 +277,7 @@ void __cdecl EliteShieldMixinImpl::EliteShieldMixinImpl(
   int (**v2)(...); // rdx
 
   data::EliteShieldMixin::EliteShieldMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EliteShieldMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for EliteShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -295,7 +295,7 @@ void __cdecl EliteShieldMixinImpl::~EliteShieldMixinImpl(EliteShieldMixinImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EliteShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EliteShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -326,7 +326,7 @@ void __cdecl GlobalMainShieldMixinImpl::GlobalMainShieldMixinImpl(
   int (**v2)(...); // rdx
 
   data::GlobalMainShieldMixin::GlobalMainShieldMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GlobalMainShieldMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for GlobalMainShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -344,7 +344,7 @@ void __cdecl GlobalMainShieldMixinImpl::~GlobalMainShieldMixinImpl(GlobalMainShi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GlobalMainShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GlobalMainShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -376,7 +376,7 @@ void __cdecl GlobalSubShieldMixinImpl::GlobalSubShieldMixinImpl(GlobalSubShieldM
   int (**v1)(...); // rdx
 
   data::GlobalSubShieldMixin::GlobalSubShieldMixin(this);
-  v1 = (int (**)(...))(&`vtable for'GlobalSubShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GlobalSubShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -390,7 +390,7 @@ void __cdecl GlobalSubShieldMixinImpl::GlobalSubShieldMixinImpl(
   int (**v2)(...); // rdx
 
   data::GlobalSubShieldMixin::GlobalSubShieldMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GlobalSubShieldMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for GlobalSubShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -401,7 +401,7 @@ void __cdecl GlobalSubShieldMixinImpl::~GlobalSubShieldMixinImpl(GlobalSubShield
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GlobalSubShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GlobalSubShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -439,7 +439,7 @@ void __cdecl ShieldBarMixinImpl::ShieldBarMixinImpl(ShieldBarMixinImpl *const th
   int (**v2)(...); // rdx
 
   data::ShieldBarMixin::ShieldBarMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ShieldBarMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ShieldBarMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -450,7 +450,7 @@ void __cdecl ShieldBarMixinImpl::~ShieldBarMixinImpl(ShieldBarMixinImpl *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ShieldBarMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ShieldBarMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -486,7 +486,7 @@ void __cdecl EntityDefenceMixinImpl::EntityDefenceMixinImpl(EntityDefenceMixinIm
   int (**v1)(...); // rdx
 
   data::EntityDefenceMixin::EntityDefenceMixin(this);
-  v1 = (int (**)(...))(&`vtable for'EntityDefenceMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EntityDefenceMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -500,7 +500,7 @@ void __cdecl EntityDefenceMixinImpl::EntityDefenceMixinImpl(
   int (**v2)(...); // rdx
 
   data::EntityDefenceMixin::EntityDefenceMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EntityDefenceMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for EntityDefenceMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -518,7 +518,7 @@ void __cdecl EntityDefenceMixinImpl::~EntityDefenceMixinImpl(EntityDefenceMixinI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EntityDefenceMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EntityDefenceMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -549,7 +549,7 @@ void __cdecl MonsterDefendMixinImpl::MonsterDefendMixinImpl(
   int (**v2)(...); // rdx
 
   data::MonsterDefendMixin::MonsterDefendMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'MonsterDefendMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for MonsterDefendMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -567,7 +567,7 @@ void __cdecl MonsterDefendMixinImpl::~MonsterDefendMixinImpl(MonsterDefendMixinI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MonsterDefendMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for MonsterDefendMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -598,7 +598,7 @@ void __cdecl WindSeedSpawnerMixinImpl::WindSeedSpawnerMixinImpl(
   int (**v2)(...); // rdx
 
   data::WindSeedSpawnerMixin::WindSeedSpawnerMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'WindSeedSpawnerMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for WindSeedSpawnerMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -616,7 +616,7 @@ void __cdecl WindSeedSpawnerMixinImpl::~WindSeedSpawnerMixinImpl(WindSeedSpawner
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'WindSeedSpawnerMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for WindSeedSpawnerMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -629,7 +629,7 @@ void __cdecl DebugMixinImpl::DebugMixinImpl(DebugMixinImpl *const this)
   int (**v1)(...); // rdx
 
   data::DebugMixin::DebugMixin(this);
-  v1 = (int (**)(...))(&`vtable for'DebugMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DebugMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -660,7 +660,7 @@ void __cdecl ServerCreateGadgetOnKillMixinImpl::ServerCreateGadgetOnKillMixinImp
   int (**v1)(...); // rdx
 
   data::ServerCreateGadgetOnKillMixin::ServerCreateGadgetOnKillMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ServerCreateGadgetOnKillMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerCreateGadgetOnKillMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -674,7 +674,7 @@ void __cdecl ServerCreateGadgetOnKillMixinImpl::ServerCreateGadgetOnKillMixinImp
   int (**v2)(...); // rdx
 
   data::ServerCreateGadgetOnKillMixin::ServerCreateGadgetOnKillMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ServerCreateGadgetOnKillMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ServerCreateGadgetOnKillMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -686,7 +686,7 @@ void __cdecl ServerCreateGadgetOnKillMixinImpl::~ServerCreateGadgetOnKillMixinIm
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ServerCreateGadgetOnKillMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerCreateGadgetOnKillMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -726,7 +726,7 @@ void __cdecl ModifyDamageMixinImpl::ModifyDamageMixinImpl(ModifyDamageMixinImpl 
   int (**v1)(...); // rdx
 
   data::ModifyDamageMixin::ModifyDamageMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ModifyDamageMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -740,7 +740,7 @@ void __cdecl ModifyDamageMixinImpl::ModifyDamageMixinImpl(
   int (**v2)(...); // rdx
 
   data::ModifyDamageMixin::ModifyDamageMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifyDamageMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifyDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -751,7 +751,7 @@ void __cdecl ModifyDamageMixinImpl::~ModifyDamageMixinImpl(ModifyDamageMixinImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifyDamageMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -789,7 +789,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::ElementHittingOtherPredicat
   int (**v2)(...); // rdx
 
   data::ElementHittingOtherPredicatedMixin::ElementHittingOtherPredicatedMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ElementHittingOtherPredicatedMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ElementHittingOtherPredicatedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -801,7 +801,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::~ElementHittingOtherPredica
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ElementHittingOtherPredicatedMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ElementHittingOtherPredicatedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -843,7 +843,7 @@ void __cdecl ResistClimateMixinImpl::ResistClimateMixinImpl(
   int (**v2)(...); // rdx
 
   data::ResistClimateMixin::ResistClimateMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ResistClimateMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ResistClimateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -854,7 +854,7 @@ void __cdecl ResistClimateMixinImpl::~ResistClimateMixinImpl(ResistClimateMixinI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ResistClimateMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResistClimateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -892,7 +892,7 @@ void __cdecl ModifySkillCDByModifierCountMixinImpl::ModifySkillCDByModifierCount
   int (**v2)(...); // rdx
 
   data::ModifySkillCDByModifierCountMixin::ModifySkillCDByModifierCountMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifySkillCDByModifierCountMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifySkillCDByModifierCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -912,7 +912,7 @@ void __cdecl ModifySkillCDByModifierCountMixinImpl::~ModifySkillCDByModifierCoun
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCDByModifierCountMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCDByModifierCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -946,7 +946,7 @@ void __cdecl ServerFinishWatcherMixinImpl::ServerFinishWatcherMixinImpl(
   int (**v2)(...); // rdx
 
   data::ServerFinishWatcherMixin::ServerFinishWatcherMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ServerFinishWatcherMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ServerFinishWatcherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -964,7 +964,7 @@ void __cdecl ServerFinishWatcherMixinImpl::~ServerFinishWatcherMixinImpl(ServerF
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ServerFinishWatcherMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerFinishWatcherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -996,7 +996,7 @@ void __cdecl MoveStateMixinImpl::MoveStateMixinImpl(MoveStateMixinImpl *const th
   int (**v2)(...); // rdx
 
   data::MoveStateMixin::MoveStateMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'MoveStateMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for MoveStateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1014,7 +1014,7 @@ void __cdecl MoveStateMixinImpl::~MoveStateMixinImpl(MoveStateMixinImpl *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MoveStateMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for MoveStateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1044,7 +1044,7 @@ void __cdecl FieldEntityCountChangeMixinImpl::FieldEntityCountChangeMixinImpl(
   int (**v1)(...); // rdx
 
   data::FieldEntityCountChangeMixin::FieldEntityCountChangeMixin(this);
-  v1 = (int (**)(...))(&`vtable for'FieldEntityCountChangeMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for FieldEntityCountChangeMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1058,7 +1058,7 @@ void __cdecl FieldEntityCountChangeMixinImpl::FieldEntityCountChangeMixinImpl(
   int (**v2)(...); // rdx
 
   data::FieldEntityCountChangeMixin::FieldEntityCountChangeMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'FieldEntityCountChangeMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for FieldEntityCountChangeMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1070,7 +1070,7 @@ void __cdecl FieldEntityCountChangeMixinImpl::~FieldEntityCountChangeMixinImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FieldEntityCountChangeMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for FieldEntityCountChangeMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1110,7 +1110,7 @@ void __cdecl ScenePropSyncMixinImpl::ScenePropSyncMixinImpl(ScenePropSyncMixinIm
   int (**v1)(...); // rdx
 
   data::ScenePropSyncMixin::ScenePropSyncMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ScenePropSyncMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ScenePropSyncMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1124,7 +1124,7 @@ void __cdecl ScenePropSyncMixinImpl::ScenePropSyncMixinImpl(
   int (**v2)(...); // rdx
 
   data::ScenePropSyncMixin::ScenePropSyncMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ScenePropSyncMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ScenePropSyncMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1142,7 +1142,7 @@ void __cdecl ScenePropSyncMixinImpl::~ScenePropSyncMixinImpl(ScenePropSyncMixinI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ScenePropSyncMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ScenePropSyncMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1173,7 +1173,7 @@ void __cdecl ClampDamageReceivedMixinImpl::ClampDamageReceivedMixinImpl(
   int (**v2)(...); // rdx
 
   data::ClampDamageReceivedMixin::ClampDamageReceivedMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ClampDamageReceivedMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ClampDamageReceivedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1191,7 +1191,7 @@ void __cdecl ClampDamageReceivedMixinImpl::~ClampDamageReceivedMixinImpl(ClampDa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ClampDamageReceivedMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ClampDamageReceivedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1225,7 +1225,7 @@ void __cdecl DoActionBySelfModifierElementDurabilityRatioMixinImpl::DoActionBySe
   int (**v2)(...); // rdx
 
   data::DoActionBySelfModifierElementDurabilityRatioMixin::DoActionBySelfModifierElementDurabilityRatioMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1245,7 +1245,7 @@ void __cdecl DoActionBySelfModifierElementDurabilityRatioMixinImpl::~DoActionByS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1279,7 +1279,7 @@ void __cdecl FireworksLauncherMixinImpl::FireworksLauncherMixinImpl(
   int (**v2)(...); // rdx
 
   data::FireworksLauncherMixin::FireworksLauncherMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'FireworksLauncherMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for FireworksLauncherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1297,7 +1297,7 @@ void __cdecl FireworksLauncherMixinImpl::~FireworksLauncherMixinImpl(FireworksLa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FireworksLauncherMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for FireworksLauncherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1331,7 +1331,7 @@ void __cdecl ModifyDamageCountMixinImpl::ModifyDamageCountMixinImpl(
   int (**v2)(...); // rdx
 
   data::ModifyDamageCountMixin::ModifyDamageCountMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifyDamageCountMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifyDamageCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1342,7 +1342,7 @@ void __cdecl ModifyDamageCountMixinImpl::~ModifyDamageCountMixinImpl(ModifyDamag
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifyDamageCountMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyDamageCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1383,7 +1383,7 @@ void __cdecl ModifyBeHitDamageMixinImpl::ModifyBeHitDamageMixinImpl(
   int (**v2)(...); // rdx
 
   data::ModifyBeHitDamageMixin::ModifyBeHitDamageMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifyBeHitDamageMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifyBeHitDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1401,7 +1401,7 @@ void __cdecl ModifyBeHitDamageMixinImpl::~ModifyBeHitDamageMixinImpl(ModifyBeHit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifyBeHitDamageMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyBeHitDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1435,7 +1435,7 @@ void __cdecl DamageStatisticsMixinImpl::DamageStatisticsMixinImpl(
   int (**v2)(...); // rdx
 
   data::DamageStatisticsMixin::DamageStatisticsMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DamageStatisticsMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DamageStatisticsMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1453,7 +1453,7 @@ void __cdecl DamageStatisticsMixinImpl::~DamageStatisticsMixinImpl(DamageStatist
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DamageStatisticsMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DamageStatisticsMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1487,7 +1487,7 @@ void __cdecl UGCTimeControlMixinImpl::UGCTimeControlMixinImpl(
   int (**v2)(...); // rdx
 
   data::UGCTimeControlMixin::UGCTimeControlMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'UGCTimeControlMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for UGCTimeControlMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1498,7 +1498,7 @@ void __cdecl UGCTimeControlMixinImpl::~UGCTimeControlMixinImpl(UGCTimeControlMix
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UGCTimeControlMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UGCTimeControlMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1538,7 +1538,7 @@ void __cdecl AvatarCombatMixinImpl::AvatarCombatMixinImpl(
   int (**v2)(...); // rdx
 
   data::AvatarCombatMixin::AvatarCombatMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AvatarCombatMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarCombatMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1556,7 +1556,7 @@ void __cdecl AvatarCombatMixinImpl::~AvatarCombatMixinImpl(AvatarCombatMixinImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarCombatMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarCombatMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1603,7 +1603,7 @@ void __cdecl DeathZoneRegionalPlayMixinImpl::DeathZoneRegionalPlayMixinImpl(
   int (**v2)(...); // rdx
 
   data::DeathZoneRegionalPlayMixin::DeathZoneRegionalPlayMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DeathZoneRegionalPlayMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DeathZoneRegionalPlayMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1623,7 +1623,7 @@ void __cdecl DeathZoneRegionalPlayMixinImpl::~DeathZoneRegionalPlayMixinImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DeathZoneRegionalPlayMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DeathZoneRegionalPlayMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1655,7 +1655,7 @@ void __cdecl EraseBrickActivityMixinImpl::EraseBrickActivityMixinImpl(EraseBrick
   int (**v1)(...); // rdx
 
   data::EraseBrickActivityMixin::EraseBrickActivityMixin(this);
-  v1 = (int (**)(...))(&`vtable for'EraseBrickActivityMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EraseBrickActivityMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1669,7 +1669,7 @@ void __cdecl EraseBrickActivityMixinImpl::EraseBrickActivityMixinImpl(
   int (**v2)(...); // rdx
 
   data::EraseBrickActivityMixin::EraseBrickActivityMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EraseBrickActivityMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for EraseBrickActivityMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1687,7 +1687,7 @@ void __cdecl EraseBrickActivityMixinImpl::~EraseBrickActivityMixinImpl(EraseBric
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EraseBrickActivityMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EraseBrickActivityMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1719,7 +1719,7 @@ void __cdecl BreakoutMixinImpl::BreakoutMixinImpl(BreakoutMixinImpl *const this,
   int (**v2)(...); // rdx
 
   data::BreakoutMixin::BreakoutMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BreakoutMixinImpl + 2);
+  v2 = (int (**)(...))(&`vtable for BreakoutMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1737,7 +1737,7 @@ void __cdecl BreakoutMixinImpl::~BreakoutMixinImpl(BreakoutMixinImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BreakoutMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for BreakoutMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1766,7 +1766,7 @@ void __cdecl AvatarSteerByCameraMixinImpl::AvatarSteerByCameraMixinImpl(AvatarSt
   int (**v1)(...); // rdx
 
   data::AvatarSteerByCameraMixin::AvatarSteerByCameraMixin(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarSteerByCameraMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSteerByCameraMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1778,7 +1778,7 @@ void __cdecl ShieldBarMixinImpl::ShieldBarMixinImpl(ShieldBarMixinImpl *const th
   int (**v1)(...); // rdx
 
   data::ShieldBarMixin::ShieldBarMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ShieldBarMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ShieldBarMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1790,7 +1790,7 @@ void __cdecl WindSeedSpawnerMixinImpl::WindSeedSpawnerMixinImpl(WindSeedSpawnerM
   int (**v1)(...); // rdx
 
   data::WindSeedSpawnerMixin::WindSeedSpawnerMixin(this);
-  v1 = (int (**)(...))(&`vtable for'WindSeedSpawnerMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for WindSeedSpawnerMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1802,7 +1802,7 @@ void __cdecl CostStaminaMixinImpl::CostStaminaMixinImpl(CostStaminaMixinImpl *co
   int (**v1)(...); // rdx
 
   data::CostStaminaMixin::CostStaminaMixin(this);
-  v1 = (int (**)(...))(&`vtable for'CostStaminaMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CostStaminaMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1814,7 +1814,7 @@ void __cdecl MonsterDefendMixinImpl::MonsterDefendMixinImpl(MonsterDefendMixinIm
   int (**v1)(...); // rdx
 
   data::MonsterDefendMixin::MonsterDefendMixin(this);
-  v1 = (int (**)(...))(&`vtable for'MonsterDefendMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for MonsterDefendMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1826,7 +1826,7 @@ void __cdecl ModifyDamageCountMixinImpl::ModifyDamageCountMixinImpl(ModifyDamage
   int (**v1)(...); // rdx
 
   data::ModifyDamageCountMixin::ModifyDamageCountMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ModifyDamageCountMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyDamageCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1838,7 +1838,7 @@ void __cdecl ModifyBeHitDamageMixinImpl::ModifyBeHitDamageMixinImpl(ModifyBeHitD
   int (**v1)(...); // rdx
 
   data::ModifyBeHitDamageMixin::ModifyBeHitDamageMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ModifyBeHitDamageMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyBeHitDamageMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1851,7 +1851,7 @@ void __cdecl ModifySkillCDByModifierCountMixinImpl::ModifySkillCDByModifierCount
   int (**v1)(...); // rdx
 
   data::ModifySkillCDByModifierCountMixin::ModifySkillCDByModifierCountMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCDByModifierCountMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCDByModifierCountMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1863,7 +1863,7 @@ void __cdecl FireworksLauncherMixinImpl::FireworksLauncherMixinImpl(FireworksLau
   int (**v1)(...); // rdx
 
   data::FireworksLauncherMixin::FireworksLauncherMixin(this);
-  v1 = (int (**)(...))(&`vtable for'FireworksLauncherMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for FireworksLauncherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1875,7 +1875,7 @@ void __cdecl GlobalMainShieldMixinImpl::GlobalMainShieldMixinImpl(GlobalMainShie
   int (**v1)(...); // rdx
 
   data::GlobalMainShieldMixin::GlobalMainShieldMixin(this);
-  v1 = (int (**)(...))(&`vtable for'GlobalMainShieldMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GlobalMainShieldMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1888,7 +1888,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::ElementHittingOtherPredicat
   int (**v1)(...); // rdx
 
   data::ElementHittingOtherPredicatedMixin::ElementHittingOtherPredicatedMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ElementHittingOtherPredicatedMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ElementHittingOtherPredicatedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1900,7 +1900,7 @@ void __cdecl ResistClimateMixinImpl::ResistClimateMixinImpl(ResistClimateMixinIm
   int (**v1)(...); // rdx
 
   data::ResistClimateMixin::ResistClimateMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ResistClimateMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResistClimateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1912,7 +1912,7 @@ void __cdecl MoveStateMixinImpl::MoveStateMixinImpl(MoveStateMixinImpl *const th
   int (**v1)(...); // rdx
 
   data::MoveStateMixin::MoveStateMixin(this);
-  v1 = (int (**)(...))(&`vtable for'MoveStateMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for MoveStateMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1924,7 +1924,7 @@ void __cdecl ServerFinishWatcherMixinImpl::ServerFinishWatcherMixinImpl(ServerFi
   int (**v1)(...); // rdx
 
   data::ServerFinishWatcherMixin::ServerFinishWatcherMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ServerFinishWatcherMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerFinishWatcherMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1936,7 +1936,7 @@ void __cdecl ClampDamageReceivedMixinImpl::ClampDamageReceivedMixinImpl(ClampDam
   int (**v1)(...); // rdx
 
   data::ClampDamageReceivedMixin::ClampDamageReceivedMixin(this);
-  v1 = (int (**)(...))(&`vtable for'ClampDamageReceivedMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ClampDamageReceivedMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1949,7 +1949,7 @@ void __cdecl DoActionBySelfModifierElementDurabilityRatioMixinImpl::DoActionBySe
   int (**v1)(...); // rdx
 
   data::DoActionBySelfModifierElementDurabilityRatioMixin::DoActionBySelfModifierElementDurabilityRatioMixin(this);
-  v1 = (int (**)(...))(&`vtable for'DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DoActionBySelfModifierElementDurabilityRatioMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1961,7 +1961,7 @@ void __cdecl AvatarCombatMixinImpl::AvatarCombatMixinImpl(AvatarCombatMixinImpl 
   int (**v1)(...); // rdx
 
   data::AvatarCombatMixin::AvatarCombatMixin(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarCombatMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarCombatMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1973,7 +1973,7 @@ void __cdecl UGCTimeControlMixinImpl::UGCTimeControlMixinImpl(UGCTimeControlMixi
   int (**v1)(...); // rdx
 
   data::UGCTimeControlMixin::UGCTimeControlMixin(this);
-  v1 = (int (**)(...))(&`vtable for'UGCTimeControlMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UGCTimeControlMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1985,7 +1985,7 @@ void __cdecl DeathZoneRegionalPlayMixinImpl::DeathZoneRegionalPlayMixinImpl(Deat
   int (**v1)(...); // rdx
 
   data::DeathZoneRegionalPlayMixin::DeathZoneRegionalPlayMixin(this);
-  v1 = (int (**)(...))(&`vtable for'DeathZoneRegionalPlayMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DeathZoneRegionalPlayMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1997,7 +1997,7 @@ void __cdecl DamageStatisticsMixinImpl::DamageStatisticsMixinImpl(DamageStatisti
   int (**v1)(...); // rdx
 
   data::DamageStatisticsMixin::DamageStatisticsMixin(this);
-  v1 = (int (**)(...))(&`vtable for'DamageStatisticsMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DamageStatisticsMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2009,7 +2009,7 @@ void __cdecl BreakoutMixinImpl::BreakoutMixinImpl(BreakoutMixinImpl *const this)
   int (**v1)(...); // rdx
 
   data::BreakoutMixin::BreakoutMixin(this);
-  v1 = (int (**)(...))(&`vtable for'BreakoutMixinImpl + 2);
+  v1 = (int (**)(...))(&`vtable for BreakoutMixinImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;

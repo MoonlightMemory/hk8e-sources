@@ -557,91 +557,33 @@ void __cdecl Robot::getFilledMessage(Robot *const this, google::protobuf::Messag
   }
 };
 
-// Line 256: range 00000000004402EE-0000000000440592
 __int64 __fastcall Robot::sendPacket(
         Robot *const this,
         uint32_t cmdId,
-        const std::__shared_ptr_access<google::protobuf::Message,(__gnu_cxx::_Lock_policy)2,false,false> *p_message)
+        const std::shared_ptr<google::protobuf::Message> *p_message)
 {
-  unsigned __int64 v3; // rbx
-  __int64 v4; // rax
-  _DWORD *v5; // r13
-  google::protobuf::Message *v6; // rax
-  common::milog::MiLogStream *v7; // rax
-  unsigned int v8; // r14d
-  common::milog::MiLogStream *v9; // rax
-  __int64 result; // rax
-  common::milog::MiLogStream v12; // [rsp+20h] [rbp-B0h] BYREF
-  char v13[144]; // [rsp+40h] [rbp-90h] BYREF
+    google::protobuf::Message *message = p_message->get();
+    std::shared_ptr<common::minet::Packet> packet;
+    
+    try {
+        packet = common::minet::PacketUtils::createPacket(cmdId, message);
+    } catch (const std::exception& e) {
+        LOG_ERROR("Failed to create packet: %s", e.what());
+        return -1;
+    }
 
-  v3 = (unsigned __int64)v13;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v4 = __asan_stack_malloc_1(96LL);
-    if ( v4 )
-      v3 = v4;
-  }
-  *(_QWORD *)v3 = 1102416563LL;
-  *(_QWORD *)(v3 + 8) = "2 48 4 9 cmdId:255 64 16 18 req_packet_ptr:257";
-  *(_QWORD *)(v3 + 16) = Robot::sendPacket;
-  v5 = (_DWORD *)(v3 >> 3);
-  v5[536862720] = -235802127;
-  v5[536862721] = -234556943;
-  v5[536862722] = -202178560;
-  *(_DWORD *)(v3 + 48) = cmdId;
-  v6 = std::__shared_ptr_access<google::protobuf::Message,(__gnu_cxx::_Lock_policy)2,false,false>::operator*(p_message);
-  common::minet::PacketUtils::createPacket(v3 + 64, *(_DWORD *)(v3 + 48), v6);
-  if ( std::operator==<common::minet::Packet>((const std::shared_ptr<common::minet::Packet> *)(v3 + 64), 0LL) )
-  {
-    common::milog::MiLogStream::create(
-      &v12,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "./src/operation/robot_op.cpp",
-      "sendPacket",
-      260);
-    v7 = common::milog::MiLogStream::operator<<<char [34],(char *[34])0>(
-           &v12,
-           (const char (*)[34])"req_packet_ptr is null, req_name:");
-    common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v7, (const unsigned int *)(v3 + 48));
-    common::milog::MiLogStream::~MiLogStream(&v12);
-    v8 = -1;
-  }
-  else if ( std::operator==<common::minet::PacketSenderCoroExec>(&this->coro_exec_ptr_, 0LL) )
-  {
-    common::milog::MiLogStream::create(
-      &v12,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "./src/operation/robot_op.cpp",
-      "sendPacket",
-      265);
-    v9 = common::milog::MiLogStream::operator<<<char [34],(char *[34])0>(
-           &v12,
-           (const char (*)[34])"coro_exec_ptr_ is null, req_name:");
-    common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v9, (const unsigned int *)(v3 + 48));
-    common::milog::MiLogStream::~MiLogStream(&v12);
-    v8 = -1;
-  }
-  else
-  {
-    v8 = Robot::sendPacket(this, (common::minet::PacketPtr *)(v3 + 64));
-  }
-  std::shared_ptr<common::minet::Packet>::~shared_ptr((std::shared_ptr<common::minet::Packet> *const)(v3 + 64));
-  result = v8;
-  if ( v13 == (char *)v3 )
-  {
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0LL;
-    *(_DWORD *)((v3 >> 3) + 0x7FFF8008) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v3 = 1172321806LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v3 >> 3) + 0x7FFF8008) = -168430091;
-  }
-  return result;
-};
+    if (!packet) {
+        LOG_ERROR("req_packet_ptr is null, req_name: %u", cmdId);
+        return -1;
+    }
+
+    if (!this->coro_exec_ptr_) {
+        LOG_ERROR("coro_exec_ptr_ is null, req_name: %u", cmdId);
+        return -1;
+    }
+
+    return this->sendPacket(packet);
+}
 
 // Line 272: range 0000000000440594-0000000000440B48
 __int64 __fastcall Robot::sendAndRecvPacket(

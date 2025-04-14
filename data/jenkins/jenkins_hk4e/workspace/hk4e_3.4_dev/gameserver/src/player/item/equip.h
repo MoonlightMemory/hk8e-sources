@@ -6,7 +6,7 @@ void __cdecl Equip::~Equip(Equip *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Equip + 2);
+  v2 = (int (**)(...))(&`vtable for Equip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Item = v2;
@@ -50,7 +50,7 @@ void __fastcall ZN5EquipCI24ItemEjj(Equip *const this, int a2, int a3)
   *(_DWORD *)(v3 + 64) = a3;
   v6 = *(unsigned int *)(v3 + 48);
   Item::Item(this, v6, *(_DWORD *)(v3 + 64));
-  v7 = (int (**)(...))(&`vtable for'Equip + 2);
+  v7 = (int (**)(...))(&`vtable for Equip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v6);
   this->_vptr_Item = v7;

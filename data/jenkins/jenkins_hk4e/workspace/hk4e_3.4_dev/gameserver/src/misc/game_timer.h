@@ -5,7 +5,7 @@ void __cdecl UnixTimer::~UnixTimer(UnixTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UnixTimer + 2);
+  v1 = (int (**)(...))(&`vtable for UnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -24,7 +24,7 @@ void __cdecl UnixTimerMgr::~UnixTimerMgr(UnixTimerMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UnixTimerMgr + 2);
+  v1 = (int (**)(...))(&`vtable for UnixTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v1;
@@ -44,7 +44,7 @@ void __cdecl PausableTimerMgr::~PausableTimerMgr(PausableTimerMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PausableTimerMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PausableTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v1;
@@ -71,7 +71,7 @@ void __cdecl PlayerUnixTimer::~PlayerUnixTimer(PlayerUnixTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerUnixTimer + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -91,7 +91,7 @@ void __cdecl PlayerTimer::~PlayerTimer(PlayerTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerTimer + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -104,7 +104,7 @@ void __cdecl PlayerTimerMgr::~PlayerTimerMgr(PlayerTimerMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerTimerMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v1;
@@ -131,7 +131,7 @@ void __cdecl SceneUnixTimer::~SceneUnixTimer(SceneUnixTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SceneUnixTimer + 2);
+  v1 = (int (**)(...))(&`vtable for SceneUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -144,7 +144,7 @@ void __cdecl SceneTimer::~SceneTimer(SceneTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SceneTimer + 2);
+  v1 = (int (**)(...))(&`vtable for SceneTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -164,7 +164,7 @@ void __cdecl SceneTimerMgr::~SceneTimerMgr(SceneTimerMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SceneTimerMgr + 2);
+  v1 = (int (**)(...))(&`vtable for SceneTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v1;
@@ -191,7 +191,7 @@ void __cdecl HomeUnixTimer::~HomeUnixTimer(HomeUnixTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeUnixTimer + 2);
+  v1 = (int (**)(...))(&`vtable for HomeUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -211,7 +211,7 @@ void __cdecl HomeTimer::~HomeTimer(HomeTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeTimer + 2);
+  v1 = (int (**)(...))(&`vtable for HomeTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v1;
@@ -231,7 +231,7 @@ void __cdecl HomeTimerMgr::~HomeTimerMgr(HomeTimerMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeTimerMgr + 2);
+  v1 = (int (**)(...))(&`vtable for HomeTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v1;

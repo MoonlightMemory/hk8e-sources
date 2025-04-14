@@ -6,7 +6,7 @@ void __cdecl HomeWorldScene::~HomeWorldScene(HomeWorldScene *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'HomeWorldScene + 2;
+  v2 = &`vtable for HomeWorldScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -40,7 +40,7 @@ void __fastcall ZN14HomeWorldSceneCI25SceneEj(HomeWorldScene *const this, int a2
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   Scene::Scene((Scene *const)this, v5);
-  v6 = &`vtable for'HomeWorldScene + 2;
+  v6 = &`vtable for HomeWorldScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   *(_QWORD *)this->baseclass_0 = v6;

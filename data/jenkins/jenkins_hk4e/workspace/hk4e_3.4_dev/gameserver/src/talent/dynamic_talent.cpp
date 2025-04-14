@@ -3,11 +3,11 @@
 // Line 20: range 000000001315C0E0-000000001315C14E
 const data::BaseTalentConfig *__cdecl DynamicTalent::findBaseTalentConfig(const DynamicTalent *const this)
 {
-  if ( !(_BYTE)`guard variable for'DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG
-    && __cxa_guard_acquire(&`guard variable for'DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG) )
+  if ( !(_BYTE)`guard variable for DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG
+    && __cxa_guard_acquire(&`guard variable for DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG) )
   {
     data::BaseTalentConfig::BaseTalentConfig(&DynamicTalent::findBaseTalentConfig(void)const::EMPTY_BASE_TALENT_CONFIG);
-    __cxa_guard_release(&`guard variable for'DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG);
+    __cxa_guard_release(&`guard variable for DynamicTalent::findBaseTalentConfig(void)::EMPTY_BASE_TALENT_CONFIG);
     __cxa_atexit(
       (void (__fastcall *)(void *))data::BaseTalentConfig::~BaseTalentConfig,
       &DynamicTalent::findBaseTalentConfig(void)const::EMPTY_BASE_TALENT_CONFIG,

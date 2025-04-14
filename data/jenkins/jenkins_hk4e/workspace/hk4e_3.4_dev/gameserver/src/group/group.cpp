@@ -243,7 +243,7 @@ void __cdecl Group::Group(Group *const this, uint32_t group_id)
 
   std::enable_shared_from_this<Group>::enable_shared_from_this(&this->std::enable_shared_from_this<Group>);
   common::milog::DescribalBase::DescribalBase(this);
-  v2 = (int (**)(...))(&`vtable for'Group + 2);
+  v2 = (int (**)(...))(&`vtable for Group + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

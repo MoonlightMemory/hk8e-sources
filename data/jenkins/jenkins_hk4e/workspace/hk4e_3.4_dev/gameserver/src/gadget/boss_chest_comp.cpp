@@ -8,7 +8,7 @@ void __cdecl BossChestComp::BossChestComp(BossChestComp *const this, Gadget *gad
   bool is_auto_pick; // cl
 
   ZN22GadgetBaseInteractCompCI214GadgetCompBaseER6Gadget(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'BossChestComp + 2);
+  v3 = (int (**)(...))(&`vtable for BossChestComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

@@ -12,20 +12,20 @@ int32_t __cdecl anyToScalarValueEntry(const std::any *value, proto::AbilityScala
   std::string v9; // [rsp+20h] [rbp-30h] BYREF
 
   type = std::any::type(value);
-  if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'std::string) )
+  if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for std::string) )
   {
     proto::AbilityScalarValueEntry::set_value_type(value_entry, ABILITY_SCALAR_TYPE_STRING);
     safeAnyCast<std::string>(&v9, value);
     proto::AbilityScalarValueEntry::set_string_value(value_entry, &v9);
     std::string::~string(&v9);
   }
-  else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'float) )
+  else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for float) )
   {
     proto::AbilityScalarValueEntry::set_value_type(value_entry, ABILITY_SCALAR_TYPE_FLOAT);
     v2 = safeAnyCast<float>(value);
     proto::AbilityScalarValueEntry::set_float_value(value_entry, v2);
   }
-  else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'int) )
+  else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for int) )
   {
     proto::AbilityScalarValueEntry::set_value_type(value_entry, ABILITY_SCALAR_TYPE_INT);
     v3 = safeAnyCast<int>(value);
@@ -33,7 +33,7 @@ int32_t __cdecl anyToScalarValueEntry(const std::any *value, proto::AbilityScala
   }
   else
   {
-    if ( !std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'unsigned int) )
+    if ( !std::type_info::operator==(type, (const std::type_info *)&`typeinfo for unsigned int) )
     {
       common::milog::MiLogStream::create(
         (common::milog::MiLogStream *)&v9,
@@ -786,12 +786,12 @@ const data::ConfigAbility *__cdecl ActorAbility::getConfigRef(const ActorAbility
     &v2,
     (const char (*)[28])"config_ability_ptr_ is null");
   common::milog::MiLogStream::~MiLogStream(&v2);
-  if ( !(_BYTE)`guard variable for'ActorAbility::getConfigRef(void)::empty_config )
+  if ( !(_BYTE)`guard variable for ActorAbility::getConfigRef(void)::empty_config )
   {
-    if ( __cxa_guard_acquire(&`guard variable for'ActorAbility::getConfigRef(void)::empty_config) )
+    if ( __cxa_guard_acquire(&`guard variable for ActorAbility::getConfigRef(void)::empty_config) )
     {
       data::ConfigAbility::ConfigAbility(&ActorAbility::getConfigRef(void)const::empty_config);
-      __cxa_guard_release(&`guard variable for'ActorAbility::getConfigRef(void)::empty_config);
+      __cxa_guard_release(&`guard variable for ActorAbility::getConfigRef(void)::empty_config);
       __cxa_atexit(
         (void (__fastcall *)(void *))data::ConfigAbility::~ConfigAbility,
         &ActorAbility::getConfigRef(void)const::empty_config,

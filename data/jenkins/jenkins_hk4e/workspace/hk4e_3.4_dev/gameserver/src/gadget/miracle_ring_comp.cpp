@@ -10,7 +10,7 @@ void __cdecl MiracleRingComp::MiracleRingComp(
   uint32_t owner_uid; // ecx
 
   ZN22GadgetBaseInteractCompCI214GadgetCompBaseER6Gadget(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'MiracleRingComp + 2);
+  v3 = (int (**)(...))(&`vtable for MiracleRingComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

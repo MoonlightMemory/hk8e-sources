@@ -2342,8 +2342,8 @@ __int64 __fastcall PlayerRechargeComp::fillRecommendProductData(
     case 1:
       mcoin_config_ptr = (const data::ProductMcoinDetailConfig *)__dynamic_cast(
                                                                    product_config_ptr,
-                                                                   (const struct __class_type_info *)&`typeinfo for'data::ProductDetailConfig,
-                                                                   (const struct __class_type_info *)&`typeinfo for'data::ProductMcoinDetailConfig,
+                                                                   (const struct __class_type_info *)&`typeinfo for data::ProductDetailConfig,
+                                                                   (const struct __class_type_info *)&`typeinfo for data::ProductMcoinDetailConfig,
                                                                    0LL);
       if ( !mcoin_config_ptr )
       {
@@ -2369,8 +2369,8 @@ __int64 __fastcall PlayerRechargeComp::fillRecommendProductData(
     case 2:
       card_config_ptr = (const data::ProductCardDetailConfig *)__dynamic_cast(
                                                                  product_config_ptr,
-                                                                 (const struct __class_type_info *)&`typeinfo for'data::ProductDetailConfig,
-                                                                 (const struct __class_type_info *)&`typeinfo for'data::ProductCardDetailConfig,
+                                                                 (const struct __class_type_info *)&`typeinfo for data::ProductDetailConfig,
+                                                                 (const struct __class_type_info *)&`typeinfo for data::ProductCardDetailConfig,
                                                                  0LL);
       if ( !card_config_ptr )
       {
@@ -2396,8 +2396,8 @@ __int64 __fastcall PlayerRechargeComp::fillRecommendProductData(
     case 6:
       concert_config_ptr = (const data::ProductConcertPackageDetailConfig *)__dynamic_cast(
                                                                               product_config_ptr,
-                                                                              (const struct __class_type_info *)&`typeinfo for'data::ProductDetailConfig,
-                                                                              (const struct __class_type_info *)&`typeinfo for'data::ProductConcertPackageDetailConfig,
+                                                                              (const struct __class_type_info *)&`typeinfo for data::ProductDetailConfig,
+                                                                              (const struct __class_type_info *)&`typeinfo for data::ProductConcertPackageDetailConfig,
                                                                               0LL);
       if ( !concert_config_ptr )
       {

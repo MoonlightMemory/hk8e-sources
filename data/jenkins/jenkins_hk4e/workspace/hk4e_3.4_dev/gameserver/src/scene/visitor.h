@@ -6,7 +6,7 @@ void __cdecl Visitor::~Visitor(Visitor *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Visitor + 2);
+  v2 = (int (**)(...))(&`vtable for Visitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Visitor = v2;
@@ -19,7 +19,7 @@ void __cdecl Visitor::Visitor(Visitor *const this, EntityPtr *p_entity_ptr)
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Visitor + 2);
+  v2 = (int (**)(...))(&`vtable for Visitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_entity_ptr);
   this->_vptr_Visitor = v2;
@@ -214,7 +214,7 @@ void __cdecl EntityVisitor::~EntityVisitor(EntityVisitor *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'EntityVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for EntityVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Visitor = v2;
@@ -227,7 +227,7 @@ void __cdecl ZN13EntityVisitorCI27VisitorESt10shared_ptrI6EntityE(EntityVisitor 
   int (**v2)(...); // rdx
 
   Visitor::Visitor(this, p_);
-  v2 = (int (**)(...))(&`vtable for'EntityVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for EntityVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_);
   this->_vptr_Visitor = v2;
@@ -245,7 +245,7 @@ void __cdecl AvatarVisitor::~AvatarVisitor(AvatarVisitor *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'AvatarVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Visitor = v2;
@@ -258,7 +258,7 @@ void __cdecl ZN13AvatarVisitorCI27VisitorESt10shared_ptrI6EntityE(AvatarVisitor 
   int (**v2)(...); // rdx
 
   Visitor::Visitor(this, p_);
-  v2 = (int (**)(...))(&`vtable for'AvatarVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_);
   this->_vptr_Visitor = v2;
@@ -289,7 +289,7 @@ void __cdecl AuthorityVisitor::~AuthorityVisitor(AuthorityVisitor *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'AuthorityVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for AuthorityVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Visitor = v2;
@@ -302,7 +302,7 @@ void __cdecl ZN16AuthorityVisitorCI27VisitorESt10shared_ptrI6EntityE(AuthorityVi
   int (**v2)(...); // rdx
 
   Visitor::Visitor(this, p_);
-  v2 = (int (**)(...))(&`vtable for'AuthorityVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for AuthorityVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_);
   this->_vptr_Visitor = v2;
@@ -320,7 +320,7 @@ void __cdecl GatherVisitor::~GatherVisitor(GatherVisitor *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GatherVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for GatherVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Visitor = v2;
@@ -333,7 +333,7 @@ void __cdecl ZN13GatherVisitorCI27VisitorESt10shared_ptrI6EntityE(GatherVisitor 
   int (**v2)(...); // rdx
 
   Visitor::Visitor(this, p_);
-  v2 = (int (**)(...))(&`vtable for'GatherVisitor + 2);
+  v2 = (int (**)(...))(&`vtable for GatherVisitor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_);
   this->_vptr_Visitor = v2;

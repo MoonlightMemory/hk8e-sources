@@ -14,7 +14,7 @@ void __cdecl IrodoriChessEffectAddServerGlobalValue::~IrodoriChessEffectAddServe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for IrodoriChessEffectAddServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -31,7 +31,7 @@ void __cdecl IrodoriChessEffectAddServerGlobalValue::IrodoriChessEffectAddServer
   int (**v2)(...); // rdx
 
   IrodoriChessEffectBase::IrodoriChessEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessEffectAddServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -51,7 +51,7 @@ void __cdecl IrodoriChessEffectModifyRefundByCost::~IrodoriChessEffectModifyRefu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IrodoriChessEffectModifyRefundByCost + 2);
+  v1 = (int (**)(...))(&`vtable for IrodoriChessEffectModifyRefundByCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -74,7 +74,7 @@ void __cdecl IrodoriChessEffectModifyRefundByCost::IrodoriChessEffectModifyRefun
   int (**v2)(...); // rdx
 
   IrodoriChessEffectBase::IrodoriChessEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessEffectModifyRefundByCost + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessEffectModifyRefundByCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -92,7 +92,7 @@ void __cdecl IrodoriChessEffectAddAbilityGroup::~IrodoriChessEffectAddAbilityGro
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddAbilityGroup + 2);
+  v1 = (int (**)(...))(&`vtable for IrodoriChessEffectAddAbilityGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -116,7 +116,7 @@ void __cdecl IrodoriChessEffectAddAbilityGroup::IrodoriChessEffectAddAbilityGrou
   int (**v2)(...); // rdx
 
   IrodoriChessEffectBase::IrodoriChessEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddAbilityGroup + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessEffectAddAbilityGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -128,7 +128,7 @@ void __cdecl IrodoriChessEffectAddGearNum::~IrodoriChessEffectAddGearNum(Irodori
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddGearNum + 2);
+  v1 = (int (**)(...))(&`vtable for IrodoriChessEffectAddGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -150,7 +150,7 @@ void __cdecl IrodoriChessEffectAddGearNum::IrodoriChessEffectAddGearNum(
   int (**v2)(...); // rdx
 
   IrodoriChessEffectBase::IrodoriChessEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddGearNum + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessEffectAddGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -176,7 +176,7 @@ void __cdecl IrodoriChessEffectAddTargetGearNum::~IrodoriChessEffectAddTargetGea
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddTargetGearNum + 2);
+  v1 = (int (**)(...))(&`vtable for IrodoriChessEffectAddTargetGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -192,7 +192,7 @@ void __cdecl IrodoriChessEffectAddTargetGearNum::IrodoriChessEffectAddTargetGear
   int (**v2)(...); // rdx
 
   IrodoriChessEffectBase::IrodoriChessEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessEffectAddTargetGearNum + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessEffectAddTargetGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

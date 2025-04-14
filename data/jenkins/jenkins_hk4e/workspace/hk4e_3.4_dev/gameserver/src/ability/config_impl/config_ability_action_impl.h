@@ -6,7 +6,7 @@ void __cdecl AvatarSkillStartImpl::AvatarSkillStartImpl(AvatarSkillStartImpl *co
   int (**v1)(...); // rdx
 
   data::AvatarSkillStart::AvatarSkillStart(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarSkillStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -20,7 +20,7 @@ void __cdecl AvatarSkillStartImpl::AvatarSkillStartImpl(
   int (**v2)(...); // rdx
 
   data::AvatarSkillStart::AvatarSkillStart(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AvatarSkillStartImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -38,7 +38,7 @@ void __cdecl AvatarSkillStartImpl::~AvatarSkillStartImpl(AvatarSkillStartImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarSkillStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -67,7 +67,7 @@ void __cdecl DebugLogImpl::DebugLogImpl(DebugLogImpl *const this, const DebugLog
   int (**v2)(...); // rdx
 
   data::DebugLog::DebugLog(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DebugLogImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DebugLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -85,7 +85,7 @@ void __cdecl DebugLogImpl::~DebugLogImpl(DebugLogImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DebugLogImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DebugLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -114,7 +114,7 @@ void __cdecl HealHPImpl::HealHPImpl(HealHPImpl *const this)
   int (**v1)(...); // rdx
 
   data::HealHP::HealHP(this);
-  v1 = (int (**)(...))(&`vtable for'HealHPImpl + 2);
+  v1 = (int (**)(...))(&`vtable for HealHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -126,7 +126,7 @@ void __cdecl HealHPImpl::HealHPImpl(HealHPImpl *const this, const HealHPImpl *a2
   int (**v2)(...); // rdx
 
   data::HealHP::HealHP(this, a2);
-  v2 = (int (**)(...))(&`vtable for'HealHPImpl + 2);
+  v2 = (int (**)(...))(&`vtable for HealHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -137,7 +137,7 @@ void __cdecl HealHPImpl::~HealHPImpl(HealHPImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HealHPImpl + 2);
+  v1 = (int (**)(...))(&`vtable for HealHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -173,7 +173,7 @@ void __cdecl ReviveAvatarImpl::ReviveAvatarImpl(ReviveAvatarImpl *const this, co
   int (**v2)(...); // rdx
 
   data::ReviveAvatar::ReviveAvatar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ReviveAvatarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ReviveAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -191,7 +191,7 @@ void __cdecl ReviveAvatarImpl::~ReviveAvatarImpl(ReviveAvatarImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReviveAvatarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -222,7 +222,7 @@ void __cdecl ReviveDeadAvatarImpl::ReviveDeadAvatarImpl(
   int (**v2)(...); // rdx
 
   data::ReviveDeadAvatar::ReviveDeadAvatar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ReviveDeadAvatarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ReviveDeadAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -240,7 +240,7 @@ void __cdecl ReviveDeadAvatarImpl::~ReviveDeadAvatarImpl(ReviveDeadAvatarImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReviveDeadAvatarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveDeadAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -269,7 +269,7 @@ void __cdecl CreateGadgetImpl::CreateGadgetImpl(CreateGadgetImpl *const this)
   int (**v1)(...); // rdx
 
   data::CreateGadget::CreateGadget(this);
-  v1 = (int (**)(...))(&`vtable for'CreateGadgetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CreateGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -281,7 +281,7 @@ void __cdecl CreateGadgetImpl::CreateGadgetImpl(CreateGadgetImpl *const this, co
   int (**v2)(...); // rdx
 
   data::CreateGadget::CreateGadget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CreateGadgetImpl + 2);
+  v2 = (int (**)(...))(&`vtable for CreateGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -299,7 +299,7 @@ void __cdecl CreateGadgetImpl::~CreateGadgetImpl(CreateGadgetImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CreateGadgetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CreateGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -328,7 +328,7 @@ void __cdecl CreateMovingPlatformImpl::CreateMovingPlatformImpl(CreateMovingPlat
   int (**v1)(...); // rdx
 
   data::CreateMovingPlatform::CreateMovingPlatform(this);
-  v1 = (int (**)(...))(&`vtable for'CreateMovingPlatformImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CreateMovingPlatformImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -342,7 +342,7 @@ void __cdecl CreateMovingPlatformImpl::CreateMovingPlatformImpl(
   int (**v2)(...); // rdx
 
   data::CreateMovingPlatform::CreateMovingPlatform(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CreateMovingPlatformImpl + 2);
+  v2 = (int (**)(...))(&`vtable for CreateMovingPlatformImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -353,7 +353,7 @@ void __cdecl CreateMovingPlatformImpl::~CreateMovingPlatformImpl(CreateMovingPla
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CreateMovingPlatformImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CreateMovingPlatformImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -392,7 +392,7 @@ void __cdecl KillSelfImpl::KillSelfImpl(KillSelfImpl *const this)
   int (**v1)(...); // rdx
 
   data::KillSelf::KillSelf(this);
-  v1 = (int (**)(...))(&`vtable for'KillSelfImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillSelfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -404,7 +404,7 @@ void __cdecl KillSelfImpl::KillSelfImpl(KillSelfImpl *const this, const KillSelf
   int (**v2)(...); // rdx
 
   data::KillSelf::KillSelf(this, a2);
-  v2 = (int (**)(...))(&`vtable for'KillSelfImpl + 2);
+  v2 = (int (**)(...))(&`vtable for KillSelfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -422,7 +422,7 @@ void __cdecl KillSelfImpl::~KillSelfImpl(KillSelfImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'KillSelfImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillSelfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -453,7 +453,7 @@ void __cdecl TriggerDropEquipPartsImpl::TriggerDropEquipPartsImpl(
   int (**v2)(...); // rdx
 
   data::TriggerDropEquipParts::TriggerDropEquipParts(this, a2);
-  v2 = (int (**)(...))(&`vtable for'TriggerDropEquipPartsImpl + 2);
+  v2 = (int (**)(...))(&`vtable for TriggerDropEquipPartsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -464,7 +464,7 @@ void __cdecl TriggerDropEquipPartsImpl::~TriggerDropEquipPartsImpl(TriggerDropEq
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TriggerDropEquipPartsImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerDropEquipPartsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -503,7 +503,7 @@ void __cdecl TriggerThrowEquipPartImpl::TriggerThrowEquipPartImpl(TriggerThrowEq
   int (**v1)(...); // rdx
 
   data::TriggerThrowEquipPart::TriggerThrowEquipPart(this);
-  v1 = (int (**)(...))(&`vtable for'TriggerThrowEquipPartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerThrowEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -517,7 +517,7 @@ void __cdecl TriggerThrowEquipPartImpl::TriggerThrowEquipPartImpl(
   int (**v2)(...); // rdx
 
   data::TriggerThrowEquipPart::TriggerThrowEquipPart(this, a2);
-  v2 = (int (**)(...))(&`vtable for'TriggerThrowEquipPartImpl + 2);
+  v2 = (int (**)(...))(&`vtable for TriggerThrowEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -528,7 +528,7 @@ void __cdecl TriggerThrowEquipPartImpl::~TriggerThrowEquipPartImpl(TriggerThrowE
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TriggerThrowEquipPartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerThrowEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -568,7 +568,7 @@ void __cdecl TriggerCreateGadgetToEquipPartImpl::TriggerCreateGadgetToEquipPartI
   int (**v1)(...); // rdx
 
   data::TriggerCreateGadgetToEquipPart::TriggerCreateGadgetToEquipPart(this);
-  v1 = (int (**)(...))(&`vtable for'TriggerCreateGadgetToEquipPartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerCreateGadgetToEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -582,7 +582,7 @@ void __cdecl TriggerCreateGadgetToEquipPartImpl::TriggerCreateGadgetToEquipPartI
   int (**v2)(...); // rdx
 
   data::TriggerCreateGadgetToEquipPart::TriggerCreateGadgetToEquipPart(this, a2);
-  v2 = (int (**)(...))(&`vtable for'TriggerCreateGadgetToEquipPartImpl + 2);
+  v2 = (int (**)(...))(&`vtable for TriggerCreateGadgetToEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -594,7 +594,7 @@ void __cdecl TriggerCreateGadgetToEquipPartImpl::~TriggerCreateGadgetToEquipPart
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TriggerCreateGadgetToEquipPartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerCreateGadgetToEquipPartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -634,7 +634,7 @@ void __cdecl SummonImpl::SummonImpl(SummonImpl *const this)
   int (**v1)(...); // rdx
 
   data::Summon::Summon(this);
-  v1 = (int (**)(...))(&`vtable for'SummonImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SummonImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -646,7 +646,7 @@ void __cdecl SummonImpl::SummonImpl(SummonImpl *const this, const SummonImpl *a2
   int (**v2)(...); // rdx
 
   data::Summon::Summon(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SummonImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SummonImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -664,7 +664,7 @@ void __cdecl SummonImpl::~SummonImpl(SummonImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SummonImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SummonImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -693,7 +693,7 @@ void __cdecl AddServerBuffImpl::AddServerBuffImpl(AddServerBuffImpl *const this,
   int (**v2)(...); // rdx
 
   data::AddServerBuff::AddServerBuff(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddServerBuffImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -704,7 +704,7 @@ void __cdecl AddServerBuffImpl::~AddServerBuffImpl(AddServerBuffImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddServerBuffImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -742,7 +742,7 @@ void __cdecl RemoveServerBuffImpl::RemoveServerBuffImpl(
   int (**v2)(...); // rdx
 
   data::RemoveServerBuff::RemoveServerBuff(this, a2);
-  v2 = (int (**)(...))(&`vtable for'RemoveServerBuffImpl + 2);
+  v2 = (int (**)(...))(&`vtable for RemoveServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -760,7 +760,7 @@ void __cdecl RemoveServerBuffImpl::~RemoveServerBuffImpl(RemoveServerBuffImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RemoveServerBuffImpl + 2);
+  v1 = (int (**)(...))(&`vtable for RemoveServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -789,7 +789,7 @@ void __cdecl ModifyAvatarSkillCDImpl::ModifyAvatarSkillCDImpl(ModifyAvatarSkillC
   int (**v1)(...); // rdx
 
   data::ModifyAvatarSkillCD::ModifyAvatarSkillCD(this);
-  v1 = (int (**)(...))(&`vtable for'ModifyAvatarSkillCDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyAvatarSkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -803,7 +803,7 @@ void __cdecl ModifyAvatarSkillCDImpl::ModifyAvatarSkillCDImpl(
   int (**v2)(...); // rdx
 
   data::ModifyAvatarSkillCD::ModifyAvatarSkillCD(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifyAvatarSkillCDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifyAvatarSkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -821,7 +821,7 @@ void __cdecl ModifyAvatarSkillCDImpl::~ModifyAvatarSkillCDImpl(ModifyAvatarSkill
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifyAvatarSkillCDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyAvatarSkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -852,7 +852,7 @@ void __cdecl UseItemImpl::UseItemImpl(UseItemImpl *const this, const UseItemImpl
   int (**v2)(...); // rdx
 
   data::UseItem::UseItem(this, a2);
-  v2 = (int (**)(...))(&`vtable for'UseItemImpl + 2);
+  v2 = (int (**)(...))(&`vtable for UseItemImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -870,7 +870,7 @@ void __cdecl UseItemImpl::~UseItemImpl(UseItemImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UseItemImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UseItemImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -899,7 +899,7 @@ void __cdecl LoseHPImpl::LoseHPImpl(LoseHPImpl *const this, const LoseHPImpl *a2
   int (**v2)(...); // rdx
 
   data::LoseHP::LoseHP(this, a2);
-  v2 = (int (**)(...))(&`vtable for'LoseHPImpl + 2);
+  v2 = (int (**)(...))(&`vtable for LoseHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -910,7 +910,7 @@ void __cdecl LoseHPImpl::~LoseHPImpl(LoseHPImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'LoseHPImpl + 2);
+  v1 = (int (**)(...))(&`vtable for LoseHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -946,7 +946,7 @@ void __cdecl GenerateElemBallImpl::GenerateElemBallImpl(GenerateElemBallImpl *co
   int (**v1)(...); // rdx
 
   data::GenerateElemBall::GenerateElemBall(this);
-  v1 = (int (**)(...))(&`vtable for'GenerateElemBallImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GenerateElemBallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -960,7 +960,7 @@ void __cdecl GenerateElemBallImpl::GenerateElemBallImpl(
   int (**v2)(...); // rdx
 
   data::GenerateElemBall::GenerateElemBall(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GenerateElemBallImpl + 2);
+  v2 = (int (**)(...))(&`vtable for GenerateElemBallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -978,7 +978,7 @@ void __cdecl GenerateElemBallImpl::~GenerateElemBallImpl(GenerateElemBallImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GenerateElemBallImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GenerateElemBallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1009,7 +1009,7 @@ void __cdecl AttachAbilityStateResistanceImpl::AttachAbilityStateResistanceImpl(
   int (**v2)(...); // rdx
 
   data::AttachAbilityStateResistance::AttachAbilityStateResistance(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AttachAbilityStateResistanceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AttachAbilityStateResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1021,7 +1021,7 @@ void __cdecl AttachAbilityStateResistanceImpl::~AttachAbilityStateResistanceImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AttachAbilityStateResistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttachAbilityStateResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1063,7 +1063,7 @@ void __cdecl AttachElementTypeResistanceImpl::AttachElementTypeResistanceImpl(
   int (**v2)(...); // rdx
 
   data::AttachElementTypeResistance::AttachElementTypeResistance(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AttachElementTypeResistanceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AttachElementTypeResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1083,7 +1083,7 @@ void __cdecl AttachElementTypeResistanceImpl::~AttachElementTypeResistanceImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AttachElementTypeResistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttachElementTypeResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1115,7 +1115,7 @@ void __cdecl ExecuteGadgetLuaImpl::ExecuteGadgetLuaImpl(ExecuteGadgetLuaImpl *co
   int (**v1)(...); // rdx
 
   data::ExecuteGadgetLua::ExecuteGadgetLua(this);
-  v1 = (int (**)(...))(&`vtable for'ExecuteGadgetLuaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ExecuteGadgetLuaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1129,7 +1129,7 @@ void __cdecl ExecuteGadgetLuaImpl::ExecuteGadgetLuaImpl(
   int (**v2)(...); // rdx
 
   data::ExecuteGadgetLua::ExecuteGadgetLua(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ExecuteGadgetLuaImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ExecuteGadgetLuaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1147,7 +1147,7 @@ void __cdecl ExecuteGadgetLuaImpl::~ExecuteGadgetLuaImpl(ExecuteGadgetLuaImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ExecuteGadgetLuaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ExecuteGadgetLuaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1178,7 +1178,7 @@ void __cdecl ReviveElemEnergyImpl::ReviveElemEnergyImpl(
   int (**v2)(...); // rdx
 
   data::ReviveElemEnergy::ReviveElemEnergy(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ReviveElemEnergyImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ReviveElemEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1189,7 +1189,7 @@ void __cdecl ReviveElemEnergyImpl::~ReviveElemEnergyImpl(ReviveElemEnergyImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReviveElemEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveElemEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1225,7 +1225,7 @@ void __cdecl ChangeEnviroWeatherImpl::ChangeEnviroWeatherImpl(ChangeEnviroWeathe
   int (**v1)(...); // rdx
 
   data::ChangeEnviroWeather::ChangeEnviroWeather(this);
-  v1 = (int (**)(...))(&`vtable for'ChangeEnviroWeatherImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeEnviroWeatherImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1239,7 +1239,7 @@ void __cdecl ChangeEnviroWeatherImpl::ChangeEnviroWeatherImpl(
   int (**v2)(...); // rdx
 
   data::ChangeEnviroWeather::ChangeEnviroWeather(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ChangeEnviroWeatherImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ChangeEnviroWeatherImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1250,7 +1250,7 @@ void __cdecl ChangeEnviroWeatherImpl::~ChangeEnviroWeatherImpl(ChangeEnviroWeath
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChangeEnviroWeatherImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeEnviroWeatherImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1288,7 +1288,7 @@ void __cdecl AddClimateMeterImpl::AddClimateMeterImpl(AddClimateMeterImpl *const
   int (**v1)(...); // rdx
 
   data::AddClimateMeter::AddClimateMeter(this);
-  v1 = (int (**)(...))(&`vtable for'AddClimateMeterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1300,7 +1300,7 @@ void __cdecl AddClimateMeterImpl::AddClimateMeterImpl(AddClimateMeterImpl *const
   int (**v2)(...); // rdx
 
   data::AddClimateMeter::AddClimateMeter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddClimateMeterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1311,7 +1311,7 @@ void __cdecl AddClimateMeterImpl::~AddClimateMeterImpl(AddClimateMeterImpl *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddClimateMeterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1347,7 +1347,7 @@ void __cdecl ResetClimateMeterImpl::ResetClimateMeterImpl(ResetClimateMeterImpl 
   int (**v1)(...); // rdx
 
   data::ResetClimateMeter::ResetClimateMeter(this);
-  v1 = (int (**)(...))(&`vtable for'ResetClimateMeterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResetClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1361,7 +1361,7 @@ void __cdecl ResetClimateMeterImpl::ResetClimateMeterImpl(
   int (**v2)(...); // rdx
 
   data::ResetClimateMeter::ResetClimateMeter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ResetClimateMeterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ResetClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1372,7 +1372,7 @@ void __cdecl ResetClimateMeterImpl::~ResetClimateMeterImpl(ResetClimateMeterImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ResetClimateMeterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResetClimateMeterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1408,7 +1408,7 @@ void __cdecl EquipAffixStartImpl::EquipAffixStartImpl(EquipAffixStartImpl *const
   int (**v1)(...); // rdx
 
   data::EquipAffixStart::EquipAffixStart(this);
-  v1 = (int (**)(...))(&`vtable for'EquipAffixStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EquipAffixStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1420,7 +1420,7 @@ void __cdecl EquipAffixStartImpl::EquipAffixStartImpl(EquipAffixStartImpl *const
   int (**v2)(...); // rdx
 
   data::EquipAffixStart::EquipAffixStart(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EquipAffixStartImpl + 2);
+  v2 = (int (**)(...))(&`vtable for EquipAffixStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1431,7 +1431,7 @@ void __cdecl EquipAffixStartImpl::~EquipAffixStartImpl(EquipAffixStartImpl *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EquipAffixStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for EquipAffixStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1467,7 +1467,7 @@ void __cdecl ServerLuaCallImpl::ServerLuaCallImpl(ServerLuaCallImpl *const this,
   int (**v2)(...); // rdx
 
   data::ServerLuaCall::ServerLuaCall(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ServerLuaCallImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ServerLuaCallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1478,7 +1478,7 @@ void __cdecl ServerLuaCallImpl::~ServerLuaCallImpl(ServerLuaCallImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ServerLuaCallImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerLuaCallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1516,7 +1516,7 @@ void __cdecl KillPlayTeamEntityImpl::KillPlayTeamEntityImpl(
   int (**v2)(...); // rdx
 
   data::KillPlayEntity::KillPlayEntity(this, a2);
-  v2 = (int (**)(...))(&`vtable for'KillPlayTeamEntityImpl + 2);
+  v2 = (int (**)(...))(&`vtable for KillPlayTeamEntityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1534,7 +1534,7 @@ void __cdecl KillPlayTeamEntityImpl::~KillPlayTeamEntityImpl(KillPlayTeamEntityI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'KillPlayTeamEntityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillPlayTeamEntityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1565,7 +1565,7 @@ void __cdecl SetGlobalValueToOverrideMapImpl::SetGlobalValueToOverrideMapImpl(
   int (**v2)(...); // rdx
 
   data::SetGlobalValueToOverrideMap::SetGlobalValueToOverrideMap(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetGlobalValueToOverrideMapImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetGlobalValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1577,7 +1577,7 @@ void __cdecl SetGlobalValueToOverrideMapImpl::~SetGlobalValueToOverrideMapImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetGlobalValueToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetGlobalValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1617,7 +1617,7 @@ void __cdecl SetRandomOverrideMapValueImpl::SetRandomOverrideMapValueImpl(SetRan
   int (**v1)(...); // rdx
 
   data::SetRandomOverrideMapValue::SetRandomOverrideMapValue(this);
-  v1 = (int (**)(...))(&`vtable for'SetRandomOverrideMapValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetRandomOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1631,7 +1631,7 @@ void __cdecl SetRandomOverrideMapValueImpl::SetRandomOverrideMapValueImpl(
   int (**v2)(...); // rdx
 
   data::SetRandomOverrideMapValue::SetRandomOverrideMapValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetRandomOverrideMapValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetRandomOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1642,7 +1642,7 @@ void __cdecl SetRandomOverrideMapValueImpl::~SetRandomOverrideMapValueImpl(SetRa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetRandomOverrideMapValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetRandomOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1683,7 +1683,7 @@ void __cdecl SetOverrideMapValueImpl::SetOverrideMapValueImpl(
   int (**v2)(...); // rdx
 
   data::SetOverrideMapValue::SetOverrideMapValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetOverrideMapValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1694,7 +1694,7 @@ void __cdecl SetOverrideMapValueImpl::~SetOverrideMapValueImpl(SetOverrideMapVal
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetOverrideMapValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1733,7 +1733,7 @@ void __cdecl SetCrystalShieldHpToOverrideMapImpl::SetCrystalShieldHpToOverrideMa
   int (**v1)(...); // rdx
 
   data::SetCrystalShieldHpToOverrideMap::SetCrystalShieldHpToOverrideMap(this);
-  v1 = (int (**)(...))(&`vtable for'SetCrystalShieldHpToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetCrystalShieldHpToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1753,7 +1753,7 @@ void __cdecl SetCrystalShieldHpToOverrideMapImpl::~SetCrystalShieldHpToOverrideM
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetCrystalShieldHpToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetCrystalShieldHpToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1786,7 +1786,7 @@ void __cdecl SetSystemValueToOverrideMapImpl::SetSystemValueToOverrideMapImpl(
   int (**v1)(...); // rdx
 
   data::SetSystemValueToOverrideMap::SetSystemValueToOverrideMap(this);
-  v1 = (int (**)(...))(&`vtable for'SetSystemValueToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetSystemValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1800,7 +1800,7 @@ void __cdecl SetSystemValueToOverrideMapImpl::SetSystemValueToOverrideMapImpl(
   int (**v2)(...); // rdx
 
   data::SetSystemValueToOverrideMap::SetSystemValueToOverrideMap(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetSystemValueToOverrideMapImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetSystemValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1820,7 +1820,7 @@ void __cdecl SetSystemValueToOverrideMapImpl::~SetSystemValueToOverrideMapImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetSystemValueToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetSystemValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1854,7 +1854,7 @@ void __cdecl SetGlobalValueByTargetDistanceImpl::SetGlobalValueByTargetDistanceI
   int (**v2)(...); // rdx
 
   data::SetGlobalValueByTargetDistance::SetGlobalValueByTargetDistance(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetGlobalValueByTargetDistanceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetGlobalValueByTargetDistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1874,7 +1874,7 @@ void __cdecl SetGlobalValueByTargetDistanceImpl::~SetGlobalValueByTargetDistance
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetGlobalValueByTargetDistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetGlobalValueByTargetDistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1906,7 +1906,7 @@ void __cdecl SetCrashDamageImpl::SetCrashDamageImpl(SetCrashDamageImpl *const th
   int (**v2)(...); // rdx
 
   data::SetCrashDamage::SetCrashDamage(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetCrashDamageImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetCrashDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1924,7 +1924,7 @@ void __cdecl SetCrashDamageImpl::~SetCrashDamageImpl(SetCrashDamageImpl *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetCrashDamageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetCrashDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -1955,7 +1955,7 @@ void __cdecl ResetAbilitySpecialImpl::ResetAbilitySpecialImpl(
   int (**v2)(...); // rdx
 
   data::ResetAbilitySpecial::ResetAbilitySpecial(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ResetAbilitySpecialImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ResetAbilitySpecialImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -1966,7 +1966,7 @@ void __cdecl ResetAbilitySpecialImpl::~ResetAbilitySpecialImpl(ResetAbilitySpeci
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ResetAbilitySpecialImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResetAbilitySpecialImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2004,7 +2004,7 @@ void __cdecl ChangeTagImpl::ChangeTagImpl(ChangeTagImpl *const this, const Chang
   int (**v2)(...); // rdx
 
   data::ChangeTag::ChangeTag(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ChangeTagImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ChangeTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2022,7 +2022,7 @@ void __cdecl ChangeTagImpl::~ChangeTagImpl(ChangeTagImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChangeTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2051,7 +2051,7 @@ void __cdecl CopyGlobalValueImpl::CopyGlobalValueImpl(CopyGlobalValueImpl *const
   int (**v2)(...); // rdx
 
   data::CopyGlobalValue::CopyGlobalValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CopyGlobalValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for CopyGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2069,7 +2069,7 @@ void __cdecl CopyGlobalValueImpl::~CopyGlobalValueImpl(CopyGlobalValueImpl *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CopyGlobalValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CopyGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2100,7 +2100,7 @@ void __cdecl ServerMonsterLogImpl::ServerMonsterLogImpl(
   int (**v2)(...); // rdx
 
   data::ServerMonsterLog::ServerMonsterLog(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ServerMonsterLogImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ServerMonsterLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2118,7 +2118,7 @@ void __cdecl ServerMonsterLogImpl::~ServerMonsterLogImpl(ServerMonsterLogImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ServerMonsterLogImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerMonsterLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2147,7 +2147,7 @@ void __cdecl ReviveStaminaImpl::ReviveStaminaImpl(ReviveStaminaImpl *const this)
   int (**v1)(...); // rdx
 
   data::ReviveStamina::ReviveStamina(this);
-  v1 = (int (**)(...))(&`vtable for'ReviveStaminaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2159,7 +2159,7 @@ void __cdecl ReviveStaminaImpl::ReviveStaminaImpl(ReviveStaminaImpl *const this,
   int (**v2)(...); // rdx
 
   data::ReviveStamina::ReviveStamina(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ReviveStaminaImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ReviveStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2177,7 +2177,7 @@ void __cdecl ReviveStaminaImpl::~ReviveStaminaImpl(ReviveStaminaImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReviveStaminaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2206,7 +2206,7 @@ void __cdecl DeductStaminaImpl::DeductStaminaImpl(DeductStaminaImpl *const this)
   int (**v1)(...); // rdx
 
   data::DeductStamina::DeductStamina(this);
-  v1 = (int (**)(...))(&`vtable for'DeductStaminaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DeductStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2218,7 +2218,7 @@ void __cdecl DeductStaminaImpl::DeductStaminaImpl(DeductStaminaImpl *const this,
   int (**v2)(...); // rdx
 
   data::DeductStamina::DeductStamina(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DeductStaminaImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DeductStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2229,7 +2229,7 @@ void __cdecl DeductStaminaImpl::~DeductStaminaImpl(DeductStaminaImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DeductStaminaImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DeductStaminaImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2265,7 +2265,7 @@ void __cdecl KillServerGadgetImpl::KillServerGadgetImpl(KillServerGadgetImpl *co
   int (**v1)(...); // rdx
 
   data::KillServerGadget::KillServerGadget(this);
-  v1 = (int (**)(...))(&`vtable for'KillServerGadgetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillServerGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2279,7 +2279,7 @@ void __cdecl KillServerGadgetImpl::KillServerGadgetImpl(
   int (**v2)(...); // rdx
 
   data::KillServerGadget::KillServerGadget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'KillServerGadgetImpl + 2);
+  v2 = (int (**)(...))(&`vtable for KillServerGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2290,7 +2290,7 @@ void __cdecl KillServerGadgetImpl::~KillServerGadgetImpl(KillServerGadgetImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'KillServerGadgetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillServerGadgetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2327,7 +2327,7 @@ void __cdecl GetTeamTotalMaxEnergyToOverridemapImpl::GetTeamTotalMaxEnergyToOver
   int (**v1)(...); // rdx
 
   data::GetTeamTotalMaxEnergyToOverridemap::GetTeamTotalMaxEnergyToOverridemap(this);
-  v1 = (int (**)(...))(&`vtable for'GetTeamTotalMaxEnergyToOverridemapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GetTeamTotalMaxEnergyToOverridemapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2341,7 +2341,7 @@ void __cdecl GetTeamTotalMaxEnergyToOverridemapImpl::GetTeamTotalMaxEnergyToOver
   int (**v2)(...); // rdx
 
   data::GetTeamTotalMaxEnergyToOverridemap::GetTeamTotalMaxEnergyToOverridemap(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GetTeamTotalMaxEnergyToOverridemapImpl + 2);
+  v2 = (int (**)(...))(&`vtable for GetTeamTotalMaxEnergyToOverridemapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2353,7 +2353,7 @@ void __cdecl GetTeamTotalMaxEnergyToOverridemapImpl::~GetTeamTotalMaxEnergyToOve
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GetTeamTotalMaxEnergyToOverridemapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for GetTeamTotalMaxEnergyToOverridemapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2394,7 +2394,7 @@ void __cdecl SetOvergrowDamgeToGlobalValueImpl::SetOvergrowDamgeToGlobalValueImp
   int (**v1)(...); // rdx
 
   data::SetOvergrowDamgeToGlobalValue::SetOvergrowDamgeToGlobalValue(this);
-  v1 = (int (**)(...))(&`vtable for'SetOvergrowDamgeToGlobalValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetOvergrowDamgeToGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2408,7 +2408,7 @@ void __cdecl SetOvergrowDamgeToGlobalValueImpl::SetOvergrowDamgeToGlobalValueImp
   int (**v2)(...); // rdx
 
   data::SetOvergrowDamgeToGlobalValue::SetOvergrowDamgeToGlobalValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetOvergrowDamgeToGlobalValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetOvergrowDamgeToGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2420,7 +2420,7 @@ void __cdecl SetOvergrowDamgeToGlobalValueImpl::~SetOvergrowDamgeToGlobalValueIm
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetOvergrowDamgeToGlobalValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetOvergrowDamgeToGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2462,7 +2462,7 @@ void __cdecl SetRegionalPlayVarValueImpl::SetRegionalPlayVarValueImpl(
   int (**v2)(...); // rdx
 
   data::SetRegionalPlayVarValue::SetRegionalPlayVarValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetRegionalPlayVarValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2473,7 +2473,7 @@ void __cdecl SetRegionalPlayVarValueImpl::~SetRegionalPlayVarValueImpl(SetRegion
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetRegionalPlayVarValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2514,7 +2514,7 @@ void __cdecl AddRegionalPlayVarValueImpl::AddRegionalPlayVarValueImpl(
   int (**v2)(...); // rdx
 
   data::AddRegionalPlayVarValue::AddRegionalPlayVarValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddRegionalPlayVarValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2532,7 +2532,7 @@ void __cdecl AddRegionalPlayVarValueImpl::~AddRegionalPlayVarValueImpl(AddRegion
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddRegionalPlayVarValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2564,7 +2564,7 @@ void __cdecl SetLogicStateValueImpl::SetLogicStateValueImpl(SetLogicStateValueIm
   int (**v1)(...); // rdx
 
   data::SetLogicStateValue::SetLogicStateValue(this);
-  v1 = (int (**)(...))(&`vtable for'SetLogicStateValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2578,7 +2578,7 @@ void __cdecl SetLogicStateValueImpl::SetLogicStateValueImpl(
   int (**v2)(...); // rdx
 
   data::SetLogicStateValue::SetLogicStateValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetLogicStateValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2596,7 +2596,7 @@ void __cdecl SetLogicStateValueImpl::~SetLogicStateValueImpl(SetLogicStateValueI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetLogicStateValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2625,7 +2625,7 @@ void __cdecl AddLogicStateValueImpl::AddLogicStateValueImpl(AddLogicStateValueIm
   int (**v1)(...); // rdx
 
   data::AddLogicStateValue::AddLogicStateValue(this);
-  v1 = (int (**)(...))(&`vtable for'AddLogicStateValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2639,7 +2639,7 @@ void __cdecl AddLogicStateValueImpl::AddLogicStateValueImpl(
   int (**v2)(...); // rdx
 
   data::AddLogicStateValue::AddLogicStateValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddLogicStateValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2657,7 +2657,7 @@ void __cdecl AddLogicStateValueImpl::~AddLogicStateValueImpl(AddLogicStateValueI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddLogicStateValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddLogicStateValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2686,7 +2686,7 @@ void __cdecl AttackByEnergyImpl::AttackByEnergyImpl(AttackByEnergyImpl *const th
   int (**v2)(...); // rdx
 
   data::AttackByEnergy::AttackByEnergy(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AttackByEnergyImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AttackByEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2697,7 +2697,7 @@ void __cdecl AttackByEnergyImpl::~AttackByEnergyImpl(AttackByEnergyImpl *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AttackByEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttackByEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2735,7 +2735,7 @@ void __cdecl ServerLuaTriggerEventImpl::ServerLuaTriggerEventImpl(
   int (**v2)(...); // rdx
 
   data::ServerLuaTriggerEvent::ServerLuaTriggerEvent(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ServerLuaTriggerEventImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ServerLuaTriggerEventImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2753,7 +2753,7 @@ void __cdecl ServerLuaTriggerEventImpl::~ServerLuaTriggerEventImpl(ServerLuaTrig
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ServerLuaTriggerEventImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerLuaTriggerEventImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2787,7 +2787,7 @@ void __cdecl AvatarShareCDSkillStartImpl::AvatarShareCDSkillStartImpl(
   int (**v2)(...); // rdx
 
   data::AvatarShareCDSkillStart::AvatarShareCDSkillStart(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AvatarShareCDSkillStartImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AvatarShareCDSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2805,7 +2805,7 @@ void __cdecl AvatarShareCDSkillStartImpl::~AvatarShareCDSkillStartImpl(AvatarSha
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarShareCDSkillStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarShareCDSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2837,7 +2837,7 @@ void __cdecl DropSubfieldImpl::DropSubfieldImpl(DropSubfieldImpl *const this, co
   int (**v2)(...); // rdx
 
   data::DropSubfield::DropSubfield(this, a2);
-  v2 = (int (**)(...))(&`vtable for'DropSubfieldImpl + 2);
+  v2 = (int (**)(...))(&`vtable for DropSubfieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2848,7 +2848,7 @@ void __cdecl DropSubfieldImpl::~DropSubfieldImpl(DropSubfieldImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DropSubfieldImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DropSubfieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2884,7 +2884,7 @@ void __cdecl ChangeGadgetStateImpl::ChangeGadgetStateImpl(ChangeGadgetStateImpl 
   int (**v1)(...); // rdx
 
   data::ChangeGadgetState::ChangeGadgetState(this);
-  v1 = (int (**)(...))(&`vtable for'ChangeGadgetStateImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeGadgetStateImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2898,7 +2898,7 @@ void __cdecl ChangeGadgetStateImpl::ChangeGadgetStateImpl(
   int (**v2)(...); // rdx
 
   data::ChangeGadgetState::ChangeGadgetState(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ChangeGadgetStateImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ChangeGadgetStateImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2909,7 +2909,7 @@ void __cdecl ChangeGadgetStateImpl::~ChangeGadgetStateImpl(ChangeGadgetStateImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChangeGadgetStateImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeGadgetStateImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2946,7 +2946,7 @@ void __cdecl SetTeamFightPropertyToOverrideMapKeyImpl::SetTeamFightPropertyToOve
   int (**v1)(...); // rdx
 
   data::SetTeamFightPropertyToOverrideMapKey::SetTeamFightPropertyToOverrideMapKey(this);
-  v1 = (int (**)(...))(&`vtable for'SetTeamFightPropertyToOverrideMapKeyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetTeamFightPropertyToOverrideMapKeyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -2960,7 +2960,7 @@ void __cdecl SetTeamFightPropertyToOverrideMapKeyImpl::SetTeamFightPropertyToOve
   int (**v2)(...); // rdx
 
   data::SetTeamFightPropertyToOverrideMapKey::SetTeamFightPropertyToOverrideMapKey(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SetTeamFightPropertyToOverrideMapKeyImpl + 2);
+  v2 = (int (**)(...))(&`vtable for SetTeamFightPropertyToOverrideMapKeyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v2;
@@ -2980,7 +2980,7 @@ void __cdecl SetTeamFightPropertyToOverrideMapKeyImpl::~SetTeamFightPropertyToOv
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SetTeamFightPropertyToOverrideMapKeyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetTeamFightPropertyToOverrideMapKeyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3012,7 +3012,7 @@ void __cdecl AvatarShareCDSkillStartImpl::AvatarShareCDSkillStartImpl(AvatarShar
   int (**v1)(...); // rdx
 
   data::AvatarShareCDSkillStart::AvatarShareCDSkillStart(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarShareCDSkillStartImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarShareCDSkillStartImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3024,7 +3024,7 @@ void __cdecl CopyGlobalValueImpl::CopyGlobalValueImpl(CopyGlobalValueImpl *const
   int (**v1)(...); // rdx
 
   data::CopyGlobalValue::CopyGlobalValue(this);
-  v1 = (int (**)(...))(&`vtable for'CopyGlobalValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for CopyGlobalValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3037,7 +3037,7 @@ void __cdecl SetGlobalValueToOverrideMapImpl::SetGlobalValueToOverrideMapImpl(
   int (**v1)(...); // rdx
 
   data::SetGlobalValueToOverrideMap::SetGlobalValueToOverrideMap(this);
-  v1 = (int (**)(...))(&`vtable for'SetGlobalValueToOverrideMapImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetGlobalValueToOverrideMapImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3049,7 +3049,7 @@ void __cdecl SetOverrideMapValueImpl::SetOverrideMapValueImpl(SetOverrideMapValu
   int (**v1)(...); // rdx
 
   data::SetOverrideMapValue::SetOverrideMapValue(this);
-  v1 = (int (**)(...))(&`vtable for'SetOverrideMapValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetOverrideMapValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3062,7 +3062,7 @@ void __cdecl SetGlobalValueByTargetDistanceImpl::SetGlobalValueByTargetDistanceI
   int (**v1)(...); // rdx
 
   data::SetGlobalValueByTargetDistance::SetGlobalValueByTargetDistance(this);
-  v1 = (int (**)(...))(&`vtable for'SetGlobalValueByTargetDistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetGlobalValueByTargetDistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3074,7 +3074,7 @@ void __cdecl LoseHPImpl::LoseHPImpl(LoseHPImpl *const this)
   int (**v1)(...); // rdx
 
   data::LoseHP::LoseHP(this);
-  v1 = (int (**)(...))(&`vtable for'LoseHPImpl + 2);
+  v1 = (int (**)(...))(&`vtable for LoseHPImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3086,7 +3086,7 @@ void __cdecl ReviveAvatarImpl::ReviveAvatarImpl(ReviveAvatarImpl *const this)
   int (**v1)(...); // rdx
 
   data::ReviveAvatar::ReviveAvatar(this);
-  v1 = (int (**)(...))(&`vtable for'ReviveAvatarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3098,7 +3098,7 @@ void __cdecl ReviveDeadAvatarImpl::ReviveDeadAvatarImpl(ReviveDeadAvatarImpl *co
   int (**v1)(...); // rdx
 
   data::ReviveDeadAvatar::ReviveDeadAvatar(this);
-  v1 = (int (**)(...))(&`vtable for'ReviveDeadAvatarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveDeadAvatarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3110,7 +3110,7 @@ void __cdecl DebugLogImpl::DebugLogImpl(DebugLogImpl *const this)
   int (**v1)(...); // rdx
 
   data::DebugLog::DebugLog(this);
-  v1 = (int (**)(...))(&`vtable for'DebugLogImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DebugLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3122,7 +3122,7 @@ void __cdecl TriggerDropEquipPartsImpl::TriggerDropEquipPartsImpl(TriggerDropEqu
   int (**v1)(...); // rdx
 
   data::TriggerDropEquipParts::TriggerDropEquipParts(this);
-  v1 = (int (**)(...))(&`vtable for'TriggerDropEquipPartsImpl + 2);
+  v1 = (int (**)(...))(&`vtable for TriggerDropEquipPartsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3134,7 +3134,7 @@ void __cdecl SetCrashDamageImpl::SetCrashDamageImpl(SetCrashDamageImpl *const th
   int (**v1)(...); // rdx
 
   data::SetCrashDamage::SetCrashDamage(this);
-  v1 = (int (**)(...))(&`vtable for'SetCrashDamageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetCrashDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3147,7 +3147,7 @@ void __cdecl AttachAbilityStateResistanceImpl::AttachAbilityStateResistanceImpl(
   int (**v1)(...); // rdx
 
   data::AttachAbilityStateResistance::AttachAbilityStateResistance(this);
-  v1 = (int (**)(...))(&`vtable for'AttachAbilityStateResistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttachAbilityStateResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3159,7 +3159,7 @@ void __cdecl DropSubfieldImpl::DropSubfieldImpl(DropSubfieldImpl *const this)
   int (**v1)(...); // rdx
 
   data::DropSubfield::DropSubfield(this);
-  v1 = (int (**)(...))(&`vtable for'DropSubfieldImpl + 2);
+  v1 = (int (**)(...))(&`vtable for DropSubfieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3171,7 +3171,7 @@ void __cdecl AddServerBuffImpl::AddServerBuffImpl(AddServerBuffImpl *const this)
   int (**v1)(...); // rdx
 
   data::AddServerBuff::AddServerBuff(this);
-  v1 = (int (**)(...))(&`vtable for'AddServerBuffImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3183,7 +3183,7 @@ void __cdecl RemoveServerBuffImpl::RemoveServerBuffImpl(RemoveServerBuffImpl *co
   int (**v1)(...); // rdx
 
   data::RemoveServerBuff::RemoveServerBuff(this);
-  v1 = (int (**)(...))(&`vtable for'RemoveServerBuffImpl + 2);
+  v1 = (int (**)(...))(&`vtable for RemoveServerBuffImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3195,7 +3195,7 @@ void __cdecl ResetAbilitySpecialImpl::ResetAbilitySpecialImpl(ResetAbilitySpecia
   int (**v1)(...); // rdx
 
   data::ResetAbilitySpecial::ResetAbilitySpecial(this);
-  v1 = (int (**)(...))(&`vtable for'ResetAbilitySpecialImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ResetAbilitySpecialImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3207,7 +3207,7 @@ void __cdecl UseItemImpl::UseItemImpl(UseItemImpl *const this)
   int (**v1)(...); // rdx
 
   data::UseItem::UseItem(this);
-  v1 = (int (**)(...))(&`vtable for'UseItemImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UseItemImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3219,7 +3219,7 @@ void __cdecl ChangeTagImpl::ChangeTagImpl(ChangeTagImpl *const this)
   int (**v1)(...); // rdx
 
   data::ChangeTag::ChangeTag(this);
-  v1 = (int (**)(...))(&`vtable for'ChangeTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3232,7 +3232,7 @@ void __cdecl AttachElementTypeResistanceImpl::AttachElementTypeResistanceImpl(
   int (**v1)(...); // rdx
 
   data::AttachElementTypeResistance::AttachElementTypeResistance(this);
-  v1 = (int (**)(...))(&`vtable for'AttachElementTypeResistanceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttachElementTypeResistanceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3244,7 +3244,7 @@ void __cdecl ReviveElemEnergyImpl::ReviveElemEnergyImpl(ReviveElemEnergyImpl *co
   int (**v1)(...); // rdx
 
   data::ReviveElemEnergy::ReviveElemEnergy(this);
-  v1 = (int (**)(...))(&`vtable for'ReviveElemEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ReviveElemEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3256,7 +3256,7 @@ void __cdecl ServerLuaCallImpl::ServerLuaCallImpl(ServerLuaCallImpl *const this)
   int (**v1)(...); // rdx
 
   data::ServerLuaCall::ServerLuaCall(this);
-  v1 = (int (**)(...))(&`vtable for'ServerLuaCallImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerLuaCallImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3268,7 +3268,7 @@ void __cdecl KillPlayTeamEntityImpl::KillPlayTeamEntityImpl(KillPlayTeamEntityIm
   int (**v1)(...); // rdx
 
   data::KillPlayEntity::KillPlayEntity(this);
-  v1 = (int (**)(...))(&`vtable for'KillPlayTeamEntityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for KillPlayTeamEntityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3280,7 +3280,7 @@ void __cdecl ServerMonsterLogImpl::ServerMonsterLogImpl(ServerMonsterLogImpl *co
   int (**v1)(...); // rdx
 
   data::ServerMonsterLog::ServerMonsterLog(this);
-  v1 = (int (**)(...))(&`vtable for'ServerMonsterLogImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerMonsterLogImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3292,7 +3292,7 @@ void __cdecl AttackByEnergyImpl::AttackByEnergyImpl(AttackByEnergyImpl *const th
   int (**v1)(...); // rdx
 
   data::AttackByEnergy::AttackByEnergy(this);
-  v1 = (int (**)(...))(&`vtable for'AttackByEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AttackByEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3304,7 +3304,7 @@ void __cdecl SetRegionalPlayVarValueImpl::SetRegionalPlayVarValueImpl(SetRegiona
   int (**v1)(...); // rdx
 
   data::SetRegionalPlayVarValue::SetRegionalPlayVarValue(this);
-  v1 = (int (**)(...))(&`vtable for'SetRegionalPlayVarValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for SetRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3316,7 +3316,7 @@ void __cdecl AddRegionalPlayVarValueImpl::AddRegionalPlayVarValueImpl(AddRegiona
   int (**v1)(...); // rdx
 
   data::AddRegionalPlayVarValue::AddRegionalPlayVarValue(this);
-  v1 = (int (**)(...))(&`vtable for'AddRegionalPlayVarValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddRegionalPlayVarValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;
@@ -3328,7 +3328,7 @@ void __cdecl ServerLuaTriggerEventImpl::ServerLuaTriggerEventImpl(ServerLuaTrigg
   int (**v1)(...); // rdx
 
   data::ServerLuaTriggerEvent::ServerLuaTriggerEvent(this);
-  v1 = (int (**)(...))(&`vtable for'ServerLuaTriggerEventImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ServerLuaTriggerEventImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActionContainer = v1;

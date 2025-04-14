@@ -8,7 +8,7 @@ void __cdecl RandomQuestFilter::RandomQuestFilter(
 {
   int (**v3)(...); // rdx
 
-  v3 = (int (**)(...))(&`vtable for'RandomQuestFilter + 2);
+  v3 = (int (**)(...))(&`vtable for RandomQuestFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, factor_name);
   this->_vptr_RandomQuestFilter = v3;
@@ -22,7 +22,7 @@ void __cdecl RandomQuestFilter::~RandomQuestFilter(RandomQuestFilter *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RandomQuestFilter + 2);
+  v2 = (int (**)(...))(&`vtable for RandomQuestFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilter = v2;
@@ -52,7 +52,7 @@ void __cdecl RandomQuestPlayerPosRingFilter::RandomQuestPlayerPosRingFilter(
   int (**v3)(...); // rdx
 
   RandomQuestFilter::RandomQuestFilter(this, factor_name, param_vec);
-  v3 = (int (**)(...))(&`vtable for'RandomQuestPlayerPosRingFilter + 2);
+  v3 = (int (**)(...))(&`vtable for RandomQuestPlayerPosRingFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, factor_name);
   this->_vptr_RandomQuestFilter = v3;
@@ -65,7 +65,7 @@ void __cdecl RandomQuestPlayerPosRingFilter::~RandomQuestPlayerPosRingFilter(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RandomQuestPlayerPosRingFilter + 2);
+  v2 = (int (**)(...))(&`vtable for RandomQuestPlayerPosRingFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilter = v2;
@@ -89,7 +89,7 @@ void __cdecl RandomQuestNpcFilter::RandomQuestNpcFilter(
   int (**v3)(...); // rdx
 
   RandomQuestFilter::RandomQuestFilter(this, factor_name, param_vec);
-  v3 = (int (**)(...))(&`vtable for'RandomQuestNpcFilter + 2);
+  v3 = (int (**)(...))(&`vtable for RandomQuestNpcFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, factor_name);
   this->_vptr_RandomQuestFilter = v3;
@@ -101,7 +101,7 @@ void __cdecl RandomQuestNpcFilter::~RandomQuestNpcFilter(RandomQuestNpcFilter *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RandomQuestNpcFilter + 2);
+  v2 = (int (**)(...))(&`vtable for RandomQuestNpcFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilter = v2;
@@ -124,7 +124,7 @@ void __cdecl RandomQuestPlayerLevelFilter::RandomQuestPlayerLevelFilter(
   int (**v3)(...); // rdx
 
   RandomQuestFilter::RandomQuestFilter(this, factor_name, param_vec);
-  v3 = (int (**)(...))(&`vtable for'RandomQuestPlayerLevelFilter + 2);
+  v3 = (int (**)(...))(&`vtable for RandomQuestPlayerLevelFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, factor_name);
   this->_vptr_RandomQuestFilter = v3;
@@ -136,7 +136,7 @@ void __cdecl RandomQuestPlayerLevelFilter::~RandomQuestPlayerLevelFilter(RandomQ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RandomQuestPlayerLevelFilter + 2);
+  v2 = (int (**)(...))(&`vtable for RandomQuestPlayerLevelFilter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilter = v2;

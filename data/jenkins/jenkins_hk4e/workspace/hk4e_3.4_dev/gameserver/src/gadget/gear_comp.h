@@ -5,7 +5,7 @@ void __cdecl GearComp::~GearComp(GearComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GearComp + 2);
+  v1 = (int (**)(...))(&`vtable for GearComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ZN8GearCompCI214GadgetCompBaseER6Gadget(GearComp *const this, Gadge
   int (**v2)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GearComp + 2);
+  v2 = (int (**)(...))(&`vtable for GearComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;

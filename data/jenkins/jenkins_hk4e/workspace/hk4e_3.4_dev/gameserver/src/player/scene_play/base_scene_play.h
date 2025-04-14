@@ -27,7 +27,7 @@ void __cdecl BaseScenePlay::BaseScenePlay(BaseScenePlay *const this, Player *pla
   bool v6; // dl
 
   std::enable_shared_from_this<BaseScenePlay>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseScenePlay>);
-  v3 = (int (**)(...))(&`vtable for'BaseScenePlay + 2);
+  v3 = (int (**)(...))(&`vtable for BaseScenePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_BaseScenePlay = v3;
@@ -67,7 +67,7 @@ void __cdecl BaseScenePlay::~BaseScenePlay(BaseScenePlay *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseScenePlay + 2);
+  v2 = (int (**)(...))(&`vtable for BaseScenePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseScenePlay = v2;

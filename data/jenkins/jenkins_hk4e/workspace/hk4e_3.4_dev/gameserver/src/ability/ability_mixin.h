@@ -12,7 +12,7 @@ void __cdecl AbilityDebugMixin::~AbilityDebugMixin(AbilityDebugMixin *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityDebugMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityDebugMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -28,7 +28,7 @@ void __cdecl ZN17AbilityDebugMixinCI216BaseAbilityMixinESt10shared_ptrIN4data18C
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityDebugMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityDebugMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -48,7 +48,7 @@ void __cdecl AbilityAvatarSteerByCameraMixin::~AbilityAvatarSteerByCameraMixin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityAvatarSteerByCameraMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityAvatarSteerByCameraMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -64,7 +64,7 @@ void __cdecl ZN31AbilityAvatarSteerByCameraMixinCI216BaseAbilityMixinESt10shared
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityAvatarSteerByCameraMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityAvatarSteerByCameraMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -75,7 +75,7 @@ void __cdecl AbilityCostStaminaMixin::~AbilityCostStaminaMixin(AbilityCostStamin
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityCostStaminaMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityCostStaminaMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -98,7 +98,7 @@ void __cdecl ZN23AbilityCostStaminaMixinCI216BaseAbilityMixinESt10shared_ptrIN4d
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityCostStaminaMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityCostStaminaMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -115,7 +115,7 @@ void __cdecl AbilityReviveElemEnergyMixin::~AbilityReviveElemEnergyMixin(Ability
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityReviveElemEnergyMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityReviveElemEnergyMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -138,7 +138,7 @@ void __cdecl ZN28AbilityReviveElemEnergyMixinCI216BaseAbilityMixinESt10shared_pt
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityReviveElemEnergyMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityReviveElemEnergyMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -156,7 +156,7 @@ void __cdecl AbilityElementShieldMixin::~AbilityElementShieldMixin(AbilityElemen
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityElementShieldMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityElementShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -174,7 +174,7 @@ void __cdecl ZN25AbilityElementShieldMixinCI216BaseAbilityMixinESt10shared_ptrIN
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityElementShieldMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityElementShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -214,7 +214,7 @@ void __cdecl AbilityEliteShieldMixin::~AbilityEliteShieldMixin(AbilityEliteShiel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityEliteShieldMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityEliteShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -237,7 +237,7 @@ void __cdecl ZN23AbilityEliteShieldMixinCI216BaseAbilityMixinESt10shared_ptrIN4d
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityEliteShieldMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityEliteShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -270,7 +270,7 @@ void __cdecl ZN25AbilityResistClimateMixinCI216BaseAbilityMixinESt10shared_ptrIN
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityResistClimateMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityResistClimateMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -281,7 +281,7 @@ void __cdecl AbilityGlobalMainShieldMixin::~AbilityGlobalMainShieldMixin(Ability
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityGlobalMainShieldMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityGlobalMainShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -304,7 +304,7 @@ void __cdecl ZN28AbilityGlobalMainShieldMixinCI216BaseAbilityMixinESt10shared_pt
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityGlobalMainShieldMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityGlobalMainShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -340,7 +340,7 @@ void __cdecl AbilityShieldBarMixin::~AbilityShieldBarMixin(AbilityShieldBarMixin
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityShieldBarMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityShieldBarMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -356,7 +356,7 @@ void __cdecl ZN21AbilityShieldBarMixinCI216BaseAbilityMixinESt10shared_ptrIN4dat
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityShieldBarMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityShieldBarMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -386,7 +386,7 @@ void __cdecl AbilityGlobalSubShieldMixin::~AbilityGlobalSubShieldMixin(AbilityGl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityGlobalSubShieldMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityGlobalSubShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -402,7 +402,7 @@ void __cdecl ZN27AbilityGlobalSubShieldMixinCI216BaseAbilityMixinESt10shared_ptr
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityGlobalSubShieldMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityGlobalSubShieldMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -420,7 +420,7 @@ void __cdecl AbilityEntityDefenceMixin::~AbilityEntityDefenceMixin(AbilityEntity
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityEntityDefenceMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityEntityDefenceMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -436,7 +436,7 @@ void __cdecl ZN25AbilityEntityDefenceMixinCI216BaseAbilityMixinESt10shared_ptrIN
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityEntityDefenceMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityEntityDefenceMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -454,7 +454,7 @@ void __cdecl AbilityMonsterDefendMixin::~AbilityMonsterDefendMixin(AbilityMonste
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityMonsterDefendMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityMonsterDefendMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -473,7 +473,7 @@ void __cdecl ZN25AbilityMonsterDefendMixinCI216BaseAbilityMixinESt10shared_ptrIN
     this,
     p_,
     a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityMonsterDefendMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityMonsterDefendMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -487,7 +487,7 @@ void __cdecl AbilityWindSeedSpawnerMixin::~AbilityWindSeedSpawnerMixin(AbilityWi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityWindSeedSpawnerMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityWindSeedSpawnerMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -510,7 +510,7 @@ void __cdecl ZN27AbilityWindSeedSpawnerMixinCI216BaseAbilityMixinESt10shared_ptr
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityWindSeedSpawnerMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityWindSeedSpawnerMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -530,7 +530,7 @@ void __cdecl AbilityServerCreateGadgetOnKillMixin::~AbilityServerCreateGadgetOnK
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityServerCreateGadgetOnKillMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityServerCreateGadgetOnKillMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -546,7 +546,7 @@ void __cdecl ZN36AbilityServerCreateGadgetOnKillMixinCI216BaseAbilityMixinESt10s
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityServerCreateGadgetOnKillMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityServerCreateGadgetOnKillMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -557,7 +557,7 @@ void __cdecl AbilityModifyDamageMixin::~AbilityModifyDamageMixin(AbilityModifyDa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityModifyDamageMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityModifyDamageMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -580,7 +580,7 @@ void __cdecl ZN24AbilityModifyDamageMixinCI216BaseAbilityMixinESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityModifyDamageMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityModifyDamageMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -598,7 +598,7 @@ void __cdecl AbilityResistClimateMixin::~AbilityResistClimateMixin(AbilityResist
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityResistClimateMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityResistClimateMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -611,7 +611,7 @@ void __cdecl AbilityModifySkillCDByModifierCountMixin::~AbilityModifySkillCDByMo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityModifySkillCDByModifierCountMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityModifySkillCDByModifierCountMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -635,7 +635,7 @@ void __cdecl ZN40AbilityModifySkillCDByModifierCountMixinCI216BaseAbilityMixinES
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityModifySkillCDByModifierCountMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityModifySkillCDByModifierCountMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -655,7 +655,7 @@ void __cdecl AbilityServerFinishWatcherMixin::~AbilityServerFinishWatcherMixin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityServerFinishWatcherMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityServerFinishWatcherMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -671,7 +671,7 @@ void __cdecl ZN31AbilityServerFinishWatcherMixinCI216BaseAbilityMixinESt10shared
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityServerFinishWatcherMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityServerFinishWatcherMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -689,7 +689,7 @@ void __cdecl AbilityMoveStateMixin::~AbilityMoveStateMixin(AbilityMoveStateMixin
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityMoveStateMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityMoveStateMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -705,7 +705,7 @@ void __cdecl ZN21AbilityMoveStateMixinCI216BaseAbilityMixinESt10shared_ptrIN4dat
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityMoveStateMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityMoveStateMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -725,7 +725,7 @@ void __cdecl AbilityFieldEntityCountChangeMixin::~AbilityFieldEntityCountChangeM
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityFieldEntityCountChangeMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityFieldEntityCountChangeMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -741,7 +741,7 @@ void __cdecl ZN34AbilityFieldEntityCountChangeMixinCI216BaseAbilityMixinESt10sha
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityFieldEntityCountChangeMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityFieldEntityCountChangeMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -764,7 +764,7 @@ void __cdecl AbilityScenePropSyncMixin::~AbilityScenePropSyncMixin(AbilitySceneP
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityScenePropSyncMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityScenePropSyncMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -806,7 +806,7 @@ void __cdecl ZN25AbilityScenePropSyncMixinCI216BaseAbilityMixinESt10shared_ptrIN
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityScenePropSyncMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityScenePropSyncMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -831,7 +831,7 @@ void __cdecl AbilityClampDamageReceivedMixin::~AbilityClampDamageReceivedMixin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityClampDamageReceivedMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityClampDamageReceivedMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -855,7 +855,7 @@ void __cdecl ZN31AbilityClampDamageReceivedMixinCI216BaseAbilityMixinESt10shared
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityClampDamageReceivedMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityClampDamageReceivedMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -875,7 +875,7 @@ void __cdecl AbilityDoActionBySelfModifierElementDurabilityRatioMixin::~AbilityD
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityDoActionBySelfModifierElementDurabilityRatioMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityDoActionBySelfModifierElementDurabilityRatioMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -891,7 +891,7 @@ void __cdecl ZN56AbilityDoActionBySelfModifierElementDurabilityRatioMixinCI216Ba
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityDoActionBySelfModifierElementDurabilityRatioMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityDoActionBySelfModifierElementDurabilityRatioMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -921,7 +921,7 @@ void __cdecl AbilityFireworksLauncherMixin::~AbilityFireworksLauncherMixin(Abili
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityFireworksLauncherMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityFireworksLauncherMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -945,7 +945,7 @@ void __cdecl ZN29AbilityFireworksLauncherMixinCI216BaseAbilityMixinESt10shared_p
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityFireworksLauncherMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityFireworksLauncherMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1002,7 +1002,7 @@ void __cdecl AbilityModifyDamageCountMixin::~AbilityModifyDamageCountMixin(Abili
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityModifyDamageCountMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityModifyDamageCountMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1021,7 +1021,7 @@ void __cdecl ZN29AbilityModifyDamageCountMixinCI216BaseAbilityMixinESt10shared_p
     this,
     p_,
     a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityModifyDamageCountMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityModifyDamageCountMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1058,7 +1058,7 @@ void __cdecl AbilityModifyBeHitDamageMixin::~AbilityModifyBeHitDamageMixin(Abili
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityModifyBeHitDamageMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityModifyBeHitDamageMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1077,7 +1077,7 @@ void __cdecl ZN29AbilityModifyBeHitDamageMixinCI216BaseAbilityMixinESt10shared_p
     this,
     p_,
     a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityModifyBeHitDamageMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityModifyBeHitDamageMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1096,7 +1096,7 @@ void __cdecl BaseAbilityAfterBeingHitMixin::~BaseAbilityAfterBeingHitMixin(BaseA
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseAbilityAfterBeingHitMixin + 2);
+  v1 = (int (**)(...))(&`vtable for BaseAbilityAfterBeingHitMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1119,7 +1119,7 @@ void __cdecl ZN29BaseAbilityAfterBeingHitMixinCI216BaseAbilityMixinESt10shared_p
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'BaseAbilityAfterBeingHitMixin + 2);
+  v3 = (int (**)(...))(&`vtable for BaseAbilityAfterBeingHitMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1130,7 +1130,7 @@ void __cdecl AbilityDamageStatisticsMixin::~AbilityDamageStatisticsMixin(Ability
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityDamageStatisticsMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityDamageStatisticsMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1157,7 +1157,7 @@ void __cdecl ZN28AbilityDamageStatisticsMixinCI216BaseAbilityMixinESt10shared_pt
     this,
     p_,
     a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityDamageStatisticsMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityDamageStatisticsMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1175,7 +1175,7 @@ void __cdecl AbilityUGCTimeControlMixin::~AbilityUGCTimeControlMixin(AbilityUGCT
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityUGCTimeControlMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityUGCTimeControlMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1198,7 +1198,7 @@ void __cdecl ZN26AbilityUGCTimeControlMixinCI216BaseAbilityMixinESt10shared_ptrI
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityUGCTimeControlMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityUGCTimeControlMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1218,7 +1218,7 @@ void __cdecl AbilityAvatarCombatMixin::~AbilityAvatarCombatMixin(AbilityAvatarCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityAvatarCombatMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityAvatarCombatMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1241,7 +1241,7 @@ void __cdecl ZN24AbilityAvatarCombatMixinCI216BaseAbilityMixinESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityAvatarCombatMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityAvatarCombatMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1270,7 +1270,7 @@ void __cdecl AbilityDeathZoneRegionalPlayMixin::~AbilityDeathZoneRegionalPlayMix
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityDeathZoneRegionalPlayMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityDeathZoneRegionalPlayMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1286,7 +1286,7 @@ void __cdecl ZN33AbilityDeathZoneRegionalPlayMixinCI216BaseAbilityMixinESt10shar
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityDeathZoneRegionalPlayMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityDeathZoneRegionalPlayMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1306,7 +1306,7 @@ void __cdecl AbilityEraseBrickActivityMixin::~AbilityEraseBrickActivityMixin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityEraseBrickActivityMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityEraseBrickActivityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1323,7 +1323,7 @@ void __cdecl ZN30AbilityEraseBrickActivityMixinCI216BaseAbilityMixinESt10shared_
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityEraseBrickActivityMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityEraseBrickActivityMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;
@@ -1341,7 +1341,7 @@ void __cdecl AbilityBreakoutMixin::~AbilityBreakoutMixin(AbilityBreakoutMixin *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AbilityBreakoutMixin + 2);
+  v1 = (int (**)(...))(&`vtable for AbilityBreakoutMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v1;
@@ -1715,7 +1715,7 @@ void __cdecl ZN20AbilityBreakoutMixinCI216BaseAbilityMixinESt10shared_ptrIN4data
   int (**v3)(...); // rdx
 
   BaseAbilityMixin::BaseAbilityMixin(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'AbilityBreakoutMixin + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityBreakoutMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseAbilityMixin = v3;

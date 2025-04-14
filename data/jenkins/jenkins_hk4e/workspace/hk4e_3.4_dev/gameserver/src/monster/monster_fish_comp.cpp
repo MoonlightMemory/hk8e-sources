@@ -10,7 +10,7 @@ void __cdecl MonsterFishComp::MonsterFishComp(
   int (**v4)(...); // rdx
 
   MonsterCompBase::MonsterCompBase(this, monster);
-  v4 = (int (**)(...))(&`vtable for'MonsterFishComp + 2);
+  v4 = (int (**)(...))(&`vtable for MonsterFishComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MonsterCompBase = v4;

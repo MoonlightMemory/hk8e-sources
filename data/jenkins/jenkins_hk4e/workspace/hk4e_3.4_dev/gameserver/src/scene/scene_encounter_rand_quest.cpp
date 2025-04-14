@@ -702,7 +702,7 @@ void __cdecl SceneEncounterRandQuest::registerObserver::_lambda_auto_23___const_
       v3 = __asan_report_load8();
     is_succ = std::type_info::operator==(
                 *(const std::type_info *const *)v3,
-                (const std::type_info *)&`typeinfo for'FinishParentQuestEvent);
+                (const std::type_info *)&`typeinfo for FinishParentQuestEvent);
     EncounterComp = PlayerWorldScene::getEncounterComp(world_scene);
     rand_quest_ptr = SceneEncounterComp::findSceneEncounterRandQuest(EncounterComp);
     if ( rand_quest_ptr )
@@ -744,7 +744,7 @@ void __cdecl SceneEncounterRandQuest::registerObserver::_lambda_auto_23___const_
       v3 = __asan_report_load8();
     is_succ = std::type_info::operator==(
                 *(const std::type_info *const *)v3,
-                (const std::type_info *)&`typeinfo for'FinishParentQuestEvent);
+                (const std::type_info *)&`typeinfo for FinishParentQuestEvent);
     EncounterComp = PlayerWorldScene::getEncounterComp(world_scene);
     rand_quest_ptr = SceneEncounterComp::findSceneEncounterRandQuest(EncounterComp);
     if ( rand_quest_ptr )

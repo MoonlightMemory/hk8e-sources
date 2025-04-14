@@ -12,7 +12,7 @@ void __cdecl Gadget::~Gadget(Gadget *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'Gadget + 2;
+  v1 = &`vtable for Gadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -31,7 +31,7 @@ void __cdecl Gadget::Gadget(Gadget *const this, uint32_t gadget_id)
 
   Creature::Creature(this);
   EcsBase<Gadget,GadgetCompBase,28u>::EcsBase(&this->EcsBase<Gadget,GadgetCompBase,28>);
-  v2 = &`vtable for'Gadget + 2;
+  v2 = &`vtable for Gadget + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v2;

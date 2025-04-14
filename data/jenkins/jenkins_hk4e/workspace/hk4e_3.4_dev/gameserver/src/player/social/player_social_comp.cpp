@@ -5653,11 +5653,11 @@ const std::string *__fastcall PlayerSocialComp::findFriendRemarkName[abi:cxx11](
   v4[536862721] = -234556943;
   v4[536862722] = -202116352;
   *(_DWORD *)(v2 + 48) = uid;
-  if ( !(_BYTE)`guard variable for'PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str
-    && __cxa_guard_acquire(&`guard variable for'PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str) )
+  if ( !(_BYTE)`guard variable for PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str
+    && __cxa_guard_acquire(&`guard variable for PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str) )
   {
     std::string::basic_string(&PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str);
-    __cxa_guard_release(&`guard variable for'PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str);
+    __cxa_guard_release(&`guard variable for PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       &PlayerSocialComp::findFriendRemarkName[abi:cxx11](unsigned int)::empty_str,

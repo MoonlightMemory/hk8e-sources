@@ -5,7 +5,7 @@ void __cdecl CrystalComp::~CrystalComp(CrystalComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CrystalComp + 2);
+  v1 = (int (**)(...))(&`vtable for CrystalComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v1;
@@ -27,7 +27,7 @@ void __cdecl ZN11CrystalCompCI214GadgetCompBaseER6Gadget(CrystalComp *const this
   int (**v2)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CrystalComp + 2);
+  v2 = (int (**)(...))(&`vtable for CrystalComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;

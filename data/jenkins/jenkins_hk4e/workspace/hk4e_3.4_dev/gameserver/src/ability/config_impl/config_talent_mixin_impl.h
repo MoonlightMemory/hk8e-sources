@@ -6,7 +6,7 @@ void __cdecl AddAbilityImpl::AddAbilityImpl(AddAbilityImpl *const this, const Ad
   int (**v2)(...); // rdx
 
   data::AddAbility::AddAbility(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddAbilityImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -24,7 +24,7 @@ void __cdecl AddAbilityImpl::~AddAbilityImpl(AddAbilityImpl *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddAbilityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -37,7 +37,7 @@ void __cdecl ModifyAbilityImpl::ModifyAbilityImpl(ModifyAbilityImpl *const this,
   int (**v2)(...); // rdx
 
   data::ModifyAbility::ModifyAbility(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifyAbilityImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifyAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -55,7 +55,7 @@ void __cdecl ModifyAbilityImpl::~ModifyAbilityImpl(ModifyAbilityImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifyAbilityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -70,7 +70,7 @@ void __cdecl UnlockTalentParamImpl::UnlockTalentParamImpl(
   int (**v2)(...); // rdx
 
   data::UnlockTalentParam::UnlockTalentParam(this, a2);
-  v2 = (int (**)(...))(&`vtable for'UnlockTalentParamImpl + 2);
+  v2 = (int (**)(...))(&`vtable for UnlockTalentParamImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -88,7 +88,7 @@ void __cdecl UnlockTalentParamImpl::~UnlockTalentParamImpl(UnlockTalentParamImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UnlockTalentParamImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UnlockTalentParamImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -103,7 +103,7 @@ void __cdecl UnlockControllerConditionsImpl::UnlockControllerConditionsImpl(
   int (**v2)(...); // rdx
 
   data::UnlockControllerConditions::UnlockControllerConditions(this, a2);
-  v2 = (int (**)(...))(&`vtable for'UnlockControllerConditionsImpl + 2);
+  v2 = (int (**)(...))(&`vtable for UnlockControllerConditionsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -115,7 +115,7 @@ void __cdecl UnlockControllerConditionsImpl::~UnlockControllerConditionsImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UnlockControllerConditionsImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UnlockControllerConditionsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -136,7 +136,7 @@ void __cdecl ModifySkillCDImpl::ModifySkillCDImpl(ModifySkillCDImpl *const this,
   int (**v2)(...); // rdx
 
   data::ModifySkillCD::ModifySkillCD(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifySkillCDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifySkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -147,7 +147,7 @@ void __cdecl ModifySkillCDImpl::~ModifySkillCDImpl(ModifySkillCDImpl *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -167,7 +167,7 @@ void __cdecl ModifySkillCostImpl::ModifySkillCostImpl(ModifySkillCostImpl *const
   int (**v2)(...); // rdx
 
   data::ModifySkillCost::ModifySkillCost(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifySkillCostImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifySkillCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -178,7 +178,7 @@ void __cdecl ModifySkillCostImpl::~ModifySkillCostImpl(ModifySkillCostImpl *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -200,7 +200,7 @@ void __cdecl ModifySkillPointImpl::ModifySkillPointImpl(
   int (**v2)(...); // rdx
 
   data::ModifySkillPoint::ModifySkillPoint(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ModifySkillPointImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ModifySkillPointImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -211,7 +211,7 @@ void __cdecl ModifySkillPointImpl::~ModifySkillPointImpl(ModifySkillPointImpl *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ModifySkillPointImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillPointImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -233,7 +233,7 @@ void __cdecl AddTalentExtraLevelImpl::AddTalentExtraLevelImpl(
   int (**v2)(...); // rdx
 
   data::AddTalentExtraLevel::AddTalentExtraLevel(this, a2);
-  v2 = (int (**)(...))(&`vtable for'AddTalentExtraLevelImpl + 2);
+  v2 = (int (**)(...))(&`vtable for AddTalentExtraLevelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v2;
@@ -244,7 +244,7 @@ void __cdecl AddTalentExtraLevelImpl::~AddTalentExtraLevelImpl(AddTalentExtraLev
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AddTalentExtraLevelImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddTalentExtraLevelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -264,7 +264,7 @@ void __cdecl AddAbilityImpl::AddAbilityImpl(AddAbilityImpl *const this)
   int (**v1)(...); // rdx
 
   data::AddAbility::AddAbility(this);
-  v1 = (int (**)(...))(&`vtable for'AddAbilityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -276,7 +276,7 @@ void __cdecl ModifyAbilityImpl::ModifyAbilityImpl(ModifyAbilityImpl *const this)
   int (**v1)(...); // rdx
 
   data::ModifyAbility::ModifyAbility(this);
-  v1 = (int (**)(...))(&`vtable for'ModifyAbilityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifyAbilityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -288,7 +288,7 @@ void __cdecl UnlockTalentParamImpl::UnlockTalentParamImpl(UnlockTalentParamImpl 
   int (**v1)(...); // rdx
 
   data::UnlockTalentParam::UnlockTalentParam(this);
-  v1 = (int (**)(...))(&`vtable for'UnlockTalentParamImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UnlockTalentParamImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -300,7 +300,7 @@ void __cdecl UnlockControllerConditionsImpl::UnlockControllerConditionsImpl(Unlo
   int (**v1)(...); // rdx
 
   data::UnlockControllerConditions::UnlockControllerConditions(this);
-  v1 = (int (**)(...))(&`vtable for'UnlockControllerConditionsImpl + 2);
+  v1 = (int (**)(...))(&`vtable for UnlockControllerConditionsImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -312,7 +312,7 @@ void __cdecl ModifySkillCDImpl::ModifySkillCDImpl(ModifySkillCDImpl *const this)
   int (**v1)(...); // rdx
 
   data::ModifySkillCD::ModifySkillCD(this);
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -324,7 +324,7 @@ void __cdecl ModifySkillCostImpl::ModifySkillCostImpl(ModifySkillCostImpl *const
   int (**v1)(...); // rdx
 
   data::ModifySkillCost::ModifySkillCost(this);
-  v1 = (int (**)(...))(&`vtable for'ModifySkillCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -336,7 +336,7 @@ void __cdecl ModifySkillPointImpl::ModifySkillPointImpl(ModifySkillPointImpl *co
   int (**v1)(...); // rdx
 
   data::ModifySkillPoint::ModifySkillPoint(this);
-  v1 = (int (**)(...))(&`vtable for'ModifySkillPointImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ModifySkillPointImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;
@@ -348,7 +348,7 @@ void __cdecl AddTalentExtraLevelImpl::AddTalentExtraLevelImpl(AddTalentExtraLeve
   int (**v1)(...); // rdx
 
   data::AddTalentExtraLevel::AddTalentExtraLevel(this);
-  v1 = (int (**)(...))(&`vtable for'AddTalentExtraLevelImpl + 2);
+  v1 = (int (**)(...))(&`vtable for AddTalentExtraLevelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigTalentMixin = v1;

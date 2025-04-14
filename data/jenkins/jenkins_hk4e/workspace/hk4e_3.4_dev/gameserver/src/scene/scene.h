@@ -99,7 +99,7 @@ void __cdecl SceneEntity::SceneEntity(SceneEntity *const this)
   __int64 *v2; // rdx
 
   Creature::Creature(this);
-  v2 = &`vtable for'SceneEntity + 2;
+  v2 = &`vtable for SceneEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -112,7 +112,7 @@ void __cdecl SceneEntity::~SceneEntity(SceneEntity *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'SceneEntity + 2;
+  v2 = &`vtable for SceneEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -190,7 +190,7 @@ void __cdecl MPLevelEntity::MPLevelEntity(MPLevelEntity *const this)
   __int64 *v2; // rdx
 
   Creature::Creature(this);
-  v2 = &`vtable for'MPLevelEntity + 2;
+  v2 = &`vtable for MPLevelEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -202,7 +202,7 @@ void __cdecl MPLevelEntity::~MPLevelEntity(MPLevelEntity *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'MPLevelEntity + 2;
+  v2 = &`vtable for MPLevelEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -285,7 +285,7 @@ void __cdecl Scene::~Scene(Scene *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Scene + 2);
+  v2 = (int (**)(...))(&`vtable for Scene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -354,7 +354,7 @@ void __cdecl Scene::Scene(Scene *const this, uint32_t scene_id)
   std::enable_shared_from_this<Scene>::enable_shared_from_this(&this->std::enable_shared_from_this<Scene>);
   common::milog::DescribalBase::DescribalBase(this);
   EcsBase<Scene,SceneCompBase,12u>::EcsBase(&this->EcsBase<Scene,SceneCompBase,12>);
-  v2 = (int (**)(...))(&`vtable for'Scene + 2);
+  v2 = (int (**)(...))(&`vtable for Scene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&scene_id);
   this->_vptr_DescribalBase = v2;

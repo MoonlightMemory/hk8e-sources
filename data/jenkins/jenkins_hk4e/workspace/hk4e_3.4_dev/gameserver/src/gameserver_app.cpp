@@ -7,7 +7,7 @@ void __cdecl GameserverApp::GameserverApp(GameserverApp *const this)
 
   AppBase::AppBase((AppBase *const)this);
   Singleton<GameserverApp>::Singleton(this);
-  v1 = &`vtable for'GameserverApp + 2;
+  v1 = &`vtable for GameserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->gap0 = v1;

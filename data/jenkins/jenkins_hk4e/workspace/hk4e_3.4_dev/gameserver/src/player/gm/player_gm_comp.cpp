@@ -16673,8 +16673,8 @@ int32_t __cdecl procCheckItem(GmContext *context, const std::vector<std::string>
   v5 = v3 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116352;
-  if ( !(_BYTE)`guard variable for'procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map
-    && __cxa_guard_acquire(&`guard variable for'procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map) )
+  if ( !(_BYTE)`guard variable for procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map
+    && __cxa_guard_acquire(&`guard variable for procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map) )
   {
     std::literals::string_literals::operator"" s[abi:cxx11](&__x, "checkFrontLooseAddItemBatch", 0x1BuLL);
     std::pair<std::string const,std::function<int ()(GmContext &,std::string&)>>::pair<std::string,procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::{lambda(GmContext &,std::string&)#1},true>(
@@ -16699,7 +16699,7 @@ int32_t __cdecl procCheckItem(GmContext *context, const std::vector<std::string>
       &__hf,
       &__eql,
       &__a);
-    __cxa_guard_release(&`guard variable for'procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map);
+    __cxa_guard_release(&`guard variable for procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,std::function<int ()(GmContext &,std::string&)>>::~unordered_map,
       (void *)&procCheckItem(GmContext &,std::vector<std::string> const&,std::string&)::handler_map,
@@ -26454,8 +26454,8 @@ int32_t __cdecl gmDungeonTeam(GmContext *context, const std::vector<std::string>
     if ( v7 )
       __dynamic_cast(
         v7,
-        (const struct __class_type_info *)&`typeinfo for'PlayerHandlerBase,
-        (const struct __class_type_info *)&`typeinfo for'DungeonHandler,
+        (const struct __class_type_info *)&`typeinfo for PlayerHandlerBase,
+        (const struct __class_type_info *)&`typeinfo for DungeonHandler,
         0LL);
     ret = 0;
     v8 = std::__shared_ptr_access<PlayerWorld,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<PlayerWorld,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 96));
@@ -49819,8 +49819,8 @@ int32_t __cdecl procHome(GmContext *context, const std::vector<std::string> *par
     if ( v7 )
       v8 = (PlayerHomeHandler *)__dynamic_cast(
                                   v7,
-                                  (const struct __class_type_info *)&`typeinfo for'PlayerHandlerBase,
-                                  (const struct __class_type_info *)&`typeinfo for'PlayerHomeHandler,
+                                  (const struct __class_type_info *)&`typeinfo for PlayerHandlerBase,
+                                  (const struct __class_type_info *)&`typeinfo for PlayerHomeHandler,
                                   0LL);
     else
       v8 = 0LL;

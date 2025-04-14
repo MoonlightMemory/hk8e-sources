@@ -12,7 +12,7 @@ void __cdecl GadgetPlayComp::~GadgetPlayComp(GadgetPlayComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GadgetPlayComp + 2);
+  v1 = (int (**)(...))(&`vtable for GadgetPlayComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ZN14GadgetPlayCompCI214GadgetCompBaseER6Gadget(GadgetPlayComp *cons
   int (**v2)(...); // rdx
 
   GadgetCompBase::GadgetCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GadgetPlayComp + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetPlayComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;
@@ -45,7 +45,7 @@ void __cdecl GadgetPlayBase::~GadgetPlayBase(GadgetPlayBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GadgetPlayBase + 2);
+  v1 = (int (**)(...))(&`vtable for GadgetPlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetPlayBase = v1;
@@ -99,7 +99,7 @@ void __cdecl GadgetCruciblePlay::~GadgetCruciblePlay(GadgetCruciblePlay *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GadgetCruciblePlay + 2);
+  v1 = (int (**)(...))(&`vtable for GadgetCruciblePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetPlayBase = v1;
@@ -123,7 +123,7 @@ void __cdecl ZN18GadgetCruciblePlayCI214GadgetPlayBaseER6Gadget(GadgetCruciblePl
   int (**v2)(...); // rdx
 
   GadgetPlayBase::GadgetPlayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GadgetCruciblePlay + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetCruciblePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetPlayBase = v2;

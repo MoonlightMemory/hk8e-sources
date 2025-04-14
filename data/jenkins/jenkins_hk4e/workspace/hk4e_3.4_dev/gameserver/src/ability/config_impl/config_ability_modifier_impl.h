@@ -6,7 +6,7 @@ void __cdecl ConfigAbilityModifierImpl::ConfigAbilityModifierImpl(ConfigAbilityM
   int (**v1)(...); // rdx
 
   data::ConfigAbilityModifier::ConfigAbilityModifier((data::ConfigAbilityModifier *const)this);
-  v1 = (int (**)(...))(&`vtable for'ConfigAbilityModifierImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigAbilityModifierImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigAbilityModifier = v1;
@@ -23,7 +23,7 @@ void __cdecl ConfigAbilityModifierImpl::~ConfigAbilityModifierImpl(ConfigAbility
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigAbilityModifierImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigAbilityModifierImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigAbilityModifier = v1;
@@ -60,7 +60,7 @@ void __cdecl ConfigAbilityModifierFactoryImpl::ConfigAbilityModifierFactoryImpl(
   int (**v1)(...); // rdx
 
   data::ConfigAbilityModifierFactory::ConfigAbilityModifierFactory(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigAbilityModifierFactoryImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigAbilityModifierFactoryImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigAbilityModifierFactory = v1;

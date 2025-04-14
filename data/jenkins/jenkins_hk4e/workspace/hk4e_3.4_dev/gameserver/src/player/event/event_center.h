@@ -6,7 +6,7 @@ void __cdecl Observer::Observer(Observer *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Observer + 2);
+  v2 = (int (**)(...))(&`vtable for Observer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -18,7 +18,7 @@ void __cdecl Observer::~Observer(Observer *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Observer + 2);
+  v2 = (int (**)(...))(&`vtable for Observer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -46,7 +46,7 @@ void __cdecl WeakptrObserver<AsterActivity,CompleteTalkEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,CompleteTalkEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -62,7 +62,7 @@ void __cdecl WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -94,7 +94,7 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent>::~W
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118,7 +118,7 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -134,7 +134,7 @@ void __cdecl WeakptrObserver<AsterActivity,TakeGeneralRewardEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,TakeGeneralRewardEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -158,7 +158,7 @@ void __cdecl WeakptrObserver<BartenderActivity,FinishParentQuestEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BartenderActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BartenderActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -190,7 +190,7 @@ void __cdecl WeakptrObserver<BartenderActivity,QuestStateChangeEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BartenderActivity,QuestStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BartenderActivity,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -222,7 +222,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -246,7 +246,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -262,7 +262,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -294,7 +294,7 @@ void __cdecl WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -318,7 +318,7 @@ void __cdecl WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -334,7 +334,7 @@ void __cdecl WeakptrObserver<BlitzRushActivity,CreateDungeonEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BlitzRushActivity,CreateDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BlitzRushActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -358,7 +358,7 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -390,7 +390,7 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStart
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -414,7 +414,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -430,7 +430,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryStartEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,GalleryStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -454,7 +454,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -478,7 +478,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -502,7 +502,7 @@ void __cdecl WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -526,7 +526,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -550,7 +550,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -574,7 +574,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -598,7 +598,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -622,7 +622,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -646,7 +646,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -670,7 +670,7 @@ void __cdecl WeakptrObserver<CharAmusementActivity,LeaveSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CharAmusementActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CharAmusementActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -694,7 +694,7 @@ void __cdecl WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent>:
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -718,7 +718,7 @@ void __cdecl WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -742,7 +742,7 @@ void __cdecl WeakptrObserver<CrucibleActivity,SocialDetialEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CrucibleActivity,SocialDetialEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CrucibleActivity,SocialDetialEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -774,7 +774,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,GalleryStartEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,GalleryStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -798,7 +798,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -814,7 +814,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -846,7 +846,7 @@ void __cdecl WeakptrObserver<DeliveryActivity,FinishParentQuestEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DeliveryActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DeliveryActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -870,7 +870,7 @@ void __cdecl WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -894,7 +894,7 @@ void __cdecl WeakptrObserver<DigActivity,GroupBundleFinishEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DigActivity,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DigActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -910,7 +910,7 @@ void __cdecl WeakptrObserver<DragonSpineActivity,ObtainItemEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DragonSpineActivity,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DragonSpineActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -934,7 +934,7 @@ void __cdecl WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -958,7 +958,7 @@ void __cdecl WeakptrObserver<DuelHeartActivity,LeaveSceneEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<DuelHeartActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<DuelHeartActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -982,7 +982,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,ChestOpenEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1014,7 +1014,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1038,7 +1038,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,FinishDungeonEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,FinishDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1054,7 +1054,7 @@ void __cdecl WeakptrObserver<EffigyActivity,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1078,7 +1078,7 @@ void __cdecl WeakptrObserver<EffigyActivity,PostEnterSceneEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1102,7 +1102,7 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2S
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2SettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2SettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1134,7 +1134,7 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1158,7 +1158,7 @@ void __cdecl WeakptrObserver<ElectroherculesBattleActivity,GalleryElectrohercule
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<ElectroherculesBattleActivity,GalleryElectroherculesBattleSettleEvent>
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<ElectroherculesBattleActivity,GalleryElectroherculesBattleSettleEvent>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
@@ -1183,7 +1183,7 @@ void __cdecl WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1207,7 +1207,7 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1231,7 +1231,7 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1247,7 +1247,7 @@ void __cdecl WeakptrObserver<FlightActivity,ChallengeBeginEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FlightActivity,ChallengeBeginEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FlightActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1271,7 +1271,7 @@ void __cdecl WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1303,7 +1303,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGalleryS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGallerySettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGallerySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1319,7 +1319,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,LeaveSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1343,7 +1343,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1375,7 +1375,7 @@ void __cdecl WeakptrObserver<GachaActivity,GatherEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,GatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,GatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1399,7 +1399,7 @@ void __cdecl WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1423,7 +1423,7 @@ void __cdecl WeakptrObserver<GachaActivity,TrifleEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,TrifleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,TrifleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1447,7 +1447,7 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1471,7 +1471,7 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1487,7 +1487,7 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1519,7 +1519,7 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceScoreEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1535,7 +1535,7 @@ void __cdecl WeakptrObserver<HachiActivity,FinishDungeonEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HachiActivity,FinishDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HachiActivity,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1559,7 +1559,7 @@ void __cdecl WeakptrObserver<HachiActivity,FinishQuestEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HachiActivity,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HachiActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1591,7 +1591,7 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,FinishQuestEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HideAndSeekActivity,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HideAndSeekActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1607,7 +1607,7 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1631,7 +1631,7 @@ void __cdecl WeakptrObserver<HomeResource,HomeLevelEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HomeResource,HomeLevelEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HomeResource,HomeLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1663,7 +1663,7 @@ void __cdecl WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1687,7 +1687,7 @@ void __cdecl WeakptrObserver<HuntingRecord,GroupsReplaceEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,GroupsReplaceEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1711,7 +1711,7 @@ void __cdecl WeakptrObserver<HuntingRecord,InteractGadgetEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,InteractGadgetEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,InteractGadgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1727,7 +1727,7 @@ void __cdecl WeakptrObserver<HuntingRecord,MonsterDieEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1759,7 +1759,7 @@ void __cdecl WeakptrObserver<HuntingRecord,WorldGatherEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,WorldGatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1775,7 +1775,7 @@ void __cdecl WeakptrObserver<InstableSprayActivity,LeaveSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<InstableSprayActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<InstableSprayActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1807,7 +1807,7 @@ void __cdecl WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1831,7 +1831,7 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent>:
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1847,7 +1847,7 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryStartEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<IslandPartyActivity,GalleryStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<IslandPartyActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1871,7 +1871,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,CreateDungeonEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,CreateDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1903,7 +1903,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1919,7 +1919,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEven
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1951,7 +1951,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -1983,7 +1983,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2007,7 +2007,7 @@ void __cdecl WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2031,7 +2031,7 @@ void __cdecl WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChall
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChallengeGallerySettleEvent>
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChallengeGallerySettleEvent>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
@@ -2056,7 +2056,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,ChestOpenEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2080,7 +2080,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2096,7 +2096,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,WorldGatherEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,WorldGatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2120,7 +2120,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2152,7 +2152,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2176,7 +2176,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2192,7 +2192,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2224,7 +2224,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2248,7 +2248,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2272,7 +2272,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2304,7 +2304,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2320,7 +2320,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,LeaveSceneEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2344,7 +2344,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,PostEnterSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2376,7 +2376,7 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2400,7 +2400,7 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2424,7 +2424,7 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2448,7 +2448,7 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2464,7 +2464,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent>
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2496,7 +2496,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeGatherEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomeGatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomeGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2520,7 +2520,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomePlantEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomePlantEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomePlantEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2536,7 +2536,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,ObtainItemEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2560,7 +2560,7 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2592,7 +2592,7 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent>::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2608,7 +2608,7 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2632,7 +2632,7 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent>::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2664,7 +2664,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2688,7 +2688,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2704,7 +2704,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CompleteTalkEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,CompleteTalkEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2736,7 +2736,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CreateNpcEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,CreateNpcEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,CreateNpcEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2760,7 +2760,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,FinishQuestEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2784,7 +2784,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2800,7 +2800,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2824,7 +2824,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2856,7 +2856,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2872,7 +2872,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2896,7 +2896,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2920,7 +2920,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent>::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2952,7 +2952,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -2968,7 +2968,7 @@ void __cdecl WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3000,7 +3000,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3024,7 +3024,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3048,7 +3048,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishQuestEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3064,7 +3064,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3096,7 +3096,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3120,7 +3120,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3136,7 +3136,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3168,7 +3168,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3192,7 +3192,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,EnterCombatEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,EnterCombatEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3216,7 +3216,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3240,7 +3240,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,LeaveCombatEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,LeaveCombatEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,LeaveCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3264,7 +3264,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3288,7 +3288,7 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3312,7 +3312,7 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3328,7 +3328,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3360,7 +3360,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3376,7 +3376,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,FinishQuestEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3408,7 +3408,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3424,7 +3424,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3456,7 +3456,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3472,7 +3472,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3496,7 +3496,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,AccelerateEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,AccelerateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,AccelerateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3520,7 +3520,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3544,7 +3544,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,GatherEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,GatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,GatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3576,7 +3576,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,KillMonsterEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,KillMonsterEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,KillMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3600,7 +3600,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3632,7 +3632,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,SkillEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,SkillEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3656,7 +3656,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,UseItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,UseItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,UseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3672,7 +3672,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,CaptureSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,CaptureSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3696,7 +3696,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,EnvAnimalEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,EnvAnimalEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,EnvAnimalEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3720,7 +3720,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3744,7 +3744,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FishingSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,FishingSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3768,7 +3768,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent>::~W
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3800,7 +3800,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ObtainItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3824,7 +3824,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,PushTipAddEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,PushTipAddEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,PushTipAddEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3848,7 +3848,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,SeeAnimalEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,SeeAnimalEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,SeeAnimalEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3872,7 +3872,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ViewSceneryEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,ViewSceneryEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,ViewSceneryEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3888,7 +3888,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3912,7 +3912,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3944,7 +3944,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3960,7 +3960,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -3984,7 +3984,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FailParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FailParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4016,7 +4016,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4032,7 +4032,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishQuestEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4056,7 +4056,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ObtainItemEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4088,7 +4088,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4104,7 +4104,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,StartQuestEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,StartQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4128,7 +4128,7 @@ void __cdecl WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4160,7 +4160,7 @@ void __cdecl WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4184,7 +4184,7 @@ void __cdecl WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4208,7 +4208,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4232,7 +4232,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4256,7 +4256,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4280,7 +4280,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4304,7 +4304,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4336,7 +4336,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4360,7 +4360,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4376,7 +4376,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FailParentQuestEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FailParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4400,7 +4400,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4424,7 +4424,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishQuestEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4448,7 +4448,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4480,7 +4480,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4496,7 +4496,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,StartQuestEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,StartQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4520,7 +4520,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4544,7 +4544,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishQuestEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4576,7 +4576,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4600,7 +4600,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4624,7 +4624,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4640,7 +4640,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4672,7 +4672,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,StartQuestEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,StartQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4704,7 +4704,7 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4728,7 +4728,7 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4752,7 +4752,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4768,7 +4768,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4800,7 +4800,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4816,7 +4816,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4848,7 +4848,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4872,7 +4872,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4888,7 +4888,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4920,7 +4920,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4936,7 +4936,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4960,7 +4960,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -4992,7 +4992,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5016,7 +5016,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5032,7 +5032,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5056,7 +5056,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent>
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5096,7 +5096,7 @@ void __cdecl WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5120,7 +5120,7 @@ void __cdecl WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent>:
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5136,7 +5136,7 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5160,7 +5160,7 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5184,7 +5184,7 @@ void __cdecl WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5216,7 +5216,7 @@ void __cdecl WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5240,7 +5240,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5264,7 +5264,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5288,7 +5288,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5312,7 +5312,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5328,7 +5328,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5360,7 +5360,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5376,7 +5376,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent>:
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5408,7 +5408,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,BargainFinishEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,BargainFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,BargainFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5424,7 +5424,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CaptureSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CaptureSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5456,7 +5456,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5480,7 +5480,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5496,7 +5496,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChestOpenEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5528,7 +5528,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CityLevelupEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CityLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CityLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5552,7 +5552,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5568,7 +5568,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CompleteTalkEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CompleteTalkEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5600,7 +5600,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5624,7 +5624,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5640,7 +5640,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5672,7 +5672,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterDungeonEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5688,7 +5688,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5720,7 +5720,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5736,7 +5736,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5760,7 +5760,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterRoomEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterRoomEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterRoomEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5792,7 +5792,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterVehicleEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterVehicleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5816,7 +5816,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FailDungeonEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FailDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FailDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5832,7 +5832,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishDungeonEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5864,7 +5864,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5880,7 +5880,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5904,7 +5904,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FishingSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FishingSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5936,7 +5936,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5952,7 +5952,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetDieEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GadgetDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -5984,7 +5984,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6008,7 +6008,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,InteractGadgetEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,InteractGadgetEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,InteractGadgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6024,7 +6024,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6048,7 +6048,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6072,7 +6072,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent>
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6096,7 +6096,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,KillMonsterEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,KillMonsterEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,KillMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6128,7 +6128,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LoseItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,LoseItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,LoseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6152,7 +6152,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6176,7 +6176,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6192,7 +6192,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopStartEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MainCoopStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MainCoopStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6224,7 +6224,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ManualTransportEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ManualTransportEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ManualTransportEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6248,7 +6248,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MonsterDieEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6264,7 +6264,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,NickNameEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,NickNameEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,NickNameEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6288,7 +6288,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ObtainItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6312,7 +6312,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6344,7 +6344,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6360,7 +6360,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6392,7 +6392,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6416,7 +6416,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6440,7 +6440,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6456,7 +6456,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6480,7 +6480,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SealBattleEndEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,SealBattleEndEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,SealBattleEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6504,7 +6504,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SkillEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,SkillEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6528,7 +6528,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TeamDeadEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,TeamDeadEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,TeamDeadEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6560,7 +6560,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TriggerFireEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,TriggerFireEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,TriggerFireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6576,7 +6576,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockAreaEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockAreaEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6608,7 +6608,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6624,7 +6624,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6656,7 +6656,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6672,7 +6672,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UseItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6696,7 +6696,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseWidgetEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UseWidgetEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UseWidgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6720,7 +6720,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,WorktopSelectEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,WorktopSelectEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,WorktopSelectEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6752,7 +6752,7 @@ void __cdecl WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6776,7 +6776,7 @@ void __cdecl WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6800,7 +6800,7 @@ void __cdecl WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6816,7 +6816,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6848,7 +6848,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,MonsterDieEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6872,7 +6872,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,WorldGatherEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,WorldGatherEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6888,7 +6888,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,CaptureSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,CaptureSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6912,7 +6912,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6936,7 +6936,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6960,7 +6960,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -6992,7 +6992,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,FishingSuccEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,FishingSuccEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7016,7 +7016,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent>::~W
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7048,7 +7048,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7064,7 +7064,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SetGameTimeEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,SetGameTimeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,SetGameTimeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7088,7 +7088,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SkillEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,SkillEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7112,7 +7112,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7144,7 +7144,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7168,7 +7168,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7192,7 +7192,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishQuestEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7216,7 +7216,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7232,7 +7232,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7256,7 +7256,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7288,7 +7288,7 @@ void __cdecl WeakptrObserver<PlayerSocialComp,EnterMpEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSocialComp,EnterMpEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSocialComp,EnterMpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7312,7 +7312,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7336,7 +7336,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7360,7 +7360,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7384,7 +7384,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,BaseEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,BaseEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,BaseEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7408,7 +7408,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7424,7 +7424,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,FinishQuestEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7448,7 +7448,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7472,7 +7472,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7496,7 +7496,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7528,7 +7528,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterCombatEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterCombatEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7544,7 +7544,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterMpEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterMpEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterMpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7576,7 +7576,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7592,7 +7592,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,LoseItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,LoseItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,LoseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7624,7 +7624,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7656,7 +7656,7 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FailParentQuestEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWorldScene,FailParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWorldScene,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7680,7 +7680,7 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7696,7 +7696,7 @@ void __cdecl WeakptrObserver<PotionActivity,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PotionActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PotionActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7720,7 +7720,7 @@ void __cdecl WeakptrObserver<PotionActivity,PostEnterSceneEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PotionActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PotionActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7744,7 +7744,7 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7768,7 +7768,7 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent>::~
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7800,7 +7800,7 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7824,7 +7824,7 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7840,7 +7840,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7864,7 +7864,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7896,7 +7896,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7912,7 +7912,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7936,7 +7936,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChang
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -7968,7 +7968,7 @@ void __cdecl WeakptrObserver<Scene,PlayerLevelupEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<Scene,PlayerLevelupEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<Scene,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8000,7 +8000,7 @@ void __cdecl WeakptrObserver<SeaLampActivity,FinishParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8016,7 +8016,7 @@ void __cdecl WeakptrObserver<SeaLampActivity,OpenMechanicusEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampActivity,OpenMechanicusEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampActivity,OpenMechanicusEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8048,7 +8048,7 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8072,7 +8072,7 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8088,7 +8088,7 @@ void __cdecl WeakptrObserver<SealBattleBase,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SealBattleBase,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SealBattleBase,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8112,7 +8112,7 @@ void __cdecl WeakptrObserver<SealBattleBase,TeamDeadEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SealBattleBase,TeamDeadEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SealBattleBase,TeamDeadEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8136,7 +8136,7 @@ void __cdecl WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8160,7 +8160,7 @@ void __cdecl WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8184,7 +8184,7 @@ void __cdecl WeakptrObserver<SpiceActivity,FinishItemGivingEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SpiceActivity,FinishItemGivingEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SpiceActivity,FinishItemGivingEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8216,7 +8216,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8232,7 +8232,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8264,7 +8264,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8288,7 +8288,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8304,7 +8304,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8336,7 +8336,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8352,7 +8352,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8376,7 +8376,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SkillEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,SkillEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8400,7 +8400,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8432,7 +8432,7 @@ void __cdecl WeakptrObserver<SumoActivity,GalleryStartEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,GalleryStartEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8448,7 +8448,7 @@ void __cdecl WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8480,7 +8480,7 @@ void __cdecl WeakptrObserver<SumoActivity,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8496,7 +8496,7 @@ void __cdecl WeakptrObserver<SumoActivity,PostEnterSceneEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8520,7 +8520,7 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent>::~Weak
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8552,7 +8552,7 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8568,7 +8568,7 @@ void __cdecl WeakptrObserver<TeamChainActivity,PostEnterSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TeamChainActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TeamChainActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8600,7 +8600,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8624,7 +8624,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent>::~Weakptr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8648,7 +8648,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,FinishQuestEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8664,7 +8664,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8696,7 +8696,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent>::~Weakp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8712,7 +8712,7 @@ void __cdecl WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8736,7 +8736,7 @@ void __cdecl WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8768,7 +8768,7 @@ void __cdecl WeakptrObserver<VintageActivity,BargainFinishEvent>::~WeakptrObserv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,BargainFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,BargainFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8792,7 +8792,7 @@ void __cdecl WeakptrObserver<VintageActivity,CompleteTalkEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,CompleteTalkEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8816,7 +8816,7 @@ void __cdecl WeakptrObserver<VintageActivity,FinishParentQuestEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8832,7 +8832,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8856,7 +8856,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSett
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8880,7 +8880,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8912,7 +8912,7 @@ void __cdecl WeakptrObserver<VintageActivity,GroupBundleFinishEvent>::~WeakptrOb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GroupBundleFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8936,7 +8936,7 @@ void __cdecl WeakptrObserver<VintageActivity,ObtainItemEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8952,7 +8952,7 @@ void __cdecl WeakptrObserver<VintageActivity,PostEnterSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -8984,7 +8984,7 @@ void __cdecl WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEven
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9000,7 +9000,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9024,7 +9024,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9048,7 +9048,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9072,7 +9072,7 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent>::~Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9104,7 +9104,7 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9120,7 +9120,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,CreateDungeonEvent>::~WeakptrObse
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,CreateDungeonEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9144,7 +9144,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,LeaveSceneEvent>::~WeakptrObserve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9168,7 +9168,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,PostEnterSceneEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9200,7 +9200,7 @@ void __cdecl WeakptrObserver<WinterCampActivity,ChallengeFinishEvent>::~WeakptrO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WinterCampActivity,ChallengeFinishEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WinterCampActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9224,7 +9224,7 @@ void __cdecl WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent>::~We
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -9242,7 +9242,7 @@ void __cdecl WeakptrObserver<AsterActivity,CompleteTalkEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,CompleteTalkEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9259,7 +9259,7 @@ void __cdecl WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9276,7 +9276,7 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent>::We
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9293,7 +9293,7 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9310,7 +9310,7 @@ void __cdecl WeakptrObserver<AsterActivity,TakeGeneralRewardEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<AsterActivity,TakeGeneralRewardEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<AsterActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9327,7 +9327,7 @@ void __cdecl WeakptrObserver<BartenderActivity,FinishParentQuestEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BartenderActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BartenderActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9344,7 +9344,7 @@ void __cdecl WeakptrObserver<BartenderActivity,QuestStateChangeEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BartenderActivity,QuestStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BartenderActivity,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9361,7 +9361,7 @@ void __cdecl WeakptrObserver<BaseActivity,FinishParentQuestEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BaseActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9378,7 +9378,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9395,7 +9395,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9412,7 +9412,7 @@ void __cdecl WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9429,7 +9429,7 @@ void __cdecl WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9446,7 +9446,7 @@ void __cdecl WeakptrObserver<BlitzRushActivity,CreateDungeonEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BlitzRushActivity,CreateDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BlitzRushActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9463,7 +9463,7 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettl
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9482,7 +9482,7 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStart
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9501,7 +9501,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9520,7 +9520,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryStartEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,GalleryStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9537,7 +9537,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9554,7 +9554,7 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9571,7 +9571,7 @@ void __cdecl WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9590,7 +9590,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9607,7 +9607,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9624,7 +9624,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9641,7 +9641,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9658,7 +9658,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9675,7 +9675,7 @@ void __cdecl WeakptrObserver<CharAmusementActivity,LeaveSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CharAmusementActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CharAmusementActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9692,7 +9692,7 @@ void __cdecl WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent>:
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9709,7 +9709,7 @@ void __cdecl WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9726,7 +9726,7 @@ void __cdecl WeakptrObserver<CrucibleActivity,SocialDetialEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CrucibleActivity,SocialDetialEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CrucibleActivity,SocialDetialEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9743,7 +9743,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,GalleryStartEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,GalleryStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9760,7 +9760,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9777,7 +9777,7 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9794,7 +9794,7 @@ void __cdecl WeakptrObserver<DeliveryActivity,FinishParentQuestEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DeliveryActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DeliveryActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9811,7 +9811,7 @@ void __cdecl WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9828,7 +9828,7 @@ void __cdecl WeakptrObserver<DigActivity,GroupBundleFinishEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DigActivity,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DigActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9845,7 +9845,7 @@ void __cdecl WeakptrObserver<DragonSpineActivity,ObtainItemEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DragonSpineActivity,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DragonSpineActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9862,7 +9862,7 @@ void __cdecl WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9879,7 +9879,7 @@ void __cdecl WeakptrObserver<DuelHeartActivity,LeaveSceneEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<DuelHeartActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<DuelHeartActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9896,7 +9896,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,ChestOpenEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9913,7 +9913,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9930,7 +9930,7 @@ void __cdecl WeakptrObserver<EchoShellActivity,FinishDungeonEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EchoShellActivity,FinishDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EchoShellActivity,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9947,7 +9947,7 @@ void __cdecl WeakptrObserver<EffigyActivity,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9964,7 +9964,7 @@ void __cdecl WeakptrObserver<EffigyActivity,PostEnterSceneEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -9981,7 +9981,7 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2S
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2SettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2SettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10000,7 +10000,7 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10017,7 +10017,7 @@ void __cdecl WeakptrObserver<ElectroherculesBattleActivity,GalleryElectrohercule
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ElectroherculesBattleActivity,GalleryElectroherculesBattleSettleEvent>
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ElectroherculesBattleActivity,GalleryElectroherculesBattleSettleEvent>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
@@ -10037,7 +10037,7 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10054,7 +10054,7 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10071,7 +10071,7 @@ void __cdecl WeakptrObserver<FlightActivity,ChallengeBeginEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FlightActivity,ChallengeBeginEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FlightActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10088,7 +10088,7 @@ void __cdecl WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10105,7 +10105,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGalleryS
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGallerySettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGallerySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10124,7 +10124,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,LeaveSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10141,7 +10141,7 @@ void __cdecl WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10158,7 +10158,7 @@ void __cdecl WeakptrObserver<GachaActivity,GatherEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,GatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,GatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10175,7 +10175,7 @@ void __cdecl WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10192,7 +10192,7 @@ void __cdecl WeakptrObserver<GachaActivity,TrifleEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GachaActivity,TrifleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GachaActivity,TrifleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10209,7 +10209,7 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10226,7 +10226,7 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10243,7 +10243,7 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10260,7 +10260,7 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceS
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceScoreEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10279,7 +10279,7 @@ void __cdecl WeakptrObserver<HachiActivity,FinishDungeonEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HachiActivity,FinishDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HachiActivity,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10296,7 +10296,7 @@ void __cdecl WeakptrObserver<HachiActivity,FinishQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HachiActivity,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HachiActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10313,7 +10313,7 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,FinishQuestEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HideAndSeekActivity,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HideAndSeekActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10330,7 +10330,7 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10347,7 +10347,7 @@ void __cdecl WeakptrObserver<HomeResource,HomeLevelEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HomeResource,HomeLevelEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HomeResource,HomeLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10364,7 +10364,7 @@ void __cdecl WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10381,7 +10381,7 @@ void __cdecl WeakptrObserver<HuntingRecord,GroupsReplaceEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,GroupsReplaceEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10398,7 +10398,7 @@ void __cdecl WeakptrObserver<HuntingRecord,InteractGadgetEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,InteractGadgetEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,InteractGadgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10415,7 +10415,7 @@ void __cdecl WeakptrObserver<HuntingRecord,MonsterDieEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10432,7 +10432,7 @@ void __cdecl WeakptrObserver<HuntingRecord,WorldGatherEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<HuntingRecord,WorldGatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<HuntingRecord,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10449,7 +10449,7 @@ void __cdecl WeakptrObserver<InstableSprayActivity,LeaveSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<InstableSprayActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<InstableSprayActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10466,7 +10466,7 @@ void __cdecl WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10483,7 +10483,7 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent>:
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10500,7 +10500,7 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryStartEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<IslandPartyActivity,GalleryStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<IslandPartyActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10517,7 +10517,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,CreateDungeonEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,CreateDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10534,7 +10534,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10553,7 +10553,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEven
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10572,7 +10572,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10589,7 +10589,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,LeaveSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10606,7 +10606,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10623,7 +10623,7 @@ void __cdecl WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10640,7 +10640,7 @@ void __cdecl WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChall
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChallengeGallerySettleEvent>
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChallengeGallerySettleEvent>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
@@ -10660,7 +10660,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,ChestOpenEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10677,7 +10677,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10694,7 +10694,7 @@ void __cdecl WeakptrObserver<LunaRiteActivity,WorldGatherEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<LunaRiteActivity,WorldGatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<LunaRiteActivity,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10711,7 +10711,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10728,7 +10728,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10745,7 +10745,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10762,7 +10762,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10779,7 +10779,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10796,7 +10796,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10813,7 +10813,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent>::We
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10830,7 +10830,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10847,7 +10847,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10864,7 +10864,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,LeaveSceneEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10881,7 +10881,7 @@ void __cdecl WeakptrObserver<MistTrialActivity,PostEnterSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MistTrialActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MistTrialActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10898,7 +10898,7 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10915,7 +10915,7 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10932,7 +10932,7 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10951,7 +10951,7 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10968,7 +10968,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent>
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -10987,7 +10987,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeGatherEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomeGatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomeGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11004,7 +11004,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomePlantEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,HomePlantEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,HomePlantEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11021,7 +11021,7 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,ObtainItemEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlantFlowerActivity,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlantFlowerActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11038,7 +11038,7 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11055,7 +11055,7 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent>::
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11072,7 +11072,7 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11089,7 +11089,7 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent>::
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11106,7 +11106,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11123,7 +11123,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11140,7 +11140,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CompleteTalkEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,CompleteTalkEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11157,7 +11157,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CreateNpcEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,CreateNpcEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,CreateNpcEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11174,7 +11174,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,FinishQuestEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11191,7 +11191,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11208,7 +11208,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11225,7 +11225,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11242,7 +11242,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11259,7 +11259,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11276,7 +11276,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11293,7 +11293,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent>::
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11310,7 +11310,7 @@ void __cdecl WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11327,7 +11327,7 @@ void __cdecl WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11346,7 +11346,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11363,7 +11363,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11380,7 +11380,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishQuestEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11397,7 +11397,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11414,7 +11414,7 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11431,7 +11431,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11448,7 +11448,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11465,7 +11465,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11482,7 +11482,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,EnterCombatEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,EnterCombatEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11499,7 +11499,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11516,7 +11516,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,LeaveCombatEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,LeaveCombatEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,LeaveCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11533,7 +11533,7 @@ void __cdecl WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11550,7 +11550,7 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11567,7 +11567,7 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11584,7 +11584,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11601,7 +11601,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11618,7 +11618,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,FinishQuestEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11635,7 +11635,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11652,7 +11652,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11669,7 +11669,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11686,7 +11686,7 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11703,7 +11703,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,AccelerateEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,AccelerateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,AccelerateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11720,7 +11720,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11737,7 +11737,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,GatherEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,GatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,GatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11754,7 +11754,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,KillMonsterEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,KillMonsterEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,KillMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11771,7 +11771,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,MonsterDieEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11788,7 +11788,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11805,7 +11805,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,SkillEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,SkillEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11822,7 +11822,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,UseItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,UseItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,UseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11839,7 +11839,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,CaptureSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,CaptureSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11856,7 +11856,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,EnvAnimalEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,EnvAnimalEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,EnvAnimalEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11873,7 +11873,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11890,7 +11890,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FishingSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,FishingSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11907,7 +11907,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent>::We
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11924,7 +11924,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ObtainItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11941,7 +11941,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,PushTipAddEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,PushTipAddEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,PushTipAddEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11958,7 +11958,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,SeeAnimalEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,SeeAnimalEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,SeeAnimalEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11975,7 +11975,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ViewSceneryEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,ViewSceneryEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,ViewSceneryEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -11992,7 +11992,7 @@ void __cdecl WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12009,7 +12009,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12026,7 +12026,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12043,7 +12043,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12060,7 +12060,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FailParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FailParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12077,7 +12077,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12094,7 +12094,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishQuestEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12111,7 +12111,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ObtainItemEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12128,7 +12128,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12145,7 +12145,7 @@ void __cdecl WeakptrObserver<PlayerCombineComp,StartQuestEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCombineComp,StartQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCombineComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12162,7 +12162,7 @@ void __cdecl WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12179,7 +12179,7 @@ void __cdecl WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12196,7 +12196,7 @@ void __cdecl WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12213,7 +12213,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12230,7 +12230,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12247,7 +12247,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12264,7 +12264,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12281,7 +12281,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12298,7 +12298,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12315,7 +12315,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12332,7 +12332,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12349,7 +12349,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FailParentQuestEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FailParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12366,7 +12366,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12383,7 +12383,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12400,7 +12400,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12417,7 +12417,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12434,7 +12434,7 @@ void __cdecl WeakptrObserver<PlayerForgeComp,StartQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerForgeComp,StartQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerForgeComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12451,7 +12451,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12468,7 +12468,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12485,7 +12485,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12502,7 +12502,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12519,7 +12519,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12536,7 +12536,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12553,7 +12553,7 @@ void __cdecl WeakptrObserver<PlayerGCGComp,StartQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGCGComp,StartQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGCGComp,StartQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12570,7 +12570,7 @@ void __cdecl WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12587,7 +12587,7 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12604,7 +12604,7 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12621,7 +12621,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12638,7 +12638,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12655,7 +12655,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12672,7 +12672,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12689,7 +12689,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12706,7 +12706,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12723,7 +12723,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12740,7 +12740,7 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12757,7 +12757,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12774,7 +12774,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12791,7 +12791,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12808,7 +12808,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12825,7 +12825,7 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent>
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12844,7 +12844,7 @@ void __cdecl WeakptrObserver<PlayerItemComp,OpenStateChangeEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerItemComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerItemComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12861,7 +12861,7 @@ void __cdecl WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12878,7 +12878,7 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12895,7 +12895,7 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12912,7 +12912,7 @@ void __cdecl WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12929,7 +12929,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12946,7 +12946,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12963,7 +12963,7 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12980,7 +12980,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -12997,7 +12997,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13014,7 +13014,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13031,7 +13031,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent>:
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13048,7 +13048,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,BargainFinishEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,BargainFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,BargainFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13065,7 +13065,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CaptureSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CaptureSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13082,7 +13082,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13099,7 +13099,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13116,7 +13116,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChestOpenEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13133,7 +13133,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CityLevelupEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CityLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CityLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13150,7 +13150,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13167,7 +13167,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CompleteTalkEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CompleteTalkEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13184,7 +13184,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13201,7 +13201,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13218,7 +13218,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13235,7 +13235,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterDungeonEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13252,7 +13252,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13269,7 +13269,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13286,7 +13286,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13303,7 +13303,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterRoomEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterRoomEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterRoomEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13320,7 +13320,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterVehicleEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,EnterVehicleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,EnterVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13337,7 +13337,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FailDungeonEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FailDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FailDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13354,7 +13354,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishDungeonEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13371,7 +13371,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13388,7 +13388,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13405,7 +13405,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FishingSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,FishingSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13422,7 +13422,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13439,7 +13439,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetDieEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GadgetDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13456,7 +13456,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13473,7 +13473,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,InteractGadgetEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,InteractGadgetEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,InteractGadgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13490,7 +13490,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13507,7 +13507,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13524,7 +13524,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent>
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13543,7 +13543,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,KillMonsterEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,KillMonsterEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,KillMonsterEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13560,7 +13560,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LoseItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,LoseItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,LoseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13577,7 +13577,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13594,7 +13594,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13611,7 +13611,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopStartEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MainCoopStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MainCoopStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13628,7 +13628,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ManualTransportEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ManualTransportEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ManualTransportEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13645,7 +13645,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MonsterDieEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13662,7 +13662,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,NickNameEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,NickNameEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,NickNameEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13679,7 +13679,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ObtainItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13696,7 +13696,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13713,7 +13713,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13730,7 +13730,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13747,7 +13747,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13764,7 +13764,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13781,7 +13781,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13798,7 +13798,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13815,7 +13815,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SealBattleEndEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,SealBattleEndEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,SealBattleEndEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13832,7 +13832,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SkillEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,SkillEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13849,7 +13849,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TeamDeadEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,TeamDeadEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,TeamDeadEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13866,7 +13866,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TriggerFireEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,TriggerFireEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,TriggerFireEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13883,7 +13883,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockAreaEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockAreaEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13900,7 +13900,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13917,7 +13917,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13934,7 +13934,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13951,7 +13951,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UseItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13968,7 +13968,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseWidgetEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,UseWidgetEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,UseWidgetEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -13985,7 +13985,7 @@ void __cdecl WeakptrObserver<PlayerQuestComp,WorktopSelectEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerQuestComp,WorktopSelectEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerQuestComp,WorktopSelectEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14002,7 +14002,7 @@ void __cdecl WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14019,7 +14019,7 @@ void __cdecl WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14036,7 +14036,7 @@ void __cdecl WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14053,7 +14053,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14070,7 +14070,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,MonsterDieEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14087,7 +14087,7 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,WorldGatherEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerRoutineComp,WorldGatherEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerRoutineComp,WorldGatherEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14104,7 +14104,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,CaptureSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,CaptureSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,CaptureSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14121,7 +14121,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14138,7 +14138,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14155,7 +14155,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14172,7 +14172,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChestOpenEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14189,7 +14189,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,FishingSuccEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,FishingSuccEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,FishingSuccEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14206,7 +14206,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent>::We
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14223,7 +14223,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14240,7 +14240,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SetGameTimeEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,SetGameTimeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,SetGameTimeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14257,7 +14257,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SkillEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,SkillEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14274,7 +14274,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14291,7 +14291,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14308,7 +14308,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14325,7 +14325,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishQuestEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14342,7 +14342,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14359,7 +14359,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14376,7 +14376,7 @@ void __cdecl WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14393,7 +14393,7 @@ void __cdecl WeakptrObserver<PlayerSocialComp,EnterMpEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSocialComp,EnterMpEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSocialComp,EnterMpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14410,7 +14410,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14427,7 +14427,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14444,7 +14444,7 @@ void __cdecl WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14461,7 +14461,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,BaseEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,BaseEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,BaseEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14478,7 +14478,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,FinishQuestEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14495,7 +14495,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14512,7 +14512,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14529,7 +14529,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14546,7 +14546,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterCombatEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterCombatEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14563,7 +14563,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterMpEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterMpEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterMpEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14580,7 +14580,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14597,7 +14597,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,LoseItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,LoseItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,LoseItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14614,7 +14614,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ObtainItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14631,7 +14631,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14648,7 +14648,7 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FailParentQuestEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWorldScene,FailParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWorldScene,FailParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14665,7 +14665,7 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14682,7 +14682,7 @@ void __cdecl WeakptrObserver<PotionActivity,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PotionActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PotionActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14699,7 +14699,7 @@ void __cdecl WeakptrObserver<PotionActivity,PostEnterSceneEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PotionActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PotionActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14716,7 +14716,7 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14733,7 +14733,7 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent>::W
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14750,7 +14750,7 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14767,7 +14767,7 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14784,7 +14784,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14801,7 +14801,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14818,7 +14818,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14835,7 +14835,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14852,7 +14852,7 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChang
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14871,7 +14871,7 @@ void __cdecl WeakptrObserver<Scene,FinishQuestEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<Scene,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<Scene,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14888,7 +14888,7 @@ void __cdecl WeakptrObserver<Scene,PlayerLevelupEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<Scene,PlayerLevelupEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<Scene,PlayerLevelupEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14905,7 +14905,7 @@ void __cdecl WeakptrObserver<SeaLampActivity,FinishParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14922,7 +14922,7 @@ void __cdecl WeakptrObserver<SeaLampActivity,OpenMechanicusEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampActivity,OpenMechanicusEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampActivity,OpenMechanicusEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14939,7 +14939,7 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14956,7 +14956,7 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14973,7 +14973,7 @@ void __cdecl WeakptrObserver<SealBattleBase,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SealBattleBase,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SealBattleBase,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -14990,7 +14990,7 @@ void __cdecl WeakptrObserver<SealBattleBase,TeamDeadEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SealBattleBase,TeamDeadEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SealBattleBase,TeamDeadEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15007,7 +15007,7 @@ void __cdecl WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15024,7 +15024,7 @@ void __cdecl WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15041,7 +15041,7 @@ void __cdecl WeakptrObserver<SpiceActivity,FinishItemGivingEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SpiceActivity,FinishItemGivingEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SpiceActivity,FinishItemGivingEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15058,7 +15058,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15075,7 +15075,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15092,7 +15092,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15109,7 +15109,7 @@ void __cdecl WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15126,7 +15126,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15143,7 +15143,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15160,7 +15160,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15177,7 +15177,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SkillEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,SkillEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,SkillEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15194,7 +15194,7 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleE
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15213,7 +15213,7 @@ void __cdecl WeakptrObserver<SumoActivity,GalleryStartEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,GalleryStartEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,GalleryStartEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15230,7 +15230,7 @@ void __cdecl WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15247,7 +15247,7 @@ void __cdecl WeakptrObserver<SumoActivity,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15264,7 +15264,7 @@ void __cdecl WeakptrObserver<SumoActivity,PostEnterSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<SumoActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<SumoActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15281,7 +15281,7 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent>::Weakp
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15298,7 +15298,7 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15315,7 +15315,7 @@ void __cdecl WeakptrObserver<TeamChainActivity,PostEnterSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TeamChainActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TeamChainActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15332,7 +15332,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15349,7 +15349,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent>::WeakptrO
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15366,7 +15366,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,FinishQuestEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,FinishQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15383,7 +15383,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent>::Weakptr
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15400,7 +15400,7 @@ void __cdecl WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15417,7 +15417,7 @@ void __cdecl WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15434,7 +15434,7 @@ void __cdecl WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15451,7 +15451,7 @@ void __cdecl WeakptrObserver<VintageActivity,BargainFinishEvent>::WeakptrObserve
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,BargainFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,BargainFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15468,7 +15468,7 @@ void __cdecl WeakptrObserver<VintageActivity,CompleteTalkEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,CompleteTalkEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15485,7 +15485,7 @@ void __cdecl WeakptrObserver<VintageActivity,FinishParentQuestEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,FinishParentQuestEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15502,7 +15502,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettle
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15521,7 +15521,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSett
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15540,7 +15540,7 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettle
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15559,7 +15559,7 @@ void __cdecl WeakptrObserver<VintageActivity,GroupBundleFinishEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,GroupBundleFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,GroupBundleFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15576,7 +15576,7 @@ void __cdecl WeakptrObserver<VintageActivity,ObtainItemEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15593,7 +15593,7 @@ void __cdecl WeakptrObserver<VintageActivity,PostEnterSceneEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<VintageActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<VintageActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15610,7 +15610,7 @@ void __cdecl WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEven
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15629,7 +15629,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15646,7 +15646,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15663,7 +15663,7 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent>::WeakptrObserver(
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15680,7 +15680,7 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent>::Weak
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15697,7 +15697,7 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15714,7 +15714,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,CreateDungeonEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,CreateDungeonEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,CreateDungeonEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15731,7 +15731,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,LeaveSceneEvent>::WeakptrObserver
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,LeaveSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15748,7 +15748,7 @@ void __cdecl WeakptrObserver<WindFieldActivity,PostEnterSceneEvent>::WeakptrObse
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WindFieldActivity,PostEnterSceneEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WindFieldActivity,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15765,7 +15765,7 @@ void __cdecl WeakptrObserver<WinterCampActivity,ChallengeFinishEvent>::WeakptrOb
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WinterCampActivity,ChallengeFinishEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WinterCampActivity,ChallengeFinishEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15782,7 +15782,7 @@ void __cdecl WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -15821,8 +15821,8 @@ void __cdecl WeakptrObserver<AsterActivity,CompleteTalkEvent>::procEvent(
   if ( event )
     v5 = (const CompleteTalkEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'CompleteTalkEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for CompleteTalkEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -15920,8 +15920,8 @@ void __cdecl WeakptrObserver<AsterActivity,GeneralRewardDestroyEvent>::procEvent
   if ( event )
     v5 = (const GeneralRewardDestroyEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'GeneralRewardDestroyEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for GeneralRewardDestroyEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -16019,8 +16019,8 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleBeginEvent>::pr
   if ( event )
     v5 = (const SealEnergyChargeBattleBeginEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'SealEnergyChargeBattleBeginEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for SealEnergyChargeBattleBeginEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -16118,8 +16118,8 @@ void __cdecl WeakptrObserver<AsterActivity,SealEnergyChargeBattleEndEvent>::proc
   if ( event )
     v5 = (const SealEnergyChargeBattleEndEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'SealEnergyChargeBattleEndEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for SealEnergyChargeBattleEndEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -16217,8 +16217,8 @@ void __cdecl WeakptrObserver<AsterActivity,TakeGeneralRewardEvent>::procEvent(
   if ( event )
     v5 = (const TakeGeneralRewardEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'TakeGeneralRewardEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for TakeGeneralRewardEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -16316,8 +16316,8 @@ void __cdecl WeakptrObserver<BartenderActivity,FinishParentQuestEvent>::procEven
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -16415,8 +16415,8 @@ void __cdecl WeakptrObserver<BartenderActivity,QuestStateChangeEvent>::procEvent
   if ( event )
     v5 = (const QuestStateChangeEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'QuestStateChangeEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for QuestStateChangeEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -16514,8 +16514,8 @@ void __cdecl WeakptrObserver<BaseActivity,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -16613,8 +16613,8 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldAvatarDieEvent>::procEvent
   if ( event )
     v5 = (const WorldAvatarDieEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'WorldAvatarDieEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for WorldAvatarDieEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -16712,8 +16712,8 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent>::procEv
   if ( event )
     v5 = (const WorldMpModeChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldMpModeChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldMpModeChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -16811,8 +16811,8 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldPlayerChangeEvent>::procEv
   if ( event )
     v5 = (const WorldPlayerChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldPlayerChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldPlayerChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -16910,8 +16910,8 @@ void __cdecl WeakptrObserver<BlessingActivity,SendOfflineMsgRspEvent>::procEvent
   if ( event )
     v5 = (const SendOfflineMsgRspEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'SendOfflineMsgRspEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for SendOfflineMsgRspEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -17009,8 +17009,8 @@ void __cdecl WeakptrObserver<BlitzRushActivity,ChallengeFinishEvent>::procEvent(
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -17108,8 +17108,8 @@ void __cdecl WeakptrObserver<BlitzRushActivity,CreateDungeonEvent>::procEvent(
   if ( event )
     v5 = (const CreateDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'CreateDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for CreateDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -17207,8 +17207,8 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringSettl
   if ( event )
     v5 = (const GalleryBounceConjuringSettleEvent *)__dynamic_cast(
                                                       event,
-                                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                      (const struct __class_type_info *)&`typeinfo for'GalleryBounceConjuringSettleEvent,
+                                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                      (const struct __class_type_info *)&`typeinfo for GalleryBounceConjuringSettleEvent,
                                                       0LL);
   else
     v5 = 0LL;
@@ -17308,8 +17308,8 @@ void __cdecl WeakptrObserver<BounceConjuringActivity,GalleryBounceConjuringStart
   if ( event )
     v5 = (const GalleryBounceConjuringStartEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'GalleryBounceConjuringStartEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for GalleryBounceConjuringStartEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -17409,8 +17409,8 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryBrickBreakerSettleEvent
   if ( event )
     v5 = (const GalleryBrickBreakerSettleEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'GalleryBrickBreakerSettleEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for GalleryBrickBreakerSettleEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -17508,8 +17508,8 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,GalleryStartEvent>::procEvent(
   if ( event )
     v5 = (const GalleryStartEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'GalleryStartEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for GalleryStartEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -17607,8 +17607,8 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -17706,8 +17706,8 @@ void __cdecl WeakptrObserver<BrickBreakerActivity,PostEnterSceneEvent>::procEven
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -17805,8 +17805,8 @@ void __cdecl WeakptrObserver<BuoyantCombatActivity,GalleryBuoyantCombatSettleEve
   if ( event )
     v5 = (const GalleryBuoyantCombatSettleEvent *)__dynamic_cast(
                                                     event,
-                                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                    (const struct __class_type_info *)&`typeinfo for'GalleryBuoyantCombatSettleEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for GalleryBuoyantCombatSettleEvent,
                                                     0LL);
   else
     v5 = 0LL;
@@ -17904,8 +17904,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,AvatarLevelupEvent>::procEve
   if ( event )
     v5 = (const AvatarLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'AvatarLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for AvatarLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -18003,8 +18003,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ChallengeBeginEvent>::procEv
   if ( event )
     v5 = (const ChallengeBeginEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'ChallengeBeginEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for ChallengeBeginEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -18102,8 +18102,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -18201,8 +18201,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,ObtainAvatarEvent>::procEven
   if ( event )
     v5 = (const ObtainAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ObtainAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ObtainAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -18300,8 +18300,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,PostEnterSceneEvent>::procEv
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -18399,8 +18399,8 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent>::pro
   if ( event )
     v5 = (const TakeGeneralRewardEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'TakeGeneralRewardEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for TakeGeneralRewardEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -18498,8 +18498,8 @@ void __cdecl WeakptrObserver<CharAmusementActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -18597,8 +18597,8 @@ void __cdecl WeakptrObserver<CoinCollectActivity,CoinCollectGalleryFinishEvent>:
   if ( event )
     v5 = (const CoinCollectGalleryFinishEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'CoinCollectGalleryFinishEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for CoinCollectGalleryFinishEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -18696,8 +18696,8 @@ void __cdecl WeakptrObserver<CrucibleActivity,MpPlayBattleSettleEvent>::procEven
   if ( event )
     v5 = (const MpPlayBattleSettleEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'MpPlayBattleSettleEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for MpPlayBattleSettleEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -18795,8 +18795,8 @@ void __cdecl WeakptrObserver<CrucibleActivity,SocialDetialEvent>::procEvent(
   if ( event )
     v5 = (const SocialDetialEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'SocialDetialEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for SocialDetialEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -18894,8 +18894,8 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,GalleryStartEvent>::procEvent(
   if ( event )
     v5 = (const GalleryStartEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'GalleryStartEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for GalleryStartEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -18993,8 +18993,8 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -19092,8 +19092,8 @@ void __cdecl WeakptrObserver<CrystalLinkActivity,PostEnterSceneEvent>::procEvent
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -19191,8 +19191,8 @@ void __cdecl WeakptrObserver<DeliveryActivity,FinishParentQuestEvent>::procEvent
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -19290,8 +19290,8 @@ void __cdecl WeakptrObserver<DeliveryActivity,WatcherProgressUpdateEvent>::procE
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -19389,8 +19389,8 @@ void __cdecl WeakptrObserver<DigActivity,GroupBundleFinishEvent>::procEvent(
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -19488,8 +19488,8 @@ void __cdecl WeakptrObserver<DragonSpineActivity,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -19587,8 +19587,8 @@ void __cdecl WeakptrObserver<DragonSpineActivity,WearOrTakeOffEquipEvent>::procE
   if ( event )
     v5 = (const WearOrTakeOffEquipEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'WearOrTakeOffEquipEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for WearOrTakeOffEquipEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -19686,8 +19686,8 @@ void __cdecl WeakptrObserver<DuelHeartActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -19785,8 +19785,8 @@ void __cdecl WeakptrObserver<EchoShellActivity,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -19884,8 +19884,8 @@ void __cdecl WeakptrObserver<EchoShellActivity,ClimateMeterFullEvent>::procEvent
   if ( event )
     v5 = (const ClimateMeterFullEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ClimateMeterFullEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ClimateMeterFullEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -19983,8 +19983,8 @@ void __cdecl WeakptrObserver<EchoShellActivity,FinishDungeonEvent>::procEvent(
   if ( event )
     v5 = (const FinishDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'FinishDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for FinishDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -20082,8 +20082,8 @@ void __cdecl WeakptrObserver<EffigyActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -20181,8 +20181,8 @@ void __cdecl WeakptrObserver<EffigyActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -20280,8 +20280,8 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,GalleryEffigyChallengeV2S
   if ( event )
     v5 = (const GalleryEffigyChallengeV2SettleEvent *)__dynamic_cast(
                                                         event,
-                                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                        (const struct __class_type_info *)&`typeinfo for'GalleryEffigyChallengeV2SettleEvent,
+                                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                        (const struct __class_type_info *)&`typeinfo for GalleryEffigyChallengeV2SettleEvent,
                                                         0LL);
   else
     v5 = 0LL;
@@ -20381,8 +20381,8 @@ void __cdecl WeakptrObserver<EffigyChallengeV2Activity,PostEnterSceneEvent>::pro
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -20480,8 +20480,8 @@ void __cdecl WeakptrObserver<ElectroherculesBattleActivity,GalleryElectrohercule
   if ( event )
     v5 = (const GalleryElectroherculesBattleSettleEvent *)__dynamic_cast(
                                                             event,
-                                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                            (const struct __class_type_info *)&`typeinfo for'GalleryElectroherculesBattleSettleEvent,
+                                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                            (const struct __class_type_info *)&`typeinfo for GalleryElectroherculesBattleSettleEvent,
                                                             0LL);
   else
     v5 = 0LL;
@@ -20583,8 +20583,8 @@ void __cdecl WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent>::procEvent(
   if ( event )
     v5 = (const SetGameTimeEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'SetGameTimeEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for SetGameTimeEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -20682,8 +20682,8 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryBalloonSettleEvent>::procE
   if ( event )
     v5 = (const GalleryBalloonSettleEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'GalleryBalloonSettleEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for GalleryBalloonSettleEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -20781,8 +20781,8 @@ void __cdecl WeakptrObserver<FleurFairActivity,GalleryFallSettleEvent>::procEven
   if ( event )
     v5 = (const GalleryFallSettleEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GalleryFallSettleEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GalleryFallSettleEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -20880,8 +20880,8 @@ void __cdecl WeakptrObserver<FlightActivity,ChallengeBeginEvent>::procEvent(
   if ( event )
     v5 = (const ChallengeBeginEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'ChallengeBeginEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for ChallengeBeginEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -20979,8 +20979,8 @@ void __cdecl WeakptrObserver<FlightActivity,LuaMarkedChallengeEvent>::procEvent(
   if ( event )
     v5 = (const LuaMarkedChallengeEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'LuaMarkedChallengeEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for LuaMarkedChallengeEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -21078,8 +21078,8 @@ void __cdecl WeakptrObserver<FungusFighterActivity,FungusFighterTrainingGalleryS
   if ( event )
     v5 = (const FungusFighterTrainingGallerySettleEvent *)__dynamic_cast(
                                                             event,
-                                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                            (const struct __class_type_info *)&`typeinfo for'FungusFighterTrainingGallerySettleEvent,
+                                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                            (const struct __class_type_info *)&`typeinfo for FungusFighterTrainingGallerySettleEvent,
                                                             0LL);
   else
     v5 = 0LL;
@@ -21179,8 +21179,8 @@ void __cdecl WeakptrObserver<FungusFighterActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -21278,8 +21278,8 @@ void __cdecl WeakptrObserver<FungusFighterActivity,PostEnterSceneEvent>::procEve
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -21377,8 +21377,8 @@ void __cdecl WeakptrObserver<GachaActivity,GatherEvent>::procEvent(
   if ( event )
     v5 = (const GatherEvent *)__dynamic_cast(
                                 event,
-                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                (const struct __class_type_info *)&`typeinfo for'GatherEvent,
+                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                (const struct __class_type_info *)&`typeinfo for GatherEvent,
                                 0LL);
   else
     v5 = 0LL;
@@ -21476,8 +21476,8 @@ void __cdecl WeakptrObserver<GachaActivity,MonsterBeKilledByHateListEvent>::proc
   if ( event )
     v5 = (const MonsterBeKilledByHateListEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'MonsterBeKilledByHateListEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for MonsterBeKilledByHateListEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -21575,8 +21575,8 @@ void __cdecl WeakptrObserver<GachaActivity,TrifleEvent>::procEvent(
   if ( event )
     v5 = (const TrifleEvent *)__dynamic_cast(
                                 event,
-                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                (const struct __class_type_info *)&`typeinfo for'TrifleEvent,
+                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                (const struct __class_type_info *)&`typeinfo for TrifleEvent,
                                 0LL);
   else
     v5 = 0LL;
@@ -21674,8 +21674,8 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldMpModeChangeEvent>::procEve
   if ( event )
     v5 = (const WorldMpModeChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldMpModeChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldMpModeChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -21773,8 +21773,8 @@ void __cdecl WeakptrObserver<GadgetCruciblePlay,WorldPlayerChangeEvent>::procEve
   if ( event )
     v5 = (const WorldPlayerChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldPlayerChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldPlayerChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -21872,8 +21872,8 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,ChallengeFinishEvent>::proc
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -21971,8 +21971,8 @@ void __cdecl WeakptrObserver<GravenInnocenceActivity,GalleryGravenInnocenceRaceS
   if ( event )
     v5 = (const GalleryGravenInnocenceRaceScoreEvent *)__dynamic_cast(
                                                          event,
-                                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                         (const struct __class_type_info *)&`typeinfo for'GalleryGravenInnocenceRaceScoreEvent,
+                                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                         (const struct __class_type_info *)&`typeinfo for GalleryGravenInnocenceRaceScoreEvent,
                                                          0LL);
   else
     v5 = 0LL;
@@ -22072,8 +22072,8 @@ void __cdecl WeakptrObserver<HachiActivity,FinishDungeonEvent>::procEvent(
   if ( event )
     v5 = (const FinishDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'FinishDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for FinishDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -22171,8 +22171,8 @@ void __cdecl WeakptrObserver<HachiActivity,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -22270,8 +22270,8 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -22369,8 +22369,8 @@ void __cdecl WeakptrObserver<HideAndSeekActivity,UnlockAreaEvent>::procEvent(
   if ( event )
     v5 = (const UnlockAreaEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'UnlockAreaEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for UnlockAreaEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -22468,8 +22468,8 @@ void __cdecl WeakptrObserver<HomeResource,HomeLevelEvent>::procEvent(
   if ( event )
     v5 = (const HomeLevelEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'HomeLevelEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for HomeLevelEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -22567,8 +22567,8 @@ void __cdecl WeakptrObserver<HuntingRecord,ClearGroupMonsterEvent>::procEvent(
   if ( event )
     v5 = (const ClearGroupMonsterEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'ClearGroupMonsterEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for ClearGroupMonsterEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -22666,8 +22666,8 @@ void __cdecl WeakptrObserver<HuntingRecord,GroupsReplaceEvent>::procEvent(
   if ( event )
     v5 = (const GroupsReplaceEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'GroupsReplaceEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for GroupsReplaceEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -22765,8 +22765,8 @@ void __cdecl WeakptrObserver<HuntingRecord,InteractGadgetEvent>::procEvent(
   if ( event )
     v5 = (const InteractGadgetEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'InteractGadgetEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for InteractGadgetEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -22864,8 +22864,8 @@ void __cdecl WeakptrObserver<HuntingRecord,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -22963,8 +22963,8 @@ void __cdecl WeakptrObserver<HuntingRecord,WorldGatherEvent>::procEvent(
   if ( event )
     v5 = (const WorldGatherEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'WorldGatherEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for WorldGatherEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -23062,8 +23062,8 @@ void __cdecl WeakptrObserver<InstableSprayActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -23161,8 +23161,8 @@ void __cdecl WeakptrObserver<InstableSprayActivity,PostEnterSceneEvent>::procEve
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -23260,8 +23260,8 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryIslandPartySettleEvent>:
   if ( event )
     v5 = (const GalleryIslandPartySettleEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'GalleryIslandPartySettleEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for GalleryIslandPartySettleEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -23359,8 +23359,8 @@ void __cdecl WeakptrObserver<IslandPartyActivity,GalleryStartEvent>::procEvent(
   if ( event )
     v5 = (const GalleryStartEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'GalleryStartEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for GalleryStartEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -23458,8 +23458,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,CreateDungeonEvent>::procEvent(
   if ( event )
     v5 = (const CreateDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'CreateDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for CreateDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -23557,8 +23557,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvageEscortSettleEvent
   if ( event )
     v5 = (const GallerySalvageEscortSettleEvent *)__dynamic_cast(
                                                     event,
-                                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                    (const struct __class_type_info *)&`typeinfo for'GallerySalvageEscortSettleEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for GallerySalvageEscortSettleEvent,
                                                     0LL);
   else
     v5 = 0LL;
@@ -23656,8 +23656,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GallerySalvagePreventSettleEven
   if ( event )
     v5 = (const GallerySalvagePreventSettleEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'GallerySalvagePreventSettleEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for GallerySalvagePreventSettleEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -23755,8 +23755,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,GroupBundleFinishEvent>::procEv
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -23854,8 +23854,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -23953,8 +23953,8 @@ void __cdecl WeakptrObserver<LanternRiteActivity,PostEnterSceneEvent>::procEvent
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -24052,8 +24052,8 @@ void __cdecl WeakptrObserver<LightStoneRegionalPlay,OfferingLevelupEvent>::procE
   if ( event )
     v5 = (const OfferingLevelupEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OfferingLevelupEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OfferingLevelupEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -24151,8 +24151,8 @@ void __cdecl WeakptrObserver<LuminanceStoneChallengeActivity,LuminanceStoneChall
   if ( event )
     v5 = (const LuminanceStoneChallengeGallerySettleEvent *)__dynamic_cast(
                                                               event,
-                                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                              (const struct __class_type_info *)&`typeinfo for'LuminanceStoneChallengeGallerySettleEvent,
+                                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                              (const struct __class_type_info *)&`typeinfo for LuminanceStoneChallengeGallerySettleEvent,
                                                               0LL);
   else
     v5 = 0LL;
@@ -24254,8 +24254,8 @@ void __cdecl WeakptrObserver<LunaRiteActivity,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -24353,8 +24353,8 @@ void __cdecl WeakptrObserver<LunaRiteActivity,GroupBundleFinishEvent>::procEvent
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -24452,8 +24452,8 @@ void __cdecl WeakptrObserver<LunaRiteActivity,WorldGatherEvent>::procEvent(
   if ( event )
     v5 = (const WorldGatherEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'WorldGatherEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for WorldGatherEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -24551,8 +24551,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChallengeFinishEvent>::procE
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -24650,8 +24650,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -24749,8 +24749,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -24848,8 +24848,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,OfferingLevelupEvent>::procE
   if ( event )
     v5 = (const OfferingLevelupEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OfferingLevelupEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OfferingLevelupEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -24947,8 +24947,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriActivity,PostEnterSceneEvent>::procEv
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -25046,8 +25046,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,OfferingLevelupEvent>::p
   if ( event )
     v5 = (const OfferingLevelupEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OfferingLevelupEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OfferingLevelupEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -25147,8 +25147,8 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialSettleEvent>::pro
   if ( event )
     v5 = (const GalleryMistTrialSettleEvent *)__dynamic_cast(
                                                 event,
-                                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                (const struct __class_type_info *)&`typeinfo for'GalleryMistTrialSettleEvent,
+                                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                (const struct __class_type_info *)&`typeinfo for GalleryMistTrialSettleEvent,
                                                 0LL);
   else
     v5 = 0LL;
@@ -25246,8 +25246,8 @@ void __cdecl WeakptrObserver<MistTrialActivity,GalleryMistTrialStartEvent>::proc
   if ( event )
     v5 = (const GalleryMistTrialStartEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'GalleryMistTrialStartEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for GalleryMistTrialStartEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -25345,8 +25345,8 @@ void __cdecl WeakptrObserver<MistTrialActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -25444,8 +25444,8 @@ void __cdecl WeakptrObserver<MistTrialActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -25543,8 +25543,8 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,FishingSuccEvent>::procEvent(
   if ( event )
     v5 = (const FishingSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FishingSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FishingSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -25642,8 +25642,8 @@ void __cdecl WeakptrObserver<MoonfinTrialActivity,GalleryFishSettleEvent>::procE
   if ( event )
     v5 = (const GalleryFishSettleEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GalleryFishSettleEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GalleryFishSettleEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -25741,8 +25741,8 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,GalleryMuqadasPotionSettleEve
   if ( event )
     v5 = (const GalleryMuqadasPotionSettleEvent *)__dynamic_cast(
                                                     event,
-                                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                    (const struct __class_type_info *)&`typeinfo for'GalleryMuqadasPotionSettleEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for GalleryMuqadasPotionSettleEvent,
                                                     0LL);
   else
     v5 = 0LL;
@@ -25840,8 +25840,8 @@ void __cdecl WeakptrObserver<MuqadasPotionActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -25939,8 +25939,8 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeCustomFurnitureChangeEvent>
   if ( event )
     v5 = (const HomeCustomFurnitureChangeEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'HomeCustomFurnitureChangeEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for HomeCustomFurnitureChangeEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -26038,8 +26038,8 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomeGatherEvent>::procEvent(
   if ( event )
     v5 = (const HomeGatherEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'HomeGatherEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for HomeGatherEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -26137,8 +26137,8 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,HomePlantEvent>::procEvent(
   if ( event )
     v5 = (const HomePlantEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'HomePlantEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for HomePlantEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -26236,8 +26236,8 @@ void __cdecl WeakptrObserver<PlantFlowerActivity,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -26335,8 +26335,8 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,DelAvatarEvent>::procEvent(
   if ( event )
     v5 = (const DelAvatarEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'DelAvatarEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for DelAvatarEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -26434,8 +26434,8 @@ void __cdecl WeakptrObserver<PlayerAbilityGroupComp,SetAvatarTeamToSceneEvent>::
   if ( event )
     v5 = (const SetAvatarTeamToSceneEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'SetAvatarTeamToSceneEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for SetAvatarTeamToSceneEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -26533,8 +26533,8 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,OpenStateChangeEvent>::procEv
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -26632,8 +26632,8 @@ void __cdecl WeakptrObserver<PlayerAchievementComp,WatcherProgressUpdateEvent>::
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -26731,8 +26731,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChallengeFinishEvent>::procEvent
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -26830,8 +26830,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,ChangeCondStateEvent>::procEvent
   if ( event )
     v5 = (const ChangeCondStateEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChangeCondStateEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChangeCondStateEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -26929,8 +26929,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CompleteTalkEvent>::procEvent(
   if ( event )
     v5 = (const CompleteTalkEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'CompleteTalkEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for CompleteTalkEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -27028,8 +27028,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,CreateNpcEvent>::procEvent(
   if ( event )
     v5 = (const CreateNpcEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'CreateNpcEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for CreateNpcEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -27127,8 +27127,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -27226,8 +27226,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,GroupBundleFinishEvent>::procEve
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -27325,8 +27325,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OfferingLevelupEvent>::procEvent
   if ( event )
     v5 = (const OfferingLevelupEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OfferingLevelupEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OfferingLevelupEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -27424,8 +27424,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenMechanicusEvent>::procEvent(
   if ( event )
     v5 = (const OpenMechanicusEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'OpenMechanicusEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for OpenMechanicusEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -27523,8 +27523,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,OpenStateChangeEvent>::procEvent
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -27622,8 +27622,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -27721,8 +27721,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,QuestGlobalVarUpdateEvent>::proc
   if ( event )
     v5 = (const QuestGlobalVarUpdateEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'QuestGlobalVarUpdateEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for QuestGlobalVarUpdateEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -27820,8 +27820,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,RegionSearchFinishSearchEvent>::
   if ( event )
     v5 = (const RegionSearchFinishSearchEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'RegionSearchFinishSearchEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for RegionSearchFinishSearchEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -27919,8 +27919,8 @@ void __cdecl WeakptrObserver<PlayerActivityComp,WatcherProgressUpdateEvent>::pro
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -28018,8 +28018,8 @@ void __cdecl WeakptrObserver<PlayerAranaraCollectionComp,WatcherProgressUpdateEv
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -28119,8 +28119,8 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishDungeonEvent>::procEvent(
   if ( event )
     v5 = (const FinishDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'FinishDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for FinishDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -28218,8 +28218,8 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishParentQuestEvent>::procEvent
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -28317,8 +28317,8 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -28416,8 +28416,8 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,UnlockTransPointEvent>::procEvent(
   if ( event )
     v5 = (const UnlockTransPointEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'UnlockTransPointEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for UnlockTransPointEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -28515,8 +28515,8 @@ void __cdecl WeakptrObserver<PlayerAvatarComp,WorldPlayerChangeEvent>::procEvent
   if ( event )
     v5 = (const WorldPlayerChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldPlayerChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldPlayerChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -28614,8 +28614,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,AvatarCosumeChangeEvent>::procEvent
   if ( event )
     v5 = (const AvatarCosumeChangeEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'AvatarCosumeChangeEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for AvatarCosumeChangeEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -28713,8 +28713,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ChangeAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ChangeAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ChangeAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ChangeAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -28812,8 +28812,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,ClimateMeterFullEvent>::procEvent(
   if ( event )
     v5 = (const ClimateMeterFullEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ClimateMeterFullEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ClimateMeterFullEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -28911,8 +28911,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,EnterCombatEvent>::procEvent(
   if ( event )
     v5 = (const EnterCombatEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'EnterCombatEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for EnterCombatEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -29010,8 +29010,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -29109,8 +29109,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,LeaveCombatEvent>::procEvent(
   if ( event )
     v5 = (const LeaveCombatEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'LeaveCombatEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for LeaveCombatEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -29208,8 +29208,8 @@ void __cdecl WeakptrObserver<PlayerBasicComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -29307,8 +29307,8 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,OpenStateChangeEvent>::procEve
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -29406,8 +29406,8 @@ void __cdecl WeakptrObserver<PlayerBattlePassComp,WatcherProgressUpdateEvent>::p
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -29505,8 +29505,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondExpireEvent>::procEve
   if ( event )
     v5 = (const ActivityCondExpireEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'ActivityCondExpireEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for ActivityCondExpireEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -29604,8 +29604,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,ActivityCondMeetEvent>::procEvent
   if ( event )
     v5 = (const ActivityCondMeetEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ActivityCondMeetEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ActivityCondMeetEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -29703,8 +29703,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -29802,8 +29802,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,GroupsReplaceEvent>::procEvent(
   if ( event )
     v5 = (const GroupsReplaceEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'GroupsReplaceEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for GroupsReplaceEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -29901,8 +29901,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -30000,8 +30000,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,PlayerWorldLevelChangeEvent>::pro
   if ( event )
     v5 = (const PlayerWorldLevelChangeEvent *)__dynamic_cast(
                                                 event,
-                                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                (const struct __class_type_info *)&`typeinfo for'PlayerWorldLevelChangeEvent,
+                                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                (const struct __class_type_info *)&`typeinfo for PlayerWorldLevelChangeEvent,
                                                 0LL);
   else
     v5 = 0LL;
@@ -30099,8 +30099,8 @@ void __cdecl WeakptrObserver<PlayerBlossomComp,SceneTagChangeEvent>::procEvent(
   if ( event )
     v5 = (const SceneTagChangeEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'SceneTagChangeEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for SceneTagChangeEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -30198,8 +30198,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,AccelerateEvent>::procEvent(
   if ( event )
     v5 = (const AccelerateEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'AccelerateEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for AccelerateEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -30297,8 +30297,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,ChangeAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ChangeAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ChangeAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ChangeAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -30396,8 +30396,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,GatherEvent>::procEvent(
   if ( event )
     v5 = (const GatherEvent *)__dynamic_cast(
                                 event,
-                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                (const struct __class_type_info *)&`typeinfo for'GatherEvent,
+                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                (const struct __class_type_info *)&`typeinfo for GatherEvent,
                                 0LL);
   else
     v5 = 0LL;
@@ -30495,8 +30495,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,KillMonsterEvent>::procEvent(
   if ( event )
     v5 = (const KillMonsterEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'KillMonsterEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for KillMonsterEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -30594,8 +30594,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -30693,8 +30693,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -30792,8 +30792,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,SkillEvent>::procEvent(
   if ( event )
     v5 = (const SkillEvent *)__dynamic_cast(
                                event,
-                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                               (const struct __class_type_info *)&`typeinfo for'SkillEvent,
+                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                               (const struct __class_type_info *)&`typeinfo for SkillEvent,
                                0LL);
   else
     v5 = 0LL;
@@ -30891,8 +30891,8 @@ void __cdecl WeakptrObserver<PlayerBoredComp,UseItemEvent>::procEvent(
   if ( event )
     v5 = (const UseItemEvent *)__dynamic_cast(
                                  event,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                 (const struct __class_type_info *)&`typeinfo for'UseItemEvent,
+                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                 (const struct __class_type_info *)&`typeinfo for UseItemEvent,
                                  0LL);
   else
     v5 = 0LL;
@@ -30990,8 +30990,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,CaptureSuccEvent>::procEvent(
   if ( event )
     v5 = (const CaptureSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'CaptureSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for CaptureSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -31089,8 +31089,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,EnvAnimalEvent>::procEvent(
   if ( event )
     v5 = (const EnvAnimalEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'EnvAnimalEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for EnvAnimalEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -31188,8 +31188,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -31287,8 +31287,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,FishingSuccEvent>::procEvent(
   if ( event )
     v5 = (const FishingSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FishingSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FishingSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -31386,8 +31386,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,MonsterBeKilledByHateListEvent>::pr
   if ( event )
     v5 = (const MonsterBeKilledByHateListEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'MonsterBeKilledByHateListEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for MonsterBeKilledByHateListEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -31485,8 +31485,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -31584,8 +31584,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,PushTipAddEvent>::procEvent(
   if ( event )
     v5 = (const PushTipAddEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'PushTipAddEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for PushTipAddEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -31683,8 +31683,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,SeeAnimalEvent>::procEvent(
   if ( event )
     v5 = (const SeeAnimalEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'SeeAnimalEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for SeeAnimalEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -31782,8 +31782,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,ViewSceneryEvent>::procEvent(
   if ( event )
     v5 = (const ViewSceneryEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'ViewSceneryEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for ViewSceneryEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -31881,8 +31881,8 @@ void __cdecl WeakptrObserver<PlayerCodexComp,WeaponPromoteEvent>::procEvent(
   if ( event )
     v5 = (const WeaponPromoteEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'WeaponPromoteEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for WeaponPromoteEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -31980,8 +31980,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondExpireEvent>::procEve
   if ( event )
     v5 = (const ActivityCondExpireEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'ActivityCondExpireEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for ActivityCondExpireEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -32079,8 +32079,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ActivityCondMeetEvent>::procEvent
   if ( event )
     v5 = (const ActivityCondMeetEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ActivityCondMeetEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ActivityCondMeetEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -32178,8 +32178,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,CancelParentQuestEvent>::procEven
   if ( event )
     v5 = (const CancelParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'CancelParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for CancelParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -32277,8 +32277,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FailParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FailParentQuestEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'FailParentQuestEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for FailParentQuestEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -32376,8 +32376,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishParentQuestEvent>::procEven
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -32475,8 +32475,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -32574,8 +32574,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -32673,8 +32673,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -32772,8 +32772,8 @@ void __cdecl WeakptrObserver<PlayerCombineComp,StartQuestEvent>::procEvent(
   if ( event )
     v5 = (const StartQuestEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'StartQuestEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for StartQuestEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -32871,8 +32871,8 @@ void __cdecl WeakptrObserver<PlayerCoopComp,FetterLevelUpdateEvent>::procEvent(
   if ( event )
     v5 = (const FetterLevelUpdateEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FetterLevelUpdateEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FetterLevelUpdateEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -32970,8 +32970,8 @@ void __cdecl WeakptrObserver<PlayerCoopComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -33069,8 +33069,8 @@ void __cdecl WeakptrObserver<PlayerCustomDungeonComp,PostEnterSceneEvent>::procE
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -33168,8 +33168,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChallengeFinishEvent>::procEven
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -33267,8 +33267,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -33366,8 +33366,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent>::procEvent(
   if ( event )
     v5 = (const CompleteTalkEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'CompleteTalkEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for CompleteTalkEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -33465,8 +33465,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GadgetDieEvent>::procEvent(
   if ( event )
     v5 = (const GadgetDieEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'GadgetDieEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for GadgetDieEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -33564,8 +33564,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,GroupsReplaceEvent>::procEvent(
   if ( event )
     v5 = (const GroupsReplaceEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'GroupsReplaceEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for GroupsReplaceEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -33663,8 +33663,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -33762,8 +33762,8 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,WorldGatherEvent>::procEvent(
   if ( event )
     v5 = (const WorldGatherEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'WorldGatherEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for WorldGatherEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -33861,8 +33861,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,CancelParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const CancelParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'CancelParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for CancelParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -33960,8 +33960,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FailParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FailParentQuestEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'FailParentQuestEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for FailParentQuestEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -34059,8 +34059,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -34158,8 +34158,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -34257,8 +34257,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,OpenStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -34356,8 +34356,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -34455,8 +34455,8 @@ void __cdecl WeakptrObserver<PlayerForgeComp,StartQuestEvent>::procEvent(
   if ( event )
     v5 = (const StartQuestEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'StartQuestEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for StartQuestEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -34554,8 +34554,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -34653,8 +34653,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -34752,8 +34752,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,GCGLevelSettleEvent>::procEvent(
   if ( event )
     v5 = (const GCGLevelSettleEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'GCGLevelSettleEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for GCGLevelSettleEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -34851,8 +34851,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,OpenStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -34950,8 +34950,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -35049,8 +35049,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,QuestStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const QuestStateChangeEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'QuestStateChangeEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for QuestStateChangeEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -35148,8 +35148,8 @@ void __cdecl WeakptrObserver<PlayerGCGComp,StartQuestEvent>::procEvent(
   if ( event )
     v5 = (const StartQuestEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'StartQuestEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for StartQuestEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -35247,8 +35247,8 @@ void __cdecl WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent>::procEve
   if ( event )
     v5 = (const ActivityScheduleEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ActivityScheduleEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ActivityScheduleEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -35346,8 +35346,8 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,PlayerLevelupEvent>::procEvent
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -35445,8 +35445,8 @@ void __cdecl WeakptrObserver<PlayerH5ActivityComp,WatcherProgressUpdateEvent>::p
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -35544,8 +35544,8 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarCosumeChangeEvent>::procEvent(
   if ( event )
     v5 = (const AvatarCosumeChangeEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'AvatarCosumeChangeEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for AvatarCosumeChangeEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -35643,8 +35643,8 @@ void __cdecl WeakptrObserver<PlayerHomeComp,AvatarLevelupEvent>::procEvent(
   if ( event )
     v5 = (const AvatarLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'AvatarLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for AvatarLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -35742,8 +35742,8 @@ void __cdecl WeakptrObserver<PlayerHomeComp,EnterMyHomeWorldEvent>::procEvent(
   if ( event )
     v5 = (const EnterMyHomeWorldEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'EnterMyHomeWorldEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for EnterMyHomeWorldEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -35841,8 +35841,8 @@ void __cdecl WeakptrObserver<PlayerHomeComp,FetterLevelUpdateEvent>::procEvent(
   if ( event )
     v5 = (const FetterLevelUpdateEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FetterLevelUpdateEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FetterLevelUpdateEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -35940,8 +35940,8 @@ void __cdecl WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -36039,8 +36039,8 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -36138,8 +36138,8 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -36237,8 +36237,8 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingEndEvent>::procEvent(
   if ( event )
     v5 = (const WorldHuntingEndEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'WorldHuntingEndEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for WorldHuntingEndEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -36336,8 +36336,8 @@ void __cdecl WeakptrObserver<PlayerHuntingComp,WorldHuntingStartEvent>::procEven
   if ( event )
     v5 = (const WorldHuntingStartEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldHuntingStartEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldHuntingStartEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -36435,8 +36435,8 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,GroupsReplaceEvent>::procEv
   if ( event )
     v5 = (const GroupsReplaceEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'GroupsReplaceEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for GroupsReplaceEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -36534,8 +36534,8 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,MonsterDieEndEvent>::procEv
   if ( event )
     v5 = (const MonsterDieEndEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'MonsterDieEndEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for MonsterDieEndEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -36633,8 +36633,8 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,OpenStateChangeEvent>::proc
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -36732,8 +36732,8 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,PlayerLevelupEvent>::procEv
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -36831,8 +36831,8 @@ void __cdecl WeakptrObserver<PlayerInvestigationComp,WatcherProgressUpdateEvent>
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -36930,8 +36930,8 @@ void __cdecl WeakptrObserver<PlayerItemComp,OpenStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -37029,8 +37029,8 @@ void __cdecl WeakptrObserver<PlayerLoginComp,NaturalDailyRefreshEvent>::procEven
   if ( event )
     v5 = (const NaturalDailyRefreshEvent *)__dynamic_cast(
                                              event,
-                                             (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                             (const struct __class_type_info *)&`typeinfo for'NaturalDailyRefreshEvent,
+                                             (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                             (const struct __class_type_info *)&`typeinfo for NaturalDailyRefreshEvent,
                                              0LL);
   else
     v5 = 0LL;
@@ -37128,8 +37128,8 @@ void __cdecl WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent>:
   if ( event )
     v5 = (const MechanicusDungeonSettleEvent *)__dynamic_cast(
                                                  event,
-                                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                 (const struct __class_type_info *)&`typeinfo for'MechanicusDungeonSettleEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for MechanicusDungeonSettleEvent,
                                                  0LL);
   else
     v5 = 0LL;
@@ -37227,8 +37227,8 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,EnterCombatEvent>::procEvent(
   if ( event )
     v5 = (const EnterCombatEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'EnterCombatEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for EnterCombatEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -37326,8 +37326,8 @@ void __cdecl WeakptrObserver<PlayerMiracleRingComp,OpenStateChangeEvent>::procEv
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -37425,8 +37425,8 @@ void __cdecl WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -37524,8 +37524,8 @@ void __cdecl WeakptrObserver<PlayerOpActivityComp,PlayerLevelupEvent>::procEvent
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -37623,8 +37623,8 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,DailyTaskRewardEvent>::procE
   if ( event )
     v5 = (const DailyTaskRewardEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'DailyTaskRewardEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for DailyTaskRewardEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -37722,8 +37722,8 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,FinishQuestEvent>::procEvent
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -37821,8 +37821,8 @@ void __cdecl WeakptrObserver<PlayerPersonalLineComp,PlayerLevelupEvent>::procEve
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -37920,8 +37920,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AbilityAvatarSkillStartEvent>::proc
   if ( event )
     v5 = (const AbilityAvatarSkillStartEvent *)__dynamic_cast(
                                                  event,
-                                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                 (const struct __class_type_info *)&`typeinfo for'AbilityAvatarSkillStartEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for AbilityAvatarSkillStartEvent,
                                                  0LL);
   else
     v5 = 0LL;
@@ -38019,8 +38019,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerQuestEvent>::procEve
   if ( event )
     v5 = (const ActivityTriggerQuestEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'ActivityTriggerQuestEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for ActivityTriggerQuestEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -38118,8 +38118,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ActivityTriggerUpdateQuestEvent>::p
   if ( event )
     v5 = (const ActivityTriggerUpdateQuestEvent *)__dynamic_cast(
                                                     event,
-                                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                    (const struct __class_type_info *)&`typeinfo for'ActivityTriggerUpdateQuestEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                    (const struct __class_type_info *)&`typeinfo for ActivityTriggerUpdateQuestEvent,
                                                     0LL);
   else
     v5 = 0LL;
@@ -38217,8 +38217,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,AranaraCollectionStateChangeEvent>:
   if ( event )
     v5 = (const AranaraCollectionStateChangeEvent *)__dynamic_cast(
                                                       event,
-                                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                      (const struct __class_type_info *)&`typeinfo for'AranaraCollectionStateChangeEvent,
+                                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                      (const struct __class_type_info *)&`typeinfo for AranaraCollectionStateChangeEvent,
                                                       0LL);
   else
     v5 = 0LL;
@@ -38316,8 +38316,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,BargainFinishEvent>::procEvent(
   if ( event )
     v5 = (const BargainFinishEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'BargainFinishEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BargainFinishEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -38415,8 +38415,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CaptureSuccEvent>::procEvent(
   if ( event )
     v5 = (const CaptureSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'CaptureSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for CaptureSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -38514,8 +38514,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeClimateAreaEvent>::procEvent(
   if ( event )
     v5 = (const ChangeClimateAreaEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'ChangeClimateAreaEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for ChangeClimateAreaEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -38613,8 +38613,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChangeLevelTagEvent>::procEvent(
   if ( event )
     v5 = (const ChangeLevelTagEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'ChangeLevelTagEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for ChangeLevelTagEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -38712,8 +38712,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -38811,8 +38811,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CityLevelupEvent>::procEvent(
   if ( event )
     v5 = (const CityLevelupEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'CityLevelupEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for CityLevelupEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -38910,8 +38910,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ClearGroupMonsterEvent>::procEvent(
   if ( event )
     v5 = (const ClearGroupMonsterEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'ClearGroupMonsterEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for ClearGroupMonsterEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -39009,8 +39009,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CompleteTalkEvent>::procEvent(
   if ( event )
     v5 = (const CompleteTalkEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'CompleteTalkEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for CompleteTalkEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -39108,8 +39108,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,CrossSceneRangeEvent>::procEvent(
   if ( event )
     v5 = (const CrossSceneRangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'CrossSceneRangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for CrossSceneRangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -39207,8 +39207,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DailyTaskVarUpdateEvent>::procEvent
   if ( event )
     v5 = (const DailyTaskVarUpdateEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'DailyTaskVarUpdateEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for DailyTaskVarUpdateEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -39306,8 +39306,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,DungeonOpenStatueEvent>::procEvent(
   if ( event )
     v5 = (const DungeonOpenStatueEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'DungeonOpenStatueEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for DungeonOpenStatueEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -39405,8 +39405,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterDungeonEvent>::procEvent(
   if ( event )
     v5 = (const EnterDungeonEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'EnterDungeonEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for EnterDungeonEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -39504,8 +39504,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyHomeWorldEvent>::procEvent(
   if ( event )
     v5 = (const EnterMyHomeWorldEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'EnterMyHomeWorldEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for EnterMyHomeWorldEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -39603,8 +39603,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldEvent>::procEvent(
   if ( event )
     v5 = (const EnterMyWorldEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'EnterMyWorldEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for EnterMyWorldEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -39702,8 +39702,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterMyWorldSceneEvent>::procEvent(
   if ( event )
     v5 = (const EnterMyWorldSceneEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'EnterMyWorldSceneEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for EnterMyWorldSceneEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -39801,8 +39801,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterRoomEvent>::procEvent(
   if ( event )
     v5 = (const EnterRoomEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'EnterRoomEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for EnterRoomEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -39900,8 +39900,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,EnterVehicleEvent>::procEvent(
   if ( event )
     v5 = (const EnterVehicleEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'EnterVehicleEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for EnterVehicleEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -39999,8 +39999,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FailDungeonEvent>::procEvent(
   if ( event )
     v5 = (const FailDungeonEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FailDungeonEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FailDungeonEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -40098,8 +40098,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishDungeonEvent>::procEvent(
   if ( event )
     v5 = (const FinishDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'FinishDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for FinishDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -40197,8 +40197,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishItemGivingEvent>::procEvent(
   if ( event )
     v5 = (const FinishItemGivingEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'FinishItemGivingEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for FinishItemGivingEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -40296,8 +40296,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FinishTowerLevelEvent>::procEvent(
   if ( event )
     v5 = (const FinishTowerLevelEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'FinishTowerLevelEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for FinishTowerLevelEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -40395,8 +40395,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,FishingSuccEvent>::procEvent(
   if ( event )
     v5 = (const FishingSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FishingSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FishingSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -40494,8 +40494,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GCGLevelSettleEvent>::procEvent(
   if ( event )
     v5 = (const GCGLevelSettleEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'GCGLevelSettleEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for GCGLevelSettleEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -40593,8 +40593,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetDieEvent>::procEvent(
   if ( event )
     v5 = (const GadgetDieEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'GadgetDieEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for GadgetDieEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -40692,8 +40692,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,GadgetStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const GadgetStateChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GadgetStateChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GadgetStateChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -40791,8 +40791,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,InteractGadgetEvent>::procEvent(
   if ( event )
     v5 = (const InteractGadgetEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'InteractGadgetEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for InteractGadgetEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -40890,8 +40890,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishFlowerThemeEvent>::pro
   if ( event )
     v5 = (const IrodoriFinishFlowerThemeEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'IrodoriFinishFlowerThemeEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for IrodoriFinishFlowerThemeEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -40989,8 +40989,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriFinishPoetryThemeEvent>::pro
   if ( event )
     v5 = (const IrodoriFinishPoetryThemeEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'IrodoriFinishPoetryThemeEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for IrodoriFinishPoetryThemeEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -41088,8 +41088,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,IrodoriPoetryReachMinProgressEvent>
   if ( event )
     v5 = (const IrodoriPoetryReachMinProgressEvent *)__dynamic_cast(
                                                        event,
-                                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                       (const struct __class_type_info *)&`typeinfo for'IrodoriPoetryReachMinProgressEvent,
+                                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                       (const struct __class_type_info *)&`typeinfo for IrodoriPoetryReachMinProgressEvent,
                                                        0LL);
   else
     v5 = 0LL;
@@ -41187,8 +41187,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,KillMonsterEvent>::procEvent(
   if ( event )
     v5 = (const KillMonsterEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'KillMonsterEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for KillMonsterEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -41286,8 +41286,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LoseItemEvent>::procEvent(
   if ( event )
     v5 = (const LoseItemEvent *)__dynamic_cast(
                                   event,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                  (const struct __class_type_info *)&`typeinfo for'LoseItemEvent,
+                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                  (const struct __class_type_info *)&`typeinfo for LoseItemEvent,
                                   0LL);
   else
     v5 = 0LL;
@@ -41385,8 +41385,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,LuaNotifyQuestEvent>::procEvent(
   if ( event )
     v5 = (const LuaNotifyQuestEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'LuaNotifyQuestEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for LuaNotifyQuestEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -41484,8 +41484,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopSavePointEvent>::procEvent(
   if ( event )
     v5 = (const MainCoopSavePointEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'MainCoopSavePointEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for MainCoopSavePointEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -41583,8 +41583,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MainCoopStartEvent>::procEvent(
   if ( event )
     v5 = (const MainCoopStartEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'MainCoopStartEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for MainCoopStartEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -41682,8 +41682,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ManualTransportEvent>::procEvent(
   if ( event )
     v5 = (const ManualTransportEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ManualTransportEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ManualTransportEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -41781,8 +41781,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -41880,8 +41880,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,NickNameEvent>::procEvent(
   if ( event )
     v5 = (const NickNameEvent *)__dynamic_cast(
                                   event,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                  (const struct __class_type_info *)&`typeinfo for'NickNameEvent,
+                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                  (const struct __class_type_info *)&`typeinfo for NickNameEvent,
                                   0LL);
   else
     v5 = 0LL;
@@ -41979,8 +41979,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -42078,8 +42078,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerEnterLeaveRegionEvent>::procE
   if ( event )
     v5 = (const PlayerEnterLeaveRegionEvent *)__dynamic_cast(
                                                 event,
-                                                (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                (const struct __class_type_info *)&`typeinfo for'PlayerEnterLeaveRegionEvent,
+                                                (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                (const struct __class_type_info *)&`typeinfo for PlayerEnterLeaveRegionEvent,
                                                 0LL);
   else
     v5 = 0LL;
@@ -42177,8 +42177,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -42276,8 +42276,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterRogueDungeonEvent>::procEv
   if ( event )
     v5 = (const PostEnterRogueDungeonEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'PostEnterRogueDungeonEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for PostEnterRogueDungeonEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -42375,8 +42375,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -42474,8 +42474,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestAvatarRenameEvent>::procEvent(
   if ( event )
     v5 = (const QuestAvatarRenameEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'QuestAvatarRenameEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for QuestAvatarRenameEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -42573,8 +42573,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestGlobalVarUpdateEvent>::procEve
   if ( event )
     v5 = (const QuestGlobalVarUpdateEvent *)__dynamic_cast(
                                               event,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                              (const struct __class_type_info *)&`typeinfo for'QuestGlobalVarUpdateEvent,
+                                              (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                              (const struct __class_type_info *)&`typeinfo for QuestGlobalVarUpdateEvent,
                                               0LL);
   else
     v5 = 0LL;
@@ -42672,8 +42672,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,QuestStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const QuestStateChangeEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'QuestStateChangeEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for QuestStateChangeEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -42771,8 +42771,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SealBattleEndEvent>::procEvent(
   if ( event )
     v5 = (const SealBattleEndEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'SealBattleEndEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for SealBattleEndEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -42870,8 +42870,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,SkillEvent>::procEvent(
   if ( event )
     v5 = (const SkillEvent *)__dynamic_cast(
                                event,
-                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                               (const struct __class_type_info *)&`typeinfo for'SkillEvent,
+                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                               (const struct __class_type_info *)&`typeinfo for SkillEvent,
                                0LL);
   else
     v5 = 0LL;
@@ -42969,8 +42969,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TeamDeadEvent>::procEvent(
   if ( event )
     v5 = (const TeamDeadEvent *)__dynamic_cast(
                                   event,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                  (const struct __class_type_info *)&`typeinfo for'TeamDeadEvent,
+                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                  (const struct __class_type_info *)&`typeinfo for TeamDeadEvent,
                                   0LL);
   else
     v5 = 0LL;
@@ -43068,8 +43068,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,TriggerFireEvent>::procEvent(
   if ( event )
     v5 = (const TriggerFireEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'TriggerFireEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for TriggerFireEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -43167,8 +43167,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockAreaEvent>::procEvent(
   if ( event )
     v5 = (const UnlockAreaEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'UnlockAreaEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for UnlockAreaEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -43266,8 +43266,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockPersonalLineEvent>::procEvent
   if ( event )
     v5 = (const UnlockPersonalLineEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'UnlockPersonalLineEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for UnlockPersonalLineEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -43365,8 +43365,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockRecipeEvent>::procEvent(
   if ( event )
     v5 = (const UnlockRecipeEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'UnlockRecipeEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for UnlockRecipeEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -43464,8 +43464,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UnlockTransPointEvent>::procEvent(
   if ( event )
     v5 = (const UnlockTransPointEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'UnlockTransPointEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for UnlockTransPointEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -43563,8 +43563,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseItemEvent>::procEvent(
   if ( event )
     v5 = (const UseItemEvent *)__dynamic_cast(
                                  event,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                 (const struct __class_type_info *)&`typeinfo for'UseItemEvent,
+                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                 (const struct __class_type_info *)&`typeinfo for UseItemEvent,
                                  0LL);
   else
     v5 = 0LL;
@@ -43662,8 +43662,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,UseWidgetEvent>::procEvent(
   if ( event )
     v5 = (const UseWidgetEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'UseWidgetEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for UseWidgetEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -43761,8 +43761,8 @@ void __cdecl WeakptrObserver<PlayerQuestComp,WorktopSelectEvent>::procEvent(
   if ( event )
     v5 = (const WorktopSelectEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'WorktopSelectEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for WorktopSelectEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -43860,8 +43860,8 @@ void __cdecl WeakptrObserver<PlayerRechargeComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -43959,8 +43959,8 @@ void __cdecl WeakptrObserver<PlayerReputationComp,FinishParentQuestEvent>::procE
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -44058,8 +44058,8 @@ void __cdecl WeakptrObserver<PlayerReunionComp,WatcherProgressUpdateEvent>::proc
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -44157,8 +44157,8 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,ChallengeFinishEvent>::procEvent(
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -44256,8 +44256,8 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -44355,8 +44355,8 @@ void __cdecl WeakptrObserver<PlayerRoutineComp,WorldGatherEvent>::procEvent(
   if ( event )
     v5 = (const WorldGatherEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'WorldGatherEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for WorldGatherEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -44454,8 +44454,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,CaptureSuccEvent>::procEvent(
   if ( event )
     v5 = (const CaptureSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'CaptureSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for CaptureSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -44553,8 +44553,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ChangeAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ChangeAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ChangeAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -44652,8 +44652,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateAreaEvent>::procEvent(
   if ( event )
     v5 = (const ChangeClimateAreaEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'ChangeClimateAreaEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for ChangeClimateAreaEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -44751,8 +44751,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChangeClimateTypeEvent>::procEvent(
   if ( event )
     v5 = (const ChangeClimateTypeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'ChangeClimateTypeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for ChangeClimateTypeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -44850,8 +44850,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -44949,8 +44949,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,FishingSuccEvent>::procEvent(
   if ( event )
     v5 = (const FishingSuccEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FishingSuccEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FishingSuccEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -45048,8 +45048,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,MonsterBeKilledByHateListEvent>::pr
   if ( event )
     v5 = (const MonsterBeKilledByHateListEvent *)__dynamic_cast(
                                                    event,
-                                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                   (const struct __class_type_info *)&`typeinfo for'MonsterBeKilledByHateListEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                   (const struct __class_type_info *)&`typeinfo for MonsterBeKilledByHateListEvent,
                                                    0LL);
   else
     v5 = 0LL;
@@ -45147,8 +45147,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,RegionalPlayStatusChangeEvent>::pro
   if ( event )
     v5 = (const RegionalPlayStatusChangeEvent *)__dynamic_cast(
                                                   event,
-                                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                  (const struct __class_type_info *)&`typeinfo for'RegionalPlayStatusChangeEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                  (const struct __class_type_info *)&`typeinfo for RegionalPlayStatusChangeEvent,
                                                   0LL);
   else
     v5 = 0LL;
@@ -45246,8 +45246,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SetGameTimeEvent>::procEvent(
   if ( event )
     v5 = (const SetGameTimeEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'SetGameTimeEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for SetGameTimeEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -45345,8 +45345,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,SkillEvent>::procEvent(
   if ( event )
     v5 = (const SkillEvent *)__dynamic_cast(
                                event,
-                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                               (const struct __class_type_info *)&`typeinfo for'SkillEvent,
+                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                               (const struct __class_type_info *)&`typeinfo for SkillEvent,
                                0LL);
   else
     v5 = 0LL;
@@ -45444,8 +45444,8 @@ void __cdecl WeakptrObserver<PlayerSceneComp,WorldPlayerChangeEvent>::procEvent(
   if ( event )
     v5 = (const WorldPlayerChangeEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'WorldPlayerChangeEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for WorldPlayerChangeEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -45543,8 +45543,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,AvatarLevelupEvent>::procEvent(
   if ( event )
     v5 = (const AvatarLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'AvatarLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for AvatarLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -45642,8 +45642,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishParentQuestEvent>::procEvent
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -45741,8 +45741,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -45840,8 +45840,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,ObtainAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ObtainAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ObtainAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ObtainAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -45939,8 +45939,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -46038,8 +46038,8 @@ void __cdecl WeakptrObserver<PlayerSignInComp,WatcherProgressUpdateEvent>::procE
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -46137,8 +46137,8 @@ void __cdecl WeakptrObserver<PlayerSocialComp,EnterMpEvent>::procEvent(
   if ( event )
     v5 = (const EnterMpEvent *)__dynamic_cast(
                                  event,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                 (const struct __class_type_info *)&`typeinfo for'EnterMpEvent,
+                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                 (const struct __class_type_info *)&`typeinfo for EnterMpEvent,
                                  0LL);
   else
     v5 = 0LL;
@@ -46236,8 +46236,8 @@ void __cdecl WeakptrObserver<PlayerTowerComp,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -46335,8 +46335,8 @@ void __cdecl WeakptrObserver<PlayerTowerComp,OpenStateChangeEvent>::procEvent(
   if ( event )
     v5 = (const OpenStateChangeEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'OpenStateChangeEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for OpenStateChangeEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -46434,8 +46434,8 @@ void __cdecl WeakptrObserver<PlayerTowerComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -46621,8 +46621,8 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ChangeAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ChangeAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ChangeAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -46720,8 +46720,8 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -46819,8 +46819,8 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,GCGLevelUpEvent>::procEvent(
   if ( event )
     v5 = (const GCGLevelUpEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'GCGLevelUpEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for GCGLevelUpEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -46918,8 +46918,8 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,WatcherProgressUpdateEvent>::proc
   if ( event )
     v5 = (const WatcherProgressUpdateEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'WatcherProgressUpdateEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for WatcherProgressUpdateEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -47017,8 +47017,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ChangeAvatarEvent>::procEvent(
   if ( event )
     v5 = (const ChangeAvatarEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'ChangeAvatarEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for ChangeAvatarEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -47116,8 +47116,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterCombatEvent>::procEvent(
   if ( event )
     v5 = (const EnterCombatEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'EnterCombatEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for EnterCombatEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -47215,8 +47215,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterMpEvent>::procEvent(
   if ( event )
     v5 = (const EnterMpEvent *)__dynamic_cast(
                                  event,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                 (const struct __class_type_info *)&`typeinfo for'EnterMpEvent,
+                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                 (const struct __class_type_info *)&`typeinfo for EnterMpEvent,
                                  0LL);
   else
     v5 = 0LL;
@@ -47314,8 +47314,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,EnterVehicleEvent>::procEvent(
   if ( event )
     v5 = (const EnterVehicleEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'EnterVehicleEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for EnterVehicleEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -47413,8 +47413,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,LoseItemEvent>::procEvent(
   if ( event )
     v5 = (const LoseItemEvent *)__dynamic_cast(
                                   event,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                  (const struct __class_type_info *)&`typeinfo for'LoseItemEvent,
+                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                  (const struct __class_type_info *)&`typeinfo for LoseItemEvent,
                                   0LL);
   else
     v5 = 0LL;
@@ -47512,8 +47512,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -47611,8 +47611,8 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -47710,8 +47710,8 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FailParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FailParentQuestEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'FailParentQuestEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for FailParentQuestEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -47809,8 +47809,8 @@ void __cdecl WeakptrObserver<PlayerWorldScene,FinishParentQuestEvent>::procEvent
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -47908,8 +47908,8 @@ void __cdecl WeakptrObserver<PotionActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -48007,8 +48007,8 @@ void __cdecl WeakptrObserver<PotionActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -48106,8 +48106,8 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,FinishParentQuestEvent>::p
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -48205,8 +48205,8 @@ void __cdecl WeakptrObserver<RockBoardExploreActivity,GroupBundleFinishEvent>::p
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -48304,8 +48304,8 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -48403,8 +48403,8 @@ void __cdecl WeakptrObserver<RogueDiaryActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -48502,8 +48502,8 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,AvatarDieEvent>::procEvent
   if ( event )
     v5 = (const AvatarDieEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'AvatarDieEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for AvatarDieEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -48601,8 +48601,8 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,GadgetDieEvent>::procEvent
   if ( event )
     v5 = (const GadgetDieEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'GadgetDieEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for GadgetDieEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -48700,8 +48700,8 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,LeaveSceneEvent>::procEven
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -48799,8 +48799,8 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,PostEnterSceneEvent>::proc
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -48898,8 +48898,8 @@ void __cdecl WeakptrObserver<RoguelikeDungeonActivity,TeamServerGlobalValueChang
   if ( event )
     v5 = (const TeamServerGlobalValueChangeEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'TeamServerGlobalValueChangeEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for TeamServerGlobalValueChangeEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -48999,8 +48999,8 @@ void __cdecl WeakptrObserver<Scene,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -49098,8 +49098,8 @@ void __cdecl WeakptrObserver<Scene,PlayerLevelupEvent>::procEvent(
   if ( event )
     v5 = (const PlayerLevelupEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'PlayerLevelupEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for PlayerLevelupEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -49197,8 +49197,8 @@ void __cdecl WeakptrObserver<SeaLampActivity,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -49296,8 +49296,8 @@ void __cdecl WeakptrObserver<SeaLampActivity,OpenMechanicusEvent>::procEvent(
   if ( event )
     v5 = (const OpenMechanicusEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'OpenMechanicusEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for OpenMechanicusEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -49395,8 +49395,8 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,ExitVehicleEvent>::procEvent(
   if ( event )
     v5 = (const ExitVehicleEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'ExitVehicleEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for ExitVehicleEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -49494,8 +49494,8 @@ void __cdecl WeakptrObserver<SeaLampV3Activity,LanV3RaceScoreEvent>::procEvent(
   if ( event )
     v5 = (const LanV3RaceScoreEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'LanV3RaceScoreEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for LanV3RaceScoreEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -49593,8 +49593,8 @@ void __cdecl WeakptrObserver<SealBattleBase,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -49692,8 +49692,8 @@ void __cdecl WeakptrObserver<SealBattleBase,TeamDeadEvent>::procEvent(
   if ( event )
     v5 = (const TeamDeadEvent *)__dynamic_cast(
                                   event,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                  (const struct __class_type_info *)&`typeinfo for'TeamDeadEvent,
+                                  (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                  (const struct __class_type_info *)&`typeinfo for TeamDeadEvent,
                                   0LL);
   else
     v5 = 0LL;
@@ -49791,8 +49791,8 @@ void __cdecl WeakptrObserver<SealEnergyChargeBattle,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -49890,8 +49890,8 @@ void __cdecl WeakptrObserver<SealKillMonsterBattle,MonsterDieEvent>::procEvent(
   if ( event )
     v5 = (const MonsterDieEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'MonsterDieEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for MonsterDieEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -49989,8 +49989,8 @@ void __cdecl WeakptrObserver<SpiceActivity,FinishItemGivingEvent>::procEvent(
   if ( event )
     v5 = (const FinishItemGivingEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'FinishItemGivingEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for FinishItemGivingEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -50088,8 +50088,8 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ChallengeBeginEvent>::procEvent(
   if ( event )
     v5 = (const ChallengeBeginEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'ChallengeBeginEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for ChallengeBeginEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -50187,8 +50187,8 @@ void __cdecl WeakptrObserver<SummerTimeActivity,ClimateMeterFullEvent>::procEven
   if ( event )
     v5 = (const ClimateMeterFullEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'ClimateMeterFullEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for ClimateMeterFullEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -50286,8 +50286,8 @@ void __cdecl WeakptrObserver<SummerTimeActivity,LuaMarkedChallengeEvent>::procEv
   if ( event )
     v5 = (const LuaMarkedChallengeEvent *)__dynamic_cast(
                                             event,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                            (const struct __class_type_info *)&`typeinfo for'LuaMarkedChallengeEvent,
+                                            (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                            (const struct __class_type_info *)&`typeinfo for LuaMarkedChallengeEvent,
                                             0LL);
   else
     v5 = 0LL;
@@ -50385,8 +50385,8 @@ void __cdecl WeakptrObserver<SummerTimeActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -50484,8 +50484,8 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,CreateDungeonEvent>::procEvent
   if ( event )
     v5 = (const CreateDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'CreateDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for CreateDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -50583,8 +50583,8 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -50682,8 +50682,8 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,PostEnterSceneEvent>::procEven
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -50781,8 +50781,8 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SkillEvent>::procEvent(
   if ( event )
     v5 = (const SkillEvent *)__dynamic_cast(
                                event,
-                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                               (const struct __class_type_info *)&`typeinfo for'SkillEvent,
+                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                               (const struct __class_type_info *)&`typeinfo for SkillEvent,
                                0LL);
   else
     v5 = 0LL;
@@ -50880,8 +50880,8 @@ void __cdecl WeakptrObserver<SummerTimeV2Activity,SummerTimeV2BoatGallerySettleE
   if ( event )
     v5 = (const SummerTimeV2BoatGallerySettleEvent *)__dynamic_cast(
                                                        event,
-                                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                       (const struct __class_type_info *)&`typeinfo for'SummerTimeV2BoatGallerySettleEvent,
+                                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                       (const struct __class_type_info *)&`typeinfo for SummerTimeV2BoatGallerySettleEvent,
                                                        0LL);
   else
     v5 = 0LL;
@@ -50981,8 +50981,8 @@ void __cdecl WeakptrObserver<SumoActivity,GalleryStartEvent>::procEvent(
   if ( event )
     v5 = (const GalleryStartEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'GalleryStartEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for GalleryStartEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -51080,8 +51080,8 @@ void __cdecl WeakptrObserver<SumoActivity,GallerySumoCombatSettleEvent>::procEve
   if ( event )
     v5 = (const GallerySumoCombatSettleEvent *)__dynamic_cast(
                                                  event,
-                                                 (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                 (const struct __class_type_info *)&`typeinfo for'GallerySumoCombatSettleEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                 (const struct __class_type_info *)&`typeinfo for GallerySumoCombatSettleEvent,
                                                  0LL);
   else
     v5 = 0LL;
@@ -51179,8 +51179,8 @@ void __cdecl WeakptrObserver<SumoActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -51278,8 +51278,8 @@ void __cdecl WeakptrObserver<SumoActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -51377,8 +51377,8 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,FinishParentQuestEvent>::procE
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -51476,8 +51476,8 @@ void __cdecl WeakptrObserver<TanukiTravelActivity,QuestStateChangeEvent>::procEv
   if ( event )
     v5 = (const QuestStateChangeEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'QuestStateChangeEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for QuestStateChangeEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -51575,8 +51575,8 @@ void __cdecl WeakptrObserver<TeamChainActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -51674,8 +51674,8 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeBeginEvent>::procEvent
   if ( event )
     v5 = (const ChallengeBeginEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'ChallengeBeginEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for ChallengeBeginEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -51773,8 +51773,8 @@ void __cdecl WeakptrObserver<TreasureMapActivity,ChallengeFinishEvent>::procEven
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -51872,8 +51872,8 @@ void __cdecl WeakptrObserver<TreasureMapActivity,FinishQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishQuestEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'FinishQuestEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for FinishQuestEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -51971,8 +51971,8 @@ void __cdecl WeakptrObserver<TreasureMapActivity,PlayerEnterSceneEvent>::procEve
   if ( event )
     v5 = (const PlayerEnterSceneEvent *)__dynamic_cast(
                                           event,
-                                          (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                          (const struct __class_type_info *)&`typeinfo for'PlayerEnterSceneEvent,
+                                          (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                          (const struct __class_type_info *)&`typeinfo for PlayerEnterSceneEvent,
                                           0LL);
   else
     v5 = 0LL;
@@ -52070,8 +52070,8 @@ void __cdecl WeakptrObserver<TreasureMapActivity,TakeGeneralRewardEvent>::procEv
   if ( event )
     v5 = (const TakeGeneralRewardEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'TakeGeneralRewardEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for TakeGeneralRewardEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -52169,8 +52169,8 @@ void __cdecl WeakptrObserver<TreasureSeelieActivity,ChestOpenEvent>::procEvent(
   if ( event )
     v5 = (const ChestOpenEvent *)__dynamic_cast(
                                    event,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                   (const struct __class_type_info *)&`typeinfo for'ChestOpenEvent,
+                                   (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                   (const struct __class_type_info *)&`typeinfo for ChestOpenEvent,
                                    0LL);
   else
     v5 = 0LL;
@@ -52268,8 +52268,8 @@ void __cdecl WeakptrObserver<UgcActivity,OfficialCustomDungeonFinishEvent>::proc
   if ( event )
     v5 = (const OfficialCustomDungeonFinishEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'OfficialCustomDungeonFinishEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for OfficialCustomDungeonFinishEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -52367,8 +52367,8 @@ void __cdecl WeakptrObserver<VintageActivity,BargainFinishEvent>::procEvent(
   if ( event )
     v5 = (const BargainFinishEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'BargainFinishEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BargainFinishEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -52466,8 +52466,8 @@ void __cdecl WeakptrObserver<VintageActivity,CompleteTalkEvent>::procEvent(
   if ( event )
     v5 = (const CompleteTalkEvent *)__dynamic_cast(
                                       event,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                      (const struct __class_type_info *)&`typeinfo for'CompleteTalkEvent,
+                                      (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                      (const struct __class_type_info *)&`typeinfo for CompleteTalkEvent,
                                       0LL);
   else
     v5 = 0LL;
@@ -52565,8 +52565,8 @@ void __cdecl WeakptrObserver<VintageActivity,FinishParentQuestEvent>::procEvent(
   if ( event )
     v5 = (const FinishParentQuestEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'FinishParentQuestEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for FinishParentQuestEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -52664,8 +52664,8 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageOneSettle
   if ( event )
     v5 = (const GalleryVintageHuntingStageOneSettleEvent *)__dynamic_cast(
                                                              event,
-                                                             (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                             (const struct __class_type_info *)&`typeinfo for'GalleryVintageHuntingStageOneSettleEvent,
+                                                             (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                             (const struct __class_type_info *)&`typeinfo for GalleryVintageHuntingStageOneSettleEvent,
                                                              0LL);
   else
     v5 = 0LL;
@@ -52765,8 +52765,8 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageThreeSett
   if ( event )
     v5 = (const GalleryVintageHuntingStageThreeSettleEvent *)__dynamic_cast(
                                                                event,
-                                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                               (const struct __class_type_info *)&`typeinfo for'GalleryVintageHuntingStageThreeSettleEvent,
+                                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                               (const struct __class_type_info *)&`typeinfo for GalleryVintageHuntingStageThreeSettleEvent,
                                                                0LL);
   else
     v5 = 0LL;
@@ -52866,8 +52866,8 @@ void __cdecl WeakptrObserver<VintageActivity,GalleryVintageHuntingStageTwoSettle
   if ( event )
     v5 = (const GalleryVintageHuntingStageTwoSettleEvent *)__dynamic_cast(
                                                              event,
-                                                             (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                             (const struct __class_type_info *)&`typeinfo for'GalleryVintageHuntingStageTwoSettleEvent,
+                                                             (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                             (const struct __class_type_info *)&`typeinfo for GalleryVintageHuntingStageTwoSettleEvent,
                                                              0LL);
   else
     v5 = 0LL;
@@ -52967,8 +52967,8 @@ void __cdecl WeakptrObserver<VintageActivity,GroupBundleFinishEvent>::procEvent(
   if ( event )
     v5 = (const GroupBundleFinishEvent *)__dynamic_cast(
                                            event,
-                                           (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                           (const struct __class_type_info *)&`typeinfo for'GroupBundleFinishEvent,
+                                           (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                           (const struct __class_type_info *)&`typeinfo for GroupBundleFinishEvent,
                                            0LL);
   else
     v5 = 0LL;
@@ -53066,8 +53066,8 @@ void __cdecl WeakptrObserver<VintageActivity,ObtainItemEvent>::procEvent(
   if ( event )
     v5 = (const ObtainItemEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'ObtainItemEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for ObtainItemEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -53165,8 +53165,8 @@ void __cdecl WeakptrObserver<VintageActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -53264,8 +53264,8 @@ void __cdecl WeakptrObserver<WaterSpiritActivity,ScenePlayBattleSettleResultEven
   if ( event )
     v5 = (const ScenePlayBattleSettleResultEvent *)__dynamic_cast(
                                                      event,
-                                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                                     (const struct __class_type_info *)&`typeinfo for'ScenePlayBattleSettleResultEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                                     (const struct __class_type_info *)&`typeinfo for ScenePlayBattleSettleResultEvent,
                                                      0LL);
   else
     v5 = 0LL;
@@ -53363,8 +53363,8 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,EnterCombatEvent>::procEvent(
   if ( event )
     v5 = (const EnterCombatEvent *)__dynamic_cast(
                                      event,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                     (const struct __class_type_info *)&`typeinfo for'EnterCombatEvent,
+                                     (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                     (const struct __class_type_info *)&`typeinfo for EnterCombatEvent,
                                      0LL);
   else
     v5 = 0LL;
@@ -53462,8 +53462,8 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -53561,8 +53561,8 @@ void __cdecl WeakptrObserver<WidgetGadgetMgr,LeaveWorldEvent>::procEvent(
   if ( event )
     v5 = (const LeaveWorldEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveWorldEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveWorldEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -53660,8 +53660,8 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,GadgetChainSetLevelEvent>::proc
   if ( event )
     v5 = (const GadgetChainSetLevelEvent *)__dynamic_cast(
                                              event,
-                                             (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                             (const struct __class_type_info *)&`typeinfo for'GadgetChainSetLevelEvent,
+                                             (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                             (const struct __class_type_info *)&`typeinfo for GadgetChainSetLevelEvent,
                                              0LL);
   else
     v5 = 0LL;
@@ -53759,8 +53759,8 @@ void __cdecl WeakptrObserver<WidgetWeatherWizard,PostEnterSceneEvent>::procEvent
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -53858,8 +53858,8 @@ void __cdecl WeakptrObserver<WindFieldActivity,CreateDungeonEvent>::procEvent(
   if ( event )
     v5 = (const CreateDungeonEvent *)__dynamic_cast(
                                        event,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                       (const struct __class_type_info *)&`typeinfo for'CreateDungeonEvent,
+                                       (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                       (const struct __class_type_info *)&`typeinfo for CreateDungeonEvent,
                                        0LL);
   else
     v5 = 0LL;
@@ -53957,8 +53957,8 @@ void __cdecl WeakptrObserver<WindFieldActivity,LeaveSceneEvent>::procEvent(
   if ( event )
     v5 = (const LeaveSceneEvent *)__dynamic_cast(
                                     event,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                    (const struct __class_type_info *)&`typeinfo for'LeaveSceneEvent,
+                                    (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                    (const struct __class_type_info *)&`typeinfo for LeaveSceneEvent,
                                     0LL);
   else
     v5 = 0LL;
@@ -54056,8 +54056,8 @@ void __cdecl WeakptrObserver<WindFieldActivity,PostEnterSceneEvent>::procEvent(
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -54155,8 +54155,8 @@ void __cdecl WeakptrObserver<WinterCampActivity,ChallengeFinishEvent>::procEvent
   if ( event )
     v5 = (const ChallengeFinishEvent *)__dynamic_cast(
                                          event,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                         (const struct __class_type_info *)&`typeinfo for'ChallengeFinishEvent,
+                                         (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                         (const struct __class_type_info *)&`typeinfo for ChallengeFinishEvent,
                                          0LL);
   else
     v5 = 0LL;
@@ -54254,8 +54254,8 @@ void __cdecl WeakptrObserver<WinterCampActivity,GalleryTriathlonScoreEvent>::pro
   if ( event )
     v5 = (const GalleryTriathlonScoreEvent *)__dynamic_cast(
                                                event,
-                                               (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                               (const struct __class_type_info *)&`typeinfo for'GalleryTriathlonScoreEvent,
+                                               (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                               (const struct __class_type_info *)&`typeinfo for GalleryTriathlonScoreEvent,
                                                0LL);
   else
     v5 = 0LL;
@@ -54329,7 +54329,7 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent>::~W
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -54347,7 +54347,7 @@ void __cdecl WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent>::WeakptrObser
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerOfflineMsgComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -54362,7 +54362,7 @@ void __cdecl WeakptrObserver<Scene,FinishQuestEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<Scene,FinishQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<Scene,FinishQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -62600,7 +62600,7 @@ void __cdecl WeakptrObserver<PlayerSceneComp,ChestOpenEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerSceneComp,ChestOpenEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerSceneComp,ChestOpenEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -62616,7 +62616,7 @@ void __cdecl WeakptrObserver<LanternRiteActivity,LeaveSceneEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<LanternRiteActivity,LeaveSceneEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<LanternRiteActivity,LeaveSceneEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -96564,7 +96564,7 @@ void __cdecl WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent>::Wea
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<ChannellerSlabActivity,TakeGeneralRewardEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -118379,7 +118379,7 @@ void __cdecl WeakptrObserver<PlayerWidgetComp,ObtainItemEvent>::~WeakptrObserver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWidgetComp,ObtainItemEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWidgetComp,ObtainItemEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118395,7 +118395,7 @@ void __cdecl WeakptrObserver<BaseActivity,FinishParentQuestEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseActivity,FinishParentQuestEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<BaseActivity,FinishParentQuestEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118411,7 +118411,7 @@ void __cdecl WeakptrObserver<PlayerBoredComp,MonsterDieEvent>::~WeakptrObserver(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerBoredComp,MonsterDieEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerBoredComp,MonsterDieEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118427,7 +118427,7 @@ void __cdecl WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent>::~WeakptrObs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerDailyTaskComp,CompleteTalkEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118443,7 +118443,7 @@ void __cdecl WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent>::~Weakpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerGroupLinkComp,ActivityScheduleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118459,7 +118459,7 @@ void __cdecl WeakptrObserver<PlayerItemComp,OpenStateChangeEvent>::~WeakptrObser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerItemComp,OpenStateChangeEvent> + 2);
+  v2 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerItemComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Observer = v2;
@@ -118477,7 +118477,7 @@ void __cdecl WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent>:
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerMechanicusComp,MechanicusDungeonSettleEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -118494,7 +118494,7 @@ void __cdecl WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent>::Weakpt
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<BaseScenePlayBattle,WorldMpModeChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -118511,7 +118511,7 @@ void __cdecl WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerHomeComp,OpenStateChangeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -118550,8 +118550,8 @@ void __cdecl WeakptrObserver<MichiaeMatsuriRegionalPlay,PostEnterSceneEvent>::pr
   if ( event )
     v5 = (const PostEnterSceneEvent *)__dynamic_cast(
                                         event,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseEvent,
-                                        (const struct __class_type_info *)&`typeinfo for'PostEnterSceneEvent,
+                                        (const struct __class_type_info *)&`typeinfo for BaseEvent,
+                                        (const struct __class_type_info *)&`typeinfo for PostEnterSceneEvent,
                                         0LL);
   else
     v5 = 0LL;
@@ -118629,7 +118629,7 @@ void __cdecl WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent>::WeakptrObserv
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<PlayerWatcherComp,ChangeAvatarEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;
@@ -118646,7 +118646,7 @@ void __cdecl WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent>::WeakptrObs
   int (**v3)(...); // rdx
 
   Observer::Observer(this);
-  v3 = (int (**)(...))(&`vtable for'WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent> + 2);
+  v3 = (int (**)(...))(&`vtable for WeakptrObserver<FindHilichurlActivity,SetGameTimeEvent> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_this_wtr);
   this->_vptr_Observer = v3;

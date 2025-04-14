@@ -5059,8 +5059,8 @@ LABEL_19:
     if ( item_config_ptr )
       v20 = (const data::MaterialExcelConfig *)__dynamic_cast(
                                                  item_config_ptr,
-                                                 (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                 (const struct __class_type_info *)&`typeinfo for'data::MaterialExcelConfig,
+                                                 (const struct __class_type_info *)&`typeinfo for data::ItemConfig,
+                                                 (const struct __class_type_info *)&`typeinfo for data::MaterialExcelConfig,
                                                  0LL);
     else
       v20 = 0LL;

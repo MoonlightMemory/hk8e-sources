@@ -7,7 +7,7 @@ void __cdecl AvatarTeamEntity::AvatarTeamEntity(AvatarTeamEntity *const this)
   __int64 *v2; // rdx
 
   Creature::Creature(this);
-  v2 = &`vtable for'AvatarTeamEntity + 2;
+  v2 = &`vtable for AvatarTeamEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -28,7 +28,7 @@ void __cdecl AvatarTeamEntity::~AvatarTeamEntity(AvatarTeamEntity *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'AvatarTeamEntity + 2;
+  v2 = &`vtable for AvatarTeamEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -255,7 +255,7 @@ void __cdecl PlayerAvatarComp::~PlayerAvatarComp(PlayerAvatarComp *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerAvatarComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerAvatarComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCompBase = v2;
@@ -342,7 +342,7 @@ void __cdecl ZN16PlayerAvatarCompCI214PlayerCompBaseER6Player(PlayerAvatarComp *
   std::function<void(long unsigned int)> p_callback; // [rsp+90h] [rbp-30h] BYREF
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerAvatarComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerAvatarComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerCompBase = v2;

@@ -1018,7 +1018,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
         key = std::get<0ul,std::string const,data::DynamicArgument>(v154);
         ability_special = std::get<1ul,std::string const,data::DynamicArgument>(v154);
         type = std::any::type(&ability_special->value);
-        if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'std::string) )
+        if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for std::string) )
         {
           v25 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t(");
           v26 = std::ostream::operator<<(v25, (unsigned int)index);
@@ -1030,7 +1030,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
           std::operator<<<std::char_traits<char>>(v30, "\n");
           std::string::~string(&sep);
         }
-        else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'float) )
+        else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for float) )
         {
           v31 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t(");
           v32 = std::ostream::operator<<(v31, (unsigned int)index);
@@ -1041,7 +1041,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
           v37 = std::ostream::operator<<(v35, v36);
           std::operator<<<std::char_traits<char>>(v37, "\n");
         }
-        else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for'int) )
+        else if ( std::type_info::operator==(type, (const std::type_info *)&`typeinfo for int) )
         {
           v38 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t(");
           v39 = std::ostream::operator<<(v38, (unsigned int)index);
@@ -1079,7 +1079,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
         }
         key_0 = JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](p_json_config_mgr, *key_hash);
         std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)(v2 + 128));
-        if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for'std::string) )
+        if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for std::string) )
         {
           v47 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t<");
           v48 = std::ostream::operator<<(v47, (unsigned int)index);
@@ -1091,7 +1091,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
           std::operator<<<std::char_traits<char>>(v52, "\n");
           std::string::~string(&sep);
         }
-        else if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for'float) )
+        else if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for float) )
         {
           v53 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t<");
           v54 = std::ostream::operator<<(v53, (unsigned int)index);
@@ -1106,7 +1106,7 @@ void __cdecl AbilityComp::print(AbilityComp *const this, PlayerPtr *p_player_ptr
           v63 = std::ostream::operator<<(v60, ServerOverrideParam);
           std::operator<<<std::char_traits<char>>(v63, "\n");
         }
-        else if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for'int) )
+        else if ( std::type_info::operator==(type_0, (const std::type_info *)&`typeinfo for int) )
         {
           v64 = std::operator<<<std::char_traits<char>>(v2 + 288, "\t<");
           v65 = std::ostream::operator<<(v64, (unsigned int)index);
@@ -2670,13 +2670,13 @@ __int64 __fastcall AbilityComp::addTargetAbility(
   v5[536862726] = -202116109;
   *(_DWORD *)(v3 + 64) = ability_name_hash;
   *(_DWORD *)(v3 + 80) = override_name_hash;
-  if ( !(_BYTE)`guard variable for'AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash) )
+  if ( !(_BYTE)`guard variable for AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash) )
   {
     std::allocator<char>::allocator(&__a);
     std::string::basic_string<std::allocator<char>>(&str, "Default", &__a);
     AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash = getStringHash(&str);
-    __cxa_guard_release(&`guard variable for'AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash);
+    __cxa_guard_release(&`guard variable for AbilityComp::addTargetAbility(unsigned int,unsigned int)::default_override_name_hash);
     std::string::~string(&str);
     std::allocator<char>::~allocator(&__a);
   }
@@ -2888,13 +2888,13 @@ __int64 __fastcall AbilityComp::removeTargetAbility(
   v5[536862724] = -202116352;
   *(_DWORD *)(v3 + 64) = ability_name_hash;
   *(_DWORD *)(v3 + 80) = override_name_hash;
-  if ( !(_BYTE)`guard variable for'AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash) )
+  if ( !(_BYTE)`guard variable for AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash) )
   {
     std::allocator<char>::allocator(&__a);
     std::string::basic_string<std::allocator<char>>(&str, "Default", &__a);
     AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash = getStringHash(&str);
-    __cxa_guard_release(&`guard variable for'AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash);
+    __cxa_guard_release(&`guard variable for AbilityComp::removeTargetAbility(unsigned int,unsigned int)::default_override_name_hash);
     std::string::~string(&str);
     std::allocator<char>::~allocator(&__a);
   }
@@ -4766,13 +4766,13 @@ int32_t __cdecl AbilityComp::addNewAbility(
   std::allocator<char> __a; // [rsp+1Fh] [rbp-31h] BYREF
   std::string str; // [rsp+20h] [rbp-30h] BYREF
 
-  if ( !(_BYTE)`guard variable for'AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash) )
+  if ( !(_BYTE)`guard variable for AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash) )
   {
     std::allocator<char>::allocator(&__a);
     std::string::basic_string<std::allocator<char>>(&str, "Default", &__a);
     AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash = getStringHash(&str);
-    __cxa_guard_release(&`guard variable for'AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash);
+    __cxa_guard_release(&`guard variable for AbilityComp::addNewAbility(unsigned int,unsigned int)::default_override_name_hash);
     std::string::~string(&str);
     std::allocator<char>::~allocator(&__a);
   }
@@ -16883,11 +16883,11 @@ LABEL_15:
     result = &std::__detail::_Node_iterator<std::pair<std::string const,PileValue>,false,true>::operator->((const std::__detail::_Node_iterator<std::pair<const std::string,PileValue>,false,true> *const)(v2 + 32))->second;
     goto LABEL_16;
   }
-  if ( !(_BYTE)`guard variable for'AbilityComp::getPropPileValue(std::string const&)::empty_value
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::getPropPileValue(std::string const&)::empty_value) )
+  if ( !(_BYTE)`guard variable for AbilityComp::getPropPileValue(std::string const&)::empty_value
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::getPropPileValue(std::string const&)::empty_value) )
   {
     PileValue::PileValue(&AbilityComp::getPropPileValue(std::string const&)::empty_value);
-    __cxa_guard_release(&`guard variable for'AbilityComp::getPropPileValue(std::string const&)::empty_value);
+    __cxa_guard_release(&`guard variable for AbilityComp::getPropPileValue(std::string const&)::empty_value);
     __cxa_atexit(
       (void (__fastcall *)(void *))PileValue::~PileValue,
       &AbilityComp::getPropPileValue(std::string const&)::empty_value,
@@ -17448,15 +17448,15 @@ bool __cdecl AbilityComp::isServerGlobalValueKey(const AbilityComp *const this, 
 {
   std::allocator<char> __a; // [rsp+1Fh] [rbp-11h] BYREF
 
-  if ( !(_BYTE)`guard variable for'AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix) )
+  if ( !(_BYTE)`guard variable for AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix) )
   {
     std::allocator<char>::allocator(&__a);
     std::string::basic_string<std::allocator<char>>(
       (std::string *const)&AbilityComp::isServerGlobalValueKey(std::string const&)const::server_global_value_prefix,
       "SGV_",
       &__a);
-    __cxa_guard_release(&`guard variable for'AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix);
+    __cxa_guard_release(&`guard variable for AbilityComp::isServerGlobalValueKey(std::string const&)::server_global_value_prefix);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       (void *)&AbilityComp::isServerGlobalValueKey(std::string const&)const::server_global_value_prefix,
@@ -27537,8 +27537,8 @@ void __cdecl AbilityComp::tryTriggerElementReactionByAttackTag(
   v8[536862721] = -218959360;
   v8[536862722] = -219021312;
   v8[536862723] = -202178560;
-  if ( !(_BYTE)`guard variable for'AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map
-    && __cxa_guard_acquire(&`guard variable for'AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map) )
+  if ( !(_BYTE)`guard variable for AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map
+    && __cxa_guard_acquire(&`guard variable for AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map) )
   {
     std::allocator<std::pair<std::string const,data::ElementReactionType>>::allocator(&__a);
     __y = Explode;
@@ -27678,7 +27678,7 @@ void __cdecl AbilityComp::tryTriggerElementReactionByAttackTag(
       &__hf,
       &__eql,
       &__a);
-    __cxa_guard_release(&`guard variable for'AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map);
+    __cxa_guard_release(&`guard variable for AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ElementReactionType>::~unordered_map,
       (void *)&AbilityComp::tryTriggerElementReactionByAttackTag(float,bool,std::string const&,std::shared_ptr<ActorModifier>,std::shared_ptr<Creature>)::tag_reaction_map,
@@ -27857,8 +27857,8 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
   v6[536862723] = -202178560;
   if ( !std::operator==<ActorAbility>(p_ability_ptr, 0LL) )
   {
-    if ( !(_BYTE)`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec
-      && __cxa_guard_acquire(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec) )
+    if ( !(_BYTE)`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec
+      && __cxa_guard_acquire(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec) )
     {
       std::allocator<char>::allocator(&__a);
       std::string::basic_string<std::allocator<char>>(&v47, "FreezeModifier", &__a);
@@ -27869,7 +27869,7 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
         (std::vector<std::string> *const)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec,
         (std::initializer_list<std::string >)__PAIR128__(2LL, &v47),
         &v40);
-      __cxa_guard_release(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec);
+      __cxa_guard_release(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<std::string>::~vector,
         (void *)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_modifier_name_vec,
@@ -27880,8 +27880,8 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
       std::allocator<char>::~allocator(&v39);
       std::allocator<char>::~allocator(&__a);
     }
-    if ( !(_BYTE)`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec
-      && __cxa_guard_acquire(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec) )
+    if ( !(_BYTE)`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec
+      && __cxa_guard_acquire(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec) )
     {
       std::allocator<char>::allocator(&__a);
       std::string::basic_string<std::allocator<char>>(&v47, "Shock_Modifier", &__a);
@@ -27894,7 +27894,7 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
         (std::vector<std::string> *const)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec,
         __l,
         &v40);
-      __cxa_guard_release(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec);
+      __cxa_guard_release(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<std::string>::~vector,
         (void *)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::shock_modifier_name_vec,
@@ -27905,8 +27905,8 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
       std::allocator<char>::~allocator(&v39);
       std::allocator<char>::~allocator(&__a);
     }
-    if ( !(_BYTE)`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec
-      && __cxa_guard_acquire(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec) )
+    if ( !(_BYTE)`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec
+      && __cxa_guard_acquire(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec) )
     {
       std::allocator<char>::allocator(&__a);
       std::string::basic_string<std::allocator<char>>(&v47, "ConductShock", &__a);
@@ -27919,7 +27919,7 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
         (std::vector<std::string> *const)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec,
         v35,
         &v40);
-      __cxa_guard_release(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec);
+      __cxa_guard_release(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<std::string>::~vector,
         (void *)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::conduct_shock_modifier_name_vec,
@@ -27930,30 +27930,30 @@ void __cdecl AbilityComp::recordElementReactionModifierSource(
       std::allocator<char>::~allocator(&v39);
       std::allocator<char>::~allocator(&__a);
     }
-    if ( !(_BYTE)`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name
-      && __cxa_guard_acquire(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name) )
+    if ( !(_BYTE)`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name
+      && __cxa_guard_acquire(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name) )
     {
       std::allocator<char>::allocator(&v40);
       std::string::basic_string<std::allocator<char>>(
         (std::string *const)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name,
         "ElementAbility_Electric",
         (const std::allocator<char> *)&v40);
-      __cxa_guard_release(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name);
+      __cxa_guard_release(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         (void *)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::electric_ability_name,
         &_dso_handle);
       std::allocator<char>::~allocator(&v40);
     }
-    if ( !(_BYTE)`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name
-      && __cxa_guard_acquire(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name) )
+    if ( !(_BYTE)`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name
+      && __cxa_guard_acquire(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name) )
     {
       std::allocator<char>::allocator(&v40);
       std::string::basic_string<std::allocator<char>>(
         (std::string *const)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name,
         "ElementAbility_Freeze",
         (const std::allocator<char> *)&v40);
-      __cxa_guard_release(&`guard variable for'AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name);
+      __cxa_guard_release(&`guard variable for AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         (void *)&AbilityComp::recordElementReactionModifierSource(unsigned int,data::ConfigAbilityModifier const&,std::shared_ptr<ActorAbility>)::freeze_ability_name,

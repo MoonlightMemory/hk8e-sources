@@ -242,7 +242,7 @@ void __cdecl PlayerSceneComp::PlayerSceneComp(PlayerSceneComp *const this, Playe
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   PlayerCompBase::PlayerCompBase(this, player);
-  v5 = (int (**)(...))(&`vtable for'PlayerSceneComp + 2);
+  v5 = (int (**)(...))(&`vtable for PlayerSceneComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_PlayerCompBase = v5;

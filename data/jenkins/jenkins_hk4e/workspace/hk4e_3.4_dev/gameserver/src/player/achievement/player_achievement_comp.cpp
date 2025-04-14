@@ -2188,153 +2188,152 @@ int32_t __cdecl PlayerAchievementComp::notifyAchievement(
 
 // Line 490: range 00000000179CADAC-00000000179CB329
 void __cdecl PlayerAchievementComp::onWatcherProgressUpdate(
-        PlayerAchievementComp *const this,
-        const WatcherProgressUpdateEvent *event)
+  PlayerAchievementComp *const this,
+  const WatcherProgressUpdateEvent *event)
 {
-  unsigned __int64 v2; // r12
-  __int64 v3; // rax
-  _DWORD *v4; // r13
-  AchievementExcelConfigMgr *p_achievement_config_mgr; // rcx
-  std::__detail::_Node_const_iterator<unsigned int,true,false>::reference v6; // rdx
-  common::milog::MiLogStream *v7; // rax
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v8; // rax
-  common::milog::MiLogStream *v9; // rax
-  uint32_t progress; // ecx
-  std::unordered_set<unsigned int>::const_iterator __for_begin; // [rsp+10h] [rbp-100h] BYREF
-  std::unordered_set<unsigned int>::const_iterator __for_end; // [rsp+18h] [rbp-F8h] BYREF
-  const std::unordered_set<unsigned int> *s; // [rsp+20h] [rbp-F0h]
-  const std::unordered_set<unsigned int> *__for_range; // [rsp+28h] [rbp-E8h]
-  Achievement *a_ptr; // [rsp+30h] [rbp-E0h]
-  const data::AchievementExcelConfig *achievement_config_ptr; // [rsp+38h] [rbp-D8h]
-  std::shared_ptr<Config> v17; // [rsp+40h] [rbp-D0h] BYREF
-  common::milog::MiLogStream v18; // [rsp+50h] [rbp-C0h] BYREF
-  char v19[160]; // [rsp+70h] [rbp-A0h] BYREF
+unsigned __int64 v2; // r12
+__int64 v3; // rax
+_DWORD *v4; // r13
+AchievementExcelConfigMgr *p_achievement_config_mgr; // rcx
+std::__detail::_Node_const_iterator<unsigned int,true,false>::reference v6; // rdx
+common::milog::MiLogStream *v7; // rax
+std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v8; // rax
+common::milog::MiLogStream *v9; // rax
+uint32_t progress; // ecx
+std::unordered_set<unsigned int>::const_iterator __for_begin; // [rsp+10h] [rbp-100h] BYREF
+std::unordered_set<unsigned int>::const_iterator __for_end; // [rsp+18h] [rbp-F8h] BYREF
+const std::unordered_set<unsigned int> *s; // [rsp+20h] [rbp-F0h]
+const std::unordered_set<unsigned int> *__for_range; // [rsp+28h] [rbp-E8h]
+Achievement *a_ptr; // [rsp+30h] [rbp-E0h]
+const data::AchievementExcelConfig *achievement_config_ptr; // [rsp+38h] [rbp-D8h]
+std::shared_ptr<Config> v17; // [rsp+40h] [rbp-D0h] BYREF
+common::milog::MiLogStream v18; // [rsp+50h] [rbp-C0h] BYREF
+char v19[160]; // [rsp+70h] [rbp-A0h] BYREF
 
-  v2 = (unsigned __int64)v19;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_1(128LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "2 48 4 18 achievement_id:493 64 24 17 update_id_vec:492";
-  *(_QWORD *)(v2 + 16) = PlayerAchievementComp::onWatcherProgressUpdate;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -234556943;
-  v4[536862722] = -218103808;
-  v4[536862723] = -202116109;
-  ServiceBox::findService<GameserverService>();
-  GameserverService::getConfig((GameserverService *const)&v17);
-  p_achievement_config_mgr = &std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v17)->design_config.txt_config_mgr.achievement_config_mgr;
-  if ( *(_BYTE *)(((unsigned __int64)&event->watcher_id >> 3) + 0x7FFF8000) != 0
-    && *(_BYTE *)(((unsigned __int64)&event->watcher_id >> 3) + 0x7FFF8000) <= 3 )
+v2 = (unsigned __int64)v19;
+if (_asan_option_detect_stack_use_after_return)
+{
+v3 = __asan_stack_malloc_1(128LL);
+if (v3)
+v2 = v3;
+}
+*(_QWORD *)v2 = 1102416563LL;
+*(_QWORD *)(v2 + 8) = "2 48 4 18 achievement_id:493 64 24 17 update_id_vec:492";
+*(_QWORD *)(v2 + 16) = PlayerAchievementComp::onWatcherProgressUpdate;
+v4 = (_DWORD *)(v2 >> 3);
+v4[536862720] = -235802127;
+v4[536862721] = -234556943;
+v4[536862722] = -218103808;
+v4[536862723] = -202116109;
+ServiceBox::findService<GameserverService>();
+GameserverService::getConfig((GameserverService *const)&v17);
+p_achievement_config_mgr = &std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v17)->design_config.txt_config_mgr.achievement_config_mgr;
+std::shared_ptr<Config>::~shared_ptr(&v17);
+if (*(_BYTE *)(((unsigned __int64)&event->watcher_id >> 3) + 0x7FFF8000) != 0
+&& *(_BYTE *)(((unsigned __int64)&event->watcher_id >> 3) + 0x7FFF8000) <= 3)
+{
+__asan_report_load4();
+}
+s = AchievementExcelConfigMgr::getAchievementSetByWatcherId(p_achievement_config_mgr, event->watcher_id);
+std::vector<unsigned int> update_id_vec;
+__for_range = s;
+__for_begin._M_cur = std::unordered_set<unsigned int>::begin(s)._M_cur;
+__for_end._M_cur = std::unordered_set<unsigned int>::end(s)._M_cur;
+while (std::__detail::operator!=<unsigned int, false>(&__for_begin, &__for_end))
+{
+v6 = std::__detail::_Node_const_iterator<unsigned int, true, false>::operator*(&__for_begin);
+if (*(_BYTE *)(((unsigned __int64)v6 >> 3) + 0x7FFF8000) != 0
+&& (char)(((unsigned __int8)v6 & 7) + 3) >= *(_BYTE *)(((unsigned __int64)v6 >> 3) + 0x7FFF8000))
+{
+__asan_report_load4();
+}
+uint32_t achievement_id = *v6;
+a_ptr = PlayerAchievementComp::findAchievement(this, achievement_id);
+if (a_ptr)
+{
+ServiceBox::findService<GameserverService>();
+GameserverService::getConfig((GameserverService *const)&v17);
+v8 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v17);
+achievement_config_ptr = data::AchievementExcelConfigMgrBase::findAchievementExcelConfig(
+                           &v8->design_config.txt_config_mgr.achievement_config_mgr,
+                           achievement_id);
+std::shared_ptr<Config>::~shared_ptr(&v17);
+if (achievement_config_ptr)
+{
+  if (*(_BYTE *)(((unsigned __int64)&a_ptr->status >> 3) + 0x7FFF8000) != 0
+    && (char)((((_BYTE)a_ptr + 8) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&a_ptr->status >> 3) + 0x7FFF8000))
   {
     __asan_report_load4();
   }
-  s = AchievementExcelConfigMgr::getAchievementSetByWatcherId(p_achievement_config_mgr, event->watcher_id);
-  std::shared_ptr<Config>::~shared_ptr(&v17);
-  std::vector<unsigned int>::vector((std::vector<unsigned int> *const)(v2 + 64));
-  __for_range = s;
-  __for_begin._M_cur = std::unordered_set<unsigned int>::begin(s)._M_cur;
-  __for_end._M_cur = std::unordered_set<unsigned int>::end(s)._M_cur;
-  while ( std::__detail::operator!=<unsigned int,false>(&__for_begin, &__for_end) )
+  if (a_ptr->status != Achievement_Status_UNFINISHED)
+    goto LABEL_23;
+  if (*(_BYTE *)(((unsigned __int64)&achievement_config_ptr->progress >> 3) + 0x7FFF8000) != 0
+    && *(_BYTE *)(((unsigned __int64)&achievement_config_ptr->progress >> 3) + 0x7FFF8000) <= 3)
   {
-    v6 = std::__detail::_Node_const_iterator<unsigned int,true,false>::operator*(&__for_begin);
-    if ( *(_BYTE *)(((unsigned __int64)v6 >> 3) + 0x7FFF8000) != 0
-      && (char)(((unsigned __int8)v6 & 7) + 3) >= *(_BYTE *)(((unsigned __int64)v6 >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load4();
-    }
-    *(_DWORD *)(v2 + 48) = *v6;
-    a_ptr = PlayerAchievementComp::findAchievement(this, *(_DWORD *)(v2 + 48));
-    if ( a_ptr )
-    {
-      ServiceBox::findService<GameserverService>();
-      GameserverService::getConfig((GameserverService *const)&v17);
-      v8 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v17);
-      achievement_config_ptr = data::AchievementExcelConfigMgrBase::findAchievementExcelConfig(
-                                 &v8->design_config.txt_config_mgr.achievement_config_mgr,
-                                 *(_DWORD *)(v2 + 48));
-      std::shared_ptr<Config>::~shared_ptr(&v17);
-      if ( achievement_config_ptr )
-      {
-        if ( *(_BYTE *)(((unsigned __int64)&a_ptr->status >> 3) + 0x7FFF8000) != 0
-          && (char)((((_BYTE)a_ptr + 8) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&a_ptr->status >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_load4();
-        }
-        if ( a_ptr->status != Achievement_Status_UNFINISHED )
-          goto LABEL_23;
-        if ( *(_BYTE *)(((unsigned __int64)&achievement_config_ptr->progress >> 3) + 0x7FFF8000) != 0
-          && *(_BYTE *)(((unsigned __int64)&achievement_config_ptr->progress >> 3) + 0x7FFF8000) <= 3 )
-        {
-          __asan_report_load4();
-        }
-        progress = achievement_config_ptr->progress;
-        if ( *(_BYTE *)(((unsigned __int64)&event->cur_progress >> 3) + 0x7FFF8000) != 0
-          && (char)((((_BYTE)event + 28) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&event->cur_progress >> 3)
-                                                               + 0x7FFF8000) )
-        {
-          __asan_report_load4();
-        }
-        if ( progress <= event->cur_progress )
-          PlayerAchievementComp::finishAchievement(this, *(_DWORD *)(v2 + 48), 1);
-        else
-LABEL_23:
-          std::vector<unsigned int>::push_back(
-            (std::vector<unsigned int> *const)(v2 + 64),
-            (const std::vector<unsigned int>::value_type *)(v2 + 48));
-      }
-      else
-      {
-        common::milog::MiLogStream::create(
-          &v18,
-          &common::milog::MiLogDefault::default_log_obj_,
-          3u,
-          "./src/player/achievement/player_achievement_comp.cpp",
-          "onWatcherProgressUpdate",
-          504);
-        v9 = common::milog::MiLogStream::operator<<<char [36],(char *[36])0>(
-               &v18,
-               (const char (*)[36])"cannot find achievement config, id:");
-        common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v9, (const unsigned int *)(v2 + 48));
-        common::milog::MiLogStream::~MiLogStream(&v18);
-      }
-    }
-    else
-    {
-      common::milog::MiLogStream::create(
-        &v18,
-        &common::milog::MiLogDefault::default_log_obj_,
-        1u,
-        "./src/player/achievement/player_achievement_comp.cpp",
-        "onWatcherProgressUpdate",
-        498);
-      v7 = common::milog::MiLogStream::operator<<<char [29],(char *[29])0>(
-             &v18,
-             (const char (*)[29])"cannot find achievement, id:");
-      common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v7, (const unsigned int *)(v2 + 48));
-      common::milog::MiLogStream::~MiLogStream(&v18);
-    }
-    std::__detail::_Node_const_iterator<unsigned int,true,false>::operator++(&__for_begin);
+    __asan_report_load4();
   }
-  if ( !std::vector<unsigned int>::empty((const std::vector<unsigned int> *const)(v2 + 64)) )
-    PlayerAchievementComp::notifyAchievement(this, (const std::vector<unsigned int> *)(v2 + 64));
-  std::vector<unsigned int>::~vector((std::vector<unsigned int> *const)(v2 + 64));
-  if ( v19 == (char *)v2 )
+  progress = achievement_config_ptr->progress;
+  if (*(_BYTE *)(((unsigned __int64)&event->cur_progress >> 3) + 0x7FFF8000) != 0
+    && (char)((((_BYTE)event + 28) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&event->cur_progress >> 3)
+                                                         + 0x7FFF8000))
   {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0LL;
+    __asan_report_load4();
   }
+  if (progress <= event->cur_progress)
+    PlayerAchievementComp::finishAchievement(this, achievement_id, 1);
   else
   {
-    *(_QWORD *)v2 = 1172321806LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
+LABEL_23:
+    update_id_vec.push_back(achievement_id);
   }
-};
+}
+else
+{
+  common::milog::MiLogStream::create(
+    &v18,
+    &common::milog::MiLogDefault::default_log_obj_,
+    3u,
+    "./src/player/achievement/player_achievement_comp.cpp",
+    "onWatcherProgressUpdate",
+    504);
+  v9 = common::milog::MiLogStream::operator<<<char [36], (char *[36])0>(
+         &v18,
+         (const char (*)[36])"cannot find achievement config, id:");
+  common::milog::MiLogStream::operator<<<unsigned int, (unsigned int *)0>(v9, &achievement_id);
+  common::milog::MiLogStream::~MiLogStream(&v18);
+}
+}
+else
+{
+common::milog::MiLogStream::create(
+  &v18,
+  &common::milog::MiLogDefault::default_log_obj_,
+  1u,
+  "./src/player/achievement/player_achievement_comp.cpp",
+  "onWatcherProgressUpdate",
+  498);
+v7 = common::milog::MiLogStream::operator<<<char [29], (char *[29])0>(
+       &v18,
+       (const char (*)[29])"cannot find achievement, id:");
+common::milog::MiLogStream::operator<<<unsigned int, (unsigned int *)0>(v7, &achievement_id);
+common::milog::MiLogStream::~MiLogStream(&v18);
+}
+std::__detail::_Node_const_iterator<unsigned int, true, false>::operator++(&__for_begin);
+}
+if (!update_id_vec.empty())
+PlayerAchievementComp::notifyAchievement(this, &update_id_vec);
+if (v19 == (char *)v2)
+{
+*(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
+*(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0LL;
+}
+else
+{
+*(_QWORD *)v2 = 1172321806LL;
+*(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
+*(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
+}
+}
 
 // Line 524: range 00000000179CB32A-00000000179CBC9E
 __int64 __fastcall PlayerAchievementComp::finishAchievement(

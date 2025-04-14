@@ -5025,11 +5025,11 @@ const std::set<unsigned int> *__fastcall PlayerWatcherComp::getWatcherIdSetByTri
   v4[536862721] = -234556943;
   v4[536862722] = -202116352;
   *(_DWORD *)(v2 + 48) = trigger_type;
-  if ( !(_BYTE)`guard variable for'PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set) )
   {
     std::set<unsigned int>::set((std::set<unsigned int> *const)&PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set);
-    __cxa_guard_release(&`guard variable for'PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,
       (void *)&PlayerWatcherComp::getWatcherIdSetByTriggerType(unsigned int)::empty_set,
@@ -6326,7 +6326,7 @@ void __cdecl PlayerWatcherComp::triggerElementReaction(
     *(_QWORD *)(v5 + 96) = 0LL;
     *(_QWORD *)(v5 + 104) = 0LL;
     *(_QWORD *)(v5 + 112) = 0LL;
-    *(_QWORD *)(v5 + 96) = &`vtable for'ElementReactionStatUpdateEvent + 2;
+    *(_QWORD *)(v5 + 96) = &`vtable for ElementReactionStatUpdateEvent + 2;
     PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v5 + 96));
     ElementReactionStatUpdateEvent::~ElementReactionStatUpdateEvent((ElementReactionStatUpdateEvent *const)(v5 + 96));
   }
@@ -6390,7 +6390,7 @@ void __cdecl PlayerWatcherComp::triggerSkill(PlayerWatcherComp *const this, uint
     *(_QWORD *)(v3 + 64) = 0LL;
     *(_QWORD *)(v3 + 72) = 0LL;
     *(_QWORD *)(v3 + 80) = 0LL;
-    *(_QWORD *)(v3 + 64) = &`vtable for'SkillStatUpdateEvent + 2;
+    *(_QWORD *)(v3 + 64) = &`vtable for SkillStatUpdateEvent + 2;
     PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v3 + 64));
     SkillStatUpdateEvent::~SkillStatUpdateEvent((SkillStatUpdateEvent *const)(v3 + 64));
   }
@@ -7062,7 +7062,7 @@ void __fastcall PlayerWatcherComp::tryUpdateMaxCriticalDamage(PlayerWatcherComp 
     *(_QWORD *)(v2 + 64) = 0LL;
     *(_QWORD *)(v2 + 72) = 0LL;
     *(_QWORD *)(v2 + 80) = 0LL;
-    *(_QWORD *)(v2 + 64) = &`vtable for'RecordMaxCriticalDamageUpdateEvent + 2;
+    *(_QWORD *)(v2 + 64) = &`vtable for RecordMaxCriticalDamageUpdateEvent + 2;
     PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v2 + 64));
     RecordMaxCriticalDamageUpdateEvent::~RecordMaxCriticalDamageUpdateEvent((RecordMaxCriticalDamageUpdateEvent *const)(v2 + 64));
   }
@@ -7149,7 +7149,7 @@ void __fastcall PlayerWatcherComp::tryUpdateDashRecord(PlayerWatcherComp *const 
     *(_QWORD *)(v2 + 64) = 0LL;
     *(_QWORD *)(v2 + 72) = 0LL;
     *(_QWORD *)(v2 + 80) = 0LL;
-    *(_QWORD *)(v2 + 64) = &`vtable for'RecordMaxDashTimeUpdateEvent + 2;
+    *(_QWORD *)(v2 + 64) = &`vtable for RecordMaxDashTimeUpdateEvent + 2;
     PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v2 + 64));
     RecordMaxDashTimeUpdateEvent::~RecordMaxDashTimeUpdateEvent((RecordMaxDashTimeUpdateEvent *const)(v2 + 64));
   }
@@ -7265,7 +7265,7 @@ LABEL_10:
       *(_QWORD *)(v3 + 64) = 0LL;
       *(_QWORD *)(v3 + 72) = 0LL;
       *(_QWORD *)(v3 + 80) = 0LL;
-      *(_QWORD *)(v3 + 64) = &`vtable for'RecordMaxFlyTimeUpdateEvent + 2;
+      *(_QWORD *)(v3 + 64) = &`vtable for RecordMaxFlyTimeUpdateEvent + 2;
       PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v3 + 64));
       RecordMaxFlyTimeUpdateEvent::~RecordMaxFlyTimeUpdateEvent((RecordMaxFlyTimeUpdateEvent *const)(v3 + 64));
     }
@@ -7305,7 +7305,7 @@ LABEL_10:
       *(_QWORD *)(v3 + 64) = 0LL;
       *(_QWORD *)(v3 + 72) = 0LL;
       *(_QWORD *)(v3 + 80) = 0LL;
-      *(_QWORD *)(v3 + 64) = &`vtable for'RecordMaxFlyMapDistanceUpdateEvent + 2;
+      *(_QWORD *)(v3 + 64) = &`vtable for RecordMaxFlyMapDistanceUpdateEvent + 2;
       PlayerWatcherComp::onBaseEvent(this, (const BaseEvent *)(v3 + 64));
       RecordMaxFlyMapDistanceUpdateEvent::~RecordMaxFlyMapDistanceUpdateEvent((RecordMaxFlyMapDistanceUpdateEvent *const)(v3 + 64));
     }

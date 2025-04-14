@@ -8,7 +8,7 @@ void __cdecl H5Activity::H5Activity(H5Activity *const this, Player *player, uint
   __int64 v5; // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v3 = (int (**)(...))(&`vtable for'H5Activity + 2);
+  v3 = (int (**)(...))(&`vtable for H5Activity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_DescribalBase = v3;
@@ -1511,23 +1511,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
       VisionContext::VisionContext(&VisionContext::meet_context, VISION_MEET);
       v12 = (boost::asio::detail::posix_global_impl<boost::asio::system_context> *)5;
       VisionContext::VisionContext(&VisionContext::miss_context, VISION_MISS);
-      v13 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+      v13 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
       }
       if ( !*v13 )
       {
-        v14 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-        v15 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+        v14 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+        v15 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v15 != 0;
-        v16 = (v15 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v15);
+        v16 = (v15 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v15);
         if ( (_BYTE)v16 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
+            &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
             v12,
             v16);
         *v14 = 1;
@@ -1538,23 +1538,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
           &_dso_handle);
       }
-      v17 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+      v17 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
       }
       if ( !*v17 )
       {
-        v18 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-        v19 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+        v18 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+        v19 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v19 != 0;
-        v20 = (v19 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v19);
+        v20 = (v19 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v19);
         if ( (_BYTE)v20 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
+            &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
             v12,
             v20);
         *v18 = 1;
@@ -1564,23 +1564,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
           &_dso_handle);
       }
-      v21 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v21 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v21 )
       {
-        v22 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v23 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v22 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v23 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v23 != 0;
-        v24 = (v23 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v23);
+        v24 = (v23 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v23);
         if ( (_BYTE)v24 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v12,
             v24);
         *v22 = 1;
@@ -1590,23 +1590,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           __asan_report_store8(&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero, v12);
         common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = v25;
       }
-      v26 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+      v26 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
       }
       if ( !*v26 )
       {
-        v27 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-        v28 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+        v27 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+        v28 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v28 != 0;
-        v29 = (v28 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v28);
+        v29 = (v28 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v28);
         if ( (_BYTE)v29 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
+            &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
             v12,
             v29);
         *v27 = 1;
@@ -1617,23 +1617,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
           &_dso_handle);
       }
-      v30 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+      v30 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
       }
       if ( !*v30 )
       {
-        v31 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-        v32 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+        v31 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+        v32 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v32 != 0;
-        v33 = (v32 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v32);
+        v33 = (v32 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v32);
         if ( (_BYTE)v33 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
+            &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
             v12,
             v33);
         *v31 = 1;
@@ -1644,23 +1644,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
           &_dso_handle);
       }
-      v34 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+      v34 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
       }
       if ( !*v34 )
       {
-        v35 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-        v36 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+        v35 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+        v36 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v36 != 0;
-        v37 = (v36 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v36);
+        v37 = (v36 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v36);
         if ( (_BYTE)v37 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
             v12,
             v37);
         *v35 = 1;
@@ -1670,53 +1670,53 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           __asan_report_store8(&common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero, v12);
         common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = v38;
       }
-      v39 = &`guard variable for'luabind::detail::registered_class<ScriptContext>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext>::id >> 3)
+      v39 = &`guard variable for luabind::detail::registered_class<ScriptContext>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<ScriptContext>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<ScriptContext>::id);
       }
       if ( !*v39 )
       {
-        v40 = &`guard variable for'luabind::detail::registered_class<ScriptContext>::id;
-        v41 = *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext>::id >> 3)
+        v40 = &`guard variable for luabind::detail::registered_class<ScriptContext>::id;
+        v41 = *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v41 != 0;
-        v42 = (v41 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext>::id & 7) >= v41);
+        v42 = (v41 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext>::id & 7) >= v41);
         if ( (_BYTE)v42 )
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<ScriptContext>::id, v12, v42);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<ScriptContext>::id, v12, v42);
         *v40 = 1;
-        v12 = (boost::asio::detail::posix_global_impl<boost::asio::system_context> *)&`typeinfo for'ScriptContext;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'ScriptContext);
+        v12 = (boost::asio::detail::posix_global_impl<boost::asio::system_context> *)&`typeinfo for ScriptContext;
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for ScriptContext);
         v43 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<ScriptContext>::id >> 3) + 0x7FFF8000) )
           v43 = __asan_report_store8(
                   &luabind::detail::registered_class<ScriptContext>::id,
-                  &`typeinfo for'ScriptContext);
+                  &`typeinfo for ScriptContext);
         luabind::detail::registered_class<ScriptContext>::id = v43;
       }
-      v44 = &`guard variable for'luabind::detail::registered_class<Event>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3)
+      v44 = &`guard variable for luabind::detail::registered_class<Event>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Event>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Event>::id);
       }
       if ( !*v44 )
       {
-        v45 = &`guard variable for'luabind::detail::registered_class<Event>::id;
-        v46 = *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3)
+        v45 = &`guard variable for luabind::detail::registered_class<Event>::id;
+        v46 = *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v46 != 0;
-        v47 = (v46 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id & 7) >= v46);
+        v47 = (v46 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id & 7) >= v46);
         if ( (_BYTE)v47 )
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Event>::id, v12, v47);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Event>::id, v12, v47);
         *v45 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Event);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for Event);
         v48 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
-          v48 = __asan_report_store8(&luabind::detail::registered_class<Event>::id, &`typeinfo for'Event);
+          v48 = __asan_report_store8(&luabind::detail::registered_class<Event>::id, &`typeinfo for Event);
         luabind::detail::registered_class<Event>::id = v48;
       }
     }
@@ -1745,59 +1745,59 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
     __asan_before_dynamic_init("src_merge/merge_merge_crucible_activity.cpp");
     if ( __priority == 0xFFFF )
     {
-      v2 = &`guard variable for'luabind::detail::registered_class<Event *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event *>::id >> 3)
+      v2 = &`guard variable for luabind::detail::registered_class<Event *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Event *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Event *>::id);
       }
       if ( !*v2 )
       {
-        v3 = &`guard variable for'luabind::detail::registered_class<Event *>::id;
-        v4 = *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event *>::id >> 3)
+        v3 = &`guard variable for luabind::detail::registered_class<Event *>::id;
+        v4 = *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event *>::id >> 3)
                       + 0x7FFF8000);
         LOBYTE(__priority) = v4 != 0;
-        v5 = (v4 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event *>::id & 7) >= v4);
+        v5 = (v4 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event *>::id & 7) >= v4);
         if ( (_BYTE)v5 )
           __asan_report_store1(
-            &`guard variable for'luabind::detail::registered_class<Event *>::id,
+            &`guard variable for luabind::detail::registered_class<Event *>::id,
             *(_QWORD *)&__priority,
             v5);
         *v3 = 1;
-        *(_QWORD *)&__priority = &`typeinfo for'Event *;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Event *);
+        *(_QWORD *)&__priority = &`typeinfo for Event *;
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for Event *);
         v6 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Event *>::id >> 3) + 0x7FFF8000) )
-          v6 = __asan_report_store8(&luabind::detail::registered_class<Event *>::id, &`typeinfo for'Event *);
+          v6 = __asan_report_store8(&luabind::detail::registered_class<Event *>::id, &`typeinfo for Event *);
         luabind::detail::registered_class<Event *>::id = v6;
       }
-      v7 = &`guard variable for'luabind::detail::registered_class<ScriptContext *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id >> 3)
+      v7 = &`guard variable for luabind::detail::registered_class<ScriptContext *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<ScriptContext *>::id);
       }
       if ( !*v7 )
       {
-        v8 = &`guard variable for'luabind::detail::registered_class<ScriptContext *>::id;
-        v9 = *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id >> 3)
+        v8 = &`guard variable for luabind::detail::registered_class<ScriptContext *>::id;
+        v9 = *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext *>::id >> 3)
                       + 0x7FFF8000);
         LOBYTE(__priority) = v9 != 0;
-        v10 = (v9 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<ScriptContext *>::id & 7) >= v9);
+        v10 = (v9 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<ScriptContext *>::id & 7) >= v9);
         if ( (_BYTE)v10 )
           __asan_report_store1(
-            &`guard variable for'luabind::detail::registered_class<ScriptContext *>::id,
+            &`guard variable for luabind::detail::registered_class<ScriptContext *>::id,
             *(_QWORD *)&__priority,
             v10);
         *v8 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'ScriptContext *);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for ScriptContext *);
         v11 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<ScriptContext *>::id >> 3) + 0x7FFF8000) )
           v11 = __asan_report_store8(
                   &luabind::detail::registered_class<ScriptContext *>::id,
-                  &`typeinfo for'ScriptContext *);
+                  &`typeinfo for ScriptContext *);
         luabind::detail::registered_class<ScriptContext *>::id = v11;
       }
     }

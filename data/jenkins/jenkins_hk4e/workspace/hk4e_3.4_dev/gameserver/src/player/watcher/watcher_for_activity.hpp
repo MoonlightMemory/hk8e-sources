@@ -7,7 +7,7 @@ void __cdecl EffigyChallengeScoreWatcher::EffigyChallengeScoreWatcher(EffigyChal
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<EffigyChallengeScoreWatcher,EffigyChallengeScoreEvent,EffigyChallengeScoreWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'EffigyChallengeScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for EffigyChallengeScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -19,7 +19,7 @@ void __cdecl EffigyChallengeScoreWatcher::~EffigyChallengeScoreWatcher(EffigyCha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'EffigyChallengeScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for EffigyChallengeScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -40,7 +40,7 @@ void __cdecl CrucibleElementScoreWatcher::CrucibleElementScoreWatcher(CrucibleEl
   int (**v2)(...); // rdx
 
   ServerWatcher<CrucibleElementScoreWatcher,MpPlayBattleSettleEvent,CrucibleElementScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrucibleElementScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleElementScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -52,7 +52,7 @@ void __cdecl CrucibleElementScoreWatcher::~CrucibleElementScoreWatcher(CrucibleE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrucibleElementScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleElementScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -73,7 +73,7 @@ void __cdecl CrucibleMaxBallWatcher::CrucibleMaxBallWatcher(CrucibleMaxBallWatch
   int (**v2)(...); // rdx
 
   ServerWatcher<CrucibleMaxBallWatcher,CrucibleSubmitMaxBall,CrucibleMaxBallWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrucibleMaxBallWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleMaxBallWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -92,7 +92,7 @@ void __cdecl CrucibleMaxBallWatcher::~CrucibleMaxBallWatcher(CrucibleMaxBallWatc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrucibleMaxBallWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleMaxBallWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -106,7 +106,7 @@ void __cdecl CrucibleMaxScoreWatcher::CrucibleMaxScoreWatcher(CrucibleMaxScoreWa
   int (**v2)(...); // rdx
 
   ServerWatcher<CrucibleMaxScoreWatcher,CrucibleMaxElementScore,CrucibleMaxScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrucibleMaxScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleMaxScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -125,7 +125,7 @@ void __cdecl CrucibleMaxScoreWatcher::~CrucibleMaxScoreWatcher(CrucibleMaxScoreW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrucibleMaxScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleMaxScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -139,7 +139,7 @@ void __cdecl CrucibleSubmitBallWatcher::CrucibleSubmitBallWatcher(CrucibleSubmit
   int (**v2)(...); // rdx
 
   ServerWatcher<CrucibleSubmitBallWatcher,CrucibleSubmitBall,CrucibleSubmitBallWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrucibleSubmitBallWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleSubmitBallWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -151,7 +151,7 @@ void __cdecl CrucibleSubmitBallWatcher::~CrucibleSubmitBallWatcher(CrucibleSubmi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrucibleSubmitBallWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleSubmitBallWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -172,7 +172,7 @@ void __cdecl CrucibleWorldLevelScoreWatcher::CrucibleWorldLevelScoreWatcher(Cruc
   int (**v2)(...); // rdx
 
   ServerWatcher<CrucibleWorldLevelScoreWatcher,MpPlayBattleSettleEvent,CrucibleWorldLevelScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrucibleWorldLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleWorldLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -193,7 +193,7 @@ void __cdecl CrucibleWorldLevelScoreWatcher::~CrucibleWorldLevelScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrucibleWorldLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrucibleWorldLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -207,7 +207,7 @@ void __cdecl BlessingExchangePicNumWatcher::BlessingExchangePicNumWatcher(Blessi
   int (**v2)(...); // rdx
 
   ServerWatcher<BlessingExchangePicNumWatcher,BlessingExchangePicEvent,BlessingExchangePicNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BlessingExchangePicNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BlessingExchangePicNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -226,7 +226,7 @@ void __cdecl BlessingExchangePicNumWatcher::~BlessingExchangePicNumWatcher(Bless
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BlessingExchangePicNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BlessingExchangePicNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -240,7 +240,7 @@ void __cdecl BlessingRedeemRewardWatcher::BlessingRedeemRewardWatcher(BlessingRe
   int (**v2)(...); // rdx
 
   ServerWatcher<BlessingRedeemRewardWatcher,BlessingRedeemRewardEvent,BlessingRedeemRewardWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BlessingRedeemRewardWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BlessingRedeemRewardWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -252,7 +252,7 @@ void __cdecl BlessingRedeemRewardWatcher::~BlessingRedeemRewardWatcher(BlessingR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BlessingRedeemRewardWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BlessingRedeemRewardWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -273,7 +273,7 @@ void __cdecl MechanicusUnlockGearWatcher::MechanicusUnlockGearWatcher(Mechanicus
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<MechanicusUnlockGearWatcher,MechanicusUnlockGearEvent,MechanicusUnlockGearWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusUnlockGearWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusUnlockGearWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -285,7 +285,7 @@ void __cdecl MechanicusUnlockGearWatcher::~MechanicusUnlockGearWatcher(Mechanicu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusUnlockGearWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusUnlockGearWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -306,7 +306,7 @@ void __cdecl MechanicusLevelupGearWatcher::MechanicusLevelupGearWatcher(Mechanic
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<MechanicusLevelupGearWatcher,MechanicusLevelupGearEvent,MechanicusLevelupGearWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusLevelupGearWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusLevelupGearWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -318,7 +318,7 @@ void __cdecl MechanicusLevelupGearWatcher::~MechanicusLevelupGearWatcher(Mechani
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusLevelupGearWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusLevelupGearWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -339,7 +339,7 @@ void __cdecl MechanicusDifficultWatcher::MechanicusDifficultWatcher(MechanicusDi
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusDifficultWatcher,MechanicusDungeonSettleEvent,MechanicusDifficultWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -351,7 +351,7 @@ void __cdecl MechanicusDifficultWatcher::~MechanicusDifficultWatcher(MechanicusD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -373,7 +373,7 @@ void __cdecl MechanicusDifficultScoreWatcher::MechanicusDifficultScoreWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusDifficultScoreWatcher,MechanicusBattleScoreEvent,MechanicusDifficultScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -386,7 +386,7 @@ void __cdecl MechanicusDifficultScoreWatcher::~MechanicusDifficultScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -408,7 +408,7 @@ void __cdecl MechanicusDifficultEqWatcher::MechanicusDifficultEqWatcher(Mechanic
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusDifficultEqWatcher,MechanicusDungeonSettleEvent,MechanicusDifficultEqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultEqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultEqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -420,7 +420,7 @@ void __cdecl MechanicusDifficultEqWatcher::~MechanicusDifficultEqWatcher(Mechani
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusDifficultEqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusDifficultEqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -441,7 +441,7 @@ void __cdecl MechanicusKillMonsterWatcher::MechanicusKillMonsterWatcher(Mechanic
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusKillMonsterWatcher,MechanicusDungeonSettleEvent,MechanicusKillMonsterWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusKillMonsterWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusKillMonsterWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -460,7 +460,7 @@ void __cdecl MechanicusKillMonsterWatcher::~MechanicusKillMonsterWatcher(Mechani
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusKillMonsterWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusKillMonsterWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -474,7 +474,7 @@ void __cdecl MechanicusBuildingPointWatcher::MechanicusBuildingPointWatcher(Mech
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBuildingPointWatcher,MechanicusDungeonSettleEvent,MechanicusBuildingPointWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBuildingPointWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBuildingPointWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -487,7 +487,7 @@ void __cdecl MechanicusBuildingPointWatcher::~MechanicusBuildingPointWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBuildingPointWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBuildingPointWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -509,7 +509,7 @@ void __cdecl MechanicusBattleEndWatcher::MechanicusBattleEndWatcher(MechanicusBa
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndWatcher,MechanicusDungeonSettleEvent,MechanicusBattleEndWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -521,7 +521,7 @@ void __cdecl MechanicusBattleEndWatcher::~MechanicusBattleEndWatcher(MechanicusB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -543,7 +543,7 @@ void __cdecl MechanicusBattleEndEscapeMonsterWatcher::MechanicusBattleEndEscapeM
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndEscapeMonsterWatcher,MechanicusDungeonSettleEvent,MechanicusBattleEndEscapeMonsterWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndEscapeMonsterWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndEscapeMonsterWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -564,7 +564,7 @@ void __cdecl MechanicusBattleEndEscapeMonsterWatcher::~MechanicusBattleEndEscape
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndEscapeMonsterWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndEscapeMonsterWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -579,7 +579,7 @@ void __cdecl MechanicusBattleBuildingPointGteqWatcher::MechanicusBattleBuildingP
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleBuildingPointGteqWatcher,MechanicusDungeonSettleEvent,MechanicusBattleBuildingPointGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleBuildingPointGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleBuildingPointGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -592,7 +592,7 @@ void __cdecl MechanicusBattleBuildingPointGteqWatcher::~MechanicusBattleBuilding
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleBuildingPointGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleBuildingPointGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -615,7 +615,7 @@ void __cdecl MechanicusBattleRoundGteqWatcher::MechanicusBattleRoundGteqWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleRoundGteqWatcher,MechanicusDungeonSettleEvent,MechanicusBattleRoundGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleRoundGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleRoundGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -636,7 +636,7 @@ void __cdecl MechanicusBattleRoundGteqWatcher::~MechanicusBattleRoundGteqWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleRoundGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleRoundGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -651,7 +651,7 @@ void __cdecl MechanicusBattleLastRoundWatcher::MechanicusBattleLastRoundWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleLastRoundWatcher,MechanicusDungeonSettleEvent,MechanicusBattleLastRoundWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleLastRoundWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleLastRoundWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -672,7 +672,7 @@ void __cdecl MechanicusBattleLastRoundWatcher::~MechanicusBattleLastRoundWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleLastRoundWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleLastRoundWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -687,7 +687,7 @@ void __cdecl MechanicusBattleWatcherFinishWatcher::MechanicusBattleWatcherFinish
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleWatcherFinishWatcher,MechanicusBattleWatcherFinishEvent,MechanicusBattleWatcherFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleWatcherFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleWatcherFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -700,7 +700,7 @@ void __cdecl MechanicusBattleWatcherFinishWatcher::~MechanicusBattleWatcherFinis
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleWatcherFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleWatcherFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -723,7 +723,7 @@ void __cdecl FleurFairDungeonFinishInLimitTimeWatcher::FleurFairDungeonFinishInL
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairDungeonFinishInLimitTimeWatcher,FleurFairDungeonFinishEvent,FleurFairDungeonFinishInLimitTimeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishInLimitTimeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishInLimitTimeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -744,7 +744,7 @@ void __cdecl FleurFairDungeonFinishInLimitTimeWatcher::~FleurFairDungeonFinishIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishInLimitTimeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishInLimitTimeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -759,7 +759,7 @@ void __cdecl FleurFairDungeonFinishKeepEnergyWatcher::FleurFairDungeonFinishKeep
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairDungeonFinishKeepEnergyWatcher,FleurFairDungeonFinishEvent,FleurFairDungeonFinishKeepEnergyWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishKeepEnergyWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishKeepEnergyWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -780,7 +780,7 @@ void __cdecl FleurFairDungeonFinishKeepEnergyWatcher::~FleurFairDungeonFinishKee
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishKeepEnergyWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishKeepEnergyWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -795,7 +795,7 @@ void __cdecl FleurFairDungeonFinishWithGroupVariableWatcher::FleurFairDungeonFin
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairDungeonFinishWithGroupVariableWatcher,FleurFairDungeonFinishEvent,FleurFairDungeonFinishWithGroupVariableWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishWithGroupVariableWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishWithGroupVariableWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -808,7 +808,7 @@ void __cdecl FleurFairDungeonFinishWithGroupVariableWatcher::~FleurFairDungeonFi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishWithGroupVariableWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishWithGroupVariableWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -831,7 +831,7 @@ void __cdecl FleurFairDungeonFinishWithBuffNumWatcher::FleurFairDungeonFinishWit
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairDungeonFinishWithBuffNumWatcher,FleurFairDungeonFinishEvent,FleurFairDungeonFinishWithBuffNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishWithBuffNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishWithBuffNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -852,7 +852,7 @@ void __cdecl FleurFairDungeonFinishWithBuffNumWatcher::~FleurFairDungeonFinishWi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonFinishWithBuffNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonFinishWithBuffNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -867,7 +867,7 @@ void __cdecl FleurFairDungeonMissionFinishWatcher::FleurFairDungeonMissionFinish
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairDungeonMissionFinishWatcher,FleurFairDungeonMissionFinishEvent,FleurFairDungeonMissionFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonMissionFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonMissionFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -880,7 +880,7 @@ void __cdecl FleurFairDungeonMissionFinishWatcher::~FleurFairDungeonMissionFinis
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairDungeonMissionFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairDungeonMissionFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -902,7 +902,7 @@ void __cdecl HuntingFinishWatcher::HuntingFinishWatcher(HuntingFinishWatcher *co
   int (**v2)(...); // rdx
 
   ServerWatcher<HuntingFinishWatcher,HuntingFinishEvent,HuntingFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'HuntingFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for HuntingFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -921,7 +921,7 @@ void __cdecl HuntingFinishWatcher::~HuntingFinishWatcher(HuntingFinishWatcher *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HuntingFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for HuntingFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -935,7 +935,7 @@ void __cdecl HuntingFailWatcher::HuntingFailWatcher(HuntingFailWatcher *const th
   int (**v2)(...); // rdx
 
   ServerWatcher<HuntingFailWatcher,HuntingFailEvent,HuntingFailWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'HuntingFailWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for HuntingFailWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -947,7 +947,7 @@ void __cdecl HuntingFailWatcher::~HuntingFailWatcher(HuntingFailWatcher *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HuntingFailWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for HuntingFailWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -968,7 +968,7 @@ void __cdecl DeliveryFinishWatcher::DeliveryFinishWatcher(DeliveryFinishWatcher 
   int (**v2)(...); // rdx
 
   ServerWatcher<DeliveryFinishWatcher,DeliveryFinishEvent,DeliveryFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'DeliveryFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for DeliveryFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -980,7 +980,7 @@ void __cdecl DeliveryFinishWatcher::~DeliveryFinishWatcher(DeliveryFinishWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DeliveryFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for DeliveryFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1001,7 +1001,7 @@ void __cdecl TreasureMapDoneRegionWatcher::TreasureMapDoneRegionWatcher(Treasure
   int (**v2)(...); // rdx
 
   ServerWatcher<TreasureMapDoneRegionWatcher,TreasureMapDoneRegionEvent,TreasureMapDoneRegionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'TreasureMapDoneRegionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureMapDoneRegionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1020,7 +1020,7 @@ void __cdecl TreasureMapDoneRegionWatcher::~TreasureMapDoneRegionWatcher(Treasur
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TreasureMapDoneRegionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureMapDoneRegionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1035,7 +1035,7 @@ void __cdecl TreasureSeelieDoneRegionWatcher::TreasureSeelieDoneRegionWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<TreasureSeelieDoneRegionWatcher,TreasureSeelieDoneRegionEvent,TreasureSeelieDoneRegionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'TreasureSeelieDoneRegionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureSeelieDoneRegionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1056,7 +1056,7 @@ void __cdecl TreasureSeelieDoneRegionWatcher::~TreasureSeelieDoneRegionWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TreasureSeelieDoneRegionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureSeelieDoneRegionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1070,7 +1070,7 @@ void __cdecl SeaLampMiniQuestWatcher::SeaLampMiniQuestWatcher(SeaLampMiniQuestWa
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<SeaLampMiniQuestWatcher,SeaLampMiniQuestFinishEvent,SeaLampMiniQuestWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SeaLampMiniQuestWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SeaLampMiniQuestWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1082,7 +1082,7 @@ void __cdecl SeaLampMiniQuestWatcher::~SeaLampMiniQuestWatcher(SeaLampMiniQuestW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SeaLampMiniQuestWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SeaLampMiniQuestWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1104,7 +1104,7 @@ void __cdecl FindHilichurlFinishLevelWatcher::FindHilichurlFinishLevelWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<FindHilichurlFinishLevelWatcher,FindHilichurlFinishLevelEvent,FindHilichurlFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FindHilichurlFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FindHilichurlFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1117,7 +1117,7 @@ void __cdecl FindHilichurlFinishLevelWatcher::~FindHilichurlFinishLevelWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FindHilichurlFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FindHilichurlFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1140,7 +1140,7 @@ void __cdecl MechanicusBattleEndGearMoreThanWatcher::MechanicusBattleEndGearMore
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndGearMoreThanWatcher,MechanicusBattleEndEvent,MechanicusBattleEndGearMoreThanWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndGearMoreThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndGearMoreThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1161,7 +1161,7 @@ void __cdecl MechanicusBattleEndGearMoreThanWatcher::~MechanicusBattleEndGearMor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndGearMoreThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndGearMoreThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1176,7 +1176,7 @@ void __cdecl MechanicusBattleEndBuildGearMoreThanWatcher::MechanicusBattleEndBui
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndBuildGearMoreThanWatcher,MechanicusBattleEndEvent,MechanicusBattleEndBuildGearMoreThanWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndBuildGearMoreThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndBuildGearMoreThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1197,7 +1197,7 @@ void __cdecl MechanicusBattleEndBuildGearMoreThanWatcher::~MechanicusBattleEndBu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndBuildGearMoreThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndBuildGearMoreThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1212,7 +1212,7 @@ void __cdecl MechanicusBattleEndPureGearDamageWatcher::MechanicusBattleEndPureGe
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndPureGearDamageWatcher,MechanicusBattleEndEvent,MechanicusBattleEndPureGearDamageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndPureGearDamageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndPureGearDamageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1225,7 +1225,7 @@ void __cdecl MechanicusBattleEndPureGearDamageWatcher::~MechanicusBattleEndPureG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndPureGearDamageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndPureGearDamageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1248,7 +1248,7 @@ void __cdecl MechanicusBattleEndCardPickGteqWatcher::MechanicusBattleEndCardPick
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndCardPickGteqWatcher,MechanicusBattleEndEvent,MechanicusBattleEndCardPickGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndCardPickGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndCardPickGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1269,7 +1269,7 @@ void __cdecl MechanicusBattleEndCardPickGteqWatcher::~MechanicusBattleEndCardPic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndCardPickGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndCardPickGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1284,7 +1284,7 @@ void __cdecl MechanicusBattleEndCardTargetGteqWatcher::MechanicusBattleEndCardTa
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndCardTargetGteqWatcher,MechanicusBattleEndEvent,MechanicusBattleEndCardTargetGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndCardTargetGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndCardTargetGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1297,7 +1297,7 @@ void __cdecl MechanicusBattleEndCardTargetGteqWatcher::~MechanicusBattleEndCardT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndCardTargetGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndCardTargetGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1320,7 +1320,7 @@ void __cdecl MechanicusBattleEndGearKillGteqWatcher::MechanicusBattleEndGearKill
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndGearKillGteqWatcher,MechanicusBattleEndEvent,MechanicusBattleEndGearKillGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndGearKillGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndGearKillGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1333,7 +1333,7 @@ void __cdecl MechanicusBattleEndGearKillGteqWatcher::~MechanicusBattleEndGearKil
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndGearKillGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndGearKillGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1356,7 +1356,7 @@ void __cdecl MechanicusBattleEndFinChallengeGteqWatcher::MechanicusBattleEndFinC
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleEndFinChallengeGteqWatcher,MechanicusBattleEndEvent,MechanicusBattleEndFinChallengeGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndFinChallengeGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndFinChallengeGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1369,7 +1369,7 @@ void __cdecl MechanicusBattleEndFinChallengeGteqWatcher::~MechanicusBattleEndFin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndFinChallengeGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndFinChallengeGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1392,7 +1392,7 @@ void __cdecl MechanicusBattleInteractGteqWatcher::MechanicusBattleInteractGteqWa
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleInteractGteqWatcher,MechanicusBattleEndEvent,MechanicusBattleInteractGteqWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleInteractGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleInteractGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1413,7 +1413,7 @@ void __cdecl MechanicusBattleInteractGteqWatcher::~MechanicusBattleInteractGteqW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleInteractGteqWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleInteractGteqWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1428,7 +1428,7 @@ void __cdecl MechanicusBattleDifficultEscapeWatcher::MechanicusBattleDifficultEs
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleDifficultEscapeWatcher,MechanicusDungeonSettleEvent,MechanicusBattleDifficultEscapeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultEscapeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultEscapeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1449,7 +1449,7 @@ void __cdecl MechanicusBattleDifficultEscapeWatcher::~MechanicusBattleDifficultE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultEscapeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultEscapeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1464,7 +1464,7 @@ void __cdecl MechanicusBattleDifficultGearNumWatcher::MechanicusBattleDifficultG
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleDifficultGearNumWatcher,MechanicusBattleEndEvent,MechanicusBattleDifficultGearNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultGearNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultGearNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1477,7 +1477,7 @@ void __cdecl MechanicusBattleDifficultGearNumWatcher::~MechanicusBattleDifficult
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultGearNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultGearNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1500,7 +1500,7 @@ void __cdecl MechanicusBattleDifficultGearIdNumWatcher::MechanicusBattleDifficul
   int (**v2)(...); // rdx
 
   ServerWatcher<MechanicusBattleDifficultGearIdNumWatcher,MechanicusBattleEndEvent,MechanicusBattleDifficultGearIdNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultGearIdNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultGearIdNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1521,7 +1521,7 @@ void __cdecl MechanicusBattleDifficultGearIdNumWatcher::~MechanicusBattleDifficu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleDifficultGearIdNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleDifficultGearIdNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1536,7 +1536,7 @@ void __cdecl GalleryBalloonReachScoreWatcher::GalleryBalloonReachScoreWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<GalleryBalloonReachScoreWatcher,GalleryBalloonSettleEvent,GalleryBalloonReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GalleryBalloonReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryBalloonReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1549,7 +1549,7 @@ void __cdecl GalleryBalloonReachScoreWatcher::~GalleryBalloonReachScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GalleryBalloonReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryBalloonReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1571,7 +1571,7 @@ void __cdecl GalleryFallReachScoreWatcher::GalleryFallReachScoreWatcher(GalleryF
   int (**v2)(...); // rdx
 
   ServerWatcher<GalleryFallReachScoreWatcher,GalleryFallSettleEvent,GalleryFallReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GalleryFallReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryFallReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1583,7 +1583,7 @@ void __cdecl GalleryFallReachScoreWatcher::~GalleryFallReachScoreWatcher(Gallery
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GalleryFallReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryFallReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1605,7 +1605,7 @@ void __cdecl FleurFairMusicGameReachScoreWatcher::FleurFairMusicGameReachScoreWa
   int (**v2)(...); // rdx
 
   ServerWatcher<FleurFairMusicGameReachScoreWatcher,FleurFairMusicGameSettleEvent,FleurFairMusicGameReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FleurFairMusicGameReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairMusicGameReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1618,7 +1618,7 @@ void __cdecl FleurFairMusicGameReachScoreWatcher::~FleurFairMusicGameReachScoreW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FleurFairMusicGameReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FleurFairMusicGameReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1641,7 +1641,7 @@ void __cdecl FinishAllArenaChallengeWatcherInScheduleWatcher::FinishAllArenaChal
   int (**v2)(...); // rdx
 
   ServerWatcher<FinishAllArenaChallengeWatcherInScheduleWatcher,ChallengeFinishEvent,FinishAllArenaChallengeWatcherInScheduleWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FinishAllArenaChallengeWatcherInScheduleWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishAllArenaChallengeWatcherInScheduleWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1662,7 +1662,7 @@ void __cdecl FinishAllArenaChallengeWatcherInScheduleWatcher::~FinishAllArenaCha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishAllArenaChallengeWatcherInScheduleWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishAllArenaChallengeWatcherInScheduleWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1676,7 +1676,7 @@ void __cdecl MistTrialDungeonStatWatcher::MistTrialDungeonStatWatcher(MistTrialD
   int (**v2)(...); // rdx
 
   ServerWatcher<MistTrialDungeonStatWatcher,MistTrialStatUpdateEvent,MistTrialDungeonStatWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MistTrialDungeonStatWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MistTrialDungeonStatWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1688,7 +1688,7 @@ void __cdecl MistTrialDungeonStatWatcher::~MistTrialDungeonStatWatcher(MistTrial
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MistTrialDungeonStatWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MistTrialDungeonStatWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1710,7 +1710,7 @@ void __cdecl FinishDungeonMistTrialStatWatcher::FinishDungeonMistTrialStatWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<FinishDungeonMistTrialStatWatcher,FinishMistTrialDungeonEvent,FinishDungeonMistTrialStatWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FinishDungeonMistTrialStatWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishDungeonMistTrialStatWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1731,7 +1731,7 @@ void __cdecl FinishDungeonMistTrialStatWatcher::~FinishDungeonMistTrialStatWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishDungeonMistTrialStatWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishDungeonMistTrialStatWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1746,7 +1746,7 @@ void __cdecl ActivityScoreExceedValueWatcher::ActivityScoreExceedValueWatcher(
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<ActivityScoreExceedValueWatcher,ActivityScoreExceedValueEvent,ActivityScoreExceedValueWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ActivityScoreExceedValueWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityScoreExceedValueWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1767,7 +1767,7 @@ void __cdecl ActivityScoreExceedValueWatcher::~ActivityScoreExceedValueWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivityScoreExceedValueWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityScoreExceedValueWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1782,7 +1782,7 @@ void __cdecl GalleryBuoyantCombatReachScoreWatcher::GalleryBuoyantCombatReachSco
   int (**v2)(...); // rdx
 
   ServerWatcher<GalleryBuoyantCombatReachScoreWatcher,GalleryBuoyantCombatSettleEvent,GalleryBuoyantCombatReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GalleryBuoyantCombatReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryBuoyantCombatReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1795,7 +1795,7 @@ void __cdecl GalleryBuoyantCombatReachScoreWatcher::~GalleryBuoyantCombatReachSc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GalleryBuoyantCombatReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GalleryBuoyantCombatReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1818,7 +1818,7 @@ void __cdecl BuoyantCombatReachNewScoreLevelWatcher::BuoyantCombatReachNewScoreL
   int (**v2)(...); // rdx
 
   ServerWatcher<BuoyantCombatReachNewScoreLevelWatcher,BuoyantCombatReachNewScoreLevelEvent,BuoyantCombatReachNewScoreLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BuoyantCombatReachNewScoreLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BuoyantCombatReachNewScoreLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1831,7 +1831,7 @@ void __cdecl BuoyantCombatReachNewScoreLevelWatcher::~BuoyantCombatReachNewScore
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BuoyantCombatReachNewScoreLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BuoyantCombatReachNewScoreLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1854,7 +1854,7 @@ void __cdecl GroupSummerTimeSprintBoatReachPointsWatcher::GroupSummerTimeSprintB
   int (**v2)(...); // rdx
 
   ServerWatcher<GroupSummerTimeSprintBoatReachPointsWatcher,GroupSummerTimeSprintBoatReachPointsEvent,GroupSummerTimeSprintBoatReachPointsWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GroupSummerTimeSprintBoatReachPointsWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GroupSummerTimeSprintBoatReachPointsWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1867,7 +1867,7 @@ void __cdecl GroupSummerTimeSprintBoatReachPointsWatcher::~GroupSummerTimeSprint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GroupSummerTimeSprintBoatReachPointsWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GroupSummerTimeSprintBoatReachPointsWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1890,7 +1890,7 @@ void __cdecl BounceConjuringFinishCountWatcher::BounceConjuringFinishCountWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<BounceConjuringFinishCountWatcher,GalleryTimeUpEvent,BounceConjuringFinishCountWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BounceConjuringFinishCountWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BounceConjuringFinishCountWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1911,7 +1911,7 @@ void __cdecl BounceConjuringFinishCountWatcher::~BounceConjuringFinishCountWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BounceConjuringFinishCountWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BounceConjuringFinishCountWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1925,7 +1925,7 @@ void __cdecl BounceConjuringScoreWatcher::BounceConjuringScoreWatcher(BounceConj
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<BounceConjuringScoreWatcher,GalleryBounceConjuringSettleEvent,BounceConjuringScoreWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BounceConjuringScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BounceConjuringScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1944,7 +1944,7 @@ void __cdecl BounceConjuringScoreWatcher::~BounceConjuringScoreWatcher(BounceCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BounceConjuringScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BounceConjuringScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1958,7 +1958,7 @@ void __cdecl ChessKillMonstersWatcher::ChessKillMonstersWatcher(ChessKillMonster
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessKillMonstersWatcher,ChessDungeonSettleEvent,ChessKillMonstersWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessKillMonstersWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessKillMonstersWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1977,7 +1977,7 @@ void __cdecl ChessKillMonstersWatcher::~ChessKillMonstersWatcher(ChessKillMonste
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessKillMonstersWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessKillMonstersWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -1991,7 +1991,7 @@ void __cdecl ChessCostBuildingPointsWatcher::ChessCostBuildingPointsWatcher(Ches
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessCostBuildingPointsWatcher,ChessDungeonSettleEvent,ChessCostBuildingPointsWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessCostBuildingPointsWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessCostBuildingPointsWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2004,7 +2004,7 @@ void __cdecl ChessCostBuildingPointsWatcher::~ChessCostBuildingPointsWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessCostBuildingPointsWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessCostBuildingPointsWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2026,7 +2026,7 @@ void __cdecl ChessDungeonAddScoreWatcher::ChessDungeonAddScoreWatcher(ChessDunge
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessDungeonAddScoreWatcher,ChessDungeonSettleEvent,ChessDungeonAddScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonAddScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonAddScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2038,7 +2038,7 @@ void __cdecl ChessDungeonAddScoreWatcher::~ChessDungeonAddScoreWatcher(ChessDung
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonAddScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonAddScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2060,7 +2060,7 @@ void __cdecl ChessDungeonEscapedMonstersWatcher::ChessDungeonEscapedMonstersWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessDungeonEscapedMonstersWatcher,ChessDungeonSettleEvent,ChessDungeonEscapedMonstersWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonEscapedMonstersWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonEscapedMonstersWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2073,7 +2073,7 @@ void __cdecl ChessDungeonEscapedMonstersWatcher::~ChessDungeonEscapedMonstersWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonEscapedMonstersWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonEscapedMonstersWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2095,7 +2095,7 @@ void __cdecl ChessDungeonTowerCountWatcher::ChessDungeonTowerCountWatcher(ChessD
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessDungeonTowerCountWatcher,ChessDungeonSettleEvent,ChessDungeonTowerCountWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonTowerCountWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonTowerCountWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2114,7 +2114,7 @@ void __cdecl ChessDungeonTowerCountWatcher::~ChessDungeonTowerCountWatcher(Chess
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonTowerCountWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonTowerCountWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2129,7 +2129,7 @@ void __cdecl ChessDungeonCardCountLessOrEqualWatcher::ChessDungeonCardCountLessO
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessDungeonCardCountLessOrEqualWatcher,ChessDungeonSettleEvent,ChessDungeonCardCountLessOrEqualWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonCardCountLessOrEqualWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonCardCountLessOrEqualWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2150,7 +2150,7 @@ void __cdecl ChessDungeonCardCountLessOrEqualWatcher::~ChessDungeonCardCountLess
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonCardCountLessOrEqualWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonCardCountLessOrEqualWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2165,7 +2165,7 @@ void __cdecl ChessDungeonCardCountGreaterThanWatcher::ChessDungeonCardCountGreat
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessDungeonCardCountGreaterThanWatcher,ChessDungeonSettleEvent,ChessDungeonCardCountGreaterThanWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonCardCountGreaterThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonCardCountGreaterThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2186,7 +2186,7 @@ void __cdecl ChessDungeonCardCountGreaterThanWatcher::~ChessDungeonCardCountGrea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessDungeonCardCountGreaterThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessDungeonCardCountGreaterThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2200,7 +2200,7 @@ void __cdecl ChessLevelWatcher::ChessLevelWatcher(ChessLevelWatcher *const this)
   int (**v2)(...); // rdx
 
   ServerWatcher<ChessLevelWatcher,ChessLevelUpEvent,ChessLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ChessLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2219,7 +2219,7 @@ void __cdecl ChessLevelWatcher::~ChessLevelWatcher(ChessLevelWatcher *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ChessLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ChessLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2233,7 +2233,7 @@ void __cdecl LunaRiteSearchWatcher::LunaRiteSearchWatcher(LunaRiteSearchWatcher 
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<LunaRiteSearchWatcher,LunaRiteSearchEvent,LunaRiteSearchWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'LunaRiteSearchWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LunaRiteSearchWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2252,7 +2252,7 @@ void __cdecl LunaRiteSearchWatcher::~LunaRiteSearchWatcher(LunaRiteSearchWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LunaRiteSearchWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LunaRiteSearchWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2266,7 +2266,7 @@ void __cdecl SumoStageScoreReachWatcher::SumoStageScoreReachWatcher(SumoStageSco
   int (**v2)(...); // rdx
 
   ServerWatcher<SumoStageScoreReachWatcher,SumoGallerySettleEvent,SumoStageScoreReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SumoStageScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SumoStageScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2278,7 +2278,7 @@ void __cdecl SumoStageScoreReachWatcher::~SumoStageScoreReachWatcher(SumoStageSc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SumoStageScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SumoStageScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2299,7 +2299,7 @@ void __cdecl SumoTotalMaxScoreReachWatcher::SumoTotalMaxScoreReachWatcher(SumoTo
   int (**v2)(...); // rdx
 
   ServerWatcher<SumoTotalMaxScoreReachWatcher,SumoGallerySettleEvent,SumoTotalMaxScoreReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SumoTotalMaxScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SumoTotalMaxScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2318,7 +2318,7 @@ void __cdecl SumoTotalMaxScoreReachWatcher::~SumoTotalMaxScoreReachWatcher(SumoT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SumoTotalMaxScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SumoTotalMaxScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2332,7 +2332,7 @@ void __cdecl PlantFlowerSetWishWatcher::PlantFlowerSetWishWatcher(PlantFlowerSet
   int (**v2)(...); // rdx
 
   ServerWatcher<PlantFlowerSetWishWatcher,PlantFlowerSetWishEvent,PlantFlowerSetWishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerSetWishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerSetWishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2344,7 +2344,7 @@ void __cdecl PlantFlowerSetWishWatcher::~PlantFlowerSetWishWatcher(PlantFlowerSe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerSetWishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerSetWishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2365,7 +2365,7 @@ void __cdecl PlantFlowerGiveFlowerWatcher::PlantFlowerGiveFlowerWatcher(PlantFlo
   int (**v2)(...); // rdx
 
   ServerWatcher<PlantFlowerGiveFlowerWatcher,PlantFlowerGiveFlowerEvent,PlantFlowerGiveFlowerWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerGiveFlowerWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerGiveFlowerWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2377,7 +2377,7 @@ void __cdecl PlantFlowerGiveFlowerWatcher::~PlantFlowerGiveFlowerWatcher(PlantFl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerGiveFlowerWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerGiveFlowerWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2399,7 +2399,7 @@ void __cdecl PlantFlowerObtainFlowerTypeWatcher::PlantFlowerObtainFlowerTypeWatc
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<PlantFlowerObtainFlowerTypeWatcher,PlantFlowerObtainFlowerEvent,PlantFlowerObtainFlowerTypeWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerObtainFlowerTypeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerObtainFlowerTypeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2412,7 +2412,7 @@ void __cdecl PlantFlowerObtainFlowerTypeWatcher::~PlantFlowerObtainFlowerTypeWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerObtainFlowerTypeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerObtainFlowerTypeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2435,7 +2435,7 @@ void __cdecl PlantFlowerCommonObtainFlowerTypeWatcher::PlantFlowerCommonObtainFl
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<PlantFlowerCommonObtainFlowerTypeWatcher,PlantFlowerCommonObtainFlowerEvent,PlantFlowerCommonObtainFlowerTypeWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerCommonObtainFlowerTypeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerCommonObtainFlowerTypeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2448,7 +2448,7 @@ void __cdecl PlantFlowerCommonObtainFlowerTypeWatcher::~PlantFlowerCommonObtainF
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlantFlowerCommonObtainFlowerTypeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PlantFlowerCommonObtainFlowerTypeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2470,7 +2470,7 @@ void __cdecl RogueDestoryGadgetNumWatcher::RogueDestoryGadgetNumWatcher(RogueDes
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueDestoryGadgetNumWatcher,RogueDungeonGadgetDieEvent,RogueDestoryGadgetNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueDestoryGadgetNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueDestoryGadgetNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2489,7 +2489,7 @@ void __cdecl RogueDestoryGadgetNumWatcher::~RogueDestoryGadgetNumWatcher(RogueDe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueDestoryGadgetNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueDestoryGadgetNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2503,7 +2503,7 @@ void __cdecl RogueKillMonsterNumWatcher::RogueKillMonsterNumWatcher(RogueKillMon
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueKillMonsterNumWatcher,RogueMonsterDieDieEvent,RogueKillMonsterNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueKillMonsterNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueKillMonsterNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2522,7 +2522,7 @@ void __cdecl RogueKillMonsterNumWatcher::~RogueKillMonsterNumWatcher(RogueKillMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueKillMonsterNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueKillMonsterNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2537,7 +2537,7 @@ void __cdecl RogueFinishWithoutUsingSpringCellWatcher::RogueFinishWithoutUsingSp
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueFinishWithoutUsingSpringCellWatcher,RogueDungeonSettleEvent,RogueFinishWithoutUsingSpringCellWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithoutUsingSpringCellWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithoutUsingSpringCellWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2550,7 +2550,7 @@ void __cdecl RogueFinishWithoutUsingSpringCellWatcher::~RogueFinishWithoutUsingS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithoutUsingSpringCellWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithoutUsingSpringCellWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2573,7 +2573,7 @@ void __cdecl RogueFinishAllChallengeCellWatcher::RogueFinishAllChallengeCellWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueFinishAllChallengeCellWatcher,RogueDungeonSettleEvent,RogueFinishAllChallengeCellWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueFinishAllChallengeCellWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishAllChallengeCellWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2586,7 +2586,7 @@ void __cdecl RogueFinishAllChallengeCellWatcher::~RogueFinishAllChallengeCellWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueFinishAllChallengeCellWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishAllChallengeCellWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2608,7 +2608,7 @@ void __cdecl RogueFinishNoAvatarDeadWatcher::RogueFinishNoAvatarDeadWatcher(Rogu
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueFinishNoAvatarDeadWatcher,RogueDungeonSettleEvent,RogueFinishNoAvatarDeadWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueFinishNoAvatarDeadWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishNoAvatarDeadWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2629,7 +2629,7 @@ void __cdecl RogueFinishNoAvatarDeadWatcher::~RogueFinishNoAvatarDeadWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueFinishNoAvatarDeadWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishNoAvatarDeadWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2644,7 +2644,7 @@ void __cdecl RogueFinishWithAvatarElementTypeNumLessThanWatcher::RogueFinishWith
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueFinishWithAvatarElementTypeNumLessThanWatcher,RogueDungeonSettleEvent,RogueFinishWithAvatarElementTypeNumLessThanWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithAvatarElementTypeNumLessThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithAvatarElementTypeNumLessThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2657,7 +2657,7 @@ void __cdecl RogueFinishWithAvatarElementTypeNumLessThanWatcher::~RogueFinishWit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithAvatarElementTypeNumLessThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithAvatarElementTypeNumLessThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2680,7 +2680,7 @@ void __cdecl RogueFinishWithAvatarNumLessThanWatcher::RogueFinishWithAvatarNumLe
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueFinishWithAvatarNumLessThanWatcher,RogueDungeonSettleEvent,RogueFinishWithAvatarNumLessThanWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithAvatarNumLessThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithAvatarNumLessThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2693,7 +2693,7 @@ void __cdecl RogueFinishWithAvatarNumLessThanWatcher::~RogueFinishWithAvatarNumL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueFinishWithAvatarNumLessThanWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueFinishWithAvatarNumLessThanWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2715,7 +2715,7 @@ void __cdecl RogueShikigamiUpgradeWatcher::RogueShikigamiUpgradeWatcher(RogueShi
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueShikigamiUpgradeWatcher,RogueShikigamiUpgradeEvent,RogueShikigamiUpgradeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueShikigamiUpgradeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueShikigamiUpgradeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2727,7 +2727,7 @@ void __cdecl RogueShikigamiUpgradeWatcher::~RogueShikigamiUpgradeWatcher(RogueSh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueShikigamiUpgradeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueShikigamiUpgradeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2748,7 +2748,7 @@ void __cdecl RogueCurseNumWatcher::RogueCurseNumWatcher(RogueCurseNumWatcher *co
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueCurseNumWatcher,RogueTriggerCurseEvent,RogueCurseNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueCurseNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueCurseNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2767,7 +2767,7 @@ void __cdecl RogueCurseNumWatcher::~RogueCurseNumWatcher(RogueCurseNumWatcher *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueCurseNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueCurseNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2781,7 +2781,7 @@ void __cdecl RogueSelectCardWatcher::RogueSelectCardWatcher(RogueSelectCardWatch
   int (**v2)(...); // rdx
 
   ServerWatcher<RogueSelectCardWatcher,RogueSelectCardEvent,RogueSelectCardWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RogueSelectCardWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueSelectCardWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2793,7 +2793,7 @@ void __cdecl RogueSelectCardWatcher::~RogueSelectCardWatcher(RogueSelectCardWatc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueSelectCardWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RogueSelectCardWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2815,7 +2815,7 @@ void __cdecl WinterCampSnowmanCompleteWatcher::WinterCampSnowmanCompleteWatcher(
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<WinterCampSnowmanCompleteWatcher,WinterCampSnomanEditEvent,WinterCampSnowmanCompleteWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'WinterCampSnowmanCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for WinterCampSnowmanCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2828,7 +2828,7 @@ void __cdecl WinterCampSnowmanCompleteWatcher::~WinterCampSnowmanCompleteWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WinterCampSnowmanCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for WinterCampSnowmanCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2850,7 +2850,7 @@ void __cdecl ProjectionFinishLevelWatcher::ProjectionFinishLevelWatcher(Projecti
   int (**v2)(...); // rdx
 
   ServerWatcher<ProjectionFinishLevelWatcher,ProjectionFinishLevelEvent,ProjectionFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ProjectionFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ProjectionFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2862,7 +2862,7 @@ void __cdecl ProjectionFinishLevelWatcher::~ProjectionFinishLevelWatcher(Project
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ProjectionFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ProjectionFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2884,7 +2884,7 @@ void __cdecl GallerySalvageReachScoreWatcher::GallerySalvageReachScoreWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<GallerySalvageReachScoreWatcher,GallerySalvageSettleEvent,GallerySalvageReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GallerySalvageReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GallerySalvageReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2897,7 +2897,7 @@ void __cdecl GallerySalvageReachScoreWatcher::~GallerySalvageReachScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GallerySalvageReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GallerySalvageReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2920,7 +2920,7 @@ void __cdecl FireworksChallengeReachScoreWatcher::FireworksChallengeReachScoreWa
   int (**v2)(...); // rdx
 
   ServerWatcher<FireworksChallengeReachScoreWatcher,FireworksChallengeSettleEvent,FireworksChallengeReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FireworksChallengeReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FireworksChallengeReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2941,7 +2941,7 @@ void __cdecl FireworksChallengeReachScoreWatcher::~FireworksChallengeReachScoreW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FireworksChallengeReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FireworksChallengeReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2955,7 +2955,7 @@ void __cdecl PotionStageLevelPassNumWatcher::PotionStageLevelPassNumWatcher(Poti
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<PotionStageLevelPassNumWatcher,PotionStageLevelPassEvent,PotionStageLevelPassNumWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PotionStageLevelPassNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageLevelPassNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2976,7 +2976,7 @@ void __cdecl PotionStageLevelPassNumWatcher::~PotionStageLevelPassNumWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PotionStageLevelPassNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageLevelPassNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -2991,7 +2991,7 @@ void __cdecl PotionStageObtainMedalNumWatcher::PotionStageObtainMedalNumWatcher(
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<PotionStageObtainMedalNumWatcher,PotionStageLevelPassEvent,PotionStageObtainMedalNumWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PotionStageObtainMedalNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageObtainMedalNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3012,7 +3012,7 @@ void __cdecl PotionStageObtainMedalNumWatcher::~PotionStageObtainMedalNumWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PotionStageObtainMedalNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageObtainMedalNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3027,7 +3027,7 @@ void __cdecl PotionStageReachTotalScoreWatcher::PotionStageReachTotalScoreWatche
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<PotionStageReachTotalScoreWatcher,PotionStageScoreChangeEvent,PotionStageReachTotalScoreWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PotionStageReachTotalScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageReachTotalScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3040,7 +3040,7 @@ void __cdecl PotionStageReachTotalScoreWatcher::~PotionStageReachTotalScoreWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PotionStageReachTotalScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PotionStageReachTotalScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3063,7 +3063,7 @@ void __cdecl MichiaeMatsuriUnlockCrystalSkillReachNumWatcher::MichiaeMatsuriUnlo
   int (**v2)(...); // rdx
 
   ServerWatcher<MichiaeMatsuriUnlockCrystalSkillReachNumWatcher,MichiaeMatsuriUnlockCrystalSkillEvent,MichiaeMatsuriUnlockCrystalSkillReachNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MichiaeMatsuriUnlockCrystalSkillReachNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MichiaeMatsuriUnlockCrystalSkillReachNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3084,7 +3084,7 @@ void __cdecl MichiaeMatsuriUnlockCrystalSkillReachNumWatcher::~MichiaeMatsuriUnl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MichiaeMatsuriUnlockCrystalSkillReachNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MichiaeMatsuriUnlockCrystalSkillReachNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3099,7 +3099,7 @@ void __cdecl MichiaeMatsuriFinishDarkChallengeReachNumWatcher::MichiaeMatsuriFin
   int (**v2)(...); // rdx
 
   ServerWatcher<MichiaeMatsuriFinishDarkChallengeReachNumWatcher,FinishActivityMichiaeDarkChallengeEvent,MichiaeMatsuriFinishDarkChallengeReachNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MichiaeMatsuriFinishDarkChallengeReachNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MichiaeMatsuriFinishDarkChallengeReachNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3120,7 +3120,7 @@ void __cdecl MichiaeMatsuriFinishDarkChallengeReachNumWatcher::~MichiaeMatsuriFi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MichiaeMatsuriFinishDarkChallengeReachNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MichiaeMatsuriFinishDarkChallengeReachNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3135,7 +3135,7 @@ void __cdecl BartenderFinishStoryModuleWatcher::BartenderFinishStoryModuleWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<BartenderFinishStoryModuleWatcher,BartenderFinishStoryModuleEvent,BartenderFinishStoryModuleWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BartenderFinishStoryModuleWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderFinishStoryModuleWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3156,7 +3156,7 @@ void __cdecl BartenderFinishStoryModuleWatcher::~BartenderFinishStoryModuleWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderFinishStoryModuleWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderFinishStoryModuleWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3171,7 +3171,7 @@ void __cdecl BartenderChallengeModuleLevelScoreWatcher::BartenderChallengeModule
   int (**v2)(...); // rdx
 
   ServerWatcher<BartenderChallengeModuleLevelScoreWatcher,BartenderChallengeModuleLevelScoreEvent,BartenderChallengeModuleLevelScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BartenderChallengeModuleLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderChallengeModuleLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3184,7 +3184,7 @@ void __cdecl BartenderChallengeModuleLevelScoreWatcher::~BartenderChallengeModul
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderChallengeModuleLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderChallengeModuleLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3206,7 +3206,7 @@ void __cdecl BartenderUnlockFormulaWatcher::BartenderUnlockFormulaWatcher(Barten
   int (**v2)(...); // rdx
 
   ServerWatcher<BartenderUnlockFormulaWatcher,BartenderUnlockFormulaEvent,BartenderUnlockFormulaWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BartenderUnlockFormulaWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderUnlockFormulaWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3225,7 +3225,7 @@ void __cdecl BartenderUnlockFormulaWatcher::~BartenderUnlockFormulaWatcher(Barte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderUnlockFormulaWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderUnlockFormulaWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3240,7 +3240,7 @@ void __cdecl IrodoriFinishFlowerThemeWatcher::IrodoriFinishFlowerThemeWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<IrodoriFinishFlowerThemeWatcher,IrodoriFinishFlowerThemeEvent,IrodoriFinishFlowerThemeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishFlowerThemeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishFlowerThemeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3261,7 +3261,7 @@ void __cdecl IrodoriFinishFlowerThemeWatcher::~IrodoriFinishFlowerThemeWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishFlowerThemeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishFlowerThemeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3276,7 +3276,7 @@ void __cdecl IrodoriFinishPoetryThemeWatcher::IrodoriFinishPoetryThemeWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<IrodoriFinishPoetryThemeWatcher,IrodoriFinishPoetryThemeEvent,IrodoriFinishPoetryThemeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishPoetryThemeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishPoetryThemeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3297,7 +3297,7 @@ void __cdecl IrodoriFinishPoetryThemeWatcher::~IrodoriFinishPoetryThemeWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishPoetryThemeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishPoetryThemeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3311,7 +3311,7 @@ void __cdecl SpiceMakeFormulaTimesWatcher::SpiceMakeFormulaTimesWatcher(SpiceMak
   int (**v2)(...); // rdx
 
   ServerWatcher<SpiceMakeFormulaTimesWatcher,SpiceMakeFormulaTimesEvent,SpiceMakeFormulaTimesWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SpiceMakeFormulaTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceMakeFormulaTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3330,7 +3330,7 @@ void __cdecl SpiceMakeFormulaTimesWatcher::~SpiceMakeFormulaTimesWatcher(SpiceMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SpiceMakeFormulaTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceMakeFormulaTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3344,7 +3344,7 @@ void __cdecl SpiceGiveFoodTimesWatcher::SpiceGiveFoodTimesWatcher(SpiceGiveFoodT
   int (**v2)(...); // rdx
 
   ServerWatcher<SpiceGiveFoodTimesWatcher,SpiceGiveFoodTimesEvent,SpiceGiveFoodTimesWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SpiceGiveFoodTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceGiveFoodTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3363,7 +3363,7 @@ void __cdecl SpiceGiveFoodTimesWatcher::~SpiceGiveFoodTimesWatcher(SpiceGiveFood
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SpiceGiveFoodTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceGiveFoodTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3378,7 +3378,7 @@ void __cdecl SpiceMakeFormulaSuccessfulTimesWatcher::SpiceMakeFormulaSuccessfulT
   int (**v2)(...); // rdx
 
   ServerWatcher<SpiceMakeFormulaSuccessfulTimesWatcher,SpiceMakeFormulaSuccessfulTimesEvent,SpiceMakeFormulaSuccessfulTimesWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'SpiceMakeFormulaSuccessfulTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceMakeFormulaSuccessfulTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3399,7 +3399,7 @@ void __cdecl SpiceMakeFormulaSuccessfulTimesWatcher::~SpiceMakeFormulaSuccessful
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SpiceMakeFormulaSuccessfulTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceMakeFormulaSuccessfulTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3413,7 +3413,7 @@ void __cdecl PhotoFinishPosWatcher::PhotoFinishPosWatcher(PhotoFinishPosWatcher 
   int (**v2)(...); // rdx
 
   ServerWatcher<PhotoFinishPosWatcher,PhotoFinishPosEvent,PhotoFinishPosWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'PhotoFinishPosWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PhotoFinishPosWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3425,7 +3425,7 @@ void __cdecl PhotoFinishPosWatcher::~PhotoFinishPosWatcher(PhotoFinishPosWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PhotoFinishPosWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for PhotoFinishPosWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3447,7 +3447,7 @@ void __cdecl CrystalLinkLevelScoreReachWatcher::CrystalLinkLevelScoreReachWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<CrystalLinkLevelScoreReachWatcher,CrystalLinkDungeonSettleEvent,CrystalLinkLevelScoreReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrystalLinkLevelScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrystalLinkLevelScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3460,7 +3460,7 @@ void __cdecl CrystalLinkLevelScoreReachWatcher::~CrystalLinkLevelScoreReachWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrystalLinkLevelScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrystalLinkLevelScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3483,7 +3483,7 @@ void __cdecl CrystalLinkTotalMaxScoreReachWatcher::CrystalLinkTotalMaxScoreReach
   int (**v2)(...); // rdx
 
   ServerWatcher<CrystalLinkTotalMaxScoreReachWatcher,CrystalLinkDungeonSettleEvent,CrystalLinkTotalMaxScoreReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CrystalLinkTotalMaxScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrystalLinkTotalMaxScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3504,7 +3504,7 @@ void __cdecl CrystalLinkTotalMaxScoreReachWatcher::~CrystalLinkTotalMaxScoreReac
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CrystalLinkTotalMaxScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CrystalLinkTotalMaxScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3519,7 +3519,7 @@ void __cdecl IrodoriChessStageReachScoreWatcher::IrodoriChessStageReachScoreWatc
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<IrodoriChessStageReachScoreWatcher,IrodoriChessSettleNewRecordEvent,IrodoriChessStageReachScoreWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessStageReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessStageReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3540,7 +3540,7 @@ void __cdecl IrodoriChessStageReachScoreWatcher::~IrodoriChessStageReachScoreWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessStageReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessStageReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3555,7 +3555,7 @@ void __cdecl IrodoriFinishMasterStageWatcher::IrodoriFinishMasterStageWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<IrodoriFinishMasterStageWatcher,IrodoriMasterLevelEvent,IrodoriFinishMasterStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishMasterStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishMasterStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3576,7 +3576,7 @@ void __cdecl IrodoriFinishMasterStageWatcher::~IrodoriFinishMasterStageWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriFinishMasterStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriFinishMasterStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3591,7 +3591,7 @@ void __cdecl LuminanceStoneChallengeReachScoreWatcher::LuminanceStoneChallengeRe
   int (**v2)(...); // rdx
 
   ServerWatcher<LuminanceStoneChallengeReachScoreWatcher,LuminanceStoneChallengeReachNewScoreEvent,LuminanceStoneChallengeReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'LuminanceStoneChallengeReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LuminanceStoneChallengeReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3604,7 +3604,7 @@ void __cdecl LuminanceStoneChallengeReachScoreWatcher::~LuminanceStoneChallengeR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LuminanceStoneChallengeReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LuminanceStoneChallengeReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3626,7 +3626,7 @@ void __cdecl GachaFinishStageWatcher::GachaFinishStageWatcher(GachaFinishStageWa
   int (**v2)(...); // rdx
 
   ServerWatcher<GachaFinishStageWatcher,GachaFinishStageEvent,GachaFinishStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GachaFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3645,7 +3645,7 @@ void __cdecl GachaFinishStageWatcher::~GachaFinishStageWatcher(GachaFinishStageW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GachaFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3659,7 +3659,7 @@ void __cdecl GachaMakeRobotWatcher::GachaMakeRobotWatcher(GachaMakeRobotWatcher 
   int (**v2)(...); // rdx
 
   ServerWatcher<GachaMakeRobotWatcher,GachaMakeRobotEvent,GachaMakeRobotWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GachaMakeRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaMakeRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3678,7 +3678,7 @@ void __cdecl GachaMakeRobotWatcher::~GachaMakeRobotWatcher(GachaMakeRobotWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GachaMakeRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaMakeRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3692,7 +3692,7 @@ void __cdecl GachaGetRobotWatcher::GachaGetRobotWatcher(GachaGetRobotWatcher *co
   int (**v2)(...); // rdx
 
   ServerWatcher<GachaGetRobotWatcher,GachaGetRobotEvent,GachaGetRobotWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GachaGetRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaGetRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3711,7 +3711,7 @@ void __cdecl GachaGetRobotWatcher::~GachaGetRobotWatcher(GachaGetRobotWatcher *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GachaGetRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaGetRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3725,7 +3725,7 @@ void __cdecl GachaGiveRobotWatcher::GachaGiveRobotWatcher(GachaGiveRobotWatcher 
   int (**v2)(...); // rdx
 
   ServerWatcher<GachaGiveRobotWatcher,GachaGiveRobotEvent,GachaGiveRobotWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GachaGiveRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaGiveRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3744,7 +3744,7 @@ void __cdecl GachaGiveRobotWatcher::~GachaGiveRobotWatcher(GachaGiveRobotWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GachaGiveRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaGiveRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3758,7 +3758,7 @@ void __cdecl GachaConvertRobotWatcher::GachaConvertRobotWatcher(GachaConvertRobo
   int (**v2)(...); // rdx
 
   ServerWatcher<GachaConvertRobotWatcher,GachaConvertRobotEvent,GachaConvertRobotWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GachaConvertRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaConvertRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3777,7 +3777,7 @@ void __cdecl GachaConvertRobotWatcher::~GachaConvertRobotWatcher(GachaConvertRob
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GachaConvertRobotWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GachaConvertRobotWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3791,7 +3791,7 @@ void __cdecl GearFinishStageWatcher::GearFinishStageWatcher(GearFinishStageWatch
   int (**v2)(...); // rdx
 
   ServerWatcher<GearFinishStageWatcher,GearFinishStageEvent,GearFinishStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GearFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GearFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3810,7 +3810,7 @@ void __cdecl GearFinishStageWatcher::~GearFinishStageWatcher(GearFinishStageWatc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GearFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GearFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3824,7 +3824,7 @@ void __cdecl FinishRogueDiaryStageWatcher::FinishRogueDiaryStageWatcher(FinishRo
   int (**v2)(...); // rdx
 
   ServerWatcher<FinishRogueDiaryStageWatcher,FinishRogueDiaryStageEvent,FinishRogueDiaryStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3843,7 +3843,7 @@ void __cdecl FinishRogueDiaryStageWatcher::~FinishRogueDiaryStageWatcher(FinishR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3857,7 +3857,7 @@ void __cdecl GearFinishJigsawPictureWatcher::GearFinishJigsawPictureWatcher(Gear
   int (**v2)(...); // rdx
 
   ServerWatcher<GearFinishJigsawPictureWatcher,GearFinishJigsawPictureEvent,GearFinishJigsawPictureWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GearFinishJigsawPictureWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GearFinishJigsawPictureWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3870,7 +3870,7 @@ void __cdecl GearFinishJigsawPictureWatcher::~GearFinishJigsawPictureWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GearFinishJigsawPictureWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GearFinishJigsawPictureWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3893,7 +3893,7 @@ void __cdecl FinishRogueDiaryStageRoundWatcher::FinishRogueDiaryStageRoundWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<FinishRogueDiaryStageRoundWatcher,FinishRogueDiaryStageRoundEvent,FinishRogueDiaryStageRoundWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageRoundWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageRoundWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3914,7 +3914,7 @@ void __cdecl FinishRogueDiaryStageRoundWatcher::~FinishRogueDiaryStageRoundWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageRoundWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageRoundWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3929,7 +3929,7 @@ void __cdecl MusicGameSettleOthersUgcWatcher::MusicGameSettleOthersUgcWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<MusicGameSettleOthersUgcWatcher,MusicGameSettleOthersUgcEvent,MusicGameSettleOthersUgcWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MusicGameSettleOthersUgcWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MusicGameSettleOthersUgcWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3950,7 +3950,7 @@ void __cdecl MusicGameSettleOthersUgcWatcher::~MusicGameSettleOthersUgcWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MusicGameSettleOthersUgcWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MusicGameSettleOthersUgcWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3964,7 +3964,7 @@ void __cdecl MusicGameSaveUgcWatcher::MusicGameSaveUgcWatcher(MusicGameSaveUgcWa
   int (**v2)(...); // rdx
 
   ServerWatcher<MusicGameSaveUgcWatcher,MusicGameSaveUgcEvent,MusicGameSaveUgcWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MusicGameSaveUgcWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MusicGameSaveUgcWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3976,7 +3976,7 @@ void __cdecl MusicGameSaveUgcWatcher::~MusicGameSaveUgcWatcher(MusicGameSaveUgcW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MusicGameSaveUgcWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MusicGameSaveUgcWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -3997,7 +3997,7 @@ void __cdecl IslandPartyReachScoreWatcher::IslandPartyReachScoreWatcher(IslandPa
   int (**v2)(...); // rdx
 
   ServerWatcher<IslandPartyReachScoreWatcher,IslandPartyReachScoreEvent,IslandPartyReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'IslandPartyReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IslandPartyReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4016,7 +4016,7 @@ void __cdecl IslandPartyReachScoreWatcher::~IslandPartyReachScoreWatcher(IslandP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IslandPartyReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for IslandPartyReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4030,7 +4030,7 @@ void __cdecl MuqadasPotionLevelScoreWatcher::MuqadasPotionLevelScoreWatcher(Muqa
   int (**v2)(...); // rdx
 
   ServerWatcher<MuqadasPotionLevelScoreWatcher,MuqadasPotionLevelScoreEvent,MuqadasPotionLevelScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4051,7 +4051,7 @@ void __cdecl MuqadasPotionLevelScoreWatcher::~MuqadasPotionLevelScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4066,7 +4066,7 @@ void __cdecl MuqadasPotionLevelWeaknessNumWatcher::MuqadasPotionLevelWeaknessNum
   int (**v2)(...); // rdx
 
   ServerWatcher<MuqadasPotionLevelWeaknessNumWatcher,MuqadasPotionLevelWeaknessNumEvent,MuqadasPotionLevelWeaknessNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelWeaknessNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelWeaknessNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4087,7 +4087,7 @@ void __cdecl MuqadasPotionLevelWeaknessNumWatcher::~MuqadasPotionLevelWeaknessNu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelWeaknessNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelWeaknessNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4102,7 +4102,7 @@ void __cdecl MuqadasPotionLevelOnceWeaknessNumWatcher::MuqadasPotionLevelOnceWea
   int (**v2)(...); // rdx
 
   ServerWatcher<MuqadasPotionLevelOnceWeaknessNumWatcher,MuqadasPotionLevelOnceWeaknessNumEvent,MuqadasPotionLevelOnceWeaknessNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelOnceWeaknessNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelOnceWeaknessNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4123,7 +4123,7 @@ void __cdecl MuqadasPotionLevelOnceWeaknessNumWatcher::~MuqadasPotionLevelOnceWe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MuqadasPotionLevelOnceWeaknessNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for MuqadasPotionLevelOnceWeaknessNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4137,7 +4137,7 @@ void __cdecl InstableSprayReachScoreWatcher::InstableSprayReachScoreWatcher(Inst
   int (**v2)(...); // rdx
 
   ServerWatcher<InstableSprayReachScoreWatcher,InstableSprayScoreEvent,InstableSprayReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'InstableSprayReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for InstableSprayReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4158,7 +4158,7 @@ void __cdecl InstableSprayReachScoreWatcher::~InstableSprayReachScoreWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'InstableSprayReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for InstableSprayReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4173,7 +4173,7 @@ void __cdecl GravenInnocenceCarveCompleteWatcher::GravenInnocenceCarveCompleteWa
   int (**v2)(...); // rdx
 
   RefreshableServerWatcher<GravenInnocenceCarveCompleteWatcher,GravenInnocenceCarveEditEvent,GravenInnocenceCarveCompleteWatcherParam>::RefreshableServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GravenInnocenceCarveCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocenceCarveCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4186,7 +4186,7 @@ void __cdecl GravenInnocenceCarveCompleteWatcher::~GravenInnocenceCarveCompleteW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GravenInnocenceCarveCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocenceCarveCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4209,7 +4209,7 @@ void __cdecl GravenInnocencePhotoFinishWatcher::GravenInnocencePhotoFinishWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<GravenInnocencePhotoFinishWatcher,GravenInnocencePhotoFinishEvent,GravenInnocencePhotoFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GravenInnocencePhotoFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocencePhotoFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4222,7 +4222,7 @@ void __cdecl GravenInnocencePhotoFinishWatcher::~GravenInnocencePhotoFinishWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GravenInnocencePhotoFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocencePhotoFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4245,7 +4245,7 @@ void __cdecl GravenInnocenceCampFinishLevelWatcher::GravenInnocenceCampFinishLev
   int (**v2)(...); // rdx
 
   ServerWatcher<GravenInnocenceCampFinishLevelWatcher,GravenInnocenceCampFinishLevelEvent,GravenInnocenceCampFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'GravenInnocenceCampFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocenceCampFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4266,7 +4266,7 @@ void __cdecl GravenInnocenceCampFinishLevelWatcher::~GravenInnocenceCampFinishLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GravenInnocenceCampFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for GravenInnocenceCampFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4280,7 +4280,7 @@ void __cdecl VintageHuntingScoreWatcher::VintageHuntingScoreWatcher(VintageHunti
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingScoreWatcher,VintageHuntingScoreEvent,VintageHuntingScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4299,7 +4299,7 @@ void __cdecl VintageHuntingScoreWatcher::~VintageHuntingScoreWatcher(VintageHunt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4314,7 +4314,7 @@ void __cdecl VintageHuntingCaptureNumWatcher::VintageHuntingCaptureNumWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingCaptureNumWatcher,VintageHuntingCaptureNumEvent,VintageHuntingCaptureNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4327,7 +4327,7 @@ void __cdecl VintageHuntingCaptureNumWatcher::~VintageHuntingCaptureNumWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4350,7 +4350,7 @@ void __cdecl VintageHuntingCaptureNoBattleNumWatcher::VintageHuntingCaptureNoBat
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingCaptureNoBattleNumWatcher,VintageHuntingCaptureNoBattleNumEvent,VintageHuntingCaptureNoBattleNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureNoBattleNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureNoBattleNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4371,7 +4371,7 @@ void __cdecl VintageHuntingCaptureNoBattleNumWatcher::~VintageHuntingCaptureNoBa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureNoBattleNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureNoBattleNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4386,7 +4386,7 @@ void __cdecl VintageHuntingCaptureTypeNumWatcher::VintageHuntingCaptureTypeNumWa
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingCaptureTypeNumWatcher,VintageHuntingCaptureTypeNumEvent,VintageHuntingCaptureTypeNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureTypeNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureTypeNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4399,7 +4399,7 @@ void __cdecl VintageHuntingCaptureTypeNumWatcher::~VintageHuntingCaptureTypeNumW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingCaptureTypeNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingCaptureTypeNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4422,7 +4422,7 @@ void __cdecl VintageHuntingFinishBossWatcher::VintageHuntingFinishBossWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingFinishBossWatcher,VintageHuntingFinishBossEvent,VintageHuntingFinishBossWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingFinishBossWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingFinishBossWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4435,7 +4435,7 @@ void __cdecl VintageHuntingFinishBossWatcher::~VintageHuntingFinishBossWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingFinishBossWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingFinishBossWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4458,7 +4458,7 @@ void __cdecl VintageHuntingFinishBossInTimeWatcher::VintageHuntingFinishBossInTi
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingFinishBossInTimeWatcher,VintageHuntingFinishBossInTimeEvent,VintageHuntingFinishBossInTimeWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingFinishBossInTimeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingFinishBossInTimeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4471,7 +4471,7 @@ void __cdecl VintageHuntingFinishBossInTimeWatcher::~VintageHuntingFinishBossInT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingFinishBossInTimeWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingFinishBossInTimeWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4494,7 +4494,7 @@ void __cdecl VintageHuntingBossWeakTimesWatcher::VintageHuntingBossWeakTimesWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageHuntingBossWeakTimesWatcher,VintageHuntingBossWeakTimesEvent,VintageHuntingBossWeakTimesWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingBossWeakTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingBossWeakTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4507,7 +4507,7 @@ void __cdecl VintageHuntingBossWeakTimesWatcher::~VintageHuntingBossWeakTimesWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageHuntingBossWeakTimesWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageHuntingBossWeakTimesWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4530,7 +4530,7 @@ void __cdecl VintageDecorationCompleteWatcher::VintageDecorationCompleteWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageDecorationCompleteWatcher,VintageDecorationCompleteEvent,VintageDecorationCompleteWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageDecorationCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageDecorationCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4551,7 +4551,7 @@ void __cdecl VintageDecorationCompleteWatcher::~VintageDecorationCompleteWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageDecorationCompleteWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageDecorationCompleteWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4566,7 +4566,7 @@ void __cdecl VintageCollectDecorationNumWatcher::VintageCollectDecorationNumWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageCollectDecorationNumWatcher,VintageCollectDecorationNumEvent,VintageCollectDecorationNumWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageCollectDecorationNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageCollectDecorationNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4587,7 +4587,7 @@ void __cdecl VintageCollectDecorationNumWatcher::~VintageCollectDecorationNumWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageCollectDecorationNumWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageCollectDecorationNumWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4601,7 +4601,7 @@ void __cdecl VintageFinishCampWatcher::VintageFinishCampWatcher(VintageFinishCam
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageFinishCampWatcher,VintageFinishCampEvent,VintageFinishCampWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageFinishCampWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageFinishCampWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4613,7 +4613,7 @@ void __cdecl VintageFinishCampWatcher::~VintageFinishCampWatcher(VintageFinishCa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageFinishCampWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageFinishCampWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4634,7 +4634,7 @@ void __cdecl VintageMarketCoinAWatcher::VintageMarketCoinAWatcher(VintageMarketC
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageMarketCoinAWatcher,VintageMarketCoinAChangeEvent,VintageMarketCoinAWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageMarketCoinAWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketCoinAWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4653,7 +4653,7 @@ void __cdecl VintageMarketCoinAWatcher::~VintageMarketCoinAWatcher(VintageMarket
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageMarketCoinAWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketCoinAWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4668,7 +4668,7 @@ void __cdecl VintageMarketContentFinishWatcher::VintageMarketContentFinishWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<VintageMarketContentFinishWatcher,VintageMarketContentFinishEvent,VintageMarketContentFinishWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'VintageMarketContentFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketContentFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4689,7 +4689,7 @@ void __cdecl VintageMarketContentFinishWatcher::~VintageMarketContentFinishWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageMarketContentFinishWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketContentFinishWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4704,7 +4704,7 @@ void __cdecl RockBoardExploreFinishStageWatcher::RockBoardExploreFinishStageWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<RockBoardExploreFinishStageWatcher,RockBoardExploreFinishStageEvent,RockBoardExploreFinishStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'RockBoardExploreFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RockBoardExploreFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4725,7 +4725,7 @@ void __cdecl RockBoardExploreFinishStageWatcher::~RockBoardExploreFinishStageWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RockBoardExploreFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for RockBoardExploreFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4740,7 +4740,7 @@ void __cdecl FungusFighterCaptureFungusWatcher::FungusFighterCaptureFungusWatche
   int (**v2)(...); // rdx
 
   ServerWatcher<FungusFighterCaptureFungusWatcher,FungusFighterCaptureFungusEvent,FungusFighterCaptureFungusWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FungusFighterCaptureFungusWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterCaptureFungusWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4761,7 +4761,7 @@ void __cdecl FungusFighterCaptureFungusWatcher::~FungusFighterCaptureFungusWatch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FungusFighterCaptureFungusWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterCaptureFungusWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4776,7 +4776,7 @@ void __cdecl FungusFighterCultivateFungusWatcher::FungusFighterCultivateFungusWa
   int (**v2)(...); // rdx
 
   ServerWatcher<FungusFighterCultivateFungusWatcher,FungusFighterCultivateFungusEvent,FungusFighterCultivateFungusWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FungusFighterCultivateFungusWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterCultivateFungusWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4797,7 +4797,7 @@ void __cdecl FungusFighterCultivateFungusWatcher::~FungusFighterCultivateFungusW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FungusFighterCultivateFungusWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterCultivateFungusWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4812,7 +4812,7 @@ void __cdecl FungusFighterTrainingReachScoreWatcher::FungusFighterTrainingReachS
   int (**v2)(...); // rdx
 
   ServerWatcher<FungusFighterTrainingReachScoreWatcher,FungusFighterTrainingNewRecordScoreEvent,FungusFighterTrainingReachScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'FungusFighterTrainingReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterTrainingReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4825,7 +4825,7 @@ void __cdecl FungusFighterTrainingReachScoreWatcher::~FungusFighterTrainingReach
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FungusFighterTrainingReachScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for FungusFighterTrainingReachScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4848,7 +4848,7 @@ void __cdecl EffigyChallengeV2FinishRoomWatcher::EffigyChallengeV2FinishRoomWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<EffigyChallengeV2FinishRoomWatcher,EffigyChallengeV2FinishRoomEvent,EffigyChallengeV2FinishRoomWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'EffigyChallengeV2FinishRoomWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for EffigyChallengeV2FinishRoomWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4861,7 +4861,7 @@ void __cdecl EffigyChallengeV2FinishRoomWatcher::~EffigyChallengeV2FinishRoomWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'EffigyChallengeV2FinishRoomWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for EffigyChallengeV2FinishRoomWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4884,7 +4884,7 @@ void __cdecl CharAmusementFinishStageWatcher::CharAmusementFinishStageWatcher(
   int (**v2)(...); // rdx
 
   ServerWatcher<CharAmusementFinishStageWatcher,CharAmusementFinishStageEvent,CharAmusementFinishStageWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CharAmusementFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CharAmusementFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4897,7 +4897,7 @@ void __cdecl CharAmusementFinishStageWatcher::~CharAmusementFinishStageWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CharAmusementFinishStageWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CharAmusementFinishStageWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4919,7 +4919,7 @@ void __cdecl CoinCollectResultReachWatcher::CoinCollectResultReachWatcher(CoinCo
   int (**v2)(...); // rdx
 
   ServerWatcher<CoinCollectResultReachWatcher,CoinCollectGalleryFinishEvent,CoinCollectResultReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'CoinCollectResultReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CoinCollectResultReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4931,7 +4931,7 @@ void __cdecl CoinCollectResultReachWatcher::~CoinCollectResultReachWatcher(CoinC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CoinCollectResultReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for CoinCollectResultReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4953,7 +4953,7 @@ void __cdecl BrickBreakerFinishWorldLevelWatcher::BrickBreakerFinishWorldLevelWa
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerFinishWorldLevelWatcher,BrickBreakerWorldLevelFinishEvent,BrickBreakerFinishWorldLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerFinishWorldLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerFinishWorldLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4966,7 +4966,7 @@ void __cdecl BrickBreakerFinishWorldLevelWatcher::~BrickBreakerFinishWorldLevelW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerFinishWorldLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerFinishWorldLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -4989,7 +4989,7 @@ void __cdecl BrickBreakerWorldLevelScoreWatcher::BrickBreakerWorldLevelScoreWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerWorldLevelScoreWatcher,BrickBreakerWorldLevelFinishEvent,BrickBreakerWorldLevelScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5002,7 +5002,7 @@ void __cdecl BrickBreakerWorldLevelScoreWatcher::~BrickBreakerWorldLevelScoreWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5025,7 +5025,7 @@ void __cdecl BrickBreakerWorldLevelComboWatcher::BrickBreakerWorldLevelComboWatc
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerWorldLevelComboWatcher,BrickBreakerWorldLevelFinishEvent,BrickBreakerWorldLevelComboWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelComboWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelComboWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5046,7 +5046,7 @@ void __cdecl BrickBreakerWorldLevelComboWatcher::~BrickBreakerWorldLevelComboWat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelComboWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelComboWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5061,7 +5061,7 @@ void __cdecl BrickBreakerFinishDungeonLevelWatcher::BrickBreakerFinishDungeonLev
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerFinishDungeonLevelWatcher,BrickBreakerDungeonLevelFinishEvent,BrickBreakerFinishDungeonLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerFinishDungeonLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerFinishDungeonLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5074,7 +5074,7 @@ void __cdecl BrickBreakerFinishDungeonLevelWatcher::~BrickBreakerFinishDungeonLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerFinishDungeonLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerFinishDungeonLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5097,7 +5097,7 @@ void __cdecl BrickBreakerDungeonLevelScoreWatcher::BrickBreakerDungeonLevelScore
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerDungeonLevelScoreWatcher,BrickBreakerDungeonLevelFinishEvent,BrickBreakerDungeonLevelScoreWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5110,7 +5110,7 @@ void __cdecl BrickBreakerDungeonLevelScoreWatcher::~BrickBreakerDungeonLevelScor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelScoreWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelScoreWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5133,7 +5133,7 @@ void __cdecl BrickBreakerDungeonLevelComboWatcher::BrickBreakerDungeonLevelCombo
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerDungeonLevelComboWatcher,BrickBreakerDungeonLevelFinishEvent,BrickBreakerDungeonLevelComboWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelComboWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelComboWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5154,7 +5154,7 @@ void __cdecl BrickBreakerDungeonLevelComboWatcher::~BrickBreakerDungeonLevelComb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelComboWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelComboWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5169,7 +5169,7 @@ void __cdecl BrickBreakerWorldLevelElemReactionWatcher::BrickBreakerWorldLevelEl
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerWorldLevelElemReactionWatcher,BrickBreakerWorldLevelFinishEvent,BrickBreakerWorldLevelElemReactionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5190,7 +5190,7 @@ void __cdecl BrickBreakerWorldLevelElemReactionWatcher::~BrickBreakerWorldLevelE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5205,7 +5205,7 @@ void __cdecl BrickBreakerWorldLevelBallElemReactionWatcher::BrickBreakerWorldLev
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerWorldLevelBallElemReactionWatcher,BrickBreakerWorldLevelFinishEvent,BrickBreakerWorldLevelBallElemReactionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelBallElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelBallElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5226,7 +5226,7 @@ void __cdecl BrickBreakerWorldLevelBallElemReactionWatcher::~BrickBreakerWorldLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerWorldLevelBallElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerWorldLevelBallElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5241,7 +5241,7 @@ void __cdecl BrickBreakerDungeonLevelElemReactionWatcher::BrickBreakerDungeonLev
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerDungeonLevelElemReactionWatcher,BrickBreakerDungeonLevelFinishEvent,BrickBreakerDungeonLevelElemReactionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5254,7 +5254,7 @@ void __cdecl BrickBreakerDungeonLevelElemReactionWatcher::~BrickBreakerDungeonLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5277,7 +5277,7 @@ void __cdecl BrickBreakerDungeonLevelBallElemReactionWatcher::BrickBreakerDungeo
   int (**v2)(...); // rdx
 
   ServerWatcher<BrickBreakerDungeonLevelBallElemReactionWatcher,BrickBreakerDungeonLevelFinishEvent,BrickBreakerDungeonLevelBallElemReactionWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelBallElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelBallElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5298,7 +5298,7 @@ void __cdecl BrickBreakerDungeonLevelBallElemReactionWatcher::~BrickBreakerDunge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerDungeonLevelBallElemReactionWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerDungeonLevelBallElemReactionWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5312,7 +5312,7 @@ void __cdecl TeamChainScoreReachWatcher::TeamChainScoreReachWatcher(TeamChainSco
   int (**v2)(...); // rdx
 
   ServerWatcher<TeamChainScoreReachWatcher,TeamChainStageSuccessFinishEvent,TeamChainScoreReachWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'TeamChainScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TeamChainScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5324,7 +5324,7 @@ void __cdecl TeamChainScoreReachWatcher::~TeamChainScoreReachWatcher(TeamChainSc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TeamChainScoreReachWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TeamChainScoreReachWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5345,7 +5345,7 @@ void __cdecl TeamChainFinishStageCntWatcher::TeamChainFinishStageCntWatcher(Team
   int (**v2)(...); // rdx
 
   ServerWatcher<TeamChainFinishStageCntWatcher,TeamChainStageSuccessFinishEvent,TeamChainFinishStageCntWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'TeamChainFinishStageCntWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TeamChainFinishStageCntWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5358,7 +5358,7 @@ void __cdecl TeamChainFinishStageCntWatcher::~TeamChainFinishStageCntWatcher(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TeamChainFinishStageCntWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for TeamChainFinishStageCntWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5381,7 +5381,7 @@ void __cdecl ElectroherculesBattleFinishLevelWatcher::ElectroherculesBattleFinis
   int (**v2)(...); // rdx
 
   ServerWatcher<ElectroherculesBattleFinishLevelWatcher,GalleryElectroherculesBattleSettleEvent,ElectroherculesBattleFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'ElectroherculesBattleFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ElectroherculesBattleFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5394,7 +5394,7 @@ void __cdecl ElectroherculesBattleFinishLevelWatcher::~ElectroherculesBattleFini
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ElectroherculesBattleFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for ElectroherculesBattleFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5416,7 +5416,7 @@ void __cdecl DuelHeartFinishLevelWatcher::DuelHeartFinishLevelWatcher(DuelHeartF
   int (**v2)(...); // rdx
 
   ServerWatcher<DuelHeartFinishLevelWatcher,DuelHeartGallerySettleEvent,DuelHeartFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'DuelHeartFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for DuelHeartFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5435,7 +5435,7 @@ void __cdecl DuelHeartFinishLevelWatcher::~DuelHeartFinishLevelWatcher(DuelHeart
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DuelHeartFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for DuelHeartFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5449,7 +5449,7 @@ void __cdecl LanV3RaceWatcher::LanV3RaceWatcher(LanV3RaceWatcher *const this)
   int (**v2)(...); // rdx
 
   ServerWatcher<LanV3RaceWatcher,LanV3RaceScoreEvent,LanV3RaceWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'LanV3RaceWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LanV3RaceWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5468,7 +5468,7 @@ void __cdecl LanV3RaceWatcher::~LanV3RaceWatcher(LanV3RaceWatcher *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LanV3RaceWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LanV3RaceWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5482,7 +5482,7 @@ void __cdecl LanV3ShadowFinishLevelWatcher::LanV3ShadowFinishLevelWatcher(LanV3S
   int (**v2)(...); // rdx
 
   ServerWatcher<LanV3ShadowFinishLevelWatcher,LanV3ShadowFinishLevelEvent,LanV3ShadowFinishLevelWatcherParam>::ServerWatcher(this);
-  v2 = (int (**)(...))(&`vtable for'LanV3ShadowFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LanV3ShadowFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -5501,7 +5501,7 @@ void __cdecl LanV3ShadowFinishLevelWatcher::~LanV3ShadowFinishLevelWatcher(LanV3
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LanV3ShadowFinishLevelWatcher + 2);
+  v2 = (int (**)(...))(&`vtable for LanV3ShadowFinishLevelWatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;

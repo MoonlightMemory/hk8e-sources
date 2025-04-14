@@ -9,7 +9,7 @@ void __cdecl ItemStore::ItemStore(ItemStore *const this, Player *player)
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ItemStore + 2);
+  v2 = (int (**)(...))(&`vtable for ItemStore + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_ItemStore = v2;
@@ -51,7 +51,7 @@ void __cdecl ItemStore::~ItemStore(ItemStore *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ItemStore + 2);
+  v2 = (int (**)(...))(&`vtable for ItemStore + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemStore = v2;

@@ -189,7 +189,7 @@ void __cdecl ScriptLib::ScriptLib(ScriptLib *const this, const ScriptLib *a2)
   int (**v2)(...); // rdx
 
   ScriptLibBase::ScriptLibBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ScriptLib + 2);
+  v2 = (int (**)(...))(&`vtable for ScriptLib + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ScriptLibBase = v2;
@@ -202,7 +202,7 @@ void __cdecl ScriptLib::ScriptLib(ScriptLib *const this)
   int (**v2)(...); // rdx
 
   ScriptLibBase::ScriptLibBase(this);
-  v2 = (int (**)(...))(&`vtable for'ScriptLib + 2);
+  v2 = (int (**)(...))(&`vtable for ScriptLib + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ScriptLibBase = v2;

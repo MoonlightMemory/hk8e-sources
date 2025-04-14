@@ -6,7 +6,7 @@ void __cdecl StatueComp::StatueComp(StatueComp *const this, Gadget *gadget)
   int (**v2)(...); // rdx
 
   ZN22GadgetBaseInteractCompCI214GadgetCompBaseER6Gadget(this, gadget);
-  v2 = (int (**)(...))(&`vtable for'StatueComp + 2);
+  v2 = (int (**)(...))(&`vtable for StatueComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;

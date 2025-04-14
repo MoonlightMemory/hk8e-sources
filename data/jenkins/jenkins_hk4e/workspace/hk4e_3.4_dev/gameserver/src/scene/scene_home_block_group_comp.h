@@ -6,7 +6,7 @@ void __cdecl SceneHomeBlockGroupComp::~SceneHomeBlockGroupComp(SceneHomeBlockGro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneHomeBlockGroupComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneHomeBlockGroupComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneCompBase = v2;
@@ -26,7 +26,7 @@ void __cdecl SceneHomeBlockGroupComp::SceneHomeBlockGroupComp(SceneHomeBlockGrou
   int (**v2)(...); // rdx
 
   SceneBlockGroupComp::SceneBlockGroupComp(this, scene, 0);
-  v2 = (int (**)(...))(&`vtable for'SceneHomeBlockGroupComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneHomeBlockGroupComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneCompBase = v2;

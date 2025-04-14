@@ -5,7 +5,7 @@ void __cdecl DungeonCondition::~DungeonCondition(DungeonCondition *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondition + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -85,7 +85,7 @@ void __cdecl DungeonCondKillMonster::~DungeonCondKillMonster(DungeonCondKillMons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondKillMonster + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondKillMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -120,7 +120,7 @@ void __fastcall ZN22DungeonCondKillMonsterCI216DungeonConditionERKN4data17Dungeo
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition((DungeonCondition *const)this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondKillMonster + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondKillMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -146,7 +146,7 @@ void __cdecl DungeonCondKillGroupMonster::~DungeonCondKillGroupMonster(DungeonCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondKillGroupMonster + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondKillGroupMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -181,7 +181,7 @@ void __fastcall ZN27DungeonCondKillGroupMonsterCI216DungeonConditionERKN4data17D
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition(this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondKillGroupMonster + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondKillGroupMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -201,7 +201,7 @@ void __cdecl DungeonCondKillTypeMonster::~DungeonCondKillTypeMonster(DungeonCond
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondKillTypeMonster + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondKillTypeMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -236,7 +236,7 @@ void __fastcall ZN26DungeonCondKillTypeMonsterCI216DungeonConditionERKN4data17Du
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition((DungeonCondition *const)this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondKillTypeMonster + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondKillTypeMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -262,7 +262,7 @@ void __cdecl DungeonCondFinishQuest::~DungeonCondFinishQuest(DungeonCondFinishQu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondFinishQuest + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondFinishQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -297,7 +297,7 @@ void __fastcall ZN22DungeonCondFinishQuestCI216DungeonConditionERKN4data17Dungeo
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition(this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondFinishQuest + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondFinishQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -317,7 +317,7 @@ void __cdecl DungeonCondKillMonsterCount::~DungeonCondKillMonsterCount(DungeonCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondKillMonsterCount + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondKillMonsterCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -352,7 +352,7 @@ void __fastcall ZN27DungeonCondKillMonsterCountCI216DungeonConditionERKN4data17D
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition((DungeonCondition *const)this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondKillMonsterCount + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondKillMonsterCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -378,7 +378,7 @@ void __cdecl DungeonCondInTime::~DungeonCondInTime(DungeonCondInTime *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondInTime + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -390,7 +390,7 @@ void __cdecl DungeonCondFinishChallenge::~DungeonCondFinishChallenge(DungeonCond
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondFinishChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondFinishChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -425,7 +425,7 @@ void __fastcall ZN26DungeonCondFinishChallengeCI216DungeonConditionERKN4data17Du
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition(this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondFinishChallenge + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondFinishChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -445,7 +445,7 @@ void __cdecl DungeonCondEndMultistagePlay::~DungeonCondEndMultistagePlay(Dungeon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonCondEndMultistagePlay + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonCondEndMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v1;
@@ -480,7 +480,7 @@ void __fastcall ZN28DungeonCondEndMultistagePlayCI216DungeonConditionERKN4data17
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a3;
   DungeonCondition::DungeonCondition(this, a2, *(_DWORD *)(v4 + 32), a4);
-  v7 = (int (**)(...))(&`vtable for'DungeonCondEndMultistagePlay + 2);
+  v7 = (int (**)(...))(&`vtable for DungeonCondEndMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v7;
@@ -516,7 +516,7 @@ void __cdecl DungeonCondition::DungeonCondition(
   int (**v4)(...); // rdx
   uint32_t SceneTimeSeconds; // edx
 
-  v4 = (int (**)(...))(&`vtable for'DungeonCondition + 2);
+  v4 = (int (**)(...))(&`vtable for DungeonCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v4;

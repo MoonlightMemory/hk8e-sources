@@ -95,7 +95,7 @@ void __cdecl Home::~Home(Home *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Home + 2);
+  v1 = (int (**)(...))(&`vtable for Home + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -125,7 +125,7 @@ void __cdecl Home::Home(Home *const this, uint32_t home_uid)
   std::enable_shared_from_this<Home>::enable_shared_from_this(&this->std::enable_shared_from_this<Home>);
   common::milog::DescribalBase::DescribalBase(this);
   EcsBase<Home,HomeCompBase,12u>::EcsBase(&this->EcsBase<Home,HomeCompBase,12>);
-  v2 = (int (**)(...))(&`vtable for'Home + 2);
+  v2 = (int (**)(...))(&`vtable for Home + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

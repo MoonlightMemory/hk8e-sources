@@ -5,7 +5,7 @@ void __cdecl MassiveEntity::~MassiveEntity(MassiveEntity *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'MassiveEntity + 2;
+  v1 = &`vtable for MassiveEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -44,7 +44,7 @@ void __fastcall ZN13MassiveEntityCI26GadgetEj(MassiveEntity *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   Gadget::Gadget((Gadget *const)this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'MassiveEntity + 2;
+  v5 = &`vtable for MassiveEntity + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;

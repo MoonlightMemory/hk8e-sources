@@ -5,7 +5,7 @@ void __cdecl CardInfo::~CardInfo(CardInfo *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CardInfo + 2);
+  v1 = (int (**)(...))(&`vtable for CardInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -20,7 +20,7 @@ void __cdecl CardInfo::CardInfo(CardInfo *const this, TowerDefensePlay *play)
 
   common::milog::DescribalBase::DescribalBase(this);
   std::enable_shared_from_this<CardInfo>::enable_shared_from_this(&this->std::enable_shared_from_this<CardInfo>);
-  v2 = (int (**)(...))(&`vtable for'CardInfo + 2);
+  v2 = (int (**)(...))(&`vtable for CardInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -127,11 +127,11 @@ void __cdecl TowerDefensePlay::TowerDefensePlay(TowerDefensePlay *const this, Sc
   int (**v3)(...); // rdx
 
   TowerDefensePlayBase::TowerDefensePlayBase(this, play);
-  v2 = (int (**)(...))(&`vtable for'TowerDefensePlay + 2);
+  v2 = (int (**)(...))(&`vtable for TowerDefensePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
-  v3 = (int (**)(...))(&`vtable for'TowerDefensePlay + 32);
+  v3 = (int (**)(...))(&`vtable for TowerDefensePlay + 32);
   if ( *(_BYTE *)(((unsigned __int64)&this->SceneMultistagePlayCompBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->SceneMultistagePlayCompBase);
   this->_vptr_SceneMultistagePlayCompBase = v3;
@@ -187,11 +187,11 @@ void __cdecl TowerDefensePlay::~TowerDefensePlay(TowerDefensePlay *const this)
   int (**v1)(...); // rdx
   int (**v2)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TowerDefensePlay + 2);
+  v1 = (int (**)(...))(&`vtable for TowerDefensePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
-  v2 = (int (**)(...))(&`vtable for'TowerDefensePlay + 32);
+  v2 = (int (**)(...))(&`vtable for TowerDefensePlay + 32);
   if ( *(_BYTE *)(((unsigned __int64)&this->SceneMultistagePlayCompBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->SceneMultistagePlayCompBase);
   this->_vptr_SceneMultistagePlayCompBase = v2;

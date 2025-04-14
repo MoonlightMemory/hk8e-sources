@@ -7,7 +7,7 @@ void __cdecl CardEffectBase::CardEffectBase(CardEffectBase *const this, CardInfo
 
   common::milog::DescribalBase::DescribalBase(this);
   std::enable_shared_from_this<CardEffectBase>::enable_shared_from_this(&this->std::enable_shared_from_this<CardEffectBase>);
-  v2 = (int (**)(...))(&`vtable for'CardEffectBase + 2);
+  v2 = (int (**)(...))(&`vtable for CardEffectBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -57,7 +57,7 @@ void __cdecl CardEffectBase::~CardEffectBase(CardEffectBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CardEffectBase + 2);
+  v1 = (int (**)(...))(&`vtable for CardEffectBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

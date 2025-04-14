@@ -39,7 +39,7 @@ void __cdecl BaseActivity::BaseActivity(BaseActivity *const this, Player *player
 
   std::enable_shared_from_this<BaseActivity>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseActivity>);
   common::milog::DescribalBase::DescribalBase(this);
-  v3 = (int (**)(...))(&`vtable for'BaseActivity + 2);
+  v3 = (int (**)(...))(&`vtable for BaseActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;
@@ -148,7 +148,7 @@ void __cdecl BaseActivity::~BaseActivity(BaseActivity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseActivity + 2);
+  v1 = (int (**)(...))(&`vtable for BaseActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -480,7 +480,7 @@ void __cdecl BaseActivityGmTool::~BaseActivityGmTool(BaseActivityGmTool *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseActivityGmTool + 2);
+  v1 = (int (**)(...))(&`vtable for BaseActivityGmTool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActivityGmTool = v1;
@@ -493,7 +493,7 @@ void __cdecl BaseActivityGmTool::BaseActivityGmTool(BaseActivityGmTool *const th
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseActivityGmTool + 2);
+  v2 = (int (**)(...))(&`vtable for BaseActivityGmTool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActivityGmTool = v2;

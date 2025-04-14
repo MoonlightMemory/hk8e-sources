@@ -6,7 +6,7 @@ void __cdecl SceneRoomSightComp::SceneRoomSightComp(SceneRoomSightComp *const th
   int (**v2)(...); // rdx
 
   ZN14SceneSightCompCI213SceneCompBaseER5Scene(this, scene);
-  v2 = (int (**)(...))(&`vtable for'SceneRoomSightComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneRoomSightComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneCompBase = v2;

@@ -6,7 +6,7 @@ void __cdecl SceneMiscComp::~SceneMiscComp(SceneMiscComp *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneMiscComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMiscComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneCompBase = v2;
@@ -31,7 +31,7 @@ void __cdecl ZN13SceneMiscCompCI213SceneCompBaseER5Scene(SceneMiscComp *const th
   bool v4; // dl
 
   SceneCompBase::SceneCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SceneMiscComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMiscComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneCompBase = v2;

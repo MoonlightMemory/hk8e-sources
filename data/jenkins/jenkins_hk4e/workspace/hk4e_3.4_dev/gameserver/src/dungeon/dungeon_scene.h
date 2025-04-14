@@ -36,7 +36,7 @@ void __cdecl DungeonScene::~DungeonScene(DungeonScene *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'DungeonScene + 2;
+  v1 = &`vtable for DungeonScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -92,7 +92,7 @@ void __fastcall ZN12DungeonSceneCI25SceneEj(DungeonScene *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   Scene::Scene((Scene *const)this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'DungeonScene + 2;
+  v5 = &`vtable for DungeonScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;
@@ -1140,7 +1140,7 @@ bool __cdecl DungeonScene::isDungeonExtraDataOfType<MistTrialDungeonContext>(con
   const std::type_info *v1; // rax
 
   v1 = std::any::type(&this->dungeon_extra_data_);
-  return std::type_info::operator==((const std::type_info *const)&`typeinfo for'MistTrialDungeonContext, v1);
+  return std::type_info::operator==((const std::type_info *const)&`typeinfo for MistTrialDungeonContext, v1);
 };
 
 // Line 1016: range 0000000014A0B01E-0000000014A0B0B0

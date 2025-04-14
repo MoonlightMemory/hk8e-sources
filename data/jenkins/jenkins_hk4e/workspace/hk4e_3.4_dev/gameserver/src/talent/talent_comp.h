@@ -17,7 +17,7 @@ void __cdecl TalentComp::~TalentComp(TalentComp *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TalentComp + 2);
+  v2 = (int (**)(...))(&`vtable for TalentComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -41,7 +41,7 @@ void __cdecl ZN10TalentCompCI214AvatarCompBaseER6Avatar(TalentComp *const this, 
   int (**v2)(...); // rdx
 
   AvatarCompBase::AvatarCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'TalentComp + 2);
+  v2 = (int (**)(...))(&`vtable for TalentComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v2;

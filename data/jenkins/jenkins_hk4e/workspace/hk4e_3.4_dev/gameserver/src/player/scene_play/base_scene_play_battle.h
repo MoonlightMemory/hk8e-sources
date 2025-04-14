@@ -128,7 +128,7 @@ void __cdecl BaseScenePlayBattle::BaseScenePlayBattle(
   std::shared_ptr<BaseScenePlay> v13; // [rsp+30h] [rbp-20h] BYREF
 
   std::enable_shared_from_this<BaseScenePlayBattle>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseScenePlayBattle>);
-  v3 = (int (**)(...))(&`vtable for'BaseScenePlayBattle + 2);
+  v3 = (int (**)(...))(&`vtable for BaseScenePlayBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_BaseScenePlayBattle = v3;
@@ -226,7 +226,7 @@ void __cdecl BaseScenePlayBattle::~BaseScenePlayBattle(BaseScenePlayBattle *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseScenePlayBattle + 2);
+  v2 = (int (**)(...))(&`vtable for BaseScenePlayBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseScenePlayBattle = v2;

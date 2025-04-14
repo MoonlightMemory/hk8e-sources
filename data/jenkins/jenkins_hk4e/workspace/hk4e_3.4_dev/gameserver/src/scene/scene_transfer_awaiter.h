@@ -72,7 +72,7 @@ void __cdecl SceneTransferAwaiter::SceneTransferAwaiter(
   std::set<unsigned int> *v5; // rsi
 
   std::enable_shared_from_this<SceneTransferAwaiter>::enable_shared_from_this(&this->std::enable_shared_from_this<SceneTransferAwaiter>);
-  v4 = (int (**)(...))(&`vtable for'SceneTransferAwaiter + 2);
+  v4 = (int (**)(...))(&`vtable for SceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneTransferAwaiter = v4;
@@ -105,7 +105,7 @@ void __cdecl SceneTransferAwaiter::~SceneTransferAwaiter(SceneTransferAwaiter *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -262,7 +262,7 @@ void __cdecl GallerySceneTransferAwaiter::~GallerySceneTransferAwaiter(GallerySc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GallerySceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for GallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -294,7 +294,7 @@ void __cdecl GallerySceneTransferAwaiter::GallerySceneTransferAwaiter(
   std::set<unsigned int>::set(&v11, v5);
   SceneTransferAwaiter::SceneTransferAwaiter(this, scene, &v11, timeout);
   std::set<unsigned int>::~set(&v11);
-  v6 = (int (**)(...))(&`vtable for'GallerySceneTransferAwaiter + 2);
+  v6 = (int (**)(...))(&`vtable for GallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneTransferAwaiter = v6;
@@ -345,7 +345,7 @@ void __cdecl MatchGallerySceneTransferAwaiter::~MatchGallerySceneTransferAwaiter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MatchGallerySceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for MatchGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -383,7 +383,7 @@ void __cdecl MatchGallerySceneTransferAwaiter::MatchGallerySceneTransferAwaiter(
     timeout,
     gallery_id);
   std::set<unsigned int>::~set(&v10);
-  v6 = (int (**)(...))(&`vtable for'MatchGallerySceneTransferAwaiter + 2);
+  v6 = (int (**)(...))(&`vtable for MatchGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneTransferAwaiter = v6;
@@ -416,7 +416,7 @@ void __cdecl DraftGallerySceneTransferAwaiter::~DraftGallerySceneTransferAwaiter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DraftGallerySceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for DraftGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -462,7 +462,7 @@ void __fastcall ZN32DraftGallerySceneTransferAwaiterCI227GallerySceneTransferAwa
   *(_DWORD *)(v5 + 48) = a4;
   *(_DWORD *)(v5 + 64) = a5;
   GallerySceneTransferAwaiter::GallerySceneTransferAwaiter(this, a2, p_, *(_DWORD *)(v5 + 48), *(_DWORD *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'DraftGallerySceneTransferAwaiter + 2);
+  v8 = (int (**)(...))(&`vtable for DraftGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneTransferAwaiter = v8;
@@ -494,7 +494,7 @@ void __cdecl IslandPartyMatchGallerySceneTransferAwaiter::~IslandPartyMatchGalle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IslandPartyMatchGallerySceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for IslandPartyMatchGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -537,7 +537,7 @@ void __fastcall ZN43IslandPartyMatchGallerySceneTransferAwaiterCI232MatchGallery
     p_,
     *(_DWORD *)(v5 + 48),
     *(_DWORD *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'IslandPartyMatchGallerySceneTransferAwaiter + 2);
+  v8 = (int (**)(...))(&`vtable for IslandPartyMatchGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneTransferAwaiter = v8;
@@ -610,7 +610,7 @@ void __cdecl IslandPartyDraftGallerySceneTransferAwaiter::~IslandPartyDraftGalle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IslandPartyDraftGallerySceneTransferAwaiter + 2);
+  v2 = (int (**)(...))(&`vtable for IslandPartyDraftGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTransferAwaiter = v2;
@@ -653,7 +653,7 @@ void __fastcall ZN43IslandPartyDraftGallerySceneTransferAwaiterCI227GalleryScene
     p_,
     *(_DWORD *)(v5 + 48),
     *(_DWORD *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'IslandPartyDraftGallerySceneTransferAwaiter + 2);
+  v8 = (int (**)(...))(&`vtable for IslandPartyDraftGallerySceneTransferAwaiter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneTransferAwaiter = v8;

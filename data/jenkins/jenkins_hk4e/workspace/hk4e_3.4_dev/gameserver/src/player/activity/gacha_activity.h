@@ -100,7 +100,7 @@ void __cdecl GachaActivity::~GachaActivity(GachaActivity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GachaActivity + 2);
+  v1 = (int (**)(...))(&`vtable for GachaActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -129,7 +129,7 @@ void __cdecl GachaActivity::GachaActivity(GachaActivity *const this, Player *pla
   std::allocator<char> __a; // [rsp+2Fh] [rbp-11h] BYREF
 
   BaseActivity::BaseActivity((BaseActivity *const)this, player, activity_id);
-  v3 = (int (**)(...))(&`vtable for'GachaActivity + 2);
+  v3 = (int (**)(...))(&`vtable for GachaActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;

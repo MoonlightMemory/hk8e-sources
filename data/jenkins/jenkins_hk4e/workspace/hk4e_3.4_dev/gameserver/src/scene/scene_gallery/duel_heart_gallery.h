@@ -6,7 +6,7 @@ void __cdecl DuelHeartGallery::~DuelHeartGallery(DuelHeartGallery *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DuelHeartGallery + 2);
+  v2 = (int (**)(...))(&`vtable for DuelHeartGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseGallery = v2;
@@ -44,7 +44,7 @@ void __fastcall ZN16DuelHeartGalleryCI211BaseGalleryER5Scenej(DuelHeartGallery *
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseGallery::BaseGallery(this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'DuelHeartGallery + 2);
+  v6 = (int (**)(...))(&`vtable for DuelHeartGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseGallery = v6;

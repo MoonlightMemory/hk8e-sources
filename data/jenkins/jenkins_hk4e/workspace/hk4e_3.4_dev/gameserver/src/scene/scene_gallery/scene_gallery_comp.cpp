@@ -2101,11 +2101,11 @@ std::set<unsigned int> *__cdecl SceneGalleryComp::getAllStartedGalleryIdSet(
   v4[536862720] = -235802127;
   v4[536862721] = 61937;
   v4[536862723] = -202116109;
-  if ( !(_BYTE)`guard variable for'SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set
-    && __cxa_guard_acquire(&`guard variable for'SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set) )
+  if ( !(_BYTE)`guard variable for SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set
+    && __cxa_guard_acquire(&`guard variable for SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set) )
   {
     std::set<unsigned int>::set(&SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set);
-    __cxa_guard_release(&`guard variable for'SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set);
+    __cxa_guard_release(&`guard variable for SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,
       &SceneGalleryComp::getAllStartedGalleryIdSet(void)::empty_gallery_set,

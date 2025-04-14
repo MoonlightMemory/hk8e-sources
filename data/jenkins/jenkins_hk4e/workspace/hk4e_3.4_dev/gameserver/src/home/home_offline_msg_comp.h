@@ -31,7 +31,7 @@ void __cdecl HomeOfflineMsgComp::~HomeOfflineMsgComp(HomeOfflineMsgComp *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeOfflineMsgComp + 2);
+  v1 = (int (**)(...))(&`vtable for HomeOfflineMsgComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v1;
@@ -52,7 +52,7 @@ void __cdecl ZN18HomeOfflineMsgCompCI212HomeCompBaseER4Home(HomeOfflineMsgComp *
   int (**v2)(...); // rdx
 
   HomeCompBase::HomeCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'HomeOfflineMsgComp + 2);
+  v2 = (int (**)(...))(&`vtable for HomeOfflineMsgComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v2;

@@ -12,7 +12,7 @@ void __cdecl World::World(World *const this, uint32_t world_id)
   std::shared_ptr<SceneTeam> __r; // [rsp+10h] [rbp-20h] BYREF
 
   std::enable_shared_from_this<World>::enable_shared_from_this(&this->std::enable_shared_from_this<World>);
-  v2 = (int (**)(...))(&`vtable for'World + 2);
+  v2 = (int (**)(...))(&`vtable for World + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&world_id);
   this->_vptr_World = v2;

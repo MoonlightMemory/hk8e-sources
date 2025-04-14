@@ -2475,7 +2475,7 @@ int32_t __cdecl HomeMgr::asyncQueryHomeStatus(common::minet::PacketPtr *p_packet
   {
     req = std::__shared_ptr_access<proto::TryEnterHomeReq const,(__gnu_cxx::_Lock_policy)2,false,false>::operator*((const std::__shared_ptr_access<const proto::TryEnterHomeReq,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 96));
     *(_DWORD *)(v2 + 80) = proto::TryEnterHomeReq::target_uid(req);
-    v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::HomeStatusRedisData>);
+    v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<proto::HomeStatusRedisData>);
     v8 = std::any::type(p_context);
     if ( v7 == std::type_info::hash_code(v8) )
     {
@@ -2576,7 +2576,7 @@ int32_t __cdecl HomeMgr::asyncQueryHomeStatus(common::minet::PacketPtr *p_packet
         "./src/home/home_mgr.cpp",
         "asyncQueryHomeStatus",
         642);
-      v9 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::HomeStatusRedisData>);
+      v9 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<proto::HomeStatusRedisData>);
       v10 = std::any::type(p_context);
       v11 = std::type_info::name(v10);
       common::milog::MiLogStream::operator()(&v35, off_2540CC40, v11, v9);
@@ -2714,7 +2714,7 @@ __int64 __fastcall HomeMgr::asyncQueryHomeStatusCallback(
     }
     else
     {
-      v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::HomeStatusRedisData>);
+      v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<proto::HomeStatusRedisData>);
       v13 = std::any::type(p_context);
       if ( v12 != std::type_info::hash_code(v13) )
       {
@@ -2725,7 +2725,7 @@ __int64 __fastcall HomeMgr::asyncQueryHomeStatusCallback(
           "./src/home/home_mgr.cpp",
           "asyncQueryHomeStatusCallback",
           688);
-        v14 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::HomeStatusRedisData>);
+        v14 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<proto::HomeStatusRedisData>);
         v15 = std::any::type(p_context);
         v16 = std::type_info::name(v15);
         common::milog::MiLogStream::operator()(&v39, off_2540CC40, v16, v14);
@@ -3070,7 +3070,7 @@ int32_t __cdecl HomeMgr::asyncModifyHomeStatus(common::minet::PacketPtr *p_packe
   v4[536862722] = 62194;
   v4[536862723] = -218103808;
   v4[536862724] = -202116109;
-  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
   v6 = std::any::type(p_context);
   if ( v5 == std::type_info::hash_code(v6) )
   {
@@ -3148,7 +3148,7 @@ int32_t __cdecl HomeMgr::asyncModifyHomeStatus(common::minet::PacketPtr *p_packe
       "./src/home/home_mgr.cpp",
       "asyncModifyHomeStatus",
       765);
-    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
     v8 = std::any::type(p_context);
     v9 = std::type_info::name(v8);
     common::milog::MiLogStream::operator()(&v20, off_2540CC40, v9, v7);
@@ -3268,7 +3268,7 @@ __int64 __fastcall HomeMgr::asyncModifyHomeStatusCallback(
   v6[536862724] = -219021312;
   v6[536862725] = -202178560;
   *(_DWORD *)(v4 + 80) = retcode;
-  v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+  v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
   v8 = std::any::type(p_context);
   if ( v7 != std::type_info::hash_code(v8) )
   {
@@ -3279,7 +3279,7 @@ __int64 __fastcall HomeMgr::asyncModifyHomeStatusCallback(
       "./src/home/home_mgr.cpp",
       "asyncModifyHomeStatusCallback",
       788);
-    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
     v10 = std::any::type(p_context);
     v11 = std::type_info::name(v10);
     common::milog::MiLogStream::operator()(&v72, off_2540CC40, v11, v9);
@@ -3815,7 +3815,7 @@ int32_t __cdecl HomeMgr::asyncDelHomeStatus(common::minet::PacketPtr *p_packet_p
   v4[536862720] = -235802127;
   v4[536862721] = -234556943;
   v4[536862722] = -202178560;
-  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
   v6 = std::any::type(p_context);
   if ( v5 == std::type_info::hash_code(v6) )
   {
@@ -3884,7 +3884,7 @@ int32_t __cdecl HomeMgr::asyncDelHomeStatus(common::minet::PacketPtr *p_packet_p
       "./src/home/home_mgr.cpp",
       "asyncDelHomeStatus",
       915);
-    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
     v8 = std::any::type(p_context);
     v9 = std::type_info::name(v8);
     common::milog::MiLogStream::operator()(&v16, off_2540CC40, v9, v7);
@@ -3947,7 +3947,7 @@ __int64 __fastcall HomeMgr::asyncDelHomeStatusCallback(
   v5[536862721] = -234556924;
   v5[536862722] = -202178560;
   *(_DWORD *)(v3 + 48) = retcode;
-  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
   v7 = std::any::type(p_context);
   if ( v6 == std::type_info::hash_code(v7) )
   {
@@ -4036,7 +4036,7 @@ __int64 __fastcall HomeMgr::asyncDelHomeStatusCallback(
       "./src/home/home_mgr.cpp",
       "asyncDelHomeStatusCallback",
       937);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyHomeStatusContext>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyHomeStatusContext>);
     v9 = std::any::type(p_context);
     v10 = std::type_info::name(v9);
     common::milog::MiLogStream::operator()(&v21, off_2540CC40, v10, v8);

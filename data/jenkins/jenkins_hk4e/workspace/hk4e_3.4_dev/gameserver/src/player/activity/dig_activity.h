@@ -5,7 +5,7 @@ void __cdecl DigActivity::~DigActivity(DigActivity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DigActivity + 2);
+  v1 = (int (**)(...))(&`vtable for DigActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -123,7 +123,7 @@ void __cdecl DigActivity::DigActivity(DigActivity *const this, Player *player, u
   int (**v3)(...); // rdx
 
   BaseActivity::BaseActivity(this, player, activity_id);
-  v3 = (int (**)(...))(&`vtable for'DigActivity + 2);
+  v3 = (int (**)(...))(&`vtable for DigActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;

@@ -6,7 +6,7 @@ void __cdecl PlayerVehicleComp::~PlayerVehicleComp(PlayerVehicleComp *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerVehicleComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerVehicleComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCompBase = v2;
@@ -33,7 +33,7 @@ void __cdecl ZN17PlayerVehicleCompCI214PlayerCompBaseER6Player(PlayerVehicleComp
   int (**v2)(...); // rdx
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerVehicleComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerVehicleComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerCompBase = v2;

@@ -14,7 +14,7 @@ void __cdecl BaseGallery::BaseGallery(BaseGallery *const this, Scene *scene, uin
   bool v11; // dl
 
   std::enable_shared_from_this<BaseGallery>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseGallery>);
-  v3 = (int (**)(...))(&`vtable for'BaseGallery + 2);
+  v3 = (int (**)(...))(&`vtable for BaseGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_BaseGallery = v3;

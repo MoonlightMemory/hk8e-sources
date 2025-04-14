@@ -45,7 +45,7 @@ void __cdecl HomeLimitedShopComp::~HomeLimitedShopComp(HomeLimitedShopComp *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeLimitedShopComp + 2);
+  v1 = (int (**)(...))(&`vtable for HomeLimitedShopComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v1;
@@ -68,7 +68,7 @@ void __cdecl ZN19HomeLimitedShopCompCI212HomeCompBaseER4Home(HomeLimitedShopComp
   int (**v2)(...); // rdx
 
   HomeCompBase::HomeCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'HomeLimitedShopComp + 2);
+  v2 = (int (**)(...))(&`vtable for HomeLimitedShopComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v2;

@@ -8,11 +8,11 @@ void __cdecl TowerDefensePlayBase::TowerDefensePlayBase(TowerDefensePlayBase *co
 
   common::milog::DescribalBase::DescribalBase(this);
   SceneMultistagePlayCompBase::SceneMultistagePlayCompBase(&this->SceneMultistagePlayCompBase, play);
-  v2 = (int (**)(...))(&`vtable for'TowerDefensePlayBase + 2);
+  v2 = (int (**)(...))(&`vtable for TowerDefensePlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
-  v3 = (int (**)(...))(&`vtable for'TowerDefensePlayBase + 32);
+  v3 = (int (**)(...))(&`vtable for TowerDefensePlayBase + 32);
   if ( *(_BYTE *)(((unsigned __int64)&this->SceneMultistagePlayCompBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->SceneMultistagePlayCompBase);
   this->_vptr_SceneMultistagePlayCompBase = v3;
@@ -33,11 +33,11 @@ void __cdecl TowerDefensePlayBase::~TowerDefensePlayBase(TowerDefensePlayBase *c
   int (**v1)(...); // rdx
   int (**v2)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TowerDefensePlayBase + 2);
+  v1 = (int (**)(...))(&`vtable for TowerDefensePlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
-  v2 = (int (**)(...))(&`vtable for'TowerDefensePlayBase + 32);
+  v2 = (int (**)(...))(&`vtable for TowerDefensePlayBase + 32);
   if ( *(_BYTE *)(((unsigned __int64)&this->SceneMultistagePlayCompBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->SceneMultistagePlayCompBase);
   this->_vptr_SceneMultistagePlayCompBase = v2;

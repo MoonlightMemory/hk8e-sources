@@ -888,11 +888,11 @@ std::string *__cdecl PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](
 {
   Reunion *p_reunion; // rsi
 
-  if ( !(_BYTE)`guard variable for'PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str
-    && __cxa_guard_acquire(&`guard variable for'PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str) )
+  if ( !(_BYTE)`guard variable for PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str
+    && __cxa_guard_acquire(&`guard variable for PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str) )
   {
     std::string::basic_string(&PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str);
-    __cxa_guard_release(&`guard variable for'PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str);
+    __cxa_guard_release(&`guard variable for PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       &PlayerReunionComp::getActivatedReunionVersion[abi:cxx11](void)::empty_str,

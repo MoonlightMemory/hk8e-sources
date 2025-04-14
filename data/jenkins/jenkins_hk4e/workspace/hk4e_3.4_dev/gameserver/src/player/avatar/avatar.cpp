@@ -10887,8 +10887,8 @@ float __cdecl Avatar::calcCombatForceComparisonFactor(const Avatar *const this)
   v3[536862725] = -219021312;
   v3[536862726] = -218103808;
   v3[536862727] = -202116109;
-  if ( !(_BYTE)`guard variable for'Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map
-    && __cxa_guard_acquire(&`guard variable for'Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map) )
+  if ( !(_BYTE)`guard variable for Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map
+    && __cxa_guard_acquire(&`guard variable for Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map) )
   {
     std::allocator<std::pair<unsigned int const,float>>::allocator(&__a);
     __l._M_array = (std::initializer_list<std::pair<unsigned int const,float> >::iterator)0x3F80000000000000LL;
@@ -10903,7 +10903,7 @@ float __cdecl Avatar::calcCombatForceComparisonFactor(const Avatar *const this)
       (std::initializer_list<std::pair<unsigned int const,float> >)__PAIR128__(7LL, &__l),
       &__comp,
       &__a);
-    __cxa_guard_release(&`guard variable for'Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map);
+    __cxa_guard_release(&`guard variable for Avatar::calcCombatForceComparisonFactor(void)::talent_factor_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<unsigned int,float>::~map,
       (void *)&Avatar::calcCombatForceComparisonFactor(void)const::talent_factor_map,

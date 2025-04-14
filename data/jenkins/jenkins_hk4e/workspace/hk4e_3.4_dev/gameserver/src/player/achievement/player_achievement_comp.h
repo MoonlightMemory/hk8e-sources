@@ -5,7 +5,7 @@ void __cdecl PlayerAchievementComp::~PlayerAchievementComp(PlayerAchievementComp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerAchievementComp + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerAchievementComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerCompBase = v1;
@@ -33,7 +33,7 @@ void __cdecl ZN21PlayerAchievementCompCI214PlayerCompBaseER6Player(PlayerAchieve
   int (**v2)(...); // rdx
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerAchievementComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerAchievementComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerCompBase = v2;

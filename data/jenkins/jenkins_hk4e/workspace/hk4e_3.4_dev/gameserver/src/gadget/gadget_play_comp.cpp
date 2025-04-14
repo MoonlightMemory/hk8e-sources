@@ -1053,7 +1053,7 @@ void __cdecl GadgetPlayBase::GadgetPlayBase(GadgetPlayBase *const this, Gadget *
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<GadgetPlayBase>::enable_shared_from_this(&this->std::enable_shared_from_this<GadgetPlayBase>);
-  v2 = (int (**)(...))(&`vtable for'GadgetPlayBase + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetPlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetPlayBase = v2;

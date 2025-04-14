@@ -3486,7 +3486,7 @@ int32_t __cdecl Player::asyncSaveToDb(common::minet::PacketPtr *p_packet_ptr, st
   v4[536862722] = -219021312;
   v4[536862723] = -202178560;
   common::tools::TimeUtils::Timer::Timer((common::tools::TimeUtils::Timer *const)(v2 + 32));
-  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerSaveInfoContext>);
+  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerSaveInfoContext>);
   v6 = std::any::type(p_context);
   if ( v5 == std::type_info::hash_code(v6) )
   {
@@ -3638,7 +3638,7 @@ LABEL_17:
       "./src/player/player.cpp",
       "asyncSaveToDb",
       824);
-    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerSaveInfoContext>);
+    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerSaveInfoContext>);
     v8 = std::any::type(p_context);
     v9 = std::type_info::name(v8);
     common::milog::MiLogStream::operator()(&v35, off_2602F220, v9, v7);
@@ -3703,7 +3703,7 @@ int32_t __cdecl Player::asyncSaveToDbCallback(
   v5[536862721] = -234556943;
   v5[536862722] = -219021312;
   v5[536862723] = -202178560;
-  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerSaveInfoContext>);
+  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerSaveInfoContext>);
   v7 = std::any::type(p_context);
   if ( v6 == std::type_info::hash_code(v7) )
   {
@@ -3771,7 +3771,7 @@ int32_t __cdecl Player::asyncSaveToDbCallback(
       "./src/player/player.cpp",
       "asyncSaveToDbCallback",
       871);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerSaveInfoContext>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerSaveInfoContext>);
     v9 = std::any::type(p_context);
     v10 = std::type_info::name(v9);
     common::milog::MiLogStream::operator()(&v21, off_2602F220, v10, v8);

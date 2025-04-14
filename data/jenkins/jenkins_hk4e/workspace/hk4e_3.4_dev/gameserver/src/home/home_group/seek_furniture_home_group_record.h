@@ -93,7 +93,7 @@ void __cdecl SeekFurnitureHomePlaySettleInfo::~SeekFurnitureHomePlaySettleInfo(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SeekFurnitureHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for SeekFurnitureHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -108,7 +108,7 @@ void __cdecl SeekFurnitureHomePlaySettleInfo::SeekFurnitureHomePlaySettleInfo(
   int (**v1)(...); // rdx
 
   BaseHomePlaySettleInfo::BaseHomePlaySettleInfo(this);
-  v1 = (int (**)(...))(&`vtable for'SeekFurnitureHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for SeekFurnitureHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -190,7 +190,7 @@ void __cdecl SeekFurnitureHomeGroupRecord::~SeekFurnitureHomeGroupRecord(SeekFur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SeekFurnitureHomeGroupRecord + 2);
+  v1 = (int (**)(...))(&`vtable for SeekFurnitureHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v1;
@@ -213,7 +213,7 @@ void __cdecl SeekFurnitureHomeGroupRecord::SeekFurnitureHomeGroupRecord(
   int (**v2)(...); // rdx
 
   BaseHomeGroupRecord::BaseHomeGroupRecord(this, group_id);
-  v2 = (int (**)(...))(&`vtable for'SeekFurnitureHomeGroupRecord + 2);
+  v2 = (int (**)(...))(&`vtable for SeekFurnitureHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v2;

@@ -2693,8 +2693,8 @@ LABEL_77:
       if ( item_config_ptr )
         v45 = (const data::HomeWorldFurnitureExcelConfig *)__dynamic_cast(
                                                              item_config_ptr,
-                                                             (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                             (const struct __class_type_info *)&`typeinfo for'data::HomeWorldFurnitureExcelConfig,
+                                                             (const struct __class_type_info *)&`typeinfo for data::ItemConfig,
+                                                             (const struct __class_type_info *)&`typeinfo for data::HomeWorldFurnitureExcelConfig,
                                                              0LL);
       else
         v45 = 0LL;
@@ -2907,8 +2907,8 @@ LABEL_77:
           if ( item_config_ptr )
             v13 = (const data::MaterialExcelConfig *)__dynamic_cast(
                                                        item_config_ptr,
-                                                       (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                       (const struct __class_type_info *)&`typeinfo for'data::MaterialExcelConfig,
+                                                       (const struct __class_type_info *)&`typeinfo for data::ItemConfig,
+                                                       (const struct __class_type_info *)&`typeinfo for data::MaterialExcelConfig,
                                                        0LL);
           else
             v13 = 0LL;

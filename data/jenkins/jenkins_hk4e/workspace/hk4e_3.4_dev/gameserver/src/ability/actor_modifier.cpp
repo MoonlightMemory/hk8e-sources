@@ -619,12 +619,12 @@ const data::ConfigAbilityModifier *__cdecl ActorModifier::getConfigRef(const Act
     &v2,
     (const char (*)[29])"config_modifier_ptr_ is null");
   common::milog::MiLogStream::~MiLogStream(&v2);
-  if ( !(_BYTE)`guard variable for'ActorModifier::getConfigRef(void)::empty_config )
+  if ( !(_BYTE)`guard variable for ActorModifier::getConfigRef(void)::empty_config )
   {
-    if ( __cxa_guard_acquire(&`guard variable for'ActorModifier::getConfigRef(void)::empty_config) )
+    if ( __cxa_guard_acquire(&`guard variable for ActorModifier::getConfigRef(void)::empty_config) )
     {
       data::ConfigAbilityModifier::ConfigAbilityModifier(&ActorModifier::getConfigRef(void)const::empty_config);
-      __cxa_guard_release(&`guard variable for'ActorModifier::getConfigRef(void)::empty_config);
+      __cxa_guard_release(&`guard variable for ActorModifier::getConfigRef(void)::empty_config);
       __cxa_atexit(
         (void (__fastcall *)(void *))data::ConfigAbilityModifier::~ConfigAbilityModifier,
         &ActorModifier::getConfigRef(void)const::empty_config,

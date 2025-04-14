@@ -417,7 +417,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::getAllSubActions(void)::{la
   v2 = std::any::type(member);
   if ( std::type_info::operator==(
          v2,
-         (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
+         (const std::type_info *)&`typeinfo for std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
   {
     action_vec = std::any_cast<std::vector<std::shared_ptr<data::ConfigAbilityAction>> &>(member);
     if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -431,7 +431,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::getAllSubActions(void)::{la
     v3 = std::any::type(member);
     if ( std::type_info::operator==(
            v3,
-           (const std::type_info *)&`typeinfo for'std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
+           (const std::type_info *)&`typeinfo for std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
     {
       actions_vec = std::any_cast<std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>> &>(member);
       if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -454,7 +454,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::getAllSubActions(void)::{la
       v7 = std::any::type(member);
       if ( std::type_info::operator==(
              v7,
-             (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityAction>) )
+             (const std::type_info *)&`typeinfo for std::shared_ptr<data::ConfigAbilityAction>) )
       {
         config_action_ptr = std::any_cast<std::shared_ptr<data::ConfigAbilityAction> &>(member);
         if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -474,7 +474,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::getAllSubActions(void)::{la
         v10 = std::any::type(member);
         if ( std::type_info::operator==(
                v10,
-               (const std::type_info *)&`typeinfo for'std::vector<data::ConfigAbilityStateToActions>) )
+               (const std::type_info *)&`typeinfo for std::vector<data::ConfigAbilityStateToActions>) )
         {
           mixin_vec = std::any_cast<std::vector<data::ConfigAbilityStateToActions> &>(member);
           __for_range = mixin_vec;
@@ -498,7 +498,7 @@ void __cdecl ElementHittingOtherPredicatedMixinImpl::getAllSubActions(void)::{la
           v11 = std::any::type(member);
           if ( std::type_info::operator==(
                  v11,
-                 (const std::type_info *)&`typeinfo for'std::vector<data::ElementBatchPredicated>) )
+                 (const std::type_info *)&`typeinfo for std::vector<data::ElementBatchPredicated>) )
           {
             p_array = std::any_cast<std::vector<data::ElementBatchPredicated> &>(member);
             __for_range_0 = p_array;

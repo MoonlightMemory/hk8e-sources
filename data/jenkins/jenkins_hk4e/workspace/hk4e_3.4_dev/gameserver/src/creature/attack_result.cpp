@@ -1470,7 +1470,7 @@ LABEL_31:
       __asan_report_store8(&this->bullet_wane_ptr);
     this->bullet_wane_ptr = p_bullet_wane;
   }
-  *(_QWORD *)(v4 + 64) = &`vtable for'data::AbilityFilterIndex + 2;
+  *(_QWORD *)(v4 + 64) = &`vtable for data::AbilityFilterIndex + 2;
   *(_DWORD *)(v4 + 72) = 0;
   *(_DWORD *)(v4 + 76) = 0;
   if ( std::operator!=<ActorAbility>(0LL, &this->ability_ptr) )

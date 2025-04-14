@@ -5,7 +5,7 @@ void __cdecl DeshretObeliskComp::~DeshretObeliskComp(DeshretObeliskComp *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DeshretObeliskComp + 2);
+  v1 = (int (**)(...))(&`vtable for DeshretObeliskComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v1;
@@ -25,7 +25,7 @@ void __cdecl DeshretObeliskComp::DeshretObeliskComp(DeshretObeliskComp *const th
   int (**v2)(...); // rdx
 
   ZN22GadgetBaseInteractCompCI214GadgetCompBaseER6Gadget(this, gadget);
-  v2 = (int (**)(...))(&`vtable for'DeshretObeliskComp + 2);
+  v2 = (int (**)(...))(&`vtable for DeshretObeliskComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v2;

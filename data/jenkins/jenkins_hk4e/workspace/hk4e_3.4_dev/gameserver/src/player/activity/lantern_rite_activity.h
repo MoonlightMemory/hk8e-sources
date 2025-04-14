@@ -12,7 +12,7 @@ void __cdecl BaseSalvageChallenge::~BaseSalvageChallenge(BaseSalvageChallenge *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseSalvageChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for BaseSalvageChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v1;
@@ -59,7 +59,7 @@ void __cdecl SalvageBundleChallenge::~SalvageBundleChallenge(SalvageBundleChalle
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SalvageBundleChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for SalvageBundleChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v1;
@@ -96,7 +96,7 @@ void __fastcall ZN22SalvageBundleChallengeCI220BaseSalvageChallengeEN4data15Salv
   *(_DWORD *)(v3 + 64) = a2;
   *(_BYTE *)(v3 + 48) = a3;
   BaseSalvageChallenge::BaseSalvageChallenge(this, *(data::SalvagePlayType *)(v3 + 64), *(_BYTE *)(v3 + 48));
-  v6 = (int (**)(...))(&`vtable for'SalvageBundleChallenge + 2);
+  v6 = (int (**)(...))(&`vtable for SalvageBundleChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v6;
@@ -126,7 +126,7 @@ void __cdecl SalvageScoreChallenge::~SalvageScoreChallenge(SalvageScoreChallenge
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SalvageScoreChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for SalvageScoreChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v1;
@@ -162,7 +162,7 @@ void __fastcall ZN21SalvageScoreChallengeCI220BaseSalvageChallengeEN4data15Salva
   *(_DWORD *)(v3 + 64) = a2;
   *(_BYTE *)(v3 + 48) = a3;
   BaseSalvageChallenge::BaseSalvageChallenge(this, *(data::SalvagePlayType *)(v3 + 64), *(_BYTE *)(v3 + 48));
-  v6 = (int (**)(...))(&`vtable for'SalvageScoreChallenge + 2);
+  v6 = (int (**)(...))(&`vtable for SalvageScoreChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v6;
@@ -203,7 +203,7 @@ void __cdecl SalvageBossChallenge::~SalvageBossChallenge(SalvageBossChallenge *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SalvageBossChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for SalvageBossChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v1;
@@ -239,7 +239,7 @@ void __fastcall ZN20SalvageBossChallengeCI220BaseSalvageChallengeEN4data15Salvag
   *(_DWORD *)(v3 + 64) = a2;
   *(_BYTE *)(v3 + 48) = a3;
   BaseSalvageChallenge::BaseSalvageChallenge(this, *(data::SalvagePlayType *)(v3 + 64), *(_BYTE *)(v3 + 48));
-  v6 = (int (**)(...))(&`vtable for'SalvageBossChallenge + 2);
+  v6 = (int (**)(...))(&`vtable for SalvageBossChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v6;
@@ -462,7 +462,7 @@ void __cdecl LanternRiteActivity::~LanternRiteActivity(LanternRiteActivity *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'LanternRiteActivity + 2);
+  v1 = (int (**)(...))(&`vtable for LanternRiteActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -501,7 +501,7 @@ void __cdecl LanternRiteActivity::LanternRiteActivity(
   std::function<void(long unsigned int)> p_callback; // [rsp+30h] [rbp-30h] BYREF
 
   BaseActivity::BaseActivity(this, player, activity_id);
-  v3 = (int (**)(...))(&`vtable for'LanternRiteActivity + 2);
+  v3 = (int (**)(...))(&`vtable for LanternRiteActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;
@@ -568,7 +568,7 @@ void __cdecl BaseSalvageChallenge::BaseSalvageChallenge(
 {
   int (**v3)(...); // rdx
 
-  v3 = (int (**)(...))(&`vtable for'BaseSalvageChallenge + 2);
+  v3 = (int (**)(...))(&`vtable for BaseSalvageChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseSalvageChallenge = v3;

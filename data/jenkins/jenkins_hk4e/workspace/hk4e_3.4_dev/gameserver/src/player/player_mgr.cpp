@@ -2621,7 +2621,7 @@ int32_t __cdecl PlayerMgr::asyncDestoryPlayer(
   v5 = (unsigned __int64)v3 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202178560;
-  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<DestoryPlayerContext>);
+  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<DestoryPlayerContext>);
   v7 = std::any::type(p_context);
   if ( v6 == std::type_info::hash_code(v7) )
   {
@@ -2660,7 +2660,7 @@ int32_t __cdecl PlayerMgr::asyncDestoryPlayer(
       "./src/player/player_mgr.cpp",
       "asyncDestoryPlayer",
       577);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<DestoryPlayerContext>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<DestoryPlayerContext>);
     v9 = std::any::type(p_context);
     v10 = std::type_info::name(v9);
     common::milog::MiLogStream::operator()(&v19, off_26266F80, v10, v8);

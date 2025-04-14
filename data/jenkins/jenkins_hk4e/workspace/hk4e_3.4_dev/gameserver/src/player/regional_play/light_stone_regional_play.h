@@ -6,7 +6,7 @@ void __cdecl LightStoneRegionalPlay::~LightStoneRegionalPlay(LightStoneRegionalP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LightStoneRegionalPlay + 2);
+  v2 = (int (**)(...))(&`vtable for LightStoneRegionalPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseRegionalPlay = v2;
@@ -49,7 +49,7 @@ void __fastcall ZN22LightStoneRegionalPlayCI216BaseRegionalPlayER6PlayerRKNSt7__
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = a4;
   BaseRegionalPlay::BaseRegionalPlay(this, a2, a3, *(_DWORD *)(v4 + 32));
-  v7 = (int (**)(...))(&`vtable for'LightStoneRegionalPlay + 2);
+  v7 = (int (**)(...))(&`vtable for LightStoneRegionalPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseRegionalPlay = v7;

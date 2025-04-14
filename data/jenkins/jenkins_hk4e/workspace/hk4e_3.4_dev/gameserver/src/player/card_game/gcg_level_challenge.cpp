@@ -1168,11 +1168,11 @@ const std::set<unsigned int> *__fastcall GCGLevelChallenge::getFinishedChallenge
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set
-      && __cxa_guard_acquire(&`guard variable for'GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set) )
+    if ( !(_BYTE)`guard variable for GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set
+      && __cxa_guard_acquire(&`guard variable for GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set) )
     {
       std::set<unsigned int>::set(&GCGLevelChallenge::getFinishedChallengeSet(unsigned int)const::dummy_set);
-      __cxa_guard_release(&`guard variable for'GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set);
+      __cxa_guard_release(&`guard variable for GCGLevelChallenge::getFinishedChallengeSet(unsigned int)::dummy_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         &GCGLevelChallenge::getFinishedChallengeSet(unsigned int)const::dummy_set,

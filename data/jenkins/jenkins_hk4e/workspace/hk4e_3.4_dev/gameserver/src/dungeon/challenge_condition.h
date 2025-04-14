@@ -12,7 +12,7 @@ void __cdecl ChallengeCondition::~ChallengeCondition(ChallengeCondition *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondition + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -319,7 +319,7 @@ void __cdecl ChallengeCondition::ChallengeCondition(
 {
   int (**v5)(...); // rdx
 
-  v5 = (int (**)(...))(&`vtable for'ChallengeCondition + 2);
+  v5 = (int (**)(...))(&`vtable for ChallengeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v5;

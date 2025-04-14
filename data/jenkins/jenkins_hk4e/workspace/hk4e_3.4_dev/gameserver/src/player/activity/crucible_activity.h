@@ -5,7 +5,7 @@ void __cdecl CrucibleActivity::~CrucibleActivity(CrucibleActivity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CrucibleActivity + 2);
+  v1 = (int (**)(...))(&`vtable for CrucibleActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -46,7 +46,7 @@ void __fastcall ZN16CrucibleActivityCI212BaseActivityER6Playerj(CrucibleActivity
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseActivity::BaseActivity((BaseActivity *const)this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'CrucibleActivity + 2);
+  v6 = (int (**)(...))(&`vtable for CrucibleActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v6;

@@ -9,11 +9,11 @@ void __cdecl ActorAbility::ActorAbility(ActorAbility *const this)
   BaseActorActionContext::BaseActorActionContext(this);
   std::enable_shared_from_this<ActorAbility>::enable_shared_from_this(&this->std::enable_shared_from_this<ActorAbility>);
   common::milog::DescribalBase::DescribalBase(&this->common::milog::DescribalBase);
-  v1 = (int (**)(...))(&`vtable for'ActorAbility + 2);
+  v1 = (int (**)(...))(&`vtable for ActorAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActorActionContext = v1;
-  v2 = (int (**)(...))(&`vtable for'ActorAbility + 6);
+  v2 = (int (**)(...))(&`vtable for ActorAbility + 6);
   if ( *(_BYTE *)(((unsigned __int64)&this->common::milog::DescribalBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->common::milog::DescribalBase);
   this->_vptr_DescribalBase = v2;
@@ -67,11 +67,11 @@ void __cdecl ActorAbility::~ActorAbility(ActorAbility *const this)
   int (**v1)(...); // rdx
   int (**v2)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActorAbility + 2);
+  v1 = (int (**)(...))(&`vtable for ActorAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseActorActionContext = v1;
-  v2 = (int (**)(...))(&`vtable for'ActorAbility + 6);
+  v2 = (int (**)(...))(&`vtable for ActorAbility + 6);
   if ( *(_BYTE *)(((unsigned __int64)&this->common::milog::DescribalBase >> 3) + 0x7FFF8000) )
     __asan_report_store8(&this->common::milog::DescribalBase);
   this->_vptr_DescribalBase = v2;

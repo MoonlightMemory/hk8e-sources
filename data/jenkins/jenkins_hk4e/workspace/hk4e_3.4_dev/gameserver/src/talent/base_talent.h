@@ -6,7 +6,7 @@ void __cdecl BaseTalent::~BaseTalent(BaseTalent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseTalent + 2);
+  v2 = (int (**)(...))(&`vtable for BaseTalent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalent = v2;
@@ -24,7 +24,7 @@ void __cdecl BaseTalent::BaseTalent(BaseTalent *const this, Avatar *avatar, uint
   bool v7; // dl
 
   std::enable_shared_from_this<BaseTalent>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseTalent>);
-  v3 = (int (**)(...))(&`vtable for'BaseTalent + 2);
+  v3 = (int (**)(...))(&`vtable for BaseTalent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, avatar);
   this->_vptr_BaseTalent = v3;

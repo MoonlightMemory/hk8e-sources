@@ -130,7 +130,7 @@ void __cdecl SeaLampV3Activity::~SeaLampV3Activity(SeaLampV3Activity *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SeaLampV3Activity + 2);
+  v2 = (int (**)(...))(&`vtable for SeaLampV3Activity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -154,7 +154,7 @@ void __cdecl SeaLampV3Activity::SeaLampV3Activity(SeaLampV3Activity *const this,
   __int64 v4; // rdx
 
   BaseActivity::BaseActivity(this, player, activity_id);
-  v3 = (int (**)(...))(&`vtable for'SeaLampV3Activity + 2);
+  v3 = (int (**)(...))(&`vtable for SeaLampV3Activity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_DescribalBase = v3;

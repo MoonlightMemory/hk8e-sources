@@ -6,7 +6,7 @@ void __cdecl GateserverSession::GateserverSession(GateserverSession *const this,
   int (**v2)(...); // rdx
 
   common::minet::AServerSession::AServerSession(this, ioc);
-  v2 = (int (**)(...))(&`vtable for'GateserverSession + 2);
+  v2 = (int (**)(...))(&`vtable for GateserverSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AServerSession = v2;
@@ -17,7 +17,7 @@ void __cdecl GateserverSession::~GateserverSession(GateserverSession *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GateserverSession + 2);
+  v1 = (int (**)(...))(&`vtable for GateserverSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AServerSession = v1;

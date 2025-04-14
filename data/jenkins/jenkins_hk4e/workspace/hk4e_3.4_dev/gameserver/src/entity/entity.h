@@ -182,7 +182,7 @@ void __cdecl Entity::Entity(Entity *const this)
 
   std::enable_shared_from_this<Entity>::enable_shared_from_this(&this->std::enable_shared_from_this<Entity>);
   common::milog::DescribalBase::DescribalBase(this);
-  v1 = (int (**)(...))(&`vtable for'Entity + 2);
+  v1 = (int (**)(...))(&`vtable for Entity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -301,7 +301,7 @@ void __cdecl Entity::~Entity(Entity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Entity + 2);
+  v1 = (int (**)(...))(&`vtable for Entity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

@@ -23,7 +23,7 @@ void __cdecl HomeWorld::HomeWorld(HomeWorld *const this, uint32_t world_id, Home
   std::shared_ptr<Home> __r; // [rsp+20h] [rbp-20h] BYREF
 
   World::World(this, world_id);
-  v3 = (int (**)(...))(&`vtable for'HomeWorld + 2);
+  v3 = (int (**)(...))(&`vtable for HomeWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, world_id);
   this->_vptr_World = v3;

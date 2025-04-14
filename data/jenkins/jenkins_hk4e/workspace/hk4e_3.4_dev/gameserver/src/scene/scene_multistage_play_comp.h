@@ -8,7 +8,7 @@ void __cdecl SceneMultistagePlayCompBase::SceneMultistagePlayCompBase(
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<SceneMultistagePlayCompBase>::enable_shared_from_this(&this->std::enable_shared_from_this<SceneMultistagePlayCompBase>);
-  v2 = (int (**)(...))(&`vtable for'SceneMultistagePlayCompBase + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMultistagePlayCompBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, play);
   this->_vptr_SceneMultistagePlayCompBase = v2;
@@ -30,7 +30,7 @@ void __cdecl SceneMultistagePlayCompBase::~SceneMultistagePlayCompBase(SceneMult
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneMultistagePlayCompBase + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMultistagePlayCompBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneMultistagePlayCompBase = v2;
@@ -59,7 +59,7 @@ void __cdecl SceneMultistagePlay::~SceneMultistagePlay(SceneMultistagePlay *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneMultistagePlay + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -291,7 +291,7 @@ void __cdecl SceneMultistagePlayComp::~SceneMultistagePlayComp(SceneMultistagePl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneMultistagePlayComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMultistagePlayComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneCompBase = v2;
@@ -305,7 +305,7 @@ void __cdecl ZN23SceneMultistagePlayCompCI213SceneCompBaseER5Scene(SceneMultista
   int (**v2)(...); // rdx
 
   SceneCompBase::SceneCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SceneMultistagePlayComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneMultistagePlayComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneCompBase = v2;

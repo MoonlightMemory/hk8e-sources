@@ -133,7 +133,7 @@ void __cdecl RegionSearchPlay::RegionSearchPlay(RegionSearchPlay *const this, Pl
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RegionSearchPlay + 2);
+  v2 = (int (**)(...))(&`vtable for RegionSearchPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_RegionSearchPlay = v2;
@@ -161,7 +161,7 @@ void __cdecl RegionSearchPlay::~RegionSearchPlay(RegionSearchPlay *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RegionSearchPlay + 2);
+  v2 = (int (**)(...))(&`vtable for RegionSearchPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchPlay = v2;

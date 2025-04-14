@@ -12,7 +12,7 @@ void __cdecl EffectServerGlobalValue::~EffectServerGlobalValue(EffectServerGloba
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for EffectServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -27,7 +27,7 @@ void __cdecl EffectServerGlobalValue::EffectServerGlobalValue(EffectServerGlobal
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for EffectServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -46,7 +46,7 @@ void __cdecl EffectModifyBuildCost::~EffectModifyBuildCost(EffectModifyBuildCost
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyBuildCost + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyBuildCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -67,7 +67,7 @@ void __cdecl EffectModifyBuildCost::EffectModifyBuildCost(EffectModifyBuildCost 
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyBuildCost + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyBuildCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -82,7 +82,7 @@ void __cdecl EffectModifyRefund::~EffectModifyRefund(EffectModifyRefund *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyRefund + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyRefund + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -103,7 +103,7 @@ void __cdecl EffectModifyRefund::EffectModifyRefund(EffectModifyRefund *const th
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyRefund + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyRefund + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -118,7 +118,7 @@ void __cdecl EffectModifyKillPoints::~EffectModifyKillPoints(EffectModifyKillPoi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyKillPoints + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyKillPoints + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -138,7 +138,7 @@ void __cdecl EffectModifyKillPoints::EffectModifyKillPoints(EffectModifyKillPoin
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyKillPoints + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyKillPoints + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -162,7 +162,7 @@ void __cdecl EffectAddGearNum::~EffectAddGearNum(EffectAddGearNum *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectAddGearNum + 2);
+  v1 = (int (**)(...))(&`vtable for EffectAddGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -175,7 +175,7 @@ void __cdecl EffectAddGearNum::EffectAddGearNum(EffectAddGearNum *const this, Ca
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectAddGearNum + 2);
+  v2 = (int (**)(...))(&`vtable for EffectAddGearNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -189,7 +189,7 @@ void __cdecl EffectGrantPoints::~EffectGrantPoints(EffectGrantPoints *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectGrantPoints + 2);
+  v1 = (int (**)(...))(&`vtable for EffectGrantPoints + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -209,7 +209,7 @@ void __cdecl EffectGrantPoints::EffectGrantPoints(EffectGrantPoints *const this,
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectGrantPoints + 2);
+  v2 = (int (**)(...))(&`vtable for EffectGrantPoints + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -233,7 +233,7 @@ void __cdecl EffectKillGears::~EffectKillGears(EffectKillGears *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectKillGears + 2);
+  v1 = (int (**)(...))(&`vtable for EffectKillGears + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -246,7 +246,7 @@ void __cdecl EffectKillGears::EffectKillGears(EffectKillGears *const this, CardI
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectKillGears + 2);
+  v2 = (int (**)(...))(&`vtable for EffectKillGears + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -270,7 +270,7 @@ void __cdecl EffectRandomRemove::~EffectRandomRemove(EffectRandomRemove *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectRandomRemove + 2);
+  v1 = (int (**)(...))(&`vtable for EffectRandomRemove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -283,7 +283,7 @@ void __cdecl EffectRandomRemove::EffectRandomRemove(EffectRandomRemove *const th
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectRandomRemove + 2);
+  v2 = (int (**)(...))(&`vtable for EffectRandomRemove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -313,7 +313,7 @@ void __cdecl EffectPointsOnRoundEnd::~EffectPointsOnRoundEnd(EffectPointsOnRound
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectPointsOnRoundEnd + 2);
+  v1 = (int (**)(...))(&`vtable for EffectPointsOnRoundEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -326,7 +326,7 @@ void __cdecl EffectPointsOnRoundEnd::EffectPointsOnRoundEnd(EffectPointsOnRoundE
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectPointsOnRoundEnd + 2);
+  v2 = (int (**)(...))(&`vtable for EffectPointsOnRoundEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -349,7 +349,7 @@ void __cdecl EffectPickCardLTEServerGlobalValue::~EffectPickCardLTEServerGlobalV
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectPickCardLTEServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for EffectPickCardLTEServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -365,7 +365,7 @@ void __cdecl EffectPickCardLTEServerGlobalValue::EffectPickCardLTEServerGlobalVa
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectPickCardLTEServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for EffectPickCardLTEServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -392,7 +392,7 @@ void __cdecl EffectModifyCardCost::~EffectModifyCardCost(EffectModifyCardCost *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyCardCost + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyCardCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -412,7 +412,7 @@ void __cdecl EffectModifyCardCost::EffectModifyCardCost(EffectModifyCardCost *co
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyCardCost + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyCardCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -439,7 +439,7 @@ void __cdecl EffectCardTypeCountNoCost::~EffectCardTypeCountNoCost(EffectCardTyp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectCardTypeCountNoCost + 2);
+  v1 = (int (**)(...))(&`vtable for EffectCardTypeCountNoCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -454,7 +454,7 @@ void __cdecl EffectCardTypeCountNoCost::EffectCardTypeCountNoCost(
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectCardTypeCountNoCost + 2);
+  v2 = (int (**)(...))(&`vtable for EffectCardTypeCountNoCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -489,7 +489,7 @@ void __cdecl EffectModifyCandidateCards::~EffectModifyCandidateCards(EffectModif
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyCandidateCards + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyCandidateCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -511,7 +511,7 @@ void __cdecl EffectModifyCandidateCards::EffectModifyCandidateCards(
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyCandidateCards + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyCandidateCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -535,7 +535,7 @@ void __cdecl EffectModifyQualityProb::~EffectModifyQualityProb(EffectModifyQuali
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyQualityProb + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyQualityProb + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -549,7 +549,7 @@ void __cdecl EffectModifyQualityProb::EffectModifyQualityProb(EffectModifyQualit
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyQualityProb + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyQualityProb + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -568,7 +568,7 @@ void __cdecl EffectFreeCardOnRefresh::~EffectFreeCardOnRefresh(EffectFreeCardOnR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectFreeCardOnRefresh + 2);
+  v1 = (int (**)(...))(&`vtable for EffectFreeCardOnRefresh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -583,7 +583,7 @@ void __cdecl EffectFreeCardOnRefresh::EffectFreeCardOnRefresh(EffectFreeCardOnRe
   unsigned int v3; // edx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectFreeCardOnRefresh + 2);
+  v2 = (int (**)(...))(&`vtable for EffectFreeCardOnRefresh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -609,7 +609,7 @@ void __cdecl EffectModifyRefreshCost::~EffectModifyRefreshCost(EffectModifyRefre
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectModifyRefreshCost + 2);
+  v1 = (int (**)(...))(&`vtable for EffectModifyRefreshCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -622,7 +622,7 @@ void __cdecl EffectModifyRefreshCost::EffectModifyRefreshCost(EffectModifyRefres
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectModifyRefreshCost + 2);
+  v2 = (int (**)(...))(&`vtable for EffectModifyRefreshCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -645,7 +645,7 @@ void __cdecl EffectCardsCountStackServerGlobalValue::~EffectCardsCountStackServe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectCardsCountStackServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for EffectCardsCountStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -662,7 +662,7 @@ void __cdecl EffectCardsCountStackServerGlobalValue::EffectCardsCountStackServer
   unsigned int v3; // edx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectCardsCountStackServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for EffectCardsCountStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -705,7 +705,7 @@ void __cdecl EffectPointsStackServerGlobalValue::~EffectPointsStackServerGlobalV
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectPointsStackServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for EffectPointsStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -722,7 +722,7 @@ void __cdecl EffectPointsStackServerGlobalValue::EffectPointsStackServerGlobalVa
   unsigned int v3; // edx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectPointsStackServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for EffectPointsStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -757,7 +757,7 @@ void __cdecl EffectCardTypeStackServerGlobalValue::~EffectCardTypeStackServerGlo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectCardTypeStackServerGlobalValue + 2);
+  v1 = (int (**)(...))(&`vtable for EffectCardTypeStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -781,7 +781,7 @@ void __cdecl EffectCardTypeStackServerGlobalValue::EffectCardTypeStackServerGlob
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectCardTypeStackServerGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for EffectCardTypeStackServerGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -820,7 +820,7 @@ void __cdecl EffectCardTypeForceCurse::~EffectCardTypeForceCurse(EffectCardTypeF
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EffectCardTypeForceCurse + 2);
+  v1 = (int (**)(...))(&`vtable for EffectCardTypeForceCurse + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -842,7 +842,7 @@ void __cdecl EffectCardTypeForceCurse::EffectCardTypeForceCurse(
   int (**v2)(...); // rdx
 
   CardEffectBase::CardEffectBase(this, card_info);
-  v2 = (int (**)(...))(&`vtable for'EffectCardTypeForceCurse + 2);
+  v2 = (int (**)(...))(&`vtable for EffectCardTypeForceCurse + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

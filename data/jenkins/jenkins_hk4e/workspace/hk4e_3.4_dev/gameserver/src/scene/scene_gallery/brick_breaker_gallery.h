@@ -6,7 +6,7 @@ void __cdecl BrickBreakerGallery::~BrickBreakerGallery(BrickBreakerGallery *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BrickBreakerGallery + 2);
+  v2 = (int (**)(...))(&`vtable for BrickBreakerGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseGallery = v2;
@@ -51,7 +51,7 @@ void __fastcall ZN19BrickBreakerGalleryCI211BaseGalleryER5Scenej(BrickBreakerGal
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseGallery::BaseGallery((BaseGallery *const)this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'BrickBreakerGallery + 2);
+  v6 = (int (**)(...))(&`vtable for BrickBreakerGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseGallery = v6;

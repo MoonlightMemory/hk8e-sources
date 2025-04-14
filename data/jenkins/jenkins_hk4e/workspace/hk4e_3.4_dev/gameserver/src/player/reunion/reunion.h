@@ -106,7 +106,7 @@ void __cdecl Reunion::Reunion(Reunion *const this, Player *player, PlayerReunion
   __int64 v7; // rdx
   std::allocator<char> __a; // [rsp+2Fh] [rbp-11h] BYREF
 
-  v3 = (int (**)(...))(&`vtable for'Reunion + 2);
+  v3 = (int (**)(...))(&`vtable for Reunion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_Reunion = v3;
@@ -151,7 +151,7 @@ void __cdecl Reunion::~Reunion(Reunion *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Reunion + 2);
+  v2 = (int (**)(...))(&`vtable for Reunion + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Reunion = v2;

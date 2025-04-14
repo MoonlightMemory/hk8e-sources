@@ -5,7 +5,7 @@ void __cdecl HomeFishFarmingComp::~HomeFishFarmingComp(HomeFishFarmingComp *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeFishFarmingComp + 2);
+  v1 = (int (**)(...))(&`vtable for HomeFishFarmingComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ZN19HomeFishFarmingCompCI212HomeCompBaseER4Home(HomeFishFarmingComp
   int (**v2)(...); // rdx
 
   HomeCompBase::HomeCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'HomeFishFarmingComp + 2);
+  v2 = (int (**)(...))(&`vtable for HomeFishFarmingComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_HomeCompBase = v2;

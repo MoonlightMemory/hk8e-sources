@@ -688,7 +688,7 @@ void __cdecl PlayerQuestComp::PlayerQuestComp(PlayerQuestComp *const this, Playe
   std::function<void(long unsigned int)> p_callback; // [rsp+90h] [rbp-30h] BYREF
 
   PlayerCompBase::PlayerCompBase(this, player);
-  v2 = (int (**)(...))(&`vtable for'PlayerQuestComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerQuestComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player, v2);
   this->_vptr_PlayerCompBase = v2;
@@ -16969,11 +16969,11 @@ const std::vector<int> *__cdecl PlayerQuestComp::findQuestVarScriptConfig(
   v5 = v3 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202178560;
-  if ( !(_BYTE)`guard variable for'PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec
-    && __cxa_guard_acquire(&`guard variable for'PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec) )
+  if ( !(_BYTE)`guard variable for PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec
+    && __cxa_guard_acquire(&`guard variable for PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec) )
   {
     std::vector<int>::vector(&PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec);
-    __cxa_guard_release(&`guard variable for'PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec);
+    __cxa_guard_release(&`guard variable for PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<int>::~vector,
       &PlayerQuestComp::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec,

@@ -12,7 +12,7 @@ void __cdecl ChallengeCondInTime::~ChallengeCondInTime(ChallengeCondInTime *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondInTime + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -50,7 +50,7 @@ void __fastcall ZN19ChallengeCondInTimeCI218ChallengeConditionER13ChallengeCompR
   *(_DWORD *)(v5 + 48) = a4;
   *(_DWORD *)(v5 + 64) = a5;
   ChallengeCondition::ChallengeCondition(this, a2, a3, *(_DWORD *)(v5 + 48), *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondInTime + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -999,7 +999,7 @@ void __cdecl ChallengeCondAllTime::~ChallengeCondAllTime(ChallengeCondAllTime *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondAllTime + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondAllTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -1037,7 +1037,7 @@ void __fastcall ZN20ChallengeCondAllTimeCI218ChallengeConditionER13ChallengeComp
   *(_DWORD *)(v5 + 48) = a4;
   *(_DWORD *)(v5 + 64) = a5;
   ChallengeCondition::ChallengeCondition(this, a2, a3, *(_DWORD *)(v5 + 48), *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondAllTime + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondAllTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -1218,7 +1218,7 @@ void __cdecl ChallengeCondKillCount::~ChallengeCondKillCount(ChallengeCondKillCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondKillCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondKillCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -1268,7 +1268,7 @@ void __fastcall ZN22ChallengeCondKillCountCI218ChallengeConditionER13ChallengeCo
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondKillCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondKillCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -1473,7 +1473,7 @@ void __cdecl ChallengeCondSurvive::~ChallengeCondSurvive(ChallengeCondSurvive *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondSurvive + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondSurvive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -1516,7 +1516,7 @@ void __fastcall ZN20ChallengeCondSurviveCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondSurvive + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondSurvive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -1639,7 +1639,7 @@ void __cdecl ChallengeCondTimeInc::~ChallengeCondTimeInc(ChallengeCondTimeInc *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondTimeInc + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondTimeInc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -1689,7 +1689,7 @@ void __fastcall ZN20ChallengeCondTimeIncCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondTimeInc + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondTimeInc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -1895,7 +1895,7 @@ void __cdecl ChallengeCondKillFast::~ChallengeCondKillFast(ChallengeCondKillFast
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondKillFast + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondKillFast + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -1938,7 +1938,7 @@ void __fastcall ZN21ChallengeCondKillFastCI218ChallengeConditionER13ChallengeCom
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondKillFast + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondKillFast + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -2150,7 +2150,7 @@ void __cdecl ChallengeCondDownLess::~ChallengeCondDownLess(ChallengeCondDownLess
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondDownLess + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondDownLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -2193,7 +2193,7 @@ void __fastcall ZN21ChallengeCondDownLessCI218ChallengeConditionER13ChallengeCom
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondDownLess + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondDownLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -2348,7 +2348,7 @@ void __cdecl ChallengeCondBeatenLess::~ChallengeCondBeatenLess(ChallengeCondBeat
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondBeatenLess + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondBeatenLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -2391,7 +2391,7 @@ void __fastcall ZN23ChallengeCondBeatenLessCI218ChallengeConditionER13ChallengeC
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondBeatenLess + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondBeatenLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -2539,7 +2539,7 @@ void __cdecl ChallengeCondUnnaturalCount::~ChallengeCondUnnaturalCount(Challenge
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondUnnaturalCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondUnnaturalCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -2589,7 +2589,7 @@ void __fastcall ZN27ChallengeCondUnnaturalCountCI218ChallengeConditionER13Challe
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondUnnaturalCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondUnnaturalCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -2790,7 +2790,7 @@ void __cdecl ChallengeCondFrozenLess::~ChallengeCondFrozenLess(ChallengeCondFroz
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondFrozenLess + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondFrozenLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -2840,7 +2840,7 @@ void __fastcall ZN23ChallengeCondFrozenLessCI218ChallengeConditionER13ChallengeC
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondFrozenLess + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondFrozenLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -2995,7 +2995,7 @@ void __cdecl ChallengeCondKillMonster::~ChallengeCondKillMonster(ChallengeCondKi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondKillMonster + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondKillMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -3038,7 +3038,7 @@ void __fastcall ZN24ChallengeCondKillMonsterCI218ChallengeConditionER13Challenge
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondKillMonster + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondKillMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -3217,7 +3217,7 @@ void __cdecl ChallengeCondTrigger::~ChallengeCondTrigger(ChallengeCondTrigger *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondTrigger + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -3268,7 +3268,7 @@ void __fastcall ZN20ChallengeCondTriggerCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondTrigger + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -3626,7 +3626,7 @@ void __cdecl ChallengeCondGuardHp::~ChallengeCondGuardHp(ChallengeCondGuardHp *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondGuardHp + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondGuardHp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -3669,7 +3669,7 @@ void __fastcall ZN20ChallengeCondGuardHpCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondGuardHp + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondGuardHp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -4090,7 +4090,7 @@ void __cdecl ChallengeCondTimeDec::~ChallengeCondTimeDec(ChallengeCondTimeDec *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondTimeDec + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondTimeDec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -4133,7 +4133,7 @@ void __fastcall ZN20ChallengeCondTimeDecCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondTimeDec + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondTimeDec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -4241,7 +4241,7 @@ void __cdecl ChallengeCondChildSucc::~ChallengeCondChildSucc(ChallengeCondChildS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondChildSucc + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondChildSucc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -4291,7 +4291,7 @@ void __fastcall ZN22ChallengeCondChildSuccCI218ChallengeConditionER13ChallengeCo
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondChildSucc + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondChildSucc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -4625,7 +4625,7 @@ void __cdecl ChallengeCondChildFail::~ChallengeCondChildFail(ChallengeCondChildF
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondChildFail + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondChildFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -4668,7 +4668,7 @@ void __fastcall ZN22ChallengeCondChildFailCI218ChallengeConditionER13ChallengeCo
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondChildFail + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondChildFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -5006,7 +5006,7 @@ void __cdecl ChallengeCondMonsterDamageCount::~ChallengeCondMonsterDamageCount(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondMonsterDamageCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondMonsterDamageCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -5049,7 +5049,7 @@ void __fastcall ZN31ChallengeCondMonsterDamageCountCI218ChallengeConditionER13Ch
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondMonsterDamageCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondMonsterDamageCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -5252,7 +5252,7 @@ void __cdecl ChallengeCondElementReactionCount::~ChallengeCondElementReactionCou
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondElementReactionCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -5303,7 +5303,7 @@ void __fastcall ZN33ChallengeCondElementReactionCountCI218ChallengeConditionER13
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondElementReactionCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -5591,7 +5591,7 @@ void __cdecl ChallengeCondFreezeEnemyInTime::~ChallengeCondFreezeEnemyInTime(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondFreezeEnemyInTime + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondFreezeEnemyInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -5638,7 +5638,7 @@ void __fastcall ZN30ChallengeCondFreezeEnemyInTimeCI218ChallengeConditionER13Cha
   *(_DWORD *)(v5 + 48) = a4;
   *(_DWORD *)(v5 + 64) = a5;
   ChallengeCondition::ChallengeCondition(this, a2, a3, *(_DWORD *)(v5 + 48), *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondFreezeEnemyInTime + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondFreezeEnemyInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -5891,7 +5891,7 @@ void __cdecl ChallengeCondCrystalElementReactionCount::~ChallengeCondCrystalElem
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondCrystalElementReactionCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondCrystalElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -5942,7 +5942,7 @@ void __fastcall ZN40ChallengeCondCrystalElementReactionCountCI218ChallengeCondit
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondCrystalElementReactionCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondCrystalElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -6382,7 +6382,7 @@ void __cdecl ChallengeCondSheildAbsorbDamageCount::~ChallengeCondSheildAbsorbDam
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondSheildAbsorbDamageCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondSheildAbsorbDamageCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -6433,7 +6433,7 @@ void __fastcall ZN36ChallengeCondSheildAbsorbDamageCountCI218ChallengeConditionE
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondSheildAbsorbDamageCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondSheildAbsorbDamageCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -6639,7 +6639,7 @@ void __cdecl ChallengeCondSwirlElementReactionCount::~ChallengeCondSwirlElementR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondSwirlElementReactionCount + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondSwirlElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -6690,7 +6690,7 @@ void __fastcall ZN38ChallengeCondSwirlElementReactionCountCI218ChallengeConditio
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondSwirlElementReactionCount + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondSwirlElementReactionCount + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -7086,7 +7086,7 @@ void __cdecl ChallengeCondDieLess::~ChallengeCondDieLess(ChallengeCondDieLess *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondDieLess + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondDieLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -7136,7 +7136,7 @@ void __fastcall ZN20ChallengeCondDieLessCI218ChallengeConditionER13ChallengeComp
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondDieLess + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondDieLess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;
@@ -7300,7 +7300,7 @@ void __cdecl ChallengeCondLua::~ChallengeCondLua(ChallengeCondLua *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChallengeCondLua + 2);
+  v1 = (int (**)(...))(&`vtable for ChallengeCondLua + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v1;
@@ -7350,7 +7350,7 @@ void __fastcall ZN16ChallengeCondLuaCI218ChallengeConditionER13ChallengeCompR9Ch
     a3,
     *(_DWORD *)(v5 + 48),
     *(data::ChallengeCondType *)(v5 + 64));
-  v8 = (int (**)(...))(&`vtable for'ChallengeCondLua + 2);
+  v8 = (int (**)(...))(&`vtable for ChallengeCondLua + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ChallengeCondition = v8;

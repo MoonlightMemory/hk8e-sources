@@ -6,7 +6,7 @@ void __cdecl PlayerPersonalLineComp::~PlayerPersonalLineComp(PlayerPersonalLineC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerPersonalLineComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerPersonalLineComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCompBase = v2;
@@ -44,7 +44,7 @@ void __cdecl ZN22PlayerPersonalLineCompCI214PlayerCompBaseER6Player(PlayerPerson
   std::function<void(long unsigned int)> p_callback; // [rsp+60h] [rbp-30h] BYREF
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerPersonalLineComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerPersonalLineComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerCompBase = v2;

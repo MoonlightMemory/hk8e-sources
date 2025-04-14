@@ -8319,7 +8319,7 @@ void __cdecl DungeonScene::registerDungeonInitEnterSceneAvatarCallback(
     __asan_handle_no_return();
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::logic_error,
+      (struct type_info *)&`typeinfo for std::logic_error,
       (void (__fastcall *)(void *))&std::logic_error::~logic_error);
   }
   std::function<int ()(DungeonScene &,std::vector<std::shared_ptr<Avatar>> &,std::shared_ptr<Avatar>&)>::operator=(
@@ -8793,7 +8793,7 @@ bool __cdecl DungeonScene::isEnterByCharAmusementActivity(DungeonScene *const th
   const std::type_info *v1; // rax
 
   v1 = std::any::type(&this->dungeon_extra_data_);
-  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for'CharAmusementDungeonContext);
+  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for CharAmusementDungeonContext);
 };
 
 // Line 2263: range 0000000015FAC5DA-0000000015FAC60E
@@ -8802,7 +8802,7 @@ bool __cdecl DungeonScene::isEnterByBrickBreakerActivity(DungeonScene *const thi
   const std::type_info *v1; // rax
 
   v1 = std::any::type(&this->dungeon_extra_data_);
-  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for'BrickBreakerDungeonContext);
+  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for BrickBreakerDungeonContext);
 };
 
 // Line 2268: range 0000000015FAC610-0000000015FAC644
@@ -8811,7 +8811,7 @@ bool __cdecl DungeonScene::isEnterByDuelHeartActivity(DungeonScene *const this)
   const std::type_info *v1; // rax
 
   v1 = std::any::type(&this->dungeon_extra_data_);
-  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for'DuelHeartDungeonContext);
+  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for DuelHeartDungeonContext);
 };
 
 // Line 2273: range 0000000015FAC646-0000000015FAC67A
@@ -8820,7 +8820,7 @@ bool __cdecl DungeonScene::isEnterByTeamChainActivity(DungeonScene *const this)
   const std::type_info *v1; // rax
 
   v1 = std::any::type(&this->dungeon_extra_data_);
-  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for'TeamChainDungeonContext);
+  return std::type_info::operator==(v1, (const std::type_info *)&`typeinfo for TeamChainDungeonContext);
 };
 
 // Line 2278: range 0000000015FAC67C-0000000015FAC8B7

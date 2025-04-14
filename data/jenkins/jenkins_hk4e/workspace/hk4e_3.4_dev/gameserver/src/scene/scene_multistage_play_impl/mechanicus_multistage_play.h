@@ -6,7 +6,7 @@ void __cdecl MechanicusMultistagePlay::~MechanicusMultistagePlay(MechanicusMulti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusMultistagePlay + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -272,7 +272,7 @@ void __cdecl MechanicusMultistagePlay::MechanicusMultistagePlay(
   bool v19; // dl
 
   SceneMultistagePlay::SceneMultistagePlay(this, scene, group, play_index);
-  v4 = (int (**)(...))(&`vtable for'MechanicusMultistagePlay + 2);
+  v4 = (int (**)(...))(&`vtable for MechanicusMultistagePlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_DescribalBase = v4;

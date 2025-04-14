@@ -26273,8 +26273,8 @@ ForeachPolicy __cdecl Scene::tryClearMassiveData(bool)::{lambda(BaseAbilityMixin
   if ( mixin )
     v2 = (AbilityScenePropSyncMixin *)__dynamic_cast(
                                         mixin,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseAbilityMixin,
-                                        (const struct __class_type_info *)&`typeinfo for'AbilityScenePropSyncMixin,
+                                        (const struct __class_type_info *)&`typeinfo for BaseAbilityMixin,
+                                        (const struct __class_type_info *)&`typeinfo for AbilityScenePropSyncMixin,
                                         0LL);
   else
     v2 = 0LL;

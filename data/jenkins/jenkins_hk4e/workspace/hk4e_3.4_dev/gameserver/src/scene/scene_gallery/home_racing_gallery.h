@@ -25,7 +25,7 @@ void __cdecl HomeRacingGallery::~HomeRacingGallery(HomeRacingGallery *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HomeRacingGallery + 2);
+  v2 = (int (**)(...))(&`vtable for HomeRacingGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseGallery = v2;
@@ -46,7 +46,7 @@ void __cdecl HomeRacingGallery::HomeRacingGallery(HomeRacingGallery *const this,
   bool v4; // dl
 
   BaseHomeGallery::BaseHomeGallery(this, scene, gallery_id);
-  v3 = (int (**)(...))(&`vtable for'HomeRacingGallery + 2);
+  v3 = (int (**)(...))(&`vtable for HomeRacingGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_BaseGallery = v3;

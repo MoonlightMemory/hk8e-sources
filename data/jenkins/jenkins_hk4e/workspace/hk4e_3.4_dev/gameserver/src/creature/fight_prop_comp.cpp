@@ -1757,7 +1757,7 @@ void __cdecl FightPropComp::refreshCalProp(
   *(float *)v3.m128i_i32 = FightPropComp::calcCurHpRatio(thisa);
   old_hp_ratio = COERCE_FLOAT(_mm_cvtsi128_si32(v3));
   std::map<data::FightPropType,AbilityClampFightPropValue>::clear(&thisa->fight_cal_prop_map_);
-  *(_QWORD *)(v4 + 64) = &`vtable for'FightPropValue + 2;
+  *(_QWORD *)(v4 + 64) = &`vtable for FightPropValue + 2;
   *(_DWORD *)(v4 + 72) = 0;
   v7 = 0LL;
   *(_DWORD *)(v4 + 76) = 0;
@@ -2142,8 +2142,8 @@ const std::set<data::FightPropType> *__cdecl FightPropComp::getAllCurPropType()
   int v6; // [rsp+28h] [rbp-28h]
   int v7; // [rsp+2Ch] [rbp-24h]
 
-  if ( !(_BYTE)`guard variable for'FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set
-    && __cxa_guard_acquire(&`guard variable for'FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set) )
+  if ( !(_BYTE)`guard variable for FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set
+    && __cxa_guard_acquire(&`guard variable for FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set) )
   {
     __l._M_array = (std::initializer_list<data::FightPropType>::iterator)0x3E9000003E8LL;
     __l._M_len = 0x3EB000003EALL;
@@ -2157,7 +2157,7 @@ const std::set<data::FightPropType> *__cdecl FightPropComp::getAllCurPropType()
       (std::initializer_list<data::FightPropType>)__PAIR128__(8LL, &__l),
       &__comp,
       &__a);
-    __cxa_guard_release(&`guard variable for'FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set);
+    __cxa_guard_release(&`guard variable for FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<data::FightPropType>::~set,
       &FightPropComp::getAllCurPropType(void)::all_cur_prop_type_set,
@@ -2257,8 +2257,8 @@ const std::unordered_map<data::FightPropType,data::FightPropType> *__cdecl Fight
   int v45; // [rsp+C0h] [rbp-30h]
   int v46; // [rsp+C4h] [rbp-2Ch]
 
-  if ( !(_BYTE)`guard variable for'FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map
-    && __cxa_guard_acquire(&`guard variable for'FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map) )
+  if ( !(_BYTE)`guard variable for FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map
+    && __cxa_guard_acquire(&`guard variable for FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map) )
   {
     __l._M_array = (std::initializer_list<std::pair<const data::FightPropType,data::FightPropType> >::iterator)0x1400000BBALL;
     __l._M_len = 0x1500000BBBLL;
@@ -2312,7 +2312,7 @@ const std::unordered_map<data::FightPropType,data::FightPropType> *__cdecl Fight
       &__hf,
       &__eql,
       &__a);
-    __cxa_guard_release(&`guard variable for'FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map);
+    __cxa_guard_release(&`guard variable for FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<data::FightPropType,data::FightPropType>::~unordered_map,
       (void *)&FightPropComp::getExtendBaseValuePropTypeMap(void)::extend_base_value_prop_type_map,
@@ -4890,7 +4890,7 @@ void __cdecl FightPropComp::flushModifiedProps(FightPropComp *const this, bool i
     std::vector<data::FightPropType>::reserve((std::vector<data::FightPropType> *const)(v2 + 304), 4uLL);
     is_max_hp_changed = 0;
     is_element_mastery_changed = 0;
-    *(_QWORD *)(v2 + 208) = &`vtable for'FightPropValue + 2;
+    *(_QWORD *)(v2 + 208) = &`vtable for FightPropValue + 2;
     *(_DWORD *)(v2 + 216) = 0;
     v5 = 0LL;
     *(_DWORD *)(v2 + 220) = 0;

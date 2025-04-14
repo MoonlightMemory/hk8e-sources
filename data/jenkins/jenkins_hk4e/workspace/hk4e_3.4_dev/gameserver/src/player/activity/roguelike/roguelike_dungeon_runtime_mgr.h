@@ -114,7 +114,7 @@ void __cdecl RogueCell::RogueCell(RogueCell *const this)
   __int64 v6; // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v2 = (int (**)(...))(&`vtable for'RogueCell + 2);
+  v2 = (int (**)(...))(&`vtable for RogueCell + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -177,7 +177,7 @@ void __cdecl RogueCell::RogueCell(RogueCell *const this, RogueCell *a2)
 
   v18 = a2;
   common::milog::DescribalBase::DescribalBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'RogueCell + 2);
+  v2 = (int (**)(...))(&`vtable for RogueCell + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v2;
@@ -267,7 +267,7 @@ void __cdecl RogueCell::~RogueCell(RogueCell *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueCell + 2);
+  v2 = (int (**)(...))(&`vtable for RogueCell + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -313,7 +313,7 @@ void __cdecl RogueLikeDungeonRuntimeMgr::RogueLikeDungeonRuntimeMgr(
   __int64 v7; // rdx
 
   std::enable_shared_from_this<RogueLikeDungeonRuntimeMgr>::enable_shared_from_this(&this->std::enable_shared_from_this<RogueLikeDungeonRuntimeMgr>);
-  v3 = (int (**)(...))(&`vtable for'RogueLikeDungeonRuntimeMgr + 2);
+  v3 = (int (**)(...))(&`vtable for RogueLikeDungeonRuntimeMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_RogueLikeDungeonRuntimeMgr = v3;
@@ -402,7 +402,7 @@ void __cdecl RogueLikeDungeonRuntimeMgr::~RogueLikeDungeonRuntimeMgr(RogueLikeDu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueLikeDungeonRuntimeMgr + 2);
+  v2 = (int (**)(...))(&`vtable for RogueLikeDungeonRuntimeMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueLikeDungeonRuntimeMgr = v2;

@@ -2832,7 +2832,7 @@ int32_t __cdecl LoginHandler::asyncModifyPlayerStatus(
   SpanProxy::SpanProxy((SpanProxy *const)(v3 + 224), v9, operation_name, v8, 0, (const int *)(v3 + 48));
   v10 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
   *(_DWORD *)(v3 + 64) = common::minet::Packet::getUserId(v10);
-  v11 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+  v11 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
   v12 = std::any::type(p_context);
   if ( v11 == std::type_info::hash_code(v12) )
   {
@@ -2934,7 +2934,7 @@ int32_t __cdecl LoginHandler::asyncModifyPlayerStatus(
       "./src/handler/login_handler.cpp",
       "asyncModifyPlayerStatus",
       521);
-    v13 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+    v13 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
     v14 = std::any::type(p_context);
     v15 = std::type_info::name(v14);
     common::milog::MiLogStream::operator()((common::milog::MiLogStream *const)&in_str, off_25AC9220, v15, v13);
@@ -6902,7 +6902,7 @@ int32_t __cdecl LoginHandler::asyncDelPlayerStatus(common::minet::PacketPtr *p_p
   v4[536862720] = -235802127;
   v4[536862721] = -234556943;
   v4[536862722] = -202178560;
-  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
   v6 = std::any::type(p_context);
   if ( v5 == std::type_info::hash_code(v6) )
   {
@@ -6973,7 +6973,7 @@ int32_t __cdecl LoginHandler::asyncDelPlayerStatus(common::minet::PacketPtr *p_p
       "./src/handler/login_handler.cpp",
       "asyncDelPlayerStatus",
       1398);
-    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
     v8 = std::any::type(p_context);
     v9 = std::type_info::name(v8);
     common::milog::MiLogStream::operator()(&v16, off_25AC9220, v9, v7);
@@ -7068,7 +7068,7 @@ __int64 __fastcall LoginHandler::asyncDelPlayerStatusCallback(
   v5[536862726] = -218103808;
   v5[536862727] = -202116109;
   *(_DWORD *)(v3 + 96) = retcode;
-  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
   v7 = std::any::type(p_context);
   if ( v6 == std::type_info::hash_code(v7) )
   {
@@ -7278,7 +7278,7 @@ __int64 __fastcall LoginHandler::asyncDelPlayerStatusCallback(
       "./src/handler/login_handler.cpp",
       "asyncDelPlayerStatusCallback",
       1419);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<ModifyPlayerStatusContext>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<ModifyPlayerStatusContext>);
     v9 = std::any::type(p_context);
     v10 = std::type_info::name(v9);
     common::milog::MiLogStream::operator()(&v47, off_25AC9220, v10, v8);
@@ -7409,7 +7409,7 @@ int32_t __cdecl LoginHandler::asyncPlayerLoginInit(
   SpanProxy::SpanProxy((SpanProxy *const)(v4 + 320), v10, operation_name, v9, 0, (const int *)(v4 + 48));
   v11 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
   *(_DWORD *)(v4 + 64) = common::minet::Packet::getUserId(v11);
-  v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerLoginInitContext>);
+  v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerLoginInitContext>);
   v13 = std::any::type((const std::any *const)v38._M_string_length);
   if ( v12 == std::type_info::hash_code(v13) )
   {
@@ -7651,7 +7651,7 @@ int32_t __cdecl LoginHandler::asyncPlayerLoginInit(
       "./src/handler/login_handler.cpp",
       "asyncPlayerLoginInit",
       1473);
-    v14 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerLoginInitContext>);
+    v14 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerLoginInitContext>);
     v15 = std::any::type((const std::any *const)v38._M_string_length);
     v16 = std::type_info::name(v15);
     common::milog::MiLogStream::operator()((common::milog::MiLogStream *const)&in_str, off_25AC9220, v16, v14);
@@ -7813,7 +7813,7 @@ int32_t __cdecl LoginHandler::asyncPlayerLoginInitCallback(
   SpanProxy::SpanProxy((SpanProxy *const)(v4 + 224), v10, operation_name, v9, 0, (const int *)(v4 + 32));
   v11 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
   *(_DWORD *)(v4 + 48) = common::minet::Packet::getUserId(v11);
-  v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerLoginInitContext>);
+  v12 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerLoginInitContext>);
   v13 = std::any::type(p_context);
   if ( v12 == std::type_info::hash_code(v13) )
   {
@@ -8155,7 +8155,7 @@ int32_t __cdecl LoginHandler::asyncPlayerLoginInitCallback(
       "./src/handler/login_handler.cpp",
       "asyncPlayerLoginInitCallback",
       1556);
-    v14 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<PlayerLoginInitContext>);
+    v14 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<PlayerLoginInitContext>);
     v15 = std::any::type(p_context);
     v16 = std::type_info::name(v15);
     common::milog::MiLogStream::operator()((common::milog::MiLogStream *const)&in_str, off_25AC9220, v16, v14);

@@ -38,7 +38,7 @@ void __cdecl DeliverItemToSalesmanEvent::DeliverItemToSalesmanEvent(DeliverItemT
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'DeliverItemToSalesmanEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DeliverItemToSalesmanEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -57,7 +57,7 @@ void __cdecl DeliverItemToSalesmanEvent::~DeliverItemToSalesmanEvent(DeliverItem
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DeliverItemToSalesmanEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DeliverItemToSalesmanEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -79,7 +79,7 @@ void __cdecl RecordMaxCriticalDamageUpdateEvent::~RecordMaxCriticalDamageUpdateE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RecordMaxCriticalDamageUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RecordMaxCriticalDamageUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -101,7 +101,7 @@ void __cdecl RecordMaxFlyMapDistanceUpdateEvent::~RecordMaxFlyMapDistanceUpdateE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RecordMaxFlyMapDistanceUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RecordMaxFlyMapDistanceUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -121,7 +121,7 @@ void __cdecl RecordMaxFlyTimeUpdateEvent::~RecordMaxFlyTimeUpdateEvent(RecordMax
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RecordMaxFlyTimeUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RecordMaxFlyTimeUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -141,7 +141,7 @@ void __cdecl RecordMaxDashTimeUpdateEvent::~RecordMaxDashTimeUpdateEvent(RecordM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RecordMaxDashTimeUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RecordMaxDashTimeUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -155,7 +155,7 @@ void __cdecl SkilledAtRecipeEvent::SkilledAtRecipeEvent(SkilledAtRecipeEvent *co
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'SkilledAtRecipeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SkilledAtRecipeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -167,7 +167,7 @@ void __cdecl SkilledAtRecipeEvent::~SkilledAtRecipeEvent(SkilledAtRecipeEvent *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SkilledAtRecipeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SkilledAtRecipeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -188,7 +188,7 @@ void __cdecl PlaceMiracleRingEvent::PlaceMiracleRingEvent(PlaceMiracleRingEvent 
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'PlaceMiracleRingEvent + 2);
+  v2 = (int (**)(...))(&`vtable for PlaceMiracleRingEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -207,7 +207,7 @@ void __cdecl PlaceMiracleRingEvent::~PlaceMiracleRingEvent(PlaceMiracleRingEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlaceMiracleRingEvent + 2);
+  v2 = (int (**)(...))(&`vtable for PlaceMiracleRingEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -221,7 +221,7 @@ void __cdecl MiracleRingDeliverItemEvent::MiracleRingDeliverItemEvent(MiracleRin
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'MiracleRingDeliverItemEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MiracleRingDeliverItemEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -233,7 +233,7 @@ void __cdecl MiracleRingDeliverItemEvent::~MiracleRingDeliverItemEvent(MiracleRi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MiracleRingDeliverItemEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MiracleRingDeliverItemEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -254,7 +254,7 @@ void __cdecl MiracleRingTakeRewardEvent::MiracleRingTakeRewardEvent(MiracleRingT
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'MiracleRingTakeRewardEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MiracleRingTakeRewardEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -266,7 +266,7 @@ void __cdecl MiracleRingTakeRewardEvent::~MiracleRingTakeRewardEvent(MiracleRing
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MiracleRingTakeRewardEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MiracleRingTakeRewardEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -287,7 +287,7 @@ void __cdecl HomeAvatarFetterGetEvent::HomeAvatarFetterGetEvent(HomeAvatarFetter
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'HomeAvatarFetterGetEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeAvatarFetterGetEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -306,7 +306,7 @@ void __cdecl HomeAvatarFetterGetEvent::~HomeAvatarFetterGetEvent(HomeAvatarFette
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HomeAvatarFetterGetEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeAvatarFetterGetEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -334,7 +334,7 @@ void __cdecl HomeDoPlantEvent::HomeDoPlantEvent(HomeDoPlantEvent *const this)
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'HomeDoPlantEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeDoPlantEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -346,7 +346,7 @@ void __cdecl HomeDoPlantEvent::~HomeDoPlantEvent(HomeDoPlantEvent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HomeDoPlantEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeDoPlantEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -367,7 +367,7 @@ void __cdecl DoneDungeonWithSameElementAvatarsEvent::~DoneDungeonWithSameElement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DoneDungeonWithSameElementAvatarsEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DoneDungeonWithSameElementAvatarsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -391,7 +391,7 @@ void __cdecl DoneDungeonWithSameElementAvatarsEvent::DoneDungeonWithSameElementA
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'DoneDungeonWithSameElementAvatarsEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DoneDungeonWithSameElementAvatarsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, element_count_map);
   this->_vptr_BaseEvent = v2;
@@ -404,7 +404,7 @@ void __cdecl AbilityStatePassTimeEvent::~AbilityStatePassTimeEvent(AbilityStateP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'AbilityStatePassTimeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for AbilityStatePassTimeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -427,7 +427,7 @@ void __cdecl AbilityStatePassTimeEvent::AbilityStatePassTimeEvent(
   int (**v3)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'AbilityStatePassTimeEvent + 2);
+  v3 = (int (**)(...))(&`vtable for AbilityStatePassTimeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, state);
   this->_vptr_BaseEvent = v3;
@@ -445,7 +445,7 @@ void __cdecl SitDownEvent::~SitDownEvent(SitDownEvent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SitDownEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SitDownEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -484,7 +484,7 @@ void __fastcall SitDownEvent::SitDownEvent(SitDownEvent *const this, __int64 sce
   *(_DWORD *)(v5 + 2147450884) = -202177536;
   *(Vector3 *)(v3 + 32) = pos;
   BaseEvent::BaseEvent(this);
-  v6 = (int (**)(...))(&`vtable for'SitDownEvent + 2);
+  v6 = (int (**)(...))(&`vtable for SitDownEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene_id);
   this->_vptr_BaseEvent = v6;
@@ -540,7 +540,7 @@ void __cdecl MechanicusBattleEndEvent::MechanicusBattleEndEvent(
   bool v20; // dl
 
   BaseEvent::BaseEvent(this);
-  v13 = (int (**)(...))(&`vtable for'MechanicusBattleEndEvent + 2);
+  v13 = (int (**)(...))(&`vtable for MechanicusBattleEndEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, is_succ);
   this->_vptr_BaseEvent = v13;
@@ -602,7 +602,7 @@ void __cdecl ShieldSourceNumUpdateEvent::~ShieldSourceNumUpdateEvent(ShieldSourc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ShieldSourceNumUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ShieldSourceNumUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -625,7 +625,7 @@ void __cdecl ShieldSourceNumUpdateEvent::ShieldSourceNumUpdateEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'ShieldSourceNumUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ShieldSourceNumUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&source_num);
   this->_vptr_BaseEvent = v2;
@@ -643,7 +643,7 @@ void __cdecl ElementTypeChangeEvent::~ElementTypeChangeEvent(ElementTypeChangeEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ElementTypeChangeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ElementTypeChangeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -668,7 +668,7 @@ void __cdecl ElementTypeChangeEvent::ElementTypeChangeEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'ElementTypeChangeEvent + 2);
+  v3 = (int (**)(...))(&`vtable for ElementTypeChangeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&old_type);
   this->_vptr_BaseEvent = v3;
@@ -691,7 +691,7 @@ void __cdecl GadgetInteractableEvent::~GadgetInteractableEvent(GadgetInteractabl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GadgetInteractableEvent + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetInteractableEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -712,7 +712,7 @@ void __cdecl GadgetInteractableEvent::GadgetInteractableEvent(GadgetInteractable
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'GadgetInteractableEvent + 2);
+  v2 = (int (**)(...))(&`vtable for GadgetInteractableEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&gadget_id);
   this->_vptr_BaseEvent = v2;
@@ -737,7 +737,7 @@ void __cdecl KilledByCertainMonsterEvent::~KilledByCertainMonsterEvent(KilledByC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'KilledByCertainMonsterEvent + 2);
+  v2 = (int (**)(...))(&`vtable for KilledByCertainMonsterEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -753,7 +753,7 @@ void __cdecl KilledByCertainMonsterEvent::KilledByCertainMonsterEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'KilledByCertainMonsterEvent + 2);
+  v2 = (int (**)(...))(&`vtable for KilledByCertainMonsterEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&describel_id);
   this->_vptr_BaseEvent = v2;
@@ -778,7 +778,7 @@ void __cdecl KilledBySpecificAbilityEvent::~KilledBySpecificAbilityEvent(KilledB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'KilledBySpecificAbilityEvent + 2);
+  v2 = (int (**)(...))(&`vtable for KilledBySpecificAbilityEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -794,7 +794,7 @@ void __cdecl KilledBySpecificAbilityEvent::KilledBySpecificAbilityEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'KilledBySpecificAbilityEvent + 2);
+  v2 = (int (**)(...))(&`vtable for KilledBySpecificAbilityEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, ability_name);
   this->_vptr_BaseEvent = v2;
@@ -816,7 +816,7 @@ void __cdecl TeleportWithCertainPortalEvent::~TeleportWithCertainPortalEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TeleportWithCertainPortalEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TeleportWithCertainPortalEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -834,7 +834,7 @@ void __cdecl TeleportWithCertainPortalEvent::TeleportWithCertainPortalEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'TeleportWithCertainPortalEvent + 2);
+  v3 = (int (**)(...))(&`vtable for TeleportWithCertainPortalEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&point_id);
   this->_vptr_BaseEvent = v3;
@@ -864,7 +864,7 @@ void __cdecl CollectSetOfReadingsEvent::~CollectSetOfReadingsEvent(CollectSetOfR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CollectSetOfReadingsEvent + 2);
+  v2 = (int (**)(...))(&`vtable for CollectSetOfReadingsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -880,7 +880,7 @@ void __cdecl CollectSetOfReadingsEvent::CollectSetOfReadingsEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'CollectSetOfReadingsEvent + 2);
+  v2 = (int (**)(...))(&`vtable for CollectSetOfReadingsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&set_id);
   this->_vptr_BaseEvent = v2;
@@ -905,7 +905,7 @@ void __cdecl MpDungeonSucceedEvent::~MpDungeonSucceedEvent(MpDungeonSucceedEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MpDungeonSucceedEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MpDungeonSucceedEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -919,7 +919,7 @@ void __cdecl MpDungeonSucceedEvent::MpDungeonSucceedEvent(MpDungeonSucceedEvent 
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'MpDungeonSucceedEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MpDungeonSucceedEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&dungeon_id);
   this->_vptr_BaseEvent = v2;
@@ -944,7 +944,7 @@ void __cdecl MpKillMonsterNumEvent::~MpKillMonsterNumEvent(MpKillMonsterNumEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MpKillMonsterNumEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MpKillMonsterNumEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -962,7 +962,7 @@ void __cdecl MpKillMonsterNumEvent::MpKillMonsterNumEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'MpKillMonsterNumEvent + 2);
+  v3 = (int (**)(...))(&`vtable for MpKillMonsterNumEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&monster_type_id);
   this->_vptr_BaseEvent = v3;
@@ -985,7 +985,7 @@ void __cdecl MpAreaGatherTimesEvent::~MpAreaGatherTimesEvent(MpAreaGatherTimesEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MpAreaGatherTimesEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MpAreaGatherTimesEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1006,7 +1006,7 @@ void __cdecl MpAreaGatherTimesEvent::MpAreaGatherTimesEvent(MpAreaGatherTimesEve
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'MpAreaGatherTimesEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MpAreaGatherTimesEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&area_id);
   this->_vptr_BaseEvent = v2;
@@ -1031,7 +1031,7 @@ void __cdecl DoneTowerStarsEvent::~DoneTowerStarsEvent(DoneTowerStarsEvent *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DoneTowerStarsEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DoneTowerStarsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1049,7 +1049,7 @@ void __cdecl DoneTowerStarsEvent::DoneTowerStarsEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'DoneTowerStarsEvent + 2);
+  v3 = (int (**)(...))(&`vtable for DoneTowerStarsEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&floor_index);
   this->_vptr_BaseEvent = v3;
@@ -1072,7 +1072,7 @@ void __cdecl DoneTowerUnhurtEvent::~DoneTowerUnhurtEvent(DoneTowerUnhurtEvent *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DoneTowerUnhurtEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DoneTowerUnhurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1097,7 +1097,7 @@ void __cdecl DoneTowerUnhurtEvent::DoneTowerUnhurtEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'DoneTowerUnhurtEvent + 2);
+  v3 = (int (**)(...))(&`vtable for DoneTowerUnhurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&floor_index);
   this->_vptr_BaseEvent = v3;
@@ -1120,7 +1120,7 @@ void __cdecl DoneTowerGadgetUnhurtEvent::~DoneTowerGadgetUnhurtEvent(DoneTowerGa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DoneTowerGadgetUnhurtEvent + 2);
+  v2 = (int (**)(...))(&`vtable for DoneTowerGadgetUnhurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1146,7 +1146,7 @@ void __cdecl DoneTowerGadgetUnhurtEvent::DoneTowerGadgetUnhurtEvent(
   bool v5; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'DoneTowerGadgetUnhurtEvent + 2);
+  v4 = (int (**)(...))(&`vtable for DoneTowerGadgetUnhurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, gadget_set);
   this->_vptr_BaseEvent = v4;
@@ -1170,7 +1170,7 @@ void __cdecl TreasureMapDoneRegionEvent::~TreasureMapDoneRegionEvent(TreasureMap
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TreasureMapDoneRegionEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureMapDoneRegionEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1197,7 +1197,7 @@ void __cdecl TreasureMapDoneRegionEvent::TreasureMapDoneRegionEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'TreasureMapDoneRegionEvent + 2);
+  v4 = (int (**)(...))(&`vtable for TreasureMapDoneRegionEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v4;
@@ -1234,7 +1234,7 @@ void __cdecl TreasureSeelieDoneRegionEvent::~TreasureSeelieDoneRegionEvent(Treas
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TreasureSeelieDoneRegionEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TreasureSeelieDoneRegionEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1254,7 +1254,7 @@ void __cdecl TreasureSeelieDoneRegionEvent::TreasureSeelieDoneRegionEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'TreasureSeelieDoneRegionEvent + 2);
+  v4 = (int (**)(...))(&`vtable for TreasureSeelieDoneRegionEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v4;
@@ -1284,7 +1284,7 @@ void __cdecl MechanicusBattleEndEvent::~MechanicusBattleEndEvent(MechanicusBattl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleEndEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleEndEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1307,7 +1307,7 @@ void __cdecl MechanicusBattleScoreEvent::~MechanicusBattleScoreEvent(MechanicusB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MechanicusBattleScoreEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MechanicusBattleScoreEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1332,7 +1332,7 @@ void __cdecl MechanicusBattleScoreEvent::MechanicusBattleScoreEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'MechanicusBattleScoreEvent + 2);
+  v3 = (int (**)(...))(&`vtable for MechanicusBattleScoreEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&settle_points);
   this->_vptr_BaseEvent = v3;
@@ -1356,7 +1356,7 @@ void __cdecl TimeIntervalFlyEvent::TimeIntervalFlyEvent(TimeIntervalFlyEvent *co
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalFlyEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalFlyEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1368,7 +1368,7 @@ void __cdecl TimeIntervalFlyEvent::~TimeIntervalFlyEvent(TimeIntervalFlyEvent *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalFlyEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalFlyEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1389,7 +1389,7 @@ void __cdecl TimeIntervalDashEvent::TimeIntervalDashEvent(TimeIntervalDashEvent 
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalDashEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalDashEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1408,7 +1408,7 @@ void __cdecl TimeIntervalDashEvent::~TimeIntervalDashEvent(TimeIntervalDashEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalDashEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalDashEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1422,7 +1422,7 @@ void __cdecl TimeIntervalClimbEvent::TimeIntervalClimbEvent(TimeIntervalClimbEve
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalClimbEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalClimbEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1434,7 +1434,7 @@ void __cdecl TimeIntervalClimbEvent::~TimeIntervalClimbEvent(TimeIntervalClimbEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalClimbEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalClimbEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1455,7 +1455,7 @@ void __cdecl TimeIntervalHurtEvent::TimeIntervalHurtEvent(TimeIntervalHurtEvent 
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalHurtEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalHurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1467,7 +1467,7 @@ void __cdecl TimeIntervalHurtEvent::~TimeIntervalHurtEvent(TimeIntervalHurtEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalHurtEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalHurtEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1488,7 +1488,7 @@ void __cdecl TimeIntervalHurtByAbilityEvent::TimeIntervalHurtByAbilityEvent(Time
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalHurtByAbilityEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalHurtByAbilityEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1509,7 +1509,7 @@ void __cdecl TimeIntervalHurtByAbilityEvent::~TimeIntervalHurtByAbilityEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalHurtByAbilityEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalHurtByAbilityEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1529,7 +1529,7 @@ void __cdecl TimeIntervalAbilityStateEvent::~TimeIntervalAbilityStateEvent(TimeI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalAbilityStateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalAbilityStateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1546,7 +1546,7 @@ void __cdecl TimeIntervalAbilityStateEvent::TimeIntervalAbilityStateEvent(
   std::set<data::AbilityState> *v3; // rax
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'TimeIntervalAbilityStateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for TimeIntervalAbilityStateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, p_ability_state_set);
   this->_vptr_BaseEvent = v2;
@@ -1567,7 +1567,7 @@ void __cdecl SeaLampMiniQuestFinishEvent::~SeaLampMiniQuestFinishEvent(SeaLampMi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SeaLampMiniQuestFinishEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SeaLampMiniQuestFinishEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1583,7 +1583,7 @@ void __cdecl SeaLampMiniQuestFinishEvent::SeaLampMiniQuestFinishEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'SeaLampMiniQuestFinishEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SeaLampMiniQuestFinishEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&finish_num);
   this->_vptr_BaseEvent = v2;
@@ -1601,7 +1601,7 @@ void __cdecl MainCoopSavePointAndEvent::~MainCoopSavePointAndEvent(MainCoopSaveP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MainCoopSavePointAndEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MainCoopSavePointAndEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1626,7 +1626,7 @@ void __cdecl MainCoopSavePointAndEvent::MainCoopSavePointAndEvent(
   int (**v3)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'MainCoopSavePointAndEvent + 2);
+  v3 = (int (**)(...))(&`vtable for MainCoopSavePointAndEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&main_coop_id);
   this->_vptr_BaseEvent = v3;
@@ -1652,7 +1652,7 @@ void __cdecl MainCoopSavePointOrEvent::~MainCoopSavePointOrEvent(MainCoopSavePoi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MainCoopSavePointOrEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MainCoopSavePointOrEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1670,7 +1670,7 @@ void __cdecl MainCoopSavePointOrEvent::MainCoopSavePointOrEvent(
   int (**v3)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'MainCoopSavePointOrEvent + 2);
+  v3 = (int (**)(...))(&`vtable for MainCoopSavePointOrEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&main_coop_id);
   this->_vptr_BaseEvent = v3;
@@ -1689,7 +1689,7 @@ void __cdecl MainCoopVarEqualEvent::~MainCoopVarEqualEvent(MainCoopVarEqualEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MainCoopVarEqualEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MainCoopVarEqualEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1716,7 +1716,7 @@ void __cdecl MainCoopVarEqualEvent::MainCoopVarEqualEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'MainCoopVarEqualEvent + 2);
+  v4 = (int (**)(...))(&`vtable for MainCoopVarEqualEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&main_coop_id);
   this->_vptr_BaseEvent = v4;
@@ -1755,7 +1755,7 @@ void __cdecl ActivityChannellerSlabFinishAllCampEvent::~ActivityChannellerSlabFi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivityChannellerSlabFinishAllCampEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityChannellerSlabFinishAllCampEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1773,7 +1773,7 @@ void __cdecl ActivityChannellerSlabFinishAllCampEvent::ActivityChannellerSlabFin
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'ActivityChannellerSlabFinishAllCampEvent + 2);
+  v3 = (int (**)(...))(&`vtable for ActivityChannellerSlabFinishAllCampEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v3;
@@ -1805,7 +1805,7 @@ void __cdecl ActivityChannellerSlabFinishAllOneoffDungeonEvent::~ActivityChannel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivityChannellerSlabFinishAllOneoffDungeonEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityChannellerSlabFinishAllOneoffDungeonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1823,7 +1823,7 @@ void __cdecl ActivityChannellerSlabFinishAllOneoffDungeonEvent::ActivityChannell
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'ActivityChannellerSlabFinishAllOneoffDungeonEvent + 2);
+  v3 = (int (**)(...))(&`vtable for ActivityChannellerSlabFinishAllOneoffDungeonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v3;
@@ -1853,7 +1853,7 @@ void __cdecl ObtainWoodEvent::~ObtainWoodEvent(ObtainWoodEvent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ObtainWoodEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ObtainWoodEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1867,7 +1867,7 @@ void __cdecl ObtainWoodEvent::ObtainWoodEvent(ObtainWoodEvent *const this, uint3
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'ObtainWoodEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ObtainWoodEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&count);
   this->_vptr_BaseEvent = v2;
@@ -1892,7 +1892,7 @@ void __cdecl MistTrialStatUpdateEvent::~MistTrialStatUpdateEvent(MistTrialStatUp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'MistTrialStatUpdateEvent + 2);
+  v2 = (int (**)(...))(&`vtable for MistTrialStatUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1912,7 +1912,7 @@ void __cdecl MistTrialStatUpdateEvent::MistTrialStatUpdateEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'MistTrialStatUpdateEvent + 2);
+  v4 = (int (**)(...))(&`vtable for MistTrialStatUpdateEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&dungeon_id);
   this->_vptr_BaseEvent = v4;
@@ -1943,7 +1943,7 @@ void __cdecl ExhibitionAccumulableValueEvent::~ExhibitionAccumulableValueEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ExhibitionAccumulableValueEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ExhibitionAccumulableValueEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -1969,7 +1969,7 @@ void __cdecl ExhibitionAccumulableValueEvent::ExhibitionAccumulableValueEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'ExhibitionAccumulableValueEvent + 2);
+  v3 = (int (**)(...))(&`vtable for ExhibitionAccumulableValueEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&exhibition_id);
   this->_vptr_BaseEvent = v3;
@@ -2001,7 +2001,7 @@ void __cdecl ExhibitionReplaceableValueSettleNumEvent::~ExhibitionReplaceableVal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ExhibitionReplaceableValueSettleNumEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ExhibitionReplaceableValueSettleNumEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2019,7 +2019,7 @@ void __cdecl ExhibitionReplaceableValueSettleNumEvent::ExhibitionReplaceableValu
   int (**v4)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'ExhibitionReplaceableValueSettleNumEvent + 2);
+  v4 = (int (**)(...))(&`vtable for ExhibitionReplaceableValueSettleNumEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&exhibition_id);
   this->_vptr_BaseEvent = v4;
@@ -2050,7 +2050,7 @@ void __cdecl ActivityScoreExceedValueEvent::~ActivityScoreExceedValueEvent(Activ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivityScoreExceedValueEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityScoreExceedValueEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2068,7 +2068,7 @@ void __cdecl ActivityScoreExceedValueEvent::ActivityScoreExceedValueEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'ActivityScoreExceedValueEvent + 2);
+  v3 = (int (**)(...))(&`vtable for ActivityScoreExceedValueEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v3;
@@ -2100,7 +2100,7 @@ void __cdecl KillGadgetsBySpecificSkillEvent::~KillGadgetsBySpecificSkillEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'KillGadgetsBySpecificSkillEvent + 2);
+  v2 = (int (**)(...))(&`vtable for KillGadgetsBySpecificSkillEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2119,7 +2119,7 @@ void __cdecl KillGadgetsBySpecificSkillEvent::KillGadgetsBySpecificSkillEvent(
   bool v5; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'KillGadgetsBySpecificSkillEvent + 2);
+  v4 = (int (**)(...))(&`vtable for KillGadgetsBySpecificSkillEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, ability_name);
   this->_vptr_BaseEvent = v4;
@@ -2150,7 +2150,7 @@ void __cdecl UnlockForgeEvent::~UnlockForgeEvent(UnlockForgeEvent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'UnlockForgeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for UnlockForgeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2164,7 +2164,7 @@ void __cdecl UnlockForgeEvent::UnlockForgeEvent(UnlockForgeEvent *const this, ui
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'UnlockForgeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for UnlockForgeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&forge_id);
   this->_vptr_BaseEvent = v2;
@@ -2182,7 +2182,7 @@ void __cdecl EnterClimateAreaEvent::~EnterClimateAreaEvent(EnterClimateAreaEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'EnterClimateAreaEvent + 2);
+  v2 = (int (**)(...))(&`vtable for EnterClimateAreaEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2205,7 +2205,7 @@ void __cdecl EnterClimateAreaEvent::EnterClimateAreaEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'EnterClimateAreaEvent + 2);
+  v2 = (int (**)(...))(&`vtable for EnterClimateAreaEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&json_climate_type);
   this->_vptr_BaseEvent = v2;
@@ -2230,7 +2230,7 @@ void __cdecl HomeFieldGatherEvent::~HomeFieldGatherEvent(HomeFieldGatherEvent *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'HomeFieldGatherEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeFieldGatherEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2244,7 +2244,7 @@ void __cdecl HomeFieldGatherEvent::HomeFieldGatherEvent(HomeFieldGatherEvent *co
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'HomeFieldGatherEvent + 2);
+  v2 = (int (**)(...))(&`vtable for HomeFieldGatherEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&furniture_id);
   this->_vptr_BaseEvent = v2;
@@ -2269,7 +2269,7 @@ void __cdecl LunaRiteSearchEvent::~LunaRiteSearchEvent(LunaRiteSearchEvent *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'LunaRiteSearchEvent + 2);
+  v2 = (int (**)(...))(&`vtable for LunaRiteSearchEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2283,7 +2283,7 @@ void __cdecl LunaRiteSearchEvent::LunaRiteSearchEvent(LunaRiteSearchEvent *const
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'LunaRiteSearchEvent + 2);
+  v2 = (int (**)(...))(&`vtable for LunaRiteSearchEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&area_id);
   this->_vptr_BaseEvent = v2;
@@ -2308,7 +2308,7 @@ void __cdecl SumoGallerySettleEvent::~SumoGallerySettleEvent(SumoGallerySettleEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SumoGallerySettleEvent + 2);
+  v2 = (int (**)(...))(&`vtable for SumoGallerySettleEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2330,7 +2330,7 @@ void __cdecl SumoGallerySettleEvent::SumoGallerySettleEvent(
   bool v8; // dl
 
   BaseEvent::BaseEvent(this);
-  v5 = (int (**)(...))(&`vtable for'SumoGallerySettleEvent + 2);
+  v5 = (int (**)(...))(&`vtable for SumoGallerySettleEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&activity_id);
   this->_vptr_BaseEvent = v5;
@@ -2366,7 +2366,7 @@ void __cdecl UnlockScenePointEvent::~UnlockScenePointEvent(UnlockScenePointEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'UnlockScenePointEvent + 2);
+  v2 = (int (**)(...))(&`vtable for UnlockScenePointEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2391,7 +2391,7 @@ void __cdecl UnlockScenePointEvent::UnlockScenePointEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'UnlockScenePointEvent + 2);
+  v3 = (int (**)(...))(&`vtable for UnlockScenePointEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&scene_id);
   this->_vptr_BaseEvent = v3;
@@ -2414,7 +2414,7 @@ void __cdecl RogueDungeonGadgetDieEvent::~RogueDungeonGadgetDieEvent(RogueDungeo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueDungeonGadgetDieEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueDungeonGadgetDieEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2444,7 +2444,7 @@ void __cdecl RogueDungeonGadgetDieEvent::RogueDungeonGadgetDieEvent(
   bool v8; // dl
 
   BaseEvent::BaseEvent(this);
-  v6 = (int (**)(...))(&`vtable for'RogueDungeonGadgetDieEvent + 2);
+  v6 = (int (**)(...))(&`vtable for RogueDungeonGadgetDieEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&stage_id);
   this->_vptr_BaseEvent = v6;
@@ -2485,7 +2485,7 @@ void __cdecl RogueMonsterDieDieEvent::~RogueMonsterDieDieEvent(RogueMonsterDieDi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueMonsterDieDieEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueMonsterDieDieEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2505,7 +2505,7 @@ void __cdecl RogueMonsterDieDieEvent::RogueMonsterDieDieEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'RogueMonsterDieDieEvent + 2);
+  v4 = (int (**)(...))(&`vtable for RogueMonsterDieDieEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&stage_id);
   this->_vptr_BaseEvent = v4;
@@ -2539,7 +2539,7 @@ void __cdecl RogueShikigamiUpgradeEvent::~RogueShikigamiUpgradeEvent(RogueShikig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueShikigamiUpgradeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueShikigamiUpgradeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2557,7 +2557,7 @@ void __cdecl RogueShikigamiUpgradeEvent::RogueShikigamiUpgradeEvent(
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'RogueShikigamiUpgradeEvent + 2);
+  v3 = (int (**)(...))(&`vtable for RogueShikigamiUpgradeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v3;
@@ -2580,7 +2580,7 @@ void __cdecl RogueTriggerCurseEvent::~RogueTriggerCurseEvent(RogueTriggerCurseEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueTriggerCurseEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueTriggerCurseEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2601,7 +2601,7 @@ void __cdecl RogueTriggerCurseEvent::RogueTriggerCurseEvent(RogueTriggerCurseEve
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'RogueTriggerCurseEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueTriggerCurseEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2613,7 +2613,7 @@ void __cdecl RogueSelectCardEvent::~RogueSelectCardEvent(RogueSelectCardEvent *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RogueSelectCardEvent + 2);
+  v2 = (int (**)(...))(&`vtable for RogueSelectCardEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2640,7 +2640,7 @@ void __cdecl RogueSelectCardEvent::RogueSelectCardEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'RogueSelectCardEvent + 2);
+  v4 = (int (**)(...))(&`vtable for RogueSelectCardEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&type);
   this->_vptr_BaseEvent = v4;
@@ -2667,7 +2667,7 @@ void __cdecl WinterCampSnomanEditEvent::~WinterCampSnomanEditEvent(WinterCampSno
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WinterCampSnomanEditEvent + 2);
+  v2 = (int (**)(...))(&`vtable for WinterCampSnomanEditEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2688,7 +2688,7 @@ void __cdecl WinterCampSnomanEditEvent::WinterCampSnomanEditEvent(WinterCampSnom
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'WinterCampSnomanEditEvent + 2);
+  v2 = (int (**)(...))(&`vtable for WinterCampSnomanEditEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2707,7 +2707,7 @@ void __cdecl ProjectionFinishLevelEvent::~ProjectionFinishLevelEvent(ProjectionF
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ProjectionFinishLevelEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ProjectionFinishLevelEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2723,7 +2723,7 @@ void __cdecl ProjectionFinishLevelEvent::ProjectionFinishLevelEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'ProjectionFinishLevelEvent + 2);
+  v2 = (int (**)(...))(&`vtable for ProjectionFinishLevelEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v2;
@@ -2742,7 +2742,7 @@ void __cdecl BartenderFinishStoryModuleEvent::~BartenderFinishStoryModuleEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderFinishStoryModuleEvent + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderFinishStoryModuleEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2766,7 +2766,7 @@ void __cdecl BartenderFinishStoryModuleEvent::BartenderFinishStoryModuleEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'BartenderFinishStoryModuleEvent + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderFinishStoryModuleEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v2;
@@ -2785,7 +2785,7 @@ void __cdecl BartenderUnlockFormulaEvent::BartenderUnlockFormulaEvent(BartenderU
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'BartenderUnlockFormulaEvent + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderUnlockFormulaEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2804,7 +2804,7 @@ void __cdecl BartenderUnlockFormulaEvent::~BartenderUnlockFormulaEvent(Bartender
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderUnlockFormulaEvent + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderUnlockFormulaEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2826,7 +2826,7 @@ void __cdecl BartenderChallengeModuleLevelScoreEvent::~BartenderChallengeModuleL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BartenderChallengeModuleLevelScoreEvent + 2);
+  v2 = (int (**)(...))(&`vtable for BartenderChallengeModuleLevelScoreEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2844,7 +2844,7 @@ void __cdecl BartenderChallengeModuleLevelScoreEvent::BartenderChallengeModuleLe
   bool v4; // dl
 
   BaseEvent::BaseEvent(this);
-  v3 = (int (**)(...))(&`vtable for'BartenderChallengeModuleLevelScoreEvent + 2);
+  v3 = (int (**)(...))(&`vtable for BartenderChallengeModuleLevelScoreEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v3;
@@ -2876,7 +2876,7 @@ void __cdecl IrodoriChessSettleNewRecordEvent::~IrodoriChessSettleNewRecordEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriChessSettleNewRecordEvent + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriChessSettleNewRecordEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2896,7 +2896,7 @@ void __cdecl IrodoriChessSettleNewRecordEvent::IrodoriChessSettleNewRecordEvent(
   __int64 v6; // rdx
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'IrodoriChessSettleNewRecordEvent + 2);
+  v4 = (int (**)(...))(&`vtable for IrodoriChessSettleNewRecordEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&level_id);
   this->_vptr_BaseEvent = v4;
@@ -2932,7 +2932,7 @@ void __cdecl IrodoriMasterLevelEvent::~IrodoriMasterLevelEvent(IrodoriMasterLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'IrodoriMasterLevelEvent + 2);
+  v2 = (int (**)(...))(&`vtable for IrodoriMasterLevelEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -2954,7 +2954,7 @@ void __cdecl IrodoriMasterLevelEvent::IrodoriMasterLevelEvent(
   bool v8; // dl
 
   BaseEvent::BaseEvent(this);
-  v5 = (int (**)(...))(&`vtable for'IrodoriMasterLevelEvent + 2);
+  v5 = (int (**)(...))(&`vtable for IrodoriMasterLevelEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v5;
@@ -2986,7 +2986,7 @@ void __cdecl FinishRogueDiaryStageEvent::~FinishRogueDiaryStageEvent(FinishRogue
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageEvent + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3013,7 +3013,7 @@ void __cdecl FinishRogueDiaryStageEvent::FinishRogueDiaryStageEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageEvent + 2);
+  v4 = (int (**)(...))(&`vtable for FinishRogueDiaryStageEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v4;
@@ -3052,7 +3052,7 @@ void __cdecl FinishRogueDiaryStageRoundEvent::~FinishRogueDiaryStageRoundEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageRoundEvent + 2);
+  v2 = (int (**)(...))(&`vtable for FinishRogueDiaryStageRoundEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3072,7 +3072,7 @@ void __cdecl FinishRogueDiaryStageRoundEvent::FinishRogueDiaryStageRoundEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'FinishRogueDiaryStageRoundEvent + 2);
+  v4 = (int (**)(...))(&`vtable for FinishRogueDiaryStageRoundEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&id);
   this->_vptr_BaseEvent = v4;
@@ -3111,7 +3111,7 @@ void __cdecl CombatMulticondConfigCommonEvent::~CombatMulticondConfigCommonEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'CombatMulticondConfigCommonEvent + 2);
+  v2 = (int (**)(...))(&`vtable for CombatMulticondConfigCommonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3131,7 +3131,7 @@ void __cdecl CombatMulticondConfigCommonEvent::CombatMulticondConfigCommonEvent(
   bool v6; // dl
 
   BaseEvent::BaseEvent(this);
-  v4 = (int (**)(...))(&`vtable for'CombatMulticondConfigCommonEvent + 2);
+  v4 = (int (**)(...))(&`vtable for CombatMulticondConfigCommonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&watcher_id);
   this->_vptr_BaseEvent = v4;
@@ -3168,7 +3168,7 @@ void __cdecl VintageMarketCoinAChangeEvent::~VintageMarketCoinAChangeEvent(Vinta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageMarketCoinAChangeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketCoinAChangeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3184,7 +3184,7 @@ void __cdecl VintageMarketCoinAChangeEvent::VintageMarketCoinAChangeEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'VintageMarketCoinAChangeEvent + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketCoinAChangeEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&coin);
   this->_vptr_BaseEvent = v2;
@@ -3204,7 +3204,7 @@ void __cdecl VintageMarketContentFinishEvent::VintageMarketContentFinishEvent(
   int (**v2)(...); // rdx
 
   BaseEvent::BaseEvent(this);
-  v2 = (int (**)(...))(&`vtable for'VintageMarketContentFinishEvent + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketContentFinishEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3217,7 +3217,7 @@ void __cdecl VintageMarketContentFinishEvent::~VintageMarketContentFinishEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'VintageMarketContentFinishEvent + 2);
+  v2 = (int (**)(...))(&`vtable for VintageMarketContentFinishEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseEvent = v2;
@@ -3238,7 +3238,7 @@ void __cdecl PlayerWatcherComp::~PlayerWatcherComp(PlayerWatcherComp *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerWatcherComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerWatcherComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCompBase = v2;
@@ -3281,7 +3281,7 @@ void __cdecl ZN17PlayerWatcherCompCI214PlayerCompBaseER6Player(PlayerWatcherComp
   std::function<void(long unsigned int)> p_callback; // [rsp+60h] [rbp-30h] BYREF
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerWatcherComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerWatcherComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerCompBase = v2;

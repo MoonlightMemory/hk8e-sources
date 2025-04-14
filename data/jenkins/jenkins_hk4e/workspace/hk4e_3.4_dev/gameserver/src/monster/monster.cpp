@@ -7455,8 +7455,8 @@ void __cdecl Monster::activityDropOnMonsterDie(
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec
-      && __cxa_guard_acquire(&`guard variable for'Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec) )
+    if ( !(_BYTE)`guard variable for Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec
+      && __cxa_guard_acquire(&`guard variable for Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec) )
     {
       __l._M_array = (std::initializer_list<unsigned int>::iterator)0x200000001LL;
       __l._M_len = 0x600000003LL;
@@ -7465,7 +7465,7 @@ void __cdecl Monster::activityDropOnMonsterDie(
         (std::vector<unsigned int> *const)&Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec,
         (std::initializer_list<unsigned int>)__PAIR128__(4LL, &__l),
         &__a);
-      __cxa_guard_release(&`guard variable for'Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec);
+      __cxa_guard_release(&`guard variable for Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         (void *)&Monster::activityDropOnMonsterDie(std::vector<std::shared_ptr<Player>> const&)::related_activity_drop_type_vec,
@@ -7650,11 +7650,11 @@ const std::string *__cdecl Monster::getMonsterCombatTransaction[abi:cxx11](const
   v3[536862722] = -219021312;
   v3[536862723] = -219021312;
   v3[536862724] = -202178560;
-  if ( !(_BYTE)`guard variable for'Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction
-    && __cxa_guard_acquire(&`guard variable for'Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction) )
+  if ( !(_BYTE)`guard variable for Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction
+    && __cxa_guard_acquire(&`guard variable for Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction) )
   {
     std::string::basic_string(&Monster::getMonsterCombatTransaction[abi:cxx11](void)const::empty_combat_transaction);
-    __cxa_guard_release(&`guard variable for'Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction);
+    __cxa_guard_release(&`guard variable for Monster::getMonsterCombatTransaction[abi:cxx11](void)::empty_combat_transaction);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       (void *)&Monster::getMonsterCombatTransaction[abi:cxx11](void)const::empty_combat_transaction,

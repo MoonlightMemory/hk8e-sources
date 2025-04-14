@@ -5,7 +5,7 @@ void __cdecl GameserverApp::~GameserverApp(GameserverApp *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'GameserverApp + 2;
+  v1 = &`vtable for GameserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->gap0 = v1;

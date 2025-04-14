@@ -73,7 +73,7 @@ void __cdecl SceneTeamAvatar::SceneTeamAvatar(SceneTeamAvatar *const this, Scene
 
   v6 = a2;
   common::milog::DescribalBase::DescribalBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SceneTeamAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTeamAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v2;
@@ -103,7 +103,7 @@ void __cdecl SceneTeamAvatar::~SceneTeamAvatar(SceneTeamAvatar *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SceneTeamAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTeamAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -121,7 +121,7 @@ void __cdecl SceneTeamAvatar::SceneTeamAvatar(
   int (**v4)(...); // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v4 = (int (**)(...))(&`vtable for'SceneTeamAvatar + 2);
+  v4 = (int (**)(...))(&`vtable for SceneTeamAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&uid);
   this->_vptr_DescribalBase = v4;
@@ -180,7 +180,7 @@ void __cdecl SceneTeamAvatar::SceneTeamAvatar(SceneTeamAvatar *const this, const
 
   v6 = a2;
   common::milog::DescribalBase::DescribalBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'SceneTeamAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTeamAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v2;
@@ -294,7 +294,7 @@ void __cdecl SceneTeamAvatar::SceneTeamAvatar(SceneTeamAvatar *const this)
   int (**v2)(...); // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v2 = (int (**)(...))(&`vtable for'SceneTeamAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTeamAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;

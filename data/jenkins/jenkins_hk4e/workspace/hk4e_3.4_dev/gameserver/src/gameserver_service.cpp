@@ -6,7 +6,7 @@ void __cdecl GameserverService::GameserverService(GameserverService *const this)
   int (**v1)(...); // rdx
 
   ServiceBase::ServiceBase(this);
-  v1 = (int (**)(...))(&`vtable for'GameserverService + 2);
+  v1 = (int (**)(...))(&`vtable for GameserverService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ServiceBase = v1;
@@ -42,7 +42,7 @@ void __cdecl GameserverService::~GameserverService(GameserverService *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GameserverService + 2);
+  v1 = (int (**)(...))(&`vtable for GameserverService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ServiceBase = v1;
@@ -3520,11 +3520,11 @@ GameThreadLocal *__cdecl GameserverService::getGameThreadLocal(GameserverService
   unsigned __int64 v3; // rdx
   common::milog::MiLogStream v5; // [rsp+10h] [rbp-30h] BYREF
 
-  if ( !(_BYTE)`guard variable for'GameserverService::getGameThreadLocal(void)::empty_thread_local
-    && __cxa_guard_acquire(&`guard variable for'GameserverService::getGameThreadLocal(void)::empty_thread_local) )
+  if ( !(_BYTE)`guard variable for GameserverService::getGameThreadLocal(void)::empty_thread_local
+    && __cxa_guard_acquire(&`guard variable for GameserverService::getGameThreadLocal(void)::empty_thread_local) )
   {
     GameThreadLocal::GameThreadLocal(&GameserverService::getGameThreadLocal(void)::empty_thread_local);
-    __cxa_guard_release(&`guard variable for'GameserverService::getGameThreadLocal(void)::empty_thread_local);
+    __cxa_guard_release(&`guard variable for GameserverService::getGameThreadLocal(void)::empty_thread_local);
     __cxa_atexit(
       (void (__fastcall *)(void *))GameThreadLocal::~GameThreadLocal,
       &GameserverService::getGameThreadLocal(void)::empty_thread_local,
@@ -3587,11 +3587,11 @@ std::vector<GameThreadLocal>::reference __fastcall GameserverService::getGameThr
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = thread_index;
-  if ( !(_BYTE)`guard variable for'GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local
-    && __cxa_guard_acquire(&`guard variable for'GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local) )
+  if ( !(_BYTE)`guard variable for GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local
+    && __cxa_guard_acquire(&`guard variable for GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local) )
   {
     GameThreadLocal::GameThreadLocal(&GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local);
-    __cxa_guard_release(&`guard variable for'GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local);
+    __cxa_guard_release(&`guard variable for GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local);
     __cxa_atexit(
       (void (__fastcall *)(void *))GameThreadLocal::~GameThreadLocal,
       &GameserverService::getGameThreadLocal(unsigned int)::empty_thread_local,

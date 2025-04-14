@@ -6,7 +6,7 @@ void __cdecl BaseHomeGallery::~BaseHomeGallery(BaseHomeGallery *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseHomeGallery + 2);
+  v2 = (int (**)(...))(&`vtable for BaseHomeGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseGallery = v2;
@@ -39,7 +39,7 @@ void __cdecl BaseHomeGallery::BaseHomeGallery(BaseHomeGallery *const this, Scene
   int (**v3)(...); // rdx
 
   BaseGallery::BaseGallery(this, scene, gallery_id);
-  v3 = (int (**)(...))(&`vtable for'BaseHomeGallery + 2);
+  v3 = (int (**)(...))(&`vtable for BaseHomeGallery + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_BaseGallery = v3;

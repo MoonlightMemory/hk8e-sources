@@ -5,7 +5,7 @@ void __cdecl EquipComp::~EquipComp(EquipComp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EquipComp + 2);
+  v1 = (int (**)(...))(&`vtable for EquipComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -34,7 +34,7 @@ void __cdecl ZN9EquipCompCI214AvatarCompBaseER6Avatar(EquipComp *const this, Ava
   int (**v2)(...); // rdx
 
   AvatarCompBase::AvatarCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EquipComp + 2);
+  v2 = (int (**)(...))(&`vtable for EquipComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

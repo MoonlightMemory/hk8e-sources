@@ -5,7 +5,7 @@ void __cdecl MonsterEnvAnimalComp::~MonsterEnvAnimalComp(MonsterEnvAnimalComp *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MonsterEnvAnimalComp + 2);
+  v1 = (int (**)(...))(&`vtable for MonsterEnvAnimalComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MonsterCompBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ZN20MonsterEnvAnimalCompCI215MonsterCompBaseER7Monster(MonsterEnvAn
   int (**v2)(...); // rdx
 
   MonsterCompBase::MonsterCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'MonsterEnvAnimalComp + 2);
+  v2 = (int (**)(...))(&`vtable for MonsterEnvAnimalComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MonsterCompBase = v2;

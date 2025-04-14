@@ -858,7 +858,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         IRODORI_CHESS_CARD_EFFECT_ADD_TARGET_GEAR_NUM);
       std::type_index::type_index(
         &WidgetBackground::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetBackground);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetBackground);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetBackground::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetBackground::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetBackground,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -866,7 +866,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetBackground::widget_type);
       std::type_index::type_index(
         &WidgetFishing::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetFishing);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetFishing);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetFishing::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetFishing::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetFishing,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -874,7 +874,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetFishing::widget_type);
       std::type_index::type_index(
         &WidgetCamera::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyCamera);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyCamera);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetCamera::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetCamera::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetCamera,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -882,7 +882,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetCamera::widget_type);
       std::type_index::type_index(
         &WidgetCaptureAnimal::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetCaptureAnimal);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetCaptureAnimal);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetCaptureAnimal::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetCaptureAnimal::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetCaptureAnimal,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -890,7 +890,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetCaptureAnimal::widget_type);
       std::type_index::type_index(
         &WidgetClientCollector::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyClintCollector);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyClintCollector);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetClientCollector::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetClientCollector::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetClientCollector,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -898,7 +898,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetClientCollector::widget_type);
       std::type_index::type_index(
         &WidgetClientDetector::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyClintDetector);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyClintDetector);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetClientDetector::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetClientDetector::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetClientDetector,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -906,7 +906,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetClientDetector::widget_type);
       std::type_index::type_index(
         &WidgetCoinCollect::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetCoinCollect);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetCoinCollect);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetCoinCollect::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetCoinCollect::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetCoinCollect,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -914,7 +914,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetCoinCollect::widget_type);
       std::type_index::type_index(
         &WidgetDigScanner::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetDigScanner);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetDigScanner);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetDigScanner::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetDigScanner::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetDigScanner,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -922,7 +922,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetDigScanner::widget_type);
       std::type_index::type_index(
         &WidgetFireworksLauncher::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetFireworksLauncher);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetFireworksLauncher);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetFireworksLauncher::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetFireworksLauncher::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetFireworksLauncher,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -930,7 +930,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetFireworksLauncher::widget_type);
       std::type_index::type_index(
         &WidgetGadgetBuilder::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyGadgetBuilder);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyGadgetBuilder);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetGadgetBuilder::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetGadgetBuilder::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetGadgetBuilder,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -938,7 +938,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetGadgetBuilder::widget_type);
       std::type_index::type_index(
         &WidgetTeapotCreator::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyAdeptiAbode);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyAdeptiAbode);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetTeapotCreator::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetTeapotCreator::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetTeapotCreator,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -946,7 +946,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetTeapotCreator::widget_type);
       std::type_index::type_index(
         &WidgetLightStone::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetLightStone);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetLightStone);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetLightStone::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetLightStone::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetLightStone,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -954,7 +954,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetLightStone::widget_type);
       std::type_index::type_index(
         &WidgetLunchBox::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyLunchBox);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyLunchBox);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetLunchBox::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetLunchBox::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetLunchBox,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -962,7 +962,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetLunchBox::widget_type);
       std::type_index::type_index(
         &WidgetOneoffGatherPointDetector::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyOneoffGatherPointDetector);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyOneoffGatherPointDetector);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetOneoffGatherPointDetector::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetOneoffGatherPointDetector::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetOneoffGatherPointDetector,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -970,7 +970,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetOneoffGatherPointDetector::widget_type);
       std::type_index::type_index(
         &WidgetOpenPage::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyOpenPage);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyOpenPage);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetOpenPage::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetOpenPage::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetOpenPage,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -978,7 +978,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetOpenPage::widget_type);
       std::type_index::type_index(
         &WidgetQuickHitTree::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyHitTree);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyHitTree);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetQuickHitTree::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetQuickHitTree::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetQuickHitTree,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -986,7 +986,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetQuickHitTree::widget_type);
       std::type_index::type_index(
         &WidgetRockBoardDetector::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetRockBoardDetector);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetRockBoardDetector);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetRockBoardDetector::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetRockBoardDetector::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetRockBoardDetector,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -994,7 +994,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetRockBoardDetector::widget_type);
       std::type_index::type_index(
         &WidgetScanCamera::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetScanCamera);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetScanCamera);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetScanCamera::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetScanCamera::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetScanCamera,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1002,7 +1002,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetScanCamera::widget_type);
       std::type_index::type_index(
         &WidgetTakePhoto::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyTakePhoto);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyTakePhoto);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetTakePhoto::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetTakePhoto::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetTakePhoto,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1010,7 +1010,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetTakePhoto::widget_type);
       std::type_index::type_index(
         &WidgetThunderBirdFeather::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyFeather);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyFeather);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetThunderBirdFeather::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetThunderBirdFeather::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetThunderBirdFeather,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1018,7 +1018,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetThunderBirdFeather::widget_type);
       std::type_index::type_index(
         &WidgetToyCrystal::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyCrystal);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyCrystal);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetToyCrystal::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetToyCrystal::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetToyCrystal,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1026,7 +1026,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetToyCrystal::widget_type);
       std::type_index::type_index(
         &WidgetToyInstrument::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyInstrument);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyInstrument);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetToyInstrument::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetToyInstrument::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetToyInstrument,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1034,7 +1034,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetToyInstrument::widget_type);
       std::type_index::type_index(
         &WidgetTreasureMapDetector::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyTreasureMapDetector);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetToyTreasureMapDetector);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetTreasureMapDetector::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetTreasureMapDetector::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetTreasureMapDetector,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1042,7 +1042,7 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetTreasureMapDetector::widget_type);
       std::type_index::type_index(
         &WidgetUseAttachAbilityTrigger::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetUseAttachAbilityTrigger);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetUseAttachAbilityTrigger);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetUseAttachAbilityTrigger::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetUseAttachAbilityTrigger::widget_type);
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetUseAttachAbilityTrigger,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
@@ -1050,30 +1050,30 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         WidgetUseAttachAbilityTrigger::widget_type);
       std::type_index::type_index(
         &WidgetWeatherWizard::widget_type,
-        (const std::type_info *)&`typeinfo for'data::ConfigWidgetWeatherWizard);
+        (const std::type_info *)&`typeinfo for data::ConfigWidgetWeatherWizard);
       if ( *(_BYTE *)(((unsigned __int64)&WidgetWeatherWizard::widget_type >> 3) + 0x7FFF8000) )
         __asan_report_load8(&WidgetWeatherWizard::widget_type);
       M_target = WidgetWeatherWizard::widget_type._M_target;
       common::tools::FactoryRegister<WidgetBase,std::type_index,WidgetWeatherWizard,PlayerWidgetComp &,Player &,unsigned int>::FactoryRegister(
         &WeatherWizard_register,
         WidgetWeatherWizard::widget_type);
-      v12 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+      v12 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
       }
       if ( !*v12 )
       {
-        v13 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-        v14 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+        v13 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+        v14 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v14 != 0;
-        v15 = (v14 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v14);
+        v15 = (v14 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v14);
         if ( (_BYTE)v15 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
+            &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
             M_target,
             v15);
         *v13 = 1;
@@ -1084,23 +1084,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
           &_dso_handle);
       }
-      v16 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+      v16 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
       }
       if ( !*v16 )
       {
-        v17 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-        v18 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+        v17 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+        v18 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v18 != 0;
-        v19 = (v18 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v18);
+        v19 = (v18 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v18);
         if ( (_BYTE)v19 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
+            &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
             M_target,
             v19);
         *v17 = 1;
@@ -1110,23 +1110,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
           &_dso_handle);
       }
-      v20 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v20 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v20 )
       {
-        v21 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v22 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v21 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v22 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v22 != 0;
-        v23 = (v22 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v22);
+        v23 = (v22 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v22);
         if ( (_BYTE)v23 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             M_target,
             v23);
         *v21 = 1;
@@ -1136,23 +1136,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           __asan_report_store8(&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero, M_target);
         common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = v24;
       }
-      v25 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+      v25 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
       }
       if ( !*v25 )
       {
-        v26 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-        v27 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+        v26 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+        v27 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v27 != 0;
-        v28 = (v27 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v27);
+        v28 = (v27 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v27);
         if ( (_BYTE)v28 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
+            &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
             M_target,
             v28);
         *v26 = 1;
@@ -1163,23 +1163,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
           &_dso_handle);
       }
-      v29 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+      v29 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
       }
       if ( !*v29 )
       {
-        v30 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-        v31 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+        v30 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+        v31 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v31 != 0;
-        v32 = (v31 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v31);
+        v32 = (v31 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v31);
         if ( (_BYTE)v32 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
+            &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
             M_target,
             v32);
         *v30 = 1;
@@ -1190,23 +1190,23 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
           &_dso_handle);
       }
-      v33 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+      v33 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
       }
       if ( !*v33 )
       {
-        v34 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-        v35 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+        v34 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+        v35 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(M_target) = v35 != 0;
-        v36 = (v35 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v35);
+        v36 = (v35 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v35);
         if ( (_BYTE)v36 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
             M_target,
             v36);
         *v34 = 1;

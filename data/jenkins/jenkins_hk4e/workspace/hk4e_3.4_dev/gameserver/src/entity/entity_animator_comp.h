@@ -5,7 +5,7 @@ void __cdecl EntityAnimatorComp::~EntityAnimatorComp(EntityAnimatorComp *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EntityAnimatorComp + 2);
+  v1 = (int (**)(...))(&`vtable for EntityAnimatorComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EntityCompBase = v1;
@@ -28,7 +28,7 @@ void __cdecl ZN18EntityAnimatorCompCI214EntityCompBaseER6Entity(EntityAnimatorCo
   int (**v2)(...); // rdx
 
   EntityCompBase::EntityCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'EntityAnimatorComp + 2);
+  v2 = (int (**)(...))(&`vtable for EntityAnimatorComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EntityCompBase = v2;

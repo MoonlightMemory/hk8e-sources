@@ -14,7 +14,7 @@ void __cdecl BaseRegionalPlay::BaseRegionalPlay(
   __int64 v8; // rdx
 
   std::enable_shared_from_this<BaseRegionalPlay>::enable_shared_from_this(&this->std::enable_shared_from_this<BaseRegionalPlay>);
-  v4 = (int (**)(...))(&`vtable for'BaseRegionalPlay + 2);
+  v4 = (int (**)(...))(&`vtable for BaseRegionalPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_BaseRegionalPlay = v4;
@@ -54,7 +54,7 @@ void __cdecl BaseRegionalPlay::~BaseRegionalPlay(BaseRegionalPlay *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseRegionalPlay + 2);
+  v2 = (int (**)(...))(&`vtable for BaseRegionalPlay + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseRegionalPlay = v2;

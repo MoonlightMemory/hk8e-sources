@@ -42,7 +42,7 @@ void __cdecl RockBoardExploreActivity::~RockBoardExploreActivity(RockBoardExplor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'RockBoardExploreActivity + 2);
+  v2 = (int (**)(...))(&`vtable for RockBoardExploreActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1, v2);
   this->_vptr_DescribalBase = v2;
@@ -67,7 +67,7 @@ void __cdecl RockBoardExploreActivity::RockBoardExploreActivity(
   int (**v3)(...); // rdx
 
   BaseActivity::BaseActivity(this, player, activity_id);
-  v3 = (int (**)(...))(&`vtable for'RockBoardExploreActivity + 2);
+  v3 = (int (**)(...))(&`vtable for RockBoardExploreActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player, v3);
   this->_vptr_DescribalBase = v3;

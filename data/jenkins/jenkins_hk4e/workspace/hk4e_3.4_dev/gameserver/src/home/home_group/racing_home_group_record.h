@@ -12,7 +12,7 @@ void __cdecl RacingHomePlaySettleInfo::~RacingHomePlaySettleInfo(RacingHomePlayS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RacingHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for RacingHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -26,7 +26,7 @@ void __cdecl RacingHomePlaySettleInfo::RacingHomePlaySettleInfo(RacingHomePlaySe
   int (**v1)(...); // rdx
 
   BaseHomePlaySettleInfo::BaseHomePlaySettleInfo(this);
-  v1 = (int (**)(...))(&`vtable for'RacingHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for RacingHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -44,7 +44,7 @@ void __cdecl RacingHomePlayRankInfo::~RacingHomePlayRankInfo(RacingHomePlayRankI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RacingHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for RacingHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -64,7 +64,7 @@ void __cdecl RacingHomePlayRankInfo::RacingHomePlayRankInfo(RacingHomePlayRankIn
   int (**v1)(...); // rdx
 
   BaseHomePlayRankInfo::BaseHomePlayRankInfo(this);
-  v1 = (int (**)(...))(&`vtable for'RacingHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for RacingHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -213,7 +213,7 @@ void __cdecl RacingHomeGroupRecord::~RacingHomeGroupRecord(RacingHomeGroupRecord
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RacingHomeGroupRecord + 2);
+  v1 = (int (**)(...))(&`vtable for RacingHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v1;
@@ -227,7 +227,7 @@ void __cdecl RacingHomeGroupRecord::RacingHomeGroupRecord(RacingHomeGroupRecord 
   int (**v2)(...); // rdx
 
   BaseHomeGroupRecord::BaseHomeGroupRecord(this, group_id);
-  v2 = (int (**)(...))(&`vtable for'RacingHomeGroupRecord + 2);
+  v2 = (int (**)(...))(&`vtable for RacingHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v2;

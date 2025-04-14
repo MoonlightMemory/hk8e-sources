@@ -5,7 +5,7 @@ void __cdecl StakeHomePlaySettleInfo::~StakeHomePlaySettleInfo(StakeHomePlaySett
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'StakeHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for StakeHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -26,7 +26,7 @@ void __cdecl StakeHomePlaySettleInfo::StakeHomePlaySettleInfo(StakeHomePlaySettl
   int (**v1)(...); // rdx
 
   BaseHomePlaySettleInfo::BaseHomePlaySettleInfo(this);
-  v1 = (int (**)(...))(&`vtable for'StakeHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for StakeHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -88,7 +88,7 @@ void __cdecl StakeHomeGroupRecord::~StakeHomeGroupRecord(StakeHomeGroupRecord *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'StakeHomeGroupRecord + 2);
+  v1 = (int (**)(...))(&`vtable for StakeHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v1;
@@ -109,7 +109,7 @@ void __cdecl StakeHomeGroupRecord::StakeHomeGroupRecord(StakeHomeGroupRecord *co
   int (**v2)(...); // rdx
 
   BaseHomeGroupRecord::BaseHomeGroupRecord(this, group_id);
-  v2 = (int (**)(...))(&`vtable for'StakeHomeGroupRecord + 2);
+  v2 = (int (**)(...))(&`vtable for StakeHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v2;

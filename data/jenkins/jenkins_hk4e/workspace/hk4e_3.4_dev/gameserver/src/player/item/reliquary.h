@@ -6,7 +6,7 @@ void __cdecl Reliquary::~Reliquary(Reliquary *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'Reliquary + 2);
+  v2 = (int (**)(...))(&`vtable for Reliquary + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_Item = v2;
@@ -52,7 +52,7 @@ void __fastcall ZN9ReliquaryCI24ItemEjj(Reliquary *const this, int a2, int a3)
   *(_DWORD *)(v3 + 64) = a3;
   v6 = *(unsigned int *)(v3 + 48);
   ZN5EquipCI24ItemEjj((Equip *const)this, v6, *(_DWORD *)(v3 + 64));
-  v7 = (int (**)(...))(&`vtable for'Reliquary + 2);
+  v7 = (int (**)(...))(&`vtable for Reliquary + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v6);
   this->_vptr_Item = v7;

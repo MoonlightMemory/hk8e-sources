@@ -457,7 +457,7 @@ void __cdecl DungeonCondInTime::DungeonCondInTime(
   int (**v4)(...); // rdx
 
   DungeonCondition::DungeonCondition((DungeonCondition *const)this, cond_config, cond_index, dungeon_scene);
-  v4 = (int (**)(...))(&`vtable for'DungeonCondInTime + 2);
+  v4 = (int (**)(...))(&`vtable for DungeonCondInTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonCondition = v4;

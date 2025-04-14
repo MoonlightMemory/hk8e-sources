@@ -6,7 +6,7 @@ void __cdecl GridMgr::~GridMgr(GridMgr *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GridMgr + 2);
+  v2 = (int (**)(...))(&`vtable for GridMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -22,7 +22,7 @@ void __cdecl GridMgr::GridMgr(GridMgr *const this, data::VisionLevelType range_t
   bool v5; // dl
 
   common::milog::DescribalBase::DescribalBase(this);
-  v3 = (int (**)(...))(&`vtable for'GridMgr + 2);
+  v3 = (int (**)(...))(&`vtable for GridMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&range_type);
   this->_vptr_DescribalBase = v3;

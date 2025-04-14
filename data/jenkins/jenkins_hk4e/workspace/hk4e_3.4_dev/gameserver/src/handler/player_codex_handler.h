@@ -5,7 +5,7 @@ void __cdecl CodexHandler::~CodexHandler(CodexHandler *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CodexHandler + 2);
+  v1 = (int (**)(...))(&`vtable for CodexHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerHandlerBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ZN12CodexHandlerCI217PlayerHandlerBaseER6Player(CodexHandler *const
   int (**v2)(...); // rdx
 
   PlayerHandlerBase::PlayerHandlerBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'CodexHandler + 2);
+  v2 = (int (**)(...))(&`vtable for CodexHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerHandlerBase = v2;

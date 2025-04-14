@@ -19,7 +19,7 @@ void __cdecl PlayerGmComp::~PlayerGmComp(PlayerGmComp *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCompBase = v2;
@@ -49,7 +49,7 @@ void __cdecl ZN12PlayerGmCompCI214PlayerCompBaseER6Player(PlayerGmComp *const th
   Player *player; // rsi
 
   PlayerCompBase::PlayerCompBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerCompBase = v2;
@@ -111,7 +111,7 @@ void __cdecl PlayerGmComp::GmSetValue<unsigned int>::GmSetValue(PlayerGmComp::Gm
   int (**v2)(...); // rdx
 
   PlayerGmComp::GmValueBase::GmValueBase(this);
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<unsigned int> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<unsigned int> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -123,7 +123,7 @@ void __cdecl PlayerGmComp::GmValueBase::GmValueBase(PlayerGmComp::GmValueBase *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmValueBase + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmValueBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -135,7 +135,7 @@ void __cdecl PlayerGmComp::GmValueBase::~GmValueBase(PlayerGmComp::GmValueBase *
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmValueBase + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmValueBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -161,7 +161,7 @@ void __cdecl PlayerGmComp::GmSetValue<bool>::~GmSetValue(PlayerGmComp::GmSetValu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<bool> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<bool> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -175,7 +175,7 @@ void __cdecl PlayerGmComp::GmSetValue<float>::GmSetValue(PlayerGmComp::GmSetValu
   int (**v2)(...); // rdx
 
   PlayerGmComp::GmValueBase::GmValueBase(this);
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<float> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<float> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -194,7 +194,7 @@ void __cdecl PlayerGmComp::GmSetValue<float>::~GmSetValue(PlayerGmComp::GmSetVal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<float> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<float> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -209,7 +209,7 @@ void __cdecl PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>>::GmSetVa
   int (**v2)(...); // rdx
 
   PlayerGmComp::GmValueBase::GmValueBase(this);
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -231,7 +231,7 @@ void __cdecl PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>>::~GmSetV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<std::unordered_set<unsigned int>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -245,7 +245,7 @@ void __cdecl PlayerGmComp::GmSetValue<unsigned int>::~GmSetValue(PlayerGmComp::G
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<unsigned int> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<unsigned int> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;
@@ -765,11 +765,11 @@ std::unordered_set<unsigned int> *__fastcall PlayerGmComp::GmValueContainer::get
   v5[536862722] = -218959360;
   v5[536862723] = -202178560;
   *(_DWORD *)(v3 + 48) = key;
-  if ( !(_BYTE)`guard variable for'std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value
-    && __cxa_guard_acquire(&`guard variable for'std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value) )
+  if ( !(_BYTE)`guard variable for std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value
+    && __cxa_guard_acquire(&`guard variable for std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value) )
   {
     std::unordered_set<unsigned int>::unordered_set(&PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value);
-    __cxa_guard_release(&`guard variable for'std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value);
+    __cxa_guard_release(&`guard variable for std::unordered_set<unsigned int> PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
       &PlayerGmComp::GmValueContainer::getValue<std::unordered_set<unsigned int>>(unsigned int)::t_value,
@@ -911,7 +911,7 @@ void __cdecl PlayerGmComp::GmSetValue<bool>::GmSetValue(PlayerGmComp::GmSetValue
   int (**v2)(...); // rdx
 
   PlayerGmComp::GmValueBase::GmValueBase(this);
-  v2 = (int (**)(...))(&`vtable for'PlayerGmComp::GmSetValue<bool> + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerGmComp::GmSetValue<bool> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GmValueBase = v2;

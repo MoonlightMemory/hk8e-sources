@@ -50,7 +50,7 @@ void __cdecl Monster::~Monster(Monster *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'Monster + 2;
+  v1 = &`vtable for Monster + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -74,7 +74,7 @@ void __cdecl Monster::Monster(Monster *const this, uint32_t monster_id)
 
   Creature::Creature(this);
   EcsBase<Monster,MonsterCompBase,4u>::EcsBase(&this->EcsBase<Monster,MonsterCompBase,4>);
-  v2 = &`vtable for'Monster + 2;
+  v2 = &`vtable for Monster + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v2;

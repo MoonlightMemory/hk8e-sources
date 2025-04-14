@@ -11904,195 +11904,68 @@ bool __cdecl PlayerBasicComp::isGameNightHour(PlayerBasicComp *const this)
 };
 
 // Line 2634: range 00000000171C765C-00000000171C7EAF
-void __fastcall PlayerBasicComp::checkAndUpdateClientTotalTickTime(
-        PlayerBasicComp *const this,
-        double client_total_tick_time)
-{
-  unsigned __int64 v2; // r12
-  __int64 v3; // rax
-  _DWORD *v4; // r13
-  uint64_t NowMs; // rax
-  double v6; // xmm0_8
-  double v7; // xmm0_8
-  uint32_t client_total_tick_time_anticheat_log_count; // ecx
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v9; // rcx
-  double v10; // xmm0_8
-  unsigned __int64 v11; // rax
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v12; // rcx
-  double v13; // xmm0_8
-  unsigned __int64 v14; // rax
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v15; // rdx
-  double v16; // xmm0_8
-  unsigned __int64 v17; // rax
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v18; // rdx
-  double v19; // xmm0_8
-  unsigned __int64 v20; // rax
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v21; // rcx
-  double v22; // xmm0_8
-  unsigned __int64 v23; // rax
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v24; // rcx
-  std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v25; // rcx
-  double v26; // xmm0_8
-  Player *player; // r14
-  double v28; // xmm0_8
-  double pivot_unix_time; // xmm1_8
-  double *v30; // rax
-  double v31; // xmm0_8
-  double unix_time; // [rsp+10h] [rbp-B0h]
-  ClientTotalTickTimeConfig *config; // [rsp+18h] [rbp-A8h]
-  std::shared_ptr<google::protobuf::Message> v34; // [rsp+20h] [rbp-A0h] BYREF
-  char v35[144]; // [rsp+30h] [rbp-90h] BYREF
+#include <memory>
+#include <string>
+#include <common/tools/time_utils.h>
+#include <service_box/service_box.h>
+#include <gameserver_service/gameserver_service.h>
+#include <config/config.h>
+#include <common/tools/perf.h>
+#include <proto_log/anti_cheat_body_client_tick_time_check_fail.h>
+#include <player/player.h>
 
-  v2 = (unsigned __int64)v35;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_1(96LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "2 32 8 27 client_total_tick_time:2633 64 16 12 log_ptr:2646";
-  *(_QWORD *)(v2 + 16) = PlayerBasicComp::checkAndUpdateClientTotalTickTime;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -218959360;
-  v4[536862722] = -202178560;
-  *(double *)(v2 + 32) = client_total_tick_time;
-  if ( *(double *)(v2 + 32) != 0.0 )
-  {
-    NowMs = common::tools::TimeUtils::getNowMs();
-    if ( (NowMs & 0x8000000000000000LL) != 0LL )
-      v6 = (double)(int)(NowMs & 1 | (NowMs >> 1)) + (double)(int)(NowMs & 1 | (NowMs >> 1));
-    else
-      v6 = (double)(int)NowMs;
-    unix_time = v6 * 0.001;
-    ServiceBox::findService<GameserverService>();
-    GameserverService::getConfig((GameserverService *const)&v34);
-    config = &std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v34)->security_config.client_total_tick_time_config;
-    std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)&v34);
-    if ( *(_BYTE *)(((unsigned __int64)&this->pivot_client_time_ >> 3) + 0x7FFF8000) )
-      __asan_report_load8(&this->pivot_client_time_);
-    if ( this->pivot_client_time_ > *(double *)(v2 + 32) )
-      goto LABEL_14;
-    v7 = *(double *)(v2 + 32) - this->pivot_client_time_;
-    if ( *(_BYTE *)(((unsigned __int64)&this->pivot_unix_time_ >> 3) + 0x7FFF8000) )
-      v7 = __asan_report_load8(&this->pivot_unix_time_);
-    if ( v7 > unix_time - this->pivot_unix_time_ )
-    {
+namespace {
+
+using namespace common::tools;
+using namespace service_box;
+using namespace gameserver_service;
+using namespace config;
+using namespace common::tools::perf;
+using namespace proto_log;
+using namespace player;
+
+} // namespace
+
+void PlayerBasicComp::checkAndUpdateClientTotalTickTime(double client_total_tick_time) {
+    if (client_total_tick_time == 0.0) {
+      return;
+    }
+    uint64_t now_ms = TimeUtils::getNowMs();
+    double unix_time = now_ms * 0.001;
+
+    auto config_ptr = ServiceBox::findService<GameserverService>()->getConfig();
+    const ClientTotalTickTimeConfig& config = config_ptr->security_config.client_total_tick_time_config;
+
+    if (pivot_client_time_ > client_total_tick_time) {
+        goto LABEL_14;
+    }
+
+    double delta_client_time = client_total_tick_time - pivot_client_time_;
+    if (delta_client_time > unix_time - pivot_unix_time_) {
 LABEL_14:
-      if ( *(_BYTE *)(((unsigned __int64)&this->client_total_tick_time_anticheat_log_count_ >> 3) + 0x7FFF8000) != 0
-        && *(_BYTE *)(((unsigned __int64)&this->client_total_tick_time_anticheat_log_count_ >> 3) + 0x7FFF8000) <= 3 )
-      {
-        __asan_report_load4(&this->client_total_tick_time_anticheat_log_count_);
-      }
-      client_total_tick_time_anticheat_log_count = this->client_total_tick_time_anticheat_log_count_;
-      if ( *(_BYTE *)(((unsigned __int64)&config->anticheat_log_limit >> 3) + 0x7FFF8000) != 0
-        && *(_BYTE *)(((unsigned __int64)&config->anticheat_log_limit >> 3) + 0x7FFF8000) <= 3 )
-      {
-        __asan_report_load4(&config->anticheat_log_limit);
-      }
-      if ( client_total_tick_time_anticheat_log_count < config->anticheat_log_limit )
-      {
-        ++this->client_total_tick_time_anticheat_log_count_;
-        common::tools::perf::make_shared<proto_log::AntiCheatBodyClientTickTimeCheckFail>();
-        v9 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        if ( *(_BYTE *)(((unsigned __int64)&this->pivot_client_time_ >> 3) + 0x7FFF8000) )
-          __asan_report_load8(&this->pivot_client_time_);
-        v10 = 1000.0 * this->pivot_client_time_;
-        if ( v10 >= 9.223372036854776e18 )
-          v11 = (unsigned int)(int)(v10 - 9.223372036854776e18) ^ 0x8000000000000000LL;
-        else
-          v11 = (unsigned int)(int)v10;
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_pivot_client_time(v9, v11);
-        v12 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        if ( *(_BYTE *)(((unsigned __int64)&this->pivot_unix_time_ >> 3) + 0x7FFF8000) )
-          __asan_report_load8(&this->pivot_unix_time_);
-        v13 = 1000.0 * this->pivot_unix_time_;
-        if ( v13 >= 9.223372036854776e18 )
-          v14 = (unsigned int)(int)(v13 - 9.223372036854776e18) ^ 0x8000000000000000LL;
-        else
-          v14 = (unsigned int)(int)v13;
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_pivot_unix_time(v12, v14);
-        v15 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        v16 = 1000.0 * *(double *)(v2 + 32);
-        if ( v16 >= 9.223372036854776e18 )
-          v17 = (unsigned int)(int)(v16 - 9.223372036854776e18) ^ 0x8000000000000000LL;
-        else
-          v17 = (unsigned int)(int)v16;
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_client_total_tick_time(v15, v17);
-        v18 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        v19 = 1000.0 * unix_time;
-        if ( 1000.0 * unix_time >= 9.223372036854776e18 )
-          v20 = (unsigned int)(int)(v19 - 9.223372036854776e18) ^ 0x8000000000000000LL;
-        else
-          v20 = (unsigned int)(int)v19;
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_unix_time(v18, v20);
-        v21 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        if ( *(_BYTE *)(((unsigned __int64)config >> 3) + 0x7FFF8000) )
-          __asan_report_load8(config);
-        v22 = 1000.0 * config->max_delay_time;
-        if ( v22 >= 9.223372036854776e18 )
-          v23 = (unsigned int)(int)(v22 - 9.223372036854776e18) ^ 0x8000000000000000LL;
-        else
-          v23 = (unsigned int)(int)v22;
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_total_tick_max_delay_time(v21, v23);
-        v24 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        if ( *(_BYTE *)(((unsigned __int64)&this->pivot_unix_time_ >> 3) + 0x7FFF8000) )
-          __asan_report_load8(&this->pivot_unix_time_);
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_delta_server_time(
-          v24,
-          (unsigned int)(int)(1000.0 * (unix_time - this->pivot_unix_time_)));
-        v25 = std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<proto_log::AntiCheatBodyClientTickTimeCheckFail,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        v26 = *(double *)(v2 + 32);
-        if ( *(_BYTE *)(((unsigned __int64)&this->pivot_client_time_ >> 3) + 0x7FFF8000) )
-          v26 = __asan_report_load8(&this->pivot_client_time_);
-        proto_log::AntiCheatBodyClientTickTimeCheckFail::set_delta_client_time(
-          v25,
-          (unsigned int)(int)(1000.0 * (v26 - this->pivot_client_time_)));
-        if ( *(_BYTE *)(((unsigned __int64)&this->player_ >> 3) + 0x7FFF8000) )
-          __asan_report_load8(&this->player_);
-        player = this->player_;
-        std::shared_ptr<google::protobuf::Message>::shared_ptr<proto_log::AntiCheatBodyClientTickTimeCheckFail,void>(
-          &v34,
-          (const std::shared_ptr<proto_log::AntiCheatBodyClientTickTimeCheckFail> *)(v2 + 64));
-        Player::printAntiCheatLog(player, ANTI_CHEAT_ACTION_CLIENT_TICK_TIME_CHECK_FAIL, &v34);
-        std::shared_ptr<google::protobuf::Message>::~shared_ptr(&v34);
-        std::shared_ptr<proto_log::AntiCheatBodyClientTickTimeCheckFail>::~shared_ptr((std::shared_ptr<proto_log::AntiCheatBodyClientTickTimeCheckFail> *const)(v2 + 64));
-      }
+        if (client_total_tick_time_anticheat_log_count_ < config.anticheat_log_limit) {
+            ++client_total_tick_time_anticheat_log_count_;
+
+            auto log_body = std::make_shared<AntiCheatBodyClientTickTimeCheckFail>();
+            log_body->set_pivot_client_time(static_cast<uint32_t>(pivot_client_time_ * 1000.0));
+            log_body->set_pivot_unix_time(static_cast<uint32_t>(pivot_unix_time_ * 1000.0));
+            log_body->set_client_total_tick_time(static_cast<uint32_t>(client_total_tick_time * 1000.0));
+            log_body->set_unix_time(static_cast<uint32_t>(unix_time * 1000.0));
+            log_body->set_total_tick_max_delay_time(static_cast<uint32_t>(config.max_delay_time * 1000.0));
+            log_body->set_delta_server_time(static_cast<uint32_t>((unix_time - pivot_unix_time_) * 1000.0));
+            log_body->set_delta_client_time(static_cast<uint32_t>((client_total_tick_time - pivot_client_time_) * 1000.0));
+
+            Player::printAntiCheatLog(player_, ANTI_CHEAT_ACTION_CLIENT_TICK_TIME_CHECK_FAIL, log_body);
+        }
     }
-    if ( *(_BYTE *)(((unsigned __int64)config >> 3) + 0x7FFF8000) )
-      __asan_report_load8(config);
-    v28 = unix_time - config->max_delay_time - *(double *)(v2 + 32);
-    if ( *(_BYTE *)(((unsigned __int64)&this->pivot_unix_time_ >> 3) + 0x7FFF8000) )
-      v28 = __asan_report_load8(&this->pivot_unix_time_);
-    pivot_unix_time = this->pivot_unix_time_;
-    if ( *(_BYTE *)(((unsigned __int64)&this->pivot_client_time_ >> 3) + 0x7FFF8000) )
-      v28 = __asan_report_load8(&this->pivot_client_time_);
-    if ( v28 >= pivot_unix_time - this->pivot_client_time_ )
-    {
-      this->pivot_unix_time_ = unix_time - config->max_delay_time;
-      this->pivot_client_time_ = *(double *)(v2 + 32);
+
+    if (unix_time - config.max_delay_time - client_total_tick_time >= pivot_unix_time_ - pivot_client_time_) {
+        pivot_unix_time_ = unix_time - config.max_delay_time;
+        pivot_client_time_ = client_total_tick_time;
     }
-    v30 = (double *)std::max<double>(&this->client_total_tick_time_, (const double *)(v2 + 32));
-    if ( *(_BYTE *)(((unsigned __int64)v30 >> 3) + 0x7FFF8000) )
-      __asan_report_load8(v30);
-    v31 = *v30;
-    if ( *(_BYTE *)(((unsigned __int64)&this->client_total_tick_time_ >> 3) + 0x7FFF8000) )
-      __asan_report_store8(&this->client_total_tick_time_, v2 + 32);
-    this->client_total_tick_time_ = v31;
-  }
-  if ( v35 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8008) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8008) = -168430091;
-  }
-};
+
+    client_total_tick_time_ = std::max(client_total_tick_time_, client_total_tick_time_);
+}
 
 // Line 2666: range 00000000171C7EB0-00000000171C85E9
 int32_t __cdecl PlayerBasicComp::onChangeNickName(PlayerBasicComp *const this, const proto::SetPlayerNameReq *req)

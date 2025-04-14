@@ -5,7 +5,7 @@ void __cdecl Npc::~Npc(Npc *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Npc + 2);
+  v1 = (int (**)(...))(&`vtable for Npc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -59,7 +59,7 @@ void __cdecl Npc::Npc(Npc *const this, uint32_t npc_id)
   int (**v2)(...); // rdx
 
   Entity::Entity((Entity *const)this);
-  v2 = (int (**)(...))(&`vtable for'Npc + 2);
+  v2 = (int (**)(...))(&`vtable for Npc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;

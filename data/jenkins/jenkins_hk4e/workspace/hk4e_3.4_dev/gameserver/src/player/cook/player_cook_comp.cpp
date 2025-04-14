@@ -5965,7 +5965,7 @@ LABEL_25:
         common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&v84);
         goto LABEL_133;
       }
-      *(_QWORD *)(v3 + 192) = &`vtable for'data::IdCountConfig + 2;
+      *(_QWORD *)(v3 + 192) = &`vtable for data::IdCountConfig + 2;
       *(_DWORD *)(v3 + 200) = 0;
       *(_DWORD *)(v3 + 204) = 0;
       if ( *(_BYTE *)(((unsigned __int64)&input_item->id >> 3) + 0x7FFF8000) != 0
@@ -6107,7 +6107,7 @@ LABEL_53:
           common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&v84);
           goto LABEL_132;
         }
-        *(_QWORD *)(v3 + 192) = &`vtable for'data::IdCountConfig + 2;
+        *(_QWORD *)(v3 + 192) = &`vtable for data::IdCountConfig + 2;
         *(_DWORD *)(v3 + 200) = 0;
         *(_DWORD *)(v3 + 204) = 0;
         if ( *(_BYTE *)(((unsigned __int64)&output_item->id >> 3) + 0x7FFF8000) != 0

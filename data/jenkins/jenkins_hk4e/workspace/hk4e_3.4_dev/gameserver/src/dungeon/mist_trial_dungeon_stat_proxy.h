@@ -5,7 +5,7 @@ void __cdecl MistTrialDungeonStatProxy::MistTrialDungeonStatProxy(MistTrialDunge
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MistTrialDungeonStatProxy + 2);
+  v1 = (int (**)(...))(&`vtable for MistTrialDungeonStatProxy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MistTrialDungeonStatProxy = v1;
@@ -53,7 +53,7 @@ void __cdecl MistTrialDungeonStatProxy::~MistTrialDungeonStatProxy(MistTrialDung
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MistTrialDungeonStatProxy + 2);
+  v1 = (int (**)(...))(&`vtable for MistTrialDungeonStatProxy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MistTrialDungeonStatProxy = v1;

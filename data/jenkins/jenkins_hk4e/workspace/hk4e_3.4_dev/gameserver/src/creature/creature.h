@@ -447,7 +447,7 @@ void __cdecl Creature::Creature(Creature *const this)
   __int64 *v1; // rdx
 
   Entity::Entity((Entity *const)this);
-  v1 = &`vtable for'Creature + 2;
+  v1 = &`vtable for Creature + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -579,7 +579,7 @@ void __cdecl Creature::~Creature(Creature *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'Creature + 2;
+  v1 = &`vtable for Creature + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;

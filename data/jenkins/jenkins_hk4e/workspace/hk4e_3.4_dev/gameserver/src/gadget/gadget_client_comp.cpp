@@ -14,7 +14,7 @@ void __cdecl GadgetClientComp::GadgetClientComp(
   bool is_peer_id_from_player; // cl
 
   GadgetCompBase::GadgetCompBase(this, gadget);
-  v3 = (int (**)(...))(&`vtable for'GadgetClientComp + 2);
+  v3 = (int (**)(...))(&`vtable for GadgetClientComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GadgetCompBase = v3;

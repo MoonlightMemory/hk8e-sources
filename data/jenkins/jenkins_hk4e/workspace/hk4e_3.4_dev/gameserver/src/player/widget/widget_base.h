@@ -17,7 +17,7 @@ void __cdecl WidgetBase::WidgetBase(
   std::function<void(long unsigned int)> p_callback; // [rsp+70h] [rbp-30h] BYREF
 
   std::enable_shared_from_this<WidgetBase>::enable_shared_from_this(&this->std::enable_shared_from_this<WidgetBase>);
-  v4 = (int (**)(...))(&`vtable for'WidgetBase + 2);
+  v4 = (int (**)(...))(&`vtable for WidgetBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, widget_comp);
   this->_vptr_WidgetBase = v4;
@@ -89,7 +89,7 @@ void __cdecl WidgetBase::~WidgetBase(WidgetBase *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'WidgetBase + 2);
+  v2 = (int (**)(...))(&`vtable for WidgetBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetBase = v2;

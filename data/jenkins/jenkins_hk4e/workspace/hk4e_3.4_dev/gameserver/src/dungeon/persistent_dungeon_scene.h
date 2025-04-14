@@ -5,7 +5,7 @@ void __cdecl PersistentDungeonScene::~PersistentDungeonScene(PersistentDungeonSc
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'PersistentDungeonScene + 2;
+  v1 = &`vtable for PersistentDungeonScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v1;
@@ -36,7 +36,7 @@ void __fastcall ZN22PersistentDungeonSceneCI25SceneEj(PersistentDungeonScene *co
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN12DungeonSceneCI25SceneEj(this, *(_DWORD *)(v2 + 32));
-  v5 = &`vtable for'PersistentDungeonScene + 2;
+  v5 = &`vtable for PersistentDungeonScene + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *(_QWORD *)this->baseclass_0 = v5;

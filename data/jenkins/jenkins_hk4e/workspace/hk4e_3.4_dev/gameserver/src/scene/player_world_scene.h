@@ -6,7 +6,7 @@ void __cdecl PlayerWorldScene::~PlayerWorldScene(PlayerWorldScene *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'PlayerWorldScene + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerWorldScene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -44,7 +44,7 @@ void __fastcall ZN16PlayerWorldSceneCI25SceneEj(PlayerWorldScene *const this, in
   *(_DWORD *)(v2 + 32) = a2;
   v5 = *(unsigned int *)(v2 + 32);
   Scene::Scene((Scene *const)this, v5);
-  v6 = (int (**)(...))(&`vtable for'PlayerWorldScene + 2);
+  v6 = (int (**)(...))(&`vtable for PlayerWorldScene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v5);
   this->_vptr_DescribalBase = v6;

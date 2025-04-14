@@ -13,7 +13,7 @@ void __cdecl UnixTimer::UnixTimer(UnixTimer *const this, common::tools::TimeoutF
   common::tools::MiTimer::MiTimer(this, &p_timer_mgr_ptr, &v4);
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::function<void ()(unsigned long)>::~function(&v4);
-  v2 = (int (**)(...))(&`vtable for'UnixTimer + 2);
+  v2 = (int (**)(...))(&`vtable for UnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v2;
@@ -31,7 +31,7 @@ void __cdecl UnixTimerMgr::UnixTimerMgr(UnixTimerMgr *const this)
   std::function<void(long unsigned int)> p_callback; // [rsp+50h] [rbp-30h] BYREF
 
   common::tools::TimerMgr::TimerMgr(this, 0xC8u);
-  v3 = (int (**)(...))(&`vtable for'UnixTimerMgr + 2);
+  v3 = (int (**)(...))(&`vtable for UnixTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v3;
@@ -97,7 +97,7 @@ void __cdecl PausableTimerMgr::PausableTimerMgr(PausableTimerMgr *const this)
   std::function<void(long unsigned int)> p_callback; // [rsp+50h] [rbp-30h] BYREF
 
   common::tools::TimerMgr::TimerMgr(this, 0xC8u);
-  v3 = (int (**)(...))(&`vtable for'PausableTimerMgr + 2);
+  v3 = (int (**)(...))(&`vtable for PausableTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v3;
@@ -319,7 +319,7 @@ void __cdecl PlayerUnixTimer::PlayerUnixTimer(
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<UnixTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'PlayerUnixTimer + 2);
+  v3 = (int (**)(...))(&`vtable for PlayerUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -472,7 +472,7 @@ void __cdecl PlayerTimer::PlayerTimer(
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<PlayerTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'PlayerTimer + 2);
+  v3 = (int (**)(...))(&`vtable for PlayerTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -605,7 +605,7 @@ void __cdecl PlayerTimerMgr::PlayerTimerMgr(PlayerTimerMgr *const this, PlayerPt
   int (**v2)(...); // rdx
 
   PausableTimerMgr::PausableTimerMgr(this);
-  v2 = (int (**)(...))(&`vtable for'PlayerTimerMgr + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v2;
@@ -958,7 +958,7 @@ void __cdecl SceneUnixTimer::SceneUnixTimer(
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<UnixTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'SceneUnixTimer + 2);
+  v3 = (int (**)(...))(&`vtable for SceneUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -1107,7 +1107,7 @@ void __cdecl SceneTimer::SceneTimer(
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<SceneTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'SceneTimer + 2);
+  v3 = (int (**)(...))(&`vtable for SceneTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -1261,7 +1261,7 @@ void __cdecl SceneTimerMgr::SceneTimerMgr(SceneTimerMgr *const this, ScenePtr *p
   int (**v2)(...); // rdx
 
   PausableTimerMgr::PausableTimerMgr(this);
-  v2 = (int (**)(...))(&`vtable for'SceneTimerMgr + 2);
+  v2 = (int (**)(...))(&`vtable for SceneTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v2;
@@ -1598,7 +1598,7 @@ void __cdecl HomeUnixTimer::HomeUnixTimer(
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<UnixTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'HomeUnixTimer + 2);
+  v3 = (int (**)(...))(&`vtable for HomeUnixTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -1734,7 +1734,7 @@ void __cdecl HomeTimer::HomeTimer(HomeTimer *const this, HomePtr *p_home_ptr, co
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   std::shared_ptr<HomeTimerMgr>::~shared_ptr(&__r);
   std::function<void ()(unsigned long)>::~function(&v6);
-  v3 = (int (**)(...))(&`vtable for'HomeTimer + 2);
+  v3 = (int (**)(...))(&`vtable for HomeTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiTimer = v3;
@@ -1853,7 +1853,7 @@ void __cdecl HomeTimerMgr::HomeTimerMgr(HomeTimerMgr *const this, HomePtr *p_hom
   int (**v2)(...); // rdx
 
   PausableTimerMgr::PausableTimerMgr(this);
-  v2 = (int (**)(...))(&`vtable for'HomeTimerMgr + 2);
+  v2 = (int (**)(...))(&`vtable for HomeTimerMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TimerMgr = v2;

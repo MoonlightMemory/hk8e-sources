@@ -30,7 +30,7 @@ void __cdecl SpiceActivity::~SpiceActivity(SpiceActivity *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SpiceActivity + 2);
+  v2 = (int (**)(...))(&`vtable for SpiceActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DescribalBase = v2;
@@ -71,7 +71,7 @@ void __fastcall ZN13SpiceActivityCI212BaseActivityER6Playerj(SpiceActivity *cons
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   BaseActivity::BaseActivity(this, a2, *(_DWORD *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'SpiceActivity + 2);
+  v6 = (int (**)(...))(&`vtable for SpiceActivity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DescribalBase = v6;

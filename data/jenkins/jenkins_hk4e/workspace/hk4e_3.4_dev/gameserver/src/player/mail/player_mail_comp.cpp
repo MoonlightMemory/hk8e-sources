@@ -650,7 +650,7 @@ void __cdecl PlayerMailComp::PlayerMailComp(PlayerMailComp *const this, Player *
   __int64 v4; // rdx
 
   PlayerCompBase::PlayerCompBase(this, player);
-  v2 = (int (**)(...))(&`vtable for'PlayerMailComp + 2);
+  v2 = (int (**)(...))(&`vtable for PlayerMailComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, player);
   this->_vptr_PlayerCompBase = v2;

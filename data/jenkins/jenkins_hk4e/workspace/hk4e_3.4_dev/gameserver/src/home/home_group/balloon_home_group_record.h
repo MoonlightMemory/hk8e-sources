@@ -12,7 +12,7 @@ void __cdecl BalloonHomePlaySettleInfo::~BalloonHomePlaySettleInfo(BalloonHomePl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BalloonHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BalloonHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -26,7 +26,7 @@ void __cdecl BalloonHomePlaySettleInfo::BalloonHomePlaySettleInfo(BalloonHomePla
   int (**v1)(...); // rdx
 
   BaseHomePlaySettleInfo::BaseHomePlaySettleInfo(this);
-  v1 = (int (**)(...))(&`vtable for'BalloonHomePlaySettleInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BalloonHomePlaySettleInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlaySettleInfo = v1;
@@ -44,7 +44,7 @@ void __cdecl BalloonHomePlayRankInfo::~BalloonHomePlayRankInfo(BalloonHomePlayRa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BalloonHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BalloonHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -64,7 +64,7 @@ void __cdecl BalloonHomePlayRankInfo::BalloonHomePlayRankInfo(BalloonHomePlayRan
   int (**v1)(...); // rdx
 
   BaseHomePlayRankInfo::BaseHomePlayRankInfo(this);
-  v1 = (int (**)(...))(&`vtable for'BalloonHomePlayRankInfo + 2);
+  v1 = (int (**)(...))(&`vtable for BalloonHomePlayRankInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomePlayRankInfo = v1;
@@ -262,7 +262,7 @@ void __cdecl BalloonHomeGroupRecord::~BalloonHomeGroupRecord(BalloonHomeGroupRec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BalloonHomeGroupRecord + 2);
+  v1 = (int (**)(...))(&`vtable for BalloonHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v1;
@@ -276,7 +276,7 @@ void __cdecl BalloonHomeGroupRecord::BalloonHomeGroupRecord(BalloonHomeGroupReco
   int (**v2)(...); // rdx
 
   BaseHomeGroupRecord::BaseHomeGroupRecord(this, group_id);
-  v2 = (int (**)(...))(&`vtable for'BalloonHomeGroupRecord + 2);
+  v2 = (int (**)(...))(&`vtable for BalloonHomeGroupRecord + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_BaseHomeGroupRecord = v2;

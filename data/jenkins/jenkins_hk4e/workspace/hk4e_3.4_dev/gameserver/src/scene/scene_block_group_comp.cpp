@@ -12,7 +12,7 @@ void __cdecl SceneBlockGroupComp::SceneBlockGroupComp(SceneBlockGroupComp *const
   __int64 v8; // rdx
 
   SceneCompBase::SceneCompBase((SceneCompBase *const)this, scene);
-  v2 = (int (**)(...))(&`vtable for'SceneBlockGroupComp + 2);
+  v2 = (int (**)(...))(&`vtable for SceneBlockGroupComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneCompBase = v2;
@@ -80,7 +80,7 @@ void __cdecl SceneBlockGroupComp::SceneBlockGroupComp(
   std::shared_ptr<GroupsReplacementMgr> __r; // [rsp+20h] [rbp-20h] BYREF
 
   SceneCompBase::SceneCompBase((SceneCompBase *const)this, scene);
-  v3 = (int (**)(...))(&`vtable for'SceneBlockGroupComp + 2);
+  v3 = (int (**)(...))(&`vtable for SceneBlockGroupComp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, scene);
   this->_vptr_SceneCompBase = v3;
@@ -6199,7 +6199,7 @@ int32_t __cdecl SceneBlockGroupComp::asyncLoadGroupBatch(common::minet::PacketPt
   v4[536862720] = -235802127;
   v4[536862721] = -219021312;
   v4[536862722] = -202178560;
-  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<GroupBatchLoadContext>);
+  v5 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for std::shared_ptr<GroupBatchLoadContext>);
   v6 = std::any::type(p_context);
   if ( v5 == std::type_info::hash_code(v6) )
   {
@@ -6266,7 +6266,7 @@ int32_t __cdecl SceneBlockGroupComp::asyncLoadGroupBatch(common::minet::PacketPt
       "./src/scene/scene_block_group_comp.cpp",
       "asyncLoadGroupBatch",
       1368);
-    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GroupBatchLoadContext>);
+    v7 = std::type_info::name((const std::type_info *const)&`typeinfo for std::shared_ptr<GroupBatchLoadContext>);
     v8 = std::any::type(p_context);
     v9 = std::type_info::name(v8);
     common::milog::MiLogStream::operator()(&v18, off_258E7D20, v9, v7);

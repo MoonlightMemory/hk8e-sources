@@ -6,7 +6,7 @@ void __cdecl DynamicTalent::~DynamicTalent(DynamicTalent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DynamicTalent + 2);
+  v2 = (int (**)(...))(&`vtable for DynamicTalent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalent = v2;
@@ -20,7 +20,7 @@ void __cdecl DynamicTalent::DynamicTalent(DynamicTalent *const this, Avatar *ava
   int (**v3)(...); // rdx
 
   BaseTalent::BaseTalent(this, avatar, 0);
-  v3 = (int (**)(...))(&`vtable for'DynamicTalent + 2);
+  v3 = (int (**)(...))(&`vtable for DynamicTalent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, avatar);
   this->_vptr_BaseTalent = v3;

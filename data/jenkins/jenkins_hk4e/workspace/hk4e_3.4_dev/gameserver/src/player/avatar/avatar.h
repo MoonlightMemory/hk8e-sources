@@ -36,7 +36,7 @@ void __cdecl Avatar::~Avatar(Avatar *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'Avatar + 2;
+  v2 = &`vtable for Avatar + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -76,7 +76,7 @@ void __cdecl Avatar::Avatar(Avatar *const this, uint32_t avatar_id)
 
   Creature::Creature(this);
   EcsBase<Avatar,AvatarCompBase,7u>::EcsBase(&this->EcsBase<Avatar,AvatarCompBase,7>);
-  v2 = &`vtable for'Avatar + 2;
+  v2 = &`vtable for Avatar + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, *(_QWORD *)&avatar_id);
   *(_QWORD *)this->baseclass_0 = v2;

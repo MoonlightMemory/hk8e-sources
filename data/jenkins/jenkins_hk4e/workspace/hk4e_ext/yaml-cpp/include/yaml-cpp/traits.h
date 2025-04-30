@@ -70,13 +70,13 @@ LABEL_11:
   {
     std::stringbuf::str(retstr, &anonymous1);
   }
-  vars30[0] = (char *)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
-  anonymous4 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
-  anonymous0 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 64;
-  anonymous1 = (__int64)&`vtable for'std::stringbuf + 16;
+  vars30[0] = (char *)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
+  anonymous4 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
+  anonymous0 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 64;
+  anonymous1 = (__int64)&`vtable for std::stringbuf + 16;
   if ( anonymous3 != &_A0 )
     operator delete(anonymous3);
-  anonymous1 = (__int64)&`vtable for'std::streambuf + 16;
+  anonymous1 = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&anonymous2);
   if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
                 + 0x7FFF8000) )
@@ -168,7 +168,7 @@ LABEL_41:
     goto LABEL_41;
   *(_QWORD *)v13 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   vars30[1] = 0LL;
-  anonymous4 = (__int64)&`vtable for'std::ios + 16;
+  anonymous4 = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&anonymous4);
   *(_QWORD *)(((unsigned __int64)&vars0 >> 3) + 0x7FFF8000) = 0LL;
   *(_QWORD *)(((unsigned __int64)&vars0 >> 3) + 0x7FFF8034) = 0LL;
@@ -244,13 +244,13 @@ LABEL_11:
   {
     std::stringbuf::str(retstr, &anonymous1);
   }
-  vars30[0] = (char *)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
-  anonymous4 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
-  anonymous0 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 64;
-  anonymous1 = (__int64)&`vtable for'std::stringbuf + 16;
+  vars30[0] = (char *)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
+  anonymous4 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
+  anonymous0 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 64;
+  anonymous1 = (__int64)&`vtable for std::stringbuf + 16;
   if ( anonymous3 != &_A0 )
     operator delete(anonymous3);
-  anonymous1 = (__int64)&`vtable for'std::streambuf + 16;
+  anonymous1 = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&anonymous2);
   if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
                 + 0x7FFF8000) )
@@ -342,7 +342,7 @@ LABEL_41:
     goto LABEL_41;
   *(_QWORD *)v13 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   vars30[1] = 0LL;
-  anonymous4 = (__int64)&`vtable for'std::ios + 16;
+  anonymous4 = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&anonymous4);
   *(_QWORD *)(((unsigned __int64)&vars0 >> 3) + 0x7FFF8000) = 0LL;
   *(_QWORD *)(((unsigned __int64)&vars0 >> 3) + 0x7FFF8034) = 0LL;

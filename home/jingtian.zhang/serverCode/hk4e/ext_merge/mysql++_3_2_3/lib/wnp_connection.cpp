@@ -27,7 +27,7 @@ void __fastcall __noreturn mysqlpp::WindowsNamedPipeConnection::connect()
   exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x30uLL);
   mysqlpp::Exception::Exception(exception, *(const char **)(v0 + 16));
   *(_DWORD *)exception[1].baseclass_0 = 0;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ConnectionFailed + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,

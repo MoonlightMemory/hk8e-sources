@@ -6,7 +6,7 @@ void __cdecl data::CombineUnlockConfig::CombineUnlockConfig(data::CombineUnlockC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CombineUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombineUnlockConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::CombineUnlockConfig::CombineUnlockConfig(
   const data::CombineUnlockConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CombineUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CombineUnlockConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::CombineUnlockConfig::~CombineUnlockConfig(data::CombineUnlock
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CombineUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombineUnlockConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::CombineExcelConfig::CombineExcelConfig(data::CombineExcelConf
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CombineExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombineExcelConfig = v2;
@@ -168,7 +168,7 @@ void __cdecl data::CombineExcelConfig::CombineExcelConfig(
   const data::CombineExcelConfig *v24; // [rsp+0h] [rbp-20h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CombineExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CombineExcelConfig = v2;
@@ -289,7 +289,7 @@ void __cdecl data::CombineExcelConfig::~CombineExcelConfig(data::CombineExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CombineExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombineExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombineExcelConfig = v2;
@@ -326,7 +326,7 @@ void __cdecl data::ReliquaryDecomposeExcelConfig::ReliquaryDecomposeExcelConfig(
   const data::ReliquaryDecomposeExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryDecomposeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryDecomposeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryDecomposeExcelConfig = v2;
@@ -394,7 +394,7 @@ void __cdecl data::ReliquaryDecomposeExcelConfig::~ReliquaryDecomposeExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryDecomposeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryDecomposeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryDecomposeExcelConfig = v2;

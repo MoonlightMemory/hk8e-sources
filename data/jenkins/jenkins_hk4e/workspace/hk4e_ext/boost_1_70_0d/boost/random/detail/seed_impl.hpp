@@ -76,7 +76,7 @@ void __fastcall boost::random::detail::seed_array_int_impl<32,624ul,boost::uuids
           v11 = &v20;
           std::runtime_error::runtime_error(&v20, &v21);
 LABEL_6:
-          *(_QWORD *)v20.baseclass_0 = &`vtable for'boost::uuids::entropy_error + 2;
+          *(_QWORD *)v20.baseclass_0 = &`vtable for boost::uuids::entropy_error + 2;
           v20.m_errcode = v2;
           __asan_handle_no_return(v11);
           boost::exception_detail::throw_exception_<boost::uuids::entropy_error>(

@@ -118,7 +118,7 @@ void __cdecl data::ConfigBaseCutscene::ConfigBaseCutscene(data::ConfigBaseCutsce
   __int64 v33; // rdx
 
   std::enable_shared_from_this<data::ConfigBaseCutscene>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseCutscene>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseCutscene + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseCutscene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseCutscene = v2;
@@ -371,7 +371,7 @@ void __cdecl data::ConfigBaseCutscene::ConfigBaseCutscene(
   std::enable_shared_from_this<data::ConfigBaseCutscene>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseCutscene>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseCutscene + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseCutscene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseCutscene = v3;
@@ -712,7 +712,7 @@ void __cdecl data::ConfigBaseCutscene::~ConfigBaseCutscene(data::ConfigBaseCutsc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseCutscene + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseCutscene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseCutscene = v2;
@@ -791,7 +791,7 @@ void __cdecl data::ConfigTimeline::ConfigTimeline(data::ConfigTimeline *const th
   __int64 v7; // rdx
 
   data::ConfigBaseCutscene::ConfigBaseCutscene((data::ConfigBaseCutscene *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeline + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeline + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseCutscene = v2;
@@ -841,7 +841,7 @@ void __cdecl data::ConfigTimeline::ConfigTimeline(data::ConfigTimeline *const th
   data::ConfigBaseCutscene::ConfigBaseCutscene(
     (data::ConfigBaseCutscene *const)this,
     (const data::ConfigBaseCutscene *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeline + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeline + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseCutscene = v2;
@@ -900,7 +900,7 @@ void __cdecl data::ConfigTimeline::~ConfigTimeline(data::ConfigTimeline *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeline + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeline + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseCutscene = v2;
@@ -974,7 +974,7 @@ void __cdecl data::ConfigTimelineFactory::ConfigTimelineFactory(data::ConfigTime
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimelineFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimelineFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTimelineFactory = v2;
@@ -989,7 +989,7 @@ void __cdecl data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(data::ConfigVi
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigVideoCommonEvent>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigVideoCommonEvent>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoCommonEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoCommonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1025,7 +1025,7 @@ void __cdecl data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(
   std::enable_shared_from_this<data::ConfigVideoCommonEvent>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigVideoCommonEvent>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigVideoCommonEvent + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigVideoCommonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigVideoCommonEvent = v3;
@@ -1061,7 +1061,7 @@ void __cdecl data::ConfigVideoCommonEvent::~ConfigVideoCommonEvent(data::ConfigV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoCommonEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoCommonEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1136,7 +1136,7 @@ void __cdecl data::ConfigVideoPlayAudioEvent::ConfigVideoPlayAudioEvent(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAudioEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAudioEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1158,7 +1158,7 @@ void __cdecl data::ConfigVideoPlayAudioEvent::ConfigVideoPlayAudioEvent(
   char v4; // al
 
   data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAudioEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAudioEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1190,7 +1190,7 @@ void __cdecl data::ConfigVideoPlayAudioEvent::~ConfigVideoPlayAudioEvent(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAudioEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAudioEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1258,7 +1258,7 @@ void __cdecl data::ConfigVideoPlayAudioEventFactory::ConfigVideoPlayAudioEventFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAudioEventFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAudioEventFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoPlayAudioEventFactory = v2;
@@ -1272,7 +1272,7 @@ void __cdecl data::ConfigVideoShowNameCardDialogEvent::ConfigVideoShowNameCardDi
   int (**v2)(...); // rdx
 
   data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoShowNameCardDialogEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoShowNameCardDialogEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1293,7 +1293,7 @@ void __cdecl data::ConfigVideoShowNameCardDialogEvent::ConfigVideoShowNameCardDi
   char v5; // al
 
   data::ConfigVideoCommonEvent::ConfigVideoCommonEvent(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoShowNameCardDialogEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoShowNameCardDialogEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1318,7 +1318,7 @@ void __cdecl data::ConfigVideoShowNameCardDialogEvent::~ConfigVideoShowNameCardD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoShowNameCardDialogEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoShowNameCardDialogEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoCommonEvent = v2;
@@ -1397,7 +1397,7 @@ void __cdecl data::ConfigVideoShowNameCardDialogEventFactory::ConfigVideoShowNam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoShowNameCardDialogEventFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoShowNameCardDialogEventFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoShowNameCardDialogEventFactory = v2;

@@ -203,7 +203,7 @@ void __cdecl NavMeshData::NavMeshData(NavMeshData *const this)
   __int64 v2; // rdx
   Vector3f v3; // [rsp+14h] [rbp-1Ch] BYREF
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshData + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshData = v1;
@@ -274,7 +274,7 @@ void __cdecl NavMeshData::~NavMeshData(NavMeshData *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshData + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshData = v1;

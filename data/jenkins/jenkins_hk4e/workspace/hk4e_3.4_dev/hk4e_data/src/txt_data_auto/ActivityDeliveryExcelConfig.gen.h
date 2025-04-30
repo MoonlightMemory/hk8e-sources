@@ -7,7 +7,7 @@ void __cdecl data::ActivityDeliveryExcelConfig::ActivityDeliveryExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDeliveryExcelConfig = v2;
@@ -40,7 +40,7 @@ void __cdecl data::ActivityDeliveryExcelConfig::ActivityDeliveryExcelConfig(
   const data::ActivityDeliveryExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDeliveryExcelConfig = v2;
@@ -81,7 +81,7 @@ void __cdecl data::ActivityDeliveryExcelConfig::~ActivityDeliveryExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDeliveryExcelConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::DeliveryQuestConfig::DeliveryQuestConfig(data::DeliveryQuestC
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DeliveryQuestConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeliveryQuestConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DeliveryQuestConfig = v2;
@@ -165,7 +165,7 @@ void __cdecl data::DeliveryQuestConfig::DeliveryQuestConfig(
   const data::DeliveryQuestConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DeliveryQuestConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeliveryQuestConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DeliveryQuestConfig = v2;
@@ -246,7 +246,7 @@ void __cdecl data::DeliveryQuestConfig::~DeliveryQuestConfig(data::DeliveryQuest
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DeliveryQuestConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeliveryQuestConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DeliveryQuestConfig = v2;
@@ -267,7 +267,7 @@ void __cdecl data::ActivityDeliveryDailyExcelConfig::ActivityDeliveryDailyExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDeliveryDailyExcelConfig = v2;
@@ -300,7 +300,7 @@ void __cdecl data::ActivityDeliveryDailyExcelConfig::ActivityDeliveryDailyExcelC
   const data::ActivityDeliveryDailyExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDeliveryDailyExcelConfig = v2;
@@ -341,7 +341,7 @@ void __cdecl data::ActivityDeliveryDailyExcelConfig::~ActivityDeliveryDailyExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDeliveryDailyExcelConfig = v2;
@@ -364,7 +364,7 @@ void __cdecl data::ActivityDeliveryWatcherDataConfig::ActivityDeliveryWatcherDat
   int (**v2)(...); // rdx
 
   data::WatcherConfig::WatcherConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryWatcherDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryWatcherDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -378,7 +378,7 @@ void __cdecl data::ActivityDeliveryWatcherDataConfig::ActivityDeliveryWatcherDat
   int (**v2)(...); // rdx
 
   data::WatcherConfig::WatcherConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryWatcherDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryWatcherDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -391,7 +391,7 @@ void __cdecl data::ActivityDeliveryWatcherDataConfig::~ActivityDeliveryWatcherDa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDeliveryWatcherDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDeliveryWatcherDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;

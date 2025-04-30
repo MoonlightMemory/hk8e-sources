@@ -7,7 +7,7 @@ void __cdecl data::RewardItemConfig::RewardItemConfig(data::RewardItemConfig *co
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RewardItemConfig = v2;
@@ -44,7 +44,7 @@ void __cdecl data::RewardItemConfig::~RewardItemConfig(data::RewardItemConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RewardItemConfig = v2;
@@ -67,7 +67,7 @@ void __cdecl data::RewardExcelConfig::RewardExcelConfig(data::RewardExcelConfig 
   __int64 v5; // rsi
 
   data::OutputControlConfig::OutputControlConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::RewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -158,7 +158,7 @@ void __cdecl data::RewardExcelConfig::RewardExcelConfig(
 
   v23 = a2;
   data::OutputControlConfig::OutputControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::RewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OutputControlConfig = v2;
@@ -282,7 +282,7 @@ void __cdecl data::RewardExcelConfig::~RewardExcelConfig(data::RewardExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -319,7 +319,7 @@ void __cdecl data::RewardItemConfig::RewardItemConfig(
   const data::RewardItemConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RewardItemConfig = v2;

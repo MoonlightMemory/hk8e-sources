@@ -5,7 +5,7 @@ void __cdecl GCGActionBase::GCGActionBase(GCGActionBase *const this, GCGGameMode
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GCGActionBase + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;

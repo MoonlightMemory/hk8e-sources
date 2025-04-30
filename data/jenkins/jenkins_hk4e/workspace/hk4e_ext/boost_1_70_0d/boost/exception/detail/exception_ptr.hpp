@@ -22,11 +22,11 @@ void __cdecl boost::exception_detail::bad_alloc_::bad_alloc_(boost::exception_de
 
   boost::exception::exception(this);
   std::bad_alloc::bad_alloc((std::bad_alloc *const)this->baseclass_1);
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_alloc_ + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::bad_alloc_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = &`vtable for'boost::exception_detail::bad_alloc_ + 6;
+  v2 = &`vtable for boost::exception_detail::bad_alloc_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;
@@ -42,11 +42,11 @@ void __cdecl boost::exception_detail::bad_alloc_::bad_alloc_(
 
   boost::exception::exception(this, a2);
   std::bad_alloc::bad_alloc((std::bad_alloc *const)this->baseclass_1, (const std::bad_alloc *)a2->baseclass_1);
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_alloc_ + 2);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::bad_alloc_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
-  v3 = &`vtable for'boost::exception_detail::bad_alloc_ + 6;
+  v3 = &`vtable for boost::exception_detail::bad_alloc_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v3;
@@ -58,11 +58,11 @@ void __cdecl boost::exception_detail::bad_alloc_::~bad_alloc_(boost::exception_d
   int (**v1)(...); // rdx
   __int64 *v2; // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_alloc_ + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::bad_alloc_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = &`vtable for'boost::exception_detail::bad_alloc_ + 6;
+  v2 = &`vtable for boost::exception_detail::bad_alloc_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;
@@ -100,11 +100,11 @@ void __cdecl boost::exception_detail::bad_exception_::bad_exception_(
 
   boost::exception::exception(this);
   std::bad_exception::bad_exception((std::bad_exception *const)this->baseclass_1);
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_exception_ + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::bad_exception_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = &`vtable for'boost::exception_detail::bad_exception_ + 6;
+  v2 = &`vtable for boost::exception_detail::bad_exception_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;
@@ -122,11 +122,11 @@ void __cdecl boost::exception_detail::bad_exception_::bad_exception_(
   std::bad_exception::bad_exception(
     (std::bad_exception *const)this->baseclass_1,
     (const std::bad_exception *)a2->baseclass_1);
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_exception_ + 2);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::bad_exception_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
-  v3 = &`vtable for'boost::exception_detail::bad_exception_ + 6;
+  v3 = &`vtable for boost::exception_detail::bad_exception_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v3;
@@ -147,11 +147,11 @@ void __cdecl boost::exception_detail::bad_exception_::~bad_exception_(
   int (**v1)(...); // rdx
   __int64 *v2; // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::bad_exception_ + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::bad_exception_ + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = &`vtable for'boost::exception_detail::bad_exception_ + 6;
+  v2 = &`vtable for boost::exception_detail::bad_exception_ + 6;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;

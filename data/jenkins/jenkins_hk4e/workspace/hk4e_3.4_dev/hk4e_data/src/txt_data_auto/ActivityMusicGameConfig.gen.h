@@ -8,7 +8,7 @@ void __cdecl data::MusicGameDrumConfig::MusicGameDrumConfig(data::MusicGameDrumC
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameDrumConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameDrumConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicGameDrumConfig = v2;
@@ -85,7 +85,7 @@ void __cdecl data::MusicGameDrumConfig::MusicGameDrumConfig(
   const data::MusicGameDrumConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameDrumConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameDrumConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MusicGameDrumConfig = v2;
@@ -199,7 +199,7 @@ void __cdecl data::MusicGameDrumConfig::~MusicGameDrumConfig(data::MusicGameDrum
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameDrumConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameDrumConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicGameDrumConfig = v2;
@@ -213,7 +213,7 @@ void __cdecl data::MusicGameBasicConfig::MusicGameBasicConfig(data::MusicGameBas
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicGameBasicConfig = v2;
@@ -274,7 +274,7 @@ void __cdecl data::MusicGameBasicConfig::MusicGameBasicConfig(
   const data::MusicGameBasicConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MusicGameBasicConfig = v2;
@@ -363,7 +363,7 @@ void __cdecl data::MusicGameBasicConfig::~MusicGameBasicConfig(data::MusicGameBa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicGameBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicGameBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicGameBasicConfig = v2;
@@ -377,7 +377,7 @@ void __cdecl data::MusicInfoConfig::MusicInfoConfig(data::MusicInfoConfig *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicInfoConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicInfoConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicInfoConfig = v2;
@@ -409,7 +409,7 @@ void __cdecl data::MusicInfoConfig::MusicInfoConfig(data::MusicInfoConfig *const
   const data::MusicInfoConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MusicInfoConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicInfoConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MusicInfoConfig = v2;
@@ -457,7 +457,7 @@ void __cdecl data::MusicInfoConfig::~MusicInfoConfig(data::MusicInfoConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicInfoConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicInfoConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicInfoConfig = v2;
@@ -474,7 +474,7 @@ void __cdecl data::MusicRiddleConfig::MusicRiddleConfig(data::MusicRiddleConfig 
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicRiddleConfig = v2;
@@ -546,7 +546,7 @@ void __cdecl data::MusicRiddleConfig::MusicRiddleConfig(
   const data::MusicRiddleConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MusicRiddleConfig = v2;
@@ -639,7 +639,7 @@ void __cdecl data::MusicRiddleConfig::~MusicRiddleConfig(data::MusicRiddleConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicRiddleConfig = v2;
@@ -660,7 +660,7 @@ void __cdecl data::MusicRiddlePlayConfig::MusicRiddlePlayConfig(data::MusicRiddl
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddlePlayConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddlePlayConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicRiddlePlayConfig = v2;
@@ -711,7 +711,7 @@ void __cdecl data::MusicRiddlePlayConfig::MusicRiddlePlayConfig(
   const data::MusicRiddlePlayConfig *v12; // [rsp+0h] [rbp-20h]
 
   v12 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddlePlayConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddlePlayConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MusicRiddlePlayConfig = v2;
@@ -785,7 +785,7 @@ void __cdecl data::MusicRiddlePlayConfig::~MusicRiddlePlayConfig(data::MusicRidd
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MusicRiddlePlayConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MusicRiddlePlayConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MusicRiddlePlayConfig = v2;

@@ -8,7 +8,7 @@ void __cdecl data::LanV3BoatBaseExcelConfig::LanV3BoatBaseExcelConfig(data::LanV
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3BoatBaseExcelConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::LanV3BoatBaseExcelConfig::LanV3BoatBaseExcelConfig(
   const data::LanV3BoatBaseExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3BoatBaseExcelConfig = v2;
@@ -175,7 +175,7 @@ void __cdecl data::LanV3BoatBaseExcelConfig::~LanV3BoatBaseExcelConfig(data::Lan
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3BoatBaseExcelConfig = v2;
@@ -202,7 +202,7 @@ void __cdecl data::LanV3BoatExcelConfig::LanV3BoatExcelConfig(data::LanV3BoatExc
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3BoatExcelConfig = v2;
@@ -282,7 +282,7 @@ void __cdecl data::LanV3BoatExcelConfig::LanV3BoatExcelConfig(
   const data::LanV3BoatExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3BoatExcelConfig = v2;
@@ -391,7 +391,7 @@ void __cdecl data::LanV3BoatExcelConfig::~LanV3BoatExcelConfig(data::LanV3BoatEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3BoatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3BoatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3BoatExcelConfig = v2;
@@ -414,7 +414,7 @@ void __cdecl data::LanV3RaceExcelConfig::LanV3RaceExcelConfig(data::LanV3RaceExc
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3RaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3RaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3RaceExcelConfig = v2;
@@ -480,7 +480,7 @@ void __cdecl data::LanV3RaceExcelConfig::LanV3RaceExcelConfig(
   const data::LanV3RaceExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3RaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3RaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3RaceExcelConfig = v2;
@@ -578,7 +578,7 @@ void __cdecl data::LanV3RaceExcelConfig::~LanV3RaceExcelConfig(data::LanV3RaceEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3RaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3RaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3RaceExcelConfig = v2;
@@ -591,7 +591,7 @@ void __cdecl data::LanV3OverAllExcelConfig::LanV3OverAllExcelConfig(data::LanV3O
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3OverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3OverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3OverAllExcelConfig = v2;
@@ -625,7 +625,7 @@ void __cdecl data::LanV3OverAllExcelConfig::LanV3OverAllExcelConfig(
   const data::LanV3OverAllExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3OverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3OverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3OverAllExcelConfig = v2;
@@ -673,7 +673,7 @@ void __cdecl data::LanV3OverAllExcelConfig::~LanV3OverAllExcelConfig(data::LanV3
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3OverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3OverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3OverAllExcelConfig = v2;
@@ -688,7 +688,7 @@ void __cdecl data::LanV3ShadowStageExcelConfig::LanV3ShadowStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3ShadowStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3ShadowStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3ShadowStageExcelConfig = v2;
@@ -713,7 +713,7 @@ void __cdecl data::LanV3ShadowStageExcelConfig::LanV3ShadowStageExcelConfig(
   const data::LanV3ShadowStageExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3ShadowStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3ShadowStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3ShadowStageExcelConfig = v2;
@@ -749,7 +749,7 @@ void __cdecl data::LanV3ShadowStageExcelConfig::~LanV3ShadowStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3ShadowStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3ShadowStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3ShadowStageExcelConfig = v2;
@@ -771,7 +771,7 @@ void __cdecl data::LanV3ShadowLevelExcelConfig::LanV3ShadowLevelExcelConfig(
   const data::LanV3ShadowLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3ShadowLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3ShadowLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3ShadowLevelExcelConfig = v2;
@@ -819,7 +819,7 @@ void __cdecl data::LanV3ShadowLevelExcelConfig::~LanV3ShadowLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3ShadowLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3ShadowLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3ShadowLevelExcelConfig = v2;
@@ -831,7 +831,7 @@ void __cdecl data::LanV3CampStageExcelConfig::LanV3CampStageExcelConfig(data::La
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3CampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3CampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3CampStageExcelConfig = v2;
@@ -856,7 +856,7 @@ void __cdecl data::LanV3CampStageExcelConfig::LanV3CampStageExcelConfig(
   const data::LanV3CampStageExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV3CampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3CampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV3CampStageExcelConfig = v2;
@@ -890,7 +890,7 @@ void __cdecl data::LanV3CampStageExcelConfig::~LanV3CampStageExcelConfig(data::L
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV3CampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV3CampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV3CampStageExcelConfig = v2;

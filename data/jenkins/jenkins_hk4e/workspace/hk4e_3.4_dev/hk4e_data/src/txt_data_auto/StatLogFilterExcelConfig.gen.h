@@ -7,7 +7,7 @@ void __cdecl data::CombatStatLogFilterExcelConfig::CombatStatLogFilterExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CombatStatLogFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombatStatLogFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombatStatLogFilterExcelConfig = v2;
@@ -38,7 +38,7 @@ void __cdecl data::CombatStatLogFilterExcelConfig::CombatStatLogFilterExcelConfi
   const data::CombatStatLogFilterExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CombatStatLogFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombatStatLogFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CombatStatLogFilterExcelConfig = v2;
@@ -72,7 +72,7 @@ void __cdecl data::CombatStatLogFilterExcelConfig::~CombatStatLogFilterExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CombatStatLogFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CombatStatLogFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CombatStatLogFilterExcelConfig = v2;
@@ -100,7 +100,7 @@ void __cdecl data::AbilityFilterIndex::AbilityFilterIndex(data::AbilityFilterInd
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityFilterIndex + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityFilterIndex + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityFilterIndex = v2;
@@ -132,7 +132,7 @@ void __cdecl data::AbilityFilterIndex::AbilityFilterIndex(
   const data::AbilityFilterIndex *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AbilityFilterIndex + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityFilterIndex + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AbilityFilterIndex = v2;
@@ -171,7 +171,7 @@ void __cdecl data::AbilityFilterIndex::~AbilityFilterIndex(data::AbilityFilterIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityFilterIndex + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityFilterIndex + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityFilterIndex = v2;
@@ -190,7 +190,7 @@ void __cdecl data::OriHurtFilterExcelConfig::OriHurtFilterExcelConfig(data::OriH
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OriHurtFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OriHurtFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OriHurtFilterExcelConfig = v2;
@@ -234,7 +234,7 @@ void __cdecl data::OriHurtFilterExcelConfig::OriHurtFilterExcelConfig(
   const data::OriHurtFilterExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OriHurtFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OriHurtFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OriHurtFilterExcelConfig = v2;
@@ -290,7 +290,7 @@ void __cdecl data::OriHurtFilterExcelConfig::~OriHurtFilterExcelConfig(data::Ori
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OriHurtFilterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OriHurtFilterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OriHurtFilterExcelConfig = v2;

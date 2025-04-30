@@ -7259,7 +7259,7 @@ int32_t __cdecl data::CodexExcelConfigMgrBase::loadQuestCodexExcelConfig(
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::QuestCodexExcelConfig + 2;
+        v14 = &`vtable for data::QuestCodexExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;
@@ -7618,7 +7618,7 @@ int32_t __cdecl data::CodexExcelConfigMgrBase::loadWeaponCodexExcelConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::WeaponCodexExcelConfig + 2;
+        v15 = &`vtable for data::WeaponCodexExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -7981,7 +7981,7 @@ int32_t __cdecl data::CodexExcelConfigMgrBase::loadReliquaryCodexExcelConfig(
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
         *(_QWORD *)(v3 + 584) = 0LL;
-        v16 = &`vtable for'data::ReliquaryCodexExcelConfig + 2;
+        v16 = &`vtable for data::ReliquaryCodexExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;
@@ -8960,7 +8960,7 @@ int32_t __cdecl data::CodexExcelConfigMgrBase::loadBooksCodexExcelConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::BooksCodexExcelConfig + 2;
+        v15 = &`vtable for data::BooksCodexExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -9314,7 +9314,7 @@ int32_t __cdecl data::CodexExcelConfigMgrBase::loadPushTipsCodexExcelConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::PushTipsCodexExcelConfig + 2;
+        v15 = &`vtable for data::PushTipsCodexExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;

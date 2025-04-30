@@ -16,7 +16,7 @@ void __cdecl data::TreeDropExcelConfig::TreeDropExcelConfig(
   const data::TreeDropExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreeDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreeDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreeDropExcelConfig = v2;
@@ -68,7 +68,7 @@ void __cdecl data::TreeDropExcelConfig::~TreeDropExcelConfig(data::TreeDropExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreeDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreeDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreeDropExcelConfig = v2;
@@ -87,7 +87,7 @@ void __cdecl data::TreeTypeExcelConfig::TreeTypeExcelConfig(data::TreeTypeExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreeTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreeTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreeTypeExcelConfig = v2;
@@ -120,7 +120,7 @@ void __cdecl data::TreeTypeExcelConfig::TreeTypeExcelConfig(
   const data::TreeTypeExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreeTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreeTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreeTypeExcelConfig = v2;
@@ -160,7 +160,7 @@ void __cdecl data::TreeTypeExcelConfig::~TreeTypeExcelConfig(data::TreeTypeExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreeTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreeTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreeTypeExcelConfig = v2;

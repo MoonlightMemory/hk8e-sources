@@ -79,7 +79,7 @@ void __cdecl data::RoutineTypeExcelConfig::RoutineTypeExcelConfig(
   const data::RoutineTypeExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoutineTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoutineTypeExcelConfig = v2;
@@ -165,7 +165,7 @@ void __cdecl data::RoutineTypeExcelConfig::~RoutineTypeExcelConfig(data::Routine
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineTypeExcelConfig = v2;
@@ -178,7 +178,7 @@ void __cdecl data::RoutineFinishContent::RoutineFinishContent(data::RoutineFinis
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineFinishContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineFinishContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineFinishContent = v2;
@@ -228,7 +228,7 @@ void __cdecl data::RoutineFinishContent::RoutineFinishContent(
   const data::RoutineFinishContent *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoutineFinishContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineFinishContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoutineFinishContent = v2;
@@ -301,7 +301,7 @@ void __cdecl data::RoutineFinishContent::~RoutineFinishContent(data::RoutineFini
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineFinishContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineFinishContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineFinishContent = v2;
@@ -314,7 +314,7 @@ void __cdecl data::RoutineCondContent::RoutineCondContent(data::RoutineCondConte
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineCondContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineCondContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineCondContent = v2;
@@ -355,7 +355,7 @@ void __cdecl data::RoutineCondContent::RoutineCondContent(
   const data::RoutineCondContent *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoutineCondContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineCondContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoutineCondContent = v2;
@@ -473,7 +473,7 @@ void __cdecl data::RoutineActionContent::RoutineActionContent(data::RoutineActio
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineActionContent = v2;
@@ -514,7 +514,7 @@ void __cdecl data::RoutineActionContent::RoutineActionContent(
   const data::RoutineActionContent *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoutineActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoutineActionContent = v2;
@@ -576,7 +576,7 @@ void __cdecl data::RoutineDetailExcelConfig::RoutineDetailExcelConfig(data::Rout
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineDetailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineDetailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineDetailExcelConfig = v2;
@@ -654,7 +654,7 @@ void __cdecl data::RoutineDetailExcelConfig::RoutineDetailExcelConfig(
   const data::RoutineDetailExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoutineDetailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineDetailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoutineDetailExcelConfig = v2;
@@ -759,7 +759,7 @@ void __cdecl data::RoutineDetailExcelConfig::~RoutineDetailExcelConfig(data::Rou
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineDetailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineDetailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineDetailExcelConfig = v2;
@@ -781,7 +781,7 @@ void __cdecl data::RoutineActionContent::~RoutineActionContent(data::RoutineActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineActionContent = v2;
@@ -793,7 +793,7 @@ void __cdecl data::RoutineCondContent::~RoutineCondContent(data::RoutineCondCont
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoutineCondContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoutineCondContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoutineCondContent = v2;

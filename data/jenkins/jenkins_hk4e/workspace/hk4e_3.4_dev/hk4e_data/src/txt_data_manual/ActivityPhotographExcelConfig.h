@@ -7,7 +7,7 @@ void __cdecl ActivityPhotographExcelConfigMgr::ActivityPhotographExcelConfigMgr(
   int (**v1)(...); // rdx
 
   data::ActivityPhotographExcelConfigMgrBase::ActivityPhotographExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityPhotographExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityPhotographExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityPhotographExcelConfigMgrBase = v1;
@@ -21,7 +21,7 @@ void __cdecl ActivityPhotographExcelConfigMgr::~ActivityPhotographExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityPhotographExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityPhotographExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityPhotographExcelConfigMgrBase = v1;

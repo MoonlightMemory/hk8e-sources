@@ -168,7 +168,7 @@ void __cdecl data::ReputationLevelExcelConfig::ReputationLevelExcelConfig(
   const data::ReputationLevelExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationLevelExcelConfig = v2;
@@ -289,7 +289,7 @@ void __cdecl data::ReputationLevelExcelConfig::~ReputationLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationLevelExcelConfig = v2;
@@ -368,7 +368,7 @@ void __cdecl data::ReputationEntranceCond::ReputationEntranceCond(data::Reputati
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationEntranceCond = v2;
@@ -409,7 +409,7 @@ void __cdecl data::ReputationEntranceCond::ReputationEntranceCond(
   const data::ReputationEntranceCond *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationEntranceCond = v2;
@@ -461,7 +461,7 @@ void __cdecl data::ReputationEntranceCond::~ReputationEntranceCond(data::Reputat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationEntranceCond = v2;
@@ -541,7 +541,7 @@ void __cdecl data::ReputationEntranceExcelConfig::ReputationEntranceExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationEntranceExcelConfig = v2;
@@ -583,7 +583,7 @@ void __cdecl data::ReputationEntranceExcelConfig::ReputationEntranceExcelConfig(
   const data::ReputationEntranceExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationEntranceExcelConfig = v2;
@@ -637,7 +637,7 @@ void __cdecl data::ReputationEntranceExcelConfig::~ReputationEntranceExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationEntranceExcelConfig = v2;
@@ -668,7 +668,7 @@ void __cdecl data::ReputationQuestExcelConfig::ReputationQuestExcelConfig(
   const data::ReputationQuestExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationQuestExcelConfig = v2;
@@ -721,7 +721,7 @@ void __cdecl data::ReputationQuestExcelConfig::~ReputationQuestExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationQuestExcelConfig = v2;
@@ -759,7 +759,7 @@ void __cdecl data::ReputationRequestExcelConfig::ReputationRequestExcelConfig(
   const data::ReputationRequestExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationRequestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationRequestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationRequestExcelConfig = v2;
@@ -853,7 +853,7 @@ void __cdecl data::ReputationRequestExcelConfig::~ReputationRequestExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationRequestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationRequestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationRequestExcelConfig = v2;
@@ -886,7 +886,7 @@ void __cdecl data::ReputationExploreExcelConfig::ReputationExploreExcelConfig(
   const data::ReputationExploreExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationExploreExcelConfig = v2;
@@ -953,7 +953,7 @@ void __cdecl data::ReputationExploreExcelConfig::~ReputationExploreExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationExploreExcelConfig = v2;
@@ -974,7 +974,7 @@ void __cdecl data::ReputationCityExcelConfig::ReputationCityExcelConfig(data::Re
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationCityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationCityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationCityExcelConfig = v2;
@@ -1022,7 +1022,7 @@ void __cdecl data::ReputationCityExcelConfig::ReputationCityExcelConfig(
   const data::ReputationCityExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReputationCityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationCityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReputationCityExcelConfig = v2;
@@ -1084,7 +1084,7 @@ void __cdecl data::ReputationCityExcelConfig::~ReputationCityExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReputationCityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReputationCityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReputationCityExcelConfig = v2;

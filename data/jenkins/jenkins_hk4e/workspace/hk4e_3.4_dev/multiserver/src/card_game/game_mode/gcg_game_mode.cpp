@@ -6681,7 +6681,7 @@ int32_t __cdecl GCGGameMode::onGMAddWaitingCharacter(
   *(_DWORD *)(v6 + 2147450880) = -235802127;
   *(_DWORD *)(v6 + 2147450884) = -202178560;
   field = GCGDuel::getField(&this->duel_, controller_id);
-  *(_QWORD *)(v4 + 32) = &`vtable for'data::GCGWaitingCharacterInfo + 2;
+  *(_QWORD *)(v4 + 32) = &`vtable for data::GCGWaitingCharacterInfo + 2;
   *(_DWORD *)(v4 + 40) = 0;
   *(_DWORD *)(v4 + 44) = 0;
   *(_DWORD *)(v4 + 40) = card_id;

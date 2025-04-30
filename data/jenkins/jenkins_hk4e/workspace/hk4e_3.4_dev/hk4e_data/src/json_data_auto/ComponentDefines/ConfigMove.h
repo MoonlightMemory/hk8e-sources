@@ -135,7 +135,7 @@ void __cdecl data::ConfigMove::ConfigMove(data::ConfigMove *const this)
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigMove>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMove>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -168,7 +168,7 @@ void __cdecl data::ConfigMove::ConfigMove(data::ConfigMove *const this, const da
   std::enable_shared_from_this<data::ConfigMove>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMove>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMove + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMove = v3;
@@ -207,7 +207,7 @@ void __cdecl data::ConfigPlatformMove::ConfigPlatformMove(data::ConfigPlatformMo
   __int64 v5; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlatformMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlatformMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -249,7 +249,7 @@ void __cdecl data::ConfigMove::~ConfigMove(data::ConfigMove *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -318,7 +318,7 @@ void __cdecl data::ConfigMoveCorrection::ConfigMoveCorrection(data::ConfigMoveCo
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigMoveCorrection>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMoveCorrection>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveCorrection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveCorrection = v2;
@@ -341,7 +341,7 @@ void __cdecl data::ConfigMoveCorrection::ConfigMoveCorrection(
   std::enable_shared_from_this<data::ConfigMoveCorrection>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMoveCorrection>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMoveCorrection + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMoveCorrection = v3;
@@ -370,7 +370,7 @@ void __cdecl data::ConfigMoveCorrection::~ConfigMoveCorrection(data::ConfigMoveC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveCorrection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveCorrection = v2;
@@ -439,7 +439,7 @@ void __cdecl data::ConfigSimpleMove::ConfigSimpleMove(data::ConfigSimpleMove *co
   __int64 v3; // rsi
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -467,7 +467,7 @@ void __cdecl data::ConfigSimpleMove::ConfigSimpleMove(
   char v6; // al
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -509,7 +509,7 @@ void __cdecl data::ConfigSimpleMove::~ConfigSimpleMove(data::ConfigSimpleMove *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -576,7 +576,7 @@ void __cdecl data::ConfigSimpleMoveFactory::ConfigSimpleMoveFactory(data::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSimpleMoveFactory = v2;
@@ -600,7 +600,7 @@ void __cdecl data::ConfigRigidbodyMove::ConfigRigidbodyMove(data::ConfigRigidbod
   __int64 v13; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRigidbodyMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRigidbodyMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -678,7 +678,7 @@ void __cdecl data::ConfigRigidbodyMove::ConfigRigidbodyMove(
   __int64 v31; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRigidbodyMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRigidbodyMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -775,7 +775,7 @@ void __cdecl data::ConfigRigidbodyMove::~ConfigRigidbodyMove(data::ConfigRigidbo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRigidbodyMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRigidbodyMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -842,7 +842,7 @@ void __cdecl data::ConfigRigidbodyMoveFactory::ConfigRigidbodyMoveFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRigidbodyMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRigidbodyMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRigidbodyMoveFactory = v2;
@@ -859,7 +859,7 @@ void __cdecl data::ConfigMixinDriveMove::ConfigMixinDriveMove(data::ConfigMixinD
   __int64 v6; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMixinDriveMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMixinDriveMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -900,7 +900,7 @@ void __cdecl data::ConfigMixinDriveMove::ConfigMixinDriveMove(
   float yaw_speed_ratio; // xmm0_4
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMixinDriveMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMixinDriveMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -953,7 +953,7 @@ void __cdecl data::ConfigMixinDriveMove::~ConfigMixinDriveMove(data::ConfigMixin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMixinDriveMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMixinDriveMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1021,7 +1021,7 @@ void __cdecl data::ConfigMixinDriveMoveFactory::ConfigMixinDriveMoveFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMixinDriveMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMixinDriveMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMixinDriveMoveFactory = v2;
@@ -1039,7 +1039,7 @@ void __cdecl data::ConfigFormulaicMove::ConfigFormulaicMove(data::ConfigFormulai
   __int64 v7; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFormulaicMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFormulaicMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1125,7 +1125,7 @@ void __cdecl data::ConfigFormulaicMove::ConfigFormulaicMove(
   float angle_speed; // xmm0_4
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFormulaicMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFormulaicMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -1249,7 +1249,7 @@ void __cdecl data::ConfigFormulaicMove::~ConfigFormulaicMove(data::ConfigFormula
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFormulaicMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFormulaicMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1320,7 +1320,7 @@ void __cdecl data::ConfigFormulaicMoveFactory::ConfigFormulaicMoveFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFormulaicMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFormulaicMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFormulaicMoveFactory = v2;
@@ -1333,7 +1333,7 @@ void __cdecl data::ConfigVehicleMove::ConfigVehicleMove(data::ConfigVehicleMove 
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1347,7 +1347,7 @@ void __cdecl data::ConfigVehicleMove::ConfigVehicleMove(
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -1359,7 +1359,7 @@ void __cdecl data::ConfigVehicleMove::~ConfigVehicleMove(data::ConfigVehicleMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1434,7 +1434,7 @@ void __cdecl data::ConfigBoatMove::ConfigBoatMove(data::ConfigBoatMove *const th
   int (**v2)(...); // rdx
 
   data::ConfigVehicleMove::ConfigVehicleMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoatMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoatMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1446,7 +1446,7 @@ void __cdecl data::ConfigBoatMove::ConfigBoatMove(data::ConfigBoatMove *const th
   int (**v2)(...); // rdx
 
   data::ConfigVehicleMove::ConfigVehicleMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoatMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoatMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -1465,7 +1465,7 @@ void __cdecl data::ConfigBoatMove::~ConfigBoatMove(data::ConfigBoatMove *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoatMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoatMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1532,7 +1532,7 @@ void __cdecl data::ConfigBoatMoveFactory::ConfigBoatMoveFactory(data::ConfigBoat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoatMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoatMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBoatMoveFactory = v2;
@@ -1545,7 +1545,7 @@ void __cdecl data::ConfigSkiffMove::ConfigSkiffMove(data::ConfigSkiffMove *const
   int (**v2)(...); // rdx
 
   data::ConfigVehicleMove::ConfigVehicleMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkiffMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkiffMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1557,7 +1557,7 @@ void __cdecl data::ConfigSkiffMove::ConfigSkiffMove(data::ConfigSkiffMove *const
   int (**v2)(...); // rdx
 
   data::ConfigVehicleMove::ConfigVehicleMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkiffMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkiffMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -1576,7 +1576,7 @@ void __cdecl data::ConfigSkiffMove::~ConfigSkiffMove(data::ConfigSkiffMove *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkiffMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkiffMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1643,7 +1643,7 @@ void __cdecl data::ConfigSkiffMoveFactory::ConfigSkiffMoveFactory(data::ConfigSk
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkiffMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkiffMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkiffMoveFactory = v2;
@@ -1665,7 +1665,7 @@ void __cdecl data::ConfigAnimatorMove::ConfigAnimatorMove(data::ConfigAnimatorMo
   __int64 v11; // rsi
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -1793,7 +1793,7 @@ void __cdecl data::ConfigAnimatorMove::ConfigAnimatorMove(
   char v39; // al
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -1996,7 +1996,7 @@ void __cdecl data::ConfigAnimatorMove::~ConfigAnimatorMove(data::ConfigAnimatorM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2070,7 +2070,7 @@ void __cdecl data::ConfigNPCMove::ConfigNPCMove(data::ConfigNPCMove *const this)
   __int64 v4; // rdx
 
   data::ConfigAnimatorMove::ConfigAnimatorMove((data::ConfigAnimatorMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNPCMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNPCMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2094,7 +2094,7 @@ void __cdecl data::ConfigNPCMove::ConfigNPCMove(data::ConfigNPCMove *const this,
   data::ConfigAnimatorMove::ConfigAnimatorMove(
     (data::ConfigAnimatorMove *const)this,
     (const data::ConfigAnimatorMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNPCMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNPCMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2124,7 +2124,7 @@ void __cdecl data::ConfigNPCMove::~ConfigNPCMove(data::ConfigNPCMove *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNPCMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNPCMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2191,7 +2191,7 @@ void __cdecl data::ConfigNPCMoveFactory::ConfigNPCMoveFactory(data::ConfigNPCMov
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNPCMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNPCMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNPCMoveFactory = v2;
@@ -2217,7 +2217,7 @@ void __cdecl data::ConfigPlatformMove::ConfigPlatformMove(
   char v14; // al
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlatformMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlatformMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2280,7 +2280,7 @@ void __cdecl data::ConfigPlatformMove::~ConfigPlatformMove(data::ConfigPlatformM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlatformMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlatformMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2357,7 +2357,7 @@ void __cdecl data::ConfigScenePropWayPointMove::ConfigScenePropWayPointMove(
   int (**v2)(...); // rdx
 
   data::ConfigPlatformMove::ConfigPlatformMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropWayPointMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropWayPointMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2371,7 +2371,7 @@ void __cdecl data::ConfigScenePropWayPointMove::ConfigScenePropWayPointMove(
   int (**v2)(...); // rdx
 
   data::ConfigPlatformMove::ConfigPlatformMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropWayPointMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropWayPointMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2392,7 +2392,7 @@ void __cdecl data::ConfigScenePropWayPointMove::~ConfigScenePropWayPointMove(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropWayPointMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropWayPointMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2460,7 +2460,7 @@ void __cdecl data::ConfigScenePropWayPointMoveFactory::ConfigScenePropWayPointMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropWayPointMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropWayPointMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePropWayPointMoveFactory = v2;
@@ -2474,7 +2474,7 @@ void __cdecl data::ConfigScenePropAnimatorMove::ConfigScenePropAnimatorMove(
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2488,7 +2488,7 @@ void __cdecl data::ConfigScenePropAnimatorMove::ConfigScenePropAnimatorMove(
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2509,7 +2509,7 @@ void __cdecl data::ConfigScenePropAnimatorMove::~ConfigScenePropAnimatorMove(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropAnimatorMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropAnimatorMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2577,7 +2577,7 @@ void __cdecl data::ConfigScenePropAnimatorMoveFactory::ConfigScenePropAnimatorMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropAnimatorMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropAnimatorMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePropAnimatorMoveFactory = v2;
@@ -2608,7 +2608,7 @@ void __cdecl data::ConfigScenePropColliderMove::ConfigScenePropColliderMove(
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::ConfigMove::ConfigMove(this);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigScenePropColliderMove + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigScenePropColliderMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v5;
@@ -2637,7 +2637,7 @@ void __cdecl data::ConfigScenePropColliderMove::ConfigScenePropColliderMove(
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropColliderMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropColliderMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2659,7 +2659,7 @@ void __cdecl data::ConfigScenePropColliderMove::~ConfigScenePropColliderMove(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropColliderMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropColliderMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2728,7 +2728,7 @@ void __cdecl data::ConfigScenePropColliderMoveFactory::ConfigScenePropColliderMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePropColliderMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePropColliderMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePropColliderMoveFactory = v2;
@@ -2741,7 +2741,7 @@ void __cdecl data::ConfigWindmillMove::ConfigWindmillMove(data::ConfigWindmillMo
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmillMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmillMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2755,7 +2755,7 @@ void __cdecl data::ConfigWindmillMove::ConfigWindmillMove(
   int (**v2)(...); // rdx
 
   data::ConfigMove::ConfigMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmillMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmillMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -2774,7 +2774,7 @@ void __cdecl data::ConfigWindmillMove::~ConfigWindmillMove(data::ConfigWindmillM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmillMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmillMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -2841,7 +2841,7 @@ void __cdecl data::ConfigWindmillMoveFactory::ConfigWindmillMoveFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmillMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmillMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWindmillMoveFactory = v2;
@@ -2854,7 +2854,7 @@ void __cdecl data::ConfigBulletMoveAngle::ConfigBulletMoveAngle(data::ConfigBull
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBulletMoveAngle>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBulletMoveAngle>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -2877,7 +2877,7 @@ void __cdecl data::ConfigBulletMoveAngle::ConfigBulletMoveAngle(
   std::enable_shared_from_this<data::ConfigBulletMoveAngle>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBulletMoveAngle>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngle + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBulletMoveAngle = v3;
@@ -2899,7 +2899,7 @@ void __cdecl data::ConfigBulletMoveAngle::~ConfigBulletMoveAngle(data::ConfigBul
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -2976,7 +2976,7 @@ void __cdecl data::ConfigBulletMoveAngleByVelocity::ConfigBulletMoveAngleByVeloc
   __int64 v3; // rsi
 
   data::ConfigBulletMoveAngle::ConfigBulletMoveAngle((data::ConfigBulletMoveAngle *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleByVelocity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleByVelocity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3006,7 +3006,7 @@ void __cdecl data::ConfigBulletMoveAngleByVelocity::ConfigBulletMoveAngleByVeloc
   data::ConfigBulletMoveAngle::ConfigBulletMoveAngle(
     (data::ConfigBulletMoveAngle *const)this,
     (const data::ConfigBulletMoveAngle *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleByVelocity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleByVelocity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3042,7 +3042,7 @@ void __cdecl data::ConfigBulletMoveAngleByVelocity::~ConfigBulletMoveAngleByVelo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleByVelocity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleByVelocity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3120,7 +3120,7 @@ void __cdecl data::ConfigBulletMoveAngleByVelocityFactory::ConfigBulletMoveAngle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleByVelocityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleByVelocityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngleByVelocityFactory = v2;
@@ -3134,7 +3134,7 @@ void __cdecl data::ConfigBulletMoveAngleRotating::ConfigBulletMoveAngleRotating(
   int (**v2)(...); // rdx
 
   data::ConfigBulletMoveAngle::ConfigBulletMoveAngle((data::ConfigBulletMoveAngle *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleRotating + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleRotating + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3152,7 +3152,7 @@ void __cdecl data::ConfigBulletMoveAngleRotating::ConfigBulletMoveAngleRotating(
   data::ConfigBulletMoveAngle::ConfigBulletMoveAngle(
     (data::ConfigBulletMoveAngle *const)this,
     (const data::ConfigBulletMoveAngle *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleRotating + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleRotating + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3192,7 +3192,7 @@ void __cdecl data::ConfigBulletMoveAngleRotating::~ConfigBulletMoveAngleRotating
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleRotating + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleRotating + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngle = v2;
@@ -3261,7 +3261,7 @@ void __cdecl data::ConfigBulletMoveAngleRotatingFactory::ConfigBulletMoveAngleRo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMoveAngleRotatingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMoveAngleRotatingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBulletMoveAngleRotatingFactory = v2;
@@ -3348,7 +3348,7 @@ void __cdecl data::ConfigBulletMove::ConfigBulletMove(data::ConfigBulletMove *co
   __int64 v11; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3460,7 +3460,7 @@ void __cdecl data::ConfigBulletMove::ConfigBulletMove(
   __int64 v30; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -3627,7 +3627,7 @@ void __cdecl data::ConfigBulletMove::~ConfigBulletMove(data::ConfigBulletMove *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3703,7 +3703,7 @@ void __cdecl data::ConfigLinerBulletMove::ConfigLinerBulletMove(data::ConfigLine
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3717,7 +3717,7 @@ void __cdecl data::ConfigLinerBulletMove::ConfigLinerBulletMove(
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -3736,7 +3736,7 @@ void __cdecl data::ConfigLinerBulletMove::~ConfigLinerBulletMove(data::ConfigLin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3804,7 +3804,7 @@ void __cdecl data::ConfigAnimationBulletMove::ConfigAnimationBulletMove(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimationBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimationBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3818,7 +3818,7 @@ void __cdecl data::ConfigAnimationBulletMove::ConfigAnimationBulletMove(
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimationBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimationBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -3837,7 +3837,7 @@ void __cdecl data::ConfigAnimationBulletMove::~ConfigAnimationBulletMove(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimationBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimationBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3905,7 +3905,7 @@ void __cdecl data::ConfigAnimationBulletMoveFactory::ConfigAnimationBulletMoveFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAnimationBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAnimationBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAnimationBulletMoveFactory = v2;
@@ -3924,7 +3924,7 @@ void __cdecl data::ConfigSurroundBulletMove::ConfigSurroundBulletMove(data::Conf
   __int64 v8; // rdx
 
   data::ConfigBulletMove::ConfigBulletMove((data::ConfigBulletMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSurroundBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSurroundBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -3975,7 +3975,7 @@ void __cdecl data::ConfigSurroundBulletMove::ConfigSurroundBulletMove(
   __int64 v18; // rdx
 
   data::ConfigBulletMove::ConfigBulletMove((data::ConfigBulletMove *const)this, (const data::ConfigBulletMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSurroundBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSurroundBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -4039,7 +4039,7 @@ void __cdecl data::ConfigSurroundBulletMove::~ConfigSurroundBulletMove(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSurroundBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSurroundBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4107,7 +4107,7 @@ void __cdecl data::ConfigSurroundBulletMoveFactory::ConfigSurroundBulletMoveFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSurroundBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSurroundBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSurroundBulletMoveFactory = v2;
@@ -4125,7 +4125,7 @@ void __cdecl data::ConfigPinballBulletMove::ConfigPinballBulletMove(data::Config
   __int64 v7; // rsi
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPinballBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPinballBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4189,7 +4189,7 @@ void __cdecl data::ConfigPinballBulletMove::ConfigPinballBulletMove(
   float out_of_range_fix_cd; // xmm0_4
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPinballBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPinballBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -4279,7 +4279,7 @@ void __cdecl data::ConfigPinballBulletMove::~ConfigPinballBulletMove(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPinballBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPinballBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4347,7 +4347,7 @@ void __cdecl data::ConfigPinballBulletMoveFactory::ConfigPinballBulletMoveFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPinballBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPinballBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPinballBulletMoveFactory = v2;
@@ -4363,7 +4363,7 @@ void __cdecl data::ConfigParabolaBulletMoveCorrection::ConfigParabolaBulletMoveC
   __int64 v4; // rsi
 
   data::ConfigMoveCorrection::ConfigMoveCorrection((data::ConfigMoveCorrection *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMoveCorrection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveCorrection = v2;
@@ -4411,7 +4411,7 @@ void __cdecl data::ConfigParabolaBulletMoveCorrection::ConfigParabolaBulletMoveC
   data::ConfigMoveCorrection::ConfigMoveCorrection(
     (data::ConfigMoveCorrection *const)this,
     (const data::ConfigMoveCorrection *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMoveCorrection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMoveCorrection = v2;
@@ -4474,7 +4474,7 @@ void __cdecl data::ConfigParabolaBulletMoveCorrection::~ConfigParabolaBulletMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMoveCorrection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMoveCorrection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveCorrection = v2;
@@ -4552,7 +4552,7 @@ void __cdecl data::ConfigParabolaBulletMoveCorrectionFactory::ConfigParabolaBull
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMoveCorrectionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMoveCorrectionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigParabolaBulletMoveCorrectionFactory = v2;
@@ -4565,7 +4565,7 @@ void __cdecl data::ConfigParabolaBulletMove::ConfigParabolaBulletMove(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4597,7 +4597,7 @@ void __cdecl data::ConfigParabolaBulletMove::ConfigParabolaBulletMove(
   float gravity_of_acceleration; // xmm0_4
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -4636,7 +4636,7 @@ void __cdecl data::ConfigParabolaBulletMove::~ConfigParabolaBulletMove(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4712,7 +4712,7 @@ void __cdecl data::ConfigParabolaBulletMoveFactory::ConfigParabolaBulletMoveFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigParabolaBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigParabolaBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigParabolaBulletMoveFactory = v2;
@@ -4726,7 +4726,7 @@ void __cdecl data::ConfigFishingAimParabolaBulletMove::ConfigFishingAimParabolaB
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingAimParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingAimParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4755,7 +4755,7 @@ void __cdecl data::ConfigFishingAimParabolaBulletMove::ConfigFishingAimParabolaB
   float init_speed; // xmm0_4
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingAimParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingAimParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -4793,7 +4793,7 @@ void __cdecl data::ConfigFishingAimParabolaBulletMove::~ConfigFishingAimParabola
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingAimParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingAimParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -4872,7 +4872,7 @@ void __cdecl data::ConfigFishingAimParabolaBulletMoveFactory::ConfigFishingAimPa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingAimParabolaBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingAimParabolaBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFishingAimParabolaBulletMoveFactory = v2;
@@ -4885,7 +4885,7 @@ void __cdecl data::ConfigWhenNoTarget::ConfigWhenNoTarget(data::ConfigWhenNoTarg
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigWhenNoTarget>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigWhenNoTarget>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWhenNoTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWhenNoTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -4912,7 +4912,7 @@ void __cdecl data::ConfigWhenNoTarget::ConfigWhenNoTarget(
   std::enable_shared_from_this<data::ConfigWhenNoTarget>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigWhenNoTarget>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigWhenNoTarget + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigWhenNoTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigWhenNoTarget = v3;
@@ -4936,7 +4936,7 @@ void __cdecl data::ConfigWhenNoTarget::~ConfigWhenNoTarget(data::ConfigWhenNoTar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWhenNoTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWhenNoTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5014,7 +5014,7 @@ void __cdecl data::ConfigDestroyByTargetSphere::ConfigDestroyByTargetSphere(
   __int64 v3; // rsi
 
   data::ConfigWhenNoTarget::ConfigWhenNoTarget((data::ConfigWhenNoTarget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyByTargetSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyByTargetSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5046,7 +5046,7 @@ void __cdecl data::ConfigDestroyByTargetSphere::ConfigDestroyByTargetSphere(
   data::ConfigWhenNoTarget::ConfigWhenNoTarget(
     (data::ConfigWhenNoTarget *const)this,
     (const data::ConfigWhenNoTarget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyByTargetSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyByTargetSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5084,7 +5084,7 @@ void __cdecl data::ConfigDestroyByTargetSphere::~ConfigDestroyByTargetSphere(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyByTargetSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyByTargetSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5160,7 +5160,7 @@ void __cdecl data::ConfigDestroyByTargetSphereFactory::ConfigDestroyByTargetSphe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyByTargetSphereFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyByTargetSphereFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDestroyByTargetSphereFactory = v2;
@@ -5173,7 +5173,7 @@ void __cdecl data::ConfigDestroyAfterTime::ConfigDestroyAfterTime(data::ConfigDe
   int (**v2)(...); // rdx
 
   data::ConfigWhenNoTarget::ConfigWhenNoTarget((data::ConfigWhenNoTarget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyAfterTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyAfterTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5196,7 +5196,7 @@ void __cdecl data::ConfigDestroyAfterTime::ConfigDestroyAfterTime(
   data::ConfigWhenNoTarget::ConfigWhenNoTarget(
     (data::ConfigWhenNoTarget *const)this,
     (const data::ConfigWhenNoTarget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyAfterTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyAfterTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5220,7 +5220,7 @@ void __cdecl data::ConfigDestroyAfterTime::~ConfigDestroyAfterTime(data::ConfigD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyAfterTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyAfterTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWhenNoTarget = v2;
@@ -5295,7 +5295,7 @@ void __cdecl data::ConfigDestroyAfterTimeFactory::ConfigDestroyAfterTimeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDestroyAfterTimeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDestroyAfterTimeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDestroyAfterTimeFactory = v2;
@@ -5312,7 +5312,7 @@ void __cdecl data::ConfigTrackBulletMove::ConfigTrackBulletMove(data::ConfigTrac
   __int64 v6; // rdx
 
   data::ConfigBulletMove::ConfigBulletMove((data::ConfigBulletMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrackBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrackBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5349,7 +5349,7 @@ void __cdecl data::ConfigTrackBulletMove::ConfigTrackBulletMove(
   __int64 v12; // rdx
 
   data::ConfigBulletMove::ConfigBulletMove((data::ConfigBulletMove *const)this, (const data::ConfigBulletMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrackBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrackBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -5391,7 +5391,7 @@ void __cdecl data::ConfigTrackBulletMove::~ConfigTrackBulletMove(data::ConfigTra
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrackBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrackBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5460,7 +5460,7 @@ void __cdecl data::ConfigBoomerangBulletMove::ConfigBoomerangBulletMove(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigTrackBulletMove::ConfigTrackBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoomerangBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoomerangBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5489,7 +5489,7 @@ void __cdecl data::ConfigBoomerangBulletMove::ConfigBoomerangBulletMove(
 
   v6 = a2;
   data::ConfigTrackBulletMove::ConfigTrackBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoomerangBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoomerangBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -5525,7 +5525,7 @@ void __cdecl data::ConfigBoomerangBulletMove::~ConfigBoomerangBulletMove(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoomerangBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoomerangBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5600,7 +5600,7 @@ void __cdecl data::ConfigBoomerangBulletMoveFactory::ConfigBoomerangBulletMoveFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBoomerangBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBoomerangBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBoomerangBulletMoveFactory = v2;
@@ -5615,7 +5615,7 @@ void __cdecl data::ConfigLinerParabolaBulletMove::ConfigLinerParabolaBulletMove(
   __int64 v3; // rsi
 
   data::ConfigLinerBulletMove::ConfigLinerBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5653,7 +5653,7 @@ void __cdecl data::ConfigLinerParabolaBulletMove::ConfigLinerParabolaBulletMove(
   float air_resistance; // xmm0_4
 
   data::ConfigLinerBulletMove::ConfigLinerBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -5713,7 +5713,7 @@ void __cdecl data::ConfigLinerParabolaBulletMove::~ConfigLinerParabolaBulletMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerParabolaBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerParabolaBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5782,7 +5782,7 @@ void __cdecl data::ConfigLinerParabolaBulletMoveFactory::ConfigLinerParabolaBull
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLinerParabolaBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLinerParabolaBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLinerParabolaBulletMoveFactory = v2;
@@ -5800,7 +5800,7 @@ void __cdecl data::ConfigItanoCircusBulletMove::ConfigItanoCircusBulletMove(
   __int64 v6; // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigItanoCircusBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigItanoCircusBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -5862,7 +5862,7 @@ void __cdecl data::ConfigItanoCircusBulletMove::ConfigItanoCircusBulletMove(
   float guidance_duration; // xmm0_4
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigItanoCircusBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigItanoCircusBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -5953,7 +5953,7 @@ void __cdecl data::ConfigItanoCircusBulletMove::~ConfigItanoCircusBulletMove(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigItanoCircusBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigItanoCircusBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -6021,7 +6021,7 @@ void __cdecl data::ConfigItanoCircusBulletMoveFactory::ConfigItanoCircusBulletMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigItanoCircusBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigItanoCircusBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigItanoCircusBulletMoveFactory = v2;
@@ -6034,7 +6034,7 @@ void __cdecl data::ConfigMultiBulletMove::ConfigMultiBulletMove(data::ConfigMult
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -6048,7 +6048,7 @@ void __cdecl data::ConfigMultiBulletMove::ConfigMultiBulletMove(
   int (**v2)(...); // rdx
 
   data::ConfigBulletMove::ConfigBulletMove(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -6060,7 +6060,7 @@ void __cdecl data::ConfigMultiBulletMove::~ConfigMultiBulletMove(data::ConfigMul
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -6135,7 +6135,7 @@ void __cdecl data::ConfigMultiBulletMoveFactory::ConfigMultiBulletMoveFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBulletMoveFactory = v2;
@@ -6304,7 +6304,7 @@ void __cdecl data::ConfigMoveFollowTarget::ConfigMoveFollowTarget(data::ConfigMo
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigMoveFollowTarget>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMoveFollowTarget>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveFollowTarget = v2;
@@ -6327,7 +6327,7 @@ void __cdecl data::ConfigMoveFollowTarget::ConfigMoveFollowTarget(
   std::enable_shared_from_this<data::ConfigMoveFollowTarget>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMoveFollowTarget>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowTarget + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMoveFollowTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMoveFollowTarget = v3;
@@ -6356,7 +6356,7 @@ void __cdecl data::ConfigMoveFollowTarget::~ConfigMoveFollowTarget(data::ConfigM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveFollowTarget = v2;
@@ -6425,7 +6425,7 @@ void __cdecl data::ConfigMoveFollowNpc::ConfigMoveFollowNpc(data::ConfigMoveFoll
   __int64 v3; // rsi
 
   data::ConfigMoveFollowTarget::ConfigMoveFollowTarget((data::ConfigMoveFollowTarget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowNpc + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowNpc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveFollowTarget = v2;
@@ -6459,7 +6459,7 @@ void __cdecl data::ConfigMoveFollowNpc::ConfigMoveFollowNpc(
   data::ConfigMoveFollowTarget::ConfigMoveFollowTarget(
     (data::ConfigMoveFollowTarget *const)this,
     (const data::ConfigMoveFollowTarget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowNpc + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowNpc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMoveFollowTarget = v2;
@@ -6505,7 +6505,7 @@ void __cdecl data::ConfigMoveFollowNpc::~ConfigMoveFollowNpc(data::ConfigMoveFol
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowNpc + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowNpc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveFollowTarget = v2;
@@ -6572,7 +6572,7 @@ void __cdecl data::ConfigMoveFollowNpcFactory::ConfigMoveFollowNpcFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveFollowNpcFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveFollowNpcFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveFollowNpcFactory = v2;
@@ -6592,7 +6592,7 @@ void __cdecl data::ConfigFollowMove::ConfigFollowMove(data::ConfigFollowMove *co
   __int64 v9; // rdx
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFollowMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFollowMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -6720,7 +6720,7 @@ void __cdecl data::ConfigFollowMove::ConfigFollowMove(
   float fixed_follow_rot_max_speed; // xmm0_4
 
   data::ConfigMove::ConfigMove((data::ConfigMove *const)this, (const data::ConfigMove *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFollowMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFollowMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMove = v2;
@@ -6936,7 +6936,7 @@ void __cdecl data::ConfigFollowMove::~ConfigFollowMove(data::ConfigFollowMove *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFollowMove + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFollowMove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMove = v2;
@@ -7015,7 +7015,7 @@ void __cdecl data::ConfigFollowMoveFactory::ConfigFollowMoveFactory(data::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFollowMoveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFollowMoveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFollowMoveFactory = v2;

@@ -24350,7 +24350,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityItemLimitExc
         v14 = ((v3 + 112) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::NewActivityItemLimitExcelConfig + 2;
+        v15 = &`vtable for data::NewActivityItemLimitExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 112, v13);
         *(_QWORD *)(v3 + 112) = v15;
@@ -26787,7 +26787,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityEntryConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::NewActivityEntryConfig + 2;
+        v15 = &`vtable for data::NewActivityEntryConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -27791,7 +27791,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityScoreLimitEx
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::NewActivityScoreLimitExcelConfig + 2;
+        v15 = &`vtable for data::NewActivityScoreLimitExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -28140,7 +28140,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityScoreRewardE
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::NewActivityScoreRewardExcelConfig + 2;
+        v15 = &`vtable for data::NewActivityScoreRewardExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -28834,7 +28834,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityOverlapExcel
         v13 = *(unsigned int *)(v3 + 64);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1168), v13);
         *(_WORD *)(((v3 + 224) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::NewActivityOverlapExcelConfig + 2;
+        v14 = &`vtable for data::NewActivityOverlapExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 224) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 224, v13);
         *(_QWORD *)(v3 + 224) = v14;
@@ -29232,7 +29232,7 @@ int32_t __cdecl data::NewActivityExcelConfigMgrBase::loadNewActivityPushTipsConf
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::NewActivityPushTipsConfig + 2;
+        v15 = &`vtable for data::NewActivityPushTipsConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;

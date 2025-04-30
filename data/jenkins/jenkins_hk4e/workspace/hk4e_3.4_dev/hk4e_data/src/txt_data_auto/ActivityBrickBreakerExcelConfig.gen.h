@@ -7,7 +7,7 @@ void __cdecl data::BrickBreakerStageExcelConfig::BrickBreakerStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerStageExcelConfig = v2;
@@ -51,7 +51,7 @@ void __cdecl data::BrickBreakerStageExcelConfig::BrickBreakerStageExcelConfig(
   const data::BrickBreakerStageExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerStageExcelConfig = v2;
@@ -108,7 +108,7 @@ void __cdecl data::BrickBreakerStageExcelConfig::~BrickBreakerStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerStageExcelConfig = v2;
@@ -138,7 +138,7 @@ void __cdecl data::BrickBreakerWorldLevelExcelConfig::BrickBreakerWorldLevelExce
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerWorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerWorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerWorldLevelExcelConfig = v2;
@@ -245,7 +245,7 @@ void __cdecl data::BrickBreakerWorldLevelExcelConfig::BrickBreakerWorldLevelExce
   const data::BrickBreakerWorldLevelExcelConfig *v31; // [rsp+0h] [rbp-20h]
 
   v31 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerWorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerWorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerWorldLevelExcelConfig = v2;
@@ -390,7 +390,7 @@ void __cdecl data::BrickBreakerWorldLevelExcelConfig::~BrickBreakerWorldLevelExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerWorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerWorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerWorldLevelExcelConfig = v2;
@@ -418,7 +418,7 @@ void __cdecl data::BrickBreakerDungeonLevelExcelConfig::BrickBreakerDungeonLevel
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerDungeonLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerDungeonLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerDungeonLevelExcelConfig = v2;
@@ -506,7 +506,7 @@ void __cdecl data::BrickBreakerDungeonLevelExcelConfig::BrickBreakerDungeonLevel
   const data::BrickBreakerDungeonLevelExcelConfig *v23; // [rsp+0h] [rbp-20h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerDungeonLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerDungeonLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerDungeonLevelExcelConfig = v2;
@@ -637,7 +637,7 @@ void __cdecl data::BrickBreakerDungeonLevelExcelConfig::~BrickBreakerDungeonLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerDungeonLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerDungeonLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerDungeonLevelExcelConfig = v2;
@@ -654,7 +654,7 @@ void __cdecl data::BrickBreakerSkillExcelConfig::BrickBreakerSkillExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerSkillExcelConfig = v2;
@@ -715,7 +715,7 @@ void __cdecl data::BrickBreakerSkillExcelConfig::BrickBreakerSkillExcelConfig(
   const data::BrickBreakerSkillExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerSkillExcelConfig = v2;
@@ -804,7 +804,7 @@ void __cdecl data::BrickBreakerSkillExcelConfig::~BrickBreakerSkillExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerSkillExcelConfig = v2;
@@ -820,7 +820,7 @@ void __cdecl data::BrickBreakerInfoExcelConfig::BrickBreakerInfoExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerInfoExcelConfig = v2;
@@ -854,7 +854,7 @@ void __cdecl data::BrickBreakerInfoExcelConfig::~BrickBreakerInfoExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerInfoExcelConfig = v2;
@@ -886,7 +886,7 @@ void __cdecl data::BrickBreakerQuestExcelConfig::BrickBreakerQuestExcelConfig(
   const data::BrickBreakerQuestExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BrickBreakerQuestExcelConfig = v2;
@@ -1001,7 +1001,7 @@ void __cdecl data::BrickBreakerQuestExcelConfig::~BrickBreakerQuestExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BrickBreakerQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BrickBreakerQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BrickBreakerQuestExcelConfig = v2;

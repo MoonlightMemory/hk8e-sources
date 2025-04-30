@@ -6,7 +6,7 @@ void __cdecl GivingExcelConfigMgr::GivingExcelConfigMgr(GivingExcelConfigMgr *co
   int (**v1)(...); // rdx
 
   data::GivingExcelConfigMgrBase::GivingExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'GivingExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for GivingExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GivingExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl GivingExcelConfigMgr::~GivingExcelConfigMgr(GivingExcelConfigMgr *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GivingExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for GivingExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GivingExcelConfigMgrBase = v1;

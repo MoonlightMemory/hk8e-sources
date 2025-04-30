@@ -12,7 +12,7 @@ void __cdecl data::BattlePassScheduleExcelConfig::BattlePassScheduleExcelConfig(
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BattlePassScheduleExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::BattlePassScheduleExcelConfig::BattlePassScheduleExcelConfig(
   const data::BattlePassScheduleExcelConfig *v34; // [rsp+0h] [rbp-20h]
 
   v34 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BattlePassScheduleExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::BattlePassScheduleExcelConfig::~BattlePassScheduleExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BattlePassScheduleExcelConfig = v2;
@@ -354,7 +354,7 @@ void __cdecl data::BattlePassLevelExcelConfig::BattlePassLevelExcelConfig(
   const data::BattlePassLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BattlePassLevelExcelConfig = v2;
@@ -402,7 +402,7 @@ void __cdecl data::BattlePassLevelExcelConfig::~BattlePassLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BattlePassLevelExcelConfig = v2;
@@ -416,7 +416,7 @@ void __cdecl data::BattlePassRewardExcelConfig::BattlePassRewardExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BattlePassRewardExcelConfig = v2;
@@ -457,7 +457,7 @@ void __cdecl data::BattlePassRewardExcelConfig::BattlePassRewardExcelConfig(
   const data::BattlePassRewardExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BattlePassRewardExcelConfig = v2;
@@ -510,7 +510,7 @@ void __cdecl data::BattlePassRewardExcelConfig::~BattlePassRewardExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BattlePassRewardExcelConfig = v2;
@@ -536,7 +536,7 @@ void __cdecl data::BattlePassMissionExcelConfig::BattlePassMissionExcelConfig(
   __int64 v4; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -583,7 +583,7 @@ void __cdecl data::BattlePassMissionExcelConfig::BattlePassMissionExcelConfig(
   char v12; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -653,7 +653,7 @@ void __cdecl data::BattlePassMissionExcelConfig::~BattlePassMissionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BattlePassMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BattlePassMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;

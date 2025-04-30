@@ -400,7 +400,7 @@ void __fastcall __noreturn boost::exception_detail::throw_exception_<boost::prop
   v12.v_ = file;
   current_functiona = current_function;
   std::runtime_error::runtime_error((std::runtime_error *)&v13, (const std::runtime_error *)x);
-  *(_QWORD *)v13.baseclass_0 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  *(_QWORD *)v13.baseclass_0 = &`vtable for boost::property_tree::file_parser_error + 2;
   v13.m_message._M_dataplus._M_p = v13.m_message._anon_0._M_local_buf;
   if ( *(_BYTE *)(((unsigned __int64)&x->m_message >> 3) + 0x7FFF8000) )
   {
@@ -438,9 +438,9 @@ LABEL_11:
   v13.m_line = x->m_line;
   memset(&v13.data_, 0, 24);
   v13.throw_line_ = -1;
-  *(_QWORD *)v13.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)v13.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                              + 2;
-  v13._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  v13._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                                       + 7);
   v6 = boost::exception_detail::set_info<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>(
          &v13,
@@ -457,7 +457,7 @@ LABEL_11:
     (__int64)v8);
   if ( *(_BYTE *)(((exception + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 128) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 128) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error> *const)exception,
     (__int64)&v14);
@@ -466,7 +466,7 @@ LABEL_11:
   *(_QWORD *)exception = &unk_1D4AE990;
   if ( *(_BYTE *)(((exception + 88) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 88) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)(exception + 88) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                               + 80;
   if ( *(_BYTE *)(((exception + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -474,14 +474,14 @@ LABEL_11:
   boost::exception_detail::copy_boost_exception((boost::exception *)(exception + 88), &v14.boost::exception);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error> + 24;
+  *(_QWORD *)exception = (char *)&`vtable for boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error> + 24;
   if ( *(_BYTE *)(((exception + 88) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 88) = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)(exception + 88) = (char *)&`vtable for boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>
                               + 80;
   if ( *(_BYTE *)(((exception + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 128) = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)(exception + 128) = (char *)&`vtable for boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>
                                + 136;
   boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>::~error_info_injector(&v14);
   __asan_handle_no_return(&v14);
@@ -514,7 +514,7 @@ void __fastcall __noreturn boost::exception_detail::throw_exception_<boost::prop
   v12.v_ = file;
   current_functiona = current_function;
   std::runtime_error::runtime_error((std::runtime_error *)&v13, (const std::runtime_error *)x);
-  *(_QWORD *)v13.baseclass_0 = &`vtable for'boost::property_tree::ptree_bad_path + 2;
+  *(_QWORD *)v13.baseclass_0 = &`vtable for boost::property_tree::ptree_bad_path + 2;
   if ( *(_BYTE *)(((unsigned __int64)&x->m_path >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8();
@@ -535,9 +535,9 @@ LABEL_10:
         v13.m_path.content = (boost::any::placeholder *)content;
         memset(&v13.data_, 0, 24);
         v13.throw_line_ = -1;
-        *(_QWORD *)v13.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
+        *(_QWORD *)v13.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
                                    + 2;
-        v13._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
+        v13._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
                                             + 7);
         v6 = boost::exception_detail::set_info<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>(
                &v13,
@@ -554,7 +554,7 @@ LABEL_10:
           v8);
         if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)(exception + 64) = &`vtable for'boost::exception_detail::clone_base + 2;
+        *(_QWORD *)(exception + 64) = &`vtable for boost::exception_detail::clone_base + 2;
         boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>::error_info_injector(
           (boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path> *const)exception,
           &v14);
@@ -563,7 +563,7 @@ LABEL_10:
         *(_QWORD *)exception = &unk_1D4AEC10;
         if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)(exception + 24) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+        *(_QWORD *)(exception + 24) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                                     + 80;
         if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
           __asan_report_store8();
@@ -571,13 +571,13 @@ LABEL_10:
         boost::exception_detail::copy_boost_exception((boost::exception *)(exception + 24), &v14.boost::exception);
         if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::ptree_bad_path> + 24;
+        *(_QWORD *)exception = (char *)&`vtable for boost::wrapexcept<boost::property_tree::ptree_bad_path> + 24;
         if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)(exception + 24) = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::ptree_bad_path> + 80;
+        *(_QWORD *)(exception + 24) = (char *)&`vtable for boost::wrapexcept<boost::property_tree::ptree_bad_path> + 80;
         if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)(exception + 64) = (char *)&`vtable for'boost::wrapexcept<boost::property_tree::ptree_bad_path> + 136;
+        *(_QWORD *)(exception + 64) = (char *)&`vtable for boost::wrapexcept<boost::property_tree::ptree_bad_path> + 136;
         boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>::~error_info_injector(&v14);
         __asan_handle_no_return(&v14);
         _cxa_throw(
@@ -606,8 +606,8 @@ void __fastcall __noreturn boost::exception_detail::throw_exception_<std::runtim
 
   std::runtime_error::runtime_error((std::runtime_error *)&v7, x);
   v7.data_.px_ = 0LL;
-  *(_QWORD *)v7.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
-  v7._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 7);
+  *(_QWORD *)v7.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v7._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 7);
   v7.throw_function_ = current_function;
   v7.throw_file_ = file;
   v7.throw_line_ = line;

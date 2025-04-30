@@ -8,7 +8,7 @@ void __cdecl data::DisplayItemExcelConfig::DisplayItemExcelConfig(data::DisplayI
   __int64 v3; // rsi
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DisplayItemExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DisplayItemExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -49,7 +49,7 @@ void __cdecl data::DisplayItemExcelConfig::DisplayItemExcelConfig(
   char v10; // dl
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this, (const data::ItemConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DisplayItemExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DisplayItemExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::DisplayItemExcelConfig::~DisplayItemExcelConfig(data::Display
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DisplayItemExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DisplayItemExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;

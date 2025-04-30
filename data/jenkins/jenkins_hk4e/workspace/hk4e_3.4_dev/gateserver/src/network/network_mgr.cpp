@@ -11,7 +11,7 @@ void __cdecl NetworkMgr::NetworkMgr(NetworkMgr *const this)
   std::shared_ptr<common::minet::AClientMgr<TothemoonserverConnect> > v6; // [rsp+50h] [rbp-20h] BYREF
 
   NetworkMgrBase::NetworkMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'NetworkMgr + 2);
+  v1 = (int (**)(...))(&`vtable for NetworkMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NetworkMgrBase = v1;

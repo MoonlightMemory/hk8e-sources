@@ -1889,7 +1889,7 @@ void __cdecl data::ConfigBeHitBlendShake::ConfigBeHitBlendShake(data::ConfigBeHi
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBeHitBlendShake>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBeHitBlendShake>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShake + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShake + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBeHitBlendShake = v2;
@@ -1912,7 +1912,7 @@ void __cdecl data::ConfigBeHitBlendShake::ConfigBeHitBlendShake(
   std::enable_shared_from_this<data::ConfigBeHitBlendShake>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBeHitBlendShake>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShake + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShake + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBeHitBlendShake = v3;
@@ -1941,7 +1941,7 @@ void __cdecl data::ConfigBeHitBlendShake::~ConfigBeHitBlendShake(data::ConfigBeH
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShake + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShake + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBeHitBlendShake = v2;
@@ -2101,7 +2101,7 @@ void __cdecl data::ConfigBeHitBlendShakeByAinmator::ConfigBeHitBlendShakeByAinma
   int (**v2)(...); // rdx
 
   data::ConfigBeHitBlendShake::ConfigBeHitBlendShake(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShakeByAinmator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShakeByAinmator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBeHitBlendShake = v2;
@@ -2116,7 +2116,7 @@ void __cdecl data::ConfigBeHitBlendShakeByAinmator::ConfigBeHitBlendShakeByAinma
   int (**v2)(...); // rdx
 
   data::ConfigBeHitBlendShake::ConfigBeHitBlendShake(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShakeByAinmator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShakeByAinmator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBeHitBlendShake = v2;
@@ -2130,7 +2130,7 @@ void __cdecl data::ConfigBeHitBlendShakeByAinmator::~ConfigBeHitBlendShakeByAinm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShakeByAinmator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShakeByAinmator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBeHitBlendShake = v2;
@@ -2209,7 +2209,7 @@ void __cdecl data::ConfigBeHitBlendShakeByAinmatorFactory::ConfigBeHitBlendShake
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBeHitBlendShakeByAinmatorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBeHitBlendShakeByAinmatorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBeHitBlendShakeByAinmatorFactory = v2;
@@ -4272,7 +4272,7 @@ void __cdecl data::ConfigSpecialCamera::ConfigSpecialCamera(data::ConfigSpecialC
   __int64 v13; // rdx
 
   std::enable_shared_from_this<data::ConfigSpecialCamera>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigSpecialCamera>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -4441,7 +4441,7 @@ void __cdecl data::ConfigSpecialCamera::ConfigSpecialCamera(
   std::enable_shared_from_this<data::ConfigSpecialCamera>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigSpecialCamera>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigSpecialCamera + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigSpecialCamera = v3;
@@ -4682,7 +4682,7 @@ void __cdecl data::ConfigSpecialCamera::~ConfigSpecialCamera(data::ConfigSpecial
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -4759,7 +4759,7 @@ void __cdecl data::ConfigContinuesLockCamera::ConfigContinuesLockCamera(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigSpecialCamera::ConfigSpecialCamera(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -4774,7 +4774,7 @@ void __cdecl data::ConfigContinuesLockCamera::ConfigContinuesLockCamera(
   int (**v2)(...); // rdx
 
   data::ConfigSpecialCamera::ConfigSpecialCamera(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -4787,7 +4787,7 @@ void __cdecl data::ConfigContinuesLockCamera::~ConfigContinuesLockCamera(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -4968,7 +4968,7 @@ void __cdecl data::ConfigContinuesLockCameraFactory::ConfigContinuesLockCameraFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCameraFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCameraFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigContinuesLockCameraFactory = v2;
@@ -4986,7 +4986,7 @@ void __cdecl data::ConfigContinuesLockCameraV2::ConfigContinuesLockCameraV2(
   __int64 v6; // rsi
 
   data::ConfigSpecialCamera::ConfigSpecialCamera(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCameraV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCameraV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5081,7 +5081,7 @@ void __cdecl data::ConfigContinuesLockCameraV2::ConfigContinuesLockCameraV2(
   float spring_lerp_interval; // xmm0_4
 
   data::ConfigSpecialCamera::ConfigSpecialCamera(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCameraV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCameraV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5232,7 +5232,7 @@ void __cdecl data::ConfigContinuesLockCameraV2::~ConfigContinuesLockCameraV2(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCameraV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCameraV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5301,7 +5301,7 @@ void __cdecl data::ConfigContinuesLockCameraV2Factory::ConfigContinuesLockCamera
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigContinuesLockCameraV2Factory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigContinuesLockCameraV2Factory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigContinuesLockCameraV2Factory = v2;
@@ -5315,7 +5315,7 @@ void __cdecl data::ConfigGadgetSpecialCamera::ConfigGadgetSpecialCamera(data::Co
   __int64 v3; // rsi
 
   data::ConfigSpecialCamera::ConfigSpecialCamera((data::ConfigSpecialCamera *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetSpecialCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5354,7 +5354,7 @@ void __cdecl data::ConfigGadgetSpecialCamera::ConfigGadgetSpecialCamera(
   data::ConfigSpecialCamera::ConfigSpecialCamera(
     (data::ConfigSpecialCamera *const)this,
     (const data::ConfigSpecialCamera *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetSpecialCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5410,7 +5410,7 @@ void __cdecl data::ConfigGadgetSpecialCamera::~ConfigGadgetSpecialCamera(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetSpecialCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetSpecialCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialCamera = v2;
@@ -5478,7 +5478,7 @@ void __cdecl data::ConfigGadgetSpecialCameraFactory::ConfigGadgetSpecialCameraFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetSpecialCameraFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetSpecialCameraFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetSpecialCameraFactory = v2;

@@ -10,7 +10,7 @@ void __fastcall mysqlpp::ResultBase::~ResultBase(mysqlpp::ResultBase *const this
   std::string::$CFBEC286C7F52157F7E59FC354047095 *v6; // rdi
 
   p_types = &this->types_;
-  p_types[-4].counted_ = (mysqlpp::FieldTypes *)(&`vtable for'mysqlpp::ResultBase + 2);
+  p_types[-4].counted_ = (mysqlpp::FieldTypes *)(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(p_types);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   M_finish = this->fields_._M_impl._M_finish;
@@ -46,7 +46,7 @@ void __fastcall mysqlpp::ResultBase::~ResultBase(mysqlpp::ResultBase *const this
   std::string::$CFBEC286C7F52157F7E59FC354047095 *v6; // rdi
 
   p_types = &this->types_;
-  p_types[-4].counted_ = (mysqlpp::FieldTypes *)(&`vtable for'mysqlpp::ResultBase + 2);
+  p_types[-4].counted_ = (mysqlpp::FieldTypes *)(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(p_types);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   M_finish = this->fields_._M_impl._M_finish;
@@ -89,7 +89,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
 
   M_finish = this->_M_impl._M_finish;
   M_start = this->_M_impl._M_start;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::StoreQueryResult + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::StoreQueryResult + 2);
   if ( M_finish != M_start )
   {
     do
@@ -97,7 +97,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
       v4 = *M_start->_vptr_OptionalExceptions;
       if ( (char *)v4 == (char *)mysqlpp::Row::~Row )
       {
-        M_start->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+        M_start->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
         mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&M_start->field_names_);
         v5 = M_start->data_._M_impl._M_finish;
         v6 = M_start->data_._M_impl._M_start;
@@ -126,7 +126,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
   }
   if ( M_start )
     operator delete(M_start);
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::ResultBase + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(&this->types_);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   v8 = this->fields_.mysqlpp::ResultBase::_M_impl._M_finish;
@@ -168,7 +168,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
 
   M_finish = this->_M_impl._M_finish;
   M_start = this->_M_impl._M_start;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::StoreQueryResult + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::StoreQueryResult + 2);
   if ( M_finish != M_start )
   {
     do
@@ -176,7 +176,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
       v4 = *M_start->_vptr_OptionalExceptions;
       if ( (char *)v4 == (char *)mysqlpp::Row::~Row )
       {
-        M_start->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+        M_start->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
         mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&M_start->field_names_);
         v5 = M_start->data_._M_impl._M_finish;
         v6 = M_start->data_._M_impl._M_start;
@@ -205,7 +205,7 @@ void __fastcall mysqlpp::StoreQueryResult::~StoreQueryResult(mysqlpp::StoreQuery
   }
   if ( M_start )
     operator delete(M_start);
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::ResultBase + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(&this->types_);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   v8 = this->fields_.mysqlpp::ResultBase::_M_impl._M_finish;
@@ -242,9 +242,9 @@ void __fastcall mysqlpp::UseQueryResult::~UseQueryResult(mysqlpp::UseQueryResult
   std::string::$CFBEC286C7F52157F7E59FC354047095 *v6; // rdi
 
   p_result = &this->result_;
-  p_result[-6].refs_ = (size_t *)(&`vtable for'mysqlpp::UseQueryResult + 2);
+  p_result[-6].refs_ = (size_t *)(&`vtable for mysqlpp::UseQueryResult + 2);
   mysqlpp::RefCountedPointer<st_mysql_res,mysqlpp::RefCountedPointerDestroyer<st_mysql_res>>::~RefCountedPointer(p_result);
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::ResultBase + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(&this->types_);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   M_finish = this->fields_._M_impl._M_finish;
@@ -280,9 +280,9 @@ void __fastcall mysqlpp::UseQueryResult::~UseQueryResult(mysqlpp::UseQueryResult
   std::string::$CFBEC286C7F52157F7E59FC354047095 *v6; // rdi
 
   p_result = &this->result_;
-  p_result[-6].refs_ = (size_t *)(&`vtable for'mysqlpp::UseQueryResult + 2);
+  p_result[-6].refs_ = (size_t *)(&`vtable for mysqlpp::UseQueryResult + 2);
   mysqlpp::RefCountedPointer<st_mysql_res,mysqlpp::RefCountedPointerDestroyer<st_mysql_res>>::~RefCountedPointer(p_result);
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::ResultBase + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(&this->types_);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&this->names_);
   M_finish = this->fields_._M_impl._M_finish;

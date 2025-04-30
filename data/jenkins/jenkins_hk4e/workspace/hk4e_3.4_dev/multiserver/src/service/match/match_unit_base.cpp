@@ -1764,7 +1764,7 @@ void __cdecl GCGMatchUnit::GCGMatchUnit(
   common::milog::MiLogStream v31; // [rsp+80h] [rbp-30h] BYREF
 
   MatchUnitBase::MatchUnitBase(this, match_type);
-  v3 = (int (**)(...))(&`vtable for'GCGMatchUnit + 2);
+  v3 = (int (**)(...))(&`vtable for GCGMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;

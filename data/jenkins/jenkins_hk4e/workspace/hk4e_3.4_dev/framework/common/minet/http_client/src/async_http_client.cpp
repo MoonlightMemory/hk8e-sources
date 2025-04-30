@@ -322,7 +322,7 @@ LABEL_98:
     __asan_report_store8();
     goto LABEL_99;
   }
-  *(_QWORD *)v34 = &`vtable for'std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v34 = &`vtable for std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   p_list = v34 + 16;
   if ( *(_BYTE *)(((v34 + 16) >> 3) + 0x7FFF8000) )
@@ -1685,7 +1685,7 @@ LABEL_98:
                                             *(_DWORD *)(v41 + 12) = 1;
                                             if ( !*(_BYTE *)((v41 >> 3) + 0x7FFF8000) )
                                             {
-                                              *(_QWORD *)v41 = &`vtable for'std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
+                                              *(_QWORD *)v41 = &`vtable for std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
                                                              + 2;
                                               p_list = v41 + 16;
                                               if ( !*(_BYTE *)(((v41 + 16) >> 3) + 0x7FFF8000) )
@@ -2548,7 +2548,7 @@ LABEL_102:
     std::runtime_error::runtime_error(exception, byte_1A20F4E0);
     if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::system::system_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::system::system_error + 2;
     if ( *(_WORD *)((((unsigned __int64)exception + 16) >> 3) + 0x7FFF8000) )
       __asan_report_store16((char *)exception + 16, byte_1A20F4E0);
     *((_QWORD *)exception + 2) = v50;

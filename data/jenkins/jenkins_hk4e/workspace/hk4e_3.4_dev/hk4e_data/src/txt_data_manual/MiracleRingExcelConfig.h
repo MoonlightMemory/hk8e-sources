@@ -6,7 +6,7 @@ void __cdecl MiracleRingExcelConfigMgr::MiracleRingExcelConfigMgr(MiracleRingExc
   int (**v1)(...); // rdx
 
   data::MiracleRingExcelConfigMgrBase::MiracleRingExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'MiracleRingExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MiracleRingExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiracleRingExcelConfigMgrBase = v1;
@@ -27,7 +27,7 @@ void __cdecl MiracleRingExcelConfigMgr::~MiracleRingExcelConfigMgr(MiracleRingEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MiracleRingExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MiracleRingExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MiracleRingExcelConfigMgrBase = v1;

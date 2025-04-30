@@ -11,7 +11,7 @@ void __cdecl data::ItemLimitExcelConfig::ItemLimitExcelConfig(data::ItemLimitExc
   __int64 v6; // rsi
   __int64 v7; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitExcelConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::ItemLimitExcelConfig::ItemLimitExcelConfig(
   const data::ItemLimitExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemLimitExcelConfig = v2;
@@ -172,7 +172,7 @@ void __cdecl data::ItemLimitExcelConfig::~ItemLimitExcelConfig(data::ItemLimitEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitExcelConfig = v2;
@@ -185,7 +185,7 @@ void __cdecl data::OutputControlConfig::OutputControlConfig(data::OutputControlC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -201,7 +201,7 @@ void __cdecl data::OutputControlConfig::OutputControlConfig(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OutputControlConfig = v2;
@@ -216,7 +216,7 @@ void __cdecl data::OutputControlConfig::~OutputControlConfig(data::OutputControl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -244,7 +244,7 @@ void __cdecl data::OutputControlLimitExcelConfig::OutputControlLimitExcelConfig(
   __int64 v6; // rsi
 
   data::OutputControlConfig::OutputControlConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -318,7 +318,7 @@ void __cdecl data::OutputControlLimitExcelConfig::OutputControlLimitExcelConfig(
 
   v21 = a2;
   data::OutputControlConfig::OutputControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OutputControlConfig = v2;
@@ -413,7 +413,7 @@ void __cdecl data::OutputControlLimitExcelConfig::~OutputControlLimitExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OutputControlLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OutputControlLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -440,7 +440,7 @@ void __cdecl data::ItemLimitConstValueExcelConfig::ItemLimitConstValueExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitConstValueExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitConstValueExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitConstValueExcelConfig = v2;
@@ -464,7 +464,7 @@ void __cdecl data::ItemLimitConstValueExcelConfig::ItemLimitConstValueExcelConfi
   const data::ItemLimitConstValueExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitConstValueExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitConstValueExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemLimitConstValueExcelConfig = v2;
@@ -491,7 +491,7 @@ void __cdecl data::ItemLimitConstValueExcelConfig::~ItemLimitConstValueExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitConstValueExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitConstValueExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitConstValueExcelConfig = v2;
@@ -513,7 +513,7 @@ void __cdecl data::ItemLimitWhiteListExcelConfig::ItemLimitWhiteListExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitWhiteListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitWhiteListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitWhiteListExcelConfig = v2;
@@ -544,7 +544,7 @@ void __cdecl data::ItemLimitWhiteListExcelConfig::ItemLimitWhiteListExcelConfig(
   const data::ItemLimitWhiteListExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitWhiteListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitWhiteListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemLimitWhiteListExcelConfig = v2;
@@ -583,7 +583,7 @@ void __cdecl data::ItemLimitWhiteListExcelConfig::~ItemLimitWhiteListExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemLimitWhiteListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemLimitWhiteListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemLimitWhiteListExcelConfig = v2;

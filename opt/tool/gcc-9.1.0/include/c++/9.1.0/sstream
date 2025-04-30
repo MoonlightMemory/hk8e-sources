@@ -12,7 +12,7 @@ void __fastcall std::stringbuf::~stringbuf(std::stringbuf *const this)
     __asan_report_store8();
     goto LABEL_8;
   }
-  *(_QWORD *)this = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)this = (char *)&`vtable for std::stringbuf + 16;
   this = (std::stringbuf *const)((char *)this + 72);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -29,7 +29,7 @@ LABEL_9:
     __asan_report_store8();
     JUMPOUT(0xC9CF67FLL);
   }
-  v1->_M_impl = (std::locale::_Impl *)((char *)&`vtable for'std::streambuf + 16);
+  v1->_M_impl = (std::locale::_Impl *)((char *)&`vtable for std::streambuf + 16);
   std::locale::~locale(v1 + 7);
 };
 
@@ -82,7 +82,7 @@ void __fastcall __noreturn Json::parseFromStream(
   v40 = *(_QWORD *)(v39 - 24);
   a22 = v39;
   *(__int64 *)((char *)&a22 + v40) = a7;
-  a36 = (__int64)&`vtable for'std::ios + 16;
+  a36 = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v37);
   _Unwind_Resume(v36);
 };
@@ -281,7 +281,7 @@ void __fastcall __noreturn mysqlpp::SQLStream::SQLStream(
   v8[15] = (char *)&unk_1E6EFAC8 + 40;
   if ( a8 != v10 )
     operator delete(a8);
-  v8[15] = (char *)&`vtable for'std::ios + 16;
+  v8[15] = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v11);
   _Unwind_Resume(v9);
 };

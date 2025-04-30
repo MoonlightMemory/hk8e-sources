@@ -126,7 +126,7 @@ void __cdecl proto_log::GCGLogHead::GCGLogHead(proto_log::GCGLogHead *const this
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::GCGLogHead + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::GCGLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -159,7 +159,7 @@ void __cdecl proto_log::GCGLogHead::GCGLogHead(proto_log::GCGLogHead *const this
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::GCGLogHead + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::GCGLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -275,7 +275,7 @@ void __cdecl proto_log::GCGLogHead::~GCGLogHead(proto_log::GCGLogHead *const thi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::GCGLogHead + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::GCGLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

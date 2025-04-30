@@ -6,7 +6,7 @@ void __cdecl data::AbilityOverrideParamConfig::AbilityOverrideParamConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityOverrideParamConfig = v2;
@@ -27,7 +27,7 @@ void __cdecl data::AbilityOverrideParamConfig::AbilityOverrideParamConfig(
   int (**v2)(...); // rdx
   float param_value; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AbilityOverrideParamConfig = v2;
@@ -53,7 +53,7 @@ void __cdecl data::AbilityOverrideParamConfig::~AbilityOverrideParamConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityOverrideParamConfig = v2;
@@ -74,7 +74,7 @@ void __cdecl data::AbilityOverrideExcelConfig::AbilityOverrideExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityOverrideExcelConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::AbilityOverrideExcelConfig::AbilityOverrideExcelConfig(
   const data::AbilityOverrideExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AbilityOverrideExcelConfig = v2;
@@ -150,7 +150,7 @@ void __cdecl data::AbilityOverrideExcelConfig::~AbilityOverrideExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityOverrideExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityOverrideExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityOverrideExcelConfig = v2;

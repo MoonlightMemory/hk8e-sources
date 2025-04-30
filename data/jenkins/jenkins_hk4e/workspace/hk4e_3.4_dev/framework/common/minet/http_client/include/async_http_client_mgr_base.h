@@ -6,7 +6,7 @@ void __cdecl common::minet::http_client::HttpClientMgrBase::HttpClientMgrBase(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClientMgrBase + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::http_client::HttpClientMgrBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_HttpClientMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl common::minet::http_client::HttpClientMgrBase::~HttpClientMgrBase(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClientMgrBase + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::http_client::HttpClientMgrBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_HttpClientMgrBase = v1;

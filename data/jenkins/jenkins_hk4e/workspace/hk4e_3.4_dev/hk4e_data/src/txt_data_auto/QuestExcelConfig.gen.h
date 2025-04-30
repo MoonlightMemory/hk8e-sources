@@ -34,7 +34,7 @@ void __cdecl data::QuestCond::QuestCond(data::QuestCond *const this, const data:
   const data::QuestCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestCond = v2;
@@ -67,7 +67,7 @@ void __cdecl data::QuestCond::~QuestCond(data::QuestCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestCond = v2;
@@ -107,7 +107,7 @@ void __cdecl data::RandomQuestCond::RandomQuestCond(data::RandomQuestCond *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestCond = v2;
@@ -129,7 +129,7 @@ void __cdecl data::RandomQuestCond::RandomQuestCond(data::RandomQuestCond *const
   const data::RandomQuestCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestCond = v2;
@@ -155,7 +155,7 @@ void __cdecl data::RandomQuestCond::~RandomQuestCond(data::RandomQuestCond *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestCond = v2;
@@ -200,7 +200,7 @@ void __cdecl data::TalkCond::TalkCond(data::TalkCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkCond = v2;
@@ -226,7 +226,7 @@ void __cdecl data::TalkCond::~TalkCond(data::TalkCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkCond = v2;
@@ -242,7 +242,7 @@ void __cdecl data::TalkCond::TalkCond(data::TalkCond *const this, const data::Ta
   const data::TalkCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TalkCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TalkCond = v2;
@@ -312,7 +312,7 @@ void __cdecl data::QuestContent::QuestContent(data::QuestContent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestContent = v2;
@@ -345,7 +345,7 @@ void __cdecl data::QuestContent::QuestContent(data::QuestContent *const this, co
   const data::QuestContent *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestContent = v2;
@@ -394,7 +394,7 @@ void __cdecl data::QuestContent::~QuestContent(data::QuestContent *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestContent = v2;
@@ -415,7 +415,7 @@ void __cdecl data::MainQuestExcelConfig::MainQuestExcelConfig(data::MainQuestExc
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MainQuestExcelConfig = v2;
@@ -509,7 +509,7 @@ void __cdecl data::QuestExec::QuestExec(data::QuestExec *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestExec = v2;
@@ -531,7 +531,7 @@ void __cdecl data::QuestExec::QuestExec(data::QuestExec *const this, const data:
   const data::QuestExec *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestExec = v2;
@@ -564,7 +564,7 @@ void __cdecl data::QuestExec::~QuestExec(data::QuestExec *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestExec = v2;
@@ -577,7 +577,7 @@ void __cdecl data::TalkExec::TalkExec(data::TalkExec *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkExec = v2;
@@ -599,7 +599,7 @@ void __cdecl data::TalkExec::TalkExec(data::TalkExec *const this, const data::Ta
   const data::TalkExec *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TalkExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TalkExec = v2;
@@ -625,7 +625,7 @@ void __cdecl data::TalkExec::~TalkExec(data::TalkExec *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkExec = v2;
@@ -648,7 +648,7 @@ void __cdecl data::ChapterExcelConfig::ChapterExcelConfig(data::ChapterExcelConf
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChapterExcelConfig = v2;
@@ -737,7 +737,7 @@ void __cdecl data::ChapterExcelConfig::ChapterExcelConfig(
   const data::ChapterExcelConfig *v24; // [rsp+0h] [rbp-10h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChapterExcelConfig = v2;
@@ -867,7 +867,7 @@ void __cdecl data::ChapterExcelConfig::~ChapterExcelConfig(data::ChapterExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChapterExcelConfig = v2;
@@ -880,7 +880,7 @@ void __cdecl data::QuestCond::QuestCond(data::QuestCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestCond = v2;
@@ -937,7 +937,7 @@ void __cdecl data::MainQuestExcelConfig::MainQuestExcelConfig(
   const data::MainQuestExcelConfig *v38; // [rsp+0h] [rbp-20h]
 
   v38 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MainQuestExcelConfig = v2;
@@ -1125,7 +1125,7 @@ void __cdecl data::MainQuestExcelConfig::~MainQuestExcelConfig(data::MainQuestEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MainQuestExcelConfig = v2;
@@ -1150,7 +1150,7 @@ void __cdecl data::QuestExcelConfig::QuestExcelConfig(data::QuestExcelConfig *co
   __int64 v10; // rsi
   __int64 v11; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestExcelConfig = v2;
@@ -1323,7 +1323,7 @@ void __cdecl data::QuestExcelConfig::QuestExcelConfig(
   const data::QuestExcelConfig *v53; // [rsp+0h] [rbp-20h]
 
   v53 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestExcelConfig = v2;
@@ -1565,7 +1565,7 @@ void __cdecl data::QuestExcelConfig::~QuestExcelConfig(data::QuestExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestExcelConfig = v2;
@@ -1598,7 +1598,7 @@ void __cdecl data::TalkExcelConfig::TalkExcelConfig(data::TalkExcelConfig *const
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkExcelConfig = v2;
@@ -1690,7 +1690,7 @@ void __cdecl data::TalkExcelConfig::TalkExcelConfig(data::TalkExcelConfig *const
   const data::TalkExcelConfig *v25; // [rsp+0h] [rbp-20h]
 
   v25 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TalkExcelConfig = v2;
@@ -1825,7 +1825,7 @@ void __cdecl data::TalkExcelConfig::~TalkExcelConfig(data::TalkExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkExcelConfig = v2;
@@ -1856,7 +1856,7 @@ void __cdecl data::RandomQuestEntranceExcelConfig::RandomQuestEntranceExcelConfi
   const data::RandomQuestEntranceExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestEntranceExcelConfig = v2;
@@ -1925,7 +1925,7 @@ void __cdecl data::RqTalkExcelConfig::RqTalkExcelConfig(data::RqTalkExcelConfig 
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RqTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RqTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RqTalkExcelConfig = v2;
@@ -2006,7 +2006,7 @@ void __cdecl data::RqTalkExcelConfig::RqTalkExcelConfig(
   const data::RqTalkExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RqTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RqTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RqTalkExcelConfig = v2;
@@ -2117,7 +2117,7 @@ void __cdecl data::RqTalkExcelConfig::~RqTalkExcelConfig(data::RqTalkExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RqTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RqTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RqTalkExcelConfig = v2;
@@ -2149,7 +2149,7 @@ void __cdecl data::QuestResCollectionExcelConfig::QuestResCollectionExcelConfig(
   const data::QuestResCollectionExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestResCollectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestResCollectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestResCollectionExcelConfig = v2;
@@ -2194,7 +2194,7 @@ void __cdecl data::QuestResCollectionExcelConfig::~QuestResCollectionExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestResCollectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestResCollectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestResCollectionExcelConfig = v2;
@@ -2206,7 +2206,7 @@ void __cdecl data::TalkRole::TalkRole(data::TalkRole *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkRole + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkRole + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkRole = v2;
@@ -2228,7 +2228,7 @@ void __cdecl data::TalkRole::TalkRole(data::TalkRole *const this, const data::Ta
   const data::TalkRole *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TalkRole + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkRole + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TalkRole = v2;
@@ -2261,7 +2261,7 @@ void __cdecl data::TalkRole::~TalkRole(data::TalkRole *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TalkRole + 2);
+  v2 = (int (**)(...))(&`vtable for data::TalkRole + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TalkRole = v2;
@@ -2274,7 +2274,7 @@ void __cdecl data::DialogExcelConfig::DialogExcelConfig(data::DialogExcelConfig 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DialogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DialogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DialogExcelConfig = v2;
@@ -2308,7 +2308,7 @@ void __cdecl data::DialogExcelConfig::DialogExcelConfig(
   const data::DialogExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DialogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DialogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DialogExcelConfig = v2;
@@ -2349,7 +2349,7 @@ void __cdecl data::DialogExcelConfig::~DialogExcelConfig(data::DialogExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DialogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DialogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DialogExcelConfig = v2;
@@ -2399,7 +2399,7 @@ void __cdecl data::RandomQuestContent::RandomQuestContent(data::RandomQuestConte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestContent = v2;
@@ -2425,7 +2425,7 @@ void __cdecl data::RandomQuestContent::RandomQuestContent(
   const data::RandomQuestContent *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestContent = v2;
@@ -2453,7 +2453,7 @@ void __cdecl data::RandomQuestContent::~RandomQuestContent(data::RandomQuestCont
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestContent = v2;
@@ -2475,7 +2475,7 @@ void __cdecl data::RandomQuestFilterConfig::RandomQuestFilterConfig(data::Random
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestFilterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestFilterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilterConfig = v2;
@@ -2500,7 +2500,7 @@ void __cdecl data::RandomQuestFilterConfig::RandomQuestFilterConfig(
   const data::RandomQuestFilterConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestFilterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestFilterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestFilterConfig = v2;
@@ -2534,7 +2534,7 @@ void __cdecl data::RandomQuestFilterConfig::~RandomQuestFilterConfig(data::Rando
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestFilterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestFilterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestFilterConfig = v2;
@@ -2550,7 +2550,7 @@ void __cdecl data::RandomQuestEntranceExcelConfig::RandomQuestEntranceExcelConfi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestEntranceExcelConfig = v2;
@@ -2597,7 +2597,7 @@ void __cdecl data::RandomQuestEntranceExcelConfig::~RandomQuestEntranceExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestEntranceExcelConfig = v2;
@@ -2610,7 +2610,7 @@ void __cdecl data::RandomQuestElem::RandomQuestElem(data::RandomQuestElem *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElem + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestElem = v2;
@@ -2631,7 +2631,7 @@ void __cdecl data::RandomQuestElem::RandomQuestElem(data::RandomQuestElem *const
   uint32_t pool_id; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElem + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestElem = v2;
@@ -2665,7 +2665,7 @@ void __cdecl data::RandomQuestElem::~RandomQuestElem(data::RandomQuestElem *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElem + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestElem = v2;
@@ -2679,7 +2679,7 @@ void __cdecl data::RandomQuestTemplateExcelConfig::RandomQuestTemplateExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestTemplateExcelConfig = v2;
@@ -2703,7 +2703,7 @@ void __cdecl data::RandomQuestTemplateExcelConfig::RandomQuestTemplateExcelConfi
   const data::RandomQuestTemplateExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestTemplateExcelConfig = v2;
@@ -2738,7 +2738,7 @@ void __cdecl data::RandomQuestTemplateExcelConfig::~RandomQuestTemplateExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestTemplateExcelConfig = v2;
@@ -2751,7 +2751,7 @@ void __cdecl data::QuestElemSample::QuestElemSample(data::QuestElemSample *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestElemSample + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestElemSample + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestElemSample = v2;
@@ -2764,7 +2764,7 @@ void __cdecl data::QuestElemSample::QuestElemSample(data::QuestElemSample *const
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestElemSample + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestElemSample + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestElemSample = v2;
@@ -2778,7 +2778,7 @@ void __cdecl data::QuestElemSample::~QuestElemSample(data::QuestElemSample *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestElemSample + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestElemSample + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestElemSample = v2;
@@ -2801,7 +2801,7 @@ void __cdecl data::RandomQuestElemPoolExcelConfig::RandomQuestElemPoolExcelConfi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElemPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElemPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestElemPoolExcelConfig = v2;
@@ -2843,7 +2843,7 @@ void __cdecl data::RandomQuestElemPoolExcelConfig::RandomQuestElemPoolExcelConfi
   const data::RandomQuestElemPoolExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElemPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElemPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestElemPoolExcelConfig = v2;
@@ -2897,7 +2897,7 @@ void __cdecl data::RandomQuestElemPoolExcelConfig::~RandomQuestElemPoolExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestElemPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestElemPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestElemPoolExcelConfig = v2;
@@ -2921,7 +2921,7 @@ void __cdecl data::RandomMainQuestExcelConfig::RandomMainQuestExcelConfig(data::
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomMainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomMainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomMainQuestExcelConfig = v2;
@@ -2994,7 +2994,7 @@ void __cdecl data::RandomMainQuestExcelConfig::RandomMainQuestExcelConfig(
   const data::RandomMainQuestExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomMainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomMainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomMainQuestExcelConfig = v2;
@@ -3098,7 +3098,7 @@ void __cdecl data::RandomMainQuestExcelConfig::~RandomMainQuestExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomMainQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomMainQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomMainQuestExcelConfig = v2;
@@ -3121,7 +3121,7 @@ void __cdecl data::RandomQuestExcelConfig::RandomQuestExcelConfig(data::RandomQu
   __int64 v9; // rsi
   __int64 v10; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestExcelConfig = v2;
@@ -3258,7 +3258,7 @@ void __cdecl data::RandomQuestExcelConfig::RandomQuestExcelConfig(
   const data::RandomQuestExcelConfig *v42; // [rsp+0h] [rbp-20h]
 
   v42 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomQuestExcelConfig = v2;
@@ -3438,7 +3438,7 @@ void __cdecl data::RandomQuestExcelConfig::~RandomQuestExcelConfig(data::RandomQ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomQuestExcelConfig = v2;
@@ -3477,7 +3477,7 @@ void __cdecl data::QuestGlobalVarConfig::QuestGlobalVarConfig(
   const data::QuestGlobalVarConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestGlobalVarConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestGlobalVarConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestGlobalVarConfig = v2;
@@ -3516,7 +3516,7 @@ void __cdecl data::QuestGlobalVarConfig::~QuestGlobalVarConfig(data::QuestGlobal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestGlobalVarConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestGlobalVarConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestGlobalVarConfig = v2;
@@ -3538,7 +3538,7 @@ void __cdecl data::QuestPlaceConfig::QuestPlaceConfig(
   uint32_t place_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestPlaceConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestPlaceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestPlaceConfig = v2;
@@ -3563,7 +3563,7 @@ void __cdecl data::QuestPlaceConfig::~QuestPlaceConfig(data::QuestPlaceConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestPlaceConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestPlaceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestPlaceConfig = v2;
@@ -3595,7 +3595,7 @@ void __cdecl data::QuestSpecialShowConfig::QuestSpecialShowConfig(
   const data::QuestSpecialShowConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestSpecialShowConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestSpecialShowConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestSpecialShowConfig = v2;
@@ -3661,7 +3661,7 @@ void __cdecl data::QuestSpecialShowConfig::~QuestSpecialShowConfig(data::QuestSp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestSpecialShowConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestSpecialShowConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestSpecialShowConfig = v2;

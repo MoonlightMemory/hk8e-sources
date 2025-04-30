@@ -8,7 +8,7 @@ void __cdecl data::AbilityPropExcelConfig::AbilityPropExcelConfig(data::AbilityP
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityPropExcelConfig = v2;
@@ -59,7 +59,7 @@ void __cdecl data::AbilityPropExcelConfig::AbilityPropExcelConfig(
   bool succeed_owner; // cl
   char v10; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AbilityPropExcelConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::AbilityPropExcelConfig::~AbilityPropExcelConfig(data::Ability
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityPropExcelConfig = v2;

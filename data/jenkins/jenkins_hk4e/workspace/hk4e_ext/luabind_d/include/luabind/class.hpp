@@ -412,7 +412,7 @@ void __cdecl luabind::detail::property_registration<Event,data::EventType Event:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,data::EventType Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,data::EventType Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -434,7 +434,7 @@ void __cdecl luabind::detail::property_registration<Event,int Event::*,luabind::
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -464,7 +464,7 @@ void __cdecl luabind::detail::property_registration<Event,std::string Event::*,l
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,std::string Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,std::string Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -486,7 +486,7 @@ void __cdecl luabind::detail::property_registration<Event,unsigned int Event::*,
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,unsigned int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,unsigned int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -508,7 +508,7 @@ void __cdecl luabind::detail::property_registration<Vector3,float Vector3::*,lua
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Vector3,float Vector3::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Vector3,float Vector3::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -529,7 +529,7 @@ void __cdecl luabind::detail::property_registration<Event,data::EventType Event:
   data::EventType *v7; // rdx
 
   luabind::detail::registration::registration(this);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,data::EventType Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,data::EventType Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -558,7 +558,7 @@ void __cdecl luabind::detail::property_registration<Event,int Event::*,luabind::
   int *v7; // rdx
 
   luabind::detail::registration::registration(this);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -587,7 +587,7 @@ void __cdecl luabind::detail::property_registration<Event,std::string Event::*,l
   std::string *v7; // rdx
 
   luabind::detail::registration::registration(this);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,std::string Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,std::string Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -616,7 +616,7 @@ void __cdecl luabind::detail::property_registration<Event,unsigned int Event::*,
   unsigned int *v7; // rdx
 
   luabind::detail::registration::registration(this);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Event,unsigned int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Event,unsigned int Event::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -645,7 +645,7 @@ void __cdecl luabind::detail::property_registration<Vector3,float Vector3::*,lua
   float *v7; // rdx
 
   luabind::detail::registration::registration(this);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::property_registration<Vector3,float Vector3::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::property_registration<Vector3,float Vector3::*,luabind::detail::null_type,luabind::detail::null_type,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

@@ -1645,7 +1645,7 @@ LABEL_91:
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v93._M_dataplus._M_p != &v93._anon_0 )
     operator delete(v93._M_dataplus._M_p);
   std::ios_base::ios_base((std::ios_base *)(v88 + 440));
-  *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v88 + 656) = 0LL;
   *(_BYTE *)(v88 + 664) = 0;
   *(_BYTE *)(v88 + 665) = 0;
@@ -1692,8 +1692,8 @@ LABEL_94:
 LABEL_95:
   __asan_report_load8(v31);
 LABEL_96:
-  *(_QWORD *)(v88 + 192) = (char *)&`vtable for'std::ofstream + 24;
-  *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ofstream + 64;
+  *(_QWORD *)(v88 + 192) = (char *)&`vtable for std::ofstream + 24;
+  *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ofstream + 64;
   std::filebuf::basic_filebuf(v88 + 200);
   std::ios::init(v88 + 440, v88 + 200);
   if ( std::filebuf::open(v88 + 200, *(_QWORD *)(v88 + 48), 16LL) )
@@ -1755,14 +1755,14 @@ LABEL_106:
           {
             std::ios::clear(v70, *(_DWORD *)(v70 + 32) | 4u);
 LABEL_178:
-            *(_QWORD *)(v88 + 192) = (char *)&`vtable for'std::ofstream + 24;
-            *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ofstream + 64;
-            *(_QWORD *)(v88 + 200) = (char *)&`vtable for'std::filebuf + 16;
+            *(_QWORD *)(v88 + 192) = (char *)&`vtable for std::ofstream + 24;
+            *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ofstream + 64;
+            *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::filebuf + 16;
             std::filebuf::close(v88 + 200);
             while ( 2 )
             {
               std::__basic_file<char>::~__basic_file(v88 + 304);
-              *(_QWORD *)(v88 + 200) = (char *)&`vtable for'std::streambuf + 16;
+              *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::streambuf + 16;
               std::locale::~locale((std::locale *)(v88 + 256));
               v73 = &`VTT for'std::ofstream[1];
               if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
@@ -1784,7 +1784,7 @@ LABEL_185:
                     if ( !*(_BYTE *)((v75 >> 3) + 0x7FFF8000) )
                     {
                       *(_QWORD *)v75 = `VTT for'std::ofstream[2];
-                      *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ios + 16;
+                      *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ios + 16;
                       std::ios_base::~ios_base((std::ios_base *)(v88 + 440));
                       v78 = *(char **)(v88 + 48);
                       if ( v78 != (char *)(v88 + 64) )
@@ -1969,14 +1969,14 @@ LABEL_129:
 LABEL_117:
   v47 = (std::ostream *)std::ostream::put((std::ostream *)v40, v46);
   std::ostream::flush(v47);
-  *(_QWORD *)(v88 + 192) = (char *)&`vtable for'std::ofstream + 24;
-  *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ofstream + 64;
-  *(_QWORD *)(v88 + 200) = (char *)&`vtable for'std::filebuf + 16;
+  *(_QWORD *)(v88 + 192) = (char *)&`vtable for std::ofstream + 24;
+  *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ofstream + 64;
+  *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::filebuf + 16;
   std::filebuf::close(v88 + 200);
   while ( 1 )
   {
     std::__basic_file<char>::~__basic_file(v88 + 304);
-    *(_QWORD *)(v88 + 200) = (char *)&`vtable for'std::streambuf + 16;
+    *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v88 + 256));
     v53 = &`VTT for'std::ofstream[1];
     if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
@@ -2006,7 +2006,7 @@ LABEL_133:
     __cxa_end_catch();
   }
   *(_QWORD *)v51 = `VTT for'std::ofstream[2];
-  *(_QWORD *)(v88 + 440) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v88 + 440));
   v55 = *(char **)(v88 + 48);
   if ( v55 != (char *)(v88 + 64) )

@@ -6,7 +6,7 @@ void __cdecl DbLocalConfigMgr::DbLocalConfigMgr(DbLocalConfigMgr *const this)
   int (**v1)(...); // rdx
 
   DbConfigMgrBase::DbConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'DbLocalConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DbLocalConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_DbConfigMgrBase = v1;
@@ -42,7 +42,7 @@ void __cdecl DbLocalConfigMgr::~DbLocalConfigMgr(DbLocalConfigMgr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DbLocalConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DbLocalConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_DbConfigMgrBase = v1;

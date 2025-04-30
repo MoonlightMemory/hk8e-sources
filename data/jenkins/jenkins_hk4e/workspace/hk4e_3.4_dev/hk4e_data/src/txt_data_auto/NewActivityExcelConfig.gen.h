@@ -9,7 +9,7 @@ void __cdecl data::NewActivityExec::NewActivityExec(data::NewActivityExec *const
   const data::NewActivityExec *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityExec = v2;
@@ -48,7 +48,7 @@ void __cdecl data::NewActivityItemLimitExcelConfig::NewActivityItemLimitExcelCon
   const data::NewActivityItemLimitExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityItemLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityItemLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityItemLimitExcelConfig = v2;
@@ -116,7 +116,7 @@ void __cdecl data::NewActivityItemLimitExcelConfig::~NewActivityItemLimitExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityItemLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityItemLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityItemLimitExcelConfig = v2;
@@ -139,7 +139,7 @@ void __cdecl data::NewActivityExcelConfig::NewActivityExcelConfig(data::NewActiv
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::NewActivityExcelConfig::NewActivityExcelConfig(
   const data::NewActivityExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityExcelConfig = v2;
@@ -270,7 +270,7 @@ void __cdecl data::NewActivityExcelConfig::~NewActivityExcelConfig(data::NewActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityExcelConfig = v2;
@@ -293,7 +293,7 @@ void __cdecl data::NewActivityScheduleCond::NewActivityScheduleCond(data::NewAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScheduleCond = v2;
@@ -317,7 +317,7 @@ void __cdecl data::NewActivityScheduleCond::NewActivityScheduleCond(
   const data::NewActivityScheduleCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityScheduleCond = v2;
@@ -350,7 +350,7 @@ void __cdecl data::NewActivityScheduleCond::~NewActivityScheduleCond(data::NewAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScheduleCond = v2;
@@ -367,7 +367,7 @@ void __cdecl data::NewActivityScheduleExcelConfig::NewActivityScheduleExcelConfi
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScheduleExcelConfig = v2;
@@ -441,7 +441,7 @@ void __cdecl data::NewActivityScheduleExcelConfig::NewActivityScheduleExcelConfi
   const data::NewActivityScheduleExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityScheduleExcelConfig = v2;
@@ -538,7 +538,7 @@ void __cdecl data::NewActivityScheduleExcelConfig::~NewActivityScheduleExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScheduleExcelConfig = v2;
@@ -564,7 +564,7 @@ void __cdecl data::NewActivityCondGroupExcelConfig::NewActivityCondGroupExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCondGroupExcelConfig = v2;
@@ -588,7 +588,7 @@ void __cdecl data::NewActivityCondGroupExcelConfig::NewActivityCondGroupExcelCon
   const data::NewActivityCondGroupExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityCondGroupExcelConfig = v2;
@@ -615,7 +615,7 @@ void __cdecl data::NewActivityCondGroupExcelConfig::~NewActivityCondGroupExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCondGroupExcelConfig = v2;
@@ -663,7 +663,7 @@ void __cdecl data::NewActivityCond::NewActivityCond(data::NewActivityCond *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCond = v2;
@@ -685,7 +685,7 @@ void __cdecl data::NewActivityCond::NewActivityCond(data::NewActivityCond *const
   const data::NewActivityCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityCond = v2;
@@ -718,7 +718,7 @@ void __cdecl data::NewActivityCond::~NewActivityCond(data::NewActivityCond *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCond = v2;
@@ -731,7 +731,7 @@ void __cdecl data::NewActivityExec::NewActivityExec(data::NewActivityExec *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityExec = v2;
@@ -750,7 +750,7 @@ void __cdecl data::NewActivityExec::~NewActivityExec(data::NewActivityExec *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityExec + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityExec + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityExec = v2;
@@ -772,7 +772,7 @@ void __cdecl data::NewActivityCondExcelConfig::NewActivityCondExcelConfig(data::
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCondExcelConfig = v2;
@@ -829,7 +829,7 @@ void __cdecl data::NewActivityCondExcelConfig::NewActivityCondExcelConfig(
   const data::NewActivityCondExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityCondExcelConfig = v2;
@@ -905,7 +905,7 @@ void __cdecl data::NewActivityCondExcelConfig::~NewActivityCondExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityCondExcelConfig = v2;
@@ -929,7 +929,7 @@ void __cdecl data::NewActivityDropSubjectConfig::NewActivityDropSubjectConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropSubjectConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropSubjectConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityDropSubjectConfig = v2;
@@ -953,7 +953,7 @@ void __cdecl data::NewActivityDropSubjectConfig::NewActivityDropSubjectConfig(
   const data::NewActivityDropSubjectConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropSubjectConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropSubjectConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityDropSubjectConfig = v2;
@@ -980,7 +980,7 @@ void __cdecl data::NewActivityDropSubjectConfig::~NewActivityDropSubjectConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropSubjectConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropSubjectConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityDropSubjectConfig = v2;
@@ -1001,7 +1001,7 @@ void __cdecl data::NewActivityDropExcelConfig::NewActivityDropExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityDropExcelConfig = v2;
@@ -1044,7 +1044,7 @@ void __cdecl data::NewActivityDropExcelConfig::NewActivityDropExcelConfig(
   const data::NewActivityDropExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityDropExcelConfig = v2;
@@ -1108,7 +1108,7 @@ void __cdecl data::NewActivityDropExcelConfig::~NewActivityDropExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityDropExcelConfig = v2;
@@ -1124,7 +1124,7 @@ void __cdecl data::NewActivityWatcherConfig::NewActivityWatcherConfig(data::NewA
   __int64 v3; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -1153,7 +1153,7 @@ void __cdecl data::NewActivityWatcherConfig::NewActivityWatcherConfig(
   char v7; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -1194,7 +1194,7 @@ void __cdecl data::NewActivityWatcherConfig::~NewActivityWatcherConfig(data::New
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -1217,7 +1217,7 @@ void __cdecl data::NewActivityEntryConfig::NewActivityEntryConfig(
   const data::NewActivityEntryConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityEntryConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityEntryConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityEntryConfig = v2;
@@ -1269,7 +1269,7 @@ void __cdecl data::NewActivityEntryConfig::~NewActivityEntryConfig(data::NewActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityEntryConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityEntryConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityEntryConfig = v2;
@@ -1288,7 +1288,7 @@ void __cdecl data::NewActivitySaleExcelConfig::NewActivitySaleExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivitySaleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivitySaleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivitySaleExcelConfig = v2;
@@ -1321,7 +1321,7 @@ void __cdecl data::NewActivitySaleExcelConfig::NewActivitySaleExcelConfig(
   const data::NewActivitySaleExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivitySaleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivitySaleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivitySaleExcelConfig = v2;
@@ -1362,7 +1362,7 @@ void __cdecl data::NewActivitySaleExcelConfig::~NewActivitySaleExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivitySaleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivitySaleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivitySaleExcelConfig = v2;
@@ -1385,7 +1385,7 @@ void __cdecl data::NewActivityAvatarSelectionExcelConfig::NewActivityAvatarSelec
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityAvatarSelectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityAvatarSelectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityAvatarSelectionExcelConfig = v2;
@@ -1434,7 +1434,7 @@ void __cdecl data::NewActivityAvatarSelectionExcelConfig::NewActivityAvatarSelec
   const data::NewActivityAvatarSelectionExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityAvatarSelectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityAvatarSelectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityAvatarSelectionExcelConfig = v2;
@@ -1500,7 +1500,7 @@ void __cdecl data::NewActivityAvatarSelectionExcelConfig::~NewActivityAvatarSele
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityAvatarSelectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityAvatarSelectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityAvatarSelectionExcelConfig = v2;
@@ -1534,7 +1534,7 @@ void __cdecl data::NewActivityScoreLimitExcelConfig::NewActivityScoreLimitExcelC
   const data::NewActivityScoreLimitExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScoreLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScoreLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityScoreLimitExcelConfig = v2;
@@ -1587,7 +1587,7 @@ void __cdecl data::NewActivityScoreLimitExcelConfig::~NewActivityScoreLimitExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScoreLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScoreLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScoreLimitExcelConfig = v2;
@@ -1620,7 +1620,7 @@ void __cdecl data::NewActivityScoreRewardExcelConfig::NewActivityScoreRewardExce
   const data::NewActivityScoreRewardExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScoreRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScoreRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityScoreRewardExcelConfig = v2;
@@ -1695,7 +1695,7 @@ void __cdecl data::NewActivityScoreRewardExcelConfig::~NewActivityScoreRewardExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityScoreRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityScoreRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityScoreRewardExcelConfig = v2;
@@ -1708,7 +1708,7 @@ void __cdecl data::NewActivityTimeGroupExcelConfig::NewActivityTimeGroupExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityTimeGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityTimeGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityTimeGroupExcelConfig = v2;
@@ -1733,7 +1733,7 @@ void __cdecl data::NewActivityTimeGroupExcelConfig::NewActivityTimeGroupExcelCon
   const data::NewActivityTimeGroupExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityTimeGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityTimeGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityTimeGroupExcelConfig = v2;
@@ -1761,7 +1761,7 @@ void __cdecl data::NewActivityTimeGroupExcelConfig::~NewActivityTimeGroupExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityTimeGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityTimeGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityTimeGroupExcelConfig = v2;
@@ -1786,7 +1786,7 @@ void __cdecl data::NewActivityOverlapExcelConfig::NewActivityOverlapExcelConfig(
   data::NewActivityType activity_type; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityOverlapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityOverlapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityOverlapExcelConfig = v2;
@@ -1812,7 +1812,7 @@ void __cdecl data::NewActivityOverlapExcelConfig::~NewActivityOverlapExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityOverlapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityOverlapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityOverlapExcelConfig = v2;
@@ -1845,7 +1845,7 @@ void __cdecl data::NewActivityPushTipsConfig::NewActivityPushTipsConfig(
   const data::NewActivityPushTipsConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityPushTipsConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityPushTipsConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NewActivityPushTipsConfig = v2;
@@ -1911,7 +1911,7 @@ void __cdecl data::NewActivityPushTipsConfig::~NewActivityPushTipsConfig(data::N
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NewActivityPushTipsConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NewActivityPushTipsConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NewActivityPushTipsConfig = v2;

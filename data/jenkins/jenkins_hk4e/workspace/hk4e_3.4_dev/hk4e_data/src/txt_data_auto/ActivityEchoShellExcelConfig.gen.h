@@ -7,7 +7,7 @@ void __cdecl data::EchoShellExcelConfig::EchoShellExcelConfig(data::EchoShellExc
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellExcelConfig = v2;
@@ -58,7 +58,7 @@ void __cdecl data::EchoShellExcelConfig::EchoShellExcelConfig(
   const data::EchoShellExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EchoShellExcelConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::EchoShellExcelConfig::~EchoShellExcelConfig(data::EchoShellEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellExcelConfig = v2;
@@ -155,7 +155,7 @@ void __cdecl data::EchoShellRewardExcelConfig::EchoShellRewardExcelConfig(
   const data::EchoShellRewardExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EchoShellRewardExcelConfig = v2;
@@ -216,7 +216,7 @@ void __cdecl data::EchoShellRewardExcelConfig::~EchoShellRewardExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellRewardExcelConfig = v2;
@@ -238,7 +238,7 @@ void __cdecl data::EchoShellFloatSignalExcelConfig::EchoShellFloatSignalExcelCon
   const data::EchoShellFloatSignalExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellFloatSignalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellFloatSignalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EchoShellFloatSignalExcelConfig = v2;
@@ -291,7 +291,7 @@ void __cdecl data::EchoShellFloatSignalExcelConfig::~EchoShellFloatSignalExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellFloatSignalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellFloatSignalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellFloatSignalExcelConfig = v2;
@@ -319,7 +319,7 @@ void __cdecl data::EchoShellPreviewExcelConfig::EchoShellPreviewExcelConfig(
   const data::EchoShellPreviewExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EchoShellPreviewExcelConfig = v2;
@@ -367,7 +367,7 @@ void __cdecl data::EchoShellPreviewExcelConfig::~EchoShellPreviewExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellPreviewExcelConfig = v2;
@@ -389,7 +389,7 @@ void __cdecl data::EchoShellSummerTimeDungeonExcelConfig::EchoShellSummerTimeDun
   const data::EchoShellSummerTimeDungeonExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellSummerTimeDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellSummerTimeDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EchoShellSummerTimeDungeonExcelConfig = v2;
@@ -450,7 +450,7 @@ void __cdecl data::EchoShellSummerTimeDungeonExcelConfig::~EchoShellSummerTimeDu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EchoShellSummerTimeDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EchoShellSummerTimeDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EchoShellSummerTimeDungeonExcelConfig = v2;

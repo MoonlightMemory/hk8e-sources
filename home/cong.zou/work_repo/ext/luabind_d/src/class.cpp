@@ -11,7 +11,7 @@ void __fastcall luabind::detail::class_registration::~class_registration(
   std::_Rb_tree_node_base::_Base_ptr v6; // rdi
 
   p_m_default_members = &this->m_default_members;
-  p_m_default_members[-21].m_chain = (luabind::detail::registration *)(&`vtable for'luabind::detail::class_registration
+  p_m_default_members[-21].m_chain = (luabind::detail::registration *)(&`vtable for luabind::detail::class_registration
                                                                      + 2);
   luabind::scope::~scope(p_m_default_members);
   luabind::scope::~scope(&this->m_members);
@@ -46,7 +46,7 @@ void __fastcall luabind::detail::class_registration::~class_registration(
   std::_Rb_tree_node_base::_Base_ptr v6; // rdi
 
   p_m_default_members = &this->m_default_members;
-  p_m_default_members[-21].m_chain = (luabind::detail::registration *)(&`vtable for'luabind::detail::class_registration
+  p_m_default_members[-21].m_chain = (luabind::detail::registration *)(&`vtable for luabind::detail::class_registration
                                                                      + 2);
   luabind::scope::~scope(p_m_default_members);
   luabind::scope::~scope(&this->m_members);
@@ -80,7 +80,7 @@ void __fastcall luabind::detail::class_registration::class_registration(
   this->m_static_constants._M_t._M_impl._M_header._M_color = _S_red;
   this->m_static_constants._M_t._M_impl._M_header._M_parent = 0LL;
   *(_OWORD *)&this->m_bases._M_impl._M_start = 0LL;
-  this->_vptr_registration = (int (**)(...))(&`vtable for'luabind::detail::class_registration + 2);
+  this->_vptr_registration = (int (**)(...))(&`vtable for luabind::detail::class_registration + 2);
   this->m_static_constants._M_t._M_impl._M_header._M_left = &this->m_static_constants._M_t._M_impl._M_header;
   this->m_static_constants._M_t._M_impl._M_header._M_right = &this->m_static_constants._M_t._M_impl._M_header;
   this->m_static_constants._M_t._M_impl._M_node_count = 0LL;

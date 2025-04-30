@@ -9,7 +9,7 @@ void __cdecl data::ConfigAbilityPredicate::ConfigAbilityPredicate(data::ConfigAb
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigAbilityPredicate>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAbilityPredicate>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -45,7 +45,7 @@ void __cdecl data::ConfigAbilityPredicate::ConfigAbilityPredicate(
   std::enable_shared_from_this<data::ConfigAbilityPredicate>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAbilityPredicate>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAbilityPredicate + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAbilityPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAbilityPredicate = v3;
@@ -81,7 +81,7 @@ void __cdecl data::ConfigAbilityPredicate::~ConfigAbilityPredicate(data::ConfigA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -163,7 +163,7 @@ void __cdecl data::RelationalOperationPredicate::RelationalOperationPredicate(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::RelationalOperationPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::RelationalOperationPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -185,7 +185,7 @@ void __cdecl data::RelationalOperationPredicate::RelationalOperationPredicate(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::RelationalOperationPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::RelationalOperationPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -211,7 +211,7 @@ void __cdecl data::RelationalOperationPredicate::~RelationalOperationPredicate(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RelationalOperationPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::RelationalOperationPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -288,7 +288,7 @@ void __cdecl data::ByTargetHPRatio::ByTargetHPRatio(data::ByTargetHPRatio *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -301,7 +301,7 @@ void __cdecl data::ByTargetHPRatio::ByTargetHPRatio(data::ByTargetHPRatio *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -321,7 +321,7 @@ void __cdecl data::ByTargetHPRatio::~ByTargetHPRatio(data::ByTargetHPRatio *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -389,7 +389,7 @@ void __cdecl data::ByTargetHPRatioFactory::ByTargetHPRatioFactory(data::ByTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPRatioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPRatioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetHPRatioFactory = v2;
@@ -402,7 +402,7 @@ void __cdecl data::ByTargetRaycastVisiable::ByTargetRaycastVisiable(data::ByTarg
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetRaycastVisiable + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetRaycastVisiable + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -416,7 +416,7 @@ void __cdecl data::ByTargetRaycastVisiable::ByTargetRaycastVisiable(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetRaycastVisiable + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetRaycastVisiable + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -435,7 +435,7 @@ void __cdecl data::ByTargetRaycastVisiable::~ByTargetRaycastVisiable(data::ByTar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetRaycastVisiable + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetRaycastVisiable + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -503,7 +503,7 @@ void __cdecl data::ByTargetRaycastVisiableFactory::ByTargetRaycastVisiableFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetRaycastVisiableFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetRaycastVisiableFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetRaycastVisiableFactory = v2;
@@ -516,7 +516,7 @@ void __cdecl data::ByLocalAvatarStamina::ByLocalAvatarStamina(data::ByLocalAvata
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStamina + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStamina + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -531,7 +531,7 @@ void __cdecl data::ByLocalAvatarStamina::ByLocalAvatarStamina(
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStamina + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStamina + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -551,7 +551,7 @@ void __cdecl data::ByLocalAvatarStamina::~ByLocalAvatarStamina(data::ByLocalAvat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStamina + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStamina + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -620,7 +620,7 @@ void __cdecl data::ByLocalAvatarStaminaFactory::ByLocalAvatarStaminaFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStaminaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStaminaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByLocalAvatarStaminaFactory = v2;
@@ -633,7 +633,7 @@ void __cdecl data::ByLocalAvatarStaminaRatio::ByLocalAvatarStaminaRatio(data::By
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStaminaRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStaminaRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -648,7 +648,7 @@ void __cdecl data::ByLocalAvatarStaminaRatio::ByLocalAvatarStaminaRatio(
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStaminaRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStaminaRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -661,7 +661,7 @@ void __cdecl data::ByLocalAvatarStaminaRatio::~ByLocalAvatarStaminaRatio(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStaminaRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStaminaRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -737,7 +737,7 @@ void __cdecl data::ByLocalAvatarStaminaRatioFactory::ByLocalAvatarStaminaRatioFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByLocalAvatarStaminaRatioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByLocalAvatarStaminaRatioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByLocalAvatarStaminaRatioFactory = v2;
@@ -750,7 +750,7 @@ void __cdecl data::ByTargetHPValue::ByTargetHPValue(data::ByTargetHPValue *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -763,7 +763,7 @@ void __cdecl data::ByTargetHPValue::ByTargetHPValue(data::ByTargetHPValue *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -776,7 +776,7 @@ void __cdecl data::ByTargetHPValue::~ByTargetHPValue(data::ByTargetHPValue *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -851,7 +851,7 @@ void __cdecl data::ByTargetHPValueFactory::ByTargetHPValueFactory(data::ByTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetHPValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetHPValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetHPValueFactory = v2;
@@ -864,7 +864,7 @@ void __cdecl data::ByHitDamage::ByHitDamage(data::ByHitDamage *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitDamage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -883,7 +883,7 @@ void __cdecl data::ByHitDamage::ByHitDamage(data::ByHitDamage *const this, const
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitDamage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -907,7 +907,7 @@ void __cdecl data::ByHitDamage::~ByHitDamage(data::ByHitDamage *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitDamage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -982,7 +982,7 @@ void __cdecl data::ByHitDamageFactory::ByHitDamageFactory(data::ByHitDamageFacto
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitDamageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitDamageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitDamageFactory = v2;
@@ -995,7 +995,7 @@ void __cdecl data::ByHitEnBreak::ByHitEnBreak(data::ByHitEnBreak *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitEnBreak + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitEnBreak + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1008,7 +1008,7 @@ void __cdecl data::ByHitEnBreak::ByHitEnBreak(data::ByHitEnBreak *const this, co
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitEnBreak + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitEnBreak + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1028,7 +1028,7 @@ void __cdecl data::ByHitEnBreak::~ByHitEnBreak(data::ByHitEnBreak *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitEnBreak + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitEnBreak + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1096,7 +1096,7 @@ void __cdecl data::ByHitEnBreakFactory::ByHitEnBreakFactory(data::ByHitEnBreakFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitEnBreakFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitEnBreakFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitEnBreakFactory = v2;
@@ -1109,7 +1109,7 @@ void __cdecl data::ByHitCritical::ByHitCritical(data::ByHitCritical *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitCritical + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitCritical + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1121,7 +1121,7 @@ void __cdecl data::ByHitCritical::ByHitCritical(data::ByHitCritical *const this,
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitCritical + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitCritical + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1133,7 +1133,7 @@ void __cdecl data::ByHitCritical::~ByHitCritical(data::ByHitCritical *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitCritical + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitCritical + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1207,7 +1207,7 @@ void __cdecl data::ByHitCriticalFactory::ByHitCriticalFactory(data::ByHitCritica
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitCriticalFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitCriticalFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitCriticalFactory = v2;
@@ -1220,7 +1220,7 @@ void __cdecl data::ByTargetOverrideMapValue::ByTargetOverrideMapValue(data::ByTa
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetOverrideMapValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetOverrideMapValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1237,7 +1237,7 @@ void __cdecl data::ByTargetOverrideMapValue::ByTargetOverrideMapValue(
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetOverrideMapValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetOverrideMapValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1259,7 +1259,7 @@ void __cdecl data::ByTargetOverrideMapValue::~ByTargetOverrideMapValue(data::ByT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetOverrideMapValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetOverrideMapValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1330,7 +1330,7 @@ void __cdecl data::ByTargetOverrideMapValueFactory::ByTargetOverrideMapValueFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetOverrideMapValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetOverrideMapValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetOverrideMapValueFactory = v2;
@@ -1343,7 +1343,7 @@ void __cdecl data::ByWetHitCollider::ByWetHitCollider(data::ByWetHitCollider *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByWetHitCollider + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWetHitCollider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1357,7 +1357,7 @@ void __cdecl data::ByWetHitCollider::ByWetHitCollider(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByWetHitCollider + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWetHitCollider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1376,7 +1376,7 @@ void __cdecl data::ByWetHitCollider::~ByWetHitCollider(data::ByWetHitCollider *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByWetHitCollider + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWetHitCollider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1443,7 +1443,7 @@ void __cdecl data::ByWetHitColliderFactory::ByWetHitColliderFactory(data::ByWetH
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByWetHitColliderFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWetHitColliderFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByWetHitColliderFactory = v2;
@@ -1456,7 +1456,7 @@ void __cdecl data::ByHitBoxName::ByHitBoxName(data::ByHitBoxName *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1469,7 +1469,7 @@ void __cdecl data::ByHitBoxName::ByHitBoxName(data::ByHitBoxName *const this, co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1482,7 +1482,7 @@ void __cdecl data::ByHitBoxName::~ByHitBoxName(data::ByHitBoxName *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1557,7 +1557,7 @@ void __cdecl data::ByHitBoxNameFactory::ByHitBoxNameFactory(data::ByHitBoxNameFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxNameFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxNameFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitBoxNameFactory = v2;
@@ -1570,7 +1570,7 @@ void __cdecl data::ByHitBoxType::ByHitBoxType(data::ByHitBoxType *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1590,7 +1590,7 @@ void __cdecl data::ByHitBoxType::ByHitBoxType(data::ByHitBoxType *const this, co
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1622,7 +1622,7 @@ void __cdecl data::ByHitBoxType::~ByHitBoxType(data::ByHitBoxType *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1689,7 +1689,7 @@ void __cdecl data::ByHitBoxTypeFactory::ByHitBoxTypeFactory(data::ByHitBoxTypeFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitBoxTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitBoxTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitBoxTypeFactory = v2;
@@ -1702,7 +1702,7 @@ void __cdecl data::ByHasElement::ByHasElement(data::ByHasElement *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1722,7 +1722,7 @@ void __cdecl data::ByHasElement::ByHasElement(data::ByHasElement *const this, co
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1747,7 +1747,7 @@ void __cdecl data::ByHasElement::~ByHasElement(data::ByHasElement *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1821,7 +1821,7 @@ void __cdecl data::ByHasElementFactory::ByHasElementFactory(data::ByHasElementFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasElementFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasElementFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasElementFactory = v2;
@@ -1834,7 +1834,7 @@ void __cdecl data::ByHasAbilityState::ByHasAbilityState(data::ByHasAbilityState 
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAbilityState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAbilityState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1852,7 +1852,7 @@ void __cdecl data::ByHasAbilityState::ByHasAbilityState(
   data::AbilityState ability_state; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAbilityState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAbilityState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1870,7 +1870,7 @@ void __cdecl data::ByHasAbilityState::~ByHasAbilityState(data::ByHasAbilityState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAbilityState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAbilityState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1944,7 +1944,7 @@ void __cdecl data::ByHasAbilityStateFactory::ByHasAbilityStateFactory(data::ByHa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAbilityStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAbilityStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasAbilityStateFactory = v2;
@@ -1957,7 +1957,7 @@ void __cdecl data::ByNot::ByNot(data::ByNot *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1970,7 +1970,7 @@ void __cdecl data::ByNot::ByNot(data::ByNot *const this, const data::ByNot *a2)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -1990,7 +1990,7 @@ void __cdecl data::ByNot::~ByNot(data::ByNot *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2058,7 +2058,7 @@ void __cdecl data::ByNotFactory::ByNotFactory(data::ByNotFactory *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByNotFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByNotFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByNotFactory = v2;
@@ -2071,7 +2071,7 @@ void __cdecl data::ByAny::ByAny(data::ByAny *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAny + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAny + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2084,7 +2084,7 @@ void __cdecl data::ByAny::ByAny(data::ByAny *const this, const data::ByAny *a2)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAny + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAny + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2104,7 +2104,7 @@ void __cdecl data::ByAny::~ByAny(data::ByAny *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAny + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAny + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2172,7 +2172,7 @@ void __cdecl data::ByAnyFactory::ByAnyFactory(data::ByAnyFactory *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAnyFactory = v2;
@@ -2185,7 +2185,7 @@ void __cdecl data::ByAnd::ByAnd(data::ByAnd *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2198,7 +2198,7 @@ void __cdecl data::ByAnd::ByAnd(data::ByAnd *const this, const data::ByAnd *a2)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2218,7 +2218,7 @@ void __cdecl data::ByAnd::~ByAnd(data::ByAnd *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2286,7 +2286,7 @@ void __cdecl data::ByAndFactory::ByAndFactory(data::ByAndFactory *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAndFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAndFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAndFactory = v2;
@@ -2299,7 +2299,7 @@ void __cdecl data::ByHasAttackTarget::ByHasAttackTarget(data::ByHasAttackTarget 
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2313,7 +2313,7 @@ void __cdecl data::ByHasAttackTarget::ByHasAttackTarget(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2325,7 +2325,7 @@ void __cdecl data::ByHasAttackTarget::~ByHasAttackTarget(data::ByHasAttackTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2399,7 +2399,7 @@ void __cdecl data::ByHasAttackTargetFactory::ByHasAttackTargetFactory(data::ByHa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasAttackTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasAttackTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasAttackTargetFactory = v2;
@@ -2412,7 +2412,7 @@ void __cdecl data::ByTargetIsGhostToEnemy::ByTargetIsGhostToEnemy(data::ByTarget
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsGhostToEnemy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsGhostToEnemy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2426,7 +2426,7 @@ void __cdecl data::ByTargetIsGhostToEnemy::ByTargetIsGhostToEnemy(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsGhostToEnemy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsGhostToEnemy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2445,7 +2445,7 @@ void __cdecl data::ByTargetIsGhostToEnemy::~ByTargetIsGhostToEnemy(data::ByTarge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsGhostToEnemy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsGhostToEnemy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2513,7 +2513,7 @@ void __cdecl data::ByTargetIsGhostToEnemyFactory::ByTargetIsGhostToEnemyFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsGhostToEnemyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsGhostToEnemyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetIsGhostToEnemyFactory = v2;
@@ -2528,7 +2528,7 @@ void __cdecl data::ByTargetIsSelf::ByTargetIsSelf(data::ByTargetIsSelf *const th
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsSelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsSelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2552,7 +2552,7 @@ void __cdecl data::ByTargetIsSelf::ByTargetIsSelf(data::ByTargetIsSelf *const th
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsSelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsSelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2582,7 +2582,7 @@ void __cdecl data::ByTargetIsSelf::~ByTargetIsSelf(data::ByTargetIsSelf *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsSelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsSelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2649,7 +2649,7 @@ void __cdecl data::ByTargetIsSelfFactory::ByTargetIsSelfFactory(data::ByTargetIs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsSelfFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsSelfFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetIsSelfFactory = v2;
@@ -2662,7 +2662,7 @@ void __cdecl data::ByTargetElement::ByTargetElement(data::ByTargetElement *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2682,7 +2682,7 @@ void __cdecl data::ByTargetElement::ByTargetElement(data::ByTargetElement *const
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2707,7 +2707,7 @@ void __cdecl data::ByTargetElement::~ByTargetElement(data::ByTargetElement *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2781,7 +2781,7 @@ void __cdecl data::ByTargetElementFactory::ByTargetElementFactory(data::ByTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetElementFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetElementFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetElementFactory = v2;
@@ -2796,7 +2796,7 @@ void __cdecl data::ByHostOrGuest::ByHostOrGuest(data::ByHostOrGuest *const this)
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHostOrGuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHostOrGuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2820,7 +2820,7 @@ void __cdecl data::ByHostOrGuest::ByHostOrGuest(data::ByHostOrGuest *const this,
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHostOrGuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHostOrGuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2843,7 +2843,7 @@ void __cdecl data::ByHostOrGuest::~ByHostOrGuest(data::ByHostOrGuest *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHostOrGuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHostOrGuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2917,7 +2917,7 @@ void __cdecl data::ByHostOrGuestFactory::ByHostOrGuestFactory(data::ByHostOrGues
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHostOrGuestFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHostOrGuestFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHostOrGuestFactory = v2;
@@ -2932,7 +2932,7 @@ void __cdecl data::ByAvatarIsHost::ByAvatarIsHost(data::ByAvatarIsHost *const th
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarIsHost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarIsHost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2956,7 +2956,7 @@ void __cdecl data::ByAvatarIsHost::ByAvatarIsHost(data::ByAvatarIsHost *const th
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarIsHost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarIsHost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -2986,7 +2986,7 @@ void __cdecl data::ByAvatarIsHost::~ByAvatarIsHost(data::ByAvatarIsHost *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarIsHost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarIsHost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3053,7 +3053,7 @@ void __cdecl data::ByAvatarIsHostFactory::ByAvatarIsHostFactory(data::ByAvatarIs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarIsHostFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarIsHostFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAvatarIsHostFactory = v2;
@@ -3066,7 +3066,7 @@ void __cdecl data::ByTargetWeight::ByTargetWeight(data::ByTargetWeight *const th
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeight + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeight + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3079,7 +3079,7 @@ void __cdecl data::ByTargetWeight::ByTargetWeight(data::ByTargetWeight *const th
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeight + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeight + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3092,7 +3092,7 @@ void __cdecl data::ByTargetWeight::~ByTargetWeight(data::ByTargetWeight *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeight + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeight + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3167,7 +3167,7 @@ void __cdecl data::ByTargetWeightFactory::ByTargetWeightFactory(data::ByTargetWe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeightFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeightFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetWeightFactory = v2;
@@ -3180,7 +3180,7 @@ void __cdecl data::ByAnimatorFloat::ByAnimatorFloat(data::ByAnimatorFloat *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3194,7 +3194,7 @@ void __cdecl data::ByAnimatorFloat::ByAnimatorFloat(data::ByAnimatorFloat *const
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3215,7 +3215,7 @@ void __cdecl data::ByAnimatorFloat::~ByAnimatorFloat(data::ByAnimatorFloat *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3284,7 +3284,7 @@ void __cdecl data::ByAnimatorFloatFactory::ByAnimatorFloatFactory(data::ByAnimat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorFloatFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorFloatFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAnimatorFloatFactory = v2;
@@ -3297,7 +3297,7 @@ void __cdecl data::ByAnimatorInt::ByAnimatorInt(data::ByAnimatorInt *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorInt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorInt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3311,7 +3311,7 @@ void __cdecl data::ByAnimatorInt::ByAnimatorInt(data::ByAnimatorInt *const this,
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorInt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorInt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3325,7 +3325,7 @@ void __cdecl data::ByAnimatorInt::~ByAnimatorInt(data::ByAnimatorInt *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorInt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorInt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3401,7 +3401,7 @@ void __cdecl data::ByAnimatorIntFactory::ByAnimatorIntFactory(data::ByAnimatorIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorIntFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorIntFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAnimatorIntFactory = v2;
@@ -3416,7 +3416,7 @@ void __cdecl data::ByAnimatorBool::ByAnimatorBool(data::ByAnimatorBool *const th
   __int64 v4; // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorBool + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorBool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3441,7 +3441,7 @@ void __cdecl data::ByAnimatorBool::ByAnimatorBool(data::ByAnimatorBool *const th
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorBool + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorBool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3465,7 +3465,7 @@ void __cdecl data::ByAnimatorBool::~ByAnimatorBool(data::ByAnimatorBool *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorBool + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorBool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3540,7 +3540,7 @@ void __cdecl data::ByAnimatorBoolFactory::ByAnimatorBoolFactory(data::ByAnimator
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAnimatorBoolFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAnimatorBoolFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAnimatorBoolFactory = v2;
@@ -3553,7 +3553,7 @@ void __cdecl data::ByTargetGlobalValue::ByTargetGlobalValue(data::ByTargetGlobal
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3585,7 +3585,7 @@ void __cdecl data::ByTargetGlobalValue::ByTargetGlobalValue(
   char v8; // dl
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3632,7 +3632,7 @@ void __cdecl data::ByTargetGlobalValue::~ByTargetGlobalValue(data::ByTargetGloba
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3702,7 +3702,7 @@ void __cdecl data::ByTargetGlobalValueFactory::ByTargetGlobalValueFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGlobalValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGlobalValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetGlobalValueFactory = v2;
@@ -3715,7 +3715,7 @@ void __cdecl data::ByScenePropState::ByScenePropState(data::ByScenePropState *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByScenePropState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByScenePropState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3748,7 +3748,7 @@ void __cdecl data::ByScenePropState::ByScenePropState(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByScenePropState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByScenePropState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3787,7 +3787,7 @@ void __cdecl data::ByScenePropState::~ByScenePropState(data::ByScenePropState *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByScenePropState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByScenePropState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3861,7 +3861,7 @@ void __cdecl data::ByScenePropStateFactory::ByScenePropStateFactory(data::ByScen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByScenePropStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByScenePropStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByScenePropStateFactory = v2;
@@ -3874,7 +3874,7 @@ void __cdecl data::ByAvatarInWaterDepth::ByAvatarInWaterDepth(data::ByAvatarInWa
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarInWaterDepth + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarInWaterDepth + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3905,7 +3905,7 @@ void __cdecl data::ByAvatarInWaterDepth::ByAvatarInWaterDepth(
 
   v6 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarInWaterDepth + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarInWaterDepth + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -3942,7 +3942,7 @@ void __cdecl data::ByAvatarInWaterDepth::~ByAvatarInWaterDepth(data::ByAvatarInW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarInWaterDepth + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarInWaterDepth + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4017,7 +4017,7 @@ void __cdecl data::ByAvatarInWaterDepthFactory::ByAvatarInWaterDepthFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarInWaterDepthFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarInWaterDepthFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAvatarInWaterDepthFactory = v2;
@@ -4032,7 +4032,7 @@ void __cdecl data::ByEntityTypes::ByEntityTypes(data::ByEntityTypes *const this)
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4068,7 +4068,7 @@ void __cdecl data::ByEntityTypes::ByEntityTypes(data::ByEntityTypes *const this,
   int16_t is_authority; // cx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4122,7 +4122,7 @@ void __cdecl data::ByEntityTypes::~ByEntityTypes(data::ByEntityTypes *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4190,7 +4190,7 @@ void __cdecl data::ByEntityTypesFactory::ByEntityTypesFactory(data::ByEntityType
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityTypesFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityTypesFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEntityTypesFactory = v2;
@@ -4203,7 +4203,7 @@ void __cdecl data::ByHitImpulse::ByHitImpulse(data::ByHitImpulse *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitImpulse + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitImpulse + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4222,7 +4222,7 @@ void __cdecl data::ByHitImpulse::ByHitImpulse(data::ByHitImpulse *const this, co
   float hit_impulse; // xmm0_4
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitImpulse + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitImpulse + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4246,7 +4246,7 @@ void __cdecl data::ByHitImpulse::~ByHitImpulse(data::ByHitImpulse *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitImpulse + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitImpulse + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4320,7 +4320,7 @@ void __cdecl data::ByHitImpulseFactory::ByHitImpulseFactory(data::ByHitImpulseFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitImpulseFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitImpulseFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitImpulseFactory = v2;
@@ -4333,7 +4333,7 @@ void __cdecl data::ByHitElement::ByHitElement(data::ByHitElement *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4353,7 +4353,7 @@ void __cdecl data::ByHitElement::ByHitElement(data::ByHitElement *const this, co
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4385,7 +4385,7 @@ void __cdecl data::ByHitElement::~ByHitElement(data::ByHitElement *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElement + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4452,7 +4452,7 @@ void __cdecl data::ByHitElementFactory::ByHitElementFactory(data::ByHitElementFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElementFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElementFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitElementFactory = v2;
@@ -4465,7 +4465,7 @@ void __cdecl data::ByHitStrikeType::ByHitStrikeType(data::ByHitStrikeType *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitStrikeType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitStrikeType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4485,7 +4485,7 @@ void __cdecl data::ByHitStrikeType::ByHitStrikeType(data::ByHitStrikeType *const
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitStrikeType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitStrikeType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4517,7 +4517,7 @@ void __cdecl data::ByHitStrikeType::~ByHitStrikeType(data::ByHitStrikeType *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitStrikeType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitStrikeType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4584,7 +4584,7 @@ void __cdecl data::ByHitStrikeTypeFactory::ByHitStrikeTypeFactory(data::ByHitStr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitStrikeTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitStrikeTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitStrikeTypeFactory = v2;
@@ -4597,7 +4597,7 @@ void __cdecl data::ByIsMoveOnWater::ByIsMoveOnWater(data::ByIsMoveOnWater *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsMoveOnWater + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsMoveOnWater + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4609,7 +4609,7 @@ void __cdecl data::ByIsMoveOnWater::ByIsMoveOnWater(data::ByIsMoveOnWater *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsMoveOnWater + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsMoveOnWater + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4628,7 +4628,7 @@ void __cdecl data::ByIsMoveOnWater::~ByIsMoveOnWater(data::ByIsMoveOnWater *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsMoveOnWater + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsMoveOnWater + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4695,7 +4695,7 @@ void __cdecl data::ByIsMoveOnWaterFactory::ByIsMoveOnWaterFactory(data::ByIsMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsMoveOnWaterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsMoveOnWaterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsMoveOnWaterFactory = v2;
@@ -4708,7 +4708,7 @@ void __cdecl data::ByAttackTags::ByAttackTags(data::ByAttackTags *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4721,7 +4721,7 @@ void __cdecl data::ByAttackTags::ByAttackTags(data::ByAttackTags *const this, co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4734,7 +4734,7 @@ void __cdecl data::ByAttackTags::~ByAttackTags(data::ByAttackTags *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4809,7 +4809,7 @@ void __cdecl data::ByAttackTagsFactory::ByAttackTagsFactory(data::ByAttackTagsFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackTagsFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackTagsFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAttackTagsFactory = v2;
@@ -4822,7 +4822,7 @@ void __cdecl data::BySceneSurfaceType::BySceneSurfaceType(data::BySceneSurfaceTy
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::BySceneSurfaceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneSurfaceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4845,7 +4845,7 @@ void __cdecl data::BySceneSurfaceType::BySceneSurfaceType(
   __int64 v6; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BySceneSurfaceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneSurfaceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4895,7 +4895,7 @@ void __cdecl data::BySceneSurfaceType::~BySceneSurfaceType(data::BySceneSurfaceT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySceneSurfaceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneSurfaceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4963,7 +4963,7 @@ void __cdecl data::BySceneSurfaceTypeFactory::BySceneSurfaceTypeFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySceneSurfaceTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneSurfaceTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BySceneSurfaceTypeFactory = v2;
@@ -4976,7 +4976,7 @@ void __cdecl data::ByUnlockTalentParam::ByUnlockTalentParam(data::ByUnlockTalent
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByUnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByUnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -4991,7 +4991,7 @@ void __cdecl data::ByUnlockTalentParam::ByUnlockTalentParam(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByUnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByUnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5004,7 +5004,7 @@ void __cdecl data::ByUnlockTalentParam::~ByUnlockTalentParam(data::ByUnlockTalen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByUnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByUnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5079,7 +5079,7 @@ void __cdecl data::ByUnlockTalentParamFactory::ByUnlockTalentParamFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByUnlockTalentParamFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByUnlockTalentParamFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByUnlockTalentParamFactory = v2;
@@ -5092,7 +5092,7 @@ void __cdecl data::BySkillReady::BySkillReady(data::BySkillReady *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::BySkillReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySkillReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5115,7 +5115,7 @@ void __cdecl data::BySkillReady::BySkillReady(data::BySkillReady *const this, co
 
   v5 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BySkillReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySkillReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5148,7 +5148,7 @@ void __cdecl data::BySkillReady::~BySkillReady(data::BySkillReady *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySkillReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySkillReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5216,7 +5216,7 @@ void __cdecl data::BySkillReadyFactory::BySkillReadyFactory(data::BySkillReadyFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySkillReadyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySkillReadyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BySkillReadyFactory = v2;
@@ -5230,7 +5230,7 @@ void __cdecl data::ByTargetPositionToSelfPosition::ByTargetPositionToSelfPositio
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPositionToSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPositionToSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5256,7 +5256,7 @@ void __cdecl data::ByTargetPositionToSelfPosition::ByTargetPositionToSelfPositio
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPositionToSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPositionToSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5284,7 +5284,7 @@ void __cdecl data::ByTargetPositionToSelfPosition::~ByTargetPositionToSelfPositi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPositionToSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPositionToSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5363,7 +5363,7 @@ void __cdecl data::ByTargetPositionToSelfPositionFactory::ByTargetPositionToSelf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPositionToSelfPositionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPositionToSelfPositionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetPositionToSelfPositionFactory = v2;
@@ -5377,7 +5377,7 @@ void __cdecl data::ByTargetForwardAndSelfPosition::ByTargetForwardAndSelfPositio
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetForwardAndSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetForwardAndSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5398,7 +5398,7 @@ void __cdecl data::ByTargetForwardAndSelfPosition::ByTargetForwardAndSelfPositio
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetForwardAndSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetForwardAndSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5423,7 +5423,7 @@ void __cdecl data::ByTargetForwardAndSelfPosition::~ByTargetForwardAndSelfPositi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetForwardAndSelfPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetForwardAndSelfPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5502,7 +5502,7 @@ void __cdecl data::ByTargetForwardAndSelfPositionFactory::ByTargetForwardAndSelf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetForwardAndSelfPositionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetForwardAndSelfPositionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetForwardAndSelfPositionFactory = v2;
@@ -5516,7 +5516,7 @@ void __cdecl data::BySelfForwardAndTargetPosition::BySelfForwardAndTargetPositio
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::BySelfForwardAndTargetPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySelfForwardAndTargetPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5537,7 +5537,7 @@ void __cdecl data::BySelfForwardAndTargetPosition::BySelfForwardAndTargetPositio
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BySelfForwardAndTargetPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySelfForwardAndTargetPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5562,7 +5562,7 @@ void __cdecl data::BySelfForwardAndTargetPosition::~BySelfForwardAndTargetPositi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySelfForwardAndTargetPosition + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySelfForwardAndTargetPosition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5641,7 +5641,7 @@ void __cdecl data::BySelfForwardAndTargetPositionFactory::BySelfForwardAndTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySelfForwardAndTargetPositionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySelfForwardAndTargetPositionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BySelfForwardAndTargetPositionFactory = v2;
@@ -5654,7 +5654,7 @@ void __cdecl data::ByEnergyRatio::ByEnergyRatio(data::ByEnergyRatio *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergyRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergyRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5667,7 +5667,7 @@ void __cdecl data::ByEnergyRatio::ByEnergyRatio(data::ByEnergyRatio *const this,
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergyRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergyRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5680,7 +5680,7 @@ void __cdecl data::ByEnergyRatio::~ByEnergyRatio(data::ByEnergyRatio *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergyRatio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergyRatio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5755,7 +5755,7 @@ void __cdecl data::ByEnergyRatioFactory::ByEnergyRatioFactory(data::ByEnergyRati
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergyRatioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergyRatioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEnergyRatioFactory = v2;
@@ -5768,7 +5768,7 @@ void __cdecl data::ByEnergy::ByEnergy(data::ByEnergy *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5781,7 +5781,7 @@ void __cdecl data::ByEnergy::ByEnergy(data::ByEnergy *const this, const data::By
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5801,7 +5801,7 @@ void __cdecl data::ByEnergy::~ByEnergy(data::ByEnergy *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5869,7 +5869,7 @@ void __cdecl data::ByEnergyFactory::ByEnergyFactory(data::ByEnergyFactory *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEnergyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEnergyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEnergyFactory = v2;
@@ -5882,7 +5882,7 @@ void __cdecl data::BySummonTagValue::BySummonTagValue(data::BySummonTagValue *co
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::BySummonTagValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySummonTagValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5908,7 +5908,7 @@ void __cdecl data::BySummonTagValue::BySummonTagValue(
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::BySummonTagValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySummonTagValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -5935,7 +5935,7 @@ void __cdecl data::BySummonTagValue::~BySummonTagValue(data::BySummonTagValue *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySummonTagValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySummonTagValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6010,7 +6010,7 @@ void __cdecl data::BySummonTagValueFactory::BySummonTagValueFactory(data::BySumm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySummonTagValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySummonTagValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BySummonTagValueFactory = v2;
@@ -6023,7 +6023,7 @@ void __cdecl data::ByAttackNotHitScene::ByAttackNotHitScene(data::ByAttackNotHit
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackNotHitScene + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackNotHitScene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6046,7 +6046,7 @@ void __cdecl data::ByAttackNotHitScene::ByAttackNotHitScene(
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackNotHitScene + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackNotHitScene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6077,7 +6077,7 @@ void __cdecl data::ByAttackNotHitScene::~ByAttackNotHitScene(data::ByAttackNotHi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackNotHitScene + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackNotHitScene + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6145,7 +6145,7 @@ void __cdecl data::ByAttackNotHitSceneFactory::ByAttackNotHitSceneFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackNotHitSceneFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackNotHitSceneFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAttackNotHitSceneFactory = v2;
@@ -6158,7 +6158,7 @@ void __cdecl data::ByIsCombat::ByIsCombat(data::ByIsCombat *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6170,7 +6170,7 @@ void __cdecl data::ByIsCombat::ByIsCombat(data::ByIsCombat *const this, const da
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6189,7 +6189,7 @@ void __cdecl data::ByIsCombat::~ByIsCombat(data::ByIsCombat *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6256,7 +6256,7 @@ void __cdecl data::ByIsCombatFactory::ByIsCombatFactory(data::ByIsCombatFactory 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsCombatFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsCombatFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsCombatFactory = v2;
@@ -6269,7 +6269,7 @@ void __cdecl data::ByVehicleIsCombat::ByVehicleIsCombat(data::ByVehicleIsCombat 
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByVehicleIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByVehicleIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6283,7 +6283,7 @@ void __cdecl data::ByVehicleIsCombat::ByVehicleIsCombat(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByVehicleIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByVehicleIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6295,7 +6295,7 @@ void __cdecl data::ByVehicleIsCombat::~ByVehicleIsCombat(data::ByVehicleIsCombat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByVehicleIsCombat + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByVehicleIsCombat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6369,7 +6369,7 @@ void __cdecl data::ByVehicleIsCombatFactory::ByVehicleIsCombatFactory(data::ByVe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByVehicleIsCombatFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByVehicleIsCombatFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByVehicleIsCombatFactory = v2;
@@ -6382,7 +6382,7 @@ void __cdecl data::ByTargetAltitude::ByTargetAltitude(data::ByTargetAltitude *co
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetAltitude + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetAltitude + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6406,7 +6406,7 @@ void __cdecl data::ByTargetAltitude::ByTargetAltitude(
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetAltitude + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetAltitude + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6440,7 +6440,7 @@ void __cdecl data::ByTargetAltitude::~ByTargetAltitude(data::ByTargetAltitude *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetAltitude + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetAltitude + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6508,7 +6508,7 @@ void __cdecl data::ByTargetAltitudeFactory::ByTargetAltitudeFactory(data::ByTarg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetAltitudeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetAltitudeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetAltitudeFactory = v2;
@@ -6521,7 +6521,7 @@ void __cdecl data::ByStageIsReadyTemp::ByStageIsReadyTemp(data::ByStageIsReadyTe
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByStageIsReadyTemp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByStageIsReadyTemp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6535,7 +6535,7 @@ void __cdecl data::ByStageIsReadyTemp::ByStageIsReadyTemp(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByStageIsReadyTemp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByStageIsReadyTemp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6547,7 +6547,7 @@ void __cdecl data::ByStageIsReadyTemp::~ByStageIsReadyTemp(data::ByStageIsReadyT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByStageIsReadyTemp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByStageIsReadyTemp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6621,7 +6621,7 @@ void __cdecl data::ByStageIsReadyTempFactory::ByStageIsReadyTempFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByStageIsReadyTempFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByStageIsReadyTempFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByStageIsReadyTempFactory = v2;
@@ -6634,7 +6634,7 @@ void __cdecl data::ByItemNumber::ByItemNumber(data::ByItemNumber *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByItemNumber + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByItemNumber + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6665,7 +6665,7 @@ void __cdecl data::ByItemNumber::ByItemNumber(data::ByItemNumber *const this, co
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByItemNumber + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByItemNumber + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6704,7 +6704,7 @@ void __cdecl data::ByItemNumber::~ByItemNumber(data::ByItemNumber *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByItemNumber + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByItemNumber + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6778,7 +6778,7 @@ void __cdecl data::ByItemNumberFactory::ByItemNumberFactory(data::ByItemNumberFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByItemNumberFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByItemNumberFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByItemNumberFactory = v2;
@@ -6791,7 +6791,7 @@ void __cdecl data::ByHasFeatureTag::ByHasFeatureTag(data::ByHasFeatureTag *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6804,7 +6804,7 @@ void __cdecl data::ByHasFeatureTag::ByHasFeatureTag(data::ByHasFeatureTag *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6817,7 +6817,7 @@ void __cdecl data::ByHasFeatureTag::~ByHasFeatureTag(data::ByHasFeatureTag *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6892,7 +6892,7 @@ void __cdecl data::ByHasFeatureTagFactory::ByHasFeatureTagFactory(data::ByHasFea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasFeatureTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasFeatureTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasFeatureTagFactory = v2;
@@ -6905,7 +6905,7 @@ void __cdecl data::ByAvatarElementType::ByAvatarElementType(data::ByAvatarElemen
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6927,7 +6927,7 @@ void __cdecl data::ByAvatarElementType::ByAvatarElementType(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -6959,7 +6959,7 @@ void __cdecl data::ByAvatarElementType::~ByAvatarElementType(data::ByAvatarEleme
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7026,7 +7026,7 @@ void __cdecl data::ByAvatarElementTypeFactory::ByAvatarElementTypeFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarElementTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarElementTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAvatarElementTypeFactory = v2;
@@ -7039,7 +7039,7 @@ void __cdecl data::ByAvatarWeaponType::ByAvatarWeaponType(data::ByAvatarWeaponTy
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7054,7 +7054,7 @@ void __cdecl data::ByAvatarWeaponType::ByAvatarWeaponType(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7074,7 +7074,7 @@ void __cdecl data::ByAvatarWeaponType::~ByAvatarWeaponType(data::ByAvatarWeaponT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7142,7 +7142,7 @@ void __cdecl data::ByAvatarWeaponTypeFactory::ByAvatarWeaponTypeFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarWeaponTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarWeaponTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAvatarWeaponTypeFactory = v2;
@@ -7155,7 +7155,7 @@ void __cdecl data::ByAvatarBodyType::ByAvatarBodyType(data::ByAvatarBodyType *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7170,7 +7170,7 @@ void __cdecl data::ByAvatarBodyType::ByAvatarBodyType(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7190,7 +7190,7 @@ void __cdecl data::ByAvatarBodyType::~ByAvatarBodyType(data::ByAvatarBodyType *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7258,7 +7258,7 @@ void __cdecl data::ByAvatarBodyTypeFactory::ByAvatarBodyTypeFactory(data::ByAvat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAvatarBodyTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAvatarBodyTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAvatarBodyTypeFactory = v2;
@@ -7272,7 +7272,7 @@ void __cdecl data::ByCurTeamHasFeatureTag::ByCurTeamHasFeatureTag(data::ByCurTea
   __int64 v3; // rsi
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7314,7 +7314,7 @@ void __cdecl data::ByCurTeamHasFeatureTag::ByCurTeamHasFeatureTag(
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7366,7 +7366,7 @@ void __cdecl data::ByCurTeamHasFeatureTag::~ByCurTeamHasFeatureTag(data::ByCurTe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7441,7 +7441,7 @@ void __cdecl data::ByCurTeamHasFeatureTagFactory::ByCurTeamHasFeatureTagFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasFeatureTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasFeatureTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamHasFeatureTagFactory = v2;
@@ -7455,7 +7455,7 @@ void __cdecl data::ByCurTeamHasElementType::ByCurTeamHasElementType(data::ByCurT
   __int64 v3; // rsi
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7497,7 +7497,7 @@ void __cdecl data::ByCurTeamHasElementType::ByCurTeamHasElementType(
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7556,7 +7556,7 @@ void __cdecl data::ByCurTeamHasElementType::~ByCurTeamHasElementType(data::ByCur
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7624,7 +7624,7 @@ void __cdecl data::ByCurTeamHasElementTypeFactory::ByCurTeamHasElementTypeFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasElementTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasElementTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamHasElementTypeFactory = v2;
@@ -7637,7 +7637,7 @@ void __cdecl data::ByCurTeamElementTypeSort::ByCurTeamElementTypeSort(data::ByCu
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7670,7 +7670,7 @@ void __cdecl data::ByCurTeamElementTypeSort::ByCurTeamElementTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7709,7 +7709,7 @@ void __cdecl data::ByCurTeamElementTypeSort::~ByCurTeamElementTypeSort(data::ByC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7784,7 +7784,7 @@ void __cdecl data::ByCurTeamElementTypeSortFactory::ByCurTeamElementTypeSortFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamElementTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamElementTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamElementTypeSortFactory = v2;
@@ -7797,7 +7797,7 @@ void __cdecl data::ByCurTeamHasWeaponType::ByCurTeamHasWeaponType(data::ByCurTea
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7830,7 +7830,7 @@ void __cdecl data::ByCurTeamHasWeaponType::ByCurTeamHasWeaponType(
   char v8; // dl
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7871,7 +7871,7 @@ void __cdecl data::ByCurTeamHasWeaponType::~ByCurTeamHasWeaponType(data::ByCurTe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7947,7 +7947,7 @@ void __cdecl data::ByCurTeamHasWeaponTypeFactory::ByCurTeamHasWeaponTypeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasWeaponTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasWeaponTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamHasWeaponTypeFactory = v2;
@@ -7960,7 +7960,7 @@ void __cdecl data::ByCurTeamWeaponTypeSort::ByCurTeamWeaponTypeSort(data::ByCurT
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -7993,7 +7993,7 @@ void __cdecl data::ByCurTeamWeaponTypeSort::ByCurTeamWeaponTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8032,7 +8032,7 @@ void __cdecl data::ByCurTeamWeaponTypeSort::~ByCurTeamWeaponTypeSort(data::ByCur
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8107,7 +8107,7 @@ void __cdecl data::ByCurTeamWeaponTypeSortFactory::ByCurTeamWeaponTypeSortFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamWeaponTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamWeaponTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamWeaponTypeSortFactory = v2;
@@ -8120,7 +8120,7 @@ void __cdecl data::ByCurTeamHasBodyType::ByCurTeamHasBodyType(data::ByCurTeamHas
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8153,7 +8153,7 @@ void __cdecl data::ByCurTeamHasBodyType::ByCurTeamHasBodyType(
   char v8; // dl
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8201,7 +8201,7 @@ void __cdecl data::ByCurTeamHasBodyType::~ByCurTeamHasBodyType(data::ByCurTeamHa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8270,7 +8270,7 @@ void __cdecl data::ByCurTeamHasBodyTypeFactory::ByCurTeamHasBodyTypeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamHasBodyTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamHasBodyTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamHasBodyTypeFactory = v2;
@@ -8283,7 +8283,7 @@ void __cdecl data::ByCurTeamBodyTypeSort::ByCurTeamBodyTypeSort(data::ByCurTeamB
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8316,7 +8316,7 @@ void __cdecl data::ByCurTeamBodyTypeSort::ByCurTeamBodyTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8362,7 +8362,7 @@ void __cdecl data::ByCurTeamBodyTypeSort::~ByCurTeamBodyTypeSort(data::ByCurTeam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8430,7 +8430,7 @@ void __cdecl data::ByCurTeamBodyTypeSortFactory::ByCurTeamBodyTypeSortFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurTeamBodyTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurTeamBodyTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurTeamBodyTypeSortFactory = v2;
@@ -8444,7 +8444,7 @@ void __cdecl data::ByBigTeamHasFeatureTag::ByBigTeamHasFeatureTag(data::ByBigTea
   __int64 v3; // rsi
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8486,7 +8486,7 @@ void __cdecl data::ByBigTeamHasFeatureTag::ByBigTeamHasFeatureTag(
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8538,7 +8538,7 @@ void __cdecl data::ByBigTeamHasFeatureTag::~ByBigTeamHasFeatureTag(data::ByBigTe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasFeatureTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasFeatureTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8613,7 +8613,7 @@ void __cdecl data::ByBigTeamHasFeatureTagFactory::ByBigTeamHasFeatureTagFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasFeatureTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasFeatureTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamHasFeatureTagFactory = v2;
@@ -8627,7 +8627,7 @@ void __cdecl data::ByBigTeamHasElementType::ByBigTeamHasElementType(data::ByBigT
   __int64 v3; // rsi
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8669,7 +8669,7 @@ void __cdecl data::ByBigTeamHasElementType::ByBigTeamHasElementType(
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8721,7 +8721,7 @@ void __cdecl data::ByBigTeamHasElementType::~ByBigTeamHasElementType(data::ByBig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8796,7 +8796,7 @@ void __cdecl data::ByBigTeamHasElementTypeFactory::ByBigTeamHasElementTypeFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasElementTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasElementTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamHasElementTypeFactory = v2;
@@ -8809,7 +8809,7 @@ void __cdecl data::ByBigTeamElementTypeSort::ByBigTeamElementTypeSort(data::ByBi
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8842,7 +8842,7 @@ void __cdecl data::ByBigTeamElementTypeSort::ByBigTeamElementTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8888,7 +8888,7 @@ void __cdecl data::ByBigTeamElementTypeSort::~ByBigTeamElementTypeSort(data::ByB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamElementTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamElementTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -8956,7 +8956,7 @@ void __cdecl data::ByBigTeamElementTypeSortFactory::ByBigTeamElementTypeSortFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamElementTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamElementTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamElementTypeSortFactory = v2;
@@ -8969,7 +8969,7 @@ void __cdecl data::ByBigTeamHasWeaponType::ByBigTeamHasWeaponType(data::ByBigTea
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9002,7 +9002,7 @@ void __cdecl data::ByBigTeamHasWeaponType::ByBigTeamHasWeaponType(
   char v8; // dl
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9043,7 +9043,7 @@ void __cdecl data::ByBigTeamHasWeaponType::~ByBigTeamHasWeaponType(data::ByBigTe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9119,7 +9119,7 @@ void __cdecl data::ByBigTeamHasWeaponTypeFactory::ByBigTeamHasWeaponTypeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasWeaponTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasWeaponTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamHasWeaponTypeFactory = v2;
@@ -9132,7 +9132,7 @@ void __cdecl data::ByBigTeamWeaponTypeSort::ByBigTeamWeaponTypeSort(data::ByBigT
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9165,7 +9165,7 @@ void __cdecl data::ByBigTeamWeaponTypeSort::ByBigTeamWeaponTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9211,7 +9211,7 @@ void __cdecl data::ByBigTeamWeaponTypeSort::~ByBigTeamWeaponTypeSort(data::ByBig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamWeaponTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamWeaponTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9279,7 +9279,7 @@ void __cdecl data::ByBigTeamWeaponTypeSortFactory::ByBigTeamWeaponTypeSortFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamWeaponTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamWeaponTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamWeaponTypeSortFactory = v2;
@@ -9292,7 +9292,7 @@ void __cdecl data::ByBigTeamHasBodyType::ByBigTeamHasBodyType(data::ByBigTeamHas
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9325,7 +9325,7 @@ void __cdecl data::ByBigTeamHasBodyType::ByBigTeamHasBodyType(
   char v8; // dl
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9366,7 +9366,7 @@ void __cdecl data::ByBigTeamHasBodyType::~ByBigTeamHasBodyType(data::ByBigTeamHa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasBodyType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasBodyType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9442,7 +9442,7 @@ void __cdecl data::ByBigTeamHasBodyTypeFactory::ByBigTeamHasBodyTypeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamHasBodyTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamHasBodyTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamHasBodyTypeFactory = v2;
@@ -9455,7 +9455,7 @@ void __cdecl data::ByBigTeamBodyTypeSort::ByBigTeamBodyTypeSort(data::ByBigTeamB
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9488,7 +9488,7 @@ void __cdecl data::ByBigTeamBodyTypeSort::ByBigTeamBodyTypeSort(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9527,7 +9527,7 @@ void __cdecl data::ByBigTeamBodyTypeSort::~ByBigTeamBodyTypeSort(data::ByBigTeam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamBodyTypeSort + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamBodyTypeSort + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9602,7 +9602,7 @@ void __cdecl data::ByBigTeamBodyTypeSortFactory::ByBigTeamBodyTypeSortFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByBigTeamBodyTypeSortFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByBigTeamBodyTypeSortFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByBigTeamBodyTypeSortFactory = v2;
@@ -9615,7 +9615,7 @@ void __cdecl data::ByAttackType::ByAttackType(data::ByAttackType *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9635,7 +9635,7 @@ void __cdecl data::ByAttackType::ByAttackType(data::ByAttackType *const this, co
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9660,7 +9660,7 @@ void __cdecl data::ByAttackType::~ByAttackType(data::ByAttackType *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9734,7 +9734,7 @@ void __cdecl data::ByAttackTypeFactory::ByAttackTypeFactory(data::ByAttackTypeFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByAttackTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByAttackTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByAttackTypeFactory = v2;
@@ -9749,7 +9749,7 @@ void __cdecl data::ByCompareWithTarget::ByCompareWithTarget(data::ByCompareWithT
   __int64 v4; // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCompareWithTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCompareWithTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9783,7 +9783,7 @@ void __cdecl data::ByCompareWithTarget::ByCompareWithTarget(
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCompareWithTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCompareWithTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9819,7 +9819,7 @@ void __cdecl data::ByCompareWithTarget::~ByCompareWithTarget(data::ByCompareWith
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCompareWithTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCompareWithTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9893,7 +9893,7 @@ void __cdecl data::ByCompareWithTargetFactory::ByCompareWithTargetFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCompareWithTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCompareWithTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCompareWithTargetFactory = v2;
@@ -9906,7 +9906,7 @@ void __cdecl data::ByEntityAppearVisionType::ByEntityAppearVisionType(data::ByEn
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityAppearVisionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityAppearVisionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9928,7 +9928,7 @@ void __cdecl data::ByEntityAppearVisionType::ByEntityAppearVisionType(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityAppearVisionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityAppearVisionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -9960,7 +9960,7 @@ void __cdecl data::ByEntityAppearVisionType::~ByEntityAppearVisionType(data::ByE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityAppearVisionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityAppearVisionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10028,7 +10028,7 @@ void __cdecl data::ByEntityAppearVisionTypeFactory::ByEntityAppearVisionTypeFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityAppearVisionTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityAppearVisionTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEntityAppearVisionTypeFactory = v2;
@@ -10041,7 +10041,7 @@ void __cdecl data::ByElementTriggerEntityType::ByElementTriggerEntityType(data::
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementTriggerEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementTriggerEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10062,7 +10062,7 @@ void __cdecl data::ByElementTriggerEntityType::ByElementTriggerEntityType(
   char v5; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementTriggerEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementTriggerEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10095,7 +10095,7 @@ void __cdecl data::ByElementTriggerEntityType::~ByElementTriggerEntityType(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementTriggerEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementTriggerEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10164,7 +10164,7 @@ void __cdecl data::ByElementTriggerEntityTypeFactory::ByElementTriggerEntityType
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementTriggerEntityTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementTriggerEntityTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByElementTriggerEntityTypeFactory = v2;
@@ -10178,7 +10178,7 @@ void __cdecl data::ByElementReactionSourceType::ByElementReactionSourceType(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionSourceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionSourceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10200,7 +10200,7 @@ void __cdecl data::ByElementReactionSourceType::ByElementReactionSourceType(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionSourceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionSourceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10234,7 +10234,7 @@ void __cdecl data::ByElementReactionSourceType::~ByElementReactionSourceType(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionSourceType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionSourceType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10302,7 +10302,7 @@ void __cdecl data::ByElementReactionSourceTypeFactory::ByElementReactionSourceTy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionSourceTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionSourceTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByElementReactionSourceTypeFactory = v2;
@@ -10315,7 +10315,7 @@ void __cdecl data::ByElementReactionType::ByElementReactionType(data::ByElementR
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10337,7 +10337,7 @@ void __cdecl data::ByElementReactionType::ByElementReactionType(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10362,7 +10362,7 @@ void __cdecl data::ByElementReactionType::~ByElementReactionType(data::ByElement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10437,7 +10437,7 @@ void __cdecl data::ByElementReactionTypeFactory::ByElementReactionTypeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByElementReactionTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByElementReactionTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByElementReactionTypeFactory = v2;
@@ -10450,7 +10450,7 @@ void __cdecl data::ByTargetConfigID::ByTargetConfigID(data::ByTargetConfigID *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10465,7 +10465,7 @@ void __cdecl data::ByTargetConfigID::ByTargetConfigID(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10478,7 +10478,7 @@ void __cdecl data::ByTargetConfigID::~ByTargetConfigID(data::ByTargetConfigID *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10553,7 +10553,7 @@ void __cdecl data::ByTargetConfigIDFactory::ByTargetConfigIDFactory(data::ByTarg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetConfigIDFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetConfigIDFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetConfigIDFactory = v2;
@@ -10566,7 +10566,7 @@ void __cdecl data::ByIsLocalAvatar::ByIsLocalAvatar(data::ByIsLocalAvatar *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsLocalAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsLocalAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10578,7 +10578,7 @@ void __cdecl data::ByIsLocalAvatar::ByIsLocalAvatar(data::ByIsLocalAvatar *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsLocalAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsLocalAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10590,7 +10590,7 @@ void __cdecl data::ByIsLocalAvatar::~ByIsLocalAvatar(data::ByIsLocalAvatar *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsLocalAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsLocalAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10664,7 +10664,7 @@ void __cdecl data::ByIsLocalAvatarFactory::ByIsLocalAvatarFactory(data::ByIsLoca
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsLocalAvatarFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsLocalAvatarFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsLocalAvatarFactory = v2;
@@ -10677,7 +10677,7 @@ void __cdecl data::ByTargetGadgetState::ByTargetGadgetState(data::ByTargetGadget
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10699,7 +10699,7 @@ void __cdecl data::ByTargetGadgetState::ByTargetGadgetState(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10731,7 +10731,7 @@ void __cdecl data::ByTargetGadgetState::~ByTargetGadgetState(data::ByTargetGadge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10798,7 +10798,7 @@ void __cdecl data::ByTargetGadgetStateFactory::ByTargetGadgetStateFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetGadgetStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetGadgetStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetGadgetStateFactory = v2;
@@ -10811,7 +10811,7 @@ void __cdecl data::ByDieStateFlag::ByDieStateFlag(data::ByDieStateFlag *const th
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByDieStateFlag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDieStateFlag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10831,7 +10831,7 @@ void __cdecl data::ByDieStateFlag::ByDieStateFlag(data::ByDieStateFlag *const th
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByDieStateFlag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDieStateFlag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10856,7 +10856,7 @@ void __cdecl data::ByDieStateFlag::~ByDieStateFlag(data::ByDieStateFlag *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByDieStateFlag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDieStateFlag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10930,7 +10930,7 @@ void __cdecl data::ByDieStateFlagFactory::ByDieStateFlagFactory(data::ByDieState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByDieStateFlagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDieStateFlagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByDieStateFlagFactory = v2;
@@ -10945,7 +10945,7 @@ void __cdecl data::ByHasShield::ByHasShield(data::ByHasShield *const this)
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShield + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShield + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -10985,7 +10985,7 @@ void __cdecl data::ByHasShield::ByHasShield(data::ByHasShield *const this, const
 
   v12 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShield + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShield + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11034,7 +11034,7 @@ void __cdecl data::ByHasShield::~ByHasShield(data::ByHasShield *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShield + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShield + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11109,7 +11109,7 @@ void __cdecl data::ByHasShieldV2::ByHasShieldV2(data::ByHasShieldV2 *const this)
   int (**v2)(...); // rdx
 
   data::ByHasShield::ByHasShield(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11121,7 +11121,7 @@ void __cdecl data::ByHasShieldV2::ByHasShieldV2(data::ByHasShieldV2 *const this,
   int (**v2)(...); // rdx
 
   data::ByHasShield::ByHasShield(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11133,7 +11133,7 @@ void __cdecl data::ByHasShieldV2::~ByHasShieldV2(data::ByHasShieldV2 *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11207,7 +11207,7 @@ void __cdecl data::ByHasShieldV2Factory::ByHasShieldV2Factory(data::ByHasShieldV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldV2Factory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldV2Factory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasShieldV2Factory = v2;
@@ -11222,7 +11222,7 @@ void __cdecl data::ByHasShieldBar::ByHasShieldBar(data::ByHasShieldBar *const th
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldBar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldBar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11254,7 +11254,7 @@ void __cdecl data::ByHasShieldBar::ByHasShieldBar(data::ByHasShieldBar *const th
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldBar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldBar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11290,7 +11290,7 @@ void __cdecl data::ByHasShieldBar::~ByHasShieldBar(data::ByHasShieldBar *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldBar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldBar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11364,7 +11364,7 @@ void __cdecl data::ByHasShieldBarFactory::ByHasShieldBarFactory(data::ByHasShiel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasShieldBarFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasShieldBarFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasShieldBarFactory = v2;
@@ -11377,7 +11377,7 @@ void __cdecl data::ByGlobalPosToGround::ByGlobalPosToGround(data::ByGlobalPosToG
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11399,7 +11399,7 @@ void __cdecl data::ByGlobalPosToGround::ByGlobalPosToGround(
   char v5; // al
 
   data::RelationalOperationPredicate::RelationalOperationPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11431,7 +11431,7 @@ void __cdecl data::ByGlobalPosToGround::~ByGlobalPosToGround(data::ByGlobalPosTo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11500,7 +11500,7 @@ void __cdecl data::ByGlobalPosToGroundFactory::ByGlobalPosToGroundFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGroundFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGroundFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByGlobalPosToGroundFactory = v2;
@@ -11513,7 +11513,7 @@ void __cdecl data::ByEquipAffixReady::ByEquipAffixReady(data::ByEquipAffixReady 
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEquipAffixReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEquipAffixReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11535,7 +11535,7 @@ void __cdecl data::ByEquipAffixReady::ByEquipAffixReady(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEquipAffixReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEquipAffixReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11560,7 +11560,7 @@ void __cdecl data::ByEquipAffixReady::~ByEquipAffixReady(data::ByEquipAffixReady
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEquipAffixReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEquipAffixReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11634,7 +11634,7 @@ void __cdecl data::ByEquipAffixReadyFactory::ByEquipAffixReadyFactory(data::ByEq
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEquipAffixReadyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEquipAffixReadyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEquipAffixReadyFactory = v2;
@@ -11647,7 +11647,7 @@ void __cdecl data::ByTargetInArea::ByTargetInArea(data::ByTargetInArea *const th
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11670,7 +11670,7 @@ void __cdecl data::ByTargetInArea::ByTargetInArea(data::ByTargetInArea *const th
 
   v5 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11703,7 +11703,7 @@ void __cdecl data::ByTargetInArea::~ByTargetInArea(data::ByTargetInArea *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11771,7 +11771,7 @@ void __cdecl data::ByTargetInAreaFactory::ByTargetInAreaFactory(data::ByTargetIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetInAreaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetInAreaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetInAreaFactory = v2;
@@ -11784,7 +11784,7 @@ void __cdecl data::ByIsTargetCamp::ByIsTargetCamp(data::ByIsTargetCamp *const th
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsTargetCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsTargetCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11815,7 +11815,7 @@ void __cdecl data::ByIsTargetCamp::ByIsTargetCamp(data::ByIsTargetCamp *const th
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsTargetCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsTargetCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11854,7 +11854,7 @@ void __cdecl data::ByIsTargetCamp::~ByIsTargetCamp(data::ByIsTargetCamp *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsTargetCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsTargetCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11928,7 +11928,7 @@ void __cdecl data::ByIsTargetCampFactory::ByIsTargetCampFactory(data::ByIsTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsTargetCampFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsTargetCampFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsTargetCampFactory = v2;
@@ -11944,7 +11944,7 @@ void __cdecl data::ByHasChildGadget::ByHasChildGadget(data::ByHasChildGadget *co
   __int64 v5; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasChildGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasChildGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -11993,7 +11993,7 @@ void __cdecl data::ByHasChildGadget::ByHasChildGadget(
   __int64 v15; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasChildGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasChildGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12053,7 +12053,7 @@ void __cdecl data::ByHasChildGadget::~ByHasChildGadget(data::ByHasChildGadget *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasChildGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasChildGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12128,7 +12128,7 @@ void __cdecl data::ByHasChildGadgetFactory::ByHasChildGadgetFactory(data::ByHasC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasChildGadgetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasChildGadgetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasChildGadgetFactory = v2;
@@ -12142,7 +12142,7 @@ void __cdecl data::ByTargetLayoutArea::ByTargetLayoutArea(data::ByTargetLayoutAr
   __int64 v3; // rsi
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetLayoutArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetLayoutArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12184,7 +12184,7 @@ void __cdecl data::ByTargetLayoutArea::ByTargetLayoutArea(
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetLayoutArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetLayoutArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12243,7 +12243,7 @@ void __cdecl data::ByTargetLayoutArea::~ByTargetLayoutArea(data::ByTargetLayoutA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetLayoutArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetLayoutArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12310,7 +12310,7 @@ void __cdecl data::ByTargetLayoutAreaFactory::ByTargetLayoutAreaFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetLayoutAreaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetLayoutAreaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetLayoutAreaFactory = v2;
@@ -12323,7 +12323,7 @@ void __cdecl data::ByPlayerClimateType::ByPlayerClimateType(data::ByPlayerClimat
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByPlayerClimateType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByPlayerClimateType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12345,7 +12345,7 @@ void __cdecl data::ByPlayerClimateType::ByPlayerClimateType(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByPlayerClimateType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByPlayerClimateType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12370,7 +12370,7 @@ void __cdecl data::ByPlayerClimateType::~ByPlayerClimateType(data::ByPlayerClima
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByPlayerClimateType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByPlayerClimateType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12444,7 +12444,7 @@ void __cdecl data::ByPlayerClimateTypeFactory::ByPlayerClimateTypeFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByPlayerClimateTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByPlayerClimateTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByPlayerClimateTypeFactory = v2;
@@ -12457,7 +12457,7 @@ void __cdecl data::ByTargetWeatherName::ByTargetWeatherName(data::ByTargetWeathe
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeatherName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeatherName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12472,7 +12472,7 @@ void __cdecl data::ByTargetWeatherName::ByTargetWeatherName(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeatherName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeatherName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12485,7 +12485,7 @@ void __cdecl data::ByTargetWeatherName::~ByTargetWeatherName(data::ByTargetWeath
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeatherName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeatherName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12560,7 +12560,7 @@ void __cdecl data::ByTargetWeatherNameFactory::ByTargetWeatherNameFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetWeatherNameFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetWeatherNameFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetWeatherNameFactory = v2;
@@ -12573,7 +12573,7 @@ void __cdecl data::ByIsGadgetExistAround::ByIsGadgetExistAround(data::ByIsGadget
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsGadgetExistAround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsGadgetExistAround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12594,7 +12594,7 @@ void __cdecl data::ByIsGadgetExistAround::ByIsGadgetExistAround(
   char v5; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsGadgetExistAround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsGadgetExistAround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12618,7 +12618,7 @@ void __cdecl data::ByIsGadgetExistAround::~ByIsGadgetExistAround(data::ByIsGadge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsGadgetExistAround + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsGadgetExistAround + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12694,7 +12694,7 @@ void __cdecl data::ByIsGadgetExistAroundFactory::ByIsGadgetExistAroundFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsGadgetExistAroundFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsGadgetExistAroundFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsGadgetExistAroundFactory = v2;
@@ -12707,7 +12707,7 @@ void __cdecl data::ByEntityIsAlive::ByEntityIsAlive(data::ByEntityIsAlive *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityIsAlive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityIsAlive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12719,7 +12719,7 @@ void __cdecl data::ByEntityIsAlive::ByEntityIsAlive(data::ByEntityIsAlive *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityIsAlive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityIsAlive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12738,7 +12738,7 @@ void __cdecl data::ByEntityIsAlive::~ByEntityIsAlive(data::ByEntityIsAlive *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityIsAlive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityIsAlive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12805,7 +12805,7 @@ void __cdecl data::ByEntityIsAliveFactory::ByEntityIsAliveFactory(data::ByEntity
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByEntityIsAliveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByEntityIsAliveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByEntityIsAliveFactory = v2;
@@ -12820,7 +12820,7 @@ void __cdecl data::ByMonsterAirState::ByMonsterAirState(data::ByMonsterAirState 
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByMonsterAirState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByMonsterAirState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12846,7 +12846,7 @@ void __cdecl data::ByMonsterAirState::ByMonsterAirState(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByMonsterAirState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByMonsterAirState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12876,7 +12876,7 @@ void __cdecl data::ByMonsterAirState::~ByMonsterAirState(data::ByMonsterAirState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByMonsterAirState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByMonsterAirState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12943,7 +12943,7 @@ void __cdecl data::ByMonsterAirStateFactory::ByMonsterAirStateFactory(data::ByMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByMonsterAirStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByMonsterAirStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByMonsterAirStateFactory = v2;
@@ -12958,7 +12958,7 @@ void __cdecl data::ByGameTimeIsLocked::ByGameTimeIsLocked(data::ByGameTimeIsLock
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByGameTimeIsLocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGameTimeIsLocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -12984,7 +12984,7 @@ void __cdecl data::ByGameTimeIsLocked::ByGameTimeIsLocked(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByGameTimeIsLocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGameTimeIsLocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13007,7 +13007,7 @@ void __cdecl data::ByGameTimeIsLocked::~ByGameTimeIsLocked(data::ByGameTimeIsLoc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGameTimeIsLocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGameTimeIsLocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13081,7 +13081,7 @@ void __cdecl data::ByGameTimeIsLockedFactory::ByGameTimeIsLockedFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGameTimeIsLockedFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGameTimeIsLockedFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByGameTimeIsLockedFactory = v2;
@@ -13096,7 +13096,7 @@ void __cdecl data::ByTargetIsCaster::ByTargetIsCaster(data::ByTargetIsCaster *co
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsCaster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsCaster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13122,7 +13122,7 @@ void __cdecl data::ByTargetIsCaster::ByTargetIsCaster(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsCaster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsCaster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13152,7 +13152,7 @@ void __cdecl data::ByTargetIsCaster::~ByTargetIsCaster(data::ByTargetIsCaster *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsCaster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsCaster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13219,7 +13219,7 @@ void __cdecl data::ByTargetIsCasterFactory::ByTargetIsCasterFactory(data::ByTarg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetIsCasterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetIsCasterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetIsCasterFactory = v2;
@@ -13235,7 +13235,7 @@ void __cdecl data::ByHitElementDurability::ByHitElementDurability(data::ByHitEle
   __int64 v5; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElementDurability + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElementDurability + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13286,7 +13286,7 @@ void __cdecl data::ByHitElementDurability::ByHitElementDurability(
 
   v14 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElementDurability + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElementDurability + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13348,7 +13348,7 @@ void __cdecl data::ByHitElementDurability::~ByHitElementDurability(data::ByHitEl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElementDurability + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElementDurability + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13423,7 +13423,7 @@ void __cdecl data::ByHitElementDurabilityFactory::ByHitElementDurabilityFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitElementDurabilityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitElementDurabilityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitElementDurabilityFactory = v2;
@@ -13436,7 +13436,7 @@ void __cdecl data::ByHasTag::ByHasTag(data::ByHasTag *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13449,7 +13449,7 @@ void __cdecl data::ByHasTag::ByHasTag(data::ByHasTag *const this, const data::By
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13462,7 +13462,7 @@ void __cdecl data::ByHasTag::~ByHasTag(data::ByHasTag *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13537,7 +13537,7 @@ void __cdecl data::ByHasTagFactory::ByHasTagFactory(data::ByHasTagFactory *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasTagFactory = v2;
@@ -13550,7 +13550,7 @@ void __cdecl data::ByHasLevelTag::ByHasLevelTag(data::ByHasLevelTag *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasLevelTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasLevelTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13572,7 +13572,7 @@ void __cdecl data::ByHasLevelTag::ByHasLevelTag(data::ByHasLevelTag *const this,
   char v5; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasLevelTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasLevelTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13606,7 +13606,7 @@ void __cdecl data::ByHasLevelTag::~ByHasLevelTag(data::ByHasLevelTag *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasLevelTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasLevelTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13674,7 +13674,7 @@ void __cdecl data::ByHasLevelTagFactory::ByHasLevelTagFactory(data::ByHasLevelTa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasLevelTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasLevelTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasLevelTagFactory = v2;
@@ -13687,7 +13687,7 @@ void __cdecl data::ByCurrentSceneTypes::ByCurrentSceneTypes(data::ByCurrentScene
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13702,7 +13702,7 @@ void __cdecl data::ByCurrentSceneTypes::ByCurrentSceneTypes(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13715,7 +13715,7 @@ void __cdecl data::ByCurrentSceneTypes::~ByCurrentSceneTypes(data::ByCurrentScen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneTypes + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneTypes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13790,7 +13790,7 @@ void __cdecl data::ByCurrentSceneTypesFactory::ByCurrentSceneTypesFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneTypesFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneTypesFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurrentSceneTypesFactory = v2;
@@ -13805,7 +13805,7 @@ void __cdecl data::ByTargetType::ByTargetType(data::ByTargetType *const this)
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13837,7 +13837,7 @@ void __cdecl data::ByTargetType::ByTargetType(data::ByTargetType *const this, co
 
   v10 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13873,7 +13873,7 @@ void __cdecl data::ByTargetType::~ByTargetType(data::ByTargetType *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13947,7 +13947,7 @@ void __cdecl data::ByTargetTypeFactory::ByTargetTypeFactory(data::ByTargetTypeFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetTypeFactory = v2;
@@ -13960,7 +13960,7 @@ void __cdecl data::ByCurrentSceneId::ByCurrentSceneId(data::ByCurrentSceneId *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneId + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneId + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13975,7 +13975,7 @@ void __cdecl data::ByCurrentSceneId::ByCurrentSceneId(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneId + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneId + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -13988,7 +13988,7 @@ void __cdecl data::ByCurrentSceneId::~ByCurrentSceneId(data::ByCurrentSceneId *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneId + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneId + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14063,7 +14063,7 @@ void __cdecl data::ByCurrentSceneIdFactory::ByCurrentSceneIdFactory(data::ByCurr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByCurrentSceneIdFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByCurrentSceneIdFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByCurrentSceneIdFactory = v2;
@@ -14076,7 +14076,7 @@ void __cdecl data::ByTargetChargeValue::ByTargetChargeValue(data::ByTargetCharge
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetChargeValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetChargeValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14111,7 +14111,7 @@ void __cdecl data::ByTargetChargeValue::ByTargetChargeValue(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetChargeValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetChargeValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14159,7 +14159,7 @@ void __cdecl data::ByTargetChargeValue::~ByTargetChargeValue(data::ByTargetCharg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetChargeValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetChargeValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14228,7 +14228,7 @@ void __cdecl data::ByTargetChargeValueFactory::ByTargetChargeValueFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetChargeValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetChargeValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetChargeValueFactory = v2;
@@ -14241,7 +14241,7 @@ void __cdecl data::ByHasModifier::ByHasModifier(data::ByHasModifier *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasModifier + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14254,7 +14254,7 @@ void __cdecl data::ByHasModifier::ByHasModifier(data::ByHasModifier *const this,
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHasModifier + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14274,7 +14274,7 @@ void __cdecl data::ByHasModifier::~ByHasModifier(data::ByHasModifier *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasModifier + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14342,7 +14342,7 @@ void __cdecl data::ByHasModifierFactory::ByHasModifierFactory(data::ByHasModifie
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHasModifierFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHasModifierFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHasModifierFactory = v2;
@@ -14357,7 +14357,7 @@ void __cdecl data::ByFindBlinkPointSuccess::ByFindBlinkPointSuccess(data::ByFind
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByFindBlinkPointSuccess + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFindBlinkPointSuccess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14383,7 +14383,7 @@ void __cdecl data::ByFindBlinkPointSuccess::ByFindBlinkPointSuccess(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByFindBlinkPointSuccess + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFindBlinkPointSuccess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14406,7 +14406,7 @@ void __cdecl data::ByFindBlinkPointSuccess::~ByFindBlinkPointSuccess(data::ByFin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByFindBlinkPointSuccess + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFindBlinkPointSuccess + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14481,7 +14481,7 @@ void __cdecl data::ByFindBlinkPointSuccessFactory::ByFindBlinkPointSuccessFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByFindBlinkPointSuccessFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFindBlinkPointSuccessFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByFindBlinkPointSuccessFactory = v2;
@@ -14502,7 +14502,7 @@ void __cdecl data::ByFollowTargetValid::ByFollowTargetValid(data::ByFollowTarget
   __int64 v10; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByFollowTargetValid + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFollowTargetValid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14563,7 +14563,7 @@ void __cdecl data::ByFollowTargetValid::ByFollowTargetValid(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByFollowTargetValid + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFollowTargetValid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14636,7 +14636,7 @@ void __cdecl data::ByFollowTargetValid::~ByFollowTargetValid(data::ByFollowTarge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByFollowTargetValid + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFollowTargetValid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14703,7 +14703,7 @@ void __cdecl data::ByFollowTargetValidFactory::ByFollowTargetValidFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByFollowTargetValidFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByFollowTargetValidFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByFollowTargetValidFactory = v2;
@@ -14716,7 +14716,7 @@ void __cdecl data::ByWidgetExCDReady::ByWidgetExCDReady(data::ByWidgetExCDReady 
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByWidgetExCDReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWidgetExCDReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14738,7 +14738,7 @@ void __cdecl data::ByWidgetExCDReady::ByWidgetExCDReady(
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByWidgetExCDReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWidgetExCDReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14770,7 +14770,7 @@ void __cdecl data::ByWidgetExCDReady::~ByWidgetExCDReady(data::ByWidgetExCDReady
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByWidgetExCDReady + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWidgetExCDReady + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14837,7 +14837,7 @@ void __cdecl data::ByWidgetExCDReadyFactory::ByWidgetExCDReadyFactory(data::ByWi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByWidgetExCDReadyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByWidgetExCDReadyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByWidgetExCDReadyFactory = v2;
@@ -14850,7 +14850,7 @@ void __cdecl data::ByHaveMoveInput::ByHaveMoveInput(data::ByHaveMoveInput *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHaveMoveInput + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHaveMoveInput + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14862,7 +14862,7 @@ void __cdecl data::ByHaveMoveInput::ByHaveMoveInput(data::ByHaveMoveInput *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHaveMoveInput + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHaveMoveInput + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14881,7 +14881,7 @@ void __cdecl data::ByHaveMoveInput::~ByHaveMoveInput(data::ByHaveMoveInput *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHaveMoveInput + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHaveMoveInput + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14948,7 +14948,7 @@ void __cdecl data::ByHaveMoveInputFactory::ByHaveMoveInputFactory(data::ByHaveMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHaveMoveInputFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHaveMoveInputFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHaveMoveInputFactory = v2;
@@ -14961,7 +14961,7 @@ void __cdecl data::ByTargetSkillPoint::ByTargetSkillPoint(data::ByTargetSkillPoi
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetSkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetSkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -14995,7 +14995,7 @@ void __cdecl data::ByTargetSkillPoint::ByTargetSkillPoint(
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetSkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetSkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15035,7 +15035,7 @@ void __cdecl data::ByTargetSkillPoint::~ByTargetSkillPoint(data::ByTargetSkillPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetSkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetSkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15110,7 +15110,7 @@ void __cdecl data::ByTargetSkillPointFactory::ByTargetSkillPointFactory(data::By
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetSkillPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetSkillPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetSkillPointFactory = v2;
@@ -15123,7 +15123,7 @@ void __cdecl data::ByDungeonSettled::ByDungeonSettled(data::ByDungeonSettled *co
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByDungeonSettled + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDungeonSettled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15137,7 +15137,7 @@ void __cdecl data::ByDungeonSettled::ByDungeonSettled(
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByDungeonSettled + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDungeonSettled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15156,7 +15156,7 @@ void __cdecl data::ByDungeonSettled::~ByDungeonSettled(data::ByDungeonSettled *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByDungeonSettled + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDungeonSettled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15223,7 +15223,7 @@ void __cdecl data::ByDungeonSettledFactory::ByDungeonSettledFactory(data::ByDung
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByDungeonSettledFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByDungeonSettledFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByDungeonSettledFactory = v2;
@@ -15236,7 +15236,7 @@ void __cdecl data::BySceneLoaded::BySceneLoaded(data::BySceneLoaded *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::BySceneLoaded + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneLoaded + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15248,7 +15248,7 @@ void __cdecl data::BySceneLoaded::BySceneLoaded(data::BySceneLoaded *const this,
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BySceneLoaded + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneLoaded + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15267,7 +15267,7 @@ void __cdecl data::BySceneLoaded::~BySceneLoaded(data::BySceneLoaded *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySceneLoaded + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneLoaded + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15334,7 +15334,7 @@ void __cdecl data::BySceneLoadedFactory::BySceneLoadedFactory(data::BySceneLoade
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BySceneLoadedFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BySceneLoadedFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BySceneLoadedFactory = v2;
@@ -15347,7 +15347,7 @@ void __cdecl data::ByRaycast::ByRaycast(data::ByRaycast *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByRaycast + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByRaycast + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15379,7 +15379,7 @@ void __cdecl data::ByRaycast::ByRaycast(data::ByRaycast *const this, const data:
 
   v8 = a2;
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByRaycast + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByRaycast + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15426,7 +15426,7 @@ void __cdecl data::ByRaycast::~ByRaycast(data::ByRaycast *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByRaycast + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByRaycast + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15494,7 +15494,7 @@ void __cdecl data::ByRaycastFactory::ByRaycastFactory(data::ByRaycastFactory *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByRaycastFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByRaycastFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByRaycastFactory = v2;
@@ -15509,7 +15509,7 @@ void __cdecl data::ByTrampolineType::ByTrampolineType(data::ByTrampolineType *co
   __int64 v4; // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate((data::ConfigAbilityPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTrampolineType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTrampolineType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15535,7 +15535,7 @@ void __cdecl data::ByTrampolineType::ByTrampolineType(
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(
     (data::ConfigAbilityPredicate *const)this,
     (const data::ConfigAbilityPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTrampolineType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTrampolineType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15558,7 +15558,7 @@ void __cdecl data::ByTrampolineType::~ByTrampolineType(data::ByTrampolineType *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTrampolineType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTrampolineType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15632,7 +15632,7 @@ void __cdecl data::ByTrampolineTypeFactory::ByTrampolineTypeFactory(data::ByTram
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTrampolineTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTrampolineTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTrampolineTypeFactory = v2;
@@ -15645,7 +15645,7 @@ void __cdecl data::ByIsInReconnect::ByIsInReconnect(data::ByIsInReconnect *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsInReconnect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsInReconnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15657,7 +15657,7 @@ void __cdecl data::ByIsInReconnect::ByIsInReconnect(data::ByIsInReconnect *const
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByIsInReconnect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsInReconnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15669,7 +15669,7 @@ void __cdecl data::ByIsInReconnect::~ByIsInReconnect(data::ByIsInReconnect *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsInReconnect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsInReconnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15743,7 +15743,7 @@ void __cdecl data::ByIsInReconnectFactory::ByIsInReconnectFactory(data::ByIsInRe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByIsInReconnectFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByIsInReconnectFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByIsInReconnectFactory = v2;
@@ -15756,7 +15756,7 @@ void __cdecl data::ByInputDevice::ByInputDevice(data::ByInputDevice *const this)
   int (**v2)(...); // rdx
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this);
-  v2 = (int (**)(...))(&`vtable for'data::ByInputDevice + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByInputDevice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15776,7 +15776,7 @@ void __cdecl data::ByInputDevice::ByInputDevice(data::ByInputDevice *const this,
   char v4; // al
 
   data::ConfigAbilityPredicate::ConfigAbilityPredicate(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByInputDevice + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByInputDevice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15808,7 +15808,7 @@ void __cdecl data::ByInputDevice::~ByInputDevice(data::ByInputDevice *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByInputDevice + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByInputDevice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15875,7 +15875,7 @@ void __cdecl data::ByInputDeviceFactory::ByInputDeviceFactory(data::ByInputDevic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByInputDeviceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByInputDeviceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByInputDeviceFactory = v2;
@@ -15888,7 +15888,7 @@ void __cdecl data::ByHitLevel::ByHitLevel(data::ByHitLevel *const this)
   int (**v2)(...); // rdx
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15911,7 +15911,7 @@ void __cdecl data::ByHitLevel::ByHitLevel(data::ByHitLevel *const this, const da
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByHitLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -15937,7 +15937,7 @@ void __cdecl data::ByHitLevel::~ByHitLevel(data::ByHitLevel *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16011,7 +16011,7 @@ void __cdecl data::ByHitLevelFactory::ByHitLevelFactory(data::ByHitLevelFactory 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByHitLevelFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByHitLevelFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByHitLevelFactory = v2;
@@ -16026,7 +16026,7 @@ void __cdecl data::ByTargetPosToGlobalPosDistance::ByTargetPosToGlobalPosDistanc
   __int64 v3; // rsi
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16060,7 +16060,7 @@ void __cdecl data::ByTargetPosToGlobalPosDistance::ByTargetPosToGlobalPosDistanc
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16108,7 +16108,7 @@ void __cdecl data::ByTargetPosToGlobalPosDistance::~ByTargetPosToGlobalPosDistan
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16180,7 +16180,7 @@ void __cdecl data::ByTargetPosToGlobalPosDistanceFactory::ByTargetPosToGlobalPos
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByTargetPosToGlobalPosDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByTargetPosToGlobalPosDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByTargetPosToGlobalPosDistanceFactory = v2;
@@ -16195,7 +16195,7 @@ void __cdecl data::ByGlobalPosToGlobalPosDistance::ByGlobalPosToGlobalPosDistanc
   __int64 v3; // rsi
 
   data::RelationalOperationPredicate::RelationalOperationPredicate((data::RelationalOperationPredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16236,7 +16236,7 @@ void __cdecl data::ByGlobalPosToGlobalPosDistance::ByGlobalPosToGlobalPosDistanc
   data::RelationalOperationPredicate::RelationalOperationPredicate(
     (data::RelationalOperationPredicate *const)this,
     (const data::RelationalOperationPredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16288,7 +16288,7 @@ void __cdecl data::ByGlobalPosToGlobalPosDistance::~ByGlobalPosToGlobalPosDistan
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGlobalPosDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGlobalPosDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityPredicate = v2;
@@ -16369,7 +16369,7 @@ void __cdecl data::ByGlobalPosToGlobalPosDistanceFactory::ByGlobalPosToGlobalPos
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ByGlobalPosToGlobalPosDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ByGlobalPosToGlobalPosDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ByGlobalPosToGlobalPosDistanceFactory = v2;

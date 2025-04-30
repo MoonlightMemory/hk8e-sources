@@ -5,7 +5,7 @@ void __cdecl BaseSwitch::~BaseSwitch(BaseSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BaseSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for BaseSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -47,7 +47,7 @@ void __cdecl BaseSwitch::BaseSwitch(BaseSwitch *const this, uint32_t type)
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseSwitch + 2);
+  v2 = (int (**)(...))(&`vtable for BaseSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v2;

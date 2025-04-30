@@ -1777,7 +1777,7 @@ LABEL_30:
     v16 = __asan_report_store8(v12, this);
     goto LABEL_31;
   }
-  *v12 = (int (*)(...))(&`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *v12 = (int (*)(...))(&`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                       + 2);
   v16 = (__int64)(v12 + 2);
   if ( *(_BYTE *)(((unsigned __int64)(v12 + 2) >> 3) + 0x7FFF8000) )
@@ -1921,7 +1921,7 @@ LABEL_30:
     v17 = __asan_report_store8(v13, this);
     goto LABEL_31;
   }
-  *v13 = (int (*)(...))(&`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *v13 = (int (*)(...))(&`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                       + 2);
   v17 = (__int64)(v13 + 2);
   if ( *(_BYTE *)(((unsigned __int64)(v13 + 2) >> 3) + 0x7FFF8000) )
@@ -2336,7 +2336,7 @@ LABEL_45:
     v15 = __asan_report_store8(v11, this);
     goto LABEL_46;
   }
-  *(_QWORD *)v11 = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v11 = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v15 = v11 + 16;
   if ( *(_BYTE *)(((v11 + 16) >> 3) + 0x7FFF8000) )

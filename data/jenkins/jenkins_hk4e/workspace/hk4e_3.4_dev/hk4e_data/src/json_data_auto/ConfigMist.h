@@ -13,7 +13,7 @@ void __cdecl data::ConfigMist::ConfigMist(data::ConfigMist *const this)
   __int64 v8; // rdx
 
   std::enable_shared_from_this<data::ConfigMist>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMist>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMist + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMist + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -85,7 +85,7 @@ void __cdecl data::ConfigMist::ConfigMist(data::ConfigMist *const this, const da
   std::enable_shared_from_this<data::ConfigMist>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMist>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMist + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMist + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMist = v3;
@@ -178,7 +178,7 @@ void __cdecl data::ConfigMist::~ConfigMist(data::ConfigMist *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMist + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMist + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -251,7 +251,7 @@ void __cdecl data::ConfigErosionArea::ConfigErosionArea(data::ConfigErosionArea 
   __int64 v4; // rdx
 
   data::ConfigMist::ConfigMist((data::ConfigMist *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigErosionArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigErosionArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -283,7 +283,7 @@ void __cdecl data::ConfigErosionArea::ConfigErosionArea(
   char v9; // al
 
   data::ConfigMist::ConfigMist((data::ConfigMist *const)this, (const data::ConfigMist *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigErosionArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigErosionArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMist = v2;
@@ -326,7 +326,7 @@ void __cdecl data::ConfigErosionArea::~ConfigErosionArea(data::ConfigErosionArea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigErosionArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigErosionArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -393,7 +393,7 @@ void __cdecl data::ConfigErosionAreaFactory::ConfigErosionAreaFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigErosionAreaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigErosionAreaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigErosionAreaFactory = v2;
@@ -406,7 +406,7 @@ void __cdecl data::ConfigLevelTagArea::ConfigLevelTagArea(data::ConfigLevelTagAr
   int (**v2)(...); // rdx
 
   data::ConfigMist::ConfigMist(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigLevelTagArea::ConfigLevelTagArea(
   int (**v2)(...); // rdx
 
   data::ConfigMist::ConfigMist(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMist = v2;
@@ -432,7 +432,7 @@ void __cdecl data::ConfigLevelTagArea::~ConfigLevelTagArea(data::ConfigLevelTagA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -506,7 +506,7 @@ void __cdecl data::ConfigLevelTagAreaFactory::ConfigLevelTagAreaFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagAreaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagAreaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelTagAreaFactory = v2;
@@ -519,7 +519,7 @@ void __cdecl data::ConfigLevelTagAreaV2::ConfigLevelTagAreaV2(data::ConfigLevelT
   int (**v2)(...); // rdx
 
   data::ConfigMist::ConfigMist(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagAreaV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagAreaV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -533,7 +533,7 @@ void __cdecl data::ConfigLevelTagAreaV2::ConfigLevelTagAreaV2(
   int (**v2)(...); // rdx
 
   data::ConfigMist::ConfigMist(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagAreaV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagAreaV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMist = v2;
@@ -545,7 +545,7 @@ void __cdecl data::ConfigLevelTagAreaV2::~ConfigLevelTagAreaV2(data::ConfigLevel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagAreaV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagAreaV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMist = v2;
@@ -620,7 +620,7 @@ void __cdecl data::ConfigLevelTagAreaV2Factory::ConfigLevelTagAreaV2Factory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelTagAreaV2Factory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelTagAreaV2Factory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelTagAreaV2Factory = v2;

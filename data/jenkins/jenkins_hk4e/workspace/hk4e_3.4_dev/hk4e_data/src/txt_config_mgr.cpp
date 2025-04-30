@@ -8475,7 +8475,7 @@ std::pair<int,data::OptionalLimitConfig> *__cdecl TxtConfigMgr::makeOptionalLimi
   if ( *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) <= 3 )
     __asan_report_store4(v2 + 48, optional_limit_config_str);
   *(_DWORD *)(v2 + 48) = 0;
-  v5 = &`vtable for'data::OptionalLimitConfig + 2;
+  v5 = &`vtable for data::OptionalLimitConfig + 2;
   if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) )
     __asan_report_store8(v2 + 64, optional_limit_config_str);
   *(_QWORD *)(v2 + 64) = v5;

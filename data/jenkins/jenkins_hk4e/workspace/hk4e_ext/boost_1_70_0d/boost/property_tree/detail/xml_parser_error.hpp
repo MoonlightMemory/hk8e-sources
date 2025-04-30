@@ -8,7 +8,7 @@ void __cdecl boost::property_tree::xml_parser::xml_parser_error::xml_parser_erro
   __int64 *v2; // rdx
 
   boost::property_tree::file_parser_error::file_parser_error(this, a2);
-  v2 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+  v2 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -20,7 +20,7 @@ void __cdecl boost::property_tree::xml_parser::xml_parser_error::~xml_parser_err
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+  v1 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -45,7 +45,7 @@ void __cdecl boost::property_tree::xml_parser::xml_parser_error::xml_parser_erro
   __int64 *v4; // rdx
 
   boost::property_tree::file_parser_error::file_parser_error(this, msg, file, l);
-  v4 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+  v4 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;

@@ -116,17 +116,17 @@ void __fastcall boost::beast::http::parser<false,boost::beast::http::basic_strin
   boost::beast::http::basic_fields<std::allocator<char>>::insert(&this->m_, name, v10, (unsigned __int64)&valuea);
   if ( valuea.os_.m_initialized )
   {
-    *(_QWORD *)valuea.os_.m_storage.dummy_.data = (char *)&`vtable for'boost::beast::detail::static_ostream + 24;
-    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'boost::beast::detail::static_ostream
+    *(_QWORD *)valuea.os_.m_storage.dummy_.data = (char *)&`vtable for boost::beast::detail::static_ostream + 24;
+    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for boost::beast::detail::static_ostream
                                                             + 64;
-    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for'boost::beast::detail::static_ostream_buffer
+    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for boost::beast::detail::static_ostream_buffer
                                                            + 2;
     if ( *((boost::beast::string_param **)&valuea.os_.m_storage.dummy_.aligner_ + 12) != (boost::beast::string_param *)(&valuea.os_.m_storage.dummy_.aligner_ + 14) )
       operator delete(*((void **)&valuea.os_.m_storage.dummy_.aligner_ + 12));
-    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for'std::streambuf + 16;
+    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)&valuea.os_.m_storage.dummy_.aligner_ + 8);
     *(_QWORD *)valuea.os_.m_storage.dummy_.data = &unk_1E968FD0;
-    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'std::ios + 16;
+    *((_QWORD *)&valuea.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for std::ios + 16;
     std::ios_base::~ios_base((std::ios_base *)(&valuea.os_.m_storage.dummy_.aligner_ + 16));
   }
   if ( v13 == (char *)v8 )

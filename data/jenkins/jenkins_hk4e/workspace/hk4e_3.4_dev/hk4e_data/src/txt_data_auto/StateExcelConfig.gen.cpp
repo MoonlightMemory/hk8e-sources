@@ -475,7 +475,7 @@ int32_t __cdecl data::StateExcelConfigMgrBase::loadElementStateExcelConfig(
         v13 = *(unsigned int *)(v3 + 64);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1168), v13);
         *(_WORD *)(((v3 + 224) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ElementStateExcelConfig + 2;
+        v14 = &`vtable for data::ElementStateExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 224) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 224, v13);
         *(_QWORD *)(v3 + 224) = v14;

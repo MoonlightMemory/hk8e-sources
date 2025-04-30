@@ -688,7 +688,7 @@ LABEL_196:
                                                                                                                   v71 = *(_QWORD *)(v7 + 96);
                                                                                                                   if ( !v71 )
                                                                                                                   {
-                                                                                                                    *(_QWORD *)(v7 + 64) = &`vtable for'boost::asio::bad_executor + 2;
+                                                                                                                    *(_QWORD *)(v7 + 64) = &`vtable for boost::asio::bad_executor + 2;
                                                                                                                     exception = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
                                                                                                                     if ( *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)exception + 55) & 7) || *(char *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) < 0 )
                                                                                                                       __asan_report_store_n(exception, 56LL);
@@ -927,7 +927,7 @@ LABEL_246:
                                                                                                                             goto LABEL_219;
                                                                                                                           }
                                                                                                                         }
-                                                                                                                        *(_QWORD *)(v7 + 64) = &`vtable for'boost::asio::bad_executor + 2;
+                                                                                                                        *(_QWORD *)(v7 + 64) = &`vtable for boost::asio::bad_executor + 2;
                                                                                                                         v76 = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
                                                                                                                         if ( *(_BYTE *)(((unsigned __int64)&v76->gap30[7] >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((unsigned __int64)&v76->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)v76 + 55) & 7) || *(char *)(((unsigned __int64)v76 >> 3) + 0x7FFF8000) < 0 )
                                                                                                                           __asan_report_store_n(v76, 56LL);

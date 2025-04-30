@@ -126,7 +126,7 @@ void __cdecl proto_log::OrderLogHead::OrderLogHead(proto_log::OrderLogHead *cons
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogHead + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -158,7 +158,7 @@ void __cdecl proto_log::OrderLogHead::OrderLogHead(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::OrderLogHead + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::OrderLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -261,7 +261,7 @@ void __cdecl proto_log::OrderLogHead::~OrderLogHead(proto_log::OrderLogHead *con
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogHead + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogHead + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

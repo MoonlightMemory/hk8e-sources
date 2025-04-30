@@ -16,7 +16,7 @@ void __cdecl data::AvatarSkillExcelConfig::AvatarSkillExcelConfig(data::AvatarSk
   __int64 v11; // rsi
   __int64 v12; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarSkillExcelConfig = v2;
@@ -196,7 +196,7 @@ void __cdecl data::AvatarSkillExcelConfig::AvatarSkillExcelConfig(
   const data::AvatarSkillExcelConfig *v54; // [rsp+0h] [rbp-20h]
 
   v54 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarSkillExcelConfig = v2;
@@ -462,7 +462,7 @@ void __cdecl data::AvatarSkillExcelConfig::~AvatarSkillExcelConfig(data::AvatarS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarSkillExcelConfig = v2;
@@ -523,7 +523,7 @@ void __cdecl data::ProudSkillOpenConfig::ProudSkillOpenConfig(data::ProudSkillOp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProudSkillOpenConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProudSkillOpenConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProudSkillOpenConfig = v2;
@@ -556,7 +556,7 @@ void __cdecl data::ProudSkillOpenConfig::ProudSkillOpenConfig(
   const data::ProudSkillOpenConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ProudSkillOpenConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProudSkillOpenConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProudSkillOpenConfig = v2;
@@ -596,7 +596,7 @@ void __cdecl data::ProudSkillOpenConfig::~ProudSkillOpenConfig(data::ProudSkillO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProudSkillOpenConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProudSkillOpenConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProudSkillOpenConfig = v2;
@@ -618,7 +618,7 @@ void __cdecl data::AvatarSkillDepotExcelConfig::AvatarSkillDepotExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillDepotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillDepotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarSkillDepotExcelConfig = v2;
@@ -704,7 +704,7 @@ void __cdecl data::AvatarSkillDepotExcelConfig::AvatarSkillDepotExcelConfig(
   const data::AvatarSkillDepotExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillDepotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillDepotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarSkillDepotExcelConfig = v2;
@@ -821,7 +821,7 @@ void __cdecl data::AvatarSkillDepotExcelConfig::~AvatarSkillDepotExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarSkillDepotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarSkillDepotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarSkillDepotExcelConfig = v2;
@@ -849,7 +849,7 @@ void __cdecl data::AbilityStateResistanceByIDExcelConfig::AbilityStateResistance
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityStateResistanceByIDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityStateResistanceByIDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityStateResistanceByIDExcelConfig = v2;
@@ -873,7 +873,7 @@ void __cdecl data::AbilityStateResistanceByIDExcelConfig::AbilityStateResistance
   const data::AbilityStateResistanceByIDExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AbilityStateResistanceByIDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityStateResistanceByIDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AbilityStateResistanceByIDExcelConfig = v2;
@@ -900,7 +900,7 @@ void __cdecl data::AbilityStateResistanceByIDExcelConfig::~AbilityStateResistanc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityStateResistanceByIDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityStateResistanceByIDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityStateResistanceByIDExcelConfig = v2;
@@ -924,7 +924,7 @@ void __cdecl data::ActivitySkillExcelConfig::ActivitySkillExcelConfig(data::Acti
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySkillExcelConfig = v2;
@@ -1003,7 +1003,7 @@ void __cdecl data::ActivitySkillExcelConfig::ActivitySkillExcelConfig(
   const data::ActivitySkillExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySkillExcelConfig = v2;
@@ -1109,7 +1109,7 @@ void __cdecl data::ActivitySkillExcelConfig::~ActivitySkillExcelConfig(data::Act
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySkillExcelConfig = v2;

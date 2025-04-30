@@ -10,7 +10,7 @@ void __cdecl data::ActivityChessPreviewExcelConfig::ActivityChessPreviewExcelCon
   __int64 v4; // rdx
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessPreviewExcelConfig = v2;
@@ -89,7 +89,7 @@ void __cdecl data::ActivityChessPreviewExcelConfig::ActivityChessPreviewExcelCon
   const data::ActivityChessPreviewExcelConfig *v23; // [rsp+0h] [rbp-20h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessPreviewExcelConfig = v2;
@@ -204,7 +204,7 @@ void __cdecl data::ActivityChessPreviewExcelConfig::~ActivityChessPreviewExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessPreviewExcelConfig = v2;
@@ -222,7 +222,7 @@ void __cdecl data::ActivityChessLevelExcelConfig::ActivityChessLevelExcelConfig(
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessLevelExcelConfig = v2;
@@ -309,7 +309,7 @@ void __cdecl data::ActivityChessLevelExcelConfig::ActivityChessLevelExcelConfig(
   const data::ActivityChessLevelExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessLevelExcelConfig = v2;
@@ -439,7 +439,7 @@ void __cdecl data::ActivityChessLevelExcelConfig::~ActivityChessLevelExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessLevelExcelConfig = v2;
@@ -455,7 +455,7 @@ void __cdecl data::ActivityChessMapExcelConfig::ActivityChessMapExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessMapExcelConfig = v2;
@@ -533,7 +533,7 @@ void __cdecl data::ActivityChessMapExcelConfig::ActivityChessMapExcelConfig(
   const data::ActivityChessMapExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessMapExcelConfig = v2;
@@ -648,7 +648,7 @@ void __cdecl data::ActivityChessMapExcelConfig::~ActivityChessMapExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessMapExcelConfig = v2;
@@ -666,7 +666,7 @@ void __cdecl data::ActivityChessScheduleExcelConfig::ActivityChessScheduleExcelC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessScheduleExcelConfig = v2;
@@ -709,7 +709,7 @@ void __cdecl data::ActivityChessScheduleExcelConfig::ActivityChessScheduleExcelC
   const data::ActivityChessScheduleExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessScheduleExcelConfig = v2;
@@ -772,7 +772,7 @@ void __cdecl data::ActivityChessScheduleExcelConfig::~ActivityChessScheduleExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessScheduleExcelConfig = v2;
@@ -789,7 +789,7 @@ void __cdecl data::ActivityChessGearExcelConfig::ActivityChessGearExcelConfig(
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessGearExcelConfig = v2;
@@ -873,7 +873,7 @@ void __cdecl data::ActivityChessGearExcelConfig::ActivityChessGearExcelConfig(
   const data::ActivityChessGearExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessGearExcelConfig = v2;
@@ -992,7 +992,7 @@ void __cdecl data::ActivityChessGearExcelConfig::~ActivityChessGearExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessGearExcelConfig = v2;
@@ -1158,7 +1158,7 @@ void __cdecl data::ChessCardEffect::ChessCardEffect(data::ChessCardEffect *const
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChessCardEffect = v2;
@@ -1244,7 +1244,7 @@ void __cdecl data::ChessCardEffect::ChessCardEffect(data::ChessCardEffect *const
   const data::ChessCardEffect *v24; // [rsp+0h] [rbp-20h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChessCardEffect = v2;
@@ -1374,7 +1374,7 @@ void __cdecl data::ChessCardEffect::~ChessCardEffect(data::ChessCardEffect *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChessCardEffect = v2;
@@ -1399,7 +1399,7 @@ void __cdecl data::ActivityChessCardExcelConfig::ActivityChessCardExcelConfig(
   __int64 v11; // rsi
   __int64 v12; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessCardExcelConfig = v2;
@@ -1532,7 +1532,7 @@ void __cdecl data::ActivityChessCardExcelConfig::ActivityChessCardExcelConfig(
   const data::ActivityChessCardExcelConfig *v43; // [rsp+0h] [rbp-20h]
 
   v43 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessCardExcelConfig = v2;
@@ -1718,7 +1718,7 @@ void __cdecl data::ActivityChessCardExcelConfig::~ActivityChessCardExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessCardExcelConfig = v2;
@@ -1735,7 +1735,7 @@ void __cdecl data::ActivityChessMapPointExcelConfig::ActivityChessMapPointExcelC
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessMapPointExcelConfig = v2;
@@ -1761,7 +1761,7 @@ void __cdecl data::ActivityChessMapPointExcelConfig::~ActivityChessMapPointExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessMapPointExcelConfig = v2;
@@ -1784,7 +1784,7 @@ void __cdecl data::ActivityChessAffixExcelConfig::ActivityChessAffixExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityChessAffixExcelConfig = v2;
@@ -1818,7 +1818,7 @@ void __cdecl data::ActivityChessAffixExcelConfig::~ActivityChessAffixExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityChessAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityChessAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityChessAffixExcelConfig = v2;

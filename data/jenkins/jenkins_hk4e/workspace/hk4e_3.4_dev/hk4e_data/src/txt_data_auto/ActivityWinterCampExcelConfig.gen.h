@@ -9,7 +9,7 @@ void __cdecl data::WinterCampExcelConfig::WinterCampExcelConfig(
   uint32_t activity_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampExcelConfig = v2;
@@ -41,7 +41,7 @@ void __cdecl data::WinterCampExcelConfig::~WinterCampExcelConfig(data::WinterCam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampExcelConfig = v2;
@@ -71,7 +71,7 @@ void __cdecl data::WinterCampBattleExcelConfig::WinterCampBattleExcelConfig(
   const data::WinterCampBattleExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampBattleExcelConfig = v2;
@@ -165,7 +165,7 @@ void __cdecl data::WinterCampBattleExcelConfig::~WinterCampBattleExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampBattleExcelConfig = v2;
@@ -185,7 +185,7 @@ void __cdecl data::WinterCampDropGroup::WinterCampDropGroup(data::WinterCampDrop
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampDropGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampDropGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampDropGroup = v2;
@@ -199,7 +199,7 @@ void __cdecl data::WinterCampDropGroup::WinterCampDropGroup(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampDropGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampDropGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampDropGroup = v2;
@@ -212,7 +212,7 @@ void __cdecl data::WinterCampDropGroup::~WinterCampDropGroup(data::WinterCampDro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampDropGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampDropGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampDropGroup = v2;
@@ -235,7 +235,7 @@ void __cdecl data::WinterCampExploreExcelConfig::WinterCampExploreExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampExploreExcelConfig = v2;
@@ -304,7 +304,7 @@ void __cdecl data::WinterCampExploreExcelConfig::WinterCampExploreExcelConfig(
   const data::WinterCampExploreExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampExploreExcelConfig = v2;
@@ -399,7 +399,7 @@ void __cdecl data::WinterCampExploreExcelConfig::~WinterCampExploreExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampExploreExcelConfig = v2;
@@ -423,7 +423,7 @@ void __cdecl data::WinterCampRaceExcelConfig::WinterCampRaceExcelConfig(data::Wi
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampRaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampRaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampRaceExcelConfig = v2;
@@ -502,7 +502,7 @@ void __cdecl data::WinterCampRaceExcelConfig::WinterCampRaceExcelConfig(
   const data::WinterCampRaceExcelConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampRaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampRaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampRaceExcelConfig = v2;
@@ -617,7 +617,7 @@ void __cdecl data::WinterCampRaceExcelConfig::~WinterCampRaceExcelConfig(data::W
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampRaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampRaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampRaceExcelConfig = v2;
@@ -631,7 +631,7 @@ void __cdecl data::WinterCampSnowmanExcelConfig::WinterCampSnowmanExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampSnowmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampSnowmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampSnowmanExcelConfig = v2;
@@ -656,7 +656,7 @@ void __cdecl data::WinterCampSnowmanExcelConfig::WinterCampSnowmanExcelConfig(
   const data::WinterCampSnowmanExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampSnowmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampSnowmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WinterCampSnowmanExcelConfig = v2;
@@ -692,7 +692,7 @@ void __cdecl data::WinterCampSnowmanExcelConfig::~WinterCampSnowmanExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WinterCampSnowmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WinterCampSnowmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WinterCampSnowmanExcelConfig = v2;

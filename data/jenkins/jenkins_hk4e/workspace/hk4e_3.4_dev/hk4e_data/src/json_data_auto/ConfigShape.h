@@ -10,7 +10,7 @@ void __cdecl data::ConfigBaseShape::ConfigBaseShape(data::ConfigBaseShape *const
   __int64 v5; // rdx
 
   std::enable_shared_from_this<data::ConfigBaseShape>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseShape>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -58,7 +58,7 @@ void __cdecl data::ConfigBaseShape::ConfigBaseShape(data::ConfigBaseShape *const
   std::enable_shared_from_this<data::ConfigBaseShape>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseShape>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseShape + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseShape = v3;
@@ -124,7 +124,7 @@ void __cdecl data::ConfigBaseShape::~ConfigBaseShape(data::ConfigBaseShape *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -192,7 +192,7 @@ void __cdecl data::ConfigShapeCircle::ConfigShapeCircle(data::ConfigShapeCircle 
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -213,7 +213,7 @@ void __cdecl data::ConfigShapeCircle::ConfigShapeCircle(
   float radius; // xmm0_4
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -237,7 +237,7 @@ void __cdecl data::ConfigShapeCircle::~ConfigShapeCircle(data::ConfigShapeCircle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -311,7 +311,7 @@ void __cdecl data::ConfigShapeCircleFactory::ConfigShapeCircleFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCircleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCircleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeCircleFactory = v2;
@@ -325,7 +325,7 @@ void __cdecl data::ConfigShapeRect::ConfigShapeRect(data::ConfigShapeRect *const
   __int64 v3; // rsi
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeRect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeRect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -363,7 +363,7 @@ void __cdecl data::ConfigShapeRect::ConfigShapeRect(data::ConfigShapeRect *const
 
   v8 = a2;
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeRect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeRect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigShapeRect::~ConfigShapeRect(data::ConfigShapeRect *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeRect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeRect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -487,7 +487,7 @@ void __cdecl data::ConfigShapeRectFactory::ConfigShapeRectFactory(data::ConfigSh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeRectFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeRectFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeRectFactory = v2;
@@ -500,7 +500,7 @@ void __cdecl data::ConfigShapeSector::ConfigShapeSector(data::ConfigShapeSector 
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -528,7 +528,7 @@ void __cdecl data::ConfigShapeSector::ConfigShapeSector(
   float full_degree; // xmm0_4
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -571,7 +571,7 @@ void __cdecl data::ConfigShapeSector::~ConfigShapeSector(data::ConfigShapeSector
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -638,7 +638,7 @@ void __cdecl data::ConfigShapeSectorFactory::ConfigShapeSectorFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSectorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSectorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeSectorFactory = v2;
@@ -651,7 +651,7 @@ void __cdecl data::ConfigShapePolygon::ConfigShapePolygon(data::ConfigShapePolyg
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapePolygon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapePolygon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -666,7 +666,7 @@ void __cdecl data::ConfigShapePolygon::ConfigShapePolygon(
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapePolygon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapePolygon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -679,7 +679,7 @@ void __cdecl data::ConfigShapePolygon::~ConfigShapePolygon(data::ConfigShapePoly
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapePolygon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapePolygon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -754,7 +754,7 @@ void __cdecl data::ConfigShapePolygonFactory::ConfigShapePolygonFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapePolygonFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapePolygonFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapePolygonFactory = v2;
@@ -767,7 +767,7 @@ void __cdecl data::ConfigShapeSphere::ConfigShapeSphere(data::ConfigShapeSphere 
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -788,7 +788,7 @@ void __cdecl data::ConfigShapeSphere::ConfigShapeSphere(
   float radius; // xmm0_4
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -812,7 +812,7 @@ void __cdecl data::ConfigShapeSphere::~ConfigShapeSphere(data::ConfigShapeSphere
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -886,7 +886,7 @@ void __cdecl data::ConfigShapeSphereFactory::ConfigShapeSphereFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeSphereFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeSphereFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeSphereFactory = v2;
@@ -899,7 +899,7 @@ void __cdecl data::ConfigShapeCube::ConfigShapeCube(data::ConfigShapeCube *const
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCube + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCube + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -925,7 +925,7 @@ void __cdecl data::ConfigShapeCube::ConfigShapeCube(data::ConfigShapeCube *const
   float length; // xmm0_4
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCube + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCube + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -961,7 +961,7 @@ void __cdecl data::ConfigShapeCube::~ConfigShapeCube(data::ConfigShapeCube *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCube + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCube + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -1035,7 +1035,7 @@ void __cdecl data::ConfigShapeCubeFactory::ConfigShapeCubeFactory(data::ConfigSh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCubeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCubeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeCubeFactory = v2;
@@ -1048,7 +1048,7 @@ void __cdecl data::ConfigShapeCylinder::ConfigShapeCylinder(data::ConfigShapeCyl
   int (**v2)(...); // rdx
 
   data::ConfigBaseShape::ConfigBaseShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCylinder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCylinder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -1069,7 +1069,7 @@ void __cdecl data::ConfigShapeCylinder::ConfigShapeCylinder(
   float radius; // xmm0_4
 
   data::ConfigBaseShape::ConfigBaseShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCylinder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCylinder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseShape = v2;
@@ -1100,7 +1100,7 @@ void __cdecl data::ConfigShapeCylinder::~ConfigShapeCylinder(data::ConfigShapeCy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCylinder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCylinder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseShape = v2;
@@ -1167,7 +1167,7 @@ void __cdecl data::ConfigShapeCylinderFactory::ConfigShapeCylinderFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShapeCylinderFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShapeCylinderFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShapeCylinderFactory = v2;

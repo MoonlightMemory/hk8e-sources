@@ -7,7 +7,7 @@ void __cdecl ActivityEffigyChallengeExcelConfigMgr::ActivityEffigyChallengeExcel
   int (**v1)(...); // rdx
 
   data::ActivityEffigyChallengeExcelConfigMgrBase::ActivityEffigyChallengeExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityEffigyChallengeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityEffigyChallengeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityEffigyChallengeExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl ActivityEffigyChallengeExcelConfigMgr::~ActivityEffigyChallengeExce
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityEffigyChallengeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityEffigyChallengeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityEffigyChallengeExcelConfigMgrBase = v1;

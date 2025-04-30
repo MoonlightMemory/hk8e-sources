@@ -33,7 +33,7 @@ void __cdecl data::ItemUseConfig::ItemUseConfig(data::ItemUseConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemUseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemUseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemUseConfig = v2;
@@ -55,7 +55,7 @@ void __cdecl data::ItemUseConfig::ItemUseConfig(data::ItemUseConfig *const this,
   const data::ItemUseConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ItemUseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemUseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemUseConfig = v2;
@@ -88,7 +88,7 @@ void __cdecl data::ItemUseConfig::~ItemUseConfig(data::ItemUseConfig *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemUseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemUseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemUseConfig = v2;
@@ -114,7 +114,7 @@ void __cdecl data::MaterialExcelConfig::MaterialExcelConfig(data::MaterialExcelC
   __int64 v14; // rdx
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::MaterialExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -260,7 +260,7 @@ void __cdecl data::MaterialExcelConfig::MaterialExcelConfig(
   __int64 v49; // rdx
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this, (const data::ItemConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::MaterialExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -452,7 +452,7 @@ void __cdecl data::MaterialExcelConfig::~MaterialExcelConfig(data::MaterialExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -479,7 +479,7 @@ void __cdecl data::DocumentExcelConfig::DocumentExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::DocumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DocumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DocumentExcelConfig = v2;
@@ -504,7 +504,7 @@ void __cdecl data::DocumentExcelConfig::~DocumentExcelConfig(data::DocumentExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DocumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DocumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DocumentExcelConfig = v2;
@@ -523,7 +523,7 @@ void __cdecl data::AvatarCardRepeatConfig::AvatarCardRepeatConfig(data::AvatarCa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardRepeatConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardRepeatConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCardRepeatConfig = v2;
@@ -557,7 +557,7 @@ void __cdecl data::AvatarCardRepeatConfig::AvatarCardRepeatConfig(
   uint32_t repeat_count_max; // ecx
   char v8; // dl
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardRepeatConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardRepeatConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarCardRepeatConfig = v2;
@@ -600,7 +600,7 @@ void __cdecl data::AvatarCardRepeatConfig::~AvatarCardRepeatConfig(data::AvatarC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardRepeatConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardRepeatConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCardRepeatConfig = v2;
@@ -623,7 +623,7 @@ void __cdecl data::AvatarCardChangeExcelConfig::AvatarCardChangeExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardChangeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardChangeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCardChangeExcelConfig = v2;
@@ -656,7 +656,7 @@ void __cdecl data::AvatarCardChangeExcelConfig::AvatarCardChangeExcelConfig(
   const data::AvatarCardChangeExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardChangeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardChangeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarCardChangeExcelConfig = v2;
@@ -697,7 +697,7 @@ void __cdecl data::AvatarCardChangeExcelConfig::~AvatarCardChangeExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCardChangeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCardChangeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCardChangeExcelConfig = v2;
@@ -721,7 +721,7 @@ void __cdecl data::MaterialSourceDataExcelConfig::MaterialSourceDataExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialSourceDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialSourceDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MaterialSourceDataExcelConfig = v2;
@@ -747,7 +747,7 @@ void __cdecl data::MaterialSourceDataExcelConfig::~MaterialSourceDataExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialSourceDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialSourceDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MaterialSourceDataExcelConfig = v2;
@@ -768,7 +768,7 @@ void __cdecl data::MaterialDeleteExcelConfig::MaterialDeleteExcelConfig(data::Ma
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialDeleteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialDeleteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MaterialDeleteExcelConfig = v2;
@@ -813,7 +813,7 @@ void __cdecl data::MaterialDeleteExcelConfig::MaterialDeleteExcelConfig(
   const data::MaterialDeleteExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MaterialDeleteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialDeleteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MaterialDeleteExcelConfig = v2;
@@ -869,7 +869,7 @@ void __cdecl data::MaterialDeleteExcelConfig::~MaterialDeleteExcelConfig(data::M
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialDeleteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialDeleteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MaterialDeleteExcelConfig = v2;

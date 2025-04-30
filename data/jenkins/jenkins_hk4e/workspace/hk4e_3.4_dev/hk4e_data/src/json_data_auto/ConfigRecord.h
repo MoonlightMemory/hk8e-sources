@@ -1146,7 +1146,7 @@ void __cdecl data::ConfigRecordActorBase::ConfigRecordActorBase(data::ConfigReco
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigRecordActorBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigRecordActorBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordActorBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordActorBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1188,7 +1188,7 @@ void __cdecl data::ConfigRecordActorBase::ConfigRecordActorBase(
   std::enable_shared_from_this<data::ConfigRecordActorBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigRecordActorBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigRecordActorBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigRecordActorBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigRecordActorBase = v3;
@@ -1252,7 +1252,7 @@ void __cdecl data::ConfigRecordActorBase::~ConfigRecordActorBase(data::ConfigRec
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordActorBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordActorBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1320,7 +1320,7 @@ void __cdecl data::ConfigRecordEntity::ConfigRecordEntity(data::ConfigRecordEnti
   int (**v2)(...); // rdx
 
   data::ConfigRecordActorBase::ConfigRecordActorBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1342,7 +1342,7 @@ void __cdecl data::ConfigRecordEntity::ConfigRecordEntity(
   __int64 v5; // rbx
 
   data::ConfigRecordActorBase::ConfigRecordActorBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1381,7 +1381,7 @@ void __cdecl data::ConfigRecordEntity::~ConfigRecordEntity(data::ConfigRecordEnt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1459,7 +1459,7 @@ void __cdecl data::ConfigRecordEntityFactory::ConfigRecordEntityFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEntityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEntityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordEntityFactory = v2;
@@ -1472,7 +1472,7 @@ void __cdecl data::ConfigRecordEffect::ConfigRecordEffect(data::ConfigRecordEffe
   int (**v2)(...); // rdx
 
   data::ConfigRecordActorBase::ConfigRecordActorBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1489,7 +1489,7 @@ void __cdecl data::ConfigRecordEffect::ConfigRecordEffect(
   int (**v2)(...); // rdx
 
   data::ConfigRecordActorBase::ConfigRecordActorBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1511,7 +1511,7 @@ void __cdecl data::ConfigRecordEffect::~ConfigRecordEffect(data::ConfigRecordEff
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordActorBase = v2;
@@ -1581,7 +1581,7 @@ void __cdecl data::ConfigRecordEffectFactory::ConfigRecordEffectFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRecordEffectFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRecordEffectFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRecordEffectFactory = v2;

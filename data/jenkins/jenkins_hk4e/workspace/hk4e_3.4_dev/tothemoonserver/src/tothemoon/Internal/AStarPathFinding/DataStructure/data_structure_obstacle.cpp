@@ -1415,7 +1415,7 @@ void __cdecl DynamicSVONode::DynamicSVONode(DynamicSVONode *const this, SVONode 
 
   srcNodea = srcNode;
   SVONode::SVONode(this);
-  v2 = (int (**)(...))(&`vtable for'DynamicSVONode + 2);
+  v2 = (int (**)(...))(&`vtable for DynamicSVONode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_SVONode = v2;
@@ -1531,7 +1531,7 @@ void __cdecl DynamicSVONode::DynamicSVONode(
   __int64 v24; // [rsp+C8h] [rbp-28h]
 
   SVONode::SVONode(this);
-  v6 = (int (**)(...))(&`vtable for'DynamicSVONode + 2);
+  v6 = (int (**)(...))(&`vtable for DynamicSVONode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_SVONode = v6;
@@ -1634,7 +1634,7 @@ void __cdecl DynamicSVONode::~DynamicSVONode(DynamicSVONode *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DynamicSVONode + 2);
+  v1 = (int (**)(...))(&`vtable for DynamicSVONode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_SVONode = v1;

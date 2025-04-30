@@ -6,7 +6,7 @@ void __cdecl std::bad_exception::bad_exception(std::bad_exception *const this, c
   char *v2; // rdx
 
   std::exception::exception(this, a2);
-  v2 = (char *)&`vtable for'std::bad_exception + 16;
+  v2 = (char *)&`vtable for std::bad_exception + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;
@@ -18,7 +18,7 @@ void __cdecl std::bad_exception::bad_exception(std::bad_exception *const this)
   char *v1; // rdx
 
   std::exception::exception(this);
-  v1 = (char *)&`vtable for'std::bad_exception + 16;
+  v1 = (char *)&`vtable for std::bad_exception + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v1;

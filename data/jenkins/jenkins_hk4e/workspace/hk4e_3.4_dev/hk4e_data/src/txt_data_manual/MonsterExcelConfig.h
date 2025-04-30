@@ -6,7 +6,7 @@ void __cdecl MonsterExcelConfigMgr::MonsterExcelConfigMgr(MonsterExcelConfigMgr 
   int (**v1)(...); // rdx
 
   data::MonsterExcelConfigMgrBase::MonsterExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'MonsterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MonsterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MonsterExcelConfigMgrBase = v1;
@@ -29,7 +29,7 @@ void __cdecl MonsterExcelConfigMgr::~MonsterExcelConfigMgr(MonsterExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MonsterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MonsterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MonsterExcelConfigMgrBase = v1;

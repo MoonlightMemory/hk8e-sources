@@ -615,7 +615,7 @@ void __cdecl luabind::value_vector::value_vector(luabind::value_vector *const th
   int (**v1)(...); // rdx
 
   std::vector<luabind::value>::vector(&this->std::vector<luabind::value>);
-  v1 = (int (**)(...))(&`vtable for'luabind::value_vector + 2);
+  v1 = (int (**)(...))(&`vtable for luabind::value_vector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_value_vector = v1;
@@ -626,7 +626,7 @@ void __cdecl luabind::value_vector::~value_vector(luabind::value_vector *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::value_vector + 2);
+  v1 = (int (**)(...))(&`vtable for luabind::value_vector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_value_vector = v1;

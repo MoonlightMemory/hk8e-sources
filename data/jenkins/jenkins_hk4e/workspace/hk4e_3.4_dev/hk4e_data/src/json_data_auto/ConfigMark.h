@@ -7,7 +7,7 @@ void __cdecl data::ConfigLBaseMark::ConfigLBaseMark(data::ConfigLBaseMark *const
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigLBaseMark>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigLBaseMark>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLBaseMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLBaseMark = v2;
@@ -38,7 +38,7 @@ void __cdecl data::ConfigLBaseMark::ConfigLBaseMark(data::ConfigLBaseMark *const
   std::enable_shared_from_this<data::ConfigLBaseMark>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigLBaseMark>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigLBaseMark + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigLBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigLBaseMark = v3;
@@ -75,7 +75,7 @@ void __cdecl data::ConfigLBaseMark::~ConfigLBaseMark(data::ConfigLBaseMark *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLBaseMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLBaseMark = v2;
@@ -151,7 +151,7 @@ void __cdecl data::ConfigLMapMark::ConfigLMapMark(data::ConfigLMapMark *const th
   int (**v2)(...); // rdx
 
   data::ConfigLBaseMark::ConfigLBaseMark(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLBaseMark = v2;
@@ -163,7 +163,7 @@ void __cdecl data::ConfigLMapMark::ConfigLMapMark(data::ConfigLMapMark *const th
   int (**v2)(...); // rdx
 
   data::ConfigLBaseMark::ConfigLBaseMark(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigLBaseMark = v2;
@@ -182,7 +182,7 @@ void __cdecl data::ConfigLMapMark::~ConfigLMapMark(data::ConfigLMapMark *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLBaseMark = v2;
@@ -249,7 +249,7 @@ void __cdecl data::ConfigLMapMarkFactory::ConfigLMapMarkFactory(data::ConfigLMap
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLMapMarkFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLMapMarkFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLMapMarkFactory = v2;
@@ -262,7 +262,7 @@ void __cdecl data::ConfigVBaseMark::ConfigVBaseMark(data::ConfigVBaseMark *const
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigVBaseMark>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigVBaseMark>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVBaseMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -293,7 +293,7 @@ void __cdecl data::ConfigVBaseMark::ConfigVBaseMark(data::ConfigVBaseMark *const
   std::enable_shared_from_this<data::ConfigVBaseMark>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigVBaseMark>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigVBaseMark + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigVBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigVBaseMark = v3;
@@ -330,7 +330,7 @@ void __cdecl data::ConfigVBaseMark::~ConfigVBaseMark(data::ConfigVBaseMark *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVBaseMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVBaseMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -407,7 +407,7 @@ void __cdecl data::ConfigVMapMark::ConfigVMapMark(data::ConfigVMapMark *const th
   __int64 v3; // rsi
 
   data::ConfigVBaseMark::ConfigVBaseMark((data::ConfigVBaseMark *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -447,7 +447,7 @@ void __cdecl data::ConfigVMapMark::ConfigVMapMark(data::ConfigVMapMark *const th
   char v10; // dl
 
   data::ConfigVBaseMark::ConfigVBaseMark((data::ConfigVBaseMark *const)this, (const data::ConfigVBaseMark *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigVBaseMark = v2;
@@ -500,7 +500,7 @@ void __cdecl data::ConfigVMapMark::~ConfigVMapMark(data::ConfigVMapMark *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -575,7 +575,7 @@ void __cdecl data::ConfigVCustomMapMark::ConfigVCustomMapMark(data::ConfigVCusto
   int (**v2)(...); // rdx
 
   data::ConfigVMapMark::ConfigVMapMark(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVCustomMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVCustomMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -597,7 +597,7 @@ void __cdecl data::ConfigVCustomMapMark::ConfigVCustomMapMark(
   char v4; // al
 
   data::ConfigVMapMark::ConfigVMapMark(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVCustomMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVCustomMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigVBaseMark = v2;
@@ -622,7 +622,7 @@ void __cdecl data::ConfigVCustomMapMark::~ConfigVCustomMapMark(data::ConfigVCust
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVCustomMapMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVCustomMapMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVBaseMark = v2;
@@ -697,7 +697,7 @@ void __cdecl data::ConfigVCustomMapMarkFactory::ConfigVCustomMapMarkFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVCustomMapMarkFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVCustomMapMarkFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVCustomMapMarkFactory = v2;

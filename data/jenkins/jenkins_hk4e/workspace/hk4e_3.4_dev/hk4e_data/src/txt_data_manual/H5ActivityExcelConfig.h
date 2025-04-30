@@ -6,7 +6,7 @@ void __cdecl H5ActivityExcelConfigMgr::H5ActivityExcelConfigMgr(H5ActivityExcelC
   int (**v1)(...); // rdx
 
   data::H5ActivityExcelConfigMgrBase::H5ActivityExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'H5ActivityExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for H5ActivityExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_H5ActivityExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl H5ActivityExcelConfigMgr::~H5ActivityExcelConfigMgr(H5ActivityExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'H5ActivityExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for H5ActivityExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_H5ActivityExcelConfigMgrBase = v1;

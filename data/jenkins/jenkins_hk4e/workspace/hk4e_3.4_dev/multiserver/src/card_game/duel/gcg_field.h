@@ -254,7 +254,7 @@ void __cdecl GCGField::GCGField(GCGField *const this, GCGGameMode *game_mode, GC
   GCGRuntimeDataMgrBase<GCGFieldRuntimeData,GCGGameMode>::GCGRuntimeDataMgrBase(
     &this->GCGRuntimeDataMgrBase<GCGFieldRuntimeData,GCGGameMode>,
     game_mode);
-  v3 = (int (**)(...))(&`vtable for'GCGField + 2);
+  v3 = (int (**)(...))(&`vtable for GCGField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGField = v3;
@@ -367,7 +367,7 @@ void __cdecl GCGField::~GCGField(GCGField *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGField + 2);
+  v1 = (int (**)(...))(&`vtable for GCGField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGField = v1;

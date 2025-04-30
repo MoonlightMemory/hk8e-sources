@@ -7,7 +7,7 @@ void __cdecl data::TeamChainExcelConfig::TeamChainExcelConfig(data::TeamChainExc
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainExcelConfig = v2;
@@ -60,7 +60,7 @@ void __cdecl data::TeamChainExcelConfig::TeamChainExcelConfig(
   const data::TeamChainExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TeamChainExcelConfig = v2;
@@ -136,7 +136,7 @@ void __cdecl data::TeamChainExcelConfig::~TeamChainExcelConfig(data::TeamChainEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainExcelConfig = v2;
@@ -151,7 +151,7 @@ void __cdecl data::TeamChainBuffExcelConfig::TeamChainBuffExcelConfig(data::Team
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainBuffExcelConfig = v2;
@@ -175,7 +175,7 @@ void __cdecl data::TeamChainBuffExcelConfig::TeamChainBuffExcelConfig(
   const data::TeamChainBuffExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TeamChainBuffExcelConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::TeamChainBuffExcelConfig::~TeamChainBuffExcelConfig(data::Tea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainBuffExcelConfig = v2;
@@ -231,7 +231,7 @@ void __cdecl data::TeamChainDifficultyExcelConfig::TeamChainDifficultyExcelConfi
   const data::TeamChainDifficultyExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TeamChainDifficultyExcelConfig = v2;
@@ -284,7 +284,7 @@ void __cdecl data::TeamChainDifficultyExcelConfig::~TeamChainDifficultyExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainDifficultyExcelConfig = v2;
@@ -310,7 +310,7 @@ void __cdecl data::TeamChainOverallExcelConfig::TeamChainOverallExcelConfig(
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainOverallExcelConfig = v2;
@@ -421,7 +421,7 @@ void __cdecl data::TeamChainOverallExcelConfig::TeamChainOverallExcelConfig(
   const data::TeamChainOverallExcelConfig *v28; // [rsp+0h] [rbp-20h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TeamChainOverallExcelConfig = v2;
@@ -586,7 +586,7 @@ void __cdecl data::TeamChainOverallExcelConfig::~TeamChainOverallExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamChainOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamChainOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TeamChainOverallExcelConfig = v2;

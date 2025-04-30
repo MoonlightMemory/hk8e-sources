@@ -714,7 +714,7 @@ LABEL_19:
     __asan_report_store8(p_anon_0);
     goto LABEL_20;
   }
-  p_anon_0->_M_allocated_capacity = (std::string::size_type)(&`vtable for'std::_Sp_counted_ptr_inplace<SpanHolder,common::tools::perf::allocator<SpanHolder,SpanHolder>,(__gnu_cxx::_Lock_policy)2>
+  p_anon_0->_M_allocated_capacity = (std::string::size_type)(&`vtable for std::_Sp_counted_ptr_inplace<SpanHolder,common::tools::perf::allocator<SpanHolder,SpanHolder>,(__gnu_cxx::_Lock_policy)2>
                                                            + 2);
   p_type = (std::string *)&p_anon_0[1];
   if ( !common::tools::perf::MemoryPerf::is_record )
@@ -870,7 +870,7 @@ LABEL_72:
                   *((_DWORD *)&p_anon_0->_M_allocated_capacity + 3) = 1;
                   if ( !*(_BYTE *)(((unsigned __int64)p_anon_0 >> 3) + 0x7FFF8000) )
                   {
-                    p_anon_0->_M_allocated_capacity = (std::string::size_type)(&`vtable for'std::_Sp_counted_ptr_inplace<SpanHolder,std::allocator<SpanHolder>,(__gnu_cxx::_Lock_policy)2>
+                    p_anon_0->_M_allocated_capacity = (std::string::size_type)(&`vtable for std::_Sp_counted_ptr_inplace<SpanHolder,std::allocator<SpanHolder>,(__gnu_cxx::_Lock_policy)2>
                                                                              + 2);
                     p_type = (std::string *)&p_anon_0[1];
                     SpanHolder::SpanHolder((SpanHolder *const)&p_anon_0[1], tracing_mgr, span_ptr);
@@ -1295,7 +1295,7 @@ LABEL_29:
                   v64->_M_weak_count = 1;
                   if ( !*(_BYTE *)(((unsigned __int64)v64 >> 3) + 0x7FFF8000) )
                   {
-                    v64->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr_inplace<common::tools::MiTimer,common::tools::perf::allocator<common::tools::MiTimer,common::tools::MiTimer>,(__gnu_cxx::_Lock_policy)2>
+                    v64->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_ptr_inplace<common::tools::MiTimer,common::tools::perf::allocator<common::tools::MiTimer,common::tools::MiTimer>,(__gnu_cxx::_Lock_policy)2>
                                                                 + 2);
                     v2 = v64 + 1;
                     if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1353,7 +1353,7 @@ LABEL_59:
                               else
                               {
                                 *(_QWORD *)&expired_seconds = v64;
-                                v64[1]._vptr__Sp_counted_base = (int (**)(...))(&`vtable for'common::tools::MiTimer + 2);
+                                v64[1]._vptr__Sp_counted_base = (int (**)(...))(&`vtable for common::tools::MiTimer + 2);
                                 p_M_weak_count = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)&v2->_M_use_count;
                                 if ( !*(_BYTE *)(((unsigned __int64)&v2->_M_use_count >> 3) + 0x7FFF8000) )
                                 {
@@ -1579,7 +1579,7 @@ LABEL_42:
                 if ( !*(_BYTE *)((v65 >> 3) + 0x7FFF8000) )
                 {
                   p_x = (std::function<void(long unsigned int)> *)v65;
-                  *(_QWORD *)v65 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::MiTimer,std::allocator<common::tools::MiTimer>,(__gnu_cxx::_Lock_policy)2>
+                  *(_QWORD *)v65 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::MiTimer,std::allocator<common::tools::MiTimer>,(__gnu_cxx::_Lock_policy)2>
                                  + 2;
                   v2 = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)(v65 + 16);
                   v3 = (_Atomic_word *)((char *)&ThreadLocal::timer_mgr_ptr + __readfsqword(0));
@@ -1605,7 +1605,7 @@ LABEL_160:
                       else
                       {
                         p_x = (std::function<void(long unsigned int)> *)v65;
-                        *(_QWORD *)(v65 + 16) = &`vtable for'common::tools::MiTimer + 2;
+                        *(_QWORD *)(v65 + 16) = &`vtable for common::tools::MiTimer + 2;
                         v50 = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)&v2->_M_use_count;
                         if ( !*(_BYTE *)(((unsigned __int64)&v2->_M_use_count >> 3) + 0x7FFF8000) )
                         {
@@ -2840,7 +2840,7 @@ LABEL_174:
         *(_DWORD *)(v56 + 12) = 1;
         if ( !*(_BYTE *)((v56 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v56 = &`vtable for'std::_Sp_counted_deleter<jaegertracing::logging::Logger *,std::default_delete<jaegertracing::logging::Logger>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v56 = &`vtable for std::_Sp_counted_deleter<jaegertracing::logging::Logger *,std::default_delete<jaegertracing::logging::Logger>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           v61 = v56 + 16;
           if ( !*(_BYTE *)(((v56 + 16) >> 3) + 0x7FFF8000) )
@@ -2906,7 +2906,7 @@ LABEL_203:
   v63 = *(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> **)(v5 + 80);
   if ( v63 )
     std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release(v63);
-  *(_QWORD *)(v5 + 80) = &`vtable for'jaegertracing::metrics::NullStatsFactory + 2;
+  *(_QWORD *)(v5 + 80) = &`vtable for jaegertracing::metrics::NullStatsFactory + 2;
   jaegertracing::Tracer::make(&v116, v5 + 1160, v5 + 1152, &v117, v5 + 80, 0LL);
   while ( 1 )
   {
@@ -3553,7 +3553,7 @@ LABEL_14:
     goto LABEL_20;
   }
   M_ptr = this->tracer_._M_ptr;
-  v65 = &`vtable for'opentracing::v3::SpanReference + 2;
+  v65 = &`vtable for opentracing::v3::SpanReference + 2;
   v66 = 1;
   span_ctx_ptra = span_ctx_ptr;
   v63 = &v65;
@@ -3861,7 +3861,7 @@ LABEL_78:
     __asan_report_store8(v20);
     goto LABEL_79;
   }
-  *(_QWORD *)v20 = &`vtable for'std::_Sp_counted_deleter<opentracing::v3::Span *,std::default_delete<opentracing::v3::Span>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v20 = &`vtable for std::_Sp_counted_deleter<opentracing::v3::Span *,std::default_delete<opentracing::v3::Span>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   p_traceID = v20 + 16;
   if ( !*(_BYTE *)(((v20 + 16) >> 3) + 0x7FFF8000) )

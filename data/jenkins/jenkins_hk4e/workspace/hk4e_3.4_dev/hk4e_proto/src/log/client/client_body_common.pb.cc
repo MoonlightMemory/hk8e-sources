@@ -130,7 +130,7 @@ void __cdecl proto_log::ClientLogBodyLogin::ClientLogBodyLogin(proto_log::Client
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -165,7 +165,7 @@ void __cdecl proto_log::ClientLogBodyLogin::ClientLogBodyLogin(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyLogin + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -281,7 +281,7 @@ void __cdecl proto_log::ClientLogBodyLogin::~ClientLogBodyLogin(proto_log::Clien
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1290,7 +1290,7 @@ void __cdecl proto_log::ClientLogBodyPing::ClientLogBodyPing(proto_log::ClientLo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyPing + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyPing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1330,7 +1330,7 @@ void __cdecl proto_log::ClientLogBodyPing::ClientLogBodyPing(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyPing + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyPing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -1461,7 +1461,7 @@ void __cdecl proto_log::ClientLogBodyPing::~ClientLogBodyPing(proto_log::ClientL
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::ClientLogBodyPing + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::ClientLogBodyPing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

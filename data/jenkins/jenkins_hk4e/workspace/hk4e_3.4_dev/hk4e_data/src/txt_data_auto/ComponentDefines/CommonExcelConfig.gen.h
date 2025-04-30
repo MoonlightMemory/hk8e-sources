@@ -14,7 +14,7 @@ void __cdecl data::FightPropGrowConfig::FightPropGrowConfig(
   const data::FightPropGrowConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FightPropGrowConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FightPropGrowConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FightPropGrowConfig = v2;
@@ -59,7 +59,7 @@ void __cdecl data::IdCountConfig::IdCountConfig(data::IdCountConfig *const this,
   const data::IdCountConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IdCountConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IdCountConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IdCountConfig = v2;
@@ -98,7 +98,7 @@ void __cdecl data::FetterConditionConfig::~FetterConditionConfig(data::FetterCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterConditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConditionConfig = v2;
@@ -155,7 +155,7 @@ void __cdecl data::ItemConfig::ItemConfig(data::ItemConfig *const this)
   __int64 v6; // rdx
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -250,7 +250,7 @@ void __cdecl data::ItemConfig::ItemConfig(data::ItemConfig *const this, const da
   const data::ItemConfig *v28; // [rsp+0h] [rbp-10h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -382,7 +382,7 @@ void __cdecl data::ItemConfig::~ItemConfig(data::ItemConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -421,7 +421,7 @@ void __cdecl data::EntityExcelConfig::EntityExcelConfig(data::EntityExcelConfig 
   v4[536862721] = -234753551;
   v4[536862722] = -234753535;
   v4[536862723] = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::EntityExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::EntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v5;
@@ -516,7 +516,7 @@ void __cdecl data::EntityExcelConfig::EntityExcelConfig(
   const data::EntityExcelConfig *v12; // [rsp+0h] [rbp-20h]
 
   v12 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EntityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -595,7 +595,7 @@ void __cdecl data::EntityExcelConfig::~EntityExcelConfig(data::EntityExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -659,7 +659,7 @@ void __cdecl data::FightPropGrowConfig::FightPropGrowConfig(data::FightPropGrowC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FightPropGrowConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FightPropGrowConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FightPropGrowConfig = v2;
@@ -690,7 +690,7 @@ void __cdecl data::FightPropGrowConfig::~FightPropGrowConfig(data::FightPropGrow
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FightPropGrowConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FightPropGrowConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FightPropGrowConfig = v2;
@@ -714,7 +714,7 @@ void __cdecl data::CreatureExcelConfig::CreatureExcelConfig(data::CreatureExcelC
   __int64 v13; // rsi
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::CreatureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CreatureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -912,7 +912,7 @@ void __cdecl data::CreatureExcelConfig::CreatureExcelConfig(
   float physical_add_hurt; // xmm0_4
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this, (const data::EntityExcelConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::CreatureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CreatureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -1212,7 +1212,7 @@ void __cdecl data::CreatureExcelConfig::~CreatureExcelConfig(data::CreatureExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CreatureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CreatureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -1276,7 +1276,7 @@ void __cdecl data::IdCountConfig::IdCountConfig(data::IdCountConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IdCountConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IdCountConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IdCountConfig = v2;
@@ -1300,7 +1300,7 @@ void __cdecl data::IdCountConfig::~IdCountConfig(data::IdCountConfig *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IdCountConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IdCountConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IdCountConfig = v2;
@@ -1319,7 +1319,7 @@ void __cdecl data::PropValConfig::PropValConfig(data::PropValConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PropValConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PropValConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PropValConfig = v2;
@@ -1347,7 +1347,7 @@ void __cdecl data::PropValConfig::PropValConfig(data::PropValConfig *const this,
   const data::PropValConfig *v6; // [rsp+0h] [rbp-10h]
 
   v6 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PropValConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PropValConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PropValConfig = v2;
@@ -1391,7 +1391,7 @@ void __cdecl data::PropValConfig::~PropValConfig(data::PropValConfig *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PropValConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PropValConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PropValConfig = v2;
@@ -1404,7 +1404,7 @@ void __cdecl data::GrowCurveInfo::GrowCurveInfo(data::GrowCurveInfo *const this)
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GrowCurveInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::GrowCurveInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GrowCurveInfo = v2;
@@ -1442,7 +1442,7 @@ void __cdecl data::GrowCurveInfo::GrowCurveInfo(data::GrowCurveInfo *const this,
   const data::GrowCurveInfo *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GrowCurveInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::GrowCurveInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GrowCurveInfo = v2;
@@ -1498,7 +1498,7 @@ void __cdecl data::GrowCurveInfo::~GrowCurveInfo(data::GrowCurveInfo *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GrowCurveInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::GrowCurveInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GrowCurveInfo = v2;
@@ -1521,7 +1521,7 @@ void __cdecl data::BaseTalentConfig::BaseTalentConfig(data::BaseTalentConfig *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseTalentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseTalentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentConfig = v2;
@@ -1537,7 +1537,7 @@ void __cdecl data::BaseTalentConfig::BaseTalentConfig(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseTalentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseTalentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentConfig = v2;
@@ -1552,7 +1552,7 @@ void __cdecl data::BaseTalentConfig::~BaseTalentConfig(data::BaseTalentConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseTalentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseTalentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentConfig = v2;
@@ -1633,7 +1633,7 @@ void __cdecl data::RandomItemConfig::RandomItemConfig(data::RandomItemConfig *co
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomItemConfig = v2;
@@ -1674,7 +1674,7 @@ void __cdecl data::RandomItemConfig::RandomItemConfig(
   const data::RandomItemConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomItemConfig = v2;
@@ -1726,7 +1726,7 @@ void __cdecl data::RandomItemConfig::~RandomItemConfig(data::RandomItemConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomItemConfig = v2;
@@ -1785,7 +1785,7 @@ void __cdecl data::OptionalLimitConfig::OptionalLimitConfig(data::OptionalLimitC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OptionalLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OptionalLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OptionalLimitConfig = v2;
@@ -1814,7 +1814,7 @@ void __cdecl data::OptionalLimitConfig::OptionalLimitConfig(
   const data::OptionalLimitConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OptionalLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OptionalLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OptionalLimitConfig = v2;
@@ -1857,7 +1857,7 @@ void __cdecl data::OptionalLimitConfig::~OptionalLimitConfig(data::OptionalLimit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OptionalLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OptionalLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OptionalLimitConfig = v2;
@@ -1869,7 +1869,7 @@ void __cdecl data::BaseServerBuffConfig::BaseServerBuffConfig(data::BaseServerBu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseServerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseServerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseServerBuffConfig = v2;
@@ -1903,7 +1903,7 @@ void __cdecl data::BaseServerBuffConfig::BaseServerBuffConfig(
   const data::BaseServerBuffConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BaseServerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseServerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseServerBuffConfig = v2;
@@ -1944,7 +1944,7 @@ void __cdecl data::BaseServerBuffConfig::~BaseServerBuffConfig(data::BaseServerB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseServerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseServerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseServerBuffConfig = v2;
@@ -1965,7 +1965,7 @@ void __cdecl data::WatcherTriggerConfig::WatcherTriggerConfig(data::WatcherTrigg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WatcherTriggerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherTriggerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherTriggerConfig = v2;
@@ -1990,7 +1990,7 @@ void __cdecl data::WatcherTriggerConfig::WatcherTriggerConfig(
   const data::WatcherTriggerConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WatcherTriggerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherTriggerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherTriggerConfig = v2;
@@ -2017,7 +2017,7 @@ void __cdecl data::WatcherTriggerConfig::~WatcherTriggerConfig(data::WatcherTrig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WatcherTriggerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherTriggerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherTriggerConfig = v2;
@@ -2058,7 +2058,7 @@ void __cdecl data::WatcherConfig::WatcherConfig(data::WatcherConfig *const this)
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
-  v5 = (int (**)(...))(&`vtable for'data::WatcherConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::WatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v5;
@@ -2114,7 +2114,7 @@ void __cdecl data::WatcherConfig::WatcherConfig(data::WatcherConfig *const this,
   const data::WatcherConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -2166,7 +2166,7 @@ void __cdecl data::WatcherConfig::~WatcherConfig(data::WatcherConfig *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -2189,7 +2189,7 @@ void __cdecl data::QuestGuide::QuestGuide(data::QuestGuide *const this)
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestGuide + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestGuide = v2;
@@ -2248,7 +2248,7 @@ void __cdecl data::QuestGuide::QuestGuide(data::QuestGuide *const this, const da
   const data::QuestGuide *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestGuide + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestGuide = v2;
@@ -2336,7 +2336,7 @@ void __cdecl data::QuestGuide::~QuestGuide(data::QuestGuide *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestGuide + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestGuide = v2;
@@ -2376,7 +2376,7 @@ void __cdecl data::FetterConditionConfig::FetterConditionConfig(data::FetterCond
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterConditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConditionConfig = v2;
@@ -2400,7 +2400,7 @@ void __cdecl data::FetterConditionConfig::FetterConditionConfig(
   const data::FetterConditionConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FetterConditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterConditionConfig = v2;
@@ -2433,7 +2433,7 @@ void __cdecl data::FetterConfig::FetterConfig(data::FetterConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -2466,7 +2466,7 @@ void __cdecl data::FetterConfig::FetterConfig(data::FetterConfig *const this, co
   const data::FetterConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FetterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterConfig = v2;
@@ -2515,7 +2515,7 @@ void __cdecl data::FetterConfig::~FetterConfig(data::FetterConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -2553,7 +2553,7 @@ void __cdecl data::SGVConfig::SGVConfig(data::SGVConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SGVConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SGVConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SGVConfig = v2;
@@ -2572,7 +2572,7 @@ void __cdecl data::SGVConfig::SGVConfig(data::SGVConfig *const this, const data:
   int (**v2)(...); // rdx
   float value; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::SGVConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SGVConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SGVConfig = v2;
@@ -2604,7 +2604,7 @@ void __cdecl data::SGVConfig::~SGVConfig(data::SGVConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SGVConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SGVConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SGVConfig = v2;
@@ -2617,7 +2617,7 @@ void __cdecl data::CustomSlotConfig::CustomSlotConfig(data::CustomSlotConfig *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomSlotConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomSlotConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomSlotConfig = v2;
@@ -2658,7 +2658,7 @@ void __cdecl data::CustomSlotConfig::CustomSlotConfig(
   const data::CustomSlotConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomSlotConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomSlotConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomSlotConfig = v2;
@@ -2711,7 +2711,7 @@ void __cdecl data::CustomSlotConfig::~CustomSlotConfig(data::CustomSlotConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomSlotConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomSlotConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomSlotConfig = v2;

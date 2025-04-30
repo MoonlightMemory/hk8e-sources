@@ -10,7 +10,7 @@ void __cdecl data::CoinCollectExcelConfig::CoinCollectExcelConfig(data::CoinColl
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoinCollectExcelConfig = v2;
@@ -108,7 +108,7 @@ void __cdecl data::CoinCollectExcelConfig::CoinCollectExcelConfig(
   const data::CoinCollectExcelConfig *v26; // [rsp+0h] [rbp-10h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoinCollectExcelConfig = v2;
@@ -244,7 +244,7 @@ void __cdecl data::CoinCollectExcelConfig::~CoinCollectExcelConfig(data::CoinCol
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoinCollectExcelConfig = v2;
@@ -267,7 +267,7 @@ void __cdecl data::CoinCollectSkillExcelConfig::CoinCollectSkillExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoinCollectSkillExcelConfig = v2;
@@ -307,7 +307,7 @@ void __cdecl data::CoinCollectSkillExcelConfig::CoinCollectSkillExcelConfig(
   const data::CoinCollectSkillExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoinCollectSkillExcelConfig = v2;
@@ -356,7 +356,7 @@ void __cdecl data::CoinCollectSkillExcelConfig::~CoinCollectSkillExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoinCollectSkillExcelConfig = v2;
@@ -392,7 +392,7 @@ void __cdecl data::CoinCollectOverallExcelConfig::CoinCollectOverallExcelConfig(
   const data::CoinCollectOverallExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoinCollectOverallExcelConfig = v2;
@@ -473,7 +473,7 @@ void __cdecl data::CoinCollectOverallExcelConfig::~CoinCollectOverallExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoinCollectOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoinCollectOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoinCollectOverallExcelConfig = v2;

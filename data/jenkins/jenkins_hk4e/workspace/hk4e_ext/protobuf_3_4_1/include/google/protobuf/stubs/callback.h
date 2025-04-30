@@ -5,7 +5,7 @@ void __cdecl google::protobuf::Closure::Closure(google::protobuf::Closure *const
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'google::protobuf::Closure + 2);
+  v1 = (int (**)(...))(&`vtable for google::protobuf::Closure + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Closure = v1;
@@ -20,7 +20,7 @@ void __cdecl google::protobuf::internal::FunctionClosure0::FunctionClosure0(
   int (**v3)(...); // rdx
 
   google::protobuf::Closure::Closure(this);
-  v3 = (int (**)(...))(&`vtable for'google::protobuf::internal::FunctionClosure0 + 2);
+  v3 = (int (**)(...))(&`vtable for google::protobuf::internal::FunctionClosure0 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Closure = v3;

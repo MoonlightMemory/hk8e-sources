@@ -9,7 +9,7 @@ void __cdecl ZN2BT13ConditionNodeCI2NS_8LeafNodeEERKNSt7__cxx1112basic_stringIcS
   int (**v3)(...); // rdx
 
   BT::LeafNode::LeafNode(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionNode + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -20,7 +20,7 @@ void __cdecl BT::ConditionNode::~ConditionNode(BT::ConditionNode *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionNode + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -51,7 +51,7 @@ void __cdecl BT::SimpleConditionNode::~SimpleConditionNode(BT::SimpleConditionNo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::SimpleConditionNode + 2);
+  v1 = (int (**)(...))(&`vtable for BT::SimpleConditionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

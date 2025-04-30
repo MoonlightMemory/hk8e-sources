@@ -9,7 +9,7 @@ void __cdecl data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(data::ConfigQTES
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigQTEStepBaseCond>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigQTEStepBaseCond>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -45,7 +45,7 @@ void __cdecl data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(
   std::enable_shared_from_this<data::ConfigQTEStepBaseCond>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigQTEStepBaseCond>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseCond + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigQTEStepBaseCond = v3;
@@ -81,7 +81,7 @@ void __cdecl data::ConfigQTEStepBaseCond::~ConfigQTEStepBaseCond(data::ConfigQTE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -156,7 +156,7 @@ void __cdecl data::ConfigQTEStepPowerBarCond::ConfigQTEStepPowerBarCond(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -189,7 +189,7 @@ void __cdecl data::ConfigQTEStepPowerBarCond::ConfigQTEStepPowerBarCond(
 
   v8 = a2;
   data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -228,7 +228,7 @@ void __cdecl data::ConfigQTEStepPowerBarCond::~ConfigQTEStepPowerBarCond(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -303,7 +303,7 @@ void __cdecl data::ConfigQTEStepPowerBarCondFactory::ConfigQTEStepPowerBarCondFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarCondFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarCondFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepPowerBarCondFactory = v2;
@@ -317,7 +317,7 @@ void __cdecl data::ConfigQTEButtonCountDownValueCond::ConfigQTEButtonCountDownVa
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEButtonCountDownValueCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEButtonCountDownValueCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -348,7 +348,7 @@ void __cdecl data::ConfigQTEButtonCountDownValueCond::ConfigQTEButtonCountDownVa
 
   v6 = a2;
   data::ConfigQTEStepBaseCond::ConfigQTEStepBaseCond(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEButtonCountDownValueCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEButtonCountDownValueCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -394,7 +394,7 @@ void __cdecl data::ConfigQTEButtonCountDownValueCond::~ConfigQTEButtonCountDownV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEButtonCountDownValueCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEButtonCountDownValueCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseCond = v2;
@@ -464,7 +464,7 @@ void __cdecl data::ConfigQTEButtonCountDownValueCondFactory::ConfigQTEButtonCoun
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEButtonCountDownValueCondFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEButtonCountDownValueCondFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEButtonCountDownValueCondFactory = v2;
@@ -581,7 +581,7 @@ void __cdecl data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(data::Config
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigQTEStepBaseAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigQTEStepBaseAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -621,7 +621,7 @@ void __cdecl data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(
   std::enable_shared_from_this<data::ConfigQTEStepBaseAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigQTEStepBaseAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigQTEStepBaseAction = v3;
@@ -676,7 +676,7 @@ void __cdecl data::ConfigQTEStepBaseAction::~ConfigQTEStepBaseAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -745,7 +745,7 @@ void __cdecl data::ConfigQTEStepPowerBarAction::ConfigQTEStepPowerBarAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction((data::ConfigQTEStepBaseAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -770,7 +770,7 @@ void __cdecl data::ConfigQTEStepPowerBarAction::ConfigQTEStepPowerBarAction(
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(
     (data::ConfigQTEStepBaseAction *const)this,
     (const data::ConfigQTEStepBaseAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -805,7 +805,7 @@ void __cdecl data::ConfigQTEStepPowerBarAction::~ConfigQTEStepPowerBarAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -873,7 +873,7 @@ void __cdecl data::ConfigQTEStepPowerBarActionFactory::ConfigQTEStepPowerBarActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepPowerBarActionFactory = v2;
@@ -887,7 +887,7 @@ void __cdecl data::ConfigQTEStepPlayAudioAction::ConfigQTEStepPlayAudioAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPlayAudioAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPlayAudioAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -902,7 +902,7 @@ void __cdecl data::ConfigQTEStepPlayAudioAction::ConfigQTEStepPlayAudioAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPlayAudioAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPlayAudioAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -916,7 +916,7 @@ void __cdecl data::ConfigQTEStepPlayAudioAction::~ConfigQTEStepPlayAudioAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPlayAudioAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPlayAudioAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -994,7 +994,7 @@ void __cdecl data::ConfigQTEStepPlayAudioActionFactory::ConfigQTEStepPlayAudioAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPlayAudioActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPlayAudioActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepPlayAudioActionFactory = v2;
@@ -1009,7 +1009,7 @@ void __cdecl data::ConfigQTEStepCutsceneFailedBlackScreenAction::ConfigQTEStepCu
   __int64 v3; // rsi
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction((data::ConfigQTEStepBaseAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1051,7 +1051,7 @@ void __cdecl data::ConfigQTEStepCutsceneFailedBlackScreenAction::ConfigQTEStepCu
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(
     (data::ConfigQTEStepBaseAction *const)this,
     (const data::ConfigQTEStepBaseAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1111,7 +1111,7 @@ void __cdecl data::ConfigQTEStepCutsceneFailedBlackScreenAction::~ConfigQTEStepC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneFailedBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1182,7 +1182,7 @@ void __cdecl data::ConfigQTEStepCutsceneFailedBlackScreenActionFactory::ConfigQT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneFailedBlackScreenActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneFailedBlackScreenActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepCutsceneFailedBlackScreenActionFactory = v2;
@@ -1196,7 +1196,7 @@ void __cdecl data::ConfigQTEStepCutsceneJumpPointAction::ConfigQTEStepCutsceneJu
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction((data::ConfigQTEStepBaseAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneJumpPointAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneJumpPointAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1221,7 +1221,7 @@ void __cdecl data::ConfigQTEStepCutsceneJumpPointAction::ConfigQTEStepCutsceneJu
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(
     (data::ConfigQTEStepBaseAction *const)this,
     (const data::ConfigQTEStepBaseAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneJumpPointAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneJumpPointAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1248,7 +1248,7 @@ void __cdecl data::ConfigQTEStepCutsceneJumpPointAction::~ConfigQTEStepCutsceneJ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneJumpPointAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneJumpPointAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1326,7 +1326,7 @@ void __cdecl data::ConfigQTEStepCutsceneJumpPointActionFactory::ConfigQTEStepCut
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCutsceneJumpPointActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCutsceneJumpPointActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepCutsceneJumpPointActionFactory = v2;
@@ -1340,7 +1340,7 @@ void __cdecl data::ConfigQTEStepBaseInterAction::ConfigQTEStepBaseInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1357,7 +1357,7 @@ void __cdecl data::ConfigQTEStepBaseInterAction::ConfigQTEStepBaseInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseAction::ConfigQTEStepBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1379,7 +1379,7 @@ void __cdecl data::ConfigQTEStepBaseInterAction::~ConfigQTEStepBaseInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1450,7 +1450,7 @@ void __cdecl data::ConfigQTEStepCameraMoveAction::ConfigQTEStepCameraMoveAction(
   int (**v2)(...); // rdx
 
   data::ConfigQTEStepBaseInterAction::ConfigQTEStepBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCameraMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCameraMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1469,7 +1469,7 @@ void __cdecl data::ConfigQTEStepCameraMoveAction::ConfigQTEStepCameraMoveAction(
   char v4; // al
 
   data::ConfigQTEStepBaseInterAction::ConfigQTEStepBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCameraMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCameraMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1500,7 +1500,7 @@ void __cdecl data::ConfigQTEStepCameraMoveAction::~ConfigQTEStepCameraMoveAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCameraMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCameraMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseAction = v2;
@@ -1569,7 +1569,7 @@ void __cdecl data::ConfigQTEStepCameraMoveActionFactory::ConfigQTEStepCameraMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepCameraMoveActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepCameraMoveActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepCameraMoveActionFactory = v2;
@@ -1651,7 +1651,7 @@ void __cdecl data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent(data::
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigQTEStepBaseComponent>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigQTEStepBaseComponent>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -1674,7 +1674,7 @@ void __cdecl data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent(
   std::enable_shared_from_this<data::ConfigQTEStepBaseComponent>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigQTEStepBaseComponent>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseComponent + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigQTEStepBaseComponent = v3;
@@ -1697,7 +1697,7 @@ void __cdecl data::ConfigQTEStepBaseComponent::~ConfigQTEStepBaseComponent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepBaseComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepBaseComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -1777,7 +1777,7 @@ void __cdecl data::ConfigQTEStepButtonComponent::ConfigQTEStepButtonComponent(
   __int64 v5; // rsi
 
   data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent((data::ConfigQTEStepBaseComponent *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepButtonComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepButtonComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -1863,7 +1863,7 @@ void __cdecl data::ConfigQTEStepButtonComponent::ConfigQTEStepButtonComponent(
   data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent(
     (data::ConfigQTEStepBaseComponent *const)this,
     (const data::ConfigQTEStepBaseComponent *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepButtonComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepButtonComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -1985,7 +1985,7 @@ void __cdecl data::ConfigQTEStepButtonComponent::~ConfigQTEStepButtonComponent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepButtonComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepButtonComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -2065,7 +2065,7 @@ void __cdecl data::ConfigQTEStepButtonComponentFactory::ConfigQTEStepButtonCompo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepButtonComponentFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepButtonComponentFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepButtonComponentFactory = v2;
@@ -2081,7 +2081,7 @@ void __cdecl data::ConfigQTEStepPowerBarComponent::ConfigQTEStepPowerBarComponen
   __int64 v4; // rsi
 
   data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent((data::ConfigQTEStepBaseComponent *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -2133,7 +2133,7 @@ void __cdecl data::ConfigQTEStepPowerBarComponent::ConfigQTEStepPowerBarComponen
   data::ConfigQTEStepBaseComponent::ConfigQTEStepBaseComponent(
     (data::ConfigQTEStepBaseComponent *const)this,
     (const data::ConfigQTEStepBaseComponent *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -2209,7 +2209,7 @@ void __cdecl data::ConfigQTEStepPowerBarComponent::~ConfigQTEStepPowerBarCompone
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarComponent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarComponent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepBaseComponent = v2;
@@ -2280,7 +2280,7 @@ void __cdecl data::ConfigQTEStepPowerBarComponentFactory::ConfigQTEStepPowerBarC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigQTEStepPowerBarComponentFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigQTEStepPowerBarComponentFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigQTEStepPowerBarComponentFactory = v2;

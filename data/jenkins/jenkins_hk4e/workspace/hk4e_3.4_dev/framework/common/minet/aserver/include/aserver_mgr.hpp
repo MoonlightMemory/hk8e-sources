@@ -17,7 +17,7 @@ void __cdecl common::minet::AServerMgr<GateserverSession>::AServerMgr(
   boost::asio::io_context *ioc_arr; // r13
 
   common::minet::AServerBase::AServerBase(this);
-  v2 = (int (**)(...))(&`vtable for'common::minet::AServerMgr<GateserverSession> + 2);
+  v2 = (int (**)(...))(&`vtable for common::minet::AServerMgr<GateserverSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AServerBase = v2;
@@ -139,7 +139,7 @@ void __cdecl common::minet::AServerMgr<HttpSession>::AServerMgr(common::minet::A
   boost::asio::io_context *ioc_arr; // r13
 
   common::minet::AServerBase::AServerBase(this);
-  v2 = (int (**)(...))(&`vtable for'common::minet::AServerMgr<HttpSession> + 2);
+  v2 = (int (**)(...))(&`vtable for common::minet::AServerMgr<HttpSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AServerBase = v2;
@@ -253,7 +253,7 @@ void __cdecl common::minet::AServerMgr<GateserverSession>::~AServerMgr(
   int (**v2)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v2 = (int (**)(...))(&`vtable for'common::minet::AServerMgr<GateserverSession> + 2);
+  v2 = (int (**)(...))(&`vtable for common::minet::AServerMgr<GateserverSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AServerBase = v2;
@@ -283,7 +283,7 @@ void __cdecl common::minet::AServerMgr<HttpSession>::~AServerMgr(common::minet::
   int (**v2)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v2 = (int (**)(...))(&`vtable for'common::minet::AServerMgr<HttpSession> + 2);
+  v2 = (int (**)(...))(&`vtable for common::minet::AServerMgr<HttpSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AServerBase = v2;

@@ -6,7 +6,7 @@ void __cdecl DraftExcelConfigMgr::DraftExcelConfigMgr(DraftExcelConfigMgr *const
   int (**v1)(...); // rdx
 
   data::DraftExcelConfigMgrBase::DraftExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'DraftExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DraftExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DraftExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl DraftExcelConfigMgr::~DraftExcelConfigMgr(DraftExcelConfigMgr *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DraftExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DraftExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DraftExcelConfigMgrBase = v1;

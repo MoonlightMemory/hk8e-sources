@@ -14,7 +14,7 @@ void __cdecl data::TauntLevelTemplateExcelConfig::TauntLevelTemplateExcelConfig(
   const data::TauntLevelTemplateExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TauntLevelTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TauntLevelTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TauntLevelTemplateExcelConfig = v2;
@@ -54,7 +54,7 @@ void __cdecl data::TauntLevelTemplateExcelConfig::~TauntLevelTemplateExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TauntLevelTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TauntLevelTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TauntLevelTemplateExcelConfig = v2;
@@ -75,7 +75,7 @@ void __cdecl data::LockTemplateExcelConfig::LockTemplateExcelConfig(data::LockTe
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LockTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LockTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LockTemplateExcelConfig = v2;
@@ -112,7 +112,7 @@ void __cdecl data::LockTemplateExcelConfig::LockTemplateExcelConfig(
   __int64 v5; // rsi
   float normal_pri; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::LockTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LockTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LockTemplateExcelConfig = v2;
@@ -162,7 +162,7 @@ void __cdecl data::LockTemplateExcelConfig::~LockTemplateExcelConfig(data::LockT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LockTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LockTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LockTemplateExcelConfig = v2;
@@ -183,7 +183,7 @@ void __cdecl data::HitLevelTemplateExcelConfig::HitLevelTemplateExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HitLevelTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HitLevelTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HitLevelTemplateExcelConfig = v2;
@@ -212,7 +212,7 @@ void __cdecl data::HitLevelTemplateExcelConfig::HitLevelTemplateExcelConfig(
   float hit_impulse_x; // xmm0_4
   float hit_impulse_y; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::HitLevelTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HitLevelTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HitLevelTemplateExcelConfig = v2;
@@ -251,7 +251,7 @@ void __cdecl data::HitLevelTemplateExcelConfig::~HitLevelTemplateExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HitLevelTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HitLevelTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HitLevelTemplateExcelConfig = v2;
@@ -273,7 +273,7 @@ void __cdecl data::EntityPropPerMpConfig::EntityPropPerMpConfig(data::EntityProp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityPropPerMpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityPropPerMpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityPropPerMpConfig = v2;
@@ -297,7 +297,7 @@ void __cdecl data::EntityPropPerMpConfig::EntityPropPerMpConfig(
   const data::EntityPropPerMpConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EntityPropPerMpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityPropPerMpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityPropPerMpConfig = v2;
@@ -330,7 +330,7 @@ void __cdecl data::EntityPropPerMpConfig::~EntityPropPerMpConfig(data::EntityPro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityPropPerMpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityPropPerMpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityPropPerMpConfig = v2;
@@ -344,7 +344,7 @@ void __cdecl data::EntityMultiPlayerExcelConfig::EntityMultiPlayerExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityMultiPlayerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityMultiPlayerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityMultiPlayerExcelConfig = v2;
@@ -368,7 +368,7 @@ void __cdecl data::EntityMultiPlayerExcelConfig::EntityMultiPlayerExcelConfig(
   const data::EntityMultiPlayerExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EntityMultiPlayerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityMultiPlayerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityMultiPlayerExcelConfig = v2;
@@ -395,7 +395,7 @@ void __cdecl data::EntityMultiPlayerExcelConfig::~EntityMultiPlayerExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityMultiPlayerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityMultiPlayerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityMultiPlayerExcelConfig = v2;
@@ -419,7 +419,7 @@ void __cdecl data::ChargeBarStyleExcelConfig::ChargeBarStyleExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ChargeBarStyleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChargeBarStyleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChargeBarStyleExcelConfig = v2;
@@ -451,7 +451,7 @@ void __cdecl data::ChargeBarStyleExcelConfig::~ChargeBarStyleExcelConfig(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChargeBarStyleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChargeBarStyleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChargeBarStyleExcelConfig = v2;
@@ -464,7 +464,7 @@ void __cdecl data::AttackAttenuationExcelConfig::AttackAttenuationExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AttackAttenuationExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AttackAttenuationExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AttackAttenuationExcelConfig = v2;
@@ -488,7 +488,7 @@ void __cdecl data::AttackAttenuationExcelConfig::AttackAttenuationExcelConfig(
   int (**v2)(...); // rdx
   float reset_cycle; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::AttackAttenuationExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AttackAttenuationExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AttackAttenuationExcelConfig = v2;
@@ -525,7 +525,7 @@ void __cdecl data::AttackAttenuationExcelConfig::~AttackAttenuationExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AttackAttenuationExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AttackAttenuationExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AttackAttenuationExcelConfig = v2;

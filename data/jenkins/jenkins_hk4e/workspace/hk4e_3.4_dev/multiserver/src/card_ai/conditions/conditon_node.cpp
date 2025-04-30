@@ -14,7 +14,7 @@ void __cdecl BT::SimpleConditionNode::SimpleConditionNode(
     this,
     name,
     config);
-  v4 = (int (**)(...))(&`vtable for'BT::SimpleConditionNode + 2);
+  v4 = (int (**)(...))(&`vtable for BT::SimpleConditionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v4;

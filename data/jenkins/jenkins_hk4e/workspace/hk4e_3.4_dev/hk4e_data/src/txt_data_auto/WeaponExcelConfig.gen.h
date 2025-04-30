@@ -7,7 +7,7 @@ void __cdecl data::WeaponProperty::WeaponProperty(data::WeaponProperty *const th
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponProperty + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponProperty + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponProperty = v2;
@@ -45,7 +45,7 @@ void __cdecl data::WeaponProperty::WeaponProperty(data::WeaponProperty *const th
   const data::WeaponProperty *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeaponProperty + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponProperty + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeaponProperty = v2;
@@ -103,7 +103,7 @@ void __cdecl data::WeaponProperty::~WeaponProperty(data::WeaponProperty *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponProperty + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponProperty + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponProperty = v2;
@@ -121,7 +121,7 @@ void __cdecl data::WeaponExcelConfig::WeaponExcelConfig(data::WeaponExcelConfig 
   __int64 v7; // rsi
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::WeaponExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -240,7 +240,7 @@ void __cdecl data::WeaponExcelConfig::WeaponExcelConfig(
   char v34; // al
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this, (const data::ItemConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::WeaponExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -412,7 +412,7 @@ void __cdecl data::WeaponExcelConfig::~WeaponExcelConfig(data::WeaponExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -430,7 +430,7 @@ void __cdecl data::WeaponLevelExcelConfig::WeaponLevelExcelConfig(data::WeaponLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponLevelExcelConfig = v2;
@@ -454,7 +454,7 @@ void __cdecl data::WeaponLevelExcelConfig::WeaponLevelExcelConfig(
   const data::WeaponLevelExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeaponLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeaponLevelExcelConfig = v2;
@@ -480,7 +480,7 @@ void __cdecl data::WeaponLevelExcelConfig::~WeaponLevelExcelConfig(data::WeaponL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponLevelExcelConfig = v2;
@@ -501,7 +501,7 @@ void __cdecl data::WeaponPromoteExcelConfig::WeaponPromoteExcelConfig(data::Weap
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponPromoteExcelConfig = v2;
@@ -564,7 +564,7 @@ void __cdecl data::WeaponPromoteExcelConfig::WeaponPromoteExcelConfig(
   const data::WeaponPromoteExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeaponPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeaponPromoteExcelConfig = v2;
@@ -655,7 +655,7 @@ void __cdecl data::WeaponPromoteExcelConfig::~WeaponPromoteExcelConfig(data::Wea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponPromoteExcelConfig = v2;

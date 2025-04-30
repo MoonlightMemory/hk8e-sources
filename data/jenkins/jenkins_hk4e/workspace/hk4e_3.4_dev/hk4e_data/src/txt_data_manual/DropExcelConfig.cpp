@@ -969,7 +969,7 @@ int32_t __cdecl DropExcelConfigMgr::rewriteMaxDropItemMap(DropExcelConfigMgr *co
       item_id = std::get<0ul,unsigned int const,unsigned int>((std::pair<unsigned int const,unsigned int> *)(v2 + 160));
       item_count = std::get<1ul,unsigned int const,unsigned int>((std::pair<unsigned int const,unsigned int> *)(v2 + 160));
       *(_WORD *)(((v2 + 256) >> 3) + 0x7FFF8000) = 0;
-      v10 = &`vtable for'data::IdCountConfig + 2;
+      v10 = &`vtable for data::IdCountConfig + 2;
       if ( *(_BYTE *)(((v2 + 256) >> 3) + 0x7FFF8000) )
         __asan_report_store8(v2 + 256, v9);
       *(_QWORD *)(v2 + 256) = v10;

@@ -6,7 +6,7 @@ void __cdecl LevelSuppressExcelConfigMgr::LevelSuppressExcelConfigMgr(LevelSuppr
   int (**v1)(...); // rdx
 
   data::LevelSuppressExcelConfigMgrBase::LevelSuppressExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'LevelSuppressExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for LevelSuppressExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_LevelSuppressExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl LevelSuppressExcelConfigMgr::~LevelSuppressExcelConfigMgr(LevelSupp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'LevelSuppressExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for LevelSuppressExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_LevelSuppressExcelConfigMgrBase = v1;

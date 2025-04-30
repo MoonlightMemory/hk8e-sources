@@ -5,7 +5,7 @@ void __fastcall mysqlpp::InitCommandOption::~InitCommandOption(mysqlpp::InitComm
 {
   mysqlpp::InitCommandOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::InitCommandOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::InitCommandOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -20,7 +20,7 @@ void __fastcall mysqlpp::InitCommandOption::~InitCommandOption(mysqlpp::InitComm
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -30,7 +30,7 @@ void __fastcall mysqlpp::ReadDefaultFileOption::~ReadDefaultFileOption(mysqlpp::
 {
   mysqlpp::ReadDefaultFileOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::ReadDefaultFileOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ReadDefaultFileOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -45,7 +45,7 @@ void __fastcall mysqlpp::ReadDefaultFileOption::~ReadDefaultFileOption(mysqlpp::
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -55,7 +55,7 @@ void __fastcall mysqlpp::ReadDefaultGroupOption::~ReadDefaultGroupOption(mysqlpp
 {
   mysqlpp::ReadDefaultGroupOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::ReadDefaultGroupOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ReadDefaultGroupOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -70,7 +70,7 @@ void __fastcall mysqlpp::ReadDefaultGroupOption::~ReadDefaultGroupOption(mysqlpp
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -83,7 +83,7 @@ void __fastcall mysqlpp::SetCharsetDirOption::~SetCharsetDirOption(mysqlpp::SetC
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -93,7 +93,7 @@ void __fastcall mysqlpp::SetCharsetDirOption::~SetCharsetDirOption(mysqlpp::SetC
 {
   mysqlpp::SetCharsetDirOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::SetCharsetDirOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SetCharsetDirOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -108,7 +108,7 @@ void __fastcall mysqlpp::SetCharsetNameOption::~SetCharsetNameOption(mysqlpp::Se
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -118,7 +118,7 @@ void __fastcall mysqlpp::SetCharsetNameOption::~SetCharsetNameOption(mysqlpp::Se
 {
   mysqlpp::SetCharsetNameOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::SetCharsetNameOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SetCharsetNameOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -133,7 +133,7 @@ void __fastcall mysqlpp::SetClientIpOption::~SetClientIpOption(mysqlpp::SetClien
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -143,7 +143,7 @@ void __fastcall mysqlpp::SetClientIpOption::~SetClientIpOption(mysqlpp::SetClien
 {
   mysqlpp::SetClientIpOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::SetClientIpOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SetClientIpOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -156,7 +156,7 @@ void __fastcall mysqlpp::SharedMemoryBaseNameOption::~SharedMemoryBaseNameOption
 {
   mysqlpp::SharedMemoryBaseNameOption *M_p; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::DataOption<std::string> + 2);
   M_p = (mysqlpp::SharedMemoryBaseNameOption *)this->arg_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SharedMemoryBaseNameOption *)&this->arg_._anon_0 )
     operator delete(M_p);
@@ -172,7 +172,7 @@ void __fastcall mysqlpp::SharedMemoryBaseNameOption::~SharedMemoryBaseNameOption
 
   M_p = this->arg_._M_dataplus._M_p;
   p_anon_0 = &this->arg_._anon_0;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::DataOption<std::string> + 2);
   if ( M_p != (std::string::pointer)p_anon_0 )
     operator delete(M_p);
 };
@@ -338,7 +338,7 @@ void __fastcall mysqlpp::SslOption::~SslOption(mysqlpp::SslOption *const this)
   mysqlpp::SslOption *v5; // rdi
   mysqlpp::SslOption *v6; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::SslOption + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::SslOption + 2);
   M_p = (mysqlpp::SslOption *)this->cipher_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SslOption *)&this->cipher_._anon_0 )
     operator delete(M_p);
@@ -365,7 +365,7 @@ void __fastcall mysqlpp::SslOption::~SslOption(mysqlpp::SslOption *const this)
   mysqlpp::SslOption *v5; // rdi
   mysqlpp::SslOption *v6; // rdi
 
-  this->_vptr_Option = (int (**)(...))(&`vtable for'mysqlpp::SslOption + 2);
+  this->_vptr_Option = (int (**)(...))(&`vtable for mysqlpp::SslOption + 2);
   M_p = (mysqlpp::SslOption *)this->cipher_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::SslOption *)&this->cipher_._anon_0 )
     operator delete(M_p);

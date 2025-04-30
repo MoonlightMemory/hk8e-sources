@@ -8,7 +8,7 @@ void __cdecl NodeserverApp::NodeserverApp(NodeserverApp *const this)
 
   AppBase::AppBase((AppBase *const)this);
   Singleton<NodeserverApp>::Singleton(this);
-  v2 = &`vtable for'NodeserverApp + 2;
+  v2 = &`vtable for NodeserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->gap0 = v2;
@@ -20,7 +20,7 @@ void __cdecl NodeserverApp::~NodeserverApp(NodeserverApp *const this)
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'NodeserverApp + 2;
+  v2 = &`vtable for NodeserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->gap0 = v2;

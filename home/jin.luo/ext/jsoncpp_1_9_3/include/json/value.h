@@ -5,7 +5,7 @@ void __fastcall Json::Exception::~Exception(Json::Exception *const this)
 {
   Json::Exception *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::Exception + 2;
   M_p = (Json::Exception *)this->msg_._M_dataplus._M_p;
   if ( M_p != (Json::Exception *)&this->msg_._anon_0 )
     operator delete(M_p);
@@ -22,14 +22,14 @@ void __fastcall Json::Exception::~Exception(Json::Exception *const this)
 // Line 83: range 00000000152D7DF0-00000000152D7DFE
 void __fastcall Json::RuntimeError::~RuntimeError(Json::RuntimeError *const this)
 {
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::RuntimeError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::RuntimeError + 2;
   Json::Exception::~Exception(this);
 };
 
 // Line 83: range 00000000152D7E30-00000000152D7E50
 void __fastcall Json::RuntimeError::~RuntimeError(Json::RuntimeError *const this)
 {
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::RuntimeError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::RuntimeError + 2;
   Json::Exception::~Exception(this);
   operator delete(this, 0x28uLL);
 };
@@ -37,14 +37,14 @@ void __fastcall Json::RuntimeError::~RuntimeError(Json::RuntimeError *const this
 // Line 94: range 00000000152D7E10-00000000152D7E1E
 void __fastcall Json::LogicError::~LogicError(Json::LogicError *const this)
 {
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::LogicError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::LogicError + 2;
   Json::Exception::~Exception(this);
 };
 
 // Line 94: range 00000000152D7E60-00000000152D7E80
 void __fastcall Json::LogicError::~LogicError(Json::LogicError *const this)
 {
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::LogicError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::LogicError + 2;
   Json::Exception::~Exception(this);
   operator delete(this, 0x28uLL);
 };

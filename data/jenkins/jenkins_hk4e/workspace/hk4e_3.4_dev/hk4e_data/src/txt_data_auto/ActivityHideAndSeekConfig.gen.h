@@ -10,7 +10,7 @@ void __cdecl data::ActivityHideAndSeekBasicConfig::ActivityHideAndSeekBasicConfi
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHideAndSeekBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHideAndSeekBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHideAndSeekBasicConfig = v2;
@@ -106,7 +106,7 @@ void __cdecl data::ActivityHideAndSeekBasicConfig::ActivityHideAndSeekBasicConfi
   const data::ActivityHideAndSeekBasicConfig *v26; // [rsp+0h] [rbp-20h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHideAndSeekBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHideAndSeekBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityHideAndSeekBasicConfig = v2;
@@ -242,7 +242,7 @@ void __cdecl data::ActivityHideAndSeekBasicConfig::~ActivityHideAndSeekBasicConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHideAndSeekBasicConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHideAndSeekBasicConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHideAndSeekBasicConfig = v2;
@@ -287,7 +287,7 @@ void __cdecl data::HideAndSeekSkillExcelConfig::HideAndSeekSkillExcelConfig(
   const data::HideAndSeekSkillExcelConfig *v22; // [rsp+0h] [rbp-10h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HideAndSeekSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HideAndSeekSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HideAndSeekSkillExcelConfig = v2;
@@ -391,7 +391,7 @@ void __cdecl data::HideAndSeekSkillExcelConfig::~HideAndSeekSkillExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HideAndSeekSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HideAndSeekSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HideAndSeekSkillExcelConfig = v2;
@@ -414,7 +414,7 @@ void __cdecl data::HideAndSeekMatchExcelConfig::HideAndSeekMatchExcelConfig(
   __int64 v3; // rsi
 
   data::MatchLimitExcelConfig::MatchLimitExcelConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::HideAndSeekMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HideAndSeekMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchLimitExcelConfig = v2;
@@ -459,7 +459,7 @@ void __cdecl data::HideAndSeekMatchExcelConfig::HideAndSeekMatchExcelConfig(
 
   v11 = a2;
   data::MatchLimitExcelConfig::MatchLimitExcelConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::HideAndSeekMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HideAndSeekMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchLimitExcelConfig = v2;
@@ -515,7 +515,7 @@ void __cdecl data::HideAndSeekMatchExcelConfig::~HideAndSeekMatchExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HideAndSeekMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HideAndSeekMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchLimitExcelConfig = v2;

@@ -15,7 +15,7 @@ void __cdecl data::MichiaeErosionAreaExcelConfig::MichiaeErosionAreaExcelConfig(
   const data::MichiaeErosionAreaExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = rsi0;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeErosionAreaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeErosionAreaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, rsi0);
   this->_vptr_MichiaeErosionAreaExcelConfig = v2;
@@ -86,7 +86,7 @@ void __cdecl data::MichiaeErosionAreaExcelConfig::~MichiaeErosionAreaExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeErosionAreaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeErosionAreaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeErosionAreaExcelConfig = v2;
@@ -109,7 +109,7 @@ void __cdecl data::MichiaeAntiErosionExcelConfig::MichiaeAntiErosionExcelConfig(
   const data::MichiaeAntiErosionExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeAntiErosionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeAntiErosionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeAntiErosionExcelConfig = v2;
@@ -193,7 +193,7 @@ void __cdecl data::MichiaeAntiErosionExcelConfig::~MichiaeAntiErosionExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeAntiErosionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeAntiErosionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeAntiErosionExcelConfig = v2;
@@ -207,7 +207,7 @@ void __cdecl data::MichiaeBattleSkillExcelConfig::MichiaeBattleSkillExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeBattleSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeBattleSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeBattleSkillExcelConfig = v2;
@@ -249,7 +249,7 @@ void __cdecl data::MichiaeBattleSkillExcelConfig::MichiaeBattleSkillExcelConfig(
   const data::MichiaeBattleSkillExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeBattleSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeBattleSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeBattleSkillExcelConfig = v2;
@@ -311,7 +311,7 @@ void __cdecl data::MichiaeBattleSkillExcelConfig::~MichiaeBattleSkillExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeBattleSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeBattleSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeBattleSkillExcelConfig = v2;
@@ -329,7 +329,7 @@ void __cdecl data::MichiaeOverallExcelConfig::MichiaeOverallExcelConfig(data::Mi
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeOverallExcelConfig = v2;
@@ -460,7 +460,7 @@ void __cdecl data::MichiaeOverallExcelConfig::MichiaeOverallExcelConfig(
   const data::MichiaeOverallExcelConfig *v33; // [rsp+0h] [rbp-10h]
 
   v33 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeOverallExcelConfig = v2;
@@ -645,7 +645,7 @@ void __cdecl data::MichiaeOverallExcelConfig::~MichiaeOverallExcelConfig(data::M
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeOverallExcelConfig = v2;
@@ -666,7 +666,7 @@ void __cdecl data::MichiaeStageExcelConfig::MichiaeStageExcelConfig(data::Michia
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeStageExcelConfig = v2;
@@ -718,7 +718,7 @@ void __cdecl data::MichiaeStageExcelConfig::MichiaeStageExcelConfig(
   const data::MichiaeStageExcelConfig *v14; // [rsp+0h] [rbp-10h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeStageExcelConfig = v2;
@@ -786,7 +786,7 @@ void __cdecl data::MichiaeStageExcelConfig::~MichiaeStageExcelConfig(data::Michi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeStageExcelConfig = v2;
@@ -814,7 +814,7 @@ void __cdecl data::MichiaeBossChallengeExcelConfig::MichiaeBossChallengeExcelCon
   const data::MichiaeBossChallengeExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeBossChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeBossChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeBossChallengeExcelConfig = v2;
@@ -854,7 +854,7 @@ void __cdecl data::MichiaeBossChallengeExcelConfig::~MichiaeBossChallengeExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeBossChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeBossChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeBossChallengeExcelConfig = v2;
@@ -876,7 +876,7 @@ void __cdecl data::MichiaeDarkChallengeExcelConfig::MichiaeDarkChallengeExcelCon
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeDarkChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeDarkChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeDarkChallengeExcelConfig = v2;
@@ -919,7 +919,7 @@ void __cdecl data::MichiaeDarkChallengeExcelConfig::MichiaeDarkChallengeExcelCon
   const data::MichiaeDarkChallengeExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeDarkChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeDarkChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeDarkChallengeExcelConfig = v2;
@@ -982,7 +982,7 @@ void __cdecl data::MichiaeDarkChallengeExcelConfig::~MichiaeDarkChallengeExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeDarkChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeDarkChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeDarkChallengeExcelConfig = v2;
@@ -995,7 +995,7 @@ void __cdecl data::MichiaeRadarExcelConfig::MichiaeRadarExcelConfig(data::Michia
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeRadarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeRadarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeRadarExcelConfig = v2;
@@ -1019,7 +1019,7 @@ void __cdecl data::MichiaeRadarExcelConfig::MichiaeRadarExcelConfig(
   const data::MichiaeRadarExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeRadarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeRadarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeRadarExcelConfig = v2;
@@ -1045,7 +1045,7 @@ void __cdecl data::MichiaeRadarExcelConfig::~MichiaeRadarExcelConfig(data::Michi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeRadarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeRadarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeRadarExcelConfig = v2;

@@ -2114,7 +2114,7 @@ LABEL_39:
           for ( idx = 0; idx < std::vector<unsigned int>::size((const std::vector<unsigned int> *const)(v3 + 224)); idx += 2 )
           {
             *(_WORD *)(((v3 + 192) >> 3) + 0x7FFF8000) = 0;
-            v42 = &`vtable for'data::IdCountConfig + 2;
+            v42 = &`vtable for data::IdCountConfig + 2;
             if ( *(_BYTE *)(((v3 + 192) >> 3) + 0x7FFF8000) )
               __asan_report_store8(v3 + 192, v31);
             *(_QWORD *)(v3 + 192) = v42;

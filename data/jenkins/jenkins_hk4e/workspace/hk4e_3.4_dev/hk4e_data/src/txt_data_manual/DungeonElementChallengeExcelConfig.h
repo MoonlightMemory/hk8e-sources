@@ -7,7 +7,7 @@ void __cdecl DungeonElementChallengeExcelConfigMgr::DungeonElementChallengeExcel
   int (**v1)(...); // rdx
 
   data::DungeonElementChallengeExcelConfigMgrBase::DungeonElementChallengeExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'DungeonElementChallengeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonElementChallengeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonElementChallengeExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl DungeonElementChallengeExcelConfigMgr::~DungeonElementChallengeExce
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonElementChallengeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonElementChallengeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonElementChallengeExcelConfigMgrBase = v1;

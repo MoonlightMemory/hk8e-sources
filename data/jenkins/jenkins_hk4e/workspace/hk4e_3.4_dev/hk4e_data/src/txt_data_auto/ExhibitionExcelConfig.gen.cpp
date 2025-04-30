@@ -12569,7 +12569,7 @@ int32_t __cdecl data::ExhibitionExcelConfigMgrBase::loadExhibitionCardExcelConfi
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ExhibitionCardExcelConfig + 2;
+        v15 = &`vtable for data::ExhibitionCardExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -12919,7 +12919,7 @@ int32_t __cdecl data::ExhibitionExcelConfigMgrBase::loadExhibitionScoreExcelConf
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ExhibitionScoreExcelConfig + 2;
+        v14 = &`vtable for data::ExhibitionScoreExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;
@@ -13278,7 +13278,7 @@ int32_t __cdecl data::ExhibitionExcelConfigMgrBase::loadExhibitionListExcelConfi
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ExhibitionListExcelConfig + 2;
+        v14 = &`vtable for data::ExhibitionListExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;

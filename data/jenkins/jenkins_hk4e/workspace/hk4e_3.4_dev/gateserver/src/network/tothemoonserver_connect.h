@@ -8,7 +8,7 @@ void __cdecl TothemoonserverConnect::TothemoonserverConnect(
   int (**v2)(...); // rdx
 
   common::minet::AClientConnect::AClientConnect(this, ioc);
-  v2 = (int (**)(...))(&`vtable for'TothemoonserverConnect + 2);
+  v2 = (int (**)(...))(&`vtable for TothemoonserverConnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientConnect = v2;
@@ -19,7 +19,7 @@ void __cdecl TothemoonserverConnect::~TothemoonserverConnect(TothemoonserverConn
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TothemoonserverConnect + 2);
+  v1 = (int (**)(...))(&`vtable for TothemoonserverConnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientConnect = v1;

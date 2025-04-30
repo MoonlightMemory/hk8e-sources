@@ -32,7 +32,7 @@ std::string *__fastcall mysqlpp::stream2string<char>(std::string *retstr, const 
   v22[27] = 0LL;
   v24 = 0LL;
   v25 = 0LL;
-  v22[0] = (__int64)&`vtable for'std::ios + 16;
+  v22[0] = (__int64)&`vtable for std::ios + 16;
   v23 = 0;
   v26 = 0LL;
   v27 = 0LL;
@@ -47,17 +47,17 @@ std::string *__fastcall mysqlpp::stream2string<char>(std::string *retstr, const 
   v13[1] = 0LL;
   v13[2] = 0LL;
   v14 = 0LL;
-  v12 = (__int64)&`vtable for'std::ostringstream + 24;
+  v12 = (__int64)&`vtable for std::ostringstream + 24;
   v15 = 0LL;
   v16 = 0LL;
-  v22[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v22[0] = (__int64)&`vtable for std::ostringstream + 64;
   v17 = 0LL;
-  v13[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v13[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v18);
   v19 = 16;
   v20[1] = 0LL;
   v21[0] = 0;
-  v13[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v13[0] = (__int64)&`vtable for std::stringbuf + 16;
   v20[0] = v21;
   std::ios::init(v22, v13);
   v11 = *object;
@@ -77,17 +77,17 @@ std::string *__fastcall mysqlpp::stream2string<char>(std::string *retstr, const 
   {
     std::string::_M_assign(retstr, v20);
   }
-  v12 = (__int64)&`vtable for'std::ostringstream + 24;
-  v22[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v13[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12 = (__int64)&`vtable for std::ostringstream + 24;
+  v22[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v13[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v20[0] != v21 )
     operator delete(v20[0]);
-  v13[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v13[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v18);
   v8 = *(_QWORD *)(v3 - 24);
   v12 = v3;
   *(__int64 *)((char *)&v13[-1] + v8) = v10;
-  v22[0] = (__int64)&`vtable for'std::ios + 16;
+  v22[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v22);
   return retstr;
 };
@@ -123,7 +123,7 @@ std::string *__fastcall mysqlpp::stream2string<int>(std::string *retstr, const i
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -138,16 +138,16 @@ std::string *__fastcall mysqlpp::stream2string<int>(std::string *retstr, const i
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -167,17 +167,17 @@ std::string *__fastcall mysqlpp::stream2string<int>(std::string *retstr, const i
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -213,7 +213,7 @@ std::string *__fastcall mysqlpp::stream2string<long long>(std::string *retstr, c
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -228,16 +228,16 @@ std::string *__fastcall mysqlpp::stream2string<long long>(std::string *retstr, c
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -257,17 +257,17 @@ std::string *__fastcall mysqlpp::stream2string<long long>(std::string *retstr, c
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -303,7 +303,7 @@ std::string *__fastcall mysqlpp::stream2string<long>(std::string *retstr, const 
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -318,16 +318,16 @@ std::string *__fastcall mysqlpp::stream2string<long>(std::string *retstr, const 
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -347,17 +347,17 @@ std::string *__fastcall mysqlpp::stream2string<long>(std::string *retstr, const 
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -393,7 +393,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Date>(std::string *retst
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -408,16 +408,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Date>(std::string *retst
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -437,17 +437,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Date>(std::string *retst
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -483,7 +483,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::DateTime>(std::string *r
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -498,16 +498,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::DateTime>(std::string *r
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -527,17 +527,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::DateTime>(std::string *r
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -576,7 +576,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<char,mysqlpp::NullI
   v22[27] = 0LL;
   v24 = 0LL;
   v25 = 0LL;
-  v22[0] = (__int64)&`vtable for'std::ios + 16;
+  v22[0] = (__int64)&`vtable for std::ios + 16;
   v23 = 0;
   v26 = 0LL;
   v27 = 0LL;
@@ -591,17 +591,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<char,mysqlpp::NullI
   v13[1] = 0LL;
   v13[2] = 0LL;
   v14 = 0LL;
-  v12 = (__int64)&`vtable for'std::ostringstream + 24;
+  v12 = (__int64)&`vtable for std::ostringstream + 24;
   v15 = 0LL;
   v16 = 0LL;
-  v22[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v22[0] = (__int64)&`vtable for std::ostringstream + 64;
   v17 = 0LL;
-  v13[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v13[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v18);
   v19 = 16;
   v20[1] = 0LL;
   v21[0] = 0;
-  v13[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v13[0] = (__int64)&`vtable for std::stringbuf + 16;
   v20[0] = v21;
   std::ios::init(v22, v13);
   if ( object->is_null )
@@ -628,17 +628,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<char,mysqlpp::NullI
   {
     std::string::_M_assign(retstr, v20);
   }
-  v12 = (__int64)&`vtable for'std::ostringstream + 24;
-  v22[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v13[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12 = (__int64)&`vtable for std::ostringstream + 24;
+  v22[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v13[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v20[0] != v21 )
     operator delete(v20[0]);
-  v13[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v13[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v18);
   v8 = *(_QWORD *)(v3 - 24);
   v12 = v3;
   *(__int64 *)((char *)&v13[-1] + v8) = v10;
-  v22[0] = (__int64)&`vtable for'std::ios + 16;
+  v22[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v22);
   return retstr;
 };
@@ -676,7 +676,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<int,mysqlpp::NullIs
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -691,16 +691,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<int,mysqlpp::NullIs
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -723,17 +723,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<int,mysqlpp::NullIs
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -771,7 +771,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long long,mysqlpp::
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -786,16 +786,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long long,mysqlpp::
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -818,17 +818,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long long,mysqlpp::
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -866,7 +866,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long,mysqlpp::NullI
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -881,16 +881,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long,mysqlpp::NullI
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -913,17 +913,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<long,mysqlpp::NullI
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -961,7 +961,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Date,mysql
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -976,17 +976,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Date,mysql
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v19[1] = 0LL;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   std::ios::init(v21, v12);
   if ( object->is_null )
@@ -1008,17 +1008,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Date,mysql
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1056,7 +1056,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::DateTime,m
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1071,17 +1071,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::DateTime,m
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v19[1] = 0LL;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   std::ios::init(v21, v12);
   if ( object->is_null )
@@ -1103,17 +1103,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::DateTime,m
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1151,7 +1151,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Time,mysql
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1166,17 +1166,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Time,mysql
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v19[1] = 0LL;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   std::ios::init(v21, v12);
   if ( object->is_null )
@@ -1198,17 +1198,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Time,mysql
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1246,7 +1246,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<s
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1261,16 +1261,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<s
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1293,17 +1293,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<s
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1341,7 +1341,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<u
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1356,16 +1356,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<u
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1388,17 +1388,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<u
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1436,7 +1436,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<short,mysqlpp::Null
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1451,16 +1451,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<short,mysqlpp::Null
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1483,17 +1483,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<short,mysqlpp::Null
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1531,7 +1531,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned int,mysqlp
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1546,16 +1546,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned int,mysqlp
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1578,17 +1578,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned int,mysqlp
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1626,7 +1626,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long long,
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1641,16 +1641,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long long,
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1673,17 +1673,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long long,
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1721,7 +1721,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long,mysql
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1736,16 +1736,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long,mysql
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1768,17 +1768,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned long,mysql
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1816,7 +1816,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned short,mysq
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1831,16 +1831,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned short,mysq
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1863,17 +1863,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Null<unsigned short,mysq
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -1909,7 +1909,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Time>(std::string *retst
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -1924,16 +1924,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Time>(std::string *retst
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -1953,17 +1953,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::Time>(std::string *retst
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2001,7 +2001,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<signed char>>(
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2016,16 +2016,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<signed char>>(
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2045,17 +2045,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<signed char>>(
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2093,7 +2093,7 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<unsigned char>>
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2108,16 +2108,16 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<unsigned char>>
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2137,17 +2137,17 @@ std::string *__fastcall mysqlpp::stream2string<mysqlpp::tiny_int<unsigned char>>
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2183,7 +2183,7 @@ std::string *__fastcall mysqlpp::stream2string<short>(std::string *retstr, const
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2198,16 +2198,16 @@ std::string *__fastcall mysqlpp::stream2string<short>(std::string *retstr, const
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2227,17 +2227,17 @@ std::string *__fastcall mysqlpp::stream2string<short>(std::string *retstr, const
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2273,7 +2273,7 @@ std::string *__fastcall mysqlpp::stream2string<unsigned int>(std::string *retstr
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2288,16 +2288,16 @@ std::string *__fastcall mysqlpp::stream2string<unsigned int>(std::string *retstr
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2317,17 +2317,17 @@ std::string *__fastcall mysqlpp::stream2string<unsigned int>(std::string *retstr
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2363,7 +2363,7 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long long>(std::string *
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2378,16 +2378,16 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long long>(std::string *
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2407,17 +2407,17 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long long>(std::string *
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2453,7 +2453,7 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long>(std::string *retst
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2468,16 +2468,16 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long>(std::string *retst
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2497,17 +2497,17 @@ std::string *__fastcall mysqlpp::stream2string<unsigned long>(std::string *retst
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };
@@ -2543,7 +2543,7 @@ std::string *__fastcall mysqlpp::stream2string<unsigned short>(std::string *rets
   v21[27] = 0LL;
   v23 = 0LL;
   v24 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   v22 = 0;
   v25 = 0LL;
   v26 = 0LL;
@@ -2558,16 +2558,16 @@ std::string *__fastcall mysqlpp::stream2string<unsigned short>(std::string *rets
   v12[1] = 0LL;
   v12[2] = 0LL;
   v13 = 0LL;
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
   v14 = 0LL;
   v15 = 0LL;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
   v16 = 0LL;
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v17);
   v18 = 16;
   v20[0] = 0;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   v19[0] = v20;
   v19[1] = 0LL;
   std::ios::init(v21, v12);
@@ -2587,17 +2587,17 @@ std::string *__fastcall mysqlpp::stream2string<unsigned short>(std::string *rets
   {
     std::string::_M_assign(retstr, v19);
   }
-  v11 = (__int64)&`vtable for'std::ostringstream + 24;
-  v21[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v12[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v11 = (__int64)&`vtable for std::ostringstream + 24;
+  v21[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v12[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v19[0] != v20 )
     operator delete(v19[0]);
-  v12[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v12[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v17);
   v8 = *(_QWORD *)(v3 - 24);
   v11 = v3;
   *(__int64 *)((char *)&v12[-1] + v8) = v10;
-  v21[0] = (__int64)&`vtable for'std::ios + 16;
+  v21[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v21);
   return retstr;
 };

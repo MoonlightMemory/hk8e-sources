@@ -6,7 +6,7 @@ void __cdecl CodexExcelConfigMgr::CodexExcelConfigMgr(CodexExcelConfigMgr *const
   int (**v1)(...); // rdx
 
   data::CodexExcelConfigMgrBase::CodexExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'CodexExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CodexExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CodexExcelConfigMgrBase = v1;
@@ -28,7 +28,7 @@ void __cdecl CodexExcelConfigMgr::~CodexExcelConfigMgr(CodexExcelConfigMgr *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CodexExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CodexExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CodexExcelConfigMgrBase = v1;

@@ -6,7 +6,7 @@ void __cdecl data::ShopmallRecommendCond::ShopmallRecommendCond(data::ShopmallRe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallRecommendCond = v2;
@@ -45,7 +45,7 @@ void __cdecl data::ShopmallRecommendCond::~ShopmallRecommendCond(data::ShopmallR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallRecommendCond = v2;
@@ -121,7 +121,7 @@ void __cdecl data::ShopmallEntranceExcelConfig::ShopmallEntranceExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallEntranceExcelConfig = v2;
@@ -163,7 +163,7 @@ void __cdecl data::ShopmallEntranceExcelConfig::ShopmallEntranceExcelConfig(
   const data::ShopmallEntranceExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopmallEntranceExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::ShopmallEntranceExcelConfig::~ShopmallEntranceExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallEntranceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallEntranceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallEntranceExcelConfig = v2;
@@ -239,7 +239,7 @@ void __cdecl data::ProductDetailConfig::ProductDetailConfig(data::ProductDetailC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -281,7 +281,7 @@ void __cdecl data::ProductDetailConfig::ProductDetailConfig(
   const data::ProductDetailConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ProductDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -335,7 +335,7 @@ void __cdecl data::ProductDetailConfig::~ProductDetailConfig(data::ProductDetail
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -356,7 +356,7 @@ void __cdecl data::ShopmallRecommendConfig::ShopmallRecommendConfig(data::Shopma
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallRecommendConfig = v2;
@@ -418,7 +418,7 @@ void __cdecl data::ShopmallRecommendConfig::ShopmallRecommendConfig(
   const data::ShopmallRecommendConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopmallRecommendConfig = v2;
@@ -508,7 +508,7 @@ void __cdecl data::ShopmallRecommendConfig::~ShopmallRecommendConfig(data::Shopm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallRecommendConfig = v2;
@@ -526,7 +526,7 @@ void __cdecl data::ProductMcoinDetailConfig::ProductMcoinDetailConfig(data::Prod
   __int64 v4; // rsi
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductMcoinDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductMcoinDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -593,7 +593,7 @@ void __cdecl data::ProductMcoinDetailConfig::ProductMcoinDetailConfig(
 
   v18 = a2;
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductMcoinDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductMcoinDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -682,7 +682,7 @@ void __cdecl data::ProductMcoinDetailConfig::~ProductMcoinDetailConfig(data::Pro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductMcoinDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductMcoinDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -707,7 +707,7 @@ void __cdecl data::ProductCardDetailConfig::ProductCardDetailConfig(data::Produc
   __int64 v5; // rsi
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -797,7 +797,7 @@ void __cdecl data::ProductCardDetailConfig::ProductCardDetailConfig(
 
   v23 = a2;
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -927,7 +927,7 @@ void __cdecl data::ProductCardDetailConfig::~ProductCardDetailConfig(data::Produ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -943,7 +943,7 @@ void __cdecl data::ProductPlayDetailConfig::ProductPlayDetailConfig(data::Produc
   int (**v2)(...); // rdx
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPlayDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPlayDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -976,7 +976,7 @@ void __cdecl data::ProductPlayDetailConfig::ProductPlayDetailConfig(
 
   v8 = a2;
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPlayDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPlayDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1022,7 +1022,7 @@ void __cdecl data::ProductPlayDetailConfig::~ProductPlayDetailConfig(data::Produ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductPlayDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPlayDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1078,7 +1078,7 @@ void __cdecl data::PackageContentConfig::PackageContentConfig(data::PackageConte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PackageContentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PackageContentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PackageContentConfig = v2;
@@ -1110,7 +1110,7 @@ void __cdecl data::PackageContentConfig::PackageContentConfig(
   const data::PackageContentConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PackageContentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PackageContentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PackageContentConfig = v2;
@@ -1149,7 +1149,7 @@ void __cdecl data::PackageContentConfig::~PackageContentConfig(data::PackageCont
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PackageContentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PackageContentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PackageContentConfig = v2;
@@ -1170,7 +1170,7 @@ void __cdecl data::ProductPS4PackageDetailConfig::ProductPS4PackageDetailConfig(
   int (**v2)(...); // rdx
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPS4PackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPS4PackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1194,7 +1194,7 @@ void __cdecl data::ProductPS4PackageDetailConfig::ProductPS4PackageDetailConfig(
   char v5; // al
 
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPS4PackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPS4PackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1222,7 +1222,7 @@ void __cdecl data::ProductPS4PackageDetailConfig::~ProductPS4PackageDetailConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductPS4PackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPS4PackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1246,7 +1246,7 @@ void __cdecl data::ProductGoogleGiftCardDetailConfig::ProductGoogleGiftCardDetai
   int (**v2)(...); // rdx
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductGoogleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductGoogleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1270,7 +1270,7 @@ void __cdecl data::ProductGoogleGiftCardDetailConfig::ProductGoogleGiftCardDetai
   char v5; // al
 
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductGoogleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductGoogleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1306,7 +1306,7 @@ void __cdecl data::ProductGoogleGiftCardDetailConfig::~ProductGoogleGiftCardDeta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductGoogleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductGoogleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1323,7 +1323,7 @@ void __cdecl data::ProductConcertPackageDetailConfig::ProductConcertPackageDetai
   __int64 v3; // rsi
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductConcertPackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductConcertPackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1387,7 +1387,7 @@ void __cdecl data::ProductConcertPackageDetailConfig::ProductConcertPackageDetai
 
   v16 = a2;
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductConcertPackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductConcertPackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1472,7 +1472,7 @@ void __cdecl data::ProductConcertPackageDetailConfig::~ProductConcertPackageDeta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductConcertPackageDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductConcertPackageDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1499,7 +1499,7 @@ void __cdecl data::ProductAppleGiftCardDetailConfig::ProductAppleGiftCardDetailC
   int (**v2)(...); // rdx
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductAppleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductAppleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1524,7 +1524,7 @@ void __cdecl data::ProductAppleGiftCardDetailConfig::ProductAppleGiftCardDetailC
   char v5; // al
 
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductAppleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductAppleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1553,7 +1553,7 @@ void __cdecl data::ProductAppleGiftCardDetailConfig::~ProductAppleGiftCardDetail
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductAppleGiftCardDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductAppleGiftCardDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1578,7 +1578,7 @@ void __cdecl data::ProductPsnCompensationDetailConfig::ProductPsnCompensationDet
   int (**v2)(...); // rdx
 
   data::ProductDetailConfig::ProductDetailConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPsnCompensationDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPsnCompensationDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1611,7 +1611,7 @@ void __cdecl data::ProductPsnCompensationDetailConfig::ProductPsnCompensationDet
   char v8; // dl
 
   data::ProductDetailConfig::ProductDetailConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ProductPsnCompensationDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPsnCompensationDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductDetailConfig = v2;
@@ -1661,7 +1661,7 @@ void __cdecl data::ProductPsnCompensationDetailConfig::~ProductPsnCompensationDe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductPsnCompensationDetailConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductPsnCompensationDetailConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductDetailConfig = v2;
@@ -1675,7 +1675,7 @@ void __cdecl data::PriceTierConfig::PriceTierConfig(data::PriceTierConfig *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PriceTierConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PriceTierConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PriceTierConfig = v2;
@@ -1696,7 +1696,7 @@ void __cdecl data::PriceTierConfig::PriceTierConfig(data::PriceTierConfig *const
   uint32_t vip_point; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::PriceTierConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PriceTierConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PriceTierConfig = v2;
@@ -1730,7 +1730,7 @@ void __cdecl data::PriceTierConfig::~PriceTierConfig(data::PriceTierConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PriceTierConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PriceTierConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PriceTierConfig = v2;
@@ -1743,7 +1743,7 @@ void __cdecl data::EpicCatalogShieldConfig::EpicCatalogShieldConfig(data::EpicCa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EpicCatalogShieldConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EpicCatalogShieldConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EpicCatalogShieldConfig = v2;
@@ -1767,7 +1767,7 @@ void __cdecl data::EpicCatalogShieldConfig::EpicCatalogShieldConfig(
   const data::EpicCatalogShieldConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EpicCatalogShieldConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EpicCatalogShieldConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EpicCatalogShieldConfig = v2;
@@ -1793,7 +1793,7 @@ void __cdecl data::EpicCatalogShieldConfig::~EpicCatalogShieldConfig(data::EpicC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EpicCatalogShieldConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EpicCatalogShieldConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EpicCatalogShieldConfig = v2;
@@ -1815,7 +1815,7 @@ void __cdecl data::ProductIdConfig::ProductIdConfig(data::ProductIdConfig *const
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductIdConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductIdConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductIdConfig = v2;
@@ -1850,7 +1850,7 @@ void __cdecl data::ProductIdConfig::ProductIdConfig(data::ProductIdConfig *const
   char v9; // dl
   __int64 v10; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductIdConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductIdConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ProductIdConfig = v2;
@@ -1899,7 +1899,7 @@ void __cdecl data::ProductIdConfig::~ProductIdConfig(data::ProductIdConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ProductIdConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ProductIdConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ProductIdConfig = v2;
@@ -1918,7 +1918,7 @@ void __cdecl data::ShopmallGoodsSaleConfig::ShopmallGoodsSaleConfig(data::Shopma
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallGoodsSaleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallGoodsSaleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallGoodsSaleConfig = v2;
@@ -1998,7 +1998,7 @@ void __cdecl data::ShopmallGoodsSaleConfig::ShopmallGoodsSaleConfig(
   const data::ShopmallGoodsSaleConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallGoodsSaleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallGoodsSaleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopmallGoodsSaleConfig = v2;
@@ -2115,7 +2115,7 @@ void __cdecl data::ShopmallGoodsSaleConfig::~ShopmallGoodsSaleConfig(data::Shopm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallGoodsSaleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallGoodsSaleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopmallGoodsSaleConfig = v2;
@@ -2202,7 +2202,7 @@ void __cdecl data::ShopmallRecommendCond::ShopmallRecommendCond(
   const data::ShopmallRecommendCond *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopmallRecommendCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopmallRecommendCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopmallRecommendCond = v2;

@@ -7,7 +7,7 @@ void __cdecl ActivityTanukiTravelExcelConfigMgr::ActivityTanukiTravelExcelConfig
   int (**v1)(...); // rdx
 
   data::ActivityTanukiTravelExcelConfigMgrBase::ActivityTanukiTravelExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityTanukiTravelExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityTanukiTravelExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityTanukiTravelExcelConfigMgrBase = v1;
@@ -24,7 +24,7 @@ void __cdecl ActivityTanukiTravelExcelConfigMgr::~ActivityTanukiTravelExcelConfi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityTanukiTravelExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityTanukiTravelExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityTanukiTravelExcelConfigMgrBase = v1;

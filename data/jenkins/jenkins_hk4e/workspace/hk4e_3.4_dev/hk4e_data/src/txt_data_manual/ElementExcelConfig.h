@@ -6,7 +6,7 @@ void __cdecl ElementExcelConfigMgr::ElementExcelConfigMgr(ElementExcelConfigMgr 
   int (**v1)(...); // rdx
 
   data::ElementExcelConfigMgrBase::ElementExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ElementExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ElementExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ElementExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl ElementExcelConfigMgr::~ElementExcelConfigMgr(ElementExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ElementExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ElementExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ElementExcelConfigMgrBase = v1;

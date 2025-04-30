@@ -14,7 +14,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -36,7 +36,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -50,7 +50,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::exception_detail::clone_imp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -72,7 +72,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::exception_detail::clone_imp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -102,7 +102,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::connectio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -124,7 +124,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::connectio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -146,7 +146,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_l
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -168,7 +168,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_l
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -182,7 +182,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_im
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *)>,boost::signals2::mutex>::invocation_state>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *)>,boost::signals2::mutex>::invocation_state>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -212,7 +212,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_im
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *,unsigned int),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *,unsigned int)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *,unsigned int)>,boost::signals2::mutex>::invocation_state>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *,unsigned int),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *,unsigned int)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *,unsigned int)>,boost::signals2::mutex>::invocation_state>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -234,7 +234,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(commo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -256,7 +256,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(commo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>>
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -272,7 +272,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -290,7 +290,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -308,7 +308,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::exception_detail::clone_imp
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -326,7 +326,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::exception_detail::clone_imp
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -344,7 +344,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::connectio
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -362,7 +362,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::connectio
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -380,7 +380,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_l
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>,boost::signals2::mutex>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -398,7 +398,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_l
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::grouped_list<int,std::less<int>,boost::shared_ptr<boost::signals2::detail::connection_body<std::pair<boost::signals2::detail::slot_meta_group,boost::optional<int>>,boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>,boost::signals2::mutex>>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -416,7 +416,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_im
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *)>,boost::signals2::mutex>::invocation_state>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *)>,boost::signals2::mutex>::invocation_state>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -434,7 +434,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_im
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *,unsigned int),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *,unsigned int)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *,unsigned int)>,boost::signals2::mutex>::invocation_state>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::detail::signal_impl<int ()(common::minet::AServerSession *,unsigned int),boost::signals2::optional_last_value<int>,int,std::less<int>,boost::function<int ()(common::minet::AServerSession *,unsigned int)>,boost::function<int ()(boost::signals2::connection const&,common::minet::AServerSession *,unsigned int)>,boost::signals2::mutex>::invocation_state>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -452,7 +452,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(commo
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *),boost::function<int ()(common::minet::AServerSession *)>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -470,7 +470,7 @@ void __cdecl boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(commo
   int (**v2)(...); // rdx
 
   boost::detail::sp_counted_base::sp_counted_base(this);
-  v2 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>>
+  v2 = (int (**)(...))(&`vtable for boost::detail::sp_counted_impl_p<boost::signals2::slot<int ()(common::minet::AServerSession *,unsigned int),boost::function<int ()(common::minet::AServerSession *,unsigned int)>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

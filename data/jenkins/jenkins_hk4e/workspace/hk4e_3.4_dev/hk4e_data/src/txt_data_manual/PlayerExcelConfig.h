@@ -6,7 +6,7 @@ void __cdecl PlayerExcelConfigMgr::PlayerExcelConfigMgr(PlayerExcelConfigMgr *co
   int (**v1)(...); // rdx
 
   data::PlayerExcelConfigMgrBase::PlayerExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'PlayerExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerExcelConfigMgrBase = v1;
@@ -27,7 +27,7 @@ void __cdecl PlayerExcelConfigMgr::~PlayerExcelConfigMgr(PlayerExcelConfigMgr *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PlayerExcelConfigMgrBase = v1;

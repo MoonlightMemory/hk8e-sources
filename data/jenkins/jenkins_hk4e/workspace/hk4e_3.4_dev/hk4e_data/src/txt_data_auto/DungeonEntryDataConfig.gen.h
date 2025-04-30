@@ -7,7 +7,7 @@ void __cdecl data::DungeonEntrySatisfiedCond::DungeonEntrySatisfiedCond(data::Du
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntrySatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntrySatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonEntrySatisfiedCond = v2;
@@ -48,7 +48,7 @@ void __cdecl data::DungeonEntrySatisfiedCond::DungeonEntrySatisfiedCond(
   const data::DungeonEntrySatisfiedCond *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntrySatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntrySatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonEntrySatisfiedCond = v2;
@@ -100,7 +100,7 @@ void __cdecl data::DungeonEntrySatisfiedCond::~DungeonEntrySatisfiedCond(data::D
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntrySatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntrySatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonEntrySatisfiedCond = v2;
@@ -122,7 +122,7 @@ void __cdecl data::DungeonEntryExcelConfig::DungeonEntryExcelConfig(data::Dungeo
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonEntryExcelConfig = v2;
@@ -214,7 +214,7 @@ void __cdecl data::DungeonEntryExcelConfig::DungeonEntryExcelConfig(
   const data::DungeonEntryExcelConfig *v27; // [rsp+0h] [rbp-20h]
 
   v27 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonEntryExcelConfig = v2;
@@ -343,7 +343,7 @@ void __cdecl data::DungeonEntryExcelConfig::~DungeonEntryExcelConfig(data::Dunge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonEntryExcelConfig = v2;

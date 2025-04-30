@@ -4451,7 +4451,7 @@ int32_t __cdecl TowerExcelConfigMgr::rewriteTowerLevelConfig(
             tower_buff_id = std::get<0ul,unsigned int const,unsigned int>((std::pair<unsigned int const,unsigned int> *)(v3 + 208));
             weight = std::get<1ul,unsigned int const,unsigned int>((std::pair<unsigned int const,unsigned int> *)(v3 + 208));
             *(_WORD *)(((v3 + 496) >> 3) + 0x7FFF8000) = 0;
-            v28 = &`vtable for'data::TowerBuff + 2;
+            v28 = &`vtable for data::TowerBuff + 2;
             if ( *(_BYTE *)(((v3 + 496) >> 3) + 0x7FFF8000) )
               __asan_report_store8(v3 + 496, v27);
             *(_QWORD *)(v3 + 496) = v28;
@@ -6368,7 +6368,7 @@ void __cdecl TowerExcelConfigMgr::rewriteTowerRewardConfig(TxtConfigMgr &)::{lam
   v5[536862720] = -235802127;
   v5[536862721] = -218103808;
   v5[536862722] = -202116109;
-  v6 = &`vtable for'data::TowerStarReward + 2;
+  v6 = &`vtable for data::TowerStarReward + 2;
   if ( *(_BYTE *)(((v3 + 32) >> 3) + 0x7FFF8000) )
     __asan_report_store8(v3 + 32, *(_QWORD *)&min_star_count);
   *(_QWORD *)(v3 + 32) = v6;

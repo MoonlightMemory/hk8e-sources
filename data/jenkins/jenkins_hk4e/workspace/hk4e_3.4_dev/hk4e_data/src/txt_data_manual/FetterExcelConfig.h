@@ -6,7 +6,7 @@ void __cdecl PhotographExcelConfigMgr::PhotographExcelConfigMgr(PhotographExcelC
   int (**v1)(...); // rdx
 
   data::PhotographExcelConfigMgrBase::PhotographExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'PhotographExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PhotographExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PhotographExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl PhotographExcelConfigMgr::~PhotographExcelConfigMgr(PhotographExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PhotographExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for PhotographExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_PhotographExcelConfigMgrBase = v1;
@@ -38,7 +38,7 @@ void __cdecl FetterExcelConfigMgr::FetterExcelConfigMgr(FetterExcelConfigMgr *co
   int (**v1)(...); // rdx
 
   data::FettersExcelConfigMgrBase::FettersExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'FetterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FetterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FettersExcelConfigMgrBase = v1;
@@ -59,7 +59,7 @@ void __cdecl FetterExcelConfigMgr::~FetterExcelConfigMgr(FetterExcelConfigMgr *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FetterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FetterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FettersExcelConfigMgrBase = v1;

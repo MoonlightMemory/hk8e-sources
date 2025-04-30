@@ -5,7 +5,7 @@ void __cdecl std::_V2::error_category::error_category(std::_V2::error_category *
 {
   char *v1; // rdx
 
-  v1 = (char *)&`vtable for'std::_V2::error_category + 16;
+  v1 = (char *)&`vtable for std::_V2::error_category + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v1;
@@ -194,7 +194,7 @@ void __fastcall std::system_error::system_error(unsigned __int64 this, std::erro
   std::string::~string(&v11);
   std::string::~string(&v12);
   std::string::~string(&__rhs);
-  v7 = (char *)&`vtable for'std::system_error + 16;
+  v7 = (char *)&`vtable for std::system_error + 16;
   if ( *(_BYTE *)((this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v7;

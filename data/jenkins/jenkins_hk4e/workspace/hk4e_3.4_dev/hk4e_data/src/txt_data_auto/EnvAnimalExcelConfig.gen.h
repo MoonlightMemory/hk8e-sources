@@ -8,7 +8,7 @@ void __cdecl data::EnvAnimalGatherExcelConfig::EnvAnimalGatherExcelConfig(data::
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvAnimalGatherExcelConfig = v2;
@@ -78,7 +78,7 @@ void __cdecl data::EnvAnimalGatherExcelConfig::EnvAnimalGatherExcelConfig(
   const data::EnvAnimalGatherExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EnvAnimalGatherExcelConfig = v2;
@@ -174,7 +174,7 @@ void __cdecl data::EnvAnimalGatherExcelConfig::~EnvAnimalGatherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvAnimalGatherExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::EnvironmentWeightType::EnvironmentWeightType(data::Environmen
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvironmentWeightType + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvironmentWeightType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvironmentWeightType = v2;
@@ -229,7 +229,7 @@ void __cdecl data::EnvironmentWeightType::~EnvironmentWeightType(data::Environme
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvironmentWeightType + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvironmentWeightType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvironmentWeightType = v2;
@@ -249,7 +249,7 @@ void __cdecl data::EnvAnimalWeightExcelConfig::EnvAnimalWeightExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvAnimalWeightExcelConfig = v2;
@@ -273,7 +273,7 @@ void __cdecl data::EnvAnimalWeightExcelConfig::EnvAnimalWeightExcelConfig(
   const data::EnvAnimalWeightExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EnvAnimalWeightExcelConfig = v2;
@@ -300,7 +300,7 @@ void __cdecl data::EnvAnimalWeightExcelConfig::~EnvAnimalWeightExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EnvAnimalWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvAnimalWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EnvAnimalWeightExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::EnvironmentWeightType::EnvironmentWeightType(
   const data::EnvironmentWeightType *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EnvironmentWeightType + 2);
+  v2 = (int (**)(...))(&`vtable for data::EnvironmentWeightType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EnvironmentWeightType = v2;

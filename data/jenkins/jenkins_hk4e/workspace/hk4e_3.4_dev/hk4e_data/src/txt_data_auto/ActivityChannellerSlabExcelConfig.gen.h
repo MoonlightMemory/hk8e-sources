@@ -26,7 +26,7 @@ void __cdecl data::ChannellerSlabPreviewExcelConfig::ChannellerSlabPreviewExcelC
   const data::ChannellerSlabPreviewExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabPreviewExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::ChannellerSlabPreviewExcelConfig::~ChannellerSlabPreviewExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabPreviewExcelConfig = v2;
@@ -155,7 +155,7 @@ void __cdecl data::ChannellerSlabChapterExcelConfig::ChannellerSlabChapterExcelC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabChapterExcelConfig = v2;
@@ -206,7 +206,7 @@ void __cdecl data::ChannellerSlabChapterExcelConfig::ChannellerSlabChapterExcelC
   const data::ChannellerSlabChapterExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabChapterExcelConfig = v2;
@@ -274,7 +274,7 @@ void __cdecl data::ChannellerSlabChapterExcelConfig::~ChannellerSlabChapterExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabChapterExcelConfig = v2;
@@ -315,7 +315,7 @@ void __cdecl data::ChannellerSlabLevelExcelConfig::ChannellerSlabLevelExcelConfi
   const data::ChannellerSlabLevelExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLevelExcelConfig = v2;
@@ -430,7 +430,7 @@ void __cdecl data::ChannellerSlabLevelExcelConfig::~ChannellerSlabLevelExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLevelExcelConfig = v2;
@@ -452,7 +452,7 @@ void __cdecl data::ChannellerSlabDungeonExcelConfig::ChannellerSlabDungeonExcelC
   const data::ChannellerSlabDungeonExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabDungeonExcelConfig = v2;
@@ -513,7 +513,7 @@ void __cdecl data::ChannellerSlabDungeonExcelConfig::~ChannellerSlabDungeonExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabDungeonExcelConfig = v2;
@@ -528,7 +528,7 @@ void __cdecl data::ChannellerSlabBuffExcelConfig::ChannellerSlabBuffExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabBuffExcelConfig = v2;
@@ -589,7 +589,7 @@ void __cdecl data::ChannellerSlabBuffExcelConfig::ChannellerSlabBuffExcelConfig(
   const data::ChannellerSlabBuffExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabBuffExcelConfig = v2;
@@ -679,7 +679,7 @@ void __cdecl data::ChannellerSlabBuffExcelConfig::~ChannellerSlabBuffExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabBuffExcelConfig = v2;
@@ -705,7 +705,7 @@ void __cdecl data::ChannellerSlabBuffEnergyExcelConfig::ChannellerSlabBuffEnergy
   const data::ChannellerSlabBuffEnergyExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffEnergyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffEnergyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabBuffEnergyExcelConfig = v2;
@@ -772,7 +772,7 @@ void __cdecl data::ChannellerSlabBuffEnergyExcelConfig::~ChannellerSlabBuffEnerg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffEnergyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffEnergyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabBuffEnergyExcelConfig = v2;
@@ -802,7 +802,7 @@ void __cdecl data::ChannellerSlabBuffCostExcelConfig::ChannellerSlabBuffCostExce
   const data::ChannellerSlabBuffCostExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffCostExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffCostExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabBuffCostExcelConfig = v2;
@@ -863,7 +863,7 @@ void __cdecl data::ChannellerSlabBuffCostExcelConfig::~ChannellerSlabBuffCostExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabBuffCostExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabBuffCostExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabBuffCostExcelConfig = v2;
@@ -885,7 +885,7 @@ void __cdecl data::ChannellerSlabLoopDungeonPreviewExcelConfig::ChannellerSlabLo
   const data::ChannellerSlabLoopDungeonPreviewExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLoopDungeonPreviewExcelConfig = v2;
@@ -938,7 +938,7 @@ void __cdecl data::ChannellerSlabLoopDungeonPreviewExcelConfig::~ChannellerSlabL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonPreviewExcelConfig = v2;
@@ -968,7 +968,7 @@ void __cdecl data::ChannellerSlabLoopDungeonRewardExcelConfig::ChannellerSlabLoo
   const data::ChannellerSlabLoopDungeonRewardExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLoopDungeonRewardExcelConfig = v2;
@@ -1029,7 +1029,7 @@ void __cdecl data::ChannellerSlabLoopDungeonRewardExcelConfig::~ChannellerSlabLo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonRewardExcelConfig = v2;
@@ -1063,7 +1063,7 @@ void __cdecl data::ChannellerSlabLoopDungeonDifficultyExcelConfig::ChannellerSla
   const data::ChannellerSlabLoopDungeonDifficultyExcelConfig *v22; // [rsp+0h] [rbp-10h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLoopDungeonDifficultyExcelConfig = v2;
@@ -1183,7 +1183,7 @@ void __cdecl data::ChannellerSlabLoopDungeonDifficultyExcelConfig::~ChannellerSl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonDifficultyExcelConfig = v2;
@@ -1221,7 +1221,7 @@ void __cdecl data::ChannellerSlabLoopDungeonConditionExcelConfig::ChannellerSlab
   const data::ChannellerSlabLoopDungeonConditionExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonConditionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonConditionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLoopDungeonConditionExcelConfig = v2;
@@ -1323,7 +1323,7 @@ void __cdecl data::ChannellerSlabLoopDungeonConditionExcelConfig::~ChannellerSla
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonConditionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonConditionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonConditionExcelConfig = v2;
@@ -1337,7 +1337,7 @@ void __cdecl data::ChannellerSlabLoopDungeonExcelConfig::ChannellerSlabLoopDunge
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonExcelConfig = v2;
@@ -1380,7 +1380,7 @@ void __cdecl data::ChannellerSlabLoopDungeonExcelConfig::ChannellerSlabLoopDunge
   const data::ChannellerSlabLoopDungeonExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ChannellerSlabLoopDungeonExcelConfig = v2;
@@ -1443,7 +1443,7 @@ void __cdecl data::ChannellerSlabLoopDungeonExcelConfig::~ChannellerSlabLoopDung
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChannellerSlabLoopDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChannellerSlabLoopDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ChannellerSlabLoopDungeonExcelConfig = v2;

@@ -286,7 +286,7 @@ LABEL_37:
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v36._M_dataplus._M_p != &v36._anon_0 )
     operator delete(v36._M_dataplus._M_p);
   std::ios_base::ios_base((std::ios_base *)(v3 + 344));
-  *(_QWORD *)(v3 + 344) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v3 + 344) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v3 + 560) = 0LL;
   *(_BYTE *)(v3 + 568) = 0;
   *(_BYTE *)(v3 + 569) = 0;
@@ -332,8 +332,8 @@ LABEL_40:
 LABEL_41:
   __asan_report_load8(v11);
 LABEL_42:
-  *(_QWORD *)(v3 + 96) = (char *)&`vtable for'std::ofstream + 24;
-  *(_QWORD *)(v3 + 344) = (char *)&`vtable for'std::ofstream + 64;
+  *(_QWORD *)(v3 + 96) = (char *)&`vtable for std::ofstream + 24;
+  *(_QWORD *)(v3 + 344) = (char *)&`vtable for std::ofstream + 64;
   std::filebuf::basic_filebuf(v3 + 104);
   std::ios::init(v3 + 344, v3 + 104);
   if ( std::filebuf::open(v3 + 104, *(_QWORD *)(v3 + 32), 16LL) )
@@ -471,14 +471,14 @@ LABEL_71:
 LABEL_72:
   LODWORD(v2) = 0;
 LABEL_73:
-  *(_QWORD *)(v3 + 96) = (char *)&`vtable for'std::ofstream + 24;
-  *(_QWORD *)(v3 + 344) = (char *)&`vtable for'std::ofstream + 64;
-  *(_QWORD *)(v3 + 104) = (char *)&`vtable for'std::filebuf + 16;
+  *(_QWORD *)(v3 + 96) = (char *)&`vtable for std::ofstream + 24;
+  *(_QWORD *)(v3 + 344) = (char *)&`vtable for std::ofstream + 64;
+  *(_QWORD *)(v3 + 104) = (char *)&`vtable for std::filebuf + 16;
   std::filebuf::close(v3 + 104);
   while ( 1 )
   {
     std::__basic_file<char>::~__basic_file(v3 + 208);
-    *(_QWORD *)(v3 + 104) = (char *)&`vtable for'std::streambuf + 16;
+    *(_QWORD *)(v3 + 104) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v3 + 160));
     v29 = (char *)&`VTT for'std::ofstream[1];
     if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
@@ -509,7 +509,7 @@ LABEL_83:
     __cxa_end_catch();
   }
   *(_QWORD *)v31 = `VTT for'std::ofstream[2];
-  *(_QWORD *)(v3 + 344) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v3 + 344) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v3 + 344));
   v34 = *(char **)(v3 + 32);
   if ( v34 != (char *)(v3 + 48) )
@@ -686,7 +686,7 @@ LABEL_37:
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v40._M_dataplus._M_p != &v40._anon_0 )
     operator delete(v40._M_dataplus._M_p);
   std::ios_base::ios_base((std::ios_base *)(v4 + 368));
-  *(_QWORD *)(v4 + 368) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v4 + 368) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v4 + 584) = 0LL;
   *(_BYTE *)(v4 + 592) = 0;
   *(_BYTE *)(v4 + 593) = 0;
@@ -733,8 +733,8 @@ LABEL_40:
 LABEL_41:
   __asan_report_load8(v13);
 LABEL_42:
-  *(_QWORD *)(v4 + 112) = (char *)&`vtable for'std::ifstream + 24;
-  *(_QWORD *)(v4 + 368) = (char *)&`vtable for'std::ifstream + 64;
+  *(_QWORD *)(v4 + 112) = (char *)&`vtable for std::ifstream + 24;
+  *(_QWORD *)(v4 + 368) = (char *)&`vtable for std::ifstream + 64;
   std::filebuf::basic_filebuf(v4 + 128);
   std::ios::init(v4 + 368, v4 + 128);
   if ( std::filebuf::open(v4 + 128, *(_QWORD *)(v4 + 48), 8LL) )
@@ -848,14 +848,14 @@ LABEL_67:
     goto LABEL_75;
   }
 LABEL_68:
-  *(_QWORD *)(v4 + 112) = (char *)&`vtable for'std::ifstream + 24;
-  *(_QWORD *)(v4 + 368) = (char *)&`vtable for'std::ifstream + 64;
-  *(_QWORD *)(v4 + 128) = (char *)&`vtable for'std::filebuf + 16;
+  *(_QWORD *)(v4 + 112) = (char *)&`vtable for std::ifstream + 24;
+  *(_QWORD *)(v4 + 368) = (char *)&`vtable for std::ifstream + 64;
+  *(_QWORD *)(v4 + 128) = (char *)&`vtable for std::filebuf + 16;
   std::filebuf::close(v4 + 128);
   while ( 1 )
   {
     std::__basic_file<char>::~__basic_file(v4 + 232);
-    *(_QWORD *)(v4 + 128) = (char *)&`vtable for'std::streambuf + 16;
+    *(_QWORD *)(v4 + 128) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v4 + 184));
     v33 = (char *)&`VTT for'std::ifstream[1];
     if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
@@ -887,7 +887,7 @@ LABEL_78:
   }
   *(_QWORD *)v35 = `VTT for'std::ifstream[2];
   *(_QWORD *)(v4 + 120) = 0LL;
-  *(_QWORD *)(v4 + 368) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v4 + 368) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v4 + 368));
   v38 = *(char **)(v4 + 48);
   if ( v38 != (char *)(v4 + 64) )
@@ -2684,7 +2684,7 @@ LABEL_113:
   if ( v46 == -8LL )
   {
     boost::thread_exception::thread_exception(&v83, 1, "boost unique_lock has no mutex");
-    *(_QWORD *)v83.baseclass_0 = &`vtable for'boost::lock_error + 2;
+    *(_QWORD *)v83.baseclass_0 = &`vtable for boost::lock_error + 2;
     __asan_handle_no_return(&v83);
     boost::throw_exception<boost::lock_error>((const boost::lock_error *)&v83);
   }
@@ -2692,7 +2692,7 @@ LABEL_113:
   if ( v47 )
   {
     boost::thread_exception::thread_exception(&v84, v47, "boost: mutex lock failed in pthread_mutex_lock");
-    *(_QWORD *)v84.baseclass_0 = &`vtable for'boost::lock_error + 2;
+    *(_QWORD *)v84.baseclass_0 = &`vtable for boost::lock_error + 2;
     __asan_handle_no_return(&v84);
     boost::throw_exception<boost::lock_error>((const boost::lock_error *)&v84);
   }

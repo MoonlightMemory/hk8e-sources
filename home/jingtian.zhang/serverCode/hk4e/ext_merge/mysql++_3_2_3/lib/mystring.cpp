@@ -142,13 +142,13 @@ mysqlpp::Date __fastcall mysqlpp::String::conv<mysqlpp::Date>(const mysqlpp::Str
   if ( *a2._vptr_Comparable )
   {
     v2 = mysqlpp::String::data((const mysqlpp::String *const)a2._vptr_Comparable);
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::Date + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::Date + 2);
     mysqlpp::Date::convert((mysqlpp::Date *const)this, v2);
   }
   else
   {
     LODWORD(this->buffer_.refs_) = 0;
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::Date + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::Date + 2);
   }
   result._vptr_Comparable = (int (**)(...))this;
   return result;
@@ -165,12 +165,12 @@ const mysqlpp::String *__fastcall mysqlpp::String::conv<mysqlpp::DateTime>(
   if ( *a2._vptr_Comparable )
   {
     v2 = mysqlpp::String::data((const mysqlpp::String *const)a2._vptr_Comparable);
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::DateTime + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::DateTime + 2);
     mysqlpp::DateTime::convert((mysqlpp::DateTime *const)this, v2);
   }
   else
   {
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::DateTime + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::DateTime + 2);
     this->buffer_.refs_ = (size_t *)0x100000000000000LL;
   }
   return this;
@@ -186,13 +186,13 @@ mysqlpp::Time __fastcall mysqlpp::String::conv<mysqlpp::Time>(const mysqlpp::Str
   if ( *a2._vptr_Comparable )
   {
     v2 = mysqlpp::String::data((const mysqlpp::String *const)a2._vptr_Comparable);
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::Time + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::Time + 2);
     mysqlpp::Time::convert((mysqlpp::Time *const)this, v2);
   }
   else
   {
     BYTE2(this->buffer_.refs_) = 0;
-    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for'mysqlpp::Time + 2);
+    this->buffer_.counted_ = (mysqlpp::SQLBuffer *)(&`vtable for mysqlpp::Time + 2);
     LOWORD(this->buffer_.refs_) = 0;
   }
   result._vptr_Comparable = (int (**)(...))this;

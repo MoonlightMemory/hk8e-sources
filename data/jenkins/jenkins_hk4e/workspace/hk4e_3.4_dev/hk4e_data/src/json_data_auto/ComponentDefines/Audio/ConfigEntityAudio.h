@@ -7,7 +7,7 @@ void __cdecl data::ConfigEntityAudio::ConfigEntityAudio(data::ConfigEntityAudio 
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigEntityAudio>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigEntityAudio>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEntityAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEntityAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -36,7 +36,7 @@ void __cdecl data::ConfigEntityAudio::ConfigEntityAudio(
   std::enable_shared_from_this<data::ConfigEntityAudio>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigEntityAudio>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigEntityAudio + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigEntityAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigEntityAudio = v3;
@@ -64,7 +64,7 @@ void __cdecl data::ConfigEntityAudio::~ConfigEntityAudio(data::ConfigEntityAudio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEntityAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEntityAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -146,7 +146,7 @@ void __cdecl data::ConfigGadgetAudio::ConfigGadgetAudio(data::ConfigGadgetAudio 
   __int64 v4; // rdx
 
   data::ConfigEntityAudio::ConfigEntityAudio((data::ConfigEntityAudio *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -170,7 +170,7 @@ void __cdecl data::ConfigGadgetAudio::ConfigGadgetAudio(
   __int64 v7; // rdx
 
   data::ConfigEntityAudio::ConfigEntityAudio((data::ConfigEntityAudio *const)this, (const data::ConfigEntityAudio *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEntityAudio = v2;
@@ -200,7 +200,7 @@ void __cdecl data::ConfigGadgetAudio::~ConfigGadgetAudio(data::ConfigGadgetAudio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -269,7 +269,7 @@ void __cdecl data::ConfigVehicleAudio::ConfigVehicleAudio(data::ConfigVehicleAud
   __int64 v3; // rsi
 
   data::ConfigGadgetAudio::ConfigGadgetAudio(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -309,7 +309,7 @@ void __cdecl data::ConfigVehicleAudio::ConfigVehicleAudio(
   float collision_audio_trigger_threshold; // xmm0_4
 
   data::ConfigGadgetAudio::ConfigGadgetAudio(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEntityAudio = v2;
@@ -359,7 +359,7 @@ void __cdecl data::ConfigVehicleAudio::~ConfigVehicleAudio(data::ConfigVehicleAu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -434,7 +434,7 @@ void __cdecl data::ConfigVehicleAudioFactory::ConfigVehicleAudioFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVehicleAudioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVehicleAudioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVehicleAudioFactory = v2;
@@ -447,7 +447,7 @@ void __cdecl data::ConfigCharacterAudio::ConfigCharacterAudio(data::ConfigCharac
   int (**v2)(...); // rdx
 
   data::ConfigEntityAudio::ConfigEntityAudio(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCharacterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCharacterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -461,7 +461,7 @@ void __cdecl data::ConfigCharacterAudio::ConfigCharacterAudio(
   int (**v2)(...); // rdx
 
   data::ConfigEntityAudio::ConfigEntityAudio(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCharacterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCharacterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEntityAudio = v2;
@@ -480,7 +480,7 @@ void __cdecl data::ConfigCharacterAudio::~ConfigCharacterAudio(data::ConfigChara
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCharacterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCharacterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -548,7 +548,7 @@ void __cdecl data::ConfigAvatarAudio::ConfigAvatarAudio(data::ConfigAvatarAudio 
   int (**v2)(...); // rdx
 
   data::ConfigCharacterAudio::ConfigCharacterAudio(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -581,7 +581,7 @@ void __cdecl data::ConfigAvatarAudio::ConfigAvatarAudio(
   float surface_prober_liftup; // xmm0_4
 
   data::ConfigCharacterAudio::ConfigCharacterAudio(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEntityAudio = v2;
@@ -622,7 +622,7 @@ void __cdecl data::ConfigAvatarAudio::~ConfigAvatarAudio(data::ConfigAvatarAudio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -700,7 +700,7 @@ void __cdecl data::ConfigAvatarAudioFactory::ConfigAvatarAudioFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarAudioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarAudioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAvatarAudioFactory = v2;
@@ -713,7 +713,7 @@ void __cdecl data::ConfigMonsterAudio::ConfigMonsterAudio(data::ConfigMonsterAud
   int (**v2)(...); // rdx
 
   data::ConfigCharacterAudio::ConfigCharacterAudio(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -729,7 +729,7 @@ void __cdecl data::ConfigMonsterAudio::ConfigMonsterAudio(
   int (**v2)(...); // rdx
 
   data::ConfigCharacterAudio::ConfigCharacterAudio(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEntityAudio = v2;
@@ -743,7 +743,7 @@ void __cdecl data::ConfigMonsterAudio::~ConfigMonsterAudio(data::ConfigMonsterAu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterAudio + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterAudio + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEntityAudio = v2;
@@ -819,7 +819,7 @@ void __cdecl data::ConfigMonsterAudioFactory::ConfigMonsterAudioFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterAudioFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterAudioFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMonsterAudioFactory = v2;

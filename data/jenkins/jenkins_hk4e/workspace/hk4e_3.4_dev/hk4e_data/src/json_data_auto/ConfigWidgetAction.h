@@ -7,7 +7,7 @@ void __cdecl data::ConfigWidgetAction::ConfigWidgetAction(data::ConfigWidgetActi
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigWidgetAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigWidgetAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ConfigWidgetAction::ConfigWidgetAction(
   std::enable_shared_from_this<data::ConfigWidgetAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigWidgetAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigWidgetAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigWidgetAction = v3;
@@ -52,7 +52,7 @@ void __cdecl data::ConfigWidgetAction::~ConfigWidgetAction(data::ConfigWidgetAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -128,7 +128,7 @@ void __cdecl data::ConfigWidgetAction_PrintDebug::ConfigWidgetAction_PrintDebug(
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_PrintDebug + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_PrintDebug + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -143,7 +143,7 @@ void __cdecl data::ConfigWidgetAction_PrintDebug::ConfigWidgetAction_PrintDebug(
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_PrintDebug + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_PrintDebug + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -157,7 +157,7 @@ void __cdecl data::ConfigWidgetAction_PrintDebug::~ConfigWidgetAction_PrintDebug
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_PrintDebug + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_PrintDebug + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -235,7 +235,7 @@ void __cdecl data::ConfigWidgetAction_PrintDebugFactory::ConfigWidgetAction_Prin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_PrintDebugFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_PrintDebugFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_PrintDebugFactory = v2;
@@ -262,7 +262,7 @@ void __cdecl data::ConfigWidgetAction_CreateLocalGadget::ConfigWidgetAction_Crea
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction((data::ConfigWidgetAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateLocalGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateLocalGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -287,7 +287,7 @@ void __cdecl data::ConfigWidgetAction_CreateLocalGadget::ConfigWidgetAction_Crea
   data::ConfigWidgetAction::ConfigWidgetAction(
     (data::ConfigWidgetAction *const)this,
     (const data::ConfigWidgetAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateLocalGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateLocalGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -322,7 +322,7 @@ void __cdecl data::ConfigWidgetAction_CreateLocalGadget::~ConfigWidgetAction_Cre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateLocalGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateLocalGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -392,7 +392,7 @@ void __cdecl data::ConfigWidgetAction_CreateLocalGadgetFactory::ConfigWidgetActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateLocalGadgetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateLocalGadgetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_CreateLocalGadgetFactory = v2;
@@ -419,7 +419,7 @@ void __cdecl data::ConfigWidgetAction_CreateSeverGadget::ConfigWidgetAction_Crea
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction((data::ConfigWidgetAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateSeverGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateSeverGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -444,7 +444,7 @@ void __cdecl data::ConfigWidgetAction_CreateSeverGadget::ConfigWidgetAction_Crea
   data::ConfigWidgetAction::ConfigWidgetAction(
     (data::ConfigWidgetAction *const)this,
     (const data::ConfigWidgetAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateSeverGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateSeverGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -479,7 +479,7 @@ void __cdecl data::ConfigWidgetAction_CreateSeverGadget::~ConfigWidgetAction_Cre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateSeverGadget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateSeverGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -549,7 +549,7 @@ void __cdecl data::ConfigWidgetAction_CreateSeverGadgetFactory::ConfigWidgetActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_CreateSeverGadgetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_CreateSeverGadgetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_CreateSeverGadgetFactory = v2;
@@ -576,7 +576,7 @@ void __cdecl data::ConfigWidgetAction_AddAbilityGroup::ConfigWidgetAction_AddAbi
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddAbilityGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddAbilityGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -591,7 +591,7 @@ void __cdecl data::ConfigWidgetAction_AddAbilityGroup::ConfigWidgetAction_AddAbi
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddAbilityGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddAbilityGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -613,7 +613,7 @@ void __cdecl data::ConfigWidgetAction_AddAbilityGroup::~ConfigWidgetAction_AddAb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddAbilityGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddAbilityGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -684,7 +684,7 @@ void __cdecl data::ConfigWidgetAction_AddAbilityGroupFactory::ConfigWidgetAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddAbilityGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddAbilityGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_AddAbilityGroupFactory = v2;
@@ -711,7 +711,7 @@ void __cdecl data::ConfigWidgetAction_AddDynamicValue::ConfigWidgetAction_AddDyn
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -733,7 +733,7 @@ void __cdecl data::ConfigWidgetAction_AddDynamicValue::ConfigWidgetAction_AddDyn
   float value; // xmm0_4
 
   data::ConfigWidgetAction::ConfigWidgetAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -759,7 +759,7 @@ void __cdecl data::ConfigWidgetAction_AddDynamicValue::~ConfigWidgetAction_AddDy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -838,7 +838,7 @@ void __cdecl data::ConfigWidgetAction_AddDynamicValueFactory::ConfigWidgetAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_AddDynamicValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_AddDynamicValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_AddDynamicValueFactory = v2;
@@ -865,7 +865,7 @@ void __cdecl data::ConfigWidgetAction_RemoveDynamicValue::ConfigWidgetAction_Rem
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_RemoveDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_RemoveDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -880,7 +880,7 @@ void __cdecl data::ConfigWidgetAction_RemoveDynamicValue::ConfigWidgetAction_Rem
   int (**v2)(...); // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_RemoveDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_RemoveDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -902,7 +902,7 @@ void __cdecl data::ConfigWidgetAction_RemoveDynamicValue::~ConfigWidgetAction_Re
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_RemoveDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_RemoveDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -973,7 +973,7 @@ void __cdecl data::ConfigWidgetAction_RemoveDynamicValueFactory::ConfigWidgetAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_RemoveDynamicValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_RemoveDynamicValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_RemoveDynamicValueFactory = v2;
@@ -1002,7 +1002,7 @@ void __cdecl data::ConfigWidgetAction_TakePhoto::ConfigWidgetAction_TakePhoto(
   __int64 v4; // rdx
 
   data::ConfigWidgetAction::ConfigWidgetAction((data::ConfigWidgetAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_TakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_TakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -1030,7 +1030,7 @@ void __cdecl data::ConfigWidgetAction_TakePhoto::ConfigWidgetAction_TakePhoto(
   data::ConfigWidgetAction::ConfigWidgetAction(
     (data::ConfigWidgetAction *const)this,
     (const data::ConfigWidgetAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_TakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_TakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetAction = v2;
@@ -1064,7 +1064,7 @@ void __cdecl data::ConfigWidgetAction_TakePhoto::~ConfigWidgetAction_TakePhoto(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_TakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_TakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction = v2;
@@ -1135,7 +1135,7 @@ void __cdecl data::ConfigWidgetAction_TakePhotoFactory::ConfigWidgetAction_TakeP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAction_TakePhotoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAction_TakePhotoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAction_TakePhotoFactory = v2;
@@ -1161,7 +1161,7 @@ void __cdecl data::ConfigWidgetPredict::ConfigWidgetPredict(data::ConfigWidgetPr
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigWidgetPredict>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigWidgetPredict>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1184,7 +1184,7 @@ void __cdecl data::ConfigWidgetPredict::ConfigWidgetPredict(
   std::enable_shared_from_this<data::ConfigWidgetPredict>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigWidgetPredict>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigWidgetPredict = v3;
@@ -1213,7 +1213,7 @@ void __cdecl data::ConfigWidgetPredict::~ConfigWidgetPredict(data::ConfigWidgetP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1287,7 +1287,7 @@ void __cdecl data::ConfigWidgetPredict_CollisionDetect::ConfigWidgetPredict_Coll
   __int64 v7; // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict((data::ConfigWidgetPredict *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CollisionDetect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CollisionDetect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1339,7 +1339,7 @@ void __cdecl data::ConfigWidgetPredict_CollisionDetect::ConfigWidgetPredict_Coll
   data::ConfigWidgetPredict::ConfigWidgetPredict(
     (data::ConfigWidgetPredict *const)this,
     (const data::ConfigWidgetPredict *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CollisionDetect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CollisionDetect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1407,7 +1407,7 @@ void __cdecl data::ConfigWidgetPredict_CollisionDetect::~ConfigWidgetPredict_Col
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CollisionDetect + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CollisionDetect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1477,7 +1477,7 @@ void __cdecl data::ConfigWidgetPredict_CollisionDetectFactory::ConfigWidgetPredi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CollisionDetectFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CollisionDetectFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict_CollisionDetectFactory = v2;
@@ -1504,7 +1504,7 @@ void __cdecl data::ConfigWidgetPredict_HasDynamicValue::ConfigWidgetPredict_HasD
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_HasDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_HasDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1519,7 +1519,7 @@ void __cdecl data::ConfigWidgetPredict_HasDynamicValue::ConfigWidgetPredict_HasD
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_HasDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_HasDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1533,7 +1533,7 @@ void __cdecl data::ConfigWidgetPredict_HasDynamicValue::~ConfigWidgetPredict_Has
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_HasDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_HasDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1612,7 +1612,7 @@ void __cdecl data::ConfigWidgetPredict_HasDynamicValueFactory::ConfigWidgetPredi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_HasDynamicValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_HasDynamicValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict_HasDynamicValueFactory = v2;
@@ -1639,7 +1639,7 @@ void __cdecl data::ConfigWidgetPredict_CheckEqualDynamicValue::ConfigWidgetPredi
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1661,7 +1661,7 @@ void __cdecl data::ConfigWidgetPredict_CheckEqualDynamicValue::ConfigWidgetPredi
   float value; // xmm0_4
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1687,7 +1687,7 @@ void __cdecl data::ConfigWidgetPredict_CheckEqualDynamicValue::~ConfigWidgetPred
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckEqualDynamicValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1766,7 +1766,7 @@ void __cdecl data::ConfigWidgetPredict_CheckEqualDynamicValueFactory::ConfigWidg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckEqualDynamicValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckEqualDynamicValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict_CheckEqualDynamicValueFactory = v2;
@@ -1793,7 +1793,7 @@ void __cdecl data::ConfigWidgetPredict_CheckCurrentEquip::ConfigWidgetPredict_Ch
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckCurrentEquip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckCurrentEquip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1807,7 +1807,7 @@ void __cdecl data::ConfigWidgetPredict_CheckCurrentEquip::ConfigWidgetPredict_Ch
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckCurrentEquip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckCurrentEquip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1828,7 +1828,7 @@ void __cdecl data::ConfigWidgetPredict_CheckCurrentEquip::~ConfigWidgetPredict_C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckCurrentEquip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckCurrentEquip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1898,7 +1898,7 @@ void __cdecl data::ConfigWidgetPredict_CheckCurrentEquipFactory::ConfigWidgetPre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_CheckCurrentEquipFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_CheckCurrentEquipFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict_CheckCurrentEquipFactory = v2;
@@ -1925,7 +1925,7 @@ void __cdecl data::ConfigWidgetPredict_AlwaysPass::ConfigWidgetPredict_AlwaysPas
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_AlwaysPass + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_AlwaysPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1939,7 +1939,7 @@ void __cdecl data::ConfigWidgetPredict_AlwaysPass::ConfigWidgetPredict_AlwaysPas
   int (**v2)(...); // rdx
 
   data::ConfigWidgetPredict::ConfigWidgetPredict(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_AlwaysPass + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_AlwaysPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -1960,7 +1960,7 @@ void __cdecl data::ConfigWidgetPredict_AlwaysPass::~ConfigWidgetPredict_AlwaysPa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_AlwaysPass + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_AlwaysPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict = v2;
@@ -2030,7 +2030,7 @@ void __cdecl data::ConfigWidgetPredict_AlwaysPassFactory::ConfigWidgetPredict_Al
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetPredict_AlwaysPassFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetPredict_AlwaysPassFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetPredict_AlwaysPassFactory = v2;

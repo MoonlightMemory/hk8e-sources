@@ -6,7 +6,7 @@ void __cdecl luabind::detail::function_registration<std::string const& (*)(int),
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::string const& (*)(int),luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::string const& (*)(int),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -36,7 +36,7 @@ void __cdecl luabind::detail::function_registration<std::string const& (*)(unsig
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::string const& (*)(unsigned int),luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::string const& (*)(unsigned int),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -50,7 +50,7 @@ void __cdecl luabind::detail::function_registration<std::vector<float> (*)(data:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::vector<float> (*)(data::ConstValueType),luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::vector<float> (*)(data::ConstValueType),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -80,7 +80,7 @@ void __cdecl luabind::detail::function_registration<void (*)(std::string const&)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<void (*)(std::string const&),luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_registration<void (*)(std::string const&),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -98,7 +98,7 @@ void __cdecl luabind::detail::function_registration<std::string const& (*)(int),
   int (**v4)(...); // rdx
 
   luabind::detail::registration::registration(this);
-  v4 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::string const& (*)(int),luabind::detail::null_type>
+  v4 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::string const& (*)(int),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -121,7 +121,7 @@ void __cdecl luabind::detail::function_registration<std::string const& (*)(unsig
   int (**v4)(...); // rdx
 
   luabind::detail::registration::registration(this);
-  v4 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::string const& (*)(unsigned int),luabind::detail::null_type>
+  v4 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::string const& (*)(unsigned int),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -144,7 +144,7 @@ void __cdecl luabind::detail::function_registration<std::vector<float> (*)(data:
   int (**v4)(...); // rdx
 
   luabind::detail::registration::registration(this);
-  v4 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<std::vector<float> (*)(data::ConstValueType),luabind::detail::null_type>
+  v4 = (int (**)(...))(&`vtable for luabind::detail::function_registration<std::vector<float> (*)(data::ConstValueType),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -167,7 +167,7 @@ void __cdecl luabind::detail::function_registration<void (*)(std::string const&)
   int (**v4)(...); // rdx
 
   luabind::detail::registration::registration(this);
-  v4 = (int (**)(...))(&`vtable for'luabind::detail::function_registration<void (*)(std::string const&),luabind::detail::null_type>
+  v4 = (int (**)(...))(&`vtable for luabind::detail::function_registration<void (*)(std::string const&),luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

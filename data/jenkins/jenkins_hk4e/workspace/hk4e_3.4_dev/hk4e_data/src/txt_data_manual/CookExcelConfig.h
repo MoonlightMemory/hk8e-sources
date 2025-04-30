@@ -6,7 +6,7 @@ void __cdecl CookExcelConfigMgr::CookExcelConfigMgr(CookExcelConfigMgr *const th
   int (**v1)(...); // rdx
 
   data::CookExcelConfigMgrBase::CookExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'CookExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CookExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CookExcelConfigMgrBase = v1;
@@ -19,7 +19,7 @@ void __cdecl CookExcelConfigMgr::~CookExcelConfigMgr(CookExcelConfigMgr *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CookExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CookExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CookExcelConfigMgrBase = v1;

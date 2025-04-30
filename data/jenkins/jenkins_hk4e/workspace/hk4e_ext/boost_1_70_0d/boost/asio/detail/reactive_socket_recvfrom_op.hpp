@@ -293,7 +293,7 @@ LABEL_65:
   v37 = *(_QWORD *)(v6 + 128);
   if ( !v37 )
   {
-    *(_QWORD *)(v6 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v6 + 32) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(0LL);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v6 + 32));
   }
@@ -317,7 +317,7 @@ LABEL_99:
   v39 = *(_QWORD *)(v6 + 144);
   if ( !v39 )
   {
-    *(_QWORD *)(v6 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v6 + 32) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(0LL);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v6 + 32));
   }

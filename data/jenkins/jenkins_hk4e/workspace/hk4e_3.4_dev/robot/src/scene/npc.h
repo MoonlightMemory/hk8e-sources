@@ -6,7 +6,7 @@ void __cdecl Npc::Npc(Npc *const this)
   int (**v1)(...); // rdx
 
   Creature::Creature(this);
-  v1 = (int (**)(...))(&`vtable for'Npc + 2);
+  v1 = (int (**)(...))(&`vtable for Npc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;
@@ -24,7 +24,7 @@ void __cdecl Npc::~Npc(Npc *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Npc + 2);
+  v1 = (int (**)(...))(&`vtable for Npc + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;

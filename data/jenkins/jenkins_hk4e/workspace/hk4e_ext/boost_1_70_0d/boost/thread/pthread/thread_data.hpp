@@ -11,7 +11,7 @@ void __cdecl boost::detail::thread_data_base::thread_data_base(boost::detail::th
   __int64 v6; // rsi
 
   boost::enable_shared_from_this<boost::detail::thread_data_base>::enable_shared_from_this((boost::enable_shared_from_this<boost::detail::thread_data_base> *const)((char *)this + 8));
-  v2 = &`vtable for'boost::detail::thread_data_base + 2;
+  v2 = &`vtable for boost::detail::thread_data_base + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;

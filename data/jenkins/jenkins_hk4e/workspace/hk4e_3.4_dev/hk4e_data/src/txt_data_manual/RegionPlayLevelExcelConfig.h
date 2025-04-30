@@ -6,7 +6,7 @@ void __cdecl RegionPlayLevelExcelConfigMgr::RegionPlayLevelExcelConfigMgr(Region
   int (**v1)(...); // rdx
 
   data::RegionPlayLevelExcelConfigMgrBase::RegionPlayLevelExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'RegionPlayLevelExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RegionPlayLevelExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RegionPlayLevelExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl RegionPlayLevelExcelConfigMgr::~RegionPlayLevelExcelConfigMgr(Regio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RegionPlayLevelExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RegionPlayLevelExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RegionPlayLevelExcelConfigMgrBase = v1;

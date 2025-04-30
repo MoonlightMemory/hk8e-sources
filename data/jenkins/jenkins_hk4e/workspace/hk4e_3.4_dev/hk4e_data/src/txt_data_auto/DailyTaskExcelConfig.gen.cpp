@@ -9485,7 +9485,7 @@ int32_t __cdecl data::DailyTaskExcelConfigMgrBase::loadDailyTaskLevelExcelConfig
         v13 = *(unsigned int *)(v3 + 64);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1200), v13);
         *(_DWORD *)(((v3 + 416) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::DailyTaskLevelExcelConfig + 2;
+        v14 = &`vtable for data::DailyTaskLevelExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 416) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 416, v13);
         *(_QWORD *)(v3 + 416) = v14;

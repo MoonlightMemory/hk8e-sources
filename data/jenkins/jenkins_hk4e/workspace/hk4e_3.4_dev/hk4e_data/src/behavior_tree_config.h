@@ -5,7 +5,7 @@ void __cdecl BTNodeParamValueBase::BTNodeParamValueBase(BTNodeParamValueBase *co
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamValueBase + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamValueBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -18,7 +18,7 @@ void __cdecl BTNodeParamValueBase::BTNodeParamValueBase(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamValueBase + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamValueBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -30,7 +30,7 @@ void __cdecl BTNodeParamStr::BTNodeParamStr(BTNodeParamStr *const this)
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamStr + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamStr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -43,7 +43,7 @@ void __cdecl BTNodeParamStr::BTNodeParamStr(BTNodeParamStr *const this, const BT
   int (**v2)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamStr + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamStr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -55,7 +55,7 @@ void __cdecl BTNodeParamStr::~BTNodeParamStr(BTNodeParamStr *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamStr + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamStr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -68,7 +68,7 @@ void __cdecl BTNodeParamBool::BTNodeParamBool(BTNodeParamBool *const this)
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamBool + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamBool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -84,7 +84,7 @@ void __cdecl BTNodeParamBool::BTNodeParamBool(BTNodeParamBool *const this, const
   bool value; // cl
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamBool + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamBool + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -102,7 +102,7 @@ void __cdecl BTNodeParamInteger::BTNodeParamInteger(BTNodeParamInteger *const th
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamInteger + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamInteger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -121,7 +121,7 @@ void __cdecl BTNodeParamInteger::BTNodeParamInteger(BTNodeParamInteger *const th
   int32_t value; // ecx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamInteger + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamInteger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -145,7 +145,7 @@ void __cdecl BTNodeParamUint32::BTNodeParamUint32(BTNodeParamUint32 *const this)
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamUint32 + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamUint32 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -164,7 +164,7 @@ void __cdecl BTNodeParamUint32::BTNodeParamUint32(BTNodeParamUint32 *const this,
   uint32_t value; // ecx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamUint32 + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamUint32 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -189,7 +189,7 @@ void __cdecl BTNodeParamBehaviorConfigSortType::BTNodeParamBehaviorConfigSortTyp
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamBehaviorConfigSortType + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamBehaviorConfigSortType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -210,7 +210,7 @@ void __cdecl BTNodeParamBehaviorConfigSortType::BTNodeParamBehaviorConfigSortTyp
   data::BehaviorConfigSortType value; // ecx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamBehaviorConfigSortType + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamBehaviorConfigSortType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -235,7 +235,7 @@ void __cdecl BTNodeParamBehaviorConfigChangeCharacterSortType::BTNodeParamBehavi
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamBehaviorConfigChangeCharacterSortType + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamBehaviorConfigChangeCharacterSortType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -256,7 +256,7 @@ void __cdecl BTNodeParamBehaviorConfigChangeCharacterSortType::BTNodeParamBehavi
   data::BehaviorConfigChangeCharacterSortType value; // ecx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamBehaviorConfigChangeCharacterSortType + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamBehaviorConfigChangeCharacterSortType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -281,7 +281,7 @@ void __cdecl BTNodeParamGCGSkillTagTypeArray::BTNodeParamGCGSkillTagTypeArray(
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamGCGSkillTagTypeArray + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamGCGSkillTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -296,7 +296,7 @@ void __cdecl BTNodeParamGCGSkillTagTypeArray::BTNodeParamGCGSkillTagTypeArray(
   int (**v2)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamGCGSkillTagTypeArray + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamGCGSkillTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -309,7 +309,7 @@ void __cdecl BTNodeParamGCGSkillTagTypeArray::~BTNodeParamGCGSkillTagTypeArray(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamGCGSkillTagTypeArray + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamGCGSkillTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -323,7 +323,7 @@ void __cdecl BTNodeParamActionPlanReviseList::BTNodeParamActionPlanReviseList(
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamActionPlanReviseList + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamActionPlanReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -338,7 +338,7 @@ void __cdecl BTNodeParamActionPlanReviseList::BTNodeParamActionPlanReviseList(
   int (**v2)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamActionPlanReviseList + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamActionPlanReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -351,7 +351,7 @@ void __cdecl BTNodeParamActionPlanReviseList::~BTNodeParamActionPlanReviseList(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamActionPlanReviseList + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamActionPlanReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -364,7 +364,7 @@ void __cdecl BTNodeParamGCGCardTagTypeArray::BTNodeParamGCGCardTagTypeArray(BTNo
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamGCGCardTagTypeArray + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamGCGCardTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -379,7 +379,7 @@ void __cdecl BTNodeParamGCGCardTagTypeArray::BTNodeParamGCGCardTagTypeArray(
   int (**v2)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamGCGCardTagTypeArray + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamGCGCardTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -392,7 +392,7 @@ void __cdecl BTNodeParamGCGCardTagTypeArray::~BTNodeParamGCGCardTagTypeArray(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamGCGCardTagTypeArray + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamGCGCardTagTypeArray + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -406,7 +406,7 @@ void __cdecl BTNodeParamCharacterOnstageReviseList::BTNodeParamCharacterOnstageR
   int (**v1)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamCharacterOnstageReviseList + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamCharacterOnstageReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -421,7 +421,7 @@ void __cdecl BTNodeParamCharacterOnstageReviseList::BTNodeParamCharacterOnstageR
   int (**v2)(...); // rdx
 
   BTNodeParamValueBase::BTNodeParamValueBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTNodeParamCharacterOnstageReviseList + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeParamCharacterOnstageReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v2;
@@ -434,7 +434,7 @@ void __cdecl BTNodeParamCharacterOnstageReviseList::~BTNodeParamCharacterOnstage
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeParamCharacterOnstageReviseList + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeParamCharacterOnstageReviseList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeParamValueBase = v1;
@@ -446,7 +446,7 @@ void __cdecl BTNodeConfigBase::BTNodeConfigBase(BTNodeConfigBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTNodeConfigBase + 2);
+  v1 = (int (**)(...))(&`vtable for BTNodeConfigBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -518,7 +518,7 @@ void __cdecl BTNodeConfigBase::BTNodeConfigBase(BTNodeConfigBase *const this, co
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BTNodeConfigBase + 2);
+  v2 = (int (**)(...))(&`vtable for BTNodeConfigBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -530,7 +530,7 @@ void __cdecl BTActionConfig::BTActionConfig(BTActionConfig *const this)
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -542,7 +542,7 @@ void __cdecl BTActionConfig::BTActionConfig(BTActionConfig *const this, const BT
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -603,7 +603,7 @@ void __cdecl BTConditionConfig::BTConditionConfig(BTConditionConfig *const this)
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTConditionConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTConditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -615,7 +615,7 @@ void __cdecl BTConditionConfig::BTConditionConfig(BTConditionConfig *const this,
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTConditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTConditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -676,7 +676,7 @@ void __cdecl BTControlConfig::BTControlConfig(BTControlConfig *const this)
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTControlConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -689,7 +689,7 @@ void __cdecl BTControlConfig::BTControlConfig(BTControlConfig *const this, const
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTControlConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -701,7 +701,7 @@ void __cdecl BTControlConfig::~BTControlConfig(BTControlConfig *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTControlConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTControlConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -757,7 +757,7 @@ void __cdecl BTSelectorConfig::BTSelectorConfig(BTSelectorConfig *const this)
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTSelectorConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSelectorConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -769,7 +769,7 @@ void __cdecl BTSelectorConfig::BTSelectorConfig(BTSelectorConfig *const this, co
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTSelectorConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTSelectorConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -780,7 +780,7 @@ void __cdecl BTSelectorConfig::~BTSelectorConfig(BTSelectorConfig *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTSelectorConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSelectorConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -878,7 +878,7 @@ void __cdecl BTSequenceConfig::BTSequenceConfig(BTSequenceConfig *const this)
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTSequenceConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSequenceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -890,7 +890,7 @@ void __cdecl BTSequenceConfig::BTSequenceConfig(BTSequenceConfig *const this, co
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTSequenceConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTSequenceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -901,7 +901,7 @@ void __cdecl BTSequenceConfig::~BTSequenceConfig(BTSequenceConfig *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTSequenceConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSequenceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -999,7 +999,7 @@ void __cdecl BTSwitchConfig::BTSwitchConfig(BTSwitchConfig *const this)
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTSwitchConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSwitchConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1012,7 +1012,7 @@ void __cdecl BTSwitchConfig::BTSwitchConfig(BTSwitchConfig *const this, const BT
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTSwitchConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTSwitchConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1024,7 +1024,7 @@ void __cdecl BTSwitchConfig::~BTSwitchConfig(BTSwitchConfig *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTSwitchConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSwitchConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1136,7 +1136,7 @@ void __cdecl BTSubtreeConfig::BTSubtreeConfig(BTSubtreeConfig *const this)
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTSubtreeConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSubtreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1149,7 +1149,7 @@ void __cdecl BTSubtreeConfig::BTSubtreeConfig(BTSubtreeConfig *const this, const
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTSubtreeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTSubtreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1161,7 +1161,7 @@ void __cdecl BTSubtreeConfig::~BTSubtreeConfig(BTSubtreeConfig *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTSubtreeConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTSubtreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1260,7 +1260,7 @@ void __cdecl BTForceSuccessConfig::BTForceSuccessConfig(BTForceSuccessConfig *co
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTForceSuccessConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTForceSuccessConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1274,7 +1274,7 @@ void __cdecl BTForceSuccessConfig::BTForceSuccessConfig(
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTForceSuccessConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTForceSuccessConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1285,7 +1285,7 @@ void __cdecl BTForceSuccessConfig::~BTForceSuccessConfig(BTForceSuccessConfig *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTForceSuccessConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTForceSuccessConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1385,7 +1385,7 @@ void __cdecl BTBehaviorTreeConfig::BTBehaviorTreeConfig(BTBehaviorTreeConfig *co
   int (**v1)(...); // rdx
 
   BTControlConfig::BTControlConfig(this);
-  v1 = (int (**)(...))(&`vtable for'BTBehaviorTreeConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTBehaviorTreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1400,7 +1400,7 @@ void __cdecl BTBehaviorTreeConfig::BTBehaviorTreeConfig(
   int (**v2)(...); // rdx
 
   BTControlConfig::BTControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTBehaviorTreeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTBehaviorTreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1412,7 +1412,7 @@ void __cdecl BTBehaviorTreeConfig::~BTBehaviorTreeConfig(BTBehaviorTreeConfig *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTBehaviorTreeConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTBehaviorTreeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1608,7 +1608,7 @@ void __cdecl BTConditionCheckIsRerollPhaseConfig::BTConditionCheckIsRerollPhaseC
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTConditionCheckIsRerollPhaseConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTConditionCheckIsRerollPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1622,7 +1622,7 @@ void __cdecl BTConditionCheckIsRerollPhaseConfig::BTConditionCheckIsRerollPhaseC
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTConditionCheckIsRerollPhaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTConditionCheckIsRerollPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1729,7 +1729,7 @@ void __cdecl BTConditionCheckIsActionPhaseConfig::BTConditionCheckIsActionPhaseC
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTConditionCheckIsActionPhaseConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTConditionCheckIsActionPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1743,7 +1743,7 @@ void __cdecl BTConditionCheckIsActionPhaseConfig::BTConditionCheckIsActionPhaseC
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTConditionCheckIsActionPhaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTConditionCheckIsActionPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1850,7 +1850,7 @@ void __cdecl BTConditionCheckIsSelectOnstageCharacterPhaseConfig::BTConditionChe
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTConditionCheckIsSelectOnstageCharacterPhaseConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTConditionCheckIsSelectOnstageCharacterPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1864,7 +1864,7 @@ void __cdecl BTConditionCheckIsSelectOnstageCharacterPhaseConfig::BTConditionChe
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTConditionCheckIsSelectOnstageCharacterPhaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTConditionCheckIsSelectOnstageCharacterPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -1970,7 +1970,7 @@ void __cdecl BTConditionCheckIsDrawPhaseConfig::BTConditionCheckIsDrawPhaseConfi
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTConditionCheckIsDrawPhaseConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTConditionCheckIsDrawPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -1984,7 +1984,7 @@ void __cdecl BTConditionCheckIsDrawPhaseConfig::BTConditionCheckIsDrawPhaseConfi
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTConditionCheckIsDrawPhaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTConditionCheckIsDrawPhaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2081,7 +2081,7 @@ void __cdecl BTDoPassNodeConfig::BTDoPassNodeConfig(BTDoPassNodeConfig *const th
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTDoPassNodeConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTDoPassNodeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2093,7 +2093,7 @@ void __cdecl BTDoPassNodeConfig::BTDoPassNodeConfig(BTDoPassNodeConfig *const th
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTDoPassNodeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTDoPassNodeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2210,7 +2210,7 @@ void __cdecl BTAssignInt32Config::BTAssignInt32Config(BTAssignInt32Config *const
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTAssignInt32Config + 2);
+  v1 = (int (**)(...))(&`vtable for BTAssignInt32Config + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2224,7 +2224,7 @@ void __cdecl BTAssignInt32Config::BTAssignInt32Config(BTAssignInt32Config *const
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTAssignInt32Config + 2);
+  v2 = (int (**)(...))(&`vtable for BTAssignInt32Config + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2237,7 +2237,7 @@ void __cdecl BTAssignInt32Config::~BTAssignInt32Config(BTAssignInt32Config *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTAssignInt32Config + 2);
+  v1 = (int (**)(...))(&`vtable for BTAssignInt32Config + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2339,7 +2339,7 @@ void __cdecl BTActionRerollDiceConfig::BTActionRerollDiceConfig(BTActionRerollDi
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionRerollDiceConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionRerollDiceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2353,7 +2353,7 @@ void __cdecl BTActionRerollDiceConfig::BTActionRerollDiceConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionRerollDiceConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionRerollDiceConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2459,7 +2459,7 @@ void __cdecl BTActionReserveDiceByRoleConfig::BTActionReserveDiceByRoleConfig(
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionReserveDiceByRoleConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionReserveDiceByRoleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2473,7 +2473,7 @@ void __cdecl BTActionReserveDiceByRoleConfig::BTActionReserveDiceByRoleConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionReserveDiceByRoleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionReserveDiceByRoleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2603,7 +2603,7 @@ void __cdecl BTActionReserveDiceByHandConfig::BTActionReserveDiceByHandConfig(
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionReserveDiceByHandConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionReserveDiceByHandConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2620,7 +2620,7 @@ void __cdecl BTActionReserveDiceByHandConfig::BTActionReserveDiceByHandConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionReserveDiceByHandConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionReserveDiceByHandConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2756,7 +2756,7 @@ void __cdecl BTActionGenCharacterPlanConfig::BTActionGenCharacterPlanConfig(BTAc
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenCharacterPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2774,7 +2774,7 @@ void __cdecl BTActionGenCharacterPlanConfig::BTActionGenCharacterPlanConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenCharacterPlanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -2790,7 +2790,7 @@ void __cdecl BTActionGenCharacterPlanConfig::~BTActionGenCharacterPlanConfig(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenCharacterPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2897,7 +2897,7 @@ void __cdecl BTActionSortAndExecPlanConfig::BTActionSortAndExecPlanConfig(BTActi
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionSortAndExecPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionSortAndExecPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -2911,7 +2911,7 @@ void __cdecl BTActionSortAndExecPlanConfig::BTActionSortAndExecPlanConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionSortAndExecPlanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionSortAndExecPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3047,7 +3047,7 @@ void __cdecl BTActionGenRebootPlanConfig::BTActionGenRebootPlanConfig(BTActionGe
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenRebootPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenRebootPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3066,7 +3066,7 @@ void __cdecl BTActionGenRebootPlanConfig::BTActionGenRebootPlanConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenRebootPlanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenRebootPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3082,7 +3082,7 @@ void __cdecl BTActionGenRebootPlanConfig::~BTActionGenRebootPlanConfig(BTActionG
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenRebootPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenRebootPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3219,7 +3219,7 @@ void __cdecl BTActionGenChangeToCanAttackCharacterConfig::BTActionGenChangeToCan
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenChangeToCanAttackCharacterConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenChangeToCanAttackCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3237,7 +3237,7 @@ void __cdecl BTActionGenChangeToCanAttackCharacterConfig::BTActionGenChangeToCan
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenChangeToCanAttackCharacterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenChangeToCanAttackCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3253,7 +3253,7 @@ void __cdecl BTActionGenChangeToCanAttackCharacterConfig::~BTActionGenChangeToCa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenChangeToCanAttackCharacterConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenChangeToCanAttackCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3396,7 +3396,7 @@ void __cdecl BTActionGenPlayCardPlanConfig::BTActionGenPlayCardPlanConfig(BTActi
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenPlayCardPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenPlayCardPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3416,7 +3416,7 @@ void __cdecl BTActionGenPlayCardPlanConfig::BTActionGenPlayCardPlanConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenPlayCardPlanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenPlayCardPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3433,7 +3433,7 @@ void __cdecl BTActionGenPlayCardPlanConfig::~BTActionGenPlayCardPlanConfig(BTAct
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenPlayCardPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenPlayCardPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3570,7 +3570,7 @@ void __cdecl BTActionGenChangeCharacterPlanConfig::BTActionGenChangeCharacterPla
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenChangeCharacterPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenChangeCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3588,7 +3588,7 @@ void __cdecl BTActionGenChangeCharacterPlanConfig::BTActionGenChangeCharacterPla
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenChangeCharacterPlanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenChangeCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3606,7 +3606,7 @@ void __cdecl BTActionGenChangeCharacterPlanConfig::~BTActionGenChangeCharacterPl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenChangeCharacterPlanConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenChangeCharacterPlanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3742,7 +3742,7 @@ void __cdecl BTActionReserveHandCardByTagConfig::BTActionReserveHandCardByTagCon
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionReserveHandCardByTagConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionReserveHandCardByTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3760,7 +3760,7 @@ void __cdecl BTActionReserveHandCardByTagConfig::BTActionReserveHandCardByTagCon
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionReserveHandCardByTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionReserveHandCardByTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -3776,7 +3776,7 @@ void __cdecl BTActionReserveHandCardByTagConfig::~BTActionReserveHandCardByTagCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionReserveHandCardByTagConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionReserveHandCardByTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3877,7 +3877,7 @@ void __cdecl BTActionRedrawConfig::BTActionRedrawConfig(BTActionRedrawConfig *co
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionRedrawConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionRedrawConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -3891,7 +3891,7 @@ void __cdecl BTActionRedrawConfig::BTActionRedrawConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionRedrawConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionRedrawConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -4018,7 +4018,7 @@ void __cdecl BTActionGenCandidateOnstageCharacterConfig::BTActionGenCandidateOns
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionGenCandidateOnstageCharacterConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenCandidateOnstageCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -4034,7 +4034,7 @@ void __cdecl BTActionGenCandidateOnstageCharacterConfig::BTActionGenCandidateOns
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionGenCandidateOnstageCharacterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionGenCandidateOnstageCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;
@@ -4048,7 +4048,7 @@ void __cdecl BTActionGenCandidateOnstageCharacterConfig::~BTActionGenCandidateOn
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BTActionGenCandidateOnstageCharacterConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionGenCandidateOnstageCharacterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -4153,7 +4153,7 @@ void __cdecl BTActionSelectOnstageConfig::BTActionSelectOnstageConfig(BTActionSe
   int (**v1)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'BTActionSelectOnstageConfig + 2);
+  v1 = (int (**)(...))(&`vtable for BTActionSelectOnstageConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v1;
@@ -4167,7 +4167,7 @@ void __cdecl BTActionSelectOnstageConfig::BTActionSelectOnstageConfig(
   int (**v2)(...); // rdx
 
   BTNodeConfigBase::BTNodeConfigBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'BTActionSelectOnstageConfig + 2);
+  v2 = (int (**)(...))(&`vtable for BTActionSelectOnstageConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BTNodeConfigBase = v2;

@@ -61,7 +61,7 @@ void __fastcall mysqlpp::ResultBase::ResultBase(
   int v57; // [rsp+B8h] [rbp-40h]
 
   this->exceptions_ = a4;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::ResultBase + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::ResultBase + 2);
   if ( a2 )
   {
     M_p = a3->error_message_._M_dataplus._M_p;
@@ -489,7 +489,7 @@ void __fastcall mysqlpp::StoreQueryResult::StoreQueryResult(
       {
         v11->exceptions_ = 1;
         ++v11;
-        v11[-1]._vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+        v11[-1]._vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
         v11[-1].data_._M_impl._M_start = 0LL;
         v11[-1].data_._M_impl._M_finish = 0LL;
         v11[-1].data_._M_impl._M_end_of_storage = 0LL;
@@ -507,7 +507,7 @@ void __fastcall mysqlpp::StoreQueryResult::StoreQueryResult(
     p_data = &v9->data_;
     this->_M_impl._M_finish = v10;
     this->copacetic_ = 1;
-    this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::StoreQueryResult + 2);
+    this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::StoreQueryResult + 2);
     while ( 1 )
     {
       v14 = a3->error_message_._M_dataplus._M_p;
@@ -543,7 +543,7 @@ void __fastcall mysqlpp::StoreQueryResult::StoreQueryResult(
         v25.refs_ = M_finish;
         mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&v25);
         LOBYTE(p_data[1]._M_impl._M_end_of_storage) = v26.initialized_;
-        v26._vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+        v26._vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
         mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&v26.field_names_);
         v21 = v26.data_._M_impl._M_finish;
         v22 = v26.data_._M_impl._M_start;
@@ -570,7 +570,7 @@ void __fastcall mysqlpp::StoreQueryResult::StoreQueryResult(
     this->_M_impl._M_start = 0LL;
     this->_M_impl._M_end_of_storage = 0LL;
     this->_M_impl._M_finish = 0LL;
-    this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::StoreQueryResult + 2);
+    this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::StoreQueryResult + 2);
     this->copacetic_ = 0;
   }
 };
@@ -610,7 +610,7 @@ void __fastcall mysqlpp::UseQueryResult::UseQueryResult(
   mysqlpp::ResultBase::ResultBase(this, a2, a3, a4);
   this->result_.counted_ = 0LL;
   this->result_.refs_ = 0LL;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::UseQueryResult + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::UseQueryResult + 2);
   if ( a2 )
   {
     v7.counted_ = a2;
@@ -716,7 +716,7 @@ mysqlpp::UseQueryResult *__fastcall mysqlpp::UseQueryResult::fetch_row(
   {
     exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x28uLL);
     mysqlpp::Exception::Exception(exception, "Results not fetched");
-    *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::UseQueryError + 2;
+    *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::UseQueryError + 2;
     _cxa_throw(
       exception,
       (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
@@ -725,7 +725,7 @@ mysqlpp::UseQueryResult *__fastcall mysqlpp::UseQueryResult::fetch_row(
   this->exceptions_ = 1;
   this->driver_ = 0LL;
   LOBYTE(this->names_.refs_) = 0;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
   result = this;
   this->fields_._M_impl._M_start = 0LL;
   this->fields_._M_impl._M_finish = 0LL;
@@ -741,7 +741,7 @@ void __noreturn mysqlpp::UseQueryResult::fetch_row()
 
   exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x28uLL);
   mysqlpp::Exception::Exception(exception, "Failed to get field lengths");
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::UseQueryError + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::UseQueryError + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,

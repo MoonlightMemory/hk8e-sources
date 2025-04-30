@@ -8,7 +8,7 @@ void __cdecl data::FungusExcelConfig::FungusExcelConfig(data::FungusExcelConfig 
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusExcelConfig = v2;
@@ -77,7 +77,7 @@ void __cdecl data::FungusExcelConfig::FungusExcelConfig(
   const data::FungusExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusExcelConfig = v2;
@@ -178,7 +178,7 @@ void __cdecl data::FungusExcelConfig::~FungusExcelConfig(data::FungusExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusExcelConfig = v2;
@@ -204,7 +204,7 @@ void __cdecl data::FungusCampExcelConfig::FungusCampExcelConfig(
   const data::FungusCampExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusCampExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusCampExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusCampExcelConfig = v2;
@@ -277,7 +277,7 @@ void __cdecl data::FungusCampExcelConfig::~FungusCampExcelConfig(data::FungusCam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusCampExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusCampExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusCampExcelConfig = v2;
@@ -292,7 +292,7 @@ void __cdecl data::FungusNameExcelConfig::FungusNameExcelConfig(
   uint32_t name_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusNameExcelConfig = v2;
@@ -324,7 +324,7 @@ void __cdecl data::FungusNameExcelConfig::~FungusNameExcelConfig(data::FungusNam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusNameExcelConfig = v2;
@@ -339,7 +339,7 @@ void __cdecl data::FungusCultivateExcelConfig::FungusCultivateExcelConfig(data::
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusCultivateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusCultivateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusCultivateExcelConfig = v2;
@@ -417,7 +417,7 @@ void __cdecl data::FungusCultivateExcelConfig::FungusCultivateExcelConfig(
   const data::FungusCultivateExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusCultivateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusCultivateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusCultivateExcelConfig = v2;
@@ -525,7 +525,7 @@ void __cdecl data::FungusCultivateExcelConfig::~FungusCultivateExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusCultivateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusCultivateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusCultivateExcelConfig = v2;
@@ -547,7 +547,7 @@ void __cdecl data::FungusPlotDungeonExcelConfig::FungusPlotDungeonExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusPlotDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusPlotDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusPlotDungeonExcelConfig = v2;
@@ -581,7 +581,7 @@ void __cdecl data::FungusPlotDungeonExcelConfig::FungusPlotDungeonExcelConfig(
   const data::FungusPlotDungeonExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusPlotDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusPlotDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusPlotDungeonExcelConfig = v2;
@@ -623,7 +623,7 @@ void __cdecl data::FungusPlotDungeonExcelConfig::~FungusPlotDungeonExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusPlotDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusPlotDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusPlotDungeonExcelConfig = v2;
@@ -646,7 +646,7 @@ void __cdecl data::FungusBaseExcelConfig::FungusBaseExcelConfig(data::FungusBase
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusBaseExcelConfig = v2;
@@ -699,7 +699,7 @@ void __cdecl data::FungusBaseExcelConfig::FungusBaseExcelConfig(
   const data::FungusBaseExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusBaseExcelConfig = v2;
@@ -775,7 +775,7 @@ void __cdecl data::FungusBaseExcelConfig::~FungusBaseExcelConfig(data::FungusBas
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusBaseExcelConfig = v2;
@@ -796,7 +796,7 @@ void __cdecl data::FungusTrainingDungeonExcelConfig::FungusTrainingDungeonExcelC
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusTrainingDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusTrainingDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusTrainingDungeonExcelConfig = v2;
@@ -934,7 +934,7 @@ void __cdecl data::FungusTrainingDungeonExcelConfig::FungusTrainingDungeonExcelC
   const data::FungusTrainingDungeonExcelConfig *v34; // [rsp+0h] [rbp-20h]
 
   v34 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FungusTrainingDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusTrainingDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FungusTrainingDungeonExcelConfig = v2;
@@ -1132,7 +1132,7 @@ void __cdecl data::FungusTrainingDungeonExcelConfig::~FungusTrainingDungeonExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FungusTrainingDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FungusTrainingDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FungusTrainingDungeonExcelConfig = v2;

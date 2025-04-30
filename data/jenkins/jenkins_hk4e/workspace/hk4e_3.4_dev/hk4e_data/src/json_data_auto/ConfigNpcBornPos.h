@@ -350,7 +350,7 @@ void __cdecl data::ConfigLevelNpcBornPos::ConfigLevelNpcBornPos(data::ConfigLeve
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigLevelNpcBornPos>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigLevelNpcBornPos>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelNpcBornPos = v2;
@@ -383,7 +383,7 @@ void __cdecl data::ConfigLevelNpcBornPos::ConfigLevelNpcBornPos(
   std::enable_shared_from_this<data::ConfigLevelNpcBornPos>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigLevelNpcBornPos>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPos + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigLevelNpcBornPos = v3;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigLevelNpcBornPos::~ConfigLevelNpcBornPos(data::ConfigLev
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelNpcBornPos = v2;
@@ -497,7 +497,7 @@ void __cdecl data::ConfigLevelNpcBornPosNoGroup::ConfigLevelNpcBornPosNoGroup(
   int (**v2)(...); // rdx
 
   data::ConfigLevelNpcBornPos::ConfigLevelNpcBornPos(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPosNoGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPosNoGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelNpcBornPos = v2;
@@ -511,7 +511,7 @@ void __cdecl data::ConfigLevelNpcBornPosNoGroup::ConfigLevelNpcBornPosNoGroup(
   int (**v2)(...); // rdx
 
   data::ConfigLevelNpcBornPos::ConfigLevelNpcBornPos(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPosNoGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPosNoGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigLevelNpcBornPos = v2;
@@ -524,7 +524,7 @@ void __cdecl data::ConfigLevelNpcBornPosNoGroup::~ConfigLevelNpcBornPosNoGroup(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPosNoGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPosNoGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelNpcBornPos = v2;
@@ -601,7 +601,7 @@ void __cdecl data::ConfigLevelNpcBornPosNoGroupFactory::ConfigLevelNpcBornPosNoG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLevelNpcBornPosNoGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLevelNpcBornPosNoGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLevelNpcBornPosNoGroupFactory = v2;

@@ -50,7 +50,7 @@ void __cdecl data::H5ActivityCondConfig::H5ActivityCondConfig(data::H5ActivityCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_H5ActivityCondConfig = v2;
@@ -83,7 +83,7 @@ void __cdecl data::H5ActivityCondConfig::H5ActivityCondConfig(
   const data::H5ActivityCondConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_H5ActivityCondConfig = v2;
@@ -123,7 +123,7 @@ void __cdecl data::H5ActivityCondConfig::~H5ActivityCondConfig(data::H5ActivityC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_H5ActivityCondConfig = v2;
@@ -143,7 +143,7 @@ void __cdecl data::H5ActivityExcelConfig::H5ActivityExcelConfig(data::H5Activity
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_H5ActivityExcelConfig = v2;
@@ -177,7 +177,7 @@ void __cdecl data::H5ActivityExcelConfig::H5ActivityExcelConfig(
   const data::H5ActivityExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_H5ActivityExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::H5ActivityExcelConfig::~H5ActivityExcelConfig(data::H5Activit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_H5ActivityExcelConfig = v2;
@@ -242,7 +242,7 @@ void __cdecl data::H5ActivityWatcherExcelConfig::H5ActivityWatcherExcelConfig(
   __int64 v3; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -281,7 +281,7 @@ void __cdecl data::H5ActivityWatcherExcelConfig::H5ActivityWatcherExcelConfig(
   char v10; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -333,7 +333,7 @@ void __cdecl data::H5ActivityWatcherExcelConfig::~H5ActivityWatcherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::H5ActivityWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::H5ActivityWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;

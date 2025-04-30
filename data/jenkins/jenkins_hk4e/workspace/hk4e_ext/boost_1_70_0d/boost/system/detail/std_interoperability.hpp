@@ -5,7 +5,7 @@ void __cdecl boost::system::detail::std_category::~std_category(boost::system::d
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::system::detail::std_category + 2;
+  v1 = &`vtable for boost::system::detail::std_category + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -27,7 +27,7 @@ void __cdecl boost::system::detail::std_category::std_category(
   __int64 *v2; // rdx
 
   std::_V2::error_category::error_category((std::_V2::error_category *const)this);
-  v2 = &`vtable for'boost::system::detail::std_category + 2;
+  v2 = &`vtable for boost::system::detail::std_category + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;

@@ -5,7 +5,7 @@ void __cdecl GCGChallenge::GCGChallenge(GCGChallenge *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -41,7 +41,7 @@ void __cdecl GCGChallenge::~GCGChallenge(GCGChallenge *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallenge + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallenge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -93,7 +93,7 @@ void __cdecl GCGChallengeWin::GCGChallengeWin(GCGChallengeWin *const this)
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeWin + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeWin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -104,7 +104,7 @@ void __cdecl GCGChallengeWin::~GCGChallengeWin(GCGChallengeWin *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeWin + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeWin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -117,7 +117,7 @@ void __cdecl GCGChallengeCharacterAliveNum::GCGChallengeCharacterAliveNum(GCGCha
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeCharacterAliveNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeCharacterAliveNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -128,7 +128,7 @@ void __cdecl GCGChallengeCharacterAliveNum::~GCGChallengeCharacterAliveNum(GCGCh
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeCharacterAliveNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeCharacterAliveNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -141,7 +141,7 @@ void __cdecl GCGChallengeBeingHealSum::GCGChallengeBeingHealSum(GCGChallengeBein
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeBeingHealSum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeBeingHealSum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -152,7 +152,7 @@ void __cdecl GCGChallengeBeingHealSum::~GCGChallengeBeingHealSum(GCGChallengeBei
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeBeingHealSum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeBeingHealSum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -165,7 +165,7 @@ void __cdecl GCGChallengeShieldReduceSum::GCGChallengeShieldReduceSum(GCGChallen
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeShieldReduceSum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeShieldReduceSum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -176,7 +176,7 @@ void __cdecl GCGChallengeShieldReduceSum::~GCGChallengeShieldReduceSum(GCGChalle
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeShieldReduceSum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeShieldReduceSum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -190,7 +190,7 @@ void __cdecl GCGChallengeElementReactionTimes::GCGChallengeElementReactionTimes(
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeElementReactionTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeElementReactionTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -202,7 +202,7 @@ void __cdecl GCGChallengeElementReactionTimes::~GCGChallengeElementReactionTimes
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeElementReactionTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeElementReactionTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -215,7 +215,7 @@ void __cdecl GCGChallengeOneHitDamageTimes::GCGChallengeOneHitDamageTimes(GCGCha
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeOneHitDamageTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeOneHitDamageTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -226,7 +226,7 @@ void __cdecl GCGChallengeOneHitDamageTimes::~GCGChallengeOneHitDamageTimes(GCGCh
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeOneHitDamageTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeOneHitDamageTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -239,7 +239,7 @@ void __cdecl GCGChallengePlayCardTimes::GCGChallengePlayCardTimes(GCGChallengePl
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengePlayCardTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengePlayCardTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -250,7 +250,7 @@ void __cdecl GCGChallengePlayCardTimes::~GCGChallengePlayCardTimes(GCGChallengeP
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengePlayCardTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengePlayCardTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -263,7 +263,7 @@ void __cdecl GCGChallengeSummonTimes::GCGChallengeSummonTimes(GCGChallengeSummon
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSummonTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSummonTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -274,7 +274,7 @@ void __cdecl GCGChallengeSummonTimes::~GCGChallengeSummonTimes(GCGChallengeSummo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSummonTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSummonTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -288,7 +288,7 @@ void __cdecl GCGChallengeSettleWithSkillTagQTimes::GCGChallengeSettleWithSkillTa
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSettleWithSkillTagQTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSettleWithSkillTagQTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -300,7 +300,7 @@ void __cdecl GCGChallengeSettleWithSkillTagQTimes::~GCGChallengeSettleWithSkillT
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSettleWithSkillTagQTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSettleWithSkillTagQTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -314,7 +314,7 @@ void __cdecl GCGChallengeOneOperationKillCountTimes::GCGChallengeOneOperationKil
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeOneOperationKillCountTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeOneOperationKillCountTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -326,7 +326,7 @@ void __cdecl GCGChallengeOneOperationKillCountTimes::~GCGChallengeOneOperationKi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeOneOperationKillCountTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeOneOperationKillCountTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -339,7 +339,7 @@ void __cdecl GCGChallengeDeadCharacterNum::GCGChallengeDeadCharacterNum(GCGChall
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeDeadCharacterNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeDeadCharacterNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -350,7 +350,7 @@ void __cdecl GCGChallengeDeadCharacterNum::~GCGChallengeDeadCharacterNum(GCGChal
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeDeadCharacterNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeDeadCharacterNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -363,7 +363,7 @@ void __cdecl GCGChallengeRoundNum::GCGChallengeRoundNum(GCGChallengeRoundNum *co
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeRoundNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeRoundNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -374,7 +374,7 @@ void __cdecl GCGChallengeRoundNum::~GCGChallengeRoundNum(GCGChallengeRoundNum *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeRoundNum + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeRoundNum + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -388,7 +388,7 @@ void __cdecl GCGChallengeReactionWithTargetElementTimes::GCGChallengeReactionWit
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeReactionWithTargetElementTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeReactionWithTargetElementTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -400,7 +400,7 @@ void __cdecl GCGChallengeReactionWithTargetElementTimes::~GCGChallengeReactionWi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeReactionWithTargetElementTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeReactionWithTargetElementTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -413,7 +413,7 @@ void __cdecl GCGChallengeSkillTagQTimes::GCGChallengeSkillTagQTimes(GCGChallenge
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSkillTagQTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSkillTagQTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -424,7 +424,7 @@ void __cdecl GCGChallengeSkillTagQTimes::~GCGChallengeSkillTagQTimes(GCGChalleng
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSkillTagQTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSkillTagQTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -438,7 +438,7 @@ void __cdecl GCGChallengeSummonTimesEqualOrLargeThanParam::GCGChallengeSummonTim
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSummonTimesEqualOrLargeThanParam + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSummonTimesEqualOrLargeThanParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -450,7 +450,7 @@ void __cdecl GCGChallengeSummonTimesEqualOrLargeThanParam::~GCGChallengeSummonTi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengeSummonTimesEqualOrLargeThanParam + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengeSummonTimesEqualOrLargeThanParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -464,7 +464,7 @@ void __cdecl GCGChallengePlayCardWithTagTimes::GCGChallengePlayCardWithTagTimes(
   int (**v1)(...); // rdx
 
   GCGChallenge::GCGChallenge(this);
-  v1 = (int (**)(...))(&`vtable for'GCGChallengePlayCardWithTagTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengePlayCardWithTagTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;
@@ -478,7 +478,7 @@ void __cdecl GCGChallengePlayCardWithTagTimes::~GCGChallengePlayCardWithTagTimes
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGChallengePlayCardWithTagTimes + 2);
+  v1 = (int (**)(...))(&`vtable for GCGChallengePlayCardWithTagTimes + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGChallenge = v1;

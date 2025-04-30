@@ -43,7 +43,7 @@ std::shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init> __cdecl bo
         v5->_M_weak_count = 1;
         if ( !*(_BYTE *)(((unsigned __int64)v5 >> 3) + 0x7FFF8000) )
         {
-          v5->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr<boost::asio::ssl::detail::openssl_init_base::do_init *,(__gnu_cxx::_Lock_policy)2>
+          v5->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_ptr<boost::asio::ssl::detail::openssl_init_base::do_init *,(__gnu_cxx::_Lock_policy)2>
                                                      + 2);
           if ( !*(_BYTE *)(((unsigned __int64)&v5[1] >> 3) + 0x7FFF8000) )
           {

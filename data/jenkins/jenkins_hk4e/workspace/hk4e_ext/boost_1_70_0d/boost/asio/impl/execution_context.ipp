@@ -55,7 +55,7 @@ void __cdecl boost::asio::execution_context::service::service(
   int (**v2)(...); // rdx
 
   boost::asio::detail::noncopyable::noncopyable((boost::asio::detail::noncopyable *const)this);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::execution_context::service + 2);
+  v2 = (int (**)(...))(&`vtable for boost::asio::execution_context::service + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v2;
@@ -73,7 +73,7 @@ void __cdecl boost::asio::execution_context::service::~service(boost::asio::exec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::execution_context::service + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::execution_context::service + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;
@@ -102,7 +102,7 @@ void __cdecl boost::asio::service_already_exists::service_already_exists(
   __int64 *v1; // rdx
 
   std::logic_error::logic_error((std::logic_error *)this, "Service already exists.");
-  v1 = &`vtable for'boost::asio::service_already_exists + 2;
+  v1 = &`vtable for boost::asio::service_already_exists + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -114,7 +114,7 @@ void __cdecl boost::asio::invalid_service_owner::invalid_service_owner(boost::as
   __int64 *v1; // rdx
 
   std::logic_error::logic_error((std::logic_error *)this, "Invalid service owner.");
-  v1 = &`vtable for'boost::asio::invalid_service_owner + 2;
+  v1 = &`vtable for boost::asio::invalid_service_owner + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;

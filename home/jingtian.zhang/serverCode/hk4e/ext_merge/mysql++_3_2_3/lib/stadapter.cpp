@@ -1322,7 +1322,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     {
       std::ios_base::ios_base((std::ios_base *)v83);
       v85 = 0;
-      v83[0] = (__int64)&`vtable for'std::ios + 16;
+      v83[0] = (__int64)&`vtable for std::ios + 16;
       v84 = 0LL;
       v86 = 0LL;
       v34 = (mysqlpp::SQLBuffer *)*((_QWORD *)&edata + 1);
@@ -1338,16 +1338,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v72 = 0LL;
       v73 = 0LL;
       v74 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ostringstream + 64;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      v83[0] = (__int64)&`vtable for std::ostringstream + 64;
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v75 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       v76 = 0LL;
       v77 = 0LL;
       std::locale::locale(&v78);
       v79 = 16;
       v82[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v80 = v82;
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
@@ -1359,11 +1359,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       std::stringbuf::str(&v54, &__k.refs_);
       v6 = v54;
       v7 = v55;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)exception + 1) = exception + 24;
       std::string::_M_construct<char *>((std::string *const)(exception + 8), v6, &v6[v7], v8);
       v9 = v54;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v9 != (char *)v56 )
         operator delete(v9);
       _cxa_throw(
@@ -1400,7 +1400,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   {
     std::ios_base::ios_base((std::ios_base *)v65);
     v66 = 0;
-    v65[0] = (__int64)&`vtable for'std::ios + 16;
+    v65[0] = (__int64)&`vtable for std::ios + 16;
     v65[27] = 0LL;
     v67 = 0LL;
     v21 = (char *)*((_QWORD *)&edata + 1);
@@ -1417,16 +1417,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     v56[0] = 0LL;
     v56[1] = 0LL;
     v57 = 0LL;
-    v54 = (char *)&`vtable for'std::ostringstream + 24;
+    v54 = (char *)&`vtable for std::ostringstream + 24;
     v58 = 0LL;
     v59 = 0LL;
-    v65[0] = (__int64)&`vtable for'std::ostringstream + 64;
+    v65[0] = (__int64)&`vtable for std::ostringstream + 64;
     v60 = 0LL;
-    v55 = (__int64)&`vtable for'std::streambuf + 16;
+    v55 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::locale(&v61);
     v62 = 16;
     v64[0] = 0;
-    v55 = (__int64)&`vtable for'std::stringbuf + 16;
+    v55 = (__int64)&`vtable for std::stringbuf + 16;
     v63[0] = v64;
     v63[1] = 0LL;
     std::ios::init(v65, &v55);
@@ -1456,7 +1456,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       __k.counted_ = (mysqlpp::SQLBuffer *)v21;
       v84 = 0LL;
       v86 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ios + 16;
+      v83[0] = (__int64)&`vtable for std::ios + 16;
       v85 = 0;
       v41 = *((_QWORD *)v21 - 3);
       v87 = 0LL;
@@ -1468,16 +1468,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v72 = 0LL;
       v73 = 0LL;
       v74 = 0LL;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v75 = 0LL;
       v76 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ostringstream + 64;
+      v83[0] = (__int64)&`vtable for std::ostringstream + 64;
       v77 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       std::locale::locale(&v78);
       v79 = 16;
       v82[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v80 = v82;
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
@@ -1489,11 +1489,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       std::stringbuf::str(&__beg, &__k.refs_);
       v2 = __beg;
       v3 = length;
-      *(_QWORD *)v45 = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)v45 = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)v45 + 1) = v45 + 24;
       std::string::_M_construct<char *>((std::string *const)(v45 + 8), v2, &v2[v3], v4);
       v5 = __beg;
-      *(_QWORD *)v45 = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)v45 = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v5 != (char *)v53 )
         operator delete(v5);
       _cxa_throw(
@@ -1523,17 +1523,17 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer>>::~RefCountedPointer(&__k);
     if ( pd != v50 )
       operator delete(pd);
-    v54 = (char *)&`vtable for'std::ostringstream + 24;
-    v65[0] = (__int64)&`vtable for'std::ostringstream + 64;
-    v55 = (__int64)&`vtable for'std::stringbuf + 16;
+    v54 = (char *)&`vtable for std::ostringstream + 24;
+    v65[0] = (__int64)&`vtable for std::ostringstream + 64;
+    v55 = (__int64)&`vtable for std::stringbuf + 16;
     if ( v63[0] != v64 )
       operator delete(v63[0]);
-    v55 = (__int64)&`vtable for'std::streambuf + 16;
+    v55 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::~locale(&v61);
     v33 = *((_QWORD *)v21 - 3);
     v54 = v21;
     *(char **)((char *)&v54 + v33) = v47;
-    v65[0] = (__int64)&`vtable for'std::ios + 16;
+    v65[0] = (__int64)&`vtable for std::ios + 16;
     std::ios_base::~ios_base((std::ios_base *)v65);
   }
 };
@@ -1661,7 +1661,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     {
       std::ios_base::ios_base((std::ios_base *)v97);
       v99 = 0;
-      v97[0] = (__int64)&`vtable for'std::ios + 16;
+      v97[0] = (__int64)&`vtable for std::ios + 16;
       v98 = 0LL;
       v46 = (mysqlpp::SQLBuffer *)*((_QWORD *)&edata + 1);
       v47 = *((_QWORD *)&edata + 2);
@@ -1677,16 +1677,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v86 = 0LL;
       v87 = 0LL;
       v88 = 0LL;
-      v97[0] = (__int64)&`vtable for'std::ostringstream + 64;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      v97[0] = (__int64)&`vtable for std::ostringstream + 64;
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v89 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       v90 = 0LL;
       v91 = 0LL;
       std::locale::locale(&v92);
       v93 = 16;
       v96[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v94 = v96;
       v95 = 0LL;
       std::ios::init(v97, &__k.refs_);
@@ -1698,11 +1698,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       std::stringbuf::str(&__beg, &__k.refs_);
       v18 = __beg;
       v19 = v69;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)exception + 1) = exception + 24;
       std::string::_M_construct<char *>((std::string *const)(exception + 8), v18, &v18[v19], v20);
       v21 = __beg;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v21 != (char *)v70 )
         operator delete(v21);
       _cxa_throw(
@@ -1738,7 +1738,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
   {
     std::ios_base::ios_base((std::ios_base *)v79);
     v80 = 0;
-    v79[0] = (__int64)&`vtable for'std::ios + 16;
+    v79[0] = (__int64)&`vtable for std::ios + 16;
     v79[27] = 0LL;
     v81 = 0LL;
     v33 = (char *)*((_QWORD *)&edata + 1);
@@ -1755,16 +1755,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     v70[0] = 0LL;
     v70[1] = 0LL;
     v71 = 0LL;
-    __beg = (char *)&`vtable for'std::ostringstream + 24;
+    __beg = (char *)&`vtable for std::ostringstream + 24;
     v72 = 0LL;
     v73 = 0LL;
-    v79[0] = (__int64)&`vtable for'std::ostringstream + 64;
+    v79[0] = (__int64)&`vtable for std::ostringstream + 64;
     v74 = 0LL;
-    v69 = (__int64)&`vtable for'std::streambuf + 16;
+    v69 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::locale(&v75);
     v76 = 16;
     v78[0] = 0;
-    v69 = (__int64)&`vtable for'std::stringbuf + 16;
+    v69 = (__int64)&`vtable for std::stringbuf + 16;
     v77[0] = v78;
     v77[1] = 0LL;
     std::ios::init(v79, &v69);
@@ -1794,7 +1794,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       __k.counted_ = (mysqlpp::SQLBuffer *)v33;
       v98 = 0LL;
       v100 = 0LL;
-      v97[0] = (__int64)&`vtable for'std::ios + 16;
+      v97[0] = (__int64)&`vtable for std::ios + 16;
       v99 = 0;
       v53 = *((_QWORD *)v33 - 3);
       v101 = 0LL;
@@ -1806,16 +1806,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v86 = 0LL;
       v87 = 0LL;
       v88 = 0LL;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v89 = 0LL;
       v90 = 0LL;
-      v97[0] = (__int64)&`vtable for'std::ostringstream + 64;
+      v97[0] = (__int64)&`vtable for std::ostringstream + 64;
       v91 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       std::locale::locale(&v92);
       v93 = 16;
       v96[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v94 = v96;
       v95 = 0LL;
       std::ios::init(v97, &__k.refs_);
@@ -1867,17 +1867,17 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer>>::~RefCountedPointer(&__k);
     if ( pd != v66 )
       operator delete(pd);
-    __beg = (char *)&`vtable for'std::ostringstream + 24;
-    v79[0] = (__int64)&`vtable for'std::ostringstream + 64;
-    v69 = (__int64)&`vtable for'std::stringbuf + 16;
+    __beg = (char *)&`vtable for std::ostringstream + 24;
+    v79[0] = (__int64)&`vtable for std::ostringstream + 64;
+    v69 = (__int64)&`vtable for std::stringbuf + 16;
     if ( v77[0] != v78 )
       operator delete(v77[0]);
-    v69 = (__int64)&`vtable for'std::streambuf + 16;
+    v69 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::~locale(&v75);
     v45 = *((_QWORD *)v33 - 3);
     __beg = v33;
     *(char **)((char *)&__beg + v45) = v62;
-    v79[0] = (__int64)&`vtable for'std::ios + 16;
+    v79[0] = (__int64)&`vtable for std::ios + 16;
     std::ios_base::~ios_base((std::ios_base *)v79);
   }
 };
@@ -1989,7 +1989,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     {
       std::ios_base::ios_base((std::ios_base *)v83);
       v85 = 0;
-      v83[0] = (__int64)&`vtable for'std::ios + 16;
+      v83[0] = (__int64)&`vtable for std::ios + 16;
       v84 = 0LL;
       v86 = 0LL;
       v34 = (mysqlpp::SQLBuffer *)*((_QWORD *)&edata + 1);
@@ -2005,16 +2005,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v72 = 0LL;
       v73 = 0LL;
       v74 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ostringstream + 64;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      v83[0] = (__int64)&`vtable for std::ostringstream + 64;
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v75 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       v76 = 0LL;
       v77 = 0LL;
       std::locale::locale(&v78);
       v79 = 16;
       v82[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v80 = v82;
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
@@ -2026,11 +2026,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       std::stringbuf::str(&v54, &__k.refs_);
       v6 = v54;
       v7 = v55;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)exception + 1) = exception + 24;
       std::string::_M_construct<char *>((std::string *const)(exception + 8), v6, &v6[v7], v8);
       v9 = v54;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v9 != (char *)v56 )
         operator delete(v9);
       _cxa_throw(
@@ -2067,7 +2067,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   {
     std::ios_base::ios_base((std::ios_base *)v65);
     v66 = 0;
-    v65[0] = (__int64)&`vtable for'std::ios + 16;
+    v65[0] = (__int64)&`vtable for std::ios + 16;
     v65[27] = 0LL;
     v67 = 0LL;
     v21 = (char *)*((_QWORD *)&edata + 1);
@@ -2084,16 +2084,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     v56[0] = 0LL;
     v56[1] = 0LL;
     v57 = 0LL;
-    v54 = (char *)&`vtable for'std::ostringstream + 24;
+    v54 = (char *)&`vtable for std::ostringstream + 24;
     v58 = 0LL;
     v59 = 0LL;
-    v65[0] = (__int64)&`vtable for'std::ostringstream + 64;
+    v65[0] = (__int64)&`vtable for std::ostringstream + 64;
     v60 = 0LL;
-    v55 = (__int64)&`vtable for'std::streambuf + 16;
+    v55 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::locale(&v61);
     v62 = 16;
     v64[0] = 0;
-    v55 = (__int64)&`vtable for'std::stringbuf + 16;
+    v55 = (__int64)&`vtable for std::stringbuf + 16;
     v63[0] = v64;
     v63[1] = 0LL;
     std::ios::init(v65, &v55);
@@ -2123,7 +2123,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       __k.counted_ = (mysqlpp::SQLBuffer *)v21;
       v84 = 0LL;
       v86 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ios + 16;
+      v83[0] = (__int64)&`vtable for std::ios + 16;
       v85 = 0;
       v41 = *((_QWORD *)v21 - 3);
       v87 = 0LL;
@@ -2135,16 +2135,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v72 = 0LL;
       v73 = 0LL;
       v74 = 0LL;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v75 = 0LL;
       v76 = 0LL;
-      v83[0] = (__int64)&`vtable for'std::ostringstream + 64;
+      v83[0] = (__int64)&`vtable for std::ostringstream + 64;
       v77 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       std::locale::locale(&v78);
       v79 = 16;
       v82[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v80 = v82;
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
@@ -2156,11 +2156,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       std::stringbuf::str(&__beg, &__k.refs_);
       v2 = __beg;
       v3 = length;
-      *(_QWORD *)v45 = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)v45 = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)v45 + 1) = v45 + 24;
       std::string::_M_construct<char *>((std::string *const)(v45 + 8), v2, &v2[v3], v4);
       v5 = __beg;
-      *(_QWORD *)v45 = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)v45 = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v5 != (char *)v53 )
         operator delete(v5);
       _cxa_throw(
@@ -2190,17 +2190,17 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer>>::~RefCountedPointer(&__k);
     if ( pd != v50 )
       operator delete(pd);
-    v54 = (char *)&`vtable for'std::ostringstream + 24;
-    v65[0] = (__int64)&`vtable for'std::ostringstream + 64;
-    v55 = (__int64)&`vtable for'std::stringbuf + 16;
+    v54 = (char *)&`vtable for std::ostringstream + 24;
+    v65[0] = (__int64)&`vtable for std::ostringstream + 64;
+    v55 = (__int64)&`vtable for std::stringbuf + 16;
     if ( v63[0] != v64 )
       operator delete(v63[0]);
-    v55 = (__int64)&`vtable for'std::streambuf + 16;
+    v55 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::~locale(&v61);
     v33 = *((_QWORD *)v21 - 3);
     v54 = v21;
     *(char **)((char *)&v54 + v33) = v47;
-    v65[0] = (__int64)&`vtable for'std::ios + 16;
+    v65[0] = (__int64)&`vtable for std::ios + 16;
     std::ios_base::~ios_base((std::ios_base *)v65);
   }
 };
@@ -2323,7 +2323,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     {
       std::ios_base::ios_base((std::ios_base *)v95);
       v97 = 0;
-      v95[0] = (__int64)&`vtable for'std::ios + 16;
+      v95[0] = (__int64)&`vtable for std::ios + 16;
       v96 = 0LL;
       v45 = (mysqlpp::SQLBuffer *)*((_QWORD *)&edata + 1);
       v46 = *((_QWORD *)&edata + 2);
@@ -2339,16 +2339,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v84 = 0LL;
       v85 = 0LL;
       v86 = 0LL;
-      v95[0] = (__int64)&`vtable for'std::ostringstream + 64;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      v95[0] = (__int64)&`vtable for std::ostringstream + 64;
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v87 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       v88 = 0LL;
       v89 = 0LL;
       std::locale::locale(&v90);
       v91 = 16;
       v94[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v92 = v94;
       v93 = 0LL;
       std::ios::init(v95, &__k.refs_);
@@ -2360,11 +2360,11 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       std::stringbuf::str(&__beg, &__k.refs_);
       v19 = __beg;
       v20 = v67;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
       *((_QWORD *)exception + 1) = exception + 24;
       std::string::_M_construct<char *>((std::string *const)(exception + 8), v19, &v19[v20], v21);
       v22 = __beg;
-      *(_QWORD *)exception = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+      *(_QWORD *)exception = &`vtable for mysqlpp::TypeLookupFailed + 2;
       if ( v22 != (char *)v68 )
         operator delete(v22);
       _cxa_throw(
@@ -2400,7 +2400,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
   {
     std::ios_base::ios_base((std::ios_base *)v77);
     v78 = 0;
-    v77[0] = (__int64)&`vtable for'std::ios + 16;
+    v77[0] = (__int64)&`vtable for std::ios + 16;
     v77[27] = 0LL;
     v79 = 0LL;
     v32 = (char *)*((_QWORD *)&edata + 1);
@@ -2417,16 +2417,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     v68[0] = 0LL;
     v68[1] = 0LL;
     v69 = 0LL;
-    __beg = (char *)&`vtable for'std::ostringstream + 24;
+    __beg = (char *)&`vtable for std::ostringstream + 24;
     v70 = 0LL;
     v71 = 0LL;
-    v77[0] = (__int64)&`vtable for'std::ostringstream + 64;
+    v77[0] = (__int64)&`vtable for std::ostringstream + 64;
     v72 = 0LL;
-    v67 = (__int64)&`vtable for'std::streambuf + 16;
+    v67 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::locale(&v73);
     v74 = 16;
     v76[0] = 0;
-    v67 = (__int64)&`vtable for'std::stringbuf + 16;
+    v67 = (__int64)&`vtable for std::stringbuf + 16;
     v75[0] = v76;
     v75[1] = 0LL;
     std::ios::init(v77, &v67);
@@ -2456,7 +2456,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       __k.counted_ = (mysqlpp::SQLBuffer *)v32;
       v96 = 0LL;
       v98 = 0LL;
-      v95[0] = (__int64)&`vtable for'std::ios + 16;
+      v95[0] = (__int64)&`vtable for std::ios + 16;
       v97 = 0;
       v52 = *((_QWORD *)v32 - 3);
       v99 = 0LL;
@@ -2468,16 +2468,16 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v84 = 0LL;
       v85 = 0LL;
       v86 = 0LL;
-      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for'std::ostringstream + 24);
+      __k.counted_ = (mysqlpp::SQLBuffer *)((char *)&`vtable for std::ostringstream + 24);
       v87 = 0LL;
       v88 = 0LL;
-      v95[0] = (__int64)&`vtable for'std::ostringstream + 64;
+      v95[0] = (__int64)&`vtable for std::ostringstream + 64;
       v89 = 0LL;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::streambuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::streambuf + 16);
       std::locale::locale(&v90);
       v91 = 16;
       v94[0] = 0;
-      __k.refs_ = (size_t *)((char *)&`vtable for'std::stringbuf + 16);
+      __k.refs_ = (size_t *)((char *)&`vtable for std::stringbuf + 16);
       v92 = v94;
       v93 = 0LL;
       std::ios::init(v95, &__k.refs_);
@@ -2529,17 +2529,17 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer>>::~RefCountedPointer(&__k);
     if ( pd != v64 )
       operator delete(pd);
-    __beg = (char *)&`vtable for'std::ostringstream + 24;
-    v77[0] = (__int64)&`vtable for'std::ostringstream + 64;
-    v67 = (__int64)&`vtable for'std::stringbuf + 16;
+    __beg = (char *)&`vtable for std::ostringstream + 24;
+    v77[0] = (__int64)&`vtable for std::ostringstream + 64;
+    v67 = (__int64)&`vtable for std::stringbuf + 16;
     if ( v75[0] != v76 )
       operator delete(v75[0]);
-    v67 = (__int64)&`vtable for'std::streambuf + 16;
+    v67 = (__int64)&`vtable for std::streambuf + 16;
     std::locale::~locale(&v73);
     v44 = *((_QWORD *)v32 - 3);
     __beg = v32;
     *(char **)((char *)&__beg + v44) = v60;
-    v77[0] = (__int64)&`vtable for'std::ios + 16;
+    v77[0] = (__int64)&`vtable for std::ios + 16;
     std::ios_base::~ios_base((std::ios_base *)v77);
   }
 };

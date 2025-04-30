@@ -12,7 +12,7 @@ void __cdecl ZN2BT23ConditionCheckPhaseBaseCI2NS_8LeafNodeEERKNSt7__cxx1112basic
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionCheckPhaseBase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionCheckPhaseBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -30,7 +30,7 @@ void __cdecl BT::ConditionCheckPhaseBase::~ConditionCheckPhaseBase(BT::Condition
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionCheckPhaseBase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionCheckPhaseBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -55,7 +55,7 @@ void __cdecl ZN2BT27ConditionCheckIsRerollPhaseCI2NS_8LeafNodeEERKNSt7__cxx1112b
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsRerollPhase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionCheckIsRerollPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -66,7 +66,7 @@ void __cdecl BT::ConditionCheckIsRerollPhase::~ConditionCheckIsRerollPhase(BT::C
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsRerollPhase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionCheckIsRerollPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -92,7 +92,7 @@ void __cdecl ZN2BT27ConditionCheckIsActionPhaseCI2NS_8LeafNodeEERKNSt7__cxx1112b
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsActionPhase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionCheckIsActionPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -110,7 +110,7 @@ void __cdecl BT::ConditionCheckIsActionPhase::~ConditionCheckIsActionPhase(BT::C
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsActionPhase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionCheckIsActionPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -129,7 +129,7 @@ void __cdecl ZN2BT43ConditionCheckIsSelectOnstageCharacterPhaseCI2NS_8LeafNodeEE
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsSelectOnstageCharacterPhase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionCheckIsSelectOnstageCharacterPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -141,7 +141,7 @@ void __cdecl BT::ConditionCheckIsSelectOnstageCharacterPhase::~ConditionCheckIsS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsSelectOnstageCharacterPhase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionCheckIsSelectOnstageCharacterPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -168,7 +168,7 @@ void __cdecl ZN2BT25ConditionCheckIsDrawPhaseCI2NS_8LeafNodeEERKNSt7__cxx1112bas
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsDrawPhase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ConditionCheckIsDrawPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -186,7 +186,7 @@ void __cdecl BT::ConditionCheckIsDrawPhase::~ConditionCheckIsDrawPhase(BT::Condi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ConditionCheckIsDrawPhase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ConditionCheckIsDrawPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

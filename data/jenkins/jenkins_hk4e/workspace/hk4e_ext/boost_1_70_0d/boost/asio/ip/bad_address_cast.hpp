@@ -8,7 +8,7 @@ void __fastcall boost::asio::ip::bad_address_cast::~bad_address_cast(boost::asio
     __asan_report_store8();
     JUMPOUT(0xCDF5391LL);
   }
-  *this = (boost::asio::ip::bad_address_cast)(&`vtable for'boost::asio::ip::bad_address_cast + 2);
+  *this = (boost::asio::ip::bad_address_cast)(&`vtable for boost::asio::ip::bad_address_cast + 2);
   std::bad_cast::~bad_cast((std::bad_cast *)this);
 };
 

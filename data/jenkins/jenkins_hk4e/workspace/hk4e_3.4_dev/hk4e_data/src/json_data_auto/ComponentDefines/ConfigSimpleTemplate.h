@@ -7,7 +7,7 @@ void __cdecl data::TemplateParam::TemplateParam(data::TemplateParam *const this)
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::TemplateParam>::enable_shared_from_this(&this->std::enable_shared_from_this<data::TemplateParam>);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -30,7 +30,7 @@ void __cdecl data::TemplateParam::TemplateParam(data::TemplateParam *const this,
   std::enable_shared_from_this<data::TemplateParam>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::TemplateParam>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::TemplateParam + 2);
+  v3 = (int (**)(...))(&`vtable for data::TemplateParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_TemplateParam = v3;
@@ -61,7 +61,7 @@ void __cdecl data::TemplateParam::~TemplateParam(data::TemplateParam *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -130,7 +130,7 @@ void __cdecl data::TemplateParamFloat::TemplateParamFloat(data::TemplateParamFlo
   int (**v2)(...); // rdx
 
   data::TemplateParam::TemplateParam((data::TemplateParam *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -151,7 +151,7 @@ void __cdecl data::TemplateParamFloat::TemplateParamFloat(
   float origin_value; // xmm0_4
 
   data::TemplateParam::TemplateParam((data::TemplateParam *const)this, (const data::TemplateParam *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TemplateParam = v2;
@@ -175,7 +175,7 @@ void __cdecl data::TemplateParamFloat::~TemplateParamFloat(data::TemplateParamFl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamFloat + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamFloat + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -249,7 +249,7 @@ void __cdecl data::TemplateParamFloatFactory::TemplateParamFloatFactory(data::Te
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamFloatFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamFloatFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParamFloatFactory = v2;
@@ -262,7 +262,7 @@ void __cdecl data::TemplateParamInt32::TemplateParamInt32(data::TemplateParamInt
   int (**v2)(...); // rdx
 
   data::TemplateParam::TemplateParam((data::TemplateParam *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamInt32 + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamInt32 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -285,7 +285,7 @@ void __cdecl data::TemplateParamInt32::TemplateParamInt32(
   char v5; // dl
 
   data::TemplateParam::TemplateParam((data::TemplateParam *const)this, (const data::TemplateParam *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamInt32 + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamInt32 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TemplateParam = v2;
@@ -318,7 +318,7 @@ void __cdecl data::TemplateParamInt32::~TemplateParamInt32(data::TemplateParamIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamInt32 + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamInt32 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -385,7 +385,7 @@ void __cdecl data::TemplateParamInt32Factory::TemplateParamInt32Factory(data::Te
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamInt32Factory + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamInt32Factory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParamInt32Factory = v2;
@@ -398,7 +398,7 @@ void __cdecl data::TemplateParamString::TemplateParamString(data::TemplateParamS
   int (**v2)(...); // rdx
 
   data::TemplateParam::TemplateParam(this);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamString + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamString + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -413,7 +413,7 @@ void __cdecl data::TemplateParamString::TemplateParamString(
   int (**v2)(...); // rdx
 
   data::TemplateParam::TemplateParam(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamString + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamString + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TemplateParam = v2;
@@ -426,7 +426,7 @@ void __cdecl data::TemplateParamString::~TemplateParamString(data::TemplateParam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamString + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamString + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParam = v2;
@@ -501,7 +501,7 @@ void __cdecl data::TemplateParamStringFactory::TemplateParamStringFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TemplateParamStringFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::TemplateParamStringFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TemplateParamStringFactory = v2;

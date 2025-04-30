@@ -7,7 +7,7 @@ void __cdecl data::IndicatorCondition::IndicatorCondition(data::IndicatorConditi
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::IndicatorCondition>::enable_shared_from_this(&this->std::enable_shared_from_this<data::IndicatorCondition>);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -30,7 +30,7 @@ void __cdecl data::IndicatorCondition::IndicatorCondition(
   std::enable_shared_from_this<data::IndicatorCondition>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::IndicatorCondition>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::IndicatorCondition + 2);
+  v3 = (int (**)(...))(&`vtable for data::IndicatorCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_IndicatorCondition = v3;
@@ -59,7 +59,7 @@ void __cdecl data::IndicatorCondition::~IndicatorCondition(data::IndicatorCondit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -129,7 +129,7 @@ void __cdecl data::IndicatorConditionGadgetState::IndicatorConditionGadgetState(
   __int64 v3; // rsi
 
   data::IndicatorCondition::IndicatorCondition((data::IndicatorCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -163,7 +163,7 @@ void __cdecl data::IndicatorConditionGadgetState::IndicatorConditionGadgetState(
   data::IndicatorCondition::IndicatorCondition(
     (data::IndicatorCondition *const)this,
     (const data::IndicatorCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -211,7 +211,7 @@ void __cdecl data::IndicatorConditionGadgetState::~IndicatorConditionGadgetState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionGadgetState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionGadgetState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -280,7 +280,7 @@ void __cdecl data::IndicatorConditionGadgetStateFactory::IndicatorConditionGadge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionGadgetStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionGadgetStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionGadgetStateFactory = v2;
@@ -296,7 +296,7 @@ void __cdecl data::IndicatorConditionAllowInteract::IndicatorConditionAllowInter
   __int64 v4; // rdx
 
   data::IndicatorCondition::IndicatorCondition((data::IndicatorCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAllowInteract + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAllowInteract + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -322,7 +322,7 @@ void __cdecl data::IndicatorConditionAllowInteract::IndicatorConditionAllowInter
   data::IndicatorCondition::IndicatorCondition(
     (data::IndicatorCondition *const)this,
     (const data::IndicatorCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAllowInteract + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAllowInteract + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -346,7 +346,7 @@ void __cdecl data::IndicatorConditionAllowInteract::~IndicatorConditionAllowInte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAllowInteract + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAllowInteract + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -424,7 +424,7 @@ void __cdecl data::IndicatorConditionAllowInteractFactory::IndicatorConditionAll
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAllowInteractFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAllowInteractFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionAllowInteractFactory = v2;
@@ -438,7 +438,7 @@ void __cdecl data::IndicatorConditionDummyPointDistance::IndicatorConditionDummy
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionDummyPointDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionDummyPointDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -458,7 +458,7 @@ void __cdecl data::IndicatorConditionDummyPointDistance::IndicatorConditionDummy
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionDummyPointDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionDummyPointDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -481,7 +481,7 @@ void __cdecl data::IndicatorConditionDummyPointDistance::~IndicatorConditionDumm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionDummyPointDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionDummyPointDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -553,7 +553,7 @@ void __cdecl data::IndicatorConditionDummyPointDistanceFactory::IndicatorConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionDummyPointDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionDummyPointDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionDummyPointDistanceFactory = v2;
@@ -567,7 +567,7 @@ void __cdecl data::IndicatorConditionAvatarDistance::IndicatorConditionAvatarDis
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAvatarDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAvatarDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -584,7 +584,7 @@ void __cdecl data::IndicatorConditionAvatarDistance::IndicatorConditionAvatarDis
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAvatarDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAvatarDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -606,7 +606,7 @@ void __cdecl data::IndicatorConditionAvatarDistance::~IndicatorConditionAvatarDi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAvatarDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAvatarDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -677,7 +677,7 @@ void __cdecl data::IndicatorConditionAvatarDistanceFactory::IndicatorConditionAv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionAvatarDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionAvatarDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionAvatarDistanceFactory = v2;
@@ -690,7 +690,7 @@ void __cdecl data::IndicatorConditionKilled::IndicatorConditionKilled(data::Indi
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionKilled + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionKilled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -704,7 +704,7 @@ void __cdecl data::IndicatorConditionKilled::IndicatorConditionKilled(
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionKilled + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionKilled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -716,7 +716,7 @@ void __cdecl data::IndicatorConditionKilled::~IndicatorConditionKilled(data::Ind
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionKilled + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionKilled + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -791,7 +791,7 @@ void __cdecl data::IndicatorConditionKilledFactory::IndicatorConditionKilledFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionKilledFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionKilledFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionKilledFactory = v2;
@@ -805,7 +805,7 @@ void __cdecl data::IndicatorConditionPlayerLevel::IndicatorConditionPlayerLevel(
   int (**v2)(...); // rdx
 
   data::IndicatorCondition::IndicatorCondition((data::IndicatorCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -830,7 +830,7 @@ void __cdecl data::IndicatorConditionPlayerLevel::IndicatorConditionPlayerLevel(
   data::IndicatorCondition::IndicatorCondition(
     (data::IndicatorCondition *const)this,
     (const data::IndicatorCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -865,7 +865,7 @@ void __cdecl data::IndicatorConditionPlayerLevel::~IndicatorConditionPlayerLevel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -934,7 +934,7 @@ void __cdecl data::IndicatorConditionPlayerLevelFactory::IndicatorConditionPlaye
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionPlayerLevelFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionPlayerLevelFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionPlayerLevelFactory = v2;
@@ -950,7 +950,7 @@ void __cdecl data::IndicatorConditionSceneTransPointLockState::IndicatorConditio
   __int64 v4; // rdx
 
   data::IndicatorCondition::IndicatorCondition((data::IndicatorCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionSceneTransPointLockState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionSceneTransPointLockState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -976,7 +976,7 @@ void __cdecl data::IndicatorConditionSceneTransPointLockState::IndicatorConditio
   data::IndicatorCondition::IndicatorCondition(
     (data::IndicatorCondition *const)this,
     (const data::IndicatorCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionSceneTransPointLockState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionSceneTransPointLockState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IndicatorCondition = v2;
@@ -1000,7 +1000,7 @@ void __cdecl data::IndicatorConditionSceneTransPointLockState::~IndicatorConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionSceneTransPointLockState + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionSceneTransPointLockState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorCondition = v2;
@@ -1078,7 +1078,7 @@ void __cdecl data::IndicatorConditionSceneTransPointLockStateFactory::IndicatorC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IndicatorConditionSceneTransPointLockStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::IndicatorConditionSceneTransPointLockStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IndicatorConditionSceneTransPointLockStateFactory = v2;

@@ -107,7 +107,7 @@ LABEL_16:
         HIDWORD(p_client_mu->_M_string_length) = 1;
         if ( !*(_BYTE *)(((unsigned __int64)p_client_mu >> 3) + 0x7FFF8000) )
         {
-          p_client_mu->_M_dataplus._M_p = (std::string::pointer)(&`vtable for'std::_Sp_counted_ptr_inplace<common::minet::kcp_client,std::allocator<common::minet::kcp_client>,(__gnu_cxx::_Lock_policy)2>
+          p_client_mu->_M_dataplus._M_p = (std::string::pointer)(&`vtable for std::_Sp_counted_ptr_inplace<common::minet::kcp_client,std::allocator<common::minet::kcp_client>,(__gnu_cxx::_Lock_policy)2>
                                                                + 2);
           p_anon_0 = (common::minet::kcp_client *)&p_client_mu->_anon_0;
           common::minet::kcp_client::kcp_client(
@@ -150,7 +150,7 @@ LABEL_18:
       operator delete(type._M_dataplus._M_p);
     goto LABEL_20;
   }
-  p_client_mu->_M_dataplus._M_p = (std::string::pointer)(&`vtable for'std::_Sp_counted_ptr_inplace<common::minet::kcp_client,common::tools::perf::allocator<common::minet::kcp_client,common::minet::kcp_client>,(__gnu_cxx::_Lock_policy)2>
+  p_client_mu->_M_dataplus._M_p = (std::string::pointer)(&`vtable for std::_Sp_counted_ptr_inplace<common::minet::kcp_client,common::tools::perf::allocator<common::minet::kcp_client,common::minet::kcp_client>,(__gnu_cxx::_Lock_policy)2>
                                                        + 2);
   p_anon_0 = (common::minet::kcp_client *)&p_client_mu->_anon_0;
   if ( common::tools::perf::MemoryPerf::is_record )

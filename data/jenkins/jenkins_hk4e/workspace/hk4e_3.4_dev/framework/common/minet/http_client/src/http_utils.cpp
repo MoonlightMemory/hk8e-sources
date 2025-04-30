@@ -1138,16 +1138,16 @@ LABEL_110:
 LABEL_111:
     if ( v43.os_.m_initialized )
     {
-      *(_QWORD *)v43.os_.m_storage.dummy_.data = (char *)&`vtable for'boost::beast::detail::static_ostream + 24;
-      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'boost::beast::detail::static_ostream
+      *(_QWORD *)v43.os_.m_storage.dummy_.data = (char *)&`vtable for boost::beast::detail::static_ostream + 24;
+      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for boost::beast::detail::static_ostream
                                                            + 64;
-      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for'boost::beast::detail::static_ostream_buffer + 2;
+      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for boost::beast::detail::static_ostream_buffer + 2;
       if ( *((boost::beast::string_param **)&v43.os_.m_storage.dummy_.aligner_ + 12) != (boost::beast::string_param *)(&v43.os_.m_storage.dummy_.aligner_ + 14) )
         operator delete(*((void **)&v43.os_.m_storage.dummy_.aligner_ + 12));
-      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for'std::streambuf + 16;
+      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for std::streambuf + 16;
       std::locale::~locale((std::locale *)&v43.os_.m_storage.dummy_.aligner_ + 8);
       *(_QWORD *)v43.os_.m_storage.dummy_.data = &unk_1E968FD0;
-      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'std::ios + 16;
+      *((_QWORD *)&v43.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for std::ios + 16;
       std::ios_base::~ios_base((std::ios_base *)(&v43.os_.m_storage.dummy_.aligner_ + 16));
       v43.os_.m_initialized = 0;
     }
@@ -1301,16 +1301,16 @@ LABEL_8:
 LABEL_9:
     if ( v10.os_.m_initialized )
     {
-      *(_QWORD *)v10.os_.m_storage.dummy_.data = (char *)&`vtable for'boost::beast::detail::static_ostream + 24;
-      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'boost::beast::detail::static_ostream
+      *(_QWORD *)v10.os_.m_storage.dummy_.data = (char *)&`vtable for boost::beast::detail::static_ostream + 24;
+      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for boost::beast::detail::static_ostream
                                                            + 64;
-      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for'boost::beast::detail::static_ostream_buffer + 2;
+      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 1) = &`vtable for boost::beast::detail::static_ostream_buffer + 2;
       if ( *((boost::beast::string_param **)&v10.os_.m_storage.dummy_.aligner_ + 12) != (boost::beast::string_param *)(&v10.os_.m_storage.dummy_.aligner_ + 14) )
         operator delete(*((void **)&v10.os_.m_storage.dummy_.aligner_ + 12));
-      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for'std::streambuf + 16;
+      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 1) = (char *)&`vtable for std::streambuf + 16;
       std::locale::~locale((std::locale *)&v10.os_.m_storage.dummy_.aligner_ + 8);
       *(_QWORD *)v10.os_.m_storage.dummy_.data = &unk_1E968FD0;
-      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for'std::ios + 16;
+      *((_QWORD *)&v10.os_.m_storage.dummy_.aligner_ + 16) = (char *)&`vtable for std::ios + 16;
       std::ios_base::~ios_base((std::ios_base *)(&v10.os_.m_storage.dummy_.aligner_ + 16));
       v10.os_.m_initialized = 0;
     }

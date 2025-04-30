@@ -6,7 +6,7 @@ void __cdecl data::DungeonList::~DungeonList(data::DungeonList *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonList + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonList = v2;
@@ -18,7 +18,7 @@ void __cdecl data::DungeonList::DungeonList(data::DungeonList *const this, const
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonList + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonList = v2;
@@ -31,7 +31,7 @@ void __cdecl data::DungeonList::DungeonList(data::DungeonList *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonList + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonList + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonList = v2;
@@ -59,7 +59,7 @@ void __cdecl data::DungeonExcelConfig::DungeonExcelConfig(data::DungeonExcelConf
   __int64 v16; // rsi
   __int64 v17; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonExcelConfig = v2;
@@ -352,7 +352,7 @@ void __cdecl data::DungeonExcelConfig::DungeonExcelConfig(
   const data::DungeonExcelConfig *v83; // [rsp+0h] [rbp-20h]
 
   v83 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonExcelConfig = v2;
@@ -784,7 +784,7 @@ void __cdecl data::DungeonExcelConfig::~DungeonExcelConfig(data::DungeonExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonExcelConfig = v2;
@@ -826,7 +826,7 @@ void __cdecl data::DungeonCondConfig::DungeonCondConfig(data::DungeonCondConfig 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonCondConfig = v2;
@@ -850,7 +850,7 @@ void __cdecl data::DungeonCondConfig::DungeonCondConfig(
   const data::DungeonCondConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonCondConfig = v2;
@@ -876,7 +876,7 @@ void __cdecl data::DungeonCondConfig::~DungeonCondConfig(data::DungeonCondConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonCondConfig = v2;
@@ -896,7 +896,7 @@ void __cdecl data::DungeonPassExcelConfig::DungeonPassExcelConfig(data::DungeonP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonPassExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonPassExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonPassExcelConfig = v2;
@@ -929,7 +929,7 @@ void __cdecl data::DungeonPassExcelConfig::DungeonPassExcelConfig(
   const data::DungeonPassExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonPassExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonPassExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonPassExcelConfig = v2;
@@ -969,7 +969,7 @@ void __cdecl data::DungeonPassExcelConfig::~DungeonPassExcelConfig(data::Dungeon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonPassExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonPassExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonPassExcelConfig = v2;
@@ -995,7 +995,7 @@ void __cdecl data::DungeonChallengeConfig::DungeonChallengeConfig(data::DungeonC
   __int64 v7; // rdx
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonChallengeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonChallengeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonChallengeConfig = v2;
@@ -1121,7 +1121,7 @@ void __cdecl data::DungeonChallengeConfig::DungeonChallengeConfig(
   const data::DungeonChallengeConfig *v37; // [rsp+0h] [rbp-20h]
 
   v37 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonChallengeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonChallengeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonChallengeConfig = v2;
@@ -1297,7 +1297,7 @@ void __cdecl data::DungeonChallengeConfig::~DungeonChallengeConfig(data::Dungeon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonChallengeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonChallengeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonChallengeConfig = v2;
@@ -1318,7 +1318,7 @@ void __cdecl data::DailyDungeonConfig::DailyDungeonConfig(data::DailyDungeonConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyDungeonConfig = v2;
@@ -1348,7 +1348,7 @@ void __cdecl data::DailyDungeonConfig::DailyDungeonConfig(
   const data::DailyDungeonConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyDungeonConfig = v2;
@@ -1380,7 +1380,7 @@ void __cdecl data::DailyDungeonConfig::~DailyDungeonConfig(data::DailyDungeonCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyDungeonConfig = v2;
@@ -1406,7 +1406,7 @@ void __cdecl data::DungeonLevelEntityConfig::DungeonLevelEntityConfig(data::Dung
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonLevelEntityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonLevelEntityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonLevelEntityConfig = v2;
@@ -1430,7 +1430,7 @@ void __cdecl data::DungeonLevelEntityConfig::DungeonLevelEntityConfig(
   const data::DungeonLevelEntityConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonLevelEntityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonLevelEntityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonLevelEntityConfig = v2;
@@ -1456,7 +1456,7 @@ void __cdecl data::DungeonLevelEntityConfig::~DungeonLevelEntityConfig(data::Dun
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonLevelEntityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonLevelEntityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonLevelEntityConfig = v2;
@@ -1486,7 +1486,7 @@ void __cdecl data::DungeonSerialConfig::DungeonSerialConfig(
   const data::DungeonSerialConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSerialConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSerialConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonSerialConfig = v2;
@@ -1545,7 +1545,7 @@ void __cdecl data::DungeonSerialConfig::~DungeonSerialConfig(data::DungeonSerial
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSerialConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSerialConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonSerialConfig = v2;
@@ -1565,7 +1565,7 @@ void __cdecl data::DungeonRosterConfig::DungeonRosterConfig(data::DungeonRosterC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRosterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRosterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonRosterConfig = v2;
@@ -1617,7 +1617,7 @@ void __cdecl data::DungeonRosterConfig::DungeonRosterConfig(
   const data::DungeonRosterConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRosterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRosterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonRosterConfig = v2;
@@ -1692,7 +1692,7 @@ void __cdecl data::DungeonRosterConfig::~DungeonRosterConfig(data::DungeonRoster
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRosterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRosterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonRosterConfig = v2;

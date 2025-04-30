@@ -61,7 +61,7 @@ void __fastcall common::minet::http_client::SslClient::~SslClient(common::minet:
     __asan_report_store8();
     goto LABEL_21;
   }
-  this->_vptr_HttpClient = (int (**)(...))(&`vtable for'common::minet::http_client::SslClient + 2);
+  this->_vptr_HttpClient = (int (**)(...))(&`vtable for common::minet::http_client::SslClient + 2);
   this = (common::minet::http_client::SslClient *const)((char *)this + 728);
   if ( *(_BYTE *)(((unsigned __int64)&v5->ssl_stream_ >> 3) + 0x7FFF8000) )
   {
@@ -466,7 +466,7 @@ void __fastcall common::minet::http_client::SslClient::~SslClient(common::minet:
     __asan_report_store8();
     goto LABEL_21;
   }
-  this->_vptr_HttpClient = (int (**)(...))(&`vtable for'common::minet::http_client::SslClient + 2);
+  this->_vptr_HttpClient = (int (**)(...))(&`vtable for common::minet::http_client::SslClient + 2);
   this = (common::minet::http_client::SslClient *const)((char *)this + 728);
   if ( *(_BYTE *)(((unsigned __int64)&v5->ssl_stream_ >> 3) + 0x7FFF8000) )
   {
@@ -932,7 +932,7 @@ LABEL_13:
     __asan_report_store8();
     goto LABEL_14;
   }
-  this->_vptr_HttpClient = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClient + 2);
+  this->_vptr_HttpClient = (int (**)(...))(&`vtable for common::minet::http_client::HttpClient + 2);
   if ( *(_BYTE *)(((unsigned __int64)&this->client_mgr_ >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
@@ -1061,7 +1061,7 @@ LABEL_54:
     __asan_report_store8();
     goto LABEL_55;
   }
-  *(_QWORD *)v19 = &`vtable for'std::_Sp_counted_deleter<void *,boost::asio::detail::socket_ops::noop_deleter,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v19 = &`vtable for std::_Sp_counted_deleter<void *,boost::asio::detail::socket_ops::noop_deleter,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   if ( *(_BYTE *)(((v19 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -1485,7 +1485,7 @@ LABEL_218:
     this->type_ = type;
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       goto LABEL_218;
-    this->_vptr_HttpClient = (int (**)(...))(&`vtable for'common::minet::http_client::SslClient + 2);
+    this->_vptr_HttpClient = (int (**)(...))(&`vtable for common::minet::http_client::SslClient + 2);
     p_impl = (boost::asio::detail::io_object_impl<boost::asio::detail::resolver_service<boost::asio::ip::tcp>,boost::asio::executor> *)&this->ssl_ctx_;
     if ( !*(_BYTE *)(((unsigned __int64)&this->ssl_ctx_ >> 3) + 0x7FFF8000) )
       break;
@@ -1526,7 +1526,7 @@ LABEL_219:
         v64->_M_weak_count = 1;
         if ( !*(_BYTE *)(((unsigned __int64)v64 >> 3) + 0x7FFF8000) )
         {
-          v64->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr<boost::asio::ssl::detail::openssl_init_base::do_init *,(__gnu_cxx::_Lock_policy)2>
+          v64->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_ptr<boost::asio::ssl::detail::openssl_init_base::do_init *,(__gnu_cxx::_Lock_policy)2>
                                                       + 2);
           if ( !*(_BYTE *)(((unsigned __int64)&v64[1] >> 3) + 0x7FFF8000) )
           {

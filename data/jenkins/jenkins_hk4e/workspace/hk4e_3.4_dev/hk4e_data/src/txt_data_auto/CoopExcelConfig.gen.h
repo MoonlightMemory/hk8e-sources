@@ -6,7 +6,7 @@ void __cdecl data::CoopCondConfig::CoopCondConfig(data::CoopCondConfig *const th
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopCondConfig = v2;
@@ -28,7 +28,7 @@ void __cdecl data::CoopCondConfig::CoopCondConfig(data::CoopCondConfig *const th
   const data::CoopCondConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopCondConfig = v2;
@@ -61,7 +61,7 @@ void __cdecl data::CoopCondConfig::~CoopCondConfig(data::CoopCondConfig *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopCondConfig = v2;
@@ -74,7 +74,7 @@ void __cdecl data::MainCoopExcelConfig::MainCoopExcelConfig(data::MainCoopExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MainCoopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainCoopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MainCoopExcelConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::MainCoopExcelConfig::MainCoopExcelConfig(
   const data::MainCoopExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MainCoopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainCoopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MainCoopExcelConfig = v2;
@@ -147,7 +147,7 @@ void __cdecl data::MainCoopExcelConfig::~MainCoopExcelConfig(data::MainCoopExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MainCoopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MainCoopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MainCoopExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::CoopInteractionExcelConfig::CoopInteractionExcelConfig(
   const data::CoopInteractionExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopInteractionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopInteractionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopInteractionExcelConfig = v2;
@@ -265,7 +265,7 @@ void __cdecl data::CoopInteractionExcelConfig::~CoopInteractionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopInteractionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopInteractionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopInteractionExcelConfig = v2;
@@ -278,7 +278,7 @@ void __cdecl data::CoopChapterExcelConfig::CoopChapterExcelConfig(data::CoopChap
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopChapterExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::CoopChapterExcelConfig::CoopChapterExcelConfig(
   const data::CoopChapterExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopChapterExcelConfig = v2;
@@ -407,7 +407,7 @@ void __cdecl data::CoopChapterExcelConfig::~CoopChapterExcelConfig(data::CoopCha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopChapterExcelConfig = v2;
@@ -421,7 +421,7 @@ void __cdecl data::CoopRewardExcelConfig::CoopRewardExcelConfig(data::CoopReward
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopRewardExcelConfig = v2;
@@ -463,7 +463,7 @@ void __cdecl data::CoopRewardExcelConfig::CoopRewardExcelConfig(
   const data::CoopRewardExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopRewardExcelConfig = v2;
@@ -524,7 +524,7 @@ void __cdecl data::CoopRewardExcelConfig::~CoopRewardExcelConfig(data::CoopRewar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopRewardExcelConfig = v2;
@@ -538,7 +538,7 @@ void __cdecl data::CoopCGExcelConfig::CoopCGExcelConfig(data::CoopCGExcelConfig 
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopCGExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCGExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopCGExcelConfig = v2;
@@ -589,7 +589,7 @@ void __cdecl data::CoopCGExcelConfig::CoopCGExcelConfig(
   const data::CoopCGExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopCGExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCGExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopCGExcelConfig = v2;
@@ -663,7 +663,7 @@ void __cdecl data::CoopCGExcelConfig::~CoopCGExcelConfig(data::CoopCGExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopCGExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopCGExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopCGExcelConfig = v2;
@@ -677,7 +677,7 @@ void __cdecl data::CoopPointExcelConfig::CoopPointExcelConfig(data::CoopPointExc
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopPointExcelConfig = v2;
@@ -730,7 +730,7 @@ void __cdecl data::CoopPointExcelConfig::CoopPointExcelConfig(
   const data::CoopPointExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CoopPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoopPointExcelConfig = v2;
@@ -806,7 +806,7 @@ void __cdecl data::CoopPointExcelConfig::~CoopPointExcelConfig(data::CoopPointEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoopPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoopPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoopPointExcelConfig = v2;

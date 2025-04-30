@@ -9,7 +9,7 @@ void __cdecl data::ActivityIslandPartyOverallExcelConfig::ActivityIslandPartyOve
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyOverallExcelConfig = v2;
@@ -70,7 +70,7 @@ void __cdecl data::ActivityIslandPartyOverallExcelConfig::ActivityIslandPartyOve
   const data::ActivityIslandPartyOverallExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityIslandPartyOverallExcelConfig = v2;
@@ -152,7 +152,7 @@ void __cdecl data::ActivityIslandPartyOverallExcelConfig::~ActivityIslandPartyOv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyOverallExcelConfig = v2;
@@ -176,7 +176,7 @@ void __cdecl data::ActivityIslandPartyStageExcelConfig::ActivityIslandPartyStage
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyStageExcelConfig = v2;
@@ -246,7 +246,7 @@ void __cdecl data::ActivityIslandPartyStageExcelConfig::ActivityIslandPartyStage
   const data::ActivityIslandPartyStageExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityIslandPartyStageExcelConfig = v2;
@@ -342,7 +342,7 @@ void __cdecl data::ActivityIslandPartyStageExcelConfig::~ActivityIslandPartyStag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyStageExcelConfig = v2;
@@ -365,7 +365,7 @@ void __cdecl data::ActivityIslandPartyScoreExcelConfig::ActivityIslandPartyScore
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyScoreExcelConfig = v2;
@@ -398,7 +398,7 @@ void __cdecl data::ActivityIslandPartyScoreExcelConfig::ActivityIslandPartyScore
   const data::ActivityIslandPartyScoreExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityIslandPartyScoreExcelConfig = v2;
@@ -439,7 +439,7 @@ void __cdecl data::ActivityIslandPartyScoreExcelConfig::~ActivityIslandPartyScor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityIslandPartyScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityIslandPartyScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityIslandPartyScoreExcelConfig = v2;

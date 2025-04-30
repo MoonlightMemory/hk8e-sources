@@ -4014,7 +4014,7 @@ LABEL_63:
         *(_DWORD *)(v10 + 12) = 1;
         if ( !*(_BYTE *)((v10 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v10 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v10 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           ostr = v10 + 16;
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -4131,7 +4131,7 @@ LABEL_146:
     __asan_report_store4(v52);
     goto LABEL_147;
   }
-  *(_QWORD *)v48 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v48 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v52 = (std::string *)(v48 + 16);
   v53 = *(_BYTE *)(((v48 + 16) >> 3) + 0x7FFF8000);
@@ -4836,7 +4836,7 @@ LABEL_63:
         *(_DWORD *)(v9 + 12) = 1;
         if ( !*(_BYTE *)((v9 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v9 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v9 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                         + 2;
           ostr = v9 + 16;
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -4953,7 +4953,7 @@ LABEL_146:
     __asan_report_store4(v51);
     goto LABEL_147;
   }
-  *(_QWORD *)v47 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v47 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v51 = (std::string *)(v47 + 16);
   v52 = *(_BYTE *)(((v47 + 16) >> 3) + 0x7FFF8000);
@@ -5614,7 +5614,7 @@ LABEL_52:
         *(_DWORD *)(v12 + 12) = 1;
         if ( !*(_BYTE *)((v12 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v12 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v12 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,common::tools::perf::allocator<MonitorValue,MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           p_queue_mu = (std::mutex *)(v12 + 16);
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -5745,7 +5745,7 @@ LABEL_146:
     __asan_report_store4(v55);
     goto LABEL_147;
   }
-  *(_QWORD *)v51 = &`vtable for'std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v51 = &`vtable for std::_Sp_counted_ptr_inplace<MonitorValue,std::allocator<MonitorValue>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v55 = (std::string *)(v51 + 16);
   v56 = *(_BYTE *)(((v51 + 16) >> 3) + 0x7FFF8000);

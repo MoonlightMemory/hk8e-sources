@@ -6,7 +6,7 @@ void __cdecl data::AsterLittleExcelConfig::AsterLittleExcelConfig(data::AsterLit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterLittleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterLittleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterLittleExcelConfig = v2;
@@ -41,7 +41,7 @@ void __cdecl data::AsterLittleExcelConfig::AsterLittleExcelConfig(
   const data::AsterLittleExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterLittleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterLittleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterLittleExcelConfig = v2;
@@ -90,7 +90,7 @@ void __cdecl data::AsterLittleExcelConfig::~AsterLittleExcelConfig(data::AsterLi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterLittleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterLittleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterLittleExcelConfig = v2;
@@ -105,7 +105,7 @@ void __cdecl data::AsterMidExcelConfig::AsterMidExcelConfig(data::AsterMidExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidExcelConfig = v2;
@@ -129,7 +129,7 @@ void __cdecl data::AsterMidExcelConfig::AsterMidExcelConfig(
   const data::AsterMidExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterMidExcelConfig = v2;
@@ -162,7 +162,7 @@ void __cdecl data::AsterMidExcelConfig::~AsterMidExcelConfig(data::AsterMidExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidExcelConfig = v2;
@@ -175,7 +175,7 @@ void __cdecl data::AsterMidGroupsExcelConfig::AsterMidGroupsExcelConfig(data::As
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidGroupsExcelConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::AsterMidGroupsExcelConfig::AsterMidGroupsExcelConfig(
   const data::AsterMidGroupsExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterMidGroupsExcelConfig = v2;
@@ -255,7 +255,7 @@ void __cdecl data::AsterMidGroupsExcelConfig::~AsterMidGroupsExcelConfig(data::A
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidGroupsExcelConfig = v2;
@@ -270,7 +270,7 @@ void __cdecl data::AsterMidDifficultyExcelConfig::AsterMidDifficultyExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidDifficultyExcelConfig = v2;
@@ -337,7 +337,7 @@ void __cdecl data::AsterMidDifficultyExcelConfig::AsterMidDifficultyExcelConfig(
   const data::AsterMidDifficultyExcelConfig *v17; // [rsp+0h] [rbp-10h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterMidDifficultyExcelConfig = v2;
@@ -439,7 +439,7 @@ void __cdecl data::AsterMidDifficultyExcelConfig::~AsterMidDifficultyExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMidDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMidDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMidDifficultyExcelConfig = v2;
@@ -462,7 +462,7 @@ void __cdecl data::AsterMissionExcelConfig::AsterMissionExcelConfig(
   const data::AsterMissionExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterMissionExcelConfig = v2;
@@ -521,7 +521,7 @@ void __cdecl data::AsterMissionExcelConfig::~AsterMissionExcelConfig(data::Aster
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterMissionExcelConfig = v2;
@@ -535,7 +535,7 @@ void __cdecl data::AsterStageExcelConfig::AsterStageExcelConfig(data::AsterStage
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterStageExcelConfig = v2;
@@ -618,7 +618,7 @@ void __cdecl data::AsterStageExcelConfig::AsterStageExcelConfig(
   const data::AsterStageExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterStageExcelConfig = v2;
@@ -738,7 +738,7 @@ void __cdecl data::AsterStageExcelConfig::~AsterStageExcelConfig(data::AsterStag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterStageExcelConfig = v2;
@@ -756,7 +756,7 @@ void __cdecl data::AsterActivityPerviewExcelConfig::AsterActivityPerviewExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterActivityPerviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterActivityPerviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterActivityPerviewExcelConfig = v2;
@@ -798,7 +798,7 @@ void __cdecl data::AsterActivityPerviewExcelConfig::AsterActivityPerviewExcelCon
   const data::AsterActivityPerviewExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AsterActivityPerviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterActivityPerviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AsterActivityPerviewExcelConfig = v2;
@@ -861,7 +861,7 @@ void __cdecl data::AsterActivityPerviewExcelConfig::~AsterActivityPerviewExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AsterActivityPerviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AsterActivityPerviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AsterActivityPerviewExcelConfig = v2;

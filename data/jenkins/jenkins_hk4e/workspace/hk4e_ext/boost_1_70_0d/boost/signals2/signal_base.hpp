@@ -12,7 +12,7 @@ void __cdecl boost::signals2::signal_base::~signal_base(boost::signals2::signal_
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::signals2::signal_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::signals2::signal_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_signal_base = v1;

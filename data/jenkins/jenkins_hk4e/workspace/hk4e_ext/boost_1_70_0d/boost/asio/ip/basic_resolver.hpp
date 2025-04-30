@@ -359,7 +359,7 @@ LABEL_98:
 LABEL_99:
     if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::system::system_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::system::system_error + 2;
     if ( *(_WORD *)((((unsigned __int64)exception + 16) >> 3) + 0x7FFF8000) )
       __asan_report_store16((char *)exception + 16, v35);
     *((_QWORD *)exception + 2) = v9;

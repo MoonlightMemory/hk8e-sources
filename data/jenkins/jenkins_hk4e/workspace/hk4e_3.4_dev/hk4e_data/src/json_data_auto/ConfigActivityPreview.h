@@ -7,7 +7,7 @@ void __cdecl data::ConfigPreQuestSkipBase::ConfigPreQuestSkipBase(data::ConfigPr
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigPreQuestSkipBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPreQuestSkipBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestSkipBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestSkipBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestSkipBase = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ConfigPreQuestSkipBase::ConfigPreQuestSkipBase(
   std::enable_shared_from_this<data::ConfigPreQuestSkipBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPreQuestSkipBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPreQuestSkipBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPreQuestSkipBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPreQuestSkipBase = v3;
@@ -52,7 +52,7 @@ void __cdecl data::ConfigPreQuestSkipBase::~ConfigPreQuestSkipBase(data::ConfigP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestSkipBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestSkipBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestSkipBase = v2;
@@ -128,7 +128,7 @@ void __cdecl data::ConfigPreQuestPredicateBase::ConfigPreQuestPredicateBase(
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigPreQuestPredicateBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPreQuestPredicateBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestPredicateBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestPredicateBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestPredicateBase = v2;
@@ -151,7 +151,7 @@ void __cdecl data::ConfigPreQuestPredicateBase::ConfigPreQuestPredicateBase(
   std::enable_shared_from_this<data::ConfigPreQuestPredicateBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPreQuestPredicateBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPreQuestPredicateBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPreQuestPredicateBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPreQuestPredicateBase = v3;
@@ -182,7 +182,7 @@ void __cdecl data::ConfigPreQuestPredicateBase::~ConfigPreQuestPredicateBase(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestPredicateBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestPredicateBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestPredicateBase = v2;
@@ -252,7 +252,7 @@ void __cdecl data::ConfigPreQuestActionBase::ConfigPreQuestActionBase(data::Conf
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigPreQuestActionBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPreQuestActionBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestActionBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestActionBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -290,7 +290,7 @@ void __cdecl data::ConfigPreQuestActionBase::ConfigPreQuestActionBase(
   std::enable_shared_from_this<data::ConfigPreQuestActionBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPreQuestActionBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPreQuestActionBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPreQuestActionBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPreQuestActionBase = v3;
@@ -328,7 +328,7 @@ void __cdecl data::ConfigPreQuestActionBase::~ConfigPreQuestActionBase(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestActionBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestActionBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -407,7 +407,7 @@ void __cdecl data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(
   __int64 v4; // rdx
 
   data::ConfigPreQuestActionBase::ConfigPreQuestActionBase((data::ConfigPreQuestActionBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestBehaviourBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestBehaviourBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -433,7 +433,7 @@ void __cdecl data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(
   data::ConfigPreQuestActionBase::ConfigPreQuestActionBase(
     (data::ConfigPreQuestActionBase *const)this,
     (const data::ConfigPreQuestActionBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestBehaviourBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestBehaviourBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -457,7 +457,7 @@ void __cdecl data::ConfigPreQuestBehaviourBase::~ConfigPreQuestBehaviourBase(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestBehaviourBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestBehaviourBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -533,7 +533,7 @@ void __cdecl data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestActionBase::ConfigPreQuestActionBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestDisplayBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestDisplayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -547,7 +547,7 @@ void __cdecl data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestActionBase::ConfigPreQuestActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestDisplayBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestDisplayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -559,7 +559,7 @@ void __cdecl data::ConfigPreQuestDisplayBase::~ConfigPreQuestDisplayBase(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPreQuestDisplayBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPreQuestDisplayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -755,7 +755,7 @@ void __cdecl data::ConfigRedBannerLock::ConfigRedBannerLock(data::ConfigRedBanne
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRedBannerLock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRedBannerLock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -770,7 +770,7 @@ void __cdecl data::ConfigRedBannerLock::ConfigRedBannerLock(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRedBannerLock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRedBannerLock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -783,7 +783,7 @@ void __cdecl data::ConfigRedBannerLock::~ConfigRedBannerLock(data::ConfigRedBann
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRedBannerLock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRedBannerLock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -858,7 +858,7 @@ void __cdecl data::ConfigRedBannerLockFactory::ConfigRedBannerLockFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRedBannerLockFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRedBannerLockFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRedBannerLockFactory = v2;
@@ -872,7 +872,7 @@ void __cdecl data::ConfigYellowBannerWithButton::ConfigYellowBannerWithButton(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigYellowBannerWithButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigYellowBannerWithButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -888,7 +888,7 @@ void __cdecl data::ConfigYellowBannerWithButton::ConfigYellowBannerWithButton(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigYellowBannerWithButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigYellowBannerWithButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -911,7 +911,7 @@ void __cdecl data::ConfigYellowBannerWithButton::~ConfigYellowBannerWithButton(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigYellowBannerWithButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigYellowBannerWithButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -982,7 +982,7 @@ void __cdecl data::ConfigYellowBannerWithButtonFactory::ConfigYellowBannerWithBu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigYellowBannerWithButtonFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigYellowBannerWithButtonFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigYellowBannerWithButtonFactory = v2;
@@ -995,7 +995,7 @@ void __cdecl data::ConfigGotoQuestButton::ConfigGotoQuestButton(data::ConfigGoto
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1010,7 +1010,7 @@ void __cdecl data::ConfigGotoQuestButton::ConfigGotoQuestButton(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestDisplayBase::ConfigPreQuestDisplayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1030,7 +1030,7 @@ void __cdecl data::ConfigGotoQuestButton::~ConfigGotoQuestButton(data::ConfigGot
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestButton + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestButton + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1099,7 +1099,7 @@ void __cdecl data::ConfigGotoQuestButtonFactory::ConfigGotoQuestButtonFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestButtonFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestButtonFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGotoQuestButtonFactory = v2;
@@ -1113,7 +1113,7 @@ void __cdecl data::ConfigShowBlackTip::ConfigShowBlackTip(data::ConfigShowBlackT
   __int64 v3; // rsi
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBlackTip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBlackTip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1154,7 +1154,7 @@ void __cdecl data::ConfigShowBlackTip::ConfigShowBlackTip(
 
   v10 = a2;
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBlackTip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBlackTip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1210,7 +1210,7 @@ void __cdecl data::ConfigShowBlackTip::~ConfigShowBlackTip(data::ConfigShowBlack
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBlackTip + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBlackTip + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1279,7 +1279,7 @@ void __cdecl data::ConfigShowBlackTipFactory::ConfigShowBlackTipFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBlackTipFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBlackTipFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShowBlackTipFactory = v2;
@@ -1292,7 +1292,7 @@ void __cdecl data::ConfigGotoQuestPage::ConfigGotoQuestPage(data::ConfigGotoQues
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1306,7 +1306,7 @@ void __cdecl data::ConfigGotoQuestPage::ConfigGotoQuestPage(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1318,7 +1318,7 @@ void __cdecl data::ConfigGotoQuestPage::~ConfigGotoQuestPage(data::ConfigGotoQue
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1392,7 +1392,7 @@ void __cdecl data::ConfigGotoQuestPageFactory::ConfigGotoQuestPageFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestPageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestPageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGotoQuestPageFactory = v2;
@@ -1405,7 +1405,7 @@ void __cdecl data::ConfigGotoPersonalLinePage::ConfigGotoPersonalLinePage(data::
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoPersonalLinePage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoPersonalLinePage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1419,7 +1419,7 @@ void __cdecl data::ConfigGotoPersonalLinePage::ConfigGotoPersonalLinePage(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoPersonalLinePage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoPersonalLinePage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1432,7 +1432,7 @@ void __cdecl data::ConfigGotoPersonalLinePage::~ConfigGotoPersonalLinePage(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoPersonalLinePage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoPersonalLinePage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1508,7 +1508,7 @@ void __cdecl data::ConfigGotoPersonalLinePageFactory::ConfigGotoPersonalLinePage
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoPersonalLinePageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoPersonalLinePageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGotoPersonalLinePageFactory = v2;
@@ -1522,7 +1522,7 @@ void __cdecl data::ConfigGotoQuestAcceptionMarkPage::ConfigGotoQuestAcceptionMar
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestAcceptionMarkPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestAcceptionMarkPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1544,7 +1544,7 @@ void __cdecl data::ConfigGotoQuestAcceptionMarkPage::ConfigGotoQuestAcceptionMar
   char v4; // al
 
   data::ConfigPreQuestBehaviourBase::ConfigPreQuestBehaviourBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestAcceptionMarkPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestAcceptionMarkPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1578,7 +1578,7 @@ void __cdecl data::ConfigGotoQuestAcceptionMarkPage::~ConfigGotoQuestAcceptionMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestAcceptionMarkPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestAcceptionMarkPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestActionBase = v2;
@@ -1648,7 +1648,7 @@ void __cdecl data::ConfigGotoQuestAcceptionMarkPageFactory::ConfigGotoQuestAccep
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGotoQuestAcceptionMarkPageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGotoQuestAcceptionMarkPageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGotoQuestAcceptionMarkPageFactory = v2;
@@ -1661,7 +1661,7 @@ void __cdecl data::ConfigSkipByQuickOpen::ConfigSkipByQuickOpen(data::ConfigSkip
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestSkipBase::ConfigPreQuestSkipBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipByQuickOpen + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipByQuickOpen + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestSkipBase = v2;
@@ -1675,7 +1675,7 @@ void __cdecl data::ConfigSkipByQuickOpen::ConfigSkipByQuickOpen(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestSkipBase::ConfigPreQuestSkipBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipByQuickOpen + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipByQuickOpen + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestSkipBase = v2;
@@ -1694,7 +1694,7 @@ void __cdecl data::ConfigSkipByQuickOpen::~ConfigSkipByQuickOpen(data::ConfigSki
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipByQuickOpen + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipByQuickOpen + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestSkipBase = v2;
@@ -1762,7 +1762,7 @@ void __cdecl data::ConfigSkipByQuickOpenFactory::ConfigSkipByQuickOpenFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipByQuickOpenFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipByQuickOpenFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkipByQuickOpenFactory = v2;
@@ -1776,7 +1776,7 @@ void __cdecl data::ConfigPredicateByPlayerLevel::ConfigPredicateByPlayerLevel(
   int (**v2)(...); // rdx
 
   data::ConfigPreQuestPredicateBase::ConfigPreQuestPredicateBase((data::ConfigPreQuestPredicateBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPredicateByPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPredicateByPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestPredicateBase = v2;
@@ -1801,7 +1801,7 @@ void __cdecl data::ConfigPredicateByPlayerLevel::ConfigPredicateByPlayerLevel(
   data::ConfigPreQuestPredicateBase::ConfigPreQuestPredicateBase(
     (data::ConfigPreQuestPredicateBase *const)this,
     (const data::ConfigPreQuestPredicateBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPredicateByPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPredicateByPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPreQuestPredicateBase = v2;
@@ -1836,7 +1836,7 @@ void __cdecl data::ConfigPredicateByPlayerLevel::~ConfigPredicateByPlayerLevel(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPredicateByPlayerLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPredicateByPlayerLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPreQuestPredicateBase = v2;
@@ -1905,7 +1905,7 @@ void __cdecl data::ConfigPredicateByPlayerLevelFactory::ConfigPredicateByPlayerL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPredicateByPlayerLevelFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPredicateByPlayerLevelFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPredicateByPlayerLevelFactory = v2;

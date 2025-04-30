@@ -6402,7 +6402,7 @@ int32_t __cdecl data::ActivityBrickBreakerExcelConfigMgrBase::loadBrickBreakerIn
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::BrickBreakerInfoExcelConfig + 2;
+        v14 = &`vtable for data::BrickBreakerInfoExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;
@@ -6742,7 +6742,7 @@ int32_t __cdecl data::ActivityBrickBreakerExcelConfigMgrBase::loadBrickBreakerQu
         *(_QWORD *)(v3 + 560) = 0LL;
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
-        v16 = &`vtable for'data::BrickBreakerQuestExcelConfig + 2;
+        v16 = &`vtable for data::BrickBreakerQuestExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;

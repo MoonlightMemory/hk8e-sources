@@ -42,7 +42,7 @@ void __cdecl boost::beast::detail::stable_base::stable_base(boost::beast::detail
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::detail::stable_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::detail::stable_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_stable_base = v1;
@@ -56,7 +56,7 @@ void __cdecl boost::beast::detail::stable_base::~stable_base(boost::beast::detai
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::detail::stable_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::detail::stable_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_stable_base = v1;

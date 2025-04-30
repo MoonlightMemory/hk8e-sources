@@ -29,7 +29,7 @@ void __fastcall mysqlpp::Row::Row(
   mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer> > v26; // [rsp+30h] [rbp-48h] BYREF
 
   this->exceptions_ = a5;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
   this->data_._M_impl._M_start = 0LL;
   this->data_._M_impl._M_finish = 0LL;
   this->data_._M_impl._M_end_of_storage = 0LL;

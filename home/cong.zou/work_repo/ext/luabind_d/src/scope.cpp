@@ -4,7 +4,7 @@
 void __fastcall luabind::detail::registration::registration(luabind::detail::registration *const this)
 {
   this->m_next = 0LL;
-  this->_vptr_registration = (int (**)(...))(&`vtable for'luabind::detail::registration + 2);
+  this->_vptr_registration = (int (**)(...))(&`vtable for luabind::detail::registration + 2);
 };
 
 // Line 43: range 000000001530E810-000000001530E822
@@ -19,7 +19,7 @@ void __fastcall luabind::detail::registration::~registration(luabind::detail::re
 {
   luabind::detail::registration *m_next; // rdi
 
-  this->_vptr_registration = (int (**)(...))(&`vtable for'luabind::detail::registration + 2);
+  this->_vptr_registration = (int (**)(...))(&`vtable for luabind::detail::registration + 2);
   m_next = this->m_next;
   if ( m_next )
     (*((void (__fastcall **)(luabind::detail::registration *))m_next->_vptr_registration + 1))(m_next);
@@ -198,7 +198,7 @@ void __fastcall luabind::namespace_::registration_::~registration_(luabind::name
   luabind::scope *p_m_scope; // rdi
 
   p_m_scope = &this->m_scope;
-  p_m_scope[-3].m_chain = (luabind::detail::registration *)(&`vtable for'luabind::namespace_::registration_ + 2);
+  p_m_scope[-3].m_chain = (luabind::detail::registration *)(&`vtable for luabind::namespace_::registration_ + 2);
   luabind::scope::~scope(p_m_scope);
   luabind::detail::registration::~registration(this);
 };
@@ -209,7 +209,7 @@ void __fastcall luabind::namespace_::registration_::~registration_(luabind::name
   luabind::scope *p_m_scope; // rdi
 
   p_m_scope = &this->m_scope;
-  p_m_scope[-3].m_chain = (luabind::detail::registration *)(&`vtable for'luabind::namespace_::registration_ + 2);
+  p_m_scope[-3].m_chain = (luabind::detail::registration *)(&`vtable for luabind::namespace_::registration_ + 2);
   luabind::scope::~scope(p_m_scope);
   luabind::detail::registration::~registration(this);
   operator delete(this, 0x20uLL);
@@ -269,7 +269,7 @@ void __fastcall luabind::namespace_::namespace_(luabind::namespace_ *this, const
   v2 = (luabind::namespace_::registration_ *)operator new(0x20uLL);
   luabind::detail::registration::registration(v2);
   v2->m_name = a2;
-  v2->_vptr_registration = (int (**)(...))(&`vtable for'luabind::namespace_::registration_ + 2);
+  v2->_vptr_registration = (int (**)(...))(&`vtable for luabind::namespace_::registration_ + 2);
   luabind::scope::scope(&v2->m_scope);
   this->m_registration = v2;
   reg._M_ptr = v2;

@@ -7,7 +7,7 @@ void __cdecl data::FishStockLimit::FishStockLimit(data::FishStockLimit *const th
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FishStockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishStockLimit = v2;
@@ -46,7 +46,7 @@ void __cdecl data::FishStockLimit::FishStockLimit(data::FishStockLimit *const th
   const data::FishStockLimit *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishStockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishStockLimit = v2;
@@ -98,7 +98,7 @@ void __cdecl data::FishStockLimit::~FishStockLimit(data::FishStockLimit *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishStockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishStockLimit = v2;
@@ -172,7 +172,7 @@ void __cdecl data::FishBaitFeature::FishBaitFeature(data::FishBaitFeature *const
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitFeature + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitFeature + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishBaitFeature = v2;
@@ -209,7 +209,7 @@ void __cdecl data::FishBaitFeature::FishBaitFeature(data::FishBaitFeature *const
   const data::FishBaitFeature *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitFeature + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitFeature + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishBaitFeature = v2;
@@ -259,7 +259,7 @@ void __cdecl data::FishBaitFeature::~FishBaitFeature(data::FishBaitFeature *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitFeature + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitFeature + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishBaitFeature = v2;
@@ -278,7 +278,7 @@ void __cdecl data::FishStockExcelConfig::FishStockExcelConfig(data::FishStockExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishStockExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishStockExcelConfig = v2;
@@ -311,7 +311,7 @@ void __cdecl data::FishStockExcelConfig::FishStockExcelConfig(
   const data::FishStockExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishStockExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishStockExcelConfig = v2;
@@ -351,7 +351,7 @@ void __cdecl data::FishStockExcelConfig::~FishStockExcelConfig(data::FishStockEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishStockExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishStockExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishStockExcelConfig = v2;
@@ -371,7 +371,7 @@ void __cdecl data::FishPoolExcelConfig::FishPoolExcelConfig(data::FishPoolExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishPoolExcelConfig = v2;
@@ -428,7 +428,7 @@ void __cdecl data::FishPoolExcelConfig::FishPoolExcelConfig(
   const data::FishPoolExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishPoolExcelConfig = v2;
@@ -509,7 +509,7 @@ void __cdecl data::FishPoolExcelConfig::~FishPoolExcelConfig(data::FishPoolExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishPoolExcelConfig = v2;
@@ -533,7 +533,7 @@ void __cdecl data::FishExcelConfig::FishExcelConfig(data::FishExcelConfig *const
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FishExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishExcelConfig = v2;
@@ -667,7 +667,7 @@ void __cdecl data::FishExcelConfig::FishExcelConfig(data::FishExcelConfig *const
   const data::FishExcelConfig *v35; // [rsp+0h] [rbp-20h]
 
   v35 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishExcelConfig = v2;
@@ -867,7 +867,7 @@ void __cdecl data::FishExcelConfig::~FishExcelConfig(data::FishExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishExcelConfig = v2;
@@ -887,7 +887,7 @@ void __cdecl data::FishSkillExcelConfig::FishSkillExcelConfig(data::FishSkillExc
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FishSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishSkillExcelConfig = v2;
@@ -966,7 +966,7 @@ void __cdecl data::FishSkillExcelConfig::FishSkillExcelConfig(
   const data::FishSkillExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishSkillExcelConfig = v2;
@@ -1075,7 +1075,7 @@ void __cdecl data::FishSkillExcelConfig::~FishSkillExcelConfig(data::FishSkillEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishSkillExcelConfig = v2;
@@ -1099,7 +1099,7 @@ void __cdecl data::FishBaitExcelConfig::FishBaitExcelConfig(data::FishBaitExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishBaitExcelConfig = v2;
@@ -1124,7 +1124,7 @@ void __cdecl data::FishBaitExcelConfig::FishBaitExcelConfig(
   const data::FishBaitExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishBaitExcelConfig = v2;
@@ -1158,7 +1158,7 @@ void __cdecl data::FishBaitExcelConfig::~FishBaitExcelConfig(data::FishBaitExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishBaitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishBaitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishBaitExcelConfig = v2;
@@ -1185,7 +1185,7 @@ void __cdecl data::FishRodExcelConfig::FishRodExcelConfig(
   const data::FishRodExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FishRodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishRodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FishRodExcelConfig = v2;
@@ -1280,7 +1280,7 @@ void __cdecl data::FishRodExcelConfig::~FishRodExcelConfig(data::FishRodExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FishRodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FishRodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FishRodExcelConfig = v2;

@@ -720,7 +720,7 @@ const std::vector<unsigned int> *__cdecl OpenStateExcelConfigMgr::findOpenStateB
   v5[536862722] = -218959360;
   v5[536862723] = -218103808;
   v5[536862724] = -202116109;
-  v6 = &`vtable for'data::OpenStateCond + 2;
+  v6 = &`vtable for data::OpenStateCond + 2;
   if ( *(_BYTE *)(((v3 + 96) >> 3) + 0x7FFF8000) )
     __asan_report_store8(v3 + 96, *(_QWORD *)&cond_type);
   *(_QWORD *)(v3 + 96) = v6;

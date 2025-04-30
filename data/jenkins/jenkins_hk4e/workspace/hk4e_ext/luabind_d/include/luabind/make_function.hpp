@@ -22,7 +22,7 @@ void __cdecl luabind::detail::function_object_impl<luabind::detail::access_membe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,int,int>,boost::mpl::vector2<int,Event const&>,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,int,int>,boost::mpl::vector2<int,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -44,7 +44,7 @@ void __cdecl luabind::detail::function_object_impl<luabind::detail::access_membe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,std::string,std::string>,boost::mpl::vector2<std::string,Event const&>,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,std::string,std::string>,boost::mpl::vector2<std::string,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -66,7 +66,7 @@ void __cdecl luabind::detail::function_object_impl<luabind::detail::access_membe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,unsigned int,unsigned int>,boost::mpl::vector2<unsigned int,Event const&>,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,unsigned int,unsigned int>,boost::mpl::vector2<unsigned int,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -88,7 +88,7 @@ void __cdecl luabind::detail::function_object_impl<luabind::detail::access_membe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Vector3,float,float>,boost::mpl::vector2<float,Vector3 const&>,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Vector3,float,float>,boost::mpl::vector2<float,Vector3 const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -125,7 +125,7 @@ void __fastcall luabind::detail::function_object_impl<luabind::detail::access_me
   luabind::detail::function_object::function_object(
     this,
     (lua_CFunction)luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,data::EventType,data::EventType>,boost::mpl::vector2<data::EventType,Event const&>,luabind::detail::null_type>::entry_point);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,data::EventType,data::EventType>,boost::mpl::vector2<data::EventType,Event const&>,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,data::EventType,data::EventType>,boost::mpl::vector2<data::EventType,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -173,7 +173,7 @@ void __fastcall luabind::detail::function_object_impl<luabind::detail::access_me
   luabind::detail::function_object::function_object(
     this,
     (lua_CFunction)luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,int,int>,boost::mpl::vector2<int,Event const&>,luabind::detail::null_type>::entry_point);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,int,int>,boost::mpl::vector2<int,Event const&>,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,int,int>,boost::mpl::vector2<int,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -221,7 +221,7 @@ void __fastcall luabind::detail::function_object_impl<luabind::detail::access_me
   luabind::detail::function_object::function_object(
     this,
     (lua_CFunction)luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,std::string,std::string>,boost::mpl::vector2<std::string,Event const&>,luabind::detail::null_type>::entry_point);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,std::string,std::string>,boost::mpl::vector2<std::string,Event const&>,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,std::string,std::string>,boost::mpl::vector2<std::string,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -269,7 +269,7 @@ void __fastcall luabind::detail::function_object_impl<luabind::detail::access_me
   luabind::detail::function_object::function_object(
     this,
     (lua_CFunction)luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,unsigned int,unsigned int>,boost::mpl::vector2<unsigned int,Event const&>,luabind::detail::null_type>::entry_point);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,unsigned int,unsigned int>,boost::mpl::vector2<unsigned int,Event const&>,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,unsigned int,unsigned int>,boost::mpl::vector2<unsigned int,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -317,7 +317,7 @@ void __fastcall luabind::detail::function_object_impl<luabind::detail::access_me
   luabind::detail::function_object::function_object(
     this,
     (lua_CFunction)luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Vector3,float,float>,boost::mpl::vector2<float,Vector3 const&>,luabind::detail::null_type>::entry_point);
-  v6 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Vector3,float,float>,boost::mpl::vector2<float,Vector3 const&>,luabind::detail::null_type>
+  v6 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Vector3,float,float>,boost::mpl::vector2<float,Vector3 const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -1077,7 +1077,7 @@ void __cdecl luabind::detail::function_object_impl<luabind::detail::access_membe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,data::EventType,data::EventType>,boost::mpl::vector2<data::EventType,Event const&>,luabind::detail::null_type>
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object_impl<luabind::detail::access_member_ptr<Event,data::EventType,data::EventType>,boost::mpl::vector2<data::EventType,Event const&>,luabind::detail::null_type>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

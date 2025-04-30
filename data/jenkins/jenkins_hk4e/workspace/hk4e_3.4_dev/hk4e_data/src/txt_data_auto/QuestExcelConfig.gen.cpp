@@ -16926,7 +16926,7 @@ int32_t __cdecl data::QuestExcelConfigMgrBase::loadQuestResCollectionExcelConfig
         v12 = *(unsigned int *)(v2 + 80);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v2 + 1072), v12);
         *(_WORD *)(((v2 + 112) >> 3) + 0x7FFF8000) = 0;
-        v13 = &`vtable for'data::QuestResCollectionExcelConfig + 2;
+        v13 = &`vtable for data::QuestResCollectionExcelConfig + 2;
         if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v2 + 112, v12);
         *(_QWORD *)(v2 + 112) = v13;
@@ -19475,7 +19475,7 @@ int32_t __cdecl data::QuestExcelConfigMgrBase::loadQuestGlobalVarConfig(
         v12 = *(unsigned int *)(v2 + 80);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v2 + 1072), v12);
         *(_WORD *)(((v2 + 112) >> 3) + 0x7FFF8000) = 0;
-        v13 = &`vtable for'data::QuestGlobalVarConfig + 2;
+        v13 = &`vtable for data::QuestGlobalVarConfig + 2;
         if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v2 + 112, v12);
         *(_QWORD *)(v2 + 112) = v13;
@@ -19819,7 +19819,7 @@ int32_t __cdecl data::QuestExcelConfigMgrBase::loadQuestPlaceConfig(
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::QuestPlaceConfig + 2;
+        v14 = &`vtable for data::QuestPlaceConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;
@@ -20156,7 +20156,7 @@ int32_t __cdecl data::QuestExcelConfigMgrBase::loadQuestSpecialShowConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::QuestSpecialShowConfig + 2;
+        v15 = &`vtable for data::QuestSpecialShowConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;

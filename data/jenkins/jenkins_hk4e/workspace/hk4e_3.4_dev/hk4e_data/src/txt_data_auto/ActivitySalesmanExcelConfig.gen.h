@@ -7,7 +7,7 @@ void __cdecl data::SalesmanSpecialReward::SalesmanSpecialReward(data::SalesmanSp
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SalesmanSpecialReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalesmanSpecialReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalesmanSpecialReward = v2;
@@ -59,7 +59,7 @@ void __cdecl data::SalesmanSpecialReward::SalesmanSpecialReward(
   const data::SalesmanSpecialReward *v14; // [rsp+0h] [rbp-10h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SalesmanSpecialReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalesmanSpecialReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SalesmanSpecialReward = v2;
@@ -127,7 +127,7 @@ void __cdecl data::SalesmanSpecialReward::~SalesmanSpecialReward(data::SalesmanS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SalesmanSpecialReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalesmanSpecialReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalesmanSpecialReward = v2;
@@ -148,7 +148,7 @@ void __cdecl data::ActivitySalesmanExcelConfig::ActivitySalesmanExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySalesmanExcelConfig = v2;
@@ -176,7 +176,7 @@ void __cdecl data::ActivitySalesmanExcelConfig::ActivitySalesmanExcelConfig(
   const data::ActivitySalesmanExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySalesmanExcelConfig = v2;
@@ -207,7 +207,7 @@ void __cdecl data::ActivitySalesmanExcelConfig::~ActivitySalesmanExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySalesmanExcelConfig = v2;
@@ -233,7 +233,7 @@ void __cdecl data::ActivitySalesmanDailyExcelConfig::ActivitySalesmanDailyExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySalesmanDailyExcelConfig = v2;
@@ -266,7 +266,7 @@ void __cdecl data::ActivitySalesmanDailyExcelConfig::ActivitySalesmanDailyExcelC
   const data::ActivitySalesmanDailyExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySalesmanDailyExcelConfig = v2;
@@ -307,7 +307,7 @@ void __cdecl data::ActivitySalesmanDailyExcelConfig::~ActivitySalesmanDailyExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySalesmanDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySalesmanDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySalesmanDailyExcelConfig = v2;

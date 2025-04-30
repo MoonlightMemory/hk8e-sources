@@ -8,7 +8,7 @@ void __cdecl data::ActivityTanukiTravelDataExcelConfig::ActivityTanukiTravelData
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityTanukiTravelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityTanukiTravelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityTanukiTravelDataExcelConfig = v2;
@@ -50,7 +50,7 @@ void __cdecl data::ActivityTanukiTravelDataExcelConfig::ActivityTanukiTravelData
   const data::ActivityTanukiTravelDataExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityTanukiTravelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityTanukiTravelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityTanukiTravelDataExcelConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::ActivityTanukiTravelDataExcelConfig::~ActivityTanukiTravelDat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityTanukiTravelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityTanukiTravelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityTanukiTravelDataExcelConfig = v2;
@@ -148,7 +148,7 @@ void __cdecl data::ActivityTanukiTravelRouteDataExcelConfig::ActivityTanukiTrave
   const data::ActivityTanukiTravelRouteDataExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityTanukiTravelRouteDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityTanukiTravelRouteDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityTanukiTravelRouteDataExcelConfig = v2;
@@ -269,7 +269,7 @@ void __cdecl data::ActivityTanukiTravelRouteDataExcelConfig::~ActivityTanukiTrav
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityTanukiTravelRouteDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityTanukiTravelRouteDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityTanukiTravelRouteDataExcelConfig = v2;

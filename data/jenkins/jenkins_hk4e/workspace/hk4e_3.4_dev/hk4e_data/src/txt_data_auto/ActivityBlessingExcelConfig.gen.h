@@ -6,7 +6,7 @@ void __cdecl data::BlessingPicUpConfig::BlessingPicUpConfig(data::BlessingPicUpC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingPicUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingPicUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingPicUpConfig = v2;
@@ -38,7 +38,7 @@ void __cdecl data::BlessingPicUpConfig::BlessingPicUpConfig(
   const data::BlessingPicUpConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlessingPicUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingPicUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlessingPicUpConfig = v2;
@@ -84,7 +84,7 @@ void __cdecl data::BlessingPicUpConfig::~BlessingPicUpConfig(data::BlessingPicUp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingPicUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingPicUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingPicUpConfig = v2;
@@ -98,7 +98,7 @@ void __cdecl data::BlessingScanExcelConfig::BlessingScanExcelConfig(data::Blessi
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanExcelConfig = v2;
@@ -168,7 +168,7 @@ void __cdecl data::BlessingScanExcelConfig::BlessingScanExcelConfig(
   const data::BlessingScanExcelConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlessingScanExcelConfig = v2;
@@ -270,7 +270,7 @@ void __cdecl data::BlessingScanExcelConfig::~BlessingScanExcelConfig(data::Bless
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanExcelConfig = v2;
@@ -285,7 +285,7 @@ void __cdecl data::BlessingScanTypeExcelConfig::BlessingScanTypeExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanTypeExcelConfig = v2;
@@ -336,7 +336,7 @@ void __cdecl data::BlessingScanTypeExcelConfig::BlessingScanTypeExcelConfig(
   const data::BlessingScanTypeExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlessingScanTypeExcelConfig = v2;
@@ -404,7 +404,7 @@ void __cdecl data::BlessingScanTypeExcelConfig::~BlessingScanTypeExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanTypeExcelConfig = v2;
@@ -433,7 +433,7 @@ void __cdecl data::BlessingScanPicExcelConfig::BlessingScanPicExcelConfig(
   const data::BlessingScanPicExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanPicExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanPicExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlessingScanPicExcelConfig = v2;
@@ -473,7 +473,7 @@ void __cdecl data::BlessingScanPicExcelConfig::~BlessingScanPicExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanPicExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanPicExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanPicExcelConfig = v2;
@@ -506,7 +506,7 @@ void __cdecl data::BlessingScanDropExcelConfig::BlessingScanDropExcelConfig(
   const data::BlessingScanDropExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlessingScanDropExcelConfig = v2;
@@ -581,7 +581,7 @@ void __cdecl data::BlessingScanDropExcelConfig::~BlessingScanDropExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlessingScanDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlessingScanDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlessingScanDropExcelConfig = v2;

@@ -21,7 +21,7 @@ void __cdecl data::BartenderBasicExcelConfig::BartenderBasicExcelConfig(
   const data::BartenderBasicExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderBasicExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderBasicExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderBasicExcelConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::BartenderBasicExcelConfig::~BartenderBasicExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderBasicExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderBasicExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderBasicExcelConfig = v2;
@@ -119,7 +119,7 @@ void __cdecl data::BartenderMaterial::BartenderMaterial(data::BartenderMaterial 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderMaterial + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderMaterial = v2;
@@ -151,7 +151,7 @@ void __cdecl data::BartenderMaterial::BartenderMaterial(
   const data::BartenderMaterial *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderMaterial + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderMaterial = v2;
@@ -190,7 +190,7 @@ void __cdecl data::BartenderMaterial::~BartenderMaterial(data::BartenderMaterial
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderMaterial + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderMaterial = v2;
@@ -210,7 +210,7 @@ void __cdecl data::BartenderFormulaExcelConfig::BartenderFormulaExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderFormulaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderFormulaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderFormulaExcelConfig = v2;
@@ -251,7 +251,7 @@ void __cdecl data::BartenderFormulaExcelConfig::BartenderFormulaExcelConfig(
   const data::BartenderFormulaExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderFormulaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderFormulaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderFormulaExcelConfig = v2;
@@ -313,7 +313,7 @@ void __cdecl data::BartenderFormulaExcelConfig::~BartenderFormulaExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderFormulaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderFormulaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderFormulaExcelConfig = v2;
@@ -341,7 +341,7 @@ void __cdecl data::BartenderAffixExcelConfig::BartenderAffixExcelConfig(
   const data::BartenderAffixExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderAffixExcelConfig = v2;
@@ -414,7 +414,7 @@ void __cdecl data::BartenderAffixExcelConfig::~BartenderAffixExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderAffixExcelConfig = v2;
@@ -428,7 +428,7 @@ void __cdecl data::BartenderOrderExcelConfig::BartenderOrderExcelConfig(data::Ba
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderOrderExcelConfig = v2;
@@ -489,7 +489,7 @@ void __cdecl data::BartenderOrderExcelConfig::BartenderOrderExcelConfig(
   const data::BartenderOrderExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderOrderExcelConfig = v2;
@@ -577,7 +577,7 @@ void __cdecl data::BartenderOrderExcelConfig::~BartenderOrderExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderOrderExcelConfig = v2;
@@ -600,7 +600,7 @@ void __cdecl data::BartenderTaskExcelConfig::BartenderTaskExcelConfig(
   const data::BartenderTaskExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderTaskExcelConfig = v2;
@@ -652,7 +652,7 @@ void __cdecl data::BartenderTaskExcelConfig::~BartenderTaskExcelConfig(data::Bar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderTaskExcelConfig = v2;
@@ -672,7 +672,7 @@ void __cdecl data::BartenderTaskOrderExcelConfig::BartenderTaskOrderExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderTaskOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderTaskOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderTaskOrderExcelConfig = v2;
@@ -705,7 +705,7 @@ void __cdecl data::BartenderTaskOrderExcelConfig::BartenderTaskOrderExcelConfig(
   const data::BartenderTaskOrderExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderTaskOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderTaskOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderTaskOrderExcelConfig = v2;
@@ -754,7 +754,7 @@ void __cdecl data::BartenderTaskOrderExcelConfig::~BartenderTaskOrderExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderTaskOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderTaskOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderTaskOrderExcelConfig = v2;
@@ -767,7 +767,7 @@ void __cdecl data::BartenderLevelExcelConfig::BartenderLevelExcelConfig(data::Ba
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderLevelExcelConfig = v2;
@@ -800,7 +800,7 @@ void __cdecl data::BartenderLevelExcelConfig::BartenderLevelExcelConfig(
   const data::BartenderLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderLevelExcelConfig = v2;
@@ -840,7 +840,7 @@ void __cdecl data::BartenderLevelExcelConfig::~BartenderLevelExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderLevelExcelConfig = v2;
@@ -860,7 +860,7 @@ void __cdecl data::BartenderEventExcelConfig::BartenderEventExcelConfig(data::Ba
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderEventExcelConfig = v2;
@@ -893,7 +893,7 @@ void __cdecl data::BartenderEventExcelConfig::BartenderEventExcelConfig(
   const data::BartenderEventExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BartenderEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BartenderEventExcelConfig = v2;
@@ -940,7 +940,7 @@ void __cdecl data::BartenderEventExcelConfig::~BartenderEventExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BartenderEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BartenderEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BartenderEventExcelConfig = v2;

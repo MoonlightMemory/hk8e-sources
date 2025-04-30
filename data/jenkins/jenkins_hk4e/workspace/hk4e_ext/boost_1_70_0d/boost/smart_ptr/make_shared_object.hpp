@@ -76,7 +76,7 @@ LABEL_19:
     __asan_report_store8();
     goto LABEL_20;
   }
-  *(_QWORD *)v9 = &`vtable for'boost::detail::sp_counted_impl_pd<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::impl_type *,boost::detail::sp_ms_deleter<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::impl_type>>
+  *(_QWORD *)v9 = &`vtable for boost::detail::sp_counted_impl_pd<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::impl_type *,boost::detail::sp_ms_deleter<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::impl_type>>
                 + 2;
   if ( *(_BYTE *)(((v9 + 16) >> 3) + 0x7FFF8000) )
   {

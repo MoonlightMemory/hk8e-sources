@@ -6,7 +6,7 @@ void __cdecl AvatarSkillExcelConfigMgr::AvatarSkillExcelConfigMgr(AvatarSkillExc
   int (**v1)(...); // rdx
 
   data::AvatarSkillExcelConfigMgrBase::AvatarSkillExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarSkillExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSkillExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AvatarSkillExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl AvatarSkillExcelConfigMgr::~AvatarSkillExcelConfigMgr(AvatarSkillEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarSkillExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSkillExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AvatarSkillExcelConfigMgrBase = v1;

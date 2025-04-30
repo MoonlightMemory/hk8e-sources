@@ -6,7 +6,7 @@ void __cdecl RewardExcelConfigMgr::RewardExcelConfigMgr(RewardExcelConfigMgr *co
   int (**v1)(...); // rdx
 
   data::RewardExcelConfigMgrBase::RewardExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'RewardExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RewardExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RewardExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl RewardExcelConfigMgr::~RewardExcelConfigMgr(RewardExcelConfigMgr *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RewardExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RewardExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RewardExcelConfigMgrBase = v1;

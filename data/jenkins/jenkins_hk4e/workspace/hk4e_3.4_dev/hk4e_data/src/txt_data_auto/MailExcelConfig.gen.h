@@ -19,7 +19,7 @@ void __cdecl data::MailExcelConfig::MailExcelConfig(data::MailExcelConfig *const
   const data::MailExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MailExcelConfig = v2;
@@ -88,7 +88,7 @@ void __cdecl data::MailExcelConfig::~MailExcelConfig(data::MailExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MailExcelConfig = v2;
@@ -108,7 +108,7 @@ void __cdecl data::BirthdayMailExcelConfig::BirthdayMailExcelConfig(data::Birthd
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BirthdayMailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BirthdayMailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BirthdayMailExcelConfig = v2;
@@ -159,7 +159,7 @@ void __cdecl data::BirthdayMailExcelConfig::BirthdayMailExcelConfig(
   const data::BirthdayMailExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BirthdayMailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BirthdayMailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BirthdayMailExcelConfig = v2;
@@ -226,7 +226,7 @@ void __cdecl data::BirthdayMailExcelConfig::~BirthdayMailExcelConfig(data::Birth
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BirthdayMailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BirthdayMailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BirthdayMailExcelConfig = v2;

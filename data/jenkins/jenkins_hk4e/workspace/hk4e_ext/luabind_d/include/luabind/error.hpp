@@ -5,7 +5,7 @@ void __cdecl luabind::error::~error(luabind::error *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'luabind::error + 2;
+  v1 = &`vtable for luabind::error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -25,7 +25,7 @@ void __cdecl luabind::error::error(luabind::error *const this, lua_State_0 *L)
   __int64 *v2; // rdx
 
   std::exception::exception((std::exception *const)this);
-  v2 = &`vtable for'luabind::error + 2;
+  v2 = &`vtable for luabind::error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -45,7 +45,7 @@ void __cdecl luabind::cast_failed::~cast_failed(luabind::cast_failed *const this
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'luabind::cast_failed + 2;
+  v1 = &`vtable for luabind::cast_failed + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -68,7 +68,7 @@ void __cdecl luabind::cast_failed::cast_failed(
   __int64 *v3; // rdx
 
   std::exception::exception((std::exception *const)this);
-  v3 = &`vtable for'luabind::cast_failed + 2;
+  v3 = &`vtable for luabind::cast_failed + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;

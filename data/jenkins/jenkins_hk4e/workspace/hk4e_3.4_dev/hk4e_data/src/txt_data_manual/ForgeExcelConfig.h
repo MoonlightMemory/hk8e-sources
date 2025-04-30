@@ -6,7 +6,7 @@ void __cdecl ForgeExcelConfigMgr::ForgeExcelConfigMgr(ForgeExcelConfigMgr *const
   int (**v1)(...); // rdx
 
   data::ForgeExcelConfigMgrBase::ForgeExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ForgeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ForgeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ForgeExcelConfigMgrBase = v1;
@@ -21,7 +21,7 @@ void __cdecl ForgeExcelConfigMgr::~ForgeExcelConfigMgr(ForgeExcelConfigMgr *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ForgeExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ForgeExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ForgeExcelConfigMgrBase = v1;

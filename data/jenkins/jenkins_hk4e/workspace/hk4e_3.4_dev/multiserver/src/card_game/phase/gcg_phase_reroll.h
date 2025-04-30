@@ -5,7 +5,7 @@ void __cdecl GCGPhaseReroll::~GCGPhaseReroll(GCGPhaseReroll *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPhaseReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPhaseReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ZN14GCGPhaseRerollCI212GCGPhaseBaseER11GCGGameMode(GCGPhaseReroll *
   int (**v2)(...); // rdx
 
   ZN12GCGPhaseDiceCI212GCGPhaseBaseER11GCGGameMode(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGPhaseReroll + 2);
+  v2 = (int (**)(...))(&`vtable for GCGPhaseReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v2;

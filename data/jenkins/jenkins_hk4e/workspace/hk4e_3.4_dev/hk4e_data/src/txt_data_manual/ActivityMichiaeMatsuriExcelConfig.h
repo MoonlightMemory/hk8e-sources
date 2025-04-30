@@ -7,7 +7,7 @@ void __cdecl ActivityMichiaeMatsuriExcelConfigMgr::ActivityMichiaeMatsuriExcelCo
   int (**v1)(...); // rdx
 
   data::ActivityMichiaeMatsuriExcelConfigMgrBase::ActivityMichiaeMatsuriExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityMichiaeMatsuriExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityMichiaeMatsuriExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityMichiaeMatsuriExcelConfigMgrBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ActivityMichiaeMatsuriExcelConfigMgr::~ActivityMichiaeMatsuriExcelC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityMichiaeMatsuriExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityMichiaeMatsuriExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityMichiaeMatsuriExcelConfigMgrBase = v1;

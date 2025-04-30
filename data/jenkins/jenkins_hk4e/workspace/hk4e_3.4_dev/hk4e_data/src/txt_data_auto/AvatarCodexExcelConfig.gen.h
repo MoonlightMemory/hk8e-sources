@@ -7,7 +7,7 @@ void __cdecl data::AvatarCodexExcelConfig::AvatarCodexExcelConfig(data::AvatarCo
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCodexExcelConfig = v2;
@@ -55,7 +55,7 @@ void __cdecl data::AvatarCodexExcelConfig::AvatarCodexExcelConfig(
   const data::AvatarCodexExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarCodexExcelConfig = v2;
@@ -119,7 +119,7 @@ void __cdecl data::AvatarCodexExcelConfig::~AvatarCodexExcelConfig(data::AvatarC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCodexExcelConfig = v2;

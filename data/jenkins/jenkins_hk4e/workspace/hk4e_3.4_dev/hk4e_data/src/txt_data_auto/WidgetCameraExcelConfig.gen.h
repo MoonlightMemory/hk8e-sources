@@ -9,7 +9,7 @@ void __cdecl data::WidgetCameraExcelConfig::WidgetCameraExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetCameraExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetCameraExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetCameraExcelConfig = v2;
@@ -34,7 +34,7 @@ void __cdecl data::WidgetCameraExcelConfig::~WidgetCameraExcelConfig(data::Widge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetCameraExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetCameraExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetCameraExcelConfig = v2;
@@ -55,7 +55,7 @@ void __cdecl data::WidgetCameraScanExcelConfig::WidgetCameraScanExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetCameraScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetCameraScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetCameraScanExcelConfig = v2;
@@ -106,7 +106,7 @@ void __cdecl data::WidgetCameraScanExcelConfig::WidgetCameraScanExcelConfig(
   const data::WidgetCameraScanExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WidgetCameraScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetCameraScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetCameraScanExcelConfig = v2;
@@ -174,7 +174,7 @@ void __cdecl data::WidgetCameraScanExcelConfig::~WidgetCameraScanExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetCameraScanExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetCameraScanExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetCameraScanExcelConfig = v2;

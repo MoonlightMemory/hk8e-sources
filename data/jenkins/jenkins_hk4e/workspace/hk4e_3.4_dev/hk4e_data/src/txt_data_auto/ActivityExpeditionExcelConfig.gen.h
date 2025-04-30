@@ -9,7 +9,7 @@ void __cdecl data::ExpeditionActivityPreviewExcelConfig::ExpeditionActivityPrevi
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionActivityPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionActivityPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionActivityPreviewExcelConfig = v2;
@@ -43,7 +43,7 @@ void __cdecl data::ExpeditionActivityPreviewExcelConfig::~ExpeditionActivityPrev
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionActivityPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionActivityPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionActivityPreviewExcelConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::ExpeditionPathExcelConfig::ExpeditionPathExcelConfig(data::Ex
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionPathExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionPathExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionPathExcelConfig = v2;
@@ -109,7 +109,7 @@ void __cdecl data::ExpeditionPathExcelConfig::ExpeditionPathExcelConfig(
   const data::ExpeditionPathExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionPathExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionPathExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionPathExcelConfig = v2;
@@ -185,7 +185,7 @@ void __cdecl data::ExpeditionPathExcelConfig::~ExpeditionPathExcelConfig(data::E
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionPathExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionPathExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionPathExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::ExpeditionDifficultyExcelConfig::ExpeditionDifficultyExcelCon
   const data::ExpeditionDifficultyExcelConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionDifficultyExcelConfig = v2;
@@ -330,7 +330,7 @@ void __cdecl data::ExpeditionDifficultyExcelConfig::~ExpeditionDifficultyExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionDifficultyExcelConfig = v2;
@@ -351,7 +351,7 @@ void __cdecl data::ExpeditionBonusExcelConfig::ExpeditionBonusExcelConfig(
   const data::ExpeditionBonusExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionBonusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionBonusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionBonusExcelConfig = v2;
@@ -409,7 +409,7 @@ void __cdecl data::ExpeditionBonusExcelConfig::~ExpeditionBonusExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionBonusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionBonusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionBonusExcelConfig = v2;
@@ -424,7 +424,7 @@ void __cdecl data::ExpeditionActivityMarkerExcelConfig::ExpeditionActivityMarker
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionActivityMarkerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionActivityMarkerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionActivityMarkerExcelConfig = v2;
@@ -458,7 +458,7 @@ void __cdecl data::ExpeditionActivityMarkerExcelConfig::~ExpeditionActivityMarke
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionActivityMarkerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionActivityMarkerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionActivityMarkerExcelConfig = v2;
@@ -485,7 +485,7 @@ void __cdecl data::ExpeditionChallengeExcelConfig::ExpeditionChallengeExcelConfi
   const data::ExpeditionChallengeExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionChallengeExcelConfig = v2;
@@ -574,7 +574,7 @@ void __cdecl data::ExpeditionChallengeExcelConfig::~ExpeditionChallengeExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionChallengeExcelConfig = v2;

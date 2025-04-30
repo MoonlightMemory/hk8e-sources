@@ -1358,7 +1358,7 @@ proto::PacketHead::PacketHead_ExtMapEntry *__fastcall google::protobuf::internal
     }
     else
     {
-      *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+      *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                          + 2;
       v9 = (proto::PacketHead::PacketHead_ExtMapEntry *)(Aligned + 48);
       if ( !*(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )
@@ -1412,7 +1412,7 @@ LABEL_4:
     __asan_report_store8();
     goto LABEL_24;
   }
-  *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+  *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                      + 2;
   v6 = (proto::PacketHead::PacketHead_ExtMapEntry *)(Aligned + 48);
   if ( *(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )
@@ -1473,7 +1473,7 @@ proto::PacketHead::PacketHead_ServiceAppIdMapEntry *__fastcall google::protobuf:
     }
     else
     {
-      *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+      *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                          + 2;
       v9 = (proto::PacketHead::PacketHead_ServiceAppIdMapEntry *)(Aligned + 48);
       if ( !*(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )
@@ -1527,7 +1527,7 @@ LABEL_4:
     __asan_report_store8();
     goto LABEL_24;
   }
-  *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+  *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                      + 2;
   v6 = (proto::PacketHead::PacketHead_ServiceAppIdMapEntry *)(Aligned + 48);
   if ( *(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )

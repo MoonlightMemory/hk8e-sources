@@ -8203,7 +8203,7 @@ void __fastcall __noreturn mysqlpp::Query::Query(
   std::vector<mysqlpp::SQLParseElement>::~vector((std::vector<mysqlpp::SQLParseElement> *const)(v8 + 80));
   std::vector<mysqlpp::SQLTypeAdapter>::~vector((std::vector<mysqlpp::SQLTypeAdapter> *const)(v8 + 24));
   *(_QWORD *)v8 = v12;
-  *(_QWORD *)(v8 + 280) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v8 + 280) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v10);
   _Unwind_Resume(v9);
 };
@@ -8333,7 +8333,7 @@ void __fastcall __noreturn mysqlpp::SQLStream::SQLStream()
   if ( retaddr != v2 )
     operator delete(retaddr);
   std::ostringstream::~ostringstream(v0, &`VTT for'mysqlpp::SQLStream + 1);
-  *(_QWORD *)(v0 + 120) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v0 + 120) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v3);
   _Unwind_Resume(v1);
 };

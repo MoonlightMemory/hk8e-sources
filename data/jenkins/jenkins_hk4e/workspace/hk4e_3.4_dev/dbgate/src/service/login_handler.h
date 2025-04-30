@@ -7,7 +7,7 @@ void __cdecl LoginHandler::~LoginHandler(LoginHandler *const this)
   int (**v2)(...); // rdx
   DataVersionMgr *i; // rbx
 
-  v2 = (int (**)(...))(&`vtable for'LoginHandler + 2);
+  v2 = (int (**)(...))(&`vtable for LoginHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HandlerBase = v2;
@@ -35,7 +35,7 @@ void __cdecl LoginHandler::LoginHandler(LoginHandler *const this)
   DataVersionMgr *data_version_mgr; // r12
 
   HandlerBase::HandlerBase(this);
-  v2 = (int (**)(...))(&`vtable for'LoginHandler + 2);
+  v2 = (int (**)(...))(&`vtable for LoginHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HandlerBase = v2;

@@ -701,7 +701,7 @@ void __cdecl proto::PlayerStatusRedisData::PlayerStatusRedisData(proto::PlayerSt
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerStatusRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -721,7 +721,7 @@ void __cdecl proto::PlayerStatusRedisData::PlayerStatusRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerStatusRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -765,7 +765,7 @@ void __cdecl proto::PlayerStatusRedisData::~PlayerStatusRedisData(proto::PlayerS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerStatusRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1478,7 +1478,7 @@ void __cdecl proto::MailRedisData::MailRedisData(proto::MailRedisData *const thi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1497,7 +1497,7 @@ void __cdecl proto::MailRedisData::MailRedisData(proto::MailRedisData *const thi
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -1557,7 +1557,7 @@ void __cdecl proto::MailRedisData::~MailRedisData(proto::MailRedisData *const th
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2289,7 +2289,7 @@ void __cdecl proto::MailMaxIdRedisData::MailMaxIdRedisData(proto::MailMaxIdRedis
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailMaxIdRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailMaxIdRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2309,7 +2309,7 @@ void __cdecl proto::MailMaxIdRedisData::MailMaxIdRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailMaxIdRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailMaxIdRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2351,7 +2351,7 @@ void __cdecl proto::MailMaxIdRedisData::~MailMaxIdRedisData(proto::MailMaxIdRedi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailMaxIdRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailMaxIdRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2895,7 +2895,7 @@ void __cdecl proto::MailIdSortedSetRedisData::MailIdSortedSetRedisData(proto::Ma
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailIdSortedSetRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailIdSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2915,7 +2915,7 @@ void __cdecl proto::MailIdSortedSetRedisData::MailIdSortedSetRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailIdSortedSetRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailIdSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2957,7 +2957,7 @@ void __cdecl proto::MailIdSortedSetRedisData::~MailIdSortedSetRedisData(proto::M
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailIdSortedSetRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailIdSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3507,7 +3507,7 @@ void __cdecl proto::MailTicketHashMapRedisData::MailTicketHashMapRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailTicketHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTicketHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3527,7 +3527,7 @@ void __cdecl proto::MailTicketHashMapRedisData::MailTicketHashMapRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailTicketHashMapRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailTicketHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -3570,7 +3570,7 @@ void __cdecl proto::MailTicketHashMapRedisData::~MailTicketHashMapRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailTicketHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTicketHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4121,7 +4121,7 @@ void __cdecl proto::MailTransactionIdHashMapRedisData::MailTransactionIdHashMapR
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailTransactionIdHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTransactionIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4141,7 +4141,7 @@ void __cdecl proto::MailTransactionIdHashMapRedisData::MailTransactionIdHashMapR
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailTransactionIdHashMapRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailTransactionIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4184,7 +4184,7 @@ void __cdecl proto::MailTransactionIdHashMapRedisData::~MailTransactionIdHashMap
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailTransactionIdHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTransactionIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4737,7 +4737,7 @@ void __cdecl proto::MailTicketMailIdHashMapRedisData::MailTicketMailIdHashMapRed
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MailTicketMailIdHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTicketMailIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4757,7 +4757,7 @@ void __cdecl proto::MailTicketMailIdHashMapRedisData::MailTicketMailIdHashMapRed
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MailTicketMailIdHashMapRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MailTicketMailIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4800,7 +4800,7 @@ void __cdecl proto::MailTicketMailIdHashMapRedisData::~MailTicketMailIdHashMapRe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MailTicketMailIdHashMapRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MailTicketMailIdHashMapRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5352,7 +5352,7 @@ void __cdecl proto::TicketTimeBin::TicketTimeBin(proto::TicketTimeBin *const thi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::TicketTimeBin + 2);
+  v1 = (int (**)(...))(&`vtable for proto::TicketTimeBin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5374,7 +5374,7 @@ void __cdecl proto::TicketTimeBin::TicketTimeBin(proto::TicketTimeBin *const thi
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::TicketTimeBin + 2);
+  v2 = (int (**)(...))(&`vtable for proto::TicketTimeBin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -5448,7 +5448,7 @@ void __cdecl proto::TicketTimeBin::~TicketTimeBin(proto::TicketTimeBin *const th
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::TicketTimeBin + 2);
+  v1 = (int (**)(...))(&`vtable for proto::TicketTimeBin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6127,7 +6127,7 @@ void __cdecl proto::OfflineMsgRedisData::OfflineMsgRedisData(proto::OfflineMsgRe
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineMsgRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6150,7 +6150,7 @@ void __cdecl proto::OfflineMsgRedisData::OfflineMsgRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::OfflineMsgRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::OfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -6216,7 +6216,7 @@ void __cdecl proto::OfflineMsgRedisData::~OfflineMsgRedisData(proto::OfflineMsgR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineMsgRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6922,7 +6922,7 @@ void __cdecl proto::HomeOfflineMsgRedisData::HomeOfflineMsgRedisData(proto::Home
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::HomeOfflineMsgRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeOfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6945,7 +6945,7 @@ void __cdecl proto::HomeOfflineMsgRedisData::HomeOfflineMsgRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::HomeOfflineMsgRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::HomeOfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -7011,7 +7011,7 @@ void __cdecl proto::HomeOfflineMsgRedisData::~HomeOfflineMsgRedisData(proto::Hom
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::HomeOfflineMsgRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeOfflineMsgRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -7717,7 +7717,7 @@ void __cdecl proto::PlayerFriendListRedisData::PlayerFriendListRedisData(proto::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -7737,7 +7737,7 @@ void __cdecl proto::PlayerFriendListRedisData::PlayerFriendListRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerFriendListRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -7779,7 +7779,7 @@ void __cdecl proto::PlayerFriendListRedisData::~PlayerFriendListRedisData(proto:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8329,7 +8329,7 @@ void __cdecl proto::PlayerPSNFriendListRedisData::PlayerPSNFriendListRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPSNFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPSNFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8349,7 +8349,7 @@ void __cdecl proto::PlayerPSNFriendListRedisData::PlayerPSNFriendListRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerPSNFriendListRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerPSNFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -8392,7 +8392,7 @@ void __cdecl proto::PlayerPSNFriendListRedisData::~PlayerPSNFriendListRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPSNFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPSNFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8943,7 +8943,7 @@ void __cdecl proto::PlayerAskFriendListRedisData::PlayerAskFriendListRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerAskFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerAskFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8963,7 +8963,7 @@ void __cdecl proto::PlayerAskFriendListRedisData::PlayerAskFriendListRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerAskFriendListRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerAskFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -9006,7 +9006,7 @@ void __cdecl proto::PlayerAskFriendListRedisData::~PlayerAskFriendListRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerAskFriendListRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerAskFriendListRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -9556,7 +9556,7 @@ void __cdecl proto::PlayerBlacklistRedisData::PlayerBlacklistRedisData(proto::Pl
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBlacklistRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -9576,7 +9576,7 @@ void __cdecl proto::PlayerBlacklistRedisData::PlayerBlacklistRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerBlacklistRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -9618,7 +9618,7 @@ void __cdecl proto::PlayerBlacklistRedisData::~PlayerBlacklistRedisData(proto::P
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBlacklistRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10168,7 +10168,7 @@ void __cdecl proto::PlayerPSNBlacklistRedisData::PlayerPSNBlacklistRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPSNBlacklistRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPSNBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10188,7 +10188,7 @@ void __cdecl proto::PlayerPSNBlacklistRedisData::PlayerPSNBlacklistRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerPSNBlacklistRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerPSNBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -10231,7 +10231,7 @@ void __cdecl proto::PlayerPSNBlacklistRedisData::~PlayerPSNBlacklistRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPSNBlacklistRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPSNBlacklistRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10781,7 +10781,7 @@ void __cdecl proto::PlayerMpBriefData::PlayerMpBriefData(proto::PlayerMpBriefDat
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerMpBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerMpBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10804,7 +10804,7 @@ void __cdecl proto::PlayerMpBriefData::PlayerMpBriefData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerMpBriefData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerMpBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -10868,7 +10868,7 @@ void __cdecl proto::PlayerMpBriefData::~PlayerMpBriefData(proto::PlayerMpBriefDa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerMpBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerMpBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -11481,7 +11481,7 @@ void __cdecl proto::PlayerSocialBriefData::PlayerSocialBriefData(proto::PlayerSo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerSocialBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerSocialBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -11510,7 +11510,7 @@ void __cdecl proto::PlayerSocialBriefData::PlayerSocialBriefData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerSocialBriefData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerSocialBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -11603,7 +11603,7 @@ void __cdecl proto::PlayerSocialBriefData::~PlayerSocialBriefData(proto::PlayerS
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerSocialBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerSocialBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -12741,7 +12741,7 @@ void __cdecl proto::PlayerBasicBriefData::PlayerBasicBriefData(proto::PlayerBasi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBasicBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBasicBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -12770,7 +12770,7 @@ void __cdecl proto::PlayerBasicBriefData::PlayerBasicBriefData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerBasicBriefData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerBasicBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -12854,7 +12854,7 @@ void __cdecl proto::PlayerBasicBriefData::~PlayerBasicBriefData(proto::PlayerBas
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBasicBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBasicBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -14203,7 +14203,7 @@ void __cdecl proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSc
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry
+  v1 = (int (**)(...))(&`vtable for proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -14220,7 +14220,7 @@ void __cdecl proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSc
   google::protobuf::internal::MapEntry<proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry
+  v2 = (int (**)(...))(&`vtable for proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -14259,7 +14259,7 @@ void __cdecl proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData(proto::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerHomeAuditModuleData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerHomeAuditModuleData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -14281,7 +14281,7 @@ void __cdecl proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerHomeAuditModuleData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerHomeAuditModuleData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -14345,7 +14345,7 @@ void __cdecl proto::PlayerHomeAuditModuleData::~PlayerHomeAuditModuleData(proto:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerHomeAuditModuleData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerHomeAuditModuleData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -15638,7 +15638,7 @@ void __cdecl proto::PlayerHomeBriefData::PlayerHomeBriefData(proto::PlayerHomeBr
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerHomeBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerHomeBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -15664,7 +15664,7 @@ void __cdecl proto::PlayerHomeBriefData::PlayerHomeBriefData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerHomeBriefData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerHomeBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -15734,7 +15734,7 @@ void __cdecl proto::PlayerHomeBriefData::~PlayerHomeBriefData(proto::PlayerHomeB
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerHomeBriefData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerHomeBriefData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -16489,7 +16489,7 @@ void __cdecl proto::PlayerBriefDataRedisData::PlayerBriefDataRedisData(proto::Pl
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBriefDataRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -16513,7 +16513,7 @@ void __cdecl proto::PlayerBriefDataRedisData::PlayerBriefDataRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerBriefDataRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -16620,7 +16620,7 @@ void __cdecl proto::PlayerBriefDataRedisData::~PlayerBriefDataRedisData(proto::P
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerBriefDataRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -17547,7 +17547,7 @@ void __cdecl proto::PlayerShowAvatarRedisData::PlayerShowAvatarRedisData(proto::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerShowAvatarRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerShowAvatarRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -17568,7 +17568,7 @@ void __cdecl proto::PlayerShowAvatarRedisData::PlayerShowAvatarRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerShowAvatarRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerShowAvatarRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -17629,7 +17629,7 @@ void __cdecl proto::PlayerShowAvatarRedisData::~PlayerShowAvatarRedisData(proto:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerShowAvatarRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerShowAvatarRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18275,7 +18275,7 @@ void __cdecl proto::PlayerPrivateChatRedisData::PlayerPrivateChatRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18295,7 +18295,7 @@ void __cdecl proto::PlayerPrivateChatRedisData::PlayerPrivateChatRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -18338,7 +18338,7 @@ void __cdecl proto::PlayerPrivateChatRedisData::~PlayerPrivateChatRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18888,7 +18888,7 @@ void __cdecl proto::PlayerRecentChatRedisData::PlayerRecentChatRedisData(proto::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerRecentChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerRecentChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18908,7 +18908,7 @@ void __cdecl proto::PlayerRecentChatRedisData::PlayerRecentChatRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerRecentChatRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerRecentChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -18950,7 +18950,7 @@ void __cdecl proto::PlayerRecentChatRedisData::~PlayerRecentChatRedisData(proto:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerRecentChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerRecentChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -19501,7 +19501,7 @@ void __cdecl proto::PlayerPrivateChatUnreadRedisData::PlayerPrivateChatUnreadRed
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatUnreadRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatUnreadRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -19521,7 +19521,7 @@ void __cdecl proto::PlayerPrivateChatUnreadRedisData::PlayerPrivateChatUnreadRed
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatUnreadRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatUnreadRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -19564,7 +19564,7 @@ void __cdecl proto::PlayerPrivateChatUnreadRedisData::~PlayerPrivateChatUnreadRe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerPrivateChatUnreadRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerPrivateChatUnreadRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20117,7 +20117,7 @@ void __cdecl proto::ChatRedisData_SystemHint::ChatRedisData_SystemHint(proto::Ch
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ChatRedisData_SystemHint + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20138,7 +20138,7 @@ void __cdecl proto::ChatRedisData_SystemHint::ChatRedisData_SystemHint(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ChatRedisData_SystemHint + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ChatRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -20198,7 +20198,7 @@ void __cdecl proto::ChatRedisData_SystemHint::~ChatRedisData_SystemHint(proto::C
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ChatRedisData_SystemHint + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20793,7 +20793,7 @@ void __cdecl proto::ChatRedisData::ChatRedisData(proto::ChatRedisData *const thi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20817,7 +20817,7 @@ void __cdecl proto::ChatRedisData::ChatRedisData(proto::ChatRedisData *const thi
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ChatRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -20884,7 +20884,7 @@ void __cdecl proto::ChatRedisData::~ChatRedisData(proto::ChatRedisData *const th
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ChatRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -21875,7 +21875,7 @@ void __cdecl proto::ChatMixRedisData_SystemHint::ChatMixRedisData_SystemHint(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData_SystemHint + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatMixRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -21896,7 +21896,7 @@ void __cdecl proto::ChatMixRedisData_SystemHint::ChatMixRedisData_SystemHint(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData_SystemHint + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ChatMixRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -21957,7 +21957,7 @@ void __cdecl proto::ChatMixRedisData_SystemHint::~ChatMixRedisData_SystemHint(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData_SystemHint + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatMixRedisData_SystemHint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -22553,7 +22553,7 @@ void __cdecl proto::ChatMixRedisData::ChatMixRedisData(proto::ChatMixRedisData *
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatMixRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -22579,7 +22579,7 @@ void __cdecl proto::ChatMixRedisData::ChatMixRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ChatMixRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -22646,7 +22646,7 @@ void __cdecl proto::ChatMixRedisData::~ChatMixRedisData(proto::ChatMixRedisData 
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ChatMixRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ChatMixRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -23647,7 +23647,7 @@ void __cdecl proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry::Bless
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry + 2);
+  v1 = (int (**)(...))(&`vtable for proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -23663,7 +23663,7 @@ void __cdecl proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry::Bless
   google::protobuf::internal::MapEntry<proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry + 2);
+  v2 = (int (**)(...))(&`vtable for proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -23701,7 +23701,7 @@ void __cdecl proto::BlessingSocialData::BlessingSocialData(proto::BlessingSocial
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::BlessingSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::BlessingSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -23722,7 +23722,7 @@ void __cdecl proto::BlessingSocialData::BlessingSocialData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::BlessingSocialData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::BlessingSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -23768,7 +23768,7 @@ void __cdecl proto::BlessingSocialData::~BlessingSocialData(proto::BlessingSocia
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::BlessingSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::BlessingSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25014,7 +25014,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMa
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25030,7 +25030,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMa
   google::protobuf::internal::MapEntry<proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -25069,7 +25069,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMa
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25085,7 +25085,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMa
   google::protobuf::internal::MapEntry<proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -25123,7 +25123,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData(proto::PlantFlo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25145,7 +25145,7 @@ void __cdecl proto::PlantFlowerSocialData::PlantFlowerSocialData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -25195,7 +25195,7 @@ void __cdecl proto::PlantFlowerSocialData::~PlantFlowerSocialData(proto::PlantFl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlantFlowerSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlantFlowerSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27072,7 +27072,7 @@ void __cdecl proto::WinterCampSocialData::WinterCampSocialData(proto::WinterCamp
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::WinterCampSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::WinterCampSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27094,7 +27094,7 @@ void __cdecl proto::WinterCampSocialData::WinterCampSocialData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::WinterCampSocialData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::WinterCampSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -27140,7 +27140,7 @@ void __cdecl proto::WinterCampSocialData::~WinterCampSocialData(proto::WinterCam
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::WinterCampSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::WinterCampSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27832,7 +27832,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMa
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27848,7 +27848,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMa
   google::protobuf::internal::MapEntry<proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -27887,7 +27887,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMa
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27903,7 +27903,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMa
   google::protobuf::internal::MapEntry<proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -27941,7 +27941,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData(proto::Activi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27963,7 +27963,7 @@ void __cdecl proto::ActivityGiveSocialData::ActivityGiveSocialData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -28013,7 +28013,7 @@ void __cdecl proto::ActivityGiveSocialData::~ActivityGiveSocialData(proto::Activ
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ActivityGiveSocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivityGiveSocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -29890,7 +29890,7 @@ void __cdecl proto::ActivitySocialData::ActivitySocialData(proto::ActivitySocial
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::ActivitySocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivitySocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -29920,7 +29920,7 @@ void __cdecl proto::ActivitySocialData::ActivitySocialData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::ActivitySocialData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::ActivitySocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -30016,7 +30016,7 @@ void __cdecl proto::ActivitySocialData::~ActivitySocialData(proto::ActivitySocia
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::ActivitySocialData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::ActivitySocialData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -30919,7 +30919,7 @@ void __cdecl proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData
   int (**v1)(...); // rdx
 
   google::protobuf::internal::MapEntry<proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,unsigned int,proto::ActivitySocialData,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)11,0>::MapEntry(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry
+  v1 = (int (**)(...))(&`vtable for proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -30936,7 +30936,7 @@ void __cdecl proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData
   google::protobuf::internal::MapEntry<proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,unsigned int,proto::ActivitySocialData,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)11,0>::MapEntry(
     this,
     arena);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry
+  v2 = (int (**)(...))(&`vtable for proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -30976,7 +30976,7 @@ void __cdecl proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerActivitySocialRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerActivitySocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -30997,7 +30997,7 @@ void __cdecl proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::PlayerActivitySocialRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::PlayerActivitySocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -31044,7 +31044,7 @@ void __cdecl proto::PlayerActivitySocialRedisData::~PlayerActivitySocialRedisDat
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::PlayerActivitySocialRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::PlayerActivitySocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -32297,7 +32297,7 @@ void __cdecl proto::HomeStatusRedisData::HomeStatusRedisData(proto::HomeStatusRe
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::HomeStatusRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -32322,7 +32322,7 @@ void __cdecl proto::HomeStatusRedisData::HomeStatusRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::HomeStatusRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::HomeStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -32387,7 +32387,7 @@ void __cdecl proto::HomeStatusRedisData::~HomeStatusRedisData(proto::HomeStatusR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::HomeStatusRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeStatusRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33066,7 +33066,7 @@ void __cdecl proto::HomeBriefDataRedisData::HomeBriefDataRedisData(proto::HomeBr
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBriefDataRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33087,7 +33087,7 @@ void __cdecl proto::HomeBriefDataRedisData::HomeBriefDataRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::HomeBriefDataRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::HomeBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -33147,7 +33147,7 @@ void __cdecl proto::HomeBriefDataRedisData::~HomeBriefDataRedisData(proto::HomeB
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBriefDataRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBriefDataRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33740,7 +33740,7 @@ void __cdecl proto::OfflineOpGIndexRedisData::OfflineOpGIndexRedisData(proto::Of
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpGIndexRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpGIndexRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33760,7 +33760,7 @@ void __cdecl proto::OfflineOpGIndexRedisData::OfflineOpGIndexRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::OfflineOpGIndexRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::OfflineOpGIndexRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -33802,7 +33802,7 @@ void __cdecl proto::OfflineOpGIndexRedisData::~OfflineOpGIndexRedisData(proto::O
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpGIndexRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpGIndexRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34353,7 +34353,7 @@ void __cdecl proto::OfflineOpSortedSetRedisData::OfflineOpSortedSetRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpSortedSetRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34373,7 +34373,7 @@ void __cdecl proto::OfflineOpSortedSetRedisData::OfflineOpSortedSetRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::OfflineOpSortedSetRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::OfflineOpSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -34416,7 +34416,7 @@ void __cdecl proto::OfflineOpSortedSetRedisData::~OfflineOpSortedSetRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpSortedSetRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpSortedSetRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34967,7 +34967,7 @@ void __cdecl proto::OfflineOpRedisData::OfflineOpRedisData(proto::OfflineOpRedis
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34988,7 +34988,7 @@ void __cdecl proto::OfflineOpRedisData::OfflineOpRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::OfflineOpRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::OfflineOpRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -35048,7 +35048,7 @@ void __cdecl proto::OfflineOpRedisData::~OfflineOpRedisData(proto::OfflineOpRedi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::OfflineOpRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::OfflineOpRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -35812,7 +35812,7 @@ void __cdecl proto::CustomDungeonBlockRedisData::CustomDungeonBlockRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonBlockRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonBlockRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -35837,7 +35837,7 @@ void __cdecl proto::CustomDungeonBlockRedisData::CustomDungeonBlockRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonBlockRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonBlockRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -35933,7 +35933,7 @@ void __cdecl proto::CustomDungeonBlockRedisData::~CustomDungeonBlockRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonBlockRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonBlockRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -36746,7 +36746,7 @@ void __cdecl proto::CustomDungeonRoomRedisData::CustomDungeonRoomRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonRoomRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonRoomRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -36768,7 +36768,7 @@ void __cdecl proto::CustomDungeonRoomRedisData::CustomDungeonRoomRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonRoomRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonRoomRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -36832,7 +36832,7 @@ void __cdecl proto::CustomDungeonRoomRedisData::~CustomDungeonRoomRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonRoomRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonRoomRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -37485,7 +37485,7 @@ void __cdecl proto::CustomDungeonContent::CustomDungeonContent(proto::CustomDung
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonContent + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -37507,7 +37507,7 @@ void __cdecl proto::CustomDungeonContent::CustomDungeonContent(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonContent + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -37571,7 +37571,7 @@ void __cdecl proto::CustomDungeonContent::~CustomDungeonContent(proto::CustomDun
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonContent + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38272,7 +38272,7 @@ void __cdecl proto::CustomDungeonRedisData::CustomDungeonRedisData(proto::Custom
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38294,7 +38294,7 @@ void __cdecl proto::CustomDungeonRedisData::CustomDungeonRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -38370,7 +38370,7 @@ void __cdecl proto::CustomDungeonRedisData::~CustomDungeonRedisData(proto::Custo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -39278,7 +39278,7 @@ void __cdecl proto::CustomDungeonSocialRedisData::CustomDungeonSocialRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonSocialRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonSocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -39303,7 +39303,7 @@ void __cdecl proto::CustomDungeonSocialRedisData::CustomDungeonSocialRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonSocialRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonSocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -39369,7 +39369,7 @@ void __cdecl proto::CustomDungeonSocialRedisData::~CustomDungeonSocialRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonSocialRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonSocialRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -40071,7 +40071,7 @@ void __cdecl proto::CustomDungeonBriefRedisData::CustomDungeonBriefRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -40098,7 +40098,7 @@ void __cdecl proto::CustomDungeonBriefRedisData::CustomDungeonBriefRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonBriefRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -40206,7 +40206,7 @@ void __cdecl proto::CustomDungeonBriefRedisData::~CustomDungeonBriefRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -41405,7 +41405,7 @@ void __cdecl proto::CustomDungeonNewRecommendRedisData::CustomDungeonNewRecommen
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonNewRecommendRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonNewRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -41425,7 +41425,7 @@ void __cdecl proto::CustomDungeonNewRecommendRedisData::CustomDungeonNewRecommen
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonNewRecommendRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonNewRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -41469,7 +41469,7 @@ void __cdecl proto::CustomDungeonNewRecommendRedisData::~CustomDungeonNewRecomme
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonNewRecommendRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonNewRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42024,7 +42024,7 @@ void __cdecl proto::CustomDungeonOldRecommendRedisData::CustomDungeonOldRecommen
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonOldRecommendRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonOldRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42044,7 +42044,7 @@ void __cdecl proto::CustomDungeonOldRecommendRedisData::CustomDungeonOldRecommen
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonOldRecommendRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonOldRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -42088,7 +42088,7 @@ void __cdecl proto::CustomDungeonOldRecommendRedisData::~CustomDungeonOldRecomme
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonOldRecommendRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonOldRecommendRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42643,7 +42643,7 @@ void __cdecl proto::CustomDungeonLikeRedisData::CustomDungeonLikeRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonLikeRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonLikeRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42663,7 +42663,7 @@ void __cdecl proto::CustomDungeonLikeRedisData::CustomDungeonLikeRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CustomDungeonLikeRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CustomDungeonLikeRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -42706,7 +42706,7 @@ void __cdecl proto::CustomDungeonLikeRedisData::~CustomDungeonLikeRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CustomDungeonLikeRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CustomDungeonLikeRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43257,7 +43257,7 @@ void __cdecl proto::UgcMusicNoteRedisData::UgcMusicNoteRedisData(proto::UgcMusic
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicNoteRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicNoteRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43280,7 +43280,7 @@ void __cdecl proto::UgcMusicNoteRedisData::UgcMusicNoteRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcMusicNoteRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcMusicNoteRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -43343,7 +43343,7 @@ void __cdecl proto::UgcMusicNoteRedisData::~UgcMusicNoteRedisData(proto::UgcMusi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicNoteRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicNoteRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43968,7 +43968,7 @@ void __cdecl proto::UgcMusicTrackRedisData::UgcMusicTrackRedisData(proto::UgcMus
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicTrackRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicTrackRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43989,7 +43989,7 @@ void __cdecl proto::UgcMusicTrackRedisData::UgcMusicTrackRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcMusicTrackRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcMusicTrackRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -44034,7 +44034,7 @@ void __cdecl proto::UgcMusicTrackRedisData::~UgcMusicTrackRedisData(proto::UgcMu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicTrackRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicTrackRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -44639,7 +44639,7 @@ void __cdecl proto::UgcMusicContentRedisData::UgcMusicContentRedisData(proto::Ug
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicContentRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicContentRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -44661,7 +44661,7 @@ void __cdecl proto::UgcMusicContentRedisData::UgcMusicContentRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcMusicContentRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcMusicContentRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -44724,7 +44724,7 @@ void __cdecl proto::UgcMusicContentRedisData::~UgcMusicContentRedisData(proto::U
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicContentRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicContentRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -45376,7 +45376,7 @@ void __cdecl proto::UgcRedisData::UgcRedisData(proto::UgcRedisData *const this)
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -45397,7 +45397,7 @@ void __cdecl proto::UgcRedisData::UgcRedisData(proto::UgcRedisData *const this, 
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -45450,7 +45450,7 @@ void __cdecl proto::UgcRedisData::~UgcRedisData(proto::UgcRedisData *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -46144,7 +46144,7 @@ void __cdecl proto::UgcEditRedisData::UgcEditRedisData(proto::UgcEditRedisData *
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcEditRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcEditRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -46164,7 +46164,7 @@ void __cdecl proto::UgcEditRedisData::UgcEditRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcEditRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcEditRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -46206,7 +46206,7 @@ void __cdecl proto::UgcEditRedisData::~UgcEditRedisData(proto::UgcEditRedisData 
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcEditRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcEditRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -46749,7 +46749,7 @@ void __cdecl proto::UgcPublishRedisData::UgcPublishRedisData(proto::UgcPublishRe
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcPublishRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcPublishRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -46769,7 +46769,7 @@ void __cdecl proto::UgcPublishRedisData::UgcPublishRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcPublishRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcPublishRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -46811,7 +46811,7 @@ void __cdecl proto::UgcPublishRedisData::~UgcPublishRedisData(proto::UgcPublishR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcPublishRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcPublishRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -47359,7 +47359,7 @@ void __cdecl proto::UgcMusicBriedRedisData::UgcMusicBriedRedisData(proto::UgcMus
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicBriedRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicBriedRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -47379,7 +47379,7 @@ void __cdecl proto::UgcMusicBriedRedisData::UgcMusicBriedRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcMusicBriedRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcMusicBriedRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -47423,7 +47423,7 @@ void __cdecl proto::UgcMusicBriedRedisData::~UgcMusicBriedRedisData(proto::UgcMu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcMusicBriedRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcMusicBriedRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -48121,7 +48121,7 @@ void __cdecl proto::UgcBriefRedisData::UgcBriefRedisData(proto::UgcBriefRedisDat
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::UgcBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -48147,7 +48147,7 @@ void __cdecl proto::UgcBriefRedisData::UgcBriefRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::UgcBriefRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::UgcBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -48214,7 +48214,7 @@ void __cdecl proto::UgcBriefRedisData::~UgcBriefRedisData(proto::UgcBriefRedisDa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::UgcBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::UgcBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -49079,7 +49079,7 @@ void __cdecl proto::HomeBlueprintBriefRedisData::HomeBlueprintBriefRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBlueprintBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBlueprintBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -49102,7 +49102,7 @@ void __cdecl proto::HomeBlueprintBriefRedisData::HomeBlueprintBriefRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::HomeBlueprintBriefRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::HomeBlueprintBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -49161,7 +49161,7 @@ void __cdecl proto::HomeBlueprintBriefRedisData::~HomeBlueprintBriefRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBlueprintBriefRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBlueprintBriefRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -50019,7 +50019,7 @@ void __cdecl proto::HomeBlueprintDetailRedisData::HomeBlueprintDetailRedisData(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBlueprintDetailRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBlueprintDetailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -50043,7 +50043,7 @@ void __cdecl proto::HomeBlueprintDetailRedisData::HomeBlueprintDetailRedisData(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::HomeBlueprintDetailRedisData + 2);
+  v2 = (int (**)(...))(&`vtable for proto::HomeBlueprintDetailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -50119,7 +50119,7 @@ void __cdecl proto::HomeBlueprintDetailRedisData::~HomeBlueprintDetailRedisData(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::HomeBlueprintDetailRedisData + 2);
+  v1 = (int (**)(...))(&`vtable for proto::HomeBlueprintDetailRedisData + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

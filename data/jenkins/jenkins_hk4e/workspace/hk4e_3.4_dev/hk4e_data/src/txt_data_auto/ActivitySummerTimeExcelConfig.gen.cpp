@@ -2796,7 +2796,7 @@ int32_t __cdecl data::ActivitySummerTimeExcelConfigMgrBase::loadActivitySummerTi
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
         *(_QWORD *)(v3 + 584) = 0LL;
-        v16 = &`vtable for'data::ActivitySummerTimeFloatSignalExcelConfig + 2;
+        v16 = &`vtable for data::ActivitySummerTimeFloatSignalExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;

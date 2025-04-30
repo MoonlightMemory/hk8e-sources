@@ -1293,7 +1293,7 @@ LABEL_88:
 LABEL_89:
     std::string::basic_string<std::allocator<char>>(&msg, "read error", &__a);
     boost::property_tree::file_parser_error::file_parser_error(&v144, &msg, filename, 0LL);
-    *(_QWORD *)v144.baseclass_0 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+    *(_QWORD *)v144.baseclass_0 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
     __asan_handle_no_return(&v144);
     boost::exception_detail::throw_exception_<boost::property_tree::xml_parser::xml_parser_error>(
       (const boost::property_tree::xml_parser::xml_parser_error *)&v144,
@@ -1494,7 +1494,7 @@ LABEL_308:
                                       v91 = *((_QWORD *)v4 - 8268);
                                       if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
                                         v91 = __asan_report_store8();
-                                      *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                      *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                            + 2;
                                       if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
                                         v91 = __asan_report_store8();
@@ -1710,7 +1710,7 @@ LABEL_381:
                                     v108 = *((_QWORD *)v4 - 8264);
                                     if ( *(_BYTE *)((v107 >> 3) + 0x7FFF8000) )
                                       v108 = __asan_report_store8();
-                                    *(_QWORD *)v107 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                    *(_QWORD *)v107 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                     + 2;
                                     if ( *(_BYTE *)(((v107 + 8) >> 3) + 0x7FFF8000) )
                                       v108 = __asan_report_store8();
@@ -1928,7 +1928,7 @@ LABEL_234:
                                     v74 = *((_QWORD *)v4 - 8272);
                                     if ( *(_BYTE *)((v73 >> 3) + 0x7FFF8000) )
                                       v74 = __asan_report_store8();
-                                    *(_QWORD *)v73 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                    *(_QWORD *)v73 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                    + 2;
                                     if ( *(_BYTE *)(((v73 + 8) >> 3) + 0x7FFF8000) )
                                       v74 = __asan_report_store8();
@@ -2160,7 +2160,7 @@ LABEL_161:
                 v57 = *((_QWORD *)v4 - 8276);
                 if ( *(_BYTE *)((v56 >> 3) + 0x7FFF8000) )
                   v57 = __asan_report_store8();
-                *(_QWORD *)v56 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                *(_QWORD *)v56 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                 if ( *(_BYTE *)(((v56 + 8) >> 3) + 0x7FFF8000) )
                   v57 = __asan_report_store8();
                 *(_QWORD *)(v56 + 8) = "expected <";
@@ -2298,7 +2298,7 @@ LABEL_406:
             v136 = (const char *)(*((__int64 (__fastcall **)(char **, double))v135 + 2))(v133, v9);
             std::string::basic_string<std::allocator<char>>(&msg, v136, &__a);
             boost::property_tree::file_parser_error::file_parser_error(&v144, &msg, filename, v134);
-            *(_QWORD *)v144.baseclass_0 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+            *(_QWORD *)v144.baseclass_0 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
             __asan_handle_no_return(&v144);
             boost::exception_detail::throw_exception_<boost::property_tree::xml_parser::xml_parser_error>(
               (const boost::property_tree::xml_parser::xml_parser_error *)&v144,

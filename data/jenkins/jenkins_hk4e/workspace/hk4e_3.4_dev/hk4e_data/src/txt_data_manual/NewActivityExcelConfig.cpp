@@ -15327,7 +15327,7 @@ int32_t __cdecl NewActivityExcelConfigMgr::rewriteActivitySaleConfig(
     if ( std::vector<std::string>::size(&config->sale_param) > 1 )
     {
       *(_WORD *)(((v3 + 96) >> 3) + 0x7FFF8000) = 0;
-      v11 = &`vtable for'ActivityWeaponUpgradeSaleConfig + 2;
+      v11 = &`vtable for ActivityWeaponUpgradeSaleConfig + 2;
       if ( *(_BYTE *)(((v3 + 96) >> 3) + 0x7FFF8000) )
         __asan_report_store8(v3 + 96, v7);
       *(_QWORD *)(v3 + 96) = v11;

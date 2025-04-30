@@ -1646,7 +1646,7 @@ LABEL_53:
           *(_DWORD *)(v131 + 12) = 1;
           if ( !*(_BYTE *)((v131 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v131 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MiLogFile,common::tools::perf::allocator<common::milog::MiLogFile,common::milog::MiLogFile>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v131 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MiLogFile,common::tools::perf::allocator<common::milog::MiLogFile,common::milog::MiLogFile>,(__gnu_cxx::_Lock_policy)2>
                             + 2;
             v133 = (common::milog::MiLogFile *)(v131 + 16);
             if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1701,7 +1701,7 @@ LABEL_62:
         *(_DWORD *)(v132 + 12) = 1;
         if ( !*(_BYTE *)((v132 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v132 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MiLogFile,std::allocator<common::milog::MiLogFile>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v132 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MiLogFile,std::allocator<common::milog::MiLogFile>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
           v133 = (common::milog::MiLogFile *)(v132 + 16);
           common::milog::MiLogFile::MiLogFile((common::milog::MiLogFile *const)(v132 + 16));
@@ -3136,7 +3136,7 @@ common::milog::MiLogBuf *__fastcall common::milog::MiLog::getMiLogBuf(common::mi
               *(_DWORD *)(v62 + 12) = 1;
               if ( !*(_BYTE *)((v62 >> 3) + 0x7FFF8000) )
               {
-                *(_QWORD *)v62 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MiLogBuf,common::tools::perf::allocator<common::milog::MiLogBuf,common::milog::MiLogBuf>,(__gnu_cxx::_Lock_policy)2>
+                *(_QWORD *)v62 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MiLogBuf,common::tools::perf::allocator<common::milog::MiLogBuf,common::milog::MiLogBuf>,(__gnu_cxx::_Lock_policy)2>
                                + 2;
                 v2 = v62 + 16;
                 if ( !common::tools::perf::MemoryPerf::is_record )
@@ -3446,7 +3446,7 @@ LABEL_21:
             *(_DWORD *)(v64 + 12) = 1;
             if ( !*(_BYTE *)((v64 >> 3) + 0x7FFF8000) )
             {
-              *(_QWORD *)v64 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MiLogBuf,std::allocator<common::milog::MiLogBuf>,(__gnu_cxx::_Lock_policy)2>
+              *(_QWORD *)v64 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MiLogBuf,std::allocator<common::milog::MiLogBuf>,(__gnu_cxx::_Lock_policy)2>
                              + 2;
               v2 = v64 + 16;
               v49 = *(_BYTE *)(((v64 + 16) >> 3) + 0x7FFF8000);
@@ -3678,7 +3678,7 @@ LABEL_22:
         *(_DWORD *)(v28 + 12) = 1;
         if ( !*(_BYTE *)((v28 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v28 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,std::allocator<boost::lockfree::spsc_queue<common::milog::MiLogHead *>>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v28 = &`vtable for std::_Sp_counted_ptr_inplace<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,std::allocator<boost::lockfree::spsc_queue<common::milog::MiLogHead *>>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           v3 = v28 + 16;
           if ( !*(_BYTE *)(((v28 + 16) >> 3) + 0x7FFF8000) )
@@ -3750,7 +3750,7 @@ LABEL_23:
     __asan_report_store8(v1, p_type);
     goto LABEL_24;
   }
-  *(_QWORD *)v1 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,common::tools::perf::allocator<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,boost::lockfree::spsc_queue<common::milog::MiLogHead *>>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v1 = &`vtable for std::_Sp_counted_ptr_inplace<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,common::tools::perf::allocator<boost::lockfree::spsc_queue<common::milog::MiLogHead *>,boost::lockfree::spsc_queue<common::milog::MiLogHead *>>,(__gnu_cxx::_Lock_policy)2>
                 + 2;
   v3 = v1 + 16;
   if ( !common::tools::perf::MemoryPerf::is_record )

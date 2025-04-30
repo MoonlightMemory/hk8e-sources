@@ -1244,7 +1244,7 @@ LABEL_376:
         *(_DWORD *)(v110 + 12) = 1;
         if ( !*(_BYTE *)((v110 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v110 = &`vtable for'std::_Sp_counted_ptr_inplace<TracingMgr,std::allocator<TracingMgr>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v110 = &`vtable for std::_Sp_counted_ptr_inplace<TracingMgr,std::allocator<TracingMgr>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
           v114 = v110 + 16;
           if ( (*(_BYTE *)(((v110 + 39) >> 3) + 0x7FFF8000) == 0
@@ -1312,7 +1312,7 @@ LABEL_369:
   *(_DWORD *)(p_app_name + 12) = 1;
   if ( !*(_BYTE *)((p_app_name >> 3) + 0x7FFF8000) )
   {
-    *(_QWORD *)p_app_name = &`vtable for'std::_Sp_counted_ptr_inplace<TracingMgr,common::tools::perf::allocator<TracingMgr,TracingMgr>,(__gnu_cxx::_Lock_policy)2>
+    *(_QWORD *)p_app_name = &`vtable for std::_Sp_counted_ptr_inplace<TracingMgr,common::tools::perf::allocator<TracingMgr,TracingMgr>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
     M_allocated_capacity = p_app_name + 16;
     if ( !common::tools::perf::MemoryPerf::is_record )

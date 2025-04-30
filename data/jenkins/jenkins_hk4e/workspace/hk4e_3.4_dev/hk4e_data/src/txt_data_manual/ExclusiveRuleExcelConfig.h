@@ -6,7 +6,7 @@ void __cdecl ExclusiveRuleExcelConfigMgr::ExclusiveRuleExcelConfigMgr(ExclusiveR
   int (**v1)(...); // rdx
 
   data::ExclusiveRuleExcelConfigMgrBase::ExclusiveRuleExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ExclusiveRuleExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ExclusiveRuleExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ExclusiveRuleExcelConfigMgrBase = v1;
@@ -19,7 +19,7 @@ void __cdecl ExclusiveRuleExcelConfigMgr::~ExclusiveRuleExcelConfigMgr(Exclusive
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ExclusiveRuleExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ExclusiveRuleExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ExclusiveRuleExcelConfigMgrBase = v1;

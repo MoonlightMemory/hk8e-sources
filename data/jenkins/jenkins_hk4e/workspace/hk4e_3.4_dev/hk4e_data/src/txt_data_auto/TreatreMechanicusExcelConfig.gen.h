@@ -32,7 +32,7 @@ void __cdecl data::MechanicBuildingExcelConfig::MechanicBuildingExcelConfig(
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
-  v5 = (int (**)(...))(&`vtable for'data::MechanicBuildingExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::MechanicBuildingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicBuildingExcelConfig = v5;
@@ -150,7 +150,7 @@ void __cdecl data::MechanicBuildingExcelConfig::MechanicBuildingExcelConfig(
   const data::MechanicBuildingExcelConfig *v28; // [rsp+0h] [rbp-20h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicBuildingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicBuildingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicBuildingExcelConfig = v2;
@@ -294,7 +294,7 @@ void __cdecl data::MechanicBuildingExcelConfig::~MechanicBuildingExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicBuildingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicBuildingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicBuildingExcelConfig = v2;
@@ -311,7 +311,7 @@ void __cdecl data::MechanicusExcelConfig::MechanicusExcelConfig(data::Mechanicus
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusExcelConfig = v2;
@@ -381,7 +381,7 @@ void __cdecl data::MechanicusExcelConfig::MechanicusExcelConfig(
   const data::MechanicusExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusExcelConfig = v2;
@@ -483,7 +483,7 @@ void __cdecl data::MechanicusExcelConfig::~MechanicusExcelConfig(data::Mechanicu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusExcelConfig = v2;
@@ -498,7 +498,7 @@ void __cdecl data::MechanicusSequenceExcelConfig::MechanicusSequenceExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusSequenceExcelConfig = v2;
@@ -558,7 +558,7 @@ void __cdecl data::MechanicusSequenceExcelConfig::MechanicusSequenceExcelConfig(
   const data::MechanicusSequenceExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusSequenceExcelConfig = v2;
@@ -640,7 +640,7 @@ void __cdecl data::MechanicusSequenceExcelConfig::~MechanicusSequenceExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusSequenceExcelConfig = v2;
@@ -661,7 +661,7 @@ void __cdecl data::MechanicusMapExcelConfig::MechanicusMapExcelConfig(data::Mech
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusMapExcelConfig = v2;
@@ -706,7 +706,7 @@ void __cdecl data::MechanicusMapExcelConfig::MechanicusMapExcelConfig(
   const data::MechanicusMapExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusMapExcelConfig = v2;
@@ -770,7 +770,7 @@ void __cdecl data::MechanicusMapExcelConfig::~MechanicusMapExcelConfig(data::Mec
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusMapExcelConfig = v2;
@@ -920,7 +920,7 @@ void __cdecl data::MechanicusGearLevelUpExcelConfig::MechanicusGearLevelUpExcelC
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
-  v5 = (int (**)(...))(&`vtable for'data::MechanicusGearLevelUpExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::MechanicusGearLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusGearLevelUpExcelConfig = v5;
@@ -1011,7 +1011,7 @@ void __cdecl data::MechanicusGearLevelUpExcelConfig::MechanicusGearLevelUpExcelC
   const data::MechanicusGearLevelUpExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusGearLevelUpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusGearLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusGearLevelUpExcelConfig = v2;
@@ -1116,7 +1116,7 @@ void __cdecl data::MechanicusGearLevelUpExcelConfig::~MechanicusGearLevelUpExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusGearLevelUpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusGearLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusGearLevelUpExcelConfig = v2;
@@ -1133,7 +1133,7 @@ void __cdecl data::MechanicusWatcherExcelConfig::MechanicusWatcherExcelConfig(
   int (**v2)(...); // rdx
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -1156,7 +1156,7 @@ void __cdecl data::MechanicusWatcherExcelConfig::MechanicusWatcherExcelConfig(
   char v5; // dl
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -1183,7 +1183,7 @@ void __cdecl data::MechanicusWatcherExcelConfig::~MechanicusWatcherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -1205,7 +1205,7 @@ void __cdecl data::MechanicusDifficultyExcelConfig::MechanicusDifficultyExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusDifficultyExcelConfig = v2;
@@ -1247,7 +1247,7 @@ void __cdecl data::MechanicusDifficultyExcelConfig::MechanicusDifficultyExcelCon
   const data::MechanicusDifficultyExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusDifficultyExcelConfig = v2;
@@ -1302,7 +1302,7 @@ void __cdecl data::MechanicusDifficultyExcelConfig::~MechanicusDifficultyExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusDifficultyExcelConfig = v2;
@@ -1341,7 +1341,7 @@ void __cdecl data::MechanicusCardExcelConfig::MechanicusCardExcelConfig(
   const data::MechanicusCardExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusCardExcelConfig = v2;
@@ -1434,7 +1434,7 @@ void __cdecl data::MechanicusCardExcelConfig::~MechanicusCardExcelConfig(data::M
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusCardExcelConfig = v2;
@@ -1456,7 +1456,7 @@ void __cdecl data::MechanicusCardEffectExcelConfig::MechanicusCardEffectExcelCon
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusCardEffectExcelConfig = v2;
@@ -1527,7 +1527,7 @@ void __cdecl data::MechanicusCardEffectExcelConfig::MechanicusCardEffectExcelCon
   const data::MechanicusCardEffectExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusCardEffectExcelConfig = v2;
@@ -1624,7 +1624,7 @@ void __cdecl data::MechanicusCardEffectExcelConfig::~MechanicusCardEffectExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusCardEffectExcelConfig = v2;
@@ -1659,7 +1659,7 @@ void __cdecl data::MechanicusCardCurseExcelConfig::MechanicusCardCurseExcelConfi
   const data::MechanicusCardCurseExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardCurseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardCurseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusCardCurseExcelConfig = v2;
@@ -1726,7 +1726,7 @@ void __cdecl data::MechanicusCardCurseExcelConfig::~MechanicusCardCurseExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusCardCurseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusCardCurseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusCardCurseExcelConfig = v2;
@@ -1749,7 +1749,7 @@ void __cdecl data::MechanicusMapPointExcelConfig::MechanicusMapPointExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MechanicusMapPointExcelConfig = v2;
@@ -1775,7 +1775,7 @@ void __cdecl data::MechanicusMapPointExcelConfig::~MechanicusMapPointExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MechanicusMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MechanicusMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MechanicusMapPointExcelConfig = v2;

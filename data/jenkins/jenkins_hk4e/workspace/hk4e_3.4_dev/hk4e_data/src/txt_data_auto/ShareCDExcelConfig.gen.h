@@ -6,7 +6,7 @@ void __cdecl data::CoolDownInfo::CoolDownInfo(data::CoolDownInfo *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoolDownInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoolDownInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoolDownInfo = v2;
@@ -33,7 +33,7 @@ void __cdecl data::CoolDownInfo::CoolDownInfo(data::CoolDownInfo *const this, co
   uint32_t token; // ecx
   char v6; // dl
 
-  v2 = (int (**)(...))(&`vtable for'data::CoolDownInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoolDownInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CoolDownInfo = v2;
@@ -71,7 +71,7 @@ void __cdecl data::CoolDownInfo::~CoolDownInfo(data::CoolDownInfo *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CoolDownInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::CoolDownInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CoolDownInfo = v2;
@@ -92,7 +92,7 @@ void __cdecl data::ShareCDExcelConfig::ShareCDExcelConfig(data::ShareCDExcelConf
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShareCDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShareCDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShareCDExcelConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::ShareCDExcelConfig::ShareCDExcelConfig(
   const data::ShareCDExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShareCDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShareCDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShareCDExcelConfig = v2;
@@ -180,7 +180,7 @@ void __cdecl data::ShareCDExcelConfig::~ShareCDExcelConfig(data::ShareCDExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShareCDExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShareCDExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShareCDExcelConfig = v2;

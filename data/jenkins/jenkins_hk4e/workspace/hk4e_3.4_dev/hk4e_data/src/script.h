@@ -63,7 +63,7 @@ void __cdecl LuaUnknownExecption::~LuaUnknownExecption(LuaUnknownExecption *cons
   __int64 v1; // rsi
   __int64 *v2; // rdx
 
-  v2 = &`vtable for'LuaUnknownExecption + 2;
+  v2 = &`vtable for LuaUnknownExecption + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v2;
@@ -102,7 +102,7 @@ void __cdecl LuaUnknownExecption::LuaUnknownExecption(LuaUnknownExecption *const
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   std::exception::exception((std::exception *const)this);
-  v5 = &`vtable for'LuaUnknownExecption + 2;
+  v5 = &`vtable for LuaUnknownExecption + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   *(_QWORD *)this->baseclass_0 = v5;

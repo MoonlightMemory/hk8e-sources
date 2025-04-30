@@ -8,7 +8,7 @@ void __cdecl data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleB
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigAudioEventCullingRuleBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAudioEventCullingRuleBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventCullingRuleBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventCullingRuleBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -31,7 +31,7 @@ void __cdecl data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleB
   std::enable_shared_from_this<data::ConfigAudioEventCullingRuleBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAudioEventCullingRuleBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAudioEventCullingRuleBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAudioEventCullingRuleBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v3;
@@ -54,7 +54,7 @@ void __cdecl data::ConfigAudioEventCullingRuleBase::~ConfigAudioEventCullingRule
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventCullingRuleBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventCullingRuleBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -132,7 +132,7 @@ void __cdecl data::ConfigRuleCullingDistance::ConfigRuleCullingDistance(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase((data::ConfigAudioEventCullingRuleBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -155,7 +155,7 @@ void __cdecl data::ConfigRuleCullingDistance::ConfigRuleCullingDistance(
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(
     (data::ConfigAudioEventCullingRuleBase *const)this,
     (const data::ConfigAudioEventCullingRuleBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -186,7 +186,7 @@ void __cdecl data::ConfigRuleCullingDistance::~ConfigRuleCullingDistance(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -254,7 +254,7 @@ void __cdecl data::ConfigRuleCullingDistanceFactory::ConfigRuleCullingDistanceFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleCullingDistanceFactory = v2;
@@ -268,7 +268,7 @@ void __cdecl data::ConfigRuleWaitDistance::ConfigRuleWaitDistance(data::ConfigRu
   __int64 v3; // rsi
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase((data::ConfigAudioEventCullingRuleBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleWaitDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleWaitDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -301,7 +301,7 @@ void __cdecl data::ConfigRuleWaitDistance::ConfigRuleWaitDistance(
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(
     (data::ConfigAudioEventCullingRuleBase *const)this,
     (const data::ConfigAudioEventCullingRuleBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleWaitDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleWaitDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -346,7 +346,7 @@ void __cdecl data::ConfigRuleWaitDistance::~ConfigRuleWaitDistance(data::ConfigR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleWaitDistance + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleWaitDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -414,7 +414,7 @@ void __cdecl data::ConfigRuleWaitDistanceFactory::ConfigRuleWaitDistanceFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleWaitDistanceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleWaitDistanceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleWaitDistanceFactory = v2;
@@ -427,7 +427,7 @@ void __cdecl data::ConfigRuleLimitFrameGlobal::ConfigRuleLimitFrameGlobal(data::
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase((data::ConfigAudioEventCullingRuleBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrameGlobal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrameGlobal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -452,7 +452,7 @@ void __cdecl data::ConfigRuleLimitFrameGlobal::ConfigRuleLimitFrameGlobal(
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(
     (data::ConfigAudioEventCullingRuleBase *const)this,
     (const data::ConfigAudioEventCullingRuleBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrameGlobal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrameGlobal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -487,7 +487,7 @@ void __cdecl data::ConfigRuleLimitFrameGlobal::~ConfigRuleLimitFrameGlobal(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrameGlobal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrameGlobal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -555,7 +555,7 @@ void __cdecl data::ConfigRuleLimitFrameGlobalFactory::ConfigRuleLimitFrameGlobal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrameGlobalFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrameGlobalFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleLimitFrameGlobalFactory = v2;
@@ -568,7 +568,7 @@ void __cdecl data::ConfigRuleLimitFrame::ConfigRuleLimitFrame(data::ConfigRuleLi
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase((data::ConfigAudioEventCullingRuleBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrame + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrame + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -593,7 +593,7 @@ void __cdecl data::ConfigRuleLimitFrame::ConfigRuleLimitFrame(
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(
     (data::ConfigAudioEventCullingRuleBase *const)this,
     (const data::ConfigAudioEventCullingRuleBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrame + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrame + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -626,7 +626,7 @@ void __cdecl data::ConfigRuleLimitFrame::~ConfigRuleLimitFrame(data::ConfigRuleL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrame + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrame + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -694,7 +694,7 @@ void __cdecl data::ConfigRuleLimitFrameFactory::ConfigRuleLimitFrameFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleLimitFrameFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleLimitFrameFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleLimitFrameFactory = v2;
@@ -708,7 +708,7 @@ void __cdecl data::ConfigRuleCullingEventNameContain::ConfigRuleCullingEventName
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEventNameContain + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEventNameContain + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -723,7 +723,7 @@ void __cdecl data::ConfigRuleCullingEventNameContain::ConfigRuleCullingEventName
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEventNameContain + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEventNameContain + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -737,7 +737,7 @@ void __cdecl data::ConfigRuleCullingEventNameContain::~ConfigRuleCullingEventNam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEventNameContain + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEventNameContain + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -816,7 +816,7 @@ void __cdecl data::ConfigRuleCullingEventNameContainFactory::ConfigRuleCullingEv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEventNameContainFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEventNameContainFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleCullingEventNameContainFactory = v2;
@@ -829,7 +829,7 @@ void __cdecl data::ConfigRuleCullingEvent::ConfigRuleCullingEvent(data::ConfigRu
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -843,7 +843,7 @@ void __cdecl data::ConfigRuleCullingEvent::ConfigRuleCullingEvent(
   int (**v2)(...); // rdx
 
   data::ConfigAudioEventCullingRuleBase::ConfigAudioEventCullingRuleBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -855,7 +855,7 @@ void __cdecl data::ConfigRuleCullingEvent::~ConfigRuleCullingEvent(data::ConfigR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventCullingRuleBase = v2;
@@ -930,7 +930,7 @@ void __cdecl data::ConfigRuleCullingEventFactory::ConfigRuleCullingEventFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRuleCullingEventFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRuleCullingEventFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRuleCullingEventFactory = v2;

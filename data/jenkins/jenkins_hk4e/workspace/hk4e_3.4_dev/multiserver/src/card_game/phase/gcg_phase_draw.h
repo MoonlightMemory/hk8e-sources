@@ -5,7 +5,7 @@ void __cdecl GCGPhaseDraw::~GCGPhaseDraw(GCGPhaseDraw *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPhaseDraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPhaseDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ZN12GCGPhaseDrawCI212GCGPhaseBaseER11GCGGameMode(GCGPhaseDraw *cons
   int (**v2)(...); // rdx
 
   GCGPhaseBase::GCGPhaseBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGPhaseDraw + 2);
+  v2 = (int (**)(...))(&`vtable for GCGPhaseDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v2;

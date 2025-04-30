@@ -6,7 +6,7 @@ void __cdecl FeatureTagExcelConfigMgr::FeatureTagExcelConfigMgr(FeatureTagExcelC
   int (**v1)(...); // rdx
 
   data::FeatureTagExcelConfigMgrBase::FeatureTagExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'FeatureTagExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FeatureTagExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FeatureTagExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl FeatureTagExcelConfigMgr::~FeatureTagExcelConfigMgr(FeatureTagExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FeatureTagExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FeatureTagExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FeatureTagExcelConfigMgrBase = v1;

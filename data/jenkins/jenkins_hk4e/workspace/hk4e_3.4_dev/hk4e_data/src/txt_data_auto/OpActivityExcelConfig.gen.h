@@ -8,7 +8,7 @@ void __cdecl data::OpActivityScheduleExcelConfig::OpActivityScheduleExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityScheduleExcelConfig = v2;
@@ -60,7 +60,7 @@ void __cdecl data::OpActivityScheduleExcelConfig::OpActivityScheduleExcelConfig(
   const data::OpActivityScheduleExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OpActivityScheduleExcelConfig = v2;
@@ -129,7 +129,7 @@ void __cdecl data::OpActivityScheduleExcelConfig::~OpActivityScheduleExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityScheduleExcelConfig = v2;
@@ -152,7 +152,7 @@ void __cdecl data::OpActivityExcelConfig::OpActivityExcelConfig(data::OpActivity
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityExcelConfig = v2;
@@ -194,7 +194,7 @@ void __cdecl data::OpActivityExcelConfig::OpActivityExcelConfig(
   const data::OpActivityExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OpActivityExcelConfig = v2;
@@ -247,7 +247,7 @@ void __cdecl data::OpActivityExcelConfig::~OpActivityExcelConfig(data::OpActivit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityExcelConfig = v2;
@@ -269,7 +269,7 @@ void __cdecl data::OpActivityBonusExcelConfig::OpActivityBonusExcelConfig(data::
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityBonusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityBonusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityBonusExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::OpActivityBonusExcelConfig::OpActivityBonusExcelConfig(
   const data::OpActivityBonusExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityBonusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityBonusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OpActivityBonusExcelConfig = v2;
@@ -414,7 +414,7 @@ void __cdecl data::OpActivityBonusExcelConfig::~OpActivityBonusExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpActivityBonusExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpActivityBonusExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpActivityBonusExcelConfig = v2;

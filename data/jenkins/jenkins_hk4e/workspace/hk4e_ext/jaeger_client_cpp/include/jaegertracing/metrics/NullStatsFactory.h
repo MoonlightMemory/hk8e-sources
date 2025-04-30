@@ -26,7 +26,7 @@ std::unique_ptr<jaegertracing::metrics::Counter> __fastcall jaegertracing::metri
   }
   else
   {
-    *(_QWORD *)v4 = &`vtable for'jaegertracing::metrics::NullCounter + 2;
+    *(_QWORD *)v4 = &`vtable for jaegertracing::metrics::NullCounter + 2;
     if ( !*(_BYTE *)((a1 >> 3) + 0x7FFF8000) )
     {
       *(_QWORD *)a1 = v4;

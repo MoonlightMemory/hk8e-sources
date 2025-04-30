@@ -21,7 +21,7 @@ void __cdecl data::HuntingRefreshExcelConfig::HuntingRefreshExcelConfig(
   const data::HuntingRefreshExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingRefreshExcelConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::HuntingRefreshExcelConfig::~HuntingRefreshExcelConfig(data::H
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingRefreshExcelConfig = v2;
@@ -119,7 +119,7 @@ void __cdecl data::HuntingRegionExcelConfig::HuntingRegionExcelConfig(data::Hunt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingRegionExcelConfig = v2;
@@ -157,7 +157,7 @@ void __cdecl data::HuntingRegionExcelConfig::HuntingRegionExcelConfig(
   const data::HuntingRegionExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingRegionExcelConfig = v2;
@@ -209,7 +209,7 @@ void __cdecl data::HuntingRegionExcelConfig::~HuntingRegionExcelConfig(data::Hun
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingRegionExcelConfig = v2;
@@ -229,7 +229,7 @@ void __cdecl data::HuntingGroupInfoExcelConfig::HuntingGroupInfoExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingGroupInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingGroupInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingGroupInfoExcelConfig = v2;
@@ -280,7 +280,7 @@ void __cdecl data::HuntingGroupInfoExcelConfig::HuntingGroupInfoExcelConfig(
   const data::HuntingGroupInfoExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingGroupInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingGroupInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingGroupInfoExcelConfig = v2;
@@ -356,7 +356,7 @@ void __cdecl data::HuntingGroupInfoExcelConfig::~HuntingGroupInfoExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingGroupInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingGroupInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingGroupInfoExcelConfig = v2;
@@ -389,7 +389,7 @@ void __cdecl data::HuntingClueMonsterExcelConfig::HuntingClueMonsterExcelConfig(
   const data::HuntingClueMonsterExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingClueMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingClueMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingClueMonsterExcelConfig = v2;
@@ -499,7 +499,7 @@ void __cdecl data::HuntingClueMonsterExcelConfig::~HuntingClueMonsterExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingClueMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingClueMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingClueMonsterExcelConfig = v2;
@@ -526,7 +526,7 @@ void __cdecl data::HuntingClueGatherExcelConfig::HuntingClueGatherExcelConfig(
   const data::HuntingClueGatherExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingClueGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingClueGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingClueGatherExcelConfig = v2;
@@ -590,7 +590,7 @@ void __cdecl data::HuntingClueGatherExcelConfig::~HuntingClueGatherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingClueGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingClueGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingClueGatherExcelConfig = v2;
@@ -610,7 +610,7 @@ void __cdecl data::HuntingRefreshCond::HuntingRefreshCond(data::HuntingRefreshCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingRefreshCond = v2;
@@ -634,7 +634,7 @@ void __cdecl data::HuntingRefreshCond::HuntingRefreshCond(
   const data::HuntingRefreshCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingRefreshCond = v2;
@@ -667,7 +667,7 @@ void __cdecl data::HuntingRefreshCond::~HuntingRefreshCond(data::HuntingRefreshC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingRefreshCond = v2;
@@ -684,7 +684,7 @@ void __cdecl data::HuntingMonsterExcelConfig::HuntingMonsterExcelConfig(data::Hu
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingMonsterExcelConfig = v2;
@@ -819,7 +819,7 @@ void __cdecl data::HuntingMonsterExcelConfig::HuntingMonsterExcelConfig(
   const data::HuntingMonsterExcelConfig *v38; // [rsp+0h] [rbp-20h]
 
   v38 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HuntingMonsterExcelConfig = v2;
@@ -1018,7 +1018,7 @@ void __cdecl data::HuntingMonsterExcelConfig::~HuntingMonsterExcelConfig(data::H
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HuntingMonsterExcelConfig = v2;

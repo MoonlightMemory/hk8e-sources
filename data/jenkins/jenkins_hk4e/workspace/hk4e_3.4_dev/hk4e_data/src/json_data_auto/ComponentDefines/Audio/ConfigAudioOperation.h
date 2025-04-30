@@ -7,7 +7,7 @@ void __cdecl data::ConfigAudioOperation::ConfigAudioOperation(data::ConfigAudioO
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigAudioOperation>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAudioOperation>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioOperation + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -32,7 +32,7 @@ void __cdecl data::ConfigAudioOperation::ConfigAudioOperation(
   std::enable_shared_from_this<data::ConfigAudioOperation>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAudioOperation>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAudioOperation + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAudioOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAudioOperation = v3;
@@ -63,7 +63,7 @@ void __cdecl data::ConfigAudioOperation::~ConfigAudioOperation(data::ConfigAudio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioOperation + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -132,7 +132,7 @@ void __cdecl data::ConfigAudioEventOp::ConfigAudioEventOp(data::ConfigAudioEvent
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -146,7 +146,7 @@ void __cdecl data::ConfigAudioEventOp::ConfigAudioEventOp(
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -158,7 +158,7 @@ void __cdecl data::ConfigAudioEventOp::~ConfigAudioEventOp(data::ConfigAudioEven
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -232,7 +232,7 @@ void __cdecl data::ConfigAudioEventOpFactory::ConfigAudioEventOpFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOpFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOpFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventOpFactory = v2;
@@ -245,7 +245,7 @@ void __cdecl data::ConfigAudioEmitterOp::ConfigAudioEmitterOp(data::ConfigAudioE
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -259,7 +259,7 @@ void __cdecl data::ConfigAudioEmitterOp::ConfigAudioEmitterOp(
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -271,7 +271,7 @@ void __cdecl data::ConfigAudioEmitterOp::~ConfigAudioEmitterOp(data::ConfigAudio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -346,7 +346,7 @@ void __cdecl data::ConfigAudioEmitterOpFactory::ConfigAudioEmitterOpFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEmitterOpFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEmitterOpFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEmitterOpFactory = v2;
@@ -359,7 +359,7 @@ void __cdecl data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation((data::ConfigAudioOperation *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -382,7 +382,7 @@ void __cdecl data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(
   data::ConfigAudioOperation::ConfigAudioOperation(
     (data::ConfigAudioOperation *const)this,
     (const data::ConfigAudioOperation *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -413,7 +413,7 @@ void __cdecl data::ConfigAudioPositionedOp::~ConfigAudioPositionedOp(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -482,7 +482,7 @@ void __cdecl data::ConfigAudioPositionedEventOp::ConfigAudioPositionedEventOp(
   int (**v2)(...); // rdx
 
   data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -503,7 +503,7 @@ void __cdecl data::ConfigAudioPositionedEventOp::ConfigAudioPositionedEventOp(
   float duration; // xmm0_4
 
   data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -536,7 +536,7 @@ void __cdecl data::ConfigAudioPositionedEventOp::~ConfigAudioPositionedEventOp(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEventOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEventOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -605,7 +605,7 @@ void __cdecl data::ConfigAudioPositionedEventOpFactory::ConfigAudioPositionedEve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEventOpFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEventOpFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioPositionedEventOpFactory = v2;
@@ -619,7 +619,7 @@ void __cdecl data::ConfigAudioPositionedEmitterOp::ConfigAudioPositionedEmitterO
   int (**v2)(...); // rdx
 
   data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -633,7 +633,7 @@ void __cdecl data::ConfigAudioPositionedEmitterOp::ConfigAudioPositionedEmitterO
   int (**v2)(...); // rdx
 
   data::ConfigAudioPositionedOp::ConfigAudioPositionedOp(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -646,7 +646,7 @@ void __cdecl data::ConfigAudioPositionedEmitterOp::~ConfigAudioPositionedEmitter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEmitterOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEmitterOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -724,7 +724,7 @@ void __cdecl data::ConfigAudioPositionedEmitterOpFactory::ConfigAudioPositionedE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPositionedEmitterOpFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPositionedEmitterOpFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioPositionedEmitterOpFactory = v2;
@@ -737,7 +737,7 @@ void __cdecl data::ConfigAudioEventOnEffectOp::ConfigAudioEventOnEffectOp(data::
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOnEffectOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOnEffectOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -752,7 +752,7 @@ void __cdecl data::ConfigAudioEventOnEffectOp::ConfigAudioEventOnEffectOp(
   int (**v2)(...); // rdx
 
   data::ConfigAudioOperation::ConfigAudioOperation(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOnEffectOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOnEffectOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAudioOperation = v2;
@@ -774,7 +774,7 @@ void __cdecl data::ConfigAudioEventOnEffectOp::~ConfigAudioEventOnEffectOp(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOnEffectOp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOnEffectOp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioOperation = v2;
@@ -843,7 +843,7 @@ void __cdecl data::ConfigAudioEventOnEffectOpFactory::ConfigAudioEventOnEffectOp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioEventOnEffectOpFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioEventOnEffectOpFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioEventOnEffectOpFactory = v2;

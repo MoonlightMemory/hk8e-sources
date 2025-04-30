@@ -6,7 +6,7 @@ void __cdecl boost::asio::detail::strand_service::~strand_service(boost::asio::d
   int (**v1)(...); // rdx
   std::size_t *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::strand_service + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::strand_service + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;

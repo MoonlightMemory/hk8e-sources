@@ -6,7 +6,7 @@ void __cdecl SensitiveWordExcelConfigMgr::SensitiveWordExcelConfigMgr(SensitiveW
   int (**v1)(...); // rdx
 
   data::SensitiveWordExcelConfigMgrBase::SensitiveWordExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'SensitiveWordExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for SensitiveWordExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SensitiveWordExcelConfigMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl SensitiveWordExcelConfigMgr::~SensitiveWordExcelConfigMgr(Sensitive
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SensitiveWordExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for SensitiveWordExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_SensitiveWordExcelConfigMgrBase = v1;

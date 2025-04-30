@@ -16,7 +16,7 @@ void __cdecl data::WidgetExcelConfig::WidgetExcelConfig(
   const data::WidgetExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WidgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetExcelConfig = v2;
@@ -52,7 +52,7 @@ void __cdecl data::WidgetExcelConfig::~WidgetExcelConfig(data::WidgetExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetExcelConfig = v2;
@@ -91,7 +91,7 @@ void __cdecl data::WidgetGeneralExcelConfig::WidgetGeneralExcelConfig(data::Widg
   __int64 v21; // rsi
   __int64 v22; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetGeneralExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetGeneralExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetGeneralExcelConfig = v2;
@@ -237,7 +237,7 @@ void __cdecl data::WidgetGeneralExcelConfig::WidgetGeneralExcelConfig(
   const data::WidgetGeneralExcelConfig *v63; // [rsp+0h] [rbp-20h]
 
   v63 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WidgetGeneralExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetGeneralExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetGeneralExcelConfig = v2;
@@ -416,7 +416,7 @@ void __cdecl data::WidgetGeneralExcelConfig::~WidgetGeneralExcelConfig(data::Wid
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetGeneralExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetGeneralExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetGeneralExcelConfig = v2;
@@ -440,7 +440,7 @@ void __cdecl data::WidgetActiveExcelConfig::WidgetActiveExcelConfig(data::Widget
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetActiveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetActiveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetActiveExcelConfig = v2;
@@ -477,7 +477,7 @@ void __cdecl data::WidgetActiveExcelConfig::WidgetActiveExcelConfig(
   const data::WidgetActiveExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WidgetActiveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetActiveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WidgetActiveExcelConfig = v2;
@@ -517,7 +517,7 @@ void __cdecl data::WidgetActiveExcelConfig::~WidgetActiveExcelConfig(data::Widge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WidgetActiveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WidgetActiveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WidgetActiveExcelConfig = v2;

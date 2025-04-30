@@ -160,7 +160,7 @@ void __cdecl proto_log::PlayerLogBodyExtRegister::PlayerLogBodyExtRegister(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRegister + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRegister + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -180,7 +180,7 @@ void __cdecl proto_log::PlayerLogBodyExtRegister::PlayerLogBodyExtRegister(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRegister + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRegister + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -223,7 +223,7 @@ void __cdecl proto_log::PlayerLogBodyExtRegister::~PlayerLogBodyExtRegister(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRegister + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRegister + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -773,7 +773,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogin::PlayerLogBodyExtLogin(proto_log::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -802,7 +802,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogin::PlayerLogBodyExtLogin(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogin + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -886,7 +886,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogin::~PlayerLogBodyExtLogin(proto_log:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1799,7 +1799,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogout::PlayerLogBodyExtLogout(proto_log
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogout + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1826,7 +1826,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogout::PlayerLogBodyExtLogout(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogout + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -1913,7 +1913,7 @@ void __cdecl proto_log::PlayerLogBodyExtLogout::~PlayerLogBodyExtLogout(proto_lo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLogout + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLogout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2709,7 +2709,7 @@ void __cdecl proto_log::PlayerLogBodyExtLevelUp::PlayerLogBodyExtLevelUp(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLevelUp + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLevelUp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2730,7 +2730,7 @@ void __cdecl proto_log::PlayerLogBodyExtLevelUp::PlayerLogBodyExtLevelUp(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLevelUp + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLevelUp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2774,7 +2774,7 @@ void __cdecl proto_log::PlayerLogBodyExtLevelUp::~PlayerLogBodyExtLevelUp(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtLevelUp + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtLevelUp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3379,7 +3379,7 @@ void __cdecl proto_log::PlayerLogBodyExtGadget::PlayerLogBodyExtGadget(proto_log
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtGadget + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3399,7 +3399,7 @@ void __cdecl proto_log::PlayerLogBodyExtGadget::PlayerLogBodyExtGadget(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtGadget + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -3443,7 +3443,7 @@ void __cdecl proto_log::PlayerLogBodyExtGadget::~PlayerLogBodyExtGadget(proto_lo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtGadget + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtGadget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4206,7 +4206,7 @@ void __cdecl proto_log::PlayerLogBodyExtMissionType::PlayerLogBodyExtMissionType
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtMissionType + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtMissionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4227,7 +4227,7 @@ void __cdecl proto_log::PlayerLogBodyExtMissionType::PlayerLogBodyExtMissionType
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtMissionType + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtMissionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4288,7 +4288,7 @@ void __cdecl proto_log::PlayerLogBodyExtMissionType::~PlayerLogBodyExtMissionTyp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtMissionType + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtMissionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4886,7 +4886,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddMaterial::PlayerLogBodyExtAddMaterial
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddMaterial + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4914,7 +4914,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddMaterial::PlayerLogBodyExtAddMaterial
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddMaterial + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4994,7 +4994,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddMaterial::~PlayerLogBodyExtAddMateria
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddMaterial + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddMaterial + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5791,7 +5791,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddCoin::PlayerLogBodyExtAddCoin(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddCoin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddCoin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5811,7 +5811,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddCoin::PlayerLogBodyExtAddCoin(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddCoin + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddCoin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -5856,7 +5856,7 @@ void __cdecl proto_log::PlayerLogBodyExtAddCoin::~PlayerLogBodyExtAddCoin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtAddCoin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtAddCoin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6620,7 +6620,7 @@ void __cdecl proto_log::PlayerLogBodyExtRecharge::PlayerLogBodyExtRecharge(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRecharge + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRecharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6667,7 +6667,7 @@ void __cdecl proto_log::PlayerLogBodyExtRecharge::PlayerLogBodyExtRecharge(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRecharge + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRecharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -6833,7 +6833,7 @@ void __cdecl proto_log::PlayerLogBodyExtRecharge::~PlayerLogBodyExtRecharge(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogBodyExtRecharge + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogBodyExtRecharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

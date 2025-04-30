@@ -423,7 +423,7 @@ LABEL_117:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(M_ptr + 4), (const std::string *)(v5 - 944));
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       v47 = (char *)*((_QWORD *)v5 - 118);
       if ( v47 != v5 - 928 )
         operator delete(v47);
@@ -432,7 +432,7 @@ LABEL_117:
         v47 = (char *)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(v47);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }

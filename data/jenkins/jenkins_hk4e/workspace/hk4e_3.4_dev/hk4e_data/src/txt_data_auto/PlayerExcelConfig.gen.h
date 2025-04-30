@@ -22,7 +22,7 @@ void __cdecl data::PlayerLevelExcelConfig::PlayerLevelExcelConfig(
   const data::PlayerLevelExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PlayerLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerLevelExcelConfig = v2;
@@ -105,7 +105,7 @@ void __cdecl data::PlayerLevelExcelConfig::~PlayerLevelExcelConfig(data::PlayerL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerLevelExcelConfig = v2;
@@ -137,7 +137,7 @@ void __cdecl data::PlayerLevelLockExcelConfig::PlayerLevelLockExcelConfig(
   const data::PlayerLevelLockExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PlayerLevelLockExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerLevelLockExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerLevelLockExcelConfig = v2;
@@ -205,7 +205,7 @@ void __cdecl data::PlayerLevelLockExcelConfig::~PlayerLevelLockExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerLevelLockExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerLevelLockExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerLevelLockExcelConfig = v2;

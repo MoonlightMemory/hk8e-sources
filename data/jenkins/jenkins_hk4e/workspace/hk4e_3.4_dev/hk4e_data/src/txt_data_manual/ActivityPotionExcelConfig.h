@@ -6,7 +6,7 @@ void __cdecl ActivityPotionExcelConfigMgr::ActivityPotionExcelConfigMgr(Activity
   int (**v1)(...); // rdx
 
   data::ActivityPotionExcelConfigMgrBase::ActivityPotionExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityPotionExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityPotionExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityPotionExcelConfigMgrBase = v1;
@@ -19,7 +19,7 @@ void __cdecl ActivityPotionExcelConfigMgr::~ActivityPotionExcelConfigMgr(Activit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityPotionExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityPotionExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityPotionExcelConfigMgrBase = v1;

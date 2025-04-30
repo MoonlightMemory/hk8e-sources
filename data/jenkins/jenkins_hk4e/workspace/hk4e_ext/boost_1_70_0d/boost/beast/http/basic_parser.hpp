@@ -18,7 +18,7 @@ void __cdecl boost::beast::http::basic_parser<false>::basic_parser(boost::beast:
   int (**v1)(...); // rdx
   uint64_t v2; // rax
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::http::basic_parser<false> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::http::basic_parser<false> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_basic_parser = v1;
@@ -71,7 +71,7 @@ void __cdecl boost::beast::http::basic_parser<true>::basic_parser(boost::beast::
   int (**v1)(...); // rdx
   uint64_t v2; // rax
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::http::basic_parser<true> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::http::basic_parser<true> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_basic_parser = v1;
@@ -124,7 +124,7 @@ void __cdecl boost::beast::http::basic_parser<false>::~basic_parser(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::http::basic_parser<false> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::http::basic_parser<false> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_basic_parser = v1;
@@ -151,7 +151,7 @@ void __cdecl boost::beast::http::basic_parser<true>::~basic_parser(boost::beast:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::beast::http::basic_parser<true> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::beast::http::basic_parser<true> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_basic_parser = v1;

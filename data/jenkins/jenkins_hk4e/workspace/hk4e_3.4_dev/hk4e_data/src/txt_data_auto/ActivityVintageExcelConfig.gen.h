@@ -12,7 +12,7 @@ void __cdecl data::ActivityVintageDataExcelConfig::ActivityVintageDataExcelConfi
   __int64 v6; // rsi
   __int64 v7; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageDataExcelConfig = v2;
@@ -111,7 +111,7 @@ void __cdecl data::ActivityVintageDataExcelConfig::ActivityVintageDataExcelConfi
   const data::ActivityVintageDataExcelConfig *v28; // [rsp+0h] [rbp-10h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageDataExcelConfig = v2;
@@ -245,7 +245,7 @@ void __cdecl data::ActivityVintageDataExcelConfig::~ActivityVintageDataExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageDataExcelConfig = v2;
@@ -279,7 +279,7 @@ void __cdecl data::ActivityVintageQuestDataExcelConfig::ActivityVintageQuestData
   const data::ActivityVintageQuestDataExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageQuestDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageQuestDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageQuestDataExcelConfig = v2;
@@ -346,7 +346,7 @@ void __cdecl data::ActivityVintageQuestDataExcelConfig::~ActivityVintageQuestDat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageQuestDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageQuestDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageQuestDataExcelConfig = v2;
@@ -368,7 +368,7 @@ void __cdecl data::ActivityVintagePresentExcelConfig::ActivityVintagePresentExce
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintagePresentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintagePresentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintagePresentExcelConfig = v2;
@@ -425,7 +425,7 @@ void __cdecl data::ActivityVintagePlayTypeExcelConfig::ActivityVintagePlayTypeEx
   const data::ActivityVintagePlayTypeExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintagePlayTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintagePlayTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintagePlayTypeExcelConfig = v2;
@@ -492,7 +492,7 @@ void __cdecl data::ActivityVintagePlayTypeExcelConfig::~ActivityVintagePlayTypeE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintagePlayTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintagePlayTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintagePlayTypeExcelConfig = v2;
@@ -516,7 +516,7 @@ void __cdecl data::ActivityVintageHuntingExcelConfig::ActivityVintageHuntingExce
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageHuntingExcelConfig = v2;
@@ -606,7 +606,7 @@ void __cdecl data::ActivityVintageHuntingExcelConfig::ActivityVintageHuntingExce
   const data::ActivityVintageHuntingExcelConfig *v23; // [rsp+0h] [rbp-20h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageHuntingExcelConfig = v2;
@@ -739,7 +739,7 @@ void __cdecl data::ActivityVintageHuntingExcelConfig::~ActivityVintageHuntingExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageHuntingExcelConfig = v2;
@@ -756,7 +756,7 @@ void __cdecl data::ActivityVintageHuntingMonsterExcelConfig::ActivityVintageHunt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageHuntingMonsterExcelConfig = v2;
@@ -780,7 +780,7 @@ void __cdecl data::ActivityVintageHuntingMonsterExcelConfig::ActivityVintageHunt
   const data::ActivityVintageHuntingMonsterExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageHuntingMonsterExcelConfig = v2;
@@ -807,7 +807,7 @@ void __cdecl data::ActivityVintageHuntingMonsterExcelConfig::~ActivityVintageHun
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageHuntingMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageHuntingMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageHuntingMonsterExcelConfig = v2;
@@ -844,7 +844,7 @@ void __cdecl data::ActivityVintagePresentExcelConfig::ActivityVintagePresentExce
   const data::ActivityVintagePresentExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintagePresentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintagePresentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintagePresentExcelConfig = v2;
@@ -934,7 +934,7 @@ void __cdecl data::ActivityVintagePresentExcelConfig::~ActivityVintagePresentExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintagePresentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintagePresentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintagePresentExcelConfig = v2;
@@ -948,7 +948,7 @@ void __cdecl data::ActivityVintageDecoExcelConfig::ActivityVintageDecoExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDecoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDecoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageDecoExcelConfig = v2;
@@ -974,7 +974,7 @@ void __cdecl data::ActivityVintageDecoExcelConfig::ActivityVintageDecoExcelConfi
   const data::ActivityVintageDecoExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDecoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDecoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageDecoExcelConfig = v2;
@@ -1011,7 +1011,7 @@ void __cdecl data::ActivityVintageDecoExcelConfig::~ActivityVintageDecoExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageDecoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageDecoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageDecoExcelConfig = v2;
@@ -1029,7 +1029,7 @@ void __cdecl data::ActivityVintageCampChallengeExcelConfig::ActivityVintageCampC
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageCampChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageCampChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageCampChallengeExcelConfig = v2;
@@ -1098,7 +1098,7 @@ void __cdecl data::ActivityVintageCampChallengeExcelConfig::ActivityVintageCampC
   const data::ActivityVintageCampChallengeExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageCampChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageCampChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityVintageCampChallengeExcelConfig = v2;
@@ -1201,7 +1201,7 @@ void __cdecl data::ActivityVintageCampChallengeExcelConfig::~ActivityVintageCamp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityVintageCampChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityVintageCampChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityVintageCampChallengeExcelConfig = v2;

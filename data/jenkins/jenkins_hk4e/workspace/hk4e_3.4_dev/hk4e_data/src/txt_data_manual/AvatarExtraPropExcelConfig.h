@@ -6,7 +6,7 @@ void __cdecl AvatarExtraPropExcelConfigMgr::AvatarExtraPropExcelConfigMgr(Avatar
   int (**v1)(...); // rdx
 
   data::AvatarExtraPropExcelConfigMgrBase::AvatarExtraPropExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'AvatarExtraPropExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarExtraPropExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AvatarExtraPropExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl AvatarExtraPropExcelConfigMgr::~AvatarExtraPropExcelConfigMgr(Avata
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarExtraPropExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarExtraPropExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_AvatarExtraPropExcelConfigMgrBase = v1;

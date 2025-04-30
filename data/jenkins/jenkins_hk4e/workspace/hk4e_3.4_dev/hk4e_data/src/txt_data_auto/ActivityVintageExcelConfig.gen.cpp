@@ -5743,7 +5743,7 @@ int32_t __cdecl data::ActivityVintageExcelConfigMgrBase::loadActivityVintageQues
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ActivityVintageQuestDataExcelConfig + 2;
+        v15 = &`vtable for data::ActivityVintageQuestDataExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -6098,7 +6098,7 @@ int32_t __cdecl data::ActivityVintageExcelConfigMgrBase::loadActivityVintagePlay
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ActivityVintagePlayTypeExcelConfig + 2;
+        v15 = &`vtable for data::ActivityVintagePlayTypeExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;

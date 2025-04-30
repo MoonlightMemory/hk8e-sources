@@ -9,7 +9,7 @@ void __cdecl data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(data::ConfigJudgeNod
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigJudgeNodeBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigJudgeNodeBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -45,7 +45,7 @@ void __cdecl data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(
   std::enable_shared_from_this<data::ConfigJudgeNodeBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigJudgeNodeBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigJudgeNodeBase = v3;
@@ -88,7 +88,7 @@ void __cdecl data::ConfigJudgeNodeBase::~ConfigJudgeNodeBase(data::ConfigJudgeNo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -188,7 +188,7 @@ void __cdecl data::ConfigJudgeGroupEntityInView::ConfigJudgeGroupEntityInView(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityInView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityInView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -203,7 +203,7 @@ void __cdecl data::ConfigJudgeGroupEntityInView::ConfigJudgeGroupEntityInView(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityInView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityInView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -217,7 +217,7 @@ void __cdecl data::ConfigJudgeGroupEntityInView::~ConfigJudgeGroupEntityInView(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityInView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityInView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -295,7 +295,7 @@ void __cdecl data::ConfigJudgeGroupEntityInViewFactory::ConfigJudgeGroupEntityIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityInViewFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityInViewFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeGroupEntityInViewFactory = v2;
@@ -308,7 +308,7 @@ void __cdecl data::ConfigJudgeCurrentTime::ConfigJudgeCurrentTime(data::ConfigJu
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCurrentTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCurrentTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -336,7 +336,7 @@ void __cdecl data::ConfigJudgeCurrentTime::ConfigJudgeCurrentTime(
   float end_time; // xmm0_4
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCurrentTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCurrentTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -372,7 +372,7 @@ void __cdecl data::ConfigJudgeCurrentTime::~ConfigJudgeCurrentTime(data::ConfigJ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCurrentTime + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCurrentTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -447,7 +447,7 @@ void __cdecl data::ConfigJudgeCurrentTimeFactory::ConfigJudgeCurrentTimeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCurrentTimeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCurrentTimeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeCurrentTimeFactory = v2;
@@ -461,7 +461,7 @@ void __cdecl data::ConfigJudgeMoonOrSunInCamera::ConfigJudgeMoonOrSunInCamera(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeMoonOrSunInCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeMoonOrSunInCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -475,7 +475,7 @@ void __cdecl data::ConfigJudgeMoonOrSunInCamera::ConfigJudgeMoonOrSunInCamera(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeMoonOrSunInCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeMoonOrSunInCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -496,7 +496,7 @@ void __cdecl data::ConfigJudgeMoonOrSunInCamera::~ConfigJudgeMoonOrSunInCamera(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeMoonOrSunInCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeMoonOrSunInCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -565,7 +565,7 @@ void __cdecl data::ConfigJudgeMoonOrSunInCameraFactory::ConfigJudgeMoonOrSunInCa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeMoonOrSunInCameraFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeMoonOrSunInCameraFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeMoonOrSunInCameraFactory = v2;
@@ -690,7 +690,7 @@ void __cdecl data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInV
   __int64 v8; // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeEntityInViewByEntityConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeEntityInViewByEntityConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -766,7 +766,7 @@ void __cdecl data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInV
   __int64 v21; // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeEntityInViewByEntityConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeEntityInViewByEntityConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -874,7 +874,7 @@ void __cdecl data::ConfigJudgeEntityInViewByEntityConfigID::~ConfigJudgeEntityIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeEntityInViewByEntityConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeEntityInViewByEntityConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -949,7 +949,7 @@ void __cdecl data::ConfigJudgeCrowdInViewByCrowdTypeID::ConfigJudgeCrowdInViewBy
   __int64 v5; // rsi
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1018,7 +1018,7 @@ void __cdecl data::ConfigJudgeCrowdInViewByCrowdTypeID::ConfigJudgeCrowdInViewBy
   char v14; // al
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1124,7 +1124,7 @@ void __cdecl data::ConfigJudgeCrowdInViewByCrowdTypeID::~ConfigJudgeCrowdInViewB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCrowdInViewByCrowdTypeID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1195,7 +1195,7 @@ void __cdecl data::ConfigJudgeCrowdInViewByCrowdTypeIDFactory::ConfigJudgeCrowdI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeCrowdInViewByCrowdTypeIDFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeCrowdInViewByCrowdTypeIDFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeCrowdInViewByCrowdTypeIDFactory = v2;
@@ -1209,7 +1209,7 @@ void __cdecl data::ConfigJudgeAvatarElementType::ConfigJudgeAvatarElementType(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1231,7 +1231,7 @@ void __cdecl data::ConfigJudgeAvatarElementType::ConfigJudgeAvatarElementType(
   char v4; // al
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1257,7 +1257,7 @@ void __cdecl data::ConfigJudgeAvatarElementType::~ConfigJudgeAvatarElementType(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarElementType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarElementType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1334,7 +1334,7 @@ void __cdecl data::ConfigJudgeAvatarElementTypeFactory::ConfigJudgeAvatarElement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarElementTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarElementTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarElementTypeFactory = v2;
@@ -1348,7 +1348,7 @@ void __cdecl data::ConfigJudgeAvatarWeaponType::ConfigJudgeAvatarWeaponType(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1363,7 +1363,7 @@ void __cdecl data::ConfigJudgeAvatarWeaponType::ConfigJudgeAvatarWeaponType(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1385,7 +1385,7 @@ void __cdecl data::ConfigJudgeAvatarWeaponType::~ConfigJudgeAvatarWeaponType(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarWeaponType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarWeaponType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1454,7 +1454,7 @@ void __cdecl data::ConfigJudgeAvatarWeaponTypeFactory::ConfigJudgeAvatarWeaponTy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarWeaponTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarWeaponTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarWeaponTypeFactory = v2;
@@ -1468,7 +1468,7 @@ void __cdecl data::ConfigJudgeAvatarFaceCamera::ConfigJudgeAvatarFaceCamera(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1490,7 +1490,7 @@ void __cdecl data::ConfigJudgeAvatarFaceCamera::ConfigJudgeAvatarFaceCamera(
   char v4; // al
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1524,7 +1524,7 @@ void __cdecl data::ConfigJudgeAvatarFaceCamera::~ConfigJudgeAvatarFaceCamera(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1592,7 +1592,7 @@ void __cdecl data::ConfigJudgeAvatarFaceCameraFactory::ConfigJudgeAvatarFaceCame
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceCameraFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceCameraFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarFaceCameraFactory = v2;
@@ -1606,7 +1606,7 @@ void __cdecl data::ConfigJudgeAvatarFaceTarget2D::ConfigJudgeAvatarFaceTarget2D(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceTarget2D + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceTarget2D + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1623,7 +1623,7 @@ void __cdecl data::ConfigJudgeAvatarFaceTarget2D::ConfigJudgeAvatarFaceTarget2D(
   __int64 v3; // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceTarget2D + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceTarget2D + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1652,7 +1652,7 @@ void __cdecl data::ConfigJudgeAvatarFaceTarget2D::~ConfigJudgeAvatarFaceTarget2D
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceTarget2D + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceTarget2D + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1722,7 +1722,7 @@ void __cdecl data::ConfigJudgeAvatarFaceTarget2DFactory::ConfigJudgeAvatarFaceTa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarFaceTarget2DFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarFaceTarget2DFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarFaceTarget2DFactory = v2;
@@ -1736,7 +1736,7 @@ void __cdecl data::ConfigJudgeAvatarAnimatorState::ConfigJudgeAvatarAnimatorStat
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarAnimatorState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarAnimatorState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1751,7 +1751,7 @@ void __cdecl data::ConfigJudgeAvatarAnimatorState::ConfigJudgeAvatarAnimatorStat
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarAnimatorState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarAnimatorState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1765,7 +1765,7 @@ void __cdecl data::ConfigJudgeAvatarAnimatorState::~ConfigJudgeAvatarAnimatorSta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarAnimatorState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarAnimatorState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1844,7 +1844,7 @@ void __cdecl data::ConfigJudgeAvatarAnimatorStateFactory::ConfigJudgeAvatarAnima
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarAnimatorStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarAnimatorStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarAnimatorStateFactory = v2;
@@ -1858,7 +1858,7 @@ void __cdecl data::ConfigJudgeGroupEntityDirectionHasBlock::ConfigJudgeGroupEnti
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1880,7 +1880,7 @@ void __cdecl data::ConfigJudgeGroupEntityDirectionHasBlock::ConfigJudgeGroupEnti
   float detect_distance; // xmm0_4
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1914,7 +1914,7 @@ void __cdecl data::ConfigJudgeGroupEntityDirectionHasBlock::~ConfigJudgeGroupEnt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityDirectionHasBlock + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -1985,7 +1985,7 @@ void __cdecl data::ConfigJudgeGroupEntityDirectionHasBlockFactory::ConfigJudgeGr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGroupEntityDirectionHasBlockFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGroupEntityDirectionHasBlockFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeGroupEntityDirectionHasBlockFactory = v2;
@@ -1998,7 +1998,7 @@ void __cdecl data::ConfigJudgeAvatarConfigID::ConfigJudgeAvatarConfigID(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2013,7 +2013,7 @@ void __cdecl data::ConfigJudgeAvatarConfigID::ConfigJudgeAvatarConfigID(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2026,7 +2026,7 @@ void __cdecl data::ConfigJudgeAvatarConfigID::~ConfigJudgeAvatarConfigID(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarConfigID + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarConfigID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2102,7 +2102,7 @@ void __cdecl data::ConfigJudgeAvatarConfigIDFactory::ConfigJudgeAvatarConfigIDFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAvatarConfigIDFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAvatarConfigIDFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAvatarConfigIDFactory = v2;
@@ -2115,7 +2115,7 @@ void __cdecl data::ConfigJudgeGrassState::ConfigJudgeGrassState(data::ConfigJudg
   int (**v2)(...); // rdx
 
   data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInViewByEntityConfigID(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGrassState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGrassState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2137,7 +2137,7 @@ void __cdecl data::ConfigJudgeGrassState::ConfigJudgeGrassState(
   char v4; // al
 
   data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInViewByEntityConfigID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGrassState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGrassState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2162,7 +2162,7 @@ void __cdecl data::ConfigJudgeGrassState::~ConfigJudgeGrassState(data::ConfigJud
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGrassState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGrassState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2237,7 +2237,7 @@ void __cdecl data::ConfigJudgeGrassStateFactory::ConfigJudgeGrassStateFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeGrassStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeGrassStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeGrassStateFactory = v2;
@@ -2250,7 +2250,7 @@ void __cdecl data::ConfigJudgeAnimState::ConfigJudgeAnimState(data::ConfigJudgeA
   int (**v2)(...); // rdx
 
   data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInViewByEntityConfigID(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAnimState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAnimState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2265,7 +2265,7 @@ void __cdecl data::ConfigJudgeAnimState::ConfigJudgeAnimState(
   int (**v2)(...); // rdx
 
   data::ConfigJudgeEntityInViewByEntityConfigID::ConfigJudgeEntityInViewByEntityConfigID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAnimState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAnimState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2278,7 +2278,7 @@ void __cdecl data::ConfigJudgeAnimState::~ConfigJudgeAnimState(data::ConfigJudge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAnimState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAnimState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2354,7 +2354,7 @@ void __cdecl data::ConfigJudgeAnimStateFactory::ConfigJudgeAnimStateFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeAnimStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeAnimStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeAnimStateFactory = v2;
@@ -2368,7 +2368,7 @@ void __cdecl data::ConfigJudgeActivityPhotoAvatarInCameraView::ConfigJudgeActivi
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2382,7 +2382,7 @@ void __cdecl data::ConfigJudgeActivityPhotoAvatarInCameraView::ConfigJudgeActivi
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2403,7 +2403,7 @@ void __cdecl data::ConfigJudgeActivityPhotoAvatarInCameraView::~ConfigJudgeActiv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeActivityPhotoAvatarInCameraView + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2473,7 +2473,7 @@ void __cdecl data::ConfigJudgeActivityPhotoAvatarInCameraViewFactory::ConfigJudg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeActivityPhotoAvatarInCameraViewFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeActivityPhotoAvatarInCameraViewFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeActivityPhotoAvatarInCameraViewFactory = v2;
@@ -2486,7 +2486,7 @@ void __cdecl data::ConfigJudgeNodeContainer::ConfigJudgeNodeContainer(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2510,7 +2510,7 @@ void __cdecl data::ConfigJudgeNodeContainer::ConfigJudgeNodeContainer(
   char v5; // al
 
   data::ConfigJudgeNodeBase::ConfigJudgeNodeBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2544,7 +2544,7 @@ void __cdecl data::ConfigJudgeNodeContainer::~ConfigJudgeNodeContainer(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2614,7 +2614,7 @@ void __cdecl data::ConfigJudgeNodeContainerWithGroupEntityInfo::ConfigJudgeNodeC
   int (**v2)(...); // rdx
 
   data::ConfigJudgeNodeContainer::ConfigJudgeNodeContainer((data::ConfigJudgeNodeContainer *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2632,7 +2632,7 @@ void __cdecl data::ConfigJudgeNodeContainerWithGroupEntityInfo::ConfigJudgeNodeC
   data::ConfigJudgeNodeContainer::ConfigJudgeNodeContainer(
     (data::ConfigJudgeNodeContainer *const)this,
     (const data::ConfigJudgeNodeContainer *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2672,7 +2672,7 @@ void __cdecl data::ConfigJudgeNodeContainerWithGroupEntityInfo::~ConfigJudgeNode
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainerWithGroupEntityInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeBase = v2;
@@ -2742,7 +2742,7 @@ void __cdecl data::ConfigJudgeNodeContainerWithGroupEntityInfoFactory::ConfigJud
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigJudgeNodeContainerWithGroupEntityInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigJudgeNodeContainerWithGroupEntityInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigJudgeNodeContainerWithGroupEntityInfoFactory = v2;

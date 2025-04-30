@@ -55,7 +55,7 @@ void __cdecl boost::asio::detail::strand_service::strand_service(
   boost::asio::detail::scoped_ptr<boost::asio::detail::strand_service::strand_impl> *implementations; // r12
 
   boost::asio::detail::service_base<boost::asio::detail::strand_service>::service_base(this, io_context);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::strand_service + 2);
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::strand_service + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v2;

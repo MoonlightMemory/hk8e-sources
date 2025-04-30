@@ -9,7 +9,7 @@ void __cdecl data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(data::ConfigRe
   __int64 v4; // rsi
 
   std::enable_shared_from_this<data::ConfigRegionalPlayBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigRegionalPlayBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -86,7 +86,7 @@ void __cdecl data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(
   std::enable_shared_from_this<data::ConfigRegionalPlayBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigRegionalPlayBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigRegionalPlayBase = v3;
@@ -197,7 +197,7 @@ void __cdecl data::ConfigRegionalPlayBase::~ConfigRegionalPlayBase(data::ConfigR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -269,7 +269,7 @@ void __cdecl data::ConfigRegionalPlayMichiaeMatsuri::ConfigRegionalPlayMichiaeMa
   int (**v2)(...); // rdx
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayMichiaeMatsuri + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayMichiaeMatsuri + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -295,7 +295,7 @@ void __cdecl data::ConfigRegionalPlayMichiaeMatsuri::ConfigRegionalPlayMichiaeMa
   char v5; // al
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayMichiaeMatsuri + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayMichiaeMatsuri + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -333,7 +333,7 @@ void __cdecl data::ConfigRegionalPlayMichiaeMatsuri::~ConfigRegionalPlayMichiaeM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayMichiaeMatsuri + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayMichiaeMatsuri + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -406,7 +406,7 @@ void __cdecl data::ConfigRegionalPlayMichiaeMatsuriFactory::ConfigRegionalPlayMi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayMichiaeMatsuriFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayMichiaeMatsuriFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayMichiaeMatsuriFactory = v2;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigRegionalPlayLightStone::ConfigRegionalPlayLightStone(
   int (**v2)(...); // rdx
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayLightStone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayLightStone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -436,7 +436,7 @@ void __cdecl data::ConfigRegionalPlayLightStone::ConfigRegionalPlayLightStone(
   int (**v2)(...); // rdx
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayLightStone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayLightStone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -451,7 +451,7 @@ void __cdecl data::ConfigRegionalPlayLightStone::~ConfigRegionalPlayLightStone(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayLightStone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayLightStone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -530,7 +530,7 @@ void __cdecl data::ConfigRegionalPlayLightStoneFactory::ConfigRegionalPlayLightS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayLightStoneFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayLightStoneFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayLightStoneFactory = v2;
@@ -544,7 +544,7 @@ void __cdecl data::ConfigRegionalPlayDeathZone::ConfigRegionalPlayDeathZone(
   int (**v2)(...); // rdx
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayDeathZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayDeathZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -560,7 +560,7 @@ void __cdecl data::ConfigRegionalPlayDeathZone::ConfigRegionalPlayDeathZone(
   int (**v2)(...); // rdx
 
   data::ConfigRegionalPlayBase::ConfigRegionalPlayBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayDeathZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayDeathZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -575,7 +575,7 @@ void __cdecl data::ConfigRegionalPlayDeathZone::~ConfigRegionalPlayDeathZone(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayDeathZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayDeathZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayBase = v2;
@@ -653,7 +653,7 @@ void __cdecl data::ConfigRegionalPlayDeathZoneFactory::ConfigRegionalPlayDeathZo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRegionalPlayDeathZoneFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRegionalPlayDeathZoneFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRegionalPlayDeathZoneFactory = v2;

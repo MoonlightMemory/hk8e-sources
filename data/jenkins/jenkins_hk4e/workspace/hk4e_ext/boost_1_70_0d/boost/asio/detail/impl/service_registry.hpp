@@ -559,7 +559,7 @@ LABEL_18:
     __asan_report_store8();
     goto LABEL_19;
   }
-  *(_QWORD *)v2 = &`vtable for'boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
+  *(_QWORD *)v2 = &`vtable for boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
                 + 2;
   v1 = (boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock> > > *)(v2 + 40);
   if ( *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) )
@@ -575,7 +575,7 @@ LABEL_20:
     __asan_report_store8();
     goto LABEL_21;
   }
-  *(_QWORD *)(v2 + 40) = &`vtable for'boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
+  *(_QWORD *)(v2 + 40) = &`vtable for boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
                        + 2;
   if ( *(_BYTE *)(((v2 + 56) >> 3) + 0x7FFF8000) )
   {
@@ -635,7 +635,7 @@ LABEL_31:
     v6 = (struct _Unwind_Exception *)__asan_report_load8(v2 + 88);
     if ( *(_BYTE *)(((v2 + 40) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(v2 + 40) = &`vtable for'boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
+    *(_QWORD *)(v2 + 40) = &`vtable for boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
                          + 2;
     if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) )
       __asan_report_load8(v2 + 64);
@@ -716,7 +716,7 @@ LABEL_15:
     __asan_report_store8();
     goto LABEL_16;
   }
-  v5->_vptr_service = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>
+  v5->_vptr_service = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>
                                     + 2);
   v1 = (unsigned __int64)&v5[1];
   if ( !*(_BYTE *)(((unsigned __int64)owner >> 3) + 0x7FFF8000) )
@@ -779,7 +779,7 @@ LABEL_32:
   _InterlockedAdd64((volatile signed __int64 *)v10, 1uLL);
   if ( *(_BYTE *)(((unsigned __int64)v5 >> 3) + 0x7FFF8000) )
     goto LABEL_32;
-  v5->_vptr_service = (int (**)(...))(&`vtable for'boost::asio::detail::resolver_service<boost::asio::ip::tcp> + 2);
+  v5->_vptr_service = (int (**)(...))(&`vtable for boost::asio::detail::resolver_service<boost::asio::ip::tcp> + 2);
   if ( v14 == (char *)v3 )
   {
     *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0LL;

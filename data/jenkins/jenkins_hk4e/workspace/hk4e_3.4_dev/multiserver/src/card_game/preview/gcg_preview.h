@@ -15,7 +15,7 @@ void __cdecl GCGSkillPreviewHp::~GCGSkillPreviewHp(GCGSkillPreviewHp *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewHp + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewHp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -30,7 +30,7 @@ void __cdecl GCGSkillPreviewHp::GCGSkillPreviewHp(GCGSkillPreviewHp *const this,
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewHp + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewHp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -52,7 +52,7 @@ void __cdecl GCGSkillPreviewReaction::~GCGSkillPreviewReaction(GCGSkillPreviewRe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewReaction + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewReaction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -67,7 +67,7 @@ void __cdecl GCGSkillPreviewReaction::GCGSkillPreviewReaction(
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewReaction + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewReaction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -86,7 +86,7 @@ void __cdecl GCGSkillPreviewChangeOnstageCharacter::~GCGSkillPreviewChangeOnstag
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewChangeOnstageCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewChangeOnstageCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -111,7 +111,7 @@ void __cdecl GCGSkillPreviewChangeOnstageCharacter::GCGSkillPreviewChangeOnstage
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewChangeOnstageCharacter + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewChangeOnstageCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -129,7 +129,7 @@ void __cdecl GCGSkillPreviewAddCard::~GCGSkillPreviewAddCard(GCGSkillPreviewAddC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -144,7 +144,7 @@ void __cdecl GCGSkillPreviewAddCard::GCGSkillPreviewAddCard(
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCard + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -174,7 +174,7 @@ void __cdecl GCGSkillPreviewAddCardForRefresh::~GCGSkillPreviewAddCardForRefresh
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCardForRefresh + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCardForRefresh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -189,7 +189,7 @@ void __cdecl GCGSkillPreviewAddCardForRefresh::GCGSkillPreviewAddCardForRefresh(
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCardForRefresh + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCardForRefresh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -218,7 +218,7 @@ void __cdecl GCGSkillPreviewAddCardForFull::~GCGSkillPreviewAddCardForFull(GCGSk
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCardForFull + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCardForFull + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -233,7 +233,7 @@ void __cdecl GCGSkillPreviewAddCardForFull::GCGSkillPreviewAddCardForFull(
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewAddCardForFull + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewAddCardForFull + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -262,7 +262,7 @@ void __cdecl GCGSkillPreviewRmCard::~GCGSkillPreviewRmCard(GCGSkillPreviewRmCard
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewRmCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewRmCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -275,7 +275,7 @@ void __cdecl GCGSkillPreviewRmCard::GCGSkillPreviewRmCard(GCGSkillPreviewRmCard 
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewRmCard + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewRmCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;
@@ -333,7 +333,7 @@ void __cdecl GCGSkillPreviewTokenChange::~GCGSkillPreviewTokenChange(GCGSkillPre
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGSkillPreviewTokenChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGSkillPreviewTokenChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v1;
@@ -348,7 +348,7 @@ void __cdecl GCGSkillPreviewTokenChange::GCGSkillPreviewTokenChange(
   int (**v2)(...); // rdx
 
   GCGSkillPreviewBase::GCGSkillPreviewBase(this, info);
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewTokenChange + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewTokenChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;

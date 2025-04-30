@@ -7,7 +7,7 @@ void __cdecl ActivityFungusFighterExcelConfigMgr::ActivityFungusFighterExcelConf
   int (**v1)(...); // rdx
 
   data::ActivityFungusFighterExcelConfigMgrBase::ActivityFungusFighterExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityFungusFighterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityFungusFighterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityFungusFighterExcelConfigMgrBase = v1;
@@ -25,7 +25,7 @@ void __cdecl ActivityFungusFighterExcelConfigMgr::~ActivityFungusFighterExcelCon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityFungusFighterExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityFungusFighterExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityFungusFighterExcelConfigMgrBase = v1;

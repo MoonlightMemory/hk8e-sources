@@ -7,7 +7,7 @@ void __cdecl data::ActivityShopOverallExcelConfig::ActivityShopOverallExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopOverallExcelConfig = v2;
@@ -40,7 +40,7 @@ void __cdecl data::ActivityShopOverallExcelConfig::ActivityShopOverallExcelConfi
   const data::ActivityShopOverallExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityShopOverallExcelConfig = v2;
@@ -81,7 +81,7 @@ void __cdecl data::ActivityShopOverallExcelConfig::~ActivityShopOverallExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopOverallExcelConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::ActivityShopSheetCond::ActivityShopSheetCond(data::ActivitySh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopSheetCond = v2;
@@ -126,7 +126,7 @@ void __cdecl data::ActivityShopSheetCond::ActivityShopSheetCond(
   const data::ActivityShopSheetCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityShopSheetCond = v2;
@@ -152,7 +152,7 @@ void __cdecl data::ActivityShopSheetCond::~ActivityShopSheetCond(data::ActivityS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopSheetCond = v2;
@@ -175,7 +175,7 @@ void __cdecl data::ActivityShopSheetExcelConfig::ActivityShopSheetExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopSheetExcelConfig = v2;
@@ -217,7 +217,7 @@ void __cdecl data::ActivityShopSheetExcelConfig::ActivityShopSheetExcelConfig(
   const data::ActivityShopSheetExcelConfig *v12; // [rsp+0h] [rbp-10h]
 
   v12 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityShopSheetExcelConfig = v2;
@@ -268,7 +268,7 @@ void __cdecl data::ActivityShopSheetExcelConfig::~ActivityShopSheetExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityShopSheetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityShopSheetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityShopSheetExcelConfig = v2;

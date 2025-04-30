@@ -6,7 +6,7 @@ void __cdecl common::minet::KcpConnMgr<PlayerSession>::~KcpConnMgr(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::KcpConnMgr<PlayerSession> + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::KcpConnMgr<PlayerSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_KcpConnMgrBase = v1;
@@ -35,7 +35,7 @@ void __cdecl common::minet::KcpConnMgr<PlayerSession>::KcpConnMgr(
     this,
     (common::minet::KcpServerMgrBasePtr)__PAIR128__(v2, &kcp_server_ptr));
   std::shared_ptr<common::minet::KcpServerMgrBase>::~shared_ptr(&kcp_server_ptr);
-  v3 = (int (**)(...))(&`vtable for'common::minet::KcpConnMgr<PlayerSession> + 2);
+  v3 = (int (**)(...))(&`vtable for common::minet::KcpConnMgr<PlayerSession> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_KcpConnMgrBase = v3;

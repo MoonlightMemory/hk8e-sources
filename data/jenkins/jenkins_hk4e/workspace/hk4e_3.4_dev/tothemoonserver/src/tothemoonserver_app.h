@@ -7,7 +7,7 @@ void __cdecl TothemoonserverApp::TothemoonserverApp(TothemoonserverApp *const th
 
   AppBase::AppBase((AppBase *const)this);
   Singleton<TothemoonserverApp>::Singleton(this);
-  v1 = &`vtable for'TothemoonserverApp + 2;
+  v1 = &`vtable for TothemoonserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->gap0 = v1;
@@ -25,7 +25,7 @@ void __cdecl TothemoonserverApp::~TothemoonserverApp(TothemoonserverApp *const t
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'TothemoonserverApp + 2;
+  v1 = &`vtable for TothemoonserverApp + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->gap0 = v1;

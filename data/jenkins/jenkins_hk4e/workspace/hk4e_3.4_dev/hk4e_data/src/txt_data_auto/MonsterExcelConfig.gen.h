@@ -43,7 +43,7 @@ void __cdecl data::MonsterDrop::MonsterDrop(data::MonsterDrop *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDrop + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDrop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterDrop = v2;
@@ -71,7 +71,7 @@ void __cdecl data::MonsterDrop::MonsterDrop(data::MonsterDrop *const this, const
   const data::MonsterDrop *v6; // [rsp+0h] [rbp-10h]
 
   v6 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDrop + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDrop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterDrop = v2;
@@ -115,7 +115,7 @@ void __cdecl data::MonsterDrop::~MonsterDrop(data::MonsterDrop *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDrop + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDrop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterDrop = v2;
@@ -154,7 +154,7 @@ void __cdecl data::MonsterExcelConfig::MonsterExcelConfig(data::MonsterExcelConf
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::CreatureExcelConfig::CreatureExcelConfig((data::CreatureExcelConfig *const)this);
-  v5 = (int (**)(...))(&`vtable for'data::MonsterExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::MonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v5;
@@ -323,7 +323,7 @@ void __cdecl data::MonsterExcelConfig::MonsterExcelConfig(
   data::CreatureExcelConfig::CreatureExcelConfig(
     (data::CreatureExcelConfig *const)this,
     (const data::CreatureExcelConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::MonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -537,7 +537,7 @@ void __cdecl data::MonsterExcelConfig::~MonsterExcelConfig(data::MonsterExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -561,7 +561,7 @@ void __cdecl data::MonsterAffixExcelConfig::MonsterAffixExcelConfig(data::Monste
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterAffixExcelConfig = v2;
@@ -603,7 +603,7 @@ void __cdecl data::MonsterAffixExcelConfig::MonsterAffixExcelConfig(
   const data::MonsterAffixExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterAffixExcelConfig = v2;
@@ -660,7 +660,7 @@ void __cdecl data::MonsterAffixExcelConfig::~MonsterAffixExcelConfig(data::Monst
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterAffixExcelConfig = v2;
@@ -677,7 +677,7 @@ void __cdecl data::MonsterRelationshipExcelConfig::MonsterRelationshipExcelConfi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelationshipExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelationshipExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterRelationshipExcelConfig = v2;
@@ -727,7 +727,7 @@ void __cdecl data::MonsterRelationshipExcelConfig::MonsterRelationshipExcelConfi
   const data::MonsterRelationshipExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelationshipExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelationshipExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterRelationshipExcelConfig = v2;
@@ -794,7 +794,7 @@ void __cdecl data::MonsterRelationshipExcelConfig::~MonsterRelationshipExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelationshipExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelationshipExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterRelationshipExcelConfig = v2;
@@ -826,7 +826,7 @@ void __cdecl data::MonsterDescribeExcelConfig::MonsterDescribeExcelConfig(
   const data::MonsterDescribeExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDescribeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDescribeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterDescribeExcelConfig = v2;
@@ -879,7 +879,7 @@ void __cdecl data::MonsterDescribeExcelConfig::~MonsterDescribeExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDescribeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDescribeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterDescribeExcelConfig = v2;
@@ -902,7 +902,7 @@ void __cdecl data::AnimalDescribeExcelConfig::AnimalDescribeExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::AnimalDescribeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AnimalDescribeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AnimalDescribeExcelConfig = v2;
@@ -927,7 +927,7 @@ void __cdecl data::AnimalDescribeExcelConfig::~AnimalDescribeExcelConfig(data::A
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AnimalDescribeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AnimalDescribeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AnimalDescribeExcelConfig = v2;
@@ -949,7 +949,7 @@ void __cdecl data::MonsterTitleExcelConfig::MonsterTitleExcelConfig(
   uint32_t title_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterTitleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterTitleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterTitleExcelConfig = v2;
@@ -981,7 +981,7 @@ void __cdecl data::MonsterTitleExcelConfig::~MonsterTitleExcelConfig(data::Monst
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterTitleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterTitleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterTitleExcelConfig = v2;
@@ -1003,7 +1003,7 @@ void __cdecl data::MonsterSpecialNameExcelConfig::MonsterSpecialNameExcelConfig(
   const data::MonsterSpecialNameExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterSpecialNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterSpecialNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterSpecialNameExcelConfig = v2;
@@ -1051,7 +1051,7 @@ void __cdecl data::MonsterSpecialNameExcelConfig::~MonsterSpecialNameExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterSpecialNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterSpecialNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterSpecialNameExcelConfig = v2;
@@ -1072,7 +1072,7 @@ void __cdecl data::CaptureTagConfig::CaptureTagConfig(data::CaptureTagConfig *co
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CaptureTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CaptureTagConfig = v2;
@@ -1113,7 +1113,7 @@ void __cdecl data::CaptureTagConfig::CaptureTagConfig(
   const data::CaptureTagConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CaptureTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CaptureTagConfig = v2;
@@ -1165,7 +1165,7 @@ void __cdecl data::CaptureTagConfig::~CaptureTagConfig(data::CaptureTagConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CaptureTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CaptureTagConfig = v2;
@@ -1184,7 +1184,7 @@ void __cdecl data::CaptureExcelConfig::CaptureExcelConfig(data::CaptureExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CaptureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CaptureExcelConfig = v2;
@@ -1208,7 +1208,7 @@ void __cdecl data::CaptureExcelConfig::CaptureExcelConfig(
   const data::CaptureExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CaptureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CaptureExcelConfig = v2;
@@ -1234,7 +1234,7 @@ void __cdecl data::CaptureExcelConfig::~CaptureExcelConfig(data::CaptureExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CaptureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CaptureExcelConfig = v2;
@@ -1264,7 +1264,7 @@ void __cdecl data::CaptureTagsExcelConfig::CaptureTagsExcelConfig(
   const data::CaptureTagsExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CaptureTagsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureTagsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CaptureTagsExcelConfig = v2;
@@ -1323,7 +1323,7 @@ void __cdecl data::CaptureTagsExcelConfig::~CaptureTagsExcelConfig(data::Capture
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CaptureTagsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CaptureTagsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CaptureTagsExcelConfig = v2;
@@ -1335,7 +1335,7 @@ void __cdecl data::PolyMonsterDropConfig::PolyMonsterDropConfig(data::PolyMonste
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PolyMonsterDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PolyMonsterDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PolyMonsterDropConfig = v2;
@@ -1368,7 +1368,7 @@ void __cdecl data::PolyMonsterDropConfig::PolyMonsterDropConfig(
   data::ItemLimitType item_limit_type; // ecx
   char v8; // dl
 
-  v2 = (int (**)(...))(&`vtable for'data::PolyMonsterDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PolyMonsterDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PolyMonsterDropConfig = v2;
@@ -1417,7 +1417,7 @@ void __cdecl data::PolyMonsterDropConfig::~PolyMonsterDropConfig(data::PolyMonst
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PolyMonsterDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PolyMonsterDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PolyMonsterDropConfig = v2;
@@ -1432,7 +1432,7 @@ void __cdecl data::MonsterRelOverloadExcelConfig::MonsterRelOverloadExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelOverloadExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelOverloadExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterRelOverloadExcelConfig = v2;
@@ -1466,7 +1466,7 @@ void __cdecl data::MonsterRelOverloadExcelConfig::MonsterRelOverloadExcelConfig(
   const data::MonsterRelOverloadExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelOverloadExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelOverloadExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterRelOverloadExcelConfig = v2;
@@ -1510,7 +1510,7 @@ void __cdecl data::MonsterRelOverloadExcelConfig::~MonsterRelOverloadExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterRelOverloadExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterRelOverloadExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterRelOverloadExcelConfig = v2;

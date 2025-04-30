@@ -8,7 +8,7 @@ void __cdecl data::AudioSettingSlider::AudioSettingSlider(data::AudioSettingSlid
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::AudioSettingSlider>::enable_shared_from_this(&this->std::enable_shared_from_this<data::AudioSettingSlider>);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -54,7 +54,7 @@ void __cdecl data::AudioSettingSlider::AudioSettingSlider(
   std::enable_shared_from_this<data::AudioSettingSlider>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::AudioSettingSlider>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::AudioSettingSlider + 2);
+  v3 = (int (**)(...))(&`vtable for data::AudioSettingSlider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_AudioSettingSlider = v3;
@@ -108,7 +108,7 @@ void __cdecl data::AudioSettingSlider::~AudioSettingSlider(data::AudioSettingSli
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -186,7 +186,7 @@ void __cdecl data::AudioSettingSlider_Simple::AudioSettingSlider_Simple(data::Au
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_Simple + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_Simple + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -200,7 +200,7 @@ void __cdecl data::AudioSettingSlider_Simple::AudioSettingSlider_Simple(
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_Simple + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_Simple + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AudioSettingSlider = v2;
@@ -219,7 +219,7 @@ void __cdecl data::AudioSettingSlider_Simple::~AudioSettingSlider_Simple(data::A
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_Simple + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_Simple + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -287,7 +287,7 @@ void __cdecl data::AudioSettingSlider_SimpleFactory::AudioSettingSlider_SimpleFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_SimpleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_SimpleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider_SimpleFactory = v2;
@@ -301,7 +301,7 @@ void __cdecl data::AudioSettingSlider_PostEvent::AudioSettingSlider_PostEvent(
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -316,7 +316,7 @@ void __cdecl data::AudioSettingSlider_PostEvent::AudioSettingSlider_PostEvent(
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AudioSettingSlider = v2;
@@ -338,7 +338,7 @@ void __cdecl data::AudioSettingSlider_PostEvent::~AudioSettingSlider_PostEvent(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -408,7 +408,7 @@ void __cdecl data::AudioSettingSlider_PostEventFactory::AudioSettingSlider_PostE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostEventFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostEventFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider_PostEventFactory = v2;
@@ -422,7 +422,7 @@ void __cdecl data::AudioSettingSlider_PostVoice::AudioSettingSlider_PostVoice(
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostVoice + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostVoice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -437,7 +437,7 @@ void __cdecl data::AudioSettingSlider_PostVoice::AudioSettingSlider_PostVoice(
   int (**v2)(...); // rdx
 
   data::AudioSettingSlider::AudioSettingSlider(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostVoice + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostVoice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AudioSettingSlider = v2;
@@ -459,7 +459,7 @@ void __cdecl data::AudioSettingSlider_PostVoice::~AudioSettingSlider_PostVoice(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostVoice + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostVoice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider = v2;
@@ -529,7 +529,7 @@ void __cdecl data::AudioSettingSlider_PostVoiceFactory::AudioSettingSlider_PostV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AudioSettingSlider_PostVoiceFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::AudioSettingSlider_PostVoiceFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AudioSettingSlider_PostVoiceFactory = v2;

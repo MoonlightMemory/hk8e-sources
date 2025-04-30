@@ -202,7 +202,7 @@ void __cdecl boost::asio::detail::scheduler::scheduler(
   boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::execution_context_service_base(
     this,
     ctx);
-  v7 = (int (**)(...))(&`vtable for'boost::asio::detail::scheduler + 2);
+  v7 = (int (**)(...))(&`vtable for boost::asio::detail::scheduler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v7;
@@ -277,7 +277,7 @@ void __cdecl boost::asio::detail::scheduler::~scheduler(boost::asio::detail::sch
   int (**v1)(...); // rdx
   boost::asio::detail::thread *thread; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::scheduler + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::scheduler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;

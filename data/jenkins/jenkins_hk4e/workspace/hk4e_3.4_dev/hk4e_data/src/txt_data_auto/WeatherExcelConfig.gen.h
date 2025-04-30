@@ -11,7 +11,7 @@ void __cdecl data::WeatherExcelConfig::WeatherExcelConfig(data::WeatherExcelConf
   __int64 v6; // rsi
   __int64 v7; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeatherExcelConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::WeatherExcelConfig::WeatherExcelConfig(
   const data::WeatherExcelConfig *v29; // [rsp+0h] [rbp-20h]
 
   v29 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeatherExcelConfig = v2;
@@ -221,7 +221,7 @@ void __cdecl data::WeatherExcelConfig::~WeatherExcelConfig(data::WeatherExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeatherExcelConfig = v2;
@@ -246,7 +246,7 @@ void __cdecl data::WeatherTemplateExcelConfig::WeatherTemplateExcelConfig(data::
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WeatherTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeatherTemplateExcelConfig = v2;
@@ -324,7 +324,7 @@ void __cdecl data::WeatherTemplateExcelConfig::WeatherTemplateExcelConfig(
   float mist_prob; // xmm0_4
   float desert_prob; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::WeatherTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeatherTemplateExcelConfig = v2;
@@ -439,7 +439,7 @@ void __cdecl data::WeatherTemplateExcelConfig::~WeatherTemplateExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeatherTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeatherTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeatherTemplateExcelConfig = v2;

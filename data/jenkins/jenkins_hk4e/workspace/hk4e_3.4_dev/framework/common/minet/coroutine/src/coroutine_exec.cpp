@@ -71,7 +71,7 @@ void __fastcall common::minet::TimeoutCoroExec::TimeoutCoroExec(
   }
   M_ptr = coro_ptr._M_ptr;
   M_pi = (unsigned __int64)coro_ptr._M_refcount._M_pi;
-  this->_vptr_TimeoutCoroExec = (int (**)(...))(&`vtable for'common::minet::TimeoutCoroExec + 2);
+  this->_vptr_TimeoutCoroExec = (int (**)(...))(&`vtable for common::minet::TimeoutCoroExec + 2);
   p_timeout_timer = &this->timeout_timer_;
   v56[0] = (__int64)common::minet::TimeoutCoroExec::onTimer;
   v56[1] = 0LL;
@@ -126,7 +126,7 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  this->timeout_timer_._vptr_MiTimer = (int (**)(...))(&`vtable for'common::tools::MiTimer + 2);
+  this->timeout_timer_._vptr_MiTimer = (int (**)(...))(&`vtable for common::tools::MiTimer + 2);
   p_timer_mgr_wtr = (volatile signed __int32 *)&p_timeout_timer->timer_mgr_wtr_;
   if ( *(_BYTE *)(((unsigned __int64)&p_timeout_timer->timer_mgr_wtr_ >> 3) + 0x7FFF8000) )
   {

@@ -7,7 +7,7 @@ void __cdecl ActivitySummerTimeV2ExcelConfigMgr::ActivitySummerTimeV2ExcelConfig
   int (**v1)(...); // rdx
 
   data::ActivitySummerTimeV2ExcelConfigMgrBase::ActivitySummerTimeV2ExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivitySummerTimeV2ExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySummerTimeV2ExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySummerTimeV2ExcelConfigMgrBase = v1;
@@ -22,7 +22,7 @@ void __cdecl ActivitySummerTimeV2ExcelConfigMgr::~ActivitySummerTimeV2ExcelConfi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivitySummerTimeV2ExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySummerTimeV2ExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySummerTimeV2ExcelConfigMgrBase = v1;

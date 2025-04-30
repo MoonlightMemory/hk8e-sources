@@ -6,7 +6,7 @@ void __cdecl data::ReminderIndexExcelConfig::ReminderIndexExcelConfig(data::Remi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReminderIndexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReminderIndexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReminderIndexExcelConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ReminderIndexExcelConfig::ReminderIndexExcelConfig(
   const data::ReminderIndexExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReminderIndexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReminderIndexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReminderIndexExcelConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::ReminderIndexExcelConfig::~ReminderIndexExcelConfig(data::Rem
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReminderIndexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReminderIndexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReminderIndexExcelConfig = v2;
@@ -82,7 +82,7 @@ void __cdecl data::ReminderExcelConfig::ReminderExcelConfig(
   const data::ReminderExcelConfig *v6; // [rsp+0h] [rbp-10h]
 
   v6 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReminderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReminderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReminderExcelConfig = v2;
@@ -119,7 +119,7 @@ void __cdecl data::ReminderExcelConfig::~ReminderExcelConfig(data::ReminderExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReminderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReminderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReminderExcelConfig = v2;
@@ -138,7 +138,7 @@ void __cdecl data::ServerMessageExcelConfig::ServerMessageExcelConfig(data::Serv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ServerMessageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ServerMessageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ServerMessageExcelConfig = v2;
@@ -162,7 +162,7 @@ void __cdecl data::ServerMessageExcelConfig::ServerMessageExcelConfig(
   const data::ServerMessageExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ServerMessageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ServerMessageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ServerMessageExcelConfig = v2;
@@ -188,7 +188,7 @@ void __cdecl data::ServerMessageExcelConfig::~ServerMessageExcelConfig(data::Ser
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ServerMessageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ServerMessageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ServerMessageExcelConfig = v2;

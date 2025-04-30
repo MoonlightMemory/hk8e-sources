@@ -856,7 +856,7 @@ void __cdecl BaseDFNode::BaseDFNode(BaseDFNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for BaseDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -875,7 +875,7 @@ void __cdecl BaseDFNode::~BaseDFNode(BaseDFNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BaseDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for BaseDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -887,7 +887,7 @@ void __cdecl FixedDFNode::~FixedDFNode(FixedDFNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'FixedDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for FixedDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -908,7 +908,7 @@ void __cdecl FixedDFNode::FixedDFNode(FixedDFNode *const this)
   int (**v2)(...); // rdx
 
   BaseDFNode::BaseDFNode(this);
-  v2 = (int (**)(...))(&`vtable for'FixedDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for FixedDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -927,7 +927,7 @@ void __cdecl DynamicDFNode::DynamicDFNode(DynamicDFNode *const this)
   int (**v2)(...); // rdx
 
   BaseDFNode::BaseDFNode(this);
-  v2 = (int (**)(...))(&`vtable for'DynamicDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for DynamicDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -940,7 +940,7 @@ void __cdecl DynamicDFNode::~DynamicDFNode(DynamicDFNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'DynamicDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for DynamicDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -962,7 +962,7 @@ void __cdecl BinOpDFNode::BinOpDFNode(BinOpDFNode *const this)
   int (**v2)(...); // rdx
 
   BaseDFNode::BaseDFNode(this);
-  v2 = (int (**)(...))(&`vtable for'BinOpDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for BinOpDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;
@@ -976,7 +976,7 @@ void __cdecl BinOpDFNode::~BinOpDFNode(BinOpDFNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'BinOpDFNode + 2);
+  v2 = (int (**)(...))(&`vtable for BinOpDFNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDFNode = v2;

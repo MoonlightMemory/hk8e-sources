@@ -6,7 +6,7 @@ void __cdecl boost::asio::detail::timer_queue_base::timer_queue_base(boost::asio
   int (**v1)(...); // rdx
 
   boost::asio::detail::noncopyable::noncopyable((boost::asio::detail::noncopyable *const)this);
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_timer_queue_base = v1;
@@ -21,7 +21,7 @@ void __cdecl boost::asio::detail::timer_queue_base::~timer_queue_base(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_timer_queue_base = v1;

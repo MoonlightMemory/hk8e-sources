@@ -619,7 +619,7 @@ LABEL_158:
     __asan_handle_no_return(v49);
     __cxa_rethrow();
   }
-  v43->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr<std::vector<boost::asio::ip::basic_resolver_entry<boost::asio::ip::tcp>> *,(__gnu_cxx::_Lock_policy)2>
+  v43->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_ptr<std::vector<boost::asio::ip::basic_resolver_entry<boost::asio::ip::tcp>> *,(__gnu_cxx::_Lock_policy)2>
                                               + 2);
   if ( *(_BYTE *)(((unsigned __int64)&v43[1] >> 3) + 0x7FFF8000) )
     goto LABEL_158;

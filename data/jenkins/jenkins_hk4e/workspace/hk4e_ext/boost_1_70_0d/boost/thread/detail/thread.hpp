@@ -6,7 +6,7 @@ void __cdecl boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>
+  v1 = &`vtable for boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>
      + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -36,7 +36,7 @@ void __cdecl boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>
+  v1 = &`vtable for boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>
      + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -55,7 +55,7 @@ void __cdecl boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1
   __int64 v5; // rdx
 
   boost::detail::thread_data_base::thread_data_base((boost::detail::thread_data_base *const)this);
-  v2 = &`vtable for'boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>
+  v2 = &`vtable for boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<GateserverSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::_bi::value<unsigned short>>>>
      + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -96,7 +96,7 @@ void __cdecl boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1
   __int64 v5; // rdx
 
   boost::detail::thread_data_base::thread_data_base((boost::detail::thread_data_base *const)this);
-  v2 = &`vtable for'boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>
+  v2 = &`vtable for boost::detail::thread_data<boost::_bi::bind_t<void,boost::_mfi::mf1<void,common::minet::AServerMgr<HttpSession>,unsigned short>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::_bi::value<unsigned short>>>>
      + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

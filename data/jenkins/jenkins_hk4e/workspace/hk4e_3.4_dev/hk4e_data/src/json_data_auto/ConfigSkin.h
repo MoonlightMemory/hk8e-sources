@@ -7,7 +7,7 @@ void __cdecl data::ConfigSkin::ConfigSkin(data::ConfigSkin *const this)
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigSkin>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigSkin>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkin = v2;
@@ -28,7 +28,7 @@ void __cdecl data::ConfigSkin::ConfigSkin(data::ConfigSkin *const this, const da
   std::enable_shared_from_this<data::ConfigSkin>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigSkin>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigSkin + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigSkin = v3;
@@ -57,7 +57,7 @@ void __cdecl data::ConfigSkin::~ConfigSkin(data::ConfigSkin *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkin = v2;
@@ -297,7 +297,7 @@ void __cdecl data::ConfigMonsterSkin::ConfigMonsterSkin(data::ConfigMonsterSkin 
   int (**v2)(...); // rdx
 
   data::ConfigSkin::ConfigSkin(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterSkin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkin = v2;
@@ -312,7 +312,7 @@ void __cdecl data::ConfigMonsterSkin::ConfigMonsterSkin(
   int (**v2)(...); // rdx
 
   data::ConfigSkin::ConfigSkin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterSkin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigSkin = v2;
@@ -325,7 +325,7 @@ void __cdecl data::ConfigMonsterSkin::~ConfigMonsterSkin(data::ConfigMonsterSkin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterSkin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterSkin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkin = v2;
@@ -400,7 +400,7 @@ void __cdecl data::ConfigMonsterSkinFactory::ConfigMonsterSkinFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterSkinFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterSkinFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMonsterSkinFactory = v2;

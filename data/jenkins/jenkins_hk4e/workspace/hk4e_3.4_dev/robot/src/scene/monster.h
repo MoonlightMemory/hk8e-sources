@@ -6,7 +6,7 @@ void __cdecl Monster::Monster(Monster *const this)
   int (**v1)(...); // rdx
 
   Creature::Creature(this);
-  v1 = (int (**)(...))(&`vtable for'Monster + 2);
+  v1 = (int (**)(...))(&`vtable for Monster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;
@@ -23,7 +23,7 @@ void __cdecl Monster::~Monster(Monster *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Monster + 2);
+  v1 = (int (**)(...))(&`vtable for Monster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;

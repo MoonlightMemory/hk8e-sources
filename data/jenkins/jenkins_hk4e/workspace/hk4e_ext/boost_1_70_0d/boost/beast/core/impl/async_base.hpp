@@ -9,7 +9,7 @@ void __fastcall boost::beast::detail::allocate_stable_state<boost::beast::http::
     __asan_report_store8();
     JUMPOUT(0x19B8705FLL);
   }
-  this->_vptr_stable_base = (int (**)(...))(&`vtable for'boost::beast::detail::allocate_stable_state<boost::beast::http::detail::read_msg_op<boost::beast::ssl_stream<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>>,boost::beast::basic_flat_buffer<std::allocator<char>>,false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>,boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,unsigned long>>::data,std::allocator<void>>
+  this->_vptr_stable_base = (int (**)(...))(&`vtable for boost::beast::detail::allocate_stable_state<boost::beast::http::detail::read_msg_op<boost::beast::ssl_stream<boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>>,boost::beast::basic_flat_buffer<std::allocator<char>>,false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>,boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,unsigned long>>::data,std::allocator<void>>
                                           + 2);
   boost::beast::http::parser<false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>>::~parser(&this->value.p);
 };

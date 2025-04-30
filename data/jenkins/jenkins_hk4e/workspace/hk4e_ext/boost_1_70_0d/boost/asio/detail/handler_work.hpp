@@ -252,7 +252,7 @@ void __fastcall boost::asio::detail::handler_work<boost::asio::detail::coro_hand
   if ( !this->io_executor_.executor_.impl_ )
   {
 LABEL_27:
-    _20[0] = (boost::asio::bad_executor)(&`vtable for'boost::asio::bad_executor + 2);
+    _20[0] = (boost::asio::bad_executor)(&`vtable for boost::asio::bad_executor + 2);
     exception = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
     if ( *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) != 0
       && *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)exception + 55) & 7)
@@ -296,7 +296,7 @@ LABEL_33:
   if ( !v5 )
   {
 LABEL_34:
-    _20[0] = (boost::asio::bad_executor)(&`vtable for'boost::asio::bad_executor + 2);
+    _20[0] = (boost::asio::bad_executor)(&`vtable for boost::asio::bad_executor + 2);
     v14 = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
     if ( *(_BYTE *)(((unsigned __int64)&v14->gap30[7] >> 3) + 0x7FFF8000) != 0
       && *(_BYTE *)(((unsigned __int64)&v14->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)v14 + 55) & 7)
@@ -499,7 +499,7 @@ void __fastcall boost::asio::detail::handler_work<boost::asio::detail::write_op<
     impl = this->io_executor_.executor_.impl_;
     if ( !this->io_executor_.executor_.impl_ )
     {
-      *(_QWORD *)(v2 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+      *(_QWORD *)(v2 + 32) = &`vtable for boost::asio::bad_executor + 2;
       exception = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
       if ( *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) != 0
         && *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)exception + 55) & 7)
@@ -536,7 +536,7 @@ void __fastcall boost::asio::detail::handler_work<boost::asio::detail::write_op<
     v10 = this->executor_.executor_.impl_;
     if ( !v10 )
     {
-      *(_QWORD *)(v2 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+      *(_QWORD *)(v2 + 32) = &`vtable for boost::asio::bad_executor + 2;
       v11 = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
       if ( *(_BYTE *)(((unsigned __int64)&v11->gap30[7] >> 3) + 0x7FFF8000) != 0
         && *(_BYTE *)(((unsigned __int64)&v11->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)v11 + 55) & 7)

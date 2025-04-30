@@ -1340,7 +1340,7 @@ void __cdecl data::SubstringMatcher::SubstringMatcher(data::SubstringMatcher *co
   int (**v1)(...); // rdx
 
   data::MtpWhitelistMatcher::MtpWhitelistMatcher(this);
-  v1 = (int (**)(...))(&`vtable for'data::SubstringMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::SubstringMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1358,7 +1358,7 @@ void __cdecl data::SubstringMatcher::~SubstringMatcher(data::SubstringMatcher *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::SubstringMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::SubstringMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1437,7 +1437,7 @@ void __cdecl data::PrefixMatcher::PrefixMatcher(data::PrefixMatcher *const this)
   int (**v1)(...); // rdx
 
   data::MtpWhitelistMatcher::MtpWhitelistMatcher(this);
-  v1 = (int (**)(...))(&`vtable for'data::PrefixMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::PrefixMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1448,7 +1448,7 @@ void __cdecl data::PrefixMatcher::~PrefixMatcher(data::PrefixMatcher *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::PrefixMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::PrefixMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1552,7 +1552,7 @@ void __cdecl data::SameMatcher::SameMatcher(data::SameMatcher *const this)
   int (**v1)(...); // rdx
 
   data::MtpWhitelistMatcher::MtpWhitelistMatcher(this);
-  v1 = (int (**)(...))(&`vtable for'data::SameMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::SameMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1563,7 +1563,7 @@ void __cdecl data::SameMatcher::~SameMatcher(data::SameMatcher *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::SameMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::SameMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1647,7 +1647,7 @@ void __cdecl data::RegexMatcher::RegexMatcher(data::RegexMatcher *const this)
   int (**v1)(...); // rdx
 
   data::MtpWhitelistMatcher::MtpWhitelistMatcher(this);
-  v1 = (int (**)(...))(&`vtable for'data::RegexMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::RegexMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1666,7 +1666,7 @@ void __cdecl data::RegexMatcher::~RegexMatcher(data::RegexMatcher *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::RegexMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::RegexMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1827,7 +1827,7 @@ void __cdecl data::AnyMatcher::AnyMatcher(data::AnyMatcher *const this)
   int (**v1)(...); // rdx
 
   data::MtpWhitelistMatcher::MtpWhitelistMatcher(this);
-  v1 = (int (**)(...))(&`vtable for'data::AnyMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::AnyMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -1838,7 +1838,7 @@ void __cdecl data::AnyMatcher::~AnyMatcher(data::AnyMatcher *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::AnyMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::AnyMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;

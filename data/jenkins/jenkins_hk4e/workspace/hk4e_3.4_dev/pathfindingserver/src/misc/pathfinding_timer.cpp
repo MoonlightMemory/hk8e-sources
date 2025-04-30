@@ -21,7 +21,7 @@ void __cdecl PathfindingTimer::PathfindingTimer(PathfindingTimer *const this, co
   std::shared_ptr<common::tools::TimerMgr>::~shared_ptr(&p_timer_mgr_ptr);
   v2 = &v12;
   std::function<void ()(unsigned long)>::~function(&v12);
-  v3 = (int (**)(...))(&`vtable for'PathfindingTimer + 2);
+  v3 = (int (**)(...))(&`vtable for PathfindingTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
     v2 = this;
@@ -64,7 +64,7 @@ void __cdecl PathfindingTimer::~PathfindingTimer(PathfindingTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PathfindingTimer + 2);
+  v1 = (int (**)(...))(&`vtable for PathfindingTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MiTimer = v1;

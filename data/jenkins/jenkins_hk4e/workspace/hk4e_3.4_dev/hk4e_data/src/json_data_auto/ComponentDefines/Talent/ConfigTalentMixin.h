@@ -7,7 +7,7 @@ void __cdecl data::ConfigTalentMixin::ConfigTalentMixin(data::ConfigTalentMixin 
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigTalentMixin>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigTalentMixin>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTalentMixin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTalentMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ConfigTalentMixin::ConfigTalentMixin(
   std::enable_shared_from_this<data::ConfigTalentMixin>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigTalentMixin>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigTalentMixin + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigTalentMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigTalentMixin = v3;
@@ -52,7 +52,7 @@ void __cdecl data::ConfigTalentMixin::~ConfigTalentMixin(data::ConfigTalentMixin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTalentMixin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTalentMixin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -139,7 +139,7 @@ void __cdecl data::AddAbility::AddAbility(data::AddAbility *const this)
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this);
-  v2 = (int (**)(...))(&`vtable for'data::AddAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -152,7 +152,7 @@ void __cdecl data::AddAbility::AddAbility(data::AddAbility *const this, const da
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::AddAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -172,7 +172,7 @@ void __cdecl data::AddAbility::~AddAbility(data::AddAbility *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AddAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -240,7 +240,7 @@ void __cdecl data::AddAbilityFactory::AddAbilityFactory(data::AddAbilityFactory 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AddAbilityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddAbilityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AddAbilityFactory = v2;
@@ -253,7 +253,7 @@ void __cdecl data::ModifyAbility::ModifyAbility(data::ModifyAbility *const this)
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this);
-  v2 = (int (**)(...))(&`vtable for'data::ModifyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -269,7 +269,7 @@ void __cdecl data::ModifyAbility::ModifyAbility(data::ModifyAbility *const this,
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ModifyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -292,7 +292,7 @@ void __cdecl data::ModifyAbility::~ModifyAbility(data::ModifyAbility *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -363,7 +363,7 @@ void __cdecl data::ModifyAbilityFactory::ModifyAbilityFactory(data::ModifyAbilit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifyAbilityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifyAbilityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ModifyAbilityFactory = v2;
@@ -376,7 +376,7 @@ void __cdecl data::UnlockTalentParam::UnlockTalentParam(data::UnlockTalentParam 
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this);
-  v2 = (int (**)(...))(&`vtable for'data::UnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -392,7 +392,7 @@ void __cdecl data::UnlockTalentParam::UnlockTalentParam(
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::UnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -413,7 +413,7 @@ void __cdecl data::UnlockTalentParam::~UnlockTalentParam(data::UnlockTalentParam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::UnlockTalentParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockTalentParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -482,7 +482,7 @@ void __cdecl data::UnlockTalentParamFactory::UnlockTalentParamFactory(data::Unlo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::UnlockTalentParamFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockTalentParamFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_UnlockTalentParamFactory = v2;
@@ -495,7 +495,7 @@ void __cdecl data::UnlockControllerConditions::UnlockControllerConditions(data::
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this);
-  v2 = (int (**)(...))(&`vtable for'data::UnlockControllerConditions + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockControllerConditions + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -510,7 +510,7 @@ void __cdecl data::UnlockControllerConditions::UnlockControllerConditions(
   int (**v2)(...); // rdx
 
   data::ConfigTalentMixin::ConfigTalentMixin(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::UnlockControllerConditions + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockControllerConditions + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -532,7 +532,7 @@ void __cdecl data::UnlockControllerConditions::~UnlockControllerConditions(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::UnlockControllerConditions + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockControllerConditions + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -601,7 +601,7 @@ void __cdecl data::UnlockControllerConditionsFactory::UnlockControllerConditions
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::UnlockControllerConditionsFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::UnlockControllerConditionsFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_UnlockControllerConditionsFactory = v2;
@@ -615,7 +615,7 @@ void __cdecl data::ModifySkillCD::ModifySkillCD(data::ModifySkillCD *const this)
   __int64 v3; // rsi
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCD + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCD + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -651,7 +651,7 @@ void __cdecl data::ModifySkillCD::ModifySkillCD(data::ModifySkillCD *const this,
   float cd_ratio; // xmm0_4
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this, (const data::ConfigTalentMixin *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCD + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCD + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -699,7 +699,7 @@ void __cdecl data::ModifySkillCD::~ModifySkillCD(data::ModifySkillCD *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCD + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCD + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -773,7 +773,7 @@ void __cdecl data::ModifySkillCDFactory::ModifySkillCDFactory(data::ModifySkillC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCDFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCDFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ModifySkillCDFactory = v2;
@@ -787,7 +787,7 @@ void __cdecl data::ModifySkillCost::ModifySkillCost(data::ModifySkillCost *const
   __int64 v3; // rsi
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -823,7 +823,7 @@ void __cdecl data::ModifySkillCost::ModifySkillCost(data::ModifySkillCost *const
   float cost_ratio; // xmm0_4
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this, (const data::ConfigTalentMixin *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -871,7 +871,7 @@ void __cdecl data::ModifySkillCost::~ModifySkillCost(data::ModifySkillCost *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCost + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -945,7 +945,7 @@ void __cdecl data::ModifySkillCostFactory::ModifySkillCostFactory(data::ModifySk
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillCostFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillCostFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ModifySkillCostFactory = v2;
@@ -959,7 +959,7 @@ void __cdecl data::ModifySkillPoint::ModifySkillPoint(data::ModifySkillPoint *co
   __int64 v3; // rsi
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -991,7 +991,7 @@ void __cdecl data::ModifySkillPoint::ModifySkillPoint(
   char v7; // al
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this, (const data::ConfigTalentMixin *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -1030,7 +1030,7 @@ void __cdecl data::ModifySkillPoint::~ModifySkillPoint(data::ModifySkillPoint *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -1104,7 +1104,7 @@ void __cdecl data::ModifySkillPointFactory::ModifySkillPointFactory(data::Modify
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ModifySkillPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ModifySkillPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ModifySkillPointFactory = v2;
@@ -1118,7 +1118,7 @@ void __cdecl data::AddTalentExtraLevel::AddTalentExtraLevel(data::AddTalentExtra
   __int64 v3; // rsi
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::AddTalentExtraLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddTalentExtraLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -1159,7 +1159,7 @@ void __cdecl data::AddTalentExtraLevel::AddTalentExtraLevel(
   char v10; // dl
 
   data::ConfigTalentMixin::ConfigTalentMixin((data::ConfigTalentMixin *const)this, (const data::ConfigTalentMixin *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::AddTalentExtraLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddTalentExtraLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigTalentMixin = v2;
@@ -1219,7 +1219,7 @@ void __cdecl data::AddTalentExtraLevel::~AddTalentExtraLevel(data::AddTalentExtr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AddTalentExtraLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddTalentExtraLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTalentMixin = v2;
@@ -1286,7 +1286,7 @@ void __cdecl data::AddTalentExtraLevelFactory::AddTalentExtraLevelFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AddTalentExtraLevelFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::AddTalentExtraLevelFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AddTalentExtraLevelFactory = v2;

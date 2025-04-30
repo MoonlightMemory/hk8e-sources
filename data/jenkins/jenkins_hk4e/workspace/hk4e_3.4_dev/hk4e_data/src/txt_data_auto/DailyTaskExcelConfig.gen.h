@@ -6,7 +6,7 @@ void __cdecl data::DailyTaskTagType::DailyTaskTagType(data::DailyTaskTagType *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskTagType + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskTagType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskTagType = v2;
@@ -27,7 +27,7 @@ void __cdecl data::DailyTaskTagType::DailyTaskTagType(
   uint32_t value; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskTagType + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskTagType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskTagType = v2;
@@ -52,7 +52,7 @@ void __cdecl data::DailyTaskTagType::~DailyTaskTagType(data::DailyTaskTagType *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskTagType + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskTagType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskTagType = v2;
@@ -213,7 +213,7 @@ void __cdecl data::DailyTaskAction::DailyTaskAction(data::DailyTaskAction *const
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskAction = v2;
@@ -297,7 +297,7 @@ void __cdecl data::DailyTaskAction::DailyTaskAction(data::DailyTaskAction *const
   const data::DailyTaskAction *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskAction = v2;
@@ -417,7 +417,7 @@ void __cdecl data::DailyTaskAction::~DailyTaskAction(data::DailyTaskAction *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskAction = v2;
@@ -437,7 +437,7 @@ void __cdecl data::DailyTaskStatisfiedCond::DailyTaskStatisfiedCond(data::DailyT
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskStatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskStatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskStatisfiedCond = v2;
@@ -487,7 +487,7 @@ void __cdecl data::DailyTaskStatisfiedCond::DailyTaskStatisfiedCond(
   const data::DailyTaskStatisfiedCond *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskStatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskStatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskStatisfiedCond = v2;
@@ -553,7 +553,7 @@ void __cdecl data::DailyTaskStatisfiedCond::~DailyTaskStatisfiedCond(data::Daily
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskStatisfiedCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskStatisfiedCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskStatisfiedCond = v2;
@@ -578,7 +578,7 @@ void __cdecl data::DailyTaskExcelConfig::DailyTaskExcelConfig(data::DailyTaskExc
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskExcelConfig = v2;
@@ -735,7 +735,7 @@ void __cdecl data::DailyTaskExcelConfig::DailyTaskExcelConfig(
   const data::DailyTaskExcelConfig *v43; // [rsp+0h] [rbp-20h]
 
   v43 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskExcelConfig = v2;
@@ -965,7 +965,7 @@ void __cdecl data::DailyTaskExcelConfig::~DailyTaskExcelConfig(data::DailyTaskEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskExcelConfig = v2;
@@ -982,7 +982,7 @@ void __cdecl data::DailyTaskDropConfig::DailyTaskDropConfig(data::DailyTaskDropC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskDropConfig = v2;
@@ -1014,7 +1014,7 @@ void __cdecl data::DailyTaskDropConfig::DailyTaskDropConfig(
   const data::DailyTaskDropConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskDropConfig = v2;
@@ -1060,7 +1060,7 @@ void __cdecl data::DailyTaskDropConfig::~DailyTaskDropConfig(data::DailyTaskDrop
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskDropConfig = v2;
@@ -1072,7 +1072,7 @@ void __cdecl data::DailyTaskRewardExcelConfig::DailyTaskRewardExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskRewardExcelConfig = v2;
@@ -1096,7 +1096,7 @@ void __cdecl data::DailyTaskRewardExcelConfig::DailyTaskRewardExcelConfig(
   const data::DailyTaskRewardExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskRewardExcelConfig = v2;
@@ -1123,7 +1123,7 @@ void __cdecl data::DailyTaskRewardExcelConfig::~DailyTaskRewardExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskRewardExcelConfig = v2;
@@ -1270,7 +1270,7 @@ void __cdecl data::DailyTaskLevelExcelConfig::DailyTaskLevelExcelConfig(
   const data::DailyTaskLevelExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DailyTaskLevelExcelConfig = v2;
@@ -1364,7 +1364,7 @@ void __cdecl data::DailyTaskLevelExcelConfig::~DailyTaskLevelExcelConfig(data::D
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DailyTaskLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DailyTaskLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DailyTaskLevelExcelConfig = v2;
@@ -1383,7 +1383,7 @@ void __cdecl data::CityTaskOpenExcelConfig::CityTaskOpenExcelConfig(data::CityTa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CityTaskOpenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityTaskOpenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityTaskOpenExcelConfig = v2;
@@ -1416,7 +1416,7 @@ void __cdecl data::CityTaskOpenExcelConfig::CityTaskOpenExcelConfig(
   const data::CityTaskOpenExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CityTaskOpenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityTaskOpenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CityTaskOpenExcelConfig = v2;
@@ -1456,7 +1456,7 @@ void __cdecl data::CityTaskOpenExcelConfig::~CityTaskOpenExcelConfig(data::CityT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CityTaskOpenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityTaskOpenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityTaskOpenExcelConfig = v2;

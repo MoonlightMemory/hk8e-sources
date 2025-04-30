@@ -6,7 +6,7 @@ void __cdecl ActivityIrodoriExcelConfigMgr::ActivityIrodoriExcelConfigMgr(Activi
   int (**v1)(...); // rdx
 
   data::ActivityIrodoriExcelConfigMgrBase::ActivityIrodoriExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityIrodoriExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityIrodoriExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityIrodoriExcelConfigMgrBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ActivityIrodoriExcelConfigMgr::~ActivityIrodoriExcelConfigMgr(Activ
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityIrodoriExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityIrodoriExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityIrodoriExcelConfigMgrBase = v1;

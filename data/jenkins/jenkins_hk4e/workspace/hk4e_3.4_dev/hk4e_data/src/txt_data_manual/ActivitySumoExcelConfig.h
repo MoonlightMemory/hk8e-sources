@@ -6,7 +6,7 @@ void __cdecl ActivitySumoExcelConfigMgr::ActivitySumoExcelConfigMgr(ActivitySumo
   int (**v1)(...); // rdx
 
   data::ActivitySumoExcelConfigMgrBase::ActivitySumoExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivitySumoExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySumoExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySumoExcelConfigMgrBase = v1;
@@ -19,7 +19,7 @@ void __cdecl ActivitySumoExcelConfigMgr::~ActivitySumoExcelConfigMgr(ActivitySum
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivitySumoExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySumoExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySumoExcelConfigMgrBase = v1;

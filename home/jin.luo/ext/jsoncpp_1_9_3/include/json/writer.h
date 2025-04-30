@@ -38,7 +38,7 @@ void __fastcall Json::FastWriter::FastWriter(Json::FastWriter *const this)
   this->document_._M_string_length = 0LL;
   this->document_._anon_0._M_local_buf[0] = 0;
   this->omitEndingLineFeed_ = 0;
-  this->_vptr_Writer = (int (**)(...))(&`vtable for'Json::FastWriter + 2);
+  this->_vptr_Writer = (int (**)(...))(&`vtable for Json::FastWriter + 2);
   this->document_._M_dataplus._M_p = this->document_._anon_0._M_local_buf;
   *(_WORD *)&this->yamlCompatibilityEnabled_ = 0;
 };
@@ -49,7 +49,7 @@ void __fastcall Json::StyledWriter::StyledWriter(Json::StyledWriter *const this)
   this->childValues_._M_impl._M_start = 0LL;
   this->childValues_._M_impl._M_finish = 0LL;
   this->childValues_._M_impl._M_end_of_storage = 0LL;
-  this->_vptr_Writer = (int (**)(...))(&`vtable for'Json::StyledWriter + 2);
+  this->_vptr_Writer = (int (**)(...))(&`vtable for Json::StyledWriter + 2);
   this->document_._M_dataplus._M_p = this->document_._anon_0._M_local_buf;
   this->indentString_._M_dataplus._M_p = this->indentString_._anon_0._M_local_buf;
   this->document_._M_string_length = 0LL;
@@ -68,7 +68,7 @@ void __fastcall Json::StyledWriter::~StyledWriter(Json::StyledWriter *const this
   std::_Vector_base<std::string>::pointer M_finish; // rbx
   std::_Vector_base<std::string>::pointer M_start; // rbp
 
-  this->_vptr_Writer = (int (**)(...))(&`vtable for'Json::StyledWriter + 2);
+  this->_vptr_Writer = (int (**)(...))(&`vtable for Json::StyledWriter + 2);
   M_p = (Json::StyledWriter *)this->indentString_._M_dataplus._M_p;
   if ( M_p != (Json::StyledWriter *)&this->indentString_._anon_0 )
     operator delete(M_p);
@@ -106,7 +106,7 @@ void __fastcall Json::StyledWriter::~StyledWriter(Json::StyledWriter *const this
   std::_Vector_base<std::string>::pointer M_finish; // rbx
   std::_Vector_base<std::string>::pointer M_start; // r12
 
-  this->_vptr_Writer = (int (**)(...))(&`vtable for'Json::StyledWriter + 2);
+  this->_vptr_Writer = (int (**)(...))(&`vtable for Json::StyledWriter + 2);
   M_p = (Json::StyledWriter *)this->indentString_._M_dataplus._M_p;
   if ( M_p != (Json::StyledWriter *)&this->indentString_._anon_0 )
     operator delete(M_p);

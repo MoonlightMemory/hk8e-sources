@@ -24,7 +24,7 @@ void __cdecl proto::protobuf_pb_2fpacket_5fhead_2eproto::`anonymous namespace'::
   v1[536862722] = -202116109;
   if ( proto::protobuf_pb_2fpacket_5fhead_2eproto::`anonymous namespace'::protobuf_AssignDescriptorsOnce(void)::once != 2 )
   {
-    *(_QWORD *)(v0 + 32) = &`vtable for'google::protobuf::internal::FunctionClosure0 + 2;
+    *(_QWORD *)(v0 + 32) = &`vtable for google::protobuf::internal::FunctionClosure0 + 2;
     *(_QWORD *)(v0 + 40) = proto::protobuf_pb_2fpacket_5fhead_2eproto::`anonymous namespace'::protobuf_AssignDescriptors;
     *(_BYTE *)(v0 + 48) = 0;
     google::protobuf::GoogleOnceInitImpl(
@@ -110,7 +110,7 @@ void __cdecl proto::protobuf_pb_2fpacket_5fhead_2eproto::InitDefaults()
   v1[536862722] = -202116109;
   if ( proto::protobuf_pb_2fpacket_5fhead_2eproto::InitDefaults(void)::once != 2 )
   {
-    *(_QWORD *)(v0 + 32) = &`vtable for'google::protobuf::internal::FunctionClosure0 + 2;
+    *(_QWORD *)(v0 + 32) = &`vtable for google::protobuf::internal::FunctionClosure0 + 2;
     *(_QWORD *)(v0 + 40) = proto::protobuf_pb_2fpacket_5fhead_2eproto::TableStruct::InitDefaultsImpl;
     *(_BYTE *)(v0 + 48) = 0;
     google::protobuf::GoogleOnceInitImpl(
@@ -158,7 +158,7 @@ void __cdecl proto::protobuf_pb_2fpacket_5fhead_2eproto::AddDescriptors()
   v1[536862722] = -202116109;
   if ( proto::protobuf_pb_2fpacket_5fhead_2eproto::AddDescriptors(void)::once != 2 )
   {
-    *(_QWORD *)(v0 + 32) = &`vtable for'google::protobuf::internal::FunctionClosure0 + 2;
+    *(_QWORD *)(v0 + 32) = &`vtable for google::protobuf::internal::FunctionClosure0 + 2;
     *(_QWORD *)(v0 + 40) = proto::protobuf_pb_2fpacket_5fhead_2eproto::`anonymous namespace'::AddDescriptorsImpl;
     *(_BYTE *)(v0 + 48) = 0;
     google::protobuf::GoogleOnceInitImpl(
@@ -272,7 +272,7 @@ LABEL_18:
     __asan_report_store8(this, v1);
     JUMPOUT(0xC814A17LL);
   }
-  this->_vptr_MessageLite = (int (**)(...))(&`vtable for'proto::PacketHead::PacketHead_ExtMapEntry + 2);
+  this->_vptr_MessageLite = (int (**)(...))(&`vtable for proto::PacketHead::PacketHead_ExtMapEntry + 2);
 };
 
 // Line 267: range 000000000C813ED0-000000000C813EEB
@@ -356,7 +356,7 @@ void __fastcall proto::PacketHead::PacketHead(proto::PacketHead *const this)
     __asan_report_store8(this, v2);
     goto LABEL_8;
   }
-  this->_vptr_MessageLite = (int (**)(...))(&`vtable for'proto::PacketHead + 2);
+  this->_vptr_MessageLite = (int (**)(...))(&`vtable for proto::PacketHead + 2);
   this = (proto::PacketHead *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -373,7 +373,7 @@ LABEL_9:
     __asan_report_store8(p_ext_map, v2);
     goto LABEL_10;
   }
-  v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapFieldBase + 2);
+  v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapFieldBase + 2);
   p_arena = (unsigned __int64)&v5->ext_map_.arena_;
   if ( *(_BYTE *)(((unsigned __int64)&v5->ext_map_.arena_ >> 3) + 0x7FFF8000) )
   {
@@ -406,7 +406,7 @@ LABEL_25:
     __asan_report_store8(p_ext_map, v2);
     goto LABEL_26;
   }
-  v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+  v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                   + 2);
   v8 = (char *)(p_ext_map + 40);
   if ( *(_BYTE *)(((p_ext_map + 40) >> 3) + 0x7FFF8000) )
@@ -636,7 +636,7 @@ LABEL_82:
     __asan_report_store8(p_ext_map, 0LL);
     goto LABEL_83;
   }
-  v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapFieldBase + 2);
+  v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapFieldBase + 2);
   p_repeated_field = (unsigned __int64)&v5->service_app_id_map_.arena_;
   if ( *(_BYTE *)(((unsigned __int64)&v5->service_app_id_map_.arena_ >> 3) + 0x7FFF8000) )
   {
@@ -648,7 +648,7 @@ LABEL_84:
     v23 = (struct _Unwind_Exception *)v22;
     while ( *(_BYTE *)((p_ext_map >> 3) + 0x7FFF8000) )
       v23 = (struct _Unwind_Exception *)__asan_report_store8(p_ext_map, 48LL);
-    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                     + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase((google::protobuf::internal::MapFieldBase *const)p_ext_map);
     goto LABEL_88;
@@ -673,7 +673,7 @@ LABEL_102:
     __asan_report_store8(&v5->service_app_id_map_, 0LL);
     goto LABEL_103;
   }
-  v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+  v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                              + 2);
   p_service_app_id_map = &v5->service_app_id_map_.impl_;
   if ( *(_BYTE *)(((unsigned __int64)&v5->service_app_id_map_.impl_ >> 3) + 0x7FFF8000) )
@@ -888,7 +888,7 @@ LABEL_156:
     v23 = (struct _Unwind_Exception *)v39;
     while ( *(_BYTE *)((p_ext_map >> 3) + 0x7FFF8000) )
       v23 = (struct _Unwind_Exception *)__asan_report_store8(&v5->service_app_id_map_, 48LL);
-    v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v5->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                                + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase(&v5->service_app_id_map_);
     if ( *(_BYTE *)(((unsigned __int64)&v5->ext_map_ >> 3) + 0x7FFF8000) )
@@ -896,12 +896,12 @@ LABEL_156:
       __asan_report_store8(&v5->ext_map_, 48LL);
       goto LABEL_161;
     }
-    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                     + 2);
     google::protobuf::Map<unsigned int,unsigned int>::~Map(&v5->ext_map_.impl_.map_);
     if ( *(_BYTE *)(((unsigned __int64)&v5->ext_map_ >> 3) + 0x7FFF8000) )
       __asan_report_store8(&v5->ext_map_, 48LL);
-    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v5->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                     + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase(&v5->ext_map_);
 LABEL_88:
@@ -981,7 +981,7 @@ void __fastcall proto::PacketHead::PacketHead(proto::PacketHead *const this, con
     goto LABEL_8;
   }
   v4 = from;
-  this->_vptr_MessageLite = (int (**)(...))(&`vtable for'proto::PacketHead + 2);
+  this->_vptr_MessageLite = (int (**)(...))(&`vtable for proto::PacketHead + 2);
   this = (proto::PacketHead *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -998,7 +998,7 @@ LABEL_9:
     __asan_report_store8(p_ext_map, from);
     goto LABEL_10;
   }
-  v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapFieldBase + 2);
+  v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapFieldBase + 2);
   p_arena = (google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0> *)&v6->ext_map_.arena_;
   if ( *(_BYTE *)(((unsigned __int64)&v6->ext_map_.arena_ >> 3) + 0x7FFF8000) )
   {
@@ -1031,7 +1031,7 @@ LABEL_25:
     __asan_report_store8(p_ext_map, from);
     goto LABEL_26;
   }
-  v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+  v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                   + 2);
   v9 = (google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapFieldLiteType *)(p_ext_map + 40);
   if ( *(_BYTE *)(((p_ext_map + 40) >> 3) + 0x7FFF8000) )
@@ -1263,7 +1263,7 @@ LABEL_82:
     __asan_report_store8(Aligned, 0LL);
     goto LABEL_83;
   }
-  v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapFieldBase + 2);
+  v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapFieldBase + 2);
   p_repeated_field = (google::protobuf::Arena *)&v6->service_app_id_map_.arena_;
   if ( *(_BYTE *)(((unsigned __int64)&v6->service_app_id_map_.arena_ >> 3) + 0x7FFF8000) )
   {
@@ -1275,7 +1275,7 @@ LABEL_84:
     v25 = (struct _Unwind_Exception *)v24;
     while ( *(_BYTE *)((p_ext_map >> 3) + 0x7FFF8000) )
       v25 = (struct _Unwind_Exception *)__asan_report_store8(p_ext_map, 48LL);
-    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                     + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase((google::protobuf::internal::MapFieldBase *const)p_ext_map);
     goto LABEL_88;
@@ -1300,7 +1300,7 @@ LABEL_102:
     __asan_report_store8(&v6->service_app_id_map_, 0LL);
     goto LABEL_103;
   }
-  v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+  v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                              + 2);
   p_service_app_id_map = &v6->service_app_id_map_.impl_;
   if ( *(_BYTE *)(((unsigned __int64)&v6->service_app_id_map_.impl_ >> 3) + 0x7FFF8000) )
@@ -1507,7 +1507,7 @@ LABEL_155:
     v25 = (struct _Unwind_Exception *)p_ext_map;
     while ( *(_BYTE *)(((unsigned __int64)Aligned >> 3) + 0x7FFF8000) )
       v25 = (struct _Unwind_Exception *)__asan_report_store8(&v6->service_app_id_map_, 48LL);
-    v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v6->service_app_id_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                                + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase(&v6->service_app_id_map_);
     if ( *(_BYTE *)(((unsigned __int64)&v6->ext_map_ >> 3) + 0x7FFF8000) )
@@ -1533,12 +1533,12 @@ LABEL_163:
       v46 = google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet,google::protobuf::internal::InternalMetadataWithArena>::mutable_unknown_fields_slow(p_internal_metadata);
       goto LABEL_163;
     }
-    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ExtMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                                     + 2);
     google::protobuf::Map<unsigned int,unsigned int>::~Map(&v6->ext_map_.impl_.map_);
     if ( *(_BYTE *)(((unsigned __int64)&v6->ext_map_ >> 3) + 0x7FFF8000) )
       __asan_report_store8(&v6->ext_map_, 48LL);
-    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    v6->ext_map_._vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                                     + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase(&v6->ext_map_);
 LABEL_88:
@@ -6645,7 +6645,7 @@ LABEL_24:
       }
       else
       {
-        *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+        *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                            + 2;
         v11 = (proto::PacketHead::PacketHead_ExtMapEntry *)(Aligned + 48);
         if ( !*(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )
@@ -6745,7 +6745,7 @@ LABEL_64:
       __asan_handle_no_return(v16);
       _Unwind_Resume(v22);
     }
-    *(_QWORD *)Aligned = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+    *(_QWORD *)Aligned = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                        + 2;
     v14 = (proto::PacketHead::PacketHead_ExtMapEntry *)(Aligned + 48);
     if ( *(_BYTE *)(((Aligned + 48) >> 3) + 0x7FFF8000) )
@@ -6953,7 +6953,7 @@ LABEL_141:
                   __asan_handle_no_return(v41);
                   _Unwind_Resume(v47);
                 }
-                *(_QWORD *)v38 = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+                *(_QWORD *)v38 = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                                + 2;
                 v39 = (proto::PacketHead::PacketHead_ServiceAppIdMapEntry *)(v38 + 48);
                 if ( *(_BYTE *)(((v38 + 48) >> 3) + 0x7FFF8000) )
@@ -7083,7 +7083,7 @@ LABEL_102:
           }
           else
           {
-            *(_QWORD *)v38 = &`vtable for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
+            *(_QWORD *)v38 = &`vtable for google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper
                            + 2;
             v36 = (proto::PacketHead::PacketHead_ServiceAppIdMapEntry *)(v38 + 48);
             if ( !*(_BYTE *)(((v38 + 48) >> 3) + 0x7FFF8000) )
@@ -8536,7 +8536,7 @@ void __fastcall proto::DebugNotify::DebugNotify(proto::DebugNotify *const this)
     __asan_report_store8(this, v1);
     goto LABEL_6;
   }
-  this->_vptr_MessageLite = (int (**)(...))(&`vtable for'proto::DebugNotify + 2);
+  this->_vptr_MessageLite = (int (**)(...))(&`vtable for proto::DebugNotify + 2);
   this = (proto::DebugNotify *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -8573,7 +8573,7 @@ void __fastcall proto::DebugNotify::DebugNotify(proto::DebugNotify *const this, 
     goto LABEL_16;
   }
   v2 = from;
-  this->_vptr_MessageLite = (int (**)(...))(&`vtable for'proto::DebugNotify + 2);
+  this->_vptr_MessageLite = (int (**)(...))(&`vtable for proto::DebugNotify + 2);
   this = (proto::DebugNotify *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {

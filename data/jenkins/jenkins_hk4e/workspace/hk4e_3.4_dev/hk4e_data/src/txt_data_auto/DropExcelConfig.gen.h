@@ -131,7 +131,7 @@ void __cdecl data::DropNode::DropNode(data::DropNode *const this)
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DropNode = v2;
@@ -207,7 +207,7 @@ void __cdecl data::DropNode::DropNode(data::DropNode *const this, const data::Dr
   const data::DropNode *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DropNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DropNode = v2;
@@ -312,7 +312,7 @@ void __cdecl data::DropNode::~DropNode(data::DropNode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DropNode = v2;
@@ -337,7 +337,7 @@ void __cdecl data::DropExcelConfig::DropExcelConfig(data::DropExcelConfig *const
   __int64 v6; // rdx
 
   data::OutputControlConfig::OutputControlConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::DropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -426,7 +426,7 @@ void __cdecl data::DropExcelConfig::DropExcelConfig(data::DropExcelConfig *const
 
   v25 = a2;
   data::OutputControlConfig::OutputControlConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::DropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OutputControlConfig = v2;
@@ -554,7 +554,7 @@ void __cdecl data::DropExcelConfig::~DropExcelConfig(data::DropExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OutputControlConfig = v2;
@@ -659,7 +659,7 @@ void __cdecl data::DropSubfieldExcelConfig::DropSubfieldExcelConfig(
   const data::DropSubfieldExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DropSubfieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropSubfieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DropSubfieldExcelConfig = v2;
@@ -732,7 +732,7 @@ void __cdecl data::DropSubfieldExcelConfig::~DropSubfieldExcelConfig(data::DropS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropSubfieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropSubfieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DropSubfieldExcelConfig = v2;
@@ -744,7 +744,7 @@ void __cdecl data::DropSubfieldEntry::DropSubfieldEntry(data::DropSubfieldEntry 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropSubfieldEntry + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropSubfieldEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DropSubfieldEntry = v2;
@@ -767,7 +767,7 @@ void __cdecl data::DropSubfieldEntry::DropSubfieldEntry(
   uint32_t drop_subfield_id; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::DropSubfieldEntry + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropSubfieldEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DropSubfieldEntry = v2;
@@ -794,7 +794,7 @@ void __cdecl data::DropSubfieldEntry::~DropSubfieldEntry(data::DropSubfieldEntry
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DropSubfieldEntry + 2);
+  v2 = (int (**)(...))(&`vtable for data::DropSubfieldEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DropSubfieldEntry = v2;
@@ -816,7 +816,7 @@ void __cdecl data::EntityDropSubfieldExcelConfig::EntityDropSubfieldExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityDropSubfieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityDropSubfieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityDropSubfieldExcelConfig = v2;
@@ -868,7 +868,7 @@ void __cdecl data::EntityDropSubfieldExcelConfig::EntityDropSubfieldExcelConfig(
   const data::EntityDropSubfieldExcelConfig *v14; // [rsp+0h] [rbp-10h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EntityDropSubfieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityDropSubfieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityDropSubfieldExcelConfig = v2;
@@ -937,7 +937,7 @@ void __cdecl data::EntityDropSubfieldExcelConfig::~EntityDropSubfieldExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EntityDropSubfieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EntityDropSubfieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityDropSubfieldExcelConfig = v2;
@@ -958,7 +958,7 @@ void __cdecl data::BaseDropIndexConfig::BaseDropIndexConfig(data::BaseDropIndexC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseDropIndexConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseDropIndexConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1000,7 +1000,7 @@ void __cdecl data::BaseDropIndexConfig::BaseDropIndexConfig(
   const data::BaseDropIndexConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BaseDropIndexConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseDropIndexConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1054,7 +1054,7 @@ void __cdecl data::BaseDropIndexConfig::~BaseDropIndexConfig(data::BaseDropIndex
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseDropIndexConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseDropIndexConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1075,7 +1075,7 @@ void __cdecl data::MonsterDropExcelConfig::MonsterDropExcelConfig(data::MonsterD
   int (**v2)(...); // rdx
 
   data::BaseDropIndexConfig::BaseDropIndexConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1089,7 +1089,7 @@ void __cdecl data::MonsterDropExcelConfig::MonsterDropExcelConfig(
   int (**v2)(...); // rdx
 
   data::BaseDropIndexConfig::BaseDropIndexConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1101,7 +1101,7 @@ void __cdecl data::MonsterDropExcelConfig::~MonsterDropExcelConfig(data::Monster
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1122,7 +1122,7 @@ void __cdecl data::ChestDropExcelConfig::ChestDropExcelConfig(data::ChestDropExc
   int (**v2)(...); // rdx
 
   data::BaseDropIndexConfig::BaseDropIndexConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::ChestDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChestDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1147,7 +1147,7 @@ void __cdecl data::ChestDropExcelConfig::ChestDropExcelConfig(
 
   v5 = a2;
   data::BaseDropIndexConfig::BaseDropIndexConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ChestDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChestDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1173,7 +1173,7 @@ void __cdecl data::ChestDropExcelConfig::~ChestDropExcelConfig(data::ChestDropEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ChestDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ChestDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseDropIndexConfig = v2;
@@ -1194,7 +1194,7 @@ void __cdecl data::TagArrangeLimitConfig::TagArrangeLimitConfig(data::TagArrange
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TagArrangeLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TagArrangeLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TagArrangeLimitConfig = v2;
@@ -1227,7 +1227,7 @@ void __cdecl data::TagArrangeLimitConfig::TagArrangeLimitConfig(
   const data::TagArrangeLimitConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TagArrangeLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TagArrangeLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TagArrangeLimitConfig = v2;
@@ -1274,7 +1274,7 @@ void __cdecl data::TagArrangeLimitConfig::~TagArrangeLimitConfig(data::TagArrang
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TagArrangeLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TagArrangeLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TagArrangeLimitConfig = v2;

@@ -7,7 +7,7 @@ void __cdecl data::ExclusiveRuleExcelConfig::ExclusiveRuleExcelConfig(data::Excl
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ExclusiveRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExclusiveRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExclusiveRuleExcelConfig = v2;
@@ -49,7 +49,7 @@ void __cdecl data::ExclusiveRuleExcelConfig::ExclusiveRuleExcelConfig(
   const data::ExclusiveRuleExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExclusiveRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExclusiveRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExclusiveRuleExcelConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::ExclusiveRuleExcelConfig::~ExclusiveRuleExcelConfig(data::Exc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExclusiveRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExclusiveRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExclusiveRuleExcelConfig = v2;

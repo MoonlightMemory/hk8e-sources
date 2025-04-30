@@ -10,7 +10,7 @@ void __fastcall boost::gregorian::bad_weekday::~bad_weekday(boost::gregorian::ba
   }
   else
   {
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)this);
   }
 };

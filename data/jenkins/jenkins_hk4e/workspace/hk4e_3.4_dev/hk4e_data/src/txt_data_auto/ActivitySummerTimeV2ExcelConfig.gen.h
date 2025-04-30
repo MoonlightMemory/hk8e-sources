@@ -9,7 +9,7 @@ void __cdecl data::SummerTimeV2DungeonStageExcelConfig::SummerTimeV2DungeonStage
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2DungeonStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2DungeonStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SummerTimeV2DungeonStageExcelConfig = v2;
@@ -71,7 +71,7 @@ void __cdecl data::SummerTimeV2DungeonStageExcelConfig::SummerTimeV2DungeonStage
   const data::SummerTimeV2DungeonStageExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2DungeonStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2DungeonStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SummerTimeV2DungeonStageExcelConfig = v2;
@@ -154,7 +154,7 @@ void __cdecl data::SummerTimeV2DungeonStageExcelConfig::~SummerTimeV2DungeonStag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2DungeonStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2DungeonStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SummerTimeV2DungeonStageExcelConfig = v2;
@@ -199,7 +199,7 @@ void __cdecl data::SummerTimeV2BoatStageExcelConfig::SummerTimeV2BoatStageExcelC
   const data::SummerTimeV2BoatStageExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2BoatStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2BoatStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SummerTimeV2BoatStageExcelConfig = v2;
@@ -322,7 +322,7 @@ void __cdecl data::SummerTimeV2BoatStageExcelConfig::~SummerTimeV2BoatStageExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2BoatStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2BoatStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SummerTimeV2BoatStageExcelConfig = v2;
@@ -350,7 +350,7 @@ void __cdecl data::SummerTimeV2OverallExcelConfig::SummerTimeV2OverallExcelConfi
   const data::SummerTimeV2OverallExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2OverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2OverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SummerTimeV2OverallExcelConfig = v2;
@@ -390,7 +390,7 @@ void __cdecl data::SummerTimeV2OverallExcelConfig::~SummerTimeV2OverallExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SummerTimeV2OverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SummerTimeV2OverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SummerTimeV2OverallExcelConfig = v2;

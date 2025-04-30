@@ -5,7 +5,7 @@ void __cdecl std::exception::exception(std::exception *const this)
 {
   char *v1; // rdx
 
-  v1 = (char *)&`vtable for'std::exception + 16;
+  v1 = (char *)&`vtable for std::exception + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v1;
@@ -16,7 +16,7 @@ void __cdecl std::exception::exception(std::exception *const this, const std::ex
 {
   char *v2; // rdx
 
-  v2 = (char *)&`vtable for'std::exception + 16;
+  v2 = (char *)&`vtable for std::exception + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;

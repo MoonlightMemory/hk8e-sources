@@ -23,7 +23,7 @@ void __fastcall common::tools::TimerProxy::~TimerProxy(common::tools::TimerProxy
     __asan_report_store8(this);
     goto LABEL_24;
   }
-  this->_vptr_DoubleLinkNode = (int (**)(...))(&`vtable for'common::tools::TimerProxy + 2);
+  this->_vptr_DoubleLinkNode = (int (**)(...))(&`vtable for common::tools::TimerProxy + 2);
   this = (common::tools::TimerProxy *const)((char *)this + 208);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -66,7 +66,7 @@ LABEL_28:
       3LL);
   if ( *(_BYTE *)(((unsigned __int64)v1 >> 3) + 0x7FFF8000) )
     goto LABEL_28;
-  v1->_M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)(&`vtable for'common::tools::DoubleLinkNode + 2);
+  v1->_M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)(&`vtable for common::tools::DoubleLinkNode + 2);
   common::tools::DoubleLinkNode::removeFromList((common::tools::DoubleLinkNode *const)v1);
   v6 = v1 + 5;
   if ( *(_BYTE *)(((unsigned __int64)&v1[5] >> 3) + 0x7FFF8000) )

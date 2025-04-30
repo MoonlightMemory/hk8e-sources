@@ -307,7 +307,7 @@ void __cdecl data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSettin
   __int64 v5; // rsi
 
   std::enable_shared_from_this<data::ConfigAIThreatScoreBaseSetting>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAIThreatScoreBaseSetting>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIThreatScoreBaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIThreatScoreBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -378,7 +378,7 @@ void __cdecl data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSettin
   std::enable_shared_from_this<data::ConfigAIThreatScoreBaseSetting>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAIThreatScoreBaseSetting>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAIThreatScoreBaseSetting + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAIThreatScoreBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v3;
@@ -472,7 +472,7 @@ void __cdecl data::ConfigAIThreatScoreBaseSetting::~ConfigAIThreatScoreBaseSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIThreatScoreBaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIThreatScoreBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -551,7 +551,7 @@ void __cdecl data::ConfigAITSAbilityGlobalValueSetting::ConfigAITSAbilityGlobalV
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSAbilityGlobalValueSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSAbilityGlobalValueSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -566,7 +566,7 @@ void __cdecl data::ConfigAITSAbilityGlobalValueSetting::ConfigAITSAbilityGlobalV
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSAbilityGlobalValueSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSAbilityGlobalValueSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -588,7 +588,7 @@ void __cdecl data::ConfigAITSAbilityGlobalValueSetting::~ConfigAITSAbilityGlobal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSAbilityGlobalValueSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSAbilityGlobalValueSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -659,7 +659,7 @@ void __cdecl data::ConfigAITSAbilityGlobalValueSettingFactory::ConfigAITSAbility
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSAbilityGlobalValueSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSAbilityGlobalValueSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITSAbilityGlobalValueSettingFactory = v2;
@@ -673,7 +673,7 @@ void __cdecl data::ConfigAITSTargetDistanceSetting::ConfigAITSTargetDistanceSett
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetDistanceSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetDistanceSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -687,7 +687,7 @@ void __cdecl data::ConfigAITSTargetDistanceSetting::ConfigAITSTargetDistanceSett
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetDistanceSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetDistanceSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -700,7 +700,7 @@ void __cdecl data::ConfigAITSTargetDistanceSetting::~ConfigAITSTargetDistanceSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetDistanceSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetDistanceSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -778,7 +778,7 @@ void __cdecl data::ConfigAITSTargetDistanceSettingFactory::ConfigAITSTargetDista
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetDistanceSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetDistanceSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITSTargetDistanceSettingFactory = v2;
@@ -792,7 +792,7 @@ void __cdecl data::ConfigAITSTargetBearingSetting::ConfigAITSTargetBearingSettin
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetBearingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetBearingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -806,7 +806,7 @@ void __cdecl data::ConfigAITSTargetBearingSetting::ConfigAITSTargetBearingSettin
   int (**v2)(...); // rdx
 
   data::ConfigAIThreatScoreBaseSetting::ConfigAIThreatScoreBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetBearingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetBearingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -819,7 +819,7 @@ void __cdecl data::ConfigAITSTargetBearingSetting::~ConfigAITSTargetBearingSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetBearingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetBearingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIThreatScoreBaseSetting = v2;
@@ -897,7 +897,7 @@ void __cdecl data::ConfigAITSTargetBearingSettingFactory::ConfigAITSTargetBearin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITSTargetBearingSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITSTargetBearingSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITSTargetBearingSettingFactory = v2;
@@ -2375,7 +2375,7 @@ void __cdecl data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(data::Co
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigAITacticBaseSetting>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAITacticBaseSetting>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITacticBaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITacticBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2406,7 +2406,7 @@ void __cdecl data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
   std::enable_shared_from_this<data::ConfigAITacticBaseSetting>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAITacticBaseSetting>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAITacticBaseSetting + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAITacticBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAITacticBaseSetting = v3;
@@ -2441,7 +2441,7 @@ void __cdecl data::ConfigAITacticBaseSetting::~ConfigAITacticBaseSetting(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAITacticBaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAITacticBaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2577,7 +2577,7 @@ void __cdecl data::ConfigAIReturnToBornPosSetting::ConfigAIReturnToBornPosSettin
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReturnToBornPosSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReturnToBornPosSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2597,7 +2597,7 @@ void __cdecl data::ConfigAIReturnToBornPosSetting::ConfigAIReturnToBornPosSettin
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReturnToBornPosSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReturnToBornPosSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2633,7 +2633,7 @@ void __cdecl data::ConfigAIReturnToBornPosSetting::~ConfigAIReturnToBornPosSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReturnToBornPosSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReturnToBornPosSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2712,7 +2712,7 @@ void __cdecl data::ConfigAIReturnToBornPosSettingFactory::ConfigAIReturnToBornPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReturnToBornPosSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReturnToBornPosSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIReturnToBornPosSettingFactory = v2;
@@ -2802,7 +2802,7 @@ void __cdecl data::ConfigAIWanderSetting::ConfigAIWanderSetting(data::ConfigAIWa
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2821,7 +2821,7 @@ void __cdecl data::ConfigAIWanderSetting::ConfigAIWanderSetting(
   __int64 v4; // rbx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2864,7 +2864,7 @@ void __cdecl data::ConfigAIWanderSetting::~ConfigAIWanderSetting(data::ConfigAIW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2934,7 +2934,7 @@ void __cdecl data::ConfigAIWanderSettingFactory::ConfigAIWanderSettingFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIWanderSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIWanderSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIWanderSettingFactory = v2;
@@ -2978,7 +2978,7 @@ void __cdecl data::ConfigAIParallelToSetting::ConfigAIParallelToSetting(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIParallelToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIParallelToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -2997,7 +2997,7 @@ void __cdecl data::ConfigAIParallelToSetting::ConfigAIParallelToSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIParallelToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIParallelToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3036,7 +3036,7 @@ void __cdecl data::ConfigAIParallelToSetting::~ConfigAIParallelToSetting(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIParallelToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIParallelToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3105,7 +3105,7 @@ void __cdecl data::ConfigAIParallelToSettingFactory::ConfigAIParallelToSettingFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIParallelToSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIParallelToSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIParallelToSettingFactory = v2;
@@ -3160,7 +3160,7 @@ void __cdecl data::ConfigAIFollowScriptedPathSetting::ConfigAIFollowScriptedPath
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowScriptedPathSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowScriptedPathSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3178,7 +3178,7 @@ void __cdecl data::ConfigAIFollowScriptedPathSetting::ConfigAIFollowScriptedPath
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowScriptedPathSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowScriptedPathSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3209,7 +3209,7 @@ void __cdecl data::ConfigAIFollowScriptedPathSetting::~ConfigAIFollowScriptedPat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowScriptedPathSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowScriptedPathSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3288,7 +3288,7 @@ void __cdecl data::ConfigAIFollowScriptedPathSettingFactory::ConfigAIFollowScrip
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowScriptedPathSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowScriptedPathSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFollowScriptedPathSettingFactory = v2;
@@ -3349,7 +3349,7 @@ void __cdecl data::ConfigAIFollowServerRouteSetting::ConfigAIFollowServerRouteSe
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowServerRouteSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowServerRouteSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3368,7 +3368,7 @@ void __cdecl data::ConfigAIFollowServerRouteSetting::ConfigAIFollowServerRouteSe
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowServerRouteSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowServerRouteSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3410,7 +3410,7 @@ void __cdecl data::ConfigAIFollowServerRouteSetting::~ConfigAIFollowServerRouteS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowServerRouteSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowServerRouteSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3481,7 +3481,7 @@ void __cdecl data::ConfigAIFollowServerRouteSettingFactory::ConfigAIFollowServer
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFollowServerRouteSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFollowServerRouteSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFollowServerRouteSettingFactory = v2;
@@ -3526,7 +3526,7 @@ void __cdecl data::ConfigAIInvestigateSetting::ConfigAIInvestigateSetting(data::
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIInvestigateSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIInvestigateSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3544,7 +3544,7 @@ void __cdecl data::ConfigAIInvestigateSetting::ConfigAIInvestigateSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIInvestigateSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIInvestigateSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3583,7 +3583,7 @@ void __cdecl data::ConfigAIInvestigateSetting::~ConfigAIInvestigateSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIInvestigateSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIInvestigateSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3652,7 +3652,7 @@ void __cdecl data::ConfigAIInvestigateSettingFactory::ConfigAIInvestigateSetting
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIInvestigateSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIInvestigateSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIInvestigateSettingFactory = v2;
@@ -3937,7 +3937,7 @@ void __cdecl data::ConfigAIReactActionPointSetting::ConfigAIReactActionPointSett
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReactActionPointSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReactActionPointSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3953,7 +3953,7 @@ void __cdecl data::ConfigAIReactActionPointSetting::ConfigAIReactActionPointSett
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReactActionPointSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReactActionPointSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -3976,7 +3976,7 @@ void __cdecl data::ConfigAIReactActionPointSetting::~ConfigAIReactActionPointSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReactActionPointSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReactActionPointSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4048,7 +4048,7 @@ void __cdecl data::ConfigAIReactActionPointSettingFactory::ConfigAIReactActionPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIReactActionPointSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIReactActionPointSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIReactActionPointSettingFactory = v2;
@@ -4105,7 +4105,7 @@ void __cdecl data::ConfigAIPatrolFollowSetting::ConfigAIPatrolFollowSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIPatrolFollowSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIPatrolFollowSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4124,7 +4124,7 @@ void __cdecl data::ConfigAIPatrolFollowSetting::ConfigAIPatrolFollowSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIPatrolFollowSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIPatrolFollowSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4158,7 +4158,7 @@ void __cdecl data::ConfigAIPatrolFollowSetting::~ConfigAIPatrolFollowSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIPatrolFollowSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIPatrolFollowSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4235,7 +4235,7 @@ void __cdecl data::ConfigAIPatrolFollowSettingFactory::ConfigAIPatrolFollowSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIPatrolFollowSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIPatrolFollowSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIPatrolFollowSettingFactory = v2;
@@ -4345,7 +4345,7 @@ void __cdecl data::ConfigAICombatFollowMoveSetting::ConfigAICombatFollowMoveSett
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFollowMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFollowMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4366,7 +4366,7 @@ void __cdecl data::ConfigAICombatFollowMoveSetting::ConfigAICombatFollowMoveSett
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFollowMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFollowMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4406,7 +4406,7 @@ void __cdecl data::ConfigAICombatFollowMoveSetting::~ConfigAICombatFollowMoveSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFollowMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFollowMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4485,7 +4485,7 @@ void __cdecl data::ConfigAICombatFollowMoveSettingFactory::ConfigAICombatFollowM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFollowMoveSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFollowMoveSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICombatFollowMoveSettingFactory = v2;
@@ -4560,7 +4560,7 @@ void __cdecl data::ConfigAIMeleeChargeSetting::ConfigAIMeleeChargeSetting(data::
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMeleeChargeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMeleeChargeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4580,7 +4580,7 @@ void __cdecl data::ConfigAIMeleeChargeSetting::ConfigAIMeleeChargeSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMeleeChargeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMeleeChargeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4624,7 +4624,7 @@ void __cdecl data::ConfigAIMeleeChargeSetting::~ConfigAIMeleeChargeSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMeleeChargeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMeleeChargeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -4693,7 +4693,7 @@ void __cdecl data::ConfigAIMeleeChargeSettingFactory::ConfigAIMeleeChargeSetting
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMeleeChargeSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMeleeChargeSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIMeleeChargeSettingFactory = v2;
@@ -5134,7 +5134,7 @@ void __cdecl data::ConfigAIFacingMoveSetting::ConfigAIFacingMoveSetting(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5150,7 +5150,7 @@ void __cdecl data::ConfigAIFacingMoveSetting::ConfigAIFacingMoveSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5171,7 +5171,7 @@ void __cdecl data::ConfigAIFacingMoveSetting::~ConfigAIFacingMoveSetting(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5241,7 +5241,7 @@ void __cdecl data::ConfigAIFacingMoveSettingFactory::ConfigAIFacingMoveSettingFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFacingMoveSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFacingMoveSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFacingMoveSettingFactory = v2;
@@ -5473,7 +5473,7 @@ void __cdecl data::ConfigAISurroundSetting::ConfigAISurroundSetting(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5489,7 +5489,7 @@ void __cdecl data::ConfigAISurroundSetting::ConfigAISurroundSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5510,7 +5510,7 @@ void __cdecl data::ConfigAISurroundSetting::~ConfigAISurroundSetting(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5580,7 +5580,7 @@ void __cdecl data::ConfigAISurroundSettingFactory::ConfigAISurroundSettingFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISurroundSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISurroundSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISurroundSettingFactory = v2;
@@ -5938,7 +5938,7 @@ void __cdecl data::ConfigAIGroupSurroundSetting::ConfigAIGroupSurroundSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIGroupSurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIGroupSurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5954,7 +5954,7 @@ void __cdecl data::ConfigAIGroupSurroundSetting::ConfigAIGroupSurroundSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIGroupSurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIGroupSurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -5977,7 +5977,7 @@ void __cdecl data::ConfigAIGroupSurroundSetting::~ConfigAIGroupSurroundSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIGroupSurroundSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIGroupSurroundSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6048,7 +6048,7 @@ void __cdecl data::ConfigAIGroupSurroundSettingFactory::ConfigAIGroupSurroundSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIGroupSurroundSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIGroupSurroundSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIGroupSurroundSettingFactory = v2;
@@ -6110,7 +6110,7 @@ void __cdecl data::ConfigAIFindBackSetting::ConfigAIFindBackSetting(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFindBackSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFindBackSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6129,7 +6129,7 @@ void __cdecl data::ConfigAIFindBackSetting::ConfigAIFindBackSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFindBackSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFindBackSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6170,7 +6170,7 @@ void __cdecl data::ConfigAIFindBackSetting::~ConfigAIFindBackSetting(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFindBackSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFindBackSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6239,7 +6239,7 @@ void __cdecl data::ConfigAIFindBackSettingFactory::ConfigAIFindBackSettingFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFindBackSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFindBackSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFindBackSettingFactory = v2;
@@ -6310,7 +6310,7 @@ void __cdecl data::ConfigAICombatFixedMoveSetting::ConfigAICombatFixedMoveSettin
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFixedMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFixedMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6330,7 +6330,7 @@ void __cdecl data::ConfigAICombatFixedMoveSetting::ConfigAICombatFixedMoveSettin
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFixedMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFixedMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6374,7 +6374,7 @@ void __cdecl data::ConfigAICombatFixedMoveSetting::~ConfigAICombatFixedMoveSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFixedMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFixedMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6445,7 +6445,7 @@ void __cdecl data::ConfigAICombatFixedMoveSettingFactory::ConfigAICombatFixedMov
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICombatFixedMoveSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICombatFixedMoveSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICombatFixedMoveSettingFactory = v2;
@@ -6526,7 +6526,7 @@ void __cdecl data::ConfigAICrabMoveSetting::ConfigAICrabMoveSetting(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICrabMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICrabMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6546,7 +6546,7 @@ void __cdecl data::ConfigAICrabMoveSetting::ConfigAICrabMoveSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICrabMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICrabMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6589,7 +6589,7 @@ void __cdecl data::ConfigAICrabMoveSetting::~ConfigAICrabMoveSetting(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICrabMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICrabMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6658,7 +6658,7 @@ void __cdecl data::ConfigAICrabMoveSettingFactory::ConfigAICrabMoveSettingFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICrabMoveSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICrabMoveSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICrabMoveSettingFactory = v2;
@@ -6778,7 +6778,7 @@ void __cdecl data::ConfigAIFleeSetting::ConfigAIFleeSetting(data::ConfigAIFleeSe
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6799,7 +6799,7 @@ void __cdecl data::ConfigAIFleeSetting::ConfigAIFleeSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6838,7 +6838,7 @@ void __cdecl data::ConfigAIFleeSetting::~ConfigAIFleeSetting(data::ConfigAIFleeS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -6913,7 +6913,7 @@ void __cdecl data::ConfigAIFleeSettingFactory::ConfigAIFleeSettingFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFleeSettingFactory = v2;
@@ -6983,7 +6983,7 @@ void __cdecl data::ConfigAIFleeOnBlockAvatarLandingSetting::ConfigAIFleeOnBlockA
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7003,7 +7003,7 @@ void __cdecl data::ConfigAIFleeOnBlockAvatarLandingSetting::ConfigAIFleeOnBlockA
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7049,7 +7049,7 @@ void __cdecl data::ConfigAIFleeOnBlockAvatarLandingSetting::~ConfigAIFleeOnBlock
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeOnBlockAvatarLandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7120,7 +7120,7 @@ void __cdecl data::ConfigAIFleeOnBlockAvatarLandingSettingFactory::ConfigAIFleeO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFleeOnBlockAvatarLandingSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFleeOnBlockAvatarLandingSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFleeOnBlockAvatarLandingSettingFactory = v2;
@@ -7306,7 +7306,7 @@ void __cdecl data::ConfigAISpacialChaseSetting::ConfigAISpacialChaseSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialChaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialChaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7322,7 +7322,7 @@ void __cdecl data::ConfigAISpacialChaseSetting::ConfigAISpacialChaseSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialChaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialChaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7337,7 +7337,7 @@ void __cdecl data::ConfigAISpacialChaseSetting::~ConfigAISpacialChaseSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialChaseSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialChaseSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7415,7 +7415,7 @@ void __cdecl data::ConfigAISpacialChaseSettingFactory::ConfigAISpacialChaseSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialChaseSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialChaseSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISpacialChaseSettingFactory = v2;
@@ -7517,7 +7517,7 @@ void __cdecl data::ConfigAISpacialProbeSetting::ConfigAISpacialProbeSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialProbeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialProbeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7538,7 +7538,7 @@ void __cdecl data::ConfigAISpacialProbeSetting::ConfigAISpacialProbeSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialProbeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialProbeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7577,7 +7577,7 @@ void __cdecl data::ConfigAISpacialProbeSetting::~ConfigAISpacialProbeSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialProbeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialProbeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7654,7 +7654,7 @@ void __cdecl data::ConfigAISpacialProbeSettingFactory::ConfigAISpacialProbeSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialProbeSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialProbeSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISpacialProbeSettingFactory = v2;
@@ -7699,7 +7699,7 @@ void __cdecl data::ConfigAISpacialAdjustSetting::ConfigAISpacialAdjustSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialAdjustSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialAdjustSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7718,7 +7718,7 @@ void __cdecl data::ConfigAISpacialAdjustSetting::ConfigAISpacialAdjustSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialAdjustSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialAdjustSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7751,7 +7751,7 @@ void __cdecl data::ConfigAISpacialAdjustSetting::~ConfigAISpacialAdjustSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialAdjustSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialAdjustSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -7829,7 +7829,7 @@ void __cdecl data::ConfigAISpacialAdjustSettingFactory::ConfigAISpacialAdjustSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialAdjustSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialAdjustSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISpacialAdjustSettingFactory = v2;
@@ -8165,7 +8165,7 @@ void __cdecl data::ConfigAISpacialWanderSetting::ConfigAISpacialWanderSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8181,7 +8181,7 @@ void __cdecl data::ConfigAISpacialWanderSetting::ConfigAISpacialWanderSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8204,7 +8204,7 @@ void __cdecl data::ConfigAISpacialWanderSetting::~ConfigAISpacialWanderSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialWanderSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialWanderSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8275,7 +8275,7 @@ void __cdecl data::ConfigAISpacialWanderSettingFactory::ConfigAISpacialWanderSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialWanderSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialWanderSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISpacialWanderSettingFactory = v2;
@@ -8314,7 +8314,7 @@ void __cdecl data::ConfigAIBirdCirclingSetting::ConfigAIBirdCirclingSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBirdCirclingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBirdCirclingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8332,7 +8332,7 @@ void __cdecl data::ConfigAIBirdCirclingSetting::ConfigAIBirdCirclingSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBirdCirclingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBirdCirclingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8371,7 +8371,7 @@ void __cdecl data::ConfigAIBirdCirclingSetting::~ConfigAIBirdCirclingSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBirdCirclingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBirdCirclingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8440,7 +8440,7 @@ void __cdecl data::ConfigAIBirdCirclingSettingFactory::ConfigAIBirdCirclingSetti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBirdCirclingSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBirdCirclingSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIBirdCirclingSettingFactory = v2;
@@ -8487,7 +8487,7 @@ void __cdecl data::ConfigAIScriptedMoveToSetting::ConfigAIScriptedMoveToSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIScriptedMoveToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIScriptedMoveToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8505,7 +8505,7 @@ void __cdecl data::ConfigAIScriptedMoveToSetting::ConfigAIScriptedMoveToSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIScriptedMoveToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIScriptedMoveToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8536,7 +8536,7 @@ void __cdecl data::ConfigAIScriptedMoveToSetting::~ConfigAIScriptedMoveToSetting
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIScriptedMoveToSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIScriptedMoveToSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8614,7 +8614,7 @@ void __cdecl data::ConfigAIScriptedMoveToSettingFactory::ConfigAIScriptedMoveToS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIScriptedMoveToSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIScriptedMoveToSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIScriptedMoveToSettingFactory = v2;
@@ -8665,7 +8665,7 @@ void __cdecl data::ConfigAILandingSetting::ConfigAILandingSetting(data::ConfigAI
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAILandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAILandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8684,7 +8684,7 @@ void __cdecl data::ConfigAILandingSetting::ConfigAILandingSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAILandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAILandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8724,7 +8724,7 @@ void __cdecl data::ConfigAILandingSetting::~ConfigAILandingSetting(data::ConfigA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAILandingSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAILandingSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8793,7 +8793,7 @@ void __cdecl data::ConfigAILandingSettingFactory::ConfigAILandingSettingFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAILandingSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAILandingSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAILandingSettingFactory = v2;
@@ -8857,7 +8857,7 @@ void __cdecl data::ConfigAIExtractionSetting::ConfigAIExtractionSetting(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIExtractionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIExtractionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8876,7 +8876,7 @@ void __cdecl data::ConfigAIExtractionSetting::ConfigAIExtractionSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIExtractionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIExtractionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8910,7 +8910,7 @@ void __cdecl data::ConfigAIExtractionSetting::~ConfigAIExtractionSetting(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIExtractionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIExtractionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -8986,7 +8986,7 @@ void __cdecl data::ConfigAIExtractionSettingFactory::ConfigAIExtractionSettingFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIExtractionSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIExtractionSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIExtractionSettingFactory = v2;
@@ -9069,7 +9069,7 @@ void __cdecl data::ConfigAIBrownianMotionSetting::ConfigAIBrownianMotionSetting(
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBrownianMotionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBrownianMotionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9089,7 +9089,7 @@ void __cdecl data::ConfigAIBrownianMotionSetting::ConfigAIBrownianMotionSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBrownianMotionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBrownianMotionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9125,7 +9125,7 @@ void __cdecl data::ConfigAIBrownianMotionSetting::~ConfigAIBrownianMotionSetting
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBrownianMotionSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBrownianMotionSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9203,7 +9203,7 @@ void __cdecl data::ConfigAIBrownianMotionSettingFactory::ConfigAIBrownianMotionS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIBrownianMotionSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIBrownianMotionSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIBrownianMotionSettingFactory = v2;
@@ -9243,7 +9243,7 @@ void __cdecl data::ConfigAIFishingBitesBaitSetting::ConfigAIFishingBitesBaitSett
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingBitesBaitSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingBitesBaitSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9261,7 +9261,7 @@ void __cdecl data::ConfigAIFishingBitesBaitSetting::ConfigAIFishingBitesBaitSett
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingBitesBaitSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingBitesBaitSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9292,7 +9292,7 @@ void __cdecl data::ConfigAIFishingBitesBaitSetting::~ConfigAIFishingBitesBaitSet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingBitesBaitSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingBitesBaitSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9371,7 +9371,7 @@ void __cdecl data::ConfigAIFishingBitesBaitSettingFactory::ConfigAIFishingBitesB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingBitesBaitSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingBitesBaitSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFishingBitesBaitSettingFactory = v2;
@@ -9431,7 +9431,7 @@ void __cdecl data::ConfigAIFishingPretendBitesSetting::ConfigAIFishingPretendBit
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingPretendBitesSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingPretendBitesSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9450,7 +9450,7 @@ void __cdecl data::ConfigAIFishingPretendBitesSetting::ConfigAIFishingPretendBit
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingPretendBitesSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingPretendBitesSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9492,7 +9492,7 @@ void __cdecl data::ConfigAIFishingPretendBitesSetting::~ConfigAIFishingPretendBi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingPretendBitesSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingPretendBitesSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9563,7 +9563,7 @@ void __cdecl data::ConfigAIFishingPretendBitesSettingFactory::ConfigAIFishingPre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingPretendBitesSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingPretendBitesSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFishingPretendBitesSettingFactory = v2;
@@ -9646,7 +9646,7 @@ void __cdecl data::ConfigAIFishingFleeSetting::ConfigAIFishingFleeSetting(data::
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9665,7 +9665,7 @@ void __cdecl data::ConfigAIFishingFleeSetting::ConfigAIFishingFleeSetting(
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9708,7 +9708,7 @@ void __cdecl data::ConfigAIFishingFleeSetting::~ConfigAIFishingFleeSetting(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingFleeSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingFleeSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -9777,7 +9777,7 @@ void __cdecl data::ConfigAIFishingFleeSettingFactory::ConfigAIFishingFleeSetting
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIFishingFleeSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIFishingFleeSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIFishingFleeSettingFactory = v2;
@@ -10401,7 +10401,7 @@ void __cdecl data::ConfigAISpacialFacingMoveSetting::ConfigAISpacialFacingMoveSe
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10417,7 +10417,7 @@ void __cdecl data::ConfigAISpacialFacingMoveSetting::ConfigAISpacialFacingMoveSe
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10432,7 +10432,7 @@ void __cdecl data::ConfigAISpacialFacingMoveSetting::~ConfigAISpacialFacingMoveS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialFacingMoveSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialFacingMoveSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10512,7 +10512,7 @@ void __cdecl data::ConfigAISpacialFacingMoveSettingFactory::ConfigAISpacialFacin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAISpacialFacingMoveSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAISpacialFacingMoveSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAISpacialFacingMoveSettingFactory = v2;
@@ -10573,7 +10573,7 @@ void __cdecl data::ConfigAIMoveToSpecialAlertTargetSetting::ConfigAIMoveToSpecia
   int (**v2)(...); // rdx
 
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting((data::ConfigAITacticBaseSetting *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10592,7 +10592,7 @@ void __cdecl data::ConfigAIMoveToSpecialAlertTargetSetting::ConfigAIMoveToSpecia
   data::ConfigAITacticBaseSetting::ConfigAITacticBaseSetting(
     (data::ConfigAITacticBaseSetting *const)this,
     (const data::ConfigAITacticBaseSetting *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10628,7 +10628,7 @@ void __cdecl data::ConfigAIMoveToSpecialAlertTargetSetting::~ConfigAIMoveToSpeci
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMoveToSpecialAlertTargetSetting + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAITacticBaseSetting = v2;
@@ -10707,7 +10707,7 @@ void __cdecl data::ConfigAIMoveToSpecialAlertTargetSettingFactory::ConfigAIMoveT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAIMoveToSpecialAlertTargetSettingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAIMoveToSpecialAlertTargetSettingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAIMoveToSpecialAlertTargetSettingFactory = v2;

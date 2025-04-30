@@ -36,7 +36,7 @@ void __cdecl data::ConfigMusicCondition::ConfigMusicCondition(data::ConfigMusicC
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigMusicCondition>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMusicCondition>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -72,7 +72,7 @@ void __cdecl data::ConfigMusicCondition::ConfigMusicCondition(
   std::enable_shared_from_this<data::ConfigMusicCondition>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMusicCondition>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMusicCondition + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMusicCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMusicCondition = v3;
@@ -115,7 +115,7 @@ void __cdecl data::ConfigMusicCondition::~ConfigMusicCondition(data::ConfigMusic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -183,7 +183,7 @@ void __cdecl data::ConfigMusicTrueCondition::ConfigMusicTrueCondition(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigMusicCondition::ConfigMusicCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicTrueCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicTrueCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -197,7 +197,7 @@ void __cdecl data::ConfigMusicTrueCondition::ConfigMusicTrueCondition(
   int (**v2)(...); // rdx
 
   data::ConfigMusicCondition::ConfigMusicCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicTrueCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicTrueCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -209,7 +209,7 @@ void __cdecl data::ConfigMusicTrueCondition::~ConfigMusicTrueCondition(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicTrueCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicTrueCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -284,7 +284,7 @@ void __cdecl data::ConfigMusicTrueConditionFactory::ConfigMusicTrueConditionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicTrueConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicTrueConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicTrueConditionFactory = v2;
@@ -298,7 +298,7 @@ void __cdecl data::ConfigMusicNegativeCondition::ConfigMusicNegativeCondition(
   int (**v2)(...); // rdx
 
   data::ConfigMusicCondition::ConfigMusicCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicNegativeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicNegativeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -320,7 +320,7 @@ void __cdecl data::ConfigMusicNegativeCondition::ConfigMusicNegativeCondition(
   char v4; // al
 
   data::ConfigMusicCondition::ConfigMusicCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicNegativeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicNegativeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -346,7 +346,7 @@ void __cdecl data::ConfigMusicNegativeCondition::~ConfigMusicNegativeCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicNegativeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicNegativeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -423,7 +423,7 @@ void __cdecl data::ConfigMusicNegativeConditionFactory::ConfigMusicNegativeCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicNegativeConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicNegativeConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicNegativeConditionFactory = v2;
@@ -436,7 +436,7 @@ void __cdecl data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(data::
   int (**v2)(...); // rdx
 
   data::ConfigMusicCondition::ConfigMusicCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBinaryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBinaryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -469,7 +469,7 @@ void __cdecl data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(
 
   v8 = a2;
   data::ConfigMusicCondition::ConfigMusicCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBinaryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBinaryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -517,7 +517,7 @@ void __cdecl data::ConfigMusicBinaryCondition::~ConfigMusicBinaryCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBinaryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBinaryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -586,7 +586,7 @@ void __cdecl data::ConfigMusicConjunctiveCondition::ConfigMusicConjunctiveCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicConjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicConjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -600,7 +600,7 @@ void __cdecl data::ConfigMusicConjunctiveCondition::ConfigMusicConjunctiveCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicConjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicConjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -613,7 +613,7 @@ void __cdecl data::ConfigMusicConjunctiveCondition::~ConfigMusicConjunctiveCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicConjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicConjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -691,7 +691,7 @@ void __cdecl data::ConfigMusicConjunctiveConditionFactory::ConfigMusicConjunctiv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicConjunctiveConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicConjunctiveConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicConjunctiveConditionFactory = v2;
@@ -705,7 +705,7 @@ void __cdecl data::ConfigMusicDisjunctiveCondition::ConfigMusicDisjunctiveCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDisjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDisjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -719,7 +719,7 @@ void __cdecl data::ConfigMusicDisjunctiveCondition::ConfigMusicDisjunctiveCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicBinaryCondition::ConfigMusicBinaryCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDisjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDisjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -740,7 +740,7 @@ void __cdecl data::ConfigMusicDisjunctiveCondition::~ConfigMusicDisjunctiveCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDisjunctiveCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDisjunctiveCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -810,7 +810,7 @@ void __cdecl data::ConfigMusicDisjunctiveConditionFactory::ConfigMusicDisjunctiv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDisjunctiveConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDisjunctiveConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDisjunctiveConditionFactory = v2;
@@ -824,7 +824,7 @@ void __cdecl data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
   int (**v2)(...); // rdx
 
   data::ConfigMusicCondition::ConfigMusicCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -846,7 +846,7 @@ void __cdecl data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
   char v4; // al
 
   data::ConfigMusicCondition::ConfigMusicCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -872,7 +872,7 @@ void __cdecl data::ConfigMusicParameterCondition::~ConfigMusicParameterCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -949,7 +949,7 @@ void __cdecl data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition((data::ConfigMusicParameterCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -974,7 +974,7 @@ void __cdecl data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
     (data::ConfigMusicParameterCondition *const)this,
     (const data::ConfigMusicParameterCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1000,7 +1000,7 @@ void __cdecl data::ConfigMusicInt32Condition::~ConfigMusicInt32Condition(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1076,7 +1076,7 @@ void __cdecl data::ConfigMusicInt32EqualityCondition::ConfigMusicInt32EqualityCo
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1090,7 +1090,7 @@ void __cdecl data::ConfigMusicInt32EqualityCondition::ConfigMusicInt32EqualityCo
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1103,7 +1103,7 @@ void __cdecl data::ConfigMusicInt32EqualityCondition::~ConfigMusicInt32EqualityC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1181,7 +1181,7 @@ void __cdecl data::ConfigMusicInt32EqualityConditionFactory::ConfigMusicInt32Equ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32EqualityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32EqualityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32EqualityConditionFactory = v2;
@@ -1195,7 +1195,7 @@ void __cdecl data::ConfigMusicInt32InequalityCondition::ConfigMusicInt32Inequali
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1209,7 +1209,7 @@ void __cdecl data::ConfigMusicInt32InequalityCondition::ConfigMusicInt32Inequali
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1230,7 +1230,7 @@ void __cdecl data::ConfigMusicInt32InequalityCondition::~ConfigMusicInt32Inequal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1300,7 +1300,7 @@ void __cdecl data::ConfigMusicInt32InequalityConditionFactory::ConfigMusicInt32I
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32InequalityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32InequalityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32InequalityConditionFactory = v2;
@@ -1314,7 +1314,7 @@ void __cdecl data::ConfigMusicInt32GreaterThanCondition::ConfigMusicInt32Greater
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1328,7 +1328,7 @@ void __cdecl data::ConfigMusicInt32GreaterThanCondition::ConfigMusicInt32Greater
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1349,7 +1349,7 @@ void __cdecl data::ConfigMusicInt32GreaterThanCondition::~ConfigMusicInt32Greate
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1419,7 +1419,7 @@ void __cdecl data::ConfigMusicInt32GreaterThanConditionFactory::ConfigMusicInt32
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32GreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32GreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32GreaterThanConditionFactory = v2;
@@ -1433,7 +1433,7 @@ void __cdecl data::ConfigMusicInt32LessThanCondition::ConfigMusicInt32LessThanCo
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1447,7 +1447,7 @@ void __cdecl data::ConfigMusicInt32LessThanCondition::ConfigMusicInt32LessThanCo
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1460,7 +1460,7 @@ void __cdecl data::ConfigMusicInt32LessThanCondition::~ConfigMusicInt32LessThanC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1538,7 +1538,7 @@ void __cdecl data::ConfigMusicInt32LessThanConditionFactory::ConfigMusicInt32Les
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32LessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32LessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32LessThanConditionFactory = v2;
@@ -1552,7 +1552,7 @@ void __cdecl data::ConfigMusicInt32NoGreaterThanCondition::ConfigMusicInt32NoGre
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1566,7 +1566,7 @@ void __cdecl data::ConfigMusicInt32NoGreaterThanCondition::ConfigMusicInt32NoGre
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1587,7 +1587,7 @@ void __cdecl data::ConfigMusicInt32NoGreaterThanCondition::~ConfigMusicInt32NoGr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1657,7 +1657,7 @@ void __cdecl data::ConfigMusicInt32NoGreaterThanConditionFactory::ConfigMusicInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32NoGreaterThanConditionFactory = v2;
@@ -1671,7 +1671,7 @@ void __cdecl data::ConfigMusicInt32NoLessThanCondition::ConfigMusicInt32NoLessTh
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1685,7 +1685,7 @@ void __cdecl data::ConfigMusicInt32NoLessThanCondition::ConfigMusicInt32NoLessTh
   int (**v2)(...); // rdx
 
   data::ConfigMusicInt32Condition::ConfigMusicInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1706,7 +1706,7 @@ void __cdecl data::ConfigMusicInt32NoLessThanCondition::~ConfigMusicInt32NoLessT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1776,7 +1776,7 @@ void __cdecl data::ConfigMusicInt32NoLessThanConditionFactory::ConfigMusicInt32N
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicInt32NoLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicInt32NoLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicInt32NoLessThanConditionFactory = v2;
@@ -1789,7 +1789,7 @@ void __cdecl data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(data::
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition((data::ConfigMusicParameterCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1814,7 +1814,7 @@ void __cdecl data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
     (data::ConfigMusicParameterCondition *const)this,
     (const data::ConfigMusicParameterCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1841,7 +1841,7 @@ void __cdecl data::ConfigMusicUInt32Condition::~ConfigMusicUInt32Condition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32Condition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32Condition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1918,7 +1918,7 @@ void __cdecl data::ConfigMusicUInt32EqualityCondition::ConfigMusicUInt32Equality
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1932,7 +1932,7 @@ void __cdecl data::ConfigMusicUInt32EqualityCondition::ConfigMusicUInt32Equality
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -1945,7 +1945,7 @@ void __cdecl data::ConfigMusicUInt32EqualityCondition::~ConfigMusicUInt32Equalit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32EqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32EqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2023,7 +2023,7 @@ void __cdecl data::ConfigMusicUInt32EqualityConditionFactory::ConfigMusicUInt32E
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32EqualityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32EqualityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32EqualityConditionFactory = v2;
@@ -2037,7 +2037,7 @@ void __cdecl data::ConfigMusicUInt32InequalityCondition::ConfigMusicUInt32Inequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2051,7 +2051,7 @@ void __cdecl data::ConfigMusicUInt32InequalityCondition::ConfigMusicUInt32Inequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2072,7 +2072,7 @@ void __cdecl data::ConfigMusicUInt32InequalityCondition::~ConfigMusicUInt32Inequ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32InequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32InequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2142,7 +2142,7 @@ void __cdecl data::ConfigMusicUInt32InequalityConditionFactory::ConfigMusicUInt3
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32InequalityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32InequalityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32InequalityConditionFactory = v2;
@@ -2156,7 +2156,7 @@ void __cdecl data::ConfigMusicUInt32GreaterThanCondition::ConfigMusicUInt32Great
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2170,7 +2170,7 @@ void __cdecl data::ConfigMusicUInt32GreaterThanCondition::ConfigMusicUInt32Great
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2183,7 +2183,7 @@ void __cdecl data::ConfigMusicUInt32GreaterThanCondition::~ConfigMusicUInt32Grea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32GreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32GreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2261,7 +2261,7 @@ void __cdecl data::ConfigMusicUInt32GreaterThanConditionFactory::ConfigMusicUInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32GreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32GreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32GreaterThanConditionFactory = v2;
@@ -2275,7 +2275,7 @@ void __cdecl data::ConfigMusicUInt32LessThanCondition::ConfigMusicUInt32LessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2289,7 +2289,7 @@ void __cdecl data::ConfigMusicUInt32LessThanCondition::ConfigMusicUInt32LessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2302,7 +2302,7 @@ void __cdecl data::ConfigMusicUInt32LessThanCondition::~ConfigMusicUInt32LessTha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32LessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32LessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2380,7 +2380,7 @@ void __cdecl data::ConfigMusicUInt32LessThanConditionFactory::ConfigMusicUInt32L
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32LessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32LessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32LessThanConditionFactory = v2;
@@ -2394,7 +2394,7 @@ void __cdecl data::ConfigMusicUInt32NoGreaterThanCondition::ConfigMusicUInt32NoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2408,7 +2408,7 @@ void __cdecl data::ConfigMusicUInt32NoGreaterThanCondition::ConfigMusicUInt32NoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2421,7 +2421,7 @@ void __cdecl data::ConfigMusicUInt32NoGreaterThanCondition::~ConfigMusicUInt32No
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2499,7 +2499,7 @@ void __cdecl data::ConfigMusicUInt32NoGreaterThanConditionFactory::ConfigMusicUI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32NoGreaterThanConditionFactory = v2;
@@ -2513,7 +2513,7 @@ void __cdecl data::ConfigMusicUInt32NoLessThanCondition::ConfigMusicUInt32NoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2527,7 +2527,7 @@ void __cdecl data::ConfigMusicUInt32NoLessThanCondition::ConfigMusicUInt32NoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32Condition::ConfigMusicUInt32Condition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2540,7 +2540,7 @@ void __cdecl data::ConfigMusicUInt32NoLessThanCondition::~ConfigMusicUInt32NoLes
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2618,7 +2618,7 @@ void __cdecl data::ConfigMusicUInt32NoLessThanConditionFactory::ConfigMusicUInt3
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32NoLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32NoLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32NoLessThanConditionFactory = v2;
@@ -2632,7 +2632,7 @@ void __cdecl data::ConfigMusicUInt32MultiCondition::ConfigMusicUInt32MultiCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32MultiCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32MultiCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2647,7 +2647,7 @@ void __cdecl data::ConfigMusicUInt32MultiCondition::ConfigMusicUInt32MultiCondit
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32MultiCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32MultiCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2669,7 +2669,7 @@ void __cdecl data::ConfigMusicUInt32MultiCondition::~ConfigMusicUInt32MultiCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32MultiCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32MultiCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2740,7 +2740,7 @@ void __cdecl data::ConfigMusicUInt32MultiConditionFactory::ConfigMusicUInt32Mult
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32MultiConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32MultiConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32MultiConditionFactory = v2;
@@ -2753,7 +2753,7 @@ void __cdecl data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(data::
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition((data::ConfigMusicParameterCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2776,7 +2776,7 @@ void __cdecl data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
     (data::ConfigMusicParameterCondition *const)this,
     (const data::ConfigMusicParameterCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2801,7 +2801,7 @@ void __cdecl data::ConfigMusicSingleCondition::~ConfigMusicSingleCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2878,7 +2878,7 @@ void __cdecl data::ConfigMusicSingleEqualityCondition::ConfigMusicSingleEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2892,7 +2892,7 @@ void __cdecl data::ConfigMusicSingleEqualityCondition::ConfigMusicSingleEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2913,7 +2913,7 @@ void __cdecl data::ConfigMusicSingleEqualityCondition::~ConfigMusicSingleEqualit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -2983,7 +2983,7 @@ void __cdecl data::ConfigMusicSingleEqualityConditionFactory::ConfigMusicSingleE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleEqualityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleEqualityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleEqualityConditionFactory = v2;
@@ -2997,7 +2997,7 @@ void __cdecl data::ConfigMusicSingleInequalityCondition::ConfigMusicSingleInequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3011,7 +3011,7 @@ void __cdecl data::ConfigMusicSingleInequalityCondition::ConfigMusicSingleInequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3032,7 +3032,7 @@ void __cdecl data::ConfigMusicSingleInequalityCondition::~ConfigMusicSingleInequ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3102,7 +3102,7 @@ void __cdecl data::ConfigMusicSingleInequalityConditionFactory::ConfigMusicSingl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleInequalityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleInequalityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleInequalityConditionFactory = v2;
@@ -3116,7 +3116,7 @@ void __cdecl data::ConfigMusicSingleGreaterThanCondition::ConfigMusicSingleGreat
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3130,7 +3130,7 @@ void __cdecl data::ConfigMusicSingleGreaterThanCondition::ConfigMusicSingleGreat
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3151,7 +3151,7 @@ void __cdecl data::ConfigMusicSingleGreaterThanCondition::~ConfigMusicSingleGrea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3221,7 +3221,7 @@ void __cdecl data::ConfigMusicSingleGreaterThanConditionFactory::ConfigMusicSing
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleGreaterThanConditionFactory = v2;
@@ -3235,7 +3235,7 @@ void __cdecl data::ConfigMusicSingleLessThanCondition::ConfigMusicSingleLessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3249,7 +3249,7 @@ void __cdecl data::ConfigMusicSingleLessThanCondition::ConfigMusicSingleLessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3262,7 +3262,7 @@ void __cdecl data::ConfigMusicSingleLessThanCondition::~ConfigMusicSingleLessTha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3340,7 +3340,7 @@ void __cdecl data::ConfigMusicSingleLessThanConditionFactory::ConfigMusicSingleL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleLessThanConditionFactory = v2;
@@ -3354,7 +3354,7 @@ void __cdecl data::ConfigMusicSingleNoGreaterThanCondition::ConfigMusicSingleNoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3368,7 +3368,7 @@ void __cdecl data::ConfigMusicSingleNoGreaterThanCondition::ConfigMusicSingleNoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3381,7 +3381,7 @@ void __cdecl data::ConfigMusicSingleNoGreaterThanCondition::~ConfigMusicSingleNo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3459,7 +3459,7 @@ void __cdecl data::ConfigMusicSingleNoGreaterThanConditionFactory::ConfigMusicSi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleNoGreaterThanConditionFactory = v2;
@@ -3473,7 +3473,7 @@ void __cdecl data::ConfigMusicSingleNoLessThanCondition::ConfigMusicSingleNoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3487,7 +3487,7 @@ void __cdecl data::ConfigMusicSingleNoLessThanCondition::ConfigMusicSingleNoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicSingleCondition::ConfigMusicSingleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3508,7 +3508,7 @@ void __cdecl data::ConfigMusicSingleNoLessThanCondition::~ConfigMusicSingleNoLes
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3578,7 +3578,7 @@ void __cdecl data::ConfigMusicSingleNoLessThanConditionFactory::ConfigMusicSingl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicSingleNoLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicSingleNoLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicSingleNoLessThanConditionFactory = v2;
@@ -3591,7 +3591,7 @@ void __cdecl data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(data::
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3609,7 +3609,7 @@ void __cdecl data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(
   double value; // xmm0_8
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3628,7 +3628,7 @@ void __cdecl data::ConfigMusicDoubleCondition::~ConfigMusicDoubleCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3705,7 +3705,7 @@ void __cdecl data::ConfigMusicDoubleEqualityCondition::ConfigMusicDoubleEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3719,7 +3719,7 @@ void __cdecl data::ConfigMusicDoubleEqualityCondition::ConfigMusicDoubleEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3740,7 +3740,7 @@ void __cdecl data::ConfigMusicDoubleEqualityCondition::~ConfigMusicDoubleEqualit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3810,7 +3810,7 @@ void __cdecl data::ConfigMusicDoubleEqualityConditionFactory::ConfigMusicDoubleE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleEqualityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleEqualityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleEqualityConditionFactory = v2;
@@ -3824,7 +3824,7 @@ void __cdecl data::ConfigMusicDoubleInequalityCondition::ConfigMusicDoubleInequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3838,7 +3838,7 @@ void __cdecl data::ConfigMusicDoubleInequalityCondition::ConfigMusicDoubleInequa
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3851,7 +3851,7 @@ void __cdecl data::ConfigMusicDoubleInequalityCondition::~ConfigMusicDoubleInequ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleInequalityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleInequalityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3929,7 +3929,7 @@ void __cdecl data::ConfigMusicDoubleInequalityConditionFactory::ConfigMusicDoubl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleInequalityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleInequalityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleInequalityConditionFactory = v2;
@@ -3943,7 +3943,7 @@ void __cdecl data::ConfigMusicDoubleGreaterThanCondition::ConfigMusicDoubleGreat
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3957,7 +3957,7 @@ void __cdecl data::ConfigMusicDoubleGreaterThanCondition::ConfigMusicDoubleGreat
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -3978,7 +3978,7 @@ void __cdecl data::ConfigMusicDoubleGreaterThanCondition::~ConfigMusicDoubleGrea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4048,7 +4048,7 @@ void __cdecl data::ConfigMusicDoubleGreaterThanConditionFactory::ConfigMusicDoub
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleGreaterThanConditionFactory = v2;
@@ -4062,7 +4062,7 @@ void __cdecl data::ConfigMusicDoubleLessThanCondition::ConfigMusicDoubleLessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4076,7 +4076,7 @@ void __cdecl data::ConfigMusicDoubleLessThanCondition::ConfigMusicDoubleLessThan
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4089,7 +4089,7 @@ void __cdecl data::ConfigMusicDoubleLessThanCondition::~ConfigMusicDoubleLessTha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4167,7 +4167,7 @@ void __cdecl data::ConfigMusicDoubleLessThanConditionFactory::ConfigMusicDoubleL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleLessThanConditionFactory = v2;
@@ -4181,7 +4181,7 @@ void __cdecl data::ConfigMusicDoubleNoGreaterThanCondition::ConfigMusicDoubleNoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4195,7 +4195,7 @@ void __cdecl data::ConfigMusicDoubleNoGreaterThanCondition::ConfigMusicDoubleNoG
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4208,7 +4208,7 @@ void __cdecl data::ConfigMusicDoubleNoGreaterThanCondition::~ConfigMusicDoubleNo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoGreaterThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoGreaterThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4286,7 +4286,7 @@ void __cdecl data::ConfigMusicDoubleNoGreaterThanConditionFactory::ConfigMusicDo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoGreaterThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoGreaterThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleNoGreaterThanConditionFactory = v2;
@@ -4300,7 +4300,7 @@ void __cdecl data::ConfigMusicDoubleNoLessThanCondition::ConfigMusicDoubleNoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4314,7 +4314,7 @@ void __cdecl data::ConfigMusicDoubleNoLessThanCondition::ConfigMusicDoubleNoLess
   int (**v2)(...); // rdx
 
   data::ConfigMusicDoubleCondition::ConfigMusicDoubleCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4327,7 +4327,7 @@ void __cdecl data::ConfigMusicDoubleNoLessThanCondition::~ConfigMusicDoubleNoLes
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoLessThanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoLessThanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4405,7 +4405,7 @@ void __cdecl data::ConfigMusicDoubleNoLessThanConditionFactory::ConfigMusicDoubl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicDoubleNoLessThanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicDoubleNoLessThanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicDoubleNoLessThanConditionFactory = v2;
@@ -4421,7 +4421,7 @@ void __cdecl data::ConfigMusicBooleanCondition::ConfigMusicBooleanCondition(
   __int64 v4; // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition((data::ConfigMusicParameterCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBooleanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBooleanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4447,7 +4447,7 @@ void __cdecl data::ConfigMusicBooleanCondition::ConfigMusicBooleanCondition(
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(
     (data::ConfigMusicParameterCondition *const)this,
     (const data::ConfigMusicParameterCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBooleanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBooleanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4479,7 +4479,7 @@ void __cdecl data::ConfigMusicBooleanCondition::~ConfigMusicBooleanCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBooleanCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBooleanCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4547,7 +4547,7 @@ void __cdecl data::ConfigMusicBooleanConditionFactory::ConfigMusicBooleanConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicBooleanConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicBooleanConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicBooleanConditionFactory = v2;
@@ -4560,7 +4560,7 @@ void __cdecl data::ConfigMusicStringCondition::ConfigMusicStringCondition(data::
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4575,7 +4575,7 @@ void __cdecl data::ConfigMusicStringCondition::ConfigMusicStringCondition(
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4597,7 +4597,7 @@ void __cdecl data::ConfigMusicStringCondition::~ConfigMusicStringCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4667,7 +4667,7 @@ void __cdecl data::ConfigMusicStringEqualityCondition::ConfigMusicStringEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringCondition::ConfigMusicStringCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4681,7 +4681,7 @@ void __cdecl data::ConfigMusicStringEqualityCondition::ConfigMusicStringEquality
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringCondition::ConfigMusicStringCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4694,7 +4694,7 @@ void __cdecl data::ConfigMusicStringEqualityCondition::~ConfigMusicStringEqualit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringEqualityCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringEqualityCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4772,7 +4772,7 @@ void __cdecl data::ConfigMusicStringEqualityConditionFactory::ConfigMusicStringE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringEqualityConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringEqualityConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStringEqualityConditionFactory = v2;
@@ -4786,7 +4786,7 @@ void __cdecl data::ConfigMusicStringContainmentCondition::ConfigMusicStringConta
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringCondition::ConfigMusicStringCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringContainmentCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringContainmentCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4800,7 +4800,7 @@ void __cdecl data::ConfigMusicStringContainmentCondition::ConfigMusicStringConta
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringCondition::ConfigMusicStringCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringContainmentCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringContainmentCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4821,7 +4821,7 @@ void __cdecl data::ConfigMusicStringContainmentCondition::~ConfigMusicStringCont
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringContainmentCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringContainmentCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4891,7 +4891,7 @@ void __cdecl data::ConfigMusicStringContainmentConditionFactory::ConfigMusicStri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringContainmentConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringContainmentConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStringContainmentConditionFactory = v2;
@@ -4905,7 +4905,7 @@ void __cdecl data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListConditio
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4919,7 +4919,7 @@ void __cdecl data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListConditio
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterCondition::ConfigMusicParameterCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -4932,7 +4932,7 @@ void __cdecl data::ConfigMusicUInt32ListCondition::~ConfigMusicUInt32ListConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5013,7 +5013,7 @@ void __cdecl data::ConfigMusicUInt32ListEmptinessCondition::ConfigMusicUInt32Lis
   __int64 v4; // rdx
 
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition((data::ConfigMusicUInt32ListCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListEmptinessCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListEmptinessCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5039,7 +5039,7 @@ void __cdecl data::ConfigMusicUInt32ListEmptinessCondition::ConfigMusicUInt32Lis
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition(
     (data::ConfigMusicUInt32ListCondition *const)this,
     (const data::ConfigMusicUInt32ListCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListEmptinessCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListEmptinessCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5071,7 +5071,7 @@ void __cdecl data::ConfigMusicUInt32ListEmptinessCondition::~ConfigMusicUInt32Li
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListEmptinessCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListEmptinessCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5141,7 +5141,7 @@ void __cdecl data::ConfigMusicUInt32ListEmptinessConditionFactory::ConfigMusicUI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListEmptinessConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListEmptinessConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListEmptinessConditionFactory = v2;
@@ -5155,7 +5155,7 @@ void __cdecl data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMe
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition((data::ConfigMusicUInt32ListCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5180,7 +5180,7 @@ void __cdecl data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMe
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition(
     (data::ConfigMusicUInt32ListCondition *const)this,
     (const data::ConfigMusicUInt32ListCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5207,7 +5207,7 @@ void __cdecl data::ConfigMusicUInt32ListMemberCondition::~ConfigMusicUInt32ListM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5286,7 +5286,7 @@ void __cdecl data::ConfigMusicUInt32ListPresenceCondition::ConfigMusicUInt32List
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMemberCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5300,7 +5300,7 @@ void __cdecl data::ConfigMusicUInt32ListPresenceCondition::ConfigMusicUInt32List
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMemberCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5321,7 +5321,7 @@ void __cdecl data::ConfigMusicUInt32ListPresenceCondition::~ConfigMusicUInt32Lis
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5391,7 +5391,7 @@ void __cdecl data::ConfigMusicUInt32ListPresenceConditionFactory::ConfigMusicUIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPresenceConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPresenceConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListPresenceConditionFactory = v2;
@@ -5405,7 +5405,7 @@ void __cdecl data::ConfigMusicUInt32ListAbsenceCondition::ConfigMusicUInt32ListA
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMemberCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAbsenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAbsenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5419,7 +5419,7 @@ void __cdecl data::ConfigMusicUInt32ListAbsenceCondition::ConfigMusicUInt32ListA
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMemberCondition::ConfigMusicUInt32ListMemberCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAbsenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAbsenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5440,7 +5440,7 @@ void __cdecl data::ConfigMusicUInt32ListAbsenceCondition::~ConfigMusicUInt32List
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAbsenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAbsenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5510,7 +5510,7 @@ void __cdecl data::ConfigMusicUInt32ListAbsenceConditionFactory::ConfigMusicUInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAbsenceConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAbsenceConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListAbsenceConditionFactory = v2;
@@ -5524,7 +5524,7 @@ void __cdecl data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32L
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMultiMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMultiMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5539,7 +5539,7 @@ void __cdecl data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32L
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListCondition::ConfigMusicUInt32ListCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMultiMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMultiMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5553,7 +5553,7 @@ void __cdecl data::ConfigMusicUInt32ListMultiMemberCondition::~ConfigMusicUInt32
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListMultiMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListMultiMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5633,7 +5633,7 @@ void __cdecl data::ConfigMusicUInt32ListAllPresenceCondition::ConfigMusicUInt32L
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAllPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAllPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5647,7 +5647,7 @@ void __cdecl data::ConfigMusicUInt32ListAllPresenceCondition::ConfigMusicUInt32L
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAllPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAllPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5668,7 +5668,7 @@ void __cdecl data::ConfigMusicUInt32ListAllPresenceCondition::~ConfigMusicUInt32
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAllPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAllPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5738,7 +5738,7 @@ void __cdecl data::ConfigMusicUInt32ListAllPresenceConditionFactory::ConfigMusic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListAllPresenceConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListAllPresenceConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListAllPresenceConditionFactory = v2;
@@ -5752,7 +5752,7 @@ void __cdecl data::ConfigMusicUInt32ListNonePresenceCondition::ConfigMusicUInt32
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListNonePresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListNonePresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5766,7 +5766,7 @@ void __cdecl data::ConfigMusicUInt32ListNonePresenceCondition::ConfigMusicUInt32
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListNonePresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListNonePresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5779,7 +5779,7 @@ void __cdecl data::ConfigMusicUInt32ListNonePresenceCondition::~ConfigMusicUInt3
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListNonePresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListNonePresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5857,7 +5857,7 @@ void __cdecl data::ConfigMusicUInt32ListNonePresenceConditionFactory::ConfigMusi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListNonePresenceConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListNonePresenceConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListNonePresenceConditionFactory = v2;
@@ -5871,7 +5871,7 @@ void __cdecl data::ConfigMusicUInt32ListPartialPresenceCondition::ConfigMusicUIn
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5885,7 +5885,7 @@ void __cdecl data::ConfigMusicUInt32ListPartialPresenceCondition::ConfigMusicUIn
   int (**v2)(...); // rdx
 
   data::ConfigMusicUInt32ListMultiMemberCondition::ConfigMusicUInt32ListMultiMemberCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5898,7 +5898,7 @@ void __cdecl data::ConfigMusicUInt32ListPartialPresenceCondition::~ConfigMusicUI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPartialPresenceCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicCondition = v2;
@@ -5976,7 +5976,7 @@ void __cdecl data::ConfigMusicUInt32ListPartialPresenceConditionFactory::ConfigM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUInt32ListPartialPresenceConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUInt32ListPartialPresenceConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUInt32ListPartialPresenceConditionFactory = v2;
@@ -6204,7 +6204,7 @@ void __cdecl data::ConfigMusicStimulusHandler::ConfigMusicStimulusHandler(data::
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigMusicStimulusHandler>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMusicStimulusHandler>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6233,7 +6233,7 @@ void __cdecl data::ConfigMusicStimulusHandler::ConfigMusicStimulusHandler(
   std::enable_shared_from_this<data::ConfigMusicStimulusHandler>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMusicStimulusHandler>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMusicStimulusHandler + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMusicStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMusicStimulusHandler = v3;
@@ -6272,7 +6272,7 @@ void __cdecl data::ConfigMusicStimulusHandler::~ConfigMusicStimulusHandler(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6342,7 +6342,7 @@ void __cdecl data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameter
   int (**v2)(...); // rdx
 
   data::ConfigMusicStimulusHandler::ConfigMusicStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6356,7 +6356,7 @@ void __cdecl data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameter
   int (**v2)(...); // rdx
 
   data::ConfigMusicStimulusHandler::ConfigMusicStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6377,7 +6377,7 @@ void __cdecl data::ConfigMusicParameterizedStimulusHandler::~ConfigMusicParamete
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6448,7 +6448,7 @@ void __cdecl data::ConfigMusicIntStimulusHandler::ConfigMusicIntStimulusHandler(
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler((data::ConfigMusicParameterizedStimulusHandler *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6473,7 +6473,7 @@ void __cdecl data::ConfigMusicIntStimulusHandler::ConfigMusicIntStimulusHandler(
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(
     (data::ConfigMusicParameterizedStimulusHandler *const)this,
     (const data::ConfigMusicParameterizedStimulusHandler *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6500,7 +6500,7 @@ void __cdecl data::ConfigMusicIntStimulusHandler::~ConfigMusicIntStimulusHandler
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6577,7 +6577,7 @@ void __cdecl data::ConfigMusicIntStimulusHandlerFactory::ConfigMusicIntStimulusH
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicIntStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicIntStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicIntStimulusHandlerFactory = v2;
@@ -6591,7 +6591,7 @@ void __cdecl data::ConfigMusicUIntStimulusHandler::ConfigMusicUIntStimulusHandle
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler((data::ConfigMusicParameterizedStimulusHandler *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6616,7 +6616,7 @@ void __cdecl data::ConfigMusicUIntStimulusHandler::ConfigMusicUIntStimulusHandle
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(
     (data::ConfigMusicParameterizedStimulusHandler *const)this,
     (const data::ConfigMusicParameterizedStimulusHandler *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6643,7 +6643,7 @@ void __cdecl data::ConfigMusicUIntStimulusHandler::~ConfigMusicUIntStimulusHandl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6721,7 +6721,7 @@ void __cdecl data::ConfigMusicUIntStimulusHandlerFactory::ConfigMusicUIntStimulu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUIntStimulusHandlerFactory = v2;
@@ -6735,7 +6735,7 @@ void __cdecl data::ConfigMusicFloatStimulusHandler::ConfigMusicFloatStimulusHand
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler((data::ConfigMusicParameterizedStimulusHandler *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicFloatStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicFloatStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6758,7 +6758,7 @@ void __cdecl data::ConfigMusicFloatStimulusHandler::ConfigMusicFloatStimulusHand
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(
     (data::ConfigMusicParameterizedStimulusHandler *const)this,
     (const data::ConfigMusicParameterizedStimulusHandler *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicFloatStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicFloatStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6791,7 +6791,7 @@ void __cdecl data::ConfigMusicFloatStimulusHandler::~ConfigMusicFloatStimulusHan
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicFloatStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicFloatStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6861,7 +6861,7 @@ void __cdecl data::ConfigMusicFloatStimulusHandlerFactory::ConfigMusicFloatStimu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicFloatStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicFloatStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicFloatStimulusHandlerFactory = v2;
@@ -6875,7 +6875,7 @@ void __cdecl data::ConfigMusicStringStimulusHandler::ConfigMusicStringStimulusHa
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6890,7 +6890,7 @@ void __cdecl data::ConfigMusicStringStimulusHandler::ConfigMusicStringStimulusHa
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6904,7 +6904,7 @@ void __cdecl data::ConfigMusicStringStimulusHandler::~ConfigMusicStringStimulusH
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -6983,7 +6983,7 @@ void __cdecl data::ConfigMusicStringStimulusHandlerFactory::ConfigMusicStringSti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStringStimulusHandlerFactory = v2;
@@ -6997,7 +6997,7 @@ void __cdecl data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusi
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7011,7 +7011,7 @@ void __cdecl data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusi
   int (**v2)(...); // rdx
 
   data::ConfigMusicParameterizedStimulusHandler::ConfigMusicParameterizedStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7032,7 +7032,7 @@ void __cdecl data::ConfigMusicMultiValueParameterizedStimulusHandler::~ConfigMus
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicMultiValueParameterizedStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7103,7 +7103,7 @@ void __cdecl data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMult
   int (**v2)(...); // rdx
 
   data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusicMultiValueParameterizedStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7118,7 +7118,7 @@ void __cdecl data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMult
   int (**v2)(...); // rdx
 
   data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusicMultiValueParameterizedStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7140,7 +7140,7 @@ void __cdecl data::ConfigMusicUIntMultiValueStimulusHandler::~ConfigMusicUIntMul
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7212,7 +7212,7 @@ void __cdecl data::ConfigMusicUIntPresenceStimulusHandler::ConfigMusicUIntPresen
   int (**v2)(...); // rdx
 
   data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMultiValueStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7226,7 +7226,7 @@ void __cdecl data::ConfigMusicUIntPresenceStimulusHandler::ConfigMusicUIntPresen
   int (**v2)(...); // rdx
 
   data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMultiValueStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7247,7 +7247,7 @@ void __cdecl data::ConfigMusicUIntPresenceStimulusHandler::~ConfigMusicUIntPrese
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7317,7 +7317,7 @@ void __cdecl data::ConfigMusicUIntPresenceStimulusHandlerFactory::ConfigMusicUIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntPresenceStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntPresenceStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUIntPresenceStimulusHandlerFactory = v2;
@@ -7331,7 +7331,7 @@ void __cdecl data::ConfigMusicUIntAbsenceStimulusHandler::ConfigMusicUIntAbsence
   int (**v2)(...); // rdx
 
   data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMultiValueStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7345,7 +7345,7 @@ void __cdecl data::ConfigMusicUIntAbsenceStimulusHandler::ConfigMusicUIntAbsence
   int (**v2)(...); // rdx
 
   data::ConfigMusicUIntMultiValueStimulusHandler::ConfigMusicUIntMultiValueStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7366,7 +7366,7 @@ void __cdecl data::ConfigMusicUIntAbsenceStimulusHandler::~ConfigMusicUIntAbsenc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7436,7 +7436,7 @@ void __cdecl data::ConfigMusicUIntAbsenceStimulusHandlerFactory::ConfigMusicUInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicUIntAbsenceStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicUIntAbsenceStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicUIntAbsenceStimulusHandlerFactory = v2;
@@ -7450,7 +7450,7 @@ void __cdecl data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicString
   int (**v2)(...); // rdx
 
   data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusicMultiValueParameterizedStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7465,7 +7465,7 @@ void __cdecl data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicString
   int (**v2)(...); // rdx
 
   data::ConfigMusicMultiValueParameterizedStimulusHandler::ConfigMusicMultiValueParameterizedStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7487,7 +7487,7 @@ void __cdecl data::ConfigMusicStringMultiValueStimulusHandler::~ConfigMusicStrin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringMultiValueStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringMultiValueStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7559,7 +7559,7 @@ void __cdecl data::ConfigMusicStringPresenceStimulusHandler::ConfigMusicStringPr
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicStringMultiValueStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7573,7 +7573,7 @@ void __cdecl data::ConfigMusicStringPresenceStimulusHandler::ConfigMusicStringPr
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicStringMultiValueStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7594,7 +7594,7 @@ void __cdecl data::ConfigMusicStringPresenceStimulusHandler::~ConfigMusicStringP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringPresenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringPresenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7664,7 +7664,7 @@ void __cdecl data::ConfigMusicStringPresenceStimulusHandlerFactory::ConfigMusicS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringPresenceStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringPresenceStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStringPresenceStimulusHandlerFactory = v2;
@@ -7678,7 +7678,7 @@ void __cdecl data::ConfigMusicStringAbsenceStimulusHandler::ConfigMusicStringAbs
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicStringMultiValueStimulusHandler(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7692,7 +7692,7 @@ void __cdecl data::ConfigMusicStringAbsenceStimulusHandler::ConfigMusicStringAbs
   int (**v2)(...); // rdx
 
   data::ConfigMusicStringMultiValueStimulusHandler::ConfigMusicStringMultiValueStimulusHandler(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7705,7 +7705,7 @@ void __cdecl data::ConfigMusicStringAbsenceStimulusHandler::~ConfigMusicStringAb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringAbsenceStimulusHandler + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringAbsenceStimulusHandler + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStimulusHandler = v2;
@@ -7783,7 +7783,7 @@ void __cdecl data::ConfigMusicStringAbsenceStimulusHandlerFactory::ConfigMusicSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMusicStringAbsenceStimulusHandlerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMusicStringAbsenceStimulusHandlerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMusicStringAbsenceStimulusHandlerFactory = v2;

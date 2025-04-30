@@ -111,7 +111,7 @@ void __cdecl data::GachaPoolExcelConfig::GachaPoolExcelConfig(
   const data::GachaPoolExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaPoolExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::GachaPoolExcelConfig::~GachaPoolExcelConfig(data::GachaPoolEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaPoolExcelConfig = v2;
@@ -217,7 +217,7 @@ void __cdecl data::GachaGuaranteeParentTypeWeight::GachaGuaranteeParentTypeWeigh
   const data::GachaGuaranteeParentTypeWeight *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWeight + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWeight + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaGuaranteeParentTypeWeight = v2;
@@ -257,7 +257,7 @@ void __cdecl data::GachaGuaranteeParentTypeWeight::~GachaGuaranteeParentTypeWeig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWeight + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWeight + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaGuaranteeParentTypeWeight = v2;
@@ -278,7 +278,7 @@ void __cdecl data::GachaGuaranteeParentTypeWeightWithChilds::GachaGuaranteeParen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWeightWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWeightWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaGuaranteeParentTypeWeightWithChilds = v2;
@@ -311,7 +311,7 @@ void __cdecl data::GachaGuaranteeParentTypeWeightWithChilds::GachaGuaranteeParen
   const data::GachaGuaranteeParentTypeWeightWithChilds *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWeightWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWeightWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaGuaranteeParentTypeWeightWithChilds = v2;
@@ -352,7 +352,7 @@ void __cdecl data::GachaGuaranteeParentTypeWeightWithChilds::~GachaGuaranteePare
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWeightWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWeightWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaGuaranteeParentTypeWeightWithChilds = v2;
@@ -401,7 +401,7 @@ void __cdecl data::GachaGuaranteeParentTypeWithChilds::GachaGuaranteeParentTypeW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaGuaranteeParentTypeWithChilds = v2;
@@ -425,7 +425,7 @@ void __cdecl data::GachaGuaranteeParentTypeWithChilds::GachaGuaranteeParentTypeW
   const data::GachaGuaranteeParentTypeWithChilds *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaGuaranteeParentTypeWithChilds = v2;
@@ -460,7 +460,7 @@ void __cdecl data::GachaGuaranteeParentTypeWithChilds::~GachaGuaranteeParentType
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaGuaranteeParentTypeWithChilds + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaGuaranteeParentTypeWithChilds + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaGuaranteeParentTypeWithChilds = v2;
@@ -475,7 +475,7 @@ void __cdecl data::GachaRuleExcelConfig::GachaRuleExcelConfig(data::GachaRuleExc
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaRuleExcelConfig = v2;
@@ -560,7 +560,7 @@ void __cdecl data::GachaRuleExcelConfig::GachaRuleExcelConfig(
   const data::GachaRuleExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaRuleExcelConfig = v2;
@@ -688,7 +688,7 @@ void __cdecl data::GachaRuleExcelConfig::~GachaRuleExcelConfig(data::GachaRuleEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaRuleExcelConfig = v2;
@@ -730,7 +730,7 @@ void __cdecl data::GachaProbRuleConfig::GachaProbRuleConfig(
   const data::GachaProbRuleConfig *v25; // [rsp+0h] [rbp-10h]
 
   v25 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaProbRuleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaProbRuleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaProbRuleConfig = v2;
@@ -855,7 +855,7 @@ void __cdecl data::GachaProbRuleConfig::~GachaProbRuleConfig(data::GachaProbRule
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaProbRuleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaProbRuleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaProbRuleConfig = v2;
@@ -911,7 +911,7 @@ void __cdecl data::GachaNewbieUpConfig::GachaNewbieUpConfig(data::GachaNewbieUpC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaNewbieUpConfig = v2;
@@ -944,7 +944,7 @@ void __cdecl data::GachaNewbieUpConfig::GachaNewbieUpConfig(
   const data::GachaNewbieUpConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaNewbieUpConfig = v2;
@@ -984,7 +984,7 @@ void __cdecl data::GachaNewbieUpConfig::~GachaNewbieUpConfig(data::GachaNewbieUp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieUpConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieUpConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaNewbieUpConfig = v2;
@@ -1008,7 +1008,7 @@ void __cdecl data::GachaNewbieDataConfig::GachaNewbieDataConfig(data::GachaNewbi
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaNewbieDataConfig = v2;
@@ -1122,7 +1122,7 @@ void __cdecl data::GachaNewbieDataConfig::GachaNewbieDataConfig(
   const data::GachaNewbieDataConfig *v28; // [rsp+0h] [rbp-20h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaNewbieDataConfig = v2;
@@ -1278,7 +1278,7 @@ void __cdecl data::GachaNewbieDataConfig::~GachaNewbieDataConfig(data::GachaNewb
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaNewbieDataConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaNewbieDataConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaNewbieDataConfig = v2;
@@ -1313,7 +1313,7 @@ void __cdecl data::GachaTokenDropConfig::GachaTokenDropConfig(
   const data::GachaTokenDropConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaTokenDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaTokenDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaTokenDropConfig = v2;
@@ -1359,7 +1359,7 @@ void __cdecl data::GachaTokenDropConfig::~GachaTokenDropConfig(data::GachaTokenD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaTokenDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaTokenDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaTokenDropConfig = v2;
@@ -1379,7 +1379,7 @@ void __cdecl data::GachaWishConfig::GachaWishConfig(data::GachaWishConfig *const
   const data::GachaWishConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaWishConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaWishConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaWishConfig = v2;
@@ -1438,7 +1438,7 @@ void __cdecl data::GachaWishConfig::~GachaWishConfig(data::GachaWishConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaWishConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaWishConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaWishConfig = v2;
@@ -1465,7 +1465,7 @@ void __cdecl data::GachaRestrictConfig::GachaRestrictConfig(
   const data::GachaRestrictConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GachaRestrictConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaRestrictConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GachaRestrictConfig = v2;
@@ -1544,7 +1544,7 @@ void __cdecl data::GachaRestrictConfig::~GachaRestrictConfig(data::GachaRestrict
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GachaRestrictConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GachaRestrictConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GachaRestrictConfig = v2;

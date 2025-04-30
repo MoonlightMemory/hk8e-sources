@@ -189,7 +189,7 @@ void __cdecl ToTheMoonProto::Pos::Pos(ToTheMoonProto::Pos *const this)
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::Pos + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::Pos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -207,7 +207,7 @@ void __cdecl ToTheMoonProto::Pos::Pos(ToTheMoonProto::Pos *const this, const ToT
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::Pos + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::Pos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -251,7 +251,7 @@ void __cdecl ToTheMoonProto::Pos::~Pos(ToTheMoonProto::Pos *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::Pos + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::Pos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -886,7 +886,7 @@ void __cdecl ToTheMoonProto::SVONodeProto::SVONodeProto(ToTheMoonProto::SVONodeP
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -912,7 +912,7 @@ void __cdecl ToTheMoonProto::SVONodeProto::SVONodeProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -962,7 +962,7 @@ void __cdecl ToTheMoonProto::SVONodeProto::~SVONodeProto(ToTheMoonProto::SVONode
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2151,7 +2151,7 @@ void __cdecl ToTheMoonProto::SVOLayerProto::SVOLayerProto(ToTheMoonProto::SVOLay
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOLayerProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOLayerProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2173,7 +2173,7 @@ void __cdecl ToTheMoonProto::SVOLayerProto::SVOLayerProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOLayerProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOLayerProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2234,7 +2234,7 @@ void __cdecl ToTheMoonProto::SVOLayerProto::~SVOLayerProto(ToTheMoonProto::SVOLa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOLayerProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOLayerProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2879,7 +2879,7 @@ void __cdecl ToTheMoonProto::SVOStructureProto::SVOStructureProto(ToTheMoonProto
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOStructureProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOStructureProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2902,7 +2902,7 @@ void __cdecl ToTheMoonProto::SVOStructureProto::SVOStructureProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOStructureProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOStructureProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2967,7 +2967,7 @@ void __cdecl ToTheMoonProto::SVOStructureProto::~SVOStructureProto(ToTheMoonProt
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOStructureProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOStructureProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3749,7 +3749,7 @@ void __cdecl ToTheMoonProto::SVOBlockProto::SVOBlockProto(ToTheMoonProto::SVOBlo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOBlockProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOBlockProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3772,7 +3772,7 @@ void __cdecl ToTheMoonProto::SVOBlockProto::SVOBlockProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOBlockProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOBlockProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -3844,7 +3844,7 @@ void __cdecl ToTheMoonProto::SVOBlockProto::~SVOBlockProto(ToTheMoonProto::SVOBl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOBlockProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOBlockProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4614,7 +4614,7 @@ void __cdecl ToTheMoonProto::SVOWorldProto::SVOWorldProto(ToTheMoonProto::SVOWor
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOWorldProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOWorldProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4638,7 +4638,7 @@ void __cdecl ToTheMoonProto::SVOWorldProto::SVOWorldProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOWorldProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOWorldProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4702,7 +4702,7 @@ void __cdecl ToTheMoonProto::SVOWorldProto::~SVOWorldProto(ToTheMoonProto::SVOWo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVOWorldProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVOWorldProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5378,7 +5378,7 @@ void __cdecl ToTheMoonProto::SVONodeWrapperProto::SVONodeWrapperProto(ToTheMoonP
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeWrapperProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeWrapperProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5400,7 +5400,7 @@ void __cdecl ToTheMoonProto::SVONodeWrapperProto::SVONodeWrapperProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeWrapperProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeWrapperProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -5471,7 +5471,7 @@ void __cdecl ToTheMoonProto::SVONodeWrapperProto::~SVONodeWrapperProto(ToTheMoon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodeWrapperProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodeWrapperProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6159,7 +6159,7 @@ void __cdecl ToTheMoonProto::SVONodePathProto::SVONodePathProto(ToTheMoonProto::
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodePathProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodePathProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -6182,7 +6182,7 @@ void __cdecl ToTheMoonProto::SVONodePathProto::SVONodePathProto(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodePathProto + 2);
+  v2 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodePathProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -6260,7 +6260,7 @@ void __cdecl ToTheMoonProto::SVONodePathProto::~SVONodePathProto(ToTheMoonProto:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ToTheMoonProto::SVONodePathProto + 2);
+  v1 = (int (**)(...))(&`vtable for ToTheMoonProto::SVONodePathProto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

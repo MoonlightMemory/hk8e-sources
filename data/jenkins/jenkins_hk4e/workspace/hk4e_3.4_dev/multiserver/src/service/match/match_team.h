@@ -5,7 +5,7 @@ void __cdecl MatchTeam::~MatchTeam(MatchTeam *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MatchTeam + 2);
+  v1 = (int (**)(...))(&`vtable for MatchTeam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -26,7 +26,7 @@ void __cdecl MatchTeam::MatchTeam(MatchTeam *const this)
 
   std::enable_shared_from_this<MatchTeam>::enable_shared_from_this(&this->std::enable_shared_from_this<MatchTeam>);
   common::milog::DescribalBase::DescribalBase(this);
-  v1 = (int (**)(...))(&`vtable for'MatchTeam + 2);
+  v1 = (int (**)(...))(&`vtable for MatchTeam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

@@ -8,7 +8,7 @@ void __cdecl data::ActivityAbilityGroupExcelConfig::ActivityAbilityGroupExcelCon
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityAbilityGroupExcelConfig = v2;
@@ -60,7 +60,7 @@ void __cdecl data::ActivityAbilityGroupExcelConfig::ActivityAbilityGroupExcelCon
   const data::ActivityAbilityGroupExcelConfig *v14; // [rsp+0h] [rbp-10h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityAbilityGroupExcelConfig = v2;
@@ -129,7 +129,7 @@ void __cdecl data::ActivityAbilityGroupExcelConfig::~ActivityAbilityGroupExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityAbilityGroupExcelConfig = v2;

@@ -7,7 +7,7 @@ void __cdecl data::ConfigEffectAttachShape::ConfigEffectAttachShape(data::Config
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigEffectAttachShape>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigEffectAttachShape>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ConfigEffectAttachShape::ConfigEffectAttachShape(
   std::enable_shared_from_this<data::ConfigEffectAttachShape>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigEffectAttachShape>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachShape + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigEffectAttachShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigEffectAttachShape = v3;
@@ -52,7 +52,7 @@ void __cdecl data::ConfigEffectAttachShape::~ConfigEffectAttachShape(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -129,7 +129,7 @@ void __cdecl data::ConfigEffectAttachBox::ConfigEffectAttachBox(data::ConfigEffe
   __int64 v4; // rsi
 
   data::ConfigEffectAttachShape::ConfigEffectAttachShape((data::ConfigEffectAttachShape *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -178,7 +178,7 @@ void __cdecl data::ConfigEffectAttachBox::ConfigEffectAttachBox(
   data::ConfigEffectAttachShape::ConfigEffectAttachShape(
     (data::ConfigEffectAttachShape *const)this,
     (const data::ConfigEffectAttachShape *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -239,7 +239,7 @@ void __cdecl data::ConfigEffectAttachBox::~ConfigEffectAttachBox(data::ConfigEff
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -314,7 +314,7 @@ void __cdecl data::ConfigEffectAttachBoxFactory::ConfigEffectAttachBoxFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachBoxFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachBoxFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachBoxFactory = v2;
@@ -328,7 +328,7 @@ void __cdecl data::ConfigEffectAttachSkinnedMesh::ConfigEffectAttachSkinnedMesh(
   int (**v2)(...); // rdx
 
   data::ConfigEffectAttachShape::ConfigEffectAttachShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachSkinnedMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachSkinnedMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -343,7 +343,7 @@ void __cdecl data::ConfigEffectAttachSkinnedMesh::ConfigEffectAttachSkinnedMesh(
   int (**v2)(...); // rdx
 
   data::ConfigEffectAttachShape::ConfigEffectAttachShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachSkinnedMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachSkinnedMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -357,7 +357,7 @@ void __cdecl data::ConfigEffectAttachSkinnedMesh::~ConfigEffectAttachSkinnedMesh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachSkinnedMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachSkinnedMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -435,7 +435,7 @@ void __cdecl data::ConfigEffectAttachSkinnedMeshFactory::ConfigEffectAttachSkinn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachSkinnedMeshFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachSkinnedMeshFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachSkinnedMeshFactory = v2;
@@ -448,7 +448,7 @@ void __cdecl data::ConfigEffectAttachMesh::ConfigEffectAttachMesh(data::ConfigEf
   int (**v2)(...); // rdx
 
   data::ConfigEffectAttachShape::ConfigEffectAttachShape(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -463,7 +463,7 @@ void __cdecl data::ConfigEffectAttachMesh::ConfigEffectAttachMesh(
   int (**v2)(...); // rdx
 
   data::ConfigEffectAttachShape::ConfigEffectAttachShape(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -476,7 +476,7 @@ void __cdecl data::ConfigEffectAttachMesh::~ConfigEffectAttachMesh(data::ConfigE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachMesh + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachMesh + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachShape = v2;
@@ -552,7 +552,7 @@ void __cdecl data::ConfigEffectAttachMeshFactory::ConfigEffectAttachMeshFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectAttachMeshFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectAttachMeshFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectAttachMeshFactory = v2;
@@ -1287,7 +1287,7 @@ void __cdecl data::ConfigBillboard::ConfigBillboard(data::ConfigBillboard *const
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   std::enable_shared_from_this<data::ConfigBillboard>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBillboard>);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigBillboard + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v5;
@@ -1401,7 +1401,7 @@ void __cdecl data::ConfigBillboard::ConfigBillboard(data::ConfigBillboard *const
   std::enable_shared_from_this<data::ConfigBillboard>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBillboard>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBillboard + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBillboard = v3;
@@ -1544,7 +1544,7 @@ void __cdecl data::ConfigBillboard::~ConfigBillboard(data::ConfigBillboard *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -1623,7 +1623,7 @@ void __cdecl data::ConfigCombatBillboard::ConfigCombatBillboard(data::ConfigComb
   __int64 v5; // rsi
 
   data::ConfigBillboard::ConfigBillboard((data::ConfigBillboard *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCombatBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCombatBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -1669,7 +1669,7 @@ void __cdecl data::ConfigCombatBillboard::ConfigCombatBillboard(
   char v13; // al
 
   data::ConfigBillboard::ConfigBillboard((data::ConfigBillboard *const)this, (const data::ConfigBillboard *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCombatBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCombatBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBillboard = v2;
@@ -1726,7 +1726,7 @@ void __cdecl data::ConfigCombatBillboard::~ConfigCombatBillboard(data::ConfigCom
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCombatBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCombatBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -1801,7 +1801,7 @@ void __cdecl data::ConfigCombatBillboardFactory::ConfigCombatBillboardFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCombatBillboardFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCombatBillboardFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCombatBillboardFactory = v2;
@@ -1818,7 +1818,7 @@ void __cdecl data::ConfigProgressBillboard::ConfigProgressBillboard(data::Config
   __int64 v6; // rdx
 
   data::ConfigBillboard::ConfigBillboard(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigProgressBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigProgressBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -1870,7 +1870,7 @@ void __cdecl data::ConfigProgressBillboard::ConfigProgressBillboard(
   __int64 v16; // rdx
 
   data::ConfigBillboard::ConfigBillboard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigProgressBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigProgressBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBillboard = v2;
@@ -1939,7 +1939,7 @@ void __cdecl data::ConfigProgressBillboard::~ConfigProgressBillboard(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigProgressBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigProgressBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -2009,7 +2009,7 @@ void __cdecl data::ConfigProgressBillboardFactory::ConfigProgressBillboardFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigProgressBillboardFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigProgressBillboardFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigProgressBillboardFactory = v2;
@@ -2022,7 +2022,7 @@ void __cdecl data::ConfigGadgetIconBillboard::ConfigGadgetIconBillboard(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigBillboard::ConfigBillboard(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetIconBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetIconBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -2038,7 +2038,7 @@ void __cdecl data::ConfigGadgetIconBillboard::ConfigGadgetIconBillboard(
   int (**v2)(...); // rdx
 
   data::ConfigBillboard::ConfigBillboard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetIconBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetIconBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBillboard = v2;
@@ -2059,7 +2059,7 @@ void __cdecl data::ConfigGadgetIconBillboard::~ConfigGadgetIconBillboard(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetIconBillboard + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetIconBillboard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBillboard = v2;
@@ -2129,7 +2129,7 @@ void __cdecl data::ConfigGadgetIconBillboardFactory::ConfigGadgetIconBillboardFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetIconBillboardFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetIconBillboardFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetIconBillboardFactory = v2;

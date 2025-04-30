@@ -61,7 +61,7 @@ void __cdecl data::FireworksReformParamConfig::FireworksReformParamConfig(data::
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksReformParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksReformParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksReformParamConfig = v2;
@@ -100,7 +100,7 @@ void __cdecl data::FireworksReformParamConfig::FireworksReformParamConfig(
   const data::FireworksReformParamConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FireworksReformParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksReformParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FireworksReformParamConfig = v2;
@@ -149,7 +149,7 @@ void __cdecl data::FireworksReformParamConfig::~FireworksReformParamConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksReformParamConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksReformParamConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksReformParamConfig = v2;
@@ -170,7 +170,7 @@ void __cdecl data::FireworksExcelConfig::FireworksExcelConfig(data::FireworksExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksExcelConfig = v2;
@@ -194,7 +194,7 @@ void __cdecl data::FireworksExcelConfig::FireworksExcelConfig(
   const data::FireworksExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FireworksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FireworksExcelConfig = v2;
@@ -220,7 +220,7 @@ void __cdecl data::FireworksExcelConfig::~FireworksExcelConfig(data::FireworksEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksExcelConfig = v2;
@@ -241,7 +241,7 @@ void __cdecl data::FireworksLaunchExcelConfig::FireworksLaunchExcelConfig(data::
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksLaunchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksLaunchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksLaunchExcelConfig = v2;
@@ -285,7 +285,7 @@ void __cdecl data::FireworksLaunchExcelConfig::FireworksLaunchExcelConfig(
   const data::FireworksLaunchExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FireworksLaunchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksLaunchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FireworksLaunchExcelConfig = v2;
@@ -341,7 +341,7 @@ void __cdecl data::FireworksLaunchExcelConfig::~FireworksLaunchExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireworksLaunchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireworksLaunchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireworksLaunchExcelConfig = v2;

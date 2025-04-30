@@ -9,7 +9,7 @@ void __cdecl data::ConfigPolygonZone::ConfigPolygonZone(data::ConfigPolygonZone 
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigPolygonZone>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPolygonZone>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPolygonZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPolygonZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -44,7 +44,7 @@ void __cdecl data::ConfigPolygonZone::ConfigPolygonZone(
   std::enable_shared_from_this<data::ConfigPolygonZone>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPolygonZone>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPolygonZone + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPolygonZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPolygonZone = v3;
@@ -86,7 +86,7 @@ void __cdecl data::ConfigPolygonZone::~ConfigPolygonZone(data::ConfigPolygonZone
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPolygonZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPolygonZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -154,7 +154,7 @@ void __cdecl data::ConfigDangerZone::ConfigDangerZone(data::ConfigDangerZone *co
   int (**v2)(...); // rdx
 
   data::ConfigPolygonZone::ConfigPolygonZone(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDangerZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDangerZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -169,7 +169,7 @@ void __cdecl data::ConfigDangerZone::ConfigDangerZone(
   int (**v2)(...); // rdx
 
   data::ConfigPolygonZone::ConfigPolygonZone(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDangerZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDangerZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPolygonZone = v2;
@@ -189,7 +189,7 @@ void __cdecl data::ConfigDangerZone::~ConfigDangerZone(data::ConfigDangerZone *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDangerZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDangerZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -257,7 +257,7 @@ void __cdecl data::ConfigDangerZoneFactory::ConfigDangerZoneFactory(data::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDangerZoneFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDangerZoneFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDangerZoneFactory = v2;
@@ -271,7 +271,7 @@ void __cdecl data::ConfigFishingZone::ConfigFishingZone(data::ConfigFishingZone 
   __int64 v3; // rsi
 
   data::ConfigPolygonZone::ConfigPolygonZone(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -313,7 +313,7 @@ void __cdecl data::ConfigFishingZone::ConfigFishingZone(
   float born_radius; // xmm0_4
 
   data::ConfigPolygonZone::ConfigPolygonZone(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPolygonZone = v2;
@@ -372,7 +372,7 @@ void __cdecl data::ConfigFishingZone::~ConfigFishingZone(data::ConfigFishingZone
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingZone + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPolygonZone = v2;
@@ -446,7 +446,7 @@ void __cdecl data::ConfigFishingZoneFactory::ConfigFishingZoneFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishingZoneFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishingZoneFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFishingZoneFactory = v2;

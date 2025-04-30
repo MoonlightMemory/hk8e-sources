@@ -2422,7 +2422,7 @@ void __fastcall Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter(Json::Bu
   std::_Vector_base<std::string>::pointer M_finish; // rbx
   std::_Vector_base<std::string>::pointer M_start; // r12
 
-  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for'Json::BuiltStyledStreamWriter + 2);
+  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for Json::BuiltStyledStreamWriter + 2);
   M_p = (Json::BuiltStyledStreamWriter *)this->endingLineFeedSymbol_._M_dataplus._M_p;
   if ( M_p != (Json::BuiltStyledStreamWriter *)&this->endingLineFeedSymbol_._anon_0 )
     operator delete(M_p);
@@ -2472,7 +2472,7 @@ void __fastcall Json::BuiltStyledStreamWriter::~BuiltStyledStreamWriter(Json::Bu
   std::_Vector_base<std::string>::pointer M_finish; // rbx
   std::_Vector_base<std::string>::pointer M_start; // r12
 
-  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for'Json::BuiltStyledStreamWriter + 2);
+  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for Json::BuiltStyledStreamWriter + 2);
   M_p = (Json::BuiltStyledStreamWriter *)this->endingLineFeedSymbol_._M_dataplus._M_p;
   if ( M_p != (Json::BuiltStyledStreamWriter *)&this->endingLineFeedSymbol_._anon_0 )
     operator delete(M_p);
@@ -2536,7 +2536,7 @@ void __fastcall Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(
   this->childValues_._M_impl._M_end_of_storage = 0LL;
   v10 = *(char **)cs_0;
   this->indentString_._anon_0._M_local_buf[0] = 0;
-  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for'Json::BuiltStyledStreamWriter + 2);
+  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for Json::BuiltStyledStreamWriter + 2);
   this->indentString_._M_dataplus._M_p = this->indentString_._anon_0._M_local_buf;
   this->indentation_._M_dataplus._M_p = this->indentation_._anon_0._M_local_buf;
   this->indentString_._M_string_length = 0LL;
@@ -3389,7 +3389,7 @@ bool __fastcall Json::BuiltStyledStreamWriter::hasCommentForValue(const Json::Va
 void __fastcall Json::StreamWriter::StreamWriter(Json::StreamWriter *const this)
 {
   this->sout_ = 0LL;
-  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for'Json::StreamWriter + 2);
+  this->_vptr_StreamWriter = (int (**)(...))(&`vtable for Json::StreamWriter + 2);
 };
 
 // Line 1159: range 000000000C73BC08-000000000C73BC1E
@@ -3407,7 +3407,7 @@ void __fastcall __noreturn Json::StreamWriterBuilder::StreamWriterBuilder()
 // Line 1159: range 00000000152E8450-00000000152E848B
 __int64 __fastcall Json::StreamWriterBuilder::StreamWriterBuilder(Json::StreamWriterBuilder *this)
 {
-  this->_vptr_Factory = (int (**)(...))(&`vtable for'Json::StreamWriterBuilder + 2);
+  this->_vptr_Factory = (int (**)(...))(&`vtable for Json::StreamWriterBuilder + 2);
   Json::Value::Value(&this->settings_, nullValue);
   return Json::StreamWriterBuilder::setDefaults((Json::StreamWriterBuilder *)&this->settings_, 0LL);
 };
@@ -4214,7 +4214,7 @@ __int64 __fastcall Json::writeString[abi:cxx11](__int64 a1, __int64 a2, Json::Va
   std::ios_base::ios_base((std::ios_base *)v28);
   v30 = 0LL;
   v31 = 0LL;
-  v28[0] = (__int64)&`vtable for'std::ios + 16;
+  v28[0] = (__int64)&`vtable for std::ios + 16;
   v29 = 0;
   v28[27] = 0LL;
   v5 = (_QWORD *)*((_QWORD *)&edata + 1);
@@ -4225,18 +4225,18 @@ __int64 __fastcall Json::writeString[abi:cxx11](__int64 a1, __int64 a2, Json::Va
   v8 = (void **)((char *)v20 + v7);
   *v8 = v6;
   std::ios::init(v8, 0LL);
-  v28[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  *(_QWORD *)v19 = (char *)&`vtable for'std::ostringstream + 24;
+  v28[0] = (__int64)&`vtable for std::ostringstream + 64;
+  *(_QWORD *)v19 = (char *)&`vtable for std::ostringstream + 24;
   *(__m128i *)v20 = _mm_unpacklo_epi64(
-                      (__m128i)((unsigned __int64)&`vtable for'std::ostringstream + 24),
-                      (__m128i)((unsigned __int64)&`vtable for'std::streambuf + 16));
+                      (__m128i)((unsigned __int64)&`vtable for std::ostringstream + 24),
+                      (__m128i)((unsigned __int64)&`vtable for std::streambuf + 16));
   *(_OWORD *)v21 = 0LL;
   v22 = 0LL;
   v23 = 0LL;
   std::locale::locale(&v24);
   v25 = 16;
   v27[0] = 0;
-  v20[1] = (char *)&`vtable for'std::stringbuf + 16;
+  v20[1] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)v18 = v27;
   v26[0] = v27;
   v26[1] = 0LL;
@@ -4284,18 +4284,18 @@ __int64 __fastcall Json::writeString[abi:cxx11](__int64 a1, __int64 a2, Json::Va
   v13 = *(_QWORD *)v9;
   *(__m128i *)v17 = _mm_unpacklo_epi64(
                       _mm_loadl_epi64((const __m128i *)v19),
-                      (__m128i)((unsigned __int64)&`vtable for'std::stringbuf + 16));
+                      (__m128i)((unsigned __int64)&`vtable for std::stringbuf + 16));
   (*(void (__fastcall **)(__int64))(v13 + 8))(v9);
   *(__m128i *)v20 = _mm_load_si128((const __m128i *)v17);
-  v28[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v28[0] = (__int64)&`vtable for std::ostringstream + 64;
   if ( v26[0] != *(void **)v18 )
     operator delete(v26[0]);
-  v20[1] = (char *)&`vtable for'std::streambuf + 16;
+  v20[1] = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v24);
   v14 = *(v5 - 3);
   v20[0] = v5;
   *(void **)((char *)v20 + v14) = v16;
-  v28[0] = (__int64)&`vtable for'std::ios + 16;
+  v28[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v28);
   return a1;
 };

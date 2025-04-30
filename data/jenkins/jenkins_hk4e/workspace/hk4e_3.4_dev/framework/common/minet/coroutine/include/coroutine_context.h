@@ -274,7 +274,7 @@ LABEL_55:
       v25 = exception;
       __asan_report_store8(exception, M_parent);
     }
-    *(_QWORD *)exception = &`vtable for'std::bad_any_cast + 2;
+    *(_QWORD *)exception = &`vtable for std::bad_any_cast + 2;
     __asan_handle_no_return(v25);
     _cxa_throw(
       (void *)exception,
@@ -520,7 +520,7 @@ LABEL_55:
       v25 = exception;
       __asan_report_store8(exception, M_parent);
     }
-    *(_QWORD *)exception = &`vtable for'std::bad_any_cast + 2;
+    *(_QWORD *)exception = &`vtable for std::bad_any_cast + 2;
     __asan_handle_no_return(v25);
     _cxa_throw(
       (void *)exception,

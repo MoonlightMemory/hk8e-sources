@@ -21,7 +21,7 @@ void __cdecl data::BoredEventExcelConfig::BoredEventExcelConfig(
   const data::BoredEventExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BoredEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BoredEventExcelConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::BoredEventExcelConfig::~BoredEventExcelConfig(data::BoredEven
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredEventExcelConfig = v2;
@@ -122,7 +122,7 @@ void __cdecl data::BoredActionPriorityExcelConfig::BoredActionPriorityExcelConfi
   const data::BoredActionPriorityExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BoredActionPriorityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredActionPriorityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BoredActionPriorityExcelConfig = v2;
@@ -170,7 +170,7 @@ void __cdecl data::BoredActionPriorityExcelConfig::~BoredActionPriorityExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredActionPriorityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredActionPriorityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredActionPriorityExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::BoredMonsterConfig::BoredMonsterConfig(data::BoredMonsterConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredMonsterConfig = v2;
@@ -214,7 +214,7 @@ void __cdecl data::BoredMonsterConfig::BoredMonsterConfig(
   const data::BoredMonsterConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BoredMonsterConfig = v2;
@@ -253,7 +253,7 @@ void __cdecl data::BoredMonsterConfig::~BoredMonsterConfig(data::BoredMonsterCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredMonsterConfig = v2;
@@ -273,7 +273,7 @@ void __cdecl data::BoredCreateMonsterExcelConfig::BoredCreateMonsterExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredCreateMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredCreateMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredCreateMonsterExcelConfig = v2;
@@ -297,7 +297,7 @@ void __cdecl data::BoredCreateMonsterExcelConfig::BoredCreateMonsterExcelConfig(
   const data::BoredCreateMonsterExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BoredCreateMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredCreateMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BoredCreateMonsterExcelConfig = v2;
@@ -324,7 +324,7 @@ void __cdecl data::BoredCreateMonsterExcelConfig::~BoredCreateMonsterExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredCreateMonsterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredCreateMonsterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredCreateMonsterExcelConfig = v2;
@@ -346,7 +346,7 @@ void __cdecl data::BoredMonsterPoolConfig::BoredMonsterPoolConfig(data::BoredMon
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterPoolConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterPoolConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredMonsterPoolConfig = v2;
@@ -395,7 +395,7 @@ void __cdecl data::BoredMonsterPoolConfig::BoredMonsterPoolConfig(
   const data::BoredMonsterPoolConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterPoolConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterPoolConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BoredMonsterPoolConfig = v2;
@@ -467,7 +467,7 @@ void __cdecl data::BoredMonsterPoolConfig::~BoredMonsterPoolConfig(data::BoredMo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BoredMonsterPoolConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BoredMonsterPoolConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BoredMonsterPoolConfig = v2;

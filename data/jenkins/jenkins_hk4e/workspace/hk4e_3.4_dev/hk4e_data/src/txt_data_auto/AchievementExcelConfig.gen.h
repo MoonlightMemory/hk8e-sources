@@ -9,7 +9,7 @@ void __cdecl data::AchievementExcelConfig::AchievementExcelConfig(data::Achievem
   __int64 v4; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::AchievementExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AchievementExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::AchievementExcelConfig::AchievementExcelConfig(
   char v12; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::AchievementExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AchievementExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -124,7 +124,7 @@ void __cdecl data::AchievementExcelConfig::~AchievementExcelConfig(data::Achieve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AchievementExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AchievementExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -145,7 +145,7 @@ void __cdecl data::AchievementGoalExcelConfig::AchievementGoalExcelConfig(
   const data::AchievementGoalExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AchievementGoalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AchievementGoalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AchievementGoalExcelConfig = v2;
@@ -193,7 +193,7 @@ void __cdecl data::AchievementGoalExcelConfig::~AchievementGoalExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AchievementGoalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AchievementGoalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AchievementGoalExcelConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::PS4GroupExcelConfig::PS4GroupExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::PS4GroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PS4GroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PS4GroupExcelConfig = v2;
@@ -240,7 +240,7 @@ void __cdecl data::PS4GroupExcelConfig::~PS4GroupExcelConfig(data::PS4GroupExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PS4GroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PS4GroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PS4GroupExcelConfig = v2;
@@ -252,7 +252,7 @@ void __cdecl data::PS5GroupExcelConfig::PS5GroupExcelConfig(data::PS5GroupExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PS5GroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PS5GroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PS5GroupExcelConfig = v2;
@@ -276,7 +276,7 @@ void __cdecl data::PS5GroupExcelConfig::PS5GroupExcelConfig(
   const data::PS5GroupExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PS5GroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PS5GroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PS5GroupExcelConfig = v2;
@@ -309,7 +309,7 @@ void __cdecl data::PS5GroupExcelConfig::~PS5GroupExcelConfig(data::PS5GroupExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PS5GroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PS5GroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PS5GroupExcelConfig = v2;

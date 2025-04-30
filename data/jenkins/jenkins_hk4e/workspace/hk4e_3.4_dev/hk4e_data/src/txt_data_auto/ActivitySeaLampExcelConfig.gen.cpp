@@ -8915,7 +8915,7 @@ int32_t __cdecl data::ActivitySeaLampExcelConfigMgrBase::loadLanV2ProjectionLeve
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::LanV2ProjectionLevelExcelConfig + 2;
+        v14 = &`vtable for data::LanV2ProjectionLevelExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;
@@ -9587,7 +9587,7 @@ int32_t __cdecl data::ActivitySeaLampExcelConfigMgrBase::loadSalvageTypeDataExce
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_WORD *)(((v3 + 112) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::SalvageTypeDataExcelConfig + 2;
+        v14 = &`vtable for data::SalvageTypeDataExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 112, v13);
         *(_QWORD *)(v3 + 112) = v14;

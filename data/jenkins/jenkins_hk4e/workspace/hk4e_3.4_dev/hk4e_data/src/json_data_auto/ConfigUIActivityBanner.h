@@ -7,7 +7,7 @@ void __cdecl data::ContextCondition::ContextCondition(data::ContextCondition *co
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ContextCondition>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ContextCondition>);
-  v2 = (int (**)(...))(&`vtable for'data::ContextCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ContextCondition::ContextCondition(
   std::enable_shared_from_this<data::ContextCondition>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ContextCondition>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ContextCondition + 2);
+  v3 = (int (**)(...))(&`vtable for data::ContextCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ContextCondition = v3;
@@ -59,7 +59,7 @@ void __cdecl data::ContextCondition::~ContextCondition(data::ContextCondition *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -127,7 +127,7 @@ void __cdecl data::ContextAction::ContextAction(data::ContextAction *const this)
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ContextAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ContextAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ContextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -148,7 +148,7 @@ void __cdecl data::ContextAction::ContextAction(data::ContextAction *const this,
   std::enable_shared_from_this<data::ContextAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ContextAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ContextAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ContextAction = v3;
@@ -170,7 +170,7 @@ void __cdecl data::ContextAction::~ContextAction(data::ContextAction *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -314,7 +314,7 @@ void __cdecl data::ContextConditionAnd::ContextConditionAnd(data::ContextConditi
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -329,7 +329,7 @@ void __cdecl data::ContextConditionAnd::ContextConditionAnd(
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -342,7 +342,7 @@ void __cdecl data::ContextConditionAnd::~ContextConditionAnd(data::ContextCondit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAnd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -417,7 +417,7 @@ void __cdecl data::ContextConditionAndFactory::ContextConditionAndFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAndFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAndFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionAndFactory = v2;
@@ -430,7 +430,7 @@ void __cdecl data::ContextConditionOr::ContextConditionOr(data::ContextCondition
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionOr + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionOr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -445,7 +445,7 @@ void __cdecl data::ContextConditionOr::ContextConditionOr(
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionOr + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionOr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -458,7 +458,7 @@ void __cdecl data::ContextConditionOr::~ContextConditionOr(data::ContextConditio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionOr + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionOr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -533,7 +533,7 @@ void __cdecl data::ContextConditionOrFactory::ContextConditionOrFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionOrFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionOrFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionOrFactory = v2;
@@ -546,7 +546,7 @@ void __cdecl data::ContextConditionNot::ContextConditionNot(data::ContextConditi
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -563,7 +563,7 @@ void __cdecl data::ContextConditionNot::ContextConditionNot(
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -576,7 +576,7 @@ void __cdecl data::ContextConditionNot::~ContextConditionNot(data::ContextCondit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionNot + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionNot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -651,7 +651,7 @@ void __cdecl data::ContextConditionNotFactory::ContextConditionNotFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionNotFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionNotFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionNotFactory = v2;
@@ -665,7 +665,7 @@ void __cdecl data::ContextConditionQuestState::ContextConditionQuestState(data::
   __int64 v3; // rsi
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -697,7 +697,7 @@ void __cdecl data::ContextConditionQuestState::ContextConditionQuestState(
   char v7; // al
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -745,7 +745,7 @@ void __cdecl data::ContextConditionQuestState::~ContextConditionQuestState(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -813,7 +813,7 @@ void __cdecl data::ContextConditionQuestStateFactory::ContextConditionQuestState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionQuestStateFactory = v2;
@@ -828,7 +828,7 @@ void __cdecl data::ContextConditionMainQuestState::ContextConditionMainQuestStat
   __int64 v3; // rsi
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -860,7 +860,7 @@ void __cdecl data::ContextConditionMainQuestState::ContextConditionMainQuestStat
   char v7; // al
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -908,7 +908,7 @@ void __cdecl data::ContextConditionMainQuestState::~ContextConditionMainQuestSta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -978,7 +978,7 @@ void __cdecl data::ContextConditionMainQuestStateFactory::ContextConditionMainQu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionMainQuestStateFactory = v2;
@@ -993,7 +993,7 @@ void __cdecl data::ContextConditionMainQuestVisible::ContextConditionMainQuestVi
   __int64 v3; // rsi
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1022,7 +1022,7 @@ void __cdecl data::ContextConditionMainQuestVisible::ContextConditionMainQuestVi
   char v7; // al
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1057,7 +1057,7 @@ void __cdecl data::ContextConditionMainQuestVisible::~ContextConditionMainQuestV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1135,7 +1135,7 @@ void __cdecl data::ContextConditionMainQuestVisibleFactory::ContextConditionMain
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionMainQuestVisibleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionMainQuestVisibleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionMainQuestVisibleFactory = v2;
@@ -1152,7 +1152,7 @@ void __cdecl data::ContextConditionChapterQuestState::ContextConditionChapterQue
   __int64 v5; // rdx
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1194,7 +1194,7 @@ void __cdecl data::ContextConditionChapterQuestState::ContextConditionChapterQue
   __int64 v12; // rdx
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1245,7 +1245,7 @@ void __cdecl data::ContextConditionChapterQuestState::~ContextConditionChapterQu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestState + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestState + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1323,7 +1323,7 @@ void __cdecl data::ContextConditionChapterQuestStateFactory::ContextConditionCha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestStateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestStateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionChapterQuestStateFactory = v2;
@@ -1338,7 +1338,7 @@ void __cdecl data::ContextConditionChapterQuestVisible::ContextConditionChapterQ
   __int64 v3; // rsi
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1367,7 +1367,7 @@ void __cdecl data::ContextConditionChapterQuestVisible::ContextConditionChapterQ
   char v7; // al
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1402,7 +1402,7 @@ void __cdecl data::ContextConditionChapterQuestVisible::~ContextConditionChapter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestVisible + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestVisible + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1480,7 +1480,7 @@ void __cdecl data::ContextConditionChapterQuestVisibleFactory::ContextConditionC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionChapterQuestVisibleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionChapterQuestVisibleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionChapterQuestVisibleFactory = v2;
@@ -1495,7 +1495,7 @@ void __cdecl data::ContextConditionQuestGlobalVar::ContextConditionQuestGlobalVa
   __int64 v3; // rsi
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestGlobalVar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestGlobalVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1528,7 +1528,7 @@ void __cdecl data::ContextConditionQuestGlobalVar::ContextConditionQuestGlobalVa
   char v7; // al
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestGlobalVar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestGlobalVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1568,7 +1568,7 @@ void __cdecl data::ContextConditionQuestGlobalVar::~ContextConditionQuestGlobalV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestGlobalVar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestGlobalVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1646,7 +1646,7 @@ void __cdecl data::ContextConditionQuestGlobalVarFactory::ContextConditionQuestG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionQuestGlobalVarFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionQuestGlobalVarFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionQuestGlobalVarFactory = v2;
@@ -1663,7 +1663,7 @@ void __cdecl data::ContextConditionAreaUnlocked::ContextConditionAreaUnlocked(
   __int64 v5; // rdx
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAreaUnlocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAreaUnlocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1705,7 +1705,7 @@ void __cdecl data::ContextConditionAreaUnlocked::ContextConditionAreaUnlocked(
   __int64 v12; // rdx
 
   data::ContextCondition::ContextCondition((data::ContextCondition *const)this, (const data::ContextCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAreaUnlocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAreaUnlocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1764,7 +1764,7 @@ void __cdecl data::ContextConditionAreaUnlocked::~ContextConditionAreaUnlocked(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAreaUnlocked + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAreaUnlocked + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1833,7 +1833,7 @@ void __cdecl data::ContextConditionAreaUnlockedFactory::ContextConditionAreaUnlo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionAreaUnlockedFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionAreaUnlockedFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionAreaUnlockedFactory = v2;
@@ -1847,7 +1847,7 @@ void __cdecl data::ContextConditionInMultiPlayerMode::ContextConditionInMultiPla
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionInMultiPlayerMode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionInMultiPlayerMode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1861,7 +1861,7 @@ void __cdecl data::ContextConditionInMultiPlayerMode::ContextConditionInMultiPla
   int (**v2)(...); // rdx
 
   data::ContextCondition::ContextCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionInMultiPlayerMode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionInMultiPlayerMode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextCondition = v2;
@@ -1882,7 +1882,7 @@ void __cdecl data::ContextConditionInMultiPlayerMode::~ContextConditionInMultiPl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionInMultiPlayerMode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionInMultiPlayerMode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextCondition = v2;
@@ -1952,7 +1952,7 @@ void __cdecl data::ContextConditionInMultiPlayerModeFactory::ContextConditionInM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextConditionInMultiPlayerModeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextConditionInMultiPlayerModeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextConditionInMultiPlayerModeFactory = v2;
@@ -1965,7 +1965,7 @@ void __cdecl data::ContextActionExecuteAll::ContextActionExecuteAll(data::Contex
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionExecuteAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionExecuteAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -1980,7 +1980,7 @@ void __cdecl data::ContextActionExecuteAll::ContextActionExecuteAll(
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionExecuteAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionExecuteAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2000,7 +2000,7 @@ void __cdecl data::ContextActionExecuteAll::~ContextActionExecuteAll(data::Conte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionExecuteAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionExecuteAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2069,7 +2069,7 @@ void __cdecl data::ContextActionExecuteAllFactory::ContextActionExecuteAllFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionExecuteAllFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionExecuteAllFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionExecuteAllFactory = v2;
@@ -2084,7 +2084,7 @@ void __cdecl data::ContextActionSelectMonsterMark::ContextActionSelectMonsterMar
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMonsterMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMonsterMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2113,7 +2113,7 @@ void __cdecl data::ContextActionSelectMonsterMark::ContextActionSelectMonsterMar
   char v7; // al
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMonsterMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMonsterMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2156,7 +2156,7 @@ void __cdecl data::ContextActionSelectMonsterMark::~ContextActionSelectMonsterMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMonsterMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMonsterMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2226,7 +2226,7 @@ void __cdecl data::ContextActionSelectMonsterMarkFactory::ContextActionSelectMon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMonsterMarkFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMonsterMarkFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectMonsterMarkFactory = v2;
@@ -2240,7 +2240,7 @@ void __cdecl data::ContextActionSelectMainQuest::ContextActionSelectMainQuest(
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2263,7 +2263,7 @@ void __cdecl data::ContextActionSelectMainQuest::ContextActionSelectMainQuest(
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2290,7 +2290,7 @@ void __cdecl data::ContextActionSelectMainQuest::~ContextActionSelectMainQuest(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2367,7 +2367,7 @@ void __cdecl data::ContextActionSelectMainQuestFactory::ContextActionSelectMainQ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectMainQuestFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectMainQuestFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectMainQuestFactory = v2;
@@ -2382,7 +2382,7 @@ void __cdecl data::ContextActionSelectSceneMark::ContextActionSelectSceneMark(
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectSceneMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectSceneMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2415,7 +2415,7 @@ void __cdecl data::ContextActionSelectSceneMark::ContextActionSelectSceneMark(
   char v7; // al
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectSceneMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectSceneMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2464,7 +2464,7 @@ void __cdecl data::ContextActionSelectSceneMark::~ContextActionSelectSceneMark(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectSceneMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectSceneMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2534,7 +2534,7 @@ void __cdecl data::ContextActionSelectSceneMarkFactory::ContextActionSelectScene
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectSceneMarkFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectSceneMarkFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectSceneMarkFactory = v2;
@@ -2549,7 +2549,7 @@ void __cdecl data::ContextActionSelectTransPoint::ContextActionSelectTransPoint(
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2581,7 +2581,7 @@ void __cdecl data::ContextActionSelectTransPoint::ContextActionSelectTransPoint(
   char v7; // al
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2621,7 +2621,7 @@ void __cdecl data::ContextActionSelectTransPoint::~ContextActionSelectTransPoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2698,7 +2698,7 @@ void __cdecl data::ContextActionSelectTransPointFactory::ContextActionSelectTran
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectTransPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectTransPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectTransPointFactory = v2;
@@ -2712,7 +2712,7 @@ void __cdecl data::ContextActionCreateQuestAcceptionMark::ContextActionCreateQue
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionCreateQuestAcceptionMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionCreateQuestAcceptionMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2735,7 +2735,7 @@ void __cdecl data::ContextActionCreateQuestAcceptionMark::ContextActionCreateQue
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionCreateQuestAcceptionMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionCreateQuestAcceptionMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2770,7 +2770,7 @@ void __cdecl data::ContextActionCreateQuestAcceptionMark::~ContextActionCreateQu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionCreateQuestAcceptionMark + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionCreateQuestAcceptionMark + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2840,7 +2840,7 @@ void __cdecl data::ContextActionCreateQuestAcceptionMarkFactory::ContextActionCr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionCreateQuestAcceptionMarkFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionCreateQuestAcceptionMarkFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionCreateQuestAcceptionMarkFactory = v2;
@@ -2854,7 +2854,7 @@ void __cdecl data::ContextActionSelectLegendQuest::ContextActionSelectLegendQues
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectLegendQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectLegendQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2877,7 +2877,7 @@ void __cdecl data::ContextActionSelectLegendQuest::ContextActionSelectLegendQues
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectLegendQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectLegendQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -2904,7 +2904,7 @@ void __cdecl data::ContextActionSelectLegendQuest::~ContextActionSelectLegendQue
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectLegendQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectLegendQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -2982,7 +2982,7 @@ void __cdecl data::ContextActionSelectLegendQuestFactory::ContextActionSelectLeg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectLegendQuestFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectLegendQuestFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectLegendQuestFactory = v2;
@@ -2996,7 +2996,7 @@ void __cdecl data::ContextActionSelectChapterOngoingMainQuest::ContextActionSele
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectChapterOngoingMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectChapterOngoingMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3019,7 +3019,7 @@ void __cdecl data::ContextActionSelectChapterOngoingMainQuest::ContextActionSele
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectChapterOngoingMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectChapterOngoingMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3046,7 +3046,7 @@ void __cdecl data::ContextActionSelectChapterOngoingMainQuest::~ContextActionSel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectChapterOngoingMainQuest + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectChapterOngoingMainQuest + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3124,7 +3124,7 @@ void __cdecl data::ContextActionSelectChapterOngoingMainQuestFactory::ContextAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSelectChapterOngoingMainQuestFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSelectChapterOngoingMainQuestFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSelectChapterOngoingMainQuestFactory = v2;
@@ -3137,7 +3137,7 @@ void __cdecl data::ContextActionSetText::ContextActionSetText(data::ContextActio
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetText + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetText + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3161,7 +3161,7 @@ void __cdecl data::ContextActionSetText::ContextActionSetText(
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetText + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetText + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3188,7 +3188,7 @@ void __cdecl data::ContextActionSetText::~ContextActionSetText(data::ContextActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetText + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetText + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3264,7 +3264,7 @@ void __cdecl data::ContextActionSetTextFactory::ContextActionSetTextFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetTextFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetTextFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSetTextFactory = v2;
@@ -3279,7 +3279,7 @@ void __cdecl data::ContextActionSetTextWithMainQuestName::ContextActionSetTextWi
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetTextWithMainQuestName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetTextWithMainQuestName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3313,7 +3313,7 @@ void __cdecl data::ContextActionSetTextWithMainQuestName::ContextActionSetTextWi
   char v8; // al
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetTextWithMainQuestName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetTextWithMainQuestName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3355,7 +3355,7 @@ void __cdecl data::ContextActionSetTextWithMainQuestName::~ContextActionSetTextW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetTextWithMainQuestName + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetTextWithMainQuestName + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3434,7 +3434,7 @@ void __cdecl data::ContextActionSetTextWithMainQuestNameFactory::ContextActionSe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetTextWithMainQuestNameFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetTextWithMainQuestNameFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSetTextWithMainQuestNameFactory = v2;
@@ -3450,7 +3450,7 @@ void __cdecl data::ContextActionSetActive::ContextActionSetActive(data::ContextA
   __int64 v5; // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetActive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetActive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3489,7 +3489,7 @@ void __cdecl data::ContextActionSetActive::ContextActionSetActive(
   __int64 v12; // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetActive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetActive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3534,7 +3534,7 @@ void __cdecl data::ContextActionSetActive::~ContextActionSetActive(data::Context
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetActive + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetActive + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3609,7 +3609,7 @@ void __cdecl data::ContextActionSetActiveFactory::ContextActionSetActiveFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetActiveFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetActiveFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSetActiveFactory = v2;
@@ -3624,7 +3624,7 @@ void __cdecl data::ContextActionSetAnimatorTrigger::ContextActionSetAnimatorTrig
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetAnimatorTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetAnimatorTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3655,7 +3655,7 @@ void __cdecl data::ContextActionSetAnimatorTrigger::ContextActionSetAnimatorTrig
   char v8; // al
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetAnimatorTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetAnimatorTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3694,7 +3694,7 @@ void __cdecl data::ContextActionSetAnimatorTrigger::~ContextActionSetAnimatorTri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetAnimatorTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetAnimatorTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3773,7 +3773,7 @@ void __cdecl data::ContextActionSetAnimatorTriggerFactory::ContextActionSetAnima
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetAnimatorTriggerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetAnimatorTriggerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSetAnimatorTriggerFactory = v2;
@@ -3788,7 +3788,7 @@ void __cdecl data::ContextActionReportActivityBuriedPoint::ContextActionReportAc
   __int64 v3; // rsi
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionReportActivityBuriedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionReportActivityBuriedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3830,7 +3830,7 @@ void __cdecl data::ContextActionReportActivityBuriedPoint::ContextActionReportAc
   char v10; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionReportActivityBuriedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionReportActivityBuriedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -3885,7 +3885,7 @@ void __cdecl data::ContextActionReportActivityBuriedPoint::~ContextActionReportA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionReportActivityBuriedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionReportActivityBuriedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -3964,7 +3964,7 @@ void __cdecl data::ContextActionReportActivityBuriedPointFactory::ContextActionR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionReportActivityBuriedPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionReportActivityBuriedPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionReportActivityBuriedPointFactory = v2;
@@ -3977,7 +3977,7 @@ void __cdecl data::ContextActionSetIcon::ContextActionSetIcon(data::ContextActio
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction((data::ContextAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetIcon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetIcon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -4002,7 +4002,7 @@ void __cdecl data::ContextActionSetIcon::ContextActionSetIcon(
   char v5; // dl
 
   data::ContextAction::ContextAction((data::ContextAction *const)this, (const data::ContextAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetIcon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetIcon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -4030,7 +4030,7 @@ void __cdecl data::ContextActionSetIcon::~ContextActionSetIcon(data::ContextActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetIcon + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetIcon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -4107,7 +4107,7 @@ void __cdecl data::ContextActionSetIconFactory::ContextActionSetIconFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionSetIconFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionSetIconFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionSetIconFactory = v2;
@@ -4120,7 +4120,7 @@ void __cdecl data::ContextActionShowMessage::ContextActionShowMessage(data::Cont
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionShowMessage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionShowMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -4135,7 +4135,7 @@ void __cdecl data::ContextActionShowMessage::ContextActionShowMessage(
   int (**v2)(...); // rdx
 
   data::ContextAction::ContextAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionShowMessage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionShowMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ContextAction = v2;
@@ -4148,7 +4148,7 @@ void __cdecl data::ContextActionShowMessage::~ContextActionShowMessage(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionShowMessage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionShowMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextAction = v2;
@@ -4224,7 +4224,7 @@ void __cdecl data::ContextActionShowMessageFactory::ContextActionShowMessageFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ContextActionShowMessageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ContextActionShowMessageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ContextActionShowMessageFactory = v2;

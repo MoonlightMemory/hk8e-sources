@@ -6,7 +6,7 @@ void __cdecl ExhibitionExcelConfigMgr::ExhibitionExcelConfigMgr(ExhibitionExcelC
   int (**v1)(...); // rdx
 
   data::ExhibitionExcelConfigMgrBase::ExhibitionExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ExhibitionExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ExhibitionExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ExhibitionExcelConfigMgrBase = v1;
@@ -34,7 +34,7 @@ void __cdecl ExhibitionExcelConfigMgr::~ExhibitionExcelConfigMgr(ExhibitionExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ExhibitionExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ExhibitionExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ExhibitionExcelConfigMgrBase = v1;

@@ -348,7 +348,7 @@ void __cdecl data::ConfigAICareAbout::ConfigAICareAbout(data::ConfigAICareAbout 
   __int64 v5; // rsi
 
   std::enable_shared_from_this<data::ConfigAICareAbout>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAICareAbout>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAbout + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAbout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigAICareAbout::ConfigAICareAbout(
   std::enable_shared_from_this<data::ConfigAICareAbout>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAICareAbout>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAICareAbout + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAICareAbout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAICareAbout = v3;
@@ -525,7 +525,7 @@ void __cdecl data::ConfigAICareAbout::~ConfigAICareAbout(data::ConfigAICareAbout
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAbout + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAbout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;
@@ -539,7 +539,7 @@ void __cdecl data::ConfigAICareAboutCamp::ConfigAICareAboutCamp(data::ConfigAICa
   int (**v2)(...); // rdx
 
   data::ConfigAICareAbout::ConfigAICareAbout((data::ConfigAICareAbout *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;
@@ -562,7 +562,7 @@ void __cdecl data::ConfigAICareAboutCamp::ConfigAICareAboutCamp(
   char v5; // dl
 
   data::ConfigAICareAbout::ConfigAICareAbout((data::ConfigAICareAbout *const)this, (const data::ConfigAICareAbout *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAICareAbout = v2;
@@ -588,7 +588,7 @@ void __cdecl data::ConfigAICareAboutCamp::~ConfigAICareAboutCamp(data::ConfigAIC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutCamp + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutCamp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;
@@ -609,7 +609,7 @@ void __cdecl data::ConfigAICareAboutTags::ConfigAICareAboutTags(data::ConfigAICa
   int (**v2)(...); // rdx
 
   data::ConfigAICareAbout::ConfigAICareAbout(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;
@@ -625,7 +625,7 @@ void __cdecl data::ConfigAICareAboutTags::ConfigAICareAboutTags(
   int (**v2)(...); // rdx
 
   data::ConfigAICareAbout::ConfigAICareAbout(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAICareAbout = v2;
@@ -639,7 +639,7 @@ void __cdecl data::ConfigAICareAboutTags::~ConfigAICareAboutTags(data::ConfigAIC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAICareAboutTags + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAICareAboutTags + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAICareAbout = v2;

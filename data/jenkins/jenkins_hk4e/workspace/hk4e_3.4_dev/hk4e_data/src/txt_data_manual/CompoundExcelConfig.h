@@ -6,7 +6,7 @@ void __cdecl CompoundExcelConfigMgr::CompoundExcelConfigMgr(CompoundExcelConfigM
   int (**v1)(...); // rdx
 
   data::CompoundExcelConfigMgrBase::CompoundExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'CompoundExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CompoundExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CompoundExcelConfigMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl CompoundExcelConfigMgr::~CompoundExcelConfigMgr(CompoundExcelConfig
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CompoundExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CompoundExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CompoundExcelConfigMgrBase = v1;

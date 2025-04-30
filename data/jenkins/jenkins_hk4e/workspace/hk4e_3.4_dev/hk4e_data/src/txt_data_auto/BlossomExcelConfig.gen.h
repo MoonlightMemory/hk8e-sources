@@ -6,7 +6,7 @@ void __cdecl data::BlossomRefreshCond::~BlossomRefreshCond(data::BlossomRefreshC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRefreshCond = v2;
@@ -19,7 +19,7 @@ void __cdecl data::BlossomRewardExcelConfig::~BlossomRewardExcelConfig(data::Blo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRewardExcelConfig = v2;
@@ -39,7 +39,7 @@ void __cdecl data::BlossomOpenExcelConfig::BlossomOpenExcelConfig(
   const data::BlossomOpenExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomOpenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomOpenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomOpenExcelConfig = v2;
@@ -85,7 +85,7 @@ void __cdecl data::BlossomOpenExcelConfig::~BlossomOpenExcelConfig(data::Blossom
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomOpenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomOpenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomOpenExcelConfig = v2;
@@ -97,7 +97,7 @@ void __cdecl data::BlossomRewardExcelConfig::BlossomRewardExcelConfig(data::Blos
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRewardExcelConfig = v2;
@@ -129,7 +129,7 @@ void __cdecl data::BlossomRewardExcelConfig::BlossomRewardExcelConfig(
   const data::BlossomRewardExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomRewardExcelConfig = v2;
@@ -175,7 +175,7 @@ void __cdecl data::BlossomRefreshCond::BlossomRefreshCond(data::BlossomRefreshCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRefreshCond = v2;
@@ -199,7 +199,7 @@ void __cdecl data::BlossomRefreshCond::BlossomRefreshCond(
   const data::BlossomRefreshCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomRefreshCond = v2;
@@ -239,7 +239,7 @@ void __cdecl data::BlossomRefreshExcelConfig::BlossomRefreshExcelConfig(data::Bl
   __int64 v8; // rsi
   __int64 v9; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRefreshExcelConfig = v2;
@@ -393,7 +393,7 @@ void __cdecl data::BlossomRefreshExcelConfig::BlossomRefreshExcelConfig(
   const data::BlossomRefreshExcelConfig *v44; // [rsp+0h] [rbp-20h]
 
   v44 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomRefreshExcelConfig = v2;
@@ -610,7 +610,7 @@ void __cdecl data::BlossomRefreshExcelConfig::~BlossomRefreshExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomRefreshExcelConfig = v2;
@@ -636,7 +636,7 @@ void __cdecl data::BlossomGroupsExcelConfig::BlossomGroupsExcelConfig(data::Blos
   __int64 v5; // rdx
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomGroupsExcelConfig = v2;
@@ -724,7 +724,7 @@ void __cdecl data::BlossomGroupsExcelConfig::BlossomGroupsExcelConfig(
   const data::BlossomGroupsExcelConfig *v26; // [rsp+0h] [rbp-20h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomGroupsExcelConfig = v2;
@@ -850,7 +850,7 @@ void __cdecl data::BlossomGroupsExcelConfig::~BlossomGroupsExcelConfig(data::Blo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomGroupsExcelConfig = v2;
@@ -879,7 +879,7 @@ void __cdecl data::BlossomSectionOrderExcelConfig::BlossomSectionOrderExcelConfi
   const data::BlossomSectionOrderExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomSectionOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomSectionOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomSectionOrderExcelConfig = v2;
@@ -954,7 +954,7 @@ void __cdecl data::BlossomSectionOrderExcelConfig::~BlossomSectionOrderExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomSectionOrderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomSectionOrderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomSectionOrderExcelConfig = v2;
@@ -984,7 +984,7 @@ void __cdecl data::BlossomChestExcelConfig::BlossomChestExcelConfig(
   const data::BlossomChestExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomChestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomChestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomChestExcelConfig = v2;
@@ -1077,7 +1077,7 @@ void __cdecl data::BlossomChestExcelConfig::~BlossomChestExcelConfig(data::Bloss
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomChestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomChestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomChestExcelConfig = v2;
@@ -1096,7 +1096,7 @@ void __cdecl data::BlossomReviseExcelConfig::BlossomReviseExcelConfig(data::Blos
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomReviseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomReviseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomReviseExcelConfig = v2;
@@ -1120,7 +1120,7 @@ void __cdecl data::BlossomReviseExcelConfig::BlossomReviseExcelConfig(
   const data::BlossomReviseExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomReviseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomReviseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomReviseExcelConfig = v2;
@@ -1153,7 +1153,7 @@ void __cdecl data::BlossomReviseExcelConfig::~BlossomReviseExcelConfig(data::Blo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomReviseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomReviseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomReviseExcelConfig = v2;
@@ -1167,7 +1167,7 @@ void __cdecl data::BlossomTalkExcelConfig::BlossomTalkExcelConfig(data::BlossomT
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomTalkExcelConfig = v2;
@@ -1209,7 +1209,7 @@ void __cdecl data::BlossomTalkExcelConfig::BlossomTalkExcelConfig(
   const data::BlossomTalkExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlossomTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlossomTalkExcelConfig = v2;
@@ -1269,7 +1269,7 @@ void __cdecl data::BlossomTalkExcelConfig::~BlossomTalkExcelConfig(data::Blossom
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlossomTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlossomTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlossomTalkExcelConfig = v2;

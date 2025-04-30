@@ -14,7 +14,7 @@ void __cdecl data::ConfigClimateInfoBase::ConfigClimateInfoBase(data::ConfigClim
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigClimateInfoBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigClimateInfoBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigClimateInfoBase = v2;
@@ -37,7 +37,7 @@ void __cdecl data::ConfigClimateInfoBase::ConfigClimateInfoBase(
   std::enable_shared_from_this<data::ConfigClimateInfoBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigClimateInfoBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigClimateInfoBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigClimateInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigClimateInfoBase = v3;
@@ -66,7 +66,7 @@ void __cdecl data::ConfigClimateInfoBase::~ConfigClimateInfoBase(data::ConfigCli
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigClimateInfoBase = v2;
@@ -154,7 +154,7 @@ void __cdecl data::ConfigClimateInfo::ConfigClimateInfo(data::ConfigClimateInfo 
   int (**v2)(...); // rdx
 
   data::ConfigClimateInfoBase::ConfigClimateInfoBase((data::ConfigClimateInfoBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigClimateInfoBase = v2;
@@ -180,7 +180,7 @@ void __cdecl data::ConfigClimateInfo::ConfigClimateInfo(
   data::ConfigClimateInfoBase::ConfigClimateInfoBase(
     (data::ConfigClimateInfoBase *const)this,
     (const data::ConfigClimateInfoBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigClimateInfoBase = v2;
@@ -209,7 +209,7 @@ void __cdecl data::ConfigClimateInfo::~ConfigClimateInfo(data::ConfigClimateInfo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigClimateInfoBase = v2;
@@ -283,7 +283,7 @@ void __cdecl data::ConfigClimateInfoFactory::ConfigClimateInfoFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigClimateInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigClimateInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigClimateInfoFactory = v2;

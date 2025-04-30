@@ -6,7 +6,7 @@ void __cdecl ReputationExcelConfigMgr::ReputationExcelConfigMgr(ReputationExcelC
   int (**v1)(...); // rdx
 
   data::ReputationExcelConfigMgrBase::ReputationExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ReputationExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ReputationExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ReputationExcelConfigMgrBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ReputationExcelConfigMgr::~ReputationExcelConfigMgr(ReputationExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReputationExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ReputationExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ReputationExcelConfigMgrBase = v1;

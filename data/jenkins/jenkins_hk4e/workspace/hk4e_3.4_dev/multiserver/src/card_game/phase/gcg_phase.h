@@ -24,7 +24,7 @@ void __cdecl GCGPhaseBase::GCGPhaseBase(GCGPhaseBase *const this, GCGGameMode *g
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<GCGPhaseBase>::enable_shared_from_this(&this->std::enable_shared_from_this<GCGPhaseBase>);
-  v2 = (int (**)(...))(&`vtable for'GCGPhaseBase + 2);
+  v2 = (int (**)(...))(&`vtable for GCGPhaseBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v2;
@@ -119,7 +119,7 @@ void __cdecl GCGPhaseBase::~GCGPhaseBase(GCGPhaseBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPhaseBase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPhaseBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v1;

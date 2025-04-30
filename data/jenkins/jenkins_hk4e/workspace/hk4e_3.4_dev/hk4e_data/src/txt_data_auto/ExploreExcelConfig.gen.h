@@ -14,7 +14,7 @@ void __cdecl data::ExploreExcelConfig::ExploreExcelConfig(
   const data::ExploreExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExploreExcelConfig = v2;
@@ -53,7 +53,7 @@ void __cdecl data::ExploreExcelConfig::~ExploreExcelConfig(data::ExploreExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExploreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExploreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExploreExcelConfig = v2;
@@ -81,7 +81,7 @@ void __cdecl data::ExploreAreaTotalExpExcelConfig::ExploreAreaTotalExpExcelConfi
   const data::ExploreAreaTotalExpExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExploreAreaTotalExpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExploreAreaTotalExpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExploreAreaTotalExpExcelConfig = v2;
@@ -131,7 +131,7 @@ void __cdecl data::ExploreAreaTotalExpExcelConfig::~ExploreAreaTotalExpExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExploreAreaTotalExpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExploreAreaTotalExpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExploreAreaTotalExpExcelConfig = v2;
@@ -159,7 +159,7 @@ void __cdecl data::DungeonMapAreaExcelConfig::DungeonMapAreaExcelConfig(
   const data::DungeonMapAreaExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DungeonMapAreaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonMapAreaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DungeonMapAreaExcelConfig = v2;
@@ -198,7 +198,7 @@ void __cdecl data::DungeonMapAreaExcelConfig::~DungeonMapAreaExcelConfig(data::D
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonMapAreaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonMapAreaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonMapAreaExcelConfig = v2;

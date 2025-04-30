@@ -7,7 +7,7 @@ void __cdecl data::TrialAvatarConfig::TrialAvatarConfig(data::TrialAvatarConfig 
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarConfig = v2;
@@ -48,7 +48,7 @@ void __cdecl data::TrialAvatarConfig::TrialAvatarConfig(
   const data::TrialAvatarConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialAvatarConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::TrialAvatarConfig::~TrialAvatarConfig(data::TrialAvatarConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarConfig = v2;
@@ -120,7 +120,7 @@ void __cdecl data::TrialWeaponConfig::TrialWeaponConfig(data::TrialWeaponConfig 
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialWeaponConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialWeaponConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialWeaponConfig = v2;
@@ -161,7 +161,7 @@ void __cdecl data::TrialWeaponConfig::TrialWeaponConfig(
   const data::TrialWeaponConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialWeaponConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialWeaponConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialWeaponConfig = v2;
@@ -220,7 +220,7 @@ void __cdecl data::TrialWeaponConfig::~TrialWeaponConfig(data::TrialWeaponConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialWeaponConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialWeaponConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialWeaponConfig = v2;
@@ -234,7 +234,7 @@ void __cdecl data::TrialAvatarExcelConfig::TrialAvatarExcelConfig(data::TrialAva
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarExcelConfig = v2;
@@ -344,7 +344,7 @@ void __cdecl data::TrialAvatarExcelConfig::TrialAvatarExcelConfig(
   const data::TrialAvatarExcelConfig *v31; // [rsp+0h] [rbp-20h]
 
   v31 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialAvatarExcelConfig = v2;
@@ -517,7 +517,7 @@ void __cdecl data::TrialAvatarExcelConfig::~TrialAvatarExcelConfig(data::TrialAv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarExcelConfig = v2;
@@ -549,7 +549,7 @@ void __cdecl data::TrialReliquaryExcelConfig::TrialReliquaryExcelConfig(data::Tr
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialReliquaryExcelConfig = v2;
@@ -609,7 +609,7 @@ void __cdecl data::TrialReliquaryExcelConfig::TrialReliquaryExcelConfig(
   const data::TrialReliquaryExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialReliquaryExcelConfig = v2;
@@ -689,7 +689,7 @@ void __cdecl data::TrialReliquaryExcelConfig::~TrialReliquaryExcelConfig(data::T
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialReliquaryExcelConfig = v2;
@@ -710,7 +710,7 @@ void __cdecl data::TrialAvatarTemplateExcelConfig::TrialAvatarTemplateExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarTemplateExcelConfig = v2;
@@ -745,7 +745,7 @@ void __cdecl data::TrialAvatarTemplateExcelConfig::TrialAvatarTemplateExcelConfi
   const data::TrialAvatarTemplateExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialAvatarTemplateExcelConfig = v2;
@@ -796,7 +796,7 @@ void __cdecl data::TrialAvatarTemplateExcelConfig::~TrialAvatarTemplateExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarTemplateExcelConfig = v2;

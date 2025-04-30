@@ -49,7 +49,7 @@ void __cdecl data::StrengthBaseScoreConfig::StrengthBaseScoreConfig(data::Streng
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StrengthBaseScoreConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthBaseScoreConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StrengthBaseScoreConfig = v2;
@@ -81,7 +81,7 @@ void __cdecl data::StrengthBaseScoreConfig::StrengthBaseScoreConfig(
   const data::StrengthBaseScoreConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::StrengthBaseScoreConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthBaseScoreConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_StrengthBaseScoreConfig = v2;
@@ -120,7 +120,7 @@ void __cdecl data::StrengthBaseScoreConfig::~StrengthBaseScoreConfig(data::Stren
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StrengthBaseScoreConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthBaseScoreConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StrengthBaseScoreConfig = v2;
@@ -140,7 +140,7 @@ void __cdecl data::StrengthenBasePointExcelConfig::StrengthenBasePointExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StrengthenBasePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthenBasePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StrengthenBasePointExcelConfig = v2;
@@ -164,7 +164,7 @@ void __cdecl data::StrengthenBasePointExcelConfig::StrengthenBasePointExcelConfi
   const data::StrengthenBasePointExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::StrengthenBasePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthenBasePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_StrengthenBasePointExcelConfig = v2;
@@ -191,7 +191,7 @@ void __cdecl data::StrengthenBasePointExcelConfig::~StrengthenBasePointExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StrengthenBasePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthenBasePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StrengthenBasePointExcelConfig = v2;
@@ -225,7 +225,7 @@ void __cdecl data::StrengthenPointExcelConfig::StrengthenPointExcelConfig(
   const data::StrengthenPointExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::StrengthenPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthenPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_StrengthenPointExcelConfig = v2;
@@ -292,7 +292,7 @@ void __cdecl data::StrengthenPointExcelConfig::~StrengthenPointExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StrengthenPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StrengthenPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StrengthenPointExcelConfig = v2;

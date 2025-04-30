@@ -6369,7 +6369,7 @@ int32_t __cdecl data::CoopExcelConfigMgrBase::loadCoopInteractionExcelConfig(
         v12 = *(unsigned int *)(v2 + 80);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v2 + 1104), v12);
         *(_DWORD *)(((v2 + 240) >> 3) + 0x7FFF8000) = 0;
-        v13 = &`vtable for'data::CoopInteractionExcelConfig + 2;
+        v13 = &`vtable for data::CoopInteractionExcelConfig + 2;
         if ( *(_BYTE *)(((v2 + 240) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v2 + 240, v12);
         *(_QWORD *)(v2 + 240) = v13;

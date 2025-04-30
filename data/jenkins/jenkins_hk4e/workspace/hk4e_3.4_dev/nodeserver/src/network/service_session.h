@@ -6,7 +6,7 @@ void __cdecl ServiceSession::ServiceSession(ServiceSession *const this, boost::a
   int (**v2)(...); // rdx
 
   common::minet::AServerSession::AServerSession(this, ioc);
-  v2 = (int (**)(...))(&`vtable for'ServiceSession + 2);
+  v2 = (int (**)(...))(&`vtable for ServiceSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, ioc);
   this->_vptr_AServerSession = v2;
@@ -22,7 +22,7 @@ void __cdecl ServiceSession::~ServiceSession(ServiceSession *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ServiceSession + 2);
+  v2 = (int (**)(...))(&`vtable for ServiceSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AServerSession = v2;

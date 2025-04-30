@@ -56,7 +56,7 @@ LABEL_28:
     __asan_report_store8(this, *(_QWORD *)&coro_id);
     goto LABEL_29;
   }
-  this->_vptr_Coroutine = (int (**)(...))(&`vtable for'common::minet::Coroutine + 2);
+  this->_vptr_Coroutine = (int (**)(...))(&`vtable for common::minet::Coroutine + 2);
   p_disabled = &this->disabled;
   if ( *(char *)(((unsigned __int64)&this->disabled >> 3) + 0x7FFF8000) < 0 )
   {
@@ -280,7 +280,7 @@ void __fastcall common::minet::Coroutine::~Coroutine(common::minet::Coroutine *c
     __asan_report_store8(this, p_onExitCallback);
     goto LABEL_35;
   }
-  this->_vptr_Coroutine = (int (**)(...))(&`vtable for'common::minet::Coroutine + 2);
+  this->_vptr_Coroutine = (int (**)(...))(&`vtable for common::minet::Coroutine + 2);
   this = (common::minet::Coroutine *const)((char *)this + 224);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -728,7 +728,7 @@ LABEL_25:
         *(_DWORD *)&v4->_M_functor._M_pod_data[12] = 1;
         if ( !*(_BYTE *)(((unsigned __int64)v4 >> 3) + 0x7FFF8000) )
         {
-          v4->_M_functor._M_unused._M_object = &`vtable for'std::_Sp_counted_ptr_inplace<boost::coroutines2::detail::pull_coroutine<void>,common::tools::perf::allocator<boost::coroutines2::detail::pull_coroutine<void>,boost::coroutines2::detail::pull_coroutine<void>>,(__gnu_cxx::_Lock_policy)2>
+          v4->_M_functor._M_unused._M_object = &`vtable for std::_Sp_counted_ptr_inplace<boost::coroutines2::detail::pull_coroutine<void>,common::tools::perf::allocator<boost::coroutines2::detail::pull_coroutine<void>,boost::coroutines2::detail::pull_coroutine<void>>,(__gnu_cxx::_Lock_policy)2>
                                              + 2;
           onExitCallbacka._M_functor._M_unused._M_object = &v4->_M_manager;
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -795,7 +795,7 @@ LABEL_66:
     __asan_report_store8(v29, v23);
     goto LABEL_67;
   }
-  *(_QWORD *)v29 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::coroutines2::detail::pull_coroutine<void>,std::allocator<boost::coroutines2::detail::pull_coroutine<void>>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v29 = &`vtable for std::_Sp_counted_ptr_inplace<boost::coroutines2::detail::pull_coroutine<void>,std::allocator<boost::coroutines2::detail::pull_coroutine<void>>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v23 = &common::minet::Coroutine::size_stack;
   onExitCallbacka._M_functor._M_unused._M_object = (void *)(v29 + 16);

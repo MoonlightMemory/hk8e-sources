@@ -7,7 +7,7 @@ void __cdecl MatchUnitBase::MatchUnitBase(MatchUnitBase *const this, proto::Matc
 
   std::enable_shared_from_this<MatchUnitBase>::enable_shared_from_this(&this->std::enable_shared_from_this<MatchUnitBase>);
   common::milog::DescribalBase::DescribalBase(this);
-  v2 = (int (**)(...))(&`vtable for'MatchUnitBase + 2);
+  v2 = (int (**)(...))(&`vtable for MatchUnitBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v2;
@@ -81,7 +81,7 @@ void __cdecl MatchUnitBase::~MatchUnitBase(MatchUnitBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MatchUnitBase + 2);
+  v1 = (int (**)(...))(&`vtable for MatchUnitBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -426,7 +426,7 @@ void __cdecl DungeonMatchUnit::~DungeonMatchUnit(DungeonMatchUnit *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonMatchUnit + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -449,7 +449,7 @@ void __cdecl DungeonMatchUnit::DungeonMatchUnit(
   int (**v3)(...); // rdx
 
   MatchUnitBase::MatchUnitBase(this, match_type);
-  v3 = (int (**)(...))(&`vtable for'DungeonMatchUnit + 2);
+  v3 = (int (**)(...))(&`vtable for DungeonMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;
@@ -496,7 +496,7 @@ void __cdecl MpPlayMatchUnit::~MpPlayMatchUnit(MpPlayMatchUnit *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MpPlayMatchUnit + 2);
+  v1 = (int (**)(...))(&`vtable for MpPlayMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -512,7 +512,7 @@ void __cdecl MpPlayMatchUnit::MpPlayMatchUnit(
   int (**v3)(...); // rdx
 
   MatchUnitBase::MatchUnitBase(this, match_type);
-  v3 = (int (**)(...))(&`vtable for'MpPlayMatchUnit + 2);
+  v3 = (int (**)(...))(&`vtable for MpPlayMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;
@@ -559,7 +559,7 @@ void __cdecl MechanicusMatchUnit::~MechanicusMatchUnit(MechanicusMatchUnit *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MechanicusMatchUnit + 2);
+  v1 = (int (**)(...))(&`vtable for MechanicusMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -575,7 +575,7 @@ void __cdecl MechanicusMatchUnit::MechanicusMatchUnit(
   int (**v3)(...); // rdx
 
   MatchUnitBase::MatchUnitBase(this, match_type);
-  v3 = (int (**)(...))(&`vtable for'MechanicusMatchUnit + 2);
+  v3 = (int (**)(...))(&`vtable for MechanicusMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v3;
@@ -615,7 +615,7 @@ void __cdecl GeneralMatchUnit::~GeneralMatchUnit(GeneralMatchUnit *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GeneralMatchUnit + 2);
+  v1 = (int (**)(...))(&`vtable for GeneralMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -660,7 +660,7 @@ void __cdecl GeneralMatchUnit::GeneralMatchUnit(
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   MatchUnitBase::MatchUnitBase(this, match_type);
-  v6 = (int (**)(...))(&`vtable for'GeneralMatchUnit + 2);
+  v6 = (int (**)(...))(&`vtable for GeneralMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v6;
@@ -744,7 +744,7 @@ void __cdecl GCGMatchUnit::~GCGMatchUnit(GCGMatchUnit *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMatchUnit + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMatchUnit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

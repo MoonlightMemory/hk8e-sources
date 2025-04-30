@@ -138,7 +138,7 @@ void __cdecl proto::MapInfo::MapInfo(proto::MapInfo *const this)
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::MapInfo + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MapInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -162,7 +162,7 @@ void __cdecl proto::MapInfo::MapInfo(proto::MapInfo *const this, const proto::Ma
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::MapInfo + 2);
+  v2 = (int (**)(...))(&`vtable for proto::MapInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -228,7 +228,7 @@ void __cdecl proto::MapInfo::~MapInfo(proto::MapInfo *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::MapInfo + 2);
+  v1 = (int (**)(...))(&`vtable for proto::MapInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -956,7 +956,7 @@ void __cdecl proto::CellInfo::CellInfo(proto::CellInfo *const this)
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto::CellInfo + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CellInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -977,7 +977,7 @@ void __cdecl proto::CellInfo::CellInfo(proto::CellInfo *const this, const proto:
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto::CellInfo + 2);
+  v2 = (int (**)(...))(&`vtable for proto::CellInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -1040,7 +1040,7 @@ void __cdecl proto::CellInfo::~CellInfo(proto::CellInfo *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto::CellInfo + 2);
+  v1 = (int (**)(...))(&`vtable for proto::CellInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

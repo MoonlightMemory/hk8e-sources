@@ -6,7 +6,7 @@ void __cdecl ShareCDExcelConfigMgr::ShareCDExcelConfigMgr(ShareCDExcelConfigMgr 
   int (**v1)(...); // rdx
 
   data::ShareCDExcelConfigMgrBase::ShareCDExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ShareCDExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ShareCDExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ShareCDExcelConfigMgrBase = v1;
@@ -17,7 +17,7 @@ void __cdecl ShareCDExcelConfigMgr::~ShareCDExcelConfigMgr(ShareCDExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ShareCDExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ShareCDExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ShareCDExcelConfigMgrBase = v1;

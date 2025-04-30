@@ -586,7 +586,7 @@ LABEL_165:
 LABEL_177:
   if ( !v13 )
   {
-    *(_QWORD *)(v2 + 96) = &`vtable for'boost::bad_lexical_cast + 2;
+    *(_QWORD *)(v2 + 96) = &`vtable for boost::bad_lexical_cast + 2;
     *(_QWORD *)(v2 + 104) = &`typeinfo for'boost::iterator_range<char const*>;
     *(_QWORD *)(v2 + 112) = &`typeinfo for'int;
     exception = (unsigned __int64)__cxa_allocate_exception(0x48uLL);
@@ -594,15 +594,15 @@ LABEL_177:
     v87 = *((_QWORD *)v3 - 6);
     memset(&b.data_, 0, 24);
     b.throw_line_ = -1;
-    v85 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 2;
-    b._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::bad_lexical_cast>
+    v85 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 2;
+    b._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::bad_lexical_cast>
                                       + 7);
     if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 64) = &`vtable for'boost::exception_detail::clone_base + 2;
+    *(_QWORD *)(exception + 64) = &`vtable for boost::exception_detail::clone_base + 2;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::bad_lexical_cast + 2;
+    *(_QWORD *)exception = &`vtable for boost::bad_lexical_cast + 2;
     v65 = v86;
     if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
       v65 = __asan_report_store8();
@@ -613,7 +613,7 @@ LABEL_177:
     *(_QWORD *)(exception + 16) = v66;
     if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 24) = &`vtable for'boost::exception + 2;
+    *(_QWORD *)(exception + 24) = &`vtable for boost::exception + 2;
     px = b.data_.px_;
     if ( *(_BYTE *)(((exception + 32) >> 3) + 0x7FFF8000) )
     {
@@ -648,16 +648,16 @@ LABEL_177:
     *(_DWORD *)(exception + 56) = throw_line;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 2;
+    *(_QWORD *)exception = &`vtable for boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 2;
     if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 24) = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 7;
+    *(_QWORD *)(exception + 24) = &`vtable for boost::exception_detail::error_info_injector<boost::bad_lexical_cast> + 7;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
     *(_QWORD *)exception = &unk_1D4AE430;
     if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 24) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_lexical_cast>>
+    *(_QWORD *)(exception + 24) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_lexical_cast>>
                                 + 80;
     if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
@@ -665,13 +665,13 @@ LABEL_177:
     boost::exception_detail::copy_boost_exception((boost::exception *)(exception + 24), &b);
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = (char *)&`vtable for'boost::wrapexcept<boost::bad_lexical_cast> + 24;
+    *(_QWORD *)exception = (char *)&`vtable for boost::wrapexcept<boost::bad_lexical_cast> + 24;
     if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 24) = (char *)&`vtable for'boost::wrapexcept<boost::bad_lexical_cast> + 80;
+    *(_QWORD *)(exception + 24) = (char *)&`vtable for boost::wrapexcept<boost::bad_lexical_cast> + 80;
     if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)(exception + 64) = (char *)&`vtable for'boost::wrapexcept<boost::bad_lexical_cast> + 136;
+    *(_QWORD *)(exception + 64) = (char *)&`vtable for boost::wrapexcept<boost::bad_lexical_cast> + 136;
     boost::exception_detail::error_info_injector<boost::bad_lexical_cast>::~error_info_injector((std::bad_cast *)&v85);
     __asan_handle_no_return(&v85);
     _cxa_throw(

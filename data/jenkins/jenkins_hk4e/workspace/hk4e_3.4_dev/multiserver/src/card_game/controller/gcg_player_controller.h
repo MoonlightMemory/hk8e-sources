@@ -5,7 +5,7 @@ void __cdecl GCGPlayerController::~GCGPlayerController(GCGPlayerController *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPlayerController + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPlayerController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGControllerBase = v1;
@@ -41,7 +41,7 @@ void __fastcall ZN19GCGPlayerControllerCI217GCGControllerBaseER11GCGGameModeN5pr
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   GCGControllerBase::GCGControllerBase((GCGControllerBase *const)this, a2, *(GCGControllerValue *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'GCGPlayerController + 2);
+  v6 = (int (**)(...))(&`vtable for GCGPlayerController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGControllerBase = v6;

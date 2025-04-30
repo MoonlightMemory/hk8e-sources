@@ -51,7 +51,7 @@ void __fastcall common::midb::MysqlConnPoolT<std::mutex>::MysqlConnPoolT(
     goto LABEL_7;
   }
   v8 = port;
-  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for'mysqlpp::ConnectionPool + 2);
+  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for mysqlpp::ConnectionPool + 2);
   p_pool = &this->pool_;
   this = (common::midb::MysqlConnPoolT<std::mutex> *const)((char *)this + 16);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -84,7 +84,7 @@ LABEL_9:
     __asan_report_store8(v7, port);
     goto LABEL_16;
   }
-  v7->_vptr_ConnectionPool = (int (**)(...))(&`vtable for'common::midb::MysqlConnPoolT<std::mutex> + 2);
+  v7->_vptr_ConnectionPool = (int (**)(...))(&`vtable for common::midb::MysqlConnPoolT<std::mutex> + 2);
   p_name = &v7->name_;
   if ( *(_BYTE *)(((unsigned __int64)&v7->name_ >> 3) + 0x7FFF8000) )
   {
@@ -282,7 +282,7 @@ LABEL_29:
     __asan_report_store8(v2, v1);
     goto LABEL_30;
   }
-  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for'common::midb::MysqlConnPoolT<std::mutex> + 2);
+  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for common::midb::MysqlConnPoolT<std::mutex> + 2);
   mysqlpp::ConnectionPool::clear(this, 1);
   common::milog::MiLogStream::MiLogStream(
     &v9,
@@ -329,7 +329,7 @@ LABEL_29:
     operator delete(v7);
   if ( *(_BYTE *)(((unsigned __int64)v2 >> 3) + 0x7FFF8000) )
     goto LABEL_29;
-  v2->_M_impl._M_node._M_next = (std::__detail::_List_node_base *)(&`vtable for'mysqlpp::ConnectionPool + 2);
+  v2->_M_impl._M_node._M_next = (std::__detail::_List_node_base *)(&`vtable for mysqlpp::ConnectionPool + 2);
   p_M_prev = (mysqlpp::ConnectionPool::PoolT *)&v2->_M_impl._M_node._M_prev;
   if ( *(_BYTE *)(((unsigned __int64)&v2->_M_impl._M_node._M_prev >> 3) + 0x7FFF8000) )
   {
@@ -393,7 +393,7 @@ mysqlpp::Connection *__fastcall common::midb::MysqlConnPoolT<std::mutex>::create
     *(_BYTE *)(v5 + 8) = 1;
     if ( !*(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
     {
-      *(_QWORD *)v5 = &`vtable for'mysqlpp::ReconnectOption + 2;
+      *(_QWORD *)v5 = &`vtable for mysqlpp::ReconnectOption + 2;
       mysqlpp::Connection::set_option(v2, (mysqlpp::Option *)v5);
       goto LABEL_6;
     }
@@ -411,7 +411,7 @@ LABEL_6:
   }
   else
   {
-    v9->_M_dataplus._M_p = (std::string::pointer)(&`vtable for'mysqlpp::DataOption<std::string> + 2);
+    v9->_M_dataplus._M_p = (std::string::pointer)(&`vtable for mysqlpp::DataOption<std::string> + 2);
     p_M_string_length = (std::string *)&v9->_M_string_length;
     if ( !*(_BYTE *)(((unsigned __int64)&v9->_M_string_length >> 3) + 0x7FFF8000) )
     {
@@ -433,7 +433,7 @@ LABEL_11:
   }
   else
   {
-    v9->_M_dataplus._M_p = (std::string::pointer)(&`vtable for'mysqlpp::SetCharsetNameOption + 2);
+    v9->_M_dataplus._M_p = (std::string::pointer)(&`vtable for mysqlpp::SetCharsetNameOption + 2);
     mysqlpp::Connection::set_option(v2, (mysqlpp::Option *)v9);
   }
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v21._M_dataplus._M_p != &v21._anon_0 )
@@ -452,7 +452,7 @@ LABEL_21:
     __asan_report_store8(v11, v11);
     goto LABEL_22;
   }
-  *(_QWORD *)v11 = &`vtable for'mysqlpp::ConnectTimeoutOption + 2;
+  *(_QWORD *)v11 = &`vtable for mysqlpp::ConnectTimeoutOption + 2;
   mysqlpp::Connection::set_option(v2, (mysqlpp::Option *)v11);
 LABEL_22:
   v13 = operator new(0x10uLL);
@@ -469,7 +469,7 @@ LABEL_27:
     __asan_report_store8(v13, v13);
     goto LABEL_28;
   }
-  *(_QWORD *)v13 = &`vtable for'mysqlpp::ReadTimeoutOption + 2;
+  *(_QWORD *)v13 = &`vtable for mysqlpp::ReadTimeoutOption + 2;
   mysqlpp::Connection::set_option(v2, (mysqlpp::Option *)v13);
 LABEL_28:
   v15 = operator new(0x10uLL);
@@ -483,7 +483,7 @@ LABEL_28:
     *(_DWORD *)(v15 + 8) = 10;
     if ( !*(_BYTE *)((v15 >> 3) + 0x7FFF8000) )
     {
-      *(_QWORD *)v15 = &`vtable for'mysqlpp::WriteTimeoutOption + 2;
+      *(_QWORD *)v15 = &`vtable for mysqlpp::WriteTimeoutOption + 2;
       mysqlpp::Connection::set_option(v2, (mysqlpp::Option *)v15);
       goto LABEL_34;
     }

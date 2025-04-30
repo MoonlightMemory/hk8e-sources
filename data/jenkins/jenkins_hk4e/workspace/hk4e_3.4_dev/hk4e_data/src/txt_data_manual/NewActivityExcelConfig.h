@@ -25,7 +25,7 @@ void __cdecl ActivitySaleBaseConfig::ActivitySaleBaseConfig(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivitySaleBaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for ActivitySaleBaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySaleBaseConfig = v2;
@@ -37,7 +37,7 @@ void __cdecl ActivitySaleBaseConfig::~ActivitySaleBaseConfig(ActivitySaleBaseCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivitySaleBaseConfig + 2);
+  v2 = (int (**)(...))(&`vtable for ActivitySaleBaseConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySaleBaseConfig = v2;
@@ -63,7 +63,7 @@ void __cdecl ActivityWeaponUpgradeSaleConfig::ActivityWeaponUpgradeSaleConfig(
 
   v6 = a2;
   ActivitySaleBaseConfig::ActivitySaleBaseConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ActivityWeaponUpgradeSaleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityWeaponUpgradeSaleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySaleBaseConfig = v2;
@@ -101,7 +101,7 @@ void __cdecl ActivityWeaponUpgradeSaleConfig::~ActivityWeaponUpgradeSaleConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'ActivityWeaponUpgradeSaleConfig + 2);
+  v2 = (int (**)(...))(&`vtable for ActivityWeaponUpgradeSaleConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySaleBaseConfig = v2;

@@ -6,7 +6,7 @@ void __cdecl boost::asio::bad_executor::bad_executor(boost::asio::bad_executor *
   __int64 *v1; // rdx
 
   std::exception::exception((std::exception *const)this);
-  v1 = &`vtable for'boost::asio::bad_executor + 2;
+  v1 = &`vtable for boost::asio::bad_executor + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *this = (boost::asio::bad_executor)v1;

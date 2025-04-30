@@ -9,7 +9,7 @@ void __cdecl std::regex_error::regex_error(
   char *v3; // rdx
 
   std::runtime_error::runtime_error(this, __what);
-  v3 = (char *)&`vtable for'std::regex_error + 16;
+  v3 = (char *)&`vtable for std::regex_error + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v3;

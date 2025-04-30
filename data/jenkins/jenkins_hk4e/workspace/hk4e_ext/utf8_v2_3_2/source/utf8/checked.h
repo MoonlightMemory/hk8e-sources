@@ -5,7 +5,7 @@ void __cdecl utf8::exception::~exception(utf8::exception *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'utf8::exception + 2;
+  v1 = &`vtable for utf8::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *this = (utf8::exception)v1;
@@ -24,7 +24,7 @@ void __cdecl utf8::invalid_code_point::~invalid_code_point(utf8::invalid_code_po
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'utf8::invalid_code_point + 2;
+  v1 = &`vtable for utf8::invalid_code_point + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->utf8::exception = (utf8::exception)v1;
@@ -44,7 +44,7 @@ void __cdecl utf8::invalid_code_point::invalid_code_point(utf8::invalid_code_poi
   __int64 *v2; // rdx
 
   utf8::exception::exception(this);
-  v2 = &`vtable for'utf8::invalid_code_point + 2;
+  v2 = &`vtable for utf8::invalid_code_point + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->utf8::exception = (utf8::exception)v2;
@@ -74,7 +74,7 @@ void __cdecl utf8::invalid_utf8::~invalid_utf8(utf8::invalid_utf8 *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'utf8::invalid_utf8 + 2;
+  v1 = &`vtable for utf8::invalid_utf8 + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->utf8::exception = (utf8::exception)v1;
@@ -87,7 +87,7 @@ void __cdecl utf8::invalid_utf8::invalid_utf8(utf8::invalid_utf8 *const this, ut
   __int64 *v2; // rdx
 
   utf8::exception::exception(this);
-  v2 = &`vtable for'utf8::invalid_utf8 + 2;
+  v2 = &`vtable for utf8::invalid_utf8 + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->utf8::exception = (utf8::exception)v2;
@@ -108,7 +108,7 @@ void __cdecl utf8::not_enough_room::not_enough_room(utf8::not_enough_room *const
   __int64 *v1; // rdx
 
   utf8::exception::exception(this);
-  v1 = &`vtable for'utf8::not_enough_room + 2;
+  v1 = &`vtable for utf8::not_enough_room + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *this = (utf8::not_enough_room)v1;
@@ -119,7 +119,7 @@ void __cdecl utf8::not_enough_room::~not_enough_room(utf8::not_enough_room *cons
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'utf8::not_enough_room + 2;
+  v1 = &`vtable for utf8::not_enough_room + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *this = (utf8::not_enough_room)v1;
@@ -253,7 +253,7 @@ void __cdecl utf8::exception::exception(utf8::exception *const this)
   __int64 *v1; // rdx
 
   std::exception::exception((std::exception *const)this);
-  v1 = &`vtable for'utf8::exception + 2;
+  v1 = &`vtable for utf8::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   *this = (utf8::exception)v1;

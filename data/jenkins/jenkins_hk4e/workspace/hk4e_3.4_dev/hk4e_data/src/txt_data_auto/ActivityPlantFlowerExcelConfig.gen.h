@@ -8,7 +8,7 @@ void __cdecl data::ActivityPlantFlowerMainExcelConfig::ActivityPlantFlowerMainEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerMainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerMainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPlantFlowerMainExcelConfig = v2;
@@ -82,7 +82,7 @@ void __cdecl data::ActivityPlantFlowerMainExcelConfig::ActivityPlantFlowerMainEx
   const data::ActivityPlantFlowerMainExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerMainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerMainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPlantFlowerMainExcelConfig = v2;
@@ -183,7 +183,7 @@ void __cdecl data::ActivityPlantFlowerMainExcelConfig::~ActivityPlantFlowerMainE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerMainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerMainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPlantFlowerMainExcelConfig = v2;
@@ -210,7 +210,7 @@ void __cdecl data::ActivityPlantFlowerDailyExcelConfig::ActivityPlantFlowerDaily
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPlantFlowerDailyExcelConfig = v2;
@@ -235,7 +235,7 @@ void __cdecl data::ActivityPlantFlowerDailyExcelConfig::ActivityPlantFlowerDaily
   const data::ActivityPlantFlowerDailyExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPlantFlowerDailyExcelConfig = v2;
@@ -263,7 +263,7 @@ void __cdecl data::ActivityPlantFlowerDailyExcelConfig::~ActivityPlantFlowerDail
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPlantFlowerDailyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPlantFlowerDailyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPlantFlowerDailyExcelConfig = v2;

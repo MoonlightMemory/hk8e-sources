@@ -6,7 +6,7 @@ void __cdecl ConfigGCGExecEffectDamageImpl::ConfigGCGExecEffectDamageImpl(Config
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDamage::ConfigGCGExecEffectDamage(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -20,7 +20,7 @@ void __cdecl ConfigGCGExecEffectDamageImpl::ConfigGCGExecEffectDamageImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDamage::ConfigGCGExecEffectDamage(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -38,7 +38,7 @@ void __cdecl ConfigGCGExecEffectDamageImpl::~ConfigGCGExecEffectDamageImpl(Confi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -72,7 +72,7 @@ void __cdecl ConfigGCGExecEffectCreateCardImpl::ConfigGCGExecEffectCreateCardImp
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectCreateCard::ConfigGCGExecEffectCreateCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -92,7 +92,7 @@ void __cdecl ConfigGCGExecEffectCreateCardImpl::~ConfigGCGExecEffectCreateCardIm
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -126,7 +126,7 @@ void __cdecl ConfigGCGExecEffectCreateModifyCardImpl::ConfigGCGExecEffectCreateM
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectCreateModifyCard::ConfigGCGExecEffectCreateModifyCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateModifyCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -138,7 +138,7 @@ void __cdecl ConfigGCGExecEffectCreateModifyCardImpl::~ConfigGCGExecEffectCreate
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -180,7 +180,7 @@ void __cdecl ConfigGCGExecEffectGenDiceImpl::ConfigGCGExecEffectGenDiceImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectGenDice::ConfigGCGExecEffectGenDice(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectGenDiceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -200,7 +200,7 @@ void __cdecl ConfigGCGExecEffectGenDiceImpl::~ConfigGCGExecEffectGenDiceImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectGenDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -234,7 +234,7 @@ void __cdecl ConfigGCGExecEffectChangeCardVarImpl::ConfigGCGExecEffectChangeCard
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectChangeCardVar::ConfigGCGExecEffectChangeCardVar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardVarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -246,7 +246,7 @@ void __cdecl ConfigGCGExecEffectChangeCardVarImpl::~ConfigGCGExecEffectChangeCar
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -288,7 +288,7 @@ void __cdecl ConfigGCGExecEffectDamageReviseImpl::ConfigGCGExecEffectDamageRevis
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDamageRevise::ConfigGCGExecEffectDamageRevise(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageReviseImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -300,7 +300,7 @@ void __cdecl ConfigGCGExecEffectDamageReviseImpl::~ConfigGCGExecEffectDamageRevi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -342,7 +342,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceToSpecialTypeImpl::ConfigGCGEffectFixRe
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectFixRerollDiceToSpecialType::ConfigGCGEffectFixRerollDiceToSpecialType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -362,7 +362,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceToSpecialTypeImpl::~ConfigGCGEffectFixR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -396,7 +396,7 @@ void __cdecl ConfigGCGExecEffectChargeImpl::ConfigGCGExecEffectChargeImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectCharge::ConfigGCGExecEffectCharge(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChargeImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChargeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -414,7 +414,7 @@ void __cdecl ConfigGCGExecEffectChargeImpl::~ConfigGCGExecEffectChargeImpl(Confi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChargeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChargeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -448,7 +448,7 @@ void __cdecl ConfigGCGExecEffectChangeOnstageCharaterImpl::ConfigGCGExecEffectCh
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectChangeOnstageCharater::ConfigGCGExecEffectChangeOnstageCharater(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -468,7 +468,7 @@ void __cdecl ConfigGCGExecEffectChangeOnstageCharaterImpl::~ConfigGCGExecEffectC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -502,7 +502,7 @@ void __cdecl ConfigGCGExecEffectDrawImpl::ConfigGCGExecEffectDrawImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDraw::ConfigGCGExecEffectDraw(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDrawImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDrawImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -520,7 +520,7 @@ void __cdecl ConfigGCGExecEffectDrawImpl::~ConfigGCGExecEffectDrawImpl(ConfigGCG
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDrawImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDrawImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -554,7 +554,7 @@ void __cdecl ConfigGCGEffectAttachPhysicDamageToElementImpl::ConfigGCGEffectAtta
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectAttachPhysicDamageToElement::ConfigGCGEffectAttachPhysicDamageToElement(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -574,7 +574,7 @@ void __cdecl ConfigGCGEffectAttachPhysicDamageToElementImpl::~ConfigGCGEffectAtt
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -606,7 +606,7 @@ void __cdecl ConfigGCGEffectAddShieldImpl::ConfigGCGEffectAddShieldImpl(ConfigGC
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectAddShield::ConfigGCGEffectAddShield(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectAddShieldImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectAddShieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -620,7 +620,7 @@ void __cdecl ConfigGCGEffectAddShieldImpl::ConfigGCGEffectAddShieldImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectAddShield::ConfigGCGEffectAddShield(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectAddShieldImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectAddShieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -631,7 +631,7 @@ void __cdecl ConfigGCGEffectAddShieldImpl::~ConfigGCGEffectAddShieldImpl(ConfigG
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectAddShieldImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectAddShieldImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -672,7 +672,7 @@ void __cdecl ConfigGCGExecEffectDamageMultipleImpl::ConfigGCGExecEffectDamageMul
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDamageMultiple::ConfigGCGExecEffectDamageMultiple(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageMultipleImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageMultipleImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -684,7 +684,7 @@ void __cdecl ConfigGCGExecEffectDamageMultipleImpl::~ConfigGCGExecEffectDamageMu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageMultipleImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageMultipleImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -726,7 +726,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReduceToHalfImpl::ConfigGCGEffectBeing
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectBeingHitDamageReduceToHalf::ConfigGCGEffectBeingHitDamageReduceToHalf(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -738,7 +738,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReduceToHalfImpl::~ConfigGCGEffectBein
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -780,7 +780,7 @@ void __cdecl ConfigGCGExecEffectRandomCreateCardImpl::ConfigGCGExecEffectRandomC
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectRandomCreateCard::ConfigGCGExecEffectRandomCreateCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomCreateCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -800,7 +800,7 @@ void __cdecl ConfigGCGExecEffectRandomCreateCardImpl::~ConfigGCGExecEffectRandom
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomCreateCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -834,7 +834,7 @@ void __cdecl ConfigGCGEffectChangeCharacterSetQuickImpl::ConfigGCGEffectChangeCh
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterSetQuick::ConfigGCGEffectChangeCharacterSetQuick(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -854,7 +854,7 @@ void __cdecl ConfigGCGEffectChangeCharacterSetQuickImpl::~ConfigGCGEffectChangeC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -888,7 +888,7 @@ void __cdecl ConfigGCGExecEffectHealImpl::ConfigGCGExecEffectHealImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectHeal::ConfigGCGExecEffectHeal(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectHealImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectHealImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -899,7 +899,7 @@ void __cdecl ConfigGCGExecEffectHealImpl::~ConfigGCGExecEffectHealImpl(ConfigGCG
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectHealImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectHealImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -940,7 +940,7 @@ void __cdecl ConfigGCGEffectRerollReviseCostImpl::ConfigGCGEffectRerollReviseCos
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectRerollReviseCost::ConfigGCGEffectRerollReviseCost(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectRerollReviseCostImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectRerollReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -960,7 +960,7 @@ void __cdecl ConfigGCGEffectRerollReviseCostImpl::~ConfigGCGEffectRerollReviseCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectRerollReviseCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectRerollReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -994,7 +994,7 @@ void __cdecl ConfigGCGEffectSkillUseCostReviseImpl::ConfigGCGEffectSkillUseCostR
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectSkillUseCostRevise::ConfigGCGEffectSkillUseCostRevise(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectSkillUseCostReviseImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectSkillUseCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1014,7 +1014,7 @@ void __cdecl ConfigGCGEffectSkillUseCostReviseImpl::~ConfigGCGEffectSkillUseCost
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectSkillUseCostReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectSkillUseCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1048,7 +1048,7 @@ void __cdecl ConfigGCGEffectPlayCardCostReviseImpl::ConfigGCGEffectPlayCardCostR
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectPlayCardCostRevise::ConfigGCGEffectPlayCardCostRevise(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectPlayCardCostReviseImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectPlayCardCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1060,7 +1060,7 @@ void __cdecl ConfigGCGEffectPlayCardCostReviseImpl::~ConfigGCGEffectPlayCardCost
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectPlayCardCostReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectPlayCardCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1102,7 +1102,7 @@ void __cdecl ConfigGCGEffectChangeCharacterReviseCostImpl::ConfigGCGEffectChange
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterReviseCost::ConfigGCGEffectChangeCharacterReviseCost(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1122,7 +1122,7 @@ void __cdecl ConfigGCGEffectChangeCharacterReviseCostImpl::~ConfigGCGEffectChang
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1156,7 +1156,7 @@ void __cdecl ConfigGCGEffectChangeCharacterIncreCostImpl::ConfigGCGEffectChangeC
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterIncreCost::ConfigGCGEffectChangeCharacterIncreCost(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1168,7 +1168,7 @@ void __cdecl ConfigGCGEffectChangeCharacterIncreCostImpl::~ConfigGCGEffectChange
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1210,7 +1210,7 @@ void __cdecl ConfigGCGEffectOpponentChangeCharacterIncreCostImpl::ConfigGCGEffec
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectOpponentChangeCharacterIncreCost::ConfigGCGEffectOpponentChangeCharacterIncreCost(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1222,7 +1222,7 @@ void __cdecl ConfigGCGEffectOpponentChangeCharacterIncreCostImpl::~ConfigGCGEffe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1264,7 +1264,7 @@ void __cdecl ConfigGCGExecEffectChangeCardShowTokenVarImpl::ConfigGCGExecEffectC
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectChangeCardShowTokenVar::ConfigGCGExecEffectChangeCardShowTokenVar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1276,7 +1276,7 @@ void __cdecl ConfigGCGExecEffectChangeCardShowTokenVarImpl::~ConfigGCGExecEffect
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1318,7 +1318,7 @@ void __cdecl ConfigGCGExecEffectOnStageCharacterUseSkillImpl::ConfigGCGExecEffec
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectOnStageCharacterUseSkill::ConfigGCGExecEffectOnStageCharacterUseSkill(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1338,7 +1338,7 @@ void __cdecl ConfigGCGExecEffectOnStageCharacterUseSkillImpl::~ConfigGCGExecEffe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1372,7 +1372,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReviseImpl::ConfigGCGEffectBeingHitDam
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectBeingHitDamageRevise::ConfigGCGEffectBeingHitDamageRevise(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReviseImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1392,7 +1392,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReviseImpl::~ConfigGCGEffectBeingHitDa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1426,7 +1426,7 @@ void __cdecl ConfigGCGExecEffectDestroyCardImpl::ConfigGCGExecEffectDestroyCardI
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDestroyCard::ConfigGCGExecEffectDestroyCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1446,7 +1446,7 @@ void __cdecl ConfigGCGExecEffectDestroyCardImpl::~ConfigGCGExecEffectDestroyCard
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1480,7 +1480,7 @@ void __cdecl ConfigGCGExecEffectDestroyModifyCardImpl::ConfigGCGExecEffectDestro
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectDestroyModifyCard::ConfigGCGExecEffectDestroyModifyCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyModifyCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1500,7 +1500,7 @@ void __cdecl ConfigGCGExecEffectDestroyModifyCardImpl::~ConfigGCGExecEffectDestr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1534,7 +1534,7 @@ void __cdecl ConfigGCGExecEffectTransferEnergyImpl::ConfigGCGExecEffectTransferE
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectTransferEnergy::ConfigGCGExecEffectTransferEnergy(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferEnergyImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1546,7 +1546,7 @@ void __cdecl ConfigGCGExecEffectTransferEnergyImpl::~ConfigGCGExecEffectTransfer
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1588,7 +1588,7 @@ void __cdecl ConfigGCGExecEffectRandomGenDiceImpl::ConfigGCGExecEffectRandomGenD
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectRandomGenDice::ConfigGCGExecEffectRandomGenDice(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomGenDiceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1600,7 +1600,7 @@ void __cdecl ConfigGCGExecEffectRandomGenDiceImpl::~ConfigGCGExecEffectRandomGen
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomGenDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1642,7 +1642,7 @@ void __cdecl ConfigGCGExecEffectSearchCardImpl::ConfigGCGExecEffectSearchCardImp
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectSearchCard::ConfigGCGExecEffectSearchCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSearchCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSearchCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1654,7 +1654,7 @@ void __cdecl ConfigGCGExecEffectSearchCardImpl::~ConfigGCGExecEffectSearchCardIm
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSearchCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSearchCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1696,7 +1696,7 @@ void __cdecl ConfigGCGEffectPayByCardTagImpl::ConfigGCGEffectPayByCardTagImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectPayByCardTag::ConfigGCGEffectPayByCardTag(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectPayByCardTagImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectPayByCardTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1716,7 +1716,7 @@ void __cdecl ConfigGCGEffectPayByCardTagImpl::~ConfigGCGEffectPayByCardTagImpl(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectPayByCardTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectPayByCardTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1750,7 +1750,7 @@ void __cdecl ConfigGCGExecEffectAttachElementImpl::ConfigGCGExecEffectAttachElem
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectAttachElement::ConfigGCGExecEffectAttachElement(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAttachElementImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAttachElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1762,7 +1762,7 @@ void __cdecl ConfigGCGExecEffectAttachElementImpl::~ConfigGCGExecEffectAttachEle
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAttachElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAttachElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1804,7 +1804,7 @@ void __cdecl ConfigGCGEffectReplaceReactionElementByCardVarImpl::ConfigGCGEffect
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectReplaceReactionElementByCardVar::ConfigGCGEffectReplaceReactionElementByCardVar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1816,7 +1816,7 @@ void __cdecl ConfigGCGEffectReplaceReactionElementByCardVarImpl::~ConfigGCGEffec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1858,7 +1858,7 @@ void __cdecl ConfigGCGExecEffectTransferModifyCardImpl::ConfigGCGExecEffectTrans
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectTransferModifyCard::ConfigGCGExecEffectTransferModifyCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferModifyCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1870,7 +1870,7 @@ void __cdecl ConfigGCGExecEffectTransferModifyCardImpl::~ConfigGCGExecEffectTran
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1912,7 +1912,7 @@ void __cdecl ConfigGCGExecEffectRerollImpl::ConfigGCGExecEffectRerollImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectReroll::ConfigGCGExecEffectReroll(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRerollImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRerollImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1923,7 +1923,7 @@ void __cdecl ConfigGCGExecEffectRerollImpl::~ConfigGCGExecEffectRerollImpl(Confi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRerollImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRerollImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -1964,7 +1964,7 @@ void __cdecl ConfigGCGExecEffectSetDamageElementImpl::ConfigGCGExecEffectSetDama
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectSetDamageElement::ConfigGCGExecEffectSetDamageElement(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSetDamageElementImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -1976,7 +1976,7 @@ void __cdecl ConfigGCGExecEffectSetDamageElementImpl::~ConfigGCGExecEffectSetDam
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSetDamageElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2018,7 +2018,7 @@ void __cdecl ConfigGCGExecEffectAbsorbUnusedDiceImpl::ConfigGCGExecEffectAbsorbU
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectAbsorbUnusedDice::ConfigGCGExecEffectAbsorbUnusedDice(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2038,7 +2038,7 @@ void __cdecl ConfigGCGExecEffectAbsorbUnusedDiceImpl::~ConfigGCGExecEffectAbsorb
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2072,7 +2072,7 @@ void __cdecl ConfigGCGEffectModifiedCharacterAssignUseSkillImpl::ConfigGCGEffect
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectModifiedCharacterAssignUseSkill::ConfigGCGEffectModifiedCharacterAssignUseSkill(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2092,7 +2092,7 @@ void __cdecl ConfigGCGEffectModifiedCharacterAssignUseSkillImpl::~ConfigGCGEffec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2126,7 +2126,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceImpl::ConfigGCGEffectFixRerollDiceImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGEffectFixRerollDice::ConfigGCGEffectFixRerollDice(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2146,7 +2146,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceImpl::~ConfigGCGEffectFixRerollDiceImpl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2180,7 +2180,7 @@ void __cdecl ConfigGCGExecEffectReviveCharacterImpl::ConfigGCGExecEffectReviveCh
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectReviveCharacter::ConfigGCGExecEffectReviveCharacter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectReviveCharacterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectReviveCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2192,7 +2192,7 @@ void __cdecl ConfigGCGExecEffectReviveCharacterImpl::~ConfigGCGExecEffectReviveC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectReviveCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectReviveCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2234,7 +2234,7 @@ void __cdecl ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl::ConfigGCGExe
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectAdvanceProcessWaitingCharacter::ConfigGCGExecEffectAdvanceProcessWaitingCharacter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2246,7 +2246,7 @@ void __cdecl ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl::~ConfigGCGEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2288,7 +2288,7 @@ void __cdecl ConfigGCGExecEffectFinishDuelImpl::ConfigGCGExecEffectFinishDuelImp
   int (**v2)(...); // rdx
 
   data::ConfigGCGExecEffectFinishDuel::ConfigGCGExecEffectFinishDuel(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectFinishDuelImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGExecEffectFinishDuelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v2;
@@ -2308,7 +2308,7 @@ void __cdecl ConfigGCGExecEffectFinishDuelImpl::~ConfigGCGExecEffectFinishDuelIm
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectFinishDuelImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectFinishDuelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2341,7 +2341,7 @@ void __cdecl ConfigGCGExecEffectDamageReviseImpl::ConfigGCGExecEffectDamageRevis
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDamageRevise::ConfigGCGExecEffectDamageRevise(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2354,7 +2354,7 @@ void __cdecl ConfigGCGExecEffectDamageMultipleImpl::ConfigGCGExecEffectDamageMul
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDamageMultiple::ConfigGCGExecEffectDamageMultiple(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDamageMultipleImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDamageMultipleImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2366,7 +2366,7 @@ void __cdecl ConfigGCGExecEffectChargeImpl::ConfigGCGExecEffectChargeImpl(Config
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectCharge::ConfigGCGExecEffectCharge(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChargeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChargeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2378,7 +2378,7 @@ void __cdecl ConfigGCGExecEffectHealImpl::ConfigGCGExecEffectHealImpl(ConfigGCGE
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectHeal::ConfigGCGExecEffectHeal(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectHealImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectHealImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2391,7 +2391,7 @@ void __cdecl ConfigGCGExecEffectTransferEnergyImpl::ConfigGCGExecEffectTransferE
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectTransferEnergy::ConfigGCGExecEffectTransferEnergy(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferEnergyImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferEnergyImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2404,7 +2404,7 @@ void __cdecl ConfigGCGExecEffectAttachElementImpl::ConfigGCGExecEffectAttachElem
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectAttachElement::ConfigGCGExecEffectAttachElement(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAttachElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAttachElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2417,7 +2417,7 @@ void __cdecl ConfigGCGExecEffectReviveCharacterImpl::ConfigGCGExecEffectReviveCh
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectReviveCharacter::ConfigGCGExecEffectReviveCharacter(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectReviveCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectReviveCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2429,7 +2429,7 @@ void __cdecl ConfigGCGExecEffectGenDiceImpl::ConfigGCGExecEffectGenDiceImpl(Conf
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectGenDice::ConfigGCGExecEffectGenDice(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectGenDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2442,7 +2442,7 @@ void __cdecl ConfigGCGExecEffectChangeOnstageCharaterImpl::ConfigGCGExecEffectCh
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectChangeOnstageCharater::ConfigGCGExecEffectChangeOnstageCharater(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeOnstageCharaterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2454,7 +2454,7 @@ void __cdecl ConfigGCGExecEffectDrawImpl::ConfigGCGExecEffectDrawImpl(ConfigGCGE
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDraw::ConfigGCGExecEffectDraw(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDrawImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDrawImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2467,7 +2467,7 @@ void __cdecl ConfigGCGExecEffectSearchCardImpl::ConfigGCGExecEffectSearchCardImp
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectSearchCard::ConfigGCGExecEffectSearchCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSearchCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSearchCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2480,7 +2480,7 @@ void __cdecl ConfigGCGExecEffectRandomGenDiceImpl::ConfigGCGExecEffectRandomGenD
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectRandomGenDice::ConfigGCGExecEffectRandomGenDice(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomGenDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomGenDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2493,7 +2493,7 @@ void __cdecl ConfigGCGExecEffectSetDamageElementImpl::ConfigGCGExecEffectSetDama
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectSetDamageElement::ConfigGCGExecEffectSetDamageElement(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectSetDamageElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2506,7 +2506,7 @@ void __cdecl ConfigGCGExecEffectAbsorbUnusedDiceImpl::ConfigGCGExecEffectAbsorbU
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectAbsorbUnusedDice::ConfigGCGExecEffectAbsorbUnusedDice(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAbsorbUnusedDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2519,7 +2519,7 @@ void __cdecl ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl::ConfigGCGExe
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectAdvanceProcessWaitingCharacter::ConfigGCGExecEffectAdvanceProcessWaitingCharacter(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectAdvanceProcessWaitingCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2532,7 +2532,7 @@ void __cdecl ConfigGCGExecEffectFinishDuelImpl::ConfigGCGExecEffectFinishDuelImp
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectFinishDuel::ConfigGCGExecEffectFinishDuel(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectFinishDuelImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectFinishDuelImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2545,7 +2545,7 @@ void __cdecl ConfigGCGExecEffectOnStageCharacterUseSkillImpl::ConfigGCGExecEffec
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectOnStageCharacterUseSkill::ConfigGCGExecEffectOnStageCharacterUseSkill(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectOnStageCharacterUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2557,7 +2557,7 @@ void __cdecl ConfigGCGExecEffectRerollImpl::ConfigGCGExecEffectRerollImpl(Config
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectReroll::ConfigGCGExecEffectReroll(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRerollImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRerollImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2570,7 +2570,7 @@ void __cdecl ConfigGCGExecEffectCreateCardImpl::ConfigGCGExecEffectCreateCardImp
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectCreateCard::ConfigGCGExecEffectCreateCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2583,7 +2583,7 @@ void __cdecl ConfigGCGExecEffectRandomCreateCardImpl::ConfigGCGExecEffectRandomC
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectRandomCreateCard::ConfigGCGExecEffectRandomCreateCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectRandomCreateCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectRandomCreateCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2596,7 +2596,7 @@ void __cdecl ConfigGCGExecEffectCreateModifyCardImpl::ConfigGCGExecEffectCreateM
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectCreateModifyCard::ConfigGCGExecEffectCreateModifyCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectCreateModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectCreateModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2609,7 +2609,7 @@ void __cdecl ConfigGCGExecEffectChangeCardVarImpl::ConfigGCGExecEffectChangeCard
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectChangeCardVar::ConfigGCGExecEffectChangeCardVar(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2622,7 +2622,7 @@ void __cdecl ConfigGCGExecEffectChangeCardShowTokenVarImpl::ConfigGCGExecEffectC
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectChangeCardShowTokenVar::ConfigGCGExecEffectChangeCardShowTokenVar(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectChangeCardShowTokenVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2635,7 +2635,7 @@ void __cdecl ConfigGCGExecEffectDestroyCardImpl::ConfigGCGExecEffectDestroyCardI
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDestroyCard::ConfigGCGExecEffectDestroyCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2648,7 +2648,7 @@ void __cdecl ConfigGCGExecEffectDestroyModifyCardImpl::ConfigGCGExecEffectDestro
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectDestroyModifyCard::ConfigGCGExecEffectDestroyModifyCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectDestroyModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectDestroyModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2661,7 +2661,7 @@ void __cdecl ConfigGCGExecEffectTransferModifyCardImpl::ConfigGCGExecEffectTrans
   int (**v1)(...); // rdx
 
   data::ConfigGCGExecEffectTransferModifyCard::ConfigGCGExecEffectTransferModifyCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGExecEffectTransferModifyCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGExecEffectTransferModifyCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2674,7 +2674,7 @@ void __cdecl ConfigGCGEffectAttachPhysicDamageToElementImpl::ConfigGCGEffectAtta
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectAttachPhysicDamageToElement::ConfigGCGEffectAttachPhysicDamageToElement(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectAttachPhysicDamageToElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2687,7 +2687,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceToSpecialTypeImpl::ConfigGCGEffectFixRe
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectFixRerollDiceToSpecialType::ConfigGCGEffectFixRerollDiceToSpecialType(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceToSpecialTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2700,7 +2700,7 @@ void __cdecl ConfigGCGEffectSkillUseCostReviseImpl::ConfigGCGEffectSkillUseCostR
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectSkillUseCostRevise::ConfigGCGEffectSkillUseCostRevise(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectSkillUseCostReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectSkillUseCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2713,7 +2713,7 @@ void __cdecl ConfigGCGEffectPlayCardCostReviseImpl::ConfigGCGEffectPlayCardCostR
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectPlayCardCostRevise::ConfigGCGEffectPlayCardCostRevise(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectPlayCardCostReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectPlayCardCostReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2726,7 +2726,7 @@ void __cdecl ConfigGCGEffectPayByCardTagImpl::ConfigGCGEffectPayByCardTagImpl(
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectPayByCardTag::ConfigGCGEffectPayByCardTag(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectPayByCardTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectPayByCardTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2739,7 +2739,7 @@ void __cdecl ConfigGCGEffectChangeCharacterReviseCostImpl::ConfigGCGEffectChange
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterReviseCost::ConfigGCGEffectChangeCharacterReviseCost(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2752,7 +2752,7 @@ void __cdecl ConfigGCGEffectChangeCharacterIncreCostImpl::ConfigGCGEffectChangeC
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterIncreCost::ConfigGCGEffectChangeCharacterIncreCost(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2765,7 +2765,7 @@ void __cdecl ConfigGCGEffectOpponentChangeCharacterIncreCostImpl::ConfigGCGEffec
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectOpponentChangeCharacterIncreCost::ConfigGCGEffectOpponentChangeCharacterIncreCost(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectOpponentChangeCharacterIncreCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2778,7 +2778,7 @@ void __cdecl ConfigGCGEffectRerollReviseCostImpl::ConfigGCGEffectRerollReviseCos
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectRerollReviseCost::ConfigGCGEffectRerollReviseCost(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectRerollReviseCostImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectRerollReviseCostImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2791,7 +2791,7 @@ void __cdecl ConfigGCGEffectFixRerollDiceImpl::ConfigGCGEffectFixRerollDiceImpl(
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectFixRerollDice::ConfigGCGEffectFixRerollDice(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectFixRerollDiceImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectFixRerollDiceImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2804,7 +2804,7 @@ void __cdecl ConfigGCGEffectChangeCharacterSetQuickImpl::ConfigGCGEffectChangeCh
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectChangeCharacterSetQuick::ConfigGCGEffectChangeCharacterSetQuick(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectChangeCharacterSetQuickImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2817,7 +2817,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReduceToHalfImpl::ConfigGCGEffectBeing
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectBeingHitDamageReduceToHalf::ConfigGCGEffectBeingHitDamageReduceToHalf(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReduceToHalfImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2830,7 +2830,7 @@ void __cdecl ConfigGCGEffectBeingHitDamageReviseImpl::ConfigGCGEffectBeingHitDam
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectBeingHitDamageRevise::ConfigGCGEffectBeingHitDamageRevise(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectBeingHitDamageReviseImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectBeingHitDamageReviseImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2843,7 +2843,7 @@ void __cdecl ConfigGCGEffectReplaceReactionElementByCardVarImpl::ConfigGCGEffect
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectReplaceReactionElementByCardVar::ConfigGCGEffectReplaceReactionElementByCardVar(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectReplaceReactionElementByCardVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;
@@ -2856,7 +2856,7 @@ void __cdecl ConfigGCGEffectModifiedCharacterAssignUseSkillImpl::ConfigGCGEffect
   int (**v1)(...); // rdx
 
   data::ConfigGCGEffectModifiedCharacterAssignUseSkill::ConfigGCGEffectModifiedCharacterAssignUseSkill(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGEffectModifiedCharacterAssignUseSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGEffect = v1;

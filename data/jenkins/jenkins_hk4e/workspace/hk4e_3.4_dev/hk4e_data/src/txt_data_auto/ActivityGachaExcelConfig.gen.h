@@ -7,7 +7,7 @@ void __cdecl data::ActivityGachaRobotExcelConfig::ActivityGachaRobotExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaRobotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaRobotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaRobotExcelConfig = v2;
@@ -51,7 +51,7 @@ void __cdecl data::ActivityGachaRobotExcelConfig::ActivityGachaRobotExcelConfig(
   const data::ActivityGachaRobotExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaRobotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaRobotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGachaRobotExcelConfig = v2;
@@ -116,7 +116,7 @@ void __cdecl data::ActivityGachaRobotExcelConfig::~ActivityGachaRobotExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaRobotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaRobotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaRobotExcelConfig = v2;
@@ -134,7 +134,7 @@ void __cdecl data::ActivityGachaTargetExcelConfig::ActivityGachaTargetExcelConfi
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaTargetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaTargetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaTargetExcelConfig = v2;
@@ -212,7 +212,7 @@ void __cdecl data::ActivityGachaTargetExcelConfig::ActivityGachaTargetExcelConfi
   const data::ActivityGachaTargetExcelConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaTargetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaTargetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGachaTargetExcelConfig = v2;
@@ -321,7 +321,7 @@ void __cdecl data::ActivityGachaTargetExcelConfig::~ActivityGachaTargetExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaTargetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaTargetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaTargetExcelConfig = v2;
@@ -347,7 +347,7 @@ void __cdecl data::ActivityGachaStageExcelConfig::ActivityGachaStageExcelConfig(
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaStageExcelConfig = v2;
@@ -435,7 +435,7 @@ void __cdecl data::ActivityGachaStageExcelConfig::ActivityGachaStageExcelConfig(
   const data::ActivityGachaStageExcelConfig *v26; // [rsp+0h] [rbp-20h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGachaStageExcelConfig = v2;
@@ -553,7 +553,7 @@ void __cdecl data::ActivityGachaStageExcelConfig::~ActivityGachaStageExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaStageExcelConfig = v2;
@@ -583,7 +583,7 @@ void __cdecl data::ActivityGachaBaseExcelConfig::ActivityGachaBaseExcelConfig(
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaBaseExcelConfig = v2;
@@ -708,7 +708,7 @@ void __cdecl data::ActivityGachaBaseExcelConfig::ActivityGachaBaseExcelConfig(
   const data::ActivityGachaBaseExcelConfig *v33; // [rsp+0h] [rbp-10h]
 
   v33 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGachaBaseExcelConfig = v2;
@@ -886,7 +886,7 @@ void __cdecl data::ActivityGachaBaseExcelConfig::~ActivityGachaBaseExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGachaBaseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGachaBaseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGachaBaseExcelConfig = v2;

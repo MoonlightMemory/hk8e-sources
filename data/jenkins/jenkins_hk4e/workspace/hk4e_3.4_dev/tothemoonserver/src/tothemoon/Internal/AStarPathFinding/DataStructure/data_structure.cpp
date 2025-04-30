@@ -14,7 +14,7 @@ void __cdecl SVONode::SVONode(SVONode *const this, AreaType area, uint64_t morto
   __int64 v14; // [rsp+90h] [rbp-30h]
   __int64 v15; // [rsp+98h] [rbp-28h]
 
-  v4 = (int (**)(...))(&`vtable for'SVONode + 2);
+  v4 = (int (**)(...))(&`vtable for SVONode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_SVONode = v4;
@@ -66,7 +66,7 @@ void __cdecl SVONode::~SVONode(SVONode *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'SVONode + 2);
+  v2 = (int (**)(...))(&`vtable for SVONode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_SVONode = v2;

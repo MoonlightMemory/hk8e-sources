@@ -17,7 +17,7 @@ void __cdecl data::ElementCoeffExcelConfig::ElementCoeffExcelConfig(
   const data::ElementCoeffExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ElementCoeffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElementCoeffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ElementCoeffExcelConfig = v2;
@@ -94,7 +94,7 @@ void __cdecl data::ElementCoeffExcelConfig::~ElementCoeffExcelConfig(data::Eleme
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElementCoeffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElementCoeffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElementCoeffExcelConfig = v2;
@@ -136,7 +136,7 @@ void __cdecl data::ReactionEnergyExcelConfig::ReactionEnergyExcelConfig(
   const data::ReactionEnergyExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReactionEnergyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReactionEnergyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReactionEnergyExcelConfig = v2;
@@ -286,7 +286,7 @@ void __cdecl data::ReactionEnergyExcelConfig::~ReactionEnergyExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReactionEnergyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReactionEnergyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReactionEnergyExcelConfig = v2;

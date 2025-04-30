@@ -46,7 +46,7 @@ void __cdecl GCGCardZone::GCGCardZone(GCGCardZone *const this, GCGGameMode *game
   GCGRuntimeDataMgrBase<GCGSCardZoneRuntimeData,GCGGameMode>::GCGRuntimeDataMgrBase(
     &this->GCGRuntimeDataMgrBase<GCGSCardZoneRuntimeData,GCGGameMode>,
     game_mode);
-  v3 = (int (**)(...))(&`vtable for'GCGCardZone + 2);
+  v3 = (int (**)(...))(&`vtable for GCGCardZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v3;
@@ -80,7 +80,7 @@ void __cdecl GCGCardZone::~GCGCardZone(GCGCardZone *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGCardZone + 2);
+  v1 = (int (**)(...))(&`vtable for GCGCardZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v1;
@@ -205,7 +205,7 @@ void __cdecl GCGCharacterZone::GCGCharacterZone(GCGCharacterZone *const this, GC
   int (**v3)(...); // rdx
 
   GCGCardZone::GCGCardZone(this, game_mode, type);
-  v3 = (int (**)(...))(&`vtable for'GCGCharacterZone + 2);
+  v3 = (int (**)(...))(&`vtable for GCGCharacterZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v3;
@@ -329,7 +329,7 @@ void __cdecl GCGCharacterZone::~GCGCharacterZone(GCGCharacterZone *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGCharacterZone + 2);
+  v1 = (int (**)(...))(&`vtable for GCGCharacterZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v1;
@@ -375,7 +375,7 @@ void __cdecl GCGModifyZone::~GCGModifyZone(GCGModifyZone *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGModifyZone + 2);
+  v1 = (int (**)(...))(&`vtable for GCGModifyZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v1;
@@ -417,7 +417,7 @@ void __fastcall ZN13GCGModifyZoneCI211GCGCardZoneER11GCGGameModeN5proto11GCGZone
   *(_DWORD *)(v5 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = a3;
   GCGCardZone::GCGCardZone(this, a2, *(GCGZoneType *)(v3 + 32));
-  v6 = (int (**)(...))(&`vtable for'GCGModifyZone + 2);
+  v6 = (int (**)(...))(&`vtable for GCGModifyZone + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardZone = v6;

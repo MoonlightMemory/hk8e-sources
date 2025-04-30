@@ -9,7 +9,7 @@ void __cdecl data::BlitzRushExcelConfig::BlitzRushExcelConfig(data::BlitzRushExc
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushExcelConfig = v2;
@@ -96,7 +96,7 @@ void __cdecl data::BlitzRushExcelConfig::BlitzRushExcelConfig(
   const data::BlitzRushExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlitzRushExcelConfig = v2;
@@ -217,7 +217,7 @@ void __cdecl data::BlitzRushExcelConfig::~BlitzRushExcelConfig(data::BlitzRushEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushExcelConfig = v2;
@@ -238,7 +238,7 @@ void __cdecl data::BlitzRushStageExcelConfig::BlitzRushStageExcelConfig(data::Bl
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushStageExcelConfig = v2;
@@ -281,7 +281,7 @@ void __cdecl data::BlitzRushStageExcelConfig::BlitzRushStageExcelConfig(
   const data::BlitzRushStageExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlitzRushStageExcelConfig = v2;
@@ -335,7 +335,7 @@ void __cdecl data::BlitzRushStageExcelConfig::~BlitzRushStageExcelConfig(data::B
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushStageExcelConfig = v2;
@@ -357,7 +357,7 @@ void __cdecl data::BlitzRushParkourExcelConfig::BlitzRushParkourExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushParkourExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushParkourExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushParkourExcelConfig = v2;
@@ -399,7 +399,7 @@ void __cdecl data::BlitzRushParkourExcelConfig::BlitzRushParkourExcelConfig(
   const data::BlitzRushParkourExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushParkourExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushParkourExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlitzRushParkourExcelConfig = v2;
@@ -453,7 +453,7 @@ void __cdecl data::BlitzRushParkourExcelConfig::~BlitzRushParkourExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlitzRushParkourExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlitzRushParkourExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlitzRushParkourExcelConfig = v2;

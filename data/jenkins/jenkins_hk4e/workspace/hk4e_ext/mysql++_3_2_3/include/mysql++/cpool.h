@@ -11,7 +11,7 @@ void __fastcall mysqlpp::ConnectionPool::~ConnectionPool(mysqlpp::ConnectionPool
     __asan_report_store8();
     goto LABEL_6;
   }
-  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for'mysqlpp::ConnectionPool + 2);
+  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for mysqlpp::ConnectionPool + 2);
   this = (mysqlpp::ConnectionPool *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {
@@ -42,7 +42,7 @@ void __fastcall mysqlpp::ConnectionPool::~ConnectionPool(mysqlpp::ConnectionPool
     __asan_report_store8();
     goto LABEL_6;
   }
-  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for'mysqlpp::ConnectionPool + 2);
+  this->_vptr_ConnectionPool = (int (**)(...))(&`vtable for mysqlpp::ConnectionPool + 2);
   this = (mysqlpp::ConnectionPool *const)((char *)this + 8);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
   {

@@ -12,7 +12,7 @@ void __cdecl ZN2BT26ActionReserveHandCardByTagCI2NS_8LeafNodeEERKNSt7__cxx1112ba
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ActionReserveHandCardByTag + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ActionReserveHandCardByTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -23,7 +23,7 @@ void __cdecl BT::ActionReserveHandCardByTag::~ActionReserveHandCardByTag(BT::Act
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionReserveHandCardByTag + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionReserveHandCardByTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

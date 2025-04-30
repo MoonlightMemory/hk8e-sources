@@ -36,7 +36,7 @@ void __cdecl data::ActivitySumoOverallConfig::ActivitySumoOverallConfig(
   const data::ActivitySumoOverallConfig *v30; // [rsp+0h] [rbp-10h]
 
   v30 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoOverallConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoOverallConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySumoOverallConfig = v2;
@@ -205,7 +205,7 @@ void __cdecl data::ActivitySumoOverallConfig::~ActivitySumoOverallConfig(data::A
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoOverallConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoOverallConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoOverallConfig = v2;
@@ -220,7 +220,7 @@ void __cdecl data::ActivitySumoStageExcelConfig::ActivitySumoStageExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoStageExcelConfig = v2;
@@ -284,7 +284,7 @@ void __cdecl data::ActivitySumoStageExcelConfig::ActivitySumoStageExcelConfig(
   const data::ActivitySumoStageExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySumoStageExcelConfig = v2;
@@ -377,7 +377,7 @@ void __cdecl data::ActivitySumoStageExcelConfig::~ActivitySumoStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoStageExcelConfig = v2;
@@ -394,7 +394,7 @@ void __cdecl data::ActivitySumoSwitchSkillExcelConfig::ActivitySumoSwitchSkillEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoSwitchSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoSwitchSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoSwitchSkillExcelConfig = v2;
@@ -418,7 +418,7 @@ void __cdecl data::ActivitySumoSwitchSkillExcelConfig::ActivitySumoSwitchSkillEx
   const data::ActivitySumoSwitchSkillExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoSwitchSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoSwitchSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySumoSwitchSkillExcelConfig = v2;
@@ -453,7 +453,7 @@ void __cdecl data::ActivitySumoSwitchSkillExcelConfig::~ActivitySumoSwitchSkillE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoSwitchSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoSwitchSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoSwitchSkillExcelConfig = v2;
@@ -482,7 +482,7 @@ void __cdecl data::ActivitySumoDifficultyExcelConfig::ActivitySumoDifficultyExce
   const data::ActivitySumoDifficultyExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySumoDifficultyExcelConfig = v2;
@@ -582,7 +582,7 @@ void __cdecl data::ActivitySumoDifficultyExcelConfig::~ActivitySumoDifficultyExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySumoDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySumoDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySumoDifficultyExcelConfig = v2;

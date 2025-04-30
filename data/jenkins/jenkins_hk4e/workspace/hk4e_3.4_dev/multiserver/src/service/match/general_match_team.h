@@ -5,7 +5,7 @@ void __cdecl GeneralMatchTeam::~GeneralMatchTeam(GeneralMatchTeam *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GeneralMatchTeam + 2);
+  v1 = (int (**)(...))(&`vtable for GeneralMatchTeam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -20,7 +20,7 @@ void __cdecl GeneralMatchTeam::GeneralMatchTeam(GeneralMatchTeam *const this)
   int (**v1)(...); // rdx
 
   MatchTeam::MatchTeam(this);
-  v1 = (int (**)(...))(&`vtable for'GeneralMatchTeam + 2);
+  v1 = (int (**)(...))(&`vtable for GeneralMatchTeam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

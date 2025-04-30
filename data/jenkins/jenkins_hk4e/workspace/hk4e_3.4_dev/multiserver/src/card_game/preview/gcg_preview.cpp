@@ -5,7 +5,7 @@ void __cdecl GCGSkillPreviewBase::GCGSkillPreviewBase(GCGSkillPreviewBase *const
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GCGSkillPreviewBase + 2);
+  v2 = (int (**)(...))(&`vtable for GCGSkillPreviewBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGSkillPreviewBase = v2;

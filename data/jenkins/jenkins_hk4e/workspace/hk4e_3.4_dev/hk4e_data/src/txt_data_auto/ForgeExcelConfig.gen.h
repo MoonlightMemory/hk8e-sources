@@ -6,7 +6,7 @@ void __cdecl data::ForgeUnlockConfig::ForgeUnlockConfig(data::ForgeUnlockConfig 
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ForgeUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ForgeUnlockConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ForgeUnlockConfig::ForgeUnlockConfig(
   const data::ForgeUnlockConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ForgeUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ForgeUnlockConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::ForgeUnlockConfig::~ForgeUnlockConfig(data::ForgeUnlockConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ForgeUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ForgeUnlockConfig = v2;
@@ -80,7 +80,7 @@ void __cdecl data::ForgeExcelConfig::ForgeExcelConfig(data::ForgeExcelConfig *co
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ForgeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ForgeExcelConfig = v2;
@@ -205,7 +205,7 @@ void __cdecl data::ForgeExcelConfig::ForgeExcelConfig(
   const data::ForgeExcelConfig *v34; // [rsp+0h] [rbp-20h]
 
   v34 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ForgeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ForgeExcelConfig = v2;
@@ -380,7 +380,7 @@ void __cdecl data::ForgeExcelConfig::~ForgeExcelConfig(data::ForgeExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ForgeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ForgeExcelConfig = v2;
@@ -412,7 +412,7 @@ void __cdecl data::ForgeUpdateExcelConfig::ForgeUpdateExcelConfig(
   const data::ForgeUpdateExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ForgeUpdateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeUpdateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ForgeUpdateExcelConfig = v2;
@@ -451,7 +451,7 @@ void __cdecl data::ForgeUpdateExcelConfig::~ForgeUpdateExcelConfig(data::ForgeUp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ForgeUpdateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ForgeUpdateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ForgeUpdateExcelConfig = v2;

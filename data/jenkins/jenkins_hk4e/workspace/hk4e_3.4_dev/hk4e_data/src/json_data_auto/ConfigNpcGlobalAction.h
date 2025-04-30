@@ -106,7 +106,7 @@ void __cdecl data::NpcActionCondBase::NpcActionCondBase(data::NpcActionCondBase 
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::NpcActionCondBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::NpcActionCondBase>);
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -129,7 +129,7 @@ void __cdecl data::NpcActionCondBase::NpcActionCondBase(
   std::enable_shared_from_this<data::NpcActionCondBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::NpcActionCondBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::NpcActionCondBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::NpcActionCondBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_NpcActionCondBase = v3;
@@ -151,7 +151,7 @@ void __cdecl data::NpcActionCondBase::~NpcActionCondBase(data::NpcActionCondBase
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -228,7 +228,7 @@ void __cdecl data::NpcActionQuestCond::NpcActionQuestCond(data::NpcActionQuestCo
   __int64 v4; // rsi
 
   data::NpcActionCondBase::NpcActionCondBase((data::NpcActionCondBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -278,7 +278,7 @@ void __cdecl data::NpcActionQuestCond::NpcActionQuestCond(
   char v12; // al
 
   data::NpcActionCondBase::NpcActionCondBase((data::NpcActionCondBase *const)this, (const data::NpcActionCondBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NpcActionCondBase = v2;
@@ -351,7 +351,7 @@ void __cdecl data::NpcActionQuestCond::~NpcActionQuestCond(data::NpcActionQuestC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionQuestCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionQuestCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -418,7 +418,7 @@ void __cdecl data::NpcActionQuestCondFactory::NpcActionQuestCondFactory(data::Np
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionQuestCondFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionQuestCondFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionQuestCondFactory = v2;
@@ -431,7 +431,7 @@ void __cdecl data::NpcActionCondAvatarInArea::NpcActionCondAvatarInArea(data::Np
   int (**v2)(...); // rdx
 
   data::NpcActionCondBase::NpcActionCondBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondAvatarInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondAvatarInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -449,7 +449,7 @@ void __cdecl data::NpcActionCondAvatarInArea::NpcActionCondAvatarInArea(
   int (**v2)(...); // rdx
 
   data::NpcActionCondBase::NpcActionCondBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondAvatarInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondAvatarInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NpcActionCondBase = v2;
@@ -472,7 +472,7 @@ void __cdecl data::NpcActionCondAvatarInArea::~NpcActionCondAvatarInArea(data::N
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondAvatarInArea + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondAvatarInArea + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondBase = v2;
@@ -544,7 +544,7 @@ void __cdecl data::NpcActionCondAvatarInAreaFactory::NpcActionCondAvatarInAreaFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcActionCondAvatarInAreaFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcActionCondAvatarInAreaFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcActionCondAvatarInAreaFactory = v2;
@@ -620,7 +620,7 @@ void __cdecl data::ConfigNpcBaseAction::ConfigNpcBaseAction(data::ConfigNpcBaseA
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigNpcBaseAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigNpcBaseAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcBaseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -656,7 +656,7 @@ void __cdecl data::ConfigNpcBaseAction::ConfigNpcBaseAction(
   std::enable_shared_from_this<data::ConfigNpcBaseAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigNpcBaseAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigNpcBaseAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigNpcBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigNpcBaseAction = v3;
@@ -692,7 +692,7 @@ void __cdecl data::ConfigNpcBaseAction::~ConfigNpcBaseAction(data::ConfigNpcBase
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcBaseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcBaseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -836,7 +836,7 @@ void __cdecl data::ConfigNpcAttachItemAction::ConfigNpcAttachItemAction(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -852,7 +852,7 @@ void __cdecl data::ConfigNpcAttachItemAction::ConfigNpcAttachItemAction(
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -873,7 +873,7 @@ void __cdecl data::ConfigNpcAttachItemAction::~ConfigNpcAttachItemAction(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -943,7 +943,7 @@ void __cdecl data::ConfigNpcAttachItemActionFactory::ConfigNpcAttachItemActionFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcAttachItemActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcAttachItemActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcAttachItemActionFactory = v2;
@@ -957,7 +957,7 @@ void __cdecl data::ConfigNpcDeAttachItemAction::ConfigNpcDeAttachItemAction(
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcDeAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcDeAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -972,7 +972,7 @@ void __cdecl data::ConfigNpcDeAttachItemAction::ConfigNpcDeAttachItemAction(
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcDeAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcDeAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -994,7 +994,7 @@ void __cdecl data::ConfigNpcDeAttachItemAction::~ConfigNpcDeAttachItemAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcDeAttachItemAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcDeAttachItemAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1063,7 +1063,7 @@ void __cdecl data::ConfigNpcDeAttachItemActionFactory::ConfigNpcDeAttachItemActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcDeAttachItemActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcDeAttachItemActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcDeAttachItemActionFactory = v2;
@@ -1076,7 +1076,7 @@ void __cdecl data::ConfigShowNpcAction::ConfigShowNpcAction(data::ConfigShowNpcA
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1090,7 +1090,7 @@ void __cdecl data::ConfigShowNpcAction::ConfigShowNpcAction(
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1102,7 +1102,7 @@ void __cdecl data::ConfigShowNpcAction::~ConfigShowNpcAction(data::ConfigShowNpc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1176,7 +1176,7 @@ void __cdecl data::ConfigShowNpcActionFactory::ConfigShowNpcActionFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowNpcActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowNpcActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShowNpcActionFactory = v2;
@@ -1189,7 +1189,7 @@ void __cdecl data::ConfigHideNpcAction::ConfigHideNpcAction(data::ConfigHideNpcA
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1203,7 +1203,7 @@ void __cdecl data::ConfigHideNpcAction::ConfigHideNpcAction(
   int (**v2)(...); // rdx
 
   data::ConfigNpcBaseAction::ConfigNpcBaseAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1222,7 +1222,7 @@ void __cdecl data::ConfigHideNpcAction::~ConfigHideNpcAction(data::ConfigHideNpc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideNpcAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideNpcAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcBaseAction = v2;
@@ -1289,7 +1289,7 @@ void __cdecl data::ConfigHideNpcActionFactory::ConfigHideNpcActionFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideNpcActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideNpcActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigHideNpcActionFactory = v2;

@@ -2250,7 +2250,7 @@ LABEL_44:
     __asan_report_store8(v13, v6);
     goto LABEL_45;
   }
-  *(_QWORD *)v13 = &`vtable for'std::_Sp_counted_ptr<google::protobuf::Message *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v13 = &`vtable for std::_Sp_counted_ptr<google::protobuf::Message *,(__gnu_cxx::_Lock_policy)2> + 2;
   v18 = v13 + 16;
   if ( *(_BYTE *)(((v13 + 16) >> 3) + 0x7FFF8000) )
   {

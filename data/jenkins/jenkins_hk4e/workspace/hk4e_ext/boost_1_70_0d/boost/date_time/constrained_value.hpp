@@ -310,7 +310,7 @@ void __fastcall __noreturn boost::CV::simple_exception_policy<unsigned short,(un
   std::out_of_range::out_of_range(&v5, &v6);
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v6._M_dataplus._M_p != &v6._anon_0 )
     operator delete(v6._M_dataplus._M_p);
-  *(_QWORD *)v5.baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+  *(_QWORD *)v5.baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
   exception = (boost::wrapexcept<boost::gregorian::bad_weekday> *)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)((((unsigned __int64)&exception->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                   + 63) >> 3)
@@ -346,7 +346,7 @@ void __fastcall __noreturn boost::CV::simple_exception_policy<unsigned short,(un
   std::out_of_range::out_of_range(&v5, &v6);
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v6._M_dataplus._M_p != &v6._anon_0 )
     operator delete(v6._M_dataplus._M_p);
-  *(_QWORD *)v5.baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+  *(_QWORD *)v5.baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
   exception = (boost::wrapexcept<boost::gregorian::bad_day_of_year> *)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)((((unsigned __int64)&exception->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                   + 63) >> 3)

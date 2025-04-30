@@ -80,7 +80,7 @@ void __fastcall __noreturn mysqlpp::TCPConnection::connect(
   exception = (char *)__cxa_allocate_exception(0x30uLL);
   v13 = *(const char **)(v10 + 16);
   v14 = exception;
-  *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
   *((_QWORD *)exception + 1) = exception + 24;
   if ( v13 )
   {
@@ -106,7 +106,7 @@ void __fastcall __noreturn mysqlpp::TCPConnection::connect(
     (const char *)v17,
     (std::forward_iterator_tag)v12);
   v14[10] = 0;
-  *(_QWORD *)v14 = &`vtable for'mysqlpp::ConnectionFailed + 2;
+  *(_QWORD *)v14 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     v14,
     (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,

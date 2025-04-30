@@ -6141,7 +6141,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         *(_QWORD *)(v3 + 560) = 0LL;
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
-        v16 = &`vtable for'data::ChannellerSlabPreviewExcelConfig + 2;
+        v16 = &`vtable for data::ChannellerSlabPreviewExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;
@@ -6818,7 +6818,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         *(_QWORD *)(v3 + 560) = 0LL;
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
-        v16 = &`vtable for'data::ChannellerSlabLevelExcelConfig + 2;
+        v16 = &`vtable for data::ChannellerSlabLevelExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;
@@ -7156,7 +7156,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ChannellerSlabDungeonExcelConfig + 2;
+        v15 = &`vtable for data::ChannellerSlabDungeonExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -7836,7 +7836,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ChannellerSlabBuffEnergyExcelConfig + 2;
+        v15 = &`vtable for data::ChannellerSlabBuffEnergyExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -8191,7 +8191,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ChannellerSlabBuffCostExcelConfig + 2;
+        v15 = &`vtable for data::ChannellerSlabBuffCostExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -8540,7 +8540,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2;
+        v15 = &`vtable for data::ChannellerSlabLoopDungeonPreviewExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -8889,7 +8889,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ChannellerSlabLoopDungeonRewardExcelConfig + 2;
+        v15 = &`vtable for data::ChannellerSlabLoopDungeonRewardExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -9243,7 +9243,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         *(_QWORD *)(v3 + 560) = 0LL;
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
-        v16 = &`vtable for'data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2;
+        v16 = &`vtable for data::ChannellerSlabLoopDungeonDifficultyExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;
@@ -9578,7 +9578,7 @@ int32_t __cdecl data::ActivityChannellerSlabExcelConfigMgrBase::loadChannellerSl
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ChannellerSlabLoopDungeonConditionExcelConfig + 2;
+        v14 = &`vtable for data::ChannellerSlabLoopDungeonConditionExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;

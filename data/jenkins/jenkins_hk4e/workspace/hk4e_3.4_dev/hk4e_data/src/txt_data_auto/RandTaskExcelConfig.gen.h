@@ -16,7 +16,7 @@ void __cdecl data::RandTaskExcelConfig::RandTaskExcelConfig(
   const data::RandTaskExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandTaskExcelConfig = v2;
@@ -75,7 +75,7 @@ void __cdecl data::RandTaskExcelConfig::~RandTaskExcelConfig(data::RandTaskExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskExcelConfig = v2;
@@ -87,7 +87,7 @@ void __cdecl data::RandTaskDropConfig::RandTaskDropConfig(data::RandTaskDropConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskDropConfig = v2;
@@ -108,7 +108,7 @@ void __cdecl data::RandTaskDropConfig::RandTaskDropConfig(
   uint32_t drop_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandTaskDropConfig = v2;
@@ -133,7 +133,7 @@ void __cdecl data::RandTaskDropConfig::~RandTaskDropConfig(data::RandTaskDropCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskDropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskDropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskDropConfig = v2;
@@ -152,7 +152,7 @@ void __cdecl data::RandTaskRewardConfig::RandTaskRewardConfig(data::RandTaskRewa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskRewardConfig = v2;
@@ -176,7 +176,7 @@ void __cdecl data::RandTaskRewardConfig::RandTaskRewardConfig(
   const data::RandTaskRewardConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandTaskRewardConfig = v2;
@@ -202,7 +202,7 @@ void __cdecl data::RandTaskRewardConfig::~RandTaskRewardConfig(data::RandTaskRew
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskRewardConfig = v2;
@@ -310,7 +310,7 @@ void __cdecl data::RandTaskLevelConfig::RandTaskLevelConfig(
   const data::RandTaskLevelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskLevelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskLevelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandTaskLevelConfig = v2;
@@ -376,7 +376,7 @@ void __cdecl data::RandTaskLevelConfig::~RandTaskLevelConfig(data::RandTaskLevel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandTaskLevelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandTaskLevelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandTaskLevelConfig = v2;

@@ -8,7 +8,7 @@ void __cdecl ConfigGCGConditionConstIntegerValueImpl::ConfigGCGConditionConstInt
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionConstIntegerValue::ConfigGCGConditionConstIntegerValue(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionConstIntegerValueImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionConstIntegerValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -28,7 +28,7 @@ void __cdecl ConfigGCGConditionConstIntegerValueImpl::~ConfigGCGConditionConstIn
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionConstIntegerValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionConstIntegerValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -75,7 +75,7 @@ void __cdecl ConfigGCGLogicConditionImpl::ConfigGCGLogicConditionImpl(
   int (**v2)(...); // rdx
 
   data::ConfigGCGLogicCondition::ConfigGCGLogicCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGLogicConditionImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGLogicConditionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -93,7 +93,7 @@ void __cdecl ConfigGCGLogicConditionImpl::~ConfigGCGLogicConditionImpl(ConfigGCG
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGLogicConditionImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGLogicConditionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -140,7 +140,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillImpl::ConfigGCGConditionGlobal
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurSkill::ConfigGCGConditionGlobalFetchCurSkill(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -152,7 +152,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillImpl::~ConfigGCGConditionGloba
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -207,7 +207,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardImpl::ConfigGCGConditionGlobalF
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurCard::ConfigGCGConditionGlobalFetchCurCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -227,7 +227,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardImpl::~ConfigGCGConditionGlobal
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -274,7 +274,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterImpl::ConfigGCGConditio
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSourceCharacter::ConfigGCGConditionGlobalFetchSourceCharacter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -286,7 +286,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterImpl::~ConfigGCGConditi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -341,7 +341,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterImpl::ConfigGCGConditio
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchTargetCharacter::ConfigGCGConditionGlobalFetchTargetCharacter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -353,7 +353,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterImpl::~ConfigGCGConditi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -408,7 +408,7 @@ void __cdecl ConfigCCGConditionCardFetchVarImpl::ConfigCCGConditionCardFetchVarI
   int (**v2)(...); // rdx
 
   data::ConfigCCGConditionCardFetchVar::ConfigCCGConditionCardFetchVar(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigCCGConditionCardFetchVarImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigCCGConditionCardFetchVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -420,7 +420,7 @@ void __cdecl ConfigCCGConditionCardFetchVarImpl::~ConfigCCGConditionCardFetchVar
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigCCGConditionCardFetchVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigCCGConditionCardFetchVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -475,7 +475,7 @@ void __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::ConfigGCGConditionC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCharacterCheckAttachCard::ConfigGCGConditionCharacterCheckAttachCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -487,7 +487,7 @@ void __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::~ConfigGCGCondition
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -542,7 +542,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::ConfigGCGConditionChec
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterCamp::ConfigGCGConditionCheckCurCharacterCamp(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterCampImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -562,7 +562,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::~ConfigGCGConditionChe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterCampImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -609,7 +609,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterPosition::ConfigGCGConditionCheckCurCharacterPosition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -621,7 +621,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -675,7 +675,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillObjectImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurSkillObject::ConfigGCGConditionGlobalFetchCurSkillObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -689,7 +689,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillObjectImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurSkillObject::ConfigGCGConditionGlobalFetchCurSkillObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -709,7 +709,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillObjectImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -755,7 +755,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardObjectImpl::ConfigGCGConditionG
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurCardObject::ConfigGCGConditionGlobalFetchCurCardObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -769,7 +769,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardObjectImpl::ConfigGCGConditionG
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurCardObject::ConfigGCGConditionGlobalFetchCurCardObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -781,7 +781,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardObjectImpl::~ConfigGCGCondition
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -835,7 +835,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl::ConfigGCGCo
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSourceCharacterObject::ConfigGCGConditionGlobalFetchSourceCharacterObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -849,7 +849,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl::ConfigGCGCo
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSourceCharacterObject::ConfigGCGConditionGlobalFetchSourceCharacterObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -869,7 +869,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl::~ConfigGCGC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -915,7 +915,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl::ConfigGCGCo
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchTargetCharacterObject::ConfigGCGConditionGlobalFetchTargetCharacterObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -929,7 +929,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl::ConfigGCGCo
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchTargetCharacterObject::ConfigGCGConditionGlobalFetchTargetCharacterObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -949,7 +949,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl::~ConfigGCGC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -996,7 +996,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardImpl::ConfigGCGConditionGlobal
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchThisCard::ConfigGCGConditionGlobalFetchThisCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1016,7 +1016,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardImpl::~ConfigGCGConditionGloba
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1062,7 +1062,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardObjectImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchThisCardObject::ConfigGCGConditionGlobalFetchThisCardObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1076,7 +1076,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardObjectImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchThisCardObject::ConfigGCGConditionGlobalFetchThisCardObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1088,7 +1088,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardObjectImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1143,7 +1143,7 @@ void __cdecl ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl::ConfigGCGCond
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchOnStageSummonNumber::ConfigGCGConditionGlobalFetchOnStageSummonNumber(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1163,7 +1163,7 @@ void __cdecl ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl::~ConfigGCGCon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1210,7 +1210,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::ConfigGCGConditionCheckC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillHasTag::ConfigGCGConditionCheckCurSkillHasTag(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1230,7 +1230,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::~ConfigGCGConditionCheck
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1277,7 +1277,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::ConfigGCGConditionCheckCur
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillUsed::ConfigGCGConditionCheckCurSkillUsed(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillUsedImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillUsedImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1289,7 +1289,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::~ConfigGCGConditionCheckCu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillUsedImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillUsedImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1344,7 +1344,7 @@ void __cdecl ConfigGCGConditionCurCardHasTagImpl::ConfigGCGConditionCurCardHasTa
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCardHasTag::ConfigGCGConditionCurCardHasTag(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardHasTagImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1364,7 +1364,7 @@ void __cdecl ConfigGCGConditionCurCardHasTagImpl::~ConfigGCGConditionCurCardHasT
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardHasTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1411,7 +1411,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::ConfigGCGConditionCurC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardID::ConfigGCGConditionCurCardAttachToCardID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1423,7 +1423,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::~ConfigGCGConditionCur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1477,7 +1477,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardObject::ConfigGCGConditionCurCardAttachToCardObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1491,7 +1491,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardObject::ConfigGCGConditionCurCardAttachToCardObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1511,7 +1511,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1558,7 +1558,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::ConfigGCGConditi
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardIsTarget::ConfigGCGConditionCurCardAttachToCardIsTarget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1578,7 +1578,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::~ConfigGCGCondit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1625,7 +1625,7 @@ void __cdecl ConfigGCGConditionCheckCurCardCampImpl::ConfigGCGConditionCheckCurC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardCamp::ConfigGCGConditionCheckCurCardCamp(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardCampImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1645,7 +1645,7 @@ void __cdecl ConfigGCGConditionCheckCurCardCampImpl::~ConfigGCGConditionCheckCur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardCampImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1692,7 +1692,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampHurtTotalImpl::ConfigGCGConditionGlo
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurCampHurtTotal::ConfigGCGConditionGlobalCurCampHurtTotal(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1704,7 +1704,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampHurtTotalImpl::~ConfigGCGConditionGl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1759,7 +1759,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::ConfigGCGConditionC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterHurtNum::ConfigGCGConditionCheckCurCharacterHurtNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1779,7 +1779,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::~ConfigGCGCondition
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1825,7 +1825,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImp
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObject::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1841,7 +1841,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImp
   data::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObject::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObject(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1861,7 +1861,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImp
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1910,7 +1910,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl::C
   data::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterID::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterID(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1922,7 +1922,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl::~
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -1979,7 +1979,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl::ConfigGCG
   data::ConfigGCGConditionGlobalCurCampBackStageHurtTotalNum::ConfigGCGConditionGlobalCurCampBackStageHurtTotalNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -1999,7 +1999,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl::~ConfigGC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2046,7 +2046,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillIDImpl::ConfigGCGConditionGlobalTh
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalThisSkillID::ConfigGCGConditionGlobalThisSkillID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2058,7 +2058,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillIDImpl::~ConfigGCGConditionGlobalT
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2112,7 +2112,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillObjectImpl::ConfigGCGConditionGlob
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalThisSkillObject::ConfigGCGConditionGlobalThisSkillObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2126,7 +2126,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillObjectImpl::ConfigGCGConditionGlob
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalThisSkillObject::ConfigGCGConditionGlobalThisSkillObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2138,7 +2138,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillObjectImpl::~ConfigGCGConditionGlo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2193,7 +2193,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionFetchCurSkillRoundUsedNum::ConfigGCGConditionFetchCurSkillRoundUsedNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2213,7 +2213,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2260,7 +2260,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::ConfigGCGConditionCh
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillHasSkillID::ConfigGCGConditionCheckCurSkillHasSkillID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2272,7 +2272,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::~ConfigGCGConditionC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2327,7 +2327,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::ConfigGCGConditio
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterHasCardID::ConfigGCGConditionCheckCurCharacterHasCardID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2347,7 +2347,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::~ConfigGCGConditi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2394,7 +2394,7 @@ void __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::ConfigGCGConditionChec
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardHasCardID::ConfigGCGConditionCheckCurCardHasCardID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2414,7 +2414,7 @@ void __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::~ConfigGCGConditionChe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2460,7 +2460,7 @@ void __cdecl ConfigGCGConditionGlobalLogicNotImpl::ConfigGCGConditionGlobalLogic
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalLogicNot::ConfigGCGConditionGlobalLogicNot(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalLogicNotImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalLogicNotImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2474,7 +2474,7 @@ void __cdecl ConfigGCGConditionGlobalLogicNotImpl::ConfigGCGConditionGlobalLogic
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalLogicNot::ConfigGCGConditionGlobalLogicNot(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalLogicNotImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalLogicNotImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2494,7 +2494,7 @@ void __cdecl ConfigGCGConditionGlobalLogicNotImpl::~ConfigGCGConditionGlobalLogi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalLogicNotImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalLogicNotImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2540,7 +2540,7 @@ void __cdecl ConfigGCGConditionGlobalCheckParitityImpl::ConfigGCGConditionGlobal
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckParitity::ConfigGCGConditionGlobalCheckParitity(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckParitityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckParitityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2554,7 +2554,7 @@ void __cdecl ConfigGCGConditionGlobalCheckParitityImpl::ConfigGCGConditionGlobal
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckParitity::ConfigGCGConditionGlobalCheckParitity(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckParitityImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckParitityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2566,7 +2566,7 @@ void __cdecl ConfigGCGConditionGlobalCheckParitityImpl::~ConfigGCGConditionGloba
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckParitityImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckParitityImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2621,7 +2621,7 @@ void __cdecl ConfigGCGConditionGlobalAreaContainCardImpl::ConfigGCGConditionGlob
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalAreaContainCard::ConfigGCGConditionGlobalAreaContainCard(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaContainCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaContainCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2641,7 +2641,7 @@ void __cdecl ConfigGCGConditionGlobalAreaContainCardImpl::~ConfigGCGConditionGlo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaContainCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaContainCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2688,7 +2688,7 @@ void __cdecl ConfigGCGConditionCurCharacterHpNumImpl::ConfigGCGConditionCurChara
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterHpNum::ConfigGCGConditionCurCharacterHpNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterHpNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterHpNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2700,7 +2700,7 @@ void __cdecl ConfigGCGConditionCurCharacterHpNumImpl::~ConfigGCGConditionCurChar
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterHpNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterHpNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2755,7 +2755,7 @@ void __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::ConfigGCGConditionCurC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterEnergyNum::ConfigGCGConditionCurCharacterEnergyNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2775,7 +2775,7 @@ void __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::~ConfigGCGConditionCur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2824,7 +2824,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl::Confi
   data::ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNum::ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2844,7 +2844,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl::~Conf
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2891,7 +2891,7 @@ void __cdecl ConfigGCGConditionGlobalCurSkillKillCharacterImpl::ConfigGCGConditi
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurSkillKillCharacter::ConfigGCGConditionGlobalCurSkillKillCharacter(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2903,7 +2903,7 @@ void __cdecl ConfigGCGConditionGlobalCurSkillKillCharacterImpl::~ConfigGCGCondit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -2960,7 +2960,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl::ConfigG
   data::ConfigGCGConditionGlobalCheckCurSkillDamageElementType::ConfigGCGConditionGlobalCheckCurSkillDamageElementType(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -2972,7 +2972,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl::~Config
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3029,7 +3029,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl::ConfigG
   data::ConfigGCGConditionGlobalCheckCurSkillElementReactionId::ConfigGCGConditionGlobalCheckCurSkillElementReactionId(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3041,7 +3041,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl::~Config
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3094,7 +3094,7 @@ void __cdecl ConfigGCGLogicConditionImpl::ConfigGCGLogicConditionImpl(ConfigGCGL
   int (**v1)(...); // rdx
 
   data::ConfigGCGLogicCondition::ConfigGCGLogicCondition(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGLogicConditionImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGLogicConditionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3108,7 +3108,7 @@ void __cdecl ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl::ConfigGCGCondi
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurRoundHasCharacterDie::ConfigGCGConditionGlobalCurRoundHasCharacterDie(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3128,7 +3128,7 @@ void __cdecl ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl::~ConfigGCGCond
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3174,7 +3174,7 @@ void __cdecl ConfigGCGConditionGlobalAreaTagCardNumImpl::ConfigGCGConditionGloba
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalAreaTagCardNum::ConfigGCGConditionGlobalAreaTagCardNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3188,7 +3188,7 @@ void __cdecl ConfigGCGConditionGlobalAreaTagCardNumImpl::ConfigGCGConditionGloba
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalAreaTagCardNum::ConfigGCGConditionGlobalAreaTagCardNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3208,7 +3208,7 @@ void __cdecl ConfigGCGConditionGlobalAreaTagCardNumImpl::~ConfigGCGConditionGlob
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaTagCardNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3255,7 +3255,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::ConfigGCGConditio
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionFetchCurSkillOriginCostNum::ConfigGCGConditionFetchCurSkillOriginCostNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3267,7 +3267,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::~ConfigGCGConditi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3322,7 +3322,7 @@ void __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::ConfigGCGCondit
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardSetDamageElement::ConfigGCGConditionCheckCurCardSetDamageElement(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3334,7 +3334,7 @@ void __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::~ConfigGCGCondi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3389,7 +3389,7 @@ void __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionFetchCurCardAbsorbDiceNum::ConfigGCGConditionFetchCurCardAbsorbDiceNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3409,7 +3409,7 @@ void __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3458,7 +3458,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl::Co
   data::ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNum::ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3478,7 +3478,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl::~C
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3525,7 +3525,7 @@ void __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::ConfigGCGCondition
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterNotChargedNum::ConfigGCGConditionCurCharacterNotChargedNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3537,7 +3537,7 @@ void __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::~ConfigGCGConditio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3591,7 +3591,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardObjectImpl::ConfigGCGConditi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardObject::ConfigGCGConditionGlobalFetchCurDieCardObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3605,7 +3605,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardObjectImpl::ConfigGCGConditi
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardObject::ConfigGCGConditionGlobalFetchCurDieCardObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3617,7 +3617,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardObjectImpl::~ConfigGCGCondit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3672,7 +3672,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl::ConfigGCGCondit
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardOwnerID::ConfigGCGConditionGlobalFetchCurDieCardOwnerID(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3684,7 +3684,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl::~ConfigGCGCondi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3738,7 +3738,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl::ConfigGCGCo
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardOwnerObject::ConfigGCGConditionGlobalFetchCurDieCardOwnerObject(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3752,7 +3752,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl::ConfigGCGCo
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardOwnerObject::ConfigGCGConditionGlobalFetchCurDieCardOwnerObject(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3772,7 +3772,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl::~ConfigGCGC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerObjectImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3819,7 +3819,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurRoundNumImpl::ConfigGCGConditionGlo
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurRoundNum::ConfigGCGConditionGlobalFetchCurRoundNum(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3839,7 +3839,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurRoundNumImpl::~ConfigGCGConditionGl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3888,7 +3888,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkil
   data::ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNum::ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3900,7 +3900,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkil
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -3955,7 +3955,7 @@ void __cdecl ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl::ConfigGCGCondit
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckIsCurRoundOnStage::ConfigGCGConditionGlobalCheckIsCurRoundOnStage(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -3967,7 +3967,7 @@ void __cdecl ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl::~ConfigGCGCondi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4024,7 +4024,7 @@ void __cdecl ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl::Config
   data::ConfigGCGConditionGlobalFetchAliveBackStageCharacterNum::ConfigGCGConditionGlobalFetchAliveBackStageCharacterNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -4044,7 +4044,7 @@ void __cdecl ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl::~Confi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4091,7 +4091,7 @@ void __cdecl ConfigGCGConditionCheckCurCardTypeImpl::ConfigGCGConditionCheckCurC
   int (**v2)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardType::ConfigGCGConditionCheckCurCardType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardTypeImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -4103,7 +4103,7 @@ void __cdecl ConfigGCGConditionCheckCurCardTypeImpl::~ConfigGCGConditionCheckCur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4160,7 +4160,7 @@ void __cdecl ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl::Config
   data::ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNum::ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNum(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -4172,7 +4172,7 @@ void __cdecl ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl::~Confi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4229,7 +4229,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl::
   data::ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementType::ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementType(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -4249,7 +4249,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl::
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4298,7 +4298,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::Confi
   data::ConfigGCGConditionCheckCurCharacterModifiedAssignTagCard::ConfigGCGConditionCheckCurCharacterModifiedAssignTagCard(
     this,
     a2);
-  v2 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
+  v2 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v2;
@@ -4318,7 +4318,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::~Conf
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4364,7 +4364,7 @@ void __cdecl ConfigGCGConditionConstIntegerValueImpl::ConfigGCGConditionConstInt
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionConstIntegerValue::ConfigGCGConditionConstIntegerValue(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionConstIntegerValueImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionConstIntegerValueImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4377,7 +4377,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurSkillImpl::ConfigGCGConditionGlobal
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurSkill::ConfigGCGConditionGlobalFetchCurSkill(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurSkillImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4390,7 +4390,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurCardImpl::ConfigGCGConditionGlobalF
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurCard::ConfigGCGConditionGlobalFetchCurCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4403,7 +4403,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSourceCharacterImpl::ConfigGCGConditio
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSourceCharacter::ConfigGCGConditionGlobalFetchSourceCharacter(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSourceCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4416,7 +4416,7 @@ void __cdecl ConfigGCGConditionGlobalFetchTargetCharacterImpl::ConfigGCGConditio
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchTargetCharacter::ConfigGCGConditionGlobalFetchTargetCharacter(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchTargetCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4429,7 +4429,7 @@ void __cdecl ConfigGCGConditionGlobalFetchThisCardImpl::ConfigGCGConditionGlobal
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchThisCard::ConfigGCGConditionGlobalFetchThisCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchThisCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchThisCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4442,7 +4442,7 @@ void __cdecl ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl::ConfigGCGCond
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchOnStageSummonNumber::ConfigGCGConditionGlobalFetchOnStageSummonNumber(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchOnStageSummonNumberImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4455,7 +4455,7 @@ void __cdecl ConfigCCGConditionCardFetchVarImpl::ConfigCCGConditionCardFetchVarI
   int (**v1)(...); // rdx
 
   data::ConfigCCGConditionCardFetchVar::ConfigCCGConditionCardFetchVar(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigCCGConditionCardFetchVarImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigCCGConditionCardFetchVarImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4468,7 +4468,7 @@ void __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::ConfigGCGConditionC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCharacterCheckAttachCard::ConfigGCGConditionCharacterCheckAttachCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCharacterCheckAttachCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4481,7 +4481,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::ConfigGCGConditionChec
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterCamp::ConfigGCGConditionCheckCurCharacterCamp(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterCampImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4494,7 +4494,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterPosition::ConfigGCGConditionCheckCurCharacterPosition(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterPositionImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4507,7 +4507,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::ConfigGCGConditionCheckC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillHasTag::ConfigGCGConditionCheckCurSkillHasTag(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4520,7 +4520,7 @@ void __cdecl ConfigGCGConditionCurCardHasTagImpl::ConfigGCGConditionCurCardHasTa
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCardHasTag::ConfigGCGConditionCurCardHasTag(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardHasTagImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardHasTagImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4533,7 +4533,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::ConfigGCGConditionCurC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardID::ConfigGCGConditionCurCardAttachToCardID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4546,7 +4546,7 @@ void __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::ConfigGCGConditi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCardAttachToCardIsTarget::ConfigGCGConditionCurCardAttachToCardIsTarget(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCardAttachToCardIsTargetImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4559,7 +4559,7 @@ void __cdecl ConfigGCGConditionCheckCurCardCampImpl::ConfigGCGConditionCheckCurC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardCamp::ConfigGCGConditionCheckCurCardCamp(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardCampImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardCampImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4572,7 +4572,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampHurtTotalImpl::ConfigGCGConditionGlo
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurCampHurtTotal::ConfigGCGConditionGlobalCurCampHurtTotal(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampHurtTotalImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4585,7 +4585,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::ConfigGCGConditionC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterHurtNum::ConfigGCGConditionCheckCurCharacterHurtNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHurtNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4598,7 +4598,7 @@ void __cdecl ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl::C
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterID::ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchSpecifiedCampOnstageCharacterIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4611,7 +4611,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::ConfigGCGConditionCheckCur
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillUsed::ConfigGCGConditionCheckCurSkillUsed(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillUsedImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillUsedImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4624,7 +4624,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl::ConfigGCG
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurCampBackStageHurtTotalNum::ConfigGCGConditionGlobalCurCampBackStageHurtTotalNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampBackStageHurtTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4637,7 +4637,7 @@ void __cdecl ConfigGCGConditionCurCharacterHpNumImpl::ConfigGCGConditionCurChara
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterHpNum::ConfigGCGConditionCurCharacterHpNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterHpNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterHpNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4650,7 +4650,7 @@ void __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::ConfigGCGConditionCurC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterEnergyNum::ConfigGCGConditionCurCharacterEnergyNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterEnergyNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4663,7 +4663,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl::Confi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNum::ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampOnStageNotChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4676,7 +4676,7 @@ void __cdecl ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl::Co
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNum::ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurCampNearBackStageChargedTotalNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4689,7 +4689,7 @@ void __cdecl ConfigGCGConditionGlobalThisSkillIDImpl::ConfigGCGConditionGlobalTh
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalThisSkillID::ConfigGCGConditionGlobalThisSkillID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalThisSkillIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalThisSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4702,7 +4702,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionFetchCurSkillRoundUsedNum::ConfigGCGConditionFetchCurSkillRoundUsedNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillRoundUsedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4715,7 +4715,7 @@ void __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::ConfigGCGConditionCh
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurSkillHasSkillID::ConfigGCGConditionCheckCurSkillHasSkillID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurSkillHasSkillIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4728,7 +4728,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::ConfigGCGConditio
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterHasCardID::ConfigGCGConditionCheckCurCharacterHasCardID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4741,7 +4741,7 @@ void __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::ConfigGCGConditionChec
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardHasCardID::ConfigGCGConditionCheckCurCardHasCardID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardHasCardIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4754,7 +4754,7 @@ void __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionFetchCurCardAbsorbDiceNum::ConfigGCGConditionFetchCurCardAbsorbDiceNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4767,7 +4767,7 @@ void __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::ConfigGCGCondit
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardSetDamageElement::ConfigGCGConditionCheckCurCardSetDamageElement(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardSetDamageElementImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4780,7 +4780,7 @@ void __cdecl ConfigGCGConditionGlobalAreaContainCardImpl::ConfigGCGConditionGlob
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalAreaContainCard::ConfigGCGConditionGlobalAreaContainCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalAreaContainCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalAreaContainCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4793,7 +4793,7 @@ void __cdecl ConfigGCGConditionGlobalCurSkillKillCharacterImpl::ConfigGCGConditi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurSkillKillCharacter::ConfigGCGConditionGlobalCurSkillKillCharacter(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurSkillKillCharacterImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4806,7 +4806,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl::ConfigG
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckCurSkillDamageElementType::ConfigGCGConditionGlobalCheckCurSkillDamageElementType(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4819,7 +4819,7 @@ void __cdecl ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl::ConfigG
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckCurSkillElementReactionId::ConfigGCGConditionGlobalCheckCurSkillElementReactionId(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckCurSkillElementReactionIdImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4832,7 +4832,7 @@ void __cdecl ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl::ConfigGCGCondi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCurRoundHasCharacterDie::ConfigGCGConditionGlobalCurRoundHasCharacterDie(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCurRoundHasCharacterDieImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4845,7 +4845,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurRoundNumImpl::ConfigGCGConditionGlo
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurRoundNum::ConfigGCGConditionGlobalFetchCurRoundNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurRoundNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4858,7 +4858,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkil
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNum::ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurOnStageCharacterAfterOnStageUseSkillNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4871,7 +4871,7 @@ void __cdecl ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl::ConfigGCGCondit
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalCheckIsCurRoundOnStage::ConfigGCGConditionGlobalCheckIsCurRoundOnStage(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalCheckIsCurRoundOnStageImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4884,7 +4884,7 @@ void __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::ConfigGCGConditio
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionFetchCurSkillOriginCostNum::ConfigGCGConditionFetchCurSkillOriginCostNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionFetchCurSkillOriginCostNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4897,7 +4897,7 @@ void __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::ConfigGCGCondition
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCurCharacterNotChargedNum::ConfigGCGConditionCurCharacterNotChargedNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCurCharacterNotChargedNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4910,7 +4910,7 @@ void __cdecl ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl::ConfigGCGCondit
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchCurDieCardOwnerID::ConfigGCGConditionGlobalFetchCurDieCardOwnerID(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchCurDieCardOwnerIDImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4923,7 +4923,7 @@ void __cdecl ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl::Config
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchAliveBackStageCharacterNum::ConfigGCGConditionGlobalFetchAliveBackStageCharacterNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchAliveBackStageCharacterNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4936,7 +4936,7 @@ void __cdecl ConfigGCGConditionCheckCurCardTypeImpl::ConfigGCGConditionCheckCurC
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCardType::ConfigGCGConditionCheckCurCardType(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCardTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCardTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4949,7 +4949,7 @@ void __cdecl ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl::Config
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNum::ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNum(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionGlobalFetchBeforeOperationCampDiceNumImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4962,7 +4962,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::Confi
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterModifiedAssignTagCard::ConfigGCGConditionCheckCurCharacterModifiedAssignTagCard(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;
@@ -4975,7 +4975,7 @@ void __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl::
   int (**v1)(...); // rdx
 
   data::ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementType::ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementType(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGCondition = v1;

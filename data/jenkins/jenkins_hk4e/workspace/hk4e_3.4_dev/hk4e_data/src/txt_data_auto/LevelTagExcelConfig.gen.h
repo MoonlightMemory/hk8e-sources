@@ -6,7 +6,7 @@ void __cdecl data::LevelTagExcelConfig::LevelTagExcelConfig(data::LevelTagExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagExcelConfig = v2;
@@ -49,7 +49,7 @@ void __cdecl data::LevelTagExcelConfig::LevelTagExcelConfig(
   const data::LevelTagExcelConfig *v9; // [rsp+0h] [rbp-20h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LevelTagExcelConfig = v2;
@@ -111,7 +111,7 @@ void __cdecl data::LevelTagExcelConfig::~LevelTagExcelConfig(data::LevelTagExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagExcelConfig = v2;
@@ -136,7 +136,7 @@ void __cdecl data::LevelTagGroup::LevelTagGroup(data::LevelTagGroup *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagGroup = v2;
@@ -148,7 +148,7 @@ void __cdecl data::LevelTagGroup::LevelTagGroup(data::LevelTagGroup *const this,
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LevelTagGroup = v2;
@@ -161,7 +161,7 @@ void __cdecl data::LevelTagGroup::~LevelTagGroup(data::LevelTagGroup *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagGroup = v2;
@@ -181,7 +181,7 @@ void __cdecl data::CustomGadgetSlotGroup::CustomGadgetSlotGroup(data::CustomGadg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetSlotGroup = v2;
@@ -196,7 +196,7 @@ void __cdecl data::CustomGadgetSlotGroup::CustomGadgetSlotGroup(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomGadgetSlotGroup = v2;
@@ -217,7 +217,7 @@ void __cdecl data::CustomGadgetSlotGroup::~CustomGadgetSlotGroup(data::CustomGad
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetSlotGroup = v2;
@@ -231,7 +231,7 @@ void __cdecl data::LevelTagGroupsExcelConfig::LevelTagGroupsExcelConfig(data::Le
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagGroupsExcelConfig = v2;
@@ -265,7 +265,7 @@ void __cdecl data::LevelTagGroupsExcelConfig::LevelTagGroupsExcelConfig(
   const data::LevelTagGroupsExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LevelTagGroupsExcelConfig = v2;
@@ -313,7 +313,7 @@ void __cdecl data::LevelTagGroupsExcelConfig::~LevelTagGroupsExcelConfig(data::L
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagGroupsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagGroupsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagGroupsExcelConfig = v2;
@@ -327,7 +327,7 @@ void __cdecl data::LevelTagResetExcelConfig::LevelTagResetExcelConfig(data::Leve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagResetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagResetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagResetExcelConfig = v2;
@@ -360,7 +360,7 @@ void __cdecl data::LevelTagResetExcelConfig::LevelTagResetExcelConfig(
   const data::LevelTagResetExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagResetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagResetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LevelTagResetExcelConfig = v2;
@@ -407,7 +407,7 @@ void __cdecl data::LevelTagResetExcelConfig::~LevelTagResetExcelConfig(data::Lev
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagResetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagResetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagResetExcelConfig = v2;
@@ -421,7 +421,7 @@ void __cdecl data::CustomGadgetSlotLevelTagConfig::CustomGadgetSlotLevelTagConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotLevelTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotLevelTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetSlotLevelTagConfig = v2;
@@ -463,7 +463,7 @@ void __cdecl data::CustomGadgetSlotLevelTagConfig::CustomGadgetSlotLevelTagConfi
   const data::CustomGadgetSlotLevelTagConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotLevelTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotLevelTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomGadgetSlotLevelTagConfig = v2;
@@ -526,7 +526,7 @@ void __cdecl data::CustomGadgetSlotLevelTagConfig::~CustomGadgetSlotLevelTagConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetSlotLevelTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetSlotLevelTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetSlotLevelTagConfig = v2;

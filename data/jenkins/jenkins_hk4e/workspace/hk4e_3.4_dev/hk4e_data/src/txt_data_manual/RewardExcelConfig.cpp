@@ -488,7 +488,7 @@ int32_t __cdecl RewardExcelConfigMgr::rewriteConfig(RewardExcelConfigMgr *const 
         v43 = ((v3 + 928) >> 3) + 2147450880;
         *(_WORD *)v43 = 0;
         *(_BYTE *)(v43 + 2) = 0;
-        v44 = &`vtable for'data::RewardItemConfig + 2;
+        v44 = &`vtable for data::RewardItemConfig + 2;
         if ( *(_BYTE *)(((v3 + 928) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 928, v42);
         *(_QWORD *)(v3 + 928) = v44;

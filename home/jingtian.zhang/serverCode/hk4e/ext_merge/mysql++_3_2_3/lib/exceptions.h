@@ -5,7 +5,7 @@ void __fastcall mysqlpp::BadFieldName::~BadFieldName(mysqlpp::BadFieldName *cons
 {
   mysqlpp::BadFieldName *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadFieldName *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadFieldName *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -18,7 +18,7 @@ void __fastcall mysqlpp::BadFieldName::~BadFieldName(mysqlpp::BadFieldName *cons
 {
   mysqlpp::BadFieldName *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadFieldName *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadFieldName *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -30,7 +30,7 @@ void __fastcall mysqlpp::BadIndex::~BadIndex(mysqlpp::BadIndex *const this)
 {
   mysqlpp::BadIndex *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadIndex *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadIndex *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -43,7 +43,7 @@ void __fastcall mysqlpp::BadIndex::~BadIndex(mysqlpp::BadIndex *const this)
 {
   mysqlpp::BadIndex *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadIndex *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadIndex *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -55,7 +55,7 @@ void __fastcall mysqlpp::BadOption::~BadOption(mysqlpp::BadOption *const this)
 {
   mysqlpp::BadOption *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadOption *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadOption *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -68,7 +68,7 @@ void __fastcall mysqlpp::BadOption::~BadOption(mysqlpp::BadOption *const this)
 {
   mysqlpp::BadOption *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadOption *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadOption *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -80,7 +80,7 @@ void __fastcall mysqlpp::BadParamCount::~BadParamCount(mysqlpp::BadParamCount *c
 {
   mysqlpp::BadParamCount *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadParamCount *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadParamCount *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -93,7 +93,7 @@ void __fastcall mysqlpp::BadParamCount::~BadParamCount(mysqlpp::BadParamCount *c
 {
   mysqlpp::BadParamCount *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadParamCount *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadParamCount *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -105,7 +105,7 @@ void __fastcall mysqlpp::BadQuery::~BadQuery(mysqlpp::BadQuery *const this)
 {
   mysqlpp::BadQuery *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadQuery *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadQuery *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -118,7 +118,7 @@ void __fastcall mysqlpp::BadQuery::~BadQuery(mysqlpp::BadQuery *const this)
 {
   mysqlpp::BadQuery *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::BadQuery *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadQuery *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -130,7 +130,7 @@ void __fastcall mysqlpp::ConnectionFailed::~ConnectionFailed(mysqlpp::Connection
 {
   mysqlpp::ConnectionFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::ConnectionFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ConnectionFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -142,7 +142,7 @@ void __fastcall mysqlpp::ConnectionFailed::~ConnectionFailed(mysqlpp::Connection
 {
   mysqlpp::ConnectionFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::ConnectionFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ConnectionFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -155,7 +155,7 @@ void __fastcall mysqlpp::DBSelectionFailed::~DBSelectionFailed(mysqlpp::DBSelect
 {
   mysqlpp::DBSelectionFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::DBSelectionFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::DBSelectionFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -168,7 +168,7 @@ void __fastcall mysqlpp::DBSelectionFailed::~DBSelectionFailed(mysqlpp::DBSelect
 {
   mysqlpp::DBSelectionFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::DBSelectionFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::DBSelectionFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -180,7 +180,7 @@ void __fastcall mysqlpp::Exception::~Exception(mysqlpp::Exception *const this)
 {
   mysqlpp::Exception *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::Exception *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::Exception *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -193,7 +193,7 @@ void __fastcall mysqlpp::Exception::~Exception(mysqlpp::Exception *const this)
 {
   mysqlpp::Exception *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::Exception *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::Exception *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -205,7 +205,7 @@ void __fastcall mysqlpp::ObjectNotInitialized::~ObjectNotInitialized(mysqlpp::Ob
 {
   mysqlpp::ObjectNotInitialized *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::ObjectNotInitialized *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ObjectNotInitialized *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -217,7 +217,7 @@ void __fastcall mysqlpp::ObjectNotInitialized::~ObjectNotInitialized(mysqlpp::Ob
 {
   mysqlpp::ObjectNotInitialized *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::ObjectNotInitialized *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::ObjectNotInitialized *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -230,7 +230,7 @@ void __fastcall mysqlpp::TypeLookupFailed::~TypeLookupFailed(mysqlpp::TypeLookup
 {
   mysqlpp::TypeLookupFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::TypeLookupFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::TypeLookupFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -242,7 +242,7 @@ void __fastcall mysqlpp::TypeLookupFailed::~TypeLookupFailed(mysqlpp::TypeLookup
 {
   mysqlpp::TypeLookupFailed *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::TypeLookupFailed *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::TypeLookupFailed *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -255,7 +255,7 @@ void __fastcall mysqlpp::UseQueryError::~UseQueryError(mysqlpp::UseQueryError *c
 {
   mysqlpp::UseQueryError *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::UseQueryError *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::UseQueryError *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -267,7 +267,7 @@ void __fastcall mysqlpp::UseQueryError::~UseQueryError(mysqlpp::UseQueryError *c
 {
   mysqlpp::UseQueryError *M_p; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   M_p = (mysqlpp::UseQueryError *)this->what_._M_dataplus._M_p;
   if ( M_p != (mysqlpp::UseQueryError *)&this->what_._anon_0 )
     operator delete(M_p);
@@ -292,7 +292,7 @@ void __fastcall mysqlpp::Exception::Exception(mysqlpp::Exception *const this, co
 
   p_anon_0 = &this->what_._anon_0;
   this->what_._M_dataplus._M_p = this->what_._anon_0._M_local_buf;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   if ( !w )
     std::__throw_logic_error("basic_string::_M_construct null not valid");
   v3 = strlen(w);
@@ -333,7 +333,7 @@ void __fastcall mysqlpp::Exception::Exception(mysqlpp::Exception *const this, co
 
   p_anon_0 = &this->what_._anon_0;
   M_string_length = w->_M_string_length;
-  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::Exception + 2);
+  *(&p_anon_0[-2]._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::Exception + 2);
   this->what_._M_dataplus._M_p = (std::string::pointer)p_anon_0;
   M_p = w->_M_dataplus._M_p;
   if ( &w->_M_dataplus._M_p[M_string_length] && !M_p )
@@ -386,10 +386,10 @@ void __fastcall __noreturn mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
 {
   char *v18; // r13
 
-  *(_QWORD *)v18 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)v18 = &`vtable for mysqlpp::Exception + 2;
   *((_QWORD *)v18 + 1) = v18 + 24;
   std::string::_M_construct<char *>((std::string *const)(v18 + 8), __beg, &__beg[a17], a4);
-  *(_QWORD *)v18 = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+  *(_QWORD *)v18 = &`vtable for mysqlpp::TypeLookupFailed + 2;
   if ( __beg != &a18 )
     operator delete(__beg);
   _cxa_throw(
@@ -421,10 +421,10 @@ void __fastcall __noreturn mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
 {
   char *v18; // r13
 
-  *(_QWORD *)v18 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)v18 = &`vtable for mysqlpp::Exception + 2;
   *((_QWORD *)v18 + 1) = v18 + 24;
   std::string::_M_construct<char *>((std::string *const)(v18 + 8), __beg, &__beg[a17], a4);
-  *(_QWORD *)v18 = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+  *(_QWORD *)v18 = &`vtable for mysqlpp::TypeLookupFailed + 2;
   if ( __beg != &a18 )
     operator delete(__beg);
   _cxa_throw(
@@ -455,7 +455,7 @@ void __fastcall mysqlpp::BadConversion::BadConversion(
   __int64 v20[8]; // [rsp+28h] [rbp-40h] BYREF
 
   p_what = &this->what_;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   this->what_._M_dataplus._M_p = this->what_._anon_0._M_local_buf;
   v20[0] = 22LL;
   v8 = std::string::_M_create(&this->what_, v20, 0LL);
@@ -471,7 +471,7 @@ void __fastcall mysqlpp::BadConversion::BadConversion(
   this->what_._M_string_length = v20[0];
   M_p[v11] = 0;
   this->type_name = tn;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::BadConversion + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::BadConversion + 2;
   this->data._M_dataplus._M_p = this->data._anon_0._M_local_buf;
   if ( !d )
     std::__throw_logic_error("basic_string::_M_construct null not valid");
@@ -531,12 +531,12 @@ void __fastcall mysqlpp::BadConversion::~BadConversion(mysqlpp::BadConversion *c
   mysqlpp::BadConversion *M_p; // rdi
   mysqlpp::BadConversion *v3; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::BadConversion + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::BadConversion + 2;
   M_p = (mysqlpp::BadConversion *)this->data._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadConversion *)&this->data._anon_0 )
     operator delete(M_p);
   v3 = (mysqlpp::BadConversion *)this->what_._M_dataplus._M_p;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   if ( v3 != (mysqlpp::BadConversion *)&this->what_._anon_0 )
     operator delete(v3);
   std::exception::~exception((std::exception *)this);
@@ -548,12 +548,12 @@ void __fastcall mysqlpp::BadConversion::~BadConversion(mysqlpp::BadConversion *c
   mysqlpp::BadConversion *M_p; // rdi
   mysqlpp::BadConversion *v3; // rdi
 
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::BadConversion + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::BadConversion + 2;
   M_p = (mysqlpp::BadConversion *)this->data._M_dataplus._M_p;
   if ( M_p != (mysqlpp::BadConversion *)&this->data._anon_0 )
     operator delete(M_p);
   v3 = (mysqlpp::BadConversion *)this->what_._M_dataplus._M_p;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   if ( v3 != (mysqlpp::BadConversion *)&this->what_._anon_0 )
     operator delete(v3);
   std::exception::~exception((std::exception *)this);
@@ -608,14 +608,14 @@ void __fastcall mysqlpp::BadFieldName::BadFieldName(mysqlpp::BadFieldName *const
   v7 = __beg;
   *(_QWORD *)(v5 + 8) = 0LL;
   v8 = v10;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::Exception + 2;
   this->what_._M_dataplus._M_p = this->what_._anon_0._M_local_buf;
   std::string::_M_construct<char *>(&this->what_, v7, &v7[v8], v6);
   if ( __beg != (char *)&v11 )
     operator delete(__beg);
   if ( v12 != v14 )
     operator delete(v12);
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::BadFieldName + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::BadFieldName + 2;
 };
 
 // Line 188: range 000000000CF82CB0-000000000CF831C2
@@ -659,19 +659,19 @@ void __fastcall mysqlpp::BadIndex::BadIndex(
   __int64 v38; // [rsp+1C0h] [rbp-48h]
 
   p_what = &this->what_;
-  *(&p_what[-1]._anon_0._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for'mysqlpp::Exception + 2);
+  *(&p_what[-1]._anon_0._M_allocated_capacity + 1) = (std::string::size_type)(&`vtable for mysqlpp::Exception + 2);
   this->what_._M_dataplus._M_p = this->what_._anon_0._M_local_buf;
   std::string::_M_construct<char const*>(
     p_what,
     &off_1B23A528[4],
     &off_1B23A528[4],
     (std::forward_iterator_tag)max_index);
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::BadIndex + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::BadIndex + 2;
   std::ios_base::ios_base((std::ios_base *)v33);
   v33[27] = 0LL;
   v35 = 0LL;
   v36 = 0LL;
-  v33[0] = (__int64)&`vtable for'std::ios + 16;
+  v33[0] = (__int64)&`vtable for std::ios + 16;
   v34 = 0;
   v37 = 0LL;
   v38 = 0LL;
@@ -686,16 +686,16 @@ void __fastcall mysqlpp::BadIndex::BadIndex(
   v24[1] = 0LL;
   v24[2] = 0LL;
   v25 = 0LL;
-  v23 = (__int64)&`vtable for'std::ostringstream + 24;
+  v23 = (__int64)&`vtable for std::ostringstream + 24;
   v26 = 0LL;
   v27 = 0LL;
-  v33[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v33[0] = (__int64)&`vtable for std::ostringstream + 64;
   v28 = 0LL;
-  v24[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v24[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v29);
   v30 = 16;
   v32[0] = 0;
-  v24[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v24[0] = (__int64)&`vtable for std::stringbuf + 16;
   v31[0] = v32;
   v31[1] = 0LL;
   std::ios::init(v33, v24);
@@ -776,16 +776,16 @@ LABEL_10:
   M_p->baseclass_0[0] = 0;
   if ( v20 != src )
     operator delete(v20);
-  v23 = (__int64)&`vtable for'std::ostringstream + 24;
-  v33[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v24[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v23 = (__int64)&`vtable for std::ostringstream + 24;
+  v33[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v24[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v31[0] != v32 )
     operator delete(v31[0]);
-  v24[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v24[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v29);
   v17 = *(_QWORD *)(v7 - 24);
   v23 = v7;
   *(__int64 *)((char *)&v24[-1] + v17) = v18;
-  v33[0] = (__int64)&`vtable for'std::ios + 16;
+  v33[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v33);
 };

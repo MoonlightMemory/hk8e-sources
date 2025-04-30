@@ -9945,7 +9945,7 @@ int32_t __cdecl data::ShopExcelConfigMgrBase::loadShopExcelConfig(
         *(_QWORD *)(v3 + 592) = 0LL;
         *(_QWORD *)(v3 + 600) = 0LL;
         *(_QWORD *)(v3 + 608) = 0LL;
-        v16 = &`vtable for'data::ShopExcelConfig + 2;
+        v16 = &`vtable for data::ShopExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 576) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 576, v15);
         *(_QWORD *)(v3 + 576) = v16;
@@ -10675,7 +10675,7 @@ int32_t __cdecl data::ShopExcelConfigMgrBase::loadShopRotateExcelConfig(
         v13 = ((v2 + 112) >> 3) + 2147450880;
         *(_WORD *)v13 = 0;
         *(_BYTE *)(v13 + 2) = 0;
-        v14 = &`vtable for'data::ShopRotateExcelConfig + 2;
+        v14 = &`vtable for data::ShopRotateExcelConfig + 2;
         if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v2 + 112, v12);
         *(_QWORD *)(v2 + 112) = v14;
@@ -11031,7 +11031,7 @@ int32_t __cdecl data::ShopExcelConfigMgrBase::loadShopSpecialKeysDataExcelConfig
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ShopSpecialKeysDataExcelConfig + 2;
+        v14 = &`vtable for data::ShopSpecialKeysDataExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;

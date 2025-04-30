@@ -27,7 +27,7 @@ void __cdecl data::ShopExcelConfig::ShopExcelConfig(data::ShopExcelConfig *const
   const data::ShopExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopExcelConfig = v2;
@@ -147,7 +147,7 @@ void __cdecl data::ShopExcelConfig::~ShopExcelConfig(data::ShopExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopExcelConfig = v2;
@@ -167,7 +167,7 @@ void __cdecl data::LimitStrategy::LimitStrategy(data::LimitStrategy *const this)
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LimitStrategy + 2);
+  v2 = (int (**)(...))(&`vtable for data::LimitStrategy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LimitStrategy = v2;
@@ -206,7 +206,7 @@ void __cdecl data::LimitStrategy::LimitStrategy(data::LimitStrategy *const this,
   const data::LimitStrategy *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LimitStrategy + 2);
+  v2 = (int (**)(...))(&`vtable for data::LimitStrategy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LimitStrategy = v2;
@@ -265,7 +265,7 @@ void __cdecl data::LimitStrategy::~LimitStrategy(data::LimitStrategy *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LimitStrategy + 2);
+  v2 = (int (**)(...))(&`vtable for data::LimitStrategy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LimitStrategy = v2;
@@ -287,7 +287,7 @@ void __cdecl data::ShopGoodsExcelConfig::ShopGoodsExcelConfig(data::ShopGoodsExc
   __int64 v11; // rsi
   __int64 v12; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopGoodsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopGoodsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopGoodsExcelConfig = v2;
@@ -518,7 +518,7 @@ void __cdecl data::ShopGoodsExcelConfig::ShopGoodsExcelConfig(
   const data::ShopGoodsExcelConfig *v65; // [rsp+0h] [rbp-20h]
 
   v65 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopGoodsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopGoodsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopGoodsExcelConfig = v2;
@@ -854,7 +854,7 @@ void __cdecl data::ShopGoodsExcelConfig::~ShopGoodsExcelConfig(data::ShopGoodsEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopGoodsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopGoodsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopGoodsExcelConfig = v2;
@@ -967,7 +967,7 @@ void __cdecl data::ShopRotateExcelConfig::ShopRotateExcelConfig(
   const data::ShopRotateExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopRotateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopRotateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopRotateExcelConfig = v2;
@@ -1033,7 +1033,7 @@ void __cdecl data::ShopRotateExcelConfig::~ShopRotateExcelConfig(data::ShopRotat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopRotateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopRotateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopRotateExcelConfig = v2;
@@ -1060,7 +1060,7 @@ void __cdecl data::ShopSpecialKeysDataExcelConfig::ShopSpecialKeysDataExcelConfi
   const data::ShopSpecialKeysDataExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ShopSpecialKeysDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopSpecialKeysDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ShopSpecialKeysDataExcelConfig = v2;
@@ -1108,7 +1108,7 @@ void __cdecl data::ShopSpecialKeysDataExcelConfig::~ShopSpecialKeysDataExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ShopSpecialKeysDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ShopSpecialKeysDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ShopSpecialKeysDataExcelConfig = v2;

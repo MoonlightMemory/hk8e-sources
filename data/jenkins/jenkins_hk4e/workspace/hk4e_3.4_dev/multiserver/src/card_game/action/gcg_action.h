@@ -5,7 +5,7 @@ void __cdecl GCGActionBase::~GCGActionBase(GCGActionBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionBase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -123,7 +123,7 @@ void __cdecl GCGActionAttack::~GCGActionAttack(GCGActionAttack *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionAttack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -149,7 +149,7 @@ void __cdecl GCGActionUseSkill::~GCGActionUseSkill(GCGActionUseSkill *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionUseSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -169,7 +169,7 @@ void __cdecl ZN17GCGActionUseSkillCI213GCGActionBaseER11GCGGameMode(GCGActionUse
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionUseSkill + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -192,7 +192,7 @@ void __cdecl GCGActionDraw::~GCGActionDraw(GCGActionDraw *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionDraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -212,7 +212,7 @@ void __cdecl ZN13GCGActionDrawCI213GCGActionBaseER11GCGGameMode(GCGActionDraw *c
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionDraw + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -235,7 +235,7 @@ void __cdecl GCGActionGameOver::~GCGActionGameOver(GCGActionGameOver *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionGameOver + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionGameOver + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -267,7 +267,7 @@ void __cdecl GCGActionPass::~GCGActionPass(GCGActionPass *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionPass + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -280,7 +280,7 @@ void __cdecl ZN13GCGActionPassCI213GCGActionBaseER11GCGGameMode(GCGActionPass *c
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionPass + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -297,7 +297,7 @@ void __cdecl GCGActionPlayCard::~GCGActionPlayCard(GCGActionPlayCard *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionPlayCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -319,7 +319,7 @@ void __cdecl ZN17GCGActionPlayCardCI213GCGActionBaseER11GCGGameMode(GCGActionPla
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionPlayCard + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -356,7 +356,7 @@ void __cdecl GCGActionReboot::~GCGActionReboot(GCGActionReboot *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionReboot + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -378,7 +378,7 @@ void __cdecl ZN15GCGActionRebootCI213GCGActionBaseER11GCGGameMode(GCGActionReboo
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionReboot + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -404,7 +404,7 @@ void __cdecl ZN15GCGActionRedrawCI213GCGActionBaseER11GCGGameMode(GCGActionRedra
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionRedraw + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionRedraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -417,7 +417,7 @@ void __cdecl ZN15GCGActionRerollCI213GCGActionBaseER11GCGGameMode(GCGActionRerol
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionReroll + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -430,7 +430,7 @@ void __cdecl ZN17GCGActionGameOverCI213GCGActionBaseER11GCGGameMode(GCGActionGam
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionGameOver + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionGameOver + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -448,7 +448,7 @@ void __cdecl ZN19GCGActionNotifyCostCI213GCGActionBaseER11GCGGameMode(GCGActionN
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionNotifyCost + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionNotifyCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -462,7 +462,7 @@ void __cdecl ZN22GCGActionSelectOnStageCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionSelectOnStage + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionSelectOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -490,7 +490,7 @@ void __cdecl GCGActionRedraw::~GCGActionRedraw(GCGActionRedraw *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionRedraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionRedraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -510,7 +510,7 @@ void __cdecl ZN15GCGActionAttackCI213GCGActionBaseER11GCGGameMode(GCGActionAttac
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionAttack + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -541,7 +541,7 @@ void __cdecl GCGActionReroll::~GCGActionReroll(GCGActionReroll *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -567,7 +567,7 @@ void __cdecl GCGActionRoll::~GCGActionRoll(GCGActionRoll *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionRoll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionRoll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -580,7 +580,7 @@ void __cdecl ZN13GCGActionRollCI213GCGActionBaseER11GCGGameMode(GCGActionRoll *c
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionRoll + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionRoll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -610,7 +610,7 @@ void __cdecl GCGActionSelectOnStage::~GCGActionSelectOnStage(GCGActionSelectOnSt
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionSelectOnStage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionSelectOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -629,7 +629,7 @@ void __cdecl GCGActionPhaseExit::~GCGActionPhaseExit(GCGActionPhaseExit *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionPhaseExit + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionPhaseExit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -649,7 +649,7 @@ void __cdecl ZN18GCGActionPhaseExitCI213GCGActionBaseER11GCGGameMode(GCGActionPh
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionPhaseExit + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionPhaseExit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -672,7 +672,7 @@ void __cdecl GCGActionNextPhase::~GCGActionNextPhase(GCGActionNextPhase *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionNextPhase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionNextPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -692,7 +692,7 @@ void __cdecl ZN18GCGActionNextPhaseCI213GCGActionBaseER11GCGGameMode(GCGActionNe
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionNextPhase + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionNextPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -722,7 +722,7 @@ void __cdecl GCGActionSpecialPhase::~GCGActionSpecialPhase(GCGActionSpecialPhase
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionSpecialPhase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionSpecialPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -738,7 +738,7 @@ void __cdecl ZN21GCGActionSpecialPhaseCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionSpecialPhase + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionSpecialPhase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -756,7 +756,7 @@ void __cdecl GCGActionTriggerSkill::~GCGActionTriggerSkill(GCGActionTriggerSkill
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionTriggerSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionTriggerSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -780,7 +780,7 @@ void __cdecl ZN21GCGActionTriggerSkillCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionTriggerSkill + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionTriggerSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -812,7 +812,7 @@ void __cdecl GCGActionNotifyCost::~GCGActionNotifyCost(GCGActionNotifyCost *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionNotifyCost + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionNotifyCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -830,7 +830,7 @@ void __cdecl GCGActionNotifySkillPreview::~GCGActionNotifySkillPreview(GCGAction
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionNotifySkillPreview + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionNotifySkillPreview + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -852,7 +852,7 @@ void __cdecl ZN27GCGActionNotifySkillPreviewCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionNotifySkillPreview + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionNotifySkillPreview + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -876,7 +876,7 @@ void __cdecl GCGActionPreviewAttack::~GCGActionPreviewAttack(GCGActionPreviewAtt
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionPreviewAttack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionPreviewAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -892,7 +892,7 @@ void __cdecl ZN22GCGActionPreviewAttackCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionPreviewAttack + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionPreviewAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -910,7 +910,7 @@ void __cdecl GCGActionPreviewAfterAttack::~GCGActionPreviewAfterAttack(GCGAction
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionPreviewAfterAttack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionPreviewAfterAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -932,7 +932,7 @@ void __cdecl ZN27GCGActionPreviewAfterAttackCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionPreviewAfterAttack + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionPreviewAfterAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -955,7 +955,7 @@ void __cdecl GCGActionAfterOperation::~GCGActionAfterOperation(GCGActionAfterOpe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionAfterOperation + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionAfterOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -977,7 +977,7 @@ void __cdecl ZN23GCGActionAfterOperationCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionAfterOperation + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionAfterOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -1001,7 +1001,7 @@ void __cdecl GCGActionSendMessage::~GCGActionSendMessage(GCGActionSendMessage *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionSendMessage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionSendMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -1017,7 +1017,7 @@ void __cdecl ZN20GCGActionSendMessageCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionSendMessage + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionSendMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -1042,7 +1042,7 @@ void __cdecl GCGActionWaitingCharacter::~GCGActionWaitingCharacter(GCGActionWait
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionWaitingCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionWaitingCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -1057,7 +1057,7 @@ void __cdecl ZN25GCGActionWaitingCharacterCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionWaitingCharacter + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionWaitingCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -1080,7 +1080,7 @@ void __cdecl GCGActionTrigger::~GCGActionTrigger(GCGActionTrigger *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGActionTrigger + 2);
+  v1 = (int (**)(...))(&`vtable for GCGActionTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -1101,7 +1101,7 @@ void __cdecl ZN16GCGActionTriggerCI213GCGActionBaseER11GCGGameMode(GCGActionTrig
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGActionTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for GCGActionTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;
@@ -1132,7 +1132,7 @@ void __cdecl ActionBeforeNextOperation::~ActionBeforeNextOperation(ActionBeforeN
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActionBeforeNextOperation + 2);
+  v1 = (int (**)(...))(&`vtable for ActionBeforeNextOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v1;
@@ -1147,7 +1147,7 @@ void __cdecl ZN25ActionBeforeNextOperationCI213GCGActionBaseER11GCGGameMode(
   int (**v2)(...); // rdx
 
   GCGActionBase::GCGActionBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'ActionBeforeNextOperation + 2);
+  v2 = (int (**)(...))(&`vtable for ActionBeforeNextOperation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGActionBase = v2;

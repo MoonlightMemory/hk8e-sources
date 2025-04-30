@@ -522,7 +522,7 @@ void __cdecl data::ConfigBaseEquipController::ConfigBaseEquipController(data::Co
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigBaseEquipController>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseEquipController>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -572,7 +572,7 @@ void __cdecl data::ConfigBaseEquipController::ConfigBaseEquipController(
   std::enable_shared_from_this<data::ConfigBaseEquipController>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseEquipController>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseEquipController + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseEquipController = v3;
@@ -643,7 +643,7 @@ void __cdecl data::ConfigBaseEquipController::~ConfigBaseEquipController(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -713,7 +713,7 @@ void __cdecl data::ConfigEquipController::ConfigEquipController(data::ConfigEqui
   int (**v2)(...); // rdx
 
   data::ConfigBaseEquipController::ConfigBaseEquipController(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -729,7 +729,7 @@ void __cdecl data::ConfigEquipController::ConfigEquipController(
   int (**v2)(...); // rdx
 
   data::ConfigBaseEquipController::ConfigBaseEquipController(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -752,7 +752,7 @@ void __cdecl data::ConfigEquipController::~ConfigEquipController(data::ConfigEqu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -822,7 +822,7 @@ void __cdecl data::ConfigEquipControllerFactory::ConfigEquipControllerFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEquipControllerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEquipControllerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEquipControllerFactory = v2;
@@ -839,7 +839,7 @@ void __cdecl data::ConfigSubEquipController::ConfigSubEquipController(data::Conf
   __int64 v6; // rdx
 
   data::ConfigBaseEquipController::ConfigBaseEquipController(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSubEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSubEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -884,7 +884,7 @@ void __cdecl data::ConfigSubEquipController::ConfigSubEquipController(
   __int64 v15; // rdx
 
   data::ConfigBaseEquipController::ConfigBaseEquipController(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSubEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSubEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -934,7 +934,7 @@ void __cdecl data::ConfigSubEquipController::~ConfigSubEquipController(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSubEquipController + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSubEquipController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseEquipController = v2;
@@ -1011,7 +1011,7 @@ void __cdecl data::ConfigSubEquipControllerFactory::ConfigSubEquipControllerFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSubEquipControllerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSubEquipControllerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSubEquipControllerFactory = v2;

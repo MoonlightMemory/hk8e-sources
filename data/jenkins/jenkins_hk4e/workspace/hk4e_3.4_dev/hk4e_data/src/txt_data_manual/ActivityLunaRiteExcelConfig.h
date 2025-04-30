@@ -6,7 +6,7 @@ void __cdecl ActivityLunaRiteExcelConfigMgr::ActivityLunaRiteExcelConfigMgr(Acti
   int (**v1)(...); // rdx
 
   data::ActivityLunaRiteExcelConfigMgrBase::ActivityLunaRiteExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityLunaRiteExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityLunaRiteExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityLunaRiteExcelConfigMgrBase = v1;
@@ -27,7 +27,7 @@ void __cdecl ActivityLunaRiteExcelConfigMgr::~ActivityLunaRiteExcelConfigMgr(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityLunaRiteExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityLunaRiteExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityLunaRiteExcelConfigMgrBase = v1;

@@ -36,7 +36,7 @@ void __cdecl data::ConfigVODPlayer::ConfigVODPlayer(data::ConfigVODPlayer *const
   std::enable_shared_from_this<data::ConfigVODPlayer>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigVODPlayer>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigVODPlayer + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigVODPlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigVODPlayer = v3;
@@ -79,7 +79,7 @@ void __cdecl data::ConfigVODPlayer::~ConfigVODPlayer(data::ConfigVODPlayer *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVODPlayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVODPlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVODPlayer = v2;
@@ -148,7 +148,7 @@ void __cdecl data::ConfigLivePlayer::ConfigLivePlayer(data::ConfigLivePlayer *co
   __int64 v3; // rsi
 
   data::ConfigVODPlayer::ConfigVODPlayer(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLivePlayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLivePlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVODPlayer = v2;
@@ -189,7 +189,7 @@ void __cdecl data::ConfigLivePlayer::ConfigLivePlayer(
 
   v8 = a2;
   data::ConfigVODPlayer::ConfigVODPlayer(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLivePlayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLivePlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigVODPlayer = v2;
@@ -240,7 +240,7 @@ void __cdecl data::ConfigLivePlayer::~ConfigLivePlayer(data::ConfigLivePlayer *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLivePlayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLivePlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVODPlayer = v2;
@@ -315,7 +315,7 @@ void __cdecl data::ConfigLivePlayerFactory::ConfigLivePlayerFactory(data::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLivePlayerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLivePlayerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLivePlayerFactory = v2;
@@ -330,7 +330,7 @@ void __cdecl data::ConfigVODPlayer::ConfigVODPlayer(data::ConfigVODPlayer *const
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigVODPlayer>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigVODPlayer>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVODPlayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVODPlayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVODPlayer = v2;

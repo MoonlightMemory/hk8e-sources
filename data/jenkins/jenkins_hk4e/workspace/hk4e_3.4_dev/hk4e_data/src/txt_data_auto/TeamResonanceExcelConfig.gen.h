@@ -12,7 +12,7 @@ void __cdecl data::TeamResonanceExcelConfig::TeamResonanceExcelConfig(data::Team
   __int64 v7; // rsi
 
   data::BaseTalentConfig::BaseTalentConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::TeamResonanceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamResonanceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentConfig = v2;
@@ -138,7 +138,7 @@ void __cdecl data::TeamResonanceExcelConfig::TeamResonanceExcelConfig(
 
   v33 = a2;
   data::BaseTalentConfig::BaseTalentConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::TeamResonanceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamResonanceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseTalentConfig = v2;
@@ -314,7 +314,7 @@ void __cdecl data::TeamResonanceExcelConfig::~TeamResonanceExcelConfig(data::Tea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TeamResonanceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TeamResonanceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseTalentConfig = v2;

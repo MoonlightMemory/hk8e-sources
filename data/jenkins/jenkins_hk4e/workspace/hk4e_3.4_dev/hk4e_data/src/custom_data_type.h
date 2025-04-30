@@ -5,7 +5,7 @@ void __cdecl data::JsonFormatConfigBase::~JsonFormatConfigBase(data::JsonFormatC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::JsonFormatConfigBase + 2);
+  v1 = (int (**)(...))(&`vtable for data::JsonFormatConfigBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_JsonFormatConfigBase = v1;
@@ -25,7 +25,7 @@ void __cdecl data::JsonMapConfig::~JsonMapConfig(data::JsonMapConfig *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::JsonMapConfig + 2);
+  v1 = (int (**)(...))(&`vtable for data::JsonMapConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_JsonFormatConfigBase = v1;
@@ -44,7 +44,7 @@ void __cdecl data::StopServerConfig::~StopServerConfig(data::StopServerConfig *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::StopServerConfig + 2);
+  v1 = (int (**)(...))(&`vtable for data::StopServerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_JsonFormatConfigBase = v1;
@@ -65,7 +65,7 @@ void __cdecl data::StopRegisterConfig::~StopRegisterConfig(data::StopRegisterCon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::StopRegisterConfig + 2);
+  v1 = (int (**)(...))(&`vtable for data::StopRegisterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_JsonFormatConfigBase = v1;
@@ -84,7 +84,7 @@ void __cdecl data::ForceUpdateConfig::~ForceUpdateConfig(data::ForceUpdateConfig
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::ForceUpdateConfig + 2);
+  v1 = (int (**)(...))(&`vtable for data::ForceUpdateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_JsonFormatConfigBase = v1;

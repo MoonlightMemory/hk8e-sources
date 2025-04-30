@@ -30,7 +30,7 @@ void __cdecl data::AvatarExcelConfig::AvatarExcelConfig(data::AvatarExcelConfig 
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::CreatureExcelConfig::CreatureExcelConfig((data::CreatureExcelConfig *const)this);
-  v5 = (int (**)(...))(&`vtable for'data::AvatarExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::AvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v5;
@@ -167,7 +167,7 @@ void __cdecl data::AvatarExcelConfig::~AvatarExcelConfig(data::AvatarExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -196,7 +196,7 @@ void __cdecl data::AvatarLevelExcelConfig::AvatarLevelExcelConfig(
   const data::AvatarLevelExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarLevelExcelConfig = v2;
@@ -255,7 +255,7 @@ void __cdecl data::AvatarLevelExcelConfig::~AvatarLevelExcelConfig(data::AvatarL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarLevelExcelConfig = v2;
@@ -268,7 +268,7 @@ void __cdecl data::AvatarPromoteExcelConfig::AvatarPromoteExcelConfig(data::Avat
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarPromoteExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::AvatarPromoteExcelConfig::AvatarPromoteExcelConfig(
   const data::AvatarPromoteExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarPromoteExcelConfig = v2;
@@ -430,7 +430,7 @@ void __cdecl data::AvatarFettersLevelExcelConfig::AvatarFettersLevelExcelConfig(
   const data::AvatarFettersLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarFettersLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarFettersLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarFettersLevelExcelConfig = v2;
@@ -470,7 +470,7 @@ void __cdecl data::AvatarFettersLevelExcelConfig::~AvatarFettersLevelExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarFettersLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarFettersLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarFettersLevelExcelConfig = v2;
@@ -508,7 +508,7 @@ void __cdecl data::AvatarHeroEntityExcelConfig::AvatarHeroEntityExcelConfig(
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::AvatarHeroEntityExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::AvatarHeroEntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarHeroEntityExcelConfig = v5;
@@ -547,7 +547,7 @@ void __cdecl data::AvatarHeroEntityExcelConfig::AvatarHeroEntityExcelConfig(
   const data::AvatarHeroEntityExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarHeroEntityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarHeroEntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarHeroEntityExcelConfig = v2;
@@ -575,7 +575,7 @@ void __cdecl data::AvatarHeroEntityExcelConfig::~AvatarHeroEntityExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarHeroEntityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarHeroEntityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarHeroEntityExcelConfig = v2;
@@ -597,7 +597,7 @@ void __cdecl data::AvatarPromoteExcelConfig::~AvatarPromoteExcelConfig(data::Ava
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarPromoteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarPromoteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarPromoteExcelConfig = v2;
@@ -650,7 +650,7 @@ void __cdecl data::AvatarExcelConfig::AvatarExcelConfig(
   data::CreatureExcelConfig::CreatureExcelConfig(
     (data::CreatureExcelConfig *const)this,
     (const data::CreatureExcelConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::AvatarExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;

@@ -6,7 +6,7 @@ void __cdecl BT::ActionPlanBase::ActionPlanBase(BT::ActionPlanBase *const this)
   int (**v1)(...); // rdx
 
   common::milog::DescribalBase::DescribalBase(this);
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanBase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -30,7 +30,7 @@ void __cdecl BT::ActionPlanBase::~ActionPlanBase(BT::ActionPlanBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanBase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -57,7 +57,7 @@ void __cdecl BT::ActionPlanCurCharacterAttack::ActionPlanCurCharacterAttack(
   int (**v1)(...); // rdx
 
   BT::ActionPlanBase::ActionPlanBase(this);
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanCurCharacterAttack + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanCurCharacterAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -89,7 +89,7 @@ void __cdecl BT::ActionPlanCurCharacterAttack::~ActionPlanCurCharacterAttack(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanCurCharacterAttack + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanCurCharacterAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -108,7 +108,7 @@ void __cdecl BT::ActionPlanReboot::ActionPlanReboot(BT::ActionPlanReboot *const 
   int (**v1)(...); // rdx
 
   BT::ActionPlanBase::ActionPlanBase(this);
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanReboot + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -125,7 +125,7 @@ void __cdecl BT::ActionPlanReboot::~ActionPlanReboot(BT::ActionPlanReboot *const
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanReboot + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -151,7 +151,7 @@ void __cdecl BT::ActionPlanChangeCharacter::ActionPlanChangeCharacter(BT::Action
   int (**v1)(...); // rdx
 
   BT::ActionPlanBase::ActionPlanBase(this);
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanChangeCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanChangeCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -174,7 +174,7 @@ void __cdecl BT::ActionPlanChangeCharacter::~ActionPlanChangeCharacter(BT::Actio
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanChangeCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanChangeCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -200,7 +200,7 @@ void __cdecl BT::ActionPlanPlayCard::ActionPlanPlayCard(BT::ActionPlanPlayCard *
   int (**v1)(...); // rdx
 
   BT::ActionPlanBase::ActionPlanBase(this);
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanPlayCard + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;
@@ -225,7 +225,7 @@ void __cdecl BT::ActionPlanPlayCard::~ActionPlanPlayCard(BT::ActionPlanPlayCard 
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionPlanPlayCard + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionPlanPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DescribalBase = v1;

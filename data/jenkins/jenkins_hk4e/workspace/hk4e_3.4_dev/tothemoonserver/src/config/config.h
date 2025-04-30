@@ -6,7 +6,7 @@ void __cdecl Config::Config(Config *const this)
   int (**v1)(...); // rdx
 
   ConfigBase::ConfigBase(this);
-  v1 = (int (**)(...))(&`vtable for'Config + 2);
+  v1 = (int (**)(...))(&`vtable for Config + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ConfigBase = v1;
@@ -68,7 +68,7 @@ void __cdecl Config::~Config(Config *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Config + 2);
+  v1 = (int (**)(...))(&`vtable for Config + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ConfigBase = v1;

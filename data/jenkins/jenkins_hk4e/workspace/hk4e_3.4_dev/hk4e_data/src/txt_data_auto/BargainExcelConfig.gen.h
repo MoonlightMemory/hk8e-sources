@@ -8,7 +8,7 @@ void __cdecl data::BargainExcelConfig::BargainExcelConfig(data::BargainExcelConf
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BargainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BargainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BargainExcelConfig = v2;
@@ -106,7 +106,7 @@ void __cdecl data::BargainExcelConfig::BargainExcelConfig(
   const data::BargainExcelConfig *v28; // [rsp+0h] [rbp-20h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BargainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BargainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BargainExcelConfig = v2;
@@ -244,7 +244,7 @@ void __cdecl data::BargainExcelConfig::~BargainExcelConfig(data::BargainExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BargainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BargainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BargainExcelConfig = v2;

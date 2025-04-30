@@ -34,7 +34,7 @@ void __cdecl boost::asio::detail::epoll_reactor::epoll_reactor(
   boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::execution_context_service_base(
     this,
     ctx);
-  v5 = (int (**)(...))(&`vtable for'boost::asio::detail::epoll_reactor + 2);
+  v5 = (int (**)(...))(&`vtable for boost::asio::detail::epoll_reactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v5;
@@ -115,7 +115,7 @@ void __cdecl boost::asio::detail::epoll_reactor::~epoll_reactor(boost::asio::det
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::epoll_reactor + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::epoll_reactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;

@@ -51,7 +51,7 @@ void __cdecl boost::asio::detail::posix_thread::func_base::func_base(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::posix_thread::func_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::posix_thread::func_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_func_base = v1;
@@ -63,7 +63,7 @@ void __cdecl boost::asio::detail::posix_thread::func_base::~func_base(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::posix_thread::func_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::posix_thread::func_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_func_base = v1;
@@ -104,7 +104,7 @@ void __cdecl boost::asio::detail::posix_thread::func<boost::asio::detail::schedu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::posix_thread::func<boost::asio::detail::scheduler::thread_function>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::posix_thread::func<boost::asio::detail::scheduler::thread_function>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -153,7 +153,7 @@ void __fastcall boost::asio::detail::posix_thread::func<boost::asio::detail::sch
   *(_DWORD *)(v4 + 2147450884) = -202116352;
   *(boost::asio::detail::scheduler::thread_function *)(v2 + 32) = f;
   boost::asio::detail::posix_thread::func_base::func_base(this);
-  v5 = (int (**)(...))(&`vtable for'boost::asio::detail::posix_thread::func<boost::asio::detail::scheduler::thread_function>
+  v5 = (int (**)(...))(&`vtable for boost::asio::detail::posix_thread::func<boost::asio::detail::scheduler::thread_function>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

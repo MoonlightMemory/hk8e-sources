@@ -7,7 +7,7 @@ void __cdecl data::ConfigAbility::ConfigAbility(data::ConfigAbility *const this)
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigAbility>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAbility>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbility = v2;
@@ -58,7 +58,7 @@ void __cdecl data::ConfigAbility::ConfigAbility(data::ConfigAbility *const this,
   std::enable_shared_from_this<data::ConfigAbility>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAbility>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAbility + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAbility = v3;
@@ -119,7 +119,7 @@ void __cdecl data::ConfigAbility::~ConfigAbility(data::ConfigAbility *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbility = v2;
@@ -246,7 +246,7 @@ void __cdecl data::ConfigDummyAbility::ConfigDummyAbility(data::ConfigDummyAbili
   int (**v2)(...); // rdx
 
   data::ConfigAbility::ConfigAbility(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbility = v2;
@@ -260,7 +260,7 @@ void __cdecl data::ConfigDummyAbility::ConfigDummyAbility(
   int (**v2)(...); // rdx
 
   data::ConfigAbility::ConfigAbility(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigAbility = v2;
@@ -279,7 +279,7 @@ void __cdecl data::ConfigDummyAbility::~ConfigDummyAbility(data::ConfigDummyAbil
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbility = v2;
@@ -346,7 +346,7 @@ void __cdecl data::ConfigDummyAbilityFactory::ConfigDummyAbilityFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbilityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbilityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDummyAbilityFactory = v2;

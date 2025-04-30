@@ -244,7 +244,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -253,7 +253,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -471,7 +471,7 @@ LABEL_145:
       v61 = v60;
       __asan_report_store8();
     }
-    *(_QWORD *)v60 = &`vtable for'YAML::TypedBadConversion<bool> + 2;
+    *(_QWORD *)v60 = &`vtable for YAML::TypedBadConversion<bool> + 2;
     __asan_handle_no_return(v61);
     _cxa_throw(
       v60,
@@ -491,7 +491,7 @@ LABEL_145:
       v63 = v62;
       __asan_report_store8();
     }
-    *(_QWORD *)v62 = &`vtable for'YAML::TypedBadConversion<bool> + 2;
+    *(_QWORD *)v62 = &`vtable for YAML::TypedBadConversion<bool> + 2;
     __asan_handle_no_return(v63);
     _cxa_throw(
       v62,
@@ -616,7 +616,7 @@ LABEL_30:
       v16 = v15;
       __asan_report_store8();
     }
-    *(_QWORD *)v15 = &`vtable for'YAML::TypedBadConversion<bool> + 2;
+    *(_QWORD *)v15 = &`vtable for YAML::TypedBadConversion<bool> + 2;
     __asan_handle_no_return(v16);
     _cxa_throw(
       v15,
@@ -636,7 +636,7 @@ LABEL_30:
       v18 = v17;
       __asan_report_store8();
     }
-    *(_QWORD *)v17 = &`vtable for'YAML::TypedBadConversion<bool> + 2;
+    *(_QWORD *)v17 = &`vtable for YAML::TypedBadConversion<bool> + 2;
     __asan_handle_no_return(v18);
     _cxa_throw(
       v17,
@@ -922,7 +922,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -931,7 +931,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -1150,7 +1150,7 @@ LABEL_145:
       v60 = v59;
       __asan_report_store8();
     }
-    *(_QWORD *)v59 = &`vtable for'YAML::TypedBadConversion<double> + 2;
+    *(_QWORD *)v59 = &`vtable for YAML::TypedBadConversion<double> + 2;
     __asan_handle_no_return(v60);
     _cxa_throw(
       v59,
@@ -1301,7 +1301,7 @@ LABEL_150:
       v67 = v66;
       __asan_report_store8();
     }
-    *(_QWORD *)v66 = &`vtable for'YAML::TypedBadConversion<double> + 2;
+    *(_QWORD *)v66 = &`vtable for YAML::TypedBadConversion<double> + 2;
     __asan_handle_no_return(v67);
     _cxa_throw(
       v66,
@@ -1577,7 +1577,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -1586,7 +1586,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -2046,7 +2046,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -2055,7 +2055,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -2524,7 +2524,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -2533,7 +2533,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -2752,7 +2752,7 @@ LABEL_145:
       v61 = v60;
       __asan_report_store8();
     }
-    *(_QWORD *)v60 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v60 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v61);
     _cxa_throw(
       v60,
@@ -2772,7 +2772,7 @@ LABEL_145:
       v63 = v62;
       __asan_report_store8();
     }
-    *(_QWORD *)v62 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v62 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v63);
     _cxa_throw(
       v62,
@@ -2912,7 +2912,7 @@ LABEL_43:
       v21 = v20;
       __asan_report_store8();
     }
-    *(_QWORD *)v20 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v20 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v21);
     _cxa_throw(
       v20,
@@ -3025,7 +3025,7 @@ LABEL_39:
       v27 = v26;
       __asan_report_store8();
     }
-    *(_QWORD *)v26 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v26 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v27);
     _cxa_throw(
       v26,
@@ -3300,7 +3300,7 @@ LABEL_105:
         YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+        *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
         M_p = msg_._M_dataplus._M_p;
         if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
           operator delete(msg_._M_dataplus._M_p);
@@ -3309,7 +3309,7 @@ LABEL_105:
           M_p = (std::string::pointer)exception;
           __asan_report_store8();
         }
-        *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+        *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
         _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
@@ -3729,7 +3729,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -3738,7 +3738,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -4183,7 +4183,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -4192,7 +4192,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -4637,7 +4637,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -4646,7 +4646,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -5202,7 +5202,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -5211,7 +5211,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -5656,7 +5656,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -5665,7 +5665,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -6110,7 +6110,7 @@ LABEL_82:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v5 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -6119,7 +6119,7 @@ LABEL_82:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }

@@ -12,7 +12,7 @@ void __cdecl NaMeshDefaultMemoryCallback::~NaMeshDefaultMemoryCallback(NaMeshDef
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NaMeshDefaultMemoryCallback + 2);
+  v1 = (int (**)(...))(&`vtable for NaMeshDefaultMemoryCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshTileMemoryCallback = v1;
@@ -27,7 +27,7 @@ void __cdecl NaMeshDefaultMemoryCallback::NaMeshDefaultMemoryCallback(
   int (**v2)(...); // rdx
 
   NavMeshTileMemoryCallback::NavMeshTileMemoryCallback(this);
-  v2 = (int (**)(...))(&`vtable for'NaMeshDefaultMemoryCallback + 2);
+  v2 = (int (**)(...))(&`vtable for NaMeshDefaultMemoryCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshTileMemoryCallback = v2;

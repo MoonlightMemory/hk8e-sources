@@ -6,7 +6,7 @@ void __cdecl PathfindingService::PathfindingService(PathfindingService *const th
   int (**v1)(...); // rdx
 
   ServiceBase::ServiceBase(this);
-  v1 = (int (**)(...))(&`vtable for'PathfindingService + 2);
+  v1 = (int (**)(...))(&`vtable for PathfindingService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ServiceBase = v1;
@@ -27,7 +27,7 @@ void __cdecl PathfindingService::~PathfindingService(PathfindingService *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PathfindingService + 2);
+  v1 = (int (**)(...))(&`vtable for PathfindingService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ServiceBase = v1;

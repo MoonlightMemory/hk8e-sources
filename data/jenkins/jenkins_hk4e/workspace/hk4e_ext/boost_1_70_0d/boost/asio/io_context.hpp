@@ -31,7 +31,7 @@ void __cdecl boost::asio::detail::service_base<boost::asio::detail::strand_servi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::service_base<boost::asio::detail::strand_service> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::service_base<boost::asio::detail::strand_service> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;
@@ -54,7 +54,7 @@ void __cdecl boost::asio::detail::service_base<boost::asio::detail::strand_servi
   int (**v2)(...); // rdx
 
   boost::asio::io_context::service::service(this, io_context);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::service_base<boost::asio::detail::strand_service> + 2);
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::service_base<boost::asio::detail::strand_service> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v2;

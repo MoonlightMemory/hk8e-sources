@@ -6,7 +6,7 @@ void __cdecl mysqlpp::UseQueryError::UseQueryError(mysqlpp::UseQueryError *const
   __int64 *v2; // rdx
 
   mysqlpp::Exception::Exception(this, w);
-  v2 = &`vtable for'mysqlpp::UseQueryError + 2;
+  v2 = &`vtable for mysqlpp::UseQueryError + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;

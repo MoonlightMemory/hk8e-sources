@@ -621,7 +621,7 @@ LABEL_44:
     __asan_report_store8();
     goto LABEL_45;
   }
-  *(_QWORD *)v14 = &`vtable for'std::_Sp_counted_deleter<void *,boost::asio::detail::socket_ops::noop_deleter,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v14 = &`vtable for std::_Sp_counted_deleter<void *,boost::asio::detail::socket_ops::noop_deleter,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   if ( *(_BYTE *)(((v14 + 16) >> 3) + 0x7FFF8000) )
   {

@@ -7,7 +7,7 @@ void __cdecl luabind::detail::function_object::function_object(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'luabind::detail::function_object + 2);
+  v2 = (int (**)(...))(&`vtable for luabind::detail::function_object + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_function_object = v2;
@@ -26,7 +26,7 @@ void __cdecl luabind::detail::function_object::~function_object(luabind::detail:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'luabind::detail::function_object + 2);
+  v1 = (int (**)(...))(&`vtable for luabind::detail::function_object + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_function_object = v1;

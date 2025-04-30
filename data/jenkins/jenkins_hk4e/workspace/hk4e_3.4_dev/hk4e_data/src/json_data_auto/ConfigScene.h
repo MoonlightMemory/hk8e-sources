@@ -13,7 +13,7 @@ void __cdecl data::ConfigScenePoint::ConfigScenePoint(data::ConfigScenePoint *co
   __int64 v8; // rdx
 
   std::enable_shared_from_this<data::ConfigScenePoint>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigScenePoint>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -100,7 +100,7 @@ void __cdecl data::ConfigScenePoint::ConfigScenePoint(
   std::enable_shared_from_this<data::ConfigScenePoint>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigScenePoint>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigScenePoint + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigScenePoint = v3;
@@ -310,7 +310,7 @@ void __cdecl data::ConfigScenePoint::~ConfigScenePoint(data::ConfigScenePoint *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigScenePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -395,7 +395,7 @@ void __cdecl data::SceneTransPoint::SceneTransPoint(data::SceneTransPoint *const
   __int64 v11; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SceneTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -483,7 +483,7 @@ void __cdecl data::SceneTransPoint::SceneTransPoint(data::SceneTransPoint *const
   char v32; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SceneTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -601,7 +601,7 @@ void __cdecl data::SceneTransPoint::~SceneTransPoint(data::SceneTransPoint *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -674,7 +674,7 @@ void __cdecl data::ConfigFishpondScenePoint::ConfigFishpondScenePoint(
   char v5; // dl
 
   data::ConfigLocalEntity::ConfigLocalEntity((data::ConfigLocalEntity *const)this, (const data::ConfigLocalEntity *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishpondScenePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishpondScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -702,7 +702,7 @@ void __cdecl data::VirtualTransPoint::VirtualTransPoint(data::VirtualTransPoint 
   int (**v2)(...); // rdx
 
   data::SceneTransPoint::SceneTransPoint(this);
-  v2 = (int (**)(...))(&`vtable for'data::VirtualTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::VirtualTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -716,7 +716,7 @@ void __cdecl data::VirtualTransPoint::VirtualTransPoint(
   int (**v2)(...); // rdx
 
   data::SceneTransPoint::SceneTransPoint(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::VirtualTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::VirtualTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -735,7 +735,7 @@ void __cdecl data::VirtualTransPoint::~VirtualTransPoint(data::VirtualTransPoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VirtualTransPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::VirtualTransPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -802,7 +802,7 @@ void __cdecl data::VirtualTransPointFactory::VirtualTransPointFactory(data::Virt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VirtualTransPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::VirtualTransPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VirtualTransPointFactory = v2;
@@ -939,7 +939,7 @@ void __cdecl data::DungeonEntry::DungeonEntry(data::DungeonEntry *const this)
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::SceneTransPoint::SceneTransPoint(this);
-  v5 = (int (**)(...))(&`vtable for'data::DungeonEntry + 2);
+  v5 = (int (**)(...))(&`vtable for data::DungeonEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v5;
@@ -1026,7 +1026,7 @@ void __cdecl data::DungeonEntry::DungeonEntry(data::DungeonEntry *const this, co
   char v25; // al
 
   data::SceneTransPoint::SceneTransPoint(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntry + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1127,7 +1127,7 @@ void __cdecl data::DungeonEntry::~DungeonEntry(data::DungeonEntry *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntry + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntry + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1206,7 +1206,7 @@ void __cdecl data::DungeonEntryFactory::DungeonEntryFactory(data::DungeonEntryFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonEntryFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonEntryFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonEntryFactory = v2;
@@ -1219,7 +1219,7 @@ void __cdecl data::DungeonExit::DungeonExit(data::DungeonExit *const this)
   int (**v2)(...); // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExit + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1240,7 +1240,7 @@ void __cdecl data::DungeonExit::DungeonExit(data::DungeonExit *const this, const
   char v5; // dl
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExit + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1266,7 +1266,7 @@ void __cdecl data::DungeonExit::~DungeonExit(data::DungeonExit *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExit + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1340,7 +1340,7 @@ void __cdecl data::DungeonExitFactory::DungeonExitFactory(data::DungeonExitFacto
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonExitFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonExitFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonExitFactory = v2;
@@ -1357,7 +1357,7 @@ void __cdecl data::DungeonWayPoint::DungeonWayPoint(data::DungeonWayPoint *const
   __int64 v6; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonWayPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonWayPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1398,7 +1398,7 @@ void __cdecl data::DungeonWayPoint::DungeonWayPoint(data::DungeonWayPoint *const
   char v16; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonWayPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonWayPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1463,7 +1463,7 @@ void __cdecl data::DungeonWayPoint::~DungeonWayPoint(data::DungeonWayPoint *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonWayPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonWayPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1538,7 +1538,7 @@ void __cdecl data::DungeonWayPointFactory::DungeonWayPointFactory(data::DungeonW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonWayPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonWayPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonWayPointFactory = v2;
@@ -1553,7 +1553,7 @@ void __cdecl data::DungeonSlipRevivePoint::DungeonSlipRevivePoint(data::DungeonS
   __int64 v4; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSlipRevivePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSlipRevivePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1586,7 +1586,7 @@ void __cdecl data::DungeonSlipRevivePoint::DungeonSlipRevivePoint(
   char v11; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSlipRevivePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSlipRevivePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1640,7 +1640,7 @@ void __cdecl data::DungeonSlipRevivePoint::~DungeonSlipRevivePoint(data::Dungeon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSlipRevivePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSlipRevivePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1716,7 +1716,7 @@ void __cdecl data::DungeonSlipRevivePointFactory::DungeonSlipRevivePointFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonSlipRevivePointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonSlipRevivePointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonSlipRevivePointFactory = v2;
@@ -1729,7 +1729,7 @@ void __cdecl data::DungeonQuitPoint::DungeonQuitPoint(data::DungeonQuitPoint *co
   int (**v2)(...); // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonQuitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonQuitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1745,7 +1745,7 @@ void __cdecl data::DungeonQuitPoint::DungeonQuitPoint(
   __int64 v3; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonQuitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonQuitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1776,7 +1776,7 @@ void __cdecl data::DungeonQuitPoint::~DungeonQuitPoint(data::DungeonQuitPoint *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonQuitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonQuitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1850,7 +1850,7 @@ void __cdecl data::DungeonQuitPointFactory::DungeonQuitPointFactory(data::Dungeo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonQuitPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonQuitPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonQuitPointFactory = v2;
@@ -1865,7 +1865,7 @@ void __cdecl data::DungeonRewardPoint::DungeonRewardPoint(data::DungeonRewardPoi
   __int64 v4; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRewardPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRewardPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1890,7 +1890,7 @@ void __cdecl data::DungeonRewardPoint::DungeonRewardPoint(
   __int64 v7; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRewardPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRewardPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -1914,7 +1914,7 @@ void __cdecl data::DungeonRewardPoint::~DungeonRewardPoint(data::DungeonRewardPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRewardPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRewardPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -1989,7 +1989,7 @@ void __cdecl data::DungeonRewardPointFactory::DungeonRewardPointFactory(data::Du
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DungeonRewardPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DungeonRewardPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DungeonRewardPointFactory = v2;
@@ -2004,7 +2004,7 @@ void __cdecl data::PersonalSceneJumpPoint::PersonalSceneJumpPoint(data::Personal
   __int64 v4; // rsi
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::PersonalSceneJumpPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::PersonalSceneJumpPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2052,7 +2052,7 @@ void __cdecl data::PersonalSceneJumpPoint::PersonalSceneJumpPoint(
   char v11; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::PersonalSceneJumpPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::PersonalSceneJumpPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -2128,7 +2128,7 @@ void __cdecl data::PersonalSceneJumpPoint::~PersonalSceneJumpPoint(data::Persona
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PersonalSceneJumpPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::PersonalSceneJumpPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2197,7 +2197,7 @@ void __cdecl data::PersonalSceneJumpPointFactory::PersonalSceneJumpPointFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PersonalSceneJumpPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::PersonalSceneJumpPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PersonalSceneJumpPointFactory = v2;
@@ -2214,7 +2214,7 @@ void __cdecl data::SceneBuildingPoint::SceneBuildingPoint(data::SceneBuildingPoi
   __int64 v6; // rdx
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SceneBuildingPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneBuildingPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2274,7 +2274,7 @@ void __cdecl data::SceneBuildingPoint::SceneBuildingPoint(
   char v19; // dl
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SceneBuildingPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneBuildingPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -2356,7 +2356,7 @@ void __cdecl data::SceneBuildingPoint::~SceneBuildingPoint(data::SceneBuildingPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneBuildingPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneBuildingPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2423,7 +2423,7 @@ void __cdecl data::SceneBuildingPointFactory::SceneBuildingPointFactory(data::Sc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneBuildingPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneBuildingPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneBuildingPointFactory = v2;
@@ -2454,7 +2454,7 @@ void __cdecl data::SceneVehicleSummonPoint::SceneVehicleSummonPoint(data::SceneV
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v5 = (int (**)(...))(&`vtable for'data::SceneVehicleSummonPoint + 2);
+  v5 = (int (**)(...))(&`vtable for data::SceneVehicleSummonPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v5;
@@ -2520,7 +2520,7 @@ void __cdecl data::SceneVehicleSummonPoint::SceneVehicleSummonPoint(
   char v11; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SceneVehicleSummonPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneVehicleSummonPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -2588,7 +2588,7 @@ void __cdecl data::SceneVehicleSummonPoint::~SceneVehicleSummonPoint(data::Scene
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneVehicleSummonPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneVehicleSummonPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2666,7 +2666,7 @@ void __cdecl data::SceneVehicleSummonPointFactory::SceneVehicleSummonPointFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneVehicleSummonPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneVehicleSummonPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneVehicleSummonPointFactory = v2;
@@ -2679,7 +2679,7 @@ void __cdecl data::ConfigForceField::ConfigForceField(data::ConfigForceField *co
   int (**v2)(...); // rdx
 
   data::ConfigScenePoint::ConfigScenePoint(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2695,7 +2695,7 @@ void __cdecl data::ConfigForceField::ConfigForceField(
   int (**v2)(...); // rdx
 
   data::ConfigScenePoint::ConfigScenePoint(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -2709,7 +2709,7 @@ void __cdecl data::ConfigForceField::~ConfigForceField(data::ConfigForceField *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2786,7 +2786,7 @@ void __cdecl data::ConfigConstForceField::ConfigConstForceField(data::ConfigCons
   int (**v2)(...); // rdx
 
   data::ConfigForceField::ConfigForceField(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigConstForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigConstForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2807,7 +2807,7 @@ void __cdecl data::ConfigConstForceField::ConfigConstForceField(
   float velocity; // xmm0_4
 
   data::ConfigForceField::ConfigForceField(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigConstForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigConstForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -2838,7 +2838,7 @@ void __cdecl data::ConfigConstForceField::~ConfigConstForceField(data::ConfigCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigConstForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigConstForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -2926,7 +2926,7 @@ void __cdecl data::ConfigAirflowField::ConfigAirflowField(data::ConfigAirflowFie
   v4[536862721] = -234753551;
   v4[536862722] = -202116351;
   data::ConfigConstForceField::ConfigConstForceField((data::ConfigConstForceField *const)this);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigAirflowField + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v5;
@@ -2991,7 +2991,7 @@ void __cdecl data::ConfigAirflowField::ConfigAirflowField(
   data::ConfigConstForceField::ConfigConstForceField(
     (data::ConfigConstForceField *const)this,
     (const data::ConfigConstForceField *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAirflowField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3046,7 +3046,7 @@ void __cdecl data::ConfigAirflowField::~ConfigAirflowField(data::ConfigAirflowFi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAirflowField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3120,7 +3120,7 @@ void __cdecl data::ConfigFireGrassAirflowField::ConfigFireGrassAirflowField(
   __int64 v5; // rsi
 
   data::ConfigAirflowField::ConfigAirflowField((data::ConfigAirflowField *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFireGrassAirflowField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFireGrassAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3170,7 +3170,7 @@ void __cdecl data::ConfigFireGrassAirflowField::ConfigFireGrassAirflowField(
   data::ConfigAirflowField::ConfigAirflowField(
     (data::ConfigAirflowField *const)this,
     (const data::ConfigAirflowField *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFireGrassAirflowField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFireGrassAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3230,7 +3230,7 @@ void __cdecl data::ConfigFireGrassAirflowField::~ConfigFireGrassAirflowField(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFireGrassAirflowField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFireGrassAirflowField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3306,7 +3306,7 @@ void __cdecl data::ConfigFireGrassAirflowFieldFactory::ConfigFireGrassAirflowFie
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFireGrassAirflowFieldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFireGrassAirflowFieldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFireGrassAirflowFieldFactory = v2;
@@ -3325,7 +3325,7 @@ void __cdecl data::ConfigSpeedupField::ConfigSpeedupField(data::ConfigSpeedupFie
   __int64 v8; // rsi
 
   data::ConfigConstForceField::ConfigConstForceField((data::ConfigConstForceField *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeedupField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeedupField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3416,7 +3416,7 @@ void __cdecl data::ConfigSpeedupField::ConfigSpeedupField(
   data::ConfigConstForceField::ConfigConstForceField(
     (data::ConfigConstForceField *const)this,
     (const data::ConfigConstForceField *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeedupField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeedupField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3548,7 +3548,7 @@ void __cdecl data::ConfigSpeedupField::~ConfigSpeedupField(data::ConfigSpeedupFi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeedupField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeedupField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3616,7 +3616,7 @@ void __cdecl data::ConfigCannonField::ConfigCannonField(data::ConfigCannonField 
   int (**v2)(...); // rdx
 
   data::ConfigSpeedupField::ConfigSpeedupField(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCannonField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCannonField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3630,7 +3630,7 @@ void __cdecl data::ConfigCannonField::ConfigCannonField(
   int (**v2)(...); // rdx
 
   data::ConfigSpeedupField::ConfigSpeedupField(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCannonField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCannonField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3649,7 +3649,7 @@ void __cdecl data::ConfigCannonField::~ConfigCannonField(data::ConfigCannonField
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCannonField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCannonField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3716,7 +3716,7 @@ void __cdecl data::ConfigCannonFieldFactory::ConfigCannonFieldFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCannonFieldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCannonFieldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCannonFieldFactory = v2;
@@ -3729,7 +3729,7 @@ void __cdecl data::ConfigDirectedForceField::ConfigDirectedForceField(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigConstForceField::ConfigConstForceField(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectedForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectedForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3743,7 +3743,7 @@ void __cdecl data::ConfigDirectedForceField::ConfigDirectedForceField(
   int (**v2)(...); // rdx
 
   data::ConfigConstForceField::ConfigConstForceField(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectedForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectedForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3755,7 +3755,7 @@ void __cdecl data::ConfigDirectedForceField::~ConfigDirectedForceField(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectedForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectedForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3830,7 +3830,7 @@ void __cdecl data::ConfigDirectedForceFieldFactory::ConfigDirectedForceFieldFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectedForceFieldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectedForceFieldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectedForceFieldFactory = v2;
@@ -3845,7 +3845,7 @@ void __cdecl data::ConfigTrampolineForceField::ConfigTrampolineForceField(data::
   __int64 v4; // rsi
 
   data::ConfigConstForceField::ConfigConstForceField((data::ConfigConstForceField *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrampolineForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrampolineForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -3893,7 +3893,7 @@ void __cdecl data::ConfigTrampolineForceField::ConfigTrampolineForceField(
   data::ConfigConstForceField::ConfigConstForceField(
     (data::ConfigConstForceField *const)this,
     (const data::ConfigConstForceField *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrampolineForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrampolineForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -3964,7 +3964,7 @@ void __cdecl data::ConfigTrampolineForceField::~ConfigTrampolineForceField(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrampolineForceField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrampolineForceField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4032,7 +4032,7 @@ void __cdecl data::ConfigTrampolineForceFieldFactory::ConfigTrampolineForceField
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTrampolineForceFieldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTrampolineForceFieldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTrampolineForceFieldFactory = v2;
@@ -4048,7 +4048,7 @@ void __cdecl data::ConfigRiseField::ConfigRiseField(data::ConfigRiseField *const
   __int64 v5; // rsi
 
   data::ConfigForceField::ConfigForceField(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRiseField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRiseField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4120,7 +4120,7 @@ void __cdecl data::ConfigRiseField::ConfigRiseField(data::ConfigRiseField *const
   __int64 v13; // rdx
 
   data::ConfigForceField::ConfigForceField(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRiseField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRiseField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4238,7 +4238,7 @@ void __cdecl data::ConfigRiseField::~ConfigRiseField(data::ConfigRiseField *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRiseField + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRiseField + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4313,7 +4313,7 @@ void __cdecl data::ConfigRiseFieldFactory::ConfigRiseFieldFactory(data::ConfigRi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRiseFieldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRiseFieldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRiseFieldFactory = v2;
@@ -4327,7 +4327,7 @@ void __cdecl data::ConfigLightCore::ConfigLightCore(data::ConfigLightCore *const
   __int64 v3; // rsi
 
   data::ConfigConstForceField::ConfigConstForceField(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLightCore + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLightCore + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4364,7 +4364,7 @@ void __cdecl data::ConfigLightCore::ConfigLightCore(data::ConfigLightCore *const
   float cd; // xmm0_4
 
   data::ConfigConstForceField::ConfigConstForceField(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLightCore + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLightCore + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4415,7 +4415,7 @@ void __cdecl data::ConfigLightCore::~ConfigLightCore(data::ConfigLightCore *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLightCore + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLightCore + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4491,7 +4491,7 @@ void __cdecl data::ConfigLightCoreFactory::ConfigLightCoreFactory(data::ConfigLi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLightCoreFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLightCoreFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLightCoreFactory = v2;
@@ -4505,7 +4505,7 @@ void __cdecl data::ConfigLocalEntity::ConfigLocalEntity(data::ConfigLocalEntity 
   __int64 v3; // rsi
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4533,7 +4533,7 @@ void __cdecl data::ConfigLocalEntity::ConfigLocalEntity(
   char v6; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4568,7 +4568,7 @@ void __cdecl data::ConfigLocalEntity::~ConfigLocalEntity(data::ConfigLocalEntity
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4643,7 +4643,7 @@ void __cdecl data::ConfigWindmill::ConfigWindmill(data::ConfigWindmill *const th
   int (**v2)(...); // rdx
 
   data::ConfigLocalEntity::ConfigLocalEntity(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmill + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4655,7 +4655,7 @@ void __cdecl data::ConfigWindmill::ConfigWindmill(data::ConfigWindmill *const th
   int (**v2)(...); // rdx
 
   data::ConfigLocalEntity::ConfigLocalEntity(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmill + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4667,7 +4667,7 @@ void __cdecl data::ConfigWindmill::~ConfigWindmill(data::ConfigWindmill *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmill + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4741,7 +4741,7 @@ void __cdecl data::ConfigWindmillFactory::ConfigWindmillFactory(data::ConfigWind
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWindmillFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWindmillFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWindmillFactory = v2;
@@ -4754,7 +4754,7 @@ void __cdecl data::ConfigLocalInteractEntity::ConfigLocalInteractEntity(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigLocalEntity::ConfigLocalEntity(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalInteractEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalInteractEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4768,7 +4768,7 @@ void __cdecl data::ConfigLocalInteractEntity::ConfigLocalInteractEntity(
   int (**v2)(...); // rdx
 
   data::ConfigLocalEntity::ConfigLocalEntity(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalInteractEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalInteractEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4787,7 +4787,7 @@ void __cdecl data::ConfigLocalInteractEntity::~ConfigLocalInteractEntity(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalInteractEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalInteractEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4855,7 +4855,7 @@ void __cdecl data::ConfigLocalInteractEntityFactory::ConfigLocalInteractEntityFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalInteractEntityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalInteractEntityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalInteractEntityFactory = v2;
@@ -4869,7 +4869,7 @@ void __cdecl data::ConfigLocalTrigger::ConfigLocalTrigger(data::ConfigLocalTrigg
   __int64 v3; // rsi
 
   data::ConfigLocalEntity::ConfigLocalEntity((data::ConfigLocalEntity *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -4921,7 +4921,7 @@ void __cdecl data::ConfigLocalTrigger::ConfigLocalTrigger(
   float float_param; // xmm0_4
 
   data::ConfigLocalEntity::ConfigLocalEntity((data::ConfigLocalEntity *const)this, (const data::ConfigLocalEntity *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -4993,7 +4993,7 @@ void __cdecl data::ConfigLocalTrigger::~ConfigLocalTrigger(data::ConfigLocalTrig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -5069,7 +5069,7 @@ void __cdecl data::ConfigLocalTriggerFactory::ConfigLocalTriggerFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerFactory = v2;
@@ -5083,7 +5083,7 @@ void __cdecl data::ConfigLoadingDoor::ConfigLoadingDoor(data::ConfigLoadingDoor 
   __int64 v3; // rsi
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLoadingDoor + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLoadingDoor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -5115,7 +5115,7 @@ void __cdecl data::ConfigLoadingDoor::ConfigLoadingDoor(
   char v7; // al
 
   data::ConfigScenePoint::ConfigScenePoint((data::ConfigScenePoint *const)this, (const data::ConfigScenePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLoadingDoor + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLoadingDoor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigScenePoint = v2;
@@ -5154,7 +5154,7 @@ void __cdecl data::ConfigLoadingDoor::~ConfigLoadingDoor(data::ConfigLoadingDoor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLoadingDoor + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLoadingDoor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -5228,7 +5228,7 @@ void __cdecl data::ConfigLoadingDoorFactory::ConfigLoadingDoorFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLoadingDoorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLoadingDoorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLoadingDoorFactory = v2;
@@ -5241,7 +5241,7 @@ void __cdecl data::ConfigFishpondScenePoint::ConfigFishpondScenePoint(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigLocalEntity::ConfigLocalEntity((data::ConfigLocalEntity *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishpondScenePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishpondScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -5267,7 +5267,7 @@ void __cdecl data::ConfigFishpondScenePoint::~ConfigFishpondScenePoint(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishpondScenePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishpondScenePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigScenePoint = v2;
@@ -5336,7 +5336,7 @@ void __cdecl data::ConfigFishpondScenePointFactory::ConfigFishpondScenePointFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFishpondScenePointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFishpondScenePointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFishpondScenePointFactory = v2;

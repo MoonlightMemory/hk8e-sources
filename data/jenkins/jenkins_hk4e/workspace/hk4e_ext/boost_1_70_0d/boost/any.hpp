@@ -12,7 +12,7 @@ void __fastcall boost::any::holder<boost::property_tree::string_path<std::string
     __asan_report_store8();
     goto LABEL_7;
   }
-  this->_vptr_placeholder = (int (**)(...))(&`vtable for'boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
+  this->_vptr_placeholder = (int (**)(...))(&`vtable for boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
                                           + 2);
   p_held = &this->held;
   if ( *(_BYTE *)(((unsigned __int64)&this->held >> 3) + 0x7FFF8000) )
@@ -46,7 +46,7 @@ boost::any::placeholder *__fastcall boost::any::holder<boost::property_tree::str
     goto LABEL_7;
   }
   p_held = &this->held;
-  v5->_vptr_placeholder = (int (**)(...))(&`vtable for'boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
+  v5->_vptr_placeholder = (int (**)(...))(&`vtable for boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
                                         + 2);
   v1 = (boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string > >::s_iter *)&v5[1];
   if ( *(_BYTE *)(((unsigned __int64)&v5[1] >> 3) + 0x7FFF8000) )

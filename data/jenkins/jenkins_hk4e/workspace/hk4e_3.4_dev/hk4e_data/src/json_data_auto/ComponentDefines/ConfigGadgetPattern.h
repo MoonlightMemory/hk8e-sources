@@ -8,7 +8,7 @@ void __cdecl data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBaseGadgetTriggerAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseGadgetTriggerAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseGadgetTriggerAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseGadgetTriggerAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -31,7 +31,7 @@ void __cdecl data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(
   std::enable_shared_from_this<data::ConfigBaseGadgetTriggerAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseGadgetTriggerAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseGadgetTriggerAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseGadgetTriggerAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseGadgetTriggerAction = v3;
@@ -62,7 +62,7 @@ void __cdecl data::ConfigBaseGadgetTriggerAction::~ConfigBaseGadgetTriggerAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseGadgetTriggerAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseGadgetTriggerAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -131,7 +131,7 @@ void __cdecl data::ConfigGadgetDoAttackEvent::ConfigGadgetDoAttackEvent(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDoAttackEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDoAttackEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -146,7 +146,7 @@ void __cdecl data::ConfigGadgetDoAttackEvent::ConfigGadgetDoAttackEvent(
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDoAttackEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDoAttackEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -159,7 +159,7 @@ void __cdecl data::ConfigGadgetDoAttackEvent::~ConfigGadgetDoAttackEvent(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDoAttackEvent + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDoAttackEvent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -235,7 +235,7 @@ void __cdecl data::ConfigGadgetDoAttackEventFactory::ConfigGadgetDoAttackEventFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDoAttackEventFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDoAttackEventFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetDoAttackEventFactory = v2;
@@ -248,7 +248,7 @@ void __cdecl data::ConfigGadgetTriggerAbility::ConfigGadgetTriggerAbility(data::
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTriggerAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTriggerAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -263,7 +263,7 @@ void __cdecl data::ConfigGadgetTriggerAbility::ConfigGadgetTriggerAbility(
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTriggerAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTriggerAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -285,7 +285,7 @@ void __cdecl data::ConfigGadgetTriggerAbility::~ConfigGadgetTriggerAbility(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTriggerAbility + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTriggerAbility + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -354,7 +354,7 @@ void __cdecl data::ConfigGadgetTriggerAbilityFactory::ConfigGadgetTriggerAbility
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTriggerAbilityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTriggerAbilityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetTriggerAbilityFactory = v2;
@@ -368,7 +368,7 @@ void __cdecl data::ConfigGadgetDamageByAttackValue::ConfigGadgetDamageByAttackVa
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDamageByAttackValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDamageByAttackValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -386,7 +386,7 @@ void __cdecl data::ConfigGadgetDamageByAttackValue::ConfigGadgetDamageByAttackVa
   int (**v2)(...); // rdx
 
   data::ConfigBaseGadgetTriggerAction::ConfigBaseGadgetTriggerAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDamageByAttackValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDamageByAttackValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -401,7 +401,7 @@ void __cdecl data::ConfigGadgetDamageByAttackValue::~ConfigGadgetDamageByAttackV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDamageByAttackValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDamageByAttackValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGadgetTriggerAction = v2;
@@ -481,7 +481,7 @@ void __cdecl data::ConfigGadgetDamageByAttackValueFactory::ConfigGadgetDamageByA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDamageByAttackValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDamageByAttackValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetDamageByAttackValueFactory = v2;
@@ -583,7 +583,7 @@ void __cdecl data::ConfigGadgetPattern::ConfigGadgetPattern(data::ConfigGadgetPa
   __int64 v6; // rdx
 
   std::enable_shared_from_this<data::ConfigGadgetPattern>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigGadgetPattern>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -623,7 +623,7 @@ void __cdecl data::ConfigGadgetPattern::ConfigGadgetPattern(
   std::enable_shared_from_this<data::ConfigGadgetPattern>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigGadgetPattern>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigGadgetPattern + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigGadgetPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigGadgetPattern = v3;
@@ -682,7 +682,7 @@ void __cdecl data::ConfigGadgetPattern::~ConfigGadgetPattern(data::ConfigGadgetP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -769,7 +769,7 @@ void __cdecl data::ConfigGadgetCollidedPattern::ConfigGadgetCollidedPattern(
   v4[536862721] = -234753551;
   v4[536862722] = -202116351;
   data::ConfigGadgetPattern::ConfigGadgetPattern(this);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigGadgetCollidedPattern + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigGadgetCollidedPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v5;
@@ -809,7 +809,7 @@ void __cdecl data::ConfigGadgetCollidedPattern::ConfigGadgetCollidedPattern(
   int (**v2)(...); // rdx
 
   data::ConfigGadgetPattern::ConfigGadgetPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetCollidedPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetCollidedPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -827,7 +827,7 @@ void __cdecl data::ConfigGadgetCollidedPattern::~ConfigGadgetCollidedPattern(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetCollidedPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetCollidedPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -906,7 +906,7 @@ void __cdecl data::ConfigGadgetCollidedPatternFactory::ConfigGadgetCollidedPatte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetCollidedPatternFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetCollidedPatternFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetCollidedPatternFactory = v2;
@@ -925,7 +925,7 @@ void __cdecl data::ConfigBulletPattern::ConfigBulletPattern(data::ConfigBulletPa
   __int64 v8; // rdx
 
   data::ConfigGadgetPattern::ConfigGadgetPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -998,7 +998,7 @@ void __cdecl data::ConfigBulletPattern::ConfigBulletPattern(
   __int64 v22; // rdx
 
   data::ConfigGadgetPattern::ConfigGadgetPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -1105,7 +1105,7 @@ void __cdecl data::ConfigBulletPattern::~ConfigBulletPattern(data::ConfigBulletP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -1177,7 +1177,7 @@ void __cdecl data::ConfigMultiBullet::ConfigMultiBullet(data::ConfigMultiBullet 
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigMultiBullet>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigMultiBullet>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBullet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBullet = v2;
@@ -1213,7 +1213,7 @@ void __cdecl data::ConfigMultiBullet::ConfigMultiBullet(
   std::enable_shared_from_this<data::ConfigMultiBullet>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigMultiBullet>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigMultiBullet + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigMultiBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigMultiBullet = v3;
@@ -1256,7 +1256,7 @@ void __cdecl data::ConfigMultiBullet::~ConfigMultiBullet(data::ConfigMultiBullet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBullet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBullet = v2;
@@ -1325,7 +1325,7 @@ void __cdecl data::ConfigEffectItanoCircusBullet::ConfigEffectItanoCircusBullet(
   int (**v2)(...); // rdx
 
   data::ConfigMultiBullet::ConfigMultiBullet(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectItanoCircusBullet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectItanoCircusBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBullet = v2;
@@ -1340,7 +1340,7 @@ void __cdecl data::ConfigEffectItanoCircusBullet::ConfigEffectItanoCircusBullet(
   int (**v2)(...); // rdx
 
   data::ConfigMultiBullet::ConfigMultiBullet(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectItanoCircusBullet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectItanoCircusBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigMultiBullet = v2;
@@ -1362,7 +1362,7 @@ void __cdecl data::ConfigEffectItanoCircusBullet::~ConfigEffectItanoCircusBullet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectItanoCircusBullet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectItanoCircusBullet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBullet = v2;
@@ -1432,7 +1432,7 @@ void __cdecl data::ConfigEffectItanoCircusBulletFactory::ConfigEffectItanoCircus
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEffectItanoCircusBulletFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEffectItanoCircusBulletFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEffectItanoCircusBulletFactory = v2;
@@ -1445,7 +1445,7 @@ void __cdecl data::ConfigMultiBulletPattern::ConfigMultiBulletPattern(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBulletPattern::ConfigBulletPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -1468,7 +1468,7 @@ void __cdecl data::ConfigMultiBulletPattern::ConfigMultiBulletPattern(
   char v5; // al
 
   data::ConfigBulletPattern::ConfigBulletPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -1499,7 +1499,7 @@ void __cdecl data::ConfigMultiBulletPattern::~ConfigMultiBulletPattern(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetPattern = v2;
@@ -1568,7 +1568,7 @@ void __cdecl data::ConfigMultiBulletPatternFactory::ConfigMultiBulletPatternFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMultiBulletPatternFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMultiBulletPatternFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMultiBulletPatternFactory = v2;

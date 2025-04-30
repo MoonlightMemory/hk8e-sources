@@ -6,7 +6,7 @@ void __cdecl boost::asio::detail::timer_queue<boost::asio::detail::forwarding_po
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue<boost::asio::detail::forwarding_posix_time_traits>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue<boost::asio::detail::forwarding_posix_time_traits>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -36,7 +36,7 @@ void __fastcall boost::asio::detail::timer_queue<boost::asio::detail::chrono_tim
     __asan_report_store8();
     goto LABEL_7;
   }
-  this->_vptr_timer_queue_base = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
+  this->_vptr_timer_queue_base = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>
                                                + 2);
   p_heap = &this->heap_;
   if ( *(_BYTE *)(((unsigned __int64)&this->heap_ >> 3) + 0x7FFF8000) )
@@ -85,7 +85,7 @@ void __cdecl boost::asio::detail::timer_queue<boost::asio::detail::forwarding_po
   int (**v1)(...); // rdx
 
   boost::asio::detail::timer_queue_base::timer_queue_base(this);
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue<boost::asio::detail::forwarding_posix_time_traits>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue<boost::asio::detail::forwarding_posix_time_traits>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

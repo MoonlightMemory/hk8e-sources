@@ -14,7 +14,7 @@ void __cdecl data::AranaraCollectionExcelConfig::AranaraCollectionExcelConfig(
   const data::AranaraCollectionExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AranaraCollectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AranaraCollectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AranaraCollectionExcelConfig = v2;
@@ -55,7 +55,7 @@ void __cdecl data::AranaraCollectionExcelConfig::~AranaraCollectionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AranaraCollectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AranaraCollectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AranaraCollectionExcelConfig = v2;
@@ -75,7 +75,7 @@ void __cdecl data::CatalogExcelConfig::CatalogExcelConfig(data::CatalogExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CatalogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CatalogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CatalogExcelConfig = v2;
@@ -109,7 +109,7 @@ void __cdecl data::CatalogExcelConfig::CatalogExcelConfig(
   const data::CatalogExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CatalogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CatalogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CatalogExcelConfig = v2;
@@ -150,7 +150,7 @@ void __cdecl data::CatalogExcelConfig::~CatalogExcelConfig(data::CatalogExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CatalogExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CatalogExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CatalogExcelConfig = v2;

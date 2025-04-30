@@ -7,7 +7,7 @@ void __cdecl data::ExpeditionOpenCondition::ExpeditionOpenCondition(data::Expedi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionOpenCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionOpenCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionOpenCondition = v2;
@@ -48,7 +48,7 @@ void __cdecl data::ExpeditionOpenCondition::ExpeditionOpenCondition(
   const data::ExpeditionOpenCondition *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionOpenCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionOpenCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionOpenCondition = v2;
@@ -100,7 +100,7 @@ void __cdecl data::ExpeditionOpenCondition::~ExpeditionOpenCondition(data::Exped
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionOpenCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionOpenCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionOpenCondition = v2;
@@ -119,7 +119,7 @@ void __cdecl data::ExpeditionReward::ExpeditionReward(data::ExpeditionReward *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionReward = v2;
@@ -151,7 +151,7 @@ void __cdecl data::ExpeditionReward::ExpeditionReward(
   const data::ExpeditionReward *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionReward = v2;
@@ -190,7 +190,7 @@ void __cdecl data::ExpeditionReward::~ExpeditionReward(data::ExpeditionReward *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionReward = v2;
@@ -209,7 +209,7 @@ void __cdecl data::ExpeditionDataExcelConfig::ExpeditionDataExcelConfig(data::Ex
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionDataExcelConfig = v2;
@@ -243,7 +243,7 @@ void __cdecl data::ExpeditionDataExcelConfig::ExpeditionDataExcelConfig(
   const data::ExpeditionDataExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExpeditionDataExcelConfig = v2;
@@ -284,7 +284,7 @@ void __cdecl data::ExpeditionDataExcelConfig::~ExpeditionDataExcelConfig(data::E
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExpeditionDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExpeditionDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExpeditionDataExcelConfig = v2;

@@ -5,7 +5,7 @@ void __cdecl GCGPhaseOnStage::~GCGPhaseOnStage(GCGPhaseOnStage *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPhaseOnStage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPhaseOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v1;
@@ -26,7 +26,7 @@ void __cdecl ZN15GCGPhaseOnStageCI212GCGPhaseBaseER11GCGGameMode(GCGPhaseOnStage
   int (**v2)(...); // rdx
 
   GCGPhaseBase::GCGPhaseBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'GCGPhaseOnStage + 2);
+  v2 = (int (**)(...))(&`vtable for GCGPhaseOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGPhaseBase = v2;

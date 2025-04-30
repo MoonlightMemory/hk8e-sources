@@ -12,7 +12,7 @@ void __cdecl ZN2BT10AssignNodeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIc
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::AssignNode<std::string> + 2);
+  v3 = (int (**)(...))(&`vtable for BT::AssignNode<std::string> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -30,7 +30,7 @@ void __cdecl ZN2BT10AssignNodeISt6vectorIdSaIdEEECI2NS_8LeafNodeEERKNSt7__cxx111
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::AssignNode<std::vector<double>> + 2);
+  v3 = (int (**)(...))(&`vtable for BT::AssignNode<std::vector<double>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -48,7 +48,7 @@ void __cdecl ZN2BT10AssignNodeISt6vectorIiSaIiEEECI2NS_8LeafNodeEERKNSt7__cxx111
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::AssignNode<std::vector<int>> + 2);
+  v3 = (int (**)(...))(&`vtable for BT::AssignNode<std::vector<int>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -66,7 +66,7 @@ void __cdecl ZN2BT10AssignNodeIdECI2NS_8LeafNodeEERKNSt7__cxx1112basic_stringIcS
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::AssignNode<double> + 2);
+  v3 = (int (**)(...))(&`vtable for BT::AssignNode<double> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -84,7 +84,7 @@ void __cdecl ZN2BT10AssignNodeIiECI2NS_8LeafNodeEERKNSt7__cxx1112basic_stringIcS
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::AssignNode<int> + 2);
+  v3 = (int (**)(...))(&`vtable for BT::AssignNode<int> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -95,7 +95,7 @@ void __cdecl BT::AssignNode<double>::~AssignNode(BT::AssignNode<double> *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::AssignNode<double> + 2);
+  v1 = (int (**)(...))(&`vtable for BT::AssignNode<double> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -121,7 +121,7 @@ void __cdecl BT::AssignNode<int>::~AssignNode(BT::AssignNode<int> *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::AssignNode<int> + 2);
+  v1 = (int (**)(...))(&`vtable for BT::AssignNode<int> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -133,7 +133,7 @@ void __cdecl BT::AssignNode<std::string>::~AssignNode(BT::AssignNode<std::string
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::AssignNode<std::string> + 2);
+  v1 = (int (**)(...))(&`vtable for BT::AssignNode<std::string> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -152,7 +152,7 @@ void __cdecl BT::AssignNode<std::vector<double>>::~AssignNode(BT::AssignNode<std
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::AssignNode<std::vector<double>> + 2);
+  v1 = (int (**)(...))(&`vtable for BT::AssignNode<std::vector<double>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -178,7 +178,7 @@ void __cdecl BT::AssignNode<std::vector<int>>::~AssignNode(BT::AssignNode<std::v
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::AssignNode<std::vector<int>> + 2);
+  v1 = (int (**)(...))(&`vtable for BT::AssignNode<std::vector<int>> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

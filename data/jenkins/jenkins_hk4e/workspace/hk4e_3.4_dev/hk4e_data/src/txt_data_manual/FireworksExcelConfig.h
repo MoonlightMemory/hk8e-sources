@@ -6,7 +6,7 @@ void __cdecl FireworksExcelConfigMgr::FireworksExcelConfigMgr(FireworksExcelConf
   int (**v1)(...); // rdx
 
   data::FireworksExcelConfigMgrBase::FireworksExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'FireworksExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FireworksExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FireworksExcelConfigMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl FireworksExcelConfigMgr::~FireworksExcelConfigMgr(FireworksExcelCon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FireworksExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FireworksExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FireworksExcelConfigMgrBase = v1;

@@ -14,7 +14,7 @@ void __cdecl data::AvatarFlycloakExcelConfig::AvatarFlycloakExcelConfig(
   const data::AvatarFlycloakExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarFlycloakExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarFlycloakExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarFlycloakExcelConfig = v2;
@@ -53,7 +53,7 @@ void __cdecl data::AvatarFlycloakExcelConfig::~AvatarFlycloakExcelConfig(data::A
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarFlycloakExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarFlycloakExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarFlycloakExcelConfig = v2;
@@ -96,7 +96,7 @@ void __cdecl data::AvatarCostumeExcelConfig::AvatarCostumeExcelConfig(data::Avat
   v4[536862721] = -234753551;
   v4[536862722] = -234753535;
   v4[536862723] = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::AvatarCostumeExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::AvatarCostumeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCostumeExcelConfig = v5;
@@ -234,7 +234,7 @@ void __cdecl data::AvatarCostumeExcelConfig::AvatarCostumeExcelConfig(
   const data::AvatarCostumeExcelConfig *v30; // [rsp+0h] [rbp-20h]
 
   v30 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCostumeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCostumeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarCostumeExcelConfig = v2;
@@ -366,7 +366,7 @@ void __cdecl data::AvatarCostumeExcelConfig::~AvatarCostumeExcelConfig(data::Ava
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCostumeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCostumeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCostumeExcelConfig = v2;
@@ -401,7 +401,7 @@ void __cdecl data::AvatarReplaceCostumeExcelConfig::AvatarReplaceCostumeExcelCon
   const data::AvatarReplaceCostumeExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarReplaceCostumeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarReplaceCostumeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarReplaceCostumeExcelConfig = v2;
@@ -441,7 +441,7 @@ void __cdecl data::AvatarReplaceCostumeExcelConfig::~AvatarReplaceCostumeExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarReplaceCostumeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarReplaceCostumeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarReplaceCostumeExcelConfig = v2;

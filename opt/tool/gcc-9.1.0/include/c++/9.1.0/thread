@@ -66,7 +66,7 @@ void __fastcall std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_
     __asan_report_store8();
     JUMPOUT(0x14E6F141LL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<int (AsyncTaskMgr::*)(unsigned int) ()(AsyncTaskMgr*,unsigned int)>>>>
+  *(_QWORD *)this->baseclass_0 = &`vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<int (AsyncTaskMgr::*)(unsigned int) ()(AsyncTaskMgr*,unsigned int)>>>>
                                + 2;
   std::thread::_State::~_State((std::thread::_State *)this);
 };
@@ -80,7 +80,7 @@ void __fastcall std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_
     __asan_report_store8();
     JUMPOUT(0x14E38E25LL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (MonitorReport::*)(void) ()(MonitorReport*)>>>>
+  *(_QWORD *)this->baseclass_0 = &`vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (MonitorReport::*)(void) ()(MonitorReport*)>>>>
                                + 2;
   std::thread::_State::~_State((std::thread::_State *)this);
 };
@@ -94,7 +94,7 @@ void __fastcall std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_
     __asan_report_store8();
     JUMPOUT(0x14E61401LL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (ServiceBase::*)(unsigned int) ()(ServiceBase*,unsigned int)>>>>
+  *(_QWORD *)this->baseclass_0 = &`vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (ServiceBase::*)(unsigned int) ()(ServiceBase*,unsigned int)>>>>
                                + 2;
   std::thread::_State::~_State((std::thread::_State *)this);
 };

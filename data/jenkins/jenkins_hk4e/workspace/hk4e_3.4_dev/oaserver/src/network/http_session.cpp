@@ -6,7 +6,7 @@ void __cdecl HttpSession::HttpSession(HttpSession *const this, boost::asio::io_c
   int (**v2)(...); // rdx
 
   common::minet::AServerSession::AServerSession(this, ioc);
-  v2 = (int (**)(...))(&`vtable for'HttpSession + 2);
+  v2 = (int (**)(...))(&`vtable for HttpSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, ioc);
   this->_vptr_AServerSession = v2;

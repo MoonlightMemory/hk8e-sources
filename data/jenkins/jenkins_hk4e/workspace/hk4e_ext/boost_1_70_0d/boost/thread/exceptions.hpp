@@ -18,7 +18,7 @@ void __cdecl boost::thread_exception::thread_exception(
   v4 = *(_QWORD *)&ec.val_;
   cat = ec.cat_;
   boost::system::system_error::system_error(this, *(boost::system::error_code *)&v4, what_arg);
-  v6 = &`vtable for'boost::thread_exception + 2;
+  v6 = &`vtable for boost::thread_exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v6;
@@ -29,7 +29,7 @@ void __cdecl boost::thread_exception::~thread_exception(boost::thread_exception 
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::thread_exception + 2;
+  v1 = &`vtable for boost::thread_exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -51,7 +51,7 @@ void __cdecl boost::condition_error::condition_error(
   __int64 *v2; // rdx
 
   boost::system::system_error::system_error(this, a2);
-  v2 = &`vtable for'boost::condition_error + 2;
+  v2 = &`vtable for boost::condition_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -62,7 +62,7 @@ void __cdecl boost::condition_error::~condition_error(boost::condition_error *co
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::condition_error + 2;
+  v1 = &`vtable for boost::condition_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -91,7 +91,7 @@ void __cdecl boost::condition_error::condition_error(boost::condition_error *con
   v4 = *(_QWORD *)&ec.val_;
   cat = ec.cat_;
   boost::system::system_error::system_error(this, *(boost::system::error_code *)&v4, what_arg);
-  v6 = &`vtable for'boost::condition_error + 2;
+  v6 = &`vtable for boost::condition_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v6;
@@ -103,7 +103,7 @@ void __cdecl boost::lock_error::lock_error(boost::lock_error *const this, const 
   __int64 *v2; // rdx
 
   boost::thread_exception::thread_exception(this, a2);
-  v2 = &`vtable for'boost::lock_error + 2;
+  v2 = &`vtable for boost::lock_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -115,7 +115,7 @@ void __cdecl boost::lock_error::lock_error(boost::lock_error *const this, int ev
   __int64 *v3; // rdx
 
   boost::thread_exception::thread_exception(this, ev, what_arg);
-  v3 = &`vtable for'boost::lock_error + 2;
+  v3 = &`vtable for boost::lock_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
@@ -133,7 +133,7 @@ void __cdecl boost::lock_error::~lock_error(boost::lock_error *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::lock_error + 2;
+  v1 = &`vtable for boost::lock_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -148,7 +148,7 @@ void __cdecl boost::thread_resource_error::thread_resource_error(
   __int64 *v2; // rdx
 
   boost::thread_exception::thread_exception(this, a2);
-  v2 = &`vtable for'boost::thread_resource_error + 2;
+  v2 = &`vtable for boost::thread_resource_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -160,7 +160,7 @@ void __cdecl boost::thread_resource_error::thread_resource_error(boost::thread_r
   __int64 *v1; // rdx
 
   boost::thread_exception::thread_exception(this, 11, "boost::thread_resource_error");
-  v1 = &`vtable for'boost::thread_resource_error + 2;
+  v1 = &`vtable for boost::thread_resource_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -175,7 +175,7 @@ void __cdecl boost::thread_resource_error::thread_resource_error(
   __int64 *v3; // rdx
 
   boost::thread_exception::thread_exception(this, ev, what_arg);
-  v3 = &`vtable for'boost::thread_resource_error + 2;
+  v3 = &`vtable for boost::thread_resource_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
@@ -186,7 +186,7 @@ void __cdecl boost::thread_resource_error::~thread_resource_error(boost::thread_
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::thread_resource_error + 2;
+  v1 = &`vtable for boost::thread_resource_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -208,7 +208,7 @@ void __cdecl boost::thread_exception::thread_exception(
   __int64 *v2; // rdx
 
   boost::system::system_error::system_error(this, a2);
-  v2 = &`vtable for'boost::thread_exception + 2;
+  v2 = &`vtable for boost::thread_exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;

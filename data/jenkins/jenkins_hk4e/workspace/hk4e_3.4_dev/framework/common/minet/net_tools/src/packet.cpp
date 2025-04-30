@@ -1027,7 +1027,7 @@ LABEL_51:
     __asan_report_store8(v16, *(_QWORD *)&cmd_id);
     goto LABEL_52;
   }
-  *(_QWORD *)v16 = &`vtable for'std::_Sp_counted_ptr<google::protobuf::Message *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v16 = &`vtable for std::_Sp_counted_ptr<google::protobuf::Message *,(__gnu_cxx::_Lock_policy)2> + 2;
   p_M_refcount = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)(v16 + 16);
   if ( *(_BYTE *)(((v16 + 16) >> 3) + 0x7FFF8000) )
   {

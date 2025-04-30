@@ -36,7 +36,7 @@ void __fastcall google::protobuf::internal::MapField<proto::PacketHead::PacketHe
   }
   else
   {
-    this->_vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
+    this->_vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>
                                              + 2);
     p_map = (unsigned __int64)&this->impl_.map_;
     google::protobuf::Map<unsigned int,unsigned int>::clear(&this->impl_.map_);
@@ -269,7 +269,7 @@ LABEL_4:
   }
   else
   {
-    this->_vptr_MapFieldBase = (int (**)(...))(&`vtable for'google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
+    this->_vptr_MapFieldBase = (int (**)(...))(&`vtable for google::protobuf::internal::TypeDefinedMapFieldBase<unsigned int,unsigned int>
                                              + 2);
     google::protobuf::internal::MapFieldBase::~MapFieldBase(this);
   }

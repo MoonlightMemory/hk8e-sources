@@ -6,7 +6,7 @@ void __cdecl EnvAnimalExcelConfigMgr::EnvAnimalExcelConfigMgr(EnvAnimalExcelConf
   int (**v1)(...); // rdx
 
   data::EnvAnimalExcelConfigMgrBase::EnvAnimalExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'EnvAnimalExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for EnvAnimalExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EnvAnimalExcelConfigMgrBase = v1;
@@ -19,7 +19,7 @@ void __cdecl EnvAnimalExcelConfigMgr::~EnvAnimalExcelConfigMgr(EnvAnimalExcelCon
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EnvAnimalExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for EnvAnimalExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EnvAnimalExcelConfigMgrBase = v1;

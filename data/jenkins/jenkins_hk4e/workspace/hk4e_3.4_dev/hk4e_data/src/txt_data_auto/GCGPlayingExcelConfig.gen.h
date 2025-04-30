@@ -49,7 +49,7 @@ void __cdecl data::GCGChallengeReward::GCGChallengeReward(data::GCGChallengeRewa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGChallengeReward = v2;
@@ -81,7 +81,7 @@ void __cdecl data::GCGChallengeReward::GCGChallengeReward(
   const data::GCGChallengeReward *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGChallengeReward = v2;
@@ -127,7 +127,7 @@ void __cdecl data::GCGChallengeReward::~GCGChallengeReward(data::GCGChallengeRew
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGChallengeReward = v2;
@@ -164,7 +164,7 @@ void __cdecl data::GCGLevelCond::GCGLevelCond(data::GCGLevelCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGLevelCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGLevelCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGLevelCond = v2;
@@ -186,7 +186,7 @@ void __cdecl data::GCGLevelCond::GCGLevelCond(data::GCGLevelCond *const this, co
   const data::GCGLevelCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGLevelCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGLevelCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGLevelCond = v2;
@@ -219,7 +219,7 @@ void __cdecl data::GCGLevelCond::~GCGLevelCond(data::GCGLevelCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGLevelCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGLevelCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGLevelCond = v2;
@@ -235,7 +235,7 @@ void __cdecl data::GCGGameRewardExcelConfig::GCGGameRewardExcelConfig(data::GCGG
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameRewardExcelConfig = v2;
@@ -290,7 +290,7 @@ void __cdecl data::GCGGameRewardExcelConfig::GCGGameRewardExcelConfig(
   const data::GCGGameRewardExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGGameRewardExcelConfig = v2;
@@ -364,7 +364,7 @@ void __cdecl data::GCGGameRewardExcelConfig::~GCGGameRewardExcelConfig(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameRewardExcelConfig = v2;
@@ -380,7 +380,7 @@ void __cdecl data::GCGChallengeExcelConfig::GCGChallengeExcelConfig(data::GCGCha
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGChallengeExcelConfig = v2;
@@ -430,7 +430,7 @@ void __cdecl data::GCGChallengeExcelConfig::GCGChallengeExcelConfig(
   const data::GCGChallengeExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGChallengeExcelConfig = v2;
@@ -496,7 +496,7 @@ void __cdecl data::GCGChallengeExcelConfig::~GCGChallengeExcelConfig(data::GCGCh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGChallengeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGChallengeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGChallengeExcelConfig = v2;
@@ -560,7 +560,7 @@ void __cdecl data::GCGCharacterDynamicLevel::GCGCharacterDynamicLevel(data::GCGC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterDynamicLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterDynamicLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCharacterDynamicLevel = v2;
@@ -592,7 +592,7 @@ void __cdecl data::GCGCharacterDynamicLevel::GCGCharacterDynamicLevel(
   const data::GCGCharacterDynamicLevel *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterDynamicLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterDynamicLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGCharacterDynamicLevel = v2;
@@ -631,7 +631,7 @@ void __cdecl data::GCGCharacterDynamicLevel::~GCGCharacterDynamicLevel(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterDynamicLevel + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterDynamicLevel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCharacterDynamicLevel = v2;
@@ -653,7 +653,7 @@ void __cdecl data::GCGCharacterLevelExcelConfig::GCGCharacterLevelExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCharacterLevelExcelConfig = v2;
@@ -729,7 +729,7 @@ void __cdecl data::GCGCharacterLevelExcelConfig::GCGCharacterLevelExcelConfig(
   const data::GCGCharacterLevelExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGCharacterLevelExcelConfig = v2;
@@ -834,7 +834,7 @@ void __cdecl data::GCGCharacterLevelExcelConfig::~GCGCharacterLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCharacterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCharacterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCharacterLevelExcelConfig = v2;
@@ -856,7 +856,7 @@ void __cdecl data::GCGScenePointExcelConfig::GCGScenePointExcelConfig(data::GCGS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGScenePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGScenePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGScenePointExcelConfig = v2;
@@ -889,7 +889,7 @@ void __cdecl data::GCGScenePointExcelConfig::GCGScenePointExcelConfig(
   const data::GCGScenePointExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGScenePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGScenePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGScenePointExcelConfig = v2;
@@ -929,7 +929,7 @@ void __cdecl data::GCGScenePointExcelConfig::~GCGScenePointExcelConfig(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGScenePointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGScenePointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGScenePointExcelConfig = v2;
@@ -950,7 +950,7 @@ void __cdecl data::GCGSceneDistributionExcelConfig::GCGSceneDistributionExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneDistributionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneDistributionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGSceneDistributionExcelConfig = v2;
@@ -993,7 +993,7 @@ void __cdecl data::GCGSceneDistributionExcelConfig::GCGSceneDistributionExcelCon
   const data::GCGSceneDistributionExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneDistributionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneDistributionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGSceneDistributionExcelConfig = v2;
@@ -1049,7 +1049,7 @@ void __cdecl data::GCGSceneDistributionExcelConfig::~GCGSceneDistributionExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneDistributionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneDistributionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGSceneDistributionExcelConfig = v2;
@@ -1073,7 +1073,7 @@ void __cdecl data::GCGSceneConstNpcExcelConfig::GCGSceneConstNpcExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneConstNpcExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneConstNpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGSceneConstNpcExcelConfig = v2;
@@ -1124,7 +1124,7 @@ void __cdecl data::GCGSceneConstNpcExcelConfig::GCGSceneConstNpcExcelConfig(
   const data::GCGSceneConstNpcExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneConstNpcExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneConstNpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGSceneConstNpcExcelConfig = v2;
@@ -1192,7 +1192,7 @@ void __cdecl data::GCGSceneConstNpcExcelConfig::~GCGSceneConstNpcExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGSceneConstNpcExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGSceneConstNpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGSceneConstNpcExcelConfig = v2;
@@ -1213,7 +1213,7 @@ void __cdecl data::GCGWeekLevelCondConfig::GCGWeekLevelCondConfig(data::GCGWeekL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekLevelCondConfig = v2;
@@ -1245,7 +1245,7 @@ void __cdecl data::GCGWeekLevelCondConfig::GCGWeekLevelCondConfig(
   const data::GCGWeekLevelCondConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGWeekLevelCondConfig = v2;
@@ -1291,7 +1291,7 @@ void __cdecl data::GCGWeekLevelCondConfig::~GCGWeekLevelCondConfig(data::GCGWeek
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekLevelCondConfig = v2;
@@ -1305,7 +1305,7 @@ void __cdecl data::GCGWeekLevelExcelConfig::GCGWeekLevelExcelConfig(data::GCGWee
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekLevelExcelConfig = v2;
@@ -1373,7 +1373,7 @@ void __cdecl data::GCGWeekLevelExcelConfig::GCGWeekLevelExcelConfig(
   const data::GCGWeekLevelExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGWeekLevelExcelConfig = v2;
@@ -1471,7 +1471,7 @@ void __cdecl data::GCGWeekLevelExcelConfig::~GCGWeekLevelExcelConfig(data::GCGWe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekLevelExcelConfig = v2;
@@ -1485,7 +1485,7 @@ void __cdecl data::GCGWeekNpcRefreshConfig::GCGWeekNpcRefreshConfig(data::GCGWee
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekNpcRefreshConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekNpcRefreshConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekNpcRefreshConfig = v2;
@@ -1508,7 +1508,7 @@ void __cdecl data::GCGWeekNpcRefreshConfig::GCGWeekNpcRefreshConfig(
   uint32_t weight; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekNpcRefreshConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekNpcRefreshConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGWeekNpcRefreshConfig = v2;
@@ -1542,7 +1542,7 @@ void __cdecl data::GCGWeekNpcRefreshConfig::~GCGWeekNpcRefreshConfig(data::GCGWe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekNpcRefreshConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekNpcRefreshConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekNpcRefreshConfig = v2;
@@ -1556,7 +1556,7 @@ void __cdecl data::GCGWeekRefreshExcelConfig::GCGWeekRefreshExcelConfig(data::GC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekRefreshExcelConfig = v2;
@@ -1598,7 +1598,7 @@ void __cdecl data::GCGWeekRefreshExcelConfig::GCGWeekRefreshExcelConfig(
   const data::GCGWeekRefreshExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGWeekRefreshExcelConfig = v2;
@@ -1658,7 +1658,7 @@ void __cdecl data::GCGWeekRefreshExcelConfig::~GCGWeekRefreshExcelConfig(data::G
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWeekRefreshExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWeekRefreshExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWeekRefreshExcelConfig = v2;
@@ -1673,7 +1673,7 @@ void __cdecl data::GCGMatchExcelConfig::GCGMatchExcelConfig(data::GCGMatchExcelC
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchExcelConfig = v2;
@@ -1753,7 +1753,7 @@ void __cdecl data::GCGMatchExcelConfig::GCGMatchExcelConfig(
   const data::GCGMatchExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGMatchExcelConfig = v2;
@@ -1870,7 +1870,7 @@ void __cdecl data::GCGMatchExcelConfig::~GCGMatchExcelConfig(data::GCGMatchExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchExcelConfig = v2;
@@ -1891,7 +1891,7 @@ void __cdecl data::GCGMatchRankExcelConfig::GCGMatchRankExcelConfig(data::GCGMat
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchRankExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchRankExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchRankExcelConfig = v2;
@@ -2049,7 +2049,7 @@ void __cdecl data::GCGMatchRankExcelConfig::GCGMatchRankExcelConfig(
   const data::GCGMatchRankExcelConfig *v42; // [rsp+0h] [rbp-20h]
 
   v42 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchRankExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchRankExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGMatchRankExcelConfig = v2;
@@ -2282,7 +2282,7 @@ void __cdecl data::GCGMatchRankExcelConfig::~GCGMatchRankExcelConfig(data::GCGMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchRankExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchRankExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchRankExcelConfig = v2;
@@ -2328,7 +2328,7 @@ void __cdecl data::GCGTalkExcelConfig::GCGTalkExcelConfig(
   const data::GCGTalkExcelConfig *v30; // [rsp+0h] [rbp-10h]
 
   v30 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGTalkExcelConfig = v2;
@@ -2489,7 +2489,7 @@ void __cdecl data::GCGTalkExcelConfig::~GCGTalkExcelConfig(data::GCGTalkExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGTalkExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGTalkExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGTalkExcelConfig = v2;
@@ -2511,7 +2511,7 @@ void __cdecl data::GCGTalkDetailExcelConfig::GCGTalkDetailExcelConfig(
   uint32_t talk_detail_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGTalkDetailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGTalkDetailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGTalkDetailExcelConfig = v2;
@@ -2543,7 +2543,7 @@ void __cdecl data::GCGTalkDetailExcelConfig::~GCGTalkDetailExcelConfig(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGTalkDetailExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGTalkDetailExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGTalkDetailExcelConfig = v2;
@@ -2570,7 +2570,7 @@ void __cdecl data::GCGWorldLevelExcelConfig::GCGWorldLevelExcelConfig(
   const data::GCGWorldLevelExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGWorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGWorldLevelExcelConfig = v2;
@@ -2649,7 +2649,7 @@ void __cdecl data::GCGWorldLevelExcelConfig::~GCGWorldLevelExcelConfig(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGWorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGWorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGWorldLevelExcelConfig = v2;
@@ -2683,7 +2683,7 @@ void __cdecl data::GCGBossLevelExcelConfig::GCGBossLevelExcelConfig(
   const data::GCGBossLevelExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGBossLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGBossLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGBossLevelExcelConfig = v2;
@@ -2769,7 +2769,7 @@ void __cdecl data::GCGBossLevelExcelConfig::~GCGBossLevelExcelConfig(data::GCGBo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGBossLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGBossLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGBossLevelExcelConfig = v2;
@@ -2781,7 +2781,7 @@ void __cdecl data::GCGGameGroupExcelConfig::GCGGameGroupExcelConfig(data::GCGGam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameGroupExcelConfig = v2;
@@ -2806,7 +2806,7 @@ void __cdecl data::GCGGameGroupExcelConfig::GCGGameGroupExcelConfig(
   const data::GCGGameGroupExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGGameGroupExcelConfig = v2;
@@ -2833,7 +2833,7 @@ void __cdecl data::GCGGameGroupExcelConfig::~GCGGameGroupExcelConfig(data::GCGGa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGGameGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGGameGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameGroupExcelConfig = v2;
@@ -2862,7 +2862,7 @@ void __cdecl data::GCGQuestLevelExcelConfig::GCGQuestLevelExcelConfig(
   const data::GCGQuestLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGQuestLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGQuestLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGQuestLevelExcelConfig = v2;
@@ -2901,7 +2901,7 @@ void __cdecl data::GCGQuestLevelExcelConfig::~GCGQuestLevelExcelConfig(data::GCG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGQuestLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGQuestLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGQuestLevelExcelConfig = v2;
@@ -2920,7 +2920,7 @@ void __cdecl data::GCGMatchNameExcelConfig::GCGMatchNameExcelConfig(data::GCGMat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchNameExcelConfig = v2;
@@ -2941,7 +2941,7 @@ void __cdecl data::GCGMatchNameExcelConfig::GCGMatchNameExcelConfig(
   const data::GCGMatchNameExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGMatchNameExcelConfig = v2;
@@ -2964,7 +2964,7 @@ void __cdecl data::GCGMatchNameExcelConfig::~GCGMatchNameExcelConfig(data::GCGMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGMatchNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGMatchNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGMatchNameExcelConfig = v2;

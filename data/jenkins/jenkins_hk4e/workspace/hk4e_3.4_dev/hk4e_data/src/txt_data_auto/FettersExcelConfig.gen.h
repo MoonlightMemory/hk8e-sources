@@ -7,7 +7,7 @@ void __cdecl data::FettersExcelConfig::FettersExcelConfig(data::FettersExcelConf
   int (**v2)(...); // rdx
 
   data::FetterConfig::FetterConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::FettersExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FettersExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -23,7 +23,7 @@ void __cdecl data::FettersExcelConfig::FettersExcelConfig(
   int (**v2)(...); // rdx
 
   data::FetterConfig::FetterConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::FettersExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FettersExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterConfig = v2;
@@ -44,7 +44,7 @@ void __cdecl data::FettersExcelConfig::~FettersExcelConfig(data::FettersExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FettersExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FettersExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -60,7 +60,7 @@ void __cdecl data::FetterInfoExcelConfig::FetterInfoExcelConfig(data::FetterInfo
   int (**v2)(...); // rdx
 
   data::FetterConfig::FetterConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::FetterInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -93,7 +93,7 @@ void __cdecl data::FetterInfoExcelConfig::FetterInfoExcelConfig(
 
   v8 = a2;
   data::FetterConfig::FetterConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::FetterInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::FetterInfoExcelConfig::~FetterInfoExcelConfig(data::FetterInf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterInfoExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterInfoExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -153,7 +153,7 @@ void __cdecl data::FetterStoryExcelConfig::FetterStoryExcelConfig(data::FetterSt
   int (**v2)(...); // rdx
 
   data::FetterConfig::FetterConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::FetterStoryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterStoryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -167,7 +167,7 @@ void __cdecl data::FetterStoryExcelConfig::FetterStoryExcelConfig(
   int (**v2)(...); // rdx
 
   data::FetterConfig::FetterConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::FetterStoryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterStoryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterConfig = v2;
@@ -179,7 +179,7 @@ void __cdecl data::FetterStoryExcelConfig::~FetterStoryExcelConfig(data::FetterS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterStoryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterStoryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterConfig = v2;
@@ -209,7 +209,7 @@ void __cdecl data::FetterCharacterCardExcelConfig::FetterCharacterCardExcelConfi
   const data::FetterCharacterCardExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FetterCharacterCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterCharacterCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FetterCharacterCardExcelConfig = v2;
@@ -270,7 +270,7 @@ void __cdecl data::FetterCharacterCardExcelConfig::~FetterCharacterCardExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FetterCharacterCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FetterCharacterCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FetterCharacterCardExcelConfig = v2;

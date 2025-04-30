@@ -6,7 +6,7 @@ void __cdecl data::TowerSchedule::TowerSchedule(data::TowerSchedule *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerSchedule + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerSchedule + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerSchedule = v2;
@@ -28,7 +28,7 @@ void __cdecl data::TowerSchedule::TowerSchedule(data::TowerSchedule *const this,
   uint32_t open_timestamp; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerSchedule + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerSchedule + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerSchedule = v2;
@@ -56,7 +56,7 @@ void __cdecl data::TowerSchedule::~TowerSchedule(data::TowerSchedule *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerSchedule + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerSchedule + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerSchedule = v2;
@@ -143,7 +143,7 @@ void __cdecl data::TowerStarReward::TowerStarReward(data::TowerStarReward *const
   const data::TowerStarReward *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerStarReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerStarReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerStarReward = v2;
@@ -202,7 +202,7 @@ void __cdecl data::TowerStarReward::~TowerStarReward(data::TowerStarReward *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerStarReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerStarReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerStarReward = v2;
@@ -215,7 +215,7 @@ void __cdecl data::TowerScheduleExcelConfig::TowerScheduleExcelConfig(data::Towe
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerScheduleExcelConfig = v2;
@@ -278,7 +278,7 @@ void __cdecl data::TowerScheduleExcelConfig::TowerScheduleExcelConfig(
   const data::TowerScheduleExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerScheduleExcelConfig = v2;
@@ -362,7 +362,7 @@ void __cdecl data::TowerScheduleExcelConfig::~TowerScheduleExcelConfig(data::Tow
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerScheduleExcelConfig = v2;
@@ -404,7 +404,7 @@ void __cdecl data::TowerFloorExcelConfig::TowerFloorExcelConfig(
   const data::TowerFloorExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerFloorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerFloorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerFloorExcelConfig = v2;
@@ -518,7 +518,7 @@ void __cdecl data::TowerFloorExcelConfig::~TowerFloorExcelConfig(data::TowerFloo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerFloorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerFloorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerFloorExcelConfig = v2;
@@ -575,7 +575,7 @@ void __cdecl data::TowerCondition::TowerCondition(data::TowerCondition *const th
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerCondition = v2;
@@ -607,7 +607,7 @@ void __cdecl data::TowerCondition::TowerCondition(data::TowerCondition *const th
   const data::TowerCondition *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerCondition = v2;
@@ -648,7 +648,7 @@ void __cdecl data::TowerCondition::~TowerCondition(data::TowerCondition *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerCondition = v2;
@@ -675,7 +675,7 @@ void __cdecl data::TowerBuff::TowerBuff(data::TowerBuff *const this, const data:
   const data::TowerBuff *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuff + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuff + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerBuff = v2;
@@ -721,7 +721,7 @@ void __cdecl data::TowerBuff::~TowerBuff(data::TowerBuff *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuff + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuff + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerBuff = v2;
@@ -733,7 +733,7 @@ void __cdecl data::TowerBuffConfig::TowerBuffConfig(data::TowerBuffConfig *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerBuffConfig = v2;
@@ -745,7 +745,7 @@ void __cdecl data::TowerBuffConfig::TowerBuffConfig(data::TowerBuffConfig *const
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerBuffConfig = v2;
@@ -765,7 +765,7 @@ void __cdecl data::TowerBuffConfig::~TowerBuffConfig(data::TowerBuffConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuffConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuffConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerBuffConfig = v2;
@@ -780,7 +780,7 @@ void __cdecl data::TowerLevelExcelConfig::TowerLevelExcelConfig(data::TowerLevel
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerLevelExcelConfig = v2;
@@ -852,7 +852,7 @@ void __cdecl data::TowerLevelExcelConfig::TowerLevelExcelConfig(
   const data::TowerLevelExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerLevelExcelConfig = v2;
@@ -949,7 +949,7 @@ void __cdecl data::TowerLevelExcelConfig::~TowerLevelExcelConfig(data::TowerLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerLevelExcelConfig = v2;
@@ -981,7 +981,7 @@ void __cdecl data::TowerBuffExcelConfig::TowerBuffExcelConfig(
   const data::TowerBuffExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerBuffExcelConfig = v2;
@@ -1040,7 +1040,7 @@ void __cdecl data::TowerBuffExcelConfig::~TowerBuffExcelConfig(data::TowerBuffEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerBuffExcelConfig = v2;
@@ -1060,7 +1060,7 @@ void __cdecl data::TowerSkipFloorExcelConfig::TowerSkipFloorExcelConfig(
   const data::TowerSkipFloorExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerSkipFloorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerSkipFloorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerSkipFloorExcelConfig = v2;
@@ -1106,7 +1106,7 @@ void __cdecl data::TowerSkipFloorExcelConfig::~TowerSkipFloorExcelConfig(data::T
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerSkipFloorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerSkipFloorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerSkipFloorExcelConfig = v2;
@@ -1212,7 +1212,7 @@ void __cdecl data::TowerRewardExcelConfig::TowerRewardExcelConfig(data::TowerRew
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerRewardExcelConfig = v2;
@@ -1273,7 +1273,7 @@ void __cdecl data::TowerRewardExcelConfig::TowerRewardExcelConfig(
   const data::TowerRewardExcelConfig *v15; // [rsp+0h] [rbp-20h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TowerRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TowerRewardExcelConfig = v2;
@@ -1361,7 +1361,7 @@ void __cdecl data::TowerRewardExcelConfig::~TowerRewardExcelConfig(data::TowerRe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TowerRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TowerRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TowerRewardExcelConfig = v2;

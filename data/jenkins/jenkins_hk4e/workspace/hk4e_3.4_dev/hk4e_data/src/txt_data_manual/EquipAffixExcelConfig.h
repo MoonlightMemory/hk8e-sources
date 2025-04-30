@@ -6,7 +6,7 @@ void __cdecl EquipAffixExcelConfigMgr::EquipAffixExcelConfigMgr(EquipAffixExcelC
   int (**v1)(...); // rdx
 
   data::EquipAffixExcelConfigMgrBase::EquipAffixExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'EquipAffixExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for EquipAffixExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EquipAffixExcelConfigMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl EquipAffixExcelConfigMgr::~EquipAffixExcelConfigMgr(EquipAffixExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EquipAffixExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for EquipAffixExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_EquipAffixExcelConfigMgrBase = v1;

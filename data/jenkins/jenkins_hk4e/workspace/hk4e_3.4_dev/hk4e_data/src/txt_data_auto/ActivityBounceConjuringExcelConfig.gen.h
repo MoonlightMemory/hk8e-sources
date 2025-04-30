@@ -16,7 +16,7 @@ void __cdecl data::BounceConjuringPreviewExcelConfig::BounceConjuringPreviewExce
   const data::BounceConjuringPreviewExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BounceConjuringPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BounceConjuringPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BounceConjuringPreviewExcelConfig = v2;
@@ -69,7 +69,7 @@ void __cdecl data::BounceConjuringPreviewExcelConfig::~BounceConjuringPreviewExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BounceConjuringPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BounceConjuringPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BounceConjuringPreviewExcelConfig = v2;
@@ -92,7 +92,7 @@ void __cdecl data::BounceConjuringChapterExcelConfig::BounceConjuringChapterExce
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::BounceConjuringChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BounceConjuringChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BounceConjuringChapterExcelConfig = v2;
@@ -152,7 +152,7 @@ void __cdecl data::BounceConjuringChapterExcelConfig::BounceConjuringChapterExce
   const data::BounceConjuringChapterExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BounceConjuringChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BounceConjuringChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BounceConjuringChapterExcelConfig = v2;
@@ -233,7 +233,7 @@ void __cdecl data::BounceConjuringChapterExcelConfig::~BounceConjuringChapterExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BounceConjuringChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BounceConjuringChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BounceConjuringChapterExcelConfig = v2;

@@ -5,7 +5,7 @@ void __cdecl GCGExecEffectDamage::~GCGExecEffectDamage(GCGExecEffectDamage *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDamage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -28,7 +28,7 @@ void __cdecl ZN19GCGExecEffectDamageCI213GCGEffectBaseESt10shared_ptrIN4data15Co
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDamage + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -52,7 +52,7 @@ void __cdecl GCGExecEffectCreateCard::~GCGExecEffectCreateCard(GCGExecEffectCrea
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectCreateCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectCreateCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -68,7 +68,7 @@ void __cdecl ZN23GCGExecEffectCreateCardCI213GCGEffectBaseESt10shared_ptrIN4data
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectCreateCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectCreateCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -92,7 +92,7 @@ void __cdecl GCGExecEffectCreateModifyCard::~GCGExecEffectCreateModifyCard(GCGEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectCreateModifyCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectCreateModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -108,7 +108,7 @@ void __cdecl ZN29GCGExecEffectCreateModifyCardCI213GCGEffectBaseESt10shared_ptrI
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectCreateModifyCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectCreateModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -125,7 +125,7 @@ void __cdecl GCGExecEffectGenDice::~GCGExecEffectGenDice(GCGExecEffectGenDice *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectGenDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectGenDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -148,7 +148,7 @@ void __cdecl ZN20GCGExecEffectGenDiceCI213GCGEffectBaseESt10shared_ptrIN4data15C
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectGenDice + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectGenDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -172,7 +172,7 @@ void __cdecl GCGExecEffectChangeCardVar::~GCGExecEffectChangeCardVar(GCGExecEffe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectChangeCardVar + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectChangeCardVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -188,7 +188,7 @@ void __cdecl ZN26GCGExecEffectChangeCardVarCI213GCGEffectBaseESt10shared_ptrIN4d
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectChangeCardVar + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectChangeCardVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -212,7 +212,7 @@ void __cdecl GCGExecEffectDamageRevise::~GCGExecEffectDamageRevise(GCGExecEffect
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDamageRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDamageRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -228,7 +228,7 @@ void __cdecl ZN25GCGExecEffectDamageReviseCI213GCGEffectBaseESt10shared_ptrIN4da
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDamageRevise + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDamageRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -254,7 +254,7 @@ void __cdecl GCGEffectFixRerollDiceToSpecialType::~GCGEffectFixRerollDiceToSpeci
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectFixRerollDiceToSpecialType + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectFixRerollDiceToSpecialType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -270,7 +270,7 @@ void __cdecl ZN35GCGEffectFixRerollDiceToSpecialTypeCI213GCGEffectBaseESt10share
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectFixRerollDiceToSpecialType + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectFixRerollDiceToSpecialType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -288,7 +288,7 @@ void __cdecl GCGEffectSkillUseCostRevise::~GCGEffectSkillUseCostRevise(GCGEffect
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectSkillUseCostRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectSkillUseCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -311,7 +311,7 @@ void __cdecl ZN27GCGEffectSkillUseCostReviseCI213GCGEffectBaseESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectSkillUseCostRevise + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectSkillUseCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -334,7 +334,7 @@ void __cdecl GCGEffectPlayCardCostRevise::~GCGEffectPlayCardCostRevise(GCGEffect
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectPlayCardCostRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectPlayCardCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -357,7 +357,7 @@ void __cdecl ZN27GCGEffectPlayCardCostReviseCI213GCGEffectBaseESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectPlayCardCostRevise + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectPlayCardCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -380,7 +380,7 @@ void __cdecl GCGEffectPayByCardTag::~GCGEffectPayByCardTag(GCGEffectPayByCardTag
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectPayByCardTag + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectPayByCardTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -403,7 +403,7 @@ void __cdecl ZN21GCGEffectPayByCardTagCI213GCGEffectBaseESt10shared_ptrIN4data15
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectPayByCardTag + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectPayByCardTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -433,7 +433,7 @@ void __cdecl GCGExecEffectCharge::~GCGExecEffectCharge(GCGExecEffectCharge *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectCharge + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectCharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -449,7 +449,7 @@ void __cdecl ZN19GCGExecEffectChargeCI213GCGEffectBaseESt10shared_ptrIN4data15Co
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectCharge + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectCharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -475,7 +475,7 @@ void __cdecl GCGExecEffectChangeOnstageCharater::~GCGExecEffectChangeOnstageChar
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectChangeOnstageCharater + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectChangeOnstageCharater + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -491,7 +491,7 @@ void __cdecl ZN34GCGExecEffectChangeOnstageCharaterCI213GCGEffectBaseESt10shared
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectChangeOnstageCharater + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectChangeOnstageCharater + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -516,7 +516,7 @@ void __cdecl GCGExecEffectDraw::~GCGExecEffectDraw(GCGExecEffectDraw *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -532,7 +532,7 @@ void __cdecl ZN17GCGExecEffectDrawCI213GCGEffectBaseESt10shared_ptrIN4data15Conf
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDraw + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -558,7 +558,7 @@ void __cdecl GCGEffectAttachPhysicDamageToElement::~GCGEffectAttachPhysicDamageT
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectAttachPhysicDamageToElement + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectAttachPhysicDamageToElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -574,7 +574,7 @@ void __cdecl ZN36GCGEffectAttachPhysicDamageToElementCI213GCGEffectBaseESt10shar
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectAttachPhysicDamageToElement + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectAttachPhysicDamageToElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -592,7 +592,7 @@ void __cdecl GCGEffectAddShield::~GCGEffectAddShield(GCGEffectAddShield *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectAddShield + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectAddShield + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -615,7 +615,7 @@ void __cdecl ZN18GCGEffectAddShieldCI213GCGEffectBaseESt10shared_ptrIN4data15Con
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectAddShield + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectAddShield + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -632,7 +632,7 @@ void __cdecl GCGExecEffectDamageMultiple::~GCGExecEffectDamageMultiple(GCGExecEf
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDamageMultiple + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDamageMultiple + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -655,7 +655,7 @@ void __cdecl ZN27GCGExecEffectDamageMultipleCI213GCGEffectBaseESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDamageMultiple + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDamageMultiple + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -673,7 +673,7 @@ void __cdecl GCGEffectBeingHitDamageReduceToHalf::~GCGEffectBeingHitDamageReduce
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectBeingHitDamageReduceToHalf + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectBeingHitDamageReduceToHalf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -697,7 +697,7 @@ void __cdecl ZN35GCGEffectBeingHitDamageReduceToHalfCI213GCGEffectBaseESt10share
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectBeingHitDamageReduceToHalf + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectBeingHitDamageReduceToHalf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -716,7 +716,7 @@ void __cdecl GCGEffectChangeCharacterSetQuick::~GCGEffectChangeCharacterSetQuick
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterSetQuick + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterSetQuick + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -740,7 +740,7 @@ void __cdecl ZN32GCGEffectChangeCharacterSetQuickCI213GCGEffectBaseESt10shared_p
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterSetQuick + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterSetQuick + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -758,7 +758,7 @@ void __cdecl GCGExecEffectHeal::~GCGExecEffectHeal(GCGExecEffectHeal *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectHeal + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectHeal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -781,7 +781,7 @@ void __cdecl ZN17GCGExecEffectHealCI213GCGEffectBaseESt10shared_ptrIN4data15Conf
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectHeal + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectHeal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -805,7 +805,7 @@ void __cdecl GCGEffectRerollReviseCost::~GCGEffectRerollReviseCost(GCGEffectRero
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectRerollReviseCost + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectRerollReviseCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -821,7 +821,7 @@ void __cdecl ZN25GCGEffectRerollReviseCostCI213GCGEffectBaseESt10shared_ptrIN4da
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectRerollReviseCost + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectRerollReviseCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -838,7 +838,7 @@ void __cdecl GCGExecEffectRandomCreateCard::~GCGExecEffectRandomCreateCard(GCGEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectRandomCreateCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectRandomCreateCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -861,7 +861,7 @@ void __cdecl ZN29GCGExecEffectRandomCreateCardCI213GCGEffectBaseESt10shared_ptrI
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectRandomCreateCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectRandomCreateCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -879,7 +879,7 @@ void __cdecl GCGEffectChangeCharacterReviseCost::~GCGEffectChangeCharacterRevise
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterReviseCost + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterReviseCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -903,7 +903,7 @@ void __cdecl ZN34GCGEffectChangeCharacterReviseCostCI213GCGEffectBaseESt10shared
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterReviseCost + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterReviseCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -928,7 +928,7 @@ void __cdecl GCGEffectChangeCharacterIncreCost::~GCGEffectChangeCharacterIncreCo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterIncreCost + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterIncreCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -952,7 +952,7 @@ void __cdecl ZN33GCGEffectChangeCharacterIncreCostCI213GCGEffectBaseESt10shared_
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectChangeCharacterIncreCost + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectChangeCharacterIncreCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -985,7 +985,7 @@ void __cdecl GCGEffectOpponentChangeCharacterIncreCost::~GCGEffectOpponentChange
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectOpponentChangeCharacterIncreCost + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectOpponentChangeCharacterIncreCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1001,7 +1001,7 @@ void __cdecl ZN41GCGEffectOpponentChangeCharacterIncreCostCI213GCGEffectBaseESt1
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectOpponentChangeCharacterIncreCost + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectOpponentChangeCharacterIncreCost + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1027,7 +1027,7 @@ void __cdecl GCGExecEffectChangeCardShowTokenVar::~GCGExecEffectChangeCardShowTo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectChangeCardShowTokenVar + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectChangeCardShowTokenVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1051,7 +1051,7 @@ void __cdecl ZN35GCGExecEffectChangeCardShowTokenVarCI213GCGEffectBaseESt10share
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectChangeCardShowTokenVar + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectChangeCardShowTokenVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1078,7 +1078,7 @@ void __cdecl GCGExecEffectOnStageCharacterUseSkill::~GCGExecEffectOnStageCharact
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectOnStageCharacterUseSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectOnStageCharacterUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1094,7 +1094,7 @@ void __cdecl ZN37GCGExecEffectOnStageCharacterUseSkillCI213GCGEffectBaseESt10sha
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectOnStageCharacterUseSkill + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectOnStageCharacterUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1119,7 +1119,7 @@ void __cdecl GCGEffectBeingHitDamageRevise::~GCGEffectBeingHitDamageRevise(GCGEf
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectBeingHitDamageRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectBeingHitDamageRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1135,7 +1135,7 @@ void __cdecl ZN29GCGEffectBeingHitDamageReviseCI213GCGEffectBaseESt10shared_ptrI
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectBeingHitDamageRevise + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectBeingHitDamageRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1152,7 +1152,7 @@ void __cdecl GCGExecEffectDestroyCard::~GCGExecEffectDestroyCard(GCGExecEffectDe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDestroyCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDestroyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1175,7 +1175,7 @@ void __cdecl ZN24GCGExecEffectDestroyCardCI213GCGEffectBaseESt10shared_ptrIN4dat
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDestroyCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDestroyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1193,7 +1193,7 @@ void __cdecl GCGExecEffectDestroyModifyCard::~GCGExecEffectDestroyModifyCard(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectDestroyModifyCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectDestroyModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1217,7 +1217,7 @@ void __cdecl ZN30GCGExecEffectDestroyModifyCardCI213GCGEffectBaseESt10shared_ptr
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectDestroyModifyCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectDestroyModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1235,7 +1235,7 @@ void __cdecl GCGExecEffectTransferEnergy::~GCGExecEffectTransferEnergy(GCGExecEf
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectTransferEnergy + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectTransferEnergy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1258,7 +1258,7 @@ void __cdecl ZN27GCGExecEffectTransferEnergyCI213GCGEffectBaseESt10shared_ptrIN4
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectTransferEnergy + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectTransferEnergy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1282,7 +1282,7 @@ void __cdecl GCGExecEffectRandomGenDice::~GCGExecEffectRandomGenDice(GCGExecEffe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectRandomGenDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectRandomGenDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1298,7 +1298,7 @@ void __cdecl ZN26GCGExecEffectRandomGenDiceCI213GCGEffectBaseESt10shared_ptrIN4d
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectRandomGenDice + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectRandomGenDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1322,7 +1322,7 @@ void __cdecl GCGExecEffectSearchCard::~GCGExecEffectSearchCard(GCGExecEffectSear
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectSearchCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectSearchCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1338,7 +1338,7 @@ void __cdecl ZN23GCGExecEffectSearchCardCI213GCGEffectBaseESt10shared_ptrIN4data
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectSearchCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectSearchCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1362,7 +1362,7 @@ void __cdecl GCGExecEffectAttachElement::~GCGExecEffectAttachElement(GCGExecEffe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectAttachElement + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectAttachElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1378,7 +1378,7 @@ void __cdecl ZN26GCGExecEffectAttachElementCI213GCGEffectBaseESt10shared_ptrIN4d
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectAttachElement + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectAttachElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1404,7 +1404,7 @@ void __cdecl GCGEffectReplaceReactionElementByCardVar::~GCGEffectReplaceReaction
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectReplaceReactionElementByCardVar + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectReplaceReactionElementByCardVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1420,7 +1420,7 @@ void __cdecl ZN40GCGEffectReplaceReactionElementByCardVarCI213GCGEffectBaseESt10
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectReplaceReactionElementByCardVar + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectReplaceReactionElementByCardVar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1447,7 +1447,7 @@ void __cdecl GCGExecEffectTransferModifyCard::~GCGExecEffectTransferModifyCard(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectTransferModifyCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectTransferModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1463,7 +1463,7 @@ void __cdecl ZN31GCGExecEffectTransferModifyCardCI213GCGEffectBaseESt10shared_pt
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectTransferModifyCard + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectTransferModifyCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1488,7 +1488,7 @@ void __cdecl GCGExecEffectReroll::~GCGExecEffectReroll(GCGExecEffectReroll *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1504,7 +1504,7 @@ void __cdecl ZN19GCGExecEffectRerollCI213GCGEffectBaseESt10shared_ptrIN4data15Co
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectReroll + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1528,7 +1528,7 @@ void __cdecl GCGExecEffectSetDamageElement::~GCGExecEffectSetDamageElement(GCGEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectSetDamageElement + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectSetDamageElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1544,7 +1544,7 @@ void __cdecl ZN29GCGExecEffectSetDamageElementCI213GCGEffectBaseESt10shared_ptrI
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectSetDamageElement + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectSetDamageElement + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1561,7 +1561,7 @@ void __cdecl GCGExecEffectAbsorbUnusedDice::~GCGExecEffectAbsorbUnusedDice(GCGEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectAbsorbUnusedDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectAbsorbUnusedDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1584,7 +1584,7 @@ void __cdecl ZN29GCGExecEffectAbsorbUnusedDiceCI213GCGEffectBaseESt10shared_ptrI
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectAbsorbUnusedDice + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectAbsorbUnusedDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1610,7 +1610,7 @@ void __cdecl GCGEffectModifiedCharacterAssignUseSkill::~GCGEffectModifiedCharact
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectModifiedCharacterAssignUseSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectModifiedCharacterAssignUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1626,7 +1626,7 @@ void __cdecl ZN40GCGEffectModifiedCharacterAssignUseSkillCI213GCGEffectBaseESt10
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectModifiedCharacterAssignUseSkill + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectModifiedCharacterAssignUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1651,7 +1651,7 @@ void __cdecl GCGEffectFixRerollDice::~GCGEffectFixRerollDice(GCGEffectFixRerollD
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGEffectFixRerollDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGEffectFixRerollDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1670,7 +1670,7 @@ void __cdecl ZN22GCGEffectFixRerollDiceCI213GCGEffectBaseESt10shared_ptrIN4data1
     this,
     p_,
     a3);
-  v3 = (int (**)(...))(&`vtable for'GCGEffectFixRerollDice + 2);
+  v3 = (int (**)(...))(&`vtable for GCGEffectFixRerollDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1694,7 +1694,7 @@ void __cdecl GCGExecEffectReviveCharacter::~GCGExecEffectReviveCharacter(GCGExec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectReviveCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectReviveCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1710,7 +1710,7 @@ void __cdecl ZN28GCGExecEffectReviveCharacterCI213GCGEffectBaseESt10shared_ptrIN
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectReviveCharacter + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectReviveCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1728,7 +1728,7 @@ void __cdecl GCGExecEffectAdvanceProcessWaitingCharacter::~GCGExecEffectAdvanceP
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectAdvanceProcessWaitingCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectAdvanceProcessWaitingCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1752,7 +1752,7 @@ void __cdecl ZN43GCGExecEffectAdvanceProcessWaitingCharacterCI213GCGEffectBaseES
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectAdvanceProcessWaitingCharacter + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectAdvanceProcessWaitingCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;
@@ -1770,7 +1770,7 @@ void __cdecl GCGExecEffectFinishDuel::~GCGExecEffectFinishDuel(GCGExecEffectFini
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGExecEffectFinishDuel + 2);
+  v1 = (int (**)(...))(&`vtable for GCGExecEffectFinishDuel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v1;
@@ -1793,7 +1793,7 @@ void __cdecl ZN23GCGExecEffectFinishDuelCI213GCGEffectBaseESt10shared_ptrIN4data
   int (**v3)(...); // rdx
 
   GCGEffectBase::GCGEffectBase(this, p_, a3);
-  v3 = (int (**)(...))(&`vtable for'GCGExecEffectFinishDuel + 2);
+  v3 = (int (**)(...))(&`vtable for GCGExecEffectFinishDuel + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGEffectBase = v3;

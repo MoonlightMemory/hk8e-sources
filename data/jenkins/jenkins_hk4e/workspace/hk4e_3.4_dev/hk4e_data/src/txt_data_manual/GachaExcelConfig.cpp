@@ -1029,7 +1029,7 @@ int32_t __cdecl GachaExcelConfigMgr::rewriteGachaRuleConfig(
                   else
                   {
                     *(_WORD *)(((v3 + 288) >> 3) + 0x7FFF8000) = 0;
-                    v49 = &`vtable for'data::GachaGuaranteeParentTypeWeight + 2;
+                    v49 = &`vtable for data::GachaGuaranteeParentTypeWeight + 2;
                     if ( *(_BYTE *)(((v3 + 288) >> 3) + 0x7FFF8000) )
                       __asan_report_store8(v3 + 288, v42);
                     *(_QWORD *)(v3 + 288) = v49;
@@ -1675,7 +1675,7 @@ LABEL_148:
                             v122,
                             v123);
                           *(_WORD *)(((v3 + 320) >> 3) + 0x7FFF8000) = 0;
-                          v124 = &`vtable for'data::GachaGuaranteeParentTypeWeight + 2;
+                          v124 = &`vtable for data::GachaGuaranteeParentTypeWeight + 2;
                           if ( *(_BYTE *)(((v3 + 320) >> 3) + 0x7FFF8000) )
                             __asan_report_store8(v3 + 320, v122);
                           *(_QWORD *)(v3 + 320) = v124;

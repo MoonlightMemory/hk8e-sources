@@ -7,7 +7,7 @@ void __cdecl common::minet::AClientMgr<DispatchConnect>::~AClientMgr(
   int (**v1)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::AClientMgr<DispatchConnect> + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::AClientMgr<DispatchConnect> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientBase = v1;
@@ -32,7 +32,7 @@ void __cdecl common::minet::AClientMgr<GameserverConnect>::~AClientMgr(
   int (**v1)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::AClientMgr<GameserverConnect> + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::AClientMgr<GameserverConnect> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientBase = v1;
@@ -57,7 +57,7 @@ void __cdecl common::minet::AClientMgr<PathfindingserverConnect>::~AClientMgr(
   int (**v1)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::AClientMgr<PathfindingserverConnect> + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::AClientMgr<PathfindingserverConnect> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientBase = v1;
@@ -82,7 +82,7 @@ void __cdecl common::minet::AClientMgr<TothemoonserverConnect>::~AClientMgr(
   int (**v1)(...); // rdx
   boost::asio::io_context *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'common::minet::AClientMgr<TothemoonserverConnect> + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::AClientMgr<TothemoonserverConnect> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientBase = v1;

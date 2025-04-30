@@ -1125,7 +1125,7 @@ void __cdecl boost::bad_function_call::bad_function_call(
   __int64 *v2; // rdx
 
   std::runtime_error::runtime_error((std::runtime_error *)this, (const std::runtime_error *)a2);
-  v2 = &`vtable for'boost::bad_function_call + 2;
+  v2 = &`vtable for boost::bad_function_call + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -1165,7 +1165,7 @@ void __fastcall boost::bad_function_call::~bad_function_call(boost::bad_function
   }
   else
   {
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::bad_function_call + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)this);
   }
 };
@@ -1176,7 +1176,7 @@ void __cdecl boost::bad_function_call::bad_function_call(boost::bad_function_cal
   __int64 *v1; // rdx
 
   std::runtime_error::runtime_error((std::runtime_error *)this, "call to empty boost::function");
-  v1 = &`vtable for'boost::bad_function_call + 2;
+  v1 = &`vtable for boost::bad_function_call + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;

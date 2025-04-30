@@ -6,7 +6,7 @@ void __cdecl data::AvatarCurveExcelConfig::AvatarCurveExcelConfig(data::AvatarCu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCurveExcelConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::AvatarCurveExcelConfig::AvatarCurveExcelConfig(
   const data::AvatarCurveExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarCurveExcelConfig = v2;
@@ -63,7 +63,7 @@ void __cdecl data::AvatarCurveExcelConfig::~AvatarCurveExcelConfig(data::AvatarC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarCurveExcelConfig = v2;
@@ -76,7 +76,7 @@ void __cdecl data::MonsterCurveExcelConfig::MonsterCurveExcelConfig(data::Monste
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -100,7 +100,7 @@ void __cdecl data::MonsterCurveExcelConfig::MonsterCurveExcelConfig(
   const data::MonsterCurveExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MonsterCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -133,7 +133,7 @@ void __cdecl data::MonsterCurveExcelConfig::~MonsterCurveExcelConfig(data::Monst
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MonsterCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MonsterCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -147,7 +147,7 @@ void __cdecl data::PartnerCurveExcelConfig::PartnerCurveExcelConfig(data::Partne
   int (**v2)(...); // rdx
 
   data::MonsterCurveExcelConfig::MonsterCurveExcelConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::PartnerCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PartnerCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -161,7 +161,7 @@ void __cdecl data::PartnerCurveExcelConfig::PartnerCurveExcelConfig(
   int (**v2)(...); // rdx
 
   data::MonsterCurveExcelConfig::MonsterCurveExcelConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::PartnerCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PartnerCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -173,7 +173,7 @@ void __cdecl data::PartnerCurveExcelConfig::~PartnerCurveExcelConfig(data::Partn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PartnerCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PartnerCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MonsterCurveExcelConfig = v2;
@@ -193,7 +193,7 @@ void __cdecl data::GadgetCurveExcelConfig::GadgetCurveExcelConfig(data::GadgetCu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetCurveExcelConfig = v2;
@@ -217,7 +217,7 @@ void __cdecl data::GadgetCurveExcelConfig::GadgetCurveExcelConfig(
   const data::GadgetCurveExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetCurveExcelConfig = v2;
@@ -243,7 +243,7 @@ void __cdecl data::GadgetCurveExcelConfig::~GadgetCurveExcelConfig(data::GadgetC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetCurveExcelConfig = v2;
@@ -263,7 +263,7 @@ void __cdecl data::WeaponCurveExcelConfig::WeaponCurveExcelConfig(data::WeaponCu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponCurveExcelConfig = v2;
@@ -287,7 +287,7 @@ void __cdecl data::WeaponCurveExcelConfig::WeaponCurveExcelConfig(
   const data::WeaponCurveExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeaponCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeaponCurveExcelConfig = v2;
@@ -320,7 +320,7 @@ void __cdecl data::WeaponCurveExcelConfig::~WeaponCurveExcelConfig(data::WeaponC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponCurveExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponCurveExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponCurveExcelConfig = v2;

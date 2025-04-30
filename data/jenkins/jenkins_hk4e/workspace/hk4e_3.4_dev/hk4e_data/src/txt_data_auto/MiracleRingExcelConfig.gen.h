@@ -6,7 +6,7 @@ void __cdecl data::MiracleRingExcelConfig::MiracleRingExcelConfig(data::MiracleR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MiracleRingExcelConfig = v2;
@@ -39,7 +39,7 @@ void __cdecl data::MiracleRingExcelConfig::MiracleRingExcelConfig(
   const data::MiracleRingExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MiracleRingExcelConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::MiracleRingExcelConfig::~MiracleRingExcelConfig(data::Miracle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MiracleRingExcelConfig = v2;
@@ -99,7 +99,7 @@ void __cdecl data::MiracleRingDropExcelConfig::MiracleRingDropExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MiracleRingDropExcelConfig = v2;
@@ -123,7 +123,7 @@ void __cdecl data::MiracleRingDropExcelConfig::MiracleRingDropExcelConfig(
   const data::MiracleRingDropExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MiracleRingDropExcelConfig = v2;
@@ -150,7 +150,7 @@ void __cdecl data::MiracleRingDropExcelConfig::~MiracleRingDropExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MiracleRingDropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MiracleRingDropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MiracleRingDropExcelConfig = v2;

@@ -16,7 +16,7 @@ void __cdecl data::InstableSprayOverallExcelConfig::InstableSprayOverallExcelCon
   const data::InstableSprayOverallExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayOverallExcelConfig = v2;
@@ -69,7 +69,7 @@ void __cdecl data::InstableSprayOverallExcelConfig::~InstableSprayOverallExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayOverallExcelConfig = v2;
@@ -91,7 +91,7 @@ void __cdecl data::InstableSprayStageExcelConfig::InstableSprayStageExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayStageExcelConfig = v2;
@@ -134,7 +134,7 @@ void __cdecl data::InstableSprayStageExcelConfig::InstableSprayStageExcelConfig(
   const data::InstableSprayStageExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayStageExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::InstableSprayStageExcelConfig::~InstableSprayStageExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayStageExcelConfig = v2;
@@ -212,7 +212,7 @@ void __cdecl data::InstableSprayDifficultyExcelConfig::InstableSprayDifficultyEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayDifficultyExcelConfig = v2;
@@ -253,7 +253,7 @@ void __cdecl data::InstableSprayDifficultyExcelConfig::InstableSprayDifficultyEx
   const data::InstableSprayDifficultyExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayDifficultyExcelConfig = v2;
@@ -314,7 +314,7 @@ void __cdecl data::InstableSprayDifficultyExcelConfig::~InstableSprayDifficultyE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayDifficultyExcelConfig = v2;
@@ -328,7 +328,7 @@ void __cdecl data::InstableSprayLevelExcelConfig::InstableSprayLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayLevelExcelConfig = v2;
@@ -364,7 +364,7 @@ void __cdecl data::InstableSprayLevelExcelConfig::InstableSprayLevelExcelConfig(
   const data::InstableSprayLevelExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayLevelExcelConfig = v2;
@@ -408,7 +408,7 @@ void __cdecl data::InstableSprayLevelExcelConfig::~InstableSprayLevelExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayLevelExcelConfig = v2;
@@ -433,7 +433,7 @@ void __cdecl data::InstableSprayBuffExcelConfig::InstableSprayBuffExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayBuffExcelConfig = v2;
@@ -458,7 +458,7 @@ void __cdecl data::InstableSprayBuffExcelConfig::InstableSprayBuffExcelConfig(
   const data::InstableSprayBuffExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayBuffExcelConfig = v2;
@@ -494,7 +494,7 @@ void __cdecl data::InstableSprayBuffExcelConfig::~InstableSprayBuffExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayBuffExcelConfig = v2;
@@ -509,7 +509,7 @@ void __cdecl data::InstableSprayGachaExcelConfig::InstableSprayGachaExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayGachaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayGachaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayGachaExcelConfig = v2;
@@ -542,7 +542,7 @@ void __cdecl data::InstableSprayGachaExcelConfig::InstableSprayGachaExcelConfig(
   const data::InstableSprayGachaExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayGachaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayGachaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InstableSprayGachaExcelConfig = v2;
@@ -591,7 +591,7 @@ void __cdecl data::InstableSprayGachaExcelConfig::~InstableSprayGachaExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InstableSprayGachaExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InstableSprayGachaExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InstableSprayGachaExcelConfig = v2;

@@ -130,7 +130,7 @@ void __cdecl proto_log::OrderLogBodyAdd::OrderLogBodyAdd(proto_log::OrderLogBody
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyAdd + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyAdd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -177,7 +177,7 @@ void __cdecl proto_log::OrderLogBodyAdd::OrderLogBodyAdd(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyAdd + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyAdd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -342,7 +342,7 @@ void __cdecl proto_log::OrderLogBodyAdd::~OrderLogBodyAdd(proto_log::OrderLogBod
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyAdd + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyAdd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1961,7 +1961,7 @@ void __cdecl proto_log::OrderLogBodyFinish::OrderLogBodyFinish(proto_log::OrderL
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyFinish + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyFinish + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1981,7 +1981,7 @@ void __cdecl proto_log::OrderLogBodyFinish::OrderLogBodyFinish(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyFinish + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyFinish + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2025,7 +2025,7 @@ void __cdecl proto_log::OrderLogBodyFinish::~OrderLogBodyFinish(proto_log::Order
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::OrderLogBodyFinish + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::OrderLogBodyFinish + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

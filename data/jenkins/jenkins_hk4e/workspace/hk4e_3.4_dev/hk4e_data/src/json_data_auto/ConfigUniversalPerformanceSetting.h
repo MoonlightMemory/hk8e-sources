@@ -9,7 +9,7 @@ void __cdecl data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBas
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigPerfItemOverrideInfoBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPerfItemOverrideInfoBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOverrideInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemOverrideInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -53,7 +53,7 @@ void __cdecl data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBas
   std::enable_shared_from_this<data::ConfigPerfItemOverrideInfoBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPerfItemOverrideInfoBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOverrideInfoBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPerfItemOverrideInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v3;
@@ -103,7 +103,7 @@ void __cdecl data::ConfigPerfItemOverrideInfoBase::~ConfigPerfItemOverrideInfoBa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOverrideInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemOverrideInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -182,7 +182,7 @@ void __cdecl data::PlayerCustomOptionConfig::PlayerCustomOptionConfig(data::Play
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::PlayerCustomOptionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerCustomOptionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -198,7 +198,7 @@ void __cdecl data::PlayerCustomOptionConfig::PlayerCustomOptionConfig(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::PlayerCustomOptionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerCustomOptionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -219,7 +219,7 @@ void __cdecl data::PlayerCustomOptionConfig::~PlayerCustomOptionConfig(data::Pla
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerCustomOptionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerCustomOptionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -290,7 +290,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOptionArrayInfo::ConfigPerfNumberArr
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -304,7 +304,7 @@ void __cdecl data::PlayerCustomOptionConfigFactory::PlayerCustomOptionConfigFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerCustomOptionConfigFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerCustomOptionConfigFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerCustomOptionConfigFactory = v2;
@@ -492,7 +492,7 @@ void __cdecl data::ConfigPerfItemBase::ConfigPerfItemBase(data::ConfigPerfItemBa
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigPerfItemBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPerfItemBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -518,7 +518,7 @@ void __cdecl data::ConfigPerfItemBase::ConfigPerfItemBase(
   std::enable_shared_from_this<data::ConfigPerfItemBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPerfItemBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPerfItemBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPerfItemBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPerfItemBase = v3;
@@ -552,7 +552,7 @@ void __cdecl data::ConfigPerfItemBase::~ConfigPerfItemBase(data::ConfigPerfItemB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -623,7 +623,7 @@ void __cdecl data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayI
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigPerfItemOptionArrayInfoBase>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigPerfItemOptionArrayInfoBase>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOptionArrayInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemOptionArrayInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -648,7 +648,7 @@ void __cdecl data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayI
   std::enable_shared_from_this<data::ConfigPerfItemOptionArrayInfoBase>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigPerfItemOptionArrayInfoBase>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOptionArrayInfoBase + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigPerfItemOptionArrayInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v3;
@@ -681,7 +681,7 @@ void __cdecl data::ConfigPerfItemOptionArrayInfoBase::~ConfigPerfItemOptionArray
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfItemOptionArrayInfoBase + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfItemOptionArrayInfoBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -753,7 +753,7 @@ void __cdecl data::ConfigPerfNumberItemOptionArrayInfo::ConfigPerfNumberItemOpti
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -768,7 +768,7 @@ void __cdecl data::ConfigPerfNumberItemOptionArrayInfo::ConfigPerfNumberItemOpti
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -790,7 +790,7 @@ void __cdecl data::ConfigPerfNumberItemOptionArrayInfo::~ConfigPerfNumberItemOpt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -861,7 +861,7 @@ void __cdecl data::ConfigPerfNumberItemOptionArrayInfoFactory::ConfigPerfNumberI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberItemOptionArrayInfoFactory = v2;
@@ -875,7 +875,7 @@ void __cdecl data::ConfigPerfNumberItemOverrideInfo::ConfigPerfNumberItemOverrid
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase((data::ConfigPerfItemOverrideInfoBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -898,7 +898,7 @@ void __cdecl data::ConfigPerfNumberItemOverrideInfo::ConfigPerfNumberItemOverrid
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(
     (data::ConfigPerfItemOverrideInfoBase *const)this,
     (const data::ConfigPerfItemOverrideInfoBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -931,7 +931,7 @@ void __cdecl data::ConfigPerfNumberItemOverrideInfo::~ConfigPerfNumberItemOverri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1001,7 +1001,7 @@ void __cdecl data::ConfigPerfNumberItemOverrideInfoFactory::ConfigPerfNumberItem
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemOverrideInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemOverrideInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberItemOverrideInfoFactory = v2;
@@ -1014,7 +1014,7 @@ void __cdecl data::ConfigPerfNumberItem::ConfigPerfNumberItem(data::ConfigPerfNu
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1031,7 +1031,7 @@ void __cdecl data::ConfigPerfNumberItem::ConfigPerfNumberItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1050,7 +1050,7 @@ void __cdecl data::ConfigPerfNumberItem::~ConfigPerfNumberItem(data::ConfigPerfN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1128,7 +1128,7 @@ void __cdecl data::ConfigPerfNumberItemFactory::ConfigPerfNumberItemFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberItemFactory = v2;
@@ -1142,7 +1142,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOptionArrayInfo::ConfigPerfNumberArr
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1156,7 +1156,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOptionArrayInfo::~ConfigPerfNumberAr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1235,7 +1235,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOptionArrayInfoFactory::ConfigPerfNu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberArrayItemOptionArrayInfoFactory = v2;
@@ -1249,7 +1249,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOverrideInfo::ConfigPerfNumberArrayI
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1264,7 +1264,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOverrideInfo::ConfigPerfNumberArrayI
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1278,7 +1278,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOverrideInfo::~ConfigPerfNumberArray
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1357,7 +1357,7 @@ void __cdecl data::ConfigPerfNumberArrayItemOverrideInfoFactory::ConfigPerfNumbe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemOverrideInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemOverrideInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberArrayItemOverrideInfoFactory = v2;
@@ -1411,7 +1411,7 @@ void __cdecl data::ConfigPerfNumberArrayItem::ConfigPerfNumberArrayItem(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1428,7 +1428,7 @@ void __cdecl data::ConfigPerfNumberArrayItem::ConfigPerfNumberArrayItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1454,7 +1454,7 @@ void __cdecl data::ConfigPerfNumberArrayItem::~ConfigPerfNumberArrayItem(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1525,7 +1525,7 @@ void __cdecl data::ConfigPerfNumberArrayItemFactory::ConfigPerfNumberArrayItemFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfNumberArrayItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfNumberArrayItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfNumberArrayItemFactory = v2;
@@ -1539,7 +1539,7 @@ void __cdecl data::ConfigPerfStringKeyItemOptionArrayInfo::ConfigPerfStringKeyIt
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1554,7 +1554,7 @@ void __cdecl data::ConfigPerfStringKeyItemOptionArrayInfo::ConfigPerfStringKeyIt
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1576,7 +1576,7 @@ void __cdecl data::ConfigPerfStringKeyItemOptionArrayInfo::~ConfigPerfStringKeyI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1647,7 +1647,7 @@ void __cdecl data::ConfigPerfStringKeyItemOptionArrayInfoFactory::ConfigPerfStri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfStringKeyItemOptionArrayInfoFactory = v2;
@@ -1661,7 +1661,7 @@ void __cdecl data::ConfigPerfStringKeyItemOverrideInfo::ConfigPerfStringKeyItemO
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1676,7 +1676,7 @@ void __cdecl data::ConfigPerfStringKeyItemOverrideInfo::ConfigPerfStringKeyItemO
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1690,7 +1690,7 @@ void __cdecl data::ConfigPerfStringKeyItemOverrideInfo::~ConfigPerfStringKeyItem
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -1769,7 +1769,7 @@ void __cdecl data::ConfigPerfStringKeyItemOverrideInfoFactory::ConfigPerfStringK
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemOverrideInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemOverrideInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfStringKeyItemOverrideInfoFactory = v2;
@@ -1782,7 +1782,7 @@ void __cdecl data::ConfigPerfStringKeyItem::ConfigPerfStringKeyItem(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1800,7 +1800,7 @@ void __cdecl data::ConfigPerfStringKeyItem::ConfigPerfStringKeyItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1820,7 +1820,7 @@ void __cdecl data::ConfigPerfStringKeyItem::~ConfigPerfStringKeyItem(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -1899,7 +1899,7 @@ void __cdecl data::ConfigPerfStringKeyItemFactory::ConfigPerfStringKeyItemFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfStringKeyItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfStringKeyItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfStringKeyItemFactory = v2;
@@ -1913,7 +1913,7 @@ void __cdecl data::ConfigPerfGradeItemOptionArrayInfo::ConfigPerfGradeItemOption
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1928,7 +1928,7 @@ void __cdecl data::ConfigPerfGradeItemOptionArrayInfo::ConfigPerfGradeItemOption
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -1950,7 +1950,7 @@ void __cdecl data::ConfigPerfGradeItemOptionArrayInfo::~ConfigPerfGradeItemOptio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2021,7 +2021,7 @@ void __cdecl data::ConfigPerfGradeItemOptionArrayInfoFactory::ConfigPerfGradeIte
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfGradeItemOptionArrayInfoFactory = v2;
@@ -2035,7 +2035,7 @@ void __cdecl data::ConfigPerfGradeItemOverrideInfo::ConfigPerfGradeItemOverrideI
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase((data::ConfigPerfItemOverrideInfoBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2060,7 +2060,7 @@ void __cdecl data::ConfigPerfGradeItemOverrideInfo::ConfigPerfGradeItemOverrideI
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(
     (data::ConfigPerfItemOverrideInfoBase *const)this,
     (const data::ConfigPerfItemOverrideInfoBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2087,7 +2087,7 @@ void __cdecl data::ConfigPerfGradeItemOverrideInfo::~ConfigPerfGradeItemOverride
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2165,7 +2165,7 @@ void __cdecl data::ConfigPerfGradeItemOverrideInfoFactory::ConfigPerfGradeItemOv
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemOverrideInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemOverrideInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfGradeItemOverrideInfoFactory = v2;
@@ -2178,7 +2178,7 @@ void __cdecl data::ConfigPerfGradeItem::ConfigPerfGradeItem(data::ConfigPerfGrad
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2195,7 +2195,7 @@ void __cdecl data::ConfigPerfGradeItem::ConfigPerfGradeItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2214,7 +2214,7 @@ void __cdecl data::ConfigPerfGradeItem::~ConfigPerfGradeItem(data::ConfigPerfGra
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2291,7 +2291,7 @@ void __cdecl data::ConfigPerfGradeItemFactory::ConfigPerfGradeItemFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfGradeItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfGradeItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfGradeItemFactory = v2;
@@ -2305,7 +2305,7 @@ void __cdecl data::ConfigPerfBoolItemOptionArrayInfo::ConfigPerfBoolItemOptionAr
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2320,7 +2320,7 @@ void __cdecl data::ConfigPerfBoolItemOptionArrayInfo::ConfigPerfBoolItemOptionAr
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2342,7 +2342,7 @@ void __cdecl data::ConfigPerfBoolItemOptionArrayInfo::~ConfigPerfBoolItemOptionA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2413,7 +2413,7 @@ void __cdecl data::ConfigPerfBoolItemOptionArrayInfoFactory::ConfigPerfBoolItemO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfBoolItemOptionArrayInfoFactory = v2;
@@ -2429,7 +2429,7 @@ void __cdecl data::ConfigPerfBoolItemOverrideInfo::ConfigPerfBoolItemOverrideInf
   __int64 v4; // rdx
 
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase((data::ConfigPerfItemOverrideInfoBase *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2455,7 +2455,7 @@ void __cdecl data::ConfigPerfBoolItemOverrideInfo::ConfigPerfBoolItemOverrideInf
   data::ConfigPerfItemOverrideInfoBase::ConfigPerfItemOverrideInfoBase(
     (data::ConfigPerfItemOverrideInfoBase *const)this,
     (const data::ConfigPerfItemOverrideInfoBase *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2487,7 +2487,7 @@ void __cdecl data::ConfigPerfBoolItemOverrideInfo::~ConfigPerfBoolItemOverrideIn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOverrideInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOverrideInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOverrideInfoBase = v2;
@@ -2557,7 +2557,7 @@ void __cdecl data::ConfigPerfBoolItemOverrideInfoFactory::ConfigPerfBoolItemOver
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemOverrideInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemOverrideInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfBoolItemOverrideInfoFactory = v2;
@@ -2570,7 +2570,7 @@ void __cdecl data::ConfigPerfBoolItem::ConfigPerfBoolItem(data::ConfigPerfBoolIt
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2587,7 +2587,7 @@ void __cdecl data::ConfigPerfBoolItem::ConfigPerfBoolItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2606,7 +2606,7 @@ void __cdecl data::ConfigPerfBoolItem::~ConfigPerfBoolItem(data::ConfigPerfBoolI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2683,7 +2683,7 @@ void __cdecl data::ConfigPerfBoolItemFactory::ConfigPerfBoolItemFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfBoolItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfBoolItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfBoolItemFactory = v2;
@@ -2697,7 +2697,7 @@ void __cdecl data::ConfigPerfCombineItemOptionArrayInfo::ConfigPerfCombineItemOp
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombineItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombineItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2713,7 +2713,7 @@ void __cdecl data::ConfigPerfCombineItemOptionArrayInfo::ConfigPerfCombineItemOp
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemOptionArrayInfoBase::ConfigPerfItemOptionArrayInfoBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombineItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombineItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2728,7 +2728,7 @@ void __cdecl data::ConfigPerfCombineItemOptionArrayInfo::~ConfigPerfCombineItemO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombineItemOptionArrayInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombineItemOptionArrayInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemOptionArrayInfoBase = v2;
@@ -2808,7 +2808,7 @@ void __cdecl data::ConfigPerfCombineItemOptionArrayInfoFactory::ConfigPerfCombin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombineItemOptionArrayInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombineItemOptionArrayInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfCombineItemOptionArrayInfoFactory = v2;
@@ -2821,7 +2821,7 @@ void __cdecl data::ConfigPerfCombinedItem::ConfigPerfCombinedItem(data::ConfigPe
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombinedItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombinedItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2836,7 +2836,7 @@ void __cdecl data::ConfigPerfCombinedItem::ConfigPerfCombinedItem(
   int (**v2)(...); // rdx
 
   data::ConfigPerfItemBase::ConfigPerfItemBase(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombinedItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombinedItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2851,7 +2851,7 @@ void __cdecl data::ConfigPerfCombinedItem::~ConfigPerfCombinedItem(data::ConfigP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombinedItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombinedItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfItemBase = v2;
@@ -2927,7 +2927,7 @@ void __cdecl data::ConfigPerfCombinedItemFactory::ConfigPerfCombinedItemFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPerfCombinedItemFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPerfCombinedItemFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPerfCombinedItemFactory = v2;

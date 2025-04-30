@@ -74,7 +74,7 @@ void __fastcall common::minet::KcpConnMgrBase::~KcpConnMgrBase(common::minet::Kc
     __asan_report_store8();
     goto LABEL_19;
   }
-  this->_vptr_KcpConnMgrBase = (int (**)(...))(&`vtable for'common::minet::KcpConnMgrBase + 2);
+  this->_vptr_KcpConnMgrBase = (int (**)(...))(&`vtable for common::minet::KcpConnMgrBase + 2);
   this = (common::minet::KcpConnMgrBase *const)((char *)this + 1048928);
   if ( *(_BYTE *)(((unsigned __int64)&v2->rate_limiter_map_._M_t._M_impl._M_header._M_parent >> 3) + 0x7FFF8000) )
   {
@@ -707,7 +707,7 @@ LABEL_8:
     __asan_report_store8();
     goto LABEL_9;
   }
-  *(_QWORD *)v5 = &`vtable for'std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (common::minet::KcpConnMgrBase::*)(void) ()(common::minet::KcpConnMgrBase*)>>>>
+  *(_QWORD *)v5 = &`vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<void (common::minet::KcpConnMgrBase::*)(void) ()(common::minet::KcpConnMgrBase*)>>>>
                 + 2;
   v6 = v5 + 8;
   if ( *(_WORD *)(((v5 + 8) >> 3) + 0x7FFF8000) )
@@ -878,7 +878,7 @@ common::minet::KcpConnMgrBase *__fastcall common::minet::KcpConnMgrBase::createS
           *(_DWORD *)(v5 + 12) = 1;
           if ( !*(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v5 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpSession,common::tools::perf::allocator<common::minet::KcpSession,common::minet::KcpSession>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v5 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpSession,common::tools::perf::allocator<common::minet::KcpSession,common::minet::KcpSession>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
             v46 = (common::minet::KcpSession *)(v5 + 16);
             if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1090,7 +1090,7 @@ LABEL_92:
     __asan_report_store8();
     goto LABEL_93;
   }
-  *(_QWORD *)v5 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpSession,std::allocator<common::minet::KcpSession>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v5 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpSession,std::allocator<common::minet::KcpSession>,(__gnu_cxx::_Lock_policy)2>
                 + 2;
   s = v5 + 16;
   if ( *(_BYTE *)(((unsigned __int64)M_pi >> 3) + 0x7FFF8000) )
@@ -2246,7 +2246,7 @@ LABEL_117:
   v45 = *(_QWORD *)(v4 + 96);
   if ( !v45 )
   {
-    *(_QWORD *)(v4 + 64) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v4 + 64) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(0LL);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v4 + 64));
   }
@@ -2280,7 +2280,7 @@ LABEL_125:
     v47 = udp_data;
     __asan_report_load8(udp_data);
 LABEL_131:
-    *(_QWORD *)(v4 + 64) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v4 + 64) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(v47);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v4 + 64));
   }
@@ -3060,7 +3060,7 @@ LABEL_92:
     __asan_report_store8();
     goto LABEL_93;
   }
-  *(_QWORD *)v44 = &`vtable for'std::_Sp_counted_ptr<common::tools::RateLimiter *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v44 = &`vtable for std::_Sp_counted_ptr<common::tools::RateLimiter *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v44 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_93:
@@ -5085,7 +5085,7 @@ LABEL_122:
   v37 = *(_QWORD *)(v5 + 64);
   if ( !v37 )
   {
-    *(_QWORD *)(v5 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v5 + 32) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(0LL);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v5 + 32));
   }
@@ -5119,7 +5119,7 @@ LABEL_130:
     v39 = p_kcp_timer;
     __asan_report_load8(p_kcp_timer);
 LABEL_136:
-    *(_QWORD *)(v5 + 32) = &`vtable for'boost::asio::bad_executor + 2;
+    *(_QWORD *)(v5 + 32) = &`vtable for boost::asio::bad_executor + 2;
     __asan_handle_no_return(v39);
     boost::throw_exception<boost::asio::bad_executor>((const boost::asio::bad_executor *)(v5 + 32));
   }

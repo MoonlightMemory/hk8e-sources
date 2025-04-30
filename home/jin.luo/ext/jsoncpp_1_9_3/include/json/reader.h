@@ -6,7 +6,7 @@ void __fastcall Json::CharReaderBuilder::~CharReaderBuilder(Json::CharReaderBuil
   Json::Value *p_settings; // rdi
 
   p_settings = &this->settings_;
-  p_settings[-1].limit_ = (ptrdiff_t)(&`vtable for'Json::CharReaderBuilder + 2);
+  p_settings[-1].limit_ = (ptrdiff_t)(&`vtable for Json::CharReaderBuilder + 2);
   Json::Value::~Value((Json::Value_0 *const)p_settings);
 };
 

@@ -23,7 +23,7 @@ void __fastcall boost::asio::detail::range_connect_op<boost::asio::ip::tcp,boost
     __asan_report_store8();
     goto LABEL_31;
   }
-  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
+  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
                                                   + 2);
   p_clear = (unsigned __int64)&this->handler_.pg1_.clear_;
   if ( *(char *)(((unsigned __int64)&p_handler->pg1_.clear_ >> 3) + 0x7FFF8000) < 0 )
@@ -83,7 +83,7 @@ LABEL_38:
     boost::detail::sp_counted_base::release(pi);
   if ( *(_BYTE *)(((unsigned __int64)p_handler >> 3) + 0x7FFF8000) )
     goto LABEL_38;
-  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
+  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
                                                   + 2);
   boost::asio::executor_work_guard<boost::asio::executor>::~executor_work_guard(&p_handler->wg1_);
   p_h = &p_handler->h_;
@@ -280,7 +280,7 @@ LABEL_78:
     __asan_report_store8();
     goto LABEL_79;
   }
-  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
+  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
                                                   + 2);
   p_h = (unsigned __int64)&this->handler_.h_;
   v4 = &other->handler_.h_;
@@ -463,7 +463,7 @@ LABEL_101:
     __asan_report_store8();
     goto LABEL_102;
   }
-  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
+  this->handler_._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
                                                   + 2);
   p_impl = (boost::asio::executor_work_guard<boost::asio::executor> *)&other->handler_.impl_;
   if ( *(_BYTE *)(((unsigned __int64)&other->handler_.impl_ >> 3) + 0x7FFF8000) )

@@ -8,7 +8,7 @@ void __cdecl NavMeshCarving::NavMeshCarving(NavMeshCarving *const this, DynamicN
   stl_allocator<int,16> a; // [rsp+1Fh] [rbp-11h] BYREF
 
   ICarving::ICarving(this);
-  v2 = (int (**)(...))(&`vtable for'NavMeshCarving + 2);
+  v2 = (int (**)(...))(&`vtable for NavMeshCarving + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ICarving = v2;
@@ -33,7 +33,7 @@ void __cdecl NavMeshCarving::~NavMeshCarving(NavMeshCarving *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshCarving + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshCarving + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ICarving = v1;

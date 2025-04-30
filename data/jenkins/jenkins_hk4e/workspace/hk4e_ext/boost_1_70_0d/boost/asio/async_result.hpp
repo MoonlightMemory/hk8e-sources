@@ -370,7 +370,7 @@ LABEL_46:
       *a4,
       a5,
       a6);
-  v46._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
+  v46._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::basic_stream<boost::asio::ip::tcp,boost::asio::executor,boost::beast::unlimited_rate_policy>::ops::connect_op<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>>
                                        + 2);
   if ( v46.pg1_.clear_ )
   {
@@ -397,7 +397,7 @@ LABEL_88:
 LABEL_60:
   if ( v46.impl_.pn.pi_ )
     boost::detail::sp_counted_base::release(v46.impl_.pn.pi_);
-  v46._vptr_async_base = (int (**)(...))(&`vtable for'boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
+  v46._vptr_async_base = (int (**)(...))(&`vtable for boost::beast::async_base<boost::asio::detail::coro_handler<boost::asio::executor_binder<void (*)(void),boost::asio::executor>,boost::asio::ip::basic_endpoint<boost::asio::ip::tcp>>,boost::asio::executor,std::allocator<void>>
                                        + 2);
   boost::asio::executor_work_guard<boost::asio::executor>::~executor_work_guard(&v46.wg1_);
   b = v46.h_.handler_.executor_.impl_;
@@ -482,7 +482,7 @@ LABEL_76:
 LABEL_100:
     if ( *(_BYTE *)((token >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)token = &`vtable for'boost::system::system_error + 2;
+    *(_QWORD *)token = &`vtable for boost::system::system_error + 2;
     if ( *(_WORD *)(((token + 16) >> 3) + 0x7FFF8000) )
       __asan_report_store16(token + 16);
     *(_QWORD *)(token + 16) = retstr;
@@ -907,7 +907,7 @@ LABEL_68:
     std::runtime_error::runtime_error(exception, byte_1B5D8A60);
     if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::system::system_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::system::system_error + 2;
     if ( *(_WORD *)((((unsigned __int64)exception + 16) >> 3) + 0x7FFF8000) )
       __asan_report_store16((char *)exception + 16);
     *((_QWORD *)exception + 2) = v32;

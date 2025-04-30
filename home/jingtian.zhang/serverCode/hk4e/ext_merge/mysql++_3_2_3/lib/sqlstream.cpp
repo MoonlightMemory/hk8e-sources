@@ -24,19 +24,19 @@ void __fastcall mysqlpp::SQLStream::SQLStream(mysqlpp::SQLStream *this, mysqlpp:
   *(_QWORD *)this->gap78 = (char *)&unk_1EB1BEE0 + 40;
   *(_QWORD *)&this->baseclass_0[32] = 0LL;
   *(_QWORD *)&this->baseclass_0[40] = 0LL;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)&this->baseclass_0[48] = 0LL;
   *(_QWORD *)&this->baseclass_0[56] = 0LL;
   std::locale::locale((std::locale *)&this->baseclass_0[64]);
   this->baseclass_0[96] = 0;
   *(_QWORD *)&this->baseclass_0[88] = 0LL;
   *(_DWORD *)&this->baseclass_0[72] = 16;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->baseclass_0[80] = &this->baseclass_0[96];
   std::ios::init(&this->baseclass_0[*(_QWORD *)(*(_QWORD *)this->baseclass_0 - 24LL)], &this->baseclass_0[8]);
   this->conn_ = a2;
-  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for'mysqlpp::SQLStream + 24;
-  *(_QWORD *)this->gap78 = (char *)&`vtable for'mysqlpp::SQLStream + 64;
+  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for mysqlpp::SQLStream + 24;
+  *(_QWORD *)this->gap78 = (char *)&`vtable for mysqlpp::SQLStream + 64;
   if ( a3 )
   {
     v7[0]._M_dataplus._M_p = v7[0]._anon_0._M_local_buf;
@@ -88,7 +88,7 @@ void __fastcall mysqlpp::SQLStream::SQLStream(
   *(_QWORD *)&this->baseclass_0[*(_QWORD *)(v10 - 24)] = M_allocated_capacity;
   *(_QWORD *)&this->baseclass_0[16] = 0LL;
   *(_QWORD *)&this->baseclass_0[24] = 0LL;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)&this->baseclass_0[32] = 0LL;
   *(_QWORD *)&this->baseclass_0[40] = 0LL;
   *(_QWORD *)&this->baseclass_0[48] = 0LL;
@@ -97,7 +97,7 @@ void __fastcall mysqlpp::SQLStream::SQLStream(
   this->baseclass_0[96] = 0;
   *(_QWORD *)&this->baseclass_0[88] = 0LL;
   *(_DWORD *)&this->baseclass_0[72] = 16;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->baseclass_0[80] = &this->baseclass_0[96];
   std::ios::init(&this->baseclass_0[*(_QWORD *)(*(_QWORD *)this->baseclass_0 - 24LL)], v7);
   vptr_OptionalExceptions = a2->_vptr_OptionalExceptions;
@@ -143,7 +143,7 @@ mysqlpp::Connection *__fastcall mysqlpp::SQLStream::SQLStream(mysqlpp::SQLStream
   v12[0] = 0;
   *(_QWORD *)&this->gap78[216] = 0LL;
   __beg = v12;
-  *(_QWORD *)this->gap78 = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)this->gap78 = (char *)&`vtable for std::ios + 16;
   *(_WORD *)&this->gap78[224] = 0;
   v3 = *(_QWORD *)&a2->baseclass_0[48];
   *(_QWORD *)&this->gap78[232] = 0LL;
@@ -173,14 +173,14 @@ mysqlpp::Connection *__fastcall mysqlpp::SQLStream::SQLStream(mysqlpp::SQLStream
   *(_QWORD *)this->gap78 = (char *)&unk_1EB1BEE0 + 40;
   *(_QWORD *)&this->baseclass_0[32] = 0LL;
   *(_QWORD *)&this->baseclass_0[40] = 0LL;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)&this->baseclass_0[48] = 0LL;
   *(_QWORD *)&this->baseclass_0[56] = 0LL;
   std::locale::locale((std::locale *)&this->baseclass_0[64]);
   v6 = __beg;
   v7 = v11;
   *(_DWORD *)&this->baseclass_0[72] = 0;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->baseclass_0[80] = &this->baseclass_0[96];
   std::string::_M_construct<char const*>((std::string *const)&this->baseclass_0[80], v6, &v6[v7], v8);
   *(_DWORD *)&this->baseclass_0[72] = 16;
@@ -188,9 +188,9 @@ mysqlpp::Connection *__fastcall mysqlpp::SQLStream::SQLStream(mysqlpp::SQLStream
   std::ios::init(&this->baseclass_0[*(_QWORD *)(*(_QWORD *)this->baseclass_0 - 24LL)], &this->baseclass_0[8]);
   if ( __beg != v12 )
     operator delete(__beg);
-  *(_QWORD *)this->gap78 = (char *)&`vtable for'mysqlpp::SQLStream + 64;
+  *(_QWORD *)this->gap78 = (char *)&`vtable for mysqlpp::SQLStream + 64;
   result = a2->conn_;
-  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for'mysqlpp::SQLStream + 24;
+  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for mysqlpp::SQLStream + 24;
   this->conn_ = result;
   return result;
 };
@@ -248,7 +248,7 @@ mysqlpp::Connection *__fastcall mysqlpp::SQLStream::SQLStream(
   *(_QWORD *)&this->baseclass_0[*(_QWORD *)(v12 - 24)] = v13;
   *(_QWORD *)&this->baseclass_0[16] = 0LL;
   *(_QWORD *)&this->baseclass_0[24] = 0LL;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)&this->baseclass_0[32] = 0LL;
   *(_QWORD *)&this->baseclass_0[40] = 0LL;
   *(_QWORD *)&this->baseclass_0[48] = 0LL;
@@ -257,7 +257,7 @@ mysqlpp::Connection *__fastcall mysqlpp::SQLStream::SQLStream(
   v14 = __beg;
   v15 = v21;
   *(_DWORD *)&this->baseclass_0[72] = 0;
-  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)&this->baseclass_0[8] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->baseclass_0[80] = &this->baseclass_0[96];
   std::string::_M_construct<char const*>((std::string *const)&this->baseclass_0[80], v14, &v14[v15], v16);
   *(_DWORD *)&this->baseclass_0[72] = 16;

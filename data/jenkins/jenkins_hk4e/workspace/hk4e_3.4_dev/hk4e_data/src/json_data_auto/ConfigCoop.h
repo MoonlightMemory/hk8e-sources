@@ -307,7 +307,7 @@ void __cdecl data::ConfigCoopBaseNode::ConfigCoopBaseNode(data::ConfigCoopBaseNo
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigCoopBaseNode>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigCoopBaseNode>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopBaseNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopBaseNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -350,7 +350,7 @@ void __cdecl data::ConfigCoopBaseNode::ConfigCoopBaseNode(
   std::enable_shared_from_this<data::ConfigCoopBaseNode>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigCoopBaseNode>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigCoopBaseNode + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigCoopBaseNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigCoopBaseNode = v3;
@@ -408,7 +408,7 @@ void __cdecl data::ConfigCoopBaseNode::~ConfigCoopBaseNode(data::ConfigCoopBaseN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopBaseNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopBaseNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -477,7 +477,7 @@ void __cdecl data::ConfigCoopTalkNode::ConfigCoopTalkNode(data::ConfigCoopTalkNo
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode((data::ConfigCoopBaseNode *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopTalkNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopTalkNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -502,7 +502,7 @@ void __cdecl data::ConfigCoopTalkNode::ConfigCoopTalkNode(
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(
     (data::ConfigCoopBaseNode *const)this,
     (const data::ConfigCoopBaseNode *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopTalkNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopTalkNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -535,7 +535,7 @@ void __cdecl data::ConfigCoopTalkNode::~ConfigCoopTalkNode(data::ConfigCoopTalkN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopTalkNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopTalkNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -602,7 +602,7 @@ void __cdecl data::ConfigCoopTalkNodeFactory::ConfigCoopTalkNodeFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopTalkNodeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopTalkNodeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopTalkNodeFactory = v2;
@@ -615,7 +615,7 @@ void __cdecl data::ConfigCoopCondNode::ConfigCoopCondNode(data::ConfigCoopCondNo
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopCondNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopCondNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -630,7 +630,7 @@ void __cdecl data::ConfigCoopCondNode::ConfigCoopCondNode(
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopCondNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopCondNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -643,7 +643,7 @@ void __cdecl data::ConfigCoopCondNode::~ConfigCoopCondNode(data::ConfigCoopCondN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopCondNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopCondNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -718,7 +718,7 @@ void __cdecl data::ConfigCoopCondNodeFactory::ConfigCoopCondNodeFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopCondNodeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopCondNodeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopCondNodeFactory = v2;
@@ -838,7 +838,7 @@ void __cdecl data::ConfigCoopSelectNode::ConfigCoopSelectNode(data::ConfigCoopSe
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopSelectNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopSelectNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -859,7 +859,7 @@ void __cdecl data::ConfigCoopSelectNode::ConfigCoopSelectNode(
   char v5; // al
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopSelectNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopSelectNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -883,7 +883,7 @@ void __cdecl data::ConfigCoopSelectNode::~ConfigCoopSelectNode(data::ConfigCoopS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopSelectNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopSelectNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -959,7 +959,7 @@ void __cdecl data::ConfigCoopSelectNodeFactory::ConfigCoopSelectNodeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopSelectNodeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopSelectNodeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopSelectNodeFactory = v2;
@@ -972,7 +972,7 @@ void __cdecl data::ConfigCoopActionNode::ConfigCoopActionNode(data::ConfigCoopAc
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopActionNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopActionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -987,7 +987,7 @@ void __cdecl data::ConfigCoopActionNode::ConfigCoopActionNode(
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopActionNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopActionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -1000,7 +1000,7 @@ void __cdecl data::ConfigCoopActionNode::~ConfigCoopActionNode(data::ConfigCoopA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopActionNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopActionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -1076,7 +1076,7 @@ void __cdecl data::ConfigCoopActionNodeFactory::ConfigCoopActionNodeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopActionNodeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopActionNodeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopActionNodeFactory = v2;
@@ -1089,7 +1089,7 @@ void __cdecl data::ConfigCoopEndNode::ConfigCoopEndNode(data::ConfigCoopEndNode 
   int (**v2)(...); // rdx
 
   data::ConfigCoopBaseNode::ConfigCoopBaseNode((data::ConfigCoopBaseNode *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopEndNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopEndNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -1114,7 +1114,7 @@ void __cdecl data::ConfigCoopEndNode::ConfigCoopEndNode(
   data::ConfigCoopBaseNode::ConfigCoopBaseNode(
     (data::ConfigCoopBaseNode *const)this,
     (const data::ConfigCoopBaseNode *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopEndNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopEndNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -1140,7 +1140,7 @@ void __cdecl data::ConfigCoopEndNode::~ConfigCoopEndNode(data::ConfigCoopEndNode
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopEndNode + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopEndNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopBaseNode = v2;
@@ -1214,7 +1214,7 @@ void __cdecl data::ConfigCoopEndNodeFactory::ConfigCoopEndNodeFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopEndNodeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopEndNodeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopEndNodeFactory = v2;

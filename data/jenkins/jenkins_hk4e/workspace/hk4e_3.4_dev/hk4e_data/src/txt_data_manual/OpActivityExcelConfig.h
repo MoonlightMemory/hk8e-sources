@@ -6,7 +6,7 @@ void __cdecl OpActivityExcelConfigMgr::OpActivityExcelConfigMgr(OpActivityExcelC
   int (**v1)(...); // rdx
 
   data::OpActivityExcelConfigMgrBase::OpActivityExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'OpActivityExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for OpActivityExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_OpActivityExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl OpActivityExcelConfigMgr::~OpActivityExcelConfigMgr(OpActivityExcel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'OpActivityExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for OpActivityExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_OpActivityExcelConfigMgrBase = v1;

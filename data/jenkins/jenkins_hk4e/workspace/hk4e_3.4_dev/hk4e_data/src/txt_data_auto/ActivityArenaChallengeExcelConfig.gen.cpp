@@ -614,7 +614,7 @@ int32_t __cdecl data::ActivityArenaChallengeExcelConfigMgrBase::loadActivityAren
         *(_QWORD *)(v3 + 608) = 0LL;
         *(_QWORD *)(v3 + 616) = 0LL;
         *(_QWORD *)(v3 + 624) = 0LL;
-        v16 = &`vtable for'data::ActivityArenaChallengeExcelConfig + 2;
+        v16 = &`vtable for data::ActivityArenaChallengeExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 592) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 592, v15);
         *(_QWORD *)(v3 + 592) = v16;

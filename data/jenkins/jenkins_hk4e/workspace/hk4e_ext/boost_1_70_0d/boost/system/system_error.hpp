@@ -9,7 +9,7 @@ void __cdecl boost::system::system_error::system_error(
   const boost::system::error_category *cat; // rdx
 
   std::runtime_error::runtime_error((std::runtime_error *)this, (const std::runtime_error *)a2);
-  v2 = &`vtable for'boost::system::system_error + 2;
+  v2 = &`vtable for boost::system::system_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -56,7 +56,7 @@ void __fastcall boost::system::system_error::system_error(
   *(_QWORD *)(v3 + 32) = v6;
   *(_QWORD *)(v3 + 40) = cat;
   std::runtime_error::runtime_error((std::runtime_error *)this, what_arg);
-  v7 = &`vtable for'boost::system::system_error + 2;
+  v7 = &`vtable for boost::system::system_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v7;
@@ -82,7 +82,7 @@ void __cdecl boost::system::system_error::~system_error(boost::system::system_er
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::system::system_error + 2;
+  v1 = &`vtable for boost::system::system_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -148,7 +148,7 @@ void __fastcall boost::system::system_error::system_error(
   *(_QWORD *)(v2 + 32) = v5;
   *(_QWORD *)(v2 + 40) = cat;
   std::runtime_error::runtime_error((std::runtime_error *)this, uri);
-  v6 = &`vtable for'boost::system::system_error + 2;
+  v6 = &`vtable for boost::system::system_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v6;

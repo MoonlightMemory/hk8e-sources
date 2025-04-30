@@ -1439,7 +1439,7 @@ LABEL_53:
     p_dval = __asan_report_store8(v22, this);
     goto LABEL_54;
   }
-  *(_QWORD *)&v22->type = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)&v22->type = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                         + 2;
   p_dval = (__int64)&v22->dval;
   if ( *(_BYTE *)(((unsigned __int64)&v22->dval >> 3) + 0x7FFF8000) )
@@ -1601,7 +1601,7 @@ LABEL_30:
     v17 = __asan_report_store8(v13, this);
     goto LABEL_31;
   }
-  *(_QWORD *)v13 = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v13 = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v17 = v13 + 16;
   if ( *(_BYTE *)(((v13 + 16) >> 3) + 0x7FFF8000) )
@@ -2350,7 +2350,7 @@ LABEL_68:
     v26 = v25;
     if ( *(_BYTE *)((v25 >> 3) + 0x7FFF8000) )
       goto LABEL_66;
-    *(_QWORD *)v25 = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+    *(_QWORD *)v25 = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                    + 2;
     v26 = v25 + 16;
     if ( *(_BYTE *)(((v25 + 16) >> 3) + 0x7FFF8000) )
@@ -3250,7 +3250,7 @@ LABEL_40:
     v18 = __asan_report_store8(v14, specific_node_ptr);
     goto LABEL_41;
   }
-  *(_QWORD *)v14 = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v14 = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v18 = v14 + 16;
   if ( *(_BYTE *)(((v14 + 16) >> 3) + 0x7FFF8000) )
@@ -3670,7 +3670,7 @@ LABEL_45:
     v15 = __asan_report_store8(v11, this);
     goto LABEL_46;
   }
-  *(_QWORD *)v11 = &`vtable for'std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v11 = &`vtable for std::_Sp_counted_deleter<redisReply *,void (*)(redisReply *),std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v15 = v11 + 16;
   if ( *(_BYTE *)(((v11 + 16) >> 3) + 0x7FFF8000) )

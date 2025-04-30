@@ -8,7 +8,7 @@ void __cdecl data::ActivityCrystalLinkLevelExcelConfig::ActivityCrystalLinkLevel
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkLevelExcelConfig = v2;
@@ -62,7 +62,7 @@ void __cdecl data::ActivityCrystalLinkLevelExcelConfig::ActivityCrystalLinkLevel
   const data::ActivityCrystalLinkLevelExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCrystalLinkLevelExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::ActivityCrystalLinkLevelExcelConfig::~ActivityCrystalLinkLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkLevelExcelConfig = v2;
@@ -158,7 +158,7 @@ void __cdecl data::ActivityCrystalLinkCondBuffExcelConfig::ActivityCrystalLinkCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkCondBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkCondBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkCondBuffExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::ActivityCrystalLinkCondBuffExcelConfig::ActivityCrystalLinkCo
   const data::ActivityCrystalLinkCondBuffExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkCondBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkCondBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCrystalLinkCondBuffExcelConfig = v2;
@@ -209,7 +209,7 @@ void __cdecl data::ActivityCrystalLinkCondBuffExcelConfig::~ActivityCrystalLinkC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkCondBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkCondBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkCondBuffExcelConfig = v2;
@@ -231,7 +231,7 @@ void __cdecl data::ActivityCrystalLinkEffectBuffExcelConfig::ActivityCrystalLink
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkEffectBuffExcelConfig = v2;
@@ -255,7 +255,7 @@ void __cdecl data::ActivityCrystalLinkEffectBuffExcelConfig::ActivityCrystalLink
   const data::ActivityCrystalLinkEffectBuffExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCrystalLinkEffectBuffExcelConfig = v2;
@@ -282,7 +282,7 @@ void __cdecl data::ActivityCrystalLinkEffectBuffExcelConfig::~ActivityCrystalLin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkEffectBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkEffectBuffExcelConfig = v2;
@@ -314,7 +314,7 @@ void __cdecl data::ActivityCrystalLinkDifficultyExcelConfig::ActivityCrystalLink
   const data::ActivityCrystalLinkDifficultyExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCrystalLinkDifficultyExcelConfig = v2;
@@ -387,7 +387,7 @@ void __cdecl data::ActivityCrystalLinkDifficultyExcelConfig::~ActivityCrystalLin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCrystalLinkDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCrystalLinkDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCrystalLinkDifficultyExcelConfig = v2;

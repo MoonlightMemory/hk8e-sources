@@ -21,7 +21,7 @@ void __cdecl std::bad_any_cast::bad_any_cast(std::bad_any_cast *const this)
   __int64 *v1; // rdx
 
   std::bad_cast::bad_cast((std::bad_cast *const)this);
-  v1 = &`vtable for'std::bad_any_cast + 2;
+  v1 = &`vtable for std::bad_any_cast + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *this = (std::bad_any_cast)v1;
@@ -39,7 +39,7 @@ void __cdecl std::bad_any_cast::~bad_any_cast(std::bad_any_cast *const this)
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'std::bad_any_cast + 2;
+  v1 = &`vtable for std::bad_any_cast + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *this = (std::bad_any_cast)v1;

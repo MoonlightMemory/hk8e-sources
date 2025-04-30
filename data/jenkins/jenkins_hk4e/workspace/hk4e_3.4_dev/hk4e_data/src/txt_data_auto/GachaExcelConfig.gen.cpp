@@ -7977,7 +7977,7 @@ int32_t __cdecl data::GachaExcelConfigMgrBase::loadGachaPoolExcelConfig(
         v13 = *(unsigned int *)(v3 + 64);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1200), v13);
         *(_DWORD *)(((v3 + 416) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::GachaPoolExcelConfig + 2;
+        v14 = &`vtable for data::GachaPoolExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 416) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 416, v13);
         *(_QWORD *)(v3 + 416) = v14;
@@ -8771,7 +8771,7 @@ int32_t __cdecl data::GachaExcelConfigMgrBase::loadGachaProbRuleConfig(
         *(_QWORD *)(v3 + 608) = 0LL;
         *(_QWORD *)(v3 + 616) = 0LL;
         *(_QWORD *)(v3 + 624) = 0LL;
-        v16 = &`vtable for'data::GachaProbRuleConfig + 2;
+        v16 = &`vtable for data::GachaProbRuleConfig + 2;
         if ( *(_BYTE *)(((v3 + 592) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 592, v15);
         *(_QWORD *)(v3 + 592) = v16;
@@ -9564,7 +9564,7 @@ int32_t __cdecl data::GachaExcelConfigMgrBase::loadGachaTokenDropConfig(
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_WORD *)(((v3 + 112) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::GachaTokenDropConfig + 2;
+        v14 = &`vtable for data::GachaTokenDropConfig + 2;
         if ( *(_BYTE *)(((v3 + 112) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 112, v13);
         *(_QWORD *)(v3 + 112) = v14;
@@ -9914,7 +9914,7 @@ int32_t __cdecl data::GachaExcelConfigMgrBase::loadGachaWishConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::GachaWishConfig + 2;
+        v15 = &`vtable for data::GachaWishConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -10260,7 +10260,7 @@ int32_t __cdecl data::GachaExcelConfigMgrBase::loadGachaRestrictConfig(
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::GachaRestrictConfig + 2;
+        v14 = &`vtable for data::GachaRestrictConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;

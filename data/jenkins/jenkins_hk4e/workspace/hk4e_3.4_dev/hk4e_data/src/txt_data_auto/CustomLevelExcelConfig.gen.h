@@ -10,7 +10,7 @@ void __cdecl data::CustomLevelComponentConfig::CustomLevelComponentConfig(data::
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelComponentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelComponentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelComponentConfig = v2;
@@ -113,7 +113,7 @@ void __cdecl data::CustomLevelComponentConfig::CustomLevelComponentConfig(
   const data::CustomLevelComponentConfig *v29; // [rsp+0h] [rbp-10h]
 
   v29 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelComponentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelComponentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomLevelComponentConfig = v2;
@@ -266,7 +266,7 @@ void __cdecl data::CustomLevelComponentConfig::~CustomLevelComponentConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelComponentConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelComponentConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelComponentConfig = v2;
@@ -279,7 +279,7 @@ void __cdecl data::CustomLevelDungeonConfig::CustomLevelDungeonConfig(data::Cust
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelDungeonConfig = v2;
@@ -315,7 +315,7 @@ void __cdecl data::CustomLevelDungeonConfig::CustomLevelDungeonConfig(
   const data::CustomLevelDungeonConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomLevelDungeonConfig = v2;
@@ -365,7 +365,7 @@ void __cdecl data::CustomLevelDungeonConfig::~CustomLevelDungeonConfig(data::Cus
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelDungeonConfig = v2;
@@ -383,7 +383,7 @@ void __cdecl data::CustomLevelGroupConfig::CustomLevelGroupConfig(data::CustomLe
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelGroupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelGroupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelGroupConfig = v2;
@@ -462,7 +462,7 @@ void __cdecl data::CustomLevelGroupConfig::CustomLevelGroupConfig(
   const data::CustomLevelGroupConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelGroupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelGroupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomLevelGroupConfig = v2;
@@ -571,7 +571,7 @@ void __cdecl data::CustomLevelGroupConfig::~CustomLevelGroupConfig(data::CustomL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelGroupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelGroupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelGroupConfig = v2;
@@ -602,7 +602,7 @@ void __cdecl data::CustomLevelComponentLimitConfig::CustomLevelComponentLimitCon
   const data::CustomLevelComponentLimitConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelComponentLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelComponentLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomLevelComponentLimitConfig = v2;
@@ -663,7 +663,7 @@ void __cdecl data::CustomLevelComponentLimitConfig::~CustomLevelComponentLimitCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelComponentLimitConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelComponentLimitConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelComponentLimitConfig = v2;
@@ -685,7 +685,7 @@ void __cdecl data::CustomLevelTagConfig::CustomLevelTagConfig(
   const data::CustomLevelTagConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomLevelTagConfig = v2;
@@ -728,7 +728,7 @@ void __cdecl data::CustomLevelTagConfig::~CustomLevelTagConfig(data::CustomLevel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomLevelTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomLevelTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomLevelTagConfig = v2;

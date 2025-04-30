@@ -7,7 +7,7 @@ void __cdecl data::GravenInnocenceExcelConfig::GravenInnocenceExcelConfig(data::
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceExcelConfig = v2;
@@ -50,7 +50,7 @@ void __cdecl data::GravenInnocenceExcelConfig::GravenInnocenceExcelConfig(
   const data::GravenInnocenceExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceExcelConfig = v2;
@@ -113,7 +113,7 @@ void __cdecl data::GravenInnocenceExcelConfig::~GravenInnocenceExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceExcelConfig = v2;
@@ -127,7 +127,7 @@ void __cdecl data::GravenInnocenceCampStageExcelConfig::GravenInnocenceCampStage
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCampStageExcelConfig = v2;
@@ -160,7 +160,7 @@ void __cdecl data::GravenInnocenceCampStageExcelConfig::GravenInnocenceCampStage
   const data::GravenInnocenceCampStageExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceCampStageExcelConfig = v2;
@@ -209,7 +209,7 @@ void __cdecl data::GravenInnocenceCampStageExcelConfig::~GravenInnocenceCampStag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCampStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCampStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCampStageExcelConfig = v2;
@@ -235,7 +235,7 @@ void __cdecl data::GravenInnocenceCampLevelExcelConfig::GravenInnocenceCampLevel
   const data::GravenInnocenceCampLevelExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCampLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCampLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceCampLevelExcelConfig = v2;
@@ -310,7 +310,7 @@ void __cdecl data::GravenInnocenceCampLevelExcelConfig::~GravenInnocenceCampLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCampLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCampLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCampLevelExcelConfig = v2;
@@ -324,7 +324,7 @@ void __cdecl data::GravenInnocencePhotoStageExcelConfig::GravenInnocencePhotoSta
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocencePhotoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocencePhotoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocencePhotoStageExcelConfig = v2;
@@ -367,7 +367,7 @@ void __cdecl data::GravenInnocencePhotoStageExcelConfig::GravenInnocencePhotoSta
   const data::GravenInnocencePhotoStageExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocencePhotoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocencePhotoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocencePhotoStageExcelConfig = v2;
@@ -422,7 +422,7 @@ void __cdecl data::GravenInnocencePhotoStageExcelConfig::~GravenInnocencePhotoSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocencePhotoStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocencePhotoStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocencePhotoStageExcelConfig = v2;
@@ -451,7 +451,7 @@ void __cdecl data::GravenInnocenceObjectDataExcelConfig::GravenInnocenceObjectDa
   const data::GravenInnocenceObjectDataExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceObjectDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceObjectDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceObjectDataExcelConfig = v2;
@@ -499,7 +499,7 @@ void __cdecl data::GravenInnocenceObjectDataExcelConfig::~GravenInnocenceObjectD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceObjectDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceObjectDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceObjectDataExcelConfig = v2;
@@ -514,7 +514,7 @@ void __cdecl data::GravenInnocenceRaceLevelExcelConfig::GravenInnocenceRaceLevel
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceRaceLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceRaceLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceRaceLevelExcelConfig = v2;
@@ -580,7 +580,7 @@ void __cdecl data::GravenInnocenceRaceLevelExcelConfig::GravenInnocenceRaceLevel
   const data::GravenInnocenceRaceLevelExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceRaceLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceRaceLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceRaceLevelExcelConfig = v2;
@@ -672,7 +672,7 @@ void __cdecl data::GravenInnocenceRaceLevelExcelConfig::~GravenInnocenceRaceLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceRaceLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceRaceLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceRaceLevelExcelConfig = v2;
@@ -694,7 +694,7 @@ void __cdecl data::GravenInnocenceCarveOverallExcelConfig::GravenInnocenceCarveO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCarveOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCarveOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCarveOverallExcelConfig = v2;
@@ -718,7 +718,7 @@ void __cdecl data::GravenInnocenceCarveOverallExcelConfig::GravenInnocenceCarveO
   const data::GravenInnocenceCarveOverallExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCarveOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCarveOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceCarveOverallExcelConfig = v2;
@@ -753,7 +753,7 @@ void __cdecl data::GravenInnocenceCarveOverallExcelConfig::~GravenInnocenceCarve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCarveOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCarveOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCarveOverallExcelConfig = v2;
@@ -776,7 +776,7 @@ void __cdecl data::GravenInnocenceCarveStageExcelConfig::GravenInnocenceCarveSta
   const data::GravenInnocenceCarveStageExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCarveStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCarveStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GravenInnocenceCarveStageExcelConfig = v2;
@@ -829,7 +829,7 @@ void __cdecl data::GravenInnocenceCarveStageExcelConfig::~GravenInnocenceCarveSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GravenInnocenceCarveStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GravenInnocenceCarveStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GravenInnocenceCarveStageExcelConfig = v2;

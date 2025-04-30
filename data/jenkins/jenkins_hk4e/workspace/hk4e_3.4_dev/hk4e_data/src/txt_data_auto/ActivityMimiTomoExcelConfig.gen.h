@@ -7,7 +7,7 @@ void __cdecl data::FindHilichurlExcelConfig::FindHilichurlExcelConfig(data::Find
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FindHilichurlExcelConfig = v2;
@@ -59,7 +59,7 @@ void __cdecl data::FindHilichurlExcelConfig::FindHilichurlExcelConfig(
   const data::FindHilichurlExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FindHilichurlExcelConfig = v2;
@@ -127,7 +127,7 @@ void __cdecl data::FindHilichurlExcelConfig::~FindHilichurlExcelConfig(data::Fin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FindHilichurlExcelConfig = v2;
@@ -225,7 +225,7 @@ void __cdecl data::FindHilichurlAssignmentExcelConfig::FindHilichurlAssignmentEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlAssignmentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlAssignmentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FindHilichurlAssignmentExcelConfig = v2;
@@ -275,7 +275,7 @@ void __cdecl data::FindHilichurlAssignmentExcelConfig::FindHilichurlAssignmentEx
   const data::FindHilichurlAssignmentExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlAssignmentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlAssignmentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FindHilichurlAssignmentExcelConfig = v2;
@@ -342,7 +342,7 @@ void __cdecl data::FindHilichurlAssignmentExcelConfig::~FindHilichurlAssignmentE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlAssignmentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlAssignmentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FindHilichurlAssignmentExcelConfig = v2;
@@ -375,7 +375,7 @@ void __cdecl data::FindHilichurlHiliWeiExcelConfig::FindHilichurlHiliWeiExcelCon
   const data::FindHilichurlHiliWeiExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlHiliWeiExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlHiliWeiExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FindHilichurlHiliWeiExcelConfig = v2;
@@ -442,7 +442,7 @@ void __cdecl data::FindHilichurlHiliWeiExcelConfig::~FindHilichurlHiliWeiExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FindHilichurlHiliWeiExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FindHilichurlHiliWeiExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FindHilichurlHiliWeiExcelConfig = v2;

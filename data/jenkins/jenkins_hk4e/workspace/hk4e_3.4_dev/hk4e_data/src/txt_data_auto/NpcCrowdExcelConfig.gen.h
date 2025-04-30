@@ -7,7 +7,7 @@ void __cdecl data::NpcCrowdExcelConfig::NpcCrowdExcelConfig(data::NpcCrowdExcelC
   int (**v2)(...); // rdx
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::NpcCrowdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcCrowdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::NpcCrowdExcelConfig::NpcCrowdExcelConfig(
   char v5; // dl
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this, (const data::EntityExcelConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::NpcCrowdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcCrowdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::NpcCrowdExcelConfig::~NpcCrowdExcelConfig(data::NpcCrowdExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcCrowdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcCrowdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;

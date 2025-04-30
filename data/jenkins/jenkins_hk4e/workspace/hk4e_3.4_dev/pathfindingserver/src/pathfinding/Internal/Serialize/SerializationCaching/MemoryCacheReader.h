@@ -8,7 +8,7 @@ void __cdecl MemoryCacheReader::MemoryCacheReader(
   int (**v2)(...); // rdx
 
   CacheReaderBase::CacheReaderBase(this);
-  v2 = (int (**)(...))(&`vtable for'MemoryCacheReader + 2);
+  v2 = (int (**)(...))(&`vtable for MemoryCacheReader + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_CacheReaderBase = v2;
@@ -30,7 +30,7 @@ void __cdecl MemoryCacheReader::~MemoryCacheReader(MemoryCacheReader *const this
   MemoryCacheReader *thisa; // [rsp+8h] [rbp-8h]
 
   thisa = this;
-  v1 = (int (**)(...))(&`vtable for'MemoryCacheReader + 2);
+  v1 = (int (**)(...))(&`vtable for MemoryCacheReader + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_CacheReaderBase = v1;

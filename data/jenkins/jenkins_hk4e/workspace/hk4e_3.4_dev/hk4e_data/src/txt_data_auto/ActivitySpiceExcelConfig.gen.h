@@ -8,7 +8,7 @@ void __cdecl data::ActivitySpiceExcelConfig::ActivitySpiceExcelConfig(data::Acti
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceExcelConfig = v2;
@@ -69,7 +69,7 @@ void __cdecl data::ActivitySpiceExcelConfig::ActivitySpiceExcelConfig(
   const data::ActivitySpiceExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySpiceExcelConfig = v2;
@@ -157,7 +157,7 @@ void __cdecl data::ActivitySpiceExcelConfig::~ActivitySpiceExcelConfig(data::Act
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceExcelConfig = v2;
@@ -172,7 +172,7 @@ void __cdecl data::ActivitySpiceStageDataExcelConfig::ActivitySpiceStageDataExce
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceStageDataExcelConfig = v2;
@@ -216,7 +216,7 @@ void __cdecl data::ActivitySpiceStageDataExcelConfig::ActivitySpiceStageDataExce
   const data::ActivitySpiceStageDataExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySpiceStageDataExcelConfig = v2;
@@ -280,7 +280,7 @@ void __cdecl data::ActivitySpiceStageDataExcelConfig::~ActivitySpiceStageDataExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceStageDataExcelConfig = v2;
@@ -303,7 +303,7 @@ void __cdecl data::ActivitySpiceFoodExcelConfig::ActivitySpiceFoodExcelConfig(
   const data::ActivitySpiceFoodExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceFoodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceFoodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySpiceFoodExcelConfig = v2;
@@ -351,7 +351,7 @@ void __cdecl data::ActivitySpiceFoodExcelConfig::~ActivitySpiceFoodExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceFoodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceFoodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceFoodExcelConfig = v2;
@@ -371,7 +371,7 @@ void __cdecl data::ActivitySpiceGivingExcelConfig::ActivitySpiceGivingExcelConfi
   const data::ActivitySpiceGivingExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceGivingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceGivingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivitySpiceGivingExcelConfig = v2;
@@ -419,7 +419,7 @@ void __cdecl data::ActivitySpiceGivingExcelConfig::~ActivitySpiceGivingExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivitySpiceGivingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivitySpiceGivingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivitySpiceGivingExcelConfig = v2;

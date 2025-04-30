@@ -178,13 +178,13 @@ std::ostream *__fastcall mysqlpp::operator<<(std::ostream *os, const mysqlpp::Da
   }
   else
   {
-    v3[0]._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Date + 2);
+    v3[0]._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Date + 2);
     *(_DWORD *)&v3[0].year_ = *(_DWORD *)&dt->year_;
     mysqlpp::operator<<(os, v3);
     LOBYTE(v3[0]._vptr_Comparable) = 32;
     std::__ostream_insert<char,std::char_traits<char>>(os, v3, 1LL);
     v3[0].year_ = *(_WORD *)&dt->hour_;
-    v3[0]._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Time + 2);
+    v3[0]._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Time + 2);
     v3[0].month_ = dt->second_;
     return mysqlpp::operator<<(os, (const mysqlpp::Time *)v3);
   }
@@ -197,7 +197,7 @@ void __fastcall mysqlpp::Date::Date(mysqlpp::Date *const this, time_t t)
   tm tm; // [rsp+10h] [rbp-48h] BYREF
 
   ta = t;
-  this->_vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Date + 2);
+  this->_vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Date + 2);
   localtime_r(&ta, &tm);
   this->year_ = LOWORD(tm.tm_year) + 1900;
   this->month_ = LOBYTE(tm.tm_mon) + 1;
@@ -212,7 +212,7 @@ void __fastcall mysqlpp::DateTime::DateTime(mysqlpp::DateTime *const this, time_
   tm tm; // [rsp+10h] [rbp-48h] BYREF
 
   ta = t;
-  this->_vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::DateTime + 2);
+  this->_vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::DateTime + 2);
   localtime_r(&ta, &tm);
   tm_year = tm.tm_year;
   this->now_ = 0;
@@ -231,7 +231,7 @@ void __fastcall mysqlpp::Time::Time(mysqlpp::Time *const this, time_t t)
   tm tm; // [rsp+10h] [rbp-48h] BYREF
 
   ta = t;
-  this->_vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Time + 2);
+  this->_vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Time + 2);
   localtime_r(&ta, &tm);
   this->hour_ = tm.tm_hour;
   this->minute_ = tm.tm_min;
@@ -335,12 +335,12 @@ const char *__fastcall mysqlpp::DateTime::convert(mysqlpp::DateTime *const this,
   mysqlpp::Time t; // [rsp+10h] [rbp-18h] BYREF
 
   *(_DWORD *)&d.year_ = 0;
-  d._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Date + 2);
+  d._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Date + 2);
   v2 = mysqlpp::Date::convert(&d, str);
   *(_DWORD *)&this->year_ = *(_DWORD *)&d.year_;
   v3 = *v2 == 32;
   t.second_ = 0;
-  t._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Time + 2);
+  t._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Time + 2);
   *(_WORD *)&t.hour_ = 0;
   result = mysqlpp::Time::convert(&t, &v2[v3]);
   v5 = *(_WORD *)&t.hour_;
@@ -396,16 +396,16 @@ int __fastcall mysqlpp::DateTime::compare(const mysqlpp::DateTime *const this, c
     v3 = *(_WORD *)&this->hour_;
     *(_DWORD *)&d.year_ = *(_DWORD *)&this->year_;
     second = this->second_;
-    d._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Date + 2);
-    od._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Date + 2);
+    d._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Date + 2);
+    od._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Date + 2);
     v5 = *(_DWORD *)&other->year_;
     t.second_ = second;
     v6 = *(_WORD *)&other->hour_;
     *(_DWORD *)&od.year_ = v5;
     *(_WORD *)&t.hour_ = v3;
     *(_WORD *)&ot.hour_ = v6;
-    t._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Time + 2);
-    ot._vptr_Comparable = (int (**)(...))(&`vtable for'mysqlpp::Time + 2);
+    t._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Time + 2);
+    ot._vptr_Comparable = (int (**)(...))(&`vtable for mysqlpp::Time + 2);
     ot.second_ = other->second_;
     result = mysqlpp::Date::compare(&d, &od);
     if ( !result )

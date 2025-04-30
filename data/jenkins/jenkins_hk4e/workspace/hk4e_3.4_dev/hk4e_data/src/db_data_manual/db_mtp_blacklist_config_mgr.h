@@ -5,7 +5,7 @@ void __cdecl data::MtpWhitelistMatcher::MtpWhitelistMatcher(data::MtpWhitelistMa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::MtpWhitelistMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::MtpWhitelistMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;
@@ -17,7 +17,7 @@ void __cdecl data::MtpWhitelistMatcher::~MtpWhitelistMatcher(data::MtpWhitelistM
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'data::MtpWhitelistMatcher + 2);
+  v1 = (int (**)(...))(&`vtable for data::MtpWhitelistMatcher + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MtpWhitelistMatcher = v1;

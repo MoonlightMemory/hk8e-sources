@@ -8,7 +8,7 @@ void __cdecl data::EffigyChallengeV2ExcelConfig::EffigyChallengeV2ExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2ExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2ExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2ExcelConfig = v2;
@@ -62,7 +62,7 @@ void __cdecl data::EffigyChallengeV2ExcelConfig::EffigyChallengeV2ExcelConfig(
   const data::EffigyChallengeV2ExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2ExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2ExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EffigyChallengeV2ExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::EffigyChallengeV2ExcelConfig::~EffigyChallengeV2ExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2ExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2ExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2ExcelConfig = v2;
@@ -158,7 +158,7 @@ void __cdecl data::EffigyChallengeV2SkillExcelConfig::EffigyChallengeV2SkillExce
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2SkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2SkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2SkillExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::EffigyChallengeV2SkillExcelConfig::EffigyChallengeV2SkillExce
   const data::EffigyChallengeV2SkillExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2SkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2SkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EffigyChallengeV2SkillExcelConfig = v2;
@@ -217,7 +217,7 @@ void __cdecl data::EffigyChallengeV2SkillExcelConfig::~EffigyChallengeV2SkillExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2SkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2SkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2SkillExcelConfig = v2;
@@ -240,7 +240,7 @@ void __cdecl data::EffigyChallengeV2DifficultyExcelConfig::EffigyChallengeV2Diff
   const data::EffigyChallengeV2DifficultyExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2DifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2DifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EffigyChallengeV2DifficultyExcelConfig = v2;
@@ -293,7 +293,7 @@ void __cdecl data::EffigyChallengeV2DifficultyExcelConfig::~EffigyChallengeV2Dif
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2DifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2DifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2DifficultyExcelConfig = v2;
@@ -315,7 +315,7 @@ void __cdecl data::EffigyChallengeV2OverallExcelConfig::EffigyChallengeV2Overall
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2OverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2OverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2OverallExcelConfig = v2;
@@ -357,7 +357,7 @@ void __cdecl data::EffigyChallengeV2OverallExcelConfig::EffigyChallengeV2Overall
   const data::EffigyChallengeV2OverallExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2OverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2OverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EffigyChallengeV2OverallExcelConfig = v2;
@@ -419,7 +419,7 @@ void __cdecl data::EffigyChallengeV2OverallExcelConfig::~EffigyChallengeV2Overal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::EffigyChallengeV2OverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::EffigyChallengeV2OverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EffigyChallengeV2OverallExcelConfig = v2;

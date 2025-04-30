@@ -60,7 +60,7 @@ int32_t __fastcall common::minet::http_client::HttpUtils::serializeMessage<false
     (boost::beast::http::serializer<false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char> >,boost::beast::http::basic_fields<std::allocator<char> > > *const)(v2 + 528),
     (boost::beast::http::serializer<false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char> >,boost::beast::http::basic_fields<std::allocator<char> > >::value_type *)m);
   std::ios_base::ios_base((std::ios_base *)(v2 + 192));
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v2 + 408) = 0LL;
   *(_BYTE *)(v2 + 416) = 0;
   *(_BYTE *)(v2 + 417) = 0;
@@ -109,9 +109,9 @@ LABEL_14:
   }
   std::ios::init(&v3[*(_QWORD *)(v10 - 24) - 912], 0LL);
 LABEL_15:
-  *(_QWORD *)(v2 + 80) = (char *)&`vtable for'std::ostringstream + 24;
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ostringstream + 64;
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)(v2 + 80) = (char *)&`vtable for std::ostringstream + 24;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ostringstream + 64;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)(v2 + 96) = 0LL;
   *(_QWORD *)(v2 + 104) = 0LL;
   *(_QWORD *)(v2 + 112) = 0LL;
@@ -119,7 +119,7 @@ LABEL_15:
   *(_QWORD *)(v2 + 128) = 0LL;
   *(_QWORD *)(v2 + 136) = 0LL;
   std::locale::locale((std::locale *)(v2 + 144));
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::stringbuf + 16;
   *(_DWORD *)(v2 + 152) = 16;
   *(_QWORD *)(v2 + 160) = v2 + 176;
   *(_QWORD *)(v2 + 168) = 0LL;
@@ -198,13 +198,13 @@ LABEL_28:
   common::milog::MiLogStream::~MiLogStream(&v29);
   v12 = -1;
 LABEL_35:
-  *(_QWORD *)(v2 + 80) = (char *)&`vtable for'std::ostringstream + 24;
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ostringstream + 64;
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)(v2 + 80) = (char *)&`vtable for std::ostringstream + 24;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ostringstream + 64;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::stringbuf + 16;
   v18 = *(char **)(v2 + 160);
   if ( v18 != (char *)(v2 + 176) )
     operator delete(v18);
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)(v2 + 144));
   v19 = (char *)&`VTT for'std::ostringstream + 8;
   if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
@@ -239,7 +239,7 @@ LABEL_47:
   if ( *(_BYTE *)((v21 >> 3) + 0x7FFF8000) )
     goto LABEL_47;
   *(_QWORD *)v21 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v2 + 192));
   f.self = (boost::beast::detail::variant<boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> > >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::asio::const_buffer> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::asio::const_buffer>&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&> > *)(v2 + 824);
   boost::mp11::mp_with_index<9ul,boost::beast::detail::variant<boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::asio::const_buffer>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::asio::const_buffer> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>>::destroy>(
@@ -341,7 +341,7 @@ int32_t __fastcall common::minet::http_client::HttpUtils::serializeMessage<true,
     (boost::beast::http::serializer<true,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char> >,boost::beast::http::basic_fields<std::allocator<char> > > *const)(v2 + 528),
     (boost::beast::http::serializer<true,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char> >,boost::beast::http::basic_fields<std::allocator<char> > >::value_type *)m);
   std::ios_base::ios_base((std::ios_base *)(v2 + 192));
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v2 + 408) = 0LL;
   *(_BYTE *)(v2 + 416) = 0;
   *(_BYTE *)(v2 + 417) = 0;
@@ -390,9 +390,9 @@ LABEL_14:
   }
   std::ios::init(&v3[*(_QWORD *)(v10 - 24) - 912], 0LL);
 LABEL_15:
-  *(_QWORD *)(v2 + 80) = (char *)&`vtable for'std::ostringstream + 24;
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ostringstream + 64;
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)(v2 + 80) = (char *)&`vtable for std::ostringstream + 24;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ostringstream + 64;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   *(_QWORD *)(v2 + 96) = 0LL;
   *(_QWORD *)(v2 + 104) = 0LL;
   *(_QWORD *)(v2 + 112) = 0LL;
@@ -400,7 +400,7 @@ LABEL_15:
   *(_QWORD *)(v2 + 128) = 0LL;
   *(_QWORD *)(v2 + 136) = 0LL;
   std::locale::locale((std::locale *)(v2 + 144));
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::stringbuf + 16;
   *(_DWORD *)(v2 + 152) = 16;
   *(_QWORD *)(v2 + 160) = v2 + 176;
   *(_QWORD *)(v2 + 168) = 0LL;
@@ -479,13 +479,13 @@ LABEL_28:
   common::milog::MiLogStream::~MiLogStream(&v29);
   v12 = -1;
 LABEL_35:
-  *(_QWORD *)(v2 + 80) = (char *)&`vtable for'std::ostringstream + 24;
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ostringstream + 64;
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)(v2 + 80) = (char *)&`vtable for std::ostringstream + 24;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ostringstream + 64;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::stringbuf + 16;
   v18 = *(char **)(v2 + 160);
   if ( v18 != (char *)(v2 + 176) )
     operator delete(v18);
-  *(_QWORD *)(v2 + 88) = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)(v2 + 144));
   v19 = (char *)&`VTT for'std::ostringstream + 8;
   if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
@@ -520,7 +520,7 @@ LABEL_47:
   if ( *(_BYTE *)((v21 >> 3) + 0x7FFF8000) )
     goto LABEL_47;
   *(_QWORD *)v21 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
-  *(_QWORD *)(v2 + 192) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v2 + 192));
   f.self = (boost::beast::detail::variant<boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> > >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::asio::const_buffer> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::asio::const_buffer>&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&> > *)(v2 + 824);
   boost::mp11::mp_with_index<9ul,boost::beast::detail::variant<boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::asio::const_buffer>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::asio::const_buffer> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char>>::writer::field_range,boost::beast::http::chunk_crlf>>,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>,boost::beast::buffers_prefix_view<boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf>> const&>>::destroy>(

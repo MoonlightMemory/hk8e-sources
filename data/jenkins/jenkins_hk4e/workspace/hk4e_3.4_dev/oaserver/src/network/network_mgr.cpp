@@ -9,7 +9,7 @@ void __cdecl NetworkMgr::NetworkMgr(NetworkMgr *const this)
   std::shared_ptr<common::minet::AServerMgr<HttpSession> > v4; // [rsp+20h] [rbp-20h] BYREF
 
   NetworkMgrBase::NetworkMgrBase(this);
-  v2 = (int (**)(...))(&`vtable for'NetworkMgr + 2);
+  v2 = (int (**)(...))(&`vtable for NetworkMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NetworkMgrBase = v2;

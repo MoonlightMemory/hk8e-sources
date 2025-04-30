@@ -14,7 +14,7 @@ void __cdecl data::DeathRegionLevelExcelConfig::DeathRegionLevelExcelConfig(
   const data::DeathRegionLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DeathRegionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeathRegionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DeathRegionLevelExcelConfig = v2;
@@ -65,7 +65,7 @@ void __cdecl data::DeathRegionLevelExcelConfig::~DeathRegionLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DeathRegionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeathRegionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DeathRegionLevelExcelConfig = v2;

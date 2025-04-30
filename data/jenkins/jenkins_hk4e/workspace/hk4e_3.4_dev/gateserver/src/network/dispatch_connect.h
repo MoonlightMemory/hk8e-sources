@@ -6,7 +6,7 @@ void __cdecl DispatchConnect::DispatchConnect(DispatchConnect *const this, boost
   int (**v2)(...); // rdx
 
   common::minet::AClientConnect::AClientConnect(this, ioc);
-  v2 = (int (**)(...))(&`vtable for'DispatchConnect + 2);
+  v2 = (int (**)(...))(&`vtable for DispatchConnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientConnect = v2;
@@ -17,7 +17,7 @@ void __cdecl DispatchConnect::~DispatchConnect(DispatchConnect *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DispatchConnect + 2);
+  v1 = (int (**)(...))(&`vtable for DispatchConnect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_AClientConnect = v1;

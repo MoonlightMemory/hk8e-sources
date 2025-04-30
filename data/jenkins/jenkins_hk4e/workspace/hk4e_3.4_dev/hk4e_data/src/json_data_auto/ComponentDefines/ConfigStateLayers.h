@@ -487,7 +487,7 @@ void __cdecl data::ConfigBaseStateIDInfo::ConfigBaseStateIDInfo(data::ConfigBase
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigBaseStateIDInfo>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseStateIDInfo>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -523,7 +523,7 @@ void __cdecl data::ConfigBaseStateIDInfo::ConfigBaseStateIDInfo(
   std::enable_shared_from_this<data::ConfigBaseStateIDInfo>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseStateIDInfo>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseStateIDInfo + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseStateIDInfo = v3;
@@ -566,7 +566,7 @@ void __cdecl data::ConfigBaseStateIDInfo::~ConfigBaseStateIDInfo(data::ConfigBas
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -648,7 +648,7 @@ void __cdecl data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo(data::Config
   __int64 v16; // rdx
 
   data::ConfigBaseStateIDInfo::ConfigBaseStateIDInfo(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -779,7 +779,7 @@ void __cdecl data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo(
   __int64 v46; // rdx
 
   data::ConfigBaseStateIDInfo::ConfigBaseStateIDInfo(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -954,7 +954,7 @@ void __cdecl data::ConfigNormalStateIDInfo::~ConfigNormalStateIDInfo(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1155,7 +1155,7 @@ void __cdecl data::ConfigAvatarStateIDInfo::ConfigAvatarStateIDInfo(data::Config
   __int64 v18; // rdx
 
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo((data::ConfigNormalStateIDInfo *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1321,7 +1321,7 @@ void __cdecl data::ConfigAvatarStateIDInfo::ConfigAvatarStateIDInfo(
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo(
     (data::ConfigNormalStateIDInfo *const)this,
     (const data::ConfigNormalStateIDInfo *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1559,7 +1559,7 @@ void __cdecl data::ConfigAvatarStateIDInfo::~ConfigAvatarStateIDInfo(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1638,7 +1638,7 @@ void __cdecl data::ConfigAvatarStateIDInfoFactory::ConfigAvatarStateIDInfoFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarStateIDInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarStateIDInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAvatarStateIDInfoFactory = v2;
@@ -1666,7 +1666,7 @@ void __cdecl data::ConfigMonsterStateIDInfo::ConfigMonsterStateIDInfo(data::Conf
   __int64 v17; // rsi
 
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo((data::ConfigNormalStateIDInfo *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1781,7 +1781,7 @@ void __cdecl data::ConfigMonsterStateIDInfo::ConfigMonsterStateIDInfo(
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo(
     (data::ConfigNormalStateIDInfo *const)this,
     (const data::ConfigNormalStateIDInfo *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1925,7 +1925,7 @@ void __cdecl data::ConfigMonsterStateIDInfo::~ConfigMonsterStateIDInfo(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -1993,7 +1993,7 @@ void __cdecl data::ConfigMonsterStateIDInfoFactory::ConfigMonsterStateIDInfoFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMonsterStateIDInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMonsterStateIDInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMonsterStateIDInfoFactory = v2;
@@ -2008,7 +2008,7 @@ void __cdecl data::ConfigNpcStateIDInfo::ConfigNpcStateIDInfo(data::ConfigNpcSta
   __int64 v4; // rdx
 
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo((data::ConfigNormalStateIDInfo *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -2034,7 +2034,7 @@ void __cdecl data::ConfigNpcStateIDInfo::ConfigNpcStateIDInfo(
   data::ConfigNormalStateIDInfo::ConfigNormalStateIDInfo(
     (data::ConfigNormalStateIDInfo *const)this,
     (const data::ConfigNormalStateIDInfo *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -2057,7 +2057,7 @@ void __cdecl data::ConfigNpcStateIDInfo::~ConfigNpcStateIDInfo(data::ConfigNpcSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcStateIDInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcStateIDInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateIDInfo = v2;
@@ -2132,7 +2132,7 @@ void __cdecl data::ConfigNpcStateIDInfoFactory::ConfigNpcStateIDInfoFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcStateIDInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcStateIDInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcStateIDInfoFactory = v2;
@@ -2145,7 +2145,7 @@ void __cdecl data::ConfigBaseStateLayer::ConfigBaseStateLayer(data::ConfigBaseSt
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBaseStateLayer>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseStateLayer>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseStateLayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateLayer = v2;
@@ -2178,7 +2178,7 @@ void __cdecl data::ConfigBaseStateLayer::ConfigBaseStateLayer(
   std::enable_shared_from_this<data::ConfigBaseStateLayer>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseStateLayer>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseStateLayer + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseStateLayer = v3;
@@ -2215,7 +2215,7 @@ void __cdecl data::ConfigBaseStateLayer::~ConfigBaseStateLayer(data::ConfigBaseS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseStateLayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateLayer = v2;
@@ -2291,7 +2291,7 @@ void __cdecl data::ConfigNormalStateLayer::ConfigNormalStateLayer(data::ConfigNo
   int (**v2)(...); // rdx
 
   data::ConfigBaseStateLayer::ConfigBaseStateLayer(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateLayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateLayer = v2;
@@ -2306,7 +2306,7 @@ void __cdecl data::ConfigNormalStateLayer::ConfigNormalStateLayer(
   int (**v2)(...); // rdx
 
   data::ConfigBaseStateLayer::ConfigBaseStateLayer(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateLayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseStateLayer = v2;
@@ -2328,7 +2328,7 @@ void __cdecl data::ConfigNormalStateLayer::~ConfigNormalStateLayer(data::ConfigN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateLayer + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateLayer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseStateLayer = v2;
@@ -2397,7 +2397,7 @@ void __cdecl data::ConfigNormalStateLayerFactory::ConfigNormalStateLayerFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNormalStateLayerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNormalStateLayerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNormalStateLayerFactory = v2;

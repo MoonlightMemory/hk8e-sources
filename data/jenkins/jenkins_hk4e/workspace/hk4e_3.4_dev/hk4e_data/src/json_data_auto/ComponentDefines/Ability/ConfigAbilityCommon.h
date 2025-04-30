@@ -44,7 +44,7 @@ void __cdecl data::SelectTargetsByShape::SelectTargetsByShape(data::SelectTarget
   __int64 v3; // rsi
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -90,7 +90,7 @@ void __cdecl data::BaseActionContainer::BaseActionContainer(
   std::enable_shared_from_this<data::BaseActionContainer>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::BaseActionContainer>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::BaseActionContainer + 2);
+  v3 = (int (**)(...))(&`vtable for data::BaseActionContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_BaseActionContainer = v3;
@@ -129,7 +129,7 @@ void __cdecl data::SelectTargets::SelectTargets(data::SelectTargets *const this)
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::SelectTargets>::enable_shared_from_this(&this->std::enable_shared_from_this<data::SelectTargets>);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargets + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargets + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -173,7 +173,7 @@ void __cdecl data::SelectTargets::SelectTargets(data::SelectTargets *const this,
   std::enable_shared_from_this<data::SelectTargets>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::SelectTargets>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::SelectTargets + 2);
+  v3 = (int (**)(...))(&`vtable for data::SelectTargets + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_SelectTargets = v3;
@@ -224,7 +224,7 @@ void __cdecl data::SelectTargets::~SelectTargets(data::SelectTargets *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargets + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargets + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -309,7 +309,7 @@ void __cdecl data::SelectTargetsByShape::SelectTargetsByShape(
   char v10; // al
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -364,7 +364,7 @@ void __cdecl data::SelectTargetsByShape::~SelectTargetsByShape(data::SelectTarge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -441,7 +441,7 @@ void __cdecl data::SelectTargetsByShapeFactory::SelectTargetsByShapeFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByShapeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByShapeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByShapeFactory = v2;
@@ -454,7 +454,7 @@ void __cdecl data::SelectTargetsByEquipParts::SelectTargetsByEquipParts(data::Se
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByEquipParts + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByEquipParts + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -469,7 +469,7 @@ void __cdecl data::SelectTargetsByEquipParts::SelectTargetsByEquipParts(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByEquipParts + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByEquipParts + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -489,7 +489,7 @@ void __cdecl data::SelectTargetsByEquipParts::~SelectTargetsByEquipParts(data::S
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByEquipParts + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByEquipParts + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -558,7 +558,7 @@ void __cdecl data::SelectTargetsByEquipPartsFactory::SelectTargetsByEquipPartsFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByEquipPartsFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByEquipPartsFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByEquipPartsFactory = v2;
@@ -571,7 +571,7 @@ void __cdecl data::SelectTargetsByChildren::SelectTargetsByChildren(data::Select
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildren + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildren + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -593,7 +593,7 @@ void __cdecl data::SelectTargetsByChildren::SelectTargetsByChildren(
   char v4; // al
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildren + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildren + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -618,7 +618,7 @@ void __cdecl data::SelectTargetsByChildren::~SelectTargetsByChildren(data::Selec
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildren + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildren + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -693,7 +693,7 @@ void __cdecl data::SelectTargetsByChildrenFactory::SelectTargetsByChildrenFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildrenFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildrenFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByChildrenFactory = v2;
@@ -707,7 +707,7 @@ void __cdecl data::SelectTargetsByChildrenEntityType::SelectTargetsByChildrenEnt
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildrenEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildrenEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -729,7 +729,7 @@ void __cdecl data::SelectTargetsByChildrenEntityType::SelectTargetsByChildrenEnt
   char v4; // al
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildrenEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildrenEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -763,7 +763,7 @@ void __cdecl data::SelectTargetsByChildrenEntityType::~SelectTargetsByChildrenEn
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildrenEntityType + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildrenEntityType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -833,7 +833,7 @@ void __cdecl data::SelectTargetsByChildrenEntityTypeFactory::SelectTargetsByChil
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByChildrenEntityTypeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByChildrenEntityTypeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByChildrenEntityTypeFactory = v2;
@@ -846,7 +846,7 @@ void __cdecl data::SelectTargetsByTag::SelectTargetsByTag(data::SelectTargetsByT
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -861,7 +861,7 @@ void __cdecl data::SelectTargetsByTag::SelectTargetsByTag(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -874,7 +874,7 @@ void __cdecl data::SelectTargetsByTag::~SelectTargetsByTag(data::SelectTargetsBy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -949,7 +949,7 @@ void __cdecl data::SelectTargetsByTagFactory::SelectTargetsByTagFactory(data::Se
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByTagFactory = v2;
@@ -963,7 +963,7 @@ void __cdecl data::SelectTargetsByGrapplingHook::SelectTargetsByGrapplingHook(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByGrapplingHook + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByGrapplingHook + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -977,7 +977,7 @@ void __cdecl data::SelectTargetsByGrapplingHook::SelectTargetsByGrapplingHook(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByGrapplingHook + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByGrapplingHook + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -990,7 +990,7 @@ void __cdecl data::SelectTargetsByGrapplingHook::~SelectTargetsByGrapplingHook(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByGrapplingHook + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByGrapplingHook + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1067,7 +1067,7 @@ void __cdecl data::SelectTargetsByGrapplingHookFactory::SelectTargetsByGrappling
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByGrapplingHookFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByGrapplingHookFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByGrapplingHookFactory = v2;
@@ -1081,7 +1081,7 @@ void __cdecl data::SelectTargetsBySelfGroup::SelectTargetsBySelfGroup(data::Sele
   __int64 v3; // rsi
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsBySelfGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsBySelfGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1131,7 +1131,7 @@ void __cdecl data::SelectTargetsBySelfGroup::SelectTargetsBySelfGroup(
 
   v14 = a2;
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsBySelfGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsBySelfGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -1203,7 +1203,7 @@ void __cdecl data::SelectTargetsBySelfGroup::~SelectTargetsBySelfGroup(data::Sel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsBySelfGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsBySelfGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1272,7 +1272,7 @@ void __cdecl data::SelectTargetsBySelfGroupFactory::SelectTargetsBySelfGroupFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsBySelfGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsBySelfGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsBySelfGroupFactory = v2;
@@ -1285,7 +1285,7 @@ void __cdecl data::SelectTargetsByLCTrigger::SelectTargetsByLCTrigger(data::Sele
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1307,7 +1307,7 @@ void __cdecl data::SelectTargetsByLCTrigger::SelectTargetsByLCTrigger(
   char v4; // al
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -1339,7 +1339,7 @@ void __cdecl data::SelectTargetsByLCTrigger::~SelectTargetsByLCTrigger(data::Sel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1407,7 +1407,7 @@ void __cdecl data::SelectTargetsByLCTriggerFactory::SelectTargetsByLCTriggerFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTriggerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTriggerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByLCTriggerFactory = v2;
@@ -1421,7 +1421,7 @@ void __cdecl data::SelectTargetsByLCTriggerAll::SelectTargetsByLCTriggerAll(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTriggerAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTriggerAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1435,7 +1435,7 @@ void __cdecl data::SelectTargetsByLCTriggerAll::SelectTargetsByLCTriggerAll(
   int (**v2)(...); // rdx
 
   data::SelectTargets::SelectTargets(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTriggerAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTriggerAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SelectTargets = v2;
@@ -1448,7 +1448,7 @@ void __cdecl data::SelectTargetsByLCTriggerAll::~SelectTargetsByLCTriggerAll(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTriggerAll + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTriggerAll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargets = v2;
@@ -1524,7 +1524,7 @@ void __cdecl data::SelectTargetsByLCTriggerAllFactory::SelectTargetsByLCTriggerA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectTargetsByLCTriggerAllFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectTargetsByLCTriggerAllFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectTargetsByLCTriggerAllFactory = v2;
@@ -1577,7 +1577,7 @@ void __cdecl data::BaseActionContainer::BaseActionContainer(data::BaseActionCont
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::BaseActionContainer>::enable_shared_from_this(&this->std::enable_shared_from_this<data::BaseActionContainer>);
-  v2 = (int (**)(...))(&`vtable for'data::BaseActionContainer + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseActionContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseActionContainer = v2;
@@ -1600,7 +1600,7 @@ void __cdecl data::BaseActionContainer::~BaseActionContainer(data::BaseActionCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseActionContainer + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseActionContainer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseActionContainer = v2;
@@ -1741,7 +1741,7 @@ void __cdecl data::AbilityProperty::AbilityProperty(data::AbilityProperty *const
   v4[536862794] = -234753535;
   v4[536862795] = -234753535;
   v4[536862796] = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::AbilityProperty + 2);
+  v5 = (int (**)(...))(&`vtable for data::AbilityProperty + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityProperty = v5;
@@ -2973,7 +2973,7 @@ void __cdecl data::AbilityProperty::~AbilityProperty(data::AbilityProperty *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AbilityProperty + 2);
+  v2 = (int (**)(...))(&`vtable for data::AbilityProperty + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AbilityProperty = v2;

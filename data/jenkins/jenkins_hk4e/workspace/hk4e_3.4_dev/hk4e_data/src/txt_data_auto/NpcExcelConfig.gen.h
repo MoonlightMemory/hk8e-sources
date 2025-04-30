@@ -30,7 +30,7 @@ void __cdecl data::NpcExcelConfig::NpcExcelConfig(data::NpcExcelConfig *const th
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::EntityExcelConfig::EntityExcelConfig(this);
-  v5 = (int (**)(...))(&`vtable for'data::NpcExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::NpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v5;
@@ -105,7 +105,7 @@ void __cdecl data::NpcExcelConfig::NpcExcelConfig(data::NpcExcelConfig *const th
   char v23; // dl
 
   data::EntityExcelConfig::EntityExcelConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::NpcExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -178,7 +178,7 @@ void __cdecl data::NpcExcelConfig::~NpcExcelConfig(data::NpcExcelConfig *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -201,7 +201,7 @@ void __cdecl data::NpcFirstMetExcelConfig::NpcFirstMetExcelConfig(data::NpcFirst
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcFirstMetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcFirstMetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcFirstMetExcelConfig = v2;
@@ -234,7 +234,7 @@ void __cdecl data::NpcFirstMetExcelConfig::NpcFirstMetExcelConfig(
   const data::NpcFirstMetExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NpcFirstMetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcFirstMetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NpcFirstMetExcelConfig = v2;
@@ -274,7 +274,7 @@ void __cdecl data::NpcFirstMetExcelConfig::~NpcFirstMetExcelConfig(data::NpcFirs
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NpcFirstMetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NpcFirstMetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NpcFirstMetExcelConfig = v2;

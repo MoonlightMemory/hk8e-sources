@@ -7,7 +7,7 @@ void __cdecl ActivitySeaLampV3ExcelConfigMgr::ActivitySeaLampV3ExcelConfigMgr(
   int (**v1)(...); // rdx
 
   data::ActivitySeaLampV3ExcelConfigMgrBase::ActivitySeaLampV3ExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivitySeaLampV3ExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySeaLampV3ExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySeaLampV3ExcelConfigMgrBase = v1;
@@ -24,7 +24,7 @@ void __cdecl ActivitySeaLampV3ExcelConfigMgr::~ActivitySeaLampV3ExcelConfigMgr(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivitySeaLampV3ExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySeaLampV3ExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivitySeaLampV3ExcelConfigMgrBase = v1;

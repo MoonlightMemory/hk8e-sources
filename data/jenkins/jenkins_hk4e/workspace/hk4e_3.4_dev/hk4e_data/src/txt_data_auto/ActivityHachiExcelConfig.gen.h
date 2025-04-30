@@ -9,7 +9,7 @@ void __cdecl data::ActivityHachiStageExcelConfig::ActivityHachiStageExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHachiStageExcelConfig = v2;
@@ -75,7 +75,7 @@ void __cdecl data::ActivityHachiStageExcelConfig::ActivityHachiStageExcelConfig(
   const data::ActivityHachiStageExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityHachiStageExcelConfig = v2;
@@ -162,7 +162,7 @@ void __cdecl data::ActivityHachiStageExcelConfig::~ActivityHachiStageExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHachiStageExcelConfig = v2;
@@ -189,7 +189,7 @@ void __cdecl data::ActivityHachiFinalStageExcelConfig::ActivityHachiFinalStageEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiFinalStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiFinalStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHachiFinalStageExcelConfig = v2;
@@ -243,7 +243,7 @@ void __cdecl data::ActivityHachiFinalStageExcelConfig::ActivityHachiFinalStageEx
   const data::ActivityHachiFinalStageExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiFinalStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiFinalStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityHachiFinalStageExcelConfig = v2;
@@ -314,7 +314,7 @@ void __cdecl data::ActivityHachiFinalStageExcelConfig::~ActivityHachiFinalStageE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityHachiFinalStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityHachiFinalStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityHachiFinalStageExcelConfig = v2;

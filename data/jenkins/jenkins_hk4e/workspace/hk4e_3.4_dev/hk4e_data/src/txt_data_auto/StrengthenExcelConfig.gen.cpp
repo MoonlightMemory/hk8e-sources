@@ -2971,7 +2971,7 @@ int32_t __cdecl data::StrengthenExcelConfigMgrBase::loadStrengthenPointExcelConf
         v13 = ((v2 + 256) >> 3) + 2147450880;
         *(_WORD *)v13 = 0;
         *(_BYTE *)(v13 + 2) = 0;
-        v14 = &`vtable for'data::StrengthenPointExcelConfig + 2;
+        v14 = &`vtable for data::StrengthenPointExcelConfig + 2;
         if ( *(_BYTE *)(((v2 + 256) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v2 + 256, v12);
         *(_QWORD *)(v2 + 256) = v14;

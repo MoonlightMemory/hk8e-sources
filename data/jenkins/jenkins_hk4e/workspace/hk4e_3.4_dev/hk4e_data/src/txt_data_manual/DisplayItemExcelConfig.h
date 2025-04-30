@@ -6,7 +6,7 @@ void __cdecl DisplayItemExcelConfigMgr::DisplayItemExcelConfigMgr(DisplayItemExc
   int (**v1)(...); // rdx
 
   data::DisplayItemExcelConfigMgrBase::DisplayItemExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'DisplayItemExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DisplayItemExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DisplayItemExcelConfigMgrBase = v1;
@@ -18,7 +18,7 @@ void __cdecl DisplayItemExcelConfigMgr::~DisplayItemExcelConfigMgr(DisplayItemEx
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DisplayItemExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DisplayItemExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DisplayItemExcelConfigMgrBase = v1;

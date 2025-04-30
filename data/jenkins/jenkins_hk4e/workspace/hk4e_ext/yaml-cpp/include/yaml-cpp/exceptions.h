@@ -27,7 +27,7 @@ LABEL_14:
     __asan_report_load_n(mark_, 12LL);
     goto LABEL_15;
   }
-  *(_QWORD *)this = &`vtable for'YAML::Exception + 2;
+  *(_QWORD *)this = &`vtable for YAML::Exception + 2;
   this = (YAML::Exception *const)((char *)this + 16);
   if ( *(_BYTE *)((((unsigned __int64)v3 + 27) >> 3) + 0x7FFF8000) != 0
     && *(_BYTE *)((((unsigned __int64)v3 + 27) >> 3) + 0x7FFF8000) <= (((unsigned __int8)v3 + 27) & 7)
@@ -302,7 +302,7 @@ LABEL_14:
     __asan_report_store8();
     goto LABEL_21;
   }
-  *(_QWORD *)this = &`vtable for'YAML::RepresentationException + 2;
+  *(_QWORD *)this = &`vtable for YAML::RepresentationException + 2;
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
     operator delete(msg_._M_dataplus._M_p);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -315,7 +315,7 @@ LABEL_21:
     __asan_handle_no_return(M_p);
     _Unwind_Resume(v7);
   }
-  *(_QWORD *)this = &`vtable for'YAML::InvalidNode + 2;
+  *(_QWORD *)this = &`vtable for YAML::InvalidNode + 2;
   if ( v15 == (char *)v2 )
   {
     *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
@@ -352,7 +352,7 @@ void __fastcall YAML::BadConversion::BadConversion(YAML::BadConversion *const th
     __asan_report_store8();
     goto LABEL_7;
   }
-  *(_QWORD *)this = &`vtable for'YAML::RepresentationException + 2;
+  *(_QWORD *)this = &`vtable for YAML::RepresentationException + 2;
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v5._M_dataplus._M_p != &v5._anon_0 )
     operator delete(v5._M_dataplus._M_p);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -365,7 +365,7 @@ LABEL_7:
     __asan_handle_no_return(M_p);
     _Unwind_Resume(v3);
   }
-  *(_QWORD *)this = &`vtable for'YAML::BadConversion + 2;
+  *(_QWORD *)this = &`vtable for YAML::BadConversion + 2;
 };
 
 // Line 247: range 000000001531925A-000000001531949B
@@ -377,7 +377,7 @@ void __fastcall YAML::TypedBadConversion<std::string>::~TypedBadConversion(
     __asan_report_store8();
     JUMPOUT(0x1531928BLL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'YAML::TypedBadConversion<std::string> + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for YAML::TypedBadConversion<std::string> + 2;
   YAML::BadConversion::~BadConversion((YAML::BadConversion *)this);
 };
 
@@ -408,7 +408,7 @@ void __fastcall YAML::BadInsert::BadInsert(YAML::BadInsert *const this)
     __asan_report_store8();
     goto LABEL_7;
   }
-  *(_QWORD *)this = &`vtable for'YAML::RepresentationException + 2;
+  *(_QWORD *)this = &`vtable for YAML::RepresentationException + 2;
   if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
     operator delete(msg_._M_dataplus._M_p);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -421,5 +421,5 @@ LABEL_7:
     __asan_handle_no_return(M_p);
     _Unwind_Resume(v2);
   }
-  *(_QWORD *)this = &`vtable for'YAML::BadInsert + 2;
+  *(_QWORD *)this = &`vtable for YAML::BadInsert + 2;
 };

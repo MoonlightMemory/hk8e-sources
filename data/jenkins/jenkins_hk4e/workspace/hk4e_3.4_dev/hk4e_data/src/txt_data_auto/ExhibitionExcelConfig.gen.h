@@ -6,7 +6,7 @@ void __cdecl data::ExhibitionDisplayCondParam::ExhibitionDisplayCondParam(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayCondParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayCondParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionDisplayCondParam = v2;
@@ -30,7 +30,7 @@ void __cdecl data::ExhibitionDisplayCondParam::ExhibitionDisplayCondParam(
   const data::ExhibitionDisplayCondParam *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayCondParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayCondParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionDisplayCondParam = v2;
@@ -65,7 +65,7 @@ void __cdecl data::ExhibitionDisplayCondParam::~ExhibitionDisplayCondParam(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayCondParam + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayCondParam + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionDisplayCondParam = v2;
@@ -81,7 +81,7 @@ void __cdecl data::PlayerExhibitionExcelConfig::PlayerExhibitionExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerExhibitionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerExhibitionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerExhibitionExcelConfig = v2;
@@ -149,7 +149,7 @@ void __cdecl data::PlayerExhibitionExcelConfig::PlayerExhibitionExcelConfig(
   const data::PlayerExhibitionExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PlayerExhibitionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerExhibitionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PlayerExhibitionExcelConfig = v2;
@@ -241,7 +241,7 @@ void __cdecl data::PlayerExhibitionExcelConfig::~PlayerExhibitionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PlayerExhibitionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PlayerExhibitionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PlayerExhibitionExcelConfig = v2;
@@ -265,7 +265,7 @@ void __cdecl data::ExhibitionLuaKeyExcelConfig::ExhibitionLuaKeyExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionLuaKeyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionLuaKeyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionLuaKeyExcelConfig = v2;
@@ -292,7 +292,7 @@ void __cdecl data::ExhibitionLuaKeyExcelConfig::ExhibitionLuaKeyExcelConfig(
   const data::ExhibitionLuaKeyExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionLuaKeyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionLuaKeyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionLuaKeyExcelConfig = v2;
@@ -322,7 +322,7 @@ void __cdecl data::ExhibitionLuaKeyExcelConfig::~ExhibitionLuaKeyExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionLuaKeyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionLuaKeyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionLuaKeyExcelConfig = v2;
@@ -348,7 +348,7 @@ void __cdecl data::ExhibitionDisplayExcelConfig::ExhibitionDisplayExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionDisplayExcelConfig = v2;
@@ -390,7 +390,7 @@ void __cdecl data::ExhibitionDisplayExcelConfig::ExhibitionDisplayExcelConfig(
   const data::ExhibitionDisplayExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionDisplayExcelConfig = v2;
@@ -444,7 +444,7 @@ void __cdecl data::ExhibitionDisplayExcelConfig::~ExhibitionDisplayExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionDisplayExcelConfig = v2;
@@ -467,7 +467,7 @@ void __cdecl data::ExhibitionSeriesExcelConfig::ExhibitionSeriesExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionSeriesExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionSeriesExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionSeriesExcelConfig = v2;
@@ -507,7 +507,7 @@ void __cdecl data::ExhibitionSeriesExcelConfig::ExhibitionSeriesExcelConfig(
   const data::ExhibitionSeriesExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionSeriesExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionSeriesExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionSeriesExcelConfig = v2;
@@ -559,7 +559,7 @@ void __cdecl data::ExhibitionSeriesExcelConfig::~ExhibitionSeriesExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionSeriesExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionSeriesExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionSeriesExcelConfig = v2;
@@ -593,7 +593,7 @@ void __cdecl data::ExhibitionCardExcelConfig::ExhibitionCardExcelConfig(
   const data::ExhibitionCardExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionCardExcelConfig = v2;
@@ -666,7 +666,7 @@ void __cdecl data::ExhibitionCardExcelConfig::~ExhibitionCardExcelConfig(data::E
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionCardExcelConfig = v2;
@@ -696,7 +696,7 @@ void __cdecl data::ExhibitionScoreExcelConfig::ExhibitionScoreExcelConfig(
   const data::ExhibitionScoreExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionScoreExcelConfig = v2;
@@ -798,7 +798,7 @@ void __cdecl data::ExhibitionScoreExcelConfig::~ExhibitionScoreExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionScoreExcelConfig = v2;
@@ -827,7 +827,7 @@ void __cdecl data::ExhibitionListExcelConfig::ExhibitionListExcelConfig(
   const data::ExhibitionListExcelConfig *v17; // [rsp+0h] [rbp-10h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExhibitionListExcelConfig = v2;
@@ -910,7 +910,7 @@ void __cdecl data::ExhibitionListExcelConfig::~ExhibitionListExcelConfig(data::E
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExhibitionListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExhibitionListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExhibitionListExcelConfig = v2;

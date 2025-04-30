@@ -1616,7 +1616,7 @@ LABEL_6:
   v48 = 0LL;
   v49 = 0LL;
   v46[27] = 0LL;
-  v46[0] = (__int64)&`vtable for'std::ios + 16;
+  v46[0] = (__int64)&`vtable for std::ios + 16;
   v47 = 0;
   v8 = `VTT for'std::istringstream[1];
   v27 = `VTT for'std::istringstream[2];
@@ -1626,14 +1626,14 @@ LABEL_6:
   v40 = 0LL;
   std::ios::init((char *)&v39 + *(_QWORD *)(v8 - 24), 0LL);
   memset(&v41[1], 0, 48);
-  v39 = (__int64)&`vtable for'std::istringstream + 24;
-  v46[0] = (__int64)&`vtable for'std::istringstream + 64;
-  v41[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v39 = (__int64)&`vtable for std::istringstream + 24;
+  v46[0] = (__int64)&`vtable for std::istringstream + 64;
+  v41[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v42);
   v10 = src;
   v11 = (void *)n;
   v43 = 0;
-  v41[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v41[0] = (__int64)&`vtable for std::stringbuf + 16;
   v44[0] = v45;
   if ( (char *)src + n && !src )
     std::__throw_logic_error("basic_string::_M_construct null not valid");
@@ -1751,18 +1751,18 @@ LABEL_17:
   if ( v33[0] != v34 )
     operator delete(v33[0]);
 LABEL_31:
-  v39 = (__int64)&`vtable for'std::istringstream + 24;
-  v46[0] = (__int64)&`vtable for'std::istringstream + 64;
-  v41[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v39 = (__int64)&`vtable for std::istringstream + 24;
+  v46[0] = (__int64)&`vtable for std::istringstream + 64;
+  v41[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v44[0] != v45 )
     operator delete(v44[0]);
-  v41[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v41[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v42);
   v22 = *(_QWORD *)(v8 - 24);
   v39 = v8;
   *(__int64 *)((char *)&v39 + v22) = v27;
   v40 = 0LL;
-  v46[0] = (__int64)&`vtable for'std::ios + 16;
+  v46[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v46);
   if ( src != v32 )
     operator delete(src);
@@ -5049,7 +5049,7 @@ LABEL_6:
   v48 = 0LL;
   v49 = 0LL;
   v46[27] = 0LL;
-  v46[0] = (__int64)&`vtable for'std::ios + 16;
+  v46[0] = (__int64)&`vtable for std::ios + 16;
   v47 = 0;
   v8 = `VTT for'std::istringstream[1];
   v27 = `VTT for'std::istringstream[2];
@@ -5059,14 +5059,14 @@ LABEL_6:
   v40 = 0LL;
   std::ios::init((char *)&v39 + *(_QWORD *)(v8 - 24), 0LL);
   memset(&v41[1], 0, 48);
-  v39 = (__int64)&`vtable for'std::istringstream + 24;
-  v46[0] = (__int64)&`vtable for'std::istringstream + 64;
-  v41[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v39 = (__int64)&`vtable for std::istringstream + 24;
+  v46[0] = (__int64)&`vtable for std::istringstream + 64;
+  v41[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v42);
   v10 = src;
   v11 = (void *)n;
   v43 = 0;
-  v41[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v41[0] = (__int64)&`vtable for std::stringbuf + 16;
   v44[0] = v45;
   if ( (char *)src + n && !src )
     std::__throw_logic_error("basic_string::_M_construct null not valid");
@@ -5184,18 +5184,18 @@ LABEL_17:
   if ( v33[0] != v34 )
     operator delete(v33[0]);
 LABEL_31:
-  v39 = (__int64)&`vtable for'std::istringstream + 24;
-  v46[0] = (__int64)&`vtable for'std::istringstream + 64;
-  v41[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v39 = (__int64)&`vtable for std::istringstream + 24;
+  v46[0] = (__int64)&`vtable for std::istringstream + 64;
+  v41[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v44[0] != v45 )
     operator delete(v44[0]);
-  v41[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v41[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v42);
   v22 = *(_QWORD *)(v8 - 24);
   v39 = v8;
   *(__int64 *)((char *)&v39 + v22) = v27;
   v40 = 0LL;
-  v46[0] = (__int64)&`vtable for'std::ios + 16;
+  v46[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v46);
   if ( src != v32 )
     operator delete(src);
@@ -6557,7 +6557,7 @@ void __fastcall Json::OurCharReader::~OurCharReader(Json::OurCharReader *const t
   std::_Deque_iterator<Json::Value*,Json::Value*&,Json::Value**>::_Map_pointer v10; // r12
   void *v11; // rdi
 
-  this->_vptr_CharReader = (int (**)(...))(&`vtable for'Json::OurCharReader + 2);
+  this->_vptr_CharReader = (int (**)(...))(&`vtable for Json::OurCharReader + 2);
   M_p = (Json::OurCharReader *)this->reader_.commentsBefore_._M_dataplus._M_p;
   if ( M_p != (Json::OurCharReader *)&this->reader_.commentsBefore_._anon_0 )
     operator delete(M_p);
@@ -6618,7 +6618,7 @@ void __fastcall Json::OurCharReader::~OurCharReader(Json::OurCharReader *const t
   std::_Deque_iterator<Json::Value*,Json::Value*&,Json::Value**>::_Map_pointer v10; // r12
   void *v11; // rdi
 
-  this->_vptr_CharReader = (int (**)(...))(&`vtable for'Json::OurCharReader + 2);
+  this->_vptr_CharReader = (int (**)(...))(&`vtable for Json::OurCharReader + 2);
   M_p = (Json::OurCharReader *)this->reader_.commentsBefore_._M_dataplus._M_p;
   if ( M_p != (Json::OurCharReader *)&this->reader_.commentsBefore_._anon_0 )
     operator delete(M_p);
@@ -6748,7 +6748,7 @@ void __fastcall __noreturn Json::CharReaderBuilder::CharReaderBuilder()
 // Line 1878: range 00000000152DB930-00000000152DB966
 __int64 __fastcall Json::CharReaderBuilder::CharReaderBuilder(Json::CharReaderBuilder *this)
 {
-  this->_vptr_Factory = (int (**)(...))(&`vtable for'Json::CharReaderBuilder + 2);
+  this->_vptr_Factory = (int (**)(...))(&`vtable for Json::CharReaderBuilder + 2);
   Json::Value::Value(&this->settings_, 0LL);
   return Json::CharReaderBuilder::setDefaults((Json::CharReaderBuilder *)&this->settings_, 0LL);
 };
@@ -6801,7 +6801,7 @@ __int64 __fastcall Json::CharReaderBuilder::newCharReader(Json::CharReaderBuilde
   v16[0].skipBom_ = Json::Value::asBool(v13);
   v14 = operator new(0x140uLL);
   *(_BYTE *)(v14 + 8) = v2;
-  *(_QWORD *)v14 = &`vtable for'Json::OurCharReader + 2;
+  *(_QWORD *)v14 = &`vtable for Json::OurCharReader + 2;
   Json::OurReader::OurReader((Json::OurReader *)(v14 + 16), (const __m128i *)v16);
   return v14;
 };
@@ -7402,7 +7402,7 @@ __int64 __fastcall Json::parseFromStream(__int64 a1, _QWORD *a2, __int64 a3, voi
   std::ios_base::ios_base((std::ios_base *)v40);
   v42 = 0LL;
   v43 = 0LL;
-  v40[0] = (__int64)&`vtable for'std::ios + 16;
+  v40[0] = (__int64)&`vtable for std::ios + 16;
   v41 = 0;
   v40[27] = 0LL;
   v6 = *((_QWORD *)&edata + 1);
@@ -7413,19 +7413,19 @@ __int64 __fastcall Json::parseFromStream(__int64 a1, _QWORD *a2, __int64 a3, voi
   v9 = (_QWORD *)((char *)v32 + v8);
   *v9 = v7;
   std::ios::init(v9, 0LL);
-  v40[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  v23.m128i_i64[0] = (__int64)&`vtable for'std::ostringstream + 24;
+  v40[0] = (__int64)&`vtable for std::ostringstream + 64;
+  v23.m128i_i64[0] = (__int64)&`vtable for std::ostringstream + 24;
   v24 = &v36;
   *(__m128i *)v32 = _mm_unpacklo_epi64(
-                      (__m128i)((unsigned __int64)&`vtable for'std::ostringstream + 24),
-                      (__m128i)((unsigned __int64)&`vtable for'std::streambuf + 16));
+                      (__m128i)((unsigned __int64)&`vtable for std::ostringstream + 24),
+                      (__m128i)((unsigned __int64)&`vtable for std::streambuf + 16));
   v33 = 0LL;
   v34 = 0LL;
   v35 = 0LL;
   std::locale::locale(&v36);
   v37 = 16;
   v39[0] = 0;
-  *(_QWORD *)&v32[2] = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)&v32[2] = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)v25 = v39;
   v38[0] = v39;
   v38[1] = 0LL;
@@ -7511,16 +7511,16 @@ LABEL_12:
   if ( v26 != v28 )
     operator delete(v26);
   v18 = _mm_loadl_epi64(&v23);
-  v40[0] = (__int64)&`vtable for'std::ostringstream + 64;
-  *(__m128i *)v32 = _mm_unpacklo_epi64(v18, (__m128i)((unsigned __int64)&`vtable for'std::stringbuf + 16));
+  v40[0] = (__int64)&`vtable for std::ostringstream + 64;
+  *(__m128i *)v32 = _mm_unpacklo_epi64(v18, (__m128i)((unsigned __int64)&`vtable for std::stringbuf + 16));
   if ( v38[0] != *(void **)v25 )
     operator delete(v38[0]);
-  *(_QWORD *)&v32[2] = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)&v32[2] = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale(v24);
   v19 = *(_QWORD *)(v6 - 24);
   *(_QWORD *)v32 = v6;
   *(_QWORD *)((char *)v32 + v19) = v21;
-  v40[0] = (__int64)&`vtable for'std::ios + 16;
+  v40[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v40);
   return v13;
 };

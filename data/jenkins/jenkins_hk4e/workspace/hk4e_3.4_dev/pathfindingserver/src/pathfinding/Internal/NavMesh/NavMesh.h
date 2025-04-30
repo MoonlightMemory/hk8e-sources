@@ -360,7 +360,7 @@ void __cdecl NavMeshProcessCallback::NavMeshProcessCallback(NavMeshProcessCallba
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshProcessCallback + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshProcessCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshProcessCallback = v1;
@@ -374,7 +374,7 @@ void __cdecl NavMeshMatchFirstCallback::NavMeshMatchFirstCallback(NavMeshMatchFi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshMatchFirstCallback + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshMatchFirstCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshMatchFirstCallback = v1;
@@ -1113,7 +1113,7 @@ void __cdecl NavMeshTileMemoryCallback::NavMeshTileMemoryCallback(NavMeshTileMem
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshTileMemoryCallback + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshTileMemoryCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshTileMemoryCallback = v1;
@@ -1131,7 +1131,7 @@ void __cdecl NavMeshTileMemoryCallback::~NavMeshTileMemoryCallback(NavMeshTileMe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NavMeshTileMemoryCallback + 2);
+  v1 = (int (**)(...))(&`vtable for NavMeshTileMemoryCallback + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_NavMeshTileMemoryCallback = v1;

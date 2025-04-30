@@ -6,7 +6,7 @@ void __cdecl data::ConfigHomeGather::~ConfigHomeGather(data::ConfigHomeGather *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHomeGather + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHomeGather + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigHomeGather = v2;
@@ -35,7 +35,7 @@ void __cdecl data::HomeWorldFurnitureTypeExcelConfig::HomeWorldFurnitureTypeExce
   const data::HomeWorldFurnitureTypeExcelConfig *v17; // [rsp+0h] [rbp-10h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFurnitureTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFurnitureTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldFurnitureTypeExcelConfig = v2;
@@ -112,7 +112,7 @@ void __cdecl data::HomeWorldFurnitureTypeExcelConfig::~HomeWorldFurnitureTypeExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFurnitureTypeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFurnitureTypeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldFurnitureTypeExcelConfig = v2;
@@ -140,7 +140,7 @@ void __cdecl data::HomeWorldFurnitureExcelConfig::HomeWorldFurnitureExcelConfig(
   __int64 v8; // rsi
 
   data::ItemConfig::ItemConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -281,7 +281,7 @@ void __cdecl data::HomeWorldFurnitureExcelConfig::HomeWorldFurnitureExcelConfig(
   char v39; // dl
 
   data::ItemConfig::ItemConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -491,7 +491,7 @@ void __cdecl data::HomeWorldFurnitureExcelConfig::~HomeWorldFurnitureExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -509,7 +509,7 @@ void __cdecl data::HomeWorldSpecialFurnitureExcelConfig::HomeWorldSpecialFurnitu
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldSpecialFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldSpecialFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldSpecialFurnitureExcelConfig = v2;
@@ -551,7 +551,7 @@ void __cdecl data::HomeWorldSpecialFurnitureExcelConfig::HomeWorldSpecialFurnitu
   const data::HomeWorldSpecialFurnitureExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldSpecialFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldSpecialFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldSpecialFurnitureExcelConfig = v2;
@@ -613,7 +613,7 @@ void __cdecl data::HomeWorldSpecialFurnitureExcelConfig::~HomeWorldSpecialFurnit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldSpecialFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldSpecialFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldSpecialFurnitureExcelConfig = v2;
@@ -639,7 +639,7 @@ void __cdecl data::HomeworldAnimalExcelConfig::HomeworldAnimalExcelConfig(
   const data::HomeworldAnimalExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldAnimalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldAnimalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeworldAnimalExcelConfig = v2;
@@ -706,7 +706,7 @@ void __cdecl data::HomeworldAnimalExcelConfig::~HomeworldAnimalExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldAnimalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldAnimalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeworldAnimalExcelConfig = v2;
@@ -728,7 +728,7 @@ void __cdecl data::HomeworldModuleExcelConfig::HomeworldModuleExcelConfig(data::
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldModuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldModuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeworldModuleExcelConfig = v2;
@@ -780,7 +780,7 @@ void __cdecl data::HomeworldModuleExcelConfig::HomeworldModuleExcelConfig(
   const data::HomeworldModuleExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldModuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldModuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeworldModuleExcelConfig = v2;
@@ -846,7 +846,7 @@ void __cdecl data::HomeworldModuleExcelConfig::~HomeworldModuleExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldModuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldModuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeworldModuleExcelConfig = v2;
@@ -867,7 +867,7 @@ void __cdecl data::FurnitureSuiteExcelConfig::FurnitureSuiteExcelConfig(data::Fu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureSuiteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureSuiteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FurnitureSuiteExcelConfig = v2;
@@ -913,7 +913,7 @@ void __cdecl data::FurnitureSuiteExcelConfig::FurnitureSuiteExcelConfig(
   const data::FurnitureSuiteExcelConfig *v9; // [rsp+0h] [rbp-20h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureSuiteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureSuiteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FurnitureSuiteExcelConfig = v2;
@@ -971,7 +971,7 @@ void __cdecl data::FurnitureSuiteExcelConfig::~FurnitureSuiteExcelConfig(data::F
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureSuiteExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureSuiteExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FurnitureSuiteExcelConfig = v2;
@@ -1003,7 +1003,7 @@ void __cdecl data::HomeworldLevelExcelConfig::HomeworldLevelExcelConfig(data::Ho
   __int64 v7; // rsi
   __int64 v8; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeworldLevelExcelConfig = v2;
@@ -1138,7 +1138,7 @@ void __cdecl data::HomeworldLevelExcelConfig::HomeworldLevelExcelConfig(
   const data::HomeworldLevelExcelConfig *v35; // [rsp+0h] [rbp-10h]
 
   v35 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeworldLevelExcelConfig = v2;
@@ -1336,7 +1336,7 @@ void __cdecl data::HomeworldLevelExcelConfig::~HomeworldLevelExcelConfig(data::H
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeworldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeworldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeworldLevelExcelConfig = v2;
@@ -1352,7 +1352,7 @@ void __cdecl data::FurnitureMakeExcelConfig::FurnitureMakeExcelConfig(data::Furn
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureMakeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureMakeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FurnitureMakeExcelConfig = v2;
@@ -1433,7 +1433,7 @@ void __cdecl data::FurnitureMakeExcelConfig::FurnitureMakeExcelConfig(
   const data::FurnitureMakeExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureMakeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureMakeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FurnitureMakeExcelConfig = v2;
@@ -1542,7 +1542,7 @@ void __cdecl data::FurnitureMakeExcelConfig::~FurnitureMakeExcelConfig(data::Fur
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FurnitureMakeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FurnitureMakeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FurnitureMakeExcelConfig = v2;
@@ -1568,7 +1568,7 @@ void __cdecl data::HomeWorldShopSubTagExcelConfig::HomeWorldShopSubTagExcelConfi
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldShopSubTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldShopSubTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldShopSubTagExcelConfig = v2;
@@ -1612,7 +1612,7 @@ void __cdecl data::HomeWorldShopSubTagExcelConfig::HomeWorldShopSubTagExcelConfi
   const data::HomeWorldShopSubTagExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldShopSubTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldShopSubTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldShopSubTagExcelConfig = v2;
@@ -1661,7 +1661,7 @@ void __cdecl data::HomeWorldShopSubTagExcelConfig::~HomeWorldShopSubTagExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldShopSubTagExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldShopSubTagExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldShopSubTagExcelConfig = v2;
@@ -1709,7 +1709,7 @@ void __cdecl data::HomeWorldLimitShopCond::HomeWorldLimitShopCond(data::HomeWorl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldLimitShopCond = v2;
@@ -1733,7 +1733,7 @@ void __cdecl data::HomeWorldLimitShopCond::HomeWorldLimitShopCond(
   const data::HomeWorldLimitShopCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldLimitShopCond = v2;
@@ -1766,7 +1766,7 @@ void __cdecl data::HomeWorldLimitShopCond::~HomeWorldLimitShopCond(data::HomeWor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldLimitShopCond = v2;
@@ -1781,7 +1781,7 @@ void __cdecl data::HomeWorldLimitShopExcelConfig::HomeWorldLimitShopExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldLimitShopExcelConfig = v2;
@@ -1842,7 +1842,7 @@ void __cdecl data::HomeWorldLimitShopExcelConfig::HomeWorldLimitShopExcelConfig(
   const data::HomeWorldLimitShopExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldLimitShopExcelConfig = v2;
@@ -1933,7 +1933,7 @@ void __cdecl data::HomeWorldLimitShopExcelConfig::~HomeWorldLimitShopExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLimitShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLimitShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldLimitShopExcelConfig = v2;
@@ -1957,7 +1957,7 @@ void __cdecl data::HomeWorldLeastShopExcelConfig::HomeWorldLeastShopExcelConfig(
   const data::HomeWorldLeastShopExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLeastShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLeastShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldLeastShopExcelConfig = v2;
@@ -2018,7 +2018,7 @@ void __cdecl data::HomeWorldLeastShopExcelConfig::~HomeWorldLeastShopExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldLeastShopExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldLeastShopExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldLeastShopExcelConfig = v2;
@@ -2033,7 +2033,7 @@ void __cdecl data::HomeWorldAreaComfortExcelConfig::HomeWorldAreaComfortExcelCon
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldAreaComfortExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldAreaComfortExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldAreaComfortExcelConfig = v2;
@@ -2108,7 +2108,7 @@ void __cdecl data::HomeWorldAreaComfortExcelConfig::HomeWorldAreaComfortExcelCon
   const data::HomeWorldAreaComfortExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldAreaComfortExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldAreaComfortExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldAreaComfortExcelConfig = v2;
@@ -2209,7 +2209,7 @@ void __cdecl data::HomeWorldAreaComfortExcelConfig::~HomeWorldAreaComfortExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldAreaComfortExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldAreaComfortExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldAreaComfortExcelConfig = v2;
@@ -2254,7 +2254,7 @@ void __cdecl data::HomeWorldComfortLevelExcelConfig::HomeWorldComfortLevelExcelC
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::HomeWorldComfortLevelExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::HomeWorldComfortLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldComfortLevelExcelConfig = v5;
@@ -2322,7 +2322,7 @@ void __cdecl data::HomeWorldComfortLevelExcelConfig::HomeWorldComfortLevelExcelC
   const data::HomeWorldComfortLevelExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldComfortLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldComfortLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldComfortLevelExcelConfig = v2;
@@ -2393,7 +2393,7 @@ void __cdecl data::HomeWorldComfortLevelExcelConfig::~HomeWorldComfortLevelExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldComfortLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldComfortLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldComfortLevelExcelConfig = v2;
@@ -2449,7 +2449,7 @@ void __cdecl data::HomeWorldEventExcelConfig::HomeWorldEventExcelConfig(
   const data::HomeWorldEventExcelConfig *v33; // [rsp+0h] [rbp-10h]
 
   v33 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldEventExcelConfig = v2;
@@ -2623,7 +2623,7 @@ void __cdecl data::HomeWorldEventExcelConfig::~HomeWorldEventExcelConfig(data::H
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldEventExcelConfig = v2;
@@ -2718,7 +2718,7 @@ void __cdecl data::ConfigHomeGather::ConfigHomeGather(data::ConfigHomeGather *co
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHomeGather + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHomeGather + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigHomeGather = v2;
@@ -2768,7 +2768,7 @@ void __cdecl data::ConfigHomeGather::ConfigHomeGather(
   const data::ConfigHomeGather *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHomeGather + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHomeGather + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigHomeGather = v2;
@@ -2844,7 +2844,7 @@ void __cdecl data::HomeWorldPlantExcelConfig::HomeWorldPlantExcelConfig(data::Ho
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldPlantExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldPlantExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldPlantExcelConfig = v2;
@@ -2941,7 +2941,7 @@ void __cdecl data::HomeWorldPlantExcelConfig::HomeWorldPlantExcelConfig(
   const data::HomeWorldPlantExcelConfig *v26; // [rsp+0h] [rbp-20h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldPlantExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldPlantExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldPlantExcelConfig = v2;
@@ -3077,7 +3077,7 @@ void __cdecl data::HomeWorldPlantExcelConfig::~HomeWorldPlantExcelConfig(data::H
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldPlantExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldPlantExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldPlantExcelConfig = v2;
@@ -3099,7 +3099,7 @@ void __cdecl data::HomeWorldFarmFieldExcelConfig::HomeWorldFarmFieldExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFarmFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFarmFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldFarmFieldExcelConfig = v2;
@@ -3132,7 +3132,7 @@ void __cdecl data::HomeWorldFarmFieldExcelConfig::HomeWorldFarmFieldExcelConfig(
   const data::HomeWorldFarmFieldExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFarmFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFarmFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldFarmFieldExcelConfig = v2;
@@ -3173,7 +3173,7 @@ void __cdecl data::HomeWorldFarmFieldExcelConfig::~HomeWorldFarmFieldExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldFarmFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldFarmFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldFarmFieldExcelConfig = v2;
@@ -3195,7 +3195,7 @@ void __cdecl data::HomeWorldExtraFurnitureExcelConfig::HomeWorldExtraFurnitureEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldExtraFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldExtraFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldExtraFurnitureExcelConfig = v2;
@@ -3219,7 +3219,7 @@ void __cdecl data::HomeWorldExtraFurnitureExcelConfig::HomeWorldExtraFurnitureEx
   const data::HomeWorldExtraFurnitureExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldExtraFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldExtraFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldExtraFurnitureExcelConfig = v2;
@@ -3254,7 +3254,7 @@ void __cdecl data::HomeWorldExtraFurnitureExcelConfig::~HomeWorldExtraFurnitureE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldExtraFurnitureExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldExtraFurnitureExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldExtraFurnitureExcelConfig = v2;
@@ -3268,7 +3268,7 @@ void __cdecl data::HomeWorldNPCExcelConfig::HomeWorldNPCExcelConfig(data::HomeWo
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldNPCExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldNPCExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldNPCExcelConfig = v2;
@@ -3316,7 +3316,7 @@ void __cdecl data::HomeWorldNPCExcelConfig::HomeWorldNPCExcelConfig(
   const data::HomeWorldNPCExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldNPCExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldNPCExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldNPCExcelConfig = v2;
@@ -3380,7 +3380,7 @@ void __cdecl data::HomeWorldNPCExcelConfig::~HomeWorldNPCExcelConfig(data::HomeW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldNPCExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldNPCExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldNPCExcelConfig = v2;
@@ -3420,7 +3420,7 @@ void __cdecl data::HomeWorldBgmExcelConfig::HomeWorldBgmExcelConfig(
   const data::HomeWorldBgmExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldBgmExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldBgmExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldBgmExcelConfig = v2;
@@ -3478,7 +3478,7 @@ void __cdecl data::HomeWorldBgmExcelConfig::~HomeWorldBgmExcelConfig(data::HomeW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldBgmExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldBgmExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldBgmExcelConfig = v2;
@@ -3505,7 +3505,7 @@ void __cdecl data::HomeWorldServerGadgetExcelConfig::HomeWorldServerGadgetExcelC
   const data::HomeWorldServerGadgetExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldServerGadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldServerGadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldServerGadgetExcelConfig = v2;
@@ -3553,7 +3553,7 @@ void __cdecl data::HomeWorldServerGadgetExcelConfig::~HomeWorldServerGadgetExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldServerGadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldServerGadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldServerGadgetExcelConfig = v2;
@@ -3567,7 +3567,7 @@ void __cdecl data::CusmtomGadgetSlotExcelConfig::CusmtomGadgetSlotExcelConfig(
   int (**v2)(...); // rdx
 
   data::CustomSlotConfig::CustomSlotConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetSlotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetSlotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomSlotConfig = v2;
@@ -3581,7 +3581,7 @@ void __cdecl data::CusmtomGadgetSlotExcelConfig::CusmtomGadgetSlotExcelConfig(
   int (**v2)(...); // rdx
 
   data::CustomSlotConfig::CustomSlotConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetSlotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetSlotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomSlotConfig = v2;
@@ -3594,7 +3594,7 @@ void __cdecl data::CusmtomGadgetSlotExcelConfig::~CusmtomGadgetSlotExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetSlotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetSlotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomSlotConfig = v2;
@@ -3617,7 +3617,7 @@ void __cdecl data::CusmtomGadgetConfigIdExcelConfig::CusmtomGadgetConfigIdExcelC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetConfigIdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetConfigIdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CusmtomGadgetConfigIdExcelConfig = v2;
@@ -3660,7 +3660,7 @@ void __cdecl data::CusmtomGadgetConfigIdExcelConfig::CusmtomGadgetConfigIdExcelC
   const data::CusmtomGadgetConfigIdExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetConfigIdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetConfigIdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CusmtomGadgetConfigIdExcelConfig = v2;
@@ -3715,7 +3715,7 @@ void __cdecl data::CusmtomGadgetConfigIdExcelConfig::~CusmtomGadgetConfigIdExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CusmtomGadgetConfigIdExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CusmtomGadgetConfigIdExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CusmtomGadgetConfigIdExcelConfig = v2;
@@ -3738,7 +3738,7 @@ void __cdecl data::CustomGadgetRootExcelConfig::CustomGadgetRootExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetRootExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetRootExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetRootExcelConfig = v2;
@@ -3762,7 +3762,7 @@ void __cdecl data::CustomGadgetRootExcelConfig::CustomGadgetRootExcelConfig(
   const data::CustomGadgetRootExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetRootExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetRootExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CustomGadgetRootExcelConfig = v2;
@@ -3797,7 +3797,7 @@ void __cdecl data::CustomGadgetRootExcelConfig::~CustomGadgetRootExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CustomGadgetRootExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CustomGadgetRootExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CustomGadgetRootExcelConfig = v2;
@@ -3820,7 +3820,7 @@ void __cdecl data::HomeWorldWoodExchangeMaterialConfig::HomeWorldWoodExchangeMat
   const data::HomeWorldWoodExchangeMaterialConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldWoodExchangeMaterialConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldWoodExchangeMaterialConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldWoodExchangeMaterialConfig = v2;
@@ -3873,7 +3873,7 @@ void __cdecl data::HomeWorldWoodExchangeMaterialConfig::~HomeWorldWoodExchangeMa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldWoodExchangeMaterialConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldWoodExchangeMaterialConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldWoodExchangeMaterialConfig = v2;
@@ -3894,7 +3894,7 @@ void __cdecl data::HomeWorldWoodExcelConfig::HomeWorldWoodExcelConfig(data::Home
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldWoodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldWoodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldWoodExcelConfig = v2;
@@ -3936,7 +3936,7 @@ void __cdecl data::HomeWorldWoodExcelConfig::HomeWorldWoodExcelConfig(
   const data::HomeWorldWoodExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldWoodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldWoodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldWoodExcelConfig = v2;
@@ -3996,7 +3996,7 @@ void __cdecl data::HomeWorldWoodExcelConfig::~HomeWorldWoodExcelConfig(data::Hom
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldWoodExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldWoodExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldWoodExcelConfig = v2;
@@ -4012,7 +4012,7 @@ void __cdecl data::HomeWorldBlueprintSlotExcelConfig::HomeWorldBlueprintSlotExce
   uint32_t slot_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldBlueprintSlotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldBlueprintSlotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_HomeWorldBlueprintSlotExcelConfig = v2;
@@ -4046,7 +4046,7 @@ void __cdecl data::HomeWorldBlueprintSlotExcelConfig::~HomeWorldBlueprintSlotExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::HomeWorldBlueprintSlotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::HomeWorldBlueprintSlotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_HomeWorldBlueprintSlotExcelConfig = v2;

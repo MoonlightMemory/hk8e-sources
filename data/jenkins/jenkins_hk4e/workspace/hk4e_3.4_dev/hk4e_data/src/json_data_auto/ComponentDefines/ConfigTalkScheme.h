@@ -951,7 +951,7 @@ void __cdecl data::ConfigDialogGroup::ConfigDialogGroup(data::ConfigDialogGroup 
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigDialogGroup>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigDialogGroup>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -994,7 +994,7 @@ void __cdecl data::ConfigDialogGroup::ConfigDialogGroup(
   std::enable_shared_from_this<data::ConfigDialogGroup>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigDialogGroup>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigDialogGroup + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigDialogGroup = v3;
@@ -1045,7 +1045,7 @@ void __cdecl data::ConfigDialogGroup::~ConfigDialogGroup(data::ConfigDialogGroup
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1121,7 +1121,7 @@ void __cdecl data::ConfigFreeDialogGroup::ConfigFreeDialogGroup(data::ConfigFree
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFreeDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFreeDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1135,7 +1135,7 @@ void __cdecl data::ConfigFreeDialogGroup::ConfigFreeDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFreeDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFreeDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1147,7 +1147,7 @@ void __cdecl data::ConfigFreeDialogGroup::~ConfigFreeDialogGroup(data::ConfigFre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFreeDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFreeDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1222,7 +1222,7 @@ void __cdecl data::ConfigFreeDialogGroupFactory::ConfigFreeDialogGroupFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFreeDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFreeDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFreeDialogGroupFactory = v2;
@@ -1235,7 +1235,7 @@ void __cdecl data::ConfigNarratorDialogGroup::ConfigNarratorDialogGroup(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNarratorDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNarratorDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1249,7 +1249,7 @@ void __cdecl data::ConfigNarratorDialogGroup::ConfigNarratorDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNarratorDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNarratorDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1261,7 +1261,7 @@ void __cdecl data::ConfigNarratorDialogGroup::~ConfigNarratorDialogGroup(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNarratorDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNarratorDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1336,7 +1336,7 @@ void __cdecl data::ConfigNarratorDialogGroupFactory::ConfigNarratorDialogGroupFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNarratorDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNarratorDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNarratorDialogGroupFactory = v2;
@@ -1349,7 +1349,7 @@ void __cdecl data::ConfigBlossomDialogGroup::ConfigBlossomDialogGroup(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlossomDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlossomDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1363,7 +1363,7 @@ void __cdecl data::ConfigBlossomDialogGroup::ConfigBlossomDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlossomDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlossomDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1382,7 +1382,7 @@ void __cdecl data::ConfigBlossomDialogGroup::~ConfigBlossomDialogGroup(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlossomDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlossomDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1450,7 +1450,7 @@ void __cdecl data::ConfigBlossomDialogGroupFactory::ConfigBlossomDialogGroupFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlossomDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlossomDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBlossomDialogGroupFactory = v2;
@@ -1463,7 +1463,7 @@ void __cdecl data::ConfigActivityDialogGroup::ConfigActivityDialogGroup(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActivityDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActivityDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1477,7 +1477,7 @@ void __cdecl data::ConfigActivityDialogGroup::ConfigActivityDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActivityDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActivityDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1489,7 +1489,7 @@ void __cdecl data::ConfigActivityDialogGroup::~ConfigActivityDialogGroup(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActivityDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActivityDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1564,7 +1564,7 @@ void __cdecl data::ConfigActivityDialogGroupFactory::ConfigActivityDialogGroupFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActivityDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActivityDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActivityDialogGroupFactory = v2;
@@ -1577,7 +1577,7 @@ void __cdecl data::ConfigCoopDialogGroup::ConfigCoopDialogGroup(data::ConfigCoop
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1591,7 +1591,7 @@ void __cdecl data::ConfigCoopDialogGroup::ConfigCoopDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1603,7 +1603,7 @@ void __cdecl data::ConfigCoopDialogGroup::~ConfigCoopDialogGroup(data::ConfigCoo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1678,7 +1678,7 @@ void __cdecl data::ConfigCoopDialogGroupFactory::ConfigCoopDialogGroupFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCoopDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCoopDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCoopDialogGroupFactory = v2;
@@ -1691,7 +1691,7 @@ void __cdecl data::ConfigGadgetDialogGroup::ConfigGadgetDialogGroup(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1705,7 +1705,7 @@ void __cdecl data::ConfigGadgetDialogGroup::ConfigGadgetDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1717,7 +1717,7 @@ void __cdecl data::ConfigGadgetDialogGroup::~ConfigGadgetDialogGroup(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1792,7 +1792,7 @@ void __cdecl data::ConfigGadgetDialogGroupFactory::ConfigGadgetDialogGroupFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetDialogGroupFactory = v2;
@@ -1805,7 +1805,7 @@ void __cdecl data::ConfigNpcOtherDialogGroup::ConfigNpcOtherDialogGroup(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcOtherDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcOtherDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1819,7 +1819,7 @@ void __cdecl data::ConfigNpcOtherDialogGroup::ConfigNpcOtherDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcOtherDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcOtherDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1831,7 +1831,7 @@ void __cdecl data::ConfigNpcOtherDialogGroup::~ConfigNpcOtherDialogGroup(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcOtherDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcOtherDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1906,7 +1906,7 @@ void __cdecl data::ConfigNpcOtherDialogGroupFactory::ConfigNpcOtherDialogGroupFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigNpcOtherDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigNpcOtherDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigNpcOtherDialogGroupFactory = v2;
@@ -1919,7 +1919,7 @@ void __cdecl data::ConfigCutsceneDialogGroup::ConfigCutsceneDialogGroup(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1933,7 +1933,7 @@ void __cdecl data::ConfigCutsceneDialogGroup::ConfigCutsceneDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -1945,7 +1945,7 @@ void __cdecl data::ConfigCutsceneDialogGroup::~ConfigCutsceneDialogGroup(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -2020,7 +2020,7 @@ void __cdecl data::ConfigCutsceneDialogGroupFactory::ConfigCutsceneDialogGroupFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCutsceneDialogGroupFactory = v2;
@@ -2033,7 +2033,7 @@ void __cdecl data::ConfigUIDialogGroup::ConfigUIDialogGroup(data::ConfigUIDialog
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUIDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUIDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -2047,7 +2047,7 @@ void __cdecl data::ConfigUIDialogGroup::ConfigUIDialogGroup(
   int (**v2)(...); // rdx
 
   data::ConfigDialogGroup::ConfigDialogGroup(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUIDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUIDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigDialogGroup = v2;
@@ -2059,7 +2059,7 @@ void __cdecl data::ConfigUIDialogGroup::~ConfigUIDialogGroup(data::ConfigUIDialo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUIDialogGroup + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUIDialogGroup + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogGroup = v2;
@@ -2133,7 +2133,7 @@ void __cdecl data::ConfigUIDialogGroupFactory::ConfigUIDialogGroupFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUIDialogGroupFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUIDialogGroupFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigUIDialogGroupFactory = v2;

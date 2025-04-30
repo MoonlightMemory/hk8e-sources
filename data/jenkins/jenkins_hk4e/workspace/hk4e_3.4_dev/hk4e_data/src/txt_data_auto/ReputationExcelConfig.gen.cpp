@@ -3990,7 +3990,7 @@ int32_t __cdecl data::ReputationExcelConfigMgrBase::loadReputationLevelExcelConf
         *(_QWORD *)(v3 + 608) = 0LL;
         *(_QWORD *)(v3 + 616) = 0LL;
         *(_QWORD *)(v3 + 624) = 0LL;
-        v16 = &`vtable for'data::ReputationLevelExcelConfig + 2;
+        v16 = &`vtable for data::ReputationLevelExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 592) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 592, v15);
         *(_QWORD *)(v3 + 592) = v16;
@@ -4808,7 +4808,7 @@ int32_t __cdecl data::ReputationExcelConfigMgrBase::loadReputationQuestExcelConf
         v14 = ((v3 + 224) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ReputationQuestExcelConfig + 2;
+        v15 = &`vtable for data::ReputationQuestExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 224) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 224, v13);
         *(_QWORD *)(v3 + 224) = v15;
@@ -5214,7 +5214,7 @@ int32_t __cdecl data::ReputationExcelConfigMgrBase::loadReputationRequestExcelCo
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::ReputationRequestExcelConfig + 2;
+        v14 = &`vtable for data::ReputationRequestExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;
@@ -5593,7 +5593,7 @@ int32_t __cdecl data::ReputationExcelConfigMgrBase::loadReputationExploreExcelCo
         v14 = ((v3 + 224) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::ReputationExploreExcelConfig + 2;
+        v15 = &`vtable for data::ReputationExploreExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 224) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 224, v13);
         *(_QWORD *)(v3 + 224) = v15;

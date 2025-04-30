@@ -10,7 +10,7 @@ void __cdecl data::CompoundExcelConfig::CompoundExcelConfig(data::CompoundExcelC
   __int64 v5; // rdx
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CompoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CompoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CompoundExcelConfig = v2;
@@ -90,7 +90,7 @@ void __cdecl data::CompoundExcelConfig::CompoundExcelConfig(
   const data::CompoundExcelConfig *v23; // [rsp+0h] [rbp-20h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CompoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CompoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CompoundExcelConfig = v2;
@@ -196,7 +196,7 @@ void __cdecl data::CompoundExcelConfig::~CompoundExcelConfig(data::CompoundExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CompoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CompoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CompoundExcelConfig = v2;
@@ -225,7 +225,7 @@ void __cdecl data::CompoundBoostExcelConfig::CompoundBoostExcelConfig(
   const data::CompoundBoostExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CompoundBoostExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CompoundBoostExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CompoundBoostExcelConfig = v2;
@@ -264,7 +264,7 @@ void __cdecl data::CompoundBoostExcelConfig::~CompoundBoostExcelConfig(data::Com
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CompoundBoostExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CompoundBoostExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CompoundBoostExcelConfig = v2;
@@ -284,7 +284,7 @@ void __cdecl data::RandomCompoundDisplayExcelConfig::RandomCompoundDisplayExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomCompoundDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomCompoundDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomCompoundDisplayExcelConfig = v2;
@@ -308,7 +308,7 @@ void __cdecl data::RandomCompoundDisplayExcelConfig::RandomCompoundDisplayExcelC
   const data::RandomCompoundDisplayExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RandomCompoundDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomCompoundDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RandomCompoundDisplayExcelConfig = v2;
@@ -335,7 +335,7 @@ void __cdecl data::RandomCompoundDisplayExcelConfig::~RandomCompoundDisplayExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RandomCompoundDisplayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RandomCompoundDisplayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RandomCompoundDisplayExcelConfig = v2;

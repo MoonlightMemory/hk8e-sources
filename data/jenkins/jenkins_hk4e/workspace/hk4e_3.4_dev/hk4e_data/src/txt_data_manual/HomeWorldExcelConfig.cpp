@@ -8318,7 +8318,7 @@ int32_t __cdecl HomeWorldExcelConfigMgr::rewriteHomeWoodExcelConfig(
           v11 = ((v2 + 160) >> 3) + 2147450880;
           *(_WORD *)v11 = 0;
           *(_BYTE *)(v11 + 2) = 0;
-          v12 = &`vtable for'data::HomeWorldWoodExchangeMaterialConfig + 2;
+          v12 = &`vtable for data::HomeWorldWoodExchangeMaterialConfig + 2;
           if ( *(_BYTE *)(((v2 + 160) >> 3) + 0x7FFF8000) )
             __asan_report_store8(v2 + 160, v6);
           *(_QWORD *)(v2 + 160) = v12;

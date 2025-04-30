@@ -9,7 +9,7 @@ void __cdecl data::InvestigationConfig::InvestigationConfig(data::InvestigationC
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationConfig = v2;
@@ -85,7 +85,7 @@ void __cdecl data::InvestigationConfig::InvestigationConfig(
   const data::InvestigationConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InvestigationConfig = v2;
@@ -195,7 +195,7 @@ void __cdecl data::InvestigationConfig::~InvestigationConfig(data::Investigation
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationConfig = v2;
@@ -210,7 +210,7 @@ void __cdecl data::InvestigationTargetConfig::InvestigationTargetConfig(data::In
   __int64 v3; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationTargetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationTargetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -242,7 +242,7 @@ void __cdecl data::InvestigationTargetConfig::InvestigationTargetConfig(
   char v7; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationTargetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationTargetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -288,7 +288,7 @@ void __cdecl data::InvestigationTargetConfig::~InvestigationTargetConfig(data::I
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationTargetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationTargetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -302,7 +302,7 @@ void __cdecl data::InvestigationMonsterMapMarkCreateCondition::InvestigationMons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterMapMarkCreateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterMapMarkCreateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationMonsterMapMarkCreateCondition = v2;
@@ -334,7 +334,7 @@ void __cdecl data::InvestigationMonsterMapMarkCreateCondition::InvestigationMons
   const data::InvestigationMonsterMapMarkCreateCondition *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterMapMarkCreateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterMapMarkCreateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InvestigationMonsterMapMarkCreateCondition = v2;
@@ -382,7 +382,7 @@ void __cdecl data::InvestigationMonsterMapMarkCreateCondition::~InvestigationMon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterMapMarkCreateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterMapMarkCreateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationMonsterMapMarkCreateCondition = v2;
@@ -397,7 +397,7 @@ void __cdecl data::InvestigationMonsterConfig::InvestigationMonsterConfig(data::
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationMonsterConfig = v2;
@@ -488,7 +488,7 @@ void __cdecl data::InvestigationMonsterConfig::InvestigationMonsterConfig(
   const data::InvestigationMonsterConfig *v25; // [rsp+0h] [rbp-20h]
 
   v25 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InvestigationMonsterConfig = v2;
@@ -616,7 +616,7 @@ void __cdecl data::InvestigationMonsterConfig::~InvestigationMonsterConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationMonsterConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationMonsterConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationMonsterConfig = v2;
@@ -641,7 +641,7 @@ void __cdecl data::InvestigationDungeonConfig::InvestigationDungeonConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationDungeonConfig = v2;
@@ -674,7 +674,7 @@ void __cdecl data::InvestigationDungeonConfig::InvestigationDungeonConfig(
   const data::InvestigationDungeonConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InvestigationDungeonConfig = v2;
@@ -723,7 +723,7 @@ void __cdecl data::InvestigationDungeonConfig::~InvestigationDungeonConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InvestigationDungeonConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InvestigationDungeonConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InvestigationDungeonConfig = v2;

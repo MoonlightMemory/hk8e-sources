@@ -73,7 +73,7 @@ LABEL_55:
     __asan_report_store4(p_kcp_log_mask);
     goto LABEL_56;
   }
-  this->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for'common::minet::KcpServerMgrBase + 2);
+  this->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for common::minet::KcpServerMgrBase + 2);
   p_listen_port = &this->listen_port_;
   v2 = *(_BYTE *)(((unsigned __int64)&this->listen_port_ >> 3) + 0x7FFF8000);
   if ( v2 && v2 <= 3 )
@@ -2745,7 +2745,7 @@ LABEL_26:
     __asan_report_load8(p_vptr_KcpServerMgrBase);
     goto LABEL_27;
   }
-  p_type->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpConnMgrBase,common::tools::perf::allocator<common::minet::KcpConnMgrBase,common::minet::KcpConnMgrBase>,(__gnu_cxx::_Lock_policy)2>
+  p_type->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpConnMgrBase,common::tools::perf::allocator<common::minet::KcpConnMgrBase,common::minet::KcpConnMgrBase>,(__gnu_cxx::_Lock_policy)2>
                                                  + 2);
   p_M_refcount = (common::minet::KcpConnMgrBase *)&p_type->_M_weak_this._M_refcount;
   if ( !common::tools::perf::MemoryPerf::is_record )
@@ -3169,7 +3169,7 @@ LABEL_186:
     __asan_report_store8();
     goto LABEL_187;
   }
-  p_type->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpConnMgrBase,std::allocator<common::minet::KcpConnMgrBase>,(__gnu_cxx::_Lock_policy)2>
+  p_type->_vptr_KcpServerMgrBase = (int (**)(...))(&`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpConnMgrBase,std::allocator<common::minet::KcpConnMgrBase>,(__gnu_cxx::_Lock_policy)2>
                                                  + 2);
   s = &p_type->_M_weak_this._M_refcount;
   if ( *(_BYTE *)(((unsigned __int64)M_pi >> 3) + 0x7FFF8000) )

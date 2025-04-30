@@ -211,7 +211,7 @@ LABEL_61:
     __asan_report_store8(v23, v18);
     goto LABEL_62;
   }
-  *(_QWORD *)v23 = &`vtable for'std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v23 = &`vtable for std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   p_list = v23 + 16;
   if ( *(_BYTE *)(((v23 + 16) >> 3) + 0x7FFF8000) )
@@ -424,7 +424,7 @@ LABEL_116:
           std::runtime_error::runtime_error(exception, byte_1B5D8A60);
           if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
             __asan_report_store8(exception, byte_1B5D8A60);
-          *(_QWORD *)exception = &`vtable for'boost::system::system_error + 2;
+          *(_QWORD *)exception = &`vtable for boost::system::system_error + 2;
           if ( *(_WORD *)((((unsigned __int64)exception + 16) >> 3) + 0x7FFF8000) )
             __asan_report_store16();
           *((_QWORD *)exception + 2) = v55;
@@ -1386,7 +1386,7 @@ LABEL_67:
     __asan_report_store8(v28, v23);
     goto LABEL_68;
   }
-  *(_QWORD *)v28 = &`vtable for'std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v28 = &`vtable for std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   p_list = v28 + 16;
   if ( *(_BYTE *)(((v28 + 16) >> 3) + 0x7FFF8000) )
@@ -1600,7 +1600,7 @@ LABEL_125:
           std::runtime_error::runtime_error((std::runtime_error *)exception, byte_1B5D8A60);
           if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
             __asan_report_store8(exception, byte_1B5D8A60);
-          exception->m128i_i64[0] = (__int64)(&`vtable for'boost::system::system_error + 2);
+          exception->m128i_i64[0] = (__int64)(&`vtable for boost::system::system_error + 2);
           if ( *(_WORD *)(((unsigned __int64)&exception[1] >> 3) + 0x7FFF8000) )
             __asan_report_store16();
           exception[1] = _mm_load_si128((const __m128i *)mutex);
@@ -1915,7 +1915,7 @@ LABEL_18:
 LABEL_33:
         if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
           __asan_report_store8(exception, error);
-        exception->service_registry_ = (boost::asio::detail::service_registry *)(&`vtable for'boost::system::system_error
+        exception->service_registry_ = (boost::asio::detail::service_registry *)(&`vtable for boost::system::system_error
                                                                                + 2);
         if ( *(_WORD *)(((unsigned __int64)&exception[1] >> 3) + 0x7FFF8000) )
           __asan_report_store16();

@@ -6,7 +6,7 @@ void __cdecl google::protobuf::Message::Message(google::protobuf::Message *const
   int (**v1)(...); // rdx
 
   google::protobuf::MessageLite::MessageLite(this);
-  v1 = (int (**)(...))(&`vtable for'google::protobuf::Message + 2);
+  v1 = (int (**)(...))(&`vtable for google::protobuf::Message + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -17,7 +17,7 @@ void __cdecl google::protobuf::Message::~Message(google::protobuf::Message *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'google::protobuf::Message + 2);
+  v1 = (int (**)(...))(&`vtable for google::protobuf::Message + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

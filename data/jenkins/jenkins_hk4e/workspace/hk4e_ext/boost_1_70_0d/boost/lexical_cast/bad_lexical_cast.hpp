@@ -8,7 +8,7 @@ void __fastcall boost::bad_lexical_cast::~bad_lexical_cast(boost::bad_lexical_ca
     __asan_report_store8();
     JUMPOUT(0xB60693LL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::bad_lexical_cast + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::bad_lexical_cast + 2;
   std::bad_cast::~bad_cast((std::bad_cast *)this);
 };
 

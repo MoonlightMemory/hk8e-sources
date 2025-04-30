@@ -1166,7 +1166,7 @@ LABEL_83:
     __asan_report_store8(v28, io_ctx);
     goto LABEL_84;
   }
-  *(_QWORD *)v28 = &`vtable for'std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v28 = &`vtable for std::_Sp_counted_ptr<boost::asio::detail::strand_executor_service::strand_impl *,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   p_list = v28 + 16;
   if ( *(_BYTE *)(((v28 + 16) >> 3) + 0x7FFF8000) )
@@ -3470,7 +3470,7 @@ LABEL_212:
 LABEL_213:
             __asan_report_load8(v74);
 LABEL_214:
-            *(_QWORD *)(v263 + 112) = &`vtable for'boost::asio::bad_executor + 2;
+            *(_QWORD *)(v263 + 112) = &`vtable for boost::asio::bad_executor + 2;
             exception = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
             if ( *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) != 0
               && *(_BYTE *)(((unsigned __int64)&exception->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)exception
@@ -3675,7 +3675,7 @@ LABEL_221:
           {
             __asan_report_load8(*(_QWORD *)&n[24]);
 LABEL_227:
-            *(_QWORD *)(v263 + 112) = &`vtable for'boost::asio::bad_executor + 2;
+            *(_QWORD *)(v263 + 112) = &`vtable for boost::asio::bad_executor + 2;
             v86 = (boost::wrapexcept<boost::asio::bad_executor> *)__cxa_allocate_exception(0x38uLL);
             if ( *(_BYTE *)(((unsigned __int64)&v86->gap30[7] >> 3) + 0x7FFF8000) != 0
               && *(_BYTE *)(((unsigned __int64)&v86->gap30[7] >> 3) + 0x7FFF8000) <= (((unsigned __int8)v86 + 55) & 7)
@@ -4315,7 +4315,7 @@ LABEL_417:
             std::runtime_error::runtime_error(v150, byte_1AE4B540);
             if ( *(_BYTE *)(((unsigned __int64)v150 >> 3) + 0x7FFF8000) )
               __asan_report_store8(v150, byte_1AE4B540);
-            *(_QWORD *)v150 = &`vtable for'boost::system::system_error + 2;
+            *(_QWORD *)v150 = &`vtable for boost::system::system_error + 2;
             if ( *(_WORD *)((((unsigned __int64)v150 + 16) >> 3) + 0x7FFF8000) )
               __asan_report_store16();
             *((_QWORD *)v150 + 2) = v151;

@@ -3056,7 +3056,7 @@ int32_t __cdecl data::ActivityTreasureMapExcelConfigMgrBase::loadTreasureMapExce
           __asan_report_store_n(v3 + 528, 88LL);
         }
         memset((void *)(v3 + 528), 0, 0x58uLL);
-        v16 = &`vtable for'data::TreasureMapExcelConfig + 2;
+        v16 = &`vtable for data::TreasureMapExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 528) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 528, v15);
         *(_QWORD *)(v3 + 528) = v16;
@@ -3394,7 +3394,7 @@ int32_t __cdecl data::ActivityTreasureMapExcelConfigMgrBase::loadTreasureMapBonu
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1040), v13);
         *(_DWORD *)(((v3 + 272) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::TreasureMapBonusRegionExcelConfig + 2;
+        v14 = &`vtable for data::TreasureMapBonusRegionExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 272) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 272, v13);
         *(_QWORD *)(v3 + 272) = v14;

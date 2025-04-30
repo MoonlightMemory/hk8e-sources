@@ -6,7 +6,7 @@ void __cdecl data::MultistageExcelConfig::MultistageExcelConfig(data::Multistage
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultistageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultistageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultistageExcelConfig = v2;
@@ -26,7 +26,7 @@ void __cdecl data::MultistageExcelConfig::MultistageExcelConfig(
   bool is_main_group_can_unload; // cl
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::MultistageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultistageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MultistageExcelConfig = v2;
@@ -50,7 +50,7 @@ void __cdecl data::MultistageExcelConfig::~MultistageExcelConfig(data::Multistag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultistageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultistageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultistageExcelConfig = v2;

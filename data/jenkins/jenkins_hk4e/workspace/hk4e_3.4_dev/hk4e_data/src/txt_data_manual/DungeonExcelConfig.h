@@ -6,7 +6,7 @@ void __cdecl DungeonExcelConfigMgr::DungeonExcelConfigMgr(DungeonExcelConfigMgr 
   int (**v1)(...); // rdx
 
   data::DungeonExcelConfigMgrBase::DungeonExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'DungeonExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonExcelConfigMgrBase = v1;
@@ -21,7 +21,7 @@ void __cdecl DungeonExcelConfigMgr::~DungeonExcelConfigMgr(DungeonExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DungeonExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for DungeonExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_DungeonExcelConfigMgrBase = v1;

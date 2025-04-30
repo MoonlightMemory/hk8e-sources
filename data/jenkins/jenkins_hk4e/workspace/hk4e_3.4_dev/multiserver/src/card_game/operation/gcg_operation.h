@@ -5,7 +5,7 @@ void __cdecl GCGOperationBase::GCGOperationBase(GCGOperationBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationBase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -22,7 +22,7 @@ void __cdecl GCGOperationBase::~GCGOperationBase(GCGOperationBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationBase + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -41,7 +41,7 @@ void __cdecl GCGOperationStart::GCGOperationStart(GCGOperationStart *const this)
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationStart + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationStart + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -59,7 +59,7 @@ void __cdecl GCGOperationStart::~GCGOperationStart(GCGOperationStart *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationStart + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationStart + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -72,7 +72,7 @@ void __cdecl GCGOperationRedraw::GCGOperationRedraw(GCGOperationRedraw *const th
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationRedraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationRedraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -91,7 +91,7 @@ void __cdecl GCGOperationRedraw::~GCGOperationRedraw(GCGOperationRedraw *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationRedraw + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationRedraw + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -111,7 +111,7 @@ void __cdecl GCGOperationOnStageSelect::GCGOperationOnStageSelect(GCGOperationOn
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase((GCGOperationBase *const)this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationOnStageSelect + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationOnStageSelect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -136,7 +136,7 @@ void __cdecl GCGOperationOnStageSelect::~GCGOperationOnStageSelect(GCGOperationO
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationOnStageSelect + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationOnStageSelect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -156,7 +156,7 @@ void __cdecl GCGOperationReroll::GCGOperationReroll(GCGOperationReroll *const th
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -168,7 +168,7 @@ void __cdecl GCGOperationReroll::~GCGOperationReroll(GCGOperationReroll *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -195,7 +195,7 @@ void __cdecl GCGOperationAttack::GCGOperationAttack(GCGOperationAttack *const th
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase((GCGOperationBase *const)this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationAttack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -216,7 +216,7 @@ void __cdecl GCGOperationAttack::~GCGOperationAttack(GCGOperationAttack *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationAttack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationAttack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -237,7 +237,7 @@ void __cdecl GCGOperationReboot::GCGOperationReboot(GCGOperationReboot *const th
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationReboot + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -257,7 +257,7 @@ void __cdecl GCGOperationPass::GCGOperationPass(GCGOperationPass *const this)
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationPass + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -275,7 +275,7 @@ void __cdecl GCGOperationPass::~GCGOperationPass(GCGOperationPass *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationPass + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -300,7 +300,7 @@ void __cdecl GCGOperationPlayCard::GCGOperationPlayCard(GCGOperationPlayCard *co
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase((GCGOperationBase *const)this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationPlayCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -325,7 +325,7 @@ void __cdecl GCGOperationPlayCard::~GCGOperationPlayCard(GCGOperationPlayCard *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationPlayCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationPlayCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -359,7 +359,7 @@ void __cdecl GCGOperationReboot::~GCGOperationReboot(GCGOperationReboot *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationReboot + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationReboot + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -380,7 +380,7 @@ void __cdecl GCGOperationSurrender::GCGOperationSurrender(GCGOperationSurrender 
   int (**v1)(...); // rdx
 
   GCGOperationBase::GCGOperationBase(this);
-  v1 = (int (**)(...))(&`vtable for'GCGOperationSurrender + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationSurrender + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -391,7 +391,7 @@ void __cdecl GCGOperationSurrender::~GCGOperationSurrender(GCGOperationSurrender
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationSurrender + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationSurrender + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;
@@ -416,7 +416,7 @@ void __cdecl GCGOperationAuto::~GCGOperationAuto(GCGOperationAuto *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGOperationAuto + 2);
+  v1 = (int (**)(...))(&`vtable for GCGOperationAuto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGOperationBase = v1;

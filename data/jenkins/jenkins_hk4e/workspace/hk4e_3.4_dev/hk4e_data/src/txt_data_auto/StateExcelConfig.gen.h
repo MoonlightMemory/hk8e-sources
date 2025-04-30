@@ -14,7 +14,7 @@ void __cdecl data::ElementStateExcelConfig::ElementStateExcelConfig(
   const data::ElementStateExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ElementStateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElementStateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ElementStateExcelConfig = v2;
@@ -53,7 +53,7 @@ void __cdecl data::ElementStateExcelConfig::~ElementStateExcelConfig(data::Eleme
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElementStateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElementStateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElementStateExcelConfig = v2;
@@ -72,7 +72,7 @@ void __cdecl data::StateExcelConfig::StateExcelConfig(data::StateExcelConfig *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StateExcelConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::StateExcelConfig::StateExcelConfig(
   uint32_t rank; // ecx
   char v8; // dl
 
-  v2 = (int (**)(...))(&`vtable for'data::StateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_StateExcelConfig = v2;
@@ -145,7 +145,7 @@ void __cdecl data::StateExcelConfig::~StateExcelConfig(data::StateExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::StateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::StateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_StateExcelConfig = v2;

@@ -8,7 +8,7 @@ void __cdecl data::ActivityGearExcelConfig::ActivityGearExcelConfig(data::Activi
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearExcelConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::ActivityGearExcelConfig::ActivityGearExcelConfig(
   const data::ActivityGearExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::ActivityGearExcelConfig::~ActivityGearExcelConfig(data::Activ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearExcelConfig = v2;
@@ -203,7 +203,7 @@ void __cdecl data::ActivityGearLevelExcelConfig::ActivityGearLevelExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearLevelExcelConfig = v2;
@@ -264,7 +264,7 @@ void __cdecl data::ActivityGearLevelExcelConfig::ActivityGearLevelExcelConfig(
   const data::ActivityGearLevelExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearLevelExcelConfig = v2;
@@ -355,7 +355,7 @@ void __cdecl data::ActivityGearLevelExcelConfig::~ActivityGearLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearLevelExcelConfig = v2;
@@ -370,7 +370,7 @@ void __cdecl data::ActivityGearGadgetGearExcelConfig::ActivityGearGadgetGearExce
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetGearExcelConfig = v2;
@@ -417,7 +417,7 @@ void __cdecl data::ActivityGearGadgetGearExcelConfig::ActivityGearGadgetGearExce
   const data::ActivityGearGadgetGearExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearGadgetGearExcelConfig = v2;
@@ -476,7 +476,7 @@ void __cdecl data::ActivityGearGadgetGearExcelConfig::~ActivityGearGadgetGearExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetGearExcelConfig = v2;
@@ -503,7 +503,7 @@ void __cdecl data::ActivityGearGadgetShaftExcelConfig::ActivityGearGadgetShaftEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetShaftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetShaftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetShaftExcelConfig = v2;
@@ -552,7 +552,7 @@ void __cdecl data::ActivityGearGadgetShaftExcelConfig::ActivityGearGadgetShaftEx
   const data::ActivityGearGadgetShaftExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetShaftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetShaftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearGadgetShaftExcelConfig = v2;
@@ -624,7 +624,7 @@ void __cdecl data::ActivityGearGadgetShaftExcelConfig::~ActivityGearGadgetShaftE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetShaftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetShaftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetShaftExcelConfig = v2;
@@ -640,7 +640,7 @@ void __cdecl data::ActivityGearJigsawExcelConfig::ActivityGearJigsawExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearJigsawExcelConfig = v2;
@@ -694,7 +694,7 @@ void __cdecl data::ActivityGearJigsawExcelConfig::ActivityGearJigsawExcelConfig(
   const data::ActivityGearJigsawExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearJigsawExcelConfig = v2;
@@ -773,7 +773,7 @@ void __cdecl data::ActivityGearJigsawExcelConfig::~ActivityGearJigsawExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearJigsawExcelConfig = v2;
@@ -790,7 +790,7 @@ void __cdecl data::ActivityGearGadgetJigsawExcelConfig::ActivityGearGadgetJigsaw
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetJigsawExcelConfig = v2;
@@ -841,7 +841,7 @@ void __cdecl data::ActivityGearGadgetJigsawExcelConfig::ActivityGearGadgetJigsaw
   const data::ActivityGearGadgetJigsawExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGearGadgetJigsawExcelConfig = v2;
@@ -917,7 +917,7 @@ void __cdecl data::ActivityGearGadgetJigsawExcelConfig::~ActivityGearGadgetJigsa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGearGadgetJigsawExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGearGadgetJigsawExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGearGadgetJigsawExcelConfig = v2;

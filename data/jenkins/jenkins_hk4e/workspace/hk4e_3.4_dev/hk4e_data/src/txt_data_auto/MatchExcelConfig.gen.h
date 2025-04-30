@@ -6,7 +6,7 @@ void __cdecl data::MatchCond::MatchCond(data::MatchCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchCond = v2;
@@ -36,7 +36,7 @@ void __cdecl data::MatchCond::MatchCond(data::MatchCond *const this, const data:
   const data::MatchCond *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchCond = v2;
@@ -75,7 +75,7 @@ void __cdecl data::MatchCond::~MatchCond(data::MatchCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchCond = v2;
@@ -94,7 +94,7 @@ void __cdecl data::MatchLimitExcelConfig::MatchLimitExcelConfig(data::MatchLimit
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchLimitExcelConfig = v2;
@@ -118,7 +118,7 @@ void __cdecl data::MatchLimitExcelConfig::MatchLimitExcelConfig(
   const data::MatchLimitExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchLimitExcelConfig = v2;
@@ -144,7 +144,7 @@ void __cdecl data::MatchLimitExcelConfig::~MatchLimitExcelConfig(data::MatchLimi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchLimitExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchLimitExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchLimitExcelConfig = v2;
@@ -168,7 +168,7 @@ void __cdecl data::MatchExcelConfig::MatchExcelConfig(data::MatchExcelConfig *co
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchExcelConfig = v2;
@@ -239,7 +239,7 @@ void __cdecl data::MatchExcelConfig::MatchExcelConfig(
   const data::MatchExcelConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::MatchExcelConfig::~MatchExcelConfig(data::MatchExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchExcelConfig = v2;
@@ -359,7 +359,7 @@ void __cdecl data::MatchPunishExcelConfig::MatchPunishExcelConfig(
   const data::MatchPunishExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchPunishExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchPunishExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchPunishExcelConfig = v2;
@@ -398,7 +398,7 @@ void __cdecl data::MatchPunishExcelConfig::~MatchPunishExcelConfig(data::MatchPu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchPunishExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchPunishExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchPunishExcelConfig = v2;
@@ -434,7 +434,7 @@ void __cdecl data::MatchNewRuleExcelConfig::MatchNewRuleExcelConfig(
   const data::MatchNewRuleExcelConfig *v17; // [rsp+0h] [rbp-10h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchNewRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchNewRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchNewRuleExcelConfig = v2;
@@ -511,7 +511,7 @@ void __cdecl data::MatchNewRuleExcelConfig::~MatchNewRuleExcelConfig(data::Match
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchNewRuleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchNewRuleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchNewRuleExcelConfig = v2;
@@ -545,7 +545,7 @@ void __cdecl data::MatchNewRuleSpecifiedExcelConfig::MatchNewRuleSpecifiedExcelC
   const data::MatchNewRuleSpecifiedExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MatchNewRuleSpecifiedExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchNewRuleSpecifiedExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MatchNewRuleSpecifiedExcelConfig = v2;
@@ -609,7 +609,7 @@ void __cdecl data::MatchNewRuleSpecifiedExcelConfig::~MatchNewRuleSpecifiedExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MatchNewRuleSpecifiedExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MatchNewRuleSpecifiedExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MatchNewRuleSpecifiedExcelConfig = v2;

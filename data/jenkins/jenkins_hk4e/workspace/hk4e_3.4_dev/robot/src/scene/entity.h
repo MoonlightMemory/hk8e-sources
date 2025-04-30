@@ -6,7 +6,7 @@ void __cdecl Entity::Entity(Entity *const this)
   int (**v1)(...); // rdx
 
   std::enable_shared_from_this<Entity>::enable_shared_from_this(&this->std::enable_shared_from_this<Entity>);
-  v1 = (int (**)(...))(&`vtable for'Entity + 2);
+  v1 = (int (**)(...))(&`vtable for Entity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;
@@ -56,7 +56,7 @@ void __cdecl Entity::~Entity(Entity *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Entity + 2);
+  v1 = (int (**)(...))(&`vtable for Entity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_Entity = v1;

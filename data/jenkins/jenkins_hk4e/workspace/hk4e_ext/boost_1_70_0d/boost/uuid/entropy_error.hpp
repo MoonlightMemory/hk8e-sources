@@ -8,7 +8,7 @@ void __fastcall boost::uuids::entropy_error::~entropy_error(boost::uuids::entrop
     __asan_report_store8();
     JUMPOUT(0x19B656D1LL);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::uuids::entropy_error + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::uuids::entropy_error + 2;
   std::runtime_error::~runtime_error((std::runtime_error *)this);
 };
 

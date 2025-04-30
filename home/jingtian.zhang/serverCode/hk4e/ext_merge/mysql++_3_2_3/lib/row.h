@@ -59,7 +59,7 @@ void __fastcall mysqlpp::Row::~Row(mysqlpp::Row *const this)
   mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer> > *p_buffer; // rdi
 
   p_field_names = &this->field_names_;
-  p_field_names[-3].refs_ = (size_t *)(&`vtable for'mysqlpp::Row + 2);
+  p_field_names[-3].refs_ = (size_t *)(&`vtable for mysqlpp::Row + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(p_field_names);
   M_finish = this->data_._M_impl._M_finish;
   M_start = this->data_._M_impl._M_start;
@@ -87,7 +87,7 @@ void __fastcall mysqlpp::Row::~Row(mysqlpp::Row *const this)
   mysqlpp::RefCountedPointer<mysqlpp::SQLBuffer,mysqlpp::RefCountedPointerDestroyer<mysqlpp::SQLBuffer> > *p_buffer; // rdi
 
   p_field_names = &this->field_names_;
-  p_field_names[-3].refs_ = (size_t *)(&`vtable for'mysqlpp::Row + 2);
+  p_field_names[-3].refs_ = (size_t *)(&`vtable for mysqlpp::Row + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(p_field_names);
   M_finish = this->data_._M_impl._M_finish;
   M_start = this->data_._M_impl._M_start;

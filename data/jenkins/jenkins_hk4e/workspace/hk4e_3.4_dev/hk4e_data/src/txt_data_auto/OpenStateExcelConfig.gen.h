@@ -65,7 +65,7 @@ void __cdecl data::OpenStateCond::OpenStateCond(data::OpenStateCond *const this)
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpenStateCond = v2;
@@ -104,7 +104,7 @@ void __cdecl data::OpenStateCond::OpenStateCond(data::OpenStateCond *const this,
   const data::OpenStateCond *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OpenStateCond = v2;
@@ -156,7 +156,7 @@ void __cdecl data::OpenStateCond::~OpenStateCond(data::OpenStateCond *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpenStateCond = v2;
@@ -179,7 +179,7 @@ void __cdecl data::OpenStateConfig::OpenStateConfig(data::OpenStateConfig *const
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpenStateConfig = v2;
@@ -230,7 +230,7 @@ void __cdecl data::OpenStateConfig::OpenStateConfig(data::OpenStateConfig *const
   const data::OpenStateConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OpenStateConfig = v2;
@@ -292,7 +292,7 @@ void __cdecl data::OpenStateConfig::~OpenStateConfig(data::OpenStateConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OpenStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OpenStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OpenStateConfig = v2;
@@ -312,7 +312,7 @@ void __cdecl data::SystemOpenUIConfig::SystemOpenUIConfig(data::SystemOpenUIConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SystemOpenUIConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SystemOpenUIConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SystemOpenUIConfig = v2;
@@ -347,7 +347,7 @@ void __cdecl data::SystemOpenUIConfig::SystemOpenUIConfig(
   const data::SystemOpenUIConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SystemOpenUIConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SystemOpenUIConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SystemOpenUIConfig = v2;
@@ -389,7 +389,7 @@ void __cdecl data::SystemOpenUIConfig::~SystemOpenUIConfig(data::SystemOpenUICon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SystemOpenUIConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SystemOpenUIConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SystemOpenUIConfig = v2;

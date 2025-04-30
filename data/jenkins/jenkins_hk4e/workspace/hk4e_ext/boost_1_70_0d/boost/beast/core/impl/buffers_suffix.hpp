@@ -389,7 +389,7 @@ LABEL_17:
     __asan_report_store8();
     goto LABEL_18;
   }
-  *(_QWORD *)v14 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v14 = &`vtable for std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   if ( *(_BYTE *)(((v14 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -567,7 +567,7 @@ LABEL_17:
     __asan_report_store8();
     goto LABEL_18;
   }
-  *(_QWORD *)v11 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v11 = &`vtable for std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   if ( *(_BYTE *)(((v11 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -746,7 +746,7 @@ LABEL_17:
     __asan_report_store8();
     goto LABEL_18;
   }
-  *(_QWORD *)v13 = &`vtable for'std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v13 = &`vtable for std::_Sp_counted_ptr_inplace<boost::beast::http::detail::chunk_size::sequence,std::allocator<boost::beast::http::detail::chunk_size::sequence>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   if ( *(_BYTE *)(((v13 + 16) >> 3) + 0x7FFF8000) )
   {

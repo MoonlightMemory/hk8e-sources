@@ -137,7 +137,7 @@ LABEL_39:
     __asan_report_store8();
     goto LABEL_40;
   }
-  *(_QWORD *)v11 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v11 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v11 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_40:
@@ -190,7 +190,7 @@ LABEL_56:
     __asan_report_store8();
     goto LABEL_57;
   }
-  *(_QWORD *)v15 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v15 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v15 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_57:
@@ -486,7 +486,7 @@ LABEL_39:
     __asan_report_store8();
     goto LABEL_40;
   }
-  *(_QWORD *)v11 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v11 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v11 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_40:
@@ -539,7 +539,7 @@ LABEL_56:
     __asan_report_store8();
     goto LABEL_57;
   }
-  *(_QWORD *)v15 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v15 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v15 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_57:
@@ -765,7 +765,7 @@ LABEL_25:
                       *(_DWORD *)(v8 + 12) = 1;
                       if ( !*(_BYTE *)((v8 >> 3) + 0x7FFF8000) )
                       {
-                        *(_QWORD *)v8 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2>
+                        *(_QWORD *)v8 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2>
                                       + 2;
                         if ( !*(_BYTE *)(((v8 + 16) >> 3) + 0x7FFF8000) )
                         {
@@ -1061,7 +1061,7 @@ LABEL_14:
       v8 = v7;
       __asan_report_store8();
     }
-    *(_QWORD *)v7 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v7 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v8);
     _cxa_throw(
       v7,
@@ -1081,7 +1081,7 @@ LABEL_14:
       v10 = v9;
       __asan_report_store8();
     }
-    *(_QWORD *)v9 = &`vtable for'YAML::TypedBadConversion<int> + 2;
+    *(_QWORD *)v9 = &`vtable for YAML::TypedBadConversion<int> + 2;
     __asan_handle_no_return(v10);
     _cxa_throw(
       v9,
@@ -1272,7 +1272,7 @@ LABEL_37:
       v18 = v17;
       __asan_report_store8();
     }
-    *(_QWORD *)v17 = &`vtable for'YAML::TypedBadConversion<std::string> + 2;
+    *(_QWORD *)v17 = &`vtable for YAML::TypedBadConversion<std::string> + 2;
     __asan_handle_no_return(v18);
     _cxa_throw(
       v17,
@@ -2522,7 +2522,7 @@ LABEL_78:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -2531,7 +2531,7 @@ LABEL_78:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -2943,7 +2943,7 @@ LABEL_78:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -2952,7 +2952,7 @@ LABEL_78:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -3364,7 +3364,7 @@ LABEL_78:
       YAML::Exception::Exception(exception, (const YAML::Mark *)(v4 + 4), &msg_);
       if ( *(_BYTE *)(((unsigned __int64)exception >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)exception = &`vtable for'YAML::RepresentationException + 2;
+      *(_QWORD *)exception = &`vtable for YAML::RepresentationException + 2;
       M_p = msg_._M_dataplus._M_p;
       if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)msg_._M_dataplus._M_p != &msg_._anon_0 )
         operator delete(msg_._M_dataplus._M_p);
@@ -3373,7 +3373,7 @@ LABEL_78:
         M_p = (std::string::pointer)exception;
         __asan_report_store8();
       }
-      *(_QWORD *)exception = &`vtable for'YAML::BadSubscript + 2;
+      *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
       _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
@@ -3987,7 +3987,7 @@ LABEL_177:
                       *(_DWORD *)(v62 + 12) = 1;
                       if ( !*(_BYTE *)((v62 >> 3) + 0x7FFF8000) )
                       {
-                        *(_QWORD *)v62 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2>
+                        *(_QWORD *)v62 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2>
                                        + 2;
                         if ( !*(_BYTE *)(((v62 + 16) >> 3) + 0x7FFF8000) )
                         {
@@ -4015,7 +4015,7 @@ LABEL_190:
                                 *(_DWORD *)(v66 + 12) = 1;
                                 if ( !*(_BYTE *)((v66 >> 3) + 0x7FFF8000) )
                                 {
-                                  *(_QWORD *)v66 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2>
+                                  *(_QWORD *)v66 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2>
                                                  + 2;
                                   if ( !*(_BYTE *)(((v66 + 16) >> 3) + 0x7FFF8000) )
                                   {
@@ -4270,7 +4270,7 @@ LABEL_111:
     __asan_report_store8();
     goto LABEL_112;
   }
-  *(_QWORD *)v43 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v43 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v43 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_112:
@@ -4310,7 +4310,7 @@ LABEL_124:
     __asan_report_store8();
     goto LABEL_125;
   }
-  *(_QWORD *)v47 = &`vtable for'std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
+  *(_QWORD *)v47 = &`vtable for std::_Sp_counted_ptr<YAML::detail::memory_holder *,(__gnu_cxx::_Lock_policy)2> + 2;
   if ( *(_BYTE *)(((v47 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_125:

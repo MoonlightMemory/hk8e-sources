@@ -18,7 +18,7 @@ void __cdecl data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(
   std::enable_shared_from_this<data::ConfigCameraSplineBasePath>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigCameraSplineBasePath>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePath + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigCameraSplineBasePath = v3;
@@ -69,7 +69,7 @@ void __cdecl data::ConfigDialogSelectAction::ConfigDialogSelectAction(
   char v15; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogSelectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogSelectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -144,7 +144,7 @@ void __cdecl data::ConfigEmoSyncInterAction::ConfigEmoSyncInterAction(
   __int64 v10; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmoSyncInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmoSyncInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -193,7 +193,7 @@ void __cdecl data::ConfigLCGadgetIntee::~ConfigLCGadgetIntee(data::ConfigLCGadge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCGadgetIntee + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCGadgetIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLCBaseIntee = v2;
@@ -321,7 +321,7 @@ void __cdecl data::ConfigBlackScreenAction::ConfigBlackScreenAction(data::Config
   __int64 v16; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -647,7 +647,7 @@ void __cdecl data::ConfigBaseInterAction::ConfigBaseInterAction(data::ConfigBase
   __int64 v8; // rdx
 
   std::enable_shared_from_this<data::ConfigBaseInterAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseInterAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -734,7 +734,7 @@ void __cdecl data::ConfigBaseInterAction::ConfigBaseInterAction(
   std::enable_shared_from_this<data::ConfigBaseInterAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseInterAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseInterAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseInterAction = v3;
@@ -845,7 +845,7 @@ void __cdecl data::ConfigBaseInterAction::~ConfigBaseInterAction(data::ConfigBas
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -923,7 +923,7 @@ void __cdecl data::ConfigLuaAction::ConfigLuaAction(data::ConfigLuaAction *const
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLuaAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLuaAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -957,7 +957,7 @@ void __cdecl data::ConfigLuaAction::ConfigLuaAction(data::ConfigLuaAction *const
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLuaAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLuaAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -995,7 +995,7 @@ void __cdecl data::ConfigLuaAction::~ConfigLuaAction(data::ConfigLuaAction *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLuaAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLuaAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1070,7 +1070,7 @@ void __cdecl data::ConfigLuaActionFactory::ConfigLuaActionFactory(data::ConfigLu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLuaActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLuaActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLuaActionFactory = v2;
@@ -1088,7 +1088,7 @@ void __cdecl data::ConfigDialogInterAction::ConfigDialogInterAction(data::Config
   __int64 v7; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1156,7 +1156,7 @@ void __cdecl data::ConfigDialogInterAction::ConfigDialogInterAction(
 
   v20 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1239,7 +1239,7 @@ void __cdecl data::ConfigDialogInterAction::~ConfigDialogInterAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1262,7 +1262,7 @@ void __cdecl data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(data::
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigCameraSplineBasePath>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigCameraSplineBasePath>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -1341,7 +1341,7 @@ void __cdecl data::ConfigDialogInterActionFactory::ConfigDialogInterActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogInterActionFactory = v2;
@@ -1354,7 +1354,7 @@ void __cdecl data::ConfigDialogNextAction::ConfigDialogNextAction(data::ConfigDi
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogNextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogNextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1376,7 +1376,7 @@ void __cdecl data::ConfigDialogNextAction::ConfigDialogNextAction(
   char v4; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogNextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogNextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1408,7 +1408,7 @@ void __cdecl data::ConfigDialogNextAction::~ConfigDialogNextAction(data::ConfigD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogNextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogNextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1476,7 +1476,7 @@ void __cdecl data::ConfigDialogNextActionFactory::ConfigDialogNextActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogNextActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogNextActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogNextActionFactory = v2;
@@ -1492,7 +1492,7 @@ void __cdecl data::ConfigDialogSelectAction::ConfigDialogSelectAction(data::Conf
   __int64 v5; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogSelectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogSelectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1529,7 +1529,7 @@ void __cdecl data::ConfigDialogSelectAction::~ConfigDialogSelectAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogSelectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogSelectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1608,7 +1608,7 @@ void __cdecl data::ConfigDialogSelectActionFactory::ConfigDialogSelectActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDialogSelectActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDialogSelectActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDialogSelectActionFactory = v2;
@@ -1630,7 +1630,7 @@ void __cdecl data::ConfigBodyLangInterAction::ConfigBodyLangInterAction(data::Co
   __int64 v11; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBodyLangInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBodyLangInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1716,7 +1716,7 @@ void __cdecl data::ConfigBodyLangInterAction::ConfigBodyLangInterAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBodyLangInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBodyLangInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1819,7 +1819,7 @@ void __cdecl data::ConfigBodyLangInterAction::~ConfigBodyLangInterAction(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBodyLangInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBodyLangInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -1895,7 +1895,7 @@ void __cdecl data::ConfigBodyLangInterActionFactory::ConfigBodyLangInterActionFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBodyLangInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBodyLangInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBodyLangInterActionFactory = v2;
@@ -1920,7 +1920,7 @@ void __cdecl data::ConfigSteerInterAction::ConfigSteerInterAction(data::ConfigSt
   __int64 v14; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSteerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSteerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2020,7 +2020,7 @@ void __cdecl data::ConfigSteerInterAction::ConfigSteerInterAction(
 
   v40 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSteerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSteerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2149,7 +2149,7 @@ void __cdecl data::ConfigSteerInterAction::~ConfigSteerInterAction(data::ConfigS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSteerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSteerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2218,7 +2218,7 @@ void __cdecl data::ConfigSteerInterActionFactory::ConfigSteerInterActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSteerInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSteerInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSteerInterActionFactory = v2;
@@ -2242,7 +2242,7 @@ void __cdecl data::ConfigLookAtInterAction::ConfigLookAtInterAction(data::Config
   __int64 v13; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2369,7 +2369,7 @@ void __cdecl data::ConfigLookAtInterAction::ConfigLookAtInterAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2603,7 +2603,7 @@ void __cdecl data::ConfigLookAtInterAction::~ConfigLookAtInterAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2679,7 +2679,7 @@ void __cdecl data::ConfigLookAtInterActionFactory::ConfigLookAtInterActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLookAtInterActionFactory = v2;
@@ -2715,7 +2715,7 @@ void __cdecl data::ConfigLookAtEyeCtrlInterAction::ConfigLookAtEyeCtrlInterActio
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigLookAtEyeCtrlInterAction + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigLookAtEyeCtrlInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v5;
@@ -2793,7 +2793,7 @@ void __cdecl data::ConfigLookAtEyeCtrlInterAction::ConfigLookAtEyeCtrlInterActio
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtEyeCtrlInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtEyeCtrlInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2888,7 +2888,7 @@ void __cdecl data::ConfigLookAtEyeCtrlInterAction::~ConfigLookAtEyeCtrlInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtEyeCtrlInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtEyeCtrlInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -2968,7 +2968,7 @@ void __cdecl data::ConfigLookAtEyeCtrlInterActionFactory::ConfigLookAtEyeCtrlInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLookAtEyeCtrlInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLookAtEyeCtrlInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLookAtEyeCtrlInterActionFactory = v2;
@@ -3151,7 +3151,7 @@ void __cdecl data::ConfigCameraFocusNewInterAction::ConfigCameraFocusNewInterAct
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraFocusNewInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraFocusNewInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3178,7 +3178,7 @@ void __cdecl data::ConfigCameraFocusNewInterAction::ConfigCameraFocusNewInterAct
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraFocusNewInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraFocusNewInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3203,7 +3203,7 @@ void __cdecl data::ConfigCameraFocusNewInterAction::~ConfigCameraFocusNewInterAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraFocusNewInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraFocusNewInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3282,7 +3282,7 @@ void __cdecl data::ConfigCameraFocusNewInterActionFactory::ConfigCameraFocusNewI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraFocusNewInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraFocusNewInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraFocusNewInterActionFactory = v2;
@@ -3312,7 +3312,7 @@ void __cdecl data::ConfigCameraMoveInterAction::ConfigCameraMoveInterAction(
   __int64 v18; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraMoveInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraMoveInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3502,7 +3502,7 @@ void __cdecl data::ConfigCameraMoveInterAction::ConfigCameraMoveInterAction(
 
   v63 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraMoveInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraMoveInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3817,7 +3817,7 @@ void __cdecl data::ConfigCameraMoveInterAction::~ConfigCameraMoveInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraMoveInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraMoveInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -3895,7 +3895,7 @@ void __cdecl data::ConfigCameraMoveInterActionFactory::ConfigCameraMoveInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraMoveInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraMoveInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraMoveInterActionFactory = v2;
@@ -3910,7 +3910,7 @@ void __cdecl data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint(
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::ConfigCameraSplineBasePoint>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigCameraSplineBasePoint>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -3955,7 +3955,7 @@ void __cdecl data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint(
   std::enable_shared_from_this<data::ConfigCameraSplineBasePoint>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigCameraSplineBasePoint>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePoint + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigCameraSplineBasePoint = v3;
@@ -4027,7 +4027,7 @@ void __cdecl data::ConfigCameraSplineBasePoint::~ConfigCameraSplineBasePoint(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4098,7 +4098,7 @@ void __cdecl data::ConfigCameraSplineCatmullPoint::ConfigCameraSplineCatmullPoin
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4112,7 +4112,7 @@ void __cdecl data::ConfigCameraSplineCatmullPoint::ConfigCameraSplineCatmullPoin
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4133,7 +4133,7 @@ void __cdecl data::ConfigCameraSplineCatmullPoint::~ConfigCameraSplineCatmullPoi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4203,7 +4203,7 @@ void __cdecl data::ConfigCameraSplineCatmullPointFactory::ConfigCameraSplineCatm
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineCatmullPointFactory = v2;
@@ -4217,7 +4217,7 @@ void __cdecl data::ConfigCameraSplineBezierPoint::ConfigCameraSplineBezierPoint(
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint((data::ConfigCameraSplineBasePoint *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4237,7 +4237,7 @@ void __cdecl data::ConfigCameraSplineBezierPoint::ConfigCameraSplineBezierPoint(
   data::ConfigCameraSplineBasePoint::ConfigCameraSplineBasePoint(
     (data::ConfigCameraSplineBasePoint *const)this,
     (const data::ConfigCameraSplineBasePoint *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4288,7 +4288,7 @@ void __cdecl data::ConfigCameraSplineBezierPoint::~ConfigCameraSplineBezierPoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePoint = v2;
@@ -4365,7 +4365,7 @@ void __cdecl data::ConfigCameraSplineBezierPointFactory::ConfigCameraSplineBezie
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBezierPointFactory = v2;
@@ -4379,7 +4379,7 @@ void __cdecl data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget(
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigCameraSplineBaseTarget>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigCameraSplineBaseTarget>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBaseTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBaseTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4414,7 +4414,7 @@ void __cdecl data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget(
   std::enable_shared_from_this<data::ConfigCameraSplineBaseTarget>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigCameraSplineBaseTarget>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBaseTarget + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBaseTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigCameraSplineBaseTarget = v3;
@@ -4459,7 +4459,7 @@ void __cdecl data::ConfigCameraSplineBaseTarget::~ConfigCameraSplineBaseTarget(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBaseTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBaseTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4539,7 +4539,7 @@ void __cdecl data::ConfigCameraSplineCatmullTarget::ConfigCameraSplineCatmullTar
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4553,7 +4553,7 @@ void __cdecl data::ConfigCameraSplineCatmullTarget::ConfigCameraSplineCatmullTar
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4574,7 +4574,7 @@ void __cdecl data::ConfigCameraSplineCatmullTarget::~ConfigCameraSplineCatmullTa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4644,7 +4644,7 @@ void __cdecl data::ConfigCameraSplineCatmullTargetFactory::ConfigCameraSplineCat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCatmullTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCatmullTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineCatmullTargetFactory = v2;
@@ -4658,7 +4658,7 @@ void __cdecl data::ConfigCameraSplineBezierTarget::ConfigCameraSplineBezierTarge
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget((data::ConfigCameraSplineBaseTarget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4678,7 +4678,7 @@ void __cdecl data::ConfigCameraSplineBezierTarget::ConfigCameraSplineBezierTarge
   data::ConfigCameraSplineBaseTarget::ConfigCameraSplineBaseTarget(
     (data::ConfigCameraSplineBaseTarget *const)this,
     (const data::ConfigCameraSplineBaseTarget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4729,7 +4729,7 @@ void __cdecl data::ConfigCameraSplineBezierTarget::~ConfigCameraSplineBezierTarg
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBaseTarget = v2;
@@ -4807,7 +4807,7 @@ void __cdecl data::ConfigCameraSplineBezierTargetFactory::ConfigCameraSplineBezi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBezierTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBezierTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBezierTargetFactory = v2;
@@ -4828,7 +4828,7 @@ void __cdecl data::ConfigCameraSplineBasePath::~ConfigCameraSplineBasePath(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineBasePath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineBasePath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -4898,7 +4898,7 @@ void __cdecl data::ConfigCameraSplineCameraPath::ConfigCameraSplineCameraPath(
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCameraPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCameraPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -4914,7 +4914,7 @@ void __cdecl data::ConfigCameraSplineCameraPath::ConfigCameraSplineCameraPath(
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCameraPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCameraPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -4937,7 +4937,7 @@ void __cdecl data::ConfigCameraSplineCameraPath::~ConfigCameraSplineCameraPath(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCameraPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCameraPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -5008,7 +5008,7 @@ void __cdecl data::ConfigCameraSplineCameraPathFactory::ConfigCameraSplineCamera
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineCameraPathFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineCameraPathFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineCameraPathFactory = v2;
@@ -5022,7 +5022,7 @@ void __cdecl data::ConfigCameraSplineTargetPath::ConfigCameraSplineTargetPath(
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineTargetPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineTargetPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -5037,7 +5037,7 @@ void __cdecl data::ConfigCameraSplineTargetPath::ConfigCameraSplineTargetPath(
   int (**v2)(...); // rdx
 
   data::ConfigCameraSplineBasePath::ConfigCameraSplineBasePath(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineTargetPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineTargetPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -5051,7 +5051,7 @@ void __cdecl data::ConfigCameraSplineTargetPath::~ConfigCameraSplineTargetPath(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineTargetPath + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineTargetPath + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineBasePath = v2;
@@ -5129,7 +5129,7 @@ void __cdecl data::ConfigCameraSplineTargetPathFactory::ConfigCameraSplineTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineTargetPathFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineTargetPathFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineTargetPathFactory = v2;
@@ -5145,7 +5145,7 @@ void __cdecl data::ConfigCameraSplineInterAction::ConfigCameraSplineInterAction(
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5189,7 +5189,7 @@ void __cdecl data::ConfigCameraSplineInterAction::ConfigCameraSplineInterAction(
   float dissolve_time; // xmm0_4
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5239,7 +5239,7 @@ void __cdecl data::ConfigCameraSplineInterAction::~ConfigCameraSplineInterAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5318,7 +5318,7 @@ void __cdecl data::ConfigCameraSplineInterActionFactory::ConfigCameraSplineInter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraSplineInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraSplineInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraSplineInterActionFactory = v2;
@@ -5333,7 +5333,7 @@ void __cdecl data::ConfigCutsceneInterAction::ConfigCutsceneInterAction(data::Co
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5369,7 +5369,7 @@ void __cdecl data::ConfigCutsceneInterAction::ConfigCutsceneInterAction(
   __int64 v10; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5414,7 +5414,7 @@ void __cdecl data::ConfigCutsceneInterAction::~ConfigCutsceneInterAction(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5483,7 +5483,7 @@ void __cdecl data::ConfigCutsceneInterActionFactory::ConfigCutsceneInterActionFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCutsceneInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCutsceneInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCutsceneInterActionFactory = v2;
@@ -5500,7 +5500,7 @@ void __cdecl data::ConfigVisibleInterAction::ConfigVisibleInterAction(data::Conf
   __int64 v6; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVisibleInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVisibleInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5544,7 +5544,7 @@ void __cdecl data::ConfigVisibleInterAction::ConfigVisibleInterAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVisibleInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVisibleInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5591,7 +5591,7 @@ void __cdecl data::ConfigVisibleInterAction::~ConfigVisibleInterAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVisibleInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVisibleInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5666,7 +5666,7 @@ void __cdecl data::ConfigVisibleInterActionFactory::ConfigVisibleInterActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVisibleInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVisibleInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVisibleInterActionFactory = v2;
@@ -5680,7 +5680,7 @@ void __cdecl data::ConfigAudioStateInterAction::ConfigAudioStateInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioStateInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioStateInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5696,7 +5696,7 @@ void __cdecl data::ConfigAudioStateInterAction::ConfigAudioStateInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioStateInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioStateInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5719,7 +5719,7 @@ void __cdecl data::ConfigAudioStateInterAction::~ConfigAudioStateInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioStateInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioStateInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5789,7 +5789,7 @@ void __cdecl data::ConfigAudioStateInterActionFactory::ConfigAudioStateInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioStateInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioStateInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioStateInterActionFactory = v2;
@@ -5803,7 +5803,7 @@ void __cdecl data::ConfigShopExchangeInterAction::ConfigShopExchangeInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShopExchangeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShopExchangeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5818,7 +5818,7 @@ void __cdecl data::ConfigShopExchangeInterAction::ConfigShopExchangeInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShopExchangeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShopExchangeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5832,7 +5832,7 @@ void __cdecl data::ConfigShopExchangeInterAction::~ConfigShopExchangeInterAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShopExchangeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShopExchangeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5910,7 +5910,7 @@ void __cdecl data::ConfigShopExchangeInterActionFactory::ConfigShopExchangeInter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShopExchangeInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShopExchangeInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShopExchangeInterActionFactory = v2;
@@ -5923,7 +5923,7 @@ void __cdecl data::ConfigGadgetTouchAction::ConfigGadgetTouchAction(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTouchAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTouchAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5937,7 +5937,7 @@ void __cdecl data::ConfigGadgetTouchAction::ConfigGadgetTouchAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTouchAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTouchAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -5949,7 +5949,7 @@ void __cdecl data::ConfigGadgetTouchAction::~ConfigGadgetTouchAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTouchAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTouchAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6024,7 +6024,7 @@ void __cdecl data::ConfigGadgetTouchActionFactory::ConfigGadgetTouchActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGadgetTouchActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGadgetTouchActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGadgetTouchActionFactory = v2;
@@ -6037,7 +6037,7 @@ void __cdecl data::ConfigUITriggerInterAction::ConfigUITriggerInterAction(data::
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUITriggerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUITriggerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6053,7 +6053,7 @@ void __cdecl data::ConfigUITriggerInterAction::ConfigUITriggerInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUITriggerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUITriggerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6068,7 +6068,7 @@ void __cdecl data::ConfigUITriggerInterAction::~ConfigUITriggerInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUITriggerInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUITriggerInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6146,7 +6146,7 @@ void __cdecl data::ConfigUITriggerInterActionFactory::ConfigUITriggerInterAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigUITriggerInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigUITriggerInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigUITriggerInterActionFactory = v2;
@@ -6161,7 +6161,7 @@ void __cdecl data::ConfigEmoSyncInterAction::ConfigEmoSyncInterAction(data::Conf
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmoSyncInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmoSyncInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6203,7 +6203,7 @@ void __cdecl data::ConfigEmoSyncInterAction::~ConfigEmoSyncInterAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmoSyncInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmoSyncInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6283,7 +6283,7 @@ void __cdecl data::ConfigEmoSyncInterActionFactory::ConfigEmoSyncInterActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmoSyncInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmoSyncInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEmoSyncInterActionFactory = v2;
@@ -6299,7 +6299,7 @@ void __cdecl data::ConfigEmotionInterAction::ConfigEmotionInterAction(data::Conf
   __int64 v5; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6356,7 +6356,7 @@ void __cdecl data::ConfigEmotionInterAction::ConfigEmotionInterAction(
   float blink_duration; // xmm0_4
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6455,7 +6455,7 @@ void __cdecl data::ConfigEmotionInterAction::~ConfigEmotionInterAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6524,7 +6524,7 @@ void __cdecl data::ConfigEmotionInterActionFactory::ConfigEmotionInterActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEmotionInterActionFactory = v2;
@@ -6588,7 +6588,7 @@ void __cdecl data::ConfigBlackScreenAction::ConfigBlackScreenAction(
 
   v51 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6810,7 +6810,7 @@ void __cdecl data::ConfigBlackScreenAction::~ConfigBlackScreenAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -6887,7 +6887,7 @@ void __cdecl data::ConfigBlackScreenActionFactory::ConfigBlackScreenActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBlackScreenActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBlackScreenActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBlackScreenActionFactory = v2;
@@ -7032,7 +7032,7 @@ void __cdecl data::ConfigCameraShakeAction::ConfigCameraShakeAction(data::Config
   __int64 v6; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraShakeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraShakeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7106,7 +7106,7 @@ void __cdecl data::ConfigCameraShakeAction::ConfigCameraShakeAction(
   char v17; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraShakeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraShakeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7224,7 +7224,7 @@ void __cdecl data::ConfigCameraShakeAction::~ConfigCameraShakeAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraShakeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraShakeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7300,7 +7300,7 @@ void __cdecl data::ConfigCameraShakeActionFactory::ConfigCameraShakeActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraShakeActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraShakeActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraShakeActionFactory = v2;
@@ -7313,7 +7313,7 @@ void __cdecl data::ConfigShowMessageAction::ConfigShowMessageAction(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowMessageAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowMessageAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7328,7 +7328,7 @@ void __cdecl data::ConfigShowMessageAction::ConfigShowMessageAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowMessageAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowMessageAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7348,7 +7348,7 @@ void __cdecl data::ConfigShowMessageAction::~ConfigShowMessageAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowMessageAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowMessageAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7417,7 +7417,7 @@ void __cdecl data::ConfigShowMessageActionFactory::ConfigShowMessageActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowMessageActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowMessageActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShowMessageActionFactory = v2;
@@ -7430,7 +7430,7 @@ void __cdecl data::ConfigAudioPlayAction::ConfigAudioPlayAction(data::ConfigAudi
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7445,7 +7445,7 @@ void __cdecl data::ConfigAudioPlayAction::ConfigAudioPlayAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7458,7 +7458,7 @@ void __cdecl data::ConfigAudioPlayAction::~ConfigAudioPlayAction(data::ConfigAud
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7534,7 +7534,7 @@ void __cdecl data::ConfigAudioPlayActionFactory::ConfigAudioPlayActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAudioPlayActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAudioPlayActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAudioPlayActionFactory = v2;
@@ -7550,7 +7550,7 @@ void __cdecl data::ConfigVideoPlayAction::ConfigVideoPlayAction(data::ConfigVide
   __int64 v5; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7602,7 +7602,7 @@ void __cdecl data::ConfigVideoPlayAction::ConfigVideoPlayAction(
   float fade_out_time; // xmm0_4
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7683,7 +7683,7 @@ void __cdecl data::ConfigVideoPlayAction::~ConfigVideoPlayAction(data::ConfigVid
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7759,7 +7759,7 @@ void __cdecl data::ConfigVideoPlayActionFactory::ConfigVideoPlayActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigVideoPlayActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigVideoPlayActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigVideoPlayActionFactory = v2;
@@ -7772,7 +7772,7 @@ void __cdecl data::ConfigFirstSightAction::ConfigFirstSightAction(data::ConfigFi
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFirstSightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFirstSightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7786,7 +7786,7 @@ void __cdecl data::ConfigFirstSightAction::ConfigFirstSightAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFirstSightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFirstSightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7798,7 +7798,7 @@ void __cdecl data::ConfigFirstSightAction::~ConfigFirstSightAction(data::ConfigF
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFirstSightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFirstSightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7873,7 +7873,7 @@ void __cdecl data::ConfigFirstSightActionFactory::ConfigFirstSightActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigFirstSightActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigFirstSightActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigFirstSightActionFactory = v2;
@@ -7891,7 +7891,7 @@ void __cdecl data::ConfigCameraDOFAction::ConfigCameraDOFAction(data::ConfigCame
   __int64 v7; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraDOFAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraDOFAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -7981,7 +7981,7 @@ void __cdecl data::ConfigCameraDOFAction::ConfigCameraDOFAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraDOFAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraDOFAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8111,7 +8111,7 @@ void __cdecl data::ConfigCameraDOFAction::~ConfigCameraDOFAction(data::ConfigCam
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraDOFAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraDOFAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8179,7 +8179,7 @@ void __cdecl data::ConfigCameraDOFActionFactory::ConfigCameraDOFActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraDOFActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraDOFActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraDOFActionFactory = v2;
@@ -8196,7 +8196,7 @@ void __cdecl data::ConfigMoveToAction::ConfigMoveToAction(data::ConfigMoveToActi
   __int64 v6; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8266,7 +8266,7 @@ void __cdecl data::ConfigMoveToAction::ConfigMoveToAction(
 
   v22 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8366,7 +8366,7 @@ void __cdecl data::ConfigMoveToAction::~ConfigMoveToAction(data::ConfigMoveToAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8434,7 +8434,7 @@ void __cdecl data::ConfigMoveToActionFactory::ConfigMoveToActionFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigMoveToActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigMoveToActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigMoveToActionFactory = v2;
@@ -8447,7 +8447,7 @@ void __cdecl data::ConfigRequestMsgAction::ConfigRequestMsgAction(data::ConfigRe
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRequestMsgAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRequestMsgAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8463,7 +8463,7 @@ void __cdecl data::ConfigRequestMsgAction::ConfigRequestMsgAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRequestMsgAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRequestMsgAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8484,7 +8484,7 @@ void __cdecl data::ConfigRequestMsgAction::~ConfigRequestMsgAction(data::ConfigR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRequestMsgAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRequestMsgAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8554,7 +8554,7 @@ void __cdecl data::ConfigRequestMsgActionFactory::ConfigRequestMsgActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigRequestMsgActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigRequestMsgActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigRequestMsgActionFactory = v2;
@@ -8567,7 +8567,7 @@ void __cdecl data::ConfigEmojiBubbleAction::ConfigEmojiBubbleAction(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmojiBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmojiBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8588,7 +8588,7 @@ void __cdecl data::ConfigEmojiBubbleAction::ConfigEmojiBubbleAction(
   char v5; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmojiBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmojiBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8619,7 +8619,7 @@ void __cdecl data::ConfigEmojiBubbleAction::~ConfigEmojiBubbleAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmojiBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmojiBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8688,7 +8688,7 @@ void __cdecl data::ConfigEmojiBubbleActionFactory::ConfigEmojiBubbleActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmojiBubbleActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmojiBubbleActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEmojiBubbleActionFactory = v2;
@@ -8701,7 +8701,7 @@ void __cdecl data::ConfigTimeProtectAction::ConfigTimeProtectAction(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeProtectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeProtectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8715,7 +8715,7 @@ void __cdecl data::ConfigTimeProtectAction::ConfigTimeProtectAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeProtectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeProtectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8734,7 +8734,7 @@ void __cdecl data::ConfigTimeProtectAction::~ConfigTimeProtectAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeProtectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeProtectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8802,7 +8802,7 @@ void __cdecl data::ConfigTimeProtectActionFactory::ConfigTimeProtectActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTimeProtectActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTimeProtectActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTimeProtectActionFactory = v2;
@@ -8820,7 +8820,7 @@ void __cdecl data::ConfigSimpleBlackScreenAction::ConfigSimpleBlackScreenAction(
   __int64 v6; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8890,7 +8890,7 @@ void __cdecl data::ConfigSimpleBlackScreenAction::ConfigSimpleBlackScreenAction(
   char v19; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -8994,7 +8994,7 @@ void __cdecl data::ConfigSimpleBlackScreenAction::~ConfigSimpleBlackScreenAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleBlackScreenAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleBlackScreenAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9064,7 +9064,7 @@ void __cdecl data::ConfigSimpleBlackScreenActionFactory::ConfigSimpleBlackScreen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleBlackScreenActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleBlackScreenActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSimpleBlackScreenActionFactory = v2;
@@ -9078,7 +9078,7 @@ void __cdecl data::ConfigSimpleUIShowInterAction::ConfigSimpleUIShowInterAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleUIShowInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleUIShowInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9101,7 +9101,7 @@ void __cdecl data::ConfigSimpleUIShowInterAction::ConfigSimpleUIShowInterAction(
   char v5; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleUIShowInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleUIShowInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9136,7 +9136,7 @@ void __cdecl data::ConfigSimpleUIShowInterAction::~ConfigSimpleUIShowInterAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleUIShowInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleUIShowInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9208,7 +9208,7 @@ void __cdecl data::ConfigSimpleUIShowInterActionFactory::ConfigSimpleUIShowInter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleUIShowInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleUIShowInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSimpleUIShowInterActionFactory = v2;
@@ -9224,7 +9224,7 @@ void __cdecl data::ConfigOpenBlossomMarkInterAction::ConfigOpenBlossomMarkInterA
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOpenBlossomMarkInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOpenBlossomMarkInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9250,7 +9250,7 @@ void __cdecl data::ConfigOpenBlossomMarkInterAction::ConfigOpenBlossomMarkInterA
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOpenBlossomMarkInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOpenBlossomMarkInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9274,7 +9274,7 @@ void __cdecl data::ConfigOpenBlossomMarkInterAction::~ConfigOpenBlossomMarkInter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOpenBlossomMarkInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOpenBlossomMarkInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9352,7 +9352,7 @@ void __cdecl data::ConfigOpenBlossomMarkInterActionFactory::ConfigOpenBlossomMar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOpenBlossomMarkInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOpenBlossomMarkInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigOpenBlossomMarkInterActionFactory = v2;
@@ -9368,7 +9368,7 @@ void __cdecl data::ConfigSpeechBubbleAction::ConfigSpeechBubbleAction(data::Conf
   __int64 v5; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeechBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeechBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9417,7 +9417,7 @@ void __cdecl data::ConfigSpeechBubbleAction::ConfigSpeechBubbleAction(
 
   v15 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeechBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeechBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9475,7 +9475,7 @@ void __cdecl data::ConfigSpeechBubbleAction::~ConfigSpeechBubbleAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeechBubbleAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeechBubbleAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9550,7 +9550,7 @@ void __cdecl data::ConfigSpeechBubbleActionFactory::ConfigSpeechBubbleActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpeechBubbleActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpeechBubbleActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpeechBubbleActionFactory = v2;
@@ -9564,7 +9564,7 @@ void __cdecl data::ConfigEmotionTemplateAction::ConfigEmotionTemplateAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionTemplateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionTemplateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9586,7 +9586,7 @@ void __cdecl data::ConfigEmotionTemplateAction::ConfigEmotionTemplateAction(
   char v4; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionTemplateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionTemplateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9620,7 +9620,7 @@ void __cdecl data::ConfigEmotionTemplateAction::~ConfigEmotionTemplateAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionTemplateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionTemplateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9688,7 +9688,7 @@ void __cdecl data::ConfigEmotionTemplateActionFactory::ConfigEmotionTemplateActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigEmotionTemplateActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigEmotionTemplateActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigEmotionTemplateActionFactory = v2;
@@ -9707,7 +9707,7 @@ void __cdecl data::ConfigSitOrStandAction::ConfigSitOrStandAction(data::ConfigSi
   __int64 v8; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSitOrStandAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSitOrStandAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9773,7 +9773,7 @@ void __cdecl data::ConfigSitOrStandAction::ConfigSitOrStandAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSitOrStandAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSitOrStandAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9889,7 +9889,7 @@ void __cdecl data::ConfigSitOrStandAction::~ConfigSitOrStandAction(data::ConfigS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSitOrStandAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSitOrStandAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -9957,7 +9957,7 @@ void __cdecl data::ConfigSitOrStandActionFactory::ConfigSitOrStandActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSitOrStandActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSitOrStandActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSitOrStandActionFactory = v2;
@@ -9975,7 +9975,7 @@ void __cdecl data::ConfigPlayEffectAction::ConfigPlayEffectAction(data::ConfigPl
   __int64 v7; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10041,7 +10041,7 @@ void __cdecl data::ConfigPlayEffectAction::ConfigPlayEffectAction(
   char v23; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10136,7 +10136,7 @@ void __cdecl data::ConfigPlayEffectAction::~ConfigPlayEffectAction(data::ConfigP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10213,7 +10213,7 @@ void __cdecl data::ConfigPlayEffectActionFactory::ConfigPlayEffectActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayEffectActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayEffectActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPlayEffectActionFactory = v2;
@@ -10229,7 +10229,7 @@ void __cdecl data::ConfigTeleportToAction::ConfigTeleportToAction(data::ConfigTe
   __int64 v5; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTeleportToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTeleportToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10279,7 +10279,7 @@ void __cdecl data::ConfigTeleportToAction::ConfigTeleportToAction(
 
   v17 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTeleportToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTeleportToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10348,7 +10348,7 @@ void __cdecl data::ConfigTeleportToAction::~ConfigTeleportToAction(data::ConfigT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTeleportToAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTeleportToAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10423,7 +10423,7 @@ void __cdecl data::ConfigTeleportToActionFactory::ConfigTeleportToActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTeleportToActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTeleportToActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTeleportToActionFactory = v2;
@@ -10437,7 +10437,7 @@ void __cdecl data::ConfigSetAnimatorAction::ConfigSetAnimatorAction(data::Config
   __int64 v3; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10485,7 +10485,7 @@ void __cdecl data::ConfigSetAnimatorAction::ConfigSetAnimatorAction(
 
   v12 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10555,7 +10555,7 @@ void __cdecl data::ConfigSetAnimatorAction::~ConfigSetAnimatorAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10624,7 +10624,7 @@ void __cdecl data::ConfigSetAnimatorActionFactory::ConfigSetAnimatorActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetAnimatorActionFactory = v2;
@@ -10638,7 +10638,7 @@ void __cdecl data::ConfigSetAnimatorSpeedAction::ConfigSetAnimatorSpeedAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorSpeedAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorSpeedAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10668,7 +10668,7 @@ void __cdecl data::ConfigSetAnimatorSpeedAction::ConfigSetAnimatorSpeedAction(
   char v6; // dl
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorSpeedAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorSpeedAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10707,7 +10707,7 @@ void __cdecl data::ConfigSetAnimatorSpeedAction::~ConfigSetAnimatorSpeedAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorSpeedAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorSpeedAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10784,7 +10784,7 @@ void __cdecl data::ConfigSetAnimatorSpeedActionFactory::ConfigSetAnimatorSpeedAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetAnimatorSpeedActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetAnimatorSpeedActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetAnimatorSpeedActionFactory = v2;
@@ -10799,7 +10799,7 @@ void __cdecl data::ConfigPlayPostEffectAction::ConfigPlayPostEffectAction(data::
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayPostEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayPostEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10830,7 +10830,7 @@ void __cdecl data::ConfigPlayPostEffectAction::ConfigPlayPostEffectAction(
   __int64 v10; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayPostEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayPostEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10866,7 +10866,7 @@ void __cdecl data::ConfigPlayPostEffectAction::~ConfigPlayPostEffectAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayPostEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayPostEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10943,7 +10943,7 @@ void __cdecl data::ConfigPlayPostEffectActionFactory::ConfigPlayPostEffectAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayPostEffectActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayPostEffectActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPlayPostEffectActionFactory = v2;
@@ -10957,7 +10957,7 @@ void __cdecl data::ConfigPlayFrameFaceAnimationAction::ConfigPlayFrameFaceAnimat
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayFrameFaceAnimationAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayFrameFaceAnimationAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -10981,7 +10981,7 @@ void __cdecl data::ConfigPlayFrameFaceAnimationAction::ConfigPlayFrameFaceAnimat
   char v5; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayFrameFaceAnimationAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayFrameFaceAnimationAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11017,7 +11017,7 @@ void __cdecl data::ConfigPlayFrameFaceAnimationAction::~ConfigPlayFrameFaceAnima
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayFrameFaceAnimationAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayFrameFaceAnimationAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11088,7 +11088,7 @@ void __cdecl data::ConfigPlayFrameFaceAnimationActionFactory::ConfigPlayFrameFac
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayFrameFaceAnimationActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayFrameFaceAnimationActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPlayFrameFaceAnimationActionFactory = v2;
@@ -11103,7 +11103,7 @@ void __cdecl data::ConfigHideWidgetPet::ConfigHideWidgetPet(data::ConfigHideWidg
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideWidgetPet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideWidgetPet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11129,7 +11129,7 @@ void __cdecl data::ConfigHideWidgetPet::ConfigHideWidgetPet(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideWidgetPet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideWidgetPet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11159,7 +11159,7 @@ void __cdecl data::ConfigHideWidgetPet::~ConfigHideWidgetPet(data::ConfigHideWid
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideWidgetPet + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideWidgetPet + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11226,7 +11226,7 @@ void __cdecl data::ConfigHideWidgetPetFactory::ConfigHideWidgetPetFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigHideWidgetPetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigHideWidgetPetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigHideWidgetPetFactory = v2;
@@ -11241,7 +11241,7 @@ void __cdecl data::ConfigLocalGadgetCmd::ConfigLocalGadgetCmd(data::ConfigLocalG
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigLocalGadgetCmd>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigLocalGadgetCmd>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetCmd = v2;
@@ -11277,7 +11277,7 @@ void __cdecl data::ConfigLocalGadgetCmd::ConfigLocalGadgetCmd(
   std::enable_shared_from_this<data::ConfigLocalGadgetCmd>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigLocalGadgetCmd>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetCmd + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigLocalGadgetCmd = v3;
@@ -11320,7 +11320,7 @@ void __cdecl data::ConfigLocalGadgetCmd::~ConfigLocalGadgetCmd(data::ConfigLocal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetCmd = v2;
@@ -11389,7 +11389,7 @@ void __cdecl data::ConfigLocalGadgetSetMaterialCmd::ConfigLocalGadgetSetMaterial
   int (**v2)(...); // rdx
 
   data::ConfigLocalGadgetCmd::ConfigLocalGadgetCmd(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetSetMaterialCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetSetMaterialCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetCmd = v2;
@@ -11415,7 +11415,7 @@ void __cdecl data::ConfigLocalGadgetSetMaterialCmd::ConfigLocalGadgetSetMaterial
   char v5; // al
 
   data::ConfigLocalGadgetCmd::ConfigLocalGadgetCmd(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetSetMaterialCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetSetMaterialCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigLocalGadgetCmd = v2;
@@ -11445,7 +11445,7 @@ void __cdecl data::ConfigLocalGadgetSetMaterialCmd::~ConfigLocalGadgetSetMateria
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetSetMaterialCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetSetMaterialCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetCmd = v2;
@@ -11526,7 +11526,7 @@ void __cdecl data::ConfigLocalGadgetSetMaterialCmdFactory::ConfigLocalGadgetSetM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetSetMaterialCmdFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetSetMaterialCmdFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetSetMaterialCmdFactory = v2;
@@ -11543,7 +11543,7 @@ void __cdecl data::ConfigLocalGadgetOP::ConfigLocalGadgetOP(data::ConfigLocalGad
   __int64 v6; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetOP + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetOP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11638,7 +11638,7 @@ void __cdecl data::ConfigLocalGadgetOP::ConfigLocalGadgetOP(
 
   v26 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetOP + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetOP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11773,7 +11773,7 @@ void __cdecl data::ConfigLocalGadgetOP::~ConfigLocalGadgetOP(data::ConfigLocalGa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetOP + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetOP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11852,7 +11852,7 @@ void __cdecl data::ConfigLocalGadgetOPFactory::ConfigLocalGadgetOPFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalGadgetOPFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalGadgetOPFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalGadgetOPFactory = v2;
@@ -11902,7 +11902,7 @@ void __cdecl data::ConfigPlayUIEffectAction::ConfigPlayUIEffectAction(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayUIEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayUIEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11932,7 +11932,7 @@ void __cdecl data::ConfigPlayUIEffectAction::ConfigPlayUIEffectAction(
   __int64 v11; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayUIEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayUIEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -11993,7 +11993,7 @@ void __cdecl data::ConfigPlayUIEffectAction::~ConfigPlayUIEffectAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayUIEffectAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayUIEffectAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12070,7 +12070,7 @@ void __cdecl data::ConfigPlayUIEffectActionFactory::ConfigPlayUIEffectActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayUIEffectActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayUIEffectActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPlayUIEffectActionFactory = v2;
@@ -12083,7 +12083,7 @@ void __cdecl data::ConfigChangeNPCMatAction::ConfigChangeNPCMatAction(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeNPCMatAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeNPCMatAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12108,7 +12108,7 @@ void __cdecl data::ConfigChangeNPCMatAction::ConfigChangeNPCMatAction(
   char v5; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeNPCMatAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeNPCMatAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12143,7 +12143,7 @@ void __cdecl data::ConfigChangeNPCMatAction::~ConfigChangeNPCMatAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeNPCMatAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeNPCMatAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12213,7 +12213,7 @@ void __cdecl data::ConfigChangeNPCMatActionFactory::ConfigChangeNPCMatActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeNPCMatActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeNPCMatActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigChangeNPCMatActionFactory = v2;
@@ -12229,7 +12229,7 @@ void __cdecl data::ConfigPlayerNPCEnergyTypeAction::ConfigPlayerNPCEnergyTypeAct
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayerNPCEnergyTypeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayerNPCEnergyTypeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12255,7 +12255,7 @@ void __cdecl data::ConfigPlayerNPCEnergyTypeAction::ConfigPlayerNPCEnergyTypeAct
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayerNPCEnergyTypeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayerNPCEnergyTypeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12279,7 +12279,7 @@ void __cdecl data::ConfigPlayerNPCEnergyTypeAction::~ConfigPlayerNPCEnergyTypeAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayerNPCEnergyTypeAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayerNPCEnergyTypeAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12357,7 +12357,7 @@ void __cdecl data::ConfigPlayerNPCEnergyTypeActionFactory::ConfigPlayerNPCEnergy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigPlayerNPCEnergyTypeActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigPlayerNPCEnergyTypeActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigPlayerNPCEnergyTypeActionFactory = v2;
@@ -12373,7 +12373,7 @@ void __cdecl data::ConfigSetNPCFloatingHeightAction::ConfigSetNPCFloatingHeightA
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNPCFloatingHeightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNPCFloatingHeightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12404,7 +12404,7 @@ void __cdecl data::ConfigSetNPCFloatingHeightAction::ConfigSetNPCFloatingHeightA
   __int64 v8; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNPCFloatingHeightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNPCFloatingHeightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12448,7 +12448,7 @@ void __cdecl data::ConfigSetNPCFloatingHeightAction::~ConfigSetNPCFloatingHeight
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNPCFloatingHeightAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNPCFloatingHeightAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12518,7 +12518,7 @@ void __cdecl data::ConfigSetNPCFloatingHeightActionFactory::ConfigSetNPCFloating
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNPCFloatingHeightActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNPCFloatingHeightActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetNPCFloatingHeightActionFactory = v2;
@@ -12535,7 +12535,7 @@ void __cdecl data::ConfigSetArmAction::ConfigSetArmAction(data::ConfigSetArmActi
   __int64 v6; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetArmAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetArmAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12600,7 +12600,7 @@ void __cdecl data::ConfigSetArmAction::ConfigSetArmAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetArmAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetArmAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12685,7 +12685,7 @@ void __cdecl data::ConfigSetArmAction::~ConfigSetArmAction(data::ConfigSetArmAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetArmAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetArmAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12759,7 +12759,7 @@ void __cdecl data::ConfigSetArmActionFactory::ConfigSetArmActionFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetArmActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetArmActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetArmActionFactory = v2;
@@ -12774,7 +12774,7 @@ void __cdecl data::ConfigBanSelfGlobalValue::ConfigBanSelfGlobalValue(data::Conf
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBanSelfGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBanSelfGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12800,7 +12800,7 @@ void __cdecl data::ConfigBanSelfGlobalValue::ConfigBanSelfGlobalValue(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBanSelfGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBanSelfGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12823,7 +12823,7 @@ void __cdecl data::ConfigBanSelfGlobalValue::~ConfigBanSelfGlobalValue(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBanSelfGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBanSelfGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12898,7 +12898,7 @@ void __cdecl data::ConfigBanSelfGlobalValueFactory::ConfigBanSelfGlobalValueFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBanSelfGlobalValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBanSelfGlobalValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBanSelfGlobalValueFactory = v2;
@@ -12913,7 +12913,7 @@ void __cdecl data::ConfigSetModelTransform::ConfigSetModelTransform(data::Config
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetModelTransform + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetModelTransform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12946,7 +12946,7 @@ void __cdecl data::ConfigSetModelTransform::ConfigSetModelTransform(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetModelTransform + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetModelTransform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -12988,7 +12988,7 @@ void __cdecl data::ConfigSetModelTransform::~ConfigSetModelTransform(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetModelTransform + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetModelTransform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13056,7 +13056,7 @@ void __cdecl data::ConfigSetModelTransformFactory::ConfigSetModelTransformFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetModelTransformFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetModelTransformFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetModelTransformFactory = v2;
@@ -13072,7 +13072,7 @@ void __cdecl data::ConfigSpecialElementViewAction::ConfigSpecialElementViewActio
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialElementViewAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialElementViewAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13109,7 +13109,7 @@ void __cdecl data::ConfigSpecialElementViewAction::ConfigSpecialElementViewActio
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialElementViewAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialElementViewAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13173,7 +13173,7 @@ void __cdecl data::ConfigSpecialElementViewAction::~ConfigSpecialElementViewActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialElementViewAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialElementViewAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13245,7 +13245,7 @@ void __cdecl data::ConfigSpecialElementViewActionFactory::ConfigSpecialElementVi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpecialElementViewActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpecialElementViewActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpecialElementViewActionFactory = v2;
@@ -13262,7 +13262,7 @@ void __cdecl data::ConfigChangeTimeInterAction::ConfigChangeTimeInterAction(
   __int64 v5; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeTimeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeTimeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13315,7 +13315,7 @@ void __cdecl data::ConfigChangeTimeInterAction::ConfigChangeTimeInterAction(
   float fade_speed; // xmm0_4
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeTimeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeTimeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13385,7 +13385,7 @@ void __cdecl data::ConfigChangeTimeInterAction::~ConfigChangeTimeInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeTimeInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeTimeInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13461,7 +13461,7 @@ void __cdecl data::ConfigChangeTimeInterActionFactory::ConfigChangeTimeInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigChangeTimeInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigChangeTimeInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigChangeTimeInterActionFactory = v2;
@@ -13477,7 +13477,7 @@ void __cdecl data::ConfigSpawnAttachInterAction::ConfigSpawnAttachInterAction(
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpawnAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpawnAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13504,7 +13504,7 @@ void __cdecl data::ConfigSpawnAttachInterAction::ConfigSpawnAttachInterAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpawnAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpawnAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13529,7 +13529,7 @@ void __cdecl data::ConfigSpawnAttachInterAction::~ConfigSpawnAttachInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpawnAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpawnAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13607,7 +13607,7 @@ void __cdecl data::ConfigSpawnAttachInterActionFactory::ConfigSpawnAttachInterAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSpawnAttachInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSpawnAttachInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSpawnAttachInterActionFactory = v2;
@@ -13622,7 +13622,7 @@ void __cdecl data::ConfigOperateAttachInterAction::ConfigOperateAttachInterActio
   __int64 v3; // rsi
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOperateAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOperateAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13663,7 +13663,7 @@ void __cdecl data::ConfigOperateAttachInterAction::ConfigOperateAttachInterActio
   char v11; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOperateAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOperateAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13717,7 +13717,7 @@ void __cdecl data::ConfigOperateAttachInterAction::~ConfigOperateAttachInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOperateAttachInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOperateAttachInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13797,7 +13797,7 @@ void __cdecl data::ConfigOperateAttachInterActionFactory::ConfigOperateAttachInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigOperateAttachInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigOperateAttachInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigOperateAttachInterActionFactory = v2;
@@ -13811,7 +13811,7 @@ void __cdecl data::ConfigCloseGPUCullingInterAction::ConfigCloseGPUCullingInterA
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCloseGPUCullingInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCloseGPUCullingInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13825,7 +13825,7 @@ void __cdecl data::ConfigCloseGPUCullingInterAction::ConfigCloseGPUCullingInterA
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCloseGPUCullingInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCloseGPUCullingInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13838,7 +13838,7 @@ void __cdecl data::ConfigCloseGPUCullingInterAction::~ConfigCloseGPUCullingInter
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCloseGPUCullingInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCloseGPUCullingInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13916,7 +13916,7 @@ void __cdecl data::ConfigCloseGPUCullingInterActionFactory::ConfigCloseGPUCullin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCloseGPUCullingInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCloseGPUCullingInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCloseGPUCullingInterActionFactory = v2;
@@ -13931,7 +13931,7 @@ void __cdecl data::ConfigShowBGPicInterAction::ConfigShowBGPicInterAction(data::
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBGPicInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBGPicInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13958,7 +13958,7 @@ void __cdecl data::ConfigShowBGPicInterAction::ConfigShowBGPicInterAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBGPicInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBGPicInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -13983,7 +13983,7 @@ void __cdecl data::ConfigShowBGPicInterAction::~ConfigShowBGPicInterAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBGPicInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBGPicInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14060,7 +14060,7 @@ void __cdecl data::ConfigShowBGPicInterActionFactory::ConfigShowBGPicInterAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigShowBGPicInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigShowBGPicInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigShowBGPicInterActionFactory = v2;
@@ -14216,7 +14216,7 @@ void __cdecl data::ConfigSetNpcMatPropValueInterAction::ConfigSetNpcMatPropValue
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNpcMatPropValueInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNpcMatPropValueInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14241,7 +14241,7 @@ void __cdecl data::ConfigSetNpcMatPropValueInterAction::ConfigSetNpcMatPropValue
   char v5; // al
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNpcMatPropValueInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNpcMatPropValueInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14270,7 +14270,7 @@ void __cdecl data::ConfigSetNpcMatPropValueInterAction::~ConfigSetNpcMatPropValu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNpcMatPropValueInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNpcMatPropValueInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14350,7 +14350,7 @@ void __cdecl data::ConfigSetNpcMatPropValueInterActionFactory::ConfigSetNpcMatPr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSetNpcMatPropValueInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSetNpcMatPropValueInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSetNpcMatPropValueInterActionFactory = v2;
@@ -14440,7 +14440,7 @@ void __cdecl data::ConfigCameraPostProcessInterAction::ConfigCameraPostProcessIn
   int (**v2)(...); // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraPostProcessInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraPostProcessInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14465,7 +14465,7 @@ void __cdecl data::ConfigCameraPostProcessInterAction::ConfigCameraPostProcessIn
 
   v5 = a2;
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraPostProcessInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraPostProcessInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14492,7 +14492,7 @@ void __cdecl data::ConfigCameraPostProcessInterAction::~ConfigCameraPostProcessI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraPostProcessInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraPostProcessInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14571,7 +14571,7 @@ void __cdecl data::ConfigCameraPostProcessInterActionFactory::ConfigCameraPostPr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraPostProcessInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraPostProcessInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraPostProcessInterActionFactory = v2;
@@ -14586,7 +14586,7 @@ void __cdecl data::ConfigSkipGroupAction::ConfigSkipGroupAction(data::ConfigSkip
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipGroupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipGroupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14627,7 +14627,7 @@ void __cdecl data::ConfigSkipGroupAction::ConfigSkipGroupAction(
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipGroupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipGroupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14676,7 +14676,7 @@ void __cdecl data::ConfigSkipGroupAction::~ConfigSkipGroupAction(data::ConfigSki
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipGroupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipGroupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14751,7 +14751,7 @@ void __cdecl data::ConfigSkipGroupActionFactory::ConfigSkipGroupActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSkipGroupActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSkipGroupActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigSkipGroupActionFactory = v2;
@@ -14767,7 +14767,7 @@ void __cdecl data::ConfigStreamHotSpotInterAction::ConfigStreamHotSpotInterActio
   __int64 v4; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction((data::ConfigBaseInterAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigStreamHotSpotInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigStreamHotSpotInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14802,7 +14802,7 @@ void __cdecl data::ConfigStreamHotSpotInterAction::ConfigStreamHotSpotInterActio
   data::ConfigBaseInterAction::ConfigBaseInterAction(
     (data::ConfigBaseInterAction *const)this,
     (const data::ConfigBaseInterAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigStreamHotSpotInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigStreamHotSpotInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14853,7 +14853,7 @@ void __cdecl data::ConfigStreamHotSpotInterAction::~ConfigStreamHotSpotInterActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigStreamHotSpotInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigStreamHotSpotInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -14923,7 +14923,7 @@ void __cdecl data::ConfigStreamHotSpotInterActionFactory::ConfigStreamHotSpotInt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigStreamHotSpotInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigStreamHotSpotInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigStreamHotSpotInterActionFactory = v2;
@@ -14942,7 +14942,7 @@ void __cdecl data::ConfigCameraOrbitEntityInterAction::ConfigCameraOrbitEntityIn
   __int64 v7; // rdx
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraOrbitEntityInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraOrbitEntityInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -15031,7 +15031,7 @@ void __cdecl data::ConfigCameraOrbitEntityInterAction::ConfigCameraOrbitEntityIn
   float follow_rotation_speed; // xmm0_4
 
   data::ConfigBaseInterAction::ConfigBaseInterAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraOrbitEntityInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraOrbitEntityInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -15162,7 +15162,7 @@ void __cdecl data::ConfigCameraOrbitEntityInterAction::~ConfigCameraOrbitEntityI
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraOrbitEntityInterAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraOrbitEntityInterAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInterAction = v2;
@@ -15241,7 +15241,7 @@ void __cdecl data::ConfigCameraOrbitEntityInterActionFactory::ConfigCameraOrbitE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCameraOrbitEntityInterActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCameraOrbitEntityInterActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCameraOrbitEntityInterActionFactory = v2;
@@ -15256,7 +15256,7 @@ void __cdecl data::ConfigLCBaseIntee::ConfigLCBaseIntee(data::ConfigLCBaseIntee 
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigLCBaseIntee>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigLCBaseIntee>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCBaseIntee + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCBaseIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLCBaseIntee = v2;
@@ -15314,7 +15314,7 @@ void __cdecl data::ConfigLCBaseIntee::ConfigLCBaseIntee(
   std::enable_shared_from_this<data::ConfigLCBaseIntee>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigLCBaseIntee>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigLCBaseIntee + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigLCBaseIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigLCBaseIntee = v3;
@@ -15451,7 +15451,7 @@ void __cdecl data::ConfigLCBaseIntee::~ConfigLCBaseIntee(data::ConfigLCBaseIntee
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCBaseIntee + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCBaseIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLCBaseIntee = v2;
@@ -15522,7 +15522,7 @@ void __cdecl data::ConfigLCGadgetIntee::ConfigLCGadgetIntee(data::ConfigLCGadget
   int (**v2)(...); // rdx
 
   data::ConfigLCBaseIntee::ConfigLCBaseIntee(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCGadgetIntee + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCGadgetIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLCBaseIntee = v2;
@@ -15536,7 +15536,7 @@ void __cdecl data::ConfigLCGadgetIntee::ConfigLCGadgetIntee(
   int (**v2)(...); // rdx
 
   data::ConfigLCBaseIntee::ConfigLCBaseIntee(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCGadgetIntee + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCGadgetIntee + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigLCBaseIntee = v2;
@@ -15609,7 +15609,7 @@ void __cdecl data::ConfigLCGadgetInteeFactory::ConfigLCGadgetInteeFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLCGadgetInteeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLCGadgetInteeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLCGadgetInteeFactory = v2;

@@ -6,7 +6,7 @@ void __cdecl ActivityChessExcelConfigMgr::ActivityChessExcelConfigMgr(ActivityCh
   int (**v1)(...); // rdx
 
   data::ActivityChessExcelConfigMgrBase::ActivityChessExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityChessExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityChessExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityChessExcelConfigMgrBase = v1;
@@ -37,7 +37,7 @@ void __cdecl ActivityChessExcelConfigMgr::~ActivityChessExcelConfigMgr(ActivityC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityChessExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityChessExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityChessExcelConfigMgrBase = v1;

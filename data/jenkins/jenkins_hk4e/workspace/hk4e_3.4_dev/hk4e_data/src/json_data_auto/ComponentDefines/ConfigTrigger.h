@@ -7,7 +7,7 @@ void __cdecl data::ConfigLocalTriggerMeta::ConfigLocalTriggerMeta(data::ConfigLo
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigLocalTriggerMeta>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigLocalTriggerMeta>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMeta + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMeta + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerMeta = v2;
@@ -41,7 +41,7 @@ void __cdecl data::ConfigLocalTriggerMeta::ConfigLocalTriggerMeta(
   std::enable_shared_from_this<data::ConfigLocalTriggerMeta>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigLocalTriggerMeta>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMeta + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMeta + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigLocalTriggerMeta = v3;
@@ -91,7 +91,7 @@ void __cdecl data::ConfigLocalTriggerMeta::~ConfigLocalTriggerMeta(data::ConfigL
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMeta + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMeta + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerMeta = v2;
@@ -161,7 +161,7 @@ void __cdecl data::ConfigLocalTriggerMetaTeleportV2::ConfigLocalTriggerMetaTelep
   int (**v2)(...); // rdx
 
   data::ConfigLocalTriggerMeta::ConfigLocalTriggerMeta((data::ConfigLocalTriggerMeta *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMetaTeleportV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMetaTeleportV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerMeta = v2;
@@ -186,7 +186,7 @@ void __cdecl data::ConfigLocalTriggerMetaTeleportV2::ConfigLocalTriggerMetaTelep
   data::ConfigLocalTriggerMeta::ConfigLocalTriggerMeta(
     (data::ConfigLocalTriggerMeta *const)this,
     (const data::ConfigLocalTriggerMeta *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMetaTeleportV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMetaTeleportV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigLocalTriggerMeta = v2;
@@ -667,7 +667,7 @@ void __cdecl data::ConfigLocalTriggerMetaTeleportV2::~ConfigLocalTriggerMetaTele
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMetaTeleportV2 + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMetaTeleportV2 + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerMeta = v2;
@@ -745,7 +745,7 @@ void __cdecl data::ConfigLocalTriggerMetaTeleportV2Factory::ConfigLocalTriggerMe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigLocalTriggerMetaTeleportV2Factory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigLocalTriggerMetaTeleportV2Factory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigLocalTriggerMetaTeleportV2Factory = v2;

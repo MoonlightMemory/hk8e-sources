@@ -6,7 +6,7 @@ void __cdecl PlayerSession::~PlayerSession(PlayerSession *const this)
   int (**v1)(...); // rdx
   PlayerSession *i; // rbx
 
-  v1 = (int (**)(...))(&`vtable for'PlayerSession + 2);
+  v1 = (int (**)(...))(&`vtable for PlayerSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_KcpSession = v1;
@@ -57,7 +57,7 @@ void __cdecl PlayerSession::PlayerSession(
   std::string *last_record_packet_str_arr; // r12
 
   common::minet::KcpSession::KcpSession(this, kcp_conn_mgr_wtr, session_id, token);
-  v4 = (int (**)(...))(&`vtable for'PlayerSession + 2);
+  v4 = (int (**)(...))(&`vtable for PlayerSession + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_KcpSession = v4;

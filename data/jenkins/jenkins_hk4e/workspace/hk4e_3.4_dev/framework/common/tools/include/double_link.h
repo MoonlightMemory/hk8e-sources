@@ -10,6 +10,6 @@ void __fastcall common::tools::DoubleLinkNode::~DoubleLinkNode(common::tools::Do
     __asan_report_store8(this, v1);
     JUMPOUT(0x19B60695LL);
   }
-  this->_vptr_DoubleLinkNode = (int (**)(...))(&`vtable for'common::tools::DoubleLinkNode + 2);
+  this->_vptr_DoubleLinkNode = (int (**)(...))(&`vtable for common::tools::DoubleLinkNode + 2);
   common::tools::DoubleLinkNode::removeFromList(this);
 };

@@ -15,7 +15,7 @@ void __fastcall boost::asio::detail::strand_executor_service::~strand_executor_s
     __asan_report_store8();
     goto LABEL_5;
   }
-  this->_vptr_service = (int (**)(...))(&`vtable for'boost::asio::detail::strand_executor_service + 2);
+  this->_vptr_service = (int (**)(...))(&`vtable for boost::asio::detail::strand_executor_service + 2);
   mutexes = this->mutexes_;
   if ( this != (boost::asio::detail::strand_executor_service *const)-80LL )
   {

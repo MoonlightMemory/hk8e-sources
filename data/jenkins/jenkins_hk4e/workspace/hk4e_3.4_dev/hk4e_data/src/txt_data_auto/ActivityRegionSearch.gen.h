@@ -6,7 +6,7 @@ void __cdecl data::RegionSearchCond::RegionSearchCond(data::RegionSearchCond *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchCond = v2;
@@ -30,7 +30,7 @@ void __cdecl data::RegionSearchCond::RegionSearchCond(
   const data::RegionSearchCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RegionSearchCond = v2;
@@ -56,7 +56,7 @@ void __cdecl data::RegionSearchCond::~RegionSearchCond(data::RegionSearchCond *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchCond = v2;
@@ -79,7 +79,7 @@ void __cdecl data::RegionSearchExcelConfig::RegionSearchExcelConfig(data::Region
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchExcelConfig = v2;
@@ -148,7 +148,7 @@ void __cdecl data::RegionSearchExcelConfig::RegionSearchExcelConfig(
   const data::RegionSearchExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RegionSearchExcelConfig = v2;
@@ -239,7 +239,7 @@ void __cdecl data::RegionSearchExcelConfig::~RegionSearchExcelConfig(data::Regio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchExcelConfig = v2;
@@ -261,7 +261,7 @@ void __cdecl data::RegionSearchCondExcelConfig::RegionSearchCondExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchCondExcelConfig = v2;
@@ -322,7 +322,7 @@ void __cdecl data::RegionSearchCondExcelConfig::RegionSearchCondExcelConfig(
   const data::RegionSearchCondExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RegionSearchCondExcelConfig = v2;
@@ -405,7 +405,7 @@ void __cdecl data::RegionSearchCondExcelConfig::~RegionSearchCondExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchCondExcelConfig = v2;
@@ -429,7 +429,7 @@ void __cdecl data::RegionSearchRegionExcelConfig::RegionSearchRegionExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchRegionExcelConfig = v2;
@@ -498,7 +498,7 @@ void __cdecl data::RegionSearchRegionExcelConfig::RegionSearchRegionExcelConfig(
   const data::RegionSearchRegionExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RegionSearchRegionExcelConfig = v2;
@@ -594,7 +594,7 @@ void __cdecl data::RegionSearchRegionExcelConfig::~RegionSearchRegionExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RegionSearchRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RegionSearchRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RegionSearchRegionExcelConfig = v2;

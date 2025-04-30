@@ -49,7 +49,7 @@ void __cdecl data::ExtraPropConfig::ExtraPropConfig(data::ExtraPropConfig *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExtraPropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExtraPropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExtraPropConfig = v2;
@@ -79,7 +79,7 @@ void __cdecl data::ExtraPropConfig::ExtraPropConfig(data::ExtraPropConfig *const
   const data::ExtraPropConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ExtraPropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExtraPropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ExtraPropConfig = v2;
@@ -118,7 +118,7 @@ void __cdecl data::ExtraPropConfig::~ExtraPropConfig(data::ExtraPropConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ExtraPropConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ExtraPropConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ExtraPropConfig = v2;
@@ -137,7 +137,7 @@ void __cdecl data::AvatarExtraPropExcelConfig::AvatarExtraPropExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarExtraPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarExtraPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarExtraPropExcelConfig = v2;
@@ -170,7 +170,7 @@ void __cdecl data::AvatarExtraPropExcelConfig::AvatarExtraPropExcelConfig(
   const data::AvatarExtraPropExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarExtraPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarExtraPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarExtraPropExcelConfig = v2;
@@ -211,7 +211,7 @@ void __cdecl data::AvatarExtraPropExcelConfig::~AvatarExtraPropExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarExtraPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarExtraPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarExtraPropExcelConfig = v2;

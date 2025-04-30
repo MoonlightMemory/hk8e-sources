@@ -15,7 +15,7 @@ void __cdecl data::ActivityPotionOverallExcelConfig::ActivityPotionOverallExcelC
   const data::ActivityPotionOverallExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionOverallExcelConfig = v2;
@@ -86,7 +86,7 @@ void __cdecl data::ActivityPotionOverallExcelConfig::~ActivityPotionOverallExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionOverallExcelConfig = v2;
@@ -99,7 +99,7 @@ void __cdecl data::ActivityPotionStageExcelConfig::ActivityPotionStageExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionStageExcelConfig = v2;
@@ -135,7 +135,7 @@ void __cdecl data::ActivityPotionStageExcelConfig::ActivityPotionStageExcelConfi
   const data::ActivityPotionStageExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionStageExcelConfig = v2;
@@ -187,7 +187,7 @@ void __cdecl data::ActivityPotionStageExcelConfig::~ActivityPotionStageExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionStageExcelConfig = v2;
@@ -205,7 +205,7 @@ void __cdecl data::ActivityPotionLevelExcelConfig::ActivityPotionLevelExcelConfi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionLevelExcelConfig = v2;
@@ -247,7 +247,7 @@ void __cdecl data::ActivityPotionLevelExcelConfig::ActivityPotionLevelExcelConfi
   const data::ActivityPotionLevelExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionLevelExcelConfig = v2;
@@ -301,7 +301,7 @@ void __cdecl data::ActivityPotionLevelExcelConfig::~ActivityPotionLevelExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionLevelExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::ActivityPotionModeChoiceExcelConfig::ActivityPotionModeChoice
   const data::ActivityPotionModeChoiceExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionModeChoiceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionModeChoiceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionModeChoiceExcelConfig = v2;
@@ -383,7 +383,7 @@ void __cdecl data::ActivityPotionModeChoiceExcelConfig::~ActivityPotionModeChoic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionModeChoiceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionModeChoiceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionModeChoiceExcelConfig = v2;
@@ -411,7 +411,7 @@ void __cdecl data::ActivityPotionDifficultyExcelConfig::ActivityPotionDifficulty
   const data::ActivityPotionDifficultyExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionDifficultyExcelConfig = v2;
@@ -451,7 +451,7 @@ void __cdecl data::ActivityPotionDifficultyExcelConfig::~ActivityPotionDifficult
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionDifficultyExcelConfig = v2;
@@ -472,7 +472,7 @@ void __cdecl data::ActivityPotionBuffExcelConfig::ActivityPotionBuffExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionBuffExcelConfig = v2;
@@ -496,7 +496,7 @@ void __cdecl data::ActivityPotionBuffExcelConfig::ActivityPotionBuffExcelConfig(
   const data::ActivityPotionBuffExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPotionBuffExcelConfig = v2;
@@ -531,7 +531,7 @@ void __cdecl data::ActivityPotionBuffExcelConfig::~ActivityPotionBuffExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPotionBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPotionBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPotionBuffExcelConfig = v2;

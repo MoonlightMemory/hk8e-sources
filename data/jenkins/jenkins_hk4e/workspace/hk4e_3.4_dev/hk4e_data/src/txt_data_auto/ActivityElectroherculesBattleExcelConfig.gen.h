@@ -7,7 +7,7 @@ void __cdecl data::ElectroherculesBattleExcelConfig::ElectroherculesBattleExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleExcelConfig = v2;
@@ -40,7 +40,7 @@ void __cdecl data::ElectroherculesBattleExcelConfig::ElectroherculesBattleExcelC
   const data::ElectroherculesBattleExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ElectroherculesBattleExcelConfig = v2;
@@ -81,7 +81,7 @@ void __cdecl data::ElectroherculesBattleExcelConfig::~ElectroherculesBattleExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleExcelConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::ElectroherculesBattleStageExcelConfig::ElectroherculesBattleS
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleStageExcelConfig = v2;
@@ -156,7 +156,7 @@ void __cdecl data::ElectroherculesBattleStageExcelConfig::ElectroherculesBattleS
   const data::ElectroherculesBattleStageExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ElectroherculesBattleStageExcelConfig = v2;
@@ -225,7 +225,7 @@ void __cdecl data::ElectroherculesBattleStageExcelConfig::~ElectroherculesBattle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleStageExcelConfig = v2;
@@ -250,7 +250,7 @@ void __cdecl data::ElectroherculesBattleLevelExcelConfig::ElectroherculesBattleL
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleLevelExcelConfig = v2;
@@ -329,7 +329,7 @@ void __cdecl data::ElectroherculesBattleLevelExcelConfig::ElectroherculesBattleL
   const data::ElectroherculesBattleLevelExcelConfig *v21; // [rsp+0h] [rbp-10h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ElectroherculesBattleLevelExcelConfig = v2;
@@ -438,7 +438,7 @@ void __cdecl data::ElectroherculesBattleLevelExcelConfig::~ElectroherculesBattle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ElectroherculesBattleLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ElectroherculesBattleLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ElectroherculesBattleLevelExcelConfig = v2;

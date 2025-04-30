@@ -6,7 +6,7 @@ void __cdecl MaterialExcelConfigMgr::MaterialExcelConfigMgr(MaterialExcelConfigM
   int (**v1)(...); // rdx
 
   data::MaterialExcelConfigMgrBase::MaterialExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'MaterialExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MaterialExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MaterialExcelConfigMgrBase = v1;
@@ -23,7 +23,7 @@ void __cdecl MaterialExcelConfigMgr::~MaterialExcelConfigMgr(MaterialExcelConfig
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MaterialExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for MaterialExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_MaterialExcelConfigMgrBase = v1;

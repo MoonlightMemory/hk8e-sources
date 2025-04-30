@@ -9,7 +9,7 @@ void __cdecl ZN2BT14ActionNodeBaseCI2NS_8LeafNodeEERKNSt7__cxx1112basic_stringIc
   int (**v3)(...); // rdx
 
   BT::LeafNode::LeafNode(this, a2, a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ActionNodeBase + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ActionNodeBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -20,7 +20,7 @@ void __cdecl BT::ActionNodeBase::~ActionNodeBase(BT::ActionNodeBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionNodeBase + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionNodeBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;
@@ -51,7 +51,7 @@ void __cdecl BT::SimpleActionNode::~SimpleActionNode(BT::SimpleActionNode *const
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::SimpleActionNode + 2);
+  v1 = (int (**)(...))(&`vtable for BT::SimpleActionNode + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

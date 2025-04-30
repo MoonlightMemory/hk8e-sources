@@ -1522,7 +1522,7 @@ uint32_t __fastcall common::tools::TimeUtils::getDaysOfMonth(time_t stamp, time_
                               byte_19ECD1C2,
                               (std::forward_iterator_tag)v23);
                             std::out_of_range::out_of_range(&e, v2 + 160);
-                            *(_QWORD *)e.baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_month + 2;
+                            *(_QWORD *)e.baseclass_0 = &`vtable for boost::gregorian::bad_day_of_month + 2;
                             __asan_handle_no_return(&e);
                             boost::throw_exception<boost::gregorian::bad_day_of_month>(&e);
                           }
@@ -1569,7 +1569,7 @@ uint32_t __fastcall common::tools::TimeUtils::getDaysOfMonth(time_t stamp, time_
                 byte_19ECD1C2,
                 (std::forward_iterator_tag)v5);
               std::out_of_range::out_of_range(&e, v2 + 160);
-              *(_QWORD *)e.baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_month + 2;
+              *(_QWORD *)e.baseclass_0 = &`vtable for boost::gregorian::bad_day_of_month + 2;
               __asan_handle_no_return(&e);
               boost::throw_exception<boost::gregorian::bad_day_of_month>(&e);
             }

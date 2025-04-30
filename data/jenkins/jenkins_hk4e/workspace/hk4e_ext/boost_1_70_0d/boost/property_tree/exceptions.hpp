@@ -8,7 +8,7 @@ void __cdecl boost::property_tree::ptree_error::ptree_error(
   __int64 *v2; // rdx
 
   std::runtime_error::runtime_error((std::runtime_error *)this, (const std::runtime_error *)a2);
-  v2 = &`vtable for'boost::property_tree::ptree_error + 2;
+  v2 = &`vtable for boost::property_tree::ptree_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -22,7 +22,7 @@ void __cdecl boost::property_tree::ptree_bad_data::ptree_bad_data(
   __int64 *v2; // rdx
 
   boost::property_tree::ptree_error::ptree_error(this, a2);
-  v2 = &`vtable for'boost::property_tree::ptree_bad_data + 2;
+  v2 = &`vtable for boost::property_tree::ptree_bad_data + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -37,7 +37,7 @@ void __cdecl boost::property_tree::ptree_bad_path::ptree_bad_path(
   __int64 *v2; // rdx
 
   boost::property_tree::ptree_error::ptree_error(this, a2);
-  v2 = &`vtable for'boost::property_tree::ptree_bad_path + 2;
+  v2 = &`vtable for boost::property_tree::ptree_bad_path + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;

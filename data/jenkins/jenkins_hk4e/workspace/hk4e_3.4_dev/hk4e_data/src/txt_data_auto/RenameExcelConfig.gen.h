@@ -10,7 +10,7 @@ void __cdecl data::AvatarRenameExcelConfig::AvatarRenameExcelConfig(data::Avatar
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarRenameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarRenameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarRenameExcelConfig = v2;
@@ -108,7 +108,7 @@ void __cdecl data::AvatarRenameExcelConfig::AvatarRenameExcelConfig(
   const data::AvatarRenameExcelConfig *v26; // [rsp+0h] [rbp-10h]
 
   v26 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarRenameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarRenameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarRenameExcelConfig = v2;
@@ -243,7 +243,7 @@ void __cdecl data::AvatarRenameExcelConfig::~AvatarRenameExcelConfig(data::Avata
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarRenameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarRenameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarRenameExcelConfig = v2;
@@ -264,7 +264,7 @@ void __cdecl data::AvatarInappropriateNameExcelConfig::AvatarInappropriateNameEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarInappropriateNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarInappropriateNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarInappropriateNameExcelConfig = v2;
@@ -289,7 +289,7 @@ void __cdecl data::AvatarInappropriateNameExcelConfig::AvatarInappropriateNameEx
   const data::AvatarInappropriateNameExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AvatarInappropriateNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarInappropriateNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AvatarInappropriateNameExcelConfig = v2;
@@ -317,7 +317,7 @@ void __cdecl data::AvatarInappropriateNameExcelConfig::~AvatarInappropriateNameE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AvatarInappropriateNameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AvatarInappropriateNameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AvatarInappropriateNameExcelConfig = v2;

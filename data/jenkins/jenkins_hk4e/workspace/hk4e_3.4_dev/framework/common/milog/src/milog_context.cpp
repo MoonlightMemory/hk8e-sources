@@ -232,7 +232,7 @@ void __cdecl _tls_init_0()
           *(_DWORD *)(v1 + 12) = 1;
           if ( !*(_BYTE *)((v1 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v1 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MilogContext,common::tools::perf::allocator<common::milog::MilogContext,common::milog::MilogContext>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v1 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MilogContext,common::tools::perf::allocator<common::milog::MilogContext,common::milog::MilogContext>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
             v2 = v1 + 16;
             if ( !common::tools::perf::MemoryPerf::is_record )
@@ -342,7 +342,7 @@ LABEL_22:
         *(_DWORD *)(v20 + 12) = 1;
         if ( !*(_BYTE *)((v20 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v20 = &`vtable for'std::_Sp_counted_ptr_inplace<common::milog::MilogContext,std::allocator<common::milog::MilogContext>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v20 = &`vtable for std::_Sp_counted_ptr_inplace<common::milog::MilogContext,std::allocator<common::milog::MilogContext>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           v24 = v20 + 16;
           if ( !*(_BYTE *)(((v20 + 16) >> 3) + 0x7FFF8000) )

@@ -33,7 +33,7 @@ void __fastcall Json::Exception::Exception(Json::Exception *const this, __int64 
   std::string::size_type v3; // rdx
 
   v2 = *(char **)a2;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::Exception + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::Exception + 2;
   this->msg_._M_dataplus._M_p = this->msg_._anon_0._M_local_buf;
   if ( v2 == (char *)(a2 + 16) )
   {
@@ -107,8 +107,8 @@ LABEL_6:
   Json::Exception::Exception(this, (__int64)v10);
   if ( v10[0] != v11 )
     operator delete(v10[0]);
-  result = &`vtable for'Json::RuntimeError + 2;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::RuntimeError + 2;
+  result = &`vtable for Json::RuntimeError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::RuntimeError + 2;
   return result;
 };
 
@@ -162,8 +162,8 @@ LABEL_6:
   Json::Exception::Exception(this, (__int64)v10);
   if ( v10[0] != v11 )
     operator delete(v10[0]);
-  result = &`vtable for'Json::LogicError + 2;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'Json::LogicError + 2;
+  result = &`vtable for Json::LogicError + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for Json::LogicError + 2;
   return result;
 };
 
@@ -1179,7 +1179,7 @@ LABEL_5:
         std::ios_base::ios_base((std::ios_base *)v14);
         v16 = 0LL;
         v17 = 0LL;
-        v14[0] = (__int64)&`vtable for'std::ios + 16;
+        v14[0] = (__int64)&`vtable for std::ios + 16;
         v15 = 0;
         v14[27] = 0LL;
         v3 = *((_QWORD *)&edata + 2);
@@ -1188,17 +1188,17 @@ LABEL_5:
         v5 = (_QWORD *)((char *)v7 + v4);
         *v5 = v3;
         std::ios::init(v5, 0LL);
-        v14[0] = (__int64)&`vtable for'std::ostringstream + 64;
+        v14[0] = (__int64)&`vtable for std::ostringstream + 64;
         v7[0] = (__int128)_mm_unpacklo_epi64(
-                            (__m128i)((unsigned __int64)&`vtable for'std::ostringstream + 24),
-                            (__m128i)((unsigned __int64)&`vtable for'std::streambuf + 16));
+                            (__m128i)((unsigned __int64)&`vtable for std::ostringstream + 24),
+                            (__m128i)((unsigned __int64)&`vtable for std::streambuf + 16));
         v7[1] = 0LL;
         v8 = 0LL;
         v9 = 0LL;
         std::locale::locale(&v10);
         v11 = 16;
         v13 = 0;
-        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for'std::stringbuf + 16;
+        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for std::stringbuf + 16;
         v12[0] = (__int64)&v13;
         v12[1] = 0LL;
         std::ios::init(v14, (char *)v7 + 8);
@@ -1287,7 +1287,7 @@ LABEL_8:
         std::ios_base::ios_base((std::ios_base *)v14);
         v16 = 0LL;
         v17 = 0LL;
-        v14[0] = (__int64)&`vtable for'std::ios + 16;
+        v14[0] = (__int64)&`vtable for std::ios + 16;
         v15 = 0;
         v14[27] = 0LL;
         v3 = *((_QWORD *)&edata + 2);
@@ -1296,17 +1296,17 @@ LABEL_8:
         v5 = (_QWORD *)((char *)v7 + v4);
         *v5 = v3;
         std::ios::init(v5, 0LL);
-        v14[0] = (__int64)&`vtable for'std::ostringstream + 64;
+        v14[0] = (__int64)&`vtable for std::ostringstream + 64;
         v7[0] = (__int128)_mm_unpacklo_epi64(
-                            (__m128i)((unsigned __int64)&`vtable for'std::ostringstream + 24),
-                            (__m128i)((unsigned __int64)&`vtable for'std::streambuf + 16));
+                            (__m128i)((unsigned __int64)&`vtable for std::ostringstream + 24),
+                            (__m128i)((unsigned __int64)&`vtable for std::streambuf + 16));
         v7[1] = 0LL;
         v8 = 0LL;
         v9 = 0LL;
         std::locale::locale(&v10);
         v11 = 16;
         v13 = 0;
-        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for'std::stringbuf + 16;
+        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for std::stringbuf + 16;
         v12[0] = (__int64)&v13;
         v12[1] = 0LL;
         std::ios::init(v14, (char *)v7 + 8);
@@ -1387,7 +1387,7 @@ LABEL_3:
         std::ios_base::ios_base((std::ios_base *)v14);
         v16 = 0LL;
         v17 = 0LL;
-        v14[0] = (__int64)&`vtable for'std::ios + 16;
+        v14[0] = (__int64)&`vtable for std::ios + 16;
         v15 = 0;
         v14[27] = 0LL;
         v3 = *((_QWORD *)&edata + 2);
@@ -1396,17 +1396,17 @@ LABEL_3:
         v5 = (_QWORD *)((char *)v7 + v4);
         *v5 = v3;
         std::ios::init(v5, 0LL);
-        v14[0] = (__int64)&`vtable for'std::ostringstream + 64;
+        v14[0] = (__int64)&`vtable for std::ostringstream + 64;
         v7[0] = (__int128)_mm_unpacklo_epi64(
-                            (__m128i)((unsigned __int64)&`vtable for'std::ostringstream + 24),
-                            (__m128i)((unsigned __int64)&`vtable for'std::streambuf + 16));
+                            (__m128i)((unsigned __int64)&`vtable for std::ostringstream + 24),
+                            (__m128i)((unsigned __int64)&`vtable for std::streambuf + 16));
         v7[1] = 0LL;
         v8 = 0LL;
         v9 = 0LL;
         std::locale::locale(&v10);
         v11 = 16;
         v13 = 0;
-        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for'std::stringbuf + 16;
+        *((_QWORD *)&v7[0] + 1) = (char *)&`vtable for std::stringbuf + 16;
         v12[0] = (__int64)&v13;
         v12[1] = 0LL;
         std::ios::init(v14, (char *)v7 + 8);

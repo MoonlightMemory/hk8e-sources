@@ -70,7 +70,7 @@ void __fastcall boost::property_tree::xml_parser::read_xml<boost::property_tree:
   }
   M_p = v5->_M_dataplus._M_p;
   std::ios_base::ios_base((std::ios_base *)(v7 + 304));
-  *(_QWORD *)(v7 + 304) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v7 + 304) = (char *)&`vtable for std::ios + 16;
   *(_QWORD *)(v7 + 520) = 0LL;
   *(_BYTE *)(v7 + 528) = 0;
   *(_BYTE *)(v7 + 529) = 0;
@@ -116,8 +116,8 @@ LABEL_17:
 LABEL_18:
   __asan_report_load8();
 LABEL_19:
-  *(_QWORD *)(v7 + 48) = (char *)&`vtable for'std::ifstream + 24;
-  *(_QWORD *)(v7 + 304) = (char *)&`vtable for'std::ifstream + 64;
+  *(_QWORD *)(v7 + 48) = (char *)&`vtable for std::ifstream + 24;
+  *(_QWORD *)(v7 + 304) = (char *)&`vtable for std::ifstream + 64;
   std::filebuf::basic_filebuf(v7 + 64);
   std::ios::init(v7 + 304, v7 + 64);
   if ( !std::filebuf::open(v7 + 64, M_p, 8LL) )
@@ -152,7 +152,7 @@ LABEL_29:
   {
     std::string::basic_string<std::allocator<char>>(&msg, "cannot open file", &__a);
     boost::property_tree::file_parser_error::file_parser_error(&v26, &msg, v5, 0LL);
-    *(_QWORD *)v26.baseclass_0 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+    *(_QWORD *)v26.baseclass_0 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
     __asan_handle_no_return(&v26);
     boost::exception_detail::throw_exception_<boost::property_tree::xml_parser::xml_parser_error>(
       (const boost::property_tree::xml_parser::xml_parser_error *)&v26,
@@ -170,14 +170,14 @@ LABEL_29:
     pt,
     flags,
     v5);
-  *(_QWORD *)(v7 + 48) = (char *)&`vtable for'std::ifstream + 24;
-  *(_QWORD *)(v7 + 304) = (char *)&`vtable for'std::ifstream + 64;
-  *(_QWORD *)(v7 + 64) = (char *)&`vtable for'std::filebuf + 16;
+  *(_QWORD *)(v7 + 48) = (char *)&`vtable for std::ifstream + 24;
+  *(_QWORD *)(v7 + 304) = (char *)&`vtable for std::ifstream + 64;
+  *(_QWORD *)(v7 + 64) = (char *)&`vtable for std::filebuf + 16;
   std::filebuf::close(v7 + 64);
   while ( 1 )
   {
     std::__basic_file<char>::~__basic_file(v7 + 168);
-    *(_QWORD *)(v7 + 64) = (char *)&`vtable for'std::streambuf + 16;
+    *(_QWORD *)(v7 + 64) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v7 + 120));
     if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
     {
@@ -204,7 +204,7 @@ LABEL_35:
   }
   *(_QWORD *)v21 = `VTT for'std::ifstream[2];
   *(_QWORD *)(v7 + 56) = 0LL;
-  *(_QWORD *)(v7 + 304) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v7 + 304) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v7 + 304));
   if ( v27 == (char *)v7 )
   {

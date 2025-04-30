@@ -12,7 +12,7 @@ void __cdecl data::ActivityPhotographExcelConfig::ActivityPhotographExcelConfig(
   __int64 v6; // rsi
   __int64 v7; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPhotographExcelConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::ActivityPhotographExcelConfig::ActivityPhotographExcelConfig(
   const data::ActivityPhotographExcelConfig *v24; // [rsp+0h] [rbp-20h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPhotographExcelConfig = v2;
@@ -306,7 +306,7 @@ void __cdecl data::ActivityPhotographExcelConfig::~ActivityPhotographExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPhotographExcelConfig = v2;
@@ -335,7 +335,7 @@ void __cdecl data::ActivityPhotographPosExcelConfig::ActivityPhotographPosExcelC
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographPosExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographPosExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPhotographPosExcelConfig = v2;
@@ -418,7 +418,7 @@ void __cdecl data::ActivityPhotographPosExcelConfig::ActivityPhotographPosExcelC
   const data::ActivityPhotographPosExcelConfig *v22; // [rsp+0h] [rbp-20h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographPosExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographPosExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityPhotographPosExcelConfig = v2;
@@ -531,7 +531,7 @@ void __cdecl data::ActivityPhotographPosExcelConfig::~ActivityPhotographPosExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityPhotographPosExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityPhotographPosExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityPhotographPosExcelConfig = v2;

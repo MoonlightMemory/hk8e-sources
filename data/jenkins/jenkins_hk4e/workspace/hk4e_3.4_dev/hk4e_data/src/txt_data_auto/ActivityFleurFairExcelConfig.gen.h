@@ -26,7 +26,7 @@ void __cdecl data::FleurFairPreviewExcelConfig::FleurFairPreviewExcelConfig(
   const data::FleurFairPreviewExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairPreviewExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::FleurFairPreviewExcelConfig::~FleurFairPreviewExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairPreviewExcelConfig = v2;
@@ -155,7 +155,7 @@ void __cdecl data::FleurFairChapterExcelConfig::FleurFairChapterExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairChapterExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::FleurFairChapterExcelConfig::FleurFairChapterExcelConfig(
   const data::FleurFairChapterExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairChapterExcelConfig = v2;
@@ -303,7 +303,7 @@ void __cdecl data::FleurFairChapterExcelConfig::~FleurFairChapterExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairChapterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairChapterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairChapterExcelConfig = v2;
@@ -330,7 +330,7 @@ void __cdecl data::FleurFairMiniGameExcelConfig::FleurFairMiniGameExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairMiniGameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairMiniGameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairMiniGameExcelConfig = v2;
@@ -402,7 +402,7 @@ void __cdecl data::FleurFairMiniGameExcelConfig::FleurFairMiniGameExcelConfig(
   const data::FleurFairMiniGameExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairMiniGameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairMiniGameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairMiniGameExcelConfig = v2;
@@ -500,7 +500,7 @@ void __cdecl data::FleurFairMiniGameExcelConfig::~FleurFairMiniGameExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairMiniGameExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairMiniGameExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairMiniGameExcelConfig = v2;
@@ -725,7 +725,7 @@ void __cdecl data::FleurFairDungeonExcelConfig::FleurFairDungeonExcelConfig(
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairDungeonExcelConfig = v2;
@@ -845,7 +845,7 @@ void __cdecl data::FleurFairDungeonExcelConfig::FleurFairDungeonExcelConfig(
   const data::FleurFairDungeonExcelConfig *v32; // [rsp+0h] [rbp-20h]
 
   v32 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairDungeonExcelConfig = v2;
@@ -1014,7 +1014,7 @@ void __cdecl data::FleurFairDungeonExcelConfig::~FleurFairDungeonExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairDungeonExcelConfig = v2;
@@ -1043,7 +1043,7 @@ void __cdecl data::FleurFairDungeonStatExcelConfig::FleurFairDungeonStatExcelCon
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairDungeonStatExcelConfig = v2;
@@ -1112,7 +1112,7 @@ void __cdecl data::FleurFairDungeonStatExcelConfig::FleurFairDungeonStatExcelCon
   const data::FleurFairDungeonStatExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairDungeonStatExcelConfig = v2;
@@ -1215,7 +1215,7 @@ void __cdecl data::FleurFairDungeonStatExcelConfig::~FleurFairDungeonStatExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairDungeonStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairDungeonStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairDungeonStatExcelConfig = v2;
@@ -1230,7 +1230,7 @@ void __cdecl data::FleurFairBuffEnergyStatExcelConfig::FleurFairBuffEnergyStatEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairBuffEnergyStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairBuffEnergyStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairBuffEnergyStatExcelConfig = v2;
@@ -1273,7 +1273,7 @@ void __cdecl data::FleurFairBuffEnergyStatExcelConfig::FleurFairBuffEnergyStatEx
   const data::FleurFairBuffEnergyStatExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairBuffEnergyStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairBuffEnergyStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FleurFairBuffEnergyStatExcelConfig = v2;
@@ -1336,7 +1336,7 @@ void __cdecl data::FleurFairBuffEnergyStatExcelConfig::~FleurFairBuffEnergyStatE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FleurFairBuffEnergyStatExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FleurFairBuffEnergyStatExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FleurFairBuffEnergyStatExcelConfig = v2;

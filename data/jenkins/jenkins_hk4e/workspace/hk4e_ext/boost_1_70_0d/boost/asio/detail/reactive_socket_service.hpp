@@ -6,7 +6,7 @@ void __cdecl boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp> + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v1;
@@ -49,7 +49,7 @@ void __cdecl boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>:
   boost::asio::detail::reactive_socket_service_base::reactive_socket_service_base(
     &this->boost::asio::detail::reactive_socket_service_base,
     context);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp> + 2);
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp> + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_service = v2;

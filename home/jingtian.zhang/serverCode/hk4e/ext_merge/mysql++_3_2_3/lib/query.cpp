@@ -25,13 +25,13 @@ void __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, mysqlpp::Connection 
   this->conn_ = a2;
   this->exceptions_ = a3;
   this->template_defaults._M_impl._M_start = 0LL;
-  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for'mysqlpp::Query + 24;
-  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
+  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for mysqlpp::Query + 24;
+  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
   this->parsed_nums_._M_t._M_impl._M_header._M_left = &this->parsed_nums_._M_t._M_impl._M_header;
   this->parsed_nums_._M_t._M_impl._M_header._M_right = &this->parsed_nums_._M_t._M_impl._M_header;
-  *(_QWORD *)&this->sbuffer_[104] = (char *)&`vtable for'mysqlpp::Query + 96;
+  *(_QWORD *)&this->sbuffer_[104] = (char *)&`vtable for mysqlpp::Query + 96;
   this->template_defaults._M_impl._M_finish = 0LL;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   this->template_defaults._M_impl._M_end_of_storage = 0LL;
   this->template_defaults.parent_ = this;
   this->template_defaults.processing_ = 0;
@@ -55,7 +55,7 @@ void __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, mysqlpp::Connection 
   v8 = (std::locale *)v5;
   *(_DWORD *)&this->sbuffer_[64] = 24;
   this->sbuffer_[88] = 0;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->sbuffer_[72] = &this->sbuffer_[88];
   *(_QWORD *)&this->sbuffer_[80] = 0LL;
   std::ios::init(v5, this->sbuffer_);
@@ -112,19 +112,19 @@ void __fastcall mysqlpp::Query::Query(
   *v10 = a2->error_message_._M_dataplus._M_p;
   std::ios::init(v10, 0LL);
   this->exceptions_ = v5;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::OptionalExceptions + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::OptionalExceptions + 2);
   vptr_OptionalExceptions = a2->_vptr_OptionalExceptions;
   M_string_length = a2->error_message_._M_string_length;
   *(_QWORD *)this->baseclass_0 = a2->_vptr_OptionalExceptions;
   *(_QWORD *)((char *)*(vptr_OptionalExceptions - 3) + (_QWORD)this) = M_string_length;
   this->conn_ = a3;
   this->template_defaults._M_impl._M_start = 0LL;
-  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
+  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
   this->parsed_nums_._M_t._M_impl._M_header._M_left = &this->parsed_nums_._M_t._M_impl._M_header;
   this->parsed_nums_._M_t._M_impl._M_header._M_right = &this->parsed_nums_._M_t._M_impl._M_header;
   this->template_defaults._M_impl._M_finish = 0LL;
   this->template_defaults._M_impl._M_end_of_storage = 0LL;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   this->template_defaults.parent_ = this;
   this->template_defaults.processing_ = 0;
   this->copacetic_ = 1;
@@ -147,7 +147,7 @@ void __fastcall mysqlpp::Query::Query(
   this->sbuffer_[88] = 0;
   *(_QWORD *)&this->sbuffer_[80] = 0LL;
   *(_DWORD *)&this->sbuffer_[64] = 24;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->sbuffer_[72] = &this->sbuffer_[88];
   v13 = (std::locale *)&this->baseclass_0[*(_QWORD *)(*(_QWORD *)this->baseclass_0 - 24LL)];
   std::ios::init(v13, this->sbuffer_);
@@ -201,13 +201,13 @@ __int64 __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, const mysqlpp::Qu
   this->exceptions_ = exceptions;
   this->template_defaults._M_impl._M_end_of_storage = 0LL;
   this->template_defaults.parent_ = 0LL;
-  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for'mysqlpp::Query + 24;
-  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
+  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for mysqlpp::Query + 24;
+  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
   this->parsed_nums_._M_t._M_impl._M_header._M_left = &this->parsed_nums_._M_t._M_impl._M_header;
   this->parsed_nums_._M_t._M_impl._M_header._M_right = &this->parsed_nums_._M_t._M_impl._M_header;
-  *(_QWORD *)&this->sbuffer_[104] = (char *)&`vtable for'mysqlpp::Query + 96;
+  *(_QWORD *)&this->sbuffer_[104] = (char *)&`vtable for mysqlpp::Query + 96;
   this->template_defaults.processing_ = 0;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   this->parse_elems_._M_impl._M_start = 0LL;
   this->parse_elems_._M_impl._M_finish = 0LL;
   this->parse_elems_._M_impl._M_end_of_storage = 0LL;
@@ -227,7 +227,7 @@ __int64 __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, const mysqlpp::Qu
   v4 = (std::locale *)&this->sbuffer_[104];
   *(_DWORD *)&this->sbuffer_[64] = 24;
   this->sbuffer_[88] = 0;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->sbuffer_[72] = &this->sbuffer_[88];
   *(_QWORD *)&this->sbuffer_[80] = 0LL;
   std::ios::init(v4, this->sbuffer_);
@@ -257,19 +257,19 @@ __int64 __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, const mysqlpp::Qu
   *v7 = *(_QWORD *)&a2->exceptions_;
   std::ios::init(v7, 0LL);
   this->exceptions_ = *(_BYTE *)(a3 + 16);
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::OptionalExceptions + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::OptionalExceptions + 2);
   v8 = *(_QWORD *)a2->baseclass_0;
   M_start = a2->template_defaults._M_impl._M_start;
   *(_QWORD *)this->baseclass_0 = *(_QWORD *)a2->baseclass_0;
   *(_QWORD *)&this->baseclass_0[*(_QWORD *)(v8 - 24)] = M_start;
   this->template_defaults._M_impl._M_start = 0LL;
   this->template_defaults._M_impl._M_finish = 0LL;
-  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
+  this->_vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
   this->parsed_nums_._M_t._M_impl._M_header._M_left = &this->parsed_nums_._M_t._M_impl._M_header;
   this->parsed_nums_._M_t._M_impl._M_header._M_right = &this->parsed_nums_._M_t._M_impl._M_header;
   this->template_defaults._M_impl._M_end_of_storage = 0LL;
   this->template_defaults.parent_ = 0LL;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   this->template_defaults.processing_ = 0;
   this->parse_elems_._M_impl._M_start = 0LL;
   this->parse_elems_._M_impl._M_finish = 0LL;
@@ -290,7 +290,7 @@ __int64 __fastcall mysqlpp::Query::Query(mysqlpp::Query *this, const mysqlpp::Qu
   this->sbuffer_[88] = 0;
   *(_QWORD *)&this->sbuffer_[80] = 0LL;
   *(_DWORD *)&this->sbuffer_[64] = 24;
-  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)this->sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   *(_QWORD *)&this->sbuffer_[72] = &this->sbuffer_[88];
   v10 = (std::locale *)&this->baseclass_0[*(_QWORD *)(*(_QWORD *)this->baseclass_0 - 24LL)];
   std::ios::init(v10, sbuffer);
@@ -342,7 +342,7 @@ void __fastcall __noreturn mysqlpp::Query::Query()
   std::vector<mysqlpp::SQLParseElement>::~vector((std::vector<mysqlpp::SQLParseElement> *const)(v0 + 80));
   std::vector<mysqlpp::SQLTypeAdapter>::~vector((std::vector<mysqlpp::SQLTypeAdapter> *const)(v0 + 24));
   *(_QWORD *)v0 = v3;
-  *(_QWORD *)(v0 + 280) = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)(v0 + 280) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v1);
   _Unwind_Resume(v2);
 };
@@ -460,7 +460,7 @@ void __fastcall __noreturn mysqlpp::Query::exec()
   v3 = mysqlpp::Query::error(v0);
   mysqlpp::Exception::Exception(exception, v3);
   *(_DWORD *)exception[1].baseclass_0 = v2;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -689,7 +689,7 @@ void __fastcall __noreturn mysqlpp::Query::execute()
   v3 = mysqlpp::Query::error(v0);
   mysqlpp::Exception::Exception(exception, v3);
   *(_DWORD *)exception[1].baseclass_0 = v2;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -1436,14 +1436,14 @@ void __fastcall mysqlpp::Query::proc(
         {
           std::__ostream_insert<char,std::char_traits<char>>(this, " ERROR", 6LL);
           exception = (char *)__cxa_allocate_exception(0x28uLL);
-          *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+          *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
           *((_QWORD *)exception + 1) = exception + 24;
           std::string::_M_construct<char const*>(
             (std::string *const)(exception + 8),
             &byte_1A2D85FB[-43],
             byte_1A2D85FB,
             v12);
-          *(_QWORD *)exception = &`vtable for'mysqlpp::BadParamCount + 2;
+          *(_QWORD *)exception = &`vtable for mysqlpp::BadParamCount + 2;
           _cxa_throw(
             exception,
             (struct type_info *)&`typeinfo for'mysqlpp::BadParamCount,
@@ -1735,7 +1735,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store(
           v6 = mysqlpp::Query::error((const mysqlpp::Query *const)a2);
           mysqlpp::Exception::Exception(exception, v6);
           *(_DWORD *)exception[1].baseclass_0 = v5;
-          *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+          *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
           _cxa_throw(
             exception,
             (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -1760,7 +1760,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store(
       this->parse_elems_._M_impl._M_finish = 0LL;
       this->parse_elems_._M_impl._M_end_of_storage = 0LL;
       this->parsed_names_._M_impl._M_start = 0LL;
-      *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::StoreQueryResult + 2;
+      *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::StoreQueryResult + 2;
     }
     else
     {
@@ -1808,7 +1808,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store_next(mysqlpp::Query *this, cons
       v4 = mysqlpp::Query::error(a2);
       mysqlpp::Exception::Exception(exception, v4);
       *(_DWORD *)exception[1].baseclass_0 = v3;
-      *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+      *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
       _cxa_throw(
         exception,
         (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -1846,7 +1846,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store_next(mysqlpp::Query *this, cons
         v7 = mysqlpp::Query::error(a2);
         mysqlpp::Exception::Exception(v5, v7);
         *(_DWORD *)v5[1].baseclass_0 = v6;
-        *(_QWORD *)v5->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+        *(_QWORD *)v5->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
         _cxa_throw(
           v5,
           (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -1857,7 +1857,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store_next(mysqlpp::Query *this, cons
   LOBYTE(this->_vptr_OptionalExceptions) = 1;
   *(_QWORD *)&this->exceptions_ = 0LL;
   LOBYTE(this->parsed_names_._M_impl._M_finish) = 0;
-  *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::StoreQueryResult + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::StoreQueryResult + 2;
   result = this;
   this->template_defaults._M_impl._M_start = 0LL;
   this->template_defaults._M_impl._M_finish = 0LL;
@@ -1886,7 +1886,7 @@ void __fastcall __noreturn mysqlpp::Query::store_next()
   v3 = mysqlpp::Query::error(v0);
   mysqlpp::Exception::Exception(exception, v3);
   *(_DWORD *)exception[1].baseclass_0 = v2;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -2115,7 +2115,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::use(
           v6 = mysqlpp::Query::error((const mysqlpp::Query *const)a2);
           mysqlpp::Exception::Exception(exception, v6);
           *(_DWORD *)exception[1].baseclass_0 = v5;
-          *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadQuery + 2;
+          *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
           _cxa_throw(
             exception,
             (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
@@ -2136,7 +2136,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::use(
       this->conn_ = 0LL;
       *(_QWORD *)&this->copacetic_ = 0LL;
       this->parse_elems_._M_impl._M_start = 0LL;
-      *(_QWORD *)this->baseclass_0 = &`vtable for'mysqlpp::UseQueryResult + 2;
+      *(_QWORD *)this->baseclass_0 = &`vtable for mysqlpp::UseQueryResult + 2;
       this->parse_elems_._M_impl._M_finish = 0LL;
       this->parse_elems_._M_impl._M_end_of_storage = 0LL;
     }

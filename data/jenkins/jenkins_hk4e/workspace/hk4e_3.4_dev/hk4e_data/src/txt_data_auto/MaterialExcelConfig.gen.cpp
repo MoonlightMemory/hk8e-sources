@@ -10149,7 +10149,7 @@ int32_t __cdecl data::MaterialExcelConfigMgrBase::loadDocumentExcelConfig(
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::DocumentExcelConfig + 2;
+        v14 = &`vtable for data::DocumentExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;
@@ -10802,7 +10802,7 @@ int32_t __cdecl data::MaterialExcelConfigMgrBase::loadMaterialSourceDataExcelCon
         v13 = *(unsigned int *)(v3 + 48);
         row_ptr = common::tools::TxtFile::row((common::tools::TxtFile *const)(v3 + 1008), v13);
         *(_WORD *)(((v3 + 80) >> 3) + 0x7FFF8000) = 0;
-        v14 = &`vtable for'data::MaterialSourceDataExcelConfig + 2;
+        v14 = &`vtable for data::MaterialSourceDataExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v14;

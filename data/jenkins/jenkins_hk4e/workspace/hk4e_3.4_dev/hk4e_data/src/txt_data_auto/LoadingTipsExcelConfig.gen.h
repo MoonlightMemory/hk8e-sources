@@ -7,7 +7,7 @@ void __cdecl data::LoadingTipsExcelConfig::LoadingTipsExcelConfig(data::LoadingT
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LoadingTipsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LoadingTipsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LoadingTipsExcelConfig = v2;
@@ -66,7 +66,7 @@ void __cdecl data::LoadingTipsExcelConfig::LoadingTipsExcelConfig(
   const data::LoadingTipsExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LoadingTipsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LoadingTipsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LoadingTipsExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::LoadingTipsExcelConfig::~LoadingTipsExcelConfig(data::Loading
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LoadingTipsExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LoadingTipsExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LoadingTipsExcelConfig = v2;
@@ -171,7 +171,7 @@ void __cdecl data::LoadingSituationExcelConfig::LoadingSituationExcelConfig(
   uint32_t stage_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::LoadingSituationExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LoadingSituationExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LoadingSituationExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::LoadingSituationExcelConfig::~LoadingSituationExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LoadingSituationExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LoadingSituationExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LoadingSituationExcelConfig = v2;

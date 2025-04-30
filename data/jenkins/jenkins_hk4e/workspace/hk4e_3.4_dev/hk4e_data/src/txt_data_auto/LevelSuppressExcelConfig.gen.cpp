@@ -632,7 +632,7 @@ int32_t __cdecl data::LevelSuppressExcelConfigMgrBase::loadLevelSuppressExcelCon
         *(_QWORD *)(v3 + 560) = 0LL;
         *(_QWORD *)(v3 + 568) = 0LL;
         *(_QWORD *)(v3 + 576) = 0LL;
-        v16 = &`vtable for'data::LevelSuppressExcelConfig + 2;
+        v16 = &`vtable for data::LevelSuppressExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v15);
         *(_QWORD *)(v3 + 544) = v16;

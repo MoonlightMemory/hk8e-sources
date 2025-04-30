@@ -6,7 +6,7 @@ void __cdecl data::BlockLimit::BlockLimit(data::BlockLimit *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlockLimit = v2;
@@ -36,7 +36,7 @@ void __cdecl data::BlockLimit::BlockLimit(data::BlockLimit *const this, const da
   const data::BlockLimit *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BlockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BlockLimit = v2;
@@ -75,7 +75,7 @@ void __cdecl data::BlockLimit::~BlockLimit(data::BlockLimit *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BlockLimit + 2);
+  v2 = (int (**)(...))(&`vtable for data::BlockLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BlockLimit = v2;
@@ -97,7 +97,7 @@ void __cdecl data::PointInfo::PointInfo(data::PointInfo *const this)
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::PointInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::PointInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PointInfo = v2;
@@ -174,7 +174,7 @@ void __cdecl data::PointInfo::PointInfo(data::PointInfo *const this, const data:
   const data::PointInfo *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PointInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::PointInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PointInfo = v2;
@@ -285,7 +285,7 @@ void __cdecl data::PointInfo::~PointInfo(data::PointInfo *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PointInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::PointInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PointInfo = v2;
@@ -315,7 +315,7 @@ void __cdecl data::GatherExcelConfig::GatherExcelConfig(data::GatherExcelConfig 
   __int64 v12; // rsi
   __int64 v13; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GatherExcelConfig = v2;
@@ -464,7 +464,7 @@ void __cdecl data::GatherExcelConfig::GatherExcelConfig(
   const data::GatherExcelConfig *v49; // [rsp+0h] [rbp-20h]
 
   v49 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GatherExcelConfig = v2;
@@ -666,7 +666,7 @@ void __cdecl data::GatherExcelConfig::~GatherExcelConfig(data::GatherExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GatherExcelConfig = v2;
@@ -687,7 +687,7 @@ void __cdecl data::GatherBundleExcelConfig::GatherBundleExcelConfig(data::Gather
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GatherBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GatherBundleExcelConfig = v2;
@@ -720,7 +720,7 @@ void __cdecl data::GatherBundleExcelConfig::GatherBundleExcelConfig(
   const data::GatherBundleExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GatherBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GatherBundleExcelConfig = v2;
@@ -760,7 +760,7 @@ void __cdecl data::GatherBundleExcelConfig::~GatherBundleExcelConfig(data::Gathe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GatherBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GatherBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GatherBundleExcelConfig = v2;
@@ -824,7 +824,7 @@ void __cdecl data::MultiStateGatherConfig::MultiStateGatherConfig(data::MultiSta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultiStateGatherConfig = v2;
@@ -857,7 +857,7 @@ void __cdecl data::MultiStateGatherConfig::MultiStateGatherConfig(
   const data::MultiStateGatherConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MultiStateGatherConfig = v2;
@@ -904,7 +904,7 @@ void __cdecl data::MultiStateGatherConfig::~MultiStateGatherConfig(data::MultiSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultiStateGatherConfig = v2;
@@ -918,7 +918,7 @@ void __cdecl data::MultiStateGatherExcelConfig::MultiStateGatherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultiStateGatherExcelConfig = v2;
@@ -951,7 +951,7 @@ void __cdecl data::MultiStateGatherExcelConfig::MultiStateGatherExcelConfig(
   const data::MultiStateGatherExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MultiStateGatherExcelConfig = v2;
@@ -1002,7 +1002,7 @@ void __cdecl data::MultiStateGatherExcelConfig::~MultiStateGatherExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MultiStateGatherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MultiStateGatherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MultiStateGatherExcelConfig = v2;

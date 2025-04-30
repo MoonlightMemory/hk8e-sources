@@ -54,7 +54,7 @@ void __cdecl data::ConfigBaseAttackPattern::ConfigBaseAttackPattern(data::Config
   __int64 v8; // rsi
 
   std::enable_shared_from_this<data::ConfigBaseAttackPattern>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseAttackPattern>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseAttackPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -145,7 +145,7 @@ void __cdecl data::ConfigBaseAttackPattern::ConfigBaseAttackPattern(
   std::enable_shared_from_this<data::ConfigBaseAttackPattern>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseAttackPattern>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseAttackPattern + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseAttackPattern = v3;
@@ -264,7 +264,7 @@ void __cdecl data::ConfigBaseAttackPattern::~ConfigBaseAttackPattern(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseAttackPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -336,7 +336,7 @@ void __cdecl data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(data::Co
   __int64 v4; // rdx
 
   data::ConfigBaseAttackPattern::ConfigBaseAttackPattern((data::ConfigBaseAttackPattern *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleAttackPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -362,7 +362,7 @@ void __cdecl data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(
   data::ConfigBaseAttackPattern::ConfigBaseAttackPattern(
     (data::ConfigBaseAttackPattern *const)this,
     (const data::ConfigBaseAttackPattern *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleAttackPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -392,7 +392,7 @@ void __cdecl data::ConfigSimpleAttackPattern::~ConfigSimpleAttackPattern(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigSimpleAttackPattern + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigSimpleAttackPattern + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -460,7 +460,7 @@ void __cdecl data::ConfigAttackUsePrefab::ConfigAttackUsePrefab(data::ConfigAtta
   int (**v2)(...); // rdx
 
   data::ConfigBaseAttackPattern::ConfigBaseAttackPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackUsePrefab + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackUsePrefab + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -488,7 +488,7 @@ void __cdecl data::ConfigAttackUsePrefab::ConfigAttackUsePrefab(
   float duration; // xmm0_4
 
   data::ConfigBaseAttackPattern::ConfigBaseAttackPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackUsePrefab + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackUsePrefab + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -531,7 +531,7 @@ void __cdecl data::ConfigAttackUsePrefab::~ConfigAttackUsePrefab(data::ConfigAtt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackUsePrefab + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackUsePrefab + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -600,7 +600,7 @@ void __cdecl data::ConfigAttackUsePrefabFactory::ConfigAttackUsePrefabFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackUsePrefabFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackUsePrefabFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAttackUsePrefabFactory = v2;
@@ -613,7 +613,7 @@ void __cdecl data::ConfigAttackTrail::ConfigAttackTrail(data::ConfigAttackTrail 
   int (**v2)(...); // rdx
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -629,7 +629,7 @@ void __cdecl data::ConfigAttackTrail::ConfigAttackTrail(
   int (**v2)(...); // rdx
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -650,7 +650,7 @@ void __cdecl data::ConfigAttackTrail::~ConfigAttackTrail(data::ConfigAttackTrail
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -720,7 +720,7 @@ void __cdecl data::ConfigAttackDoubleTrail::ConfigAttackDoubleTrail(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigAttackTrail::ConfigAttackTrail(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackDoubleTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackDoubleTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -736,7 +736,7 @@ void __cdecl data::ConfigAttackDoubleTrail::ConfigAttackDoubleTrail(
   int (**v2)(...); // rdx
 
   data::ConfigAttackTrail::ConfigAttackTrail(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackDoubleTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackDoubleTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -757,7 +757,7 @@ void __cdecl data::ConfigAttackDoubleTrail::~ConfigAttackDoubleTrail(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackDoubleTrail + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackDoubleTrail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -827,7 +827,7 @@ void __cdecl data::ConfigAttackDoubleTrailFactory::ConfigAttackDoubleTrailFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackDoubleTrailFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackDoubleTrailFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAttackDoubleTrailFactory = v2;
@@ -840,7 +840,7 @@ void __cdecl data::ConfigAttackBox::ConfigAttackBox(data::ConfigAttackBox *const
   int (**v2)(...); // rdx
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -859,7 +859,7 @@ void __cdecl data::ConfigAttackBox::ConfigAttackBox(data::ConfigAttackBox *const
   char v5; // al
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -883,7 +883,7 @@ void __cdecl data::ConfigAttackBox::~ConfigAttackBox(data::ConfigAttackBox *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -958,7 +958,7 @@ void __cdecl data::ConfigAttackBoxFactory::ConfigAttackBoxFactory(data::ConfigAt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackBoxFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackBoxFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAttackBoxFactory = v2;
@@ -972,7 +972,7 @@ void __cdecl data::ConfigAttackCircle::ConfigAttackCircle(data::ConfigAttackCirc
   __int64 v3; // rsi
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern((data::ConfigSimpleAttackPattern *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1015,7 +1015,7 @@ void __cdecl data::ConfigAttackCircle::ConfigAttackCircle(
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(
     (data::ConfigSimpleAttackPattern *const)this,
     (const data::ConfigSimpleAttackPattern *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1068,7 +1068,7 @@ void __cdecl data::ConfigAttackCircle::~ConfigAttackCircle(data::ConfigAttackCir
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackCircle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackCircle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1144,7 +1144,7 @@ void __cdecl data::ConfigAttackCircleFactory::ConfigAttackCircleFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackCircleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackCircleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAttackCircleFactory = v2;
@@ -1157,7 +1157,7 @@ void __cdecl data::ConfigAttackSphere::ConfigAttackSphere(data::ConfigAttackSphe
   int (**v2)(...); // rdx
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1181,7 +1181,7 @@ void __cdecl data::ConfigAttackSphere::ConfigAttackSphere(
   char v5; // al
 
   data::ConfigSimpleAttackPattern::ConfigSimpleAttackPattern(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1215,7 +1215,7 @@ void __cdecl data::ConfigAttackSphere::~ConfigAttackSphere(data::ConfigAttackSph
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackSphere + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackSphere + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseAttackPattern = v2;
@@ -1283,7 +1283,7 @@ void __cdecl data::ConfigAttackSphereFactory::ConfigAttackSphereFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAttackSphereFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAttackSphereFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAttackSphereFactory = v2;

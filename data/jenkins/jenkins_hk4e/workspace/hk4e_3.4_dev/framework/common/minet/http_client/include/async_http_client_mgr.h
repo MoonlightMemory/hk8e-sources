@@ -10,7 +10,7 @@ void __cdecl common::minet::http_client::HttpClientMgr::HttpClientMgr(
 
   common::minet::http_client::HttpClientMgrBase::HttpClientMgrBase(this);
   std::enable_shared_from_this<common::minet::http_client::HttpClientMgr>::enable_shared_from_this(&this->std::enable_shared_from_this<common::minet::http_client::HttpClientMgr>);
-  v1 = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClientMgr + 2);
+  v1 = (int (**)(...))(&`vtable for common::minet::http_client::HttpClientMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_HttpClientMgrBase = v1;
@@ -103,7 +103,7 @@ void __fastcall common::minet::http_client::HttpClientMgr::~HttpClientMgr(
     __asan_report_store8();
     goto LABEL_9;
   }
-  this->_vptr_HttpClientMgrBase = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClientMgr + 2);
+  this->_vptr_HttpClientMgrBase = (int (**)(...))(&`vtable for common::minet::http_client::HttpClientMgr + 2);
   p_callback_queue_vec = (unsigned __int64)&this->callback_queue_vec_;
   this = (common::minet::http_client::HttpClientMgr *const)((char *)this + 472);
   if ( *(_BYTE *)(((unsigned __int64)&v5->callback_queue_vec_._M_impl._M_finish >> 3) + 0x7FFF8000) )
@@ -481,7 +481,7 @@ void __fastcall common::minet::http_client::HttpClientMgr::~HttpClientMgr(
     __asan_report_store8();
     goto LABEL_9;
   }
-  this->_vptr_HttpClientMgrBase = (int (**)(...))(&`vtable for'common::minet::http_client::HttpClientMgr + 2);
+  this->_vptr_HttpClientMgrBase = (int (**)(...))(&`vtable for common::minet::http_client::HttpClientMgr + 2);
   p_callback_queue_vec = (std::unique_ptr<common::tools::SafeQueue<std::shared_ptr<common::minet::http_client::HttpClient> >> *)&this->callback_queue_vec_;
   this = (common::minet::http_client::HttpClientMgr *const)((char *)this + 472);
   if ( *(_BYTE *)(((unsigned __int64)&v3->callback_queue_vec_._M_impl._M_finish >> 3) + 0x7FFF8000) )

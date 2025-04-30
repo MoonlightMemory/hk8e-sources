@@ -6,7 +6,7 @@ void __cdecl FishExcelConfigMgr::FishExcelConfigMgr(FishExcelConfigMgr *const th
   int (**v1)(...); // rdx
 
   data::FishExcelConfigMgrBase::FishExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'FishExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FishExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FishExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl FishExcelConfigMgr::~FishExcelConfigMgr(FishExcelConfigMgr *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'FishExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for FishExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_FishExcelConfigMgrBase = v1;

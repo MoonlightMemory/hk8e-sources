@@ -146,7 +146,7 @@ void __cdecl data::ConfigAbilityModifier::ConfigAbilityModifier(data::ConfigAbil
   __int64 v30; // rdx
 
   std::enable_shared_from_this<data::ConfigAbilityModifier>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigAbilityModifier>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityModifier + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityModifier = v2;
@@ -420,7 +420,7 @@ void __cdecl data::ConfigAbilityModifier::ConfigAbilityModifier(
   std::enable_shared_from_this<data::ConfigAbilityModifier>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigAbilityModifier>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigAbilityModifier + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigAbilityModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigAbilityModifier = v3;
@@ -793,7 +793,7 @@ void __cdecl data::ConfigAbilityModifier::~ConfigAbilityModifier(data::ConfigAbi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityModifier + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityModifier + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityModifier = v2;
@@ -841,7 +841,7 @@ void __cdecl data::ConfigAbilityModifierFactory::ConfigAbilityModifierFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityModifierFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityModifierFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAbilityModifierFactory = v2;

@@ -9,7 +9,7 @@ void __cdecl data::DragonSpinePreviewExcelConfig::DragonSpinePreviewExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpinePreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpinePreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpinePreviewExcelConfig = v2;
@@ -78,7 +78,7 @@ void __cdecl data::DragonSpinePreviewExcelConfig::DragonSpinePreviewExcelConfig(
   const data::DragonSpinePreviewExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpinePreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpinePreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DragonSpinePreviewExcelConfig = v2;
@@ -181,7 +181,7 @@ void __cdecl data::DragonSpinePreviewExcelConfig::~DragonSpinePreviewExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpinePreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpinePreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpinePreviewExcelConfig = v2;
@@ -197,7 +197,7 @@ void __cdecl data::DragonSpineStageExcelConfig::DragonSpineStageExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineStageExcelConfig = v2;
@@ -260,7 +260,7 @@ void __cdecl data::DragonSpineStageExcelConfig::DragonSpineStageExcelConfig(
   const data::DragonSpineStageExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DragonSpineStageExcelConfig = v2;
@@ -344,7 +344,7 @@ void __cdecl data::DragonSpineStageExcelConfig::~DragonSpineStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineStageExcelConfig = v2;
@@ -367,7 +367,7 @@ void __cdecl data::DragonSpineMissionFinishConfig::DragonSpineMissionFinishConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionFinishConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionFinishConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineMissionFinishConfig = v2;
@@ -391,7 +391,7 @@ void __cdecl data::DragonSpineMissionFinishConfig::DragonSpineMissionFinishConfi
   const data::DragonSpineMissionFinishConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionFinishConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionFinishConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DragonSpineMissionFinishConfig = v2;
@@ -426,7 +426,7 @@ void __cdecl data::DragonSpineMissionFinishConfig::~DragonSpineMissionFinishConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionFinishConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionFinishConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineMissionFinishConfig = v2;
@@ -441,7 +441,7 @@ void __cdecl data::DragonSpineMissionExcelConfig::DragonSpineMissionExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineMissionExcelConfig = v2;
@@ -483,7 +483,7 @@ void __cdecl data::DragonSpineMissionExcelConfig::DragonSpineMissionExcelConfig(
   const data::DragonSpineMissionExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DragonSpineMissionExcelConfig = v2;
@@ -537,7 +537,7 @@ void __cdecl data::DragonSpineMissionExcelConfig::~DragonSpineMissionExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineMissionExcelConfig = v2;
@@ -568,7 +568,7 @@ void __cdecl data::DragonSpineEnhanceExcelConfig::DragonSpineEnhanceExcelConfig(
   const data::DragonSpineEnhanceExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineEnhanceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineEnhanceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DragonSpineEnhanceExcelConfig = v2;
@@ -622,7 +622,7 @@ void __cdecl data::DragonSpineEnhanceExcelConfig::~DragonSpineEnhanceExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DragonSpineEnhanceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DragonSpineEnhanceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DragonSpineEnhanceExcelConfig = v2;

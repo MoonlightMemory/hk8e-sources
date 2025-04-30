@@ -7,7 +7,7 @@ void __cdecl GCGGameExcelConfigMgr::GCGGameExcelConfigMgr(GCGGameExcelConfigMgr 
   int (**v2)(...); // rdx
 
   data::GCGGameExcelConfigMgrBase::GCGGameExcelConfigMgrBase(this);
-  v2 = (int (**)(...))(&`vtable for'GCGGameExcelConfigMgr + 2);
+  v2 = (int (**)(...))(&`vtable for GCGGameExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameExcelConfigMgrBase = v2;
@@ -24,7 +24,7 @@ void __cdecl GCGGameExcelConfigMgr::~GCGGameExcelConfigMgr(GCGGameExcelConfigMgr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'GCGGameExcelConfigMgr + 2);
+  v2 = (int (**)(...))(&`vtable for GCGGameExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGGameExcelConfigMgrBase = v2;

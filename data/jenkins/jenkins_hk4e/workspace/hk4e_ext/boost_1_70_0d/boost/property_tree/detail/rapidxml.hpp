@@ -245,7 +245,7 @@ LABEL_47:
     v17 = *(_QWORD *)v2;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       v17 = __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
       v17 = __asan_report_store8();
     *(_QWORD *)(exception + 8) = "invalid numeric character entity";
@@ -720,7 +720,7 @@ LABEL_51:
     v24 = *(_QWORD *)v3;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       v24 = __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
       v24 = __asan_report_store8();
     *(_QWORD *)(exception + 8) = "expected element name";
@@ -840,7 +840,7 @@ LABEL_91:
       v45 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
       if ( *(_BYTE *)((v45 >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)v45 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v45 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v45 + 8) >> 3) + 0x7FFF8000) )
         __asan_report_store8();
       *(_QWORD *)(v45 + 8) = "expected attribute name";
@@ -1033,7 +1033,7 @@ LABEL_163:
               v56 = *(_QWORD *)v3;
               if ( *(_BYTE *)((v55 >> 3) + 0x7FFF8000) )
                 v56 = __asan_report_store8();
-              *(_QWORD *)v55 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+              *(_QWORD *)v55 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
               if ( *(_BYTE *)(((v55 + 8) >> 3) + 0x7FFF8000) )
                 v56 = __asan_report_store8();
               *(_QWORD *)(v55 + 8) = "expected =";
@@ -1101,7 +1101,7 @@ LABEL_194:
               v64 = *(_QWORD *)v3;
               if ( *(_BYTE *)((v63 >> 3) + 0x7FFF8000) )
                 v64 = __asan_report_store8();
-              *(_QWORD *)v63 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+              *(_QWORD *)v63 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
               if ( *(_BYTE *)(((v63 + 8) >> 3) + 0x7FFF8000) )
                 v64 = __asan_report_store8();
               *(_QWORD *)(v63 + 8) = "expected ' or \"";
@@ -1404,7 +1404,7 @@ LABEL_373:
                                                           v130 = *(_QWORD *)(v249 + 32);
                                                           if ( *(_BYTE *)((v129 >> 3) + 0x7FFF8000) )
                                                             v130 = __asan_report_store8();
-                                                          *(_QWORD *)v129 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                                          *(_QWORD *)v129 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                                           + 2;
                                                           if ( *(_BYTE *)(((v129 + 8) >> 3) + 0x7FFF8000) )
                                                             v130 = __asan_report_store8();
@@ -1474,7 +1474,7 @@ LABEL_323:
                                               v131 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                               if ( *(_BYTE *)((v131 >> 3) + 0x7FFF8000) )
                                                 __asan_report_store8();
-                                              *(_QWORD *)v131 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                              *(_QWORD *)v131 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                               + 2;
                                               if ( *(_BYTE *)(((v131 + 8) >> 3) + 0x7FFF8000) )
                                                 __asan_report_store8();
@@ -2035,7 +2035,7 @@ LABEL_613:
                                       v211 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                       if ( *(_BYTE *)((v211 >> 3) + 0x7FFF8000) )
                                         __asan_report_store8();
-                                      *(_QWORD *)v211 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                      *(_QWORD *)v211 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                       + 2;
                                       if ( *(_BYTE *)(((v211 + 8) >> 3) + 0x7FFF8000) )
                                         __asan_report_store8();
@@ -2112,7 +2112,7 @@ LABEL_575:
                               v213 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                               if ( *(_BYTE *)((v213 >> 3) + 0x7FFF8000) )
                                 __asan_report_store8();
-                              *(_QWORD *)v213 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                              *(_QWORD *)v213 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                               if ( *(_BYTE *)(((v213 + 8) >> 3) + 0x7FFF8000) )
                                 __asan_report_store8();
                               *(_QWORD *)(v213 + 8) = "expected ;";
@@ -2215,7 +2215,7 @@ LABEL_556:
                                     v191 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                     if ( *(_BYTE *)((v191 >> 3) + 0x7FFF8000) )
                                       __asan_report_store8();
-                                    *(_QWORD *)v191 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                    *(_QWORD *)v191 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                     + 2;
                                     if ( *(_BYTE *)(((v191 + 8) >> 3) + 0x7FFF8000) )
                                       __asan_report_store8();
@@ -2305,7 +2305,7 @@ LABEL_659:
                   v228 = *(_QWORD *)v3;
                   if ( *(_BYTE *)((v227 >> 3) + 0x7FFF8000) )
                     v228 = __asan_report_store8();
-                  *(_QWORD *)v227 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                  *(_QWORD *)v227 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                   if ( *(_BYTE *)(((v227 + 8) >> 3) + 0x7FFF8000) )
                     v228 = __asan_report_store8();
                   *(_QWORD *)(v227 + 8) = "expected ' or \"";
@@ -2438,7 +2438,7 @@ LABEL_145:
       v247 = *(_QWORD *)v3;
       if ( *(_BYTE *)((v246 >> 3) + 0x7FFF8000) )
         v247 = __asan_report_store8();
-      *(_QWORD *)v246 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v246 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v246 + 8) >> 3) + 0x7FFF8000) )
         v247 = __asan_report_store8();
       *(_QWORD *)(v246 + 8) = "expected >";
@@ -2468,7 +2468,7 @@ LABEL_145:
     v245 = *(_QWORD *)v3;
     if ( *(_BYTE *)((v244 >> 3) + 0x7FFF8000) )
       v245 = __asan_report_store8();
-    *(_QWORD *)v244 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v244 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v244 + 8) >> 3) + 0x7FFF8000) )
       v245 = __asan_report_store8();
     *(_QWORD *)(v244 + 8) = "expected >";
@@ -2972,7 +2972,7 @@ LABEL_51:
     v24 = *(_QWORD *)v3;
     if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
       v24 = __asan_report_store8();
-    *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
       v24 = __asan_report_store8();
     *(_QWORD *)(exception + 8) = "expected element name";
@@ -3092,7 +3092,7 @@ LABEL_91:
       v45 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
       if ( *(_BYTE *)((v45 >> 3) + 0x7FFF8000) )
         __asan_report_store8();
-      *(_QWORD *)v45 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v45 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v45 + 8) >> 3) + 0x7FFF8000) )
         __asan_report_store8();
       *(_QWORD *)(v45 + 8) = "expected attribute name";
@@ -3285,7 +3285,7 @@ LABEL_163:
               v56 = *(_QWORD *)v3;
               if ( *(_BYTE *)((v55 >> 3) + 0x7FFF8000) )
                 v56 = __asan_report_store8();
-              *(_QWORD *)v55 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+              *(_QWORD *)v55 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
               if ( *(_BYTE *)(((v55 + 8) >> 3) + 0x7FFF8000) )
                 v56 = __asan_report_store8();
               *(_QWORD *)(v55 + 8) = "expected =";
@@ -3353,7 +3353,7 @@ LABEL_194:
               v64 = *(_QWORD *)v3;
               if ( *(_BYTE *)((v63 >> 3) + 0x7FFF8000) )
                 v64 = __asan_report_store8();
-              *(_QWORD *)v63 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+              *(_QWORD *)v63 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
               if ( *(_BYTE *)(((v63 + 8) >> 3) + 0x7FFF8000) )
                 v64 = __asan_report_store8();
               *(_QWORD *)(v63 + 8) = "expected ' or \"";
@@ -3656,7 +3656,7 @@ LABEL_373:
                                                           v130 = *(_QWORD *)(v249 + 32);
                                                           if ( *(_BYTE *)((v129 >> 3) + 0x7FFF8000) )
                                                             v130 = __asan_report_store8();
-                                                          *(_QWORD *)v129 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                                          *(_QWORD *)v129 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                                           + 2;
                                                           if ( *(_BYTE *)(((v129 + 8) >> 3) + 0x7FFF8000) )
                                                             v130 = __asan_report_store8();
@@ -3726,7 +3726,7 @@ LABEL_323:
                                               v131 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                               if ( *(_BYTE *)((v131 >> 3) + 0x7FFF8000) )
                                                 __asan_report_store8();
-                                              *(_QWORD *)v131 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                              *(_QWORD *)v131 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                               + 2;
                                               if ( *(_BYTE *)(((v131 + 8) >> 3) + 0x7FFF8000) )
                                                 __asan_report_store8();
@@ -4287,7 +4287,7 @@ LABEL_613:
                                       v211 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                       if ( *(_BYTE *)((v211 >> 3) + 0x7FFF8000) )
                                         __asan_report_store8();
-                                      *(_QWORD *)v211 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                      *(_QWORD *)v211 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                       + 2;
                                       if ( *(_BYTE *)(((v211 + 8) >> 3) + 0x7FFF8000) )
                                         __asan_report_store8();
@@ -4364,7 +4364,7 @@ LABEL_575:
                               v213 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                               if ( *(_BYTE *)((v213 >> 3) + 0x7FFF8000) )
                                 __asan_report_store8();
-                              *(_QWORD *)v213 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                              *(_QWORD *)v213 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                               if ( *(_BYTE *)(((v213 + 8) >> 3) + 0x7FFF8000) )
                                 __asan_report_store8();
                               *(_QWORD *)(v213 + 8) = "expected ;";
@@ -4467,7 +4467,7 @@ LABEL_556:
                                     v191 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                     if ( *(_BYTE *)((v191 >> 3) + 0x7FFF8000) )
                                       __asan_report_store8();
-                                    *(_QWORD *)v191 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                    *(_QWORD *)v191 = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                     + 2;
                                     if ( *(_BYTE *)(((v191 + 8) >> 3) + 0x7FFF8000) )
                                       __asan_report_store8();
@@ -4557,7 +4557,7 @@ LABEL_659:
                   v228 = *(_QWORD *)v3;
                   if ( *(_BYTE *)((v227 >> 3) + 0x7FFF8000) )
                     v228 = __asan_report_store8();
-                  *(_QWORD *)v227 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                  *(_QWORD *)v227 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                   if ( *(_BYTE *)(((v227 + 8) >> 3) + 0x7FFF8000) )
                     v228 = __asan_report_store8();
                   *(_QWORD *)(v227 + 8) = "expected ' or \"";
@@ -4690,7 +4690,7 @@ LABEL_145:
       v247 = *(_QWORD *)v3;
       if ( *(_BYTE *)((v246 >> 3) + 0x7FFF8000) )
         v247 = __asan_report_store8();
-      *(_QWORD *)v246 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v246 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v246 + 8) >> 3) + 0x7FFF8000) )
         v247 = __asan_report_store8();
       *(_QWORD *)(v246 + 8) = "expected >";
@@ -4720,7 +4720,7 @@ LABEL_145:
     v245 = *(_QWORD *)v3;
     if ( *(_BYTE *)((v244 >> 3) + 0x7FFF8000) )
       v245 = __asan_report_store8();
-    *(_QWORD *)v244 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v244 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v244 + 8) >> 3) + 0x7FFF8000) )
       v245 = __asan_report_store8();
     *(_QWORD *)(v244 + 8) = "expected >";
@@ -4944,7 +4944,7 @@ LABEL_39:
                       v19 = (__int64)*text;
                       if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
                         v19 = __asan_report_store8();
-                      *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                      *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                       if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
                         v19 = __asan_report_store8();
                       *(_QWORD *)(exception + 8) = "unexpected end of data";
@@ -4987,7 +4987,7 @@ LABEL_56:
                       v24 = (__int64)*text;
                       if ( *(_BYTE *)((v23 >> 3) + 0x7FFF8000) )
                         v24 = __asan_report_store8();
-                      *(_QWORD *)v23 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                      *(_QWORD *)v23 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                       if ( *(_BYTE *)(((v23 + 8) >> 3) + 0x7FFF8000) )
                         v24 = __asan_report_store8();
                       *(_QWORD *)(v23 + 8) = "unexpected end of data";
@@ -5068,7 +5068,7 @@ LABEL_93:
           v35 = (__int64)*text;
           if ( *(_BYTE *)((v34 >> 3) + 0x7FFF8000) )
             v35 = __asan_report_store8();
-          *(_QWORD *)v34 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+          *(_QWORD *)v34 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
           if ( *(_BYTE *)(((v34 + 8) >> 3) + 0x7FFF8000) )
             v35 = __asan_report_store8();
           *(_QWORD *)(v34 + 8) = "unexpected end of data";
@@ -5182,7 +5182,7 @@ LABEL_150:
         v57 = (__int64)*text;
         if ( *(_BYTE *)((v56 >> 3) + 0x7FFF8000) )
           v57 = __asan_report_store8();
-        *(_QWORD *)v56 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+        *(_QWORD *)v56 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
         if ( *(_BYTE *)(((v56 + 8) >> 3) + 0x7FFF8000) )
           v57 = __asan_report_store8();
         *(_QWORD *)(v56 + 8) = "unexpected end of data";
@@ -5345,7 +5345,7 @@ LABEL_71:
         v77 = (__int64)*text;
         if ( *(_BYTE *)((v76 >> 3) + 0x7FFF8000) )
           v77 = __asan_report_store8();
-        *(_QWORD *)v76 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+        *(_QWORD *)v76 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
         if ( *(_BYTE *)(((v76 + 8) >> 3) + 0x7FFF8000) )
           v77 = __asan_report_store8();
         *(_QWORD *)(v76 + 8) = "unexpected end of data";
@@ -5400,7 +5400,7 @@ LABEL_190:
       v75 = (__int64)*text;
       if ( *(_BYTE *)((v74 >> 3) + 0x7FFF8000) )
         v75 = __asan_report_store8();
-      *(_QWORD *)v74 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v74 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v74 + 8) >> 3) + 0x7FFF8000) )
         v75 = __asan_report_store8();
       *(_QWORD *)(v74 + 8) = "unexpected end of data";
@@ -5435,7 +5435,7 @@ LABEL_207:
             v73 = (__int64)*text;
             if ( *(_BYTE *)((v72 >> 3) + 0x7FFF8000) )
               v73 = __asan_report_store8();
-            *(_QWORD *)v72 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+            *(_QWORD *)v72 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
             if ( *(_BYTE *)(((v72 + 8) >> 3) + 0x7FFF8000) )
               v73 = __asan_report_store8();
             *(_QWORD *)(v72 + 8) = "unexpected end of data";
@@ -5624,7 +5624,7 @@ LABEL_39:
                       v19 = (__int64)*text;
                       if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
                         v19 = __asan_report_store8();
-                      *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                      *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                       if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
                         v19 = __asan_report_store8();
                       *(_QWORD *)(exception + 8) = "unexpected end of data";
@@ -5667,7 +5667,7 @@ LABEL_56:
                       v24 = (__int64)*text;
                       if ( *(_BYTE *)((v23 >> 3) + 0x7FFF8000) )
                         v24 = __asan_report_store8();
-                      *(_QWORD *)v23 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                      *(_QWORD *)v23 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                       if ( *(_BYTE *)(((v23 + 8) >> 3) + 0x7FFF8000) )
                         v24 = __asan_report_store8();
                       *(_QWORD *)(v23 + 8) = "unexpected end of data";
@@ -5737,7 +5737,7 @@ LABEL_71:
           v81 = (__int64)*text;
           if ( *(_BYTE *)((v80 >> 3) + 0x7FFF8000) )
             v81 = __asan_report_store8();
-          *(_QWORD *)v80 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+          *(_QWORD *)v80 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
           if ( *(_BYTE *)(((v80 + 8) >> 3) + 0x7FFF8000) )
             v81 = __asan_report_store8();
           *(_QWORD *)(v80 + 8) = "unexpected end of data";
@@ -5794,7 +5794,7 @@ LABEL_104:
         v39 = (__int64)*text;
         if ( *(_BYTE *)((v38 >> 3) + 0x7FFF8000) )
           v39 = __asan_report_store8();
-        *(_QWORD *)v38 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+        *(_QWORD *)v38 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
         if ( *(_BYTE *)(((v38 + 8) >> 3) + 0x7FFF8000) )
           v39 = __asan_report_store8();
         *(_QWORD *)(v38 + 8) = "unexpected end of data";
@@ -5977,7 +5977,7 @@ LABEL_170:
     v61 = (__int64)*text;
     if ( *(_BYTE *)((v60 >> 3) + 0x7FFF8000) )
       v61 = __asan_report_store8();
-    *(_QWORD *)v60 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v60 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v60 + 8) >> 3) + 0x7FFF8000) )
       v61 = __asan_report_store8();
     *(_QWORD *)(v60 + 8) = "unexpected end of data";
@@ -6156,7 +6156,7 @@ LABEL_210:
       v79 = (__int64)*text;
       if ( *(_BYTE *)((v78 >> 3) + 0x7FFF8000) )
         v79 = __asan_report_store8();
-      *(_QWORD *)v78 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+      *(_QWORD *)v78 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
       if ( *(_BYTE *)(((v78 + 8) >> 3) + 0x7FFF8000) )
         v79 = __asan_report_store8();
       *(_QWORD *)(v78 + 8) = "unexpected end of data";
@@ -6191,7 +6191,7 @@ LABEL_227:
             v77 = (__int64)*text;
             if ( *(_BYTE *)((v76 >> 3) + 0x7FFF8000) )
               v77 = __asan_report_store8();
-            *(_QWORD *)v76 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+            *(_QWORD *)v76 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
             if ( *(_BYTE *)(((v76 + 8) >> 3) + 0x7FFF8000) )
               v77 = __asan_report_store8();
             *(_QWORD *)(v76 + 8) = "unexpected end of data";
@@ -6427,7 +6427,7 @@ LABEL_80:
         v26 = (__int64)*text;
         if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
           v26 = __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+        *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
         if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
           v26 = __asan_report_store8();
         *(_QWORD *)(exception + 8) = "unexpected end of data";
@@ -6856,7 +6856,7 @@ LABEL_302:
                           v101 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                           if ( *(_BYTE *)((v101 >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
-                          *(_QWORD *)v101 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                          *(_QWORD *)v101 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                           if ( *(_BYTE *)(((v101 + 8) >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
                           *(_QWORD *)(v101 + 8) = "invalid numeric character entity";
@@ -6929,7 +6929,7 @@ LABEL_264:
                   v102 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                   if ( *(_BYTE *)((v102 >> 3) + 0x7FFF8000) )
                     __asan_report_store8();
-                  *(_QWORD *)v102 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                  *(_QWORD *)v102 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                   if ( *(_BYTE *)(((v102 + 8) >> 3) + 0x7FFF8000) )
                     __asan_report_store8();
                   *(_QWORD *)(v102 + 8) = "expected ;";
@@ -7034,7 +7034,7 @@ LABEL_245:
                         v82 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                         if ( *(_BYTE *)((v82 >> 3) + 0x7FFF8000) )
                           __asan_report_store8();
-                        *(_QWORD *)v82 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                        *(_QWORD *)v82 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                         if ( *(_BYTE *)(((v82 + 8) >> 3) + 0x7FFF8000) )
                           __asan_report_store8();
                         *(_QWORD *)(v82 + 8) = "invalid numeric character entity";
@@ -7407,7 +7407,7 @@ LABEL_41:
     v21 = (__int64)*text;
     if ( *(_BYTE *)((v20 >> 3) + 0x7FFF8000) )
       v21 = __asan_report_store8();
-    *(_QWORD *)v20 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v20 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v20 + 8) >> 3) + 0x7FFF8000) )
       v21 = __asan_report_store8();
     *(_QWORD *)(v20 + 8) = "expected >";
@@ -8225,7 +8225,7 @@ LABEL_311:
                                   exception = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
                                     __asan_report_store8();
-                                  *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                  *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                        + 2;
                                   if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
                                     __asan_report_store8();
@@ -8298,7 +8298,7 @@ LABEL_273:
                           v100 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                           if ( *(_BYTE *)((v100 >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
-                          *(_QWORD *)v100 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                          *(_QWORD *)v100 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                           if ( *(_BYTE *)(((v100 + 8) >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
                           *(_QWORD *)(v100 + 8) = "expected ;";
@@ -8403,7 +8403,7 @@ LABEL_254:
                                 v77 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                 if ( *(_BYTE *)((v77 >> 3) + 0x7FFF8000) )
                                   __asan_report_store8();
-                                *(_QWORD *)v77 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                                *(_QWORD *)v77 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                                 if ( *(_BYTE *)(((v77 + 8) >> 3) + 0x7FFF8000) )
                                   __asan_report_store8();
                                 *(_QWORD *)(v77 + 8) = "invalid numeric character entity";
@@ -8579,7 +8579,7 @@ LABEL_89:
                         v31 = (__int64)*text;
                         if ( *(_BYTE *)((v30 >> 3) + 0x7FFF8000) )
                           v31 = __asan_report_store8();
-                        *(_QWORD *)v30 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                        *(_QWORD *)v30 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                         if ( *(_BYTE *)(((v30 + 8) >> 3) + 0x7FFF8000) )
                           v31 = __asan_report_store8();
                         *(_QWORD *)(v30 + 8) = "unexpected end of data";
@@ -8700,7 +8700,7 @@ LABEL_50:
     v26 = (__int64)*text;
     if ( *(_BYTE *)((v25 >> 3) + 0x7FFF8000) )
       v26 = __asan_report_store8();
-    *(_QWORD *)v25 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v25 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v25 + 8) >> 3) + 0x7FFF8000) )
       v26 = __asan_report_store8();
     *(_QWORD *)(v25 + 8) = "expected >";
@@ -9518,7 +9518,7 @@ LABEL_311:
                                   exception = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
                                     __asan_report_store8();
-                                  *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error
+                                  *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error
                                                        + 2;
                                   if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
                                     __asan_report_store8();
@@ -9591,7 +9591,7 @@ LABEL_273:
                           v100 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                           if ( *(_BYTE *)((v100 >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
-                          *(_QWORD *)v100 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                          *(_QWORD *)v100 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                           if ( *(_BYTE *)(((v100 + 8) >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
                           *(_QWORD *)(v100 + 8) = "expected ;";
@@ -9696,7 +9696,7 @@ LABEL_254:
                                 v77 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                                 if ( *(_BYTE *)((v77 >> 3) + 0x7FFF8000) )
                                   __asan_report_store8();
-                                *(_QWORD *)v77 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                                *(_QWORD *)v77 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                                 if ( *(_BYTE *)(((v77 + 8) >> 3) + 0x7FFF8000) )
                                   __asan_report_store8();
                                 *(_QWORD *)(v77 + 8) = "invalid numeric character entity";
@@ -9872,7 +9872,7 @@ LABEL_89:
                         v31 = (__int64)*text;
                         if ( *(_BYTE *)((v30 >> 3) + 0x7FFF8000) )
                           v31 = __asan_report_store8();
-                        *(_QWORD *)v30 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                        *(_QWORD *)v30 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                         if ( *(_BYTE *)(((v30 + 8) >> 3) + 0x7FFF8000) )
                           v31 = __asan_report_store8();
                         *(_QWORD *)(v30 + 8) = "unexpected end of data";
@@ -9993,7 +9993,7 @@ LABEL_50:
     v26 = (__int64)*text;
     if ( *(_BYTE *)((v25 >> 3) + 0x7FFF8000) )
       v26 = __asan_report_store8();
-    *(_QWORD *)v25 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v25 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v25 + 8) >> 3) + 0x7FFF8000) )
       v26 = __asan_report_store8();
     *(_QWORD *)(v25 + 8) = "expected >";
@@ -10217,7 +10217,7 @@ LABEL_80:
         v26 = (__int64)*text;
         if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
           v26 = __asan_report_store8();
-        *(_QWORD *)exception = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+        *(_QWORD *)exception = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
         if ( *(_BYTE *)(((exception + 8) >> 3) + 0x7FFF8000) )
           v26 = __asan_report_store8();
         *(_QWORD *)(exception + 8) = "unexpected end of data";
@@ -10646,7 +10646,7 @@ LABEL_302:
                           v101 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                           if ( *(_BYTE *)((v101 >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
-                          *(_QWORD *)v101 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                          *(_QWORD *)v101 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                           if ( *(_BYTE *)(((v101 + 8) >> 3) + 0x7FFF8000) )
                             __asan_report_store8();
                           *(_QWORD *)(v101 + 8) = "invalid numeric character entity";
@@ -10719,7 +10719,7 @@ LABEL_264:
                   v102 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                   if ( *(_BYTE *)((v102 >> 3) + 0x7FFF8000) )
                     __asan_report_store8();
-                  *(_QWORD *)v102 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                  *(_QWORD *)v102 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                   if ( *(_BYTE *)(((v102 + 8) >> 3) + 0x7FFF8000) )
                     __asan_report_store8();
                   *(_QWORD *)(v102 + 8) = "expected ;";
@@ -10824,7 +10824,7 @@ LABEL_245:
                         v82 = (unsigned __int64)__cxa_allocate_exception(0x18uLL);
                         if ( *(_BYTE *)((v82 >> 3) + 0x7FFF8000) )
                           __asan_report_store8();
-                        *(_QWORD *)v82 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+                        *(_QWORD *)v82 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
                         if ( *(_BYTE *)(((v82 + 8) >> 3) + 0x7FFF8000) )
                           __asan_report_store8();
                         *(_QWORD *)(v82 + 8) = "invalid numeric character entity";
@@ -11199,7 +11199,7 @@ LABEL_41:
     v21 = (__int64)*text;
     if ( *(_BYTE *)((v20 >> 3) + 0x7FFF8000) )
       v21 = __asan_report_store8();
-    *(_QWORD *)v20 = &`vtable for'boost::property_tree::detail::rapidxml::parse_error + 2;
+    *(_QWORD *)v20 = &`vtable for boost::property_tree::detail::rapidxml::parse_error + 2;
     if ( *(_BYTE *)(((v20 + 8) >> 3) + 0x7FFF8000) )
       v21 = __asan_report_store8();
     *(_QWORD *)(v20 + 8) = "expected >";

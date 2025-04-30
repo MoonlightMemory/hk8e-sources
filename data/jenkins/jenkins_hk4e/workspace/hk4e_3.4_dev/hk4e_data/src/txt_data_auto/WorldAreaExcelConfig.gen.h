@@ -13,7 +13,7 @@ void __cdecl data::WorldAreaConfig::WorldAreaConfig(data::WorldAreaConfig *const
   __int64 v8; // rsi
   __int64 v9; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaConfig = v2;
@@ -124,7 +124,7 @@ void __cdecl data::WorldAreaConfig::WorldAreaConfig(data::WorldAreaConfig *const
   const data::WorldAreaConfig *v33; // [rsp+0h] [rbp-10h]
 
   v33 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldAreaConfig = v2;
@@ -285,7 +285,7 @@ void __cdecl data::WorldAreaConfig::~WorldAreaConfig(data::WorldAreaConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaConfig = v2;
@@ -299,7 +299,7 @@ void __cdecl data::MapAreaConfig::MapAreaConfig(data::MapAreaConfig *const this)
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MapAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MapAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MapAreaConfig = v2;
@@ -350,7 +350,7 @@ void __cdecl data::MapAreaConfig::MapAreaConfig(data::MapAreaConfig *const this,
   const data::MapAreaConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MapAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MapAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MapAreaConfig = v2;
@@ -419,7 +419,7 @@ void __cdecl data::MapAreaConfig::~MapAreaConfig(data::MapAreaConfig *const this
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MapAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MapAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MapAreaConfig = v2;
@@ -450,7 +450,7 @@ void __cdecl data::LevelTagMapAreaConfig::LevelTagMapAreaConfig(
   const data::LevelTagMapAreaConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagMapAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagMapAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LevelTagMapAreaConfig = v2;
@@ -502,7 +502,7 @@ void __cdecl data::LevelTagMapAreaConfig::~LevelTagMapAreaConfig(data::LevelTagM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LevelTagMapAreaConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LevelTagMapAreaConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LevelTagMapAreaConfig = v2;
@@ -524,7 +524,7 @@ void __cdecl data::WorldAreaExploreEventConfig::WorldAreaExploreEventConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaExploreEventConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaExploreEventConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaExploreEventConfig = v2;
@@ -594,7 +594,7 @@ void __cdecl data::WorldAreaExploreEventConfig::WorldAreaExploreEventConfig(
   const data::WorldAreaExploreEventConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaExploreEventConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaExploreEventConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldAreaExploreEventConfig = v2;
@@ -698,7 +698,7 @@ void __cdecl data::WorldAreaExploreEventConfig::~WorldAreaExploreEventConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaExploreEventConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaExploreEventConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaExploreEventConfig = v2;
@@ -739,7 +739,7 @@ void __cdecl data::WorldAreaLevelupAction::WorldAreaLevelupAction(data::WorldAre
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupAction = v2;
@@ -764,7 +764,7 @@ void __cdecl data::WorldAreaLevelupAction::WorldAreaLevelupAction(
   const data::WorldAreaLevelupAction *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldAreaLevelupAction = v2;
@@ -791,7 +791,7 @@ void __cdecl data::WorldAreaLevelupAction::~WorldAreaLevelupAction(data::WorldAr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupAction = v2;
@@ -856,7 +856,7 @@ void __cdecl data::WorldAreaLevelupConsumeItem::WorldAreaLevelupConsumeItem(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConsumeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConsumeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupConsumeItem = v2;
@@ -888,7 +888,7 @@ void __cdecl data::WorldAreaLevelupConsumeItem::WorldAreaLevelupConsumeItem(
   const data::WorldAreaLevelupConsumeItem *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConsumeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConsumeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldAreaLevelupConsumeItem = v2;
@@ -928,7 +928,7 @@ void __cdecl data::WorldAreaLevelupConsumeItem::~WorldAreaLevelupConsumeItem(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConsumeItem + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConsumeItem + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupConsumeItem = v2;
@@ -949,7 +949,7 @@ void __cdecl data::WorldAreaLevelupConfig::WorldAreaLevelupConfig(data::WorldAre
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupConfig = v2;
@@ -1001,7 +1001,7 @@ void __cdecl data::WorldAreaLevelupConfig::WorldAreaLevelupConfig(
   const data::WorldAreaLevelupConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldAreaLevelupConfig = v2;
@@ -1069,7 +1069,7 @@ void __cdecl data::WorldAreaLevelupConfig::~WorldAreaLevelupConfig(data::WorldAr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldAreaLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldAreaLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldAreaLevelupConfig = v2;
@@ -1168,7 +1168,7 @@ void __cdecl data::CityLevelupConfig::CityLevelupConfig(data::CityLevelupConfig 
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CityLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityLevelupConfig = v2;
@@ -1220,7 +1220,7 @@ void __cdecl data::CityLevelupConfig::CityLevelupConfig(
   const data::CityLevelupConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CityLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CityLevelupConfig = v2;
@@ -1288,7 +1288,7 @@ void __cdecl data::CityLevelupConfig::~CityLevelupConfig(data::CityLevelupConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CityLevelupConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityLevelupConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityLevelupConfig = v2;
@@ -1310,7 +1310,7 @@ void __cdecl data::TransPointRewardConfig::TransPointRewardConfig(data::TransPoi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TransPointRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TransPointRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TransPointRewardConfig = v2;
@@ -1353,7 +1353,7 @@ void __cdecl data::TransPointRewardConfig::TransPointRewardConfig(
   const data::TransPointRewardConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TransPointRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TransPointRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TransPointRewardConfig = v2;
@@ -1407,7 +1407,7 @@ void __cdecl data::TransPointRewardConfig::~TransPointRewardConfig(data::TransPo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TransPointRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TransPointRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TransPointRewardConfig = v2;
@@ -1429,7 +1429,7 @@ void __cdecl data::CityConfig::CityConfig(data::CityConfig *const this)
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::CityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityConfig = v2;
@@ -1473,7 +1473,7 @@ void __cdecl data::CityConfig::CityConfig(data::CityConfig *const this, const da
   const data::CityConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CityConfig = v2;
@@ -1530,7 +1530,7 @@ void __cdecl data::CityConfig::~CityConfig(data::CityConfig *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CityConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CityConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CityConfig = v2;

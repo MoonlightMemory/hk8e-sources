@@ -1545,7 +1545,7 @@ int __fastcall common::tools::WordFilterMgr::init(
         M_pi->_M_weak_count = 1;
         if ( !*(_BYTE *)(((unsigned __int64)M_pi >> 3) + 0x7FFF8000) )
         {
-          M_pi->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_ptr_inplace<common::tools::WordFilter,common::tools::perf::allocator<common::tools::WordFilter,common::tools::WordFilter>,(__gnu_cxx::_Lock_policy)2>
+          M_pi->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_ptr_inplace<common::tools::WordFilter,common::tools::perf::allocator<common::tools::WordFilter,common::tools::WordFilter>,(__gnu_cxx::_Lock_policy)2>
                                                        + 2);
           v2 = M_pi + 1;
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1730,7 +1730,7 @@ LABEL_81:
     v30 = __asan_report_store4(v28);
     goto LABEL_82;
   }
-  *(_QWORD *)v24 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::WordFilter,std::allocator<common::tools::WordFilter>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v24 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::WordFilter,std::allocator<common::tools::WordFilter>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v28 = v24 + 24;
   v29 = *(_BYTE *)(((v24 + 24) >> 3) + 0x7FFF8000);

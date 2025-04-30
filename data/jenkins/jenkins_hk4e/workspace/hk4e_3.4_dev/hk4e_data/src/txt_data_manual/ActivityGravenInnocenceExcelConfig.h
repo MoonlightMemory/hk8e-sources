@@ -7,7 +7,7 @@ void __cdecl ActivityGravenInnocenceExcelConfigMgr::ActivityGravenInnocenceExcel
   int (**v1)(...); // rdx
 
   data::ActivityGravenInnocenceExcelConfigMgrBase::ActivityGravenInnocenceExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityGravenInnocenceExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityGravenInnocenceExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityGravenInnocenceExcelConfigMgrBase = v1;
@@ -41,7 +41,7 @@ void __cdecl ActivityGravenInnocenceExcelConfigMgr::~ActivityGravenInnocenceExce
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityGravenInnocenceExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityGravenInnocenceExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityGravenInnocenceExcelConfigMgrBase = v1;

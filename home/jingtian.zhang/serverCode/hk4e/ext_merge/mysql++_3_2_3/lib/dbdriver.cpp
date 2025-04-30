@@ -5,7 +5,7 @@ __int64 __fastcall mysqlpp::DBDriver::DBDriver(mysqlpp::DBDriver *this)
 {
   __int64 result; // rax
 
-  this->_vptr_DBDriver = (int (**)(...))(&`vtable for'mysqlpp::DBDriver + 2);
+  this->_vptr_DBDriver = (int (**)(...))(&`vtable for mysqlpp::DBDriver + 2);
   this->is_connected_ = 0;
   this->applied_options_._M_impl._M_map = 0LL;
   this->applied_options_._M_impl._M_map_size = 0LL;
@@ -45,7 +45,7 @@ __int64 __fastcall mysqlpp::DBDriver::DBDriver(mysqlpp::DBDriver *this)
 // Line 57: range 000000000CF821B0-000000000CF82310
 void __fastcall mysqlpp::DBDriver::DBDriver(mysqlpp::DBDriver *this, const mysqlpp::DBDriver *other)
 {
-  this->_vptr_DBDriver = (int (**)(...))(&`vtable for'mysqlpp::DBDriver + 2);
+  this->_vptr_DBDriver = (int (**)(...))(&`vtable for mysqlpp::DBDriver + 2);
   this->is_connected_ = 0;
   this->applied_options_._M_impl._M_map = 0LL;
   this->applied_options_._M_impl._M_map_size = 0LL;
@@ -86,7 +86,7 @@ void __fastcall mysqlpp::DBDriver::~DBDriver(mysqlpp::DBDriver *const this)
   mysqlpp::DBDriver *M_p; // rdi
 
   v2 = !this->is_connected_;
-  this->_vptr_DBDriver = (int (**)(...))(&`vtable for'mysqlpp::DBDriver + 2);
+  this->_vptr_DBDriver = (int (**)(...))(&`vtable for mysqlpp::DBDriver + 2);
   if ( !v2 )
     mysqlpp::DBDriver::disconnect(this);
   M_cur = this->applied_options_._M_impl._M_start._M_cur;
@@ -544,7 +544,7 @@ __int64 __fastcall mysqlpp::DBDriver::set_option_impl(
   v54[27] = 0LL;
   v56 = 0LL;
   v57 = 0LL;
-  v54[0] = (__int64)&`vtable for'std::ios + 16;
+  v54[0] = (__int64)&`vtable for std::ios + 16;
   v55 = 0;
   v58 = 0LL;
   v59 = 0LL;
@@ -559,17 +559,17 @@ __int64 __fastcall mysqlpp::DBDriver::set_option_impl(
   v45[1] = 0LL;
   v45[2] = 0LL;
   v46 = 0LL;
-  v44 = (__int64)&`vtable for'std::ostringstream + 24;
+  v44 = (__int64)&`vtable for std::ostringstream + 24;
   v47 = 0LL;
   v48 = 0LL;
-  v54[0] = (__int64)&`vtable for'std::ostringstream + 64;
+  v54[0] = (__int64)&`vtable for std::ostringstream + 64;
   v49 = 0LL;
-  v45[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v45[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v50);
   v51 = 16;
   v52[1] = 0LL;
   v53[0] = 0;
-  v45[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v45[0] = (__int64)&`vtable for std::stringbuf + 16;
   v52[0] = v53;
   std::ios::init(v54, v45);
   v17 = v39;
@@ -714,17 +714,17 @@ LABEL_10:
       LOBYTE(v18) = this->error_message_._M_string_length == 0;
       if ( v17 )
         (*((void (__fastcall **)(mysqlpp::Option *))v17->_vptr_Option + 1))(v17);
-      v44 = (__int64)&`vtable for'std::ostringstream + 24;
-      v54[0] = (__int64)&`vtable for'std::ostringstream + 64;
-      v45[0] = (__int64)&`vtable for'std::stringbuf + 16;
+      v44 = (__int64)&`vtable for std::ostringstream + 24;
+      v54[0] = (__int64)&`vtable for std::ostringstream + 64;
+      v45[0] = (__int64)&`vtable for std::stringbuf + 16;
       if ( v52[0] != v53 )
         operator delete(v52[0]);
-      v45[0] = (__int64)&`vtable for'std::streambuf + 16;
+      v45[0] = (__int64)&`vtable for std::streambuf + 16;
       std::locale::~locale(&v50);
       v23 = *(_QWORD *)(v13 - 24);
       v44 = v13;
       *(__int64 *)((char *)&v45[-1] + v23) = v38;
-      v54[0] = (__int64)&`vtable for'std::ios + 16;
+      v54[0] = (__int64)&`vtable for std::ios + 16;
       std::ios_base::~ios_base((std::ios_base *)v54);
       return (unsigned int)v18;
   }
@@ -757,7 +757,7 @@ void __fastcall __noreturn mysqlpp::DBDriver::set_option_impl(
     mysqlpp::Exception::Exception(exception, &w);
     M_p = (std::string *)w._M_dataplus._M_p;
     *(_QWORD *)exception[1].baseclass_0 = v13;
-    *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadOption + 2;
+    *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadOption + 2;
     if ( M_p != (std::string *)&w._anon_0 )
       operator delete(M_p);
     _cxa_throw(

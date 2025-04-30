@@ -6,7 +6,7 @@ void __cdecl ActivityRogueExcelConfigMgr::ActivityRogueExcelConfigMgr(ActivityRo
   int (**v1)(...); // rdx
 
   data::ActivityRogueExcelConfigMgrBase::ActivityRogueExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityRogueExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityRogueExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityRogueExcelConfigMgrBase = v1;
@@ -71,7 +71,7 @@ void __cdecl ActivityRogueExcelConfigMgr::~ActivityRogueExcelConfigMgr(ActivityR
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityRogueExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityRogueExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityRogueExcelConfigMgrBase = v1;

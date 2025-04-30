@@ -55,7 +55,7 @@ void __cdecl data::TreasureMapExcelConfig::TreasureMapExcelConfig(
   const data::TreasureMapExcelConfig *v49; // [rsp+0h] [rbp-10h]
 
   v49 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreasureMapExcelConfig = v2;
@@ -331,7 +331,7 @@ void __cdecl data::TreasureMapExcelConfig::~TreasureMapExcelConfig(data::Treasur
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureMapExcelConfig = v2;
@@ -361,7 +361,7 @@ void __cdecl data::TreasureMapBonusRegionExcelConfig::TreasureMapBonusRegionExce
   const data::TreasureMapBonusRegionExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapBonusRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapBonusRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreasureMapBonusRegionExcelConfig = v2;
@@ -463,7 +463,7 @@ void __cdecl data::TreasureMapBonusRegionExcelConfig::~TreasureMapBonusRegionExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapBonusRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapBonusRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureMapBonusRegionExcelConfig = v2;
@@ -479,7 +479,7 @@ void __cdecl data::TreasureMapRegionExcelConfig::TreasureMapRegionExcelConfig(
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureMapRegionExcelConfig = v2;
@@ -590,7 +590,7 @@ void __cdecl data::TreasureMapRegionExcelConfig::TreasureMapRegionExcelConfig(
   const data::TreasureMapRegionExcelConfig *v30; // [rsp+0h] [rbp-20h]
 
   v30 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreasureMapRegionExcelConfig = v2;
@@ -754,7 +754,7 @@ void __cdecl data::TreasureMapRegionExcelConfig::~TreasureMapRegionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureMapRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureMapRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureMapRegionExcelConfig = v2;
@@ -773,7 +773,7 @@ void __cdecl data::BonusTreasureSolutionExcelConfig::BonusTreasureSolutionExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BonusTreasureSolutionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusTreasureSolutionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BonusTreasureSolutionExcelConfig = v2;
@@ -797,7 +797,7 @@ void __cdecl data::BonusTreasureSolutionExcelConfig::BonusTreasureSolutionExcelC
   const data::BonusTreasureSolutionExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BonusTreasureSolutionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusTreasureSolutionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BonusTreasureSolutionExcelConfig = v2;
@@ -832,7 +832,7 @@ void __cdecl data::BonusTreasureSolutionExcelConfig::~BonusTreasureSolutionExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BonusTreasureSolutionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusTreasureSolutionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BonusTreasureSolutionExcelConfig = v2;

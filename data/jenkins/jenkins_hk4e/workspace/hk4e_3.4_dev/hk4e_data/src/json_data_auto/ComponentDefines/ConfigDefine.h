@@ -819,7 +819,7 @@ void __cdecl data::ConfigBornDirectionType::ConfigBornDirectionType(data::Config
   __int64 v6; // rdx
 
   std::enable_shared_from_this<data::ConfigBornDirectionType>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBornDirectionType>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornDirectionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornDirectionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -888,7 +888,7 @@ void __cdecl data::ConfigBornDirectionType::ConfigBornDirectionType(
   std::enable_shared_from_this<data::ConfigBornDirectionType>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBornDirectionType>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBornDirectionType + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBornDirectionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBornDirectionType = v3;
@@ -980,7 +980,7 @@ void __cdecl data::ConfigBornDirectionType::~ConfigBornDirectionType(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornDirectionType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornDirectionType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1050,7 +1050,7 @@ void __cdecl data::ConfigDirectionByDefault::ConfigDirectionByDefault(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByDefault + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByDefault + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1064,7 +1064,7 @@ void __cdecl data::ConfigDirectionByDefault::ConfigDirectionByDefault(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByDefault + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByDefault + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1083,7 +1083,7 @@ void __cdecl data::ConfigDirectionByDefault::~ConfigDirectionByDefault(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByDefault + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByDefault + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1151,7 +1151,7 @@ void __cdecl data::ConfigDirectionByDefaultFactory::ConfigDirectionByDefaultFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByDefaultFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByDefaultFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByDefaultFactory = v2;
@@ -1164,7 +1164,7 @@ void __cdecl data::ConfigDirectionByEntity::ConfigDirectionByEntity(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1178,7 +1178,7 @@ void __cdecl data::ConfigDirectionByEntity::ConfigDirectionByEntity(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1190,7 +1190,7 @@ void __cdecl data::ConfigDirectionByEntity::~ConfigDirectionByEntity(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1265,7 +1265,7 @@ void __cdecl data::ConfigDirectionByEntityFactory::ConfigDirectionByEntityFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByEntityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByEntityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByEntityFactory = v2;
@@ -1279,7 +1279,7 @@ void __cdecl data::ConfigDirectionByAttackTarget::ConfigDirectionByAttackTarget(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1302,7 +1302,7 @@ void __cdecl data::ConfigDirectionByAttackTarget::ConfigDirectionByAttackTarget(
   __int64 v4; // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1347,7 +1347,7 @@ void __cdecl data::ConfigDirectionByAttackTarget::~ConfigDirectionByAttackTarget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttackTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttackTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1424,7 +1424,7 @@ void __cdecl data::ConfigDirectionByAttackTargetFactory::ConfigDirectionByAttack
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttackTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttackTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByAttackTargetFactory = v2;
@@ -1438,7 +1438,7 @@ void __cdecl data::ConfigDirectionByAttachPoint::ConfigDirectionByAttachPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1462,7 +1462,7 @@ void __cdecl data::ConfigDirectionByAttachPoint::ConfigDirectionByAttachPoint(
   char v5; // al
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1498,7 +1498,7 @@ void __cdecl data::ConfigDirectionByAttachPoint::~ConfigDirectionByAttachPoint(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1568,7 +1568,7 @@ void __cdecl data::ConfigDirectionByAttachPointFactory::ConfigDirectionByAttachP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByAttachPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByAttachPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByAttachPointFactory = v2;
@@ -1582,7 +1582,7 @@ void __cdecl data::ConfigDirectionByBackToHitBoxCenter::ConfigDirectionByBackToH
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByBackToHitBoxCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByBackToHitBoxCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1596,7 +1596,7 @@ void __cdecl data::ConfigDirectionByBackToHitBoxCenter::ConfigDirectionByBackToH
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByBackToHitBoxCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByBackToHitBoxCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1609,7 +1609,7 @@ void __cdecl data::ConfigDirectionByBackToHitBoxCenter::~ConfigDirectionByBackTo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByBackToHitBoxCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByBackToHitBoxCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1687,7 +1687,7 @@ void __cdecl data::ConfigDirectionByBackToHitBoxCenterFactory::ConfigDirectionBy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByBackToHitBoxCenterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByBackToHitBoxCenterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByBackToHitBoxCenterFactory = v2;
@@ -1701,7 +1701,7 @@ void __cdecl data::ConfigDirectionByLookAtEntity::ConfigDirectionByLookAtEntity(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1715,7 +1715,7 @@ void __cdecl data::ConfigDirectionByLookAtEntity::ConfigDirectionByLookAtEntity(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1728,7 +1728,7 @@ void __cdecl data::ConfigDirectionByLookAtEntity::~ConfigDirectionByLookAtEntity
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntity + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntity + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1805,7 +1805,7 @@ void __cdecl data::ConfigDirectionByLookAtEntityFactory::ConfigDirectionByLookAt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntityFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntityFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByLookAtEntityFactory = v2;
@@ -1819,7 +1819,7 @@ void __cdecl data::ConfigDirectionByLookAtEntityFix::ConfigDirectionByLookAtEnti
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntityFix + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntityFix + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1833,7 +1833,7 @@ void __cdecl data::ConfigDirectionByLookAtEntityFix::ConfigDirectionByLookAtEnti
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntityFix + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntityFix + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1854,7 +1854,7 @@ void __cdecl data::ConfigDirectionByLookAtEntityFix::~ConfigDirectionByLookAtEnt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntityFix + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntityFix + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1924,7 +1924,7 @@ void __cdecl data::ConfigDirectionByLookAtEntityFixFactory::ConfigDirectionByLoo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByLookAtEntityFixFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByLookAtEntityFixFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByLookAtEntityFixFactory = v2;
@@ -1938,7 +1938,7 @@ void __cdecl data::ConfigDirectionByGroundNormal::ConfigDirectionByGroundNormal(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1952,7 +1952,7 @@ void __cdecl data::ConfigDirectionByGroundNormal::ConfigDirectionByGroundNormal(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -1973,7 +1973,7 @@ void __cdecl data::ConfigDirectionByGroundNormal::~ConfigDirectionByGroundNormal
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormal + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormal + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2042,7 +2042,7 @@ void __cdecl data::ConfigDirectionByGroundNormalFactory::ConfigDirectionByGround
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormalFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormalFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByGroundNormalFactory = v2;
@@ -2056,7 +2056,7 @@ void __cdecl data::ConfigDirectionByGlobalValue::ConfigDirectionByGlobalValue(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2071,7 +2071,7 @@ void __cdecl data::ConfigDirectionByGlobalValue::ConfigDirectionByGlobalValue(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2085,7 +2085,7 @@ void __cdecl data::ConfigDirectionByGlobalValue::~ConfigDirectionByGlobalValue(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2163,7 +2163,7 @@ void __cdecl data::ConfigDirectionByGlobalValueFactory::ConfigDirectionByGlobalV
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGlobalValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGlobalValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByGlobalValueFactory = v2;
@@ -2176,7 +2176,7 @@ void __cdecl data::ConfigDirectionByWorld::ConfigDirectionByWorld(data::ConfigDi
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2192,7 +2192,7 @@ void __cdecl data::ConfigDirectionByWorld::ConfigDirectionByWorld(
   __int64 v3; // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2218,7 +2218,7 @@ void __cdecl data::ConfigDirectionByWorld::~ConfigDirectionByWorld(data::ConfigD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2286,7 +2286,7 @@ void __cdecl data::ConfigDirectionByWorldFactory::ConfigDirectionByWorldFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByWorldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByWorldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByWorldFactory = v2;
@@ -2302,7 +2302,7 @@ void __cdecl data::ConfigDirectionByGroundNormalRange::ConfigDirectionByGroundNo
   __int64 v4; // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormalRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormalRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2338,7 +2338,7 @@ void __cdecl data::ConfigDirectionByGroundNormalRange::ConfigDirectionByGroundNo
 
   v11 = a2;
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormalRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormalRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2390,7 +2390,7 @@ void __cdecl data::ConfigDirectionByGroundNormalRange::~ConfigDirectionByGroundN
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormalRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormalRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2460,7 +2460,7 @@ void __cdecl data::ConfigDirectionByGroundNormalRangeFactory::ConfigDirectionByG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByGroundNormalRangeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByGroundNormalRangeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByGroundNormalRangeFactory = v2;
@@ -2474,7 +2474,7 @@ void __cdecl data::ConfigDirectionByReflection::ConfigDirectionByReflection(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByReflection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByReflection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2488,7 +2488,7 @@ void __cdecl data::ConfigDirectionByReflection::ConfigDirectionByReflection(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByReflection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByReflection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2501,7 +2501,7 @@ void __cdecl data::ConfigDirectionByReflection::~ConfigDirectionByReflection(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByReflection + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByReflection + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2577,7 +2577,7 @@ void __cdecl data::ConfigDirectionByReflectionFactory::ConfigDirectionByReflecti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByReflectionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByReflectionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByReflectionFactory = v2;
@@ -2591,7 +2591,7 @@ void __cdecl data::ConfigDirectionByRefraction::ConfigDirectionByRefraction(
   int (**v2)(...); // rdx
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByRefraction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByRefraction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2612,7 +2612,7 @@ void __cdecl data::ConfigDirectionByRefraction::ConfigDirectionByRefraction(
   float valid_angle_range; // xmm0_4
 
   data::ConfigBornDirectionType::ConfigBornDirectionType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByRefraction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByRefraction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2637,7 +2637,7 @@ void __cdecl data::ConfigDirectionByRefraction::~ConfigDirectionByRefraction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByRefraction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByRefraction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornDirectionType = v2;
@@ -2713,7 +2713,7 @@ void __cdecl data::ConfigDirectionByRefractionFactory::ConfigDirectionByRefracti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDirectionByRefractionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDirectionByRefractionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDirectionByRefractionFactory = v2;
@@ -2726,7 +2726,7 @@ void __cdecl data::BornRandom::BornRandom(data::BornRandom *const this)
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::BornRandom>::enable_shared_from_this(&this->std::enable_shared_from_this<data::BornRandom>);
-  v2 = (int (**)(...))(&`vtable for'data::BornRandom + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandom + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -2747,7 +2747,7 @@ void __cdecl data::BornRandom::BornRandom(data::BornRandom *const this, const da
   std::enable_shared_from_this<data::BornRandom>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::BornRandom>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::BornRandom + 2);
+  v3 = (int (**)(...))(&`vtable for data::BornRandom + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_BornRandom = v3;
@@ -2769,7 +2769,7 @@ void __cdecl data::BornRandom::~BornRandom(data::BornRandom *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BornRandom + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandom + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -2844,7 +2844,7 @@ void __cdecl data::BornRandomFromCenter::BornRandomFromCenter(data::BornRandomFr
   int (**v2)(...); // rdx
 
   data::BornRandom::BornRandom(this);
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomFromCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomFromCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -2860,7 +2860,7 @@ void __cdecl data::BornRandomFromCenter::BornRandomFromCenter(
   int (**v2)(...); // rdx
 
   data::BornRandom::BornRandom(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomFromCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomFromCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BornRandom = v2;
@@ -2874,7 +2874,7 @@ void __cdecl data::BornRandomFromCenter::~BornRandomFromCenter(data::BornRandomF
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomFromCenter + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomFromCenter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -2951,7 +2951,7 @@ void __cdecl data::BornRandomFromCenterFactory::BornRandomFromCenterFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomFromCenterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomFromCenterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandomFromCenterFactory = v2;
@@ -2964,7 +2964,7 @@ void __cdecl data::BornRandomInShape::BornRandomInShape(data::BornRandomInShape 
   int (**v2)(...); // rdx
 
   data::BornRandom::BornRandom(this);
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomInShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomInShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -2979,7 +2979,7 @@ void __cdecl data::BornRandomInShape::BornRandomInShape(
   int (**v2)(...); // rdx
 
   data::BornRandom::BornRandom(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomInShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomInShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BornRandom = v2;
@@ -2999,7 +2999,7 @@ void __cdecl data::BornRandomInShape::~BornRandomInShape(data::BornRandomInShape
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomInShape + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomInShape + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandom = v2;
@@ -3067,7 +3067,7 @@ void __cdecl data::BornRandomInShapeFactory::BornRandomInShapeFactory(data::Born
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BornRandomInShapeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::BornRandomInShapeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BornRandomInShapeFactory = v2;
@@ -3087,7 +3087,7 @@ void __cdecl data::ConfigBornType::ConfigBornType(data::ConfigBornType *const th
   __int64 v9; // rdx
 
   std::enable_shared_from_this<data::ConfigBornType>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBornType>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3161,7 +3161,7 @@ void __cdecl data::ConfigBornType::ConfigBornType(data::ConfigBornType *const th
   std::enable_shared_from_this<data::ConfigBornType>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBornType>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBornType + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBornType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBornType = v3;
@@ -3245,7 +3245,7 @@ void __cdecl data::ConfigBornType::~ConfigBornType(data::ConfigBornType *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3323,7 +3323,7 @@ void __cdecl data::ConfigBornByTarget::ConfigBornByTarget(data::ConfigBornByTarg
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3337,7 +3337,7 @@ void __cdecl data::ConfigBornByTarget::ConfigBornByTarget(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -3349,7 +3349,7 @@ void __cdecl data::ConfigBornByTarget::~ConfigBornByTarget(data::ConfigBornByTar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTarget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTarget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3423,7 +3423,7 @@ void __cdecl data::ConfigBornByTargetFactory::ConfigBornByTargetFactory(data::Co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByTargetFactory = v2;
@@ -3436,7 +3436,7 @@ void __cdecl data::ConfigBornBySelf::ConfigBornBySelf(data::ConfigBornBySelf *co
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3450,7 +3450,7 @@ void __cdecl data::ConfigBornBySelf::ConfigBornBySelf(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -3469,7 +3469,7 @@ void __cdecl data::ConfigBornBySelf::~ConfigBornBySelf(data::ConfigBornBySelf *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelf + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelf + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3536,7 +3536,7 @@ void __cdecl data::ConfigBornBySelfFactory::ConfigBornBySelfFactory(data::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelfFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelfFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornBySelfFactory = v2;
@@ -3549,7 +3549,7 @@ void __cdecl data::ConfigBornBySelfOwner::ConfigBornBySelfOwner(data::ConfigBorn
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelfOwner + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelfOwner + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3563,7 +3563,7 @@ void __cdecl data::ConfigBornBySelfOwner::ConfigBornBySelfOwner(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelfOwner + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelfOwner + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -3575,7 +3575,7 @@ void __cdecl data::ConfigBornBySelfOwner::~ConfigBornBySelfOwner(data::ConfigBor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelfOwner + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelfOwner + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3650,7 +3650,7 @@ void __cdecl data::ConfigBornBySelfOwnerFactory::ConfigBornBySelfOwnerFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelfOwnerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelfOwnerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornBySelfOwnerFactory = v2;
@@ -3663,7 +3663,7 @@ void __cdecl data::ConfigBornByAttachPoint::ConfigBornByAttachPoint(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3687,7 +3687,7 @@ void __cdecl data::ConfigBornByAttachPoint::ConfigBornByAttachPoint(
   char v5; // al
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -3714,7 +3714,7 @@ void __cdecl data::ConfigBornByAttachPoint::~ConfigBornByAttachPoint(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByAttachPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByAttachPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3790,7 +3790,7 @@ void __cdecl data::ConfigBornByAttachPointFactory::ConfigBornByAttachPointFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByAttachPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByAttachPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByAttachPointFactory = v2;
@@ -3805,7 +3805,7 @@ void __cdecl data::ConfigBornByStormLightning::ConfigBornByStormLightning(data::
   __int64 v4; // rsi
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByStormLightning + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByStormLightning + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3851,7 +3851,7 @@ void __cdecl data::ConfigBornByStormLightning::ConfigBornByStormLightning(
   float lightning_hit_or_not_ratio; // xmm0_4
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByStormLightning + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByStormLightning + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -3922,7 +3922,7 @@ void __cdecl data::ConfigBornByStormLightning::~ConfigBornByStormLightning(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByStormLightning + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByStormLightning + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -3990,7 +3990,7 @@ void __cdecl data::ConfigBornByStormLightningFactory::ConfigBornByStormLightning
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByStormLightningFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByStormLightningFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByStormLightningFactory = v2;
@@ -4003,7 +4003,7 @@ void __cdecl data::ConfigBornByWorld::ConfigBornByWorld(data::ConfigBornByWorld 
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4021,7 +4021,7 @@ void __cdecl data::ConfigBornByWorld::ConfigBornByWorld(
   __int64 v4; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4078,7 +4078,7 @@ void __cdecl data::ConfigBornByWorld::~ConfigBornByWorld(data::ConfigBornByWorld
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByWorld + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByWorld + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4145,7 +4145,7 @@ void __cdecl data::ConfigBornByWorldFactory::ConfigBornByWorldFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByWorldFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByWorldFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByWorldFactory = v2;
@@ -4158,7 +4158,7 @@ void __cdecl data::ConfigBornByGlobalValue::ConfigBornByGlobalValue(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4180,7 +4180,7 @@ void __cdecl data::ConfigBornByGlobalValue::ConfigBornByGlobalValue(
   char v5; // al
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4212,7 +4212,7 @@ void __cdecl data::ConfigBornByGlobalValue::~ConfigBornByGlobalValue(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByGlobalValue + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByGlobalValue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4282,7 +4282,7 @@ void __cdecl data::ConfigBornByGlobalValueFactory::ConfigBornByGlobalValueFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByGlobalValueFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByGlobalValueFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByGlobalValueFactory = v2;
@@ -4297,7 +4297,7 @@ void __cdecl data::ConfigBornByCollisionPoint::ConfigBornByCollisionPoint(data::
   __int64 v4; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4321,7 +4321,7 @@ void __cdecl data::ConfigBornByCollisionPoint::ConfigBornByCollisionPoint(
   __int64 v7; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4353,7 +4353,7 @@ void __cdecl data::ConfigBornByCollisionPoint::~ConfigBornByCollisionPoint(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4421,7 +4421,7 @@ void __cdecl data::ConfigBornByCollisionPointFactory::ConfigBornByCollisionPoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByCollisionPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByCollisionPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByCollisionPointFactory = v2;
@@ -4437,7 +4437,7 @@ void __cdecl data::ConfigBornByTargetCollisionPoint::ConfigBornByTargetCollision
   __int64 v4; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4461,7 +4461,7 @@ void __cdecl data::ConfigBornByTargetCollisionPoint::ConfigBornByTargetCollision
   __int64 v7; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4493,7 +4493,7 @@ void __cdecl data::ConfigBornByTargetCollisionPoint::~ConfigBornByTargetCollisio
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetCollisionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetCollisionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4563,7 +4563,7 @@ void __cdecl data::ConfigBornByTargetCollisionPointFactory::ConfigBornByTargetCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetCollisionPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetCollisionPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByTargetCollisionPointFactory = v2;
@@ -4576,7 +4576,7 @@ void __cdecl data::ConfigBornByRushToPoint::ConfigBornByRushToPoint(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByRushToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByRushToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4590,7 +4590,7 @@ void __cdecl data::ConfigBornByRushToPoint::ConfigBornByRushToPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByRushToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByRushToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4609,7 +4609,7 @@ void __cdecl data::ConfigBornByRushToPoint::~ConfigBornByRushToPoint(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByRushToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByRushToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4677,7 +4677,7 @@ void __cdecl data::ConfigBornByRushToPointFactory::ConfigBornByRushToPointFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByRushToPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByRushToPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByRushToPointFactory = v2;
@@ -4691,7 +4691,7 @@ void __cdecl data::ConfigBornByTeleportToPoint::ConfigBornByTeleportToPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTeleportToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTeleportToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4705,7 +4705,7 @@ void __cdecl data::ConfigBornByTeleportToPoint::ConfigBornByTeleportToPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTeleportToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTeleportToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4726,7 +4726,7 @@ void __cdecl data::ConfigBornByTeleportToPoint::~ConfigBornByTeleportToPoint(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTeleportToPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTeleportToPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4794,7 +4794,7 @@ void __cdecl data::ConfigBornByTeleportToPointFactory::ConfigBornByTeleportToPoi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTeleportToPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTeleportToPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByTeleportToPointFactory = v2;
@@ -4807,7 +4807,7 @@ void __cdecl data::ConfigBornByPredicatePoint::ConfigBornByPredicatePoint(data::
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByPredicatePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByPredicatePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4829,7 +4829,7 @@ void __cdecl data::ConfigBornByPredicatePoint::ConfigBornByPredicatePoint(
   float time_for_predictive; // xmm0_4
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByPredicatePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByPredicatePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4863,7 +4863,7 @@ void __cdecl data::ConfigBornByPredicatePoint::~ConfigBornByPredicatePoint(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByPredicatePoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByPredicatePoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4931,7 +4931,7 @@ void __cdecl data::ConfigBornByPredicatePointFactory::ConfigBornByPredicatePoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByPredicatePointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByPredicatePointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByPredicatePointFactory = v2;
@@ -4944,7 +4944,7 @@ void __cdecl data::ConfigBornByHitPoint::ConfigBornByHitPoint(data::ConfigBornBy
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByHitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByHitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -4958,7 +4958,7 @@ void __cdecl data::ConfigBornByHitPoint::ConfigBornByHitPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByHitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByHitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -4970,7 +4970,7 @@ void __cdecl data::ConfigBornByHitPoint::~ConfigBornByHitPoint(data::ConfigBornB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByHitPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByHitPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -5045,7 +5045,7 @@ void __cdecl data::ConfigBornByHitPointFactory::ConfigBornByHitPointFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByHitPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByHitPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByHitPointFactory = v2;
@@ -5058,7 +5058,7 @@ void __cdecl data::ConfigBornByElementPos::ConfigBornByElementPos(data::ConfigBo
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByElementPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByElementPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -5072,7 +5072,7 @@ void __cdecl data::ConfigBornByElementPos::ConfigBornByElementPos(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByElementPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByElementPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -5091,7 +5091,7 @@ void __cdecl data::ConfigBornByElementPos::~ConfigBornByElementPos(data::ConfigB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByElementPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByElementPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -5159,7 +5159,7 @@ void __cdecl data::ConfigBornByElementPosFactory::ConfigBornByElementPosFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByElementPosFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByElementPosFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByElementPosFactory = v2;
@@ -5172,7 +5172,7 @@ void __cdecl data::ConfigBornBySelectedPoint::ConfigBornBySelectedPoint(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelectedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelectedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -5186,7 +5186,7 @@ void __cdecl data::ConfigBornBySelectedPoint::ConfigBornBySelectedPoint(
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelectedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelectedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -5205,7 +5205,7 @@ void __cdecl data::ConfigBornBySelectedPoint::~ConfigBornBySelectedPoint(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelectedPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelectedPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -5273,7 +5273,7 @@ void __cdecl data::ConfigBornBySelectedPointFactory::ConfigBornBySelectedPointFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornBySelectedPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornBySelectedPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornBySelectedPointFactory = v2;
@@ -5287,7 +5287,7 @@ void __cdecl data::ConfigActionPointSelectType::ConfigActionPointSelectType(
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigActionPointSelectType>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigActionPointSelectType>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActionPointSelectType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActionPointSelectType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5310,7 +5310,7 @@ void __cdecl data::ConfigActionPointSelectType::ConfigActionPointSelectType(
   std::enable_shared_from_this<data::ConfigActionPointSelectType>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigActionPointSelectType>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigActionPointSelectType + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigActionPointSelectType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigActionPointSelectType = v3;
@@ -5333,7 +5333,7 @@ void __cdecl data::ConfigActionPointSelectType::~ConfigActionPointSelectType(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigActionPointSelectType + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigActionPointSelectType + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5409,7 +5409,7 @@ void __cdecl data::SelectActionPointByID::SelectActionPointByID(data::SelectActi
   int (**v2)(...); // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType((data::ConfigActionPointSelectType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByID + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5434,7 +5434,7 @@ void __cdecl data::SelectActionPointByID::SelectActionPointByID(
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(
     (data::ConfigActionPointSelectType *const)this,
     (const data::ConfigActionPointSelectType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByID + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5460,7 +5460,7 @@ void __cdecl data::SelectActionPointByID::~SelectActionPointByID(data::SelectAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByID + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByID + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5535,7 +5535,7 @@ void __cdecl data::SelectActionPointByIDFactory::SelectActionPointByIDFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByIDFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByIDFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointByIDFactory = v2;
@@ -5548,7 +5548,7 @@ void __cdecl data::SelectActionPointBySelfPos::SelectActionPointBySelfPos(data::
   int (**v2)(...); // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType((data::ConfigActionPointSelectType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointBySelfPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointBySelfPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5571,7 +5571,7 @@ void __cdecl data::SelectActionPointBySelfPos::SelectActionPointBySelfPos(
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(
     (data::ConfigActionPointSelectType *const)this,
     (const data::ConfigActionPointSelectType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointBySelfPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointBySelfPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5604,7 +5604,7 @@ void __cdecl data::SelectActionPointBySelfPos::~SelectActionPointBySelfPos(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointBySelfPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointBySelfPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5672,7 +5672,7 @@ void __cdecl data::SelectActionPointBySelfPosFactory::SelectActionPointBySelfPos
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointBySelfPosFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointBySelfPosFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointBySelfPosFactory = v2;
@@ -5686,7 +5686,7 @@ void __cdecl data::SelectActionPointByTargetPos::SelectActionPointByTargetPos(
   int (**v2)(...); // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType((data::ConfigActionPointSelectType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5709,7 +5709,7 @@ void __cdecl data::SelectActionPointByTargetPos::SelectActionPointByTargetPos(
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(
     (data::ConfigActionPointSelectType *const)this,
     (const data::ConfigActionPointSelectType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5742,7 +5742,7 @@ void __cdecl data::SelectActionPointByTargetPos::~SelectActionPointByTargetPos(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5811,7 +5811,7 @@ void __cdecl data::SelectActionPointByTargetPosFactory::SelectActionPointByTarge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetPosFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetPosFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointByTargetPosFactory = v2;
@@ -5825,7 +5825,7 @@ void __cdecl data::SelectActionPointByAwayFromAvatar::SelectActionPointByAwayFro
   int (**v2)(...); // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType((data::ConfigActionPointSelectType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAwayFromAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAwayFromAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5848,7 +5848,7 @@ void __cdecl data::SelectActionPointByAwayFromAvatar::SelectActionPointByAwayFro
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(
     (data::ConfigActionPointSelectType *const)this,
     (const data::ConfigActionPointSelectType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAwayFromAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAwayFromAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5873,7 +5873,7 @@ void __cdecl data::SelectActionPointByAwayFromAvatar::~SelectActionPointByAwayFr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAwayFromAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAwayFromAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5951,7 +5951,7 @@ void __cdecl data::SelectActionPointByAwayFromAvatarFactory::SelectActionPointBy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAwayFromAvatarFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAwayFromAvatarFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointByAwayFromAvatarFactory = v2;
@@ -5967,7 +5967,7 @@ void __cdecl data::SelectActionPointByTargetOrientation::SelectActionPointByTarg
   __int64 v4; // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -5999,7 +5999,7 @@ void __cdecl data::SelectActionPointByTargetOrientation::SelectActionPointByTarg
   __int64 v8; // rdx
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -6036,7 +6036,7 @@ void __cdecl data::SelectActionPointByTargetOrientation::~SelectActionPointByTar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -6115,7 +6115,7 @@ void __cdecl data::SelectActionPointByTargetOrientationFactory::SelectActionPoin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByTargetOrientationFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByTargetOrientationFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointByTargetOrientationFactory = v2;
@@ -6130,7 +6130,7 @@ void __cdecl data::SelectActionPointByAllAvatarsOrientation::SelectActionPointBy
   __int64 v3; // rsi
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(this);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAllAvatarsOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAllAvatarsOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -6166,7 +6166,7 @@ void __cdecl data::SelectActionPointByAllAvatarsOrientation::SelectActionPointBy
   char v7; // al
 
   data::ConfigActionPointSelectType::ConfigActionPointSelectType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAllAvatarsOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAllAvatarsOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -6215,7 +6215,7 @@ void __cdecl data::SelectActionPointByAllAvatarsOrientation::~SelectActionPointB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAllAvatarsOrientation + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAllAvatarsOrientation + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigActionPointSelectType = v2;
@@ -6294,7 +6294,7 @@ void __cdecl data::SelectActionPointByAllAvatarsOrientationFactory::SelectAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SelectActionPointByAllAvatarsOrientationFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::SelectActionPointByAllAvatarsOrientationFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SelectActionPointByAllAvatarsOrientationFactory = v2;
@@ -6307,7 +6307,7 @@ void __cdecl data::ConfigBornByActionPoint::ConfigBornByActionPoint(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByActionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByActionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6333,7 +6333,7 @@ void __cdecl data::ConfigBornByActionPoint::ConfigBornByActionPoint(
   char v5; // dl
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByActionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByActionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -6360,7 +6360,7 @@ void __cdecl data::ConfigBornByActionPoint::~ConfigBornByActionPoint(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByActionPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByActionPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6436,7 +6436,7 @@ void __cdecl data::ConfigBornByActionPointFactory::ConfigBornByActionPointFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByActionPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByActionPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByActionPointFactory = v2;
@@ -6452,7 +6452,7 @@ void __cdecl data::ConfigBornByTargetLinearPoint::ConfigBornByTargetLinearPoint(
   __int64 v4; // rdx
 
   data::ConfigBornType::ConfigBornType(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetLinearPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetLinearPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6485,7 +6485,7 @@ void __cdecl data::ConfigBornByTargetLinearPoint::ConfigBornByTargetLinearPoint(
   __int64 v10; // rdx
 
   data::ConfigBornType::ConfigBornType(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetLinearPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetLinearPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -6523,7 +6523,7 @@ void __cdecl data::ConfigBornByTargetLinearPoint::~ConfigBornByTargetLinearPoint
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetLinearPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetLinearPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6603,7 +6603,7 @@ void __cdecl data::ConfigBornByTargetLinearPointFactory::ConfigBornByTargetLinea
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByTargetLinearPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByTargetLinearPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByTargetLinearPointFactory = v2;
@@ -6619,7 +6619,7 @@ void __cdecl data::ConfigBornByFollowEffectOverPos::ConfigBornByFollowEffectOver
   __int64 v4; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByFollowEffectOverPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByFollowEffectOverPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6643,7 +6643,7 @@ void __cdecl data::ConfigBornByFollowEffectOverPos::ConfigBornByFollowEffectOver
   __int64 v7; // rdx
 
   data::ConfigBornType::ConfigBornType((data::ConfigBornType *const)this, (const data::ConfigBornType *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByFollowEffectOverPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByFollowEffectOverPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBornType = v2;
@@ -6667,7 +6667,7 @@ void __cdecl data::ConfigBornByFollowEffectOverPos::~ConfigBornByFollowEffectOve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByFollowEffectOverPos + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByFollowEffectOverPos + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornType = v2;
@@ -6745,7 +6745,7 @@ void __cdecl data::ConfigBornByFollowEffectOverPosFactory::ConfigBornByFollowEff
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBornByFollowEffectOverPosFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBornByFollowEffectOverPosFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBornByFollowEffectOverPosFactory = v2;

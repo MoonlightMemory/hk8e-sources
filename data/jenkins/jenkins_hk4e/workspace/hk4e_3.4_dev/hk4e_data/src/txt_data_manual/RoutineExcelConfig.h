@@ -6,7 +6,7 @@ void __cdecl RoutineExcelConfigMgr::RoutineExcelConfigMgr(RoutineExcelConfigMgr 
   int (**v1)(...); // rdx
 
   data::RoutineExcelConfigMgrBase::RoutineExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'RoutineExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RoutineExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RoutineExcelConfigMgrBase = v1;
@@ -21,7 +21,7 @@ void __cdecl RoutineExcelConfigMgr::~RoutineExcelConfigMgr(RoutineExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RoutineExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for RoutineExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_RoutineExcelConfigMgrBase = v1;

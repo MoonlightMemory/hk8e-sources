@@ -6,7 +6,7 @@ void __cdecl data::RogueDiaryRoundExcelConfig::RogueDiaryRoundExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoundExcelConfig = v2;
@@ -39,7 +39,7 @@ void __cdecl data::RogueDiaryRoundExcelConfig::RogueDiaryRoundExcelConfig(
   const data::RogueDiaryRoundExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryRoundExcelConfig = v2;
@@ -80,7 +80,7 @@ void __cdecl data::RogueDiaryRoundExcelConfig::~RogueDiaryRoundExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoundExcelConfig = v2;
@@ -103,7 +103,7 @@ void __cdecl data::RogueDiaryStageExcelConfig::RogueDiaryStageExcelConfig(data::
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryStageExcelConfig = v2;
@@ -184,7 +184,7 @@ void __cdecl data::RogueDiaryStageExcelConfig::RogueDiaryStageExcelConfig(
   const data::RogueDiaryStageExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryStageExcelConfig = v2;
@@ -304,7 +304,7 @@ void __cdecl data::RogueDiaryStageExcelConfig::~RogueDiaryStageExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryStageExcelConfig = v2;
@@ -321,7 +321,7 @@ void __cdecl data::RogueDiaryDungeonExcelConfig::RogueDiaryDungeonExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryDungeonExcelConfig = v2;
@@ -346,7 +346,7 @@ void __cdecl data::RogueDiaryDungeonExcelConfig::RogueDiaryDungeonExcelConfig(
   const data::RogueDiaryDungeonExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryDungeonExcelConfig = v2;
@@ -382,7 +382,7 @@ void __cdecl data::RogueDiaryDungeonExcelConfig::~RogueDiaryDungeonExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryDungeonExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryDungeonExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryDungeonExcelConfig = v2;
@@ -396,7 +396,7 @@ void __cdecl data::RogueDiaryRoomTypeConfig::RogueDiaryRoomTypeConfig(data::Rogu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoomTypeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoomTypeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoomTypeConfig = v2;
@@ -411,7 +411,7 @@ void __cdecl data::RogueDiaryRoomTypeConfig::RogueDiaryRoomTypeConfig(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoomTypeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoomTypeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryRoomTypeConfig = v2;
@@ -432,7 +432,7 @@ void __cdecl data::RogueDiaryRoomTypeConfig::~RogueDiaryRoomTypeConfig(data::Rog
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoomTypeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoomTypeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoomTypeConfig = v2;
@@ -447,7 +447,7 @@ void __cdecl data::RogueDiaryRoundRoomExcelConfig::RogueDiaryRoundRoomExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundRoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundRoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoundRoomExcelConfig = v2;
@@ -480,7 +480,7 @@ void __cdecl data::RogueDiaryRoundRoomExcelConfig::RogueDiaryRoundRoomExcelConfi
   const data::RogueDiaryRoundRoomExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundRoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundRoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryRoundRoomExcelConfig = v2;
@@ -529,7 +529,7 @@ void __cdecl data::RogueDiaryRoundRoomExcelConfig::~RogueDiaryRoundRoomExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoundRoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoundRoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoundRoomExcelConfig = v2;
@@ -562,7 +562,7 @@ void __cdecl data::RogueDiaryRoomExcelConfig::RogueDiaryRoomExcelConfig(
   const data::RogueDiaryRoomExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryRoomExcelConfig = v2;
@@ -670,7 +670,7 @@ void __cdecl data::RogueDiaryRoomExcelConfig::~RogueDiaryRoomExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryRoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryRoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryRoomExcelConfig = v2;
@@ -684,7 +684,7 @@ void __cdecl data::RogueDiaryBuffDataExcelConfig::RogueDiaryBuffDataExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryBuffDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryBuffDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryBuffDataExcelConfig = v2;
@@ -726,7 +726,7 @@ void __cdecl data::RogueDiaryBuffDataExcelConfig::RogueDiaryBuffDataExcelConfig(
   const data::RogueDiaryBuffDataExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryBuffDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryBuffDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryBuffDataExcelConfig = v2;
@@ -788,7 +788,7 @@ void __cdecl data::RogueDiaryBuffDataExcelConfig::~RogueDiaryBuffDataExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryBuffDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryBuffDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryBuffDataExcelConfig = v2;
@@ -814,7 +814,7 @@ void __cdecl data::RogueDiaryCardWeightExcelConfig::RogueDiaryCardWeightExcelCon
   const data::RogueDiaryCardWeightExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryCardWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryCardWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryCardWeightExcelConfig = v2;
@@ -881,7 +881,7 @@ void __cdecl data::RogueDiaryCardWeightExcelConfig::~RogueDiaryCardWeightExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryCardWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryCardWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryCardWeightExcelConfig = v2;
@@ -916,7 +916,7 @@ void __cdecl data::RogueDiaryCardDepotExcelConfig::RogueDiaryCardDepotExcelConfi
   const data::RogueDiaryCardDepotExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryCardDepotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryCardDepotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryCardDepotExcelConfig = v2;
@@ -996,7 +996,7 @@ void __cdecl data::RogueDiaryCardDepotExcelConfig::~RogueDiaryCardDepotExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryCardDepotExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryCardDepotExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryCardDepotExcelConfig = v2;
@@ -1026,7 +1026,7 @@ void __cdecl data::RogueDiaryPreviewExcelConfig::RogueDiaryPreviewExcelConfig(
   const data::RogueDiaryPreviewExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryPreviewExcelConfig = v2;
@@ -1087,7 +1087,7 @@ void __cdecl data::RogueDiaryPreviewExcelConfig::~RogueDiaryPreviewExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryPreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryPreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryPreviewExcelConfig = v2;
@@ -1109,7 +1109,7 @@ void __cdecl data::RogueDiaryResourceExcelConfig::RogueDiaryResourceExcelConfig(
   const data::RogueDiaryResourceExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryResourceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryResourceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryResourceExcelConfig = v2;
@@ -1162,7 +1162,7 @@ void __cdecl data::RogueDiaryResourceExcelConfig::~RogueDiaryResourceExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryResourceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryResourceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryResourceExcelConfig = v2;
@@ -1190,7 +1190,7 @@ void __cdecl data::RogueDiaryPortalExcelConfig::RogueDiaryPortalExcelConfig(
   const data::RogueDiaryPortalExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryPortalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryPortalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDiaryPortalExcelConfig = v2;
@@ -1230,7 +1230,7 @@ void __cdecl data::RogueDiaryPortalExcelConfig::~RogueDiaryPortalExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDiaryPortalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDiaryPortalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDiaryPortalExcelConfig = v2;

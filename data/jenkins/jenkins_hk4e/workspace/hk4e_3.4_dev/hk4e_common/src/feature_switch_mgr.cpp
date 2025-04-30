@@ -24,7 +24,7 @@ void __fastcall ZN6FriendCI210BaseSwitchEj(Friend *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Friend + 2);
+  v5 = (int (**)(...))(&`vtable for Friend + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -51,7 +51,7 @@ void __cdecl Friend::~Friend(Friend *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Friend + 2);
+  v1 = (int (**)(...))(&`vtable for Friend + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -82,7 +82,7 @@ void __fastcall ZN12AskAddFriendCI210BaseSwitchEj(AskAddFriend *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'AskAddFriend + 2);
+  v5 = (int (**)(...))(&`vtable for AskAddFriend + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -109,7 +109,7 @@ void __cdecl AskAddFriend::~AskAddFriend(AskAddFriend *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AskAddFriend + 2);
+  v1 = (int (**)(...))(&`vtable for AskAddFriend + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -346,7 +346,7 @@ void __fastcall ZN10TowerFloorCI210BaseSwitchEj(TowerFloor *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'TowerFloor + 2);
+  v5 = (int (**)(...))(&`vtable for TowerFloor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -378,7 +378,7 @@ void __cdecl TowerFloor::~TowerFloor(TowerFloor *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'TowerFloor + 2);
+  v1 = (int (**)(...))(&`vtable for TowerFloor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -416,7 +416,7 @@ void __fastcall ZN2MpCI210BaseSwitchEj(Mp *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Mp + 2);
+  v5 = (int (**)(...))(&`vtable for Mp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -436,7 +436,7 @@ void __cdecl Mp::~Mp(Mp *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Mp + 2);
+  v1 = (int (**)(...))(&`vtable for Mp + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -474,7 +474,7 @@ void __fastcall ZN7BlossomCI210BaseSwitchEj(Blossom *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Blossom + 2);
+  v5 = (int (**)(...))(&`vtable for Blossom + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -494,7 +494,7 @@ void __cdecl Blossom::~Blossom(Blossom *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Blossom + 2);
+  v1 = (int (**)(...))(&`vtable for Blossom + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -703,7 +703,7 @@ void __fastcall ZN7DungeonCI210BaseSwitchEj(Dungeon *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Dungeon + 2);
+  v5 = (int (**)(...))(&`vtable for Dungeon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -729,7 +729,7 @@ void __cdecl Dungeon::~Dungeon(Dungeon *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Dungeon + 2);
+  v1 = (int (**)(...))(&`vtable for Dungeon + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -767,7 +767,7 @@ void __fastcall ZN19CustomDungeonSwitchCI210BaseSwitchEj(CustomDungeonSwitch *co
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'CustomDungeonSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for CustomDungeonSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -794,7 +794,7 @@ void __cdecl CustomDungeonSwitch::~CustomDungeonSwitch(CustomDungeonSwitch *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CustomDungeonSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for CustomDungeonSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -996,7 +996,7 @@ void __fastcall ZN15CustomDungeonIdCI210BaseSwitchEj(CustomDungeonId *const this
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'CustomDungeonId + 2);
+  v5 = (int (**)(...))(&`vtable for CustomDungeonId + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1022,7 +1022,7 @@ void __cdecl CustomDungeonId::~CustomDungeonId(CustomDungeonId *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CustomDungeonId + 2);
+  v1 = (int (**)(...))(&`vtable for CustomDungeonId + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1060,7 +1060,7 @@ void __fastcall ZN10BattlePassCI210BaseSwitchEj(BattlePass *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'BattlePass + 2);
+  v5 = (int (**)(...))(&`vtable for BattlePass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1087,7 +1087,7 @@ void __cdecl BattlePass::~BattlePass(BattlePass *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BattlePass + 2);
+  v1 = (int (**)(...))(&`vtable for BattlePass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1118,7 +1118,7 @@ void __fastcall ZN12PushPlatformCI210BaseSwitchEj(PushPlatform *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'PushPlatform + 2);
+  v5 = (int (**)(...))(&`vtable for PushPlatform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1145,7 +1145,7 @@ void __cdecl PushPlatform::~PushPlatform(PushPlatform *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'PushPlatform + 2);
+  v1 = (int (**)(...))(&`vtable for PushPlatform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1347,7 +1347,7 @@ void __fastcall ZN8RechargeCI210BaseSwitchEj(Recharge *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Recharge + 2);
+  v5 = (int (**)(...))(&`vtable for Recharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1380,7 +1380,7 @@ void __cdecl Recharge::~Recharge(Recharge *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Recharge + 2);
+  v1 = (int (**)(...))(&`vtable for Recharge + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1411,7 +1411,7 @@ void __fastcall ZN20ChangeGameTimeSwitchCI210BaseSwitchEj(ChangeGameTimeSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ChangeGameTimeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ChangeGameTimeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1431,7 +1431,7 @@ void __cdecl ChangeGameTimeSwitch::~ChangeGameTimeSwitch(ChangeGameTimeSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ChangeGameTimeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ChangeGameTimeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1675,7 +1675,7 @@ void __fastcall ZN4ShopCI210BaseSwitchEj(Shop *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'Shop + 2);
+  v5 = (int (**)(...))(&`vtable for Shop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1707,7 +1707,7 @@ void __cdecl Shop::~Shop(Shop *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'Shop + 2);
+  v1 = (int (**)(...))(&`vtable for Shop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -1916,7 +1916,7 @@ void __fastcall ZN9DailyTaskCI210BaseSwitchEj(DailyTask *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'DailyTask + 2);
+  v5 = (int (**)(...))(&`vtable for DailyTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -1949,7 +1949,7 @@ void __cdecl DailyTask::~DailyTask(DailyTask *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DailyTask + 2);
+  v1 = (int (**)(...))(&`vtable for DailyTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -2151,7 +2151,7 @@ void __fastcall ZN8RandTaskCI210BaseSwitchEj(RandTask *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'RandTask + 2);
+  v5 = (int (**)(...))(&`vtable for RandTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -2184,7 +2184,7 @@ void __cdecl RandTask::~RandTask(RandTask *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RandTask + 2);
+  v1 = (int (**)(...))(&`vtable for RandTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -2386,7 +2386,7 @@ void __fastcall ZN11ForgeSwitchCI210BaseSwitchEj(ForgeSwitch *const this, int a2
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ForgeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ForgeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -2412,7 +2412,7 @@ void __cdecl ForgeSwitch::~ForgeSwitch(ForgeSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ForgeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ForgeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -2621,7 +2621,7 @@ void __fastcall ZN10CookSwitchCI210BaseSwitchEj(CookSwitch *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'CookSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for CookSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -2654,7 +2654,7 @@ void __cdecl CookSwitch::~CookSwitch(CookSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CookSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for CookSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -2856,7 +2856,7 @@ void __fastcall ZN13CombineSwitchCI210BaseSwitchEj(CombineSwitch *const this, in
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'CombineSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for CombineSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -2882,7 +2882,7 @@ void __cdecl CombineSwitch::~CombineSwitch(CombineSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CombineSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for CombineSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -3091,7 +3091,7 @@ void __fastcall ZN12WeaponSwitchCI210BaseSwitchEj(WeaponSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'WeaponSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for WeaponSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -3124,7 +3124,7 @@ void __cdecl WeaponSwitch::~WeaponSwitch(WeaponSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'WeaponSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for WeaponSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -3326,7 +3326,7 @@ void __fastcall ZN15ReliquarySwitchCI210BaseSwitchEj(ReliquarySwitch *const this
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ReliquarySwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ReliquarySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -3352,7 +3352,7 @@ void __cdecl ReliquarySwitch::~ReliquarySwitch(ReliquarySwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReliquarySwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ReliquarySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -3561,7 +3561,7 @@ void __fastcall ZN10ItemSwitchCI210BaseSwitchEj(ItemSwitch *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ItemSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ItemSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -3594,7 +3594,7 @@ void __cdecl ItemSwitch::~ItemSwitch(ItemSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ItemSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ItemSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -3796,7 +3796,7 @@ void __fastcall ZN12AvatarSwitchCI210BaseSwitchEj(AvatarSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'AvatarSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for AvatarSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -3829,7 +3829,7 @@ void __cdecl AvatarSwitch::~AvatarSwitch(AvatarSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AvatarSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for AvatarSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4069,7 +4069,7 @@ void __fastcall ZN20CityReputationSwitchCI210BaseSwitchEj(CityReputationSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'CityReputationSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for CityReputationSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4108,7 +4108,7 @@ void __cdecl CityReputationSwitch::~CityReputationSwitch(CityReputationSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CityReputationSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for CityReputationSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4310,7 +4310,7 @@ void __fastcall ZN12MpPlaySwitchCI210BaseSwitchEj(MpPlaySwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MpPlaySwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MpPlaySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4336,7 +4336,7 @@ void __cdecl MpPlaySwitch::~MpPlaySwitch(MpPlaySwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MpPlaySwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MpPlaySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4374,7 +4374,7 @@ void __fastcall ZN16SightGroupSwitchCI210BaseSwitchEj(SightGroupSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'SightGroupSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for SightGroupSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4401,7 +4401,7 @@ void __cdecl SightGroupSwitch::~SightGroupSwitch(SightGroupSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SightGroupSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for SightGroupSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4432,7 +4432,7 @@ void __fastcall ZN20NotifyEyePointSwitchCI210BaseSwitchEj(NotifyEyePointSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'NotifyEyePointSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for NotifyEyePointSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4459,7 +4459,7 @@ void __cdecl NotifyEyePointSwitch::~NotifyEyePointSwitch(NotifyEyePointSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NotifyEyePointSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for NotifyEyePointSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4490,7 +4490,7 @@ void __fastcall ZN19EyePointAsEyeSwitchCI210BaseSwitchEj(EyePointAsEyeSwitch *co
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'EyePointAsEyeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for EyePointAsEyeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4510,7 +4510,7 @@ void __cdecl EyePointAsEyeSwitch::~EyePointAsEyeSwitch(EyePointAsEyeSwitch *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EyePointAsEyeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for EyePointAsEyeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4548,7 +4548,7 @@ void __fastcall ZN21GroupVisionTypeSwitchCI210BaseSwitchEj(GroupVisionTypeSwitch
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GroupVisionTypeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GroupVisionTypeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4575,7 +4575,7 @@ void __cdecl GroupVisionTypeSwitch::~GroupVisionTypeSwitch(GroupVisionTypeSwitch
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GroupVisionTypeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GroupVisionTypeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -4777,7 +4777,7 @@ void __fastcall ZN14OfferingSwitchCI210BaseSwitchEj(OfferingSwitch *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'OfferingSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for OfferingSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -4810,7 +4810,7 @@ void __cdecl OfferingSwitch::~OfferingSwitch(OfferingSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'OfferingSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for OfferingSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5012,7 +5012,7 @@ void __fastcall ZN13RoutineSwitchCI210BaseSwitchEj(RoutineSwitch *const this, in
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'RoutineSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for RoutineSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5038,7 +5038,7 @@ void __cdecl RoutineSwitch::~RoutineSwitch(RoutineSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RoutineSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for RoutineSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5247,7 +5247,7 @@ void __fastcall ZN18ActivitySaleSwitchCI210BaseSwitchEj(ActivitySaleSwitch *cons
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ActivitySaleSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ActivitySaleSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5280,7 +5280,7 @@ void __cdecl ActivitySaleSwitch::~ActivitySaleSwitch(ActivitySaleSwitch *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivitySaleSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ActivitySaleSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5311,7 +5311,7 @@ void __fastcall ZN16MechanicusSwitchCI210BaseSwitchEj(MechanicusSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MechanicusSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MechanicusSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5338,7 +5338,7 @@ void __cdecl MechanicusSwitch::~MechanicusSwitch(MechanicusSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MechanicusSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MechanicusSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5369,7 +5369,7 @@ void __fastcall ZN22MechanicusPunishSwitchCI210BaseSwitchEj(MechanicusPunishSwit
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MechanicusPunishSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MechanicusPunishSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5396,7 +5396,7 @@ void __cdecl MechanicusPunishSwitch::~MechanicusPunishSwitch(MechanicusPunishSwi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MechanicusPunishSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MechanicusPunishSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5427,7 +5427,7 @@ void __fastcall ZN22WorldLevelAdjustSwitchCI210BaseSwitchEj(WorldLevelAdjustSwit
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'WorldLevelAdjustSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for WorldLevelAdjustSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5447,7 +5447,7 @@ void __cdecl WorldLevelAdjustSwitch::~WorldLevelAdjustSwitch(WorldLevelAdjustSwi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'WorldLevelAdjustSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for WorldLevelAdjustSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5485,7 +5485,7 @@ void __fastcall ZN20EnterHomeWorldSwitchCI210BaseSwitchEj(EnterHomeWorldSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'EnterHomeWorldSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for EnterHomeWorldSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5512,7 +5512,7 @@ void __cdecl EnterHomeWorldSwitch::~EnterHomeWorldSwitch(EnterHomeWorldSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EnterHomeWorldSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for EnterHomeWorldSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5543,7 +5543,7 @@ void __fastcall ZN12HomeMpSwitchCI210BaseSwitchEj(HomeMpSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeMpSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeMpSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5570,7 +5570,7 @@ void __cdecl HomeMpSwitch::~HomeMpSwitch(HomeMpSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeMpSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeMpSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5601,7 +5601,7 @@ void __fastcall ZN18HomeEditModeSwitchCI210BaseSwitchEj(HomeEditModeSwitch *cons
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeEditModeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeEditModeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5628,7 +5628,7 @@ void __cdecl HomeEditModeSwitch::~HomeEditModeSwitch(HomeEditModeSwitch *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeEditModeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeEditModeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -5831,7 +5831,7 @@ void __fastcall ZN16HomeModuleSwitchCI210BaseSwitchEj(HomeModuleSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeModuleSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeModuleSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -5864,7 +5864,7 @@ void __cdecl HomeModuleSwitch::~HomeModuleSwitch(HomeModuleSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeModuleSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeModuleSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6068,7 +6068,7 @@ void __fastcall ZN23HomeFurnitureMakeSwitchCI210BaseSwitchEj(HomeFurnitureMakeSw
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeFurnitureMakeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeFurnitureMakeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6094,7 +6094,7 @@ void __cdecl HomeFurnitureMakeSwitch::~HomeFurnitureMakeSwitch(HomeFurnitureMake
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeFurnitureMakeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeFurnitureMakeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6303,7 +6303,7 @@ void __fastcall ZN15HomeLimitedShopCI210BaseSwitchEj(HomeLimitedShop *const this
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeLimitedShop + 2);
+  v5 = (int (**)(...))(&`vtable for HomeLimitedShop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6329,7 +6329,7 @@ void __cdecl HomeLimitedShop::~HomeLimitedShop(HomeLimitedShop *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeLimitedShop + 2);
+  v1 = (int (**)(...))(&`vtable for HomeLimitedShop + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6538,7 +6538,7 @@ void __fastcall ZN20GadgetInteractSwitchCI210BaseSwitchEj(GadgetInteractSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GadgetInteractSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GadgetInteractSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6564,7 +6564,7 @@ void __cdecl GadgetInteractSwitch::~GadgetInteractSwitch(GadgetInteractSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GadgetInteractSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GadgetInteractSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6602,7 +6602,7 @@ void __fastcall ZN17ReunionMarkSwitchCI210BaseSwitchEj(ReunionMarkSwitch *const 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ReunionMarkSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ReunionMarkSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6622,7 +6622,7 @@ void __cdecl ReunionMarkSwitch::~ReunionMarkSwitch(ReunionMarkSwitch *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReunionMarkSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ReunionMarkSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6835,7 +6835,7 @@ void __fastcall ZN25RandomQuestTemplateSwitchCI210BaseSwitchEj(RandomQuestTempla
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'RandomQuestTemplateSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for RandomQuestTemplateSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6868,7 +6868,7 @@ void __cdecl RandomQuestTemplateSwitch::~RandomQuestTemplateSwitch(RandomQuestTe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RandomQuestTemplateSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for RandomQuestTemplateSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6899,7 +6899,7 @@ void __fastcall ZN24MinorsRechargeHintSwitchCI210BaseSwitchEj(MinorsRechargeHint
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MinorsRechargeHintSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MinorsRechargeHintSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6926,7 +6926,7 @@ void __cdecl MinorsRechargeHintSwitch::~MinorsRechargeHintSwitch(MinorsRechargeH
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MinorsRechargeHintSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MinorsRechargeHintSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -6957,7 +6957,7 @@ void __fastcall ZN25MinorsGachaRestrictSwitchCI210BaseSwitchEj(MinorsGachaRestri
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MinorsGachaRestrictSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MinorsGachaRestrictSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -6984,7 +6984,7 @@ void __cdecl MinorsGachaRestrictSwitch::~MinorsGachaRestrictSwitch(MinorsGachaRe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MinorsGachaRestrictSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MinorsGachaRestrictSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -7186,7 +7186,7 @@ void __fastcall ZN14MinorsRegisterCI210BaseSwitchEj(MinorsRegister *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MinorsRegister + 2);
+  v5 = (int (**)(...))(&`vtable for MinorsRegister + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -7212,7 +7212,7 @@ void __cdecl MinorsRegister::~MinorsRegister(MinorsRegister *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MinorsRegister + 2);
+  v1 = (int (**)(...))(&`vtable for MinorsRegister + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -7421,7 +7421,7 @@ void __fastcall ZN16MatchLimitSwitchCI210BaseSwitchEj(MatchLimitSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MatchLimitSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MatchLimitSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -7447,7 +7447,7 @@ void __cdecl MatchLimitSwitch::~MatchLimitSwitch(MatchLimitSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MatchLimitSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MatchLimitSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -7695,7 +7695,7 @@ void __fastcall ZN19NicknameAuditSwitchCI210BaseSwitchEj(NicknameAuditSwitch *co
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'NicknameAuditSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for NicknameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -7727,7 +7727,7 @@ void __cdecl NicknameAuditSwitch::~NicknameAuditSwitch(NicknameAuditSwitch *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'NicknameAuditSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for NicknameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -7975,7 +7975,7 @@ void __fastcall ZN20SignatureAuditSwitchCI210BaseSwitchEj(SignatureAuditSwitch *
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'SignatureAuditSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for SignatureAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8014,7 +8014,7 @@ void __cdecl SignatureAuditSwitch::~SignatureAuditSwitch(SignatureAuditSwitch *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SignatureAuditSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for SignatureAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8045,7 +8045,7 @@ void __fastcall ZN23MatchRuleOptimizeSwitchCI210BaseSwitchEj(MatchRuleOptimizeSw
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'MatchRuleOptimizeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for MatchRuleOptimizeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8072,7 +8072,7 @@ void __cdecl MatchRuleOptimizeSwitch::~MatchRuleOptimizeSwitch(MatchRuleOptimize
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'MatchRuleOptimizeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for MatchRuleOptimizeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8103,7 +8103,7 @@ void __fastcall ZN24ReliquaryGuaranteeSwitchCI210BaseSwitchEj(ReliquaryGuarantee
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ReliquaryGuaranteeSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ReliquaryGuaranteeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8123,7 +8123,7 @@ void __cdecl ReliquaryGuaranteeSwitch::~ReliquaryGuaranteeSwitch(ReliquaryGuaran
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ReliquaryGuaranteeSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ReliquaryGuaranteeSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8161,7 +8161,7 @@ void __fastcall ZN29SecurityLibraryMd5CheckSwitchCI210BaseSwitchEj(SecurityLibra
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'SecurityLibraryMd5CheckSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for SecurityLibraryMd5CheckSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8181,7 +8181,7 @@ void __cdecl SecurityLibraryMd5CheckSwitch::~SecurityLibraryMd5CheckSwitch(Secur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SecurityLibraryMd5CheckSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for SecurityLibraryMd5CheckSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8396,7 +8396,7 @@ void __fastcall ZN28HomeAuditBeforeReleaseSwitchCI210BaseSwitchEj(HomeAuditBefor
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeAuditBeforeReleaseSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeAuditBeforeReleaseSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8429,7 +8429,7 @@ void __cdecl HomeAuditBeforeReleaseSwitch::~HomeAuditBeforeReleaseSwitch(HomeAud
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeAuditBeforeReleaseSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeAuditBeforeReleaseSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8460,7 +8460,7 @@ void __fastcall ZN9UgcSwitchCI210BaseSwitchEj(UgcSwitch *const this, int a2)
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'UgcSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for UgcSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8480,7 +8480,7 @@ void __cdecl UgcSwitch::~UgcSwitch(UgcSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UgcSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for UgcSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8518,7 +8518,7 @@ void __fastcall ZN16UgcPublishSwitchCI210BaseSwitchEj(UgcPublishSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'UgcPublishSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for UgcPublishSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8538,7 +8538,7 @@ void __cdecl UgcPublishSwitch::~UgcPublishSwitch(UgcPublishSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'UgcPublishSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for UgcPublishSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8576,7 +8576,7 @@ void __fastcall ZN22SafeServerNotifySwitchCI210BaseSwitchEj(SafeServerNotifySwit
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'SafeServerNotifySwitch + 2);
+  v5 = (int (**)(...))(&`vtable for SafeServerNotifySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8603,7 +8603,7 @@ void __cdecl SafeServerNotifySwitch::~SafeServerNotifySwitch(SafeServerNotifySwi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'SafeServerNotifySwitch + 2);
+  v1 = (int (**)(...))(&`vtable for SafeServerNotifySwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8634,7 +8634,7 @@ void __fastcall ZN26GeneralGachaRestrictSwitchCI210BaseSwitchEj(GeneralGachaRest
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GeneralGachaRestrictSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GeneralGachaRestrictSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8661,7 +8661,7 @@ void __cdecl GeneralGachaRestrictSwitch::~GeneralGachaRestrictSwitch(GeneralGach
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GeneralGachaRestrictSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GeneralGachaRestrictSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8692,7 +8692,7 @@ void __fastcall ZN19HomeBlueprintSwitchCI210BaseSwitchEj(HomeBlueprintSwitch *co
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'HomeBlueprintSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for HomeBlueprintSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8719,7 +8719,7 @@ void __cdecl HomeBlueprintSwitch::~HomeBlueprintSwitch(HomeBlueprintSwitch *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HomeBlueprintSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for HomeBlueprintSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8750,7 +8750,7 @@ void __fastcall ZN21AntiOfflineKickSwitchCI210BaseSwitchEj(AntiOfflineKickSwitch
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'AntiOfflineKickSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for AntiOfflineKickSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8777,7 +8777,7 @@ void __cdecl AntiOfflineKickSwitch::~AntiOfflineKickSwitch(AntiOfflineKickSwitch
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AntiOfflineKickSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for AntiOfflineKickSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8808,7 +8808,7 @@ void __fastcall ZN26EnvironmentErrorKickSwitchCI210BaseSwitchEj(EnvironmentError
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'EnvironmentErrorKickSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for EnvironmentErrorKickSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8828,7 +8828,7 @@ void __cdecl EnvironmentErrorKickSwitch::~EnvironmentErrorKickSwitch(Environment
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'EnvironmentErrorKickSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for EnvironmentErrorKickSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8866,7 +8866,7 @@ void __fastcall ZN28QuestAvatarRenameAuditSwitchCI210BaseSwitchEj(QuestAvatarRen
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'QuestAvatarRenameAuditSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for QuestAvatarRenameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8886,7 +8886,7 @@ void __cdecl QuestAvatarRenameAuditSwitch::~QuestAvatarRenameAuditSwitch(QuestAv
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'QuestAvatarRenameAuditSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for QuestAvatarRenameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8924,7 +8924,7 @@ void __fastcall ZN27ItemAvatarRenameAuditSwitchCI210BaseSwitchEj(ItemAvatarRenam
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ItemAvatarRenameAuditSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ItemAvatarRenameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -8944,7 +8944,7 @@ void __cdecl ItemAvatarRenameAuditSwitch::~ItemAvatarRenameAuditSwitch(ItemAvata
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ItemAvatarRenameAuditSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ItemAvatarRenameAuditSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -8982,7 +8982,7 @@ void __fastcall ZN16GCGPreviewSwitchCI210BaseSwitchEj(GCGPreviewSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GCGPreviewSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GCGPreviewSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9002,7 +9002,7 @@ void __cdecl GCGPreviewSwitch::~GCGPreviewSwitch(GCGPreviewSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPreviewSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPreviewSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9040,7 +9040,7 @@ void __fastcall ZN14GCGMatchSwitchCI210BaseSwitchEj(GCGMatchSwitch *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GCGMatchSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GCGMatchSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9067,7 +9067,7 @@ void __cdecl GCGMatchSwitch::~GCGMatchSwitch(GCGMatchSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMatchSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMatchSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9098,7 +9098,7 @@ void __fastcall ZN12GCGPvpSwitchCI210BaseSwitchEj(GCGPvpSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GCGPvpSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GCGPvpSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9118,7 +9118,7 @@ void __cdecl GCGPvpSwitch::~GCGPvpSwitch(GCGPvpSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPvpSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPvpSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9156,7 +9156,7 @@ void __fastcall ZN12GCGPveSwitchCI210BaseSwitchEj(GCGPveSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GCGPveSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GCGPveSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9183,7 +9183,7 @@ void __cdecl GCGPveSwitch::~GCGPveSwitch(GCGPveSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGPveSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GCGPveSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9214,7 +9214,7 @@ void __fastcall ZN14IPRegionSwitchCI210BaseSwitchEj(IPRegionSwitch *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'IPRegionSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for IPRegionSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9234,7 +9234,7 @@ void __cdecl IPRegionSwitch::~IPRegionSwitch(IPRegionSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'IPRegionSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for IPRegionSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9253,7 +9253,7 @@ void __cdecl KeyValueMapSwitch::~KeyValueMapSwitch(KeyValueMapSwitch *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'KeyValueMapSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for KeyValueMapSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9292,7 +9292,7 @@ void __fastcall ZN17KeyValueMapSwitchCI210BaseSwitchEj(KeyValueMapSwitch *const 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'KeyValueMapSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for KeyValueMapSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -9763,7 +9763,7 @@ void __cdecl ValueSetSwitch::~ValueSetSwitch(ValueSetSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ValueSetSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for ValueSetSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -9795,7 +9795,7 @@ void __fastcall ZN14ValueSetSwitchCI210BaseSwitchEj(ValueSetSwitch *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'ValueSetSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for ValueSetSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -10065,7 +10065,7 @@ void __cdecl RewardIdSwitch::~RewardIdSwitch(RewardIdSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'RewardIdSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for RewardIdSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -10103,7 +10103,7 @@ void __fastcall ZN14RewardIdSwitchCI210BaseSwitchEj(RewardIdSwitch *const this, 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN17KeyValueMapSwitchCI210BaseSwitchEj(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'RewardIdSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for RewardIdSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -10214,7 +10214,7 @@ void __cdecl DropIdSwitch::~DropIdSwitch(DropIdSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'DropIdSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for DropIdSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -10245,7 +10245,7 @@ void __fastcall ZN12DropIdSwitchCI210BaseSwitchEj(DropIdSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN17KeyValueMapSwitchCI210BaseSwitchEj(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'DropIdSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for DropIdSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -10454,7 +10454,7 @@ void __cdecl GatherSwitch::~GatherSwitch(GatherSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GatherSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GatherSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -10485,7 +10485,7 @@ void __fastcall ZN12GatherSwitchCI210BaseSwitchEj(GatherSwitch *const this, int 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN14ValueSetSwitchCI210BaseSwitchEj(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GatherSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GatherSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -10543,7 +10543,7 @@ void __cdecl GCGBanCardSwitch::~GCGBanCardSwitch(GCGBanCardSwitch *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGBanCardSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for GCGBanCardSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -10581,7 +10581,7 @@ void __fastcall ZN16GCGBanCardSwitchCI210BaseSwitchEj(GCGBanCardSwitch *const th
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   ZN14ValueSetSwitchCI210BaseSwitchEj(this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'GCGBanCardSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for GCGBanCardSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;
@@ -10601,7 +10601,7 @@ void __cdecl AnchorPointSwitch::~AnchorPointSwitch(AnchorPointSwitch *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'AnchorPointSwitch + 2);
+  v1 = (int (**)(...))(&`vtable for AnchorPointSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v1;
@@ -10639,7 +10639,7 @@ void __fastcall ZN17AnchorPointSwitchCI210BaseSwitchEj(AnchorPointSwitch *const 
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = a2;
   BaseSwitch::BaseSwitch((BaseSwitch *const)this, *(_DWORD *)(v2 + 32));
-  v5 = (int (**)(...))(&`vtable for'AnchorPointSwitch + 2);
+  v5 = (int (**)(...))(&`vtable for AnchorPointSwitch + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_BaseSwitch = v5;

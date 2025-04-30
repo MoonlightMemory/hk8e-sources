@@ -664,7 +664,7 @@ LABEL_12:
   *(_DWORD *)(v8 + 12) = 0;
   if ( !*(_BYTE *)((v8 >> 3) + 0x7FFF8000) )
   {
-    *(_QWORD *)v8 = &`vtable for'common::midb::RedisConn + 2;
+    *(_QWORD *)v8 = &`vtable for common::midb::RedisConn + 2;
     v11 = v8 + 16;
     if ( !*(_BYTE *)(((v8 + 16) >> 3) + 0x7FFF8000) )
     {
@@ -698,7 +698,7 @@ LABEL_43:
         *(_DWORD *)(v33 + 12) = 0;
         if ( !*(_BYTE *)((v33 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v33 = &`vtable for'common::midb::RedisClusterConn + 2;
+          *(_QWORD *)v33 = &`vtable for common::midb::RedisClusterConn + 2;
           v37 = v33 + 16;
           if ( !*(_BYTE *)(((v33 + 16) >> 3) + 0x7FFF8000) )
           {

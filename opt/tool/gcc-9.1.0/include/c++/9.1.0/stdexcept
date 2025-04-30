@@ -8,7 +8,7 @@ void __cdecl std::invalid_argument::invalid_argument(
   char *v2; // rdx
 
   std::logic_error::logic_error(this, a2);
-  v2 = (char *)&`vtable for'std::invalid_argument + 16;
+  v2 = (char *)&`vtable for std::invalid_argument + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;
@@ -20,7 +20,7 @@ void __cdecl std::length_error::length_error(std::length_error *const this, cons
   char *v2; // rdx
 
   std::logic_error::logic_error(this, a2);
-  v2 = (char *)&`vtable for'std::length_error + 16;
+  v2 = (char *)&`vtable for std::length_error + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;
@@ -32,7 +32,7 @@ void __cdecl std::out_of_range::out_of_range(std::out_of_range *const this, cons
   char *v2; // rdx
 
   std::logic_error::logic_error(this, a2);
-  v2 = (char *)&`vtable for'std::out_of_range + 16;
+  v2 = (char *)&`vtable for std::out_of_range + 16;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this = v2;

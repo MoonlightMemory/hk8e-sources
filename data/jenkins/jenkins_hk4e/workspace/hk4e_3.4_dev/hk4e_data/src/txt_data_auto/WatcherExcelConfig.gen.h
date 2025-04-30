@@ -33,7 +33,7 @@ void __cdecl data::WatcherPredicateConfig::WatcherPredicateConfig(data::WatcherP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WatcherPredicateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherPredicateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherPredicateConfig = v2;
@@ -57,7 +57,7 @@ void __cdecl data::WatcherPredicateConfig::WatcherPredicateConfig(
   const data::WatcherPredicateConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WatcherPredicateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherPredicateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherPredicateConfig = v2;
@@ -83,7 +83,7 @@ void __cdecl data::WatcherPredicateConfig::~WatcherPredicateConfig(data::Watcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WatcherPredicateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WatcherPredicateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherPredicateConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::GlobalWatcherConfig::GlobalWatcherConfig(data::GlobalWatcherC
   int (**v2)(...); // rdx
 
   data::WatcherConfig::WatcherConfig(this);
-  v2 = (int (**)(...))(&`vtable for'data::GlobalWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GlobalWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -119,7 +119,7 @@ void __cdecl data::GlobalWatcherConfig::GlobalWatcherConfig(
   int (**v2)(...); // rdx
 
   data::WatcherConfig::WatcherConfig(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::GlobalWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GlobalWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -132,7 +132,7 @@ void __cdecl data::GlobalWatcherConfig::~GlobalWatcherConfig(data::GlobalWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GlobalWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GlobalWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -169,7 +169,7 @@ void __cdecl data::PushTipsConfig::PushTipsConfig(data::PushTipsConfig *const th
   const data::PushTipsConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PushTipsConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PushTipsConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PushTipsConfig = v2;
@@ -262,7 +262,7 @@ void __cdecl data::PushTipsConfig::~PushTipsConfig(data::PushTipsConfig *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PushTipsConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PushTipsConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PushTipsConfig = v2;

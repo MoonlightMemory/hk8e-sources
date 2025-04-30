@@ -19,7 +19,7 @@ void __cdecl data::TreasureSeelieExcelConfig::TreasureSeelieExcelConfig(
   const data::TreasureSeelieExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreasureSeelieExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureSeelieExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreasureSeelieExcelConfig = v2;
@@ -85,7 +85,7 @@ void __cdecl data::TreasureSeelieExcelConfig::~TreasureSeelieExcelConfig(data::T
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureSeelieExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureSeelieExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureSeelieExcelConfig = v2;
@@ -107,7 +107,7 @@ void __cdecl data::TreasureSeelieRegionExcelConfig::TreasureSeelieRegionExcelCon
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureSeelieRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureSeelieRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureSeelieRegionExcelConfig = v2;
@@ -176,7 +176,7 @@ void __cdecl data::TreasureSeelieRegionExcelConfig::TreasureSeelieRegionExcelCon
   const data::TreasureSeelieRegionExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TreasureSeelieRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureSeelieRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TreasureSeelieRegionExcelConfig = v2;
@@ -271,7 +271,7 @@ void __cdecl data::TreasureSeelieRegionExcelConfig::~TreasureSeelieRegionExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TreasureSeelieRegionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TreasureSeelieRegionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TreasureSeelieRegionExcelConfig = v2;

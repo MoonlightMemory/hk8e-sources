@@ -6,7 +6,7 @@ void __cdecl data::FlightDailyPointFactor::FlightDailyPointFactor(data::FlightDa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyPointFactor + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyPointFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightDailyPointFactor = v2;
@@ -38,7 +38,7 @@ void __cdecl data::FlightDailyPointFactor::FlightDailyPointFactor(
   const data::FlightDailyPointFactor *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyPointFactor + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyPointFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FlightDailyPointFactor = v2;
@@ -77,7 +77,7 @@ void __cdecl data::FlightDailyPointFactor::~FlightDailyPointFactor(data::FlightD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyPointFactor + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyPointFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightDailyPointFactor = v2;
@@ -97,7 +97,7 @@ void __cdecl data::FlightActivityExcelConfig::FlightActivityExcelConfig(data::Fl
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightActivityExcelConfig = v2;
@@ -140,7 +140,7 @@ void __cdecl data::FlightActivityExcelConfig::FlightActivityExcelConfig(
   const data::FlightActivityExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FlightActivityExcelConfig = v2;
@@ -201,7 +201,7 @@ void __cdecl data::FlightActivityExcelConfig::~FlightActivityExcelConfig(data::F
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightActivityExcelConfig = v2;
@@ -215,7 +215,7 @@ void __cdecl data::FlightDailyInfo::FlightDailyInfo(data::FlightDailyInfo *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightDailyInfo = v2;
@@ -234,7 +234,7 @@ void __cdecl data::FlightDailyInfo::FlightDailyInfo(data::FlightDailyInfo *const
   uint32_t watcher; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FlightDailyInfo = v2;
@@ -266,7 +266,7 @@ void __cdecl data::FlightDailyInfo::~FlightDailyInfo(data::FlightDailyInfo *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightDailyInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightDailyInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightDailyInfo = v2;
@@ -279,7 +279,7 @@ void __cdecl data::FlightActivityMedalExcelConfig::FlightActivityMedalExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityMedalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityMedalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightActivityMedalExcelConfig = v2;
@@ -303,7 +303,7 @@ void __cdecl data::FlightActivityMedalExcelConfig::FlightActivityMedalExcelConfi
   const data::FlightActivityMedalExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityMedalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityMedalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FlightActivityMedalExcelConfig = v2;
@@ -330,7 +330,7 @@ void __cdecl data::FlightActivityMedalExcelConfig::~FlightActivityMedalExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityMedalExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityMedalExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightActivityMedalExcelConfig = v2;
@@ -354,7 +354,7 @@ void __cdecl data::FlightActivityDayExcelConfig::FlightActivityDayExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityDayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityDayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FlightActivityDayExcelConfig = v2;
@@ -380,7 +380,7 @@ void __cdecl data::FlightActivityDayExcelConfig::~FlightActivityDayExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FlightActivityDayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FlightActivityDayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FlightActivityDayExcelConfig = v2;

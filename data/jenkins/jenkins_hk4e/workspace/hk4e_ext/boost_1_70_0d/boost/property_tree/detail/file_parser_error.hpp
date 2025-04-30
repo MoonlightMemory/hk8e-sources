@@ -9,7 +9,7 @@ void __cdecl boost::property_tree::file_parser_error::file_parser_error(
   unsigned __int64 m_line; // rdx
 
   boost::property_tree::ptree_error::ptree_error(this, a2);
-  v2 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  v2 = &`vtable for boost::property_tree::file_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -36,7 +36,7 @@ void __cdecl boost::property_tree::file_parser_error::file_parser_error(
   boost::property_tree::file_parser_error::format_what(&w, msg, file, l);
   boost::property_tree::ptree_error::ptree_error(this, &w);
   std::string::~string(&w);
-  v4 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  v4 = &`vtable for boost::property_tree::file_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
@@ -53,7 +53,7 @@ void __cdecl boost::property_tree::file_parser_error::~file_parser_error(
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  v1 = &`vtable for boost::property_tree::file_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;

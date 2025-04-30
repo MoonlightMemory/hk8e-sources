@@ -130,14 +130,14 @@ int __fastcall protolua::unpack(lua_State_0 *L)
 // Line 155: range 000000000DBFE2A0-000000000DBFE2AE
 void __fastcall protolua::ProtoErrorCollector::~ProtoErrorCollector(protolua::ProtoErrorCollector *const this)
 {
-  this->_vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for'protolua::ProtoErrorCollector + 2);
+  this->_vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for protolua::ProtoErrorCollector + 2);
   google::protobuf::compiler::MultiFileErrorCollector::~MultiFileErrorCollector(this);
 };
 
 // Line 155: range 000000000DBFE2C0-000000000DBFE2E0
 void __fastcall protolua::ProtoErrorCollector::~ProtoErrorCollector(protolua::ProtoErrorCollector *const this)
 {
-  this->_vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for'protolua::ProtoErrorCollector + 2);
+  this->_vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for protolua::ProtoErrorCollector + 2);
   google::protobuf::compiler::MultiFileErrorCollector::~MultiFileErrorCollector(this);
   operator delete(this, 8uLL);
 };
@@ -295,7 +295,7 @@ void __cdecl GLOBAL__sub_I_protolua_cpp()
 {
   std::ios_base::Init::Init(&std::__ioinit);
   __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-  protolua::g_errorCollector._vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for'protolua::ProtoErrorCollector
+  protolua::g_errorCollector._vptr_MultiFileErrorCollector = (int (**)(...))(&`vtable for protolua::ProtoErrorCollector
                                                                            + 2);
   __cxa_atexit(
     (void (__fastcall *)(void *))protolua::ProtoErrorCollector::~ProtoErrorCollector,

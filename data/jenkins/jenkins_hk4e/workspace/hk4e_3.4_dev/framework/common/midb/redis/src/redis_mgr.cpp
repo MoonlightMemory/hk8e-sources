@@ -720,7 +720,7 @@ LABEL_166:
           v72 = (bool *)v71;
           if ( !*(_BYTE *)((v71 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v71 = &`vtable for'std::_Sp_counted_ptr_inplace<common::midb::RedisConnPool,std::allocator<common::midb::RedisConnPool>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v71 = &`vtable for std::_Sp_counted_ptr_inplace<common::midb::RedisConnPool,std::allocator<common::midb::RedisConnPool>,(__gnu_cxx::_Lock_policy)2>
                            + 2;
             v72 = &this->is_cluster_;
             v75 = *(_BYTE *)((v59 >> 3) + 0x7FFF8000);
@@ -790,7 +790,7 @@ LABEL_141:
     v63 = v62;
     if ( *(_BYTE *)((v62 >> 3) + 0x7FFF8000) )
       goto LABEL_140;
-    *(_QWORD *)v62 = &`vtable for'std::_Sp_counted_ptr_inplace<common::midb::RedisConnPool,common::tools::perf::allocator<common::midb::RedisConnPool,common::midb::RedisConnPool>,(__gnu_cxx::_Lock_policy)2>
+    *(_QWORD *)v62 = &`vtable for std::_Sp_counted_ptr_inplace<common::midb::RedisConnPool,common::tools::perf::allocator<common::midb::RedisConnPool,common::midb::RedisConnPool>,(__gnu_cxx::_Lock_policy)2>
                    + 2;
     v137 = (common::midb::RedisConnPool *)(v62 + 16);
     if ( common::tools::perf::MemoryPerf::is_record )
@@ -26010,7 +26010,7 @@ LABEL_55:
     v26 = __asan_report_store8(v21, p_is_init);
     goto LABEL_56;
   }
-  v21->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_deleter<common::midb::GetAndSetTran *,std::_Bind<int (common::midb::RedisMgr::*)(common::midb::GetAndSetTran *) ()(common::midb::RedisMgr*,std::_Placeholder<1>)>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  v21->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_deleter<common::midb::GetAndSetTran *,std::_Bind<int (common::midb::RedisMgr::*)(common::midb::GetAndSetTran *) ()(common::midb::RedisMgr*,std::_Placeholder<1>)>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                                               + 2);
   v77[0] = _mm_load_si128((const __m128i *)&v78);
   v26 = (__int64)&v21[1];
@@ -26623,7 +26623,7 @@ LABEL_72:
     v33 = __asan_report_store8(v29, v17);
     goto LABEL_73;
   }
-  v29->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for'std::_Sp_counted_deleter<common::midb::GetAndSetTran *,std::_Bind<int (common::midb::RedisMgr::*)(common::midb::GetAndSetTran *) ()(common::midb::RedisMgr*,std::_Placeholder<1>)>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
+  v29->_vptr__Sp_counted_base = (int (**)(...))(&`vtable for std::_Sp_counted_deleter<common::midb::GetAndSetTran *,std::_Bind<int (common::midb::RedisMgr::*)(common::midb::GetAndSetTran *) ()(common::midb::RedisMgr*,std::_Placeholder<1>)>,std::allocator<void>,(__gnu_cxx::_Lock_policy)2>
                                               + 2);
   v96[0] = _mm_load_si128(v97);
   v33 = (__int64)&v29[1];

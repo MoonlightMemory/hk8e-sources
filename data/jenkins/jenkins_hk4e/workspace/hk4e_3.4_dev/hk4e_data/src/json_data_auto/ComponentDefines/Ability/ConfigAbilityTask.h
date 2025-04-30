@@ -9,7 +9,7 @@ void __cdecl data::BaseAbilityLogic::BaseAbilityLogic(data::BaseAbilityLogic *co
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::BaseAbilityLogic>::enable_shared_from_this(&this->std::enable_shared_from_this<data::BaseAbilityLogic>);
-  v2 = (int (**)(...))(&`vtable for'data::BaseAbilityLogic + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseAbilityLogic + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -45,7 +45,7 @@ void __cdecl data::BaseAbilityLogic::BaseAbilityLogic(
   std::enable_shared_from_this<data::BaseAbilityLogic>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::BaseAbilityLogic>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::BaseAbilityLogic + 2);
+  v3 = (int (**)(...))(&`vtable for data::BaseAbilityLogic + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_BaseAbilityLogic = v3;
@@ -88,7 +88,7 @@ void __cdecl data::BaseAbilityLogic::~BaseAbilityLogic(data::BaseAbilityLogic *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BaseAbilityLogic + 2);
+  v2 = (int (**)(...))(&`vtable for data::BaseAbilityLogic + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -104,7 +104,7 @@ void __cdecl data::ConfigAbilityTask::ConfigAbilityTask(data::ConfigAbilityTask 
   __int64 v4; // rdx
 
   data::BaseAbilityLogic::BaseAbilityLogic((data::BaseAbilityLogic *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -142,7 +142,7 @@ void __cdecl data::ConfigAbilityTask::ConfigAbilityTask(
   float delay; // xmm0_4
 
   data::BaseAbilityLogic::BaseAbilityLogic((data::BaseAbilityLogic *const)this, (const data::BaseAbilityLogic *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseAbilityLogic = v2;
@@ -196,7 +196,7 @@ void __cdecl data::ConfigAbilityTask::~ConfigAbilityTask(data::ConfigAbilityTask
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -264,7 +264,7 @@ void __cdecl data::ConfigDummyAbilityTask::ConfigDummyAbilityTask(data::ConfigDu
   int (**v2)(...); // rdx
 
   data::ConfigAbilityTask::ConfigAbilityTask(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -286,7 +286,7 @@ void __cdecl data::ConfigDummyAbilityTask::ConfigDummyAbilityTask(
   char v4; // al
 
   data::ConfigAbilityTask::ConfigAbilityTask(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseAbilityLogic = v2;
@@ -318,7 +318,7 @@ void __cdecl data::ConfigDummyAbilityTask::~ConfigDummyAbilityTask(data::ConfigD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbilityTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbilityTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -386,7 +386,7 @@ void __cdecl data::ConfigDummyAbilityTaskFactory::ConfigDummyAbilityTaskFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigDummyAbilityTaskFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigDummyAbilityTaskFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigDummyAbilityTaskFactory = v2;
@@ -625,7 +625,7 @@ void __cdecl data::ConfigTriggerMassiveElementTask::ConfigTriggerMassiveElementT
   int (**v2)(...); // rdx
 
   data::ConfigAbilityTask::ConfigAbilityTask(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTriggerMassiveElementTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTriggerMassiveElementTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -641,7 +641,7 @@ void __cdecl data::ConfigTriggerMassiveElementTask::ConfigTriggerMassiveElementT
   int (**v2)(...); // rdx
 
   data::ConfigAbilityTask::ConfigAbilityTask(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTriggerMassiveElementTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTriggerMassiveElementTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BaseAbilityLogic = v2;
@@ -658,7 +658,7 @@ void __cdecl data::ConfigTriggerMassiveElementTask::~ConfigTriggerMassiveElement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTriggerMassiveElementTask + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTriggerMassiveElementTask + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BaseAbilityLogic = v2;
@@ -738,7 +738,7 @@ void __cdecl data::ConfigTriggerMassiveElementTaskFactory::ConfigTriggerMassiveE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigTriggerMassiveElementTaskFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigTriggerMassiveElementTaskFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigTriggerMassiveElementTaskFactory = v2;

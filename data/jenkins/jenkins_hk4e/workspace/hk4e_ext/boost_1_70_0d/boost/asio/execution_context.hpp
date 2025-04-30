@@ -32,7 +32,7 @@ void __cdecl boost::asio::service_already_exists::service_already_exists(
   __int64 *v2; // rdx
 
   std::logic_error::logic_error((std::logic_error *)this, (const std::logic_error *)a2);
-  v2 = &`vtable for'boost::asio::service_already_exists + 2;
+  v2 = &`vtable for boost::asio::service_already_exists + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -52,7 +52,7 @@ void __cdecl boost::asio::service_already_exists::~service_already_exists(
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::asio::service_already_exists + 2;
+  v1 = &`vtable for boost::asio::service_already_exists + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -67,7 +67,7 @@ void __cdecl boost::asio::invalid_service_owner::invalid_service_owner(
   __int64 *v2; // rdx
 
   std::logic_error::logic_error((std::logic_error *)this, (const std::logic_error *)a2);
-  v2 = &`vtable for'boost::asio::invalid_service_owner + 2;
+  v2 = &`vtable for boost::asio::invalid_service_owner + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -85,7 +85,7 @@ void __cdecl boost::asio::invalid_service_owner::~invalid_service_owner(boost::a
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::asio::invalid_service_owner + 2;
+  v1 = &`vtable for boost::asio::invalid_service_owner + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -190,7 +190,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -212,7 +212,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -226,7 +226,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -248,7 +248,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -272,7 +272,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
   int (**v2)(...); // rdx
 
   boost::asio::execution_context::service::service(this, e);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -287,7 +287,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
   int (**v2)(...); // rdx
 
   boost::asio::execution_context::service::service(this, e);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -302,7 +302,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
   int (**v2)(...); // rdx
 
   boost::asio::execution_context::service::service(this, e);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -317,7 +317,7 @@ void __cdecl boost::asio::detail::execution_context_service_base<boost::asio::de
   int (**v2)(...); // rdx
 
   boost::asio::execution_context::service::service(this, e);
-  v2 = (int (**)(...))(&`vtable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>
+  v2 = (int (**)(...))(&`vtable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

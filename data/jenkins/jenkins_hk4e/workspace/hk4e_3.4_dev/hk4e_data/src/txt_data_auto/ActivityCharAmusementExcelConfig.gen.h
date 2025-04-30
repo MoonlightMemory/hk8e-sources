@@ -7,7 +7,7 @@ void __cdecl data::ActivityCharAmusementOverallExcelConfig::ActivityCharAmusemen
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementOverallExcelConfig = v2;
@@ -49,7 +49,7 @@ void __cdecl data::ActivityCharAmusementOverallExcelConfig::ActivityCharAmusemen
   const data::ActivityCharAmusementOverallExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCharAmusementOverallExcelConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::ActivityCharAmusementOverallExcelConfig::~ActivityCharAmuseme
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementOverallExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementOverallExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementOverallExcelConfig = v2;
@@ -127,7 +127,7 @@ void __cdecl data::ActivityCharAmusementStageExcelConfig::ActivityCharAmusementS
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementStageExcelConfig = v2;
@@ -170,7 +170,7 @@ void __cdecl data::ActivityCharAmusementStageExcelConfig::ActivityCharAmusementS
   const data::ActivityCharAmusementStageExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCharAmusementStageExcelConfig = v2;
@@ -225,7 +225,7 @@ void __cdecl data::ActivityCharAmusementStageExcelConfig::~ActivityCharAmusement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementStageExcelConfig = v2;
@@ -249,7 +249,7 @@ void __cdecl data::ActivityCharAmusementLevelExcelConfig::ActivityCharAmusementL
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementLevelExcelConfig = v2;
@@ -318,7 +318,7 @@ void __cdecl data::ActivityCharAmusementLevelExcelConfig::ActivityCharAmusementL
   const data::ActivityCharAmusementLevelExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityCharAmusementLevelExcelConfig = v2;
@@ -413,7 +413,7 @@ void __cdecl data::ActivityCharAmusementLevelExcelConfig::~ActivityCharAmusement
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityCharAmusementLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityCharAmusementLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityCharAmusementLevelExcelConfig = v2;

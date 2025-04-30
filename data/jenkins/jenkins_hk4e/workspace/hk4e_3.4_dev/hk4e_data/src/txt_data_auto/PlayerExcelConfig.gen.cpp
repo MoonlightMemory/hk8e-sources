@@ -662,7 +662,7 @@ int32_t __cdecl data::PlayerExcelConfigMgrBase::loadPlayerLevelExcelConfig(
         v14 = ((v3 + 544) >> 3) + 2147450880;
         *(_DWORD *)v14 = 0;
         *(_BYTE *)(v14 + 4) = 0;
-        v15 = &`vtable for'data::PlayerLevelExcelConfig + 2;
+        v15 = &`vtable for data::PlayerLevelExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 544, v13);
         *(_QWORD *)(v3 + 544) = v15;
@@ -1026,7 +1026,7 @@ int32_t __cdecl data::PlayerExcelConfigMgrBase::loadPlayerLevelLockExcelConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::PlayerLevelLockExcelConfig + 2;
+        v15 = &`vtable for data::PlayerLevelLockExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;

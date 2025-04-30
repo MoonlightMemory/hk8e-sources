@@ -8,7 +8,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePr
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBattleFervorUpdatePredicate>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBattleFervorUpdatePredicate>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -31,7 +31,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePr
   std::enable_shared_from_this<data::ConfigBattleFervorUpdatePredicate>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBattleFervorUpdatePredicate>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v3;
@@ -62,7 +62,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate::~ConfigBattleFervorUpdateP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -134,7 +134,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_FactorRange::ConfigBattleFe
   __int64 v3; // rsi
 
   data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePredicate((data::ConfigBattleFervorUpdatePredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -166,7 +166,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_FactorRange::ConfigBattleFe
   data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePredicate(
     (data::ConfigBattleFervorUpdatePredicate *const)this,
     (const data::ConfigBattleFervorUpdatePredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -212,7 +212,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_FactorRange::~ConfigBattleF
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_FactorRange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -282,7 +282,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_FactorRangeFactory::ConfigB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_FactorRangeFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_FactorRangeFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate_FactorRangeFactory = v2;
@@ -298,7 +298,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle::Config
   __int64 v4; // rdx
 
   data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePredicate((data::ConfigBattleFervorUpdatePredicate *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -324,7 +324,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle::Config
   data::ConfigBattleFervorUpdatePredicate::ConfigBattleFervorUpdatePredicate(
     (data::ConfigBattleFervorUpdatePredicate *const)this,
     (const data::ConfigBattleFervorUpdatePredicate *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -348,7 +348,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle::~Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattle + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate = v2;
@@ -426,7 +426,7 @@ void __cdecl data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattleFactory:
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattleFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdatePredicate_LocalAvatarInBattleFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdatePredicate_LocalAvatarInBattleFactory = v2;
@@ -442,7 +442,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrig
   __int64 v4; // rdx
 
   std::enable_shared_from_this<data::ConfigBattleFervorUpdateTrigger>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBattleFervorUpdateTrigger>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -478,7 +478,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrig
   std::enable_shared_from_this<data::ConfigBattleFervorUpdateTrigger>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBattleFervorUpdateTrigger>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v3;
@@ -515,7 +515,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger::~ConfigBattleFervorUpdateTri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -595,7 +595,7 @@ void __cdecl data::ConfigBattleFervorUpateTrigger_ByTick::ConfigBattleFervorUpat
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpateTrigger_ByTick + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpateTrigger_ByTick + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -609,7 +609,7 @@ void __cdecl data::ConfigBattleFervorUpateTrigger_ByTick::ConfigBattleFervorUpat
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpateTrigger_ByTick + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpateTrigger_ByTick + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -630,7 +630,7 @@ void __cdecl data::ConfigBattleFervorUpateTrigger_ByTick::~ConfigBattleFervorUpa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpateTrigger_ByTick + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpateTrigger_ByTick + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -700,7 +700,7 @@ void __cdecl data::ConfigBattleFervorUpateTrigger_ByTickFactory::ConfigBattleFer
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpateTrigger_ByTickFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpateTrigger_ByTickFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpateTrigger_ByTickFactory = v2;
@@ -714,7 +714,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged::ConfigBattl
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -746,7 +746,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged::ConfigBattl
 
   v6 = a2;
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -793,7 +793,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged::~ConfigBatt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByStateIDChanged + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -864,7 +864,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByStateIDChangedFactory::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByStateIDChangedFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByStateIDChangedFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger_ByStateIDChangedFactory = v2;
@@ -878,7 +878,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByAttackTag::ConfigBattleFerv
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -900,7 +900,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByAttackTag::ConfigBattleFerv
   float cd; // xmm0_4
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -926,7 +926,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByAttackTag::~ConfigBattleFer
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByAttackTag + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1005,7 +1005,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByAttackTagFactory::ConfigBat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByAttackTagFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByAttackTagFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger_ByAttackTagFactory = v2;
@@ -1019,7 +1019,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementArt::ConfigBattleFer
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1040,7 +1040,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementArt::ConfigBattleFer
   float cd; // xmm0_4
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1065,7 +1065,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementArt::~ConfigBattleFe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementArt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1143,7 +1143,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementArtFactory::ConfigBa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementArtFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementArtFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger_ByElementArtFactory = v2;
@@ -1157,7 +1157,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementBurst::ConfigBattleF
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1178,7 +1178,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementBurst::ConfigBattleF
   float cd; // xmm0_4
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1203,7 +1203,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementBurst::~ConfigBattle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementBurst + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1281,7 +1281,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByElementBurstFactory::Config
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByElementBurstFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByElementBurstFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger_ByElementBurstFactory = v2;
@@ -1295,7 +1295,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByMonster::ConfigBattleFervor
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1317,7 +1317,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByMonster::ConfigBattleFervor
   char v4; // al
 
   data::ConfigBattleFervorUpdateTrigger::ConfigBattleFervorUpdateTrigger(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1343,7 +1343,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByMonster::~ConfigBattleFervo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger = v2;
@@ -1421,7 +1421,7 @@ void __cdecl data::ConfigBattleFervorUpdateTrigger_ByMonsterFactory::ConfigBattl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorUpdateTrigger_ByMonsterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorUpdateTrigger_ByMonsterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorUpdateTrigger_ByMonsterFactory = v2;
@@ -1437,7 +1437,7 @@ void __cdecl data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(data::Conf
   __int64 v5; // rdx
 
   std::enable_shared_from_this<data::ConfigBattleFervorFactor>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBattleFervorFactor>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1488,7 +1488,7 @@ void __cdecl data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(
   std::enable_shared_from_this<data::ConfigBattleFervorFactor>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBattleFervorFactor>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBattleFervorFactor = v3;
@@ -1555,7 +1555,7 @@ void __cdecl data::ConfigBattleFervorFactor::~ConfigBattleFervorFactor(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1624,7 +1624,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByTrigger::ConfigBattleFervorFactor_
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1639,7 +1639,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByTrigger::ConfigBattleFervorFactor_
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1653,7 +1653,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByTrigger::~ConfigBattleFervorFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByTrigger + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByTrigger + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1732,7 +1732,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByTriggerFactory::ConfigBattleFervor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByTriggerFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByTriggerFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor_ByTriggerFactory = v2;
@@ -1746,7 +1746,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByMonster::ConfigBattleFervorFactor_
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1761,7 +1761,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByMonster::ConfigBattleFervorFactor_
   int (**v2)(...); // rdx
 
   data::ConfigBattleFervorFactor::ConfigBattleFervorFactor(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1775,7 +1775,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByMonster::~ConfigBattleFervorFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByMonster + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByMonster + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor = v2;
@@ -1854,7 +1854,7 @@ void __cdecl data::ConfigBattleFervorFactor_ByMonsterFactory::ConfigBattleFervor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBattleFervorFactor_ByMonsterFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBattleFervorFactor_ByMonsterFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBattleFervorFactor_ByMonsterFactory = v2;

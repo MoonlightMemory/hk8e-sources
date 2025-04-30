@@ -5,7 +5,7 @@ void __cdecl GCGCardDetailInfo::GCGCardDetailInfo(GCGCardDetailInfo *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGCardDetailInfo + 2);
+  v1 = (int (**)(...))(&`vtable for GCGCardDetailInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardDetailInfo = v1;
@@ -77,7 +77,7 @@ void __cdecl GCGCardDetailInfo::GCGCardDetailInfo(GCGCardDetailInfo *const this,
   GCGZoneType zone_type; // ecx
   bool is_play_card; // cl
 
-  v2 = (int (**)(...))(&`vtable for'GCGCardDetailInfo + 2);
+  v2 = (int (**)(...))(&`vtable for GCGCardDetailInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardDetailInfo = v2;
@@ -188,7 +188,7 @@ void __cdecl GCGCardDetailInfo::~GCGCardDetailInfo(GCGCardDetailInfo *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGCardDetailInfo + 2);
+  v1 = (int (**)(...))(&`vtable for GCGCardDetailInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGCardDetailInfo = v1;

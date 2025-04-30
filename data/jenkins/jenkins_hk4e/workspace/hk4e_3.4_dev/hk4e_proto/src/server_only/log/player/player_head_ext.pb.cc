@@ -126,7 +126,7 @@ void __cdecl proto_log::PlayerLogHeadExt::PlayerLogHeadExt(proto_log::PlayerLogH
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogHeadExt + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogHeadExt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -150,7 +150,7 @@ void __cdecl proto_log::PlayerLogHeadExt::PlayerLogHeadExt(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PlayerLogHeadExt + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PlayerLogHeadExt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -209,7 +209,7 @@ void __cdecl proto_log::PlayerLogHeadExt::~PlayerLogHeadExt(proto_log::PlayerLog
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PlayerLogHeadExt + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PlayerLogHeadExt + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

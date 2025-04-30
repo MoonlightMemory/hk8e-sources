@@ -7,7 +7,7 @@ void __cdecl data::SeaLampSectionExcelConfig::SeaLampSectionExcelConfig(data::Se
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SeaLampSectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SeaLampSectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SeaLampSectionExcelConfig = v2;
@@ -59,7 +59,7 @@ void __cdecl data::SeaLampSectionExcelConfig::SeaLampSectionExcelConfig(
   const data::SeaLampSectionExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SeaLampSectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SeaLampSectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SeaLampSectionExcelConfig = v2;
@@ -127,7 +127,7 @@ void __cdecl data::SeaLampSectionExcelConfig::~SeaLampSectionExcelConfig(data::S
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SeaLampSectionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SeaLampSectionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SeaLampSectionExcelConfig = v2;
@@ -156,7 +156,7 @@ void __cdecl data::LanV2ProjectionLevelExcelConfig::LanV2ProjectionLevelExcelCon
   const data::LanV2ProjectionLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2ProjectionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2ProjectionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2ProjectionLevelExcelConfig = v2;
@@ -196,7 +196,7 @@ void __cdecl data::LanV2ProjectionLevelExcelConfig::~LanV2ProjectionLevelExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2ProjectionLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2ProjectionLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2ProjectionLevelExcelConfig = v2;
@@ -220,7 +220,7 @@ void __cdecl data::SalvageOverAllExcelConfig::SalvageOverAllExcelConfig(data::Sa
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageOverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageOverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageOverAllExcelConfig = v2;
@@ -319,7 +319,7 @@ void __cdecl data::SalvageOverAllExcelConfig::SalvageOverAllExcelConfig(
   const data::SalvageOverAllExcelConfig *v27; // [rsp+0h] [rbp-20h]
 
   v27 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SalvageOverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageOverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SalvageOverAllExcelConfig = v2;
@@ -463,7 +463,7 @@ void __cdecl data::SalvageOverAllExcelConfig::~SalvageOverAllExcelConfig(data::S
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageOverAllExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageOverAllExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageOverAllExcelConfig = v2;
@@ -480,7 +480,7 @@ void __cdecl data::SalvageTypeDataExcelConfig::SalvageTypeDataExcelConfig(
   data::SalvagePlayType play_type; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageTypeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageTypeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SalvageTypeDataExcelConfig = v2;
@@ -506,7 +506,7 @@ void __cdecl data::SalvageTypeDataExcelConfig::~SalvageTypeDataExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageTypeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageTypeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageTypeDataExcelConfig = v2;
@@ -528,7 +528,7 @@ void __cdecl data::SalvageStageDataExcelConfig::SalvageStageDataExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageStageDataExcelConfig = v2;
@@ -573,7 +573,7 @@ void __cdecl data::SalvageStageDataExcelConfig::SalvageStageDataExcelConfig(
   const data::SalvageStageDataExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SalvageStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SalvageStageDataExcelConfig = v2;
@@ -638,7 +638,7 @@ void __cdecl data::SalvageStageDataExcelConfig::~SalvageStageDataExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageStageDataExcelConfig = v2;
@@ -657,7 +657,7 @@ void __cdecl data::SalvageChallengeDataExcelConfig::SalvageChallengeDataExcelCon
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageChallengeDataExcelConfig = v2;
@@ -720,7 +720,7 @@ void __cdecl data::SalvageChallengeDataExcelConfig::SalvageChallengeDataExcelCon
   const data::SalvageChallengeDataExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SalvageChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SalvageChallengeDataExcelConfig = v2;
@@ -804,7 +804,7 @@ void __cdecl data::SalvageChallengeDataExcelConfig::~SalvageChallengeDataExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SalvageChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SalvageChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SalvageChallengeDataExcelConfig = v2;
@@ -827,7 +827,7 @@ void __cdecl data::FireElementAdditionConfig::FireElementAdditionConfig(data::Fi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireElementAdditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireElementAdditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireElementAdditionConfig = v2;
@@ -850,7 +850,7 @@ void __cdecl data::FireElementAdditionConfig::FireElementAdditionConfig(
   uint32_t ratio; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::FireElementAdditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireElementAdditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_FireElementAdditionConfig = v2;
@@ -877,7 +877,7 @@ void __cdecl data::FireElementAdditionConfig::~FireElementAdditionConfig(data::F
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::FireElementAdditionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::FireElementAdditionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_FireElementAdditionConfig = v2;
@@ -899,7 +899,7 @@ void __cdecl data::LanV2FireworksOverallDataExcelConfig::LanV2FireworksOverallDa
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksOverallDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksOverallDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksOverallDataExcelConfig = v2;
@@ -948,7 +948,7 @@ void __cdecl data::LanV2FireworksOverallDataExcelConfig::LanV2FireworksOverallDa
   const data::LanV2FireworksOverallDataExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksOverallDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksOverallDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2FireworksOverallDataExcelConfig = v2;
@@ -1024,7 +1024,7 @@ void __cdecl data::LanV2FireworksOverallDataExcelConfig::~LanV2FireworksOverallD
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksOverallDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksOverallDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksOverallDataExcelConfig = v2;
@@ -1039,7 +1039,7 @@ void __cdecl data::LanV2FireworksStageDataExcelConfig::LanV2FireworksStageDataEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksStageDataExcelConfig = v2;
@@ -1083,7 +1083,7 @@ void __cdecl data::LanV2FireworksStageDataExcelConfig::LanV2FireworksStageDataEx
   const data::LanV2FireworksStageDataExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2FireworksStageDataExcelConfig = v2;
@@ -1139,7 +1139,7 @@ void __cdecl data::LanV2FireworksStageDataExcelConfig::~LanV2FireworksStageDataE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksStageDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksStageDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksStageDataExcelConfig = v2;
@@ -1164,7 +1164,7 @@ void __cdecl data::LanV2FireworksChallengeDataExcelConfig::LanV2FireworksChallen
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksChallengeDataExcelConfig = v2;
@@ -1238,7 +1238,7 @@ void __cdecl data::LanV2FireworksChallengeDataExcelConfig::LanV2FireworksChallen
   const data::LanV2FireworksChallengeDataExcelConfig *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2FireworksChallengeDataExcelConfig = v2;
@@ -1338,7 +1338,7 @@ void __cdecl data::LanV2FireworksChallengeDataExcelConfig::~LanV2FireworksChalle
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksChallengeDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksChallengeDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksChallengeDataExcelConfig = v2;
@@ -1363,7 +1363,7 @@ void __cdecl data::LanV2FireworksFactorDataExcelConfig::LanV2FireworksFactorData
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksFactorDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksFactorDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksFactorDataExcelConfig = v2;
@@ -1406,7 +1406,7 @@ void __cdecl data::LanV2FireworksFactorDataExcelConfig::LanV2FireworksFactorData
   const data::LanV2FireworksFactorDataExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksFactorDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksFactorDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2FireworksFactorDataExcelConfig = v2;
@@ -1470,7 +1470,7 @@ void __cdecl data::LanV2FireworksFactorDataExcelConfig::~LanV2FireworksFactorDat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksFactorDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksFactorDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksFactorDataExcelConfig = v2;
@@ -1488,7 +1488,7 @@ void __cdecl data::LanV2FireworksSkillDataExcelConfig::LanV2FireworksSkillDataEx
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksSkillDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksSkillDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksSkillDataExcelConfig = v2;
@@ -1577,7 +1577,7 @@ void __cdecl data::LanV2FireworksSkillDataExcelConfig::LanV2FireworksSkillDataEx
   const data::LanV2FireworksSkillDataExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksSkillDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksSkillDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2FireworksSkillDataExcelConfig = v2;
@@ -1699,7 +1699,7 @@ void __cdecl data::LanV2FireworksSkillDataExcelConfig::~LanV2FireworksSkillDataE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2FireworksSkillDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2FireworksSkillDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2FireworksSkillDataExcelConfig = v2;
@@ -1723,7 +1723,7 @@ void __cdecl data::LanV2OverAllDataExcelConfig::LanV2OverAllDataExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2OverAllDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2OverAllDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2OverAllDataExcelConfig = v2;
@@ -1804,7 +1804,7 @@ void __cdecl data::LanV2OverAllDataExcelConfig::LanV2OverAllDataExcelConfig(
   const data::LanV2OverAllDataExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LanV2OverAllDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2OverAllDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LanV2OverAllDataExcelConfig = v2;
@@ -1916,7 +1916,7 @@ void __cdecl data::LanV2OverAllDataExcelConfig::~LanV2OverAllDataExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LanV2OverAllDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LanV2OverAllDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LanV2OverAllDataExcelConfig = v2;

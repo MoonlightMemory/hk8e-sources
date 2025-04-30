@@ -5,7 +5,7 @@ void __cdecl HandlerBase::HandlerBase(HandlerBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HandlerBase + 2);
+  v1 = (int (**)(...))(&`vtable for HandlerBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_HandlerBase = v1;
@@ -16,7 +16,7 @@ void __cdecl HandlerBase::~HandlerBase(HandlerBase *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HandlerBase + 2);
+  v1 = (int (**)(...))(&`vtable for HandlerBase + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_HandlerBase = v1;

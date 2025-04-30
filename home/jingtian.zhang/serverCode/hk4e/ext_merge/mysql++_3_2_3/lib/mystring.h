@@ -76,7 +76,7 @@ unsigned __int64 __fastcall mysqlpp::String::do_conv<unsigned long long>(
   v45 = 0LL;
   v3 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
   v47 = 0LL;
-  v43[0] = (__int64)&`vtable for'std::ios + 16;
+  v43[0] = (__int64)&`vtable for std::ios + 16;
   v46 = 0;
   v4 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   v48 = 0LL;
@@ -102,15 +102,15 @@ unsigned __int64 __fastcall mysqlpp::String::do_conv<unsigned long long>(
   v30 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
   *(__int64 *)((char *)&v34 + *(_QWORD *)(v29 - 24)) = v30;
   memset(&v37[1], 0, 48);
-  v34 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
-  v43[0] = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
-  v36._M_impl = (std::locale::_Impl *)((char *)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>
+  v34 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
+  v43[0] = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
+  v36._M_impl = (std::locale::_Impl *)((char *)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>
                                      + 64);
-  v37[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v37[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::locale(&v38);
   v39 = 24;
   v42[0] = 0;
-  v37[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v37[0] = (__int64)&`vtable for std::stringbuf + 16;
   v40 = v42;
   v41 = 0LL;
   std::ios::init(v43, v37);
@@ -173,14 +173,14 @@ LABEL_13:
     goto LABEL_13;
 LABEL_4:
   v15 = num;
-  v34 = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
-  v43[0] = (__int64)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
-  v36._M_impl = (std::locale::_Impl *)((char *)&`vtable for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>
+  v34 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
+  v43[0] = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 104;
+  v36._M_impl = (std::locale::_Impl *)((char *)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>
                                      + 64);
-  v37[0] = (__int64)&`vtable for'std::stringbuf + 16;
+  v37[0] = (__int64)&`vtable for std::stringbuf + 16;
   if ( v40 != v42 )
     operator delete(v40);
-  v37[0] = (__int64)&`vtable for'std::streambuf + 16;
+  v37[0] = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&v38);
   *(__int64 *)((char *)&v34 + *(_QWORD *)(v29 - 24)) = v30;
   v36._M_impl = v27;
@@ -189,7 +189,7 @@ LABEL_4:
   v34 = v3;
   *(__int64 *)((char *)&v34 + v16) = v26;
   v35 = 0LL;
-  v43[0] = (__int64)&`vtable for'std::ios + 16;
+  v43[0] = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)v43);
   return v15;
 };

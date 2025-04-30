@@ -1621,7 +1621,7 @@ int32_t __cdecl data::RandTaskExcelConfigMgrBase::loadRandTaskExcelConfig(
         v14 = ((v3 + 80) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::RandTaskExcelConfig + 2;
+        v15 = &`vtable for data::RandTaskExcelConfig + 2;
         if ( *(_BYTE *)(((v3 + 80) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 80, v13);
         *(_QWORD *)(v3 + 80) = v15;
@@ -2306,7 +2306,7 @@ int32_t __cdecl data::RandTaskExcelConfigMgrBase::loadRandTaskLevelConfig(
         v14 = ((v3 + 224) >> 3) + 2147450880;
         *(_WORD *)v14 = 0;
         *(_BYTE *)(v14 + 2) = 0;
-        v15 = &`vtable for'data::RandTaskLevelConfig + 2;
+        v15 = &`vtable for data::RandTaskLevelConfig + 2;
         if ( *(_BYTE *)(((v3 + 224) >> 3) + 0x7FFF8000) )
           __asan_report_store8(v3 + 224, v13);
         *(_QWORD *)(v3 + 224) = v15;

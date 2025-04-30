@@ -33,7 +33,7 @@ void __cdecl data::IrodoriFlowerConfig::IrodoriFlowerConfig(data::IrodoriFlowerC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::IrodoriFlowerConfig::IrodoriFlowerConfig(
   uint32_t config_id; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriFlowerConfig = v2;
@@ -83,7 +83,7 @@ void __cdecl data::IrodoriFlowerConfig::~IrodoriFlowerConfig(data::IrodoriFlower
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::IrodoriFlowerGroupExcelConfig::IrodoriFlowerGroupExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerGroupExcelConfig = v2;
@@ -128,7 +128,7 @@ void __cdecl data::IrodoriFlowerGroupExcelConfig::IrodoriFlowerGroupExcelConfig(
   const data::IrodoriFlowerGroupExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriFlowerGroupExcelConfig = v2;
@@ -163,7 +163,7 @@ void __cdecl data::IrodoriFlowerGroupExcelConfig::~IrodoriFlowerGroupExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerGroupExcelConfig = v2;
@@ -180,7 +180,7 @@ void __cdecl data::IrodoriFlowerThemeExcelConfig::IrodoriFlowerThemeExcelConfig(
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerThemeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerThemeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerThemeExcelConfig = v2;
@@ -268,7 +268,7 @@ void __cdecl data::IrodoriFlowerThemeExcelConfig::IrodoriFlowerThemeExcelConfig(
   const data::IrodoriFlowerThemeExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerThemeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerThemeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriFlowerThemeExcelConfig = v2;
@@ -390,7 +390,7 @@ void __cdecl data::IrodoriFlowerThemeExcelConfig::~IrodoriFlowerThemeExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriFlowerThemeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriFlowerThemeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriFlowerThemeExcelConfig = v2;
@@ -429,7 +429,7 @@ void __cdecl data::IrodoriChessGearExcelConfig::IrodoriChessGearExcelConfig(
   const data::IrodoriChessGearExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessGearExcelConfig = v2;
@@ -526,7 +526,7 @@ void __cdecl data::IrodoriChessGearExcelConfig::~IrodoriChessGearExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessGearExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessGearExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessGearExcelConfig = v2;
@@ -541,7 +541,7 @@ void __cdecl data::IrodoriChessLevelExcelConfig::IrodoriChessLevelExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessLevelExcelConfig = v2;
@@ -602,7 +602,7 @@ void __cdecl data::IrodoriChessLevelExcelConfig::IrodoriChessLevelExcelConfig(
   const data::IrodoriChessLevelExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessLevelExcelConfig = v2;
@@ -692,7 +692,7 @@ void __cdecl data::IrodoriChessLevelExcelConfig::~IrodoriChessLevelExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessLevelExcelConfig = v2;
@@ -708,7 +708,7 @@ void __cdecl data::IrodoriChessMapExcelConfig::IrodoriChessMapExcelConfig(data::
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessMapExcelConfig = v2;
@@ -791,7 +791,7 @@ void __cdecl data::IrodoriChessMapExcelConfig::IrodoriChessMapExcelConfig(
   const data::IrodoriChessMapExcelConfig *v24; // [rsp+0h] [rbp-20h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessMapExcelConfig = v2;
@@ -910,7 +910,7 @@ void __cdecl data::IrodoriChessMapExcelConfig::~IrodoriChessMapExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessMapExcelConfig = v2;
@@ -928,7 +928,7 @@ void __cdecl data::IrodoriChessMapPointExcelConfig::IrodoriChessMapPointExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessMapPointExcelConfig = v2;
@@ -952,7 +952,7 @@ void __cdecl data::IrodoriChessMapPointExcelConfig::IrodoriChessMapPointExcelCon
   const data::IrodoriChessMapPointExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessMapPointExcelConfig = v2;
@@ -987,7 +987,7 @@ void __cdecl data::IrodoriChessMapPointExcelConfig::~IrodoriChessMapPointExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessMapPointExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessMapPointExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessMapPointExcelConfig = v2;
@@ -1003,7 +1003,7 @@ void __cdecl data::IrodoriChessDisorderExcelConfig::IrodoriChessDisorderExcelCon
   uint32_t disorder_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessDisorderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessDisorderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessDisorderExcelConfig = v2;
@@ -1037,7 +1037,7 @@ void __cdecl data::IrodoriChessDisorderExcelConfig::~IrodoriChessDisorderExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessDisorderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessDisorderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessDisorderExcelConfig = v2;
@@ -1161,7 +1161,7 @@ void __cdecl data::IrodoriChessCardEffect::IrodoriChessCardEffect(data::IrodoriC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessCardEffect = v2;
@@ -1231,7 +1231,7 @@ void __cdecl data::IrodoriChessCardEffect::IrodoriChessCardEffect(
   const data::IrodoriChessCardEffect *v19; // [rsp+0h] [rbp-20h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessCardEffect = v2;
@@ -1334,7 +1334,7 @@ void __cdecl data::IrodoriChessCardEffect::~IrodoriChessCardEffect(data::Irodori
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardEffect + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessCardEffect = v2;
@@ -1350,7 +1350,7 @@ void __cdecl data::IrodoriChessCardExcelConfig::IrodoriChessCardExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessCardExcelConfig = v2;
@@ -1394,7 +1394,7 @@ void __cdecl data::IrodoriChessCardExcelConfig::IrodoriChessCardExcelConfig(
   const data::IrodoriChessCardExcelConfig *v11; // [rsp+0h] [rbp-20h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriChessCardExcelConfig = v2;
@@ -1450,7 +1450,7 @@ void __cdecl data::IrodoriChessCardExcelConfig::~IrodoriChessCardExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriChessCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriChessCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriChessCardExcelConfig = v2;
@@ -1476,7 +1476,7 @@ void __cdecl data::IrodoriMasterExcelConfig::IrodoriMasterExcelConfig(data::Irod
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriMasterExcelConfig = v2;
@@ -1582,7 +1582,7 @@ void __cdecl data::IrodoriMasterExcelConfig::IrodoriMasterExcelConfig(
   const data::IrodoriMasterExcelConfig *v29; // [rsp+0h] [rbp-10h]
 
   v29 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriMasterExcelConfig = v2;
@@ -1738,7 +1738,7 @@ void __cdecl data::IrodoriMasterExcelConfig::~IrodoriMasterExcelConfig(data::Iro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriMasterExcelConfig = v2;
@@ -1754,7 +1754,7 @@ void __cdecl data::IrodoriMasterLevelExcelConfig::IrodoriMasterLevelExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriMasterLevelExcelConfig = v2;
@@ -1825,7 +1825,7 @@ void __cdecl data::IrodoriMasterLevelExcelConfig::IrodoriMasterLevelExcelConfig(
   const data::IrodoriMasterLevelExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriMasterLevelExcelConfig = v2;
@@ -1922,7 +1922,7 @@ void __cdecl data::IrodoriMasterLevelExcelConfig::~IrodoriMasterLevelExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriMasterLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriMasterLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriMasterLevelExcelConfig = v2;
@@ -1972,7 +1972,7 @@ void __cdecl data::IrodoriPoetryScanConfig::IrodoriPoetryScanConfig(data::Irodor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryScanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryScanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriPoetryScanConfig = v2;
@@ -1995,7 +1995,7 @@ void __cdecl data::IrodoriPoetryScanConfig::IrodoriPoetryScanConfig(
   uint32_t line_id; // ecx
   char v5; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryScanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryScanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriPoetryScanConfig = v2;
@@ -2029,7 +2029,7 @@ void __cdecl data::IrodoriPoetryScanConfig::~IrodoriPoetryScanConfig(data::Irodo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryScanConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryScanConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriPoetryScanConfig = v2;
@@ -2046,7 +2046,7 @@ void __cdecl data::IrodoriPoetryExcelConfig::IrodoriPoetryExcelConfig(data::Irod
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriPoetryExcelConfig = v2;
@@ -2162,7 +2162,7 @@ void __cdecl data::IrodoriPoetryExcelConfig::IrodoriPoetryExcelConfig(
   const data::IrodoriPoetryExcelConfig *v31; // [rsp+0h] [rbp-20h]
 
   v31 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriPoetryExcelConfig = v2;
@@ -2326,7 +2326,7 @@ void __cdecl data::IrodoriPoetryExcelConfig::~IrodoriPoetryExcelConfig(data::Iro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriPoetryExcelConfig = v2;
@@ -2355,7 +2355,7 @@ void __cdecl data::IrodoriPoetryLineExcelConfig::IrodoriPoetryLineExcelConfig(
   const data::IrodoriPoetryLineExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryLineExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryLineExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_IrodoriPoetryLineExcelConfig = v2;
@@ -2403,7 +2403,7 @@ void __cdecl data::IrodoriPoetryLineExcelConfig::~IrodoriPoetryLineExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::IrodoriPoetryLineExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::IrodoriPoetryLineExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_IrodoriPoetryLineExcelConfig = v2;

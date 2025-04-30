@@ -20,7 +20,7 @@ void __cdecl data::ConfigBaseWidget::ConfigBaseWidget(data::ConfigBaseWidget *co
   __int64 v15; // rdx
 
   std::enable_shared_from_this<data::ConfigBaseWidget>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseWidget>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseWidget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseWidget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -140,7 +140,7 @@ void __cdecl data::ConfigBaseWidget::ConfigBaseWidget(
   std::enable_shared_from_this<data::ConfigBaseWidget>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseWidget>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseWidget + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseWidget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseWidget = v3;
@@ -284,7 +284,7 @@ void __cdecl data::ConfigBaseWidget::~ConfigBaseWidget(data::ConfigBaseWidget *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseWidget + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseWidget + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -360,7 +360,7 @@ void __cdecl data::ConfigWidgetAnchorPoint::ConfigWidgetAnchorPoint(data::Config
   __int64 v3; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAnchorPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAnchorPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -403,7 +403,7 @@ void __cdecl data::ConfigWidgetAnchorPoint::ConfigWidgetAnchorPoint(
 
   v10 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAnchorPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAnchorPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -463,7 +463,7 @@ void __cdecl data::ConfigWidgetAnchorPoint::~ConfigWidgetAnchorPoint(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAnchorPoint + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAnchorPoint + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -532,7 +532,7 @@ void __cdecl data::ConfigWidgetAnchorPointFactory::ConfigWidgetAnchorPointFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAnchorPointFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAnchorPointFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAnchorPointFactory = v2;
@@ -548,7 +548,7 @@ void __cdecl data::ConfigWidgetBonfire::ConfigWidgetBonfire(data::ConfigWidgetBo
   __int64 v5; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBonfire + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBonfire + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -623,7 +623,7 @@ void __cdecl data::ConfigWidgetBonfire::ConfigWidgetBonfire(
 
   v17 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBonfire + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBonfire + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -731,7 +731,7 @@ void __cdecl data::ConfigWidgetBonfire::~ConfigWidgetBonfire(data::ConfigWidgetB
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBonfire + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBonfire + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -798,7 +798,7 @@ void __cdecl data::ConfigWidgetBonfireFactory::ConfigWidgetBonfireFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBonfireFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBonfireFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetBonfireFactory = v2;
@@ -811,7 +811,7 @@ void __cdecl data::ConfigWidgetCondenseResin::ConfigWidgetCondenseResin(data::Co
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetCondenseResin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetCondenseResin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -833,7 +833,7 @@ void __cdecl data::ConfigWidgetCondenseResin::ConfigWidgetCondenseResin(
   char v4; // al
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetCondenseResin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetCondenseResin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -865,7 +865,7 @@ void __cdecl data::ConfigWidgetCondenseResin::~ConfigWidgetCondenseResin(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetCondenseResin + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetCondenseResin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -933,7 +933,7 @@ void __cdecl data::ConfigWidgetCondenseResinFactory::ConfigWidgetCondenseResinFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetCondenseResinFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetCondenseResinFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetCondenseResinFactory = v2;
@@ -991,7 +991,7 @@ void __cdecl data::ConfigWidgetLunchBox::ConfigWidgetLunchBox(data::ConfigWidget
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetLunchBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetLunchBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1007,7 +1007,7 @@ void __cdecl data::ConfigWidgetLunchBox::ConfigWidgetLunchBox(
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetLunchBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetLunchBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1021,7 +1021,7 @@ void __cdecl data::ConfigWidgetLunchBox::~ConfigWidgetLunchBox(data::ConfigWidge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetLunchBox + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetLunchBox + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1098,7 +1098,7 @@ void __cdecl data::ConfigWidgetLunchBoxFactory::ConfigWidgetLunchBoxFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetLunchBoxFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetLunchBoxFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetLunchBoxFactory = v2;
@@ -1116,7 +1116,7 @@ void __cdecl data::ConfigWidgetOneoffGatherPointDetector::ConfigWidgetOneoffGath
   __int64 v6; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOneoffGatherPointDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOneoffGatherPointDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1218,7 +1218,7 @@ void __cdecl data::ConfigWidgetOneoffGatherPointDetector::ConfigWidgetOneoffGath
 
   v25 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOneoffGatherPointDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOneoffGatherPointDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1361,7 +1361,7 @@ void __cdecl data::ConfigWidgetOneoffGatherPointDetector::~ConfigWidgetOneoffGat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOneoffGatherPointDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOneoffGatherPointDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1439,7 +1439,7 @@ void __cdecl data::ConfigWidgetOneoffGatherPointDetectorFactory::ConfigWidgetOne
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOneoffGatherPointDetectorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOneoffGatherPointDetectorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetOneoffGatherPointDetectorFactory = v2;
@@ -1454,7 +1454,7 @@ void __cdecl data::ConfigWidgetClientDetector::ConfigWidgetClientDetector(data::
   __int64 v4; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1512,7 +1512,7 @@ void __cdecl data::ConfigWidgetClientDetector::ConfigWidgetClientDetector(
 
   v13 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1598,7 +1598,7 @@ void __cdecl data::ConfigWidgetClientDetector::~ConfigWidgetClientDetector(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1666,7 +1666,7 @@ void __cdecl data::ConfigWidgetClientDetectorFactory::ConfigWidgetClientDetector
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientDetectorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientDetectorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetClientDetectorFactory = v2;
@@ -1683,7 +1683,7 @@ void __cdecl data::ConfigWidgetClientCollector::ConfigWidgetClientCollector(
   __int64 v5; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientCollector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientCollector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1758,7 +1758,7 @@ void __cdecl data::ConfigWidgetClientCollector::ConfigWidgetClientCollector(
 
   v20 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientCollector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientCollector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1868,7 +1868,7 @@ void __cdecl data::ConfigWidgetClientCollector::~ConfigWidgetClientCollector(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientCollector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientCollector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1936,7 +1936,7 @@ void __cdecl data::ConfigWidgetClientCollectorFactory::ConfigWidgetClientCollect
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetClientCollectorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetClientCollectorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetClientCollectorFactory = v2;
@@ -1949,7 +1949,7 @@ void __cdecl data::ConfigWidgetAttachAvatar::ConfigWidgetAttachAvatar(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAttachAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAttachAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1971,7 +1971,7 @@ void __cdecl data::ConfigWidgetAttachAvatar::ConfigWidgetAttachAvatar(
   char v4; // al
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAttachAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAttachAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -1996,7 +1996,7 @@ void __cdecl data::ConfigWidgetAttachAvatar::~ConfigWidgetAttachAvatar(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAttachAvatar + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAttachAvatar + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2071,7 +2071,7 @@ void __cdecl data::ConfigWidgetAttachAvatarFactory::ConfigWidgetAttachAvatarFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAttachAvatarFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAttachAvatarFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAttachAvatarFactory = v2;
@@ -2086,7 +2086,7 @@ void __cdecl data::ConfigWidgetTreasureMapDetector::ConfigWidgetTreasureMapDetec
   __int64 v3; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTreasureMapDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTreasureMapDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2137,7 +2137,7 @@ void __cdecl data::ConfigWidgetTreasureMapDetector::ConfigWidgetTreasureMapDetec
 
   v13 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTreasureMapDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTreasureMapDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2212,7 +2212,7 @@ void __cdecl data::ConfigWidgetTreasureMapDetector::~ConfigWidgetTreasureMapDete
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTreasureMapDetector + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTreasureMapDetector + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2282,7 +2282,7 @@ void __cdecl data::ConfigWidgetTreasureMapDetectorFactory::ConfigWidgetTreasureM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTreasureMapDetectorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTreasureMapDetectorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetTreasureMapDetectorFactory = v2;
@@ -2300,7 +2300,7 @@ void __cdecl data::ConfigWidgetGadgetBuilder::ConfigWidgetGadgetBuilder(data::Co
   __int64 v7; // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetGadgetBuilder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetGadgetBuilder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2385,7 +2385,7 @@ void __cdecl data::ConfigWidgetGadgetBuilder::ConfigWidgetGadgetBuilder(
 
   v22 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetGadgetBuilder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetGadgetBuilder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2497,7 +2497,7 @@ void __cdecl data::ConfigWidgetGadgetBuilder::~ConfigWidgetGadgetBuilder(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetGadgetBuilder + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetGadgetBuilder + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2572,7 +2572,7 @@ void __cdecl data::ConfigWidgetGadgetBuilderFactory::ConfigWidgetGadgetBuilderFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetGadgetBuilderFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetGadgetBuilderFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetGadgetBuilderFactory = v2;
@@ -2587,7 +2587,7 @@ void __cdecl data::ConfigWidgetTakePhoto::ConfigWidgetTakePhoto(data::ConfigWidg
   __int64 v4; // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget((data::ConfigBaseWidget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2614,7 +2614,7 @@ void __cdecl data::ConfigWidgetTakePhoto::ConfigWidgetTakePhoto(
   __int64 v7; // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget((data::ConfigBaseWidget *const)this, (const data::ConfigBaseWidget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2640,7 +2640,7 @@ void __cdecl data::ConfigWidgetTakePhoto::~ConfigWidgetTakePhoto(data::ConfigWid
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTakePhoto + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTakePhoto + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2718,7 +2718,7 @@ void __cdecl data::ConfigWidgetTakePhotoFactory::ConfigWidgetTakePhotoFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetTakePhotoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetTakePhotoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetTakePhotoFactory = v2;
@@ -2733,7 +2733,7 @@ void __cdecl data::ConfigWidgetBlessingCamera::ConfigWidgetBlessingCamera(data::
   __int64 v4; // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget((data::ConfigBaseWidget *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBlessingCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBlessingCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2757,7 +2757,7 @@ void __cdecl data::ConfigWidgetBlessingCamera::ConfigWidgetBlessingCamera(
   __int64 v7; // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget((data::ConfigBaseWidget *const)this, (const data::ConfigBaseWidget *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBlessingCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBlessingCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2781,7 +2781,7 @@ void __cdecl data::ConfigWidgetBlessingCamera::~ConfigWidgetBlessingCamera(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBlessingCamera + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBlessingCamera + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2857,7 +2857,7 @@ void __cdecl data::ConfigWidgetBlessingCameraFactory::ConfigWidgetBlessingCamera
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetBlessingCameraFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetBlessingCameraFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetBlessingCameraFactory = v2;
@@ -2872,7 +2872,7 @@ void __cdecl data::ConfigWidgetMiracleRing::ConfigWidgetMiracleRing(data::Config
   __int64 v4; // rsi
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetMiracleRing + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetMiracleRing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -2939,7 +2939,7 @@ void __cdecl data::ConfigWidgetMiracleRing::ConfigWidgetMiracleRing(
 
   v14 = a2;
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetMiracleRing + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetMiracleRing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3037,7 +3037,7 @@ void __cdecl data::ConfigWidgetMiracleRing::~ConfigWidgetMiracleRing(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetMiracleRing + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetMiracleRing + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3105,7 +3105,7 @@ void __cdecl data::ConfigWidgetMiracleRingFactory::ConfigWidgetMiracleRingFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetMiracleRingFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetMiracleRingFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetMiracleRingFactory = v2;
@@ -3118,7 +3118,7 @@ void __cdecl data::ConfigWidgetWaterSprite::ConfigWidgetWaterSprite(data::Config
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSprite + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSprite + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3135,7 +3135,7 @@ void __cdecl data::ConfigWidgetWaterSprite::ConfigWidgetWaterSprite(
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSprite + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSprite + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3150,7 +3150,7 @@ void __cdecl data::ConfigWidgetWaterSprite::~ConfigWidgetWaterSprite(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSprite + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSprite + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3228,7 +3228,7 @@ void __cdecl data::ConfigWidgetWaterSpriteFactory::ConfigWidgetWaterSpriteFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSpriteFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSpriteFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetWaterSpriteFactory = v2;
@@ -3241,7 +3241,7 @@ void __cdecl data::ConfigWidgetWaterSpriteToy::ConfigWidgetWaterSpriteToy(data::
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSpriteToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSpriteToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3256,7 +3256,7 @@ void __cdecl data::ConfigWidgetWaterSpriteToy::ConfigWidgetWaterSpriteToy(
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSpriteToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSpriteToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3270,7 +3270,7 @@ void __cdecl data::ConfigWidgetWaterSpriteToy::~ConfigWidgetWaterSpriteToy(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSpriteToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSpriteToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3347,7 +3347,7 @@ void __cdecl data::ConfigWidgetWaterSpriteToyFactory::ConfigWidgetWaterSpriteToy
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetWaterSpriteToyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetWaterSpriteToyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetWaterSpriteToyFactory = v2;
@@ -3361,7 +3361,7 @@ void __cdecl data::ConfigWidgetAbilityGroupGenerator::ConfigWidgetAbilityGroupGe
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAbilityGroupGenerator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAbilityGroupGenerator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3376,7 +3376,7 @@ void __cdecl data::ConfigWidgetAbilityGroupGenerator::ConfigWidgetAbilityGroupGe
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAbilityGroupGenerator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAbilityGroupGenerator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3390,7 +3390,7 @@ void __cdecl data::ConfigWidgetAbilityGroupGenerator::~ConfigWidgetAbilityGroupG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAbilityGroupGenerator + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAbilityGroupGenerator + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3469,7 +3469,7 @@ void __cdecl data::ConfigWidgetAbilityGroupGeneratorFactory::ConfigWidgetAbility
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAbilityGroupGeneratorFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAbilityGroupGeneratorFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAbilityGroupGeneratorFactory = v2;
@@ -3482,7 +3482,7 @@ void __cdecl data::ConfigWidgetOpenPage::ConfigWidgetOpenPage(data::ConfigWidget
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOpenPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOpenPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3497,7 +3497,7 @@ void __cdecl data::ConfigWidgetOpenPage::ConfigWidgetOpenPage(
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOpenPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOpenPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3510,7 +3510,7 @@ void __cdecl data::ConfigWidgetOpenPage::~ConfigWidgetOpenPage(data::ConfigWidge
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOpenPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOpenPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3586,7 +3586,7 @@ void __cdecl data::ConfigWidgetOpenPageFactory::ConfigWidgetOpenPageFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetOpenPageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetOpenPageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetOpenPageFactory = v2;
@@ -3600,7 +3600,7 @@ void __cdecl data::ConfigWidgetUseAttachAbilityGroupToy::ConfigWidgetUseAttachAb
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseAttachAbilityGroupToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseAttachAbilityGroupToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3623,7 +3623,7 @@ void __cdecl data::ConfigWidgetUseAttachAbilityGroupToy::ConfigWidgetUseAttachAb
   char v5; // al
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseAttachAbilityGroupToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseAttachAbilityGroupToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3653,7 +3653,7 @@ void __cdecl data::ConfigWidgetUseAttachAbilityGroupToy::~ConfigWidgetUseAttachA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseAttachAbilityGroupToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseAttachAbilityGroupToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3734,7 +3734,7 @@ void __cdecl data::ConfigWidgetUseAttachAbilityGroupToyFactory::ConfigWidgetUseA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseAttachAbilityGroupToyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseAttachAbilityGroupToyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetUseAttachAbilityGroupToyFactory = v2;
@@ -3747,7 +3747,7 @@ void __cdecl data::ConfigWidgetUseItemToy::ConfigWidgetUseItemToy(data::ConfigWi
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseItemToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseItemToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3761,7 +3761,7 @@ void __cdecl data::ConfigWidgetUseItemToy::ConfigWidgetUseItemToy(
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseItemToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseItemToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3773,7 +3773,7 @@ void __cdecl data::ConfigWidgetUseItemToy::~ConfigWidgetUseItemToy(data::ConfigW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseItemToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseItemToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3848,7 +3848,7 @@ void __cdecl data::ConfigWidgetUseItemToyFactory::ConfigWidgetUseItemToyFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetUseItemToyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetUseItemToyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetUseItemToyFactory = v2;
@@ -3861,7 +3861,7 @@ void __cdecl data::ConfigWidgetAddBuffToy::ConfigWidgetAddBuffToy(data::ConfigWi
   int (**v2)(...); // rdx
 
   data::ConfigBaseWidget::ConfigBaseWidget(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAddBuffToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAddBuffToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3883,7 +3883,7 @@ void __cdecl data::ConfigWidgetAddBuffToy::ConfigWidgetAddBuffToy(
   char v4; // al
 
   data::ConfigBaseWidget::ConfigBaseWidget(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAddBuffToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAddBuffToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3908,7 +3908,7 @@ void __cdecl data::ConfigWidgetAddBuffToy::~ConfigWidgetAddBuffToy(data::ConfigW
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAddBuffToy + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAddBuffToy + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseWidget = v2;
@@ -3983,7 +3983,7 @@ void __cdecl data::ConfigWidgetAddBuffToyFactory::ConfigWidgetAddBuffToyFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigWidgetAddBuffToyFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigWidgetAddBuffToyFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigWidgetAddBuffToyFactory = v2;

@@ -11,7 +11,7 @@ void __cdecl data::ReliquaryExcelConfig::ReliquaryExcelConfig(data::ReliquaryExc
   __int64 v6; // rsi
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -118,7 +118,7 @@ void __cdecl data::ReliquaryExcelConfig::ReliquaryExcelConfig(
   char v28; // al
 
   data::ItemConfig::ItemConfig((data::ItemConfig *const)this, (const data::ItemConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ItemConfig = v2;
@@ -276,7 +276,7 @@ void __cdecl data::ReliquaryExcelConfig::~ReliquaryExcelConfig(data::ReliquaryEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ItemConfig = v2;
@@ -305,7 +305,7 @@ void __cdecl data::ReliquaryMainPropExcelConfig::ReliquaryMainPropExcelConfig(
   const data::ReliquaryMainPropExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryMainPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryMainPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryMainPropExcelConfig = v2;
@@ -380,7 +380,7 @@ void __cdecl data::ReliquaryMainPropExcelConfig::~ReliquaryMainPropExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryMainPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryMainPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryMainPropExcelConfig = v2;
@@ -395,7 +395,7 @@ void __cdecl data::ReliquaryMainPropGuaranteeExcelConfig::ReliquaryMainPropGuara
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryMainPropGuaranteeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryMainPropGuaranteeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryMainPropGuaranteeExcelConfig = v2;
@@ -467,7 +467,7 @@ void __cdecl data::ReliquaryMainPropGuaranteeExcelConfig::ReliquaryMainPropGuara
   const data::ReliquaryMainPropGuaranteeExcelConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryMainPropGuaranteeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryMainPropGuaranteeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryMainPropGuaranteeExcelConfig = v2;
@@ -563,7 +563,7 @@ void __cdecl data::ReliquaryMainPropGuaranteeExcelConfig::~ReliquaryMainPropGuar
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryMainPropGuaranteeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryMainPropGuaranteeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryMainPropGuaranteeExcelConfig = v2;
@@ -721,7 +721,7 @@ void __cdecl data::ReliquaryAffixExcelConfig::ReliquaryAffixExcelConfig(
   const data::ReliquaryAffixExcelConfig *v19; // [rsp+0h] [rbp-10h]
 
   v19 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryAffixExcelConfig = v2;
@@ -824,7 +824,7 @@ void __cdecl data::ReliquaryAffixExcelConfig::~ReliquaryAffixExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryAffixExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryAffixExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryAffixExcelConfig = v2;
@@ -844,7 +844,7 @@ void __cdecl data::ReliquaryLevelExcelConfig::ReliquaryLevelExcelConfig(data::Re
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryLevelExcelConfig = v2;
@@ -886,7 +886,7 @@ void __cdecl data::ReliquaryLevelExcelConfig::ReliquaryLevelExcelConfig(
   const data::ReliquaryLevelExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryLevelExcelConfig = v2;
@@ -946,7 +946,7 @@ void __cdecl data::ReliquaryLevelExcelConfig::~ReliquaryLevelExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryLevelExcelConfig = v2;
@@ -960,7 +960,7 @@ void __cdecl data::ReliquarySetExcelConfig::ReliquarySetExcelConfig(data::Reliqu
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquarySetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquarySetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquarySetExcelConfig = v2;
@@ -1022,7 +1022,7 @@ void __cdecl data::ReliquarySetExcelConfig::ReliquarySetExcelConfig(
   const data::ReliquarySetExcelConfig *v17; // [rsp+0h] [rbp-20h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquarySetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquarySetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquarySetExcelConfig = v2;
@@ -1112,7 +1112,7 @@ void __cdecl data::ReliquarySetExcelConfig::~ReliquarySetExcelConfig(data::Reliq
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquarySetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquarySetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquarySetExcelConfig = v2;
@@ -1134,7 +1134,7 @@ void __cdecl data::ReliquaryPowerupExcelConfig::ReliquaryPowerupExcelConfig(
   const data::ReliquaryPowerupExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryPowerupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryPowerupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryPowerupExcelConfig = v2;
@@ -1182,7 +1182,7 @@ void __cdecl data::ReliquaryPowerupExcelConfig::~ReliquaryPowerupExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryPowerupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryPowerupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryPowerupExcelConfig = v2;

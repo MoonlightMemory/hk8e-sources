@@ -7,7 +7,7 @@ void __cdecl data::MpCrucibleRewardConfig::MpCrucibleRewardConfig(data::MpCrucib
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MpCrucibleRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpCrucibleRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpCrucibleRewardConfig = v2;
@@ -48,7 +48,7 @@ void __cdecl data::MpCrucibleRewardConfig::MpCrucibleRewardConfig(
   const data::MpCrucibleRewardConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpCrucibleRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpCrucibleRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpCrucibleRewardConfig = v2;
@@ -100,7 +100,7 @@ void __cdecl data::MpCrucibleRewardConfig::~MpCrucibleRewardConfig(data::MpCruci
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpCrucibleRewardConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpCrucibleRewardConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpCrucibleRewardConfig = v2;
@@ -149,7 +149,7 @@ void __cdecl data::MpPlayMatchExcelConfig::MpPlayMatchExcelConfig(
   const data::MpPlayMatchExcelConfig *v30; // [rsp+0h] [rbp-10h]
 
   v30 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpPlayMatchExcelConfig = v2;
@@ -279,7 +279,7 @@ void __cdecl data::MpPlayMatchExcelConfig::~MpPlayMatchExcelConfig(data::MpPlayM
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayMatchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayMatchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayMatchExcelConfig = v2;
@@ -300,7 +300,7 @@ void __cdecl data::MpPlayGroupExcelConfig::MpPlayGroupExcelConfig(data::MpPlayGr
   __int64 v10; // rsi
   __int64 v11; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayGroupExcelConfig = v2;
@@ -511,7 +511,7 @@ void __cdecl data::MpPlayGroupExcelConfig::MpPlayGroupExcelConfig(
   const data::MpPlayGroupExcelConfig *v61; // [rsp+0h] [rbp-20h]
 
   v61 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpPlayGroupExcelConfig = v2;
@@ -820,7 +820,7 @@ void __cdecl data::MpPlayGroupExcelConfig::~MpPlayGroupExcelConfig(data::MpPlayG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayGroupExcelConfig = v2;
@@ -845,7 +845,7 @@ void __cdecl data::MpPlayWatcherConfig::MpPlayWatcherConfig(data::MpPlayWatcherC
   __int64 v5; // rdx
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -887,7 +887,7 @@ void __cdecl data::MpPlayWatcherConfig::MpPlayWatcherConfig(
   __int64 v12; // rdx
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -937,7 +937,7 @@ void __cdecl data::MpPlayWatcherConfig::~MpPlayWatcherConfig(data::MpPlayWatcher
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayWatcherConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayWatcherConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -958,7 +958,7 @@ void __cdecl data::MpPlayStatisticConfig::MpPlayStatisticConfig(data::MpPlayStat
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayStatisticConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayStatisticConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayStatisticConfig = v2;
@@ -1023,7 +1023,7 @@ void __cdecl data::MpPlayStatisticConfig::MpPlayStatisticConfig(
   const data::MpPlayStatisticConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayStatisticConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayStatisticConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpPlayStatisticConfig = v2;
@@ -1109,7 +1109,7 @@ void __cdecl data::MpPlayStatisticConfig::~MpPlayStatisticConfig(data::MpPlaySta
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayStatisticConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayStatisticConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayStatisticConfig = v2;
@@ -1134,7 +1134,7 @@ void __cdecl data::MpPlayScoreExcelConfig::MpPlayScoreExcelConfig(data::MpPlaySc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayScoreExcelConfig = v2;
@@ -1164,7 +1164,7 @@ void __cdecl data::MpPlayScoreExcelConfig::MpPlayScoreExcelConfig(
   const data::MpPlayScoreExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpPlayScoreExcelConfig = v2;
@@ -1208,7 +1208,7 @@ void __cdecl data::MpPlayScoreExcelConfig::~MpPlayScoreExcelConfig(data::MpPlayS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayScoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayScoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayScoreExcelConfig = v2;
@@ -1222,7 +1222,7 @@ void __cdecl data::MpPlayAbilityGroupExcelConfig::MpPlayAbilityGroupExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayAbilityGroupExcelConfig = v2;
@@ -1255,7 +1255,7 @@ void __cdecl data::MpPlayAbilityGroupExcelConfig::MpPlayAbilityGroupExcelConfig(
   const data::MpPlayAbilityGroupExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MpPlayAbilityGroupExcelConfig = v2;
@@ -1304,7 +1304,7 @@ void __cdecl data::MpPlayAbilityGroupExcelConfig::~MpPlayAbilityGroupExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MpPlayAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MpPlayAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MpPlayAbilityGroupExcelConfig = v2;

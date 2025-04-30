@@ -19,7 +19,7 @@ void __cdecl data::ActivityRockBoardExploreStageExcelConfig::ActivityRockBoardEx
   const data::ActivityRockBoardExploreStageExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityRockBoardExploreStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityRockBoardExploreStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityRockBoardExploreStageExcelConfig = v2;
@@ -86,7 +86,7 @@ void __cdecl data::ActivityRockBoardExploreStageExcelConfig::~ActivityRockBoardE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityRockBoardExploreStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityRockBoardExploreStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityRockBoardExploreStageExcelConfig = v2;
@@ -116,7 +116,7 @@ void __cdecl data::ActivityRockBoardExploreQuestExcelConfig::ActivityRockBoardEx
   const data::ActivityRockBoardExploreQuestExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityRockBoardExploreQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityRockBoardExploreQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityRockBoardExploreQuestExcelConfig = v2;
@@ -169,7 +169,7 @@ void __cdecl data::ActivityRockBoardExploreQuestExcelConfig::~ActivityRockBoardE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityRockBoardExploreQuestExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityRockBoardExploreQuestExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityRockBoardExploreQuestExcelConfig = v2;

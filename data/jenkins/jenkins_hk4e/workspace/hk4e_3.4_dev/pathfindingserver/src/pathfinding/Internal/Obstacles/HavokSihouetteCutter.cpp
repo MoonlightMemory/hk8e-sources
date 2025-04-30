@@ -10,7 +10,7 @@ void __cdecl HavokSihouetteCutter::HavokSihouetteCutter(
   stl_allocator<int,16> a; // [rsp+1Fh] [rbp-11h] BYREF
 
   ICarving::ICarving(this);
-  v2 = (int (**)(...))(&`vtable for'HavokSihouetteCutter + 2);
+  v2 = (int (**)(...))(&`vtable for HavokSihouetteCutter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ICarving = v2;
@@ -32,7 +32,7 @@ void __cdecl HavokSihouetteCutter::~HavokSihouetteCutter(HavokSihouetteCutter *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'HavokSihouetteCutter + 2);
+  v1 = (int (**)(...))(&`vtable for HavokSihouetteCutter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_ICarving = v1;

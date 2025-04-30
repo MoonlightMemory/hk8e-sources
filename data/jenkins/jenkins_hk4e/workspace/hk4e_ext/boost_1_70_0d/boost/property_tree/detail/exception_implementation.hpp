@@ -243,12 +243,12 @@ LABEL_69:
   }
   else
   {
-    *(_QWORD *)v5->baseclass_0 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)v5->baseclass_0 = &`vtable for boost::property_tree::ptree_error + 2;
     if ( v38[0] != &v39 )
       operator delete(v38[0]);
     if ( !*(_BYTE *)(((unsigned __int64)v5 >> 3) + 0x7FFF8000) )
     {
-      *(_QWORD *)v5->baseclass_0 = &`vtable for'boost::property_tree::ptree_bad_path + 2;
+      *(_QWORD *)v5->baseclass_0 = &`vtable for boost::property_tree::ptree_bad_path + 2;
       p_m_path = &v5->m_path;
       v31 = operator new(0x38uLL);
       goto LABEL_77;
@@ -262,7 +262,7 @@ LABEL_77:
     __asan_report_store8();
     goto LABEL_83;
   }
-  *(_QWORD *)v31 = &`vtable for'boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
+  *(_QWORD *)v31 = &`vtable for boost::any::holder<boost::property_tree::string_path<std::string,boost::property_tree::id_translator<std::string>>>
                  + 2;
   v4 = (const std::string *)(v31 + 8);
   if ( *(_BYTE *)(((v31 + 8) >> 3) + 0x7FFF8000) )
@@ -336,7 +336,7 @@ LABEL_100:
       __asan_handle_no_return(v37);
       _Unwind_Resume(v36);
     }
-    *(_QWORD *)v5->baseclass_0 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)v5->baseclass_0 = &`vtable for boost::property_tree::ptree_error + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)v5);
     __asan_handle_no_return(v5);
     _Unwind_Resume(v35);

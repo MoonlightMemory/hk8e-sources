@@ -8,7 +8,7 @@ void __cdecl boost::asio::bad_executor::bad_executor(
   __int64 *v2; // rdx
 
   std::exception::exception((std::exception *const)this, (const std::exception *)a2);
-  v2 = &`vtable for'boost::asio::bad_executor + 2;
+  v2 = &`vtable for boost::asio::bad_executor + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *this = (boost::asio::bad_executor)v2;
@@ -19,7 +19,7 @@ void __cdecl boost::asio::bad_executor::~bad_executor(boost::asio::bad_executor 
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::asio::bad_executor + 2;
+  v1 = &`vtable for boost::asio::bad_executor + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *this = (boost::asio::bad_executor)v1;
@@ -113,7 +113,7 @@ void __cdecl boost::asio::executor::impl_base::impl_base(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'boost::asio::executor::impl_base + 2);
+  v2 = (int (**)(...))(&`vtable for boost::asio::executor::impl_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_impl_base = v2;
@@ -134,7 +134,7 @@ void __cdecl boost::asio::executor::impl_base::~impl_base(boost::asio::executor:
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::executor::impl_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::asio::executor::impl_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_impl_base = v1;

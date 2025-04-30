@@ -18,7 +18,7 @@ void __cdecl data::SceneExcelConfig::SceneExcelConfig(data::SceneExcelConfig *co
   __int64 v13; // rsi
   __int64 v14; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneExcelConfig = v2;
@@ -176,7 +176,7 @@ void __cdecl data::SceneExcelConfig::SceneExcelConfig(
   const data::SceneExcelConfig *v56; // [rsp+0h] [rbp-20h]
 
   v56 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneExcelConfig = v2;
@@ -394,7 +394,7 @@ void __cdecl data::SceneExcelConfig::~SceneExcelConfig(data::SceneExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneExcelConfig = v2;
@@ -410,7 +410,7 @@ void __cdecl data::TriggerExcelConfig::TriggerExcelConfig(data::TriggerExcelConf
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::TriggerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TriggerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TriggerExcelConfig = v2;
@@ -452,7 +452,7 @@ void __cdecl data::TriggerExcelConfig::TriggerExcelConfig(
   const data::TriggerExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TriggerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TriggerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TriggerExcelConfig = v2;
@@ -512,7 +512,7 @@ void __cdecl data::TriggerExcelConfig::~TriggerExcelConfig(data::TriggerExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TriggerExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TriggerExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TriggerExcelConfig = v2;
@@ -526,7 +526,7 @@ void __cdecl data::RoomExcelConfig::RoomExcelConfig(data::RoomExcelConfig *const
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::RoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoomExcelConfig = v2;
@@ -558,7 +558,7 @@ void __cdecl data::RoomExcelConfig::~RoomExcelConfig(data::RoomExcelConfig *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoomExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoomExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoomExcelConfig = v2;
@@ -571,7 +571,7 @@ void __cdecl data::WorldExcelConfig::WorldExcelConfig(data::WorldExcelConfig *co
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldExcelConfig = v2;
@@ -613,7 +613,7 @@ void __cdecl data::WorldExcelConfig::WorldExcelConfig(
   const data::WorldExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldExcelConfig = v2;
@@ -673,7 +673,7 @@ void __cdecl data::WorldExcelConfig::~WorldExcelConfig(data::WorldExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldExcelConfig = v2;
@@ -694,7 +694,7 @@ void __cdecl data::WorldLevelExcelConfig::WorldLevelExcelConfig(
   const data::WorldLevelExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WorldLevelExcelConfig = v2;
@@ -733,7 +733,7 @@ void __cdecl data::WorldLevelExcelConfig::~WorldLevelExcelConfig(data::WorldLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WorldLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WorldLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WorldLevelExcelConfig = v2;
@@ -752,7 +752,7 @@ void __cdecl data::SceneTagCond::SceneTagCond(data::SceneTagCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTagCond = v2;
@@ -781,7 +781,7 @@ void __cdecl data::SceneTagCond::SceneTagCond(data::SceneTagCond *const this, co
   const data::SceneTagCond *v7; // [rsp+0h] [rbp-10h]
 
   v7 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneTagCond = v2;
@@ -823,7 +823,7 @@ void __cdecl data::SceneTagCond::~SceneTagCond(data::SceneTagCond *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTagCond = v2;
@@ -839,7 +839,7 @@ void __cdecl data::SceneTagConfig::SceneTagConfig(data::SceneTagConfig *const th
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTagConfig = v2;
@@ -891,7 +891,7 @@ void __cdecl data::SceneTagConfig::SceneTagConfig(data::SceneTagConfig *const th
   const data::SceneTagConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SceneTagConfig = v2;
@@ -961,7 +961,7 @@ void __cdecl data::SceneTagConfig::~SceneTagConfig(data::SceneTagConfig *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SceneTagConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SceneTagConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SceneTagConfig = v2;

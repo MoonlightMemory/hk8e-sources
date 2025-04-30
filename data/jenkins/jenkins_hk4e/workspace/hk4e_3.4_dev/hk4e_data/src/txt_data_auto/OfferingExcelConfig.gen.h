@@ -33,7 +33,7 @@ void __cdecl data::OfferingActionContent::OfferingActionContent(data::OfferingAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingActionContent = v2;
@@ -57,7 +57,7 @@ void __cdecl data::OfferingActionContent::OfferingActionContent(
   const data::OfferingActionContent *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OfferingActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OfferingActionContent = v2;
@@ -83,7 +83,7 @@ void __cdecl data::OfferingActionContent::~OfferingActionContent(data::OfferingA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingActionContent + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingActionContent + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingActionContent = v2;
@@ -190,7 +190,7 @@ void __cdecl data::OfferingLevelUpExcelConfig::OfferingLevelUpExcelConfig(data::
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingLevelUpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingLevelUpExcelConfig = v2;
@@ -245,7 +245,7 @@ void __cdecl data::OfferingLevelUpExcelConfig::OfferingLevelUpExcelConfig(
   const data::OfferingLevelUpExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OfferingLevelUpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OfferingLevelUpExcelConfig = v2;
@@ -320,7 +320,7 @@ void __cdecl data::OfferingLevelUpExcelConfig::~OfferingLevelUpExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingLevelUpExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingLevelUpExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingLevelUpExcelConfig = v2;
@@ -364,7 +364,7 @@ void __cdecl data::OfferingOpenStateConfig::OfferingOpenStateConfig(
   const data::OfferingOpenStateConfig *v22; // [rsp+0h] [rbp-10h]
 
   v22 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OfferingOpenStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingOpenStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OfferingOpenStateConfig = v2;
@@ -469,7 +469,7 @@ void __cdecl data::OfferingOpenStateConfig::~OfferingOpenStateConfig(data::Offer
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingOpenStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingOpenStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingOpenStateConfig = v2;
@@ -494,7 +494,7 @@ void __cdecl data::OraionokamiDataExcelConfig::OraionokamiDataExcelConfig(
   const data::OraionokamiDataExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OraionokamiDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OraionokamiDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OraionokamiDataExcelConfig = v2;
@@ -569,7 +569,7 @@ void __cdecl data::OraionokamiDataExcelConfig::~OraionokamiDataExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OraionokamiDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OraionokamiDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OraionokamiDataExcelConfig = v2;
@@ -584,7 +584,7 @@ void __cdecl data::OraionokamiDescExcelConfig::OraionokamiDescExcelConfig(
   uint32_t desc_id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::OraionokamiDescExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OraionokamiDescExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OraionokamiDescExcelConfig = v2;
@@ -618,7 +618,7 @@ void __cdecl data::OraionokamiDescExcelConfig::~OraionokamiDescExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OraionokamiDescExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OraionokamiDescExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OraionokamiDescExcelConfig = v2;
@@ -638,7 +638,7 @@ void __cdecl data::MichiaeOfferingDataExcelConfig::MichiaeOfferingDataExcelConfi
   const data::MichiaeOfferingDataExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeOfferingDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeOfferingDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MichiaeOfferingDataExcelConfig = v2;
@@ -678,7 +678,7 @@ void __cdecl data::MichiaeOfferingDataExcelConfig::~MichiaeOfferingDataExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MichiaeOfferingDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MichiaeOfferingDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MichiaeOfferingDataExcelConfig = v2;
@@ -708,7 +708,7 @@ void __cdecl data::OfferingVersionExcelConfig::OfferingVersionExcelConfig(
   const data::OfferingVersionExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OfferingVersionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingVersionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OfferingVersionExcelConfig = v2;
@@ -769,7 +769,7 @@ void __cdecl data::OfferingVersionExcelConfig::~OfferingVersionExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingVersionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingVersionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingVersionExcelConfig = v2;
@@ -789,7 +789,7 @@ void __cdecl data::OfferingLumenStoneExcelConfig::OfferingLumenStoneExcelConfig(
   const data::OfferingLumenStoneExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::OfferingLumenStoneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingLumenStoneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_OfferingLumenStoneExcelConfig = v2;
@@ -837,7 +837,7 @@ void __cdecl data::OfferingLumenStoneExcelConfig::~OfferingLumenStoneExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::OfferingLumenStoneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::OfferingLumenStoneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_OfferingLumenStoneExcelConfig = v2;

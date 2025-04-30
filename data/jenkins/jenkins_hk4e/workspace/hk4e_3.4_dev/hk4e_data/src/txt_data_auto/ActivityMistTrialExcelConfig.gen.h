@@ -9,7 +9,7 @@ void __cdecl data::ActivityMistTrialLevelDataExcelConfig::ActivityMistTrialLevel
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialLevelDataExcelConfig = v2;
@@ -78,7 +78,7 @@ void __cdecl data::ActivityMistTrialLevelDataExcelConfig::ActivityMistTrialLevel
   const data::ActivityMistTrialLevelDataExcelConfig *v16; // [rsp+0h] [rbp-20h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityMistTrialLevelDataExcelConfig = v2;
@@ -168,7 +168,7 @@ void __cdecl data::ActivityMistTrialLevelDataExcelConfig::~ActivityMistTrialLeve
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialLevelDataExcelConfig = v2;
@@ -207,7 +207,7 @@ void __cdecl data::ActivityMistTrialAvatarDataExcelConfig::ActivityMistTrialAvat
   const data::ActivityMistTrialAvatarDataExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialAvatarDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialAvatarDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityMistTrialAvatarDataExcelConfig = v2;
@@ -268,7 +268,7 @@ void __cdecl data::ActivityMistTrialAvatarDataExcelConfig::~ActivityMistTrialAva
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialAvatarDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialAvatarDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialAvatarDataExcelConfig = v2;
@@ -283,7 +283,7 @@ void __cdecl data::ActivityMistTrialWatcherListDataExcelConfig::ActivityMistTria
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialWatcherListDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialWatcherListDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialWatcherListDataExcelConfig = v2;
@@ -342,7 +342,7 @@ void __cdecl data::ActivityMistTrialWatcherListDataExcelConfig::ActivityMistTria
   const data::ActivityMistTrialWatcherListDataExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialWatcherListDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialWatcherListDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityMistTrialWatcherListDataExcelConfig = v2;
@@ -422,7 +422,7 @@ void __cdecl data::ActivityMistTrialWatcherListDataExcelConfig::~ActivityMistTri
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialWatcherListDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialWatcherListDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialWatcherListDataExcelConfig = v2;
@@ -445,7 +445,7 @@ void __cdecl data::ActivityMistTrialStatisticsListExcelConfig::ActivityMistTrial
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialStatisticsListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialStatisticsListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialStatisticsListExcelConfig = v2;
@@ -487,7 +487,7 @@ void __cdecl data::ActivityMistTrialStatisticsListExcelConfig::ActivityMistTrial
   const data::ActivityMistTrialStatisticsListExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialStatisticsListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialStatisticsListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityMistTrialStatisticsListExcelConfig = v2;
@@ -549,7 +549,7 @@ void __cdecl data::ActivityMistTrialStatisticsListExcelConfig::~ActivityMistTria
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialStatisticsListExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialStatisticsListExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialStatisticsListExcelConfig = v2;
@@ -563,7 +563,7 @@ void __cdecl data::ActivityMistTrialLevelFactorExcelConfig::ActivityMistTrialLev
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelFactorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelFactorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialLevelFactorExcelConfig = v2;
@@ -587,7 +587,7 @@ void __cdecl data::ActivityMistTrialLevelFactorExcelConfig::ActivityMistTrialLev
   const data::ActivityMistTrialLevelFactorExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelFactorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelFactorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityMistTrialLevelFactorExcelConfig = v2;
@@ -622,7 +622,7 @@ void __cdecl data::ActivityMistTrialLevelFactorExcelConfig::~ActivityMistTrialLe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityMistTrialLevelFactorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityMistTrialLevelFactorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityMistTrialLevelFactorExcelConfig = v2;

@@ -111,7 +111,7 @@ LABEL_22:
         *(_DWORD *)(v14 + 12) = 1;
         if ( !*(_BYTE *)((v14 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v14 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::TimerMgr,std::allocator<common::tools::TimerMgr>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v14 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::TimerMgr,std::allocator<common::tools::TimerMgr>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           v1 = v14 + 16;
           common::tools::TimerMgr::TimerMgr((common::tools::TimerMgr *const)(v14 + 16));
@@ -148,7 +148,7 @@ LABEL_23:
     __asan_report_store8(v0);
     goto LABEL_24;
   }
-  *(_QWORD *)v0 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::TimerMgr,common::tools::perf::allocator<common::tools::TimerMgr,common::tools::TimerMgr>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v0 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::TimerMgr,common::tools::perf::allocator<common::tools::TimerMgr,common::tools::TimerMgr>,(__gnu_cxx::_Lock_policy)2>
                 + 2;
   v2 = (common::tools::TimerMgr *)(v0 + 16);
   if ( common::tools::perf::MemoryPerf::is_record )

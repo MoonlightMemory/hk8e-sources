@@ -24,7 +24,7 @@ void __cdecl data::ReunionScheduleExcelConfig::ReunionScheduleExcelConfig(
   const data::ReunionScheduleExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReunionScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReunionScheduleExcelConfig = v2;
@@ -126,7 +126,7 @@ void __cdecl data::ReunionScheduleExcelConfig::~ReunionScheduleExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionScheduleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionScheduleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionScheduleExcelConfig = v2;
@@ -138,7 +138,7 @@ void __cdecl data::ReunionSignInExcelConfig::ReunionSignInExcelConfig(data::Reun
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionSignInExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionSignInExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionSignInExcelConfig = v2;
@@ -171,7 +171,7 @@ void __cdecl data::ReunionSignInExcelConfig::ReunionSignInExcelConfig(
   const data::ReunionSignInExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReunionSignInExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionSignInExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReunionSignInExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::ReunionSignInExcelConfig::~ReunionSignInExcelConfig(data::Reu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionSignInExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionSignInExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionSignInExcelConfig = v2;
@@ -249,7 +249,7 @@ void __cdecl data::ReunionMissionExcelConfig::ReunionMissionExcelConfig(data::Re
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
-  v5 = (int (**)(...))(&`vtable for'data::ReunionMissionExcelConfig + 2);
+  v5 = (int (**)(...))(&`vtable for data::ReunionMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionMissionExcelConfig = v5;
@@ -318,7 +318,7 @@ void __cdecl data::ReunionMissionExcelConfig::ReunionMissionExcelConfig(
   const data::ReunionMissionExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReunionMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReunionMissionExcelConfig = v2;
@@ -398,7 +398,7 @@ void __cdecl data::ReunionMissionExcelConfig::~ReunionMissionExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionMissionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionMissionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionMissionExcelConfig = v2;
@@ -418,7 +418,7 @@ void __cdecl data::ReunionWatcherExcelConfig::ReunionWatcherExcelConfig(data::Re
   __int64 v4; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ReunionWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -470,7 +470,7 @@ void __cdecl data::ReunionWatcherExcelConfig::ReunionWatcherExcelConfig(
   char v13; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ReunionWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -538,7 +538,7 @@ void __cdecl data::ReunionWatcherExcelConfig::~ReunionWatcherExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionWatcherExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionWatcherExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -559,7 +559,7 @@ void __cdecl data::ReunionPrivilegeConfig::ReunionPrivilegeConfig(data::ReunionP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionPrivilegeConfig = v2;
@@ -583,7 +583,7 @@ void __cdecl data::ReunionPrivilegeConfig::ReunionPrivilegeConfig(
   const data::ReunionPrivilegeConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReunionPrivilegeConfig = v2;
@@ -616,7 +616,7 @@ void __cdecl data::ReunionPrivilegeConfig::~ReunionPrivilegeConfig(data::Reunion
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionPrivilegeConfig = v2;
@@ -631,7 +631,7 @@ void __cdecl data::ReunionPrivilegeExcelConfig::ReunionPrivilegeExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionPrivilegeExcelConfig = v2;
@@ -673,7 +673,7 @@ void __cdecl data::ReunionPrivilegeExcelConfig::ReunionPrivilegeExcelConfig(
   const data::ReunionPrivilegeExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReunionPrivilegeExcelConfig = v2;
@@ -735,7 +735,7 @@ void __cdecl data::ReunionPrivilegeExcelConfig::~ReunionPrivilegeExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReunionPrivilegeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReunionPrivilegeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReunionPrivilegeExcelConfig = v2;

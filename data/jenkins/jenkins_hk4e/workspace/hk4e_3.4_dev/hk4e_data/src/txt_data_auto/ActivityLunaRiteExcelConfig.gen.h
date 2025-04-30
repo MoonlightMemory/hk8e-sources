@@ -14,7 +14,7 @@ void __cdecl data::LunaRitePreviewExcelConfig::LunaRitePreviewExcelConfig(
   const data::LunaRitePreviewExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LunaRitePreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRitePreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LunaRitePreviewExcelConfig = v2;
@@ -54,7 +54,7 @@ void __cdecl data::LunaRitePreviewExcelConfig::~LunaRitePreviewExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LunaRitePreviewExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRitePreviewExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LunaRitePreviewExcelConfig = v2;
@@ -92,7 +92,7 @@ void __cdecl data::LunaRiteSearchingExcelConfig::LunaRiteSearchingExcelConfig(
   const data::LunaRiteSearchingExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteSearchingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteSearchingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LunaRiteSearchingExcelConfig = v2;
@@ -186,7 +186,7 @@ void __cdecl data::LunaRiteSearchingExcelConfig::~LunaRiteSearchingExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteSearchingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteSearchingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LunaRiteSearchingExcelConfig = v2;
@@ -219,7 +219,7 @@ void __cdecl data::LunaRiteBattleExcelConfig::LunaRiteBattleExcelConfig(
   const data::LunaRiteBattleExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LunaRiteBattleExcelConfig = v2;
@@ -285,7 +285,7 @@ void __cdecl data::LunaRiteBattleExcelConfig::~LunaRiteBattleExcelConfig(data::L
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteBattleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteBattleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LunaRiteBattleExcelConfig = v2;
@@ -317,7 +317,7 @@ void __cdecl data::LunaRiteBattleBuffExcelConfig::LunaRiteBattleBuffExcelConfig(
   const data::LunaRiteBattleBuffExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteBattleBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteBattleBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LunaRiteBattleBuffExcelConfig = v2;
@@ -384,7 +384,7 @@ void __cdecl data::LunaRiteBattleBuffExcelConfig::~LunaRiteBattleBuffExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LunaRiteBattleBuffExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LunaRiteBattleBuffExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LunaRiteBattleBuffExcelConfig = v2;

@@ -6,7 +6,7 @@ void __cdecl ActivityShopExcelConfigMgr::ActivityShopExcelConfigMgr(ActivityShop
   int (**v1)(...); // rdx
 
   data::ActivityShopExcelConfigMgrBase::ActivityShopExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityShopExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityShopExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityShopExcelConfigMgrBase = v1;
@@ -20,7 +20,7 @@ void __cdecl ActivityShopExcelConfigMgr::~ActivityShopExcelConfigMgr(ActivitySho
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityShopExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityShopExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityShopExcelConfigMgrBase = v1;

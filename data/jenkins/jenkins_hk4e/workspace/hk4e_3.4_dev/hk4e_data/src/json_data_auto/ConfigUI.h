@@ -7,7 +7,7 @@ void __cdecl data::ConfigBaseInputAction::ConfigBaseInputAction(data::ConfigBase
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBaseInputAction>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseInputAction>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseInputAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInputAction = v2;
@@ -40,7 +40,7 @@ void __cdecl data::ConfigBaseInputAction::ConfigBaseInputAction(
   std::enable_shared_from_this<data::ConfigBaseInputAction>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseInputAction>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseInputAction + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseInputAction = v3;
@@ -77,7 +77,7 @@ void __cdecl data::ConfigBaseInputAction::~ConfigBaseInputAction(data::ConfigBas
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseInputAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInputAction = v2;
@@ -154,7 +154,7 @@ void __cdecl data::ConfigCompoundInputAction::ConfigCompoundInputAction(data::Co
   __int64 v3; // rsi
 
   data::ConfigBaseInputAction::ConfigBaseInputAction((data::ConfigBaseInputAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCompoundInputAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCompoundInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInputAction = v2;
@@ -197,7 +197,7 @@ void __cdecl data::ConfigCompoundInputAction::ConfigCompoundInputAction(
   data::ConfigBaseInputAction::ConfigBaseInputAction(
     (data::ConfigBaseInputAction *const)this,
     (const data::ConfigBaseInputAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCompoundInputAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCompoundInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseInputAction = v2;
@@ -250,7 +250,7 @@ void __cdecl data::ConfigCompoundInputAction::~ConfigCompoundInputAction(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCompoundInputAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCompoundInputAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseInputAction = v2;
@@ -325,7 +325,7 @@ void __cdecl data::ConfigCompoundInputActionFactory::ConfigCompoundInputActionFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigCompoundInputActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigCompoundInputActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigCompoundInputActionFactory = v2;

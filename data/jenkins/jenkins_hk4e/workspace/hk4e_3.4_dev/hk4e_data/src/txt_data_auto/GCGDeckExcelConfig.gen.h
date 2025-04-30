@@ -16,7 +16,7 @@ void __cdecl data::GCGDeckStorageExcelConfig::GCGDeckStorageExcelConfig(
   const data::GCGDeckStorageExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckStorageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckStorageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGDeckStorageExcelConfig = v2;
@@ -68,7 +68,7 @@ void __cdecl data::GCGDeckStorageExcelConfig::~GCGDeckStorageExcelConfig(data::G
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckStorageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckStorageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckStorageExcelConfig = v2;
@@ -95,7 +95,7 @@ void __cdecl data::GCGDeckBackExcelConfig::GCGDeckBackExcelConfig(
   const data::GCGDeckBackExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckBackExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckBackExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGDeckBackExcelConfig = v2;
@@ -141,7 +141,7 @@ void __cdecl data::GCGDeckBackExcelConfig::~GCGDeckBackExcelConfig(data::GCGDeck
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckBackExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckBackExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckBackExcelConfig = v2;
@@ -154,7 +154,7 @@ void __cdecl data::GCGDeckFieldExcelConfig::GCGDeckFieldExcelConfig(data::GCGDec
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckFieldExcelConfig = v2;
@@ -211,7 +211,7 @@ void __cdecl data::GCGDeckFieldExcelConfig::GCGDeckFieldExcelConfig(
   const data::GCGDeckFieldExcelConfig *v14; // [rsp+0h] [rbp-20h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGDeckFieldExcelConfig = v2;
@@ -291,7 +291,7 @@ void __cdecl data::GCGDeckFieldExcelConfig::~GCGDeckFieldExcelConfig(data::GCGDe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckFieldExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckFieldExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckFieldExcelConfig = v2;
@@ -310,7 +310,7 @@ void __cdecl data::GCGDeckCardExcelConfig::GCGDeckCardExcelConfig(data::GCGDeckC
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckCardExcelConfig = v2;
@@ -361,7 +361,7 @@ void __cdecl data::GCGDeckCardExcelConfig::GCGDeckCardExcelConfig(
   const data::GCGDeckCardExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGDeckCardExcelConfig = v2;
@@ -435,7 +435,7 @@ void __cdecl data::GCGDeckCardExcelConfig::~GCGDeckCardExcelConfig(data::GCGDeck
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGDeckCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGDeckCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGDeckCardExcelConfig = v2;
@@ -450,7 +450,7 @@ void __cdecl data::GCGCardFaceExcelConfig::GCGCardFaceExcelConfig(data::GCGCardF
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCardFaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCardFaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCardFaceExcelConfig = v2;
@@ -511,7 +511,7 @@ void __cdecl data::GCGCardFaceExcelConfig::GCGCardFaceExcelConfig(
   const data::GCGCardFaceExcelConfig *v15; // [rsp+0h] [rbp-20h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGCardFaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCardFaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGCardFaceExcelConfig = v2;
@@ -599,7 +599,7 @@ void __cdecl data::GCGCardFaceExcelConfig::~GCGCardFaceExcelConfig(data::GCGCard
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGCardFaceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGCardFaceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGCardFaceExcelConfig = v2;
@@ -656,7 +656,7 @@ void __cdecl data::GCGProficiencyReward::GCGProficiencyReward(data::GCGProficien
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGProficiencyReward = v2;
@@ -688,7 +688,7 @@ void __cdecl data::GCGProficiencyReward::GCGProficiencyReward(
   const data::GCGProficiencyReward *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGProficiencyReward = v2;
@@ -734,7 +734,7 @@ void __cdecl data::GCGProficiencyReward::~GCGProficiencyReward(data::GCGProficie
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyReward + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyReward + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGProficiencyReward = v2;
@@ -747,7 +747,7 @@ void __cdecl data::GCGProficiencyRewardExcelConfig::GCGProficiencyRewardExcelCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGProficiencyRewardExcelConfig = v2;
@@ -771,7 +771,7 @@ void __cdecl data::GCGProficiencyRewardExcelConfig::GCGProficiencyRewardExcelCon
   const data::GCGProficiencyRewardExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GCGProficiencyRewardExcelConfig = v2;
@@ -806,7 +806,7 @@ void __cdecl data::GCGProficiencyRewardExcelConfig::~GCGProficiencyRewardExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GCGProficiencyRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GCGProficiencyRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GCGProficiencyRewardExcelConfig = v2;

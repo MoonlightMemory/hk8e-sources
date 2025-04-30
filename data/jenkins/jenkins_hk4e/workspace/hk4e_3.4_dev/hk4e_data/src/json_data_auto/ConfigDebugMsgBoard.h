@@ -8,7 +8,7 @@ void __cdecl data::DebugBlletinInfo::DebugBlletinInfo(data::DebugBlletinInfo *co
   __int64 v3; // rsi
 
   std::enable_shared_from_this<data::DebugBlletinInfo>::enable_shared_from_this(&this->std::enable_shared_from_this<data::DebugBlletinInfo>);
-  v2 = (int (**)(...))(&`vtable for'data::DebugBlletinInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBlletinInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DebugBlletinInfo = v2;
@@ -53,7 +53,7 @@ void __cdecl data::DebugBlletinInfo::DebugBlletinInfo(
   std::enable_shared_from_this<data::DebugBlletinInfo>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::DebugBlletinInfo>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::DebugBlletinInfo + 2);
+  v3 = (int (**)(...))(&`vtable for data::DebugBlletinInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_DebugBlletinInfo = v3;
@@ -113,7 +113,7 @@ void __cdecl data::DebugBlletinInfo::~DebugBlletinInfo(data::DebugBlletinInfo *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DebugBlletinInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBlletinInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DebugBlletinInfo = v2;
@@ -185,7 +185,7 @@ void __cdecl data::DebugBoardInfo::DebugBoardInfo(data::DebugBoardInfo *const th
   __int64 v3; // rsi
 
   data::DebugBlletinInfo::DebugBlletinInfo((data::DebugBlletinInfo *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::DebugBoardInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBoardInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DebugBlletinInfo = v2;
@@ -218,7 +218,7 @@ void __cdecl data::DebugBoardInfo::DebugBoardInfo(data::DebugBoardInfo *const th
   char v8; // al
 
   data::DebugBlletinInfo::DebugBlletinInfo((data::DebugBlletinInfo *const)this, (const data::DebugBlletinInfo *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::DebugBoardInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBoardInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DebugBlletinInfo = v2;
@@ -260,7 +260,7 @@ void __cdecl data::DebugBoardInfo::~DebugBoardInfo(data::DebugBoardInfo *const t
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DebugBoardInfo + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBoardInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DebugBlletinInfo = v2;
@@ -336,7 +336,7 @@ void __cdecl data::DebugBoardInfoFactory::DebugBoardInfoFactory(data::DebugBoard
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DebugBoardInfoFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::DebugBoardInfoFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DebugBoardInfoFactory = v2;

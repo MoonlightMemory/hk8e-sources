@@ -1777,7 +1777,7 @@ LABEL_54:
             *(_DWORD *)(v29 + 12) = 1;
             if ( !*(_BYTE *)((v29 >> 3) + 0x7FFF8000) )
             {
-              *(_QWORD *)v29 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::http_client::SslClient,common::tools::perf::allocator<common::minet::http_client::SslClient,common::minet::http_client::SslClient>,(__gnu_cxx::_Lock_policy)2>
+              *(_QWORD *)v29 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::http_client::SslClient,common::tools::perf::allocator<common::minet::http_client::SslClient,common::minet::http_client::SslClient>,(__gnu_cxx::_Lock_policy)2>
                              + 2;
               timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
               if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1859,7 +1859,7 @@ LABEL_67:
           *(_DWORD *)(v29 + 12) = 1;
           if ( !*(_BYTE *)((v29 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v29 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::http_client::SslClient,std::allocator<common::minet::http_client::SslClient>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v29 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::http_client::SslClient,std::allocator<common::minet::http_client::SslClient>,(__gnu_cxx::_Lock_policy)2>
                            + 2;
             timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
             common::minet::http_client::SslClient::SslClient(
@@ -1926,7 +1926,7 @@ LABEL_98:
         *(_DWORD *)(v29 + 12) = 1;
         if ( !*(_BYTE *)((v29 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v29 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::http_client::HttpClient,common::tools::perf::allocator<common::minet::http_client::HttpClient,common::minet::http_client::HttpClient>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v29 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::http_client::HttpClient,common::tools::perf::allocator<common::minet::http_client::HttpClient,common::minet::http_client::HttpClient>,(__gnu_cxx::_Lock_policy)2>
                          + 2;
           timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -2013,7 +2013,7 @@ LABEL_129:
     __asan_report_store8();
     goto LABEL_130;
   }
-  *(_QWORD *)v29 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::http_client::HttpClient,std::allocator<common::minet::http_client::HttpClient>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v29 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::http_client::HttpClient,std::allocator<common::minet::http_client::HttpClient>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
   common::minet::http_client::HttpClient::HttpClient(
@@ -2744,7 +2744,7 @@ LABEL_47:
     {
       si128 = _mm_load_si128((const __m128i *)v7 - 8);
       std::runtime_error::runtime_error((std::runtime_error *)(v7 - 96), byte_1A1CDB20);
-      *((_QWORD *)v7 - 12) = &`vtable for'boost::system::system_error + 2;
+      *((_QWORD *)v7 - 12) = &`vtable for boost::system::system_error + 2;
       *((__m128i *)v7 - 5) = _mm_load_si128(&si128);
       *((_QWORD *)v7 - 8) = v7 - 48;
       *((_QWORD *)v7 - 7) = 0LL;

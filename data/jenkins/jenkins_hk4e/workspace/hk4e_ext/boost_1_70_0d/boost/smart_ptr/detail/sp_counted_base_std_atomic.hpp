@@ -106,7 +106,7 @@ void __cdecl boost::detail::sp_counted_base::sp_counted_base(boost::detail::sp_c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_sp_counted_base = v1;
@@ -119,7 +119,7 @@ void __cdecl boost::detail::sp_counted_base::~sp_counted_base(boost::detail::sp_
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::detail::sp_counted_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::detail::sp_counted_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_sp_counted_base = v1;

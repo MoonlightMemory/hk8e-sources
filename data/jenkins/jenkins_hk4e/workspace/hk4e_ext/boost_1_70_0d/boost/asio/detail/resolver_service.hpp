@@ -25,7 +25,7 @@ void __fastcall boost::asio::detail::resolver_service<boost::asio::ip::tcp>::~re
     __asan_report_store8();
     goto LABEL_37;
   }
-  this->_vptr_service = (int (**)(...))(&`vtable for'boost::asio::detail::resolver_service<boost::asio::ip::tcp> + 2);
+  this->_vptr_service = (int (**)(...))(&`vtable for boost::asio::detail::resolver_service<boost::asio::ip::tcp> + 2);
   v1 = &this->boost::asio::detail::resolver_service_base;
   this = (boost::asio::detail::resolver_service<boost::asio::ip::tcp> *const)((char *)this + 88);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )

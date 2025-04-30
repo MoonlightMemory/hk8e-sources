@@ -210,7 +210,7 @@ void __noreturn mysqlpp::SQLQueryParms::operator[]()
 
   exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x28uLL);
   mysqlpp::Exception::Exception(exception, "SQLQueryParms object has no parent!");
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ObjectNotInitialized + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ObjectNotInitialized + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::ObjectNotInitialized,
@@ -379,7 +379,7 @@ void __noreturn mysqlpp::SQLQueryParms::operator[]()
 
   exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x28uLL);
   mysqlpp::Exception::Exception(exception, "SQLQueryParms object has no parent!");
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ObjectNotInitialized + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ObjectNotInitialized + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::ObjectNotInitialized,

@@ -76,7 +76,7 @@ LABEL_24:
       v12 = exception;
       __asan_report_store8();
     }
-    *(_QWORD *)exception = (char *)&`vtable for'std::bad_alloc + 16;
+    *(_QWORD *)exception = (char *)&`vtable for std::bad_alloc + 16;
     __asan_handle_no_return(v12);
     _cxa_throw(
       (void *)exception,

@@ -322,7 +322,7 @@ LABEL_40:
           if ( !v21 )
             break;
           *(_WORD *)(((v49 + 208) >> 3) + 0x7FFF8000) = 0;
-          v22 = &`vtable for'data::IdCountConfig + 2;
+          v22 = &`vtable for data::IdCountConfig + 2;
           if ( *(_BYTE *)(((v49 + 208) >> 3) + 0x7FFF8000) )
             __asan_report_store8();
           *(_QWORD *)(v49 + 208) = v22;

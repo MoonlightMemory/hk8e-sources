@@ -7,7 +7,7 @@ void __cdecl OaserverService::OaserverService(OaserverService *const this)
   int (**v2)(...); // rdx
 
   ServiceBase::ServiceBase(this);
-  v2 = (int (**)(...))(&`vtable for'OaserverService + 2);
+  v2 = (int (**)(...))(&`vtable for OaserverService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ServiceBase = v2;
@@ -20,7 +20,7 @@ void __cdecl OaserverService::~OaserverService(OaserverService *const this)
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'OaserverService + 2);
+  v2 = (int (**)(...))(&`vtable for OaserverService + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ServiceBase = v2;

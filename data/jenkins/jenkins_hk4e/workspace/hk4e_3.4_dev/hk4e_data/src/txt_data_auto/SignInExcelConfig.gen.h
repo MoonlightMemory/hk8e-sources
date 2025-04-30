@@ -33,7 +33,7 @@ void __cdecl data::SignInCondConfig::SignInCondConfig(data::SignInCondConfig *co
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInCondConfig = v2;
@@ -57,7 +57,7 @@ void __cdecl data::SignInCondConfig::SignInCondConfig(
   const data::SignInCondConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SignInCondConfig = v2;
@@ -83,7 +83,7 @@ void __cdecl data::SignInCondConfig::~SignInCondConfig(data::SignInCondConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInCondConfig = v2;
@@ -104,7 +104,7 @@ void __cdecl data::SignInCondExcelConfig::SignInCondExcelConfig(data::SignInCond
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInCondExcelConfig = v2;
@@ -147,7 +147,7 @@ void __cdecl data::SignInCondExcelConfig::SignInCondExcelConfig(
   const data::SignInCondExcelConfig *v11; // [rsp+0h] [rbp-10h]
 
   v11 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SignInCondExcelConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::SignInCondExcelConfig::~SignInCondExcelConfig(data::SignInCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInCondExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInCondExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInCondExcelConfig = v2;
@@ -264,7 +264,7 @@ void __cdecl data::SignInRewardItemConfig::SignInRewardItemConfig(data::SignInRe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInRewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInRewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInRewardItemConfig = v2;
@@ -296,7 +296,7 @@ void __cdecl data::SignInRewardItemConfig::SignInRewardItemConfig(
   const data::SignInRewardItemConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SignInRewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInRewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SignInRewardItemConfig = v2;
@@ -335,7 +335,7 @@ void __cdecl data::SignInRewardItemConfig::~SignInRewardItemConfig(data::SignInR
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInRewardItemConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInRewardItemConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInRewardItemConfig = v2;
@@ -398,7 +398,7 @@ void __cdecl data::SignInDayExcelConfig::SignInDayExcelConfig(data::SignInDayExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInDayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInDayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInDayExcelConfig = v2;
@@ -431,7 +431,7 @@ void __cdecl data::SignInDayExcelConfig::SignInDayExcelConfig(
   const data::SignInDayExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::SignInDayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInDayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_SignInDayExcelConfig = v2;
@@ -471,7 +471,7 @@ void __cdecl data::SignInDayExcelConfig::~SignInDayExcelConfig(data::SignInDayEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::SignInDayExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::SignInDayExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_SignInDayExcelConfig = v2;
@@ -493,7 +493,7 @@ void __cdecl data::BonusActivityExcelConfig::BonusActivityExcelConfig(data::Bonu
   __int64 v3; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::BonusActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -536,7 +536,7 @@ void __cdecl data::BonusActivityExcelConfig::BonusActivityExcelConfig(
   char v10; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::BonusActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -591,7 +591,7 @@ void __cdecl data::BonusActivityExcelConfig::~BonusActivityExcelConfig(data::Bon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BonusActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BonusActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;

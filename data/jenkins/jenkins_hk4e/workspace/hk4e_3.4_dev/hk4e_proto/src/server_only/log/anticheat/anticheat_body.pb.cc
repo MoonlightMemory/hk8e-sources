@@ -484,7 +484,7 @@ void __cdecl proto_log::SecurityChannelLog::SecurityChannelLog(proto_log::Securi
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::SecurityChannelLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::SecurityChannelLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -510,7 +510,7 @@ void __cdecl proto_log::SecurityChannelLog::SecurityChannelLog(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::SecurityChannelLog + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::SecurityChannelLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -581,7 +581,7 @@ void __cdecl proto_log::SecurityChannelLog::~SecurityChannelLog(proto_log::Secur
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::SecurityChannelLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::SecurityChannelLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1466,7 +1466,7 @@ void __cdecl proto_log::AntiCheatBodyAIHash::AntiCheatBodyAIHash(proto_log::Anti
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAIHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAIHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -1486,7 +1486,7 @@ void __cdecl proto_log::AntiCheatBodyAIHash::AntiCheatBodyAIHash(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAIHash + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAIHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -1530,7 +1530,7 @@ void __cdecl proto_log::AntiCheatBodyAIHash::~AntiCheatBodyAIHash(proto_log::Ant
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAIHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAIHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2193,7 +2193,7 @@ void __cdecl proto_log::AntiCheatBodyMTP::AntiCheatBodyMTP(proto_log::AntiCheatB
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMTP + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMTP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2217,7 +2217,7 @@ void __cdecl proto_log::AntiCheatBodyMTP::AntiCheatBodyMTP(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMTP + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMTP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -2291,7 +2291,7 @@ void __cdecl proto_log::AntiCheatBodyMTP::~AntiCheatBodyMTP(proto_log::AntiCheat
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMTP + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMTP + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -2984,7 +2984,7 @@ void __cdecl proto_log::AntiCheatBodyChecksumInvalid::AntiCheatBodyChecksumInval
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyChecksumInvalid + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyChecksumInvalid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -3025,7 +3025,7 @@ void __cdecl proto_log::AntiCheatBodyChecksumInvalid::AntiCheatBodyChecksumInval
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyChecksumInvalid + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyChecksumInvalid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -3162,7 +3162,7 @@ void __cdecl proto_log::AntiCheatBodyChecksumInvalid::~AntiCheatBodyChecksumInva
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyChecksumInvalid + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyChecksumInvalid + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4502,7 +4502,7 @@ void __cdecl proto_log::AntiCheatBodySkillCdWrong::AntiCheatBodySkillCdWrong(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySkillCdWrong + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySkillCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -4530,7 +4530,7 @@ void __cdecl proto_log::AntiCheatBodySkillCdWrong::AntiCheatBodySkillCdWrong(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySkillCdWrong + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySkillCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -4634,7 +4634,7 @@ void __cdecl proto_log::AntiCheatBodySkillCdWrong::~AntiCheatBodySkillCdWrong(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySkillCdWrong + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySkillCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5794,7 +5794,7 @@ void __cdecl proto_log::AntiCheatBodyMoveSpeedOverLimit::AntiCheatBodyMoveSpeedO
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -5814,7 +5814,7 @@ void __cdecl proto_log::AntiCheatBodyMoveSpeedOverLimit::AntiCheatBodyMoveSpeedO
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -5860,7 +5860,7 @@ void __cdecl proto_log::AntiCheatBodyMoveSpeedOverLimit::~AntiCheatBodyMoveSpeed
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -7075,7 +7075,7 @@ void __cdecl proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit::AntiCheatBodyS
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -7095,7 +7095,7 @@ void __cdecl proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit::AntiCheatBodyS
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -7141,7 +7141,7 @@ void __cdecl proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit::~AntiCheatBody
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySceneTimeMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8166,7 +8166,7 @@ void __cdecl proto_log::AntiCheatBodyAntiOfflineResult::AntiCheatBodyAntiOffline
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAntiOfflineResult + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAntiOfflineResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -8219,7 +8219,7 @@ void __cdecl proto_log::AntiCheatBodyAntiOfflineResult::AntiCheatBodyAntiOffline
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAntiOfflineResult + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAntiOfflineResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -8415,7 +8415,7 @@ void __cdecl proto_log::AntiCheatBodyAntiOfflineResult::~AntiCheatBodyAntiOfflin
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAntiOfflineResult + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAntiOfflineResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10700,7 +10700,7 @@ void __cdecl proto_log::AntiCheatBodyEliteMonsterAbnormalDie::AntiCheatBodyElite
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -10727,7 +10727,7 @@ void __cdecl proto_log::AntiCheatBodyEliteMonsterAbnormalDie::AntiCheatBodyElite
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -10825,7 +10825,7 @@ void __cdecl proto_log::AntiCheatBodyEliteMonsterAbnormalDie::~AntiCheatBodyElit
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEliteMonsterAbnormalDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -11653,7 +11653,7 @@ void __cdecl proto_log::AntiCheatBodyAbilityHash::AntiCheatBodyAbilityHash(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAbilityHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAbilityHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -11674,7 +11674,7 @@ void __cdecl proto_log::AntiCheatBodyAbilityHash::AntiCheatBodyAbilityHash(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAbilityHash + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAbilityHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -11722,7 +11722,7 @@ void __cdecl proto_log::AntiCheatBodyAbilityHash::~AntiCheatBodyAbilityHash(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAbilityHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAbilityHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -12685,7 +12685,7 @@ void __cdecl proto_log::AntiCheatBodyEquipAffixCdWrong::AntiCheatBodyEquipAffixC
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -12710,7 +12710,7 @@ void __cdecl proto_log::AntiCheatBodyEquipAffixCdWrong::AntiCheatBodyEquipAffixC
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -12778,7 +12778,7 @@ void __cdecl proto_log::AntiCheatBodyEquipAffixCdWrong::~AntiCheatBodyEquipAffix
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEquipAffixCdWrong + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -13483,7 +13483,7 @@ void __cdecl proto_log::AntiCheatBodyPlayerReport::AntiCheatBodyPlayerReport(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPlayerReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPlayerReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -13514,7 +13514,7 @@ void __cdecl proto_log::AntiCheatBodyPlayerReport::AntiCheatBodyPlayerReport(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPlayerReport + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPlayerReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -13611,7 +13611,7 @@ void __cdecl proto_log::AntiCheatBodyPlayerReport::~AntiCheatBodyPlayerReport(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPlayerReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPlayerReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -14508,7 +14508,7 @@ void __cdecl proto_log::AntiCheatBodySegmentCrcCheckFail::AntiCheatBodySegmentCr
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -14534,7 +14534,7 @@ void __cdecl proto_log::AntiCheatBodySegmentCrcCheckFail::AntiCheatBodySegmentCr
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -14607,7 +14607,7 @@ void __cdecl proto_log::AntiCheatBodySegmentCrcCheckFail::~AntiCheatBodySegmentC
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySegmentCrcCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -15536,7 +15536,7 @@ void __cdecl proto_log::AntiCheatBodyMonsterDie::AntiCheatBodyMonsterDie(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMonsterDie + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMonsterDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -15564,7 +15564,7 @@ void __cdecl proto_log::AntiCheatBodyMonsterDie::AntiCheatBodyMonsterDie(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMonsterDie + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMonsterDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -15662,7 +15662,7 @@ void __cdecl proto_log::AntiCheatBodyMonsterDie::~AntiCheatBodyMonsterDie(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMonsterDie + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMonsterDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -16560,7 +16560,7 @@ void __cdecl proto_log::AntiCheatBodyUseNotAllowedSkill::AntiCheatBodyUseNotAllo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -16593,7 +16593,7 @@ void __cdecl proto_log::AntiCheatBodyUseNotAllowedSkill::AntiCheatBodyUseNotAllo
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -16720,7 +16720,7 @@ void __cdecl proto_log::AntiCheatBodyUseNotAllowedSkill::~AntiCheatBodyUseNotAll
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUseNotAllowedSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -17793,7 +17793,7 @@ void __cdecl proto_log::AntiCheatBodyClientSpeedUpTime::AntiCheatBodyClientSpeed
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSpeedUpTime + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSpeedUpTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -17813,7 +17813,7 @@ void __cdecl proto_log::AntiCheatBodyClientSpeedUpTime::AntiCheatBodyClientSpeed
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSpeedUpTime + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSpeedUpTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -17859,7 +17859,7 @@ void __cdecl proto_log::AntiCheatBodyClientSpeedUpTime::~AntiCheatBodyClientSpee
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSpeedUpTime + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSpeedUpTime + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18607,7 +18607,7 @@ void __cdecl proto_log::AntiCheatBodyCombatHash::AntiCheatBodyCombatHash(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyCombatHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyCombatHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -18631,7 +18631,7 @@ void __cdecl proto_log::AntiCheatBodyCombatHash::AntiCheatBodyCombatHash(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyCombatHash + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyCombatHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -18712,7 +18712,7 @@ void __cdecl proto_log::AntiCheatBodyCombatHash::~AntiCheatBodyCombatHash(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyCombatHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyCombatHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -19437,7 +19437,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondDistance::AntiCheatBody
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -19459,7 +19459,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondDistance::AntiCheatBody
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -19537,7 +19537,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondDistance::~AntiCheatBod
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20541,7 +20541,7 @@ void __cdecl proto_log::AntiCheatBodySafeFloatException::AntiCheatBodySafeFloatE
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySafeFloatException + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySafeFloatException + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -20567,7 +20567,7 @@ void __cdecl proto_log::AntiCheatBodySafeFloatException::AntiCheatBodySafeFloatE
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySafeFloatException + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySafeFloatException + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -20638,7 +20638,7 @@ void __cdecl proto_log::AntiCheatBodySafeFloatException::~AntiCheatBodySafeFloat
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySafeFloatException + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySafeFloatException + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -21396,7 +21396,7 @@ void __cdecl proto_log::AntiCheatBodyEnvironmentError::AntiCheatBodyEnvironmentE
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEnvironmentError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEnvironmentError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -21423,7 +21423,7 @@ void __cdecl proto_log::AntiCheatBodyEnvironmentError::AntiCheatBodyEnvironmentE
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEnvironmentError + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEnvironmentError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -21505,7 +21505,7 @@ void __cdecl proto_log::AntiCheatBodyEnvironmentError::~AntiCheatBodyEnvironment
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyEnvironmentError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyEnvironmentError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -22303,7 +22303,7 @@ void __cdecl proto_log::AntiCheatBodyDamageOverLimit::AntiCheatBodyDamageOverLim
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyDamageOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyDamageOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -22334,7 +22334,7 @@ void __cdecl proto_log::AntiCheatBodyDamageOverLimit::AntiCheatBodyDamageOverLim
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyDamageOverLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyDamageOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -22451,7 +22451,7 @@ void __cdecl proto_log::AntiCheatBodyDamageOverLimit::~AntiCheatBodyDamageOverLi
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyDamageOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyDamageOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -23658,7 +23658,7 @@ void __cdecl proto_log::BriefMotionLog::BriefMotionLog(proto_log::BriefMotionLog
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::BriefMotionLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::BriefMotionLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -23681,7 +23681,7 @@ void __cdecl proto_log::BriefMotionLog::BriefMotionLog(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::BriefMotionLog + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::BriefMotionLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -23744,7 +23744,7 @@ void __cdecl proto_log::BriefMotionLog::~BriefMotionLog(proto_log::BriefMotionLo
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::BriefMotionLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::BriefMotionLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -24367,7 +24367,7 @@ void __cdecl proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit::AntiCheatBo
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -24396,7 +24396,7 @@ void __cdecl proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit::AntiCheatBo
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -24486,7 +24486,7 @@ void __cdecl proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit::~AntiCheatB
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientReportMoveSpeedOverLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25488,7 +25488,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarExcelHash::AntiCheatBodyAvatarExcelHa
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarExcelHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarExcelHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -25511,7 +25511,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarExcelHash::AntiCheatBodyAvatarExcelHa
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarExcelHash + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarExcelHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -25570,7 +25570,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarExcelHash::~AntiCheatBodyAvatarExcelH
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarExcelHash + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarExcelHash + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -26338,7 +26338,7 @@ void __cdecl proto_log::AntiCheatBodyClientLoadingCostumeVerification::AntiCheat
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -26358,7 +26358,7 @@ void __cdecl proto_log::AntiCheatBodyClientLoadingCostumeVerification::AntiCheat
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -26404,7 +26404,7 @@ void __cdecl proto_log::AntiCheatBodyClientLoadingCostumeVerification::~AntiChea
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientLoadingCostumeVerification + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27268,7 +27268,7 @@ void __cdecl proto_log::AntiCheatBodyQiandaoguaCheckFail::AntiCheatBodyQiandaogu
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -27303,7 +27303,7 @@ void __cdecl proto_log::AntiCheatBodyQiandaoguaCheckFail::AntiCheatBodyQiandaogu
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -27450,7 +27450,7 @@ void __cdecl proto_log::AntiCheatBodyQiandaoguaCheckFail::~AntiCheatBodyQiandaog
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyQiandaoguaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -28838,7 +28838,7 @@ void __cdecl proto_log::AntiCheatBodyMouseMacroClientReport::AntiCheatBodyMouseM
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMouseMacroClientReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMouseMacroClientReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -28859,7 +28859,7 @@ void __cdecl proto_log::AntiCheatBodyMouseMacroClientReport::AntiCheatBodyMouseM
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMouseMacroClientReport + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMouseMacroClientReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -28921,7 +28921,7 @@ void __cdecl proto_log::AntiCheatBodyMouseMacroClientReport::~AntiCheatBodyMouse
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyMouseMacroClientReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyMouseMacroClientReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -29522,7 +29522,7 @@ void __cdecl proto_log::AntiCheatBodyClientTickTimeCheckFail::AntiCheatBodyClien
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -29542,7 +29542,7 @@ void __cdecl proto_log::AntiCheatBodyClientTickTimeCheckFail::AntiCheatBodyClien
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -29588,7 +29588,7 @@ void __cdecl proto_log::AntiCheatBodyClientTickTimeCheckFail::~AntiCheatBodyClie
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientTickTimeCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -30390,7 +30390,7 @@ void __cdecl proto_log::AntiCheatBodyClientSgvCheckFail::AntiCheatBodyClientSgvC
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSgvCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSgvCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -30414,7 +30414,7 @@ void __cdecl proto_log::AntiCheatBodyClientSgvCheckFail::AntiCheatBodyClientSgvC
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSgvCheckFail + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSgvCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -30490,7 +30490,7 @@ void __cdecl proto_log::AntiCheatBodyClientSgvCheckFail::~AntiCheatBodyClientSgv
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientSgvCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientSgvCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -31345,7 +31345,7 @@ void __cdecl proto_log::AntiCheatBodyStaminaCheckFail::AntiCheatBodyStaminaCheck
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyStaminaCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyStaminaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -31372,7 +31372,7 @@ void __cdecl proto_log::AntiCheatBodyStaminaCheckFail::AntiCheatBodyStaminaCheck
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyStaminaCheckFail + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyStaminaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -31460,7 +31460,7 @@ void __cdecl proto_log::AntiCheatBodyStaminaCheckFail::~AntiCheatBodyStaminaChec
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyStaminaCheckFail + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyStaminaCheckFail + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -32509,7 +32509,7 @@ void __cdecl proto_log::AntiCheatBodyClientFightReport::AntiCheatBodyClientFight
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientFightReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientFightReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -32532,7 +32532,7 @@ void __cdecl proto_log::AntiCheatBodyClientFightReport::AntiCheatBodyClientFight
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientFightReport + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientFightReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -32597,7 +32597,7 @@ void __cdecl proto_log::AntiCheatBodyClientFightReport::~AntiCheatBodyClientFigh
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientFightReport + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientFightReport + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33229,7 +33229,7 @@ void __cdecl proto_log::AntiCheatBodyClientProtoError::AntiCheatBodyClientProtoE
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientProtoError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientProtoError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33250,7 +33250,7 @@ void __cdecl proto_log::AntiCheatBodyClientProtoError::AntiCheatBodyClientProtoE
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientProtoError + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientProtoError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -33311,7 +33311,7 @@ void __cdecl proto_log::AntiCheatBodyClientProtoError::~AntiCheatBodyClientProto
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyClientProtoError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyClientProtoError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33910,7 +33910,7 @@ void __cdecl proto_log::AntiCheatBodyUnionExceedFreq::AntiCheatBodyUnionExceedFr
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUnionExceedFreq + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUnionExceedFreq + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -33930,7 +33930,7 @@ void __cdecl proto_log::AntiCheatBodyUnionExceedFreq::AntiCheatBodyUnionExceedFr
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUnionExceedFreq + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUnionExceedFreq + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -33975,7 +33975,7 @@ void __cdecl proto_log::AntiCheatBodyUnionExceedFreq::~AntiCheatBodyUnionExceedF
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyUnionExceedFreq + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyUnionExceedFreq + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34705,7 +34705,7 @@ void __cdecl proto_log::AntiCheatBodyReliquaryUpgradeError::AntiCheatBodyReliqua
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -34730,7 +34730,7 @@ void __cdecl proto_log::AntiCheatBodyReliquaryUpgradeError::AntiCheatBodyReliqua
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -34797,7 +34797,7 @@ void __cdecl proto_log::AntiCheatBodyReliquaryUpgradeError::~AntiCheatBodyReliqu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyReliquaryUpgradeError + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -35469,7 +35469,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimeExceedLimit::AntiCheatBodyPac
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -35497,7 +35497,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimeExceedLimit::AntiCheatBodyPac
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -35579,7 +35579,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimeExceedLimit::~AntiCheatBodyPa
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimeExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -36378,7 +36378,7 @@ void __cdecl proto_log::PacketCountInfoLog::PacketCountInfoLog(proto_log::Packet
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::PacketCountInfoLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PacketCountInfoLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -36404,7 +36404,7 @@ void __cdecl proto_log::PacketCountInfoLog::PacketCountInfoLog(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::PacketCountInfoLog + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::PacketCountInfoLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -36481,7 +36481,7 @@ void __cdecl proto_log::PacketCountInfoLog::~PacketCountInfoLog(proto_log::Packe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::PacketCountInfoLog + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::PacketCountInfoLog + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -37209,7 +37209,7 @@ void __cdecl proto_log::AntiCheatBodyRecvPacketFreqExceedLimit::AntiCheatBodyRec
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -37235,7 +37235,7 @@ void __cdecl proto_log::AntiCheatBodyRecvPacketFreqExceedLimit::AntiCheatBodyRec
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -37306,7 +37306,7 @@ void __cdecl proto_log::AntiCheatBodyRecvPacketFreqExceedLimit::~AntiCheatBodyRe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyRecvPacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38060,7 +38060,7 @@ void __cdecl proto_log::AntiCheatBodySinglePacketFreqExceedLimit::AntiCheatBodyS
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38088,7 +38088,7 @@ void __cdecl proto_log::AntiCheatBodySinglePacketFreqExceedLimit::AntiCheatBodyS
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -38170,7 +38170,7 @@ void __cdecl proto_log::AntiCheatBodySinglePacketFreqExceedLimit::~AntiCheatBody
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySinglePacketFreqExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38965,7 +38965,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance::AntiChea
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -38985,7 +38985,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance::AntiChea
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -39031,7 +39031,7 @@ void __cdecl proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance::~AntiChe
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyGadgetInteractBeyondCheckDistance + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -39752,7 +39752,7 @@ void __cdecl proto_log::AntiCheatBodyLuaShellClientNotifyTimeout::AntiCheatBodyL
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -39775,7 +39775,7 @@ void __cdecl proto_log::AntiCheatBodyLuaShellClientNotifyTimeout::AntiCheatBodyL
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -39835,7 +39835,7 @@ void __cdecl proto_log::AntiCheatBodyLuaShellClientNotifyTimeout::~AntiCheatBody
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyLuaShellClientNotifyTimeout + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -40601,7 +40601,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit::AntiCheat
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -40621,7 +40621,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit::AntiCheat
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -40667,7 +40667,7 @@ void __cdecl proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit::~AntiChea
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyPacketCostTimePercentExceedLimit + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -41498,7 +41498,7 @@ void __cdecl proto_log::AntiCheatBodySecurityLibraryMd5Error::AntiCheatBodySecur
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -41524,7 +41524,7 @@ void __cdecl proto_log::AntiCheatBodySecurityLibraryMd5Error::AntiCheatBodySecur
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -41600,7 +41600,7 @@ void __cdecl proto_log::AntiCheatBodySecurityLibraryMd5Error::~AntiCheatBodySecu
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodySecurityLibraryMd5Error + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42432,7 +42432,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarAttackAvatarDamage::AntiCheatBodyAvat
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -42471,7 +42471,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarAttackAvatarDamage::AntiCheatBodyAvat
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -42624,7 +42624,7 @@ void __cdecl proto_log::AntiCheatBodyAvatarAttackAvatarDamage::~AntiCheatBodyAva
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyAvatarAttackAvatarDamage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43879,7 +43879,7 @@ void __cdecl proto_log::AntiCheatBodyForbidLogin::AntiCheatBodyForbidLogin(
   int (**v1)(...); // rdx
 
   google::protobuf::Message::Message(this);
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyForbidLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyForbidLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;
@@ -43900,7 +43900,7 @@ void __cdecl proto_log::AntiCheatBodyForbidLogin::AntiCheatBodyForbidLogin(
   google::protobuf::internal::InternalMetadataWithArena *p_internal_metadata; // [rsp+20h] [rbp-40h]
 
   google::protobuf::Message::Message(this);
-  v2 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyForbidLogin + 2);
+  v2 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyForbidLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v2;
@@ -43961,7 +43961,7 @@ void __cdecl proto_log::AntiCheatBodyForbidLogin::~AntiCheatBodyForbidLogin(
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'proto_log::AntiCheatBodyForbidLogin + 2);
+  v1 = (int (**)(...))(&`vtable for proto_log::AntiCheatBodyForbidLogin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_MessageLite = v1;

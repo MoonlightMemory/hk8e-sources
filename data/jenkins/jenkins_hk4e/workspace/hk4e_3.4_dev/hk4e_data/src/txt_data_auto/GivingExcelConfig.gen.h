@@ -17,7 +17,7 @@ void __cdecl data::GivingExcelConfig::GivingExcelConfig(data::GivingExcelConfig 
   __int64 v12; // rsi
   __int64 v13; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GivingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GivingExcelConfig = v2;
@@ -144,7 +144,7 @@ void __cdecl data::GivingExcelConfig::GivingExcelConfig(
   const data::GivingExcelConfig *v45; // [rsp+0h] [rbp-20h]
 
   v45 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GivingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GivingExcelConfig = v2;
@@ -307,7 +307,7 @@ void __cdecl data::GivingExcelConfig::~GivingExcelConfig(data::GivingExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GivingExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GivingExcelConfig = v2;
@@ -329,7 +329,7 @@ void __cdecl data::GivingGroupExcelConfig::GivingGroupExcelConfig(data::GivingGr
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GivingGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GivingGroupExcelConfig = v2;
@@ -380,7 +380,7 @@ void __cdecl data::GivingGroupExcelConfig::GivingGroupExcelConfig(
   const data::GivingGroupExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GivingGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GivingGroupExcelConfig = v2;
@@ -447,7 +447,7 @@ void __cdecl data::GivingGroupExcelConfig::~GivingGroupExcelConfig(data::GivingG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GivingGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GivingGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GivingGroupExcelConfig = v2;

@@ -16,7 +16,7 @@ void __cdecl data::GadgetExcelConfig::GadgetExcelConfig(data::GadgetExcelConfig 
   __int64 v11; // rsi
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::GadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -113,7 +113,7 @@ void __cdecl data::GadgetExcelConfig::GadgetExcelConfig(
   char v34; // al
 
   data::EntityExcelConfig::EntityExcelConfig((data::EntityExcelConfig *const)this, (const data::EntityExcelConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::GadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_EntityExcelConfig = v2;
@@ -243,7 +243,7 @@ void __cdecl data::GadgetExcelConfig::~GadgetExcelConfig(data::GadgetExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_EntityExcelConfig = v2;
@@ -276,7 +276,7 @@ void __cdecl data::GadgetPropExcelConfig::GadgetPropExcelConfig(
   const data::GadgetPropExcelConfig *v17; // [rsp+0h] [rbp-10h]
 
   v17 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetPropExcelConfig = v2;
@@ -379,7 +379,7 @@ void __cdecl data::GadgetPropExcelConfig::~GadgetPropExcelConfig(data::GadgetPro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetPropExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetPropExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetPropExcelConfig = v2;
@@ -398,7 +398,7 @@ void __cdecl data::LandSoundExcelConfig::LandSoundExcelConfig(data::LandSoundExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LandSoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LandSoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LandSoundExcelConfig = v2;
@@ -423,7 +423,7 @@ void __cdecl data::LandSoundExcelConfig::LandSoundExcelConfig(
   const data::LandSoundExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::LandSoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LandSoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_LandSoundExcelConfig = v2;
@@ -457,7 +457,7 @@ void __cdecl data::LandSoundExcelConfig::~LandSoundExcelConfig(data::LandSoundEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::LandSoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::LandSoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_LandSoundExcelConfig = v2;
@@ -498,7 +498,7 @@ void __cdecl data::GadgetInteractActionConfig::GadgetInteractActionConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractActionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractActionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractActionConfig = v2;
@@ -522,7 +522,7 @@ void __cdecl data::GadgetInteractActionConfig::GadgetInteractActionConfig(
   const data::GadgetInteractActionConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractActionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractActionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetInteractActionConfig = v2;
@@ -557,7 +557,7 @@ void __cdecl data::GadgetInteractActionConfig::~GadgetInteractActionConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractActionConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractActionConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractActionConfig = v2;
@@ -597,7 +597,7 @@ void __cdecl data::GadgetInteractCond::GadgetInteractCond(data::GadgetInteractCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractCond = v2;
@@ -621,7 +621,7 @@ void __cdecl data::GadgetInteractCond::GadgetInteractCond(
   const data::GadgetInteractCond *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetInteractCond = v2;
@@ -654,7 +654,7 @@ void __cdecl data::GadgetInteractCond::~GadgetInteractCond(data::GadgetInteractC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractCond + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractCond + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractCond = v2;
@@ -671,7 +671,7 @@ void __cdecl data::GadgetInteractExcelConfig::GadgetInteractExcelConfig(data::Ga
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractExcelConfig = v2;
@@ -750,7 +750,7 @@ void __cdecl data::GadgetInteractExcelConfig::GadgetInteractExcelConfig(
   const data::GadgetInteractExcelConfig *v24; // [rsp+0h] [rbp-20h]
 
   v24 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetInteractExcelConfig = v2;
@@ -855,7 +855,7 @@ void __cdecl data::GadgetInteractExcelConfig::~GadgetInteractExcelConfig(data::G
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetInteractExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetInteractExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetInteractExcelConfig = v2;
@@ -878,7 +878,7 @@ void __cdecl data::GadgetChainExcelConfig::GadgetChainExcelConfig(data::GadgetCh
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetChainExcelConfig = v2;
@@ -926,7 +926,7 @@ void __cdecl data::GadgetChainExcelConfig::GadgetChainExcelConfig(
   const data::GadgetChainExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GadgetChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GadgetChainExcelConfig = v2;
@@ -997,7 +997,7 @@ void __cdecl data::GadgetChainExcelConfig::~GadgetChainExcelConfig(data::GadgetC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GadgetChainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GadgetChainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GadgetChainExcelConfig = v2;

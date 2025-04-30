@@ -43,7 +43,7 @@ const unsigned __int8 *__fastcall mysqlpp::mysql_ti_sql_type_info_lookup::operat
     v24[27] = 0LL;
     v26 = 0LL;
     v27 = 0LL;
-    v24[0] = (__int64)&`vtable for'std::ios + 16;
+    v24[0] = (__int64)&`vtable for std::ios + 16;
     v25 = 0;
     v28 = 0LL;
     v4 = (std::type_info *)*((_QWORD *)&edata + 1);
@@ -55,13 +55,13 @@ const unsigned __int8 *__fastcall mysqlpp::mysql_ti_sql_type_info_lookup::operat
     *v7 = v5;
     std::ios::init(v7, 0LL);
     memset(&v18[1], 0, 48);
-    v24[0] = (__int64)&`vtable for'std::ostringstream + 64;
-    __k = (std::type_info *)((char *)&`vtable for'std::ostringstream + 24);
-    v18[0] = (__int64)&`vtable for'std::streambuf + 16;
+    v24[0] = (__int64)&`vtable for std::ostringstream + 64;
+    __k = (std::type_info *)((char *)&`vtable for std::ostringstream + 24);
+    v18[0] = (__int64)&`vtable for std::streambuf + 16;
     std::locale::locale(&v19);
     v20 = 16;
     v23 = 0;
-    v18[0] = (__int64)&`vtable for'std::stringbuf + 16;
+    v18[0] = (__int64)&`vtable for std::stringbuf + 16;
     v21 = &v23;
     v22 = 0LL;
     std::ios::init(v24, v18);
@@ -73,11 +73,11 @@ const unsigned __int8 *__fastcall mysqlpp::mysql_ti_sql_type_info_lookup::operat
     std::stringbuf::str(__beg, v18);
     v11 = __beg[0];
     v12 = __beg[1];
-    *(_QWORD *)exception = &`vtable for'mysqlpp::Exception + 2;
+    *(_QWORD *)exception = &`vtable for mysqlpp::Exception + 2;
     *((_QWORD *)exception + 1) = exception + 24;
     std::string::_M_construct<char *>((std::string *const)(exception + 8), v11, &v12[(_QWORD)v11], v13);
     v14 = __beg[0];
-    *(_QWORD *)exception = &`vtable for'mysqlpp::TypeLookupFailed + 2;
+    *(_QWORD *)exception = &`vtable for mysqlpp::TypeLookupFailed + 2;
     if ( v14 != &v16 )
       operator delete(v14);
     _cxa_throw(

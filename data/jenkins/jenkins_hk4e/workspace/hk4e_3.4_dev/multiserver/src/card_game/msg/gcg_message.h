@@ -5,7 +5,7 @@ void __cdecl GCGMsgPack::GCGMsgPack(GCGMsgPack *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMsgPack = v1;
@@ -29,7 +29,7 @@ void __cdecl GCGMsgPack::~GCGMsgPack(GCGMsgPack *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPack + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPack + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMsgPack = v1;
@@ -59,7 +59,7 @@ void __cdecl GCGMessage::GCGMessage(GCGMessage *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMessage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -70,7 +70,7 @@ void __cdecl GCGMessage::~GCGMessage(GCGMessage *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMessage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMessage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -89,7 +89,7 @@ void __cdecl GCGMsgTokenChange::GCGMsgTokenChange(GCGMsgTokenChange *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgTokenChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgTokenChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -130,7 +130,7 @@ void __cdecl GCGMsgTokenChange::~GCGMsgTokenChange(GCGMsgTokenChange *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgTokenChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgTokenChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -150,7 +150,7 @@ void __cdecl GCGMsgPhaseChange::GCGMsgPhaseChange(GCGMsgPhaseChange *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPhaseChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPhaseChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -174,7 +174,7 @@ void __cdecl GCGMsgPhaseChange::~GCGMsgPhaseChange(GCGMsgPhaseChange *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPhaseChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPhaseChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -195,7 +195,7 @@ void __cdecl GCGMsgAddCards::GCGMsgAddCards(GCGMsgAddCards *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgAddCards + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgAddCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -231,7 +231,7 @@ void __cdecl GCGMsgAddCards::~GCGMsgAddCards(GCGMsgAddCards *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgAddCards + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgAddCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -252,7 +252,7 @@ void __cdecl GCGMsgRemoveCards::GCGMsgRemoveCards(GCGMsgRemoveCards *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgRemoveCards + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgRemoveCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -282,7 +282,7 @@ void __cdecl GCGMsgRemoveCards::~GCGMsgRemoveCards(GCGMsgRemoveCards *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgRemoveCards + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgRemoveCards + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -303,7 +303,7 @@ void __cdecl GCGMsgMoveCard::GCGMsgMoveCard(GCGMsgMoveCard *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgMoveCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgMoveCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -347,7 +347,7 @@ void __cdecl GCGMsgMoveCard::~GCGMsgMoveCard(GCGMsgMoveCard *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgMoveCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgMoveCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -362,7 +362,7 @@ void __cdecl GCGMsgSelectOnStage::GCGMsgSelectOnStage(GCGMsgSelectOnStage *const
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSelectOnStage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSelectOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -398,7 +398,7 @@ void __cdecl GCGMsgSelectOnStage::~GCGMsgSelectOnStage(GCGMsgSelectOnStage *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSelectOnStage + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSelectOnStage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -411,7 +411,7 @@ void __cdecl GCGMsgSelectOnStageByEffect::GCGMsgSelectOnStageByEffect(GCGMsgSele
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSelectOnStageByEffect + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSelectOnStageByEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -447,7 +447,7 @@ void __cdecl GCGMsgSelectOnStageByEffect::~GCGMsgSelectOnStageByEffect(GCGMsgSel
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSelectOnStageByEffect + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSelectOnStageByEffect + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -460,7 +460,7 @@ void __cdecl GCGMsgDiceRoll::GCGMsgDiceRoll(GCGMsgDiceRoll *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDiceRoll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDiceRoll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -478,7 +478,7 @@ void __cdecl GCGMsgDiceRoll::~GCGMsgDiceRoll(GCGMsgDiceRoll *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDiceRoll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDiceRoll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -499,7 +499,7 @@ void __cdecl GCGMsgDiceReroll::GCGMsgDiceReroll(GCGMsgDiceReroll *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDiceReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDiceReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -525,7 +525,7 @@ void __cdecl GCGMsgDiceReroll::~GCGMsgDiceReroll(GCGMsgDiceReroll *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDiceReroll + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDiceReroll + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -540,7 +540,7 @@ void __cdecl GCGMsgPass::GCGMsgPass(GCGMsgPass *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPass + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -564,7 +564,7 @@ void __cdecl GCGMsgPass::~GCGMsgPass(GCGMsgPass *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPass + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPass + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -576,7 +576,7 @@ void __cdecl GCGMsgCharDie::~GCGMsgCharDie(GCGMsgCharDie *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCharDie + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCharDie + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -596,7 +596,7 @@ void __cdecl GCGMsgUseSkill::GCGMsgUseSkill(GCGMsgUseSkill *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUseSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -619,7 +619,7 @@ void __cdecl GCGMsgUseSkill::~GCGMsgUseSkill(GCGMsgUseSkill *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUseSkill + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUseSkill + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -639,7 +639,7 @@ void __cdecl GCGMsgUseSkillEnd::GCGMsgUseSkillEnd(GCGMsgUseSkillEnd *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUseSkillEnd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUseSkillEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -669,7 +669,7 @@ void __cdecl GCGMsgUseSkillEnd::~GCGMsgUseSkillEnd(GCGMsgUseSkillEnd *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUseSkillEnd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUseSkillEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -682,7 +682,7 @@ void __cdecl GCGMsgSkillResult::GCGMsgSkillResult(GCGMsgSkillResult *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSkillResult + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSkillResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -749,7 +749,7 @@ void __cdecl GCGMsgSkillResult::~GCGMsgSkillResult(GCGMsgSkillResult *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSkillResult + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSkillResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -780,7 +780,7 @@ void __cdecl GCGMsgNoDamageSkillResult::GCGMsgNoDamageSkillResult(GCGMsgNoDamage
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgNoDamageSkillResult + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgNoDamageSkillResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -835,7 +835,7 @@ void __cdecl GCGMsgNoDamageSkillResult::~GCGMsgNoDamageSkillResult(GCGMsgNoDamag
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgNoDamageSkillResult + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgNoDamageSkillResult + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -867,7 +867,7 @@ void __cdecl GCGMsgCostDice::GCGMsgCostDice(GCGMsgCostDice *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCostDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCostDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -898,7 +898,7 @@ void __cdecl GCGMsgCostDice::~GCGMsgCostDice(GCGMsgCostDice *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCostDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCostDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -912,7 +912,7 @@ void __cdecl GCGMsgAddDice::GCGMsgAddDice(GCGMsgAddDice *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgAddDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgAddDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -943,7 +943,7 @@ void __cdecl GCGMsgAddDice::~GCGMsgAddDice(GCGMsgAddDice *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgAddDice + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgAddDice + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -965,7 +965,7 @@ void __cdecl GCGMsgNewCard::GCGMsgNewCard(GCGMsgNewCard *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgNewCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgNewCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -984,7 +984,7 @@ void __cdecl GCGMsgNewCard::~GCGMsgNewCard(GCGMsgNewCard *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgNewCard + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgNewCard + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -998,7 +998,7 @@ void __cdecl GCGMsgModifyAdd::GCGMsgModifyAdd(GCGMsgModifyAdd *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgModifyAdd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgModifyAdd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1041,7 +1041,7 @@ void __cdecl GCGMsgModifyAdd::~GCGMsgModifyAdd(GCGMsgModifyAdd *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgModifyAdd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgModifyAdd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1055,7 +1055,7 @@ void __cdecl GCGMsgModifyRemove::GCGMsgModifyRemove(GCGMsgModifyRemove *const th
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgModifyRemove + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgModifyRemove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1085,7 +1085,7 @@ void __cdecl GCGMsgModifyRemove::~GCGMsgModifyRemove(GCGMsgModifyRemove *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgModifyRemove + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgModifyRemove + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1106,7 +1106,7 @@ void __cdecl GCGMsgUpdateController::GCGMsgUpdateController(GCGMsgUpdateControll
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUpdateController + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUpdateController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1118,7 +1118,7 @@ void __cdecl GCGMsgUpdateController::~GCGMsgUpdateController(GCGMsgUpdateControl
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgUpdateController + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgUpdateController + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1139,7 +1139,7 @@ void __cdecl GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo(GCGMsgPVEIntentionIn
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPVEIntentionInfo + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPVEIntentionInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1158,7 +1158,7 @@ void __cdecl GCGMsgPVEIntentionInfo::~GCGMsgPVEIntentionInfo(GCGMsgPVEIntentionI
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPVEIntentionInfo + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPVEIntentionInfo + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1172,7 +1172,7 @@ void __cdecl GCGMsgPVEIntentionChange::GCGMsgPVEIntentionChange(GCGMsgPVEIntenti
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPVEIntentionChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPVEIntentionChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1197,7 +1197,7 @@ void __cdecl GCGMsgPVEIntentionChange::~GCGMsgPVEIntentionChange(GCGMsgPVEIntent
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPVEIntentionChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPVEIntentionChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1211,7 +1211,7 @@ void __cdecl GCGMsgDuelDataChange::GCGMsgDuelDataChange(GCGMsgDuelDataChange *co
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDuelDataChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDuelDataChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1228,7 +1228,7 @@ void __cdecl GCGMsgDuelDataChange::~GCGMsgDuelDataChange(GCGMsgDuelDataChange *c
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgDuelDataChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgDuelDataChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1248,7 +1248,7 @@ void __cdecl GCGMsgClientPerform::GCGMsgClientPerform(GCGMsgClientPerform *const
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgClientPerform + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgClientPerform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1266,7 +1266,7 @@ void __cdecl GCGMsgClientPerform::~GCGMsgClientPerform(GCGMsgClientPerform *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgClientPerform + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgClientPerform + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1287,7 +1287,7 @@ void __cdecl GCGMsgGameOver::GCGMsgGameOver(GCGMsgGameOver *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgGameOver + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgGameOver + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1310,7 +1310,7 @@ void __cdecl GCGMsgGameOver::~GCGMsgGameOver(GCGMsgGameOver *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgGameOver + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgGameOver + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1330,7 +1330,7 @@ void __cdecl GCGMsgOpTimer::GCGMsgOpTimer(GCGMsgOpTimer *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgOpTimer + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgOpTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1359,7 +1359,7 @@ void __cdecl GCGMsgOpTimer::~GCGMsgOpTimer(GCGMsgOpTimer *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgOpTimer + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgOpTimer + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1379,7 +1379,7 @@ void __cdecl GCGMsgWaitingListChange::GCGMsgWaitingListChange(GCGMsgWaitingListC
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgWaitingListChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgWaitingListChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1399,7 +1399,7 @@ void __cdecl GCGMsgWaitingListChange::~GCGMsgWaitingListChange(GCGMsgWaitingList
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgWaitingListChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgWaitingListChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1419,7 +1419,7 @@ void __cdecl GCGMsgCardUpdate::GCGMsgCardUpdate(GCGMsgCardUpdate *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCardUpdate + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCardUpdate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1431,7 +1431,7 @@ void __cdecl GCGMsgCardUpdate::~GCGMsgCardUpdate(GCGMsgCardUpdate *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCardUpdate + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCardUpdate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1452,7 +1452,7 @@ void __cdecl GCGMsgCostRevise::GCGMsgCostRevise(GCGMsgCostRevise *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCostRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1477,7 +1477,7 @@ void __cdecl GCGMsgCostRevise::~GCGMsgCostRevise(GCGMsgCostRevise *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgCostRevise + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgCostRevise + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1491,7 +1491,7 @@ void __cdecl GCGMsgPhaseContinue::GCGMsgPhaseContinue(GCGMsgPhaseContinue *const
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPhaseContinue + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPhaseContinue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1502,7 +1502,7 @@ void __cdecl GCGMsgPhaseContinue::~GCGMsgPhaseContinue(GCGMsgPhaseContinue *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgPhaseContinue + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgPhaseContinue + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1522,7 +1522,7 @@ void __cdecl GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange(GCGMsgSkillLimitsC
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSkillLimitsChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSkillLimitsChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1540,7 +1540,7 @@ void __cdecl GCGMsgSkillLimitsChange::~GCGMsgSkillLimitsChange(GCGMsgSkillLimits
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgSkillLimitsChange + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgSkillLimitsChange + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1561,7 +1561,7 @@ void __cdecl GCGMsgReactionBegin::GCGMsgReactionBegin(GCGMsgReactionBegin *const
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgReactionBegin + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgReactionBegin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1591,7 +1591,7 @@ void __cdecl GCGMsgReactionBegin::~GCGMsgReactionBegin(GCGMsgReactionBegin *cons
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgReactionBegin + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgReactionBegin + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1604,7 +1604,7 @@ void __cdecl GCGMsgReactionEnd::GCGMsgReactionEnd(GCGMsgReactionEnd *const this)
   int (**v1)(...); // rdx
 
   GCGMessage::GCGMessage(this);
-  v1 = (int (**)(...))(&`vtable for'GCGMsgReactionEnd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgReactionEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;
@@ -1628,7 +1628,7 @@ void __cdecl GCGMsgReactionEnd::~GCGMsgReactionEnd(GCGMsgReactionEnd *const this
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'GCGMsgReactionEnd + 2);
+  v1 = (int (**)(...))(&`vtable for GCGMsgReactionEnd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_GCGMessage = v1;

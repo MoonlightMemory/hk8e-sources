@@ -6,7 +6,7 @@ void __cdecl data::CutsceneExcelConfig::CutsceneExcelConfig(data::CutsceneExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CutsceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CutsceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CutsceneExcelConfig = v2;
@@ -30,7 +30,7 @@ void __cdecl data::CutsceneExcelConfig::CutsceneExcelConfig(
   const data::CutsceneExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::CutsceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CutsceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_CutsceneExcelConfig = v2;
@@ -56,7 +56,7 @@ void __cdecl data::CutsceneExcelConfig::~CutsceneExcelConfig(data::CutsceneExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::CutsceneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::CutsceneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_CutsceneExcelConfig = v2;

@@ -7,7 +7,7 @@ void __cdecl data::NightCrowArgumentExcelConfig::NightCrowArgumentExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NightCrowArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NightCrowArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NightCrowArgumentExcelConfig = v2;
@@ -31,7 +31,7 @@ void __cdecl data::NightCrowArgumentExcelConfig::NightCrowArgumentExcelConfig(
   const data::NightCrowArgumentExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::NightCrowArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NightCrowArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_NightCrowArgumentExcelConfig = v2;
@@ -58,7 +58,7 @@ void __cdecl data::NightCrowArgumentExcelConfig::~NightCrowArgumentExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::NightCrowArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::NightCrowArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_NightCrowArgumentExcelConfig = v2;
@@ -80,7 +80,7 @@ void __cdecl data::DeshretObeliskArgumentExcelConfig::DeshretObeliskArgumentExce
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DeshretObeliskArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeshretObeliskArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DeshretObeliskArgumentExcelConfig = v2;
@@ -105,7 +105,7 @@ void __cdecl data::DeshretObeliskArgumentExcelConfig::DeshretObeliskArgumentExce
   const data::DeshretObeliskArgumentExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DeshretObeliskArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeshretObeliskArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DeshretObeliskArgumentExcelConfig = v2;
@@ -133,7 +133,7 @@ void __cdecl data::DeshretObeliskArgumentExcelConfig::~DeshretObeliskArgumentExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DeshretObeliskArgumentExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DeshretObeliskArgumentExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DeshretObeliskArgumentExcelConfig = v2;

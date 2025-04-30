@@ -6,7 +6,7 @@ void __cdecl data::InferencePageExcelConfig::InferencePageExcelConfig(data::Infe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferencePageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferencePageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferencePageExcelConfig = v2;
@@ -39,7 +39,7 @@ void __cdecl data::InferencePageExcelConfig::InferencePageExcelConfig(
   const data::InferencePageExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InferencePageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferencePageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InferencePageExcelConfig = v2;
@@ -86,7 +86,7 @@ void __cdecl data::InferencePageExcelConfig::~InferencePageExcelConfig(data::Inf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferencePageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferencePageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferencePageExcelConfig = v2;
@@ -126,7 +126,7 @@ void __cdecl data::InferenceAction::InferenceAction(data::InferenceAction *const
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceAction = v2;
@@ -148,7 +148,7 @@ void __cdecl data::InferenceAction::InferenceAction(data::InferenceAction *const
   const data::InferenceAction *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InferenceAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InferenceAction = v2;
@@ -174,7 +174,7 @@ void __cdecl data::InferenceAction::~InferenceAction(data::InferenceAction *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceAction = v2;
@@ -197,7 +197,7 @@ void __cdecl data::InferenceWordExcelConfig::InferenceWordExcelConfig(data::Infe
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceWordExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceWordExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceWordExcelConfig = v2;
@@ -262,7 +262,7 @@ void __cdecl data::InferenceWordExcelConfig::InferenceWordExcelConfig(
   const data::InferenceWordExcelConfig *v21; // [rsp+0h] [rbp-20h]
 
   v21 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InferenceWordExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceWordExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InferenceWordExcelConfig = v2;
@@ -347,7 +347,7 @@ void __cdecl data::InferenceWordExcelConfig::~InferenceWordExcelConfig(data::Inf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceWordExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceWordExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceWordExcelConfig = v2;
@@ -369,7 +369,7 @@ void __cdecl data::InferenceConclusionExcelConfig::InferenceConclusionExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceConclusionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceConclusionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceConclusionExcelConfig = v2;
@@ -393,7 +393,7 @@ void __cdecl data::InferenceConclusionExcelConfig::InferenceConclusionExcelConfi
   const data::InferenceConclusionExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::InferenceConclusionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceConclusionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_InferenceConclusionExcelConfig = v2;
@@ -420,7 +420,7 @@ void __cdecl data::InferenceConclusionExcelConfig::~InferenceConclusionExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::InferenceConclusionExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::InferenceConclusionExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_InferenceConclusionExcelConfig = v2;

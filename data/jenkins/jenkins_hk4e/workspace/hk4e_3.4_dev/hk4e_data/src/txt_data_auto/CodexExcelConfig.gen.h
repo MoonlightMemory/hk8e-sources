@@ -21,7 +21,7 @@ void __cdecl data::QuestCodexExcelConfig::QuestCodexExcelConfig(
   const data::QuestCodexExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::QuestCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_QuestCodexExcelConfig = v2;
@@ -95,7 +95,7 @@ void __cdecl data::QuestCodexExcelConfig::~QuestCodexExcelConfig(data::QuestCode
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::QuestCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::QuestCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_QuestCodexExcelConfig = v2;
@@ -134,7 +134,7 @@ void __cdecl data::WeaponCodexExcelConfig::WeaponCodexExcelConfig(
   const data::WeaponCodexExcelConfig *v20; // [rsp+0h] [rbp-10h]
 
   v20 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::WeaponCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WeaponCodexExcelConfig = v2;
@@ -215,7 +215,7 @@ void __cdecl data::WeaponCodexExcelConfig::~WeaponCodexExcelConfig(data::WeaponC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::WeaponCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::WeaponCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WeaponCodexExcelConfig = v2;
@@ -262,7 +262,7 @@ void __cdecl data::ReliquaryCodexExcelConfig::ReliquaryCodexExcelConfig(
   const data::ReliquaryCodexExcelConfig *v35; // [rsp+0h] [rbp-10h]
 
   v35 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ReliquaryCodexExcelConfig = v2;
@@ -424,7 +424,7 @@ void __cdecl data::ReliquaryCodexExcelConfig::~ReliquaryCodexExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ReliquaryCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ReliquaryCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ReliquaryCodexExcelConfig = v2;
@@ -443,7 +443,7 @@ void __cdecl data::AnimalCodexExcelConfig::AnimalCodexExcelConfig(data::AnimalCo
   __int64 v8; // rsi
   __int64 v9; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AnimalCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AnimalCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AnimalCodexExcelConfig = v2;
@@ -531,7 +531,7 @@ void __cdecl data::AnimalCodexExcelConfig::AnimalCodexExcelConfig(
   const data::AnimalCodexExcelConfig *v29; // [rsp+0h] [rbp-10h]
 
   v29 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::AnimalCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AnimalCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_AnimalCodexExcelConfig = v2;
@@ -650,7 +650,7 @@ void __cdecl data::AnimalCodexExcelConfig::~AnimalCodexExcelConfig(data::AnimalC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::AnimalCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::AnimalCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_AnimalCodexExcelConfig = v2;
@@ -667,7 +667,7 @@ void __cdecl data::MaterialCodexExcelConfig::MaterialCodexExcelConfig(data::Mate
   __int64 v5; // rsi
   __int64 v6; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MaterialCodexExcelConfig = v2;
@@ -759,7 +759,7 @@ void __cdecl data::MaterialCodexExcelConfig::MaterialCodexExcelConfig(
   const data::MaterialCodexExcelConfig *v27; // [rsp+0h] [rbp-20h]
 
   v27 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::MaterialCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_MaterialCodexExcelConfig = v2;
@@ -889,7 +889,7 @@ void __cdecl data::MaterialCodexExcelConfig::~MaterialCodexExcelConfig(data::Mat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::MaterialCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::MaterialCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_MaterialCodexExcelConfig = v2;
@@ -923,7 +923,7 @@ void __cdecl data::BooksCodexExcelConfig::BooksCodexExcelConfig(
   const data::BooksCodexExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::BooksCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BooksCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_BooksCodexExcelConfig = v2;
@@ -993,7 +993,7 @@ void __cdecl data::BooksCodexExcelConfig::~BooksCodexExcelConfig(data::BooksCode
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::BooksCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::BooksCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_BooksCodexExcelConfig = v2;
@@ -1020,7 +1020,7 @@ void __cdecl data::PushTipsCodexExcelConfig::PushTipsCodexExcelConfig(
   const data::PushTipsCodexExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::PushTipsCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PushTipsCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_PushTipsCodexExcelConfig = v2;
@@ -1090,7 +1090,7 @@ void __cdecl data::PushTipsCodexExcelConfig::~PushTipsCodexExcelConfig(data::Pus
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::PushTipsCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::PushTipsCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_PushTipsCodexExcelConfig = v2;
@@ -1109,7 +1109,7 @@ void __cdecl data::ViewCodexExcelConfig::ViewCodexExcelConfig(data::ViewCodexExc
   __int64 v8; // rsi
   __int64 v9; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ViewCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ViewCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ViewCodexExcelConfig = v2;
@@ -1218,7 +1218,7 @@ void __cdecl data::ViewCodexExcelConfig::ViewCodexExcelConfig(
   const data::ViewCodexExcelConfig *v33; // [rsp+0h] [rbp-20h]
 
   v33 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ViewCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ViewCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ViewCodexExcelConfig = v2;
@@ -1370,7 +1370,7 @@ void __cdecl data::ViewCodexExcelConfig::~ViewCodexExcelConfig(data::ViewCodexEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ViewCodexExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ViewCodexExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ViewCodexExcelConfig = v2;

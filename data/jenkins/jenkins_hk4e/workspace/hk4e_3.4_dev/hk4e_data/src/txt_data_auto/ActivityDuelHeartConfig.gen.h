@@ -9,7 +9,7 @@ void __cdecl data::ActivityDuelHeartExcelConfig::ActivityDuelHeartExcelConfig(
   uint32_t id; // ecx
   char v4; // al
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDuelHeartExcelConfig = v2;
@@ -43,7 +43,7 @@ void __cdecl data::ActivityDuelHeartExcelConfig::~ActivityDuelHeartExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDuelHeartExcelConfig = v2;
@@ -65,7 +65,7 @@ void __cdecl data::ActivityDuelHeartTaskExcelConfig::ActivityDuelHeartTaskExcelC
   const data::ActivityDuelHeartTaskExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDuelHeartTaskExcelConfig = v2;
@@ -118,7 +118,7 @@ void __cdecl data::ActivityDuelHeartTaskExcelConfig::~ActivityDuelHeartTaskExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartTaskExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartTaskExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDuelHeartTaskExcelConfig = v2;
@@ -148,7 +148,7 @@ void __cdecl data::ActivityDuelHeartDifficultyExcelConfig::ActivityDuelHeartDiff
   const data::ActivityDuelHeartDifficultyExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDuelHeartDifficultyExcelConfig = v2;
@@ -201,7 +201,7 @@ void __cdecl data::ActivityDuelHeartDifficultyExcelConfig::~ActivityDuelHeartDif
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartDifficultyExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartDifficultyExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDuelHeartDifficultyExcelConfig = v2;
@@ -223,7 +223,7 @@ void __cdecl data::ActivityDuelHeartLevelExcelConfig::ActivityDuelHeartLevelExce
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDuelHeartLevelExcelConfig = v2;
@@ -274,7 +274,7 @@ void __cdecl data::ActivityDuelHeartLevelExcelConfig::ActivityDuelHeartLevelExce
   const data::ActivityDuelHeartLevelExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityDuelHeartLevelExcelConfig = v2;
@@ -350,7 +350,7 @@ void __cdecl data::ActivityDuelHeartLevelExcelConfig::~ActivityDuelHeartLevelExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityDuelHeartLevelExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityDuelHeartLevelExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityDuelHeartLevelExcelConfig = v2;

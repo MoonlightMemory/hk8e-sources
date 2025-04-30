@@ -9,7 +9,7 @@ __int64 __fastcall mysqlpp::Connection::Connection(mysqlpp::Connection *this, bo
   this->exceptions_ = a2;
   this->error_message_._M_dataplus._M_p = this->error_message_._anon_0._M_local_buf;
   this->error_message_._M_string_length = 0LL;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Connection + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Connection + 2);
   this->error_message_._anon_0._M_local_buf[0] = 0;
   v2 = (mysqlpp::DBDriver *)operator new(0x5C8uLL);
   result = mysqlpp::DBDriver::DBDriver(v2);
@@ -48,7 +48,7 @@ __int64 __fastcall mysqlpp::Connection::Connection(
   this->exceptions_ = 1;
   this->error_message_._M_string_length = 0LL;
   this->error_message_._anon_0._M_local_buf[0] = 0;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Connection + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Connection + 2);
   this->error_message_._M_dataplus._M_p = this->error_message_._anon_0._M_local_buf;
   v10 = (mysqlpp::DBDriver *)operator new(0x5C8uLL);
   mysqlpp::DBDriver::DBDriver(v10);
@@ -90,7 +90,7 @@ void __fastcall mysqlpp::Connection::Connection(mysqlpp::Connection *this, const
   this->error_message_._M_dataplus._M_p = this->error_message_._anon_0._M_local_buf;
   this->exceptions_ = exceptions;
   this->error_message_._M_string_length = 0LL;
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Connection + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Connection + 2);
   v3 = (mysqlpp::DBDriver *)operator new(0x5C8uLL);
   mysqlpp::DBDriver::DBDriver(v3, other->driver_);
   this->driver_ = v3;
@@ -126,7 +126,7 @@ void __fastcall mysqlpp::Connection::~Connection(mysqlpp::Connection *const this
   mysqlpp::DBDriver *driver; // rdi
   mysqlpp::Connection *M_p; // rdi
 
-  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Connection + 2);
+  this->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Connection + 2);
   mysqlpp::Connection::disconnect(this);
   driver = this->driver_;
   if ( driver )
@@ -262,7 +262,7 @@ LABEL_5:
       v8 = mysqlpp::Connection::error(this);
       mysqlpp::Exception::Exception(exception, v8);
       *(_DWORD *)exception[1].baseclass_0 = v7;
-      *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ConnectionFailed + 2;
+      *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
       _cxa_throw(
         exception,
         (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
@@ -343,7 +343,7 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
     v6 = 0LL;
   }
   v7 = (__int64)v32;
-  v26[0] = (__int64)(&`vtable for'mysqlpp::StoreQueryResult + 2);
+  v26[0] = (__int64)(&`vtable for mysqlpp::StoreQueryResult + 2);
   if ( v32 != v5 )
   {
     do
@@ -351,7 +351,7 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
       v8 = *v5->_vptr_OptionalExceptions;
       if ( (char *)v8 == (char *)mysqlpp::Row::~Row )
       {
-        v5->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for'mysqlpp::Row + 2);
+        v5->_vptr_OptionalExceptions = (int (**)(...))(&`vtable for mysqlpp::Row + 2);
         mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&v5->field_names_);
         M_finish = v5->data_._M_impl._M_finish;
         M_start = v5->data_._M_impl._M_start;
@@ -380,7 +380,7 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
   }
   if ( v5 )
     operator delete(v5);
-  v26[0] = (__int64)(&`vtable for'mysqlpp::ResultBase + 2);
+  v26[0] = (__int64)(&`vtable for mysqlpp::ResultBase + 2);
   mysqlpp::RefCountedPointer<mysqlpp::FieldTypes,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldTypes>>::~RefCountedPointer(&v30);
   mysqlpp::RefCountedPointer<mysqlpp::FieldNames,mysqlpp::RefCountedPointerDestroyer<mysqlpp::FieldNames>>::~RefCountedPointer(&v29);
   v12 = v28;
@@ -404,13 +404,13 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
   }
   if ( v13 )
     operator delete(v13);
-  *(_QWORD *)v34.baseclass_0 = (char *)&`vtable for'mysqlpp::Query + 24;
-  v34._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
-  *(_QWORD *)&v34.sbuffer_[104] = (char *)&`vtable for'mysqlpp::Query + 96;
-  *(_QWORD *)v34.sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)v34.baseclass_0 = (char *)&`vtable for mysqlpp::Query + 24;
+  v34._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
+  *(_QWORD *)&v34.sbuffer_[104] = (char *)&`vtable for mysqlpp::Query + 96;
+  *(_QWORD *)v34.sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   if ( *(mysqlpp::Query **)&v34.sbuffer_[72] != (mysqlpp::Query *)&v34.sbuffer_[88] )
     operator delete(*(void **)&v34.sbuffer_[72]);
-  *(_QWORD *)v34.sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)v34.sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)&v34.sbuffer_[56]);
   std::_Rb_tree<std::string,std::pair<std::string const,short>,std::_Select1st<std::pair<std::string const,short>>,std::less<std::string>,std::allocator<std::pair<std::string const,short>>>::_M_erase(
     &v34.parsed_nums_._M_t,
@@ -461,7 +461,7 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
   if ( v21 )
     operator delete(v21);
   *(_QWORD *)v34.baseclass_0 = &unk_1EB1B130;
-  *(_QWORD *)&v34.sbuffer_[104] = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)&v34.sbuffer_[104] = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&v34.sbuffer_[104]);
   return v6;
 };
@@ -495,13 +495,13 @@ __int64 __fastcall mysqlpp::Connection::create_db(mysqlpp::Connection *a1, _QWOR
   v4 = mysqlpp::Query::exec(&v15);
   if ( v13[0] != &v14 )
     operator delete(v13[0]);
-  *(_QWORD *)v15.baseclass_0 = (char *)&`vtable for'mysqlpp::Query + 24;
-  v15._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
-  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for'mysqlpp::Query + 96;
-  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)v15.baseclass_0 = (char *)&`vtable for mysqlpp::Query + 24;
+  v15._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
+  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for mysqlpp::Query + 96;
+  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   if ( *(mysqlpp::Query **)&v15.sbuffer_[72] != (mysqlpp::Query *)&v15.sbuffer_[88] )
     operator delete(*(void **)&v15.sbuffer_[72]);
-  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)&v15.sbuffer_[56]);
   std::_Rb_tree<std::string,std::pair<std::string const,short>,std::_Select1st<std::pair<std::string const,short>>,std::less<std::string>,std::allocator<std::pair<std::string const,short>>>::_M_erase(
     &v15.parsed_nums_._M_t,
@@ -552,7 +552,7 @@ __int64 __fastcall mysqlpp::Connection::create_db(mysqlpp::Connection *a1, _QWOR
   if ( v10 )
     operator delete(v10);
   *(_QWORD *)v15.baseclass_0 = &unk_1EB1B130;
-  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&v15.sbuffer_[104]);
   return v4;
 };
@@ -586,13 +586,13 @@ __int64 __fastcall mysqlpp::Connection::drop_db(mysqlpp::Connection *a1, _QWORD 
   v4 = mysqlpp::Query::exec(&v15);
   if ( v13[0] != &v14 )
     operator delete(v13[0]);
-  *(_QWORD *)v15.baseclass_0 = (char *)&`vtable for'mysqlpp::Query + 24;
-  v15._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for'mysqlpp::Query + 56);
-  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for'mysqlpp::Query + 96;
-  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for'std::stringbuf + 16;
+  *(_QWORD *)v15.baseclass_0 = (char *)&`vtable for mysqlpp::Query + 24;
+  v15._vptr_OptionalExceptions = (int (**)(...))((char *)&`vtable for mysqlpp::Query + 56);
+  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for mysqlpp::Query + 96;
+  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for std::stringbuf + 16;
   if ( *(mysqlpp::Query **)&v15.sbuffer_[72] != (mysqlpp::Query *)&v15.sbuffer_[88] )
     operator delete(*(void **)&v15.sbuffer_[72]);
-  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for'std::streambuf + 16;
+  *(_QWORD *)v15.sbuffer_ = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)&v15.sbuffer_[56]);
   std::_Rb_tree<std::string,std::pair<std::string const,short>,std::_Select1st<std::pair<std::string const,short>>,std::less<std::string>,std::allocator<std::pair<std::string const,short>>>::_M_erase(
     &v15.parsed_nums_._M_t,
@@ -643,7 +643,7 @@ __int64 __fastcall mysqlpp::Connection::drop_db(mysqlpp::Connection *a1, _QWORD 
   if ( v10 )
     operator delete(v10);
   *(_QWORD *)v15.baseclass_0 = &unk_1EB1B130;
-  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for'std::ios + 16;
+  *(_QWORD *)&v15.sbuffer_[104] = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&v15.sbuffer_[104]);
   return v4;
 };
@@ -862,7 +862,7 @@ __int64 __fastcall mysqlpp::Connection::select_db(mysqlpp::Connection *this, con
       exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x30uLL);
       mysqlpp::Exception::Exception(exception, this->error_message_._M_dataplus._M_p);
       *(_DWORD *)exception[1].baseclass_0 = 0;
-      *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::DBSelectionFailed + 2;
+      *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::DBSelectionFailed + 2;
       _cxa_throw(
         exception,
         (struct type_info *)&`typeinfo for'mysqlpp::DBSelectionFailed,
@@ -899,7 +899,7 @@ void __fastcall __noreturn mysqlpp::Connection::select_db()
   v3 = mysqlpp::Connection::error(v0);
   mysqlpp::Exception::Exception(exception, v3);
   *(_DWORD *)exception[1].baseclass_0 = v2;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::DBSelectionFailed + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::DBSelectionFailed + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::DBSelectionFailed,
@@ -1058,7 +1058,7 @@ void __fastcall __noreturn mysqlpp::Connection::set_option()
   exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x30uLL);
   mysqlpp::Exception::Exception(exception, v1);
   *(_QWORD *)exception[1].baseclass_0 = v0;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::BadOption + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadOption + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::BadOption,
@@ -1093,7 +1093,7 @@ bool __fastcall mysqlpp::Connection::shutdown(mysqlpp::Connection *this)
       exception = (mysqlpp::Exception *)__cxa_allocate_exception(0x30uLL);
       mysqlpp::Exception::Exception(exception, this->error_message_._M_dataplus._M_p);
       *(_DWORD *)exception[1].baseclass_0 = 0;
-      *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ConnectionFailed + 2;
+      *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
       _cxa_throw(
         exception,
         (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
@@ -1117,7 +1117,7 @@ void __fastcall __noreturn mysqlpp::Connection::shutdown()
   v3 = mysqlpp::Connection::error(v0);
   mysqlpp::Exception::Exception(exception, v3);
   *(_DWORD *)exception[1].baseclass_0 = v2;
-  *(_QWORD *)exception->baseclass_0 = &`vtable for'mysqlpp::ConnectionFailed + 2;
+  *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     exception,
     (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,

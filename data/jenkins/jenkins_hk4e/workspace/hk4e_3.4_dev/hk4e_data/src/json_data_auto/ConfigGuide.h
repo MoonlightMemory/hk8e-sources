@@ -17,7 +17,7 @@ void __cdecl data::ConfigGuideHasItemCondition::ConfigGuideHasItemCondition(
   float value; // xmm0_4
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -69,7 +69,7 @@ void __cdecl data::ConfigBaseGuide::ConfigBaseGuide(data::ConfigBaseGuide *const
   int (**v2)(...); // rdx
 
   std::enable_shared_from_this<data::ConfigBaseGuide>::enable_shared_from_this(&this->std::enable_shared_from_this<data::ConfigBaseGuide>);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseGuide + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -90,7 +90,7 @@ void __cdecl data::ConfigBaseGuide::ConfigBaseGuide(data::ConfigBaseGuide *const
   std::enable_shared_from_this<data::ConfigBaseGuide>::enable_shared_from_this(
     &this->std::enable_shared_from_this<data::ConfigBaseGuide>,
     v2);
-  v3 = (int (**)(...))(&`vtable for'data::ConfigBaseGuide + 2);
+  v3 = (int (**)(...))(&`vtable for data::ConfigBaseGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v2);
   this->_vptr_ConfigBaseGuide = v3;
@@ -119,7 +119,7 @@ void __cdecl data::ConfigBaseGuide::~ConfigBaseGuide(data::ConfigBaseGuide *cons
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigBaseGuide + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigBaseGuide + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -187,7 +187,7 @@ void __cdecl data::ConfigGuideAction::ConfigGuideAction(data::ConfigGuideAction 
   int (**v2)(...); // rdx
 
   data::ConfigBaseGuide::ConfigBaseGuide(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -201,7 +201,7 @@ void __cdecl data::ConfigGuideAction::ConfigGuideAction(
   int (**v2)(...); // rdx
 
   data::ConfigBaseGuide::ConfigBaseGuide(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -213,7 +213,7 @@ void __cdecl data::ConfigGuideAction::~ConfigGuideAction(data::ConfigGuideAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -289,7 +289,7 @@ void __cdecl data::ConfigGuideCondition::ConfigGuideCondition(data::ConfigGuideC
   __int64 v3; // rsi
 
   data::ConfigBaseGuide::ConfigBaseGuide((data::ConfigBaseGuide *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -319,7 +319,7 @@ void __cdecl data::ConfigGuideCondition::ConfigGuideCondition(
   char v7; // al
 
   data::ConfigBaseGuide::ConfigBaseGuide((data::ConfigBaseGuide *const)this, (const data::ConfigBaseGuide *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -353,7 +353,7 @@ void __cdecl data::ConfigGuideCondition::~ConfigGuideCondition(data::ConfigGuide
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -429,7 +429,7 @@ void __cdecl data::ConfigGuideGeneralCondition::ConfigGuideGeneralCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideGeneralCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideGeneralCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -443,7 +443,7 @@ void __cdecl data::ConfigGuideGeneralCondition::ConfigGuideGeneralCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideGeneralCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideGeneralCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -456,7 +456,7 @@ void __cdecl data::ConfigGuideGeneralCondition::~ConfigGuideGeneralCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideGeneralCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideGeneralCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -532,7 +532,7 @@ void __cdecl data::ConfigGuideGeneralConditionFactory::ConfigGuideGeneralConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideGeneralConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideGeneralConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideGeneralConditionFactory = v2;
@@ -621,7 +621,7 @@ void __cdecl data::ConfigAvatarEquipChangedCondition::ConfigAvatarEquipChangedCo
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarEquipChangedCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarEquipChangedCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -646,7 +646,7 @@ void __cdecl data::ConfigAvatarEquipChangedCondition::ConfigAvatarEquipChangedCo
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarEquipChangedCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarEquipChangedCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -673,7 +673,7 @@ void __cdecl data::ConfigAvatarEquipChangedCondition::~ConfigAvatarEquipChangedC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarEquipChangedCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarEquipChangedCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -751,7 +751,7 @@ void __cdecl data::ConfigAvatarEquipChangedConditionFactory::ConfigAvatarEquipCh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigAvatarEquipChangedConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigAvatarEquipChangedConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigAvatarEquipChangedConditionFactory = v2;
@@ -766,7 +766,7 @@ void __cdecl data::ConfigGuideOpenStateCondition::ConfigGuideOpenStateCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -797,7 +797,7 @@ void __cdecl data::ConfigGuideOpenStateCondition::ConfigGuideOpenStateCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -840,7 +840,7 @@ void __cdecl data::ConfigGuideOpenStateCondition::~ConfigGuideOpenStateCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -931,7 +931,7 @@ void __cdecl data::ConfigGuideOpenStateConditionFactory::ConfigGuideOpenStateCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenStateConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenStateConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideOpenStateConditionFactory = v2;
@@ -945,7 +945,7 @@ void __cdecl data::ConfigGuideLevelCondition::ConfigGuideLevelCondition(data::Co
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -976,7 +976,7 @@ void __cdecl data::ConfigGuideLevelCondition::ConfigGuideLevelCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1010,7 +1010,7 @@ void __cdecl data::ConfigGuideLevelCondition::~ConfigGuideLevelCondition(data::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1085,7 +1085,7 @@ void __cdecl data::ConfigGuideLevelConditionFactory::ConfigGuideLevelConditionFa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideLevelConditionFactory = v2;
@@ -1098,7 +1098,7 @@ void __cdecl data::ConfigGuideOpenUICondition::ConfigGuideOpenUICondition(data::
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenUICondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenUICondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1129,7 +1129,7 @@ void __cdecl data::ConfigGuideOpenUICondition::ConfigGuideOpenUICondition(
   char v8; // al
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenUICondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenUICondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1177,7 +1177,7 @@ void __cdecl data::ConfigGuideOpenUICondition::~ConfigGuideOpenUICondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenUICondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenUICondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1247,7 +1247,7 @@ void __cdecl data::ConfigGuideOpenUIConditionFactory::ConfigGuideOpenUICondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenUIConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenUIConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideOpenUIConditionFactory = v2;
@@ -1261,7 +1261,7 @@ void __cdecl data::ConfigGuideAvatarChangeCondition::ConfigGuideAvatarChangeCond
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarChangeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarChangeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1286,7 +1286,7 @@ void __cdecl data::ConfigGuideAvatarChangeCondition::ConfigGuideAvatarChangeCond
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarChangeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarChangeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1321,7 +1321,7 @@ void __cdecl data::ConfigGuideAvatarChangeCondition::~ConfigGuideAvatarChangeCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarChangeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarChangeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1391,7 +1391,7 @@ void __cdecl data::ConfigGuideAvatarChangeConditionFactory::ConfigGuideAvatarCha
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarChangeConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarChangeConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAvatarChangeConditionFactory = v2;
@@ -1407,7 +1407,7 @@ void __cdecl data::ConfigGuideCanGetPersonalLineKeyCondition::ConfigGuideCanGetP
   __int64 v4; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1433,7 +1433,7 @@ void __cdecl data::ConfigGuideCanGetPersonalLineKeyCondition::ConfigGuideCanGetP
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1457,7 +1457,7 @@ void __cdecl data::ConfigGuideCanGetPersonalLineKeyCondition::~ConfigGuideCanGet
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCanGetPersonalLineKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1535,7 +1535,7 @@ void __cdecl data::ConfigGuideCanGetPersonalLineKeyConditionFactory::ConfigGuide
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCanGetPersonalLineKeyConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCanGetPersonalLineKeyConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCanGetPersonalLineKeyConditionFactory = v2;
@@ -1550,7 +1550,7 @@ void __cdecl data::ConfigGuideClimateTypeCondition::ConfigGuideClimateTypeCondit
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideClimateTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideClimateTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1581,7 +1581,7 @@ void __cdecl data::ConfigGuideClimateTypeCondition::ConfigGuideClimateTypeCondit
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideClimateTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideClimateTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1624,7 +1624,7 @@ void __cdecl data::ConfigGuideClimateTypeCondition::~ConfigGuideClimateTypeCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideClimateTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideClimateTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1694,7 +1694,7 @@ void __cdecl data::ConfigGuideClimateTypeConditionFactory::ConfigGuideClimateTyp
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideClimateTypeConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideClimateTypeConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideClimateTypeConditionFactory = v2;
@@ -1709,7 +1709,7 @@ void __cdecl data::ConfigGuideTeamMemberCondition::ConfigGuideTeamMemberConditio
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1740,7 +1740,7 @@ void __cdecl data::ConfigGuideTeamMemberCondition::ConfigGuideTeamMemberConditio
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1775,7 +1775,7 @@ void __cdecl data::ConfigGuideTeamMemberCondition::~ConfigGuideTeamMemberConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamMemberCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamMemberCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1853,7 +1853,7 @@ void __cdecl data::ConfigGuideTeamMemberConditionFactory::ConfigGuideTeamMemberC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamMemberConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamMemberConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideTeamMemberConditionFactory = v2;
@@ -1867,7 +1867,7 @@ void __cdecl data::ConfigGuideAvatarStateCondition::ConfigGuideAvatarStateCondit
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1892,7 +1892,7 @@ void __cdecl data::ConfigGuideAvatarStateCondition::ConfigGuideAvatarStateCondit
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1919,7 +1919,7 @@ void __cdecl data::ConfigGuideAvatarStateCondition::~ConfigGuideAvatarStateCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -1997,7 +1997,7 @@ void __cdecl data::ConfigGuideAvatarStateConditionFactory::ConfigGuideAvatarStat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarStateConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarStateConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAvatarStateConditionFactory = v2;
@@ -2014,7 +2014,7 @@ void __cdecl data::ConfigGuideButtonClickCondition::ConfigGuideButtonClickCondit
   __int64 v5; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideButtonClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideButtonClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2089,7 +2089,7 @@ void __cdecl data::ConfigGuideButtonClickCondition::ConfigGuideButtonClickCondit
   char v19; // al
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideButtonClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideButtonClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2191,7 +2191,7 @@ void __cdecl data::ConfigGuideButtonClickCondition::~ConfigGuideButtonClickCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideButtonClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideButtonClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2271,7 +2271,7 @@ void __cdecl data::ConfigGuideButtonClickConditionFactory::ConfigGuideButtonClic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideButtonClickConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideButtonClickConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideButtonClickConditionFactory = v2;
@@ -2286,7 +2286,7 @@ void __cdecl data::ConfigGuideTabItemCondition::ConfigGuideTabItemCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTabItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTabItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2326,7 +2326,7 @@ void __cdecl data::ConfigGuideTabItemCondition::ConfigGuideTabItemCondition(
   char v10; // al
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTabItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTabItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2377,7 +2377,7 @@ void __cdecl data::ConfigGuideTabItemCondition::~ConfigGuideTabItemCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTabItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTabItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2455,7 +2455,7 @@ void __cdecl data::ConfigGuideTabItemConditionFactory::ConfigGuideTabItemConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTabItemConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTabItemConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideTabItemConditionFactory = v2;
@@ -2472,7 +2472,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusBuildingSelectCondition::ConfigGu
   __int64 v5; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2513,7 +2513,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusBuildingSelectCondition::ConfigGu
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2567,7 +2567,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusBuildingSelectCondition::~ConfigG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusBuildingSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2637,7 +2637,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusBuildingSelectConditionFactory::C
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusBuildingSelectConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusBuildingSelectConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideTheatreMechanicusBuildingSelectConditionFactory = v2;
@@ -2652,7 +2652,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusInfoSelectCondition::ConfigGuideT
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2683,7 +2683,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusInfoSelectCondition::ConfigGuideT
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2726,7 +2726,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusInfoSelectCondition::~ConfigGuide
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusInfoSelectCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2796,7 +2796,7 @@ void __cdecl data::ConfigGuideTheatreMechanicusInfoSelectConditionFactory::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTheatreMechanicusInfoSelectConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTheatreMechanicusInfoSelectConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideTheatreMechanicusInfoSelectConditionFactory = v2;
@@ -2812,7 +2812,7 @@ void __cdecl data::ConfigGuideHasItemCondition::ConfigGuideHasItemCondition(
   __int64 v4; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2852,7 +2852,7 @@ void __cdecl data::ConfigGuideHasItemCondition::~ConfigGuideHasItemCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasItemCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasItemCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2922,7 +2922,7 @@ void __cdecl data::ConfigGuideHasItemConditionFactory::ConfigGuideHasItemConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasItemConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasItemConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideHasItemConditionFactory = v2;
@@ -2936,7 +2936,7 @@ void __cdecl data::ConfigGuideCameraCondition::ConfigGuideCameraCondition(data::
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -2969,7 +2969,7 @@ void __cdecl data::ConfigGuideCameraCondition::ConfigGuideCameraCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3014,7 +3014,7 @@ void __cdecl data::ConfigGuideCameraCondition::~ConfigGuideCameraCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3082,7 +3082,7 @@ void __cdecl data::ConfigGuideCameraConditionFactory::ConfigGuideCameraCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCameraConditionFactory = v2;
@@ -3096,7 +3096,7 @@ void __cdecl data::ConfigGuideAvatarActionCondition::ConfigGuideAvatarActionCond
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3121,7 +3121,7 @@ void __cdecl data::ConfigGuideAvatarActionCondition::ConfigGuideAvatarActionCond
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3156,7 +3156,7 @@ void __cdecl data::ConfigGuideAvatarActionCondition::~ConfigGuideAvatarActionCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3226,7 +3226,7 @@ void __cdecl data::ConfigGuideAvatarActionConditionFactory::ConfigGuideAvatarAct
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAvatarActionConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAvatarActionConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAvatarActionConditionFactory = v2;
@@ -3240,7 +3240,7 @@ void __cdecl data::ConfigGuideDelayFinishCondition::ConfigGuideDelayFinishCondit
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3263,7 +3263,7 @@ void __cdecl data::ConfigGuideDelayFinishCondition::ConfigGuideDelayFinishCondit
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3296,7 +3296,7 @@ void __cdecl data::ConfigGuideDelayFinishCondition::~ConfigGuideDelayFinishCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3366,7 +3366,7 @@ void __cdecl data::ConfigGuideDelayFinishConditionFactory::ConfigGuideDelayFinis
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayFinishConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayFinishConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideDelayFinishConditionFactory = v2;
@@ -3382,7 +3382,7 @@ void __cdecl data::ConfigGuideMultiSinglePlayerCondition::ConfigGuideMultiSingle
   __int64 v4; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiSinglePlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiSinglePlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3408,7 +3408,7 @@ void __cdecl data::ConfigGuideMultiSinglePlayerCondition::ConfigGuideMultiSingle
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiSinglePlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiSinglePlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3440,7 +3440,7 @@ void __cdecl data::ConfigGuideMultiSinglePlayerCondition::~ConfigGuideMultiSingl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiSinglePlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiSinglePlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3510,7 +3510,7 @@ void __cdecl data::ConfigGuideMultiSinglePlayerConditionFactory::ConfigGuideMult
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiSinglePlayerConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiSinglePlayerConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideMultiSinglePlayerConditionFactory = v2;
@@ -3527,7 +3527,7 @@ void __cdecl data::ConfigGuideMultiPlayerCondition::ConfigGuideMultiPlayerCondit
   __int64 v5; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiPlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiPlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3580,7 +3580,7 @@ void __cdecl data::ConfigGuideMultiPlayerCondition::ConfigGuideMultiPlayerCondit
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiPlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiPlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3653,7 +3653,7 @@ void __cdecl data::ConfigGuideMultiPlayerCondition::~ConfigGuideMultiPlayerCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiPlayerCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiPlayerCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3723,7 +3723,7 @@ void __cdecl data::ConfigGuideMultiPlayerConditionFactory::ConfigGuideMultiPlaye
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMultiPlayerConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMultiPlayerConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideMultiPlayerConditionFactory = v2;
@@ -3738,7 +3738,7 @@ void __cdecl data::ConfigGuideTeamAvatarNumCondition::ConfigGuideTeamAvatarNumCo
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamAvatarNumCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamAvatarNumCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3772,7 +3772,7 @@ void __cdecl data::ConfigGuideTeamAvatarNumCondition::ConfigGuideTeamAvatarNumCo
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamAvatarNumCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamAvatarNumCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3820,7 +3820,7 @@ void __cdecl data::ConfigGuideTeamAvatarNumCondition::~ConfigGuideTeamAvatarNumC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamAvatarNumCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamAvatarNumCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3890,7 +3890,7 @@ void __cdecl data::ConfigGuideTeamAvatarNumConditionFactory::ConfigGuideTeamAvat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideTeamAvatarNumConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideTeamAvatarNumConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideTeamAvatarNumConditionFactory = v2;
@@ -3905,7 +3905,7 @@ void __cdecl data::ConfigGuideHasAvatarCondition::ConfigGuideHasAvatarCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasAvatarCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasAvatarCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -3946,7 +3946,7 @@ void __cdecl data::ConfigGuideHasAvatarCondition::ConfigGuideHasAvatarCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasAvatarCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasAvatarCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4006,7 +4006,7 @@ void __cdecl data::ConfigGuideHasAvatarCondition::~ConfigGuideHasAvatarCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasAvatarCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasAvatarCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4075,7 +4075,7 @@ void __cdecl data::ConfigGuideHasAvatarConditionFactory::ConfigGuideHasAvatarCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHasAvatarConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHasAvatarConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideHasAvatarConditionFactory = v2;
@@ -4092,7 +4092,7 @@ void __cdecl data::ConfigGuideKillMonsterCondition::ConfigGuideKillMonsterCondit
   __int64 v5; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideKillMonsterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideKillMonsterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4145,7 +4145,7 @@ void __cdecl data::ConfigGuideKillMonsterCondition::ConfigGuideKillMonsterCondit
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideKillMonsterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideKillMonsterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4235,7 +4235,7 @@ void __cdecl data::ConfigGuideKillMonsterCondition::~ConfigGuideKillMonsterCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideKillMonsterCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideKillMonsterCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4305,7 +4305,7 @@ void __cdecl data::ConfigGuideKillMonsterConditionFactory::ConfigGuideKillMonste
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideKillMonsterConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideKillMonsterConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideKillMonsterConditionFactory = v2;
@@ -4319,7 +4319,7 @@ void __cdecl data::ConfigGuideCheckTaskFinishCondition::ConfigGuideCheckTaskFini
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckTaskFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckTaskFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4344,7 +4344,7 @@ void __cdecl data::ConfigGuideCheckTaskFinishCondition::ConfigGuideCheckTaskFini
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckTaskFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckTaskFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4379,7 +4379,7 @@ void __cdecl data::ConfigGuideCheckTaskFinishCondition::~ConfigGuideCheckTaskFin
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckTaskFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckTaskFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4449,7 +4449,7 @@ void __cdecl data::ConfigGuideCheckTaskFinishConditionFactory::ConfigGuideCheckT
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckTaskFinishConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckTaskFinishConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCheckTaskFinishConditionFactory = v2;
@@ -4466,7 +4466,7 @@ void __cdecl data::ConfigGuideCheckQuestStateCondition::ConfigGuideCheckQuestSta
   __int64 v5; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckQuestStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckQuestStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4510,7 +4510,7 @@ void __cdecl data::ConfigGuideCheckQuestStateCondition::ConfigGuideCheckQuestSta
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckQuestStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckQuestStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4561,7 +4561,7 @@ void __cdecl data::ConfigGuideCheckQuestStateCondition::~ConfigGuideCheckQuestSt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckQuestStateCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckQuestStateCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4639,7 +4639,7 @@ void __cdecl data::ConfigGuideCheckQuestStateConditionFactory::ConfigGuideCheckQ
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckQuestStateConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckQuestStateConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCheckQuestStateConditionFactory = v2;
@@ -4655,7 +4655,7 @@ void __cdecl data::ConfigGuideNavigationCondition::ConfigGuideNavigationConditio
   __int64 v4; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4704,7 +4704,7 @@ void __cdecl data::ConfigGuideNavigationCondition::ConfigGuideNavigationConditio
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4774,7 +4774,7 @@ void __cdecl data::ConfigGuideNavigationCondition::~ConfigGuideNavigationConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4844,7 +4844,7 @@ void __cdecl data::ConfigGuideNavigationConditionFactory::ConfigGuideNavigationC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideNavigationConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideNavigationConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideNavigationConditionFactory = v2;
@@ -4858,7 +4858,7 @@ void __cdecl data::ConfigGuideOpenPaimonNavigationCondition::ConfigGuideOpenPaim
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenPaimonNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenPaimonNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4872,7 +4872,7 @@ void __cdecl data::ConfigGuideOpenPaimonNavigationCondition::ConfigGuideOpenPaim
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenPaimonNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenPaimonNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4885,7 +4885,7 @@ void __cdecl data::ConfigGuideOpenPaimonNavigationCondition::~ConfigGuideOpenPai
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenPaimonNavigationCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenPaimonNavigationCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -4963,7 +4963,7 @@ void __cdecl data::ConfigGuideOpenPaimonNavigationConditionFactory::ConfigGuideO
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideOpenPaimonNavigationConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideOpenPaimonNavigationConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideOpenPaimonNavigationConditionFactory = v2;
@@ -4977,7 +4977,7 @@ void __cdecl data::ConfigGuideVirtualDialActionCondition::ConfigGuideVirtualDial
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5003,7 +5003,7 @@ void __cdecl data::ConfigGuideVirtualDialActionCondition::ConfigGuideVirtualDial
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5030,7 +5030,7 @@ void __cdecl data::ConfigGuideVirtualDialActionCondition::~ConfigGuideVirtualDia
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5108,7 +5108,7 @@ void __cdecl data::ConfigGuideVirtualDialActionConditionFactory::ConfigGuideVirt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideVirtualDialActionConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideVirtualDialActionConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideVirtualDialActionConditionFactory = v2;
@@ -5122,7 +5122,7 @@ void __cdecl data::ConfigGuideCenterVirtualDialActionCondition::ConfigGuideCente
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCenterVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCenterVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5147,7 +5147,7 @@ void __cdecl data::ConfigGuideCenterVirtualDialActionCondition::ConfigGuideCente
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCenterVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCenterVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5182,7 +5182,7 @@ void __cdecl data::ConfigGuideCenterVirtualDialActionCondition::~ConfigGuideCent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCenterVirtualDialActionCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCenterVirtualDialActionCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5252,7 +5252,7 @@ void __cdecl data::ConfigGuideCenterVirtualDialActionConditionFactory::ConfigGui
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCenterVirtualDialActionConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCenterVirtualDialActionConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCenterVirtualDialActionConditionFactory = v2;
@@ -5267,7 +5267,7 @@ void __cdecl data::ConfigGuideCheckPlatformCondition::ConfigGuideCheckPlatformCo
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckPlatformCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckPlatformCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5298,7 +5298,7 @@ void __cdecl data::ConfigGuideCheckPlatformCondition::ConfigGuideCheckPlatformCo
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckPlatformCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckPlatformCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5333,7 +5333,7 @@ void __cdecl data::ConfigGuideCheckPlatformCondition::~ConfigGuideCheckPlatformC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckPlatformCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckPlatformCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5411,7 +5411,7 @@ void __cdecl data::ConfigGuideCheckPlatformConditionFactory::ConfigGuideCheckPla
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckPlatformConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckPlatformConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCheckPlatformConditionFactory = v2;
@@ -5427,7 +5427,7 @@ void __cdecl data::ConfigGuideCheckAimCondition::ConfigGuideCheckAimCondition(
   __int64 v4; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckAimCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckAimCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5453,7 +5453,7 @@ void __cdecl data::ConfigGuideCheckAimCondition::ConfigGuideCheckAimCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckAimCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckAimCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5485,7 +5485,7 @@ void __cdecl data::ConfigGuideCheckAimCondition::~ConfigGuideCheckAimCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckAimCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckAimCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5554,7 +5554,7 @@ void __cdecl data::ConfigGuideCheckAimConditionFactory::ConfigGuideCheckAimCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCheckAimConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCheckAimConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCheckAimConditionFactory = v2;
@@ -5568,7 +5568,7 @@ void __cdecl data::ConfigGuideLevelTypeCondition::ConfigGuideLevelTypeCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5593,7 +5593,7 @@ void __cdecl data::ConfigGuideLevelTypeCondition::ConfigGuideLevelTypeCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5628,7 +5628,7 @@ void __cdecl data::ConfigGuideLevelTypeCondition::~ConfigGuideLevelTypeCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelTypeCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelTypeCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5697,7 +5697,7 @@ void __cdecl data::ConfigGuideLevelTypeConditionFactory::ConfigGuideLevelTypeCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideLevelTypeConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideLevelTypeConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideLevelTypeConditionFactory = v2;
@@ -5713,7 +5713,7 @@ void __cdecl data::ConfigGuidePressKeyCondition::ConfigGuidePressKeyCondition(
   __int64 v4; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePressKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePressKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5764,7 +5764,7 @@ void __cdecl data::ConfigGuidePressKeyCondition::ConfigGuidePressKeyCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePressKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePressKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5828,7 +5828,7 @@ void __cdecl data::ConfigGuidePressKeyCondition::~ConfigGuidePressKeyCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePressKeyCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePressKeyCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5905,7 +5905,7 @@ void __cdecl data::ConfigGuidePressKeyConditionFactory::ConfigGuidePressKeyCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePressKeyConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePressKeyConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuidePressKeyConditionFactory = v2;
@@ -5920,7 +5920,7 @@ void __cdecl data::ConfigGuideMapClickCondition::ConfigGuideMapClickCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMapClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMapClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5951,7 +5951,7 @@ void __cdecl data::ConfigGuideMapClickCondition::ConfigGuideMapClickCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMapClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMapClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -5994,7 +5994,7 @@ void __cdecl data::ConfigGuideMapClickCondition::~ConfigGuideMapClickCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMapClickCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMapClickCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6063,7 +6063,7 @@ void __cdecl data::ConfigGuideMapClickConditionFactory::ConfigGuideMapClickCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMapClickConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMapClickConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideMapClickConditionFactory = v2;
@@ -6078,7 +6078,7 @@ void __cdecl data::ConfigGuideSceneIdCondition::ConfigGuideSceneIdCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSceneIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSceneIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6111,7 +6111,7 @@ void __cdecl data::ConfigGuideSceneIdCondition::ConfigGuideSceneIdCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSceneIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSceneIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6150,7 +6150,7 @@ void __cdecl data::ConfigGuideSceneIdCondition::~ConfigGuideSceneIdCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSceneIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSceneIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6227,7 +6227,7 @@ void __cdecl data::ConfigGuideSceneIdConditionFactory::ConfigGuideSceneIdConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSceneIdConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSceneIdConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideSceneIdConditionFactory = v2;
@@ -6242,7 +6242,7 @@ void __cdecl data::ConfigGuideDungeonIdCondition::ConfigGuideDungeonIdCondition(
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDungeonIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDungeonIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6275,7 +6275,7 @@ void __cdecl data::ConfigGuideDungeonIdCondition::ConfigGuideDungeonIdCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDungeonIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDungeonIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6322,7 +6322,7 @@ void __cdecl data::ConfigGuideDungeonIdCondition::~ConfigGuideDungeonIdCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDungeonIdCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDungeonIdCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6392,7 +6392,7 @@ void __cdecl data::ConfigGuideDungeonIdConditionFactory::ConfigGuideDungeonIdCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDungeonIdConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDungeonIdConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideDungeonIdConditionFactory = v2;
@@ -6410,7 +6410,7 @@ void __cdecl data::ConfigGuideHomeSceneCondition::ConfigGuideHomeSceneCondition(
   __int64 v6; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHomeSceneCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHomeSceneCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6446,7 +6446,7 @@ void __cdecl data::ConfigGuideHomeSceneCondition::ConfigGuideHomeSceneCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHomeSceneCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHomeSceneCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6481,7 +6481,7 @@ void __cdecl data::ConfigGuideHomeSceneCondition::~ConfigGuideHomeSceneCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHomeSceneCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHomeSceneCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6558,7 +6558,7 @@ void __cdecl data::ConfigGuideHomeSceneConditionFactory::ConfigGuideHomeSceneCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHomeSceneConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHomeSceneConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideHomeSceneConditionFactory = v2;
@@ -6575,7 +6575,7 @@ void __cdecl data::ConfigGuideFoundationBuildCondition::ConfigGuideFoundationBui
   __int64 v5; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFoundationBuildCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFoundationBuildCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6619,7 +6619,7 @@ void __cdecl data::ConfigGuideFoundationBuildCondition::ConfigGuideFoundationBui
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFoundationBuildCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFoundationBuildCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6670,7 +6670,7 @@ void __cdecl data::ConfigGuideFoundationBuildCondition::~ConfigGuideFoundationBu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFoundationBuildCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFoundationBuildCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6748,7 +6748,7 @@ void __cdecl data::ConfigGuideFoundationBuildConditionFactory::ConfigGuideFounda
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFoundationBuildConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFoundationBuildConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideFoundationBuildConditionFactory = v2;
@@ -6763,7 +6763,7 @@ void __cdecl data::ConfigGuideMechanicusPickCardCondition::ConfigGuideMechanicus
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusPickCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusPickCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6794,7 +6794,7 @@ void __cdecl data::ConfigGuideMechanicusPickCardCondition::ConfigGuideMechanicus
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusPickCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusPickCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6829,7 +6829,7 @@ void __cdecl data::ConfigGuideMechanicusPickCardCondition::~ConfigGuideMechanicu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusPickCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusPickCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6907,7 +6907,7 @@ void __cdecl data::ConfigGuideMechanicusPickCardConditionFactory::ConfigGuideMec
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusPickCardConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusPickCardConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideMechanicusPickCardConditionFactory = v2;
@@ -6923,7 +6923,7 @@ void __cdecl data::ConfigGuideMechanicusCurseCardCondition::ConfigGuideMechanicu
   __int64 v4; // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusCurseCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusCurseCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6949,7 +6949,7 @@ void __cdecl data::ConfigGuideMechanicusCurseCardCondition::ConfigGuideMechanicu
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusCurseCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusCurseCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -6981,7 +6981,7 @@ void __cdecl data::ConfigGuideMechanicusCurseCardCondition::~ConfigGuideMechanic
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusCurseCardCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusCurseCardCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7051,7 +7051,7 @@ void __cdecl data::ConfigGuideMechanicusCurseCardConditionFactory::ConfigGuideMe
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideMechanicusCurseCardConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideMechanicusCurseCardConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideMechanicusCurseCardConditionFactory = v2;
@@ -7065,7 +7065,7 @@ void __cdecl data::ConfigGuidePageCheckBaseCondition::ConfigGuidePageCheckBaseCo
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePageCheckBaseCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePageCheckBaseCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7079,7 +7079,7 @@ void __cdecl data::ConfigGuidePageCheckBaseCondition::ConfigGuidePageCheckBaseCo
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePageCheckBaseCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePageCheckBaseCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7092,7 +7092,7 @@ void __cdecl data::ConfigGuidePageCheckBaseCondition::~ConfigGuidePageCheckBaseC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePageCheckBaseCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePageCheckBaseCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7172,7 +7172,7 @@ void __cdecl data::ConfigGuideHideandSeekSkillCategoryCondition::ConfigGuideHide
   __int64 v3; // rsi
 
   data::ConfigGuidePageCheckBaseCondition::ConfigGuidePageCheckBaseCondition((data::ConfigGuidePageCheckBaseCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7203,7 +7203,7 @@ void __cdecl data::ConfigGuideHideandSeekSkillCategoryCondition::ConfigGuideHide
   data::ConfigGuidePageCheckBaseCondition::ConfigGuidePageCheckBaseCondition(
     (data::ConfigGuidePageCheckBaseCondition *const)this,
     (const data::ConfigGuidePageCheckBaseCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7246,7 +7246,7 @@ void __cdecl data::ConfigGuideHideandSeekSkillCategoryCondition::~ConfigGuideHid
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHideandSeekSkillCategoryCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7316,7 +7316,7 @@ void __cdecl data::ConfigGuideHideandSeekSkillCategoryConditionFactory::ConfigGu
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideHideandSeekSkillCategoryConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideHideandSeekSkillCategoryConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideHideandSeekSkillCategoryConditionFactory = v2;
@@ -7331,7 +7331,7 @@ void __cdecl data::ConfigGuideAnchorUnlockCondition::ConfigGuideAnchorUnlockCond
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAnchorUnlockCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAnchorUnlockCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7362,7 +7362,7 @@ void __cdecl data::ConfigGuideAnchorUnlockCondition::ConfigGuideAnchorUnlockCond
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAnchorUnlockCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAnchorUnlockCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7397,7 +7397,7 @@ void __cdecl data::ConfigGuideAnchorUnlockCondition::~ConfigGuideAnchorUnlockCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAnchorUnlockCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAnchorUnlockCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7475,7 +7475,7 @@ void __cdecl data::ConfigGuideAnchorUnlockConditionFactory::ConfigGuideAnchorUnl
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAnchorUnlockConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAnchorUnlockConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAnchorUnlockConditionFactory = v2;
@@ -7489,7 +7489,7 @@ void __cdecl data::ConfigGuideFlyStartCondition::ConfigGuideFlyStartCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7512,7 +7512,7 @@ void __cdecl data::ConfigGuideFlyStartCondition::ConfigGuideFlyStartCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7545,7 +7545,7 @@ void __cdecl data::ConfigGuideFlyStartCondition::~ConfigGuideFlyStartCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7614,7 +7614,7 @@ void __cdecl data::ConfigGuideFlyStartConditionFactory::ConfigGuideFlyStartCondi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyStartConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyStartConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideFlyStartConditionFactory = v2;
@@ -7628,7 +7628,7 @@ void __cdecl data::ConfigGuideFlyFinishCondition::ConfigGuideFlyFinishCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7651,7 +7651,7 @@ void __cdecl data::ConfigGuideFlyFinishCondition::ConfigGuideFlyFinishCondition(
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7676,7 +7676,7 @@ void __cdecl data::ConfigGuideFlyFinishCondition::~ConfigGuideFlyFinishCondition
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7753,7 +7753,7 @@ void __cdecl data::ConfigGuideFlyFinishConditionFactory::ConfigGuideFlyFinishCon
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFinishConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFinishConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideFlyFinishConditionFactory = v2;
@@ -7767,7 +7767,7 @@ void __cdecl data::ConfigGuideFlyFailCondition::ConfigGuideFlyFailCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFailCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFailCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7781,7 +7781,7 @@ void __cdecl data::ConfigGuideFlyFailCondition::ConfigGuideFlyFailCondition(
   int (**v2)(...); // rdx
 
   data::ConfigGuideCondition::ConfigGuideCondition(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFailCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFailCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7794,7 +7794,7 @@ void __cdecl data::ConfigGuideFlyFailCondition::~ConfigGuideFlyFailCondition(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFailCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFailCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7870,7 +7870,7 @@ void __cdecl data::ConfigGuideFlyFailConditionFactory::ConfigGuideFlyFailConditi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFlyFailConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFlyFailConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideFlyFailConditionFactory = v2;
@@ -7885,7 +7885,7 @@ void __cdecl data::ConfigGuideProjectionGameStartCondition::ConfigGuideProjectio
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7919,7 +7919,7 @@ void __cdecl data::ConfigGuideProjectionGameStartCondition::ConfigGuideProjectio
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -7959,7 +7959,7 @@ void __cdecl data::ConfigGuideProjectionGameStartCondition::~ConfigGuideProjecti
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameStartCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameStartCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -8037,7 +8037,7 @@ void __cdecl data::ConfigGuideProjectionGameStartConditionFactory::ConfigGuidePr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameStartConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameStartConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideProjectionGameStartConditionFactory = v2;
@@ -8052,7 +8052,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishCondition::ConfigGuideProjecti
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -8085,7 +8085,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishCondition::ConfigGuideProjecti
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -8130,7 +8130,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishCondition::~ConfigGuideProject
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -8200,7 +8200,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishConditionFactory::ConfigGuideP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideProjectionGameFinishConditionFactory = v2;
@@ -8940,7 +8940,7 @@ void __cdecl data::ConfigGuideUIMaskAction::ConfigGuideUIMaskAction(data::Config
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v5 = (int (**)(...))(&`vtable for'data::ConfigGuideUIMaskAction + 2);
+  v5 = (int (**)(...))(&`vtable for data::ConfigGuideUIMaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v5;
@@ -8997,7 +8997,7 @@ void __cdecl data::ConfigGuideUIMaskAction::ConfigGuideUIMaskAction(
   char v13; // dl
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideUIMaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideUIMaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9049,7 +9049,7 @@ void __cdecl data::ConfigGuideUIMaskAction::~ConfigGuideUIMaskAction(data::Confi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideUIMaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideUIMaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9128,7 +9128,7 @@ void __cdecl data::ConfigGuideUIMaskActionFactory::ConfigGuideUIMaskActionFactor
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideUIMaskActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideUIMaskActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideUIMaskActionFactory = v2;
@@ -9141,7 +9141,7 @@ void __cdecl data::ConfigGuideShowPage::ConfigGuideShowPage(data::ConfigGuideSho
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9162,7 +9162,7 @@ void __cdecl data::ConfigGuideShowPage::ConfigGuideShowPage(
   char v5; // al
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9186,7 +9186,7 @@ void __cdecl data::ConfigGuideShowPage::~ConfigGuideShowPage(data::ConfigGuideSh
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPage + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPage + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9261,7 +9261,7 @@ void __cdecl data::ConfigGuideShowPageFactory::ConfigGuideShowPageFactory(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPageFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPageFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideShowPageFactory = v2;
@@ -9275,7 +9275,7 @@ void __cdecl data::ConfigGuideInfoDialogAction::ConfigGuideInfoDialogAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideInfoDialogAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideInfoDialogAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9293,7 +9293,7 @@ void __cdecl data::ConfigGuideInfoDialogAction::ConfigGuideInfoDialogAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideInfoDialogAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideInfoDialogAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9318,7 +9318,7 @@ void __cdecl data::ConfigGuideInfoDialogAction::~ConfigGuideInfoDialogAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideInfoDialogAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideInfoDialogAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9390,7 +9390,7 @@ void __cdecl data::ConfigGuideInfoDialogActionFactory::ConfigGuideInfoDialogActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideInfoDialogActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideInfoDialogActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideInfoDialogActionFactory = v2;
@@ -9405,7 +9405,7 @@ void __cdecl data::ConfigGuideSetOpenStateAction::ConfigGuideSetOpenStateAction(
   __int64 v3; // rsi
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSetOpenStateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSetOpenStateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9434,7 +9434,7 @@ void __cdecl data::ConfigGuideSetOpenStateAction::ConfigGuideSetOpenStateAction(
   char v7; // al
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSetOpenStateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSetOpenStateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9469,7 +9469,7 @@ void __cdecl data::ConfigGuideSetOpenStateAction::~ConfigGuideSetOpenStateAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSetOpenStateAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSetOpenStateAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9546,7 +9546,7 @@ void __cdecl data::ConfigGuideSetOpenStateActionFactory::ConfigGuideSetOpenState
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSetOpenStateActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSetOpenStateActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideSetOpenStateActionFactory = v2;
@@ -9559,7 +9559,7 @@ void __cdecl data::ConfigGuideAddTaskAction::ConfigGuideAddTaskAction(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9574,7 +9574,7 @@ void __cdecl data::ConfigGuideAddTaskAction::ConfigGuideAddTaskAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9594,7 +9594,7 @@ void __cdecl data::ConfigGuideAddTaskAction::~ConfigGuideAddTaskAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9663,7 +9663,7 @@ void __cdecl data::ConfigGuideAddTaskActionFactory::ConfigGuideAddTaskActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddTaskActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddTaskActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAddTaskActionFactory = v2;
@@ -9676,7 +9676,7 @@ void __cdecl data::ConfigGuideEndTaskAction::ConfigGuideEndTaskAction(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideEndTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideEndTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9691,7 +9691,7 @@ void __cdecl data::ConfigGuideEndTaskAction::ConfigGuideEndTaskAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideEndTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideEndTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9711,7 +9711,7 @@ void __cdecl data::ConfigGuideEndTaskAction::~ConfigGuideEndTaskAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideEndTaskAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideEndTaskAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9780,7 +9780,7 @@ void __cdecl data::ConfigGuideEndTaskActionFactory::ConfigGuideEndTaskActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideEndTaskActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideEndTaskActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideEndTaskActionFactory = v2;
@@ -9793,7 +9793,7 @@ void __cdecl data::ConfigGuidePauseAction::ConfigGuidePauseAction(data::ConfigGu
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePauseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePauseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9807,7 +9807,7 @@ void __cdecl data::ConfigGuidePauseAction::ConfigGuidePauseAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePauseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePauseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9826,7 +9826,7 @@ void __cdecl data::ConfigGuidePauseAction::~ConfigGuidePauseAction(data::ConfigG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePauseAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePauseAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9894,7 +9894,7 @@ void __cdecl data::ConfigGuidePauseActionFactory::ConfigGuidePauseActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuidePauseActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuidePauseActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuidePauseActionFactory = v2;
@@ -9909,7 +9909,7 @@ void __cdecl data::ConfigGuideForceAvatarMoveAction::ConfigGuideForceAvatarMoveA
   __int64 v3; // rsi
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideForceAvatarMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideForceAvatarMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9939,7 +9939,7 @@ void __cdecl data::ConfigGuideForceAvatarMoveAction::ConfigGuideForceAvatarMoveA
   float mold; // xmm0_4
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideForceAvatarMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideForceAvatarMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -9977,7 +9977,7 @@ void __cdecl data::ConfigGuideForceAvatarMoveAction::~ConfigGuideForceAvatarMove
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideForceAvatarMoveAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideForceAvatarMoveAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10055,7 +10055,7 @@ void __cdecl data::ConfigGuideForceAvatarMoveActionFactory::ConfigGuideForceAvat
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideForceAvatarMoveActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideForceAvatarMoveActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideForceAvatarMoveActionFactory = v2;
@@ -10069,7 +10069,7 @@ void __cdecl data::ConfigGuideCameraControlAction::ConfigGuideCameraControlActio
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraControlAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraControlAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10083,7 +10083,7 @@ void __cdecl data::ConfigGuideCameraControlAction::ConfigGuideCameraControlActio
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraControlAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraControlAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10104,7 +10104,7 @@ void __cdecl data::ConfigGuideCameraControlAction::~ConfigGuideCameraControlActi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraControlAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraControlAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10174,7 +10174,7 @@ void __cdecl data::ConfigGuideCameraControlActionFactory::ConfigGuideCameraContr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideCameraControlActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideCameraControlActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideCameraControlActionFactory = v2;
@@ -10188,7 +10188,7 @@ void __cdecl data::ConfigGuideBanUIAction::ConfigGuideBanUIAction(data::ConfigGu
   __int64 v3; // rsi
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideBanUIAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideBanUIAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10217,7 +10217,7 @@ void __cdecl data::ConfigGuideBanUIAction::ConfigGuideBanUIAction(
   char v7; // al
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideBanUIAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideBanUIAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10251,7 +10251,7 @@ void __cdecl data::ConfigGuideBanUIAction::~ConfigGuideBanUIAction(data::ConfigG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideBanUIAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideBanUIAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10326,7 +10326,7 @@ void __cdecl data::ConfigGuideBanUIActionFactory::ConfigGuideBanUIActionFactory(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideBanUIActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideBanUIActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideBanUIActionFactory = v2;
@@ -10340,7 +10340,7 @@ void __cdecl data::ConfigGuideAddCmd::ConfigGuideAddCmd(data::ConfigGuideAddCmd 
   __int64 v3; // rsi
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10371,7 +10371,7 @@ void __cdecl data::ConfigGuideAddCmd::ConfigGuideAddCmd(
   float para_value; // xmm0_4
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10407,7 +10407,7 @@ void __cdecl data::ConfigGuideAddCmd::~ConfigGuideAddCmd(data::ConfigGuideAddCmd
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddCmd + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddCmd + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10481,7 +10481,7 @@ void __cdecl data::ConfigGuideAddCmdFactory::ConfigGuideAddCmdFactory(data::Conf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideAddCmdFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideAddCmdFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideAddCmdFactory = v2;
@@ -10494,7 +10494,7 @@ void __cdecl data::ConfigGuideDelayDoAction::ConfigGuideDelayDoAction(data::Conf
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayDoAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayDoAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10516,7 +10516,7 @@ void __cdecl data::ConfigGuideDelayDoAction::ConfigGuideDelayDoAction(
   float delay_time; // xmm0_4
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayDoAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayDoAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10548,7 +10548,7 @@ void __cdecl data::ConfigGuideDelayDoAction::~ConfigGuideDelayDoAction(data::Con
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayDoAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayDoAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10617,7 +10617,7 @@ void __cdecl data::ConfigGuideDelayDoActionFactory::ConfigGuideDelayDoActionFact
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDelayDoActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDelayDoActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideDelayDoActionFactory = v2;
@@ -10631,7 +10631,7 @@ void __cdecl data::ConfigGuideDoActionByPredicate::ConfigGuideDoActionByPredicat
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDoActionByPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDoActionByPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10647,7 +10647,7 @@ void __cdecl data::ConfigGuideDoActionByPredicate::ConfigGuideDoActionByPredicat
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDoActionByPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDoActionByPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10662,7 +10662,7 @@ void __cdecl data::ConfigGuideDoActionByPredicate::~ConfigGuideDoActionByPredica
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDoActionByPredicate + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDoActionByPredicate + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10742,7 +10742,7 @@ void __cdecl data::ConfigGuideDoActionByPredicateFactory::ConfigGuideDoActionByP
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideDoActionByPredicateFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideDoActionByPredicateFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideDoActionByPredicateFactory = v2;
@@ -10756,7 +10756,7 @@ void __cdecl data::ConfigGuideShowTutorialAction::ConfigGuideShowTutorialAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowTutorialAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowTutorialAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10779,7 +10779,7 @@ void __cdecl data::ConfigGuideShowTutorialAction::ConfigGuideShowTutorialAction(
   char v5; // dl
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowTutorialAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowTutorialAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10806,7 +10806,7 @@ void __cdecl data::ConfigGuideShowTutorialAction::~ConfigGuideShowTutorialAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowTutorialAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowTutorialAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10883,7 +10883,7 @@ void __cdecl data::ConfigGuideShowTutorialActionFactory::ConfigGuideShowTutorial
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowTutorialActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowTutorialActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideShowTutorialActionFactory = v2;
@@ -10898,7 +10898,7 @@ void __cdecl data::ConfigGuideShowPanelAction::ConfigGuideShowPanelAction(data::
   __int64 v4; // rdx
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPanelAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPanelAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10922,7 +10922,7 @@ void __cdecl data::ConfigGuideShowPanelAction::ConfigGuideShowPanelAction(
   __int64 v7; // rdx
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPanelAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPanelAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -10954,7 +10954,7 @@ void __cdecl data::ConfigGuideShowPanelAction::~ConfigGuideShowPanelAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPanelAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPanelAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11022,7 +11022,7 @@ void __cdecl data::ConfigGuideShowPanelActionFactory::ConfigGuideShowPanelAction
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideShowPanelActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideShowPanelActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideShowPanelActionFactory = v2;
@@ -11036,7 +11036,7 @@ void __cdecl data::ConfigGuideSwitchInputContextAction::ConfigGuideSwitchInputCo
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSwitchInputContextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSwitchInputContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11053,7 +11053,7 @@ void __cdecl data::ConfigGuideSwitchInputContextAction::ConfigGuideSwitchInputCo
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction(this, a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSwitchInputContextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSwitchInputContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11077,7 +11077,7 @@ void __cdecl data::ConfigGuideSwitchInputContextAction::~ConfigGuideSwitchInputC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSwitchInputContextAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSwitchInputContextAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11150,7 +11150,7 @@ void __cdecl data::ConfigGuideSwitchInputContextActionFactory::ConfigGuideSwitch
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideSwitchInputContextActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideSwitchInputContextActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideSwitchInputContextActionFactory = v2;
@@ -11164,7 +11164,7 @@ void __cdecl data::ConfigGuideFinishQuestAction::ConfigGuideFinishQuestAction(
   int (**v2)(...); // rdx
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFinishQuestAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFinishQuestAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11187,7 +11187,7 @@ void __cdecl data::ConfigGuideFinishQuestAction::ConfigGuideFinishQuestAction(
   char v5; // dl
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFinishQuestAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFinishQuestAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11222,7 +11222,7 @@ void __cdecl data::ConfigGuideFinishQuestAction::~ConfigGuideFinishQuestAction(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFinishQuestAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFinishQuestAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11291,7 +11291,7 @@ void __cdecl data::ConfigGuideFinishQuestActionFactory::ConfigGuideFinishQuestAc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideFinishQuestActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideFinishQuestActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideFinishQuestActionFactory = v2;
@@ -11306,7 +11306,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishAction::ConfigGuideProjectionG
   __int64 v3; // rsi
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11338,7 +11338,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishAction::ConfigGuideProjectionG
   char v7; // al
 
   data::ConfigGuideAction::ConfigGuideAction((data::ConfigGuideAction *const)this, (const data::ConfigGuideAction *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11378,7 +11378,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishAction::~ConfigGuideProjection
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishAction + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishAction + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11456,7 +11456,7 @@ void __cdecl data::ConfigGuideProjectionGameFinishActionFactory::ConfigGuideProj
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideProjectionGameFinishActionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideProjectionGameFinishActionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideProjectionGameFinishActionFactory = v2;
@@ -11471,7 +11471,7 @@ void __cdecl data::ConfigGuideActivityGachaCondition::ConfigGuideActivityGachaCo
   __int64 v3; // rsi
 
   data::ConfigGuideCondition::ConfigGuideCondition((data::ConfigGuideCondition *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideActivityGachaCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideActivityGachaCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11505,7 +11505,7 @@ void __cdecl data::ConfigGuideActivityGachaCondition::ConfigGuideActivityGachaCo
   data::ConfigGuideCondition::ConfigGuideCondition(
     (data::ConfigGuideCondition *const)this,
     (const data::ConfigGuideCondition *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideActivityGachaCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideActivityGachaCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11553,7 +11553,7 @@ void __cdecl data::ConfigGuideActivityGachaCondition::~ConfigGuideActivityGachaC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideActivityGachaCondition + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideActivityGachaCondition + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigBaseGuide = v2;
@@ -11623,7 +11623,7 @@ void __cdecl data::ConfigGuideActivityGachaConditionFactory::ConfigGuideActivity
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ConfigGuideActivityGachaConditionFactory + 2);
+  v2 = (int (**)(...))(&`vtable for data::ConfigGuideActivityGachaConditionFactory + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ConfigGuideActivityGachaConditionFactory = v2;

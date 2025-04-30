@@ -97,11 +97,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::out_of_range>::er
 
   std::out_of_range::out_of_range((std::out_of_range *const)this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -157,7 +157,7 @@ void __cdecl boost::exception::exception(boost::exception *const this, const boo
   const char *throw_file; // rdx
   int throw_line; // ecx
 
-  v2 = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v2 = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -195,7 +195,7 @@ void __cdecl boost::exception::exception(boost::exception *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
@@ -261,7 +261,7 @@ void __cdecl boost::exception::~exception(boost::exception *const this)
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
@@ -314,11 +314,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::bad_execu
 
   boost::asio::bad_executor::bad_executor(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -334,11 +334,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::invalid_s
 
   boost::asio::invalid_service_owner::invalid_service_owner(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -354,11 +354,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::service_a
 
   boost::asio::service_already_exists::service_already_exists(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -374,11 +374,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::condition_error
 
   boost::condition_error::condition_error(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -394,11 +394,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_day_of_month::bad_day_of_month(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -414,11 +414,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_month::bad_month(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -434,11 +434,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_year::bad_year(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -454,11 +454,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::lock_error>::er
 
   boost::lock_error::lock_error(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -474,11 +474,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::system::system_
 
   boost::system::system_error::system_error(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -494,11 +494,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::thread_resource
 
   boost::thread_resource_error::thread_resource_error(this, a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -514,11 +514,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::invalid_argument>
 
   std::invalid_argument::invalid_argument((std::invalid_argument *const)this, (const std::invalid_argument *)a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -534,11 +534,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::length_error>::er
 
   std::length_error::length_error((std::length_error *const)this, (const std::length_error *)a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::length_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::length_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -554,11 +554,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::runtime_error>::e
 
   std::runtime_error::runtime_error((std::runtime_error *)this, (const std::runtime_error *)a2);
   boost::exception::exception(&this->boost::exception, &a2->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -581,14 +581,14 @@ void __fastcall boost::exception_detail::error_info_injector<boost::bad_function
     __asan_report_store8();
     goto LABEL_10;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::bad_function_call + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_10:
     __asan_report_store8();
     goto LABEL_11;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 3) >> 3) + 0x7FFF8000) )
   {
 LABEL_11:
@@ -667,15 +667,15 @@ LABEL_33:
     v7 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::bad_function_call + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v7);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_33;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call>
                                         + 7);
 };
 
@@ -696,14 +696,14 @@ void __fastcall boost::exception_detail::error_info_injector<boost::gregorian::b
     __asan_report_store8();
     goto LABEL_10;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_10:
     __asan_report_store8();
     goto LABEL_11;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 3) >> 3) + 0x7FFF8000) )
   {
 LABEL_11:
@@ -782,16 +782,16 @@ LABEL_33:
     v7 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v7);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_33;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                         + 7);
 };
 
@@ -812,14 +812,14 @@ void __fastcall boost::exception_detail::error_info_injector<boost::gregorian::b
     __asan_report_store8();
     goto LABEL_10;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_10:
     __asan_report_store8();
     goto LABEL_11;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 3) >> 3) + 0x7FFF8000) )
   {
 LABEL_11:
@@ -898,16 +898,16 @@ LABEL_33:
     v7 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v7);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_33;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                         + 7);
 };
 
@@ -931,7 +931,7 @@ void __fastcall boost::exception_detail::error_info_injector<boost::property_tre
     __asan_report_store8();
     goto LABEL_8;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::ptree_bad_path + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::ptree_bad_path + 2;
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 2) >> 3) + 0x7FFF8000) )
   {
 LABEL_8:
@@ -967,7 +967,7 @@ LABEL_21:
     __asan_report_store8();
     goto LABEL_22;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 4) >> 3) + 0x7FFF8000) )
   {
 LABEL_22:
@@ -976,7 +976,7 @@ LABEL_23:
     v6 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::ptree_error + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v6);
@@ -1050,11 +1050,11 @@ LABEL_46:
     __asan_handle_no_return(this);
     _Unwind_Resume(v10);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
                                + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_46;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
                                         + 7);
 };
 
@@ -1082,7 +1082,7 @@ void __fastcall boost::exception_detail::error_info_injector<boost::property_tre
     __asan_report_store8();
     goto LABEL_7;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::file_parser_error + 2;
   p_m_message = &this->m_message;
   p_anon_0 = &this->m_message._anon_0;
   if ( *(_BYTE *)(((unsigned __int64)&this->m_message >> 3) + 0x7FFF8000) )
@@ -1149,14 +1149,14 @@ LABEL_29:
     __asan_report_store8();
     goto LABEL_30;
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_30:
     __asan_report_store8();
     goto LABEL_31;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 96) >> 3) + 0x7FFF8000) )
   {
 LABEL_31:
@@ -1170,7 +1170,7 @@ LABEL_32:
       operator delete(M_p);
     while ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       v10 = (struct _Unwind_Exception *)__asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::ptree_error + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v10);
@@ -1242,16 +1242,16 @@ LABEL_59:
     v15 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)this->baseclass_0 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+    *(_QWORD *)this->baseclass_0 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
     boost::property_tree::file_parser_error::~file_parser_error(this);
     __asan_handle_no_return(this);
     _Unwind_Resume(v15);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                                + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_59;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                                         + 7);
 };
 
@@ -1272,14 +1272,14 @@ void __fastcall boost::exception_detail::error_info_injector<std::out_of_range>:
     __asan_report_store8();
     goto LABEL_10;
   }
-  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for'std::out_of_range + 16;
+  *(_QWORD *)this->baseclass_0 = (char *)&`vtable for std::out_of_range + 16;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_10:
     __asan_report_store8();
     goto LABEL_11;
   }
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)(a2 + 3) >> 3) + 0x7FFF8000) )
   {
 LABEL_11:
@@ -1360,10 +1360,10 @@ LABEL_33:
     __asan_handle_no_return(this);
     _Unwind_Resume(v7);
   }
-  *(_QWORD *)this->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  *(_QWORD *)this->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     goto LABEL_33;
-  this->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::out_of_range>
+  this->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::out_of_range>
                                         + 7);
 };
 
@@ -1377,11 +1377,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::bad_execu
 
   boost::asio::bad_executor::bad_executor(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1397,11 +1397,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::invalid_s
 
   boost::asio::invalid_service_owner::invalid_service_owner(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1417,11 +1417,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::service_a
 
   boost::asio::service_already_exists::service_already_exists(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1437,11 +1437,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::bad_function_ca
 
   boost::bad_function_call::bad_function_call(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1457,11 +1457,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::condition_error
 
   boost::condition_error::condition_error(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1477,11 +1477,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_day_of_month::bad_day_of_month(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1497,11 +1497,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_month::bad_month(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1517,11 +1517,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
 
   boost::gregorian::bad_year::bad_year(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1537,11 +1537,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::lock_error>::er
 
   boost::lock_error::lock_error(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1557,11 +1557,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::system::system_
 
   boost::system::system_error::system_error(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1577,11 +1577,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::thread_resource
 
   boost::thread_resource_error::thread_resource_error(this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1597,11 +1597,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::invalid_argument>
 
   std::invalid_argument::invalid_argument((std::invalid_argument *const)this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1617,11 +1617,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::length_error>::er
 
   std::length_error::length_error((std::length_error *const)this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::length_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::length_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1637,11 +1637,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::runtime_error>::e
 
   std::runtime_error::runtime_error((std::runtime_error *)this, x);
   boost::exception::exception(&this->boost::exception);
-  v2 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v2 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 7);
+  v3 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
@@ -1836,11 +1836,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::bad_execu
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::bad_executor> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1863,11 +1863,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::invalid_s
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1890,11 +1890,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::asio::service_a
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1925,11 +1925,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::condition_error
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::condition_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::condition_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1952,11 +1952,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1971,11 +1971,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -1998,11 +1998,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::gregorian::bad_
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2025,11 +2025,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::lock_error>::~e
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::lock_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::lock_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2052,11 +2052,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::system::system_
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::system::system_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2079,11 +2079,11 @@ void __cdecl boost::exception_detail::error_info_injector<boost::thread_resource
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::thread_resource_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2114,11 +2114,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::invalid_argument>
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::invalid_argument> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2133,11 +2133,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::length_error>::~e
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<std::length_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::length_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::length_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2160,11 +2160,11 @@ void __cdecl boost::exception_detail::error_info_injector<std::runtime_error>::~
   __int64 *v1; // rdx
   int (**v2)(...); // rdx
 
-  v1 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v1 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 7);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
@@ -2302,7 +2302,7 @@ void __cdecl boost::exception_detail::clone_base::clone_base(boost::exception_de
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::clone_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::clone_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_clone_base = v1;
@@ -2315,7 +2315,7 @@ void __cdecl boost::exception_detail::clone_base::clone_base(
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'boost::exception_detail::clone_base + 2);
+  v2 = (int (**)(...))(&`vtable for boost::exception_detail::clone_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_clone_base = v2;
@@ -2333,16 +2333,16 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_al
 
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::bad_alloc_::bad_alloc_(this, x);
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v3;
   v4 = this->gap30;
-  v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
+  v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v4 = (_QWORD *)__asan_report_store8();
   *v4 = v5;
@@ -2367,7 +2367,7 @@ void __cdecl boost::exception_detail::clone_base::~clone_base(boost::exception_d
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::exception_detail::clone_base + 2);
+  v1 = (int (**)(...))(&`vtable for boost::exception_detail::clone_base + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_clone_base = v1;
@@ -2479,16 +2479,16 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_al
     v2,
     (const boost::exception_detail::clone_base *)((char *)a2 + (_QWORD)*v3));
   boost::exception_detail::bad_alloc_::bad_alloc_(this, a2);
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
-  v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
+  v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v5;
   v6 = this->gap30;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v6 = (_QWORD *)__asan_report_store8();
   *v6 = v7;
@@ -2516,17 +2516,17 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_ex
     v2,
     (const boost::exception_detail::clone_base *)((char *)a2 + (_QWORD)*v3));
   boost::exception_detail::bad_exception_::bad_exception_(this, a2);
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
                      + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
-  v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
+  v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v5;
   v6 = this->gap30;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v6 = (_QWORD *)__asan_report_store8();
   *v6 = v7;
@@ -2554,18 +2554,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)((char *)&a2->boost::asio::bad_executor + *(_QWORD *)v3));
   boost::exception_detail::error_info_injector<boost::asio::bad_executor>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = this->gap30;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v6 = (_QWORD *)__asan_report_store8();
@@ -2595,18 +2595,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
                                     + 1) >> 3)
@@ -2638,18 +2638,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::asio::service_already_exists>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
                                     + 1) >> 3)
@@ -2681,18 +2681,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::condition_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::condition_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::condition_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -2723,18 +2723,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
                                     + 1) >> 3)
@@ -2766,18 +2766,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_month>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
                                     + 1) >> 3)
@@ -2809,18 +2809,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_year>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -2850,18 +2850,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::lock_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::lock_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::lock_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -2892,18 +2892,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::system::system_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::system::system_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::system::system_error>
                                     + 1) >> 3)
@@ -2935,18 +2935,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::thread_resource_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::thread_resource_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
                                     + 1) >> 3)
@@ -2978,18 +2978,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<std::invalid_argument>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3019,18 +3019,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<std::length_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<std::length_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::length_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3060,18 +3060,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<std::out_of_range>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<std::out_of_range> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3102,18 +3102,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<std::runtime_error>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<std::runtime_error> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3134,16 +3134,16 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_al
 
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::bad_alloc_::bad_alloc_(this, x);
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v4;
   v5 = this->gap30;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v5 = (_QWORD *)__asan_report_store8();
   *v5 = v6;
@@ -3163,17 +3163,17 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_ex
 
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::bad_exception_::bad_exception_(this, x);
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
                      + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v4;
   v5 = this->gap30;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v5 = (_QWORD *)__asan_report_store8();
   *v5 = v6;
@@ -3193,18 +3193,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
 
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::error_info_injector<boost::asio::bad_executor>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = this->gap30;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v5 = (_QWORD *)__asan_report_store8();
@@ -3227,18 +3227,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
   + 7);
   boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
                                     + 1) >> 3)
@@ -3263,18 +3263,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
   + 7);
   boost::exception_detail::error_info_injector<boost::asio::service_already_exists>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
                                     + 1) >> 3)
@@ -3299,18 +3299,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::condition_error>
   + 13);
   boost::exception_detail::error_info_injector<boost::condition_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::condition_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::condition_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3334,18 +3334,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
   + 7);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
                                     + 1) >> 3)
@@ -3370,18 +3370,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
   + 7);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_month>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
                                     + 1) >> 3)
@@ -3406,18 +3406,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year>
   + 7);
   boost::exception_detail::error_info_injector<boost::gregorian::bad_year>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3441,18 +3441,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::lock_error>
   + 13);
   boost::exception_detail::error_info_injector<boost::lock_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::lock_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::lock_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3476,18 +3476,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::system::system_error>
   + 13);
   boost::exception_detail::error_info_injector<boost::system::system_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::system::system_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::system::system_error>
                                     + 1) >> 3)
@@ -3512,18 +3512,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
   + 13);
   boost::exception_detail::error_info_injector<boost::thread_resource_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::thread_resource_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
                                     + 1) >> 3)
@@ -3548,18 +3548,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::invalid_argument>
   + 7);
   boost::exception_detail::error_info_injector<std::invalid_argument>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3583,18 +3583,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::length_error>
   + 7);
   boost::exception_detail::error_info_injector<std::length_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<std::length_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::length_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3618,18 +3618,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::out_of_range>
   + 7);
   boost::exception_detail::error_info_injector<std::out_of_range>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<std::out_of_range> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3653,18 +3653,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::runtime_error>
   + 7);
   boost::exception_detail::error_info_injector<std::runtime_error>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<std::runtime_error> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -3685,17 +3685,17 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_ex
 
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::bad_exception_::bad_exception_(this, x);
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
                      + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v3;
   v4 = this->gap30;
-  v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
+  v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v4 = (_QWORD *)__asan_report_store8();
   *v4 = v5;
@@ -3721,7 +3721,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3758,7 +3758,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3795,7 +3795,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3832,7 +3832,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3869,7 +3869,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3906,7 +3906,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3943,7 +3943,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -3980,7 +3980,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4017,7 +4017,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4054,7 +4054,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4091,7 +4091,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4128,7 +4128,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4165,7 +4165,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4202,7 +4202,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4239,7 +4239,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4694,16 +4694,16 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_al
   _QWORD *v3; // rax
   char *v4; // rcx
 
-  v1 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
+  v1 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
+  v2 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;
   v3 = this->gap30;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v3 = (_QWORD *)__asan_report_store8();
   *v3 = v4;
@@ -4720,17 +4720,17 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::bad_ex
   _QWORD *v3; // rax
   char *v4; // rcx
 
-  v1 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
+  v1 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>
                      + 24);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v1;
-  v2 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
+  v2 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 72;
   if ( *(_BYTE *)(((unsigned __int64)this->baseclass_1 >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_1 = v2;
   v3 = this->gap30;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v3 = (_QWORD *)__asan_report_store8();
   *v3 = v4;
@@ -4763,18 +4763,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   _QWORD *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = this->gap30;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v3 = (_QWORD *)__asan_report_store8();
@@ -4800,7 +4800,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4827,18 +4827,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
                                     + 1) >> 3)
@@ -4876,7 +4876,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4911,18 +4911,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::asio::service_already_exists> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
                                     + 1) >> 3)
@@ -4952,7 +4952,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -4987,7 +4987,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5014,18 +5014,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::condition_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::condition_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::condition_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5062,7 +5062,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5089,18 +5089,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
                                     + 1) >> 3)
@@ -5138,7 +5138,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5173,18 +5173,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::gregorian::bad_month> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
                                     + 1) >> 3)
@@ -5214,7 +5214,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5241,18 +5241,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::gregorian::bad_year> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5289,7 +5289,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5324,18 +5324,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::lock_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::lock_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::lock_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5364,7 +5364,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5391,18 +5391,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::system::system_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::system::system_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::system::system_error>
                                     + 1) >> 3)
@@ -5440,7 +5440,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5467,18 +5467,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<boost::thread_resource_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::thread_resource_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
                                     + 1) >> 3)
@@ -5516,7 +5516,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5543,18 +5543,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<std::invalid_argument> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5591,7 +5591,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5626,18 +5626,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<std::length_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::length_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::length_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5666,7 +5666,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5701,7 +5701,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -5728,18 +5728,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   boost::exception_detail::error_info_injector<std::runtime_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v1 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v2 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::runtime_error> + 1;
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -5776,7 +5776,7 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  v3 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -6329,7 +6329,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)(v5 + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v5 + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = v5;
   v2 = (std::runtime_error *)v5;
   std::runtime_error::runtime_error((std::runtime_error *)v5, (const std::runtime_error *)this);
@@ -6339,14 +6339,14 @@ LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  *(_QWORD *)v5 = &`vtable for'boost::bad_function_call + 2;
+  *(_QWORD *)v5 = &`vtable for boost::bad_function_call + 2;
   if ( *(_BYTE *)(((v5 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_15:
     __asan_report_store8();
     goto LABEL_16;
   }
-  *(_QWORD *)(v5 + 16) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v5 + 16) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_16:
@@ -6423,21 +6423,21 @@ LABEL_44:
     __asan_report_store8();
     goto LABEL_45;
   }
-  *(_QWORD *)v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
+  *(_QWORD *)v1 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
   if ( *(_BYTE *)(((v1 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_45:
     __asan_report_store8();
     goto LABEL_46;
   }
-  *(_QWORD *)(v1 + 16) = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 7;
+  *(_QWORD *)(v1 + 16) = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 7;
   if ( *(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
   {
 LABEL_46:
     __asan_report_store8();
     goto LABEL_47;
   }
-  *(_QWORD *)v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                 + 24;
   if ( *(_BYTE *)(((v5 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -6445,7 +6445,7 @@ LABEL_47:
     __asan_report_store8();
     goto LABEL_48;
   }
-  *(_QWORD *)(v5 + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)(v5 + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                        + 80;
   if ( *(_BYTE *)(((v5 + 56) >> 3) + 0x7FFF8000) )
   {
@@ -6453,7 +6453,7 @@ LABEL_48:
     __asan_report_store8();
     goto LABEL_49;
   }
-  *(_QWORD *)(v5 + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)(v5 + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                        + 136;
   v11 = &this->boost::exception;
   v2 = (std::runtime_error *)(v5 + 16);
@@ -6466,7 +6466,7 @@ LABEL_49:
     v15 = v14;
     if ( *(_BYTE *)((v1 >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)v1 = &`vtable for'boost::bad_function_call + 2;
+    *(_QWORD *)v1 = &`vtable for boost::bad_function_call + 2;
     std::runtime_error::~runtime_error(v2);
     goto LABEL_52;
   }
@@ -6733,7 +6733,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)(v4 + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v4 + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = (boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> *)v4;
   std::logic_error::logic_error((std::logic_error *)v4, (const std::logic_error *)this);
   if ( *(_BYTE *)((v4 >> 3) + 0x7FFF8000) )
@@ -6742,14 +6742,14 @@ LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  *(_QWORD *)v4 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+  *(_QWORD *)v4 = &`vtable for boost::gregorian::bad_day_of_year + 2;
   if ( *(_BYTE *)(((v4 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_15:
     __asan_report_store8();
     goto LABEL_16;
   }
-  *(_QWORD *)(v4 + 16) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v4 + 16) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_16:
@@ -6826,7 +6826,7 @@ LABEL_44:
     __asan_report_store8();
     goto LABEL_45;
   }
-  *(_QWORD *)v1->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  *(_QWORD *)v1->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                              + 2;
   if ( *(_BYTE *)(((unsigned __int64)&v1->boost::exception >> 3) + 0x7FFF8000) )
   {
@@ -6834,7 +6834,7 @@ LABEL_45:
     __asan_report_store8();
     goto LABEL_46;
   }
-  v1->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  v1->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                       + 7);
   if ( *(_BYTE *)((v4 >> 3) + 0x7FFF8000) )
   {
@@ -6842,7 +6842,7 @@ LABEL_46:
     __asan_report_store8();
     goto LABEL_47;
   }
-  *(_QWORD *)v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                 + 24;
   if ( *(_BYTE *)(((v4 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -6850,7 +6850,7 @@ LABEL_47:
     __asan_report_store8();
     goto LABEL_48;
   }
-  *(_QWORD *)(v4 + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)(v4 + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                        + 80;
   if ( *(_BYTE *)(((v4 + 56) >> 3) + 0x7FFF8000) )
   {
@@ -6858,7 +6858,7 @@ LABEL_48:
     __asan_report_store8();
     goto LABEL_49;
   }
-  *(_QWORD *)(v4 + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)(v4 + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                        + 136;
   v10 = &this->boost::exception;
   *(_QWORD *)(v3 + 32) = 0LL;
@@ -6870,7 +6870,7 @@ LABEL_49:
     v14 = v13;
     if ( *(_BYTE *)(((unsigned __int64)v1 >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)v1->baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+    *(_QWORD *)v1->baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)v1);
     goto LABEL_52;
   }
@@ -7137,7 +7137,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)(v4 + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v4 + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = (boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> *)v4;
   std::logic_error::logic_error((std::logic_error *)v4, (const std::logic_error *)this);
   if ( *(_BYTE *)((v4 >> 3) + 0x7FFF8000) )
@@ -7146,14 +7146,14 @@ LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  *(_QWORD *)v4 = &`vtable for'boost::gregorian::bad_weekday + 2;
+  *(_QWORD *)v4 = &`vtable for boost::gregorian::bad_weekday + 2;
   if ( *(_BYTE *)(((v4 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_15:
     __asan_report_store8();
     goto LABEL_16;
   }
-  *(_QWORD *)(v4 + 16) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v4 + 16) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_16:
@@ -7230,7 +7230,7 @@ LABEL_44:
     __asan_report_store8();
     goto LABEL_45;
   }
-  *(_QWORD *)v1->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  *(_QWORD *)v1->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                              + 2;
   if ( *(_BYTE *)(((unsigned __int64)&v1->boost::exception >> 3) + 0x7FFF8000) )
   {
@@ -7238,7 +7238,7 @@ LABEL_45:
     __asan_report_store8();
     goto LABEL_46;
   }
-  v1->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  v1->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                       + 7);
   if ( *(_BYTE *)((v4 >> 3) + 0x7FFF8000) )
   {
@@ -7246,7 +7246,7 @@ LABEL_46:
     __asan_report_store8();
     goto LABEL_47;
   }
-  *(_QWORD *)v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                 + 24;
   if ( *(_BYTE *)(((v4 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -7254,7 +7254,7 @@ LABEL_47:
     __asan_report_store8();
     goto LABEL_48;
   }
-  *(_QWORD *)(v4 + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)(v4 + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                        + 80;
   if ( *(_BYTE *)(((v4 + 56) >> 3) + 0x7FFF8000) )
   {
@@ -7262,7 +7262,7 @@ LABEL_48:
     __asan_report_store8();
     goto LABEL_49;
   }
-  *(_QWORD *)(v4 + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)(v4 + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                        + 136;
   v10 = &this->boost::exception;
   *(_QWORD *)(v3 + 32) = 0LL;
@@ -7274,7 +7274,7 @@ LABEL_49:
     v14 = v13;
     if ( *(_BYTE *)(((unsigned __int64)v1 >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)v1->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+    *(_QWORD *)v1->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)v1);
     goto LABEL_52;
   }
@@ -7545,7 +7545,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_12;
   }
-  *(_QWORD *)(v6 + 64) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v6 + 64) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = v6;
   v2 = v6;
   v3 = (std::runtime_error *)v6;
@@ -7556,7 +7556,7 @@ LABEL_12:
     __asan_report_store8();
     goto LABEL_13;
   }
-  *(_QWORD *)v6 = &`vtable for'boost::property_tree::ptree_bad_path + 2;
+  *(_QWORD *)v6 = &`vtable for boost::property_tree::ptree_bad_path + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->m_path >> 3) + 0x7FFF8000) )
   {
 LABEL_13:
@@ -7592,7 +7592,7 @@ LABEL_26:
     __asan_report_store8();
     goto LABEL_27;
   }
-  *(_QWORD *)(v1 + 24) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v1 + 24) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_27:
@@ -7606,7 +7606,7 @@ LABEL_28:
     v11 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)v2 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)v2 = &`vtable for boost::property_tree::ptree_error + 2;
     std::runtime_error::~runtime_error(v3);
     goto LABEL_31;
   }
@@ -7672,14 +7672,14 @@ LABEL_58:
     __asan_report_store8();
     goto LABEL_59;
   }
-  *(_QWORD *)v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path> + 2;
+  *(_QWORD *)v1 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path> + 2;
   if ( *(_BYTE *)(((v1 + 24) >> 3) + 0x7FFF8000) )
   {
 LABEL_59:
     __asan_report_store8();
     goto LABEL_60;
   }
-  *(_QWORD *)(v1 + 24) = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
+  *(_QWORD *)(v1 + 24) = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>
                        + 7;
   if ( *(_BYTE *)((v6 >> 3) + 0x7FFF8000) )
   {
@@ -7687,7 +7687,7 @@ LABEL_60:
     __asan_report_store8();
     goto LABEL_61;
   }
-  *(_QWORD *)v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                 + 24;
   if ( *(_BYTE *)(((v6 + 24) >> 3) + 0x7FFF8000) )
   {
@@ -7695,7 +7695,7 @@ LABEL_61:
     __asan_report_store8();
     goto LABEL_62;
   }
-  *(_QWORD *)(v6 + 24) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)(v6 + 24) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                        + 80;
   if ( *(_BYTE *)(((v6 + 64) >> 3) + 0x7FFF8000) )
   {
@@ -7703,7 +7703,7 @@ LABEL_62:
     __asan_report_store8();
     goto LABEL_63;
   }
-  *(_QWORD *)(v6 + 64) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)(v6 + 64) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                        + 136;
   v15 = &this->boost::exception;
   v2 = v6 + 24;
@@ -7986,7 +7986,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_11;
   }
-  *(_QWORD *)(v6 + 128) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v6 + 128) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = v6;
   v2 = v6;
   v36 = (std::runtime_error *)v6;
@@ -7997,7 +7997,7 @@ LABEL_11:
     __asan_report_store8();
     goto LABEL_12;
   }
-  *(_QWORD *)v6 = &`vtable for'boost::property_tree::file_parser_error + 2;
+  *(_QWORD *)v6 = &`vtable for boost::property_tree::file_parser_error + 2;
   v3 = (std::string::pointer)(v6 + 32);
   if ( *(_BYTE *)(((v6 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -8066,14 +8066,14 @@ LABEL_34:
     __asan_report_store8();
     goto LABEL_35;
   }
-  *(_QWORD *)v6 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+  *(_QWORD *)v6 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
   if ( *(_BYTE *)(((v6 + 88) >> 3) + 0x7FFF8000) )
   {
 LABEL_35:
     __asan_report_store8();
     goto LABEL_36;
   }
-  *(_QWORD *)(v6 + 88) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v6 + 88) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_36:
@@ -8092,7 +8092,7 @@ LABEL_37:
       operator delete(v12);
     while ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
       v11 = (struct _Unwind_Exception *)__asan_report_store8();
-    *(_QWORD *)v2 = &`vtable for'boost::property_tree::ptree_error + 2;
+    *(_QWORD *)v2 = &`vtable for boost::property_tree::ptree_error + 2;
     std::runtime_error::~runtime_error(v36);
     goto LABEL_44;
   }
@@ -8158,7 +8158,7 @@ LABEL_71:
     __asan_report_store8();
     goto LABEL_72;
   }
-  *(_QWORD *)v1 = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)v1 = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                 + 2;
   if ( *(_BYTE *)(((v1 + 88) >> 3) + 0x7FFF8000) )
   {
@@ -8166,7 +8166,7 @@ LABEL_72:
     __asan_report_store8();
     goto LABEL_73;
   }
-  *(_QWORD *)(v1 + 88) = &`vtable for'boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
+  *(_QWORD *)(v1 + 88) = &`vtable for boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>
                        + 7;
   if ( *(_BYTE *)((v6 >> 3) + 0x7FFF8000) )
   {
@@ -8174,7 +8174,7 @@ LABEL_73:
     __asan_report_store8();
     goto LABEL_74;
   }
-  *(_QWORD *)v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                 + 24;
   if ( *(_BYTE *)(((v6 + 88) >> 3) + 0x7FFF8000) )
   {
@@ -8182,7 +8182,7 @@ LABEL_74:
     __asan_report_store8();
     goto LABEL_75;
   }
-  *(_QWORD *)(v6 + 88) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)(v6 + 88) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                        + 80;
   if ( *(_BYTE *)(((v6 + 128) >> 3) + 0x7FFF8000) )
   {
@@ -8190,7 +8190,7 @@ LABEL_75:
     __asan_report_store8();
     goto LABEL_76;
   }
-  *(_QWORD *)(v6 + 128) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)(v6 + 128) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                         + 136;
   v16 = &this->boost::exception;
   v2 = v6 + 88;
@@ -8203,7 +8203,7 @@ LABEL_76:
     v11 = v19;
     if ( *(_BYTE *)((v1 >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)v1 = &`vtable for'boost::property_tree::xml_parser::xml_parser_error + 2;
+    *(_QWORD *)v1 = &`vtable for boost::property_tree::xml_parser::xml_parser_error + 2;
     boost::property_tree::file_parser_error::~file_parser_error((boost::property_tree::file_parser_error *const)v2);
     goto LABEL_44;
   }
@@ -8471,7 +8471,7 @@ const boost::exception_detail::clone_base *__fastcall boost::exception_detail::c
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)(v5 + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(v5 + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   v1 = v5;
   v2 = (std::out_of_range *)v5;
   std::logic_error::logic_error((std::logic_error *)v5, (const std::logic_error *)this);
@@ -8481,14 +8481,14 @@ LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  *(_QWORD *)v5 = (char *)&`vtable for'std::out_of_range + 16;
+  *(_QWORD *)v5 = (char *)&`vtable for std::out_of_range + 16;
   if ( *(_BYTE *)(((v5 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_15:
     __asan_report_store8();
     goto LABEL_16;
   }
-  *(_QWORD *)(v5 + 16) = &`vtable for'boost::exception + 2;
+  *(_QWORD *)(v5 + 16) = &`vtable for boost::exception + 2;
   if ( *(_BYTE *)(((unsigned __int64)&this->data_ >> 3) + 0x7FFF8000) )
   {
 LABEL_16:
@@ -8565,21 +8565,21 @@ LABEL_44:
     __asan_report_store8();
     goto LABEL_45;
   }
-  *(_QWORD *)v1 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  *(_QWORD *)v1 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
   if ( *(_BYTE *)(((v1 + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_45:
     __asan_report_store8();
     goto LABEL_46;
   }
-  *(_QWORD *)(v1 + 16) = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 7;
+  *(_QWORD *)(v1 + 16) = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 7;
   if ( *(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
   {
 LABEL_46:
     __asan_report_store8();
     goto LABEL_47;
   }
-  *(_QWORD *)v5 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)v5 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                 + 24;
   if ( *(_BYTE *)(((v5 + 16) >> 3) + 0x7FFF8000) )
   {
@@ -8587,7 +8587,7 @@ LABEL_47:
     __asan_report_store8();
     goto LABEL_48;
   }
-  *(_QWORD *)(v5 + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)(v5 + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                        + 80;
   if ( *(_BYTE *)(((v5 + 56) >> 3) + 0x7FFF8000) )
   {
@@ -8595,7 +8595,7 @@ LABEL_48:
     __asan_report_store8();
     goto LABEL_49;
   }
-  *(_QWORD *)(v5 + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)(v5 + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                        + 136;
   v11 = &this->boost::exception;
   v2 = (std::out_of_range *)(v5 + 16);
@@ -9169,21 +9169,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::bad_function_call>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::bad_function_call> *const)exception,
     this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                        + 24;
   if ( *(_BYTE *)(((exception + 16) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)(exception + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                               + 80;
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  *(_QWORD *)(exception + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                               + 136;
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
@@ -9201,21 +9201,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> *const)exception,
     this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                        + 24;
   if ( *(_BYTE *)(((exception + 16) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)(exception + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                               + 80;
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  *(_QWORD *)(exception + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                               + 136;
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
@@ -9233,21 +9233,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> *const)exception,
     this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                        + 24;
   if ( *(_BYTE *)(((exception + 16) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)(exception + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                               + 80;
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  *(_QWORD *)(exception + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                               + 136;
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
@@ -9265,21 +9265,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x48uLL);
   if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 64) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 64) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path> *const)exception,
     this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                        + 24;
   if ( *(_BYTE *)(((exception + 24) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 24) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)(exception + 24) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                               + 80;
   if ( *(_BYTE *)(((exception + 64) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 64) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
+  *(_QWORD *)(exception + 64) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>
                               + 136;
   __asan_handle_no_return(exception + 64);
   _cxa_throw(
@@ -9297,21 +9297,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x88uLL);
   if ( *(_BYTE *)(((exception + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 128) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 128) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>::error_info_injector(
     (boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error> *const)exception,
     (__int64)this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                        + 24;
   if ( *(_BYTE *)(((exception + 88) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 88) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)(exception + 88) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                               + 80;
   if ( *(_BYTE *)(((exception + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 128) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
+  *(_QWORD *)(exception + 128) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>
                                + 136;
   __asan_handle_no_return(exception + 128);
   _cxa_throw(
@@ -9329,21 +9329,21 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   exception = (unsigned __int64)__cxa_allocate_exception(0x40uLL);
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *(_QWORD *)(exception + 56) = &`vtable for boost::exception_detail::clone_base + 2;
   boost::exception_detail::error_info_injector<std::out_of_range>::error_info_injector(
     (boost::exception_detail::error_info_injector<std::out_of_range> *const)exception,
     this);
   if ( *(_BYTE *)((exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)exception = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)exception = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                        + 24;
   if ( *(_BYTE *)(((exception + 16) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 16) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)(exception + 16) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                               + 80;
   if ( *(_BYTE *)(((exception + 56) >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  *(_QWORD *)(exception + 56) = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  *(_QWORD *)(exception + 56) = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                               + 136;
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
@@ -9396,9 +9396,9 @@ boost::wrapexcept<boost::gregorian::bad_weekday> *__fastcall boost::exception_de
   std::logic_error::logic_error((std::logic_error *)&v24, (const std::logic_error *)x);
   memset(&v24.data_, 0, 24);
   v24.throw_line_ = -1;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                              + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                       + 7);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                     + 1) >> 3)
@@ -9407,7 +9407,7 @@ boost::wrapexcept<boost::gregorian::bad_weekday> *__fastcall boost::exception_de
     __asan_report_store8();
     goto LABEL_13;
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> + 7) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> + 7) = &`vtable for boost::exception_detail::clone_base + 2;
   std::logic_error::logic_error((std::logic_error *)retstr, (const std::logic_error *)&v24);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -9415,14 +9415,14 @@ LABEL_13:
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   px = v24.data_.px_;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->data_ >> 3) + 0x7FFF8000) )
   {
@@ -9473,7 +9473,7 @@ LABEL_34:
     __asan_report_store8();
     goto LABEL_35;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                  + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
@@ -9481,7 +9481,7 @@ LABEL_35:
     __asan_report_store8();
     goto LABEL_36;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                           + 7);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -9496,7 +9496,7 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                     + 1) >> 3)
@@ -9506,7 +9506,7 @@ LABEL_38:
     v10 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+    *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)retstr);
     goto LABEL_41;
   }
@@ -9651,14 +9651,14 @@ LABEL_99:
     __asan_report_store8();
     goto LABEL_100;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_weekday> + 24;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_weekday> + 24;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_100:
     __asan_report_store8();
     goto LABEL_101;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_weekday> + 80);
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_weekday> + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -9702,10 +9702,10 @@ LABEL_41:
     __asan_handle_no_return(&v24);
     _Unwind_Resume(v10);
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> + 7) = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_weekday> + 136;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday> + 7) = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_weekday> + 136;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>
                              + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( !v24.data_.px_ )
     goto LABEL_94;
   if ( *(_BYTE *)(((unsigned __int64)v24.data_.px_ >> 3) + 0x7FFF8000) )
@@ -9721,7 +9721,7 @@ LABEL_115:
   }
   (*((void (**)(void))v24.data_.px_->_vptr_error_info_container + 4))();
 LABEL_94:
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::gregorian::bad_weekday + 2;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::gregorian::bad_weekday + 2;
   std::out_of_range::~out_of_range((std::out_of_range *)&v24);
   if ( v25 != (char *)v4 )
   {
@@ -9749,16 +9749,16 @@ void __cdecl boost::wrapexcept<boost::asio::bad_executor>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::asio::bad_executor> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = this->gap30;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v4 = (_QWORD *)__asan_report_store8();
   *v4 = v5;
@@ -9781,16 +9781,16 @@ void __cdecl boost::wrapexcept<boost::asio::invalid_service_owner>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::asio::invalid_service_owner> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -9815,16 +9815,16 @@ void __cdecl boost::wrapexcept<boost::asio::service_already_exists>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::asio::service_already_exists> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -9849,16 +9849,16 @@ void __cdecl boost::wrapexcept<boost::bad_function_call>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::bad_function_call> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<boost::bad_function_call> *)__asan_report_store8();
@@ -9882,16 +9882,16 @@ void __cdecl boost::wrapexcept<boost::condition_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::condition_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::condition_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::condition_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::condition_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::condition_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::condition_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<boost::condition_error> *)__asan_report_store8();
@@ -9915,16 +9915,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_day_of_month>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -9949,16 +9949,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_month>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_month> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -9983,16 +9983,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_year>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_year> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<boost::gregorian::bad_year> *)__asan_report_store8();
@@ -10016,16 +10016,16 @@ void __cdecl boost::wrapexcept<boost::lock_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::lock_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::lock_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::lock_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::lock_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::lock_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::lock_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<boost::lock_error> *)__asan_report_store8();
@@ -10049,16 +10049,16 @@ void __cdecl boost::wrapexcept<boost::system::system_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::system::system_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::system::system_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::system::system_error>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10083,16 +10083,16 @@ void __cdecl boost::wrapexcept<boost::thread_resource_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<boost::thread_resource_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<boost::thread_resource_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10117,16 +10117,16 @@ void __cdecl boost::wrapexcept<std::invalid_argument>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<std::invalid_argument> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<std::invalid_argument> *)__asan_report_store8();
@@ -10150,16 +10150,16 @@ void __cdecl boost::wrapexcept<std::length_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<std::length_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<std::length_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<std::length_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::length_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::length_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<std::length_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<std::length_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<std::length_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::length_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<std::length_error> *)__asan_report_store8();
@@ -10183,16 +10183,16 @@ void __cdecl boost::wrapexcept<std::out_of_range>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<std::out_of_range> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<std::out_of_range> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<std::out_of_range> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::out_of_range> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::out_of_range> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<std::out_of_range> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<std::out_of_range> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<std::out_of_range> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<std::out_of_range> *)__asan_report_store8();
@@ -10216,16 +10216,16 @@ void __cdecl boost::wrapexcept<std::runtime_error>::wrapexcept(
     this,
     (const void **const)&`VTT for'boost::wrapexcept<std::runtime_error> + 1,
     x);
-  v2 = (char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 24;
+  v2 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
-  v3 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 80);
+  v3 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::runtime_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v3;
   v4 = &this->boost::exception_detail::error_info_injector<std::runtime_error> + 1;
-  v5 = (char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 136;
+  v5 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v4 = (boost::exception_detail::error_info_injector<std::runtime_error> *)__asan_report_store8();
@@ -10567,16 +10567,16 @@ void __cdecl boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept(
   _QWORD *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->boost::asio::bad_executor = (boost::asio::bad_executor)v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = this->gap30;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::asio::bad_executor> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 136;
   if ( *(_BYTE *)(((unsigned __int64)this->gap30 >> 3) + 0x7FFF8000) )
     v3 = (_QWORD *)__asan_report_store8();
   *v3 = v4;
@@ -10595,16 +10595,16 @@ void __cdecl boost::wrapexcept<boost::asio::invalid_service_owner>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::asio::invalid_service_owner> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10643,16 +10643,16 @@ void __cdecl boost::wrapexcept<boost::asio::service_already_exists>::~wrapexcept
   boost::exception_detail::error_info_injector<boost::asio::service_already_exists> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::asio::service_already_exists> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10675,16 +10675,16 @@ void __cdecl boost::wrapexcept<boost::condition_error>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::condition_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::condition_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::condition_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::condition_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::condition_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::condition_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::condition_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<boost::condition_error> *)__asan_report_store8();
@@ -10722,16 +10722,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_day_of_month>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10762,16 +10762,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_month>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::gregorian::bad_month> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_month> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10802,16 +10802,16 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_year>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::gregorian::bad_year> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_year> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<boost::gregorian::bad_year> *)__asan_report_store8();
@@ -10832,16 +10832,16 @@ void __cdecl boost::wrapexcept<boost::lock_error>::~wrapexcept(boost::wrapexcept
   boost::exception_detail::error_info_injector<boost::lock_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::lock_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::lock_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::lock_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::lock_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::lock_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::lock_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<boost::lock_error> *)__asan_report_store8();
@@ -10870,16 +10870,16 @@ void __cdecl boost::wrapexcept<boost::system::system_error>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::system::system_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::system::system_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::system::system_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::system::system_error>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10918,16 +10918,16 @@ void __cdecl boost::wrapexcept<boost::thread_resource_error>::~wrapexcept(
   boost::exception_detail::error_info_injector<boost::thread_resource_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<boost::thread_resource_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<boost::thread_resource_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
                                     + 1) >> 3)
                 + 0x7FFF8000) )
@@ -10958,16 +10958,16 @@ void __cdecl boost::wrapexcept<std::invalid_argument>::~wrapexcept(
   boost::exception_detail::error_info_injector<std::invalid_argument> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<std::invalid_argument> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::invalid_argument> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<std::invalid_argument> *)__asan_report_store8();
@@ -10995,16 +10995,16 @@ void __cdecl boost::wrapexcept<std::length_error>::~wrapexcept(boost::wrapexcept
   boost::exception_detail::error_info_injector<std::length_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<std::length_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<std::length_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::length_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::length_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::length_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<std::length_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<std::length_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::length_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<std::length_error> *)__asan_report_store8();
@@ -11032,16 +11032,16 @@ void __cdecl boost::wrapexcept<std::runtime_error>::~wrapexcept(boost::wrapexcep
   boost::exception_detail::error_info_injector<std::runtime_error> *v3; // rax
   char *v4; // rcx
 
-  v1 = (char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 24;
+  v1 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
-  v2 = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 80);
+  v2 = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::runtime_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v2;
   v3 = &this->boost::exception_detail::error_info_injector<std::runtime_error> + 1;
-  v4 = (char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 136;
+  v4 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
     v3 = (boost::exception_detail::error_info_injector<std::runtime_error> *)__asan_report_store8();
@@ -11069,18 +11069,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::bad_function_call>
   + 7);
   boost::exception_detail::error_info_injector<boost::bad_function_call>::error_info_injector(this, x);
-  v3 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v3 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v3;
-  v4 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v4 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v4;
   v5 = &this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1;
-  v6 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v6 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -11172,8 +11172,8 @@ boost::wrapexcept<boost::bad_function_call> *__fastcall boost::exception_detail:
   std::runtime_error::runtime_error((std::runtime_error *)&v24, (const std::runtime_error *)x);
   memset(&v24.data_, 0, 24);
   v24.throw_line_ = -1;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call>
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call>
                                       + 7);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -11181,7 +11181,7 @@ boost::wrapexcept<boost::bad_function_call> *__fastcall boost::exception_detail:
     __asan_report_store8();
     goto LABEL_13;
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 7) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 7) = &`vtable for boost::exception_detail::clone_base + 2;
   std::runtime_error::runtime_error((std::runtime_error *)retstr, (const std::runtime_error *)&v24);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -11189,14 +11189,14 @@ LABEL_13:
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::bad_function_call + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   px = v24.data_.px_;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->data_ >> 3) + 0x7FFF8000) )
   {
@@ -11247,7 +11247,7 @@ LABEL_34:
     __asan_report_store8();
     goto LABEL_35;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call>
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call>
                                  + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
@@ -11255,7 +11255,7 @@ LABEL_35:
     __asan_report_store8();
     goto LABEL_36;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call>
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call>
                                           + 7);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -11270,7 +11270,7 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -11279,7 +11279,7 @@ LABEL_38:
     v10 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+    *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::bad_function_call + 2;
     std::runtime_error::~runtime_error((std::runtime_error *)retstr);
     goto LABEL_41;
   }
@@ -11424,14 +11424,14 @@ LABEL_99:
     __asan_report_store8();
     goto LABEL_100;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 24;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 24;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_100:
     __asan_report_store8();
     goto LABEL_101;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 80);
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )
   {
@@ -11474,9 +11474,9 @@ LABEL_41:
     __asan_handle_no_return(&v24);
     _Unwind_Resume(v10);
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 7) = (char *)&`vtable for'boost::wrapexcept<boost::bad_function_call> + 136;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::bad_function_call> + 7) = (char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 136;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::bad_function_call> + 2;
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( !v24.data_.px_ )
     goto LABEL_94;
   if ( *(_BYTE *)(((unsigned __int64)v24.data_.px_ >> 3) + 0x7FFF8000) )
@@ -11492,7 +11492,7 @@ LABEL_115:
   }
   (*((void (**)(void))v24.data_.px_->_vptr_error_info_container + 4))();
 LABEL_94:
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::bad_function_call + 2;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::bad_function_call + 2;
   std::runtime_error::~runtime_error((std::runtime_error *)&v24);
   if ( v25 != (char *)v4 )
   {
@@ -11575,9 +11575,9 @@ boost::wrapexcept<boost::gregorian::bad_day_of_year> *__fastcall boost::exceptio
   std::logic_error::logic_error((std::logic_error *)&v24, (const std::logic_error *)x);
   memset(&v24.data_, 0, 24);
   v24.throw_line_ = -1;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                              + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                       + 7);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                     + 1) >> 3)
@@ -11586,7 +11586,7 @@ boost::wrapexcept<boost::gregorian::bad_day_of_year> *__fastcall boost::exceptio
     __asan_report_store8();
     goto LABEL_13;
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> + 7) = &`vtable for'boost::exception_detail::clone_base + 2;
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> + 7) = &`vtable for boost::exception_detail::clone_base + 2;
   std::logic_error::logic_error((std::logic_error *)retstr, (const std::logic_error *)&v24);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -11594,14 +11594,14 @@ LABEL_13:
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   px = v24.data_.px_;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->data_ >> 3) + 0x7FFF8000) )
   {
@@ -11652,7 +11652,7 @@ LABEL_34:
     __asan_report_store8();
     goto LABEL_35;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                  + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
@@ -11660,7 +11660,7 @@ LABEL_35:
     __asan_report_store8();
     goto LABEL_36;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                           + 7);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -11675,7 +11675,7 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                     + 1) >> 3)
@@ -11685,7 +11685,7 @@ LABEL_38:
     v10 = (struct _Unwind_Exception *)__asan_report_store8();
     if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
       __asan_report_store8();
-    *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+    *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
     std::out_of_range::~out_of_range((std::out_of_range *)retstr);
     goto LABEL_41;
   }
@@ -11830,14 +11830,14 @@ LABEL_99:
     __asan_report_store8();
     goto LABEL_100;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_year> + 24;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_year> + 24;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_100:
     __asan_report_store8();
     goto LABEL_101;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_year>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_year>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                                     + 1) >> 3)
@@ -11882,10 +11882,10 @@ LABEL_41:
     __asan_handle_no_return(&v24);
     _Unwind_Resume(v10);
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> + 7) = (char *)&`vtable for'boost::wrapexcept<boost::gregorian::bad_day_of_year> + 136;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year> + 7) = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_year> + 136;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>
                              + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( !v24.data_.px_ )
     goto LABEL_94;
   if ( *(_BYTE *)(((unsigned __int64)v24.data_.px_ >> 3) + 0x7FFF8000) )
@@ -11901,7 +11901,7 @@ LABEL_115:
   }
   (*((void (**)(void))v24.data_.px_->_vptr_error_info_container + 4))();
 LABEL_94:
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::gregorian::bad_day_of_year + 2;
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::gregorian::bad_day_of_year + 2;
   std::out_of_range::~out_of_range((std::out_of_range *)&v24);
   if ( v25 != (char *)v4 )
   {
@@ -12074,15 +12074,15 @@ boost::wrapexcept<std::out_of_range> *__fastcall boost::exception_detail::enable
   std::logic_error::logic_error((std::logic_error *)&v24, x);
   memset(&v24.data_, 0, 24);
   v24.throw_line_ = -1;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 7);
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 7);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
   {
     __asan_report_store8();
     goto LABEL_13;
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 7) = &`vtable for'boost::exception_detail::clone_base
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 7) = &`vtable for boost::exception_detail::clone_base
                                                                                             + 2;
   std::logic_error::logic_error((std::logic_error *)retstr, (const std::logic_error *)&v24);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
@@ -12091,14 +12091,14 @@ LABEL_13:
     __asan_report_store8();
     goto LABEL_14;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'std::out_of_range + 16;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for std::out_of_range + 16;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
     __asan_report_store8();
     goto LABEL_15;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   px = v24.data_.px_;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->data_ >> 3) + 0x7FFF8000) )
   {
@@ -12149,14 +12149,14 @@ LABEL_34:
     __asan_report_store8();
     goto LABEL_35;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_35:
     __asan_report_store8();
     goto LABEL_36;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::out_of_range>
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::out_of_range>
                                           + 7);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -12171,7 +12171,7 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -12322,14 +12322,14 @@ LABEL_97:
     __asan_report_store8();
     goto LABEL_98;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'boost::wrapexcept<std::out_of_range> + 24;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for boost::wrapexcept<std::out_of_range> + 24;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_98:
     __asan_report_store8();
     goto LABEL_99;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::out_of_range> + 80);
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::out_of_range> + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 1) >> 3)
                 + 0x7FFF8000) )
   {
@@ -12372,10 +12372,10 @@ LABEL_39:
     __asan_handle_no_return(&v24);
     _Unwind_Resume(v10);
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 7) = (char *)&`vtable for'boost::wrapexcept<std::out_of_range>
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::out_of_range> + 7) = (char *)&`vtable for boost::wrapexcept<std::out_of_range>
                                                                                             + 136;
-  *(_QWORD *)v24.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::out_of_range> + 2;
-  v24._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  *(_QWORD *)v24.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::out_of_range> + 2;
+  v24._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( !v24.data_.px_ )
     goto LABEL_92;
   if ( *(_BYTE *)(((unsigned __int64)v24.data_.px_ >> 3) + 0x7FFF8000) )
@@ -12462,7 +12462,7 @@ boost::wrapexcept<std::runtime_error> *__fastcall boost::exception_detail::enabl
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116352;
   std::runtime_error::runtime_error((std::runtime_error *)&v28, (const std::runtime_error *)x);
-  v28._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  v28._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( *(_BYTE *)(((unsigned __int64)&x->data_ >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8();
@@ -12506,8 +12506,8 @@ LABEL_25:
   if ( v9 && v9 <= 3 )
     goto LABEL_25;
   v28.throw_line_ = x->throw_line_;
-  *(_QWORD *)v28.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
-  v28._vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 7);
+  *(_QWORD *)v28.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v28._vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 7);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
   {
@@ -12515,7 +12515,7 @@ LABEL_26:
     __asan_report_store8();
     goto LABEL_27;
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 7) = &`vtable for'boost::exception_detail::clone_base
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 7) = &`vtable for boost::exception_detail::clone_base
                                                                                              + 2;
   std::runtime_error::runtime_error((std::runtime_error *)retstr, (const std::runtime_error *)&v28);
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
@@ -12528,7 +12528,7 @@ LABEL_28:
     __asan_handle_no_return(&v28);
     _Unwind_Resume(v11);
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   v10 = v28.data_.px_;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->data_ >> 3) + 0x7FFF8000) )
     goto LABEL_28;
@@ -12574,14 +12574,14 @@ LABEL_47:
     __asan_report_store8();
     goto LABEL_48;
   }
-  *(_QWORD *)retstr->baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  *(_QWORD *)retstr->baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_48:
     __asan_report_store8();
     goto LABEL_49;
   }
-  retstr->_vptr_exception = (int (**)(...))(&`vtable for'boost::exception_detail::error_info_injector<std::runtime_error>
+  retstr->_vptr_exception = (int (**)(...))(&`vtable for boost::exception_detail::error_info_injector<std::runtime_error>
                                           + 7);
   if ( *(_BYTE *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) )
   {
@@ -12596,7 +12596,7 @@ LABEL_50:
     __asan_report_store8();
     goto LABEL_51;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>
                                           + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
@@ -12747,14 +12747,14 @@ LABEL_110:
     __asan_report_store8();
     goto LABEL_111;
   }
-  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 24;
+  *(_QWORD *)retstr->baseclass_0 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)&retstr->boost::exception >> 3) + 0x7FFF8000) )
   {
 LABEL_111:
     __asan_report_store8();
     goto LABEL_112;
   }
-  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for'boost::wrapexcept<std::runtime_error> + 80);
+  retstr->_vptr_exception = (int (**)(...))((char *)&`vtable for boost::wrapexcept<std::runtime_error> + 80);
   if ( *(_BYTE *)(((unsigned __int64)(&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 1) >> 3)
                 + 0x7FFF8000) )
   {
@@ -12797,10 +12797,10 @@ LABEL_52:
     __asan_handle_no_return(&v28);
     _Unwind_Resume(v14);
   }
-  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 7) = (char *)&`vtable for'boost::wrapexcept<std::runtime_error>
+  *((_QWORD *)&retstr->boost::exception_detail::error_info_injector<std::runtime_error> + 7) = (char *)&`vtable for boost::wrapexcept<std::runtime_error>
                                                                                              + 136;
-  *(_QWORD *)v28.baseclass_0 = &`vtable for'boost::exception_detail::error_info_injector<std::runtime_error> + 2;
-  v28._vptr_exception = (int (**)(...))(&`vtable for'boost::exception + 2);
+  *(_QWORD *)v28.baseclass_0 = &`vtable for boost::exception_detail::error_info_injector<std::runtime_error> + 2;
+  v28._vptr_exception = (int (**)(...))(&`vtable for boost::exception + 2);
   if ( !v28.data_.px_ )
     goto LABEL_105;
   if ( *(_BYTE *)(((unsigned __int64)v28.data_.px_ >> 3) + 0x7FFF8000) )
@@ -12851,18 +12851,18 @@ void __cdecl boost::exception_detail::clone_impl<boost::exception_detail::error_
     v2,
     (const boost::exception_detail::clone_base *)&a2->baseclass_0[*(_QWORD *)v3]);
   boost::exception_detail::error_info_injector<boost::bad_function_call>::error_info_injector(this, a2);
-  v4 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v4 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
      + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v4;
-  v5 = (int (**)(...))((char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v5 = (int (**)(...))((char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
                      + 80);
   if ( *(_BYTE *)(((unsigned __int64)&this->boost::exception >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   this->_vptr_exception = v5;
   v6 = &this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1;
-  v7 = (char *)&`vtable for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
+  v7 = (char *)&`vtable for boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>
      + 136;
   if ( *(_BYTE *)(((unsigned __int64)(&this->boost::exception_detail::error_info_injector<boost::bad_function_call> + 1) >> 3)
                 + 0x7FFF8000) )

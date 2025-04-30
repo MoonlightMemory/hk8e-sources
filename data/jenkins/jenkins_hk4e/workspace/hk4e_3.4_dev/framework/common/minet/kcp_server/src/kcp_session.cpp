@@ -33,7 +33,7 @@ void __fastcall common::minet::KcpSession::KcpSession(
     __asan_report_store8();
     goto LABEL_42;
   }
-  this->_vptr_KcpSession = (int (**)(...))(&`vtable for'common::minet::KcpSession + 2);
+  this->_vptr_KcpSession = (int (**)(...))(&`vtable for common::minet::KcpSession + 2);
   p_kcp_conn_mgr_wtr = &this->kcp_conn_mgr_wtr_;
   if ( *(_BYTE *)(((unsigned __int64)kcp_conn_mgr_wtr >> 3) + 0x7FFF8000) )
   {
@@ -353,7 +353,7 @@ LABEL_20:
     __asan_report_load_n(this, 32LL);
     goto LABEL_21;
   }
-  this->_vptr_KcpSession = (int (**)(...))(&`vtable for'common::minet::KcpSession + 2);
+  this->_vptr_KcpSession = (int (**)(...))(&`vtable for common::minet::KcpSession + 2);
   common::minet::KcpSession::clean(this);
   this = (common::minet::KcpSession *const)((char *)this + 168);
   if ( *(_BYTE *)((((unsigned __int64)&v1->send_queue_.queue_.c._M_impl._M_finish._M_node + 7) >> 3) + 0x7FFF8000) != 0
@@ -1690,7 +1690,7 @@ volatile signed __int32 *__fastcall common::minet::KcpSession::kcp_packet_create
         *(_DWORD *)(v4 + 12) = 1;
         if ( !*(_BYTE *)((v4 >> 3) + 0x7FFF8000) )
         {
-          *(_QWORD *)v4 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpPacket,common::tools::perf::allocator<common::minet::KcpPacket,common::minet::KcpPacket>,(__gnu_cxx::_Lock_policy)2>
+          *(_QWORD *)v4 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpPacket,common::tools::perf::allocator<common::minet::KcpPacket,common::minet::KcpPacket>,(__gnu_cxx::_Lock_policy)2>
                         + 2;
           v3 = v4 + 16;
           if ( !common::tools::perf::MemoryPerf::is_record )
@@ -1783,7 +1783,7 @@ LABEL_51:
     __asan_report_store_n(v24, 40LL);
     goto LABEL_52;
   }
-  *(_QWORD *)v20 = &`vtable for'std::_Sp_counted_ptr_inplace<common::minet::KcpPacket,std::allocator<common::minet::KcpPacket>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v20 = &`vtable for std::_Sp_counted_ptr_inplace<common::minet::KcpPacket,std::allocator<common::minet::KcpPacket>,(__gnu_cxx::_Lock_policy)2>
                  + 2;
   v24 = v20 + 16;
   if ( *(_BYTE *)(((v20 + 55) >> 3) + 0x7FFF8000) != 0

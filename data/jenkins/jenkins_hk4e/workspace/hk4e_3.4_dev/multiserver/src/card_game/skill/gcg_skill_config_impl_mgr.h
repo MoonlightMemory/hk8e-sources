@@ -7,7 +7,7 @@ void __cdecl ConfigGCGLogicConditionFactoryImpl::ConfigGCGLogicConditionFactoryI
   int (**v1)(...); // rdx
 
   data::ConfigGCGLogicConditionFactory::ConfigGCGLogicConditionFactory(this);
-  v1 = (int (**)(...))(&`vtable for'ConfigGCGLogicConditionFactoryImpl + 2);
+  v1 = (int (**)(...))(&`vtable for ConfigGCGLogicConditionFactoryImpl + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ConfigGCGLogicConditionFactory = v1;

@@ -6,7 +6,7 @@ void __cdecl CoopExcelConfigMgr::CoopExcelConfigMgr(CoopExcelConfigMgr *const th
   int (**v1)(...); // rdx
 
   data::CoopExcelConfigMgrBase::CoopExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'CoopExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CoopExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CoopExcelConfigMgrBase = v1;
@@ -42,7 +42,7 @@ void __cdecl CoopExcelConfigMgr::~CoopExcelConfigMgr(CoopExcelConfigMgr *const t
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'CoopExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for CoopExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_CoopExcelConfigMgrBase = v1;

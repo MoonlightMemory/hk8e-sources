@@ -9,7 +9,7 @@ void __cdecl boost::beast::http::parser<true,boost::beast::http::basic_string_bo
   boost::beast::http::header<true,boost::beast::http::basic_fields<std::allocator<char> > > *v3; // rax
 
   boost::beast::http::basic_parser<true>::basic_parser(this);
-  v1 = (int (**)(...))(&`vtable for'boost::beast::http::parser<true,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>>
+  v1 = (int (**)(...))(&`vtable for boost::beast::http::parser<true,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -45,7 +45,7 @@ void __cdecl ZN5boost5beast4http6parserILb0ENS1_17basic_string_bodyIcSt11char_tr
   boost::beast::http::header<false,boost::beast::http::basic_fields<std::allocator<char> > > *v5; // rax
 
   boost::beast::http::basic_parser<false>::basic_parser(this);
-  v2 = (int (**)(...))(&`vtable for'boost::beast::http::parser<false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>>
+  v2 = (int (**)(...))(&`vtable for boost::beast::http::parser<false,boost::beast::http::basic_string_body<char,std::char_traits<char>,std::allocator<char>>,std::allocator<char>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

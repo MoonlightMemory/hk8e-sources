@@ -7,7 +7,7 @@ void __cdecl data::ActivityGroupLinksExcelConfig::ActivityGroupLinksExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGroupLinksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGroupLinksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGroupLinksExcelConfig = v2;
@@ -31,7 +31,7 @@ void __cdecl data::ActivityGroupLinksExcelConfig::ActivityGroupLinksExcelConfig(
   const data::ActivityGroupLinksExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGroupLinksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGroupLinksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_ActivityGroupLinksExcelConfig = v2;
@@ -58,7 +58,7 @@ void __cdecl data::ActivityGroupLinksExcelConfig::~ActivityGroupLinksExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::ActivityGroupLinksExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::ActivityGroupLinksExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_ActivityGroupLinksExcelConfig = v2;
@@ -91,7 +91,7 @@ void __cdecl data::GroupLinksBundleExcelConfig::GroupLinksBundleExcelConfig(
   __int64 v12; // rsi
   __int64 v13; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GroupLinksBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GroupLinksBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GroupLinksBundleExcelConfig = v2;
@@ -215,7 +215,7 @@ void __cdecl data::GroupLinksBundleExcelConfig::GroupLinksBundleExcelConfig(
   const data::GroupLinksBundleExcelConfig *v43; // [rsp+0h] [rbp-10h]
 
   v43 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GroupLinksBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GroupLinksBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GroupLinksBundleExcelConfig = v2;
@@ -378,7 +378,7 @@ void __cdecl data::GroupLinksBundleExcelConfig::~GroupLinksBundleExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GroupLinksBundleExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GroupLinksBundleExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GroupLinksBundleExcelConfig = v2;
@@ -409,7 +409,7 @@ void __cdecl data::GroupLinksBundleRewardExcelConfig::GroupLinksBundleRewardExce
   const data::GroupLinksBundleRewardExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::GroupLinksBundleRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GroupLinksBundleRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_GroupLinksBundleRewardExcelConfig = v2;
@@ -462,7 +462,7 @@ void __cdecl data::GroupLinksBundleRewardExcelConfig::~GroupLinksBundleRewardExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::GroupLinksBundleRewardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::GroupLinksBundleRewardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_GroupLinksBundleRewardExcelConfig = v2;

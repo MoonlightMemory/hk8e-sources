@@ -8,7 +8,7 @@ void __cdecl boost::gregorian::bad_month::bad_month(
   __int64 *v2; // rdx
 
   std::out_of_range::out_of_range((std::out_of_range *const)this, (const std::out_of_range *)a2);
-  v2 = &`vtable for'boost::gregorian::bad_month + 2;
+  v2 = &`vtable for boost::gregorian::bad_month + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v2;
@@ -19,7 +19,7 @@ void __cdecl boost::gregorian::bad_month::~bad_month(boost::gregorian::bad_month
 {
   __int64 *v1; // rdx
 
-  v1 = &`vtable for'boost::gregorian::bad_month + 2;
+  v1 = &`vtable for boost::gregorian::bad_month + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;
@@ -45,7 +45,7 @@ void __cdecl boost::gregorian::bad_month::bad_month(boost::gregorian::bad_month 
   std::out_of_range::out_of_range(this, &v3);
   std::string::~string(&v3);
   std::allocator<char>::~allocator(&__a);
-  v1 = &`vtable for'boost::gregorian::bad_month + 2;
+  v1 = &`vtable for boost::gregorian::bad_month + 2;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   *(_QWORD *)this->baseclass_0 = v1;

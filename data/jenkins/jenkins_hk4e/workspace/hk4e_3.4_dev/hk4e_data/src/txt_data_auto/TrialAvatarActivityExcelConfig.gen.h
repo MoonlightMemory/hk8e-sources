@@ -7,7 +7,7 @@ void __cdecl data::TrialAvatarActivityExcelConfig::TrialAvatarActivityExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarActivityExcelConfig = v2;
@@ -32,7 +32,7 @@ void __cdecl data::TrialAvatarActivityExcelConfig::TrialAvatarActivityExcelConfi
   const data::TrialAvatarActivityExcelConfig *v5; // [rsp+0h] [rbp-20h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_TrialAvatarActivityExcelConfig = v2;
@@ -60,7 +60,7 @@ void __cdecl data::TrialAvatarActivityExcelConfig::~TrialAvatarActivityExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_TrialAvatarActivityExcelConfig = v2;
@@ -86,7 +86,7 @@ void __cdecl data::TrialAvatarActivityDataExcelConfig::TrialAvatarActivityDataEx
   __int64 v4; // rsi
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this);
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;
@@ -139,7 +139,7 @@ void __cdecl data::TrialAvatarActivityDataExcelConfig::TrialAvatarActivityDataEx
   char v13; // al
 
   data::WatcherConfig::WatcherConfig((data::WatcherConfig *const)this, (const data::WatcherConfig *)a2);
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_WatcherConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::TrialAvatarActivityDataExcelConfig::~TrialAvatarActivityDataE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::TrialAvatarActivityDataExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::TrialAvatarActivityDataExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_WatcherConfig = v2;

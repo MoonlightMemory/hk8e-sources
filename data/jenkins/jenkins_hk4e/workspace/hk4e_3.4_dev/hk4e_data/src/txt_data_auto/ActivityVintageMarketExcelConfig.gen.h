@@ -8,7 +8,7 @@ void __cdecl data::VintageMarketTraderExcelConfig::VintageMarketTraderExcelConfi
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketTraderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketTraderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketTraderExcelConfig = v2;
@@ -49,7 +49,7 @@ void __cdecl data::VintageMarketTraderExcelConfig::VintageMarketTraderExcelConfi
   const data::VintageMarketTraderExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketTraderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketTraderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketTraderExcelConfig = v2;
@@ -102,7 +102,7 @@ void __cdecl data::VintageMarketTraderExcelConfig::~VintageMarketTraderExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketTraderExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketTraderExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketTraderExcelConfig = v2;
@@ -123,7 +123,7 @@ void __cdecl data::VintageMarketDealExcelConfig::VintageMarketDealExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketDealExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketDealExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketDealExcelConfig = v2;
@@ -147,7 +147,7 @@ void __cdecl data::VintageMarketDealExcelConfig::VintageMarketDealExcelConfig(
   const data::VintageMarketDealExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketDealExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketDealExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketDealExcelConfig = v2;
@@ -182,7 +182,7 @@ void __cdecl data::VintageMarketDealExcelConfig::~VintageMarketDealExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketDealExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketDealExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketDealExcelConfig = v2;
@@ -208,7 +208,7 @@ void __cdecl data::VintageMarketBargainExcelConfig::VintageMarketBargainExcelCon
   const data::VintageMarketBargainExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketBargainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketBargainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketBargainExcelConfig = v2;
@@ -283,7 +283,7 @@ void __cdecl data::VintageMarketBargainExcelConfig::~VintageMarketBargainExcelCo
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketBargainExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketBargainExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketBargainExcelConfig = v2;
@@ -296,7 +296,7 @@ void __cdecl data::VintageMarketAttrExcelConfig::VintageMarketAttrExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrExcelConfig = v2;
@@ -328,7 +328,7 @@ void __cdecl data::VintageMarketAttrExcelConfig::VintageMarketAttrExcelConfig(
   const data::VintageMarketAttrExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketAttrExcelConfig = v2;
@@ -368,7 +368,7 @@ void __cdecl data::VintageMarketAttrExcelConfig::~VintageMarketAttrExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrExcelConfig = v2;
@@ -390,7 +390,7 @@ void __cdecl data::VintageMarketStoreExcelConfig::VintageMarketStoreExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreExcelConfig = v2;
@@ -433,7 +433,7 @@ void __cdecl data::VintageMarketStoreExcelConfig::VintageMarketStoreExcelConfig(
   const data::VintageMarketStoreExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketStoreExcelConfig = v2;
@@ -496,7 +496,7 @@ void __cdecl data::VintageMarketStoreExcelConfig::~VintageMarketStoreExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreExcelConfig = v2;
@@ -512,7 +512,7 @@ void __cdecl data::VintageMarketStoreRoundExcelConfig::VintageMarketStoreRoundEx
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreRoundExcelConfig = v2;
@@ -559,7 +559,7 @@ void __cdecl data::VintageMarketStoreRoundExcelConfig::VintageMarketStoreRoundEx
   char v9; // al
   float income_factor; // xmm0_4
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketStoreRoundExcelConfig = v2;
@@ -633,7 +633,7 @@ void __cdecl data::VintageMarketStoreRoundExcelConfig::~VintageMarketStoreRoundE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreRoundExcelConfig = v2;
@@ -647,7 +647,7 @@ void __cdecl data::VintageMarketRoundExcelConfig::VintageMarketRoundExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketRoundExcelConfig = v2;
@@ -671,7 +671,7 @@ void __cdecl data::VintageMarketRoundExcelConfig::VintageMarketRoundExcelConfig(
   const data::VintageMarketRoundExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketRoundExcelConfig = v2;
@@ -706,7 +706,7 @@ void __cdecl data::VintageMarketRoundExcelConfig::~VintageMarketRoundExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketRoundExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketRoundExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketRoundExcelConfig = v2;
@@ -720,7 +720,7 @@ void __cdecl data::VintageMarketAttrRandomTemplateExcelConfig::VintageMarketAttr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrRandomTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrRandomTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrRandomTemplateExcelConfig = v2;
@@ -753,7 +753,7 @@ void __cdecl data::VintageMarketAttrRandomTemplateExcelConfig::VintageMarketAttr
   const data::VintageMarketAttrRandomTemplateExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrRandomTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrRandomTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketAttrRandomTemplateExcelConfig = v2;
@@ -802,7 +802,7 @@ void __cdecl data::VintageMarketAttrRandomTemplateExcelConfig::~VintageMarketAtt
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrRandomTemplateExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrRandomTemplateExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrRandomTemplateExcelConfig = v2;
@@ -816,7 +816,7 @@ void __cdecl data::VintageMarketStoreAttrUpgradeExcelConfig::VintageMarketStoreA
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreAttrUpgradeExcelConfig = v2;
@@ -830,7 +830,7 @@ void __cdecl data::VintageMarketStoreAttrUpgradeExcelConfig::VintageMarketStoreA
 {
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketStoreAttrUpgradeExcelConfig = v2;
@@ -852,7 +852,7 @@ void __cdecl data::VintageMarketStoreAttrUpgradeExcelConfig::~VintageMarketStore
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketStoreAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketStoreAttrUpgradeExcelConfig = v2;
@@ -866,7 +866,7 @@ void __cdecl data::VintageMarketAttrUpgradeExcelConfig::VintageMarketAttrUpgrade
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrUpgradeExcelConfig = v2;
@@ -890,7 +890,7 @@ void __cdecl data::VintageMarketAttrUpgradeExcelConfig::VintageMarketAttrUpgrade
   const data::VintageMarketAttrUpgradeExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketAttrUpgradeExcelConfig = v2;
@@ -925,7 +925,7 @@ void __cdecl data::VintageMarketAttrUpgradeExcelConfig::~VintageMarketAttrUpgrad
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrUpgradeExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrUpgradeExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrUpgradeExcelConfig = v2;
@@ -947,7 +947,7 @@ void __cdecl data::VintageMarketAttrFactorExcelConfig::VintageMarketAttrFactorEx
   const data::VintageMarketAttrFactorExcelConfig *v9; // [rsp+0h] [rbp-10h]
 
   v9 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrFactorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrFactorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketAttrFactorExcelConfig = v2;
@@ -1005,7 +1005,7 @@ void __cdecl data::VintageMarketAttrFactorExcelConfig::~VintageMarketAttrFactorE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketAttrFactorExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketAttrFactorExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketAttrFactorExcelConfig = v2;
@@ -1019,7 +1019,7 @@ void __cdecl data::VintageMarketEventExcelConfig::VintageMarketEventExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEventExcelConfig = v2;
@@ -1071,7 +1071,7 @@ void __cdecl data::VintageMarketEventExcelConfig::VintageMarketEventExcelConfig(
   const data::VintageMarketEventExcelConfig *v14; // [rsp+0h] [rbp-10h]
 
   v14 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketEventExcelConfig = v2;
@@ -1148,7 +1148,7 @@ void __cdecl data::VintageMarketEventExcelConfig::~VintageMarketEventExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEventExcelConfig = v2;
@@ -1162,7 +1162,7 @@ void __cdecl data::VintageMarketEffectExcelConfig::VintageMarketEffectExcelConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEffectExcelConfig = v2;
@@ -1186,7 +1186,7 @@ void __cdecl data::VintageMarketEffectExcelConfig::VintageMarketEffectExcelConfi
   const data::VintageMarketEffectExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketEffectExcelConfig = v2;
@@ -1221,7 +1221,7 @@ void __cdecl data::VintageMarketEffectExcelConfig::~VintageMarketEffectExcelConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEffectExcelConfig = v2;
@@ -1235,7 +1235,7 @@ void __cdecl data::VintageMarketSkillExcelConfig::VintageMarketSkillExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketSkillExcelConfig = v2;
@@ -1259,7 +1259,7 @@ void __cdecl data::VintageMarketSkillExcelConfig::VintageMarketSkillExcelConfig(
   const data::VintageMarketSkillExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketSkillExcelConfig = v2;
@@ -1294,7 +1294,7 @@ void __cdecl data::VintageMarketSkillExcelConfig::~VintageMarketSkillExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketSkillExcelConfig = v2;
@@ -1308,7 +1308,7 @@ void __cdecl data::VintageMarketNpcEventBranchExcelConfig::VintageMarketNpcEvent
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventBranchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventBranchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketNpcEventBranchExcelConfig = v2;
@@ -1340,7 +1340,7 @@ void __cdecl data::VintageMarketNpcEventBranchExcelConfig::VintageMarketNpcEvent
   const data::VintageMarketNpcEventBranchExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventBranchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventBranchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketNpcEventBranchExcelConfig = v2;
@@ -1380,7 +1380,7 @@ void __cdecl data::VintageMarketNpcEventBranchExcelConfig::~VintageMarketNpcEven
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventBranchExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventBranchExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketNpcEventBranchExcelConfig = v2;
@@ -1401,7 +1401,7 @@ void __cdecl data::VintageMarketNpcEventExcelConfig::VintageMarketNpcEventExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketNpcEventExcelConfig = v2;
@@ -1435,7 +1435,7 @@ void __cdecl data::VintageMarketNpcEventExcelConfig::VintageMarketNpcEventExcelC
   const data::VintageMarketNpcEventExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketNpcEventExcelConfig = v2;
@@ -1477,7 +1477,7 @@ void __cdecl data::VintageMarketNpcEventExcelConfig::~VintageMarketNpcEventExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketNpcEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketNpcEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketNpcEventExcelConfig = v2;
@@ -1500,7 +1500,7 @@ void __cdecl data::VintageMarketEnvEventExcelConfig::VintageMarketEnvEventExcelC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEnvEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEnvEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEnvEventExcelConfig = v2;
@@ -1533,7 +1533,7 @@ void __cdecl data::VintageMarketEnvEventExcelConfig::VintageMarketEnvEventExcelC
   const data::VintageMarketEnvEventExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEnvEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEnvEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketEnvEventExcelConfig = v2;
@@ -1582,7 +1582,7 @@ void __cdecl data::VintageMarketEnvEventExcelConfig::~VintageMarketEnvEventExcel
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketEnvEventExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketEnvEventExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketEnvEventExcelConfig = v2;
@@ -1610,7 +1610,7 @@ void __cdecl data::VintageMarketConstValueExcelConfig::VintageMarketConstValueEx
   const data::VintageMarketConstValueExcelConfig *v15; // [rsp+0h] [rbp-10h]
 
   v15 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketConstValueExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketConstValueExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketConstValueExcelConfig = v2;
@@ -1699,7 +1699,7 @@ void __cdecl data::VintageMarketConstValueExcelConfig::~VintageMarketConstValueE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketConstValueExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketConstValueExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketConstValueExcelConfig = v2;
@@ -1712,7 +1712,7 @@ void __cdecl data::VintageMarketHelpSkillExcelConfig::VintageMarketHelpSkillExce
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketHelpSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketHelpSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketHelpSkillExcelConfig = v2;
@@ -1736,7 +1736,7 @@ void __cdecl data::VintageMarketHelpSkillExcelConfig::VintageMarketHelpSkillExce
   const data::VintageMarketHelpSkillExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketHelpSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketHelpSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_VintageMarketHelpSkillExcelConfig = v2;
@@ -1771,7 +1771,7 @@ void __cdecl data::VintageMarketHelpSkillExcelConfig::~VintageMarketHelpSkillExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::VintageMarketHelpSkillExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::VintageMarketHelpSkillExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_VintageMarketHelpSkillExcelConfig = v2;

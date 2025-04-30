@@ -6,7 +6,7 @@ void __cdecl data::DraftTransferConfig::DraftTransferConfig(data::DraftTransferC
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DraftTransferConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftTransferConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DraftTransferConfig = v2;
@@ -38,7 +38,7 @@ void __cdecl data::DraftTransferConfig::DraftTransferConfig(
   const data::DraftTransferConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DraftTransferConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftTransferConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DraftTransferConfig = v2;
@@ -77,7 +77,7 @@ void __cdecl data::DraftTransferConfig::~DraftTransferConfig(data::DraftTransfer
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DraftTransferConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftTransferConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DraftTransferConfig = v2;
@@ -105,7 +105,7 @@ void __cdecl data::DraftExcelConfig::DraftExcelConfig(data::DraftExcelConfig *co
   __int64 v10; // rsi
   __int64 v11; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DraftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DraftExcelConfig = v2;
@@ -244,7 +244,7 @@ void __cdecl data::DraftExcelConfig::DraftExcelConfig(
   const data::DraftExcelConfig *v45; // [rsp+0h] [rbp-10h]
 
   v45 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::DraftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_DraftExcelConfig = v2;
@@ -433,7 +433,7 @@ void __cdecl data::DraftExcelConfig::~DraftExcelConfig(data::DraftExcelConfig *c
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::DraftExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::DraftExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_DraftExcelConfig = v2;

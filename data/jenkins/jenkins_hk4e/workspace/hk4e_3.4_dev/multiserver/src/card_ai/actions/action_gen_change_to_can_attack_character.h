@@ -12,7 +12,7 @@ void __cdecl ZN2BT35ActionGenChangeToCanAttackCharacterCI2NS_8LeafNodeEERKNSt7__
     this,
     a2,
     a3);
-  v3 = (int (**)(...))(&`vtable for'BT::ActionGenChangeToCanAttackCharacter + 2);
+  v3 = (int (**)(...))(&`vtable for BT::ActionGenChangeToCanAttackCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v3;
@@ -24,7 +24,7 @@ void __cdecl BT::ActionGenChangeToCanAttackCharacter::~ActionGenChangeToCanAttac
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'BT::ActionGenChangeToCanAttackCharacter + 2);
+  v1 = (int (**)(...))(&`vtable for BT::ActionGenChangeToCanAttackCharacter + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_TreeNode = v1;

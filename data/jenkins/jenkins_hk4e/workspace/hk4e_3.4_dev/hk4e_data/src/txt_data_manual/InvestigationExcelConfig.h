@@ -6,7 +6,7 @@ void __cdecl InvestigationExcelConfigMgr::InvestigationExcelConfigMgr(Investigat
   int (**v1)(...); // rdx
 
   data::InvestigationExcelConfigMgrBase::InvestigationExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'InvestigationExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for InvestigationExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_InvestigationExcelConfigMgrBase = v1;
@@ -21,7 +21,7 @@ void __cdecl InvestigationExcelConfigMgr::~InvestigationExcelConfigMgr(Investiga
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'InvestigationExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for InvestigationExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_InvestigationExcelConfigMgrBase = v1;

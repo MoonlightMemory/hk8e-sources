@@ -488,7 +488,7 @@ LABEL_93:
           *(_DWORD *)(v6 + 12) = 1;
           if ( !*(_BYTE *)((v6 >> 3) + 0x7FFF8000) )
           {
-            *(_QWORD *)v6 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::StringStream<common::tools::FixedBuffer<16384>>,common::tools::perf::allocator<common::tools::StringStream<common::tools::FixedBuffer<16384>>,common::tools::StringStream<common::tools::FixedBuffer<16384>>>,(__gnu_cxx::_Lock_policy)2>
+            *(_QWORD *)v6 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::StringStream<common::tools::FixedBuffer<16384>>,common::tools::perf::allocator<common::tools::StringStream<common::tools::FixedBuffer<16384>>,common::tools::StringStream<common::tools::FixedBuffer<16384>>>,(__gnu_cxx::_Lock_policy)2>
                           + 2;
             v7 = v6 + 16;
             if ( !common::tools::perf::MemoryPerf::is_record )
@@ -672,7 +672,7 @@ LABEL_75:
     __asan_report_store8(v6, v1);
     goto LABEL_76;
   }
-  *(_QWORD *)v6 = &`vtable for'std::_Sp_counted_ptr_inplace<common::tools::StringStream<common::tools::FixedBuffer<16384>>,std::allocator<common::tools::StringStream<common::tools::FixedBuffer<16384>>>,(__gnu_cxx::_Lock_policy)2>
+  *(_QWORD *)v6 = &`vtable for std::_Sp_counted_ptr_inplace<common::tools::StringStream<common::tools::FixedBuffer<16384>>,std::allocator<common::tools::StringStream<common::tools::FixedBuffer<16384>>>,(__gnu_cxx::_Lock_policy)2>
                 + 2;
   v37 = (char *)(v6 + 16);
   if ( *(_BYTE *)(((v6 + 16) >> 3) + 0x7FFF8000) )

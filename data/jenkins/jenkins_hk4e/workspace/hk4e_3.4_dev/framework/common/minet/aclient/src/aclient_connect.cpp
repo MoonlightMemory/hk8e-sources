@@ -207,7 +207,7 @@ LABEL_15:
     __asan_report_store1(this);
     goto LABEL_16;
   }
-  this->_vptr_AClientConnect = (int (**)(...))(&`vtable for'common::minet::AClientConnect + 2);
+  this->_vptr_AClientConnect = (int (**)(...))(&`vtable for common::minet::AClientConnect + 2);
   this = (common::minet::AClientConnect *const)((char *)this + 24);
   v6 = *(_BYTE *)(((unsigned __int64)&v5->status_ >> 3) + 0x7FFF8000);
   if ( (char)((((_BYTE)v5 + 24) & 7) + 3) >= v6 && v6 )
@@ -693,7 +693,7 @@ void __fastcall common::minet::AClientConnect::~AClientConnect(common::minet::AC
     __asan_report_store8();
     goto LABEL_15;
   }
-  this->_vptr_AClientConnect = (int (**)(...))(&`vtable for'common::minet::AClientConnect + 2);
+  this->_vptr_AClientConnect = (int (**)(...))(&`vtable for common::minet::AClientConnect + 2);
   common::minet::AClientConnect::final(this);
   p_keep_alive_dt = (unsigned __int64)&this->keep_alive_dt_;
   if ( *(_BYTE *)(((unsigned __int64)&this->keep_alive_dt_ >> 3) + 0x7FFF8000) )

@@ -7,7 +7,7 @@ void __cdecl ActivityRogueDiaryExcelConfigMgr::ActivityRogueDiaryExcelConfigMgr(
   int (**v1)(...); // rdx
 
   data::ActivityRogueDiaryExcelConfigMgrBase::ActivityRogueDiaryExcelConfigMgrBase(this);
-  v1 = (int (**)(...))(&`vtable for'ActivityRogueDiaryExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityRogueDiaryExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityRogueDiaryExcelConfigMgrBase = v1;
@@ -27,7 +27,7 @@ void __cdecl ActivityRogueDiaryExcelConfigMgr::~ActivityRogueDiaryExcelConfigMgr
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'ActivityRogueDiaryExcelConfigMgr + 2);
+  v1 = (int (**)(...))(&`vtable for ActivityRogueDiaryExcelConfigMgr + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this);
   this->_vptr_ActivityRogueDiaryExcelConfigMgrBase = v1;

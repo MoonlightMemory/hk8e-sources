@@ -9,7 +9,7 @@ void __cdecl data::RogueStageExcelConfig::RogueStageExcelConfig(data::RogueStage
   __int64 v4; // rsi
   __int64 v5; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueStageExcelConfig = v2;
@@ -97,7 +97,7 @@ void __cdecl data::RogueStageExcelConfig::RogueStageExcelConfig(
   const data::RogueStageExcelConfig *v23; // [rsp+0h] [rbp-10h]
 
   v23 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueStageExcelConfig = v2;
@@ -218,7 +218,7 @@ void __cdecl data::RogueStageExcelConfig::~RogueStageExcelConfig(data::RogueStag
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueStageExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueStageExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueStageExcelConfig = v2;
@@ -240,7 +240,7 @@ void __cdecl data::RoguelikeRuneExcelConfig::RoguelikeRuneExcelConfig(data::Rogu
   __int64 v3; // rsi
   __int64 v4; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeRuneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeRuneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeRuneExcelConfig = v2;
@@ -282,7 +282,7 @@ void __cdecl data::RoguelikeRuneExcelConfig::RoguelikeRuneExcelConfig(
   const data::RoguelikeRuneExcelConfig *v12; // [rsp+0h] [rbp-10h]
 
   v12 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeRuneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeRuneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeRuneExcelConfig = v2;
@@ -332,7 +332,7 @@ void __cdecl data::RoguelikeRuneExcelConfig::~RoguelikeRuneExcelConfig(data::Rog
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeRuneExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeRuneExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeRuneExcelConfig = v2;
@@ -352,7 +352,7 @@ void __cdecl data::RoguelikeEffectExcelConfig::RoguelikeEffectExcelConfig(data::
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeEffectExcelConfig = v2;
@@ -386,7 +386,7 @@ void __cdecl data::RoguelikeEffectExcelConfig::RoguelikeEffectExcelConfig(
   const data::RoguelikeEffectExcelConfig *v8; // [rsp+0h] [rbp-20h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeEffectExcelConfig = v2;
@@ -436,7 +436,7 @@ void __cdecl data::RoguelikeEffectExcelConfig::~RoguelikeEffectExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeEffectExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeEffectExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeEffectExcelConfig = v2;
@@ -451,7 +451,7 @@ void __cdecl data::RoguelikeShikigamiUnlockConfig::RoguelikeShikigamiUnlockConfi
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiUnlockConfig = v2;
@@ -475,7 +475,7 @@ void __cdecl data::RoguelikeShikigamiUnlockConfig::RoguelikeShikigamiUnlockConfi
   const data::RoguelikeShikigamiUnlockConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeShikigamiUnlockConfig = v2;
@@ -510,7 +510,7 @@ void __cdecl data::RoguelikeShikigamiUnlockConfig::~RoguelikeShikigamiUnlockConf
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiUnlockConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiUnlockConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiUnlockConfig = v2;
@@ -525,7 +525,7 @@ void __cdecl data::RoguelikeShikigamiExcelConfig::RoguelikeShikigamiExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiExcelConfig = v2;
@@ -585,7 +585,7 @@ void __cdecl data::RoguelikeShikigamiExcelConfig::RoguelikeShikigamiExcelConfig(
   const data::RoguelikeShikigamiExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeShikigamiExcelConfig = v2;
@@ -675,7 +675,7 @@ void __cdecl data::RoguelikeShikigamiExcelConfig::~RoguelikeShikigamiExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiExcelConfig = v2;
@@ -689,7 +689,7 @@ void __cdecl data::RoguelikeShikigamiGroupExcelConfig::RoguelikeShikigamiGroupEx
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiGroupExcelConfig = v2;
@@ -713,7 +713,7 @@ void __cdecl data::RoguelikeShikigamiGroupExcelConfig::RoguelikeShikigamiGroupEx
   const data::RoguelikeShikigamiGroupExcelConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeShikigamiGroupExcelConfig = v2;
@@ -740,7 +740,7 @@ void __cdecl data::RoguelikeShikigamiGroupExcelConfig::~RoguelikeShikigamiGroupE
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeShikigamiGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeShikigamiGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeShikigamiGroupExcelConfig = v2;
@@ -764,7 +764,7 @@ void __cdecl data::RoguelikeCurseExcelConfig::RoguelikeCurseExcelConfig(data::Ro
   __int64 v4; // rsi
   __int64 v5; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCurseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCurseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCurseExcelConfig = v2;
@@ -814,7 +814,7 @@ void __cdecl data::RoguelikeCurseExcelConfig::RoguelikeCurseExcelConfig(
   const data::RoguelikeCurseExcelConfig *v16; // [rsp+0h] [rbp-10h]
 
   v16 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCurseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCurseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeCurseExcelConfig = v2;
@@ -876,7 +876,7 @@ void __cdecl data::RoguelikeCurseExcelConfig::~RoguelikeCurseExcelConfig(data::R
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCurseExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCurseExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCurseExcelConfig = v2;
@@ -909,7 +909,7 @@ void __cdecl data::RoguelikeCursePoolExcelConfig::RoguelikeCursePoolExcelConfig(
   const data::RoguelikeCursePoolExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCursePoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCursePoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeCursePoolExcelConfig = v2;
@@ -976,7 +976,7 @@ void __cdecl data::RoguelikeCursePoolExcelConfig::~RoguelikeCursePoolExcelConfig
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCursePoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCursePoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCursePoolExcelConfig = v2;
@@ -1001,7 +1001,7 @@ void __cdecl data::RoguelikeCardExcelConfig::RoguelikeCardExcelConfig(data::Rogu
   __int64 v6; // rsi
   __int64 v7; // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCardExcelConfig = v2;
@@ -1097,7 +1097,7 @@ void __cdecl data::RoguelikeCardExcelConfig::RoguelikeCardExcelConfig(
   const data::RoguelikeCardExcelConfig *v28; // [rsp+0h] [rbp-20h]
 
   v28 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeCardExcelConfig = v2;
@@ -1228,7 +1228,7 @@ void __cdecl data::RoguelikeCardExcelConfig::~RoguelikeCardExcelConfig(data::Rog
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCardExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCardExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCardExcelConfig = v2;
@@ -1268,7 +1268,7 @@ void __cdecl data::RoguelikeCardPoolExcelConfig::RoguelikeCardPoolExcelConfig(
   const data::RoguelikeCardPoolExcelConfig *v18; // [rsp+0h] [rbp-10h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCardPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCardPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeCardPoolExcelConfig = v2;
@@ -1370,7 +1370,7 @@ void __cdecl data::RoguelikeCardPoolExcelConfig::~RoguelikeCardPoolExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeCardPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeCardPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeCardPoolExcelConfig = v2;
@@ -1391,7 +1391,7 @@ void __cdecl data::RoguelikeDungeonWeightExcelConfig::RoguelikeDungeonWeightExce
   __int64 v9; // rsi
   __int64 v10; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeDungeonWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeDungeonWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeDungeonWeightExcelConfig = v2;
@@ -1589,7 +1589,7 @@ void __cdecl data::RoguelikeDungeonWeightExcelConfig::RoguelikeDungeonWeightExce
   const data::RoguelikeDungeonWeightExcelConfig *v53; // [rsp+0h] [rbp-20h]
 
   v53 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeDungeonWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeDungeonWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeDungeonWeightExcelConfig = v2;
@@ -1874,7 +1874,7 @@ void __cdecl data::RoguelikeDungeonWeightExcelConfig::~RoguelikeDungeonWeightExc
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeDungeonWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeDungeonWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeDungeonWeightExcelConfig = v2;
@@ -1907,7 +1907,7 @@ void __cdecl data::RogueDungeonCellExcelConfig::RogueDungeonCellExcelConfig(
   __int64 v5; // rsi
   __int64 v6; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDungeonCellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDungeonCellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDungeonCellExcelConfig = v2;
@@ -2008,7 +2008,7 @@ void __cdecl data::RogueDungeonCellExcelConfig::RogueDungeonCellExcelConfig(
   const data::RogueDungeonCellExcelConfig *v25; // [rsp+0h] [rbp-20h]
 
   v25 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueDungeonCellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDungeonCellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueDungeonCellExcelConfig = v2;
@@ -2159,7 +2159,7 @@ void __cdecl data::RogueDungeonCellExcelConfig::~RogueDungeonCellExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueDungeonCellExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueDungeonCellExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueDungeonCellExcelConfig = v2;
@@ -2187,7 +2187,7 @@ void __cdecl data::RogueCellWeightExcelConfig::RogueCellWeightExcelConfig(
   const data::RogueCellWeightExcelConfig *v13; // [rsp+0h] [rbp-10h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueCellWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueCellWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueCellWeightExcelConfig = v2;
@@ -2262,7 +2262,7 @@ void __cdecl data::RogueCellWeightExcelConfig::~RogueCellWeightExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueCellWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueCellWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueCellWeightExcelConfig = v2;
@@ -2274,7 +2274,7 @@ void __cdecl data::RogueSequenceCellConfig::RogueSequenceCellConfig(data::RogueS
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceCellConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceCellConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueSequenceCellConfig = v2;
@@ -2298,7 +2298,7 @@ void __cdecl data::RogueSequenceCellConfig::RogueSequenceCellConfig(
   const data::RogueSequenceCellConfig *v5; // [rsp+0h] [rbp-10h]
 
   v5 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceCellConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceCellConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueSequenceCellConfig = v2;
@@ -2324,7 +2324,7 @@ void __cdecl data::RogueSequenceCellConfig::~RogueSequenceCellConfig(data::Rogue
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceCellConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceCellConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueSequenceCellConfig = v2;
@@ -2345,7 +2345,7 @@ void __cdecl data::RogueSequenceExcelConfig::RogueSequenceExcelConfig(data::Rogu
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueSequenceExcelConfig = v2;
@@ -2389,7 +2389,7 @@ void __cdecl data::RogueSequenceExcelConfig::RogueSequenceExcelConfig(
   const data::RogueSequenceExcelConfig *v10; // [rsp+0h] [rbp-20h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueSequenceExcelConfig = v2;
@@ -2444,7 +2444,7 @@ void __cdecl data::RogueSequenceExcelConfig::~RogueSequenceExcelConfig(data::Rog
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueSequenceExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueSequenceExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueSequenceExcelConfig = v2;
@@ -2466,7 +2466,7 @@ void __cdecl data::RogueGadgetStateConfig::RogueGadgetStateConfig(data::RogueGad
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetStateConfig = v2;
@@ -2498,7 +2498,7 @@ void __cdecl data::RogueGadgetStateConfig::RogueGadgetStateConfig(
   const data::RogueGadgetStateConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueGadgetStateConfig = v2;
@@ -2544,7 +2544,7 @@ void __cdecl data::RogueGadgetStateConfig::~RogueGadgetStateConfig(data::RogueGa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetStateConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetStateConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetStateConfig = v2;
@@ -2557,7 +2557,7 @@ void __cdecl data::RogueGadgetExcelConfig::RogueGadgetExcelConfig(data::RogueGad
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetExcelConfig = v2;
@@ -2599,7 +2599,7 @@ void __cdecl data::RogueGadgetExcelConfig::RogueGadgetExcelConfig(
   const data::RogueGadgetExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueGadgetExcelConfig = v2;
@@ -2652,7 +2652,7 @@ void __cdecl data::RogueGadgetExcelConfig::~RogueGadgetExcelConfig(data::RogueGa
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetExcelConfig = v2;
@@ -2682,7 +2682,7 @@ void __cdecl data::RogueGadgetRotConfig::RogueGadgetRotConfig(
   const data::RogueGadgetRotConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetRotConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetRotConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueGadgetRotConfig = v2;
@@ -2741,7 +2741,7 @@ void __cdecl data::RogueGadgetRotConfig::~RogueGadgetRotConfig(data::RogueGadget
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetRotConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetRotConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetRotConfig = v2;
@@ -2755,7 +2755,7 @@ void __cdecl data::RogueMonsterPoolExcelConfig::RogueMonsterPoolExcelConfig(
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueMonsterPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueMonsterPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueMonsterPoolExcelConfig = v2;
@@ -2797,7 +2797,7 @@ void __cdecl data::RogueMonsterPoolExcelConfig::RogueMonsterPoolExcelConfig(
   const data::RogueMonsterPoolExcelConfig *v10; // [rsp+0h] [rbp-10h]
 
   v10 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueMonsterPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueMonsterPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueMonsterPoolExcelConfig = v2;
@@ -2851,7 +2851,7 @@ void __cdecl data::RogueMonsterPoolExcelConfig::~RogueMonsterPoolExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueMonsterPoolExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueMonsterPoolExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueMonsterPoolExcelConfig = v2;
@@ -2873,7 +2873,7 @@ void __cdecl data::RoguelikeTeamAbilityGroupExcelConfig::RoguelikeTeamAbilityGro
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeTeamAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeTeamAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeTeamAbilityGroupExcelConfig = v2;
@@ -2903,7 +2903,7 @@ void __cdecl data::RoguelikeTeamAbilityGroupExcelConfig::RoguelikeTeamAbilityGro
   const data::RoguelikeTeamAbilityGroupExcelConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeTeamAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeTeamAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RoguelikeTeamAbilityGroupExcelConfig = v2;
@@ -2949,7 +2949,7 @@ void __cdecl data::RoguelikeTeamAbilityGroupExcelConfig::~RoguelikeTeamAbilityGr
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RoguelikeTeamAbilityGroupExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RoguelikeTeamAbilityGroupExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RoguelikeTeamAbilityGroupExcelConfig = v2;
@@ -2963,7 +2963,7 @@ void __cdecl data::RogueTokenExcelConfig::RogueTokenExcelConfig(data::RogueToken
   int (**v2)(...); // rdx
   __int64 v3; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueTokenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueTokenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueTokenExcelConfig = v2;
@@ -3016,7 +3016,7 @@ void __cdecl data::RogueTokenExcelConfig::RogueTokenExcelConfig(
   const data::RogueTokenExcelConfig *v13; // [rsp+0h] [rbp-20h]
 
   v13 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueTokenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueTokenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueTokenExcelConfig = v2;
@@ -3092,7 +3092,7 @@ void __cdecl data::RogueTokenExcelConfig::~RogueTokenExcelConfig(data::RogueToke
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueTokenExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueTokenExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueTokenExcelConfig = v2;
@@ -3107,7 +3107,7 @@ void __cdecl data::RogueGadgetWidgetConfig::RogueGadgetWidgetConfig(data::RogueG
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWidgetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWidgetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetWidgetConfig = v2;
@@ -3139,7 +3139,7 @@ void __cdecl data::RogueGadgetWidgetConfig::RogueGadgetWidgetConfig(
   const data::RogueGadgetWidgetConfig *v8; // [rsp+0h] [rbp-10h]
 
   v8 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWidgetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWidgetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueGadgetWidgetConfig = v2;
@@ -3185,7 +3185,7 @@ void __cdecl data::RogueGadgetWidgetConfig::~RogueGadgetWidgetConfig(data::Rogue
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWidgetConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWidgetConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetWidgetConfig = v2;
@@ -3200,7 +3200,7 @@ void __cdecl data::RogueGadgetWeightExcelConfig::RogueGadgetWeightExcelConfig(
   __int64 v3; // rsi
   __int64 v4; // rsi
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetWeightExcelConfig = v2;
@@ -3272,7 +3272,7 @@ void __cdecl data::RogueGadgetWeightExcelConfig::RogueGadgetWeightExcelConfig(
   const data::RogueGadgetWeightExcelConfig *v18; // [rsp+0h] [rbp-20h]
 
   v18 = a2;
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, a2);
   this->_vptr_RogueGadgetWeightExcelConfig = v2;
@@ -3370,7 +3370,7 @@ void __cdecl data::RogueGadgetWeightExcelConfig::~RogueGadgetWeightExcelConfig(
   __int64 v1; // rsi
   int (**v2)(...); // rdx
 
-  v2 = (int (**)(...))(&`vtable for'data::RogueGadgetWeightExcelConfig + 2);
+  v2 = (int (**)(...))(&`vtable for data::RogueGadgetWeightExcelConfig + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8(this, v1);
   this->_vptr_RogueGadgetWeightExcelConfig = v2;

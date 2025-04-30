@@ -7,7 +7,7 @@ void __cdecl boost::asio::detail::timer_queue<boost::asio::time_traits<boost::po
   int (**v1)(...); // rdx
 
   boost::asio::detail::timer_queue_base::timer_queue_base(this);
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue<boost::asio::time_traits<boost::posix_time::ptime>>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue<boost::asio::time_traits<boost::posix_time::ptime>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();
@@ -21,7 +21,7 @@ void __cdecl boost::asio::detail::timer_queue<boost::asio::time_traits<boost::po
 {
   int (**v1)(...); // rdx
 
-  v1 = (int (**)(...))(&`vtable for'boost::asio::detail::timer_queue<boost::asio::time_traits<boost::posix_time::ptime>>
+  v1 = (int (**)(...))(&`vtable for boost::asio::detail::timer_queue<boost::asio::time_traits<boost::posix_time::ptime>>
                      + 2);
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
     __asan_report_store8();

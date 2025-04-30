@@ -57,7 +57,7 @@ LABEL_9:
     __asan_report_store8(v5);
     goto LABEL_11;
   }
-  *(_QWORD *)v5 = &`vtable for'std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<int (PacketLogMgr::*)(void) ()(PacketLogMgr*)>>>>
+  *(_QWORD *)v5 = &`vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<std::_Bind<int (PacketLogMgr::*)(void) ()(PacketLogMgr*)>>>>
                 + 2;
   v6 = v5 + 8;
   if ( *(_WORD *)(((v5 + 8) >> 3) + 0x7FFF8000) )

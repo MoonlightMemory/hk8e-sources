@@ -303,8 +303,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 352) = s;
   if ( *(_QWORD *)(v2 + 352) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -398,7 +398,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BlossomRefreshType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::BlossomRefreshType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::BlossomRefreshType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRefreshType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BlossomRefreshType &)::m,
@@ -701,8 +701,8 @@ const std::unordered_map<std::string,data::BlossomRefreshType> *__cdecl data::ge
   v3[536862747] = -202116109;
   v3[536862748] = -202116109;
   v3[536862749] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -803,7 +803,7 @@ const std::unordered_map<std::string,data::BlossomRefreshType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::BlossomRefreshType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::BlossomRefreshType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::BlossomRefreshType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRefreshType>::~unordered_map,
       &data::getBlossomRefreshTypeNameMap[abi:cxx11](void)::m,
@@ -928,8 +928,8 @@ const std::map<data::BlossomRefreshType,std::pair<std::string,std::string >> *__
   v3[536862798] = -202116109;
   v3[536862799] = -202116109;
   v3[536862800] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1080,7 +1080,7 @@ const std::map<data::BlossomRefreshType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::BlossomRefreshType,std::pair<std::string,std::string > > >)__PAIR128__(13LL, v1 + 1520),
       (const std::less<data::BlossomRefreshType> *)(v1 + 32),
       (const std::map<data::BlossomRefreshType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BlossomRefreshType,std::pair<std::string,std::string>>::~map,
       &data::getBlossomRefreshTypeEnumMap[abi:cxx11](void)::m,
@@ -1471,8 +1471,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BlossomShowType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BlossomShowType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BlossomShowType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BlossomShowType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1510,7 +1510,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BlossomShowType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::BlossomShowType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::BlossomShowType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BlossomShowType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BlossomShowType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomShowType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BlossomShowType &)::m,
@@ -1803,8 +1803,8 @@ const std::unordered_map<std::string,data::BlossomShowType> *__cdecl data::getBl
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomShowTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomShowTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomShowTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomShowTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1842,7 +1842,7 @@ const std::unordered_map<std::string,data::BlossomShowType> *__cdecl data::getBl
       (const std::unordered_map<std::string,data::BlossomShowType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::BlossomShowType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::BlossomShowType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getBlossomShowTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomShowTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomShowType>::~unordered_map,
       &data::getBlossomShowTypeNameMap[abi:cxx11](void)::m,
@@ -1916,8 +1916,8 @@ const std::map<data::BlossomShowType,std::pair<std::string,std::string >> *__cde
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1969,7 +1969,7 @@ const std::map<data::BlossomShowType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::BlossomShowType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::BlossomShowType> *)(v1 + 32),
       (const std::map<data::BlossomShowType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BlossomShowType,std::pair<std::string,std::string>>::~map,
       &data::getBlossomShowTypeEnumMap[abi:cxx11](void)::m,
@@ -2333,8 +2333,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BlossomRewardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRewardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BlossomRewardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BlossomRewardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2358,7 +2358,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BlossomRewardType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::BlossomRewardType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::BlossomRewardType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRewardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BlossomRewardType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRewardType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BlossomRewardType &)::m,
@@ -2641,8 +2641,8 @@ const std::unordered_map<std::string,data::BlossomRewardType> *__cdecl data::get
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2666,7 +2666,7 @@ const std::unordered_map<std::string,data::BlossomRewardType> *__cdecl data::get
       (const std::unordered_map<std::string,data::BlossomRewardType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::BlossomRewardType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::BlossomRewardType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRewardType>::~unordered_map,
       &data::getBlossomRewardTypeNameMap[abi:cxx11](void)::m,
@@ -2736,8 +2736,8 @@ const std::map<data::BlossomRewardType,std::pair<std::string,std::string >> *__c
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2767,7 +2767,7 @@ const std::map<data::BlossomRewardType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::BlossomRewardType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::BlossomRewardType> *)(v1 + 48),
       (const std::map<data::BlossomRewardType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BlossomRewardType,std::pair<std::string,std::string>>::~map,
       &data::getBlossomRewardTypeEnumMap[abi:cxx11](void)::m,
@@ -3123,8 +3123,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BlossomChestShowType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BlossomChestShowType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BlossomChestShowType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BlossomChestShowType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -3148,7 +3148,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BlossomChestShowType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::BlossomChestShowType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::BlossomChestShowType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BlossomChestShowType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BlossomChestShowType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomChestShowType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BlossomChestShowType &)::m,
@@ -3431,8 +3431,8 @@ const std::unordered_map<std::string,data::BlossomChestShowType> *__cdecl data::
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3456,7 +3456,7 @@ const std::unordered_map<std::string,data::BlossomChestShowType> *__cdecl data::
       (const std::unordered_map<std::string,data::BlossomChestShowType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::BlossomChestShowType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::BlossomChestShowType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomChestShowType>::~unordered_map,
       &data::getBlossomChestShowTypeNameMap[abi:cxx11](void)::m,
@@ -3526,8 +3526,8 @@ const std::map<data::BlossomChestShowType,std::pair<std::string,std::string >> *
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3557,7 +3557,7 @@ const std::map<data::BlossomChestShowType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::BlossomChestShowType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::BlossomChestShowType> *)(v1 + 48),
       (const std::map<data::BlossomChestShowType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BlossomChestShowType,std::pair<std::string,std::string>>::~map,
       &data::getBlossomChestShowTypeEnumMap[abi:cxx11](void)::m,
@@ -3916,8 +3916,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 272) = s;
   if ( *(_QWORD *)(v2 + 272) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -3969,7 +3969,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BlossomRefreshCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::BlossomRefreshCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::BlossomRefreshCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRefreshCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BlossomRefreshCondType &)::m,
@@ -4267,8 +4267,8 @@ const std::unordered_map<std::string,data::BlossomRefreshCondType> *__cdecl data
   v3[536862734] = -218103808;
   v3[536862735] = -202116109;
   v3[536862736] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4327,7 +4327,7 @@ const std::unordered_map<std::string,data::BlossomRefreshCondType> *__cdecl data
       (const std::unordered_map<std::string,data::BlossomRefreshCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::BlossomRefreshCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::BlossomRefreshCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BlossomRefreshCondType>::~unordered_map,
       &data::getBlossomRefreshCondTypeNameMap[abi:cxx11](void)::m,
@@ -4418,8 +4418,8 @@ const std::map<data::BlossomRefreshCondType,std::pair<std::string,std::string >>
   v3[536862762] = -218103808;
   v3[536862763] = -202116109;
   v3[536862764] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4504,7 +4504,7 @@ const std::map<data::BlossomRefreshCondType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::BlossomRefreshCondType,std::pair<std::string,std::string > > >)__PAIR128__(7LL, v1 + 864),
       (const std::less<data::BlossomRefreshCondType> *)(v1 + 48),
       (const std::map<data::BlossomRefreshCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BlossomRefreshCondType,std::pair<std::string,std::string>>::~map,
       &data::getBlossomRefreshCondTypeEnumMap[abi:cxx11](void)::m,

@@ -228,11 +228,11 @@ const std::set<unsigned int> *__fastcall GCGSkillTriggerVarMgr::getCharacterBein
   v4[536862721] = -234556943;
   v4[536862722] = -202116352;
   *(_DWORD *)(v2 + 48) = card_guid;
-  if ( !(_BYTE)`guard variable for'GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set) )
   {
     std::set<unsigned int>::set((std::set<unsigned int> *const)&GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)::empty_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,
       (void *)&GCGSkillTriggerVarMgr::getCharacterBeingHurtDamageElementTypeSet(unsigned int)const::empty_set,

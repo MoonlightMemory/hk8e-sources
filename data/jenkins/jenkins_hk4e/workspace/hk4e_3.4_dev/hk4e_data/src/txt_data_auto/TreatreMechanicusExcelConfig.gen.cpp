@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MechanicusCardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MechanicusCardType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::MechanicusCardType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::MechanicusCardType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MechanicusCardType &)::m,
@@ -619,8 +619,8 @@ const std::unordered_map<std::string,data::MechanicusCardType> *__cdecl data::ge
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::MechanicusCardType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::MechanicusCardType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::MechanicusCardType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::MechanicusCardType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardType>::~unordered_map,
       &data::getMechanicusCardTypeNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::MechanicusCardType,std::pair<std::string,std::string >> *__
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::MechanicusCardType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::MechanicusCardType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::MechanicusCardType> *)(v1 + 32),
       (const std::map<data::MechanicusCardType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MechanicusCardType,std::pair<std::string,std::string>>::~map,
       &data::getMechanicusCardTypeEnumMap[abi:cxx11](void)::m,
@@ -1144,8 +1144,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1176,7 +1176,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MechanicusCardTargetType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::MechanicusCardTargetType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::MechanicusCardTargetType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardTargetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MechanicusCardTargetType &)::m,
@@ -1465,8 +1465,8 @@ const std::unordered_map<std::string,data::MechanicusCardTargetType> *__cdecl da
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1497,7 +1497,7 @@ const std::unordered_map<std::string,data::MechanicusCardTargetType> *__cdecl da
       (const std::unordered_map<std::string,data::MechanicusCardTargetType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::MechanicusCardTargetType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::MechanicusCardTargetType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardTargetType>::~unordered_map,
       &data::getMechanicusCardTargetTypeNameMap[abi:cxx11](void)::m,
@@ -1569,8 +1569,8 @@ const std::map<data::MechanicusCardTargetType,std::pair<std::string,std::string 
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1611,7 +1611,7 @@ const std::map<data::MechanicusCardTargetType,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::MechanicusCardTargetType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::MechanicusCardTargetType> *)(v1 + 48),
       (const std::map<data::MechanicusCardTargetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MechanicusCardTargetType,std::pair<std::string,std::string>>::~map,
       &data::getMechanicusCardTargetTypeEnumMap[abi:cxx11](void)::m,
@@ -1986,8 +1986,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 400) = s;
   if ( *(_QWORD *)(v2 + 400) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2095,7 +2095,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MechanicusCardEffectType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::MechanicusCardEffectType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::MechanicusCardEffectType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardEffectType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MechanicusCardEffectType &)::m,
@@ -2388,8 +2388,8 @@ const std::unordered_map<std::string,data::MechanicusCardEffectType> *__cdecl da
   v3[536862748] = -202116109;
   v3[536862749] = -202116109;
   v3[536862750] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2497,7 +2497,7 @@ const std::unordered_map<std::string,data::MechanicusCardEffectType> *__cdecl da
       (const std::unordered_map<std::string,data::MechanicusCardEffectType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::MechanicusCardEffectType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::MechanicusCardEffectType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MechanicusCardEffectType>::~unordered_map,
       &data::getMechanicusCardEffectTypeNameMap[abi:cxx11](void)::m,
@@ -2626,8 +2626,8 @@ const std::map<data::MechanicusCardEffectType,std::pair<std::string,std::string 
   v3[536862804] = -202116109;
   v3[536862805] = -202116109;
   v3[536862806] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2789,7 +2789,7 @@ const std::map<data::MechanicusCardEffectType,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::MechanicusCardEffectType,std::pair<std::string,std::string > > >)__PAIR128__(14LL, v1 + 1648),
       (const std::less<data::MechanicusCardEffectType> *)(v1 + 48),
       (const std::map<data::MechanicusCardEffectType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MechanicusCardEffectType,std::pair<std::string,std::string>>::~map,
       &data::getMechanicusCardEffectTypeEnumMap[abi:cxx11](void)::m,

@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::InvestigationType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::InvestigationType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::InvestigationType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -336,7 +336,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::InvestigationType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::InvestigationType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::InvestigationType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::InvestigationType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationType>::~unordered_map,
         &data::enumStrToVal(char const*,data::InvestigationType &)::m,
@@ -629,8 +629,8 @@ const std::unordered_map<std::string,data::InvestigationType> *__cdecl data::get
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -668,7 +668,7 @@ const std::unordered_map<std::string,data::InvestigationType> *__cdecl data::get
       (const std::unordered_map<std::string,data::InvestigationType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::InvestigationType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::InvestigationType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationType>::~unordered_map,
       &data::getInvestigationTypeNameMap[abi:cxx11](void)::m,
@@ -742,8 +742,8 @@ const std::map<data::InvestigationType,std::pair<std::string,std::string >> *__c
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -795,7 +795,7 @@ const std::map<data::InvestigationType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::InvestigationType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::InvestigationType> *)(v1 + 32),
       (const std::map<data::InvestigationType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::InvestigationType,std::pair<std::string,std::string>>::~map,
       &data::getInvestigationTypeEnumMap[abi:cxx11](void)::m,
@@ -1152,8 +1152,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1184,7 +1184,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::~unordered_map,
         &data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateType &)::m,
@@ -1469,8 +1469,8 @@ const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1501,7 +1501,7 @@ const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateType>::~unordered_map,
       &data::getInvestigationMonsterMapMarkCreateTypeNameMap[abi:cxx11](void)::m,
@@ -1573,8 +1573,8 @@ const std::map<data::InvestigationMonsterMapMarkCreateType,std::pair<std::string
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1615,7 +1615,7 @@ const std::map<data::InvestigationMonsterMapMarkCreateType,std::pair<std::string
       (std::initializer_list<std::pair<const data::InvestigationMonsterMapMarkCreateType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::InvestigationMonsterMapMarkCreateType> *)(v1 + 48),
       (const std::map<data::InvestigationMonsterMapMarkCreateType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::InvestigationMonsterMapMarkCreateType,std::pair<std::string,std::string>>::~map,
       &data::getInvestigationMonsterMapMarkCreateTypeEnumMap[abi:cxx11](void)::m,
@@ -1982,8 +1982,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MonsterCategory &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MonsterCategory &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MonsterCategory &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MonsterCategory &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2028,7 +2028,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MonsterCategory>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::MonsterCategory>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::MonsterCategory>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MonsterCategory &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MonsterCategory &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MonsterCategory>::~unordered_map,
         &data::enumStrToVal(char const*,data::MonsterCategory &)::m,
@@ -2323,8 +2323,8 @@ const std::unordered_map<std::string,data::MonsterCategory> *__cdecl data::getMo
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMonsterCategoryNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMonsterCategoryNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMonsterCategoryNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMonsterCategoryNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2369,7 +2369,7 @@ const std::unordered_map<std::string,data::MonsterCategory> *__cdecl data::getMo
       (const std::unordered_map<std::string,data::MonsterCategory>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::MonsterCategory>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::MonsterCategory>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getMonsterCategoryNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMonsterCategoryNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MonsterCategory>::~unordered_map,
       &data::getMonsterCategoryNameMap[abi:cxx11](void)::m,
@@ -2455,8 +2455,8 @@ const std::map<data::MonsterCategory,std::pair<std::string,std::string >> *__cde
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMonsterCategoryEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMonsterCategoryEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMonsterCategoryEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMonsterCategoryEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2519,7 +2519,7 @@ const std::map<data::MonsterCategory,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::MonsterCategory,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::MonsterCategory> *)(v1 + 32),
       (const std::map<data::MonsterCategory,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getMonsterCategoryEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMonsterCategoryEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MonsterCategory,std::pair<std::string,std::string>>::~map,
       &data::getMonsterCategoryEnumMap[abi:cxx11](void)::m,
@@ -2873,8 +2873,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2891,7 +2891,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::InvestigationMonsterMapMarkCreateConditionType &)::m,
@@ -3166,8 +3166,8 @@ const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateCond
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3191,7 +3191,7 @@ const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateCond
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::InvestigationMonsterMapMarkCreateConditionType>::~unordered_map,
       &data::getInvestigationMonsterMapMarkCreateConditionTypeNameMap[abi:cxx11](void)::m,
@@ -3261,8 +3261,8 @@ const std::map<data::InvestigationMonsterMapMarkCreateConditionType,std::pair<st
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3292,7 +3292,7 @@ const std::map<data::InvestigationMonsterMapMarkCreateConditionType,std::pair<st
       (std::initializer_list<std::pair<const data::InvestigationMonsterMapMarkCreateConditionType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::InvestigationMonsterMapMarkCreateConditionType> *)(v1 + 48),
       (const std::map<data::InvestigationMonsterMapMarkCreateConditionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::InvestigationMonsterMapMarkCreateConditionType,std::pair<std::string,std::string>>::~map,
       &data::getInvestigationMonsterMapMarkCreateConditionTypeEnumMap[abi:cxx11](void)::m,

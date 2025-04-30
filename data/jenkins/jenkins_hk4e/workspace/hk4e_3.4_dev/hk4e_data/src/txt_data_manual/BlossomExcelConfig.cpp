@@ -4662,26 +4662,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         (void *)&ActivityVintageMarketExcelConfigMgr::STORE_ID_SET,
         &_dso_handle);
-      v16 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v17 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v16 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v17 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v18) = v17 != 0;
-      v19 = (v17 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v17);
+      v19 = (v17 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v17);
       if ( (_BYTE)v19 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v18,
           v19);
       if ( !*v16 )
       {
-        v20 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v21 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v20 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v21 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v18) = v21 != 0;
-        v22 = (v21 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v21);
+        v22 = (v21 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v21);
         if ( (_BYTE)v22 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v18,
             v22);
         *v20 = 1;

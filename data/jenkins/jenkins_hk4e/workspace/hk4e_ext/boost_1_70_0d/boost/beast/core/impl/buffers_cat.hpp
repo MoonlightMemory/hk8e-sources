@@ -154,12 +154,12 @@ LABEL_7:
 LABEL_8:
       boost::beast::http::chunk_crlf::begin(void)const::cb[0] = "\r\n";
       boost::beast::http::chunk_crlf::begin(void)const::cb[1] = 2LL;
-      __cxa_guard_release(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb);
+      __cxa_guard_release(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb);
       goto LABEL_9;
     }
     buf = (char *)self->it_.buf_;
-    if ( !(_BYTE)`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb
-      && __cxa_guard_acquire(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb) )
+    if ( !(_BYTE)`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb
+      && __cxa_guard_acquire(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb) )
     {
       goto LABEL_8;
     }
@@ -835,12 +835,12 @@ LABEL_37:
 LABEL_38:
       boost::beast::http::chunk_crlf::begin(void)const::cb[0] = "\r\n";
       boost::beast::http::chunk_crlf::begin(void)const::cb[1] = 2LL;
-      __cxa_guard_release(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb);
+      __cxa_guard_release(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb);
       goto LABEL_39;
     }
     size = (const boost::beast::detail::tuple_element_impl<3,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range> **)v12->size_;
-    if ( !(_BYTE)`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb
-      && __cxa_guard_acquire(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb) )
+    if ( !(_BYTE)`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb
+      && __cxa_guard_acquire(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb) )
     {
       goto LABEL_38;
     }
@@ -1051,12 +1051,12 @@ LABEL_29:
     else
     {
       v10 = (boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>::const_iterator::increment *)v13[1].self;
-      if ( !(_BYTE)`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb
-        && __cxa_guard_acquire(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb) )
+      if ( !(_BYTE)`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb
+        && __cxa_guard_acquire(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb) )
       {
         boost::beast::http::chunk_crlf::begin(void)const::cb[0] = "\r\n";
         boost::beast::http::chunk_crlf::begin(void)const::cb[1] = 2LL;
-        __cxa_guard_release(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb);
+        __cxa_guard_release(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb);
       }
     }
     if ( v10 == (boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>::const_iterator::increment *)&boost::beast::http::chunk_crlf::begin(void)const::cb[2] )
@@ -1458,12 +1458,12 @@ LABEL_29:
     else
     {
       v10 = (boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>::const_iterator::increment *)v13[1].self;
-      if ( !(_BYTE)`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb
-        && __cxa_guard_acquire(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb) )
+      if ( !(_BYTE)`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb
+        && __cxa_guard_acquire(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb) )
       {
         boost::beast::http::chunk_crlf::begin(void)const::cb[0] = "\r\n";
         boost::beast::http::chunk_crlf::begin(void)const::cb[1] = 2LL;
-        __cxa_guard_release(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb);
+        __cxa_guard_release(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb);
       }
     }
     if ( v10 == (boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf>::const_iterator::increment *)&boost::beast::http::chunk_crlf::begin(void)const::cb[2] )
@@ -1576,12 +1576,12 @@ LABEL_7:
 LABEL_8:
       boost::beast::http::chunk_crlf::begin(void)const::cb[0] = "\r\n";
       boost::beast::http::chunk_crlf::begin(void)const::cb[1] = 2LL;
-      __cxa_guard_release(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb);
+      __cxa_guard_release(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb);
       goto LABEL_9;
     }
     v2 = *(_QWORD **)self->it_.buf_.__data;
-    if ( !(_BYTE)`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb
-      && __cxa_guard_acquire(&`guard variable for'boost::beast::http::chunk_crlf::begin(void)::cb) )
+    if ( !(_BYTE)`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb
+      && __cxa_guard_acquire(&`guard variable for boost::beast::http::chunk_crlf::begin(void)::cb) )
     {
       goto LABEL_8;
     }

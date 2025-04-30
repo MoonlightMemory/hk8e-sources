@@ -15311,21 +15311,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
       std::error_code::error_code((std::error_code *const)&opentracing::v3::key_not_found_error, 4, v5);
       v6 = (const std::_V2::error_category *)opentracing::v3::propagation_error_category((opentracing::v3 *)&opentracing::v3::key_not_found_error);
       std::error_code::error_code((std::error_code *const)&opentracing::v3::lookup_key_not_supported_error, 5, v6);
-      v7 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v7 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v7 )
       {
-        v8 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v8 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+          __asan_report_store1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
         }
         *v8 = 1;
         v9 = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits + 9;

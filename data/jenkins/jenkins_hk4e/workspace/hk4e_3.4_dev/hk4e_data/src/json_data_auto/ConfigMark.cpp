@@ -252,8 +252,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -471,7 +471,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkType> >)__PAIR128__(30LL, v2 + 752),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MarkType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkType>::~map,
         &data::enumStrToVal(std::string const&,data::MarkType &)::m,
@@ -1688,8 +1688,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkIconType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkIconType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkIconType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkIconType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkIconType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -3251,7 +3251,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkIconType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkIconType> >)__PAIR128__(222LL, v2 + 3824),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MarkIconType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkIconType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkIconType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkIconType>::~map,
         &data::enumStrToVal(std::string const&,data::MarkIconType &)::m,
@@ -4568,8 +4568,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkOrder *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkOrder &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkOrder &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkOrder &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkOrder &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -4794,7 +4794,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkOrder *e)
         (std::initializer_list<std::pair<const std::string,data::MarkOrder> >)__PAIR128__(31LL, v2 + 768),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MarkOrder>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkOrder &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkOrder &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkOrder>::~map,
         &data::enumStrToVal(std::string const&,data::MarkOrder &)::m,
@@ -5208,8 +5208,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkVisibleType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -5252,7 +5252,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkVisibleType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkVisibleType> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::MarkVisibleType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m);
       e = (data::MarkVisibleType *)&data::enumStrToVal(std::string const&,data::MarkVisibleType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkVisibleType>::~map,
@@ -5556,8 +5556,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkViewType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkViewType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkViewType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkViewType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkViewType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -5621,7 +5621,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkViewType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkViewType> >)__PAIR128__(8LL, v2 + 384),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::MarkViewType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkViewType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkViewType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkViewType>::~map,
         &data::enumStrToVal(std::string const&,data::MarkViewType &)::m,
@@ -5930,8 +5930,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkCustomType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkCustomType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkCustomType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkCustomType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkCustomType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -5960,7 +5960,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkCustomType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkCustomType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MarkCustomType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkCustomType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkCustomType &)::m);
       e = (data::MarkCustomType *)&data::enumStrToVal(std::string const&,data::MarkCustomType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkCustomType>::~map,
@@ -6237,8 +6237,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkLayerType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkLayerType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkLayerType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkLayerType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkLayerType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -6267,7 +6267,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkLayerType *e)
         (std::initializer_list<std::pair<const std::string,data::MarkLayerType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MarkLayerType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkLayerType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkLayerType &)::m);
       e = (data::MarkLayerType *)&data::enumStrToVal(std::string const&,data::MarkLayerType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkLayerType>::~map,
@@ -9822,8 +9822,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkVisibilityType *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -9859,7 +9859,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkVisibilityType *
         (std::initializer_list<std::pair<const std::string,data::MarkVisibilityType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::MarkVisibilityType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m);
       e = (data::MarkVisibilityType *)&data::enumStrToVal(std::string const&,data::MarkVisibilityType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkVisibilityType>::~map,
@@ -10144,8 +10144,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkPluginIconType *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -10181,7 +10181,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MarkPluginIconType *
         (std::initializer_list<std::pair<const std::string,data::MarkPluginIconType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::MarkPluginIconType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m);
       e = (data::MarkPluginIconType *)&data::enumStrToVal(std::string const&,data::MarkPluginIconType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MarkPluginIconType>::~map,
@@ -10466,8 +10466,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::FallbackMarkTipsType
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -10496,7 +10496,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::FallbackMarkTipsType
         (std::initializer_list<std::pair<const std::string,data::FallbackMarkTipsType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::FallbackMarkTipsType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m);
       e = (data::FallbackMarkTipsType *)&data::enumStrToVal(std::string const&,data::FallbackMarkTipsType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::FallbackMarkTipsType>::~map,

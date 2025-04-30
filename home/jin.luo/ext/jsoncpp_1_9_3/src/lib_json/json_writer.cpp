@@ -3839,13 +3839,13 @@ __int64 __fastcall Json::StreamWriterBuilder::validate(Json::StreamWriterBuilder
   char v70[16]; // [rsp+130h] [rbp-48h] BYREF
   char v71; // [rsp+140h] [rbp-38h] BYREF
 
-  if ( (_BYTE)`guard variable for'Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys )
+  if ( (_BYTE)`guard variable for Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys )
   {
     v2 = &v54;
     goto LABEL_3;
   }
   v2 = &v54;
-  if ( __cxa_guard_acquire(&`guard variable for'Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys) )
+  if ( __cxa_guard_acquire(&`guard variable for Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys) )
   {
     other._M_dataplus._M_p = other._anon_0._M_local_buf;
     strcpy(other._anon_0._M_local_buf, "indentation");
@@ -3969,7 +3969,7 @@ LABEL_38:
       {
         Json::StreamWriterBuilder::validate(Json::Value *)const::valid_keys = (__int64)v29;
         v38 = (Json::String *)v69;
-        __cxa_guard_release(&`guard variable for'Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys);
+        __cxa_guard_release(&`guard variable for Json::StreamWriterBuilder::validate(Json::Value *)::valid_keys);
         while ( 1 )
         {
           if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v38->_M_dataplus._M_p == &v38->_anon_0 )

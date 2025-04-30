@@ -295,8 +295,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -334,7 +334,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChannellerSlabBuffQuality &)::m,
@@ -629,8 +629,8 @@ const std::unordered_map<std::string,data::ChannellerSlabBuffQuality> *__cdecl d
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -675,7 +675,7 @@ const std::unordered_map<std::string,data::ChannellerSlabBuffQuality> *__cdecl d
       (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabBuffQuality>::~unordered_map,
       &data::getChannellerSlabBuffQualityNameMap[abi:cxx11](void)::m,
@@ -761,8 +761,8 @@ const std::map<data::ChannellerSlabBuffQuality,std::pair<std::string,std::string
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -825,7 +825,7 @@ const std::map<data::ChannellerSlabBuffQuality,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::ChannellerSlabBuffQuality,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ChannellerSlabBuffQuality> *)(v1 + 32),
       (const std::map<data::ChannellerSlabBuffQuality,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChannellerSlabBuffQuality,std::pair<std::string,std::string>>::~map,
       &data::getChannellerSlabBuffQualityEnumMap[abi:cxx11](void)::m,
@@ -1176,8 +1176,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1215,7 +1215,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabDifficulty>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChannellerSlabDifficulty &)::m,
@@ -1510,8 +1510,8 @@ const std::unordered_map<std::string,data::ChannellerSlabDifficulty> *__cdecl da
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1556,7 +1556,7 @@ const std::unordered_map<std::string,data::ChannellerSlabDifficulty> *__cdecl da
       (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChannellerSlabDifficulty>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabDifficulty>::~unordered_map,
       &data::getChannellerSlabDifficultyNameMap[abi:cxx11](void)::m,
@@ -1642,8 +1642,8 @@ const std::map<data::ChannellerSlabDifficulty,std::pair<std::string,std::string 
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1706,7 +1706,7 @@ const std::map<data::ChannellerSlabDifficulty,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::ChannellerSlabDifficulty,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ChannellerSlabDifficulty> *)(v1 + 32),
       (const std::map<data::ChannellerSlabDifficulty,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChannellerSlabDifficulty,std::pair<std::string,std::string>>::~map,
       &data::getChannellerSlabDifficultyEnumMap[abi:cxx11](void)::m,
@@ -2057,8 +2057,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2089,7 +2089,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChannellerSlabCondition>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChannellerSlabCondition>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ChannellerSlabCondition>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabCondition>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChannellerSlabCondition &)::m,
@@ -2379,8 +2379,8 @@ const std::unordered_map<std::string,data::ChannellerSlabCondition> *__cdecl dat
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2418,7 +2418,7 @@ const std::unordered_map<std::string,data::ChannellerSlabCondition> *__cdecl dat
       (const std::unordered_map<std::string,data::ChannellerSlabCondition>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChannellerSlabCondition>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChannellerSlabCondition>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChannellerSlabCondition>::~unordered_map,
       &data::getChannellerSlabConditionNameMap[abi:cxx11](void)::m,
@@ -2492,8 +2492,8 @@ const std::map<data::ChannellerSlabCondition,std::pair<std::string,std::string >
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2545,7 +2545,7 @@ const std::map<data::ChannellerSlabCondition,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::ChannellerSlabCondition,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::ChannellerSlabCondition> *)(v1 + 32),
       (const std::map<data::ChannellerSlabCondition,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChannellerSlabCondition,std::pair<std::string,std::string>>::~map,
       &data::getChannellerSlabConditionEnumMap[abi:cxx11](void)::m,

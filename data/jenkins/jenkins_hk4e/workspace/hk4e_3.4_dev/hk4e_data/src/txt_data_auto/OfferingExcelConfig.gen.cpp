@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OfferingActionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OfferingActionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OfferingActionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OfferingActionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -351,7 +351,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::OfferingActionType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::OfferingActionType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::OfferingActionType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OfferingActionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OfferingActionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OfferingActionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OfferingActionType &)::m,
@@ -645,8 +645,8 @@ const std::unordered_map<std::string,data::OfferingActionType> *__cdecl data::ge
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOfferingActionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOfferingActionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOfferingActionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOfferingActionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -698,7 +698,7 @@ const std::unordered_map<std::string,data::OfferingActionType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::OfferingActionType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OfferingActionType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OfferingActionType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOfferingActionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOfferingActionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OfferingActionType>::~unordered_map,
       &data::getOfferingActionTypeNameMap[abi:cxx11](void)::m,
@@ -789,8 +789,8 @@ const std::map<data::OfferingActionType,std::pair<std::string,std::string >> *__
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -864,7 +864,7 @@ const std::map<data::OfferingActionType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::OfferingActionType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::OfferingActionType> *)(v1 + 48),
       (const std::map<data::OfferingActionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OfferingActionType,std::pair<std::string,std::string>>::~map,
       &data::getOfferingActionTypeEnumMap[abi:cxx11](void)::m,
@@ -1223,8 +1223,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1248,7 +1248,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OfferingMaxLevelLimitType &)::m,
@@ -1533,8 +1533,8 @@ const std::unordered_map<std::string,data::OfferingMaxLevelLimitType> *__cdecl d
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1565,7 +1565,7 @@ const std::unordered_map<std::string,data::OfferingMaxLevelLimitType> *__cdecl d
       (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OfferingMaxLevelLimitType>::~unordered_map,
       &data::getOfferingMaxLevelLimitTypeNameMap[abi:cxx11](void)::m,
@@ -1637,8 +1637,8 @@ const std::map<data::OfferingMaxLevelLimitType,std::pair<std::string,std::string
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1679,7 +1679,7 @@ const std::map<data::OfferingMaxLevelLimitType,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::OfferingMaxLevelLimitType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::OfferingMaxLevelLimitType> *)(v1 + 48),
       (const std::map<data::OfferingMaxLevelLimitType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OfferingMaxLevelLimitType,std::pair<std::string,std::string>>::~map,
       &data::getOfferingMaxLevelLimitTypeEnumMap[abi:cxx11](void)::m,

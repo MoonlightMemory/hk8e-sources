@@ -2943,11 +2943,11 @@ std::unordered_set<data::ElementType> *__fastcall ActivityBrickBreakerExcelConfi
   v5[536862722] = -218959360;
   v5[536862723] = -202116352;
   *(_DWORD *)(v3 + 48) = level_id;
-  if ( !(_BYTE)`guard variable for'ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set) )
   {
     std::unordered_set<data::ElementType>::unordered_set(&ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)::empty_set);
     this = &ActivityBrickBreakerExcelConfigMgr::findBanElemSetByLevelId(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<data::ElementType>::~unordered_set,

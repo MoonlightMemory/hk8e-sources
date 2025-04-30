@@ -300,8 +300,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DraftExecType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DraftExecType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DraftExecType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DraftExecType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -360,7 +360,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DraftExecType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::DraftExecType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::DraftExecType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DraftExecType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DraftExecType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftExecType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DraftExecType &)::m,
@@ -659,8 +659,8 @@ const std::unordered_map<std::string,data::DraftExecType> *__cdecl data::getDraf
   v3[536862726] = -234556924;
   v3[536862737] = -202116109;
   v3[536862738] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftExecTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftExecTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftExecTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftExecTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -726,7 +726,7 @@ const std::unordered_map<std::string,data::DraftExecType> *__cdecl data::getDraf
       (const std::unordered_map<std::string,data::DraftExecType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::DraftExecType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::DraftExecType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getDraftExecTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftExecTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftExecType>::~unordered_map,
       &data::getDraftExecTypeNameMap[abi:cxx11](void)::m,
@@ -817,8 +817,8 @@ const std::map<data::DraftExecType,std::pair<std::string,std::string >> *__cdecl
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftExecTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftExecTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftExecTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftExecTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -914,7 +914,7 @@ const std::map<data::DraftExecType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::DraftExecType,std::pair<std::string,std::string > > >)__PAIR128__(8LL, v1 + 960),
       (const std::less<data::DraftExecType> *)(v1 + 32),
       (const std::map<data::DraftExecType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getDraftExecTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftExecTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DraftExecType,std::pair<std::string,std::string>>::~map,
       &data::getDraftExecTypeEnumMap[abi:cxx11](void)::m,
@@ -1285,8 +1285,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DraftStartLimitType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DraftStartLimitType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DraftStartLimitType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DraftStartLimitType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1310,7 +1310,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DraftStartLimitType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::DraftStartLimitType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::DraftStartLimitType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DraftStartLimitType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DraftStartLimitType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftStartLimitType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DraftStartLimitType &)::m,
@@ -1595,8 +1595,8 @@ const std::unordered_map<std::string,data::DraftStartLimitType> *__cdecl data::g
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1627,7 +1627,7 @@ const std::unordered_map<std::string,data::DraftStartLimitType> *__cdecl data::g
       (const std::unordered_map<std::string,data::DraftStartLimitType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::DraftStartLimitType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::DraftStartLimitType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftStartLimitType>::~unordered_map,
       &data::getDraftStartLimitTypeNameMap[abi:cxx11](void)::m,
@@ -1699,8 +1699,8 @@ const std::map<data::DraftStartLimitType,std::pair<std::string,std::string >> *_
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1741,7 +1741,7 @@ const std::map<data::DraftStartLimitType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::DraftStartLimitType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::DraftStartLimitType> *)(v1 + 48),
       (const std::map<data::DraftStartLimitType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DraftStartLimitType,std::pair<std::string,std::string>>::~map,
       &data::getDraftStartLimitTypeEnumMap[abi:cxx11](void)::m,
@@ -2105,8 +2105,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DraftInviteType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DraftInviteType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DraftInviteType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DraftInviteType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2130,7 +2130,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DraftInviteType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::DraftInviteType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::DraftInviteType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DraftInviteType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DraftInviteType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftInviteType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DraftInviteType &)::m,
@@ -2415,8 +2415,8 @@ const std::unordered_map<std::string,data::DraftInviteType> *__cdecl data::getDr
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftInviteTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftInviteTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftInviteTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftInviteTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2447,7 +2447,7 @@ const std::unordered_map<std::string,data::DraftInviteType> *__cdecl data::getDr
       (const std::unordered_map<std::string,data::DraftInviteType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::DraftInviteType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::DraftInviteType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftInviteTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftInviteTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftInviteType>::~unordered_map,
       &data::getDraftInviteTypeNameMap[abi:cxx11](void)::m,
@@ -2519,8 +2519,8 @@ const std::map<data::DraftInviteType,std::pair<std::string,std::string >> *__cde
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2561,7 +2561,7 @@ const std::map<data::DraftInviteType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::DraftInviteType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::DraftInviteType> *)(v1 + 48),
       (const std::map<data::DraftInviteType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DraftInviteType,std::pair<std::string,std::string>>::~map,
       &data::getDraftInviteTypeEnumMap[abi:cxx11](void)::m,
@@ -2925,8 +2925,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DraftExecSubType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DraftExecSubType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DraftExecSubType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DraftExecSubType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2943,7 +2943,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DraftExecSubType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::DraftExecSubType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::DraftExecSubType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DraftExecSubType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DraftExecSubType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftExecSubType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DraftExecSubType &)::m,
@@ -3222,8 +3222,8 @@ const std::unordered_map<std::string,data::DraftExecSubType> *__cdecl data::getD
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3247,7 +3247,7 @@ const std::unordered_map<std::string,data::DraftExecSubType> *__cdecl data::getD
       (const std::unordered_map<std::string,data::DraftExecSubType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::DraftExecSubType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::DraftExecSubType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DraftExecSubType>::~unordered_map,
       &data::getDraftExecSubTypeNameMap[abi:cxx11](void)::m,
@@ -3317,8 +3317,8 @@ const std::map<data::DraftExecSubType,std::pair<std::string,std::string >> *__cd
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3348,7 +3348,7 @@ const std::map<data::DraftExecSubType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::DraftExecSubType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::DraftExecSubType> *)(v1 + 48),
       (const std::map<data::DraftExecSubType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DraftExecSubType,std::pair<std::string,std::string>>::~map,
       &data::getDraftExecSubTypeEnumMap[abi:cxx11](void)::m,

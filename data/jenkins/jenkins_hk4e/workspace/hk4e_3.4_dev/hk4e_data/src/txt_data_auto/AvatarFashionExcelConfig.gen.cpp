@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::AvatarFashionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::AvatarFashionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::AvatarFashionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::AvatarFashionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::AvatarFashionType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::AvatarFashionType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::AvatarFashionType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::AvatarFashionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::AvatarFashionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarFashionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::AvatarFashionType &)::m,
@@ -610,8 +610,8 @@ const std::unordered_map<std::string,data::AvatarFashionType> *__cdecl data::get
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -635,7 +635,7 @@ const std::unordered_map<std::string,data::AvatarFashionType> *__cdecl data::get
       (const std::unordered_map<std::string,data::AvatarFashionType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::AvatarFashionType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::AvatarFashionType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarFashionType>::~unordered_map,
       &data::getAvatarFashionTypeNameMap[abi:cxx11](void)::m,
@@ -705,8 +705,8 @@ const std::map<data::AvatarFashionType,std::pair<std::string,std::string >> *__c
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -736,7 +736,7 @@ const std::map<data::AvatarFashionType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::AvatarFashionType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::AvatarFashionType> *)(v1 + 48),
       (const std::map<data::AvatarFashionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::AvatarFashionType,std::pair<std::string,std::string>>::~map,
       &data::getAvatarFashionTypeEnumMap[abi:cxx11](void)::m,

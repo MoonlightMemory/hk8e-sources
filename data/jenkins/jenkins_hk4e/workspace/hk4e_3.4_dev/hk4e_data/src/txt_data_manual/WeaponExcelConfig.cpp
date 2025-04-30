@@ -3036,11 +3036,11 @@ const std::vector<unsigned int> *__fastcall WeaponExcelConfigMgr::getWeaponIdsBy
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = -8;
   if ( v7 )
   {
-    if ( !(_BYTE)`guard variable for'WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec
-      && __cxa_guard_acquire(&`guard variable for'WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec) )
+    if ( !(_BYTE)`guard variable for WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec
+      && __cxa_guard_acquire(&`guard variable for WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec) )
     {
       std::vector<unsigned int>::vector(&WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)const::empty_item_vec);
-      __cxa_guard_release(&`guard variable for'WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec);
+      __cxa_guard_release(&`guard variable for WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)::empty_item_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         &WeaponExcelConfigMgr::getWeaponIdsByWeaponType(data::WeaponType)const::empty_item_vec,

@@ -149,8 +149,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreaterBornTag *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -172,7 +172,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreaterBornTag *e)
         (std::initializer_list<std::pair<const std::string,data::CreaterBornTag> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CreaterBornTag>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m);
       e = (data::CreaterBornTag *)&data::enumStrToVal(std::string const&,data::CreaterBornTag &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CreaterBornTag>::~map,
@@ -434,8 +434,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreaterDir *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CreaterDir &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CreaterDir &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CreaterDir &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CreaterDir &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -457,7 +457,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreaterDir *e)
         (std::initializer_list<std::pair<const std::string,data::CreaterDir> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CreaterDir>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CreaterDir &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CreaterDir &)::m);
       e = (data::CreaterDir *)&data::enumStrToVal(std::string const&,data::CreaterDir &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CreaterDir>::~map,

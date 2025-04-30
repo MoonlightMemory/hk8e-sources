@@ -3882,11 +3882,11 @@ GCGSkillLogic *__fastcall GCGSkillLogic::attachElement(
         __asan_report_load4(v9);
       }
       element_token = *v10;
-      if ( !(_BYTE)`guard variable for'GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set
-        && __cxa_guard_acquire(&`guard variable for'GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set) )
+      if ( !(_BYTE)`guard variable for GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set
+        && __cxa_guard_acquire(&`guard variable for GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set) )
       {
         GCGUtils::getElementSet<data::GCGTokenType>((std::set<data::GCGTokenType> *)&GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set);
-        __cxa_guard_release(&`guard variable for'GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set);
+        __cxa_guard_release(&`guard variable for GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set);
         __cxa_atexit(
           (void (__fastcall *)(void *))std::set<data::GCGTokenType>::~set,
           (void *)&GCGSkillLogic::attachElement(GCGCard &,data::GCGEffectElementType,GCGSkillUseParam const&)::token_set,
@@ -8427,8 +8427,8 @@ void __cdecl GCGSkillLogic::reviseDiceCost(
   v5[536862722] = -218959360;
   v5[536862723] = 62194;
   v5[536862725] = -202116109;
-  if ( !(_BYTE)`guard variable for'GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map
-    && __cxa_guard_acquire(&`guard variable for'GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map) )
+  if ( !(_BYTE)`guard variable for GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map
+    && __cxa_guard_acquire(&`guard variable for GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map) )
   {
     v35[0] = 11;
     v35[1] = 11;
@@ -8459,7 +8459,7 @@ void __cdecl GCGSkillLogic::reviseDiceCost(
       __l,
       &__comp,
       &__a);
-    __cxa_guard_release(&`guard variable for'GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map);
+    __cxa_guard_release(&`guard variable for GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GCGCostType,std::pair<data::GCGEffectCostType,proto::GCGDiceSideType>>::~map,
       &GCGSkillLogic::reviseDiceCost(std::map<data::GCGCostType,unsigned int> &,GCGSkillResult &)::cost_to_effect_map,

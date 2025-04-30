@@ -2200,11 +2200,11 @@ const std::vector<int> *__cdecl LuaConfigMgr::findQuestVarScriptConfig(
 {
   const ParentQuestScriptConfig *parent_quest_script_config_ptr; // [rsp+18h] [rbp-8h]
 
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec) )
   {
     std::vector<int>::vector(&LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)const::dummy_vec);
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)::dummy_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<int>::~vector,
       &LuaConfigMgr::findQuestVarScriptConfig(unsigned int,unsigned int)const::dummy_vec,
@@ -6453,8 +6453,8 @@ LABEL_139:
                             if ( v105 != 0 && v105 <= 3 )
                               __asan_report_store4(v6 + 416, v101);
                             *(_DWORD *)(v6 + 416) = v104;
-                            if ( !(_BYTE)`guard variable for'LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set
-                              && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set) )
+                            if ( !(_BYTE)`guard variable for LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set
+                              && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set) )
                             {
                               *(_BYTE *)(((v6 + 784) >> 3) + 0x7FFF8000) = 0;
                               if ( *(_BYTE *)(((v6 + 784) >> 3) + 0x7FFF8000) != 0
@@ -6479,7 +6479,7 @@ LABEL_139:
                                 __la,
                                 (const std::less<data::EventType> *)(v6 + 288),
                                 (const std::set<data::EventType>::allocator_type *)(v6 + 304));
-                              __cxa_guard_release(&`guard variable for'LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set);
+                              __cxa_guard_release(&`guard variable for LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set);
                               v101 = &LuaConfigMgr::loadGroupInfoScriptConfig(luabind::adl::object const&,GroupInfoScriptConfig &,unsigned int,unsigned int)::enable_register_event_type_set;
                               __cxa_atexit(
                                 (void (__fastcall *)(void *))std::set<data::EventType>::~set,
@@ -12235,11 +12235,11 @@ const std::unordered_set<unsigned int> *__fastcall LuaConfigMgr::getGroupIdSetBy
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)event_type;
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)const::empty_set);
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)::empty_set);
     event_type = &LuaConfigMgr::getGroupIdSetByRegisterEventType(data::EventType)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -12306,11 +12306,11 @@ const std::unordered_set<unsigned int> *__fastcall LuaConfigMgr::getEventChainLe
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)chain_id;
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)::empty_set);
     chain_id = &LuaConfigMgr::getEventChainLevelChangeGroupSet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -17071,11 +17071,11 @@ const std::unordered_set<unsigned int> *__fastcall LuaConfigMgr::queryGroupRepla
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)group_id;
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&LuaConfigMgr::queryGroupReplaceSet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::queryGroupReplaceSet(unsigned int)::empty_set);
     group_id = &LuaConfigMgr::queryGroupReplaceSet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -17142,11 +17142,11 @@ const std::unordered_set<unsigned int> *__fastcall LuaConfigMgr::queryGroupRepla
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)group_id;
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&LuaConfigMgr::queryGroupReplacedBySet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::queryGroupReplacedBySet(unsigned int)::empty_set);
     group_id = &LuaConfigMgr::queryGroupReplacedBySet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -20650,8 +20650,8 @@ const std::set<data::EventType> *__cdecl LuaConfigMgr::getValidDungeonBroadcastE
   v4[536862722] = 61953;
   v4[536862723] = 0x4000000;
   v4[536862724] = -202116109;
-  if ( !(_BYTE)`guard variable for'LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set
-    && __cxa_guard_acquire(&`guard variable for'LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set) )
+  if ( !(_BYTE)`guard variable for LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set
+    && __cxa_guard_acquire(&`guard variable for LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set) )
   {
     if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v2 + 80, v1);
@@ -20712,7 +20712,7 @@ const std::set<data::EventType> *__cdecl LuaConfigMgr::getValidDungeonBroadcastE
       (std::initializer_list<data::EventType>)__PAIR128__(11LL, v2 + 80),
       (const std::less<data::EventType> *)(v2 + 48),
       (const std::set<data::EventType>::allocator_type *)(v2 + 64));
-    __cxa_guard_release(&`guard variable for'LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set);
+    __cxa_guard_release(&`guard variable for LuaConfigMgr::getValidDungeonBroadcastEventSet(void)::valid_dungeon_broadcast_event_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<data::EventType>::~set,
       (void *)&LuaConfigMgr::getValidDungeonBroadcastEventSet(void)const::valid_dungeon_broadcast_event_set,

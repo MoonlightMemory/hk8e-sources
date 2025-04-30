@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReminderShowType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReminderShowType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReminderShowType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReminderShowType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReminderShowType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReminderShowType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ReminderShowType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReminderShowType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReminderShowType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReminderShowType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReminderShowType &)::m,
@@ -612,8 +612,8 @@ const std::unordered_map<std::string,data::ReminderShowType> *__cdecl data::getR
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReminderShowTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReminderShowTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReminderShowTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReminderShowTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -644,7 +644,7 @@ const std::unordered_map<std::string,data::ReminderShowType> *__cdecl data::getR
       (const std::unordered_map<std::string,data::ReminderShowType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ReminderShowType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReminderShowType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReminderShowTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReminderShowTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReminderShowType>::~unordered_map,
       &data::getReminderShowTypeNameMap[abi:cxx11](void)::m,
@@ -716,8 +716,8 @@ const std::map<data::ReminderShowType,std::pair<std::string,std::string >> *__cd
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReminderShowTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReminderShowTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReminderShowTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReminderShowTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -758,7 +758,7 @@ const std::map<data::ReminderShowType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::ReminderShowType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ReminderShowType> *)(v1 + 48),
       (const std::map<data::ReminderShowType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReminderShowTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReminderShowTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReminderShowType,std::pair<std::string,std::string>>::~map,
       &data::getReminderShowTypeEnumMap[abi:cxx11](void)::m,
@@ -1117,8 +1117,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReminderStyleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReminderStyleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReminderStyleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReminderStyleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1156,7 +1156,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReminderStyleType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ReminderStyleType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReminderStyleType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReminderStyleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReminderStyleType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReminderStyleType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReminderStyleType &)::m,
@@ -1451,8 +1451,8 @@ const std::unordered_map<std::string,data::ReminderStyleType> *__cdecl data::get
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReminderStyleTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReminderStyleTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReminderStyleTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReminderStyleTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1497,7 +1497,7 @@ const std::unordered_map<std::string,data::ReminderStyleType> *__cdecl data::get
       (const std::unordered_map<std::string,data::ReminderStyleType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReminderStyleType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ReminderStyleType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getReminderStyleTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReminderStyleTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReminderStyleType>::~unordered_map,
       &data::getReminderStyleTypeNameMap[abi:cxx11](void)::m,
@@ -1583,8 +1583,8 @@ const std::map<data::ReminderStyleType,std::pair<std::string,std::string >> *__c
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1647,7 +1647,7 @@ const std::map<data::ReminderStyleType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::ReminderStyleType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ReminderStyleType> *)(v1 + 32),
       (const std::map<data::ReminderStyleType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReminderStyleType,std::pair<std::string,std::string>>::~map,
       &data::getReminderStyleTypeEnumMap[abi:cxx11](void)::m,
@@ -2003,8 +2003,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ServerMessageShowType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ServerMessageShowType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ServerMessageShowType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ServerMessageShowType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2028,7 +2028,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ServerMessageShowType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ServerMessageShowType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ServerMessageShowType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ServerMessageShowType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ServerMessageShowType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ServerMessageShowType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ServerMessageShowType &)::m,
@@ -2313,8 +2313,8 @@ const std::unordered_map<std::string,data::ServerMessageShowType> *__cdecl data:
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2345,7 +2345,7 @@ const std::unordered_map<std::string,data::ServerMessageShowType> *__cdecl data:
       (const std::unordered_map<std::string,data::ServerMessageShowType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ServerMessageShowType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ServerMessageShowType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ServerMessageShowType>::~unordered_map,
       &data::getServerMessageShowTypeNameMap[abi:cxx11](void)::m,
@@ -2417,8 +2417,8 @@ const std::map<data::ServerMessageShowType,std::pair<std::string,std::string >> 
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2459,7 +2459,7 @@ const std::map<data::ServerMessageShowType,std::pair<std::string,std::string >> 
       (std::initializer_list<std::pair<const data::ServerMessageShowType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ServerMessageShowType> *)(v1 + 48),
       (const std::map<data::ServerMessageShowType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ServerMessageShowType,std::pair<std::string,std::string>>::~map,
       &data::getServerMessageShowTypeEnumMap[abi:cxx11](void)::m,

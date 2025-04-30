@@ -10273,8 +10273,8 @@ const JsonConfigMgr *__fastcall JsonConfigMgr::findAbilityConfig(
   v6[536862733] = -202116109;
   *(_DWORD *)(v4 + 96) = override_name_hash;
   *(_DWORD *)(v4 + 112) = a4;
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash) )
   {
     std::allocator<char>::allocator(v4 + 48);
     ability_name_hash = "Default";
@@ -10283,7 +10283,7 @@ const JsonConfigMgr *__fastcall JsonConfigMgr::findAbilityConfig(
       "Default",
       (const std::allocator<char> *)(v4 + 48));
     JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)const::default_override_name_hash = getStringHash((const std::string *)(v4 + 256));
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::findAbilityConfig(unsigned int,unsigned int)::default_override_name_hash);
     std::string::~string((void *)(v4 + 256));
     *(_DWORD *)(((v4 + 256) >> 3) + 0x7FFF8000) = -117901064;
     std::allocator<char>::~allocator(v4 + 48);
@@ -26895,11 +26895,11 @@ const std::vector<ScenePosition> *__fastcall JsonConfigMgr::findNpcBornConfig(
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)npc_id;
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec) )
   {
     std::vector<ScenePosition>::vector(&JsonConfigMgr::findNpcBornConfig(unsigned int)const::dummy_vec);
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::findNpcBornConfig(unsigned int)::dummy_vec);
     npc_id = &JsonConfigMgr::findNpcBornConfig(unsigned int)const::dummy_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<ScenePosition>::~vector,
@@ -39704,8 +39704,8 @@ int32_t __cdecl JsonConfigMgr::checkWidgetNewConfig(JsonConfigMgr *const this)
   v4[536862766] = -218959118;
   v4[536862777] = -202116109;
   v4[536862778] = -202116109;
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map) )
   {
     std::pair<std::string const,std::function<int ()(JsonConfigMgr &,std::shared_ptr<data::ConfigBaseWidgetToy>)>>::pair<char const(&)[29],JsonConfigMgr::checkWidgetNewConfig(void)::{lambda(JsonConfigMgr &,std::shared_ptr<data::ConfigBaseWidgetToy>)#1},true>(
       (std::pair<const std::string,std::function<int(JsonConfigMgr&,std::shared_ptr<data::ConfigBaseWidgetToy>)> > *const)(v2 + 1504),
@@ -39735,7 +39735,7 @@ int32_t __cdecl JsonConfigMgr::checkWidgetNewConfig(JsonConfigMgr *const this)
       (const std::unordered_map<std::string,std::function<int(JsonConfigMgr&,std::shared_ptr<data::ConfigBaseWidgetToy>)>>::hasher *)(v2 + 112),
       (const std::unordered_map<std::string,std::function<int(JsonConfigMgr&,std::shared_ptr<data::ConfigBaseWidgetToy>)>>::key_equal *)(v2 + 128),
       (const std::unordered_map<std::string,std::function<int(JsonConfigMgr&,std::shared_ptr<data::ConfigBaseWidgetToy>)>>::allocator_type *)(v2 + 144));
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,std::function<int ()(JsonConfigMgr &,std::shared_ptr<data::ConfigBaseWidgetToy>)>>::~unordered_map,
       &JsonConfigMgr::checkWidgetNewConfig(void)::widget_config_checker_map,
@@ -43292,11 +43292,11 @@ const std::string *__fastcall JsonConfigMgr::getAbilityStringFromHash[abi:cxx11]
   v4[536862723] = -218959360;
   v4[536862725] = -202116109;
   *(_DWORD *)(v2 + 48) = (_DWORD)hash;
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str) )
   {
     std::string::basic_string(&JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)const::empty_str);
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)::empty_str);
     hash = &JsonConfigMgr::getAbilityStringFromHash[abi:cxx11](unsigned int)const::empty_str;
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
@@ -44522,8 +44522,8 @@ int32_t __cdecl JsonConfigMgr::checkSingleMixin(
   v4[536862780] = -202116109;
   v4[536862781] = -202116109;
   v4[536862782] = -202116109;
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set) )
   {
     std::allocator<char>::allocator(v2 + 48);
     std::string::basic_string<std::allocator<char>>(
@@ -44633,7 +44633,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleMixin(
       (const std::unordered_set<std::string>::hasher *)(v2 + 368),
       (const std::unordered_set<std::string>::key_equal *)(v2 + 384),
       (const std::unordered_set<std::string>::allocator_type *)(v2 + 400));
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<std::string>::~unordered_set,
       (void *)&JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::modify_damage_valid_predicate_set,
@@ -44686,8 +44686,8 @@ int32_t __cdecl JsonConfigMgr::checkSingleMixin(
     std::allocator<char>::~allocator(v2 + 48);
     *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = -8;
   }
-  if ( !(_BYTE)`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set
-    && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set) )
+  if ( !(_BYTE)`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set
+    && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set) )
   {
     __asan_unpoison_stack_memory(v2 + 832, 352LL);
     *(_BYTE *)(((v2 + 416) >> 3) + 0x7FFF8000) = 1;
@@ -44769,7 +44769,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleMixin(
       (const std::unordered_set<std::string>::hasher *)(v2 + 592),
       (const std::unordered_set<std::string>::key_equal *)(v2 + 608),
       (const std::unordered_set<std::string>::allocator_type *)(v2 + 624));
-    __cxa_guard_release(&`guard variable for'JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set);
+    __cxa_guard_release(&`guard variable for JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<std::string>::~unordered_set,
       (void *)&JsonConfigMgr::checkSingleMixin(std::shared_ptr<data::ConfigAbilityMixin>)::server_finish_watcher_valid_predicate_set,
@@ -45140,8 +45140,8 @@ bool __cdecl JsonConfigMgr::isMixinPredicateValid(
     }
     else
     {
-      if ( !(_BYTE)`guard variable for'JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set
-        && __cxa_guard_acquire(&`guard variable for'JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set) )
+      if ( !(_BYTE)`guard variable for JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set
+        && __cxa_guard_acquire(&`guard variable for JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set) )
       {
         v12 = ((v3 + 256) >> 3) + 2147450880;
         *(_WORD *)v12 = 0;
@@ -45186,7 +45186,7 @@ bool __cdecl JsonConfigMgr::isMixinPredicateValid(
           (const std::unordered_set<data::AbilityTargetting>::hasher *)(v3 + 48),
           (const std::unordered_set<data::AbilityTargetting>::key_equal *)(v3 + 64),
           (const std::unordered_set<data::AbilityTargetting>::allocator_type *)(v3 + 80));
-        __cxa_guard_release(&`guard variable for'JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set);
+        __cxa_guard_release(&`guard variable for JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set);
         __cxa_atexit(
           (void (__fastcall *)(void *))std::unordered_set<data::AbilityTargetting>::~unordered_set,
           (void *)&JsonConfigMgr::isMixinPredicateValid(std::shared_ptr<data::ConfigAbilityPredicate>,std::unordered_set<std::string> const&)::valid_ability_targetting_set,

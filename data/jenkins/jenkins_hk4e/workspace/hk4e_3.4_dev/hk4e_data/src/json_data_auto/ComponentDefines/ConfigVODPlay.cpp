@@ -142,8 +142,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VODPlayerType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::VODPlayerType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::VODPlayerType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::VODPlayerType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::VODPlayerType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -158,7 +158,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VODPlayerType *e)
         (std::initializer_list<std::pair<const std::string,data::VODPlayerType> >)__PAIR128__(1LL, v2 + 272),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::VODPlayerType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::VODPlayerType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::VODPlayerType &)::m);
       e = (data::VODPlayerType *)&data::enumStrToVal(std::string const&,data::VODPlayerType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::VODPlayerType>::~map,

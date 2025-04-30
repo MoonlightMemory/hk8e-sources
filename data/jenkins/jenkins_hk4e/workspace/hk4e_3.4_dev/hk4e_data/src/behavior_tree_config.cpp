@@ -63,8 +63,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BehaviorConfigSortTy
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80);
@@ -86,7 +86,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BehaviorConfigSortTy
         (std::initializer_list<std::pair<const std::string,data::BehaviorConfigSortType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::BehaviorConfigSortType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::BehaviorConfigSortType>::~map,
         &data::enumStrToVal(std::string const&,data::BehaviorConfigSortType &)::m,
@@ -253,8 +253,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionPlanPriorRevis
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80);
@@ -304,7 +304,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionPlanPriorRevis
         (std::initializer_list<std::pair<const std::string,data::ActionPlanPriorReviseType> >)__PAIR128__(6LL, v2 + 368),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ActionPlanPriorReviseType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ActionPlanPriorReviseType>::~map,
         &data::enumStrToVal(std::string const&,data::ActionPlanPriorReviseType &)::m,
@@ -479,8 +479,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BehaviorConfigChange
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80);
@@ -502,7 +502,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BehaviorConfigChange
         (std::initializer_list<std::pair<const std::string,data::BehaviorConfigChangeCharacterSortType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::BehaviorConfigChangeCharacterSortType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::BehaviorConfigChangeCharacterSortType>::~map,
         &data::enumStrToVal(std::string const&,data::BehaviorConfigChangeCharacterSortType &)::m,
@@ -662,8 +662,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CharacterOnstagePrio
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64);
@@ -699,7 +699,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CharacterOnstagePrio
         (std::initializer_list<std::pair<const std::string,data::CharacterOnstagePriorReviseType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CharacterOnstagePriorReviseType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CharacterOnstagePriorReviseType>::~map,
         &data::enumStrToVal(std::string const&,data::CharacterOnstagePriorReviseType &)::m,

@@ -2444,65 +2444,65 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
     {
       std::ios_base::Init::Init(&std::__ioinit);
       __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-      if ( !`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] )
+      if ( !`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] )
       {
-        `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] = 1;
+        `guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::tss_ptr<boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::context>::~tss_ptr,
           &boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_[0] )
+      if ( !`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_[0] )
       {
-        `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_[0] = 1;
+        `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_[0] = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::tss_ptr<boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::context>::~tss_ptr,
           &boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id )
+      if ( !`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id )
       {
-        `guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id = 1;
+        `guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::strand_service>::~service_id,
           &boost::asio::detail::service_base<boost::asio::detail::strand_service>::id,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ )
+      if ( !`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ )
       {
-        `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ = 1;
+        `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::tss_ptr<boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::context>::~tss_ptr,
           &boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] )
+      if ( !`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] )
       {
-        `guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] = 1;
+        `guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::posix_global_impl<boost::asio::system_context>::~posix_global_impl,
           &boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] )
+      if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] )
       {
-        `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] = 1;
+        `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::scheduler>::~service_id,
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
           &_dso_handle);
       }
-      if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id )
+      if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id )
       {
-        `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id = 1;
+        `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id = 1;
         __cxa_atexit(
           (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::epoll_reactor>::~service_id,
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
           &_dso_handle);
       }
-      if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+      if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       {
-        `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+        `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
         if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) )
         {

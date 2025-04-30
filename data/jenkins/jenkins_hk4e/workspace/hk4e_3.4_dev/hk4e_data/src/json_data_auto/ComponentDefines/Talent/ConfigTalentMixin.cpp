@@ -5472,8 +5472,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TalentType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::TalentType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::TalentType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::TalentType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::TalentType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -5509,7 +5509,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TalentType *e)
         (std::initializer_list<std::pair<const std::string,data::TalentType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::TalentType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::TalentType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::TalentType &)::m);
       e = (data::TalentType *)&data::enumStrToVal(std::string const&,data::TalentType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::TalentType>::~map,
@@ -7367,26 +7367,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::shared_ptr<data::AddTalentExtraLevelFactory>::~shared_ptr,
         &data::AddTalentExtraLevelFactory::instance_ptr,
         &_dso_handle);
-      v46 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v47 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v46 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v47 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v48) = v47 != 0;
-      v49 = (v47 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v47);
+      v49 = (v47 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v47);
       if ( (_BYTE)v49 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v48,
           v49);
       if ( !*v46 )
       {
-        v50 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v51 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v50 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v51 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v48) = v51 != 0;
-        v52 = (v51 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v51);
+        v52 = (v51 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v51);
         if ( (_BYTE)v52 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v48,
             v52);
         *v50 = 1;

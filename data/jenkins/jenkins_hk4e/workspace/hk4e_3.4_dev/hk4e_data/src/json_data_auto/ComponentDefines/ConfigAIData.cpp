@@ -138,8 +138,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::AISituationType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::AISituationType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::AISituationType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::AISituationType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -175,7 +175,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (std::initializer_list<std::pair<const std::string,data::AISituationType> >)__PAIR128__(4LL, v2 + 448),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::AISituationType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::AISituationType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::AISituationType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::AISituationType>::~map,
         &data::enumStrToVal(char const*,data::AISituationType &)::m,

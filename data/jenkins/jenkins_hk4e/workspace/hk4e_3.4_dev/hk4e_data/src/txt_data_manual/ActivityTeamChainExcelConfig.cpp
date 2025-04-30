@@ -2211,11 +2211,11 @@ const std::unordered_map<unsigned int,unsigned int> *__fastcall ActivityTeamChai
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)stage_id;
-  if ( !(_BYTE)`guard variable for'ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map
-    && __cxa_guard_acquire(&`guard variable for'ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map) )
+  if ( !(_BYTE)`guard variable for ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map
+    && __cxa_guard_acquire(&`guard variable for ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map) )
   {
     std::unordered_map<unsigned int,unsigned int>::unordered_map(&ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)const::invalid_map);
-    __cxa_guard_release(&`guard variable for'ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map);
+    __cxa_guard_release(&`guard variable for ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)::invalid_map);
     stage_id = &ActivityTeamChainExcelConfigMgr::getChainPreIdxMap(unsigned int)const::invalid_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<unsigned int,unsigned int>::~unordered_map,

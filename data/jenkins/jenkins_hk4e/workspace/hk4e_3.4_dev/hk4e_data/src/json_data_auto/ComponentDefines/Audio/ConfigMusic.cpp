@@ -195,8 +195,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicGameParam *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MusicGameParam &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicGameParam &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MusicGameParam &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MusicGameParam &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -274,7 +274,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicGameParam *e)
         (std::initializer_list<std::pair<const std::string,data::MusicGameParam> >)__PAIR128__(10LL, v2 + 432),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MusicGameParam>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicGameParam &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MusicGameParam &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MusicGameParam>::~map,
         &data::enumStrToVal(std::string const&,data::MusicGameParam &)::m,
@@ -874,8 +874,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicStimulus *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MusicStimulus &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicStimulus &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MusicStimulus &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MusicStimulus &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) )
         __asan_report_store8(v2 + 64, e);
@@ -1023,7 +1023,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicStimulus *e)
         (std::initializer_list<std::pair<const std::string,data::MusicStimulus> >)__PAIR128__(20LL, v2 + 896),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::MusicStimulus>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicStimulus &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MusicStimulus &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MusicStimulus>::~map,
         &data::enumStrToVal(std::string const&,data::MusicStimulus &)::m,
@@ -1398,8 +1398,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicBehaviourIgnora
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1456,7 +1456,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::MusicBehaviourIgnora
         (std::initializer_list<std::pair<const std::string,data::MusicBehaviourIgnorance> >)__PAIR128__(7LL, v2 + 384),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::MusicBehaviourIgnorance>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::MusicBehaviourIgnorance>::~map,
         &data::enumStrToVal(std::string const&,data::MusicBehaviourIgnorance &)::m,

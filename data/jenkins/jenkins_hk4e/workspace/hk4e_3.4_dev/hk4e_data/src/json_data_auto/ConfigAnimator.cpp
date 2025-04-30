@@ -155,8 +155,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::AnimeGroupType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -185,7 +185,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::AnimeGroupType *e)
         (std::initializer_list<std::pair<const std::string,data::AnimeGroupType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::AnimeGroupType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m);
       e = (data::AnimeGroupType *)&data::enumStrToVal(std::string const&,data::AnimeGroupType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::AnimeGroupType>::~map,

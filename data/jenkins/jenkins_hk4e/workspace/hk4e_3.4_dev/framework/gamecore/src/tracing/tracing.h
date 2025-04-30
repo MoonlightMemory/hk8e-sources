@@ -5,7 +5,7 @@ SpanContextGuardMgr *__cdecl SpanContextGuardMgr::instance()
 {
   std::_Deque_base<const jaegertracing::SpanContext*> *v1; // rbx
 
-  if ( !`guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
+  if ( !`guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
   {
     v1 = (std::_Deque_base<const jaegertracing::SpanContext*> *)((char *)&SpanContextGuardMgr::instance(void)::instance
                                                                + __readfsqword(0));
@@ -20,7 +20,7 @@ SpanContextGuardMgr *__cdecl SpanContextGuardMgr::instance()
     v1->_M_impl._M_finish._M_last = 0LL;
     v1->_M_impl._M_finish._M_node = 0LL;
     std::_Deque_base<jaegertracing::SpanContext const*>::_M_initialize_map(v1, 0LL);
-    `guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
+    `guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
     __cxa_thread_atexit((void (__fastcall *)(void *))SpanContextGuardMgr::~SpanContextGuardMgr, v1, &_dso_handle);
   }
   return (SpanContextGuardMgr *)((char *)&SpanContextGuardMgr::instance(void)::instance + __readfsqword(0));

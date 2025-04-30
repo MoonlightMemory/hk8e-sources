@@ -6899,13 +6899,13 @@ __int64 __fastcall Json::CharReaderBuilder::validate(Json::CharReaderBuilder *th
   char v81[16]; // [rsp+1B0h] [rbp-48h] BYREF
   char v82; // [rsp+1C0h] [rbp-38h] BYREF
 
-  if ( (_BYTE)`guard variable for'Json::CharReaderBuilder::validate(Json::Value *)::valid_keys )
+  if ( (_BYTE)`guard variable for Json::CharReaderBuilder::validate(Json::Value *)::valid_keys )
   {
     v2 = &v57;
     goto LABEL_3;
   }
   v2 = &v57;
-  if ( __cxa_guard_acquire(&`guard variable for'Json::CharReaderBuilder::validate(Json::Value *)::valid_keys) )
+  if ( __cxa_guard_acquire(&`guard variable for Json::CharReaderBuilder::validate(Json::Value *)::valid_keys) )
   {
     other._M_dataplus._M_p = other._anon_0._M_local_buf;
     strcpy(other._anon_0._M_local_buf, "collectComments");
@@ -7054,7 +7054,7 @@ LABEL_38:
       {
         Json::CharReaderBuilder::validate(Json::Value *)const::valid_keys = (__int64)v32;
         v41 = (Json::String *)v80;
-        __cxa_guard_release(&`guard variable for'Json::CharReaderBuilder::validate(Json::Value *)::valid_keys);
+        __cxa_guard_release(&`guard variable for Json::CharReaderBuilder::validate(Json::Value *)::valid_keys);
         while ( 1 )
         {
           if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)v41->_M_dataplus._M_p == &v41->_anon_0 )

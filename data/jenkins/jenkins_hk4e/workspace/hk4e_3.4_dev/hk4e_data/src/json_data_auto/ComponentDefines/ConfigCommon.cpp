@@ -155,8 +155,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ParticleShapeType *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -185,7 +185,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ParticleShapeType *e
         (std::initializer_list<std::pair<const std::string,data::ParticleShapeType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ParticleShapeType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m);
       e = (data::ParticleShapeType *)&data::enumStrToVal(std::string const&,data::ParticleShapeType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ParticleShapeType>::~map,
@@ -4671,8 +4671,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BillboardOffsetType 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -4694,7 +4694,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::BillboardOffsetType 
         (std::initializer_list<std::pair<const std::string,data::BillboardOffsetType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::BillboardOffsetType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m);
       e = (data::BillboardOffsetType *)&data::enumStrToVal(std::string const&,data::BillboardOffsetType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::BillboardOffsetType>::~map,
@@ -5969,8 +5969,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CombatBillboardSize 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -6006,7 +6006,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CombatBillboardSize 
         (std::initializer_list<std::pair<const std::string,data::CombatBillboardSize> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CombatBillboardSize>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m);
       e = (data::CombatBillboardSize *)&data::enumStrToVal(std::string const&,data::CombatBillboardSize &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CombatBillboardSize>::~map,
@@ -7074,8 +7074,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ProgressBillboardTyp
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -7118,7 +7118,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ProgressBillboardTyp
         (std::initializer_list<std::pair<const std::string,data::ProgressBillboardType> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ProgressBillboardType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m);
       e = (data::ProgressBillboardType *)&data::enumStrToVal(std::string const&,data::ProgressBillboardType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ProgressBillboardType>::~map,
@@ -9054,8 +9054,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ComponentTag *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ComponentTag &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ComponentTag &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ComponentTag &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ComponentTag &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -9294,7 +9294,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ComponentTag *e)
         (std::initializer_list<std::pair<const std::string,data::ComponentTag> >)__PAIR128__(33LL, v2 + 784),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ComponentTag>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ComponentTag &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ComponentTag &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ComponentTag>::~map,
         &data::enumStrToVal(std::string const&,data::ComponentTag &)::m,

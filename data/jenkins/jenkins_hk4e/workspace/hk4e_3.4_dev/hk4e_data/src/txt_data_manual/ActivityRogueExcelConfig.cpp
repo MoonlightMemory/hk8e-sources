@@ -12384,11 +12384,11 @@ std::vector<unsigned int> *__fastcall ActivityRogueExcelConfigMgr::findDungeonSe
   v5[536862722] = -218959360;
   v5[536862723] = -202116352;
   *(_DWORD *)(v3 + 48) = dungeon_id;
-  if ( !(_BYTE)`guard variable for'ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec) )
+  if ( !(_BYTE)`guard variable for ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)const::empty_vec);
-    __cxa_guard_release(&`guard variable for'ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec);
+    __cxa_guard_release(&`guard variable for ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)::empty_vec);
     this = &ActivityRogueExcelConfigMgr::findDungeonSequenceVec(unsigned int)const::empty_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
@@ -12467,11 +12467,11 @@ std::set<unsigned int> *__fastcall ActivityRogueExcelConfigMgr::findDungeonCellS
   v5[536862722] = -218959360;
   v5[536862723] = -202116352;
   *(_DWORD *)(v3 + 48) = dungeon_id;
-  if ( !(_BYTE)`guard variable for'ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set) )
   {
     std::set<unsigned int>::set(&ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)::empty_set);
     this = &ActivityRogueExcelConfigMgr::findDungeonCellSet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,
@@ -13366,11 +13366,11 @@ RogueCellAdjMap *__fastcall ActivityRogueExcelConfigMgr::findCellAjdMap(
   v6[536862725] = -202116352;
   *(_DWORD *)(v4 + 32) = dungeon_id;
   *(_DWORD *)(v4 + 48) = cell_id;
-  if ( !(_BYTE)`guard variable for'ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map
-    && __cxa_guard_acquire(&`guard variable for'ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map) )
+  if ( !(_BYTE)`guard variable for ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map
+    && __cxa_guard_acquire(&`guard variable for ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map) )
   {
     std::map<data::RogueGadgetDirType,unsigned int>::map(&ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)const::empty_map);
-    __cxa_guard_release(&`guard variable for'ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map);
+    __cxa_guard_release(&`guard variable for ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)::empty_map);
     this = &ActivityRogueExcelConfigMgr::findCellAjdMap(unsigned int,unsigned int)const::empty_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueGadgetDirType,unsigned int>::~map,
@@ -14620,11 +14620,11 @@ std::map<unsigned int,unsigned int> *__fastcall ActivityRogueExcelConfigMgr::fin
   v5[536862722] = -218959360;
   v5[536862723] = -202116352;
   *(_DWORD *)(v3 + 48) = dungeon_id;
-  if ( !(_BYTE)`guard variable for'ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map
-    && __cxa_guard_acquire(&`guard variable for'ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map) )
+  if ( !(_BYTE)`guard variable for ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map
+    && __cxa_guard_acquire(&`guard variable for ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map) )
   {
     std::map<unsigned int,unsigned int>::map(&ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)const::empty_map);
-    __cxa_guard_release(&`guard variable for'ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map);
+    __cxa_guard_release(&`guard variable for ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)::empty_map);
     this = &ActivityRogueExcelConfigMgr::findTrapWeightMapByDungeonId(unsigned int)const::empty_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<unsigned int,unsigned int>::~map,
@@ -14701,11 +14701,11 @@ std::map<unsigned int,unsigned int> *__fastcall ActivityRogueExcelConfigMgr::fin
   v5[536862722] = -218959360;
   v5[536862723] = -202116352;
   *(_DWORD *)(v3 + 48) = dungeon_id;
-  if ( !(_BYTE)`guard variable for'ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map
-    && __cxa_guard_acquire(&`guard variable for'ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map) )
+  if ( !(_BYTE)`guard variable for ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map
+    && __cxa_guard_acquire(&`guard variable for ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map) )
   {
     std::map<unsigned int,unsigned int>::map(&ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)const::empty_map);
-    __cxa_guard_release(&`guard variable for'ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map);
+    __cxa_guard_release(&`guard variable for ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)::empty_map);
     this = &ActivityRogueExcelConfigMgr::findBallWeightMapByDungeonId(unsigned int)const::empty_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<unsigned int,unsigned int>::~map,

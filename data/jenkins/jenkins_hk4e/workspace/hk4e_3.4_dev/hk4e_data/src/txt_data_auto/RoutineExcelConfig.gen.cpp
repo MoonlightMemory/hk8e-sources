@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RoutineFinishType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RoutineFinishType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RoutineFinishType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RoutineFinishType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RoutineFinishType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RoutineFinishType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RoutineFinishType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RoutineFinishType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RoutineFinishType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineFinishType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RoutineFinishType &)::m,
@@ -619,8 +619,8 @@ const std::unordered_map<std::string,data::RoutineFinishType> *__cdecl data::get
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::RoutineFinishType> *__cdecl data::get
       (const std::unordered_map<std::string,data::RoutineFinishType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RoutineFinishType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RoutineFinishType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineFinishType>::~unordered_map,
       &data::getRoutineFinishTypeNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::RoutineFinishType,std::pair<std::string,std::string >> *__c
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::RoutineFinishType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::RoutineFinishType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::RoutineFinishType> *)(v1 + 32),
       (const std::map<data::RoutineFinishType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RoutineFinishType,std::pair<std::string,std::string>>::~map,
       &data::getRoutineFinishTypeEnumMap[abi:cxx11](void)::m,
@@ -1149,8 +1149,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RoutineCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RoutineCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RoutineCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RoutineCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1167,7 +1167,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RoutineCondType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::RoutineCondType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::RoutineCondType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RoutineCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RoutineCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RoutineCondType &)::m,
@@ -1446,8 +1446,8 @@ const std::unordered_map<std::string,data::RoutineCondType> *__cdecl data::getRo
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1471,7 +1471,7 @@ const std::unordered_map<std::string,data::RoutineCondType> *__cdecl data::getRo
       (const std::unordered_map<std::string,data::RoutineCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RoutineCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RoutineCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRoutineCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineCondType>::~unordered_map,
       &data::getRoutineCondTypeNameMap[abi:cxx11](void)::m,
@@ -1541,8 +1541,8 @@ const std::map<data::RoutineCondType,std::pair<std::string,std::string >> *__cde
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1572,7 +1572,7 @@ const std::map<data::RoutineCondType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::RoutineCondType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::RoutineCondType> *)(v1 + 48),
       (const std::map<data::RoutineCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RoutineCondType,std::pair<std::string,std::string>>::~map,
       &data::getRoutineCondTypeEnumMap[abi:cxx11](void)::m,
@@ -1915,8 +1915,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RoutineActionype &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RoutineActionype &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RoutineActionype &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RoutineActionype &)::m) )
     {
       data::enumStrToVal(char const*,data::RoutineActionype &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::RoutineActionype &)::m._M_h._M_bucket_count = 0LL;
@@ -1926,7 +1926,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::RoutineActionype &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::RoutineActionype &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::RoutineActionype>::unordered_map(&data::enumStrToVal(char const*,data::RoutineActionype &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RoutineActionype &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RoutineActionype &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineActionype>::~unordered_map,
         &data::enumStrToVal(char const*,data::RoutineActionype &)::m,
@@ -2185,8 +2185,8 @@ const std::unordered_map<std::string,data::RoutineActionype> *__cdecl data::getR
   v3[536862723] = 61956;
   v3[536862724] = -218103808;
   v3[536862725] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineActionypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineActionypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineActionypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineActionypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2203,7 +2203,7 @@ const std::unordered_map<std::string,data::RoutineActionype> *__cdecl data::getR
       (const std::unordered_map<std::string,data::RoutineActionype>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RoutineActionype>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RoutineActionype>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRoutineActionypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineActionypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RoutineActionype>::~unordered_map,
       &data::getRoutineActionypeNameMap[abi:cxx11](void)::m,
@@ -2266,8 +2266,8 @@ const std::map<data::RoutineActionype,std::pair<std::string,std::string >> *__cd
   v3[536862725] = 62194;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRoutineActionypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRoutineActionypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRoutineActionypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRoutineActionypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2286,7 +2286,7 @@ const std::map<data::RoutineActionype,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::RoutineActionype,std::pair<std::string,std::string > > >)__PAIR128__(1LL, v1 + 176),
       (const std::less<data::RoutineActionype> *)(v1 + 32),
       (const std::map<data::RoutineActionype,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRoutineActionypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRoutineActionypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RoutineActionype,std::pair<std::string,std::string>>::~map,
       &data::getRoutineActionypeEnumMap[abi:cxx11](void)::m,

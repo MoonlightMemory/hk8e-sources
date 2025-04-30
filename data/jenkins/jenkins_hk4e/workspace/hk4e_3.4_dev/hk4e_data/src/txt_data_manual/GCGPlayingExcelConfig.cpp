@@ -853,11 +853,11 @@ const std::set<unsigned int> *__fastcall GCGPlayingExcelConfigMgr::getGroupLevel
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set
-      && __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set) )
+    if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set
+      && __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set) )
     {
       std::set<unsigned int>::set(&GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)const::dummy_set);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)::dummy_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         &GCGPlayingExcelConfigMgr::getGroupLevelSet(unsigned int)const::dummy_set,
@@ -891,12 +891,12 @@ const std::vector<data::GCGChallengeReward> *__cdecl GCGPlayingExcelConfigMgr::g
   config_ptr = data::GCGPlayingExcelConfigMgrBase::findGCGGameRewardExcelConfig(this, level_ida);
   if ( config_ptr )
     return &config_ptr->challenge_reward_list;
-  if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec )
+  if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec )
   {
-    if ( __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec) )
+    if ( __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec) )
     {
       std::vector<data::GCGChallengeReward>::vector(&GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)const::dummy_vec);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)::dummy_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<data::GCGChallengeReward>::~vector,
         &GCGPlayingExcelConfigMgr::getLevelChallengeRewardVec(unsigned int)const::dummy_vec,
@@ -981,11 +981,11 @@ const std::set<unsigned int> *__fastcall GCGPlayingExcelConfigMgr::getChallengeS
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set
-      && __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set) )
+    if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set
+      && __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set) )
     {
       std::set<unsigned int>::set(&GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)const::empty_set);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)::empty_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         &GCGPlayingExcelConfigMgr::getChallengeSetByLevelId(unsigned int)const::empty_set,
@@ -1057,11 +1057,11 @@ const std::set<unsigned int> *__fastcall GCGPlayingExcelConfigMgr::getQuestUnloc
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set
-      && __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set) )
+    if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set
+      && __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set) )
     {
       std::set<unsigned int>::set(&GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)const::empty_set);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)::empty_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         &GCGPlayingExcelConfigMgr::getQuestUnlockCharacter(unsigned int)const::empty_set,
@@ -1133,11 +1133,11 @@ const std::set<unsigned int> *__fastcall GCGPlayingExcelConfigMgr::getCharacterB
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set
-      && __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set) )
+    if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set
+      && __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set) )
     {
       std::set<unsigned int>::set(&GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)const::empty_set);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)::empty_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::set<unsigned int>::~set,
         &GCGPlayingExcelConfigMgr::getCharacterByCondQuest(unsigned int)const::empty_set,
@@ -2126,11 +2126,11 @@ LABEL_14:
   if ( v13 == 1 )
   {
 LABEL_25:
-    if ( !(_BYTE)`guard variable for'GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str
-      && __cxa_guard_acquire(&`guard variable for'GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str) )
+    if ( !(_BYTE)`guard variable for GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str
+      && __cxa_guard_acquire(&`guard variable for GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str) )
     {
       std::string::basic_string(&GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)const::dummy_str);
-      __cxa_guard_release(&`guard variable for'GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str);
+      __cxa_guard_release(&`guard variable for GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)::dummy_str);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         (void *)&GCGPlayingExcelConfigMgr::getMatchAIRandomName[abi:cxx11](bool)const::dummy_str,

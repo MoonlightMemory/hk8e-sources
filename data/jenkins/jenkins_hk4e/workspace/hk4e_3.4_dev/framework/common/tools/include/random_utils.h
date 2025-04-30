@@ -6,8 +6,8 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>()
   unsigned int v0; // ebx
   unsigned int v1; // eax
 
-  if ( !(_BYTE)`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution
-    && __cxa_guard_acquire(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution) )
+  if ( !(_BYTE)`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution
+    && __cxa_guard_acquire(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution) )
   {
     v0 = std::numeric_limits<unsigned int>::max();
     v1 = std::numeric_limits<unsigned int>::lowest();
@@ -15,7 +15,7 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>()
       &common::tools::RandomUtils::rand<unsigned int>(void)::distribution,
       v1,
       v0);
-    __cxa_guard_release(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution);
+    __cxa_guard_release(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(void)::distribution);
   }
   return std::uniform_int_distribution<unsigned int>::operator()<std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>>(
            &common::tools::RandomUtils::rand<unsigned int>(void)::distribution,
@@ -30,14 +30,14 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>(uint32_t see
   unsigned int v3; // ebx
   unsigned int v4; // eax
 
-  v1 = (unsigned __int64)&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator
+  v1 = (unsigned __int64)&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator
      + __readfsqword(0);
   if ( *(_BYTE *)((v1 >> 3) + 0x7FFF8000) != 0 && (char)(v1 & 7) >= *(_BYTE *)((v1 >> 3) + 0x7FFF8000) )
     __asan_report_load1(v1);
   if ( !*(_BYTE *)v1 )
   {
     std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>::mersenne_twister_engine((std::mersenne_twister_engine<long unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> *const)((char *)&common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator + __readfsqword(0)));
-    v2 = (unsigned __int64)&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator
+    v2 = (unsigned __int64)&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator
        + __readfsqword(0);
     if ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) != 0 && (char)(v2 & 7) >= *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
       __asan_report_store1(v2);
@@ -46,8 +46,8 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>(uint32_t see
   std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>::seed(
     (std::mersenne_twister_engine<long unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> *const)((char *)&common::tools::RandomUtils::rand<unsigned int>(unsigned int)::rand_genatator + __readfsqword(0)),
     seed);
-  if ( !(_BYTE)`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution
-    && __cxa_guard_acquire(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution) )
+  if ( !(_BYTE)`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution
+    && __cxa_guard_acquire(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution) )
   {
     v3 = std::numeric_limits<unsigned int>::max();
     v4 = std::numeric_limits<unsigned int>::lowest();
@@ -55,7 +55,7 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>(uint32_t see
       &common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution,
       v4,
       v3);
-    __cxa_guard_release(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution);
+    __cxa_guard_release(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution);
   }
   return std::uniform_int_distribution<unsigned int>::operator()<std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>>(
            &common::tools::RandomUtils::rand<unsigned int>(unsigned int)::distribution,
@@ -68,8 +68,8 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>(std::mt19937
   unsigned int v1; // ebx
   unsigned int v2; // eax
 
-  if ( !(_BYTE)`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution
-    && __cxa_guard_acquire(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution) )
+  if ( !(_BYTE)`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution
+    && __cxa_guard_acquire(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution) )
   {
     v1 = std::numeric_limits<unsigned int>::max();
     v2 = std::numeric_limits<unsigned int>::lowest();
@@ -77,7 +77,7 @@ unsigned int __cdecl common::tools::RandomUtils::rand<unsigned int>(std::mt19937
       &common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution,
       v2,
       v1);
-    __cxa_guard_release(&`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution);
+    __cxa_guard_release(&`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution);
   }
   return std::uniform_int_distribution<unsigned int>::operator()<std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>>(
            &common::tools::RandomUtils::rand<unsigned int>(std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul> &)::distribution,
@@ -1531,12 +1531,12 @@ unsigned int __fastcall common::tools::RandomUtils::rand<unsigned int>(
       v4 = min;
       v3 = max;
     }
-    if ( !`guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator[__readfsqword(0)] )
+    if ( !`guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator[__readfsqword(0)] )
     {
       std::mersenne_twister_engine<unsigned long,32ul,624ul,397ul,31ul,2567483615ul,11ul,4294967295ul,7ul,2636928640ul,15ul,4022730752ul,18ul,1812433253ul>::seed(
         (std::mersenne_twister_engine<long unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> *const)((char *)&common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator + __readfsqword(0)),
         0x1571uLL);
-      `guard variable for'unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator[__readfsqword(0)] = 1;
+      `guard variable for unsigned int common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator[__readfsqword(0)] = 1;
     }
     seeda = seed;
     v8 = (std::mersenne_twister_engine<long unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253> *)((char *)&common::tools::RandomUtils::rand<unsigned int>(unsigned int,unsigned int,unsigned int)::rand_genatator + __readfsqword(0));

@@ -300,8 +300,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -320,7 +320,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEventTriggerType>::~unordered_map,
         &data::enumStrToVal(char const*,data::VintageMarketEventTriggerType &)::m,
@@ -602,8 +602,8 @@ const std::unordered_map<std::string,data::VintageMarketEventTriggerType> *__cde
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -629,7 +629,7 @@ const std::unordered_map<std::string,data::VintageMarketEventTriggerType> *__cde
       (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::VintageMarketEventTriggerType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEventTriggerType>::~unordered_map,
       &data::getVintageMarketEventTriggerTypeNameMap[abi:cxx11](void)::m,
@@ -699,8 +699,8 @@ const std::map<data::VintageMarketEventTriggerType,std::pair<std::string,std::st
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -730,7 +730,7 @@ const std::map<data::VintageMarketEventTriggerType,std::pair<std::string,std::st
       (std::initializer_list<std::pair<const data::VintageMarketEventTriggerType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::VintageMarketEventTriggerType> *)(v1 + 48),
       (const std::map<data::VintageMarketEventTriggerType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::VintageMarketEventTriggerType,std::pair<std::string,std::string>>::~map,
       &data::getVintageMarketEventTriggerTypeEnumMap[abi:cxx11](void)::m,
@@ -1086,8 +1086,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1111,7 +1111,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::VintageMarketEventType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::VintageMarketEventType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::VintageMarketEventType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEventType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEventType>::~unordered_map,
         &data::enumStrToVal(char const*,data::VintageMarketEventType &)::m,
@@ -1401,8 +1401,8 @@ const std::unordered_map<std::string,data::VintageMarketEventType> *__cdecl data
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1433,7 +1433,7 @@ const std::unordered_map<std::string,data::VintageMarketEventType> *__cdecl data
       (const std::unordered_map<std::string,data::VintageMarketEventType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::VintageMarketEventType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::VintageMarketEventType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEventType>::~unordered_map,
       &data::getVintageMarketEventTypeNameMap[abi:cxx11](void)::m,
@@ -1505,8 +1505,8 @@ const std::map<data::VintageMarketEventType,std::pair<std::string,std::string >>
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1547,7 +1547,7 @@ const std::map<data::VintageMarketEventType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::VintageMarketEventType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::VintageMarketEventType> *)(v1 + 48),
       (const std::map<data::VintageMarketEventType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::VintageMarketEventType,std::pair<std::string,std::string>>::~map,
       &data::getVintageMarketEventTypeEnumMap[abi:cxx11](void)::m,
@@ -1922,8 +1922,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 400) = s;
   if ( *(_QWORD *)(v2 + 400) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2031,7 +2031,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::VintageMarketEffectType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::VintageMarketEffectType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::VintageMarketEffectType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEffectType>::~unordered_map,
         &data::enumStrToVal(char const*,data::VintageMarketEffectType &)::m,
@@ -2330,8 +2330,8 @@ const std::unordered_map<std::string,data::VintageMarketEffectType> *__cdecl dat
   v3[536862750] = -202116109;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2446,7 +2446,7 @@ const std::unordered_map<std::string,data::VintageMarketEffectType> *__cdecl dat
       (const std::unordered_map<std::string,data::VintageMarketEffectType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::VintageMarketEffectType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::VintageMarketEffectType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageMarketEffectType>::~unordered_map,
       &data::getVintageMarketEffectTypeNameMap[abi:cxx11](void)::m,
@@ -2550,8 +2550,8 @@ const std::map<data::VintageMarketEffectType,std::pair<std::string,std::string >
   v3[536862810] = -202116109;
   v3[536862811] = -202116109;
   v3[536862812] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2724,7 +2724,7 @@ const std::map<data::VintageMarketEffectType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::VintageMarketEffectType,std::pair<std::string,std::string > > >)__PAIR128__(15LL, v1 + 1760),
       (const std::less<data::VintageMarketEffectType> *)(v1 + 48),
       (const std::map<data::VintageMarketEffectType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::VintageMarketEffectType,std::pair<std::string,std::string>>::~map,
       &data::getVintageMarketEffectTypeEnumMap[abi:cxx11](void)::m,
@@ -3115,8 +3115,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m) )
     {
       data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m._M_h._M_bucket_count = 0LL;
@@ -3126,7 +3126,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::VintageStoreDividendResult>::unordered_map(&data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageStoreDividendResult>::~unordered_map,
         &data::enumStrToVal(char const*,data::VintageStoreDividendResult &)::m,
@@ -3392,8 +3392,8 @@ const std::unordered_map<std::string,data::VintageStoreDividendResult> *__cdecl 
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -3431,7 +3431,7 @@ const std::unordered_map<std::string,data::VintageStoreDividendResult> *__cdecl 
       (const std::unordered_map<std::string,data::VintageStoreDividendResult>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::VintageStoreDividendResult>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::VintageStoreDividendResult>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::VintageStoreDividendResult>::~unordered_map,
       &data::getVintageStoreDividendResultNameMap[abi:cxx11](void)::m,
@@ -3505,8 +3505,8 @@ const std::map<data::VintageStoreDividendResult,std::pair<std::string,std::strin
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -3558,7 +3558,7 @@ const std::map<data::VintageStoreDividendResult,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::VintageStoreDividendResult,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::VintageStoreDividendResult> *)(v1 + 32),
       (const std::map<data::VintageStoreDividendResult,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::VintageStoreDividendResult,std::pair<std::string,std::string>>::~map,
       &data::getVintageStoreDividendResultEnumMap[abi:cxx11](void)::m,
@@ -14713,26 +14713,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
                                                                  &boost::asio::error::misc_category,
                                                                  &std::__ioinit);
       boost::asio::error::misc_category = misc_category;
-      v7 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v8 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v7 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v8 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000);
       LOBYTE(v2) = v8 != 0;
-      v9 = (v8 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v8);
+      v9 = (v8 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v8);
       if ( (_BYTE)v9 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v2,
           v9);
       if ( !*v7 )
       {
-        v10 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v11 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v10 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v11 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v2) = v11 != 0;
-        v12 = (v11 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v11);
+        v12 = (v11 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v11);
         if ( (_BYTE)v12 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v2,
             v12);
         *v10 = 1;

@@ -770,15 +770,15 @@ luabind::detail::class_id __fastcall luabind::detail::allocate_class_id(const lu
   std::pair<std::_Rb_tree_iterator<std::pair<const luabind::type_id,long unsigned int> >,bool> v2; // rax
   std::pair<luabind::type_id,long unsigned int> v4; // [rsp+0h] [rbp-18h] BYREF
 
-  if ( !(_BYTE)`guard variable for'luabind::detail::allocate_class_id(luabind::type_id const&)::registered
-    && __cxa_guard_acquire(&`guard variable for'luabind::detail::allocate_class_id(luabind::type_id const&)::registered) )
+  if ( !(_BYTE)`guard variable for luabind::detail::allocate_class_id(luabind::type_id const&)::registered
+    && __cxa_guard_acquire(&`guard variable for luabind::detail::allocate_class_id(luabind::type_id const&)::registered) )
   {
     luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header._M_color = _S_red;
     luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header._M_parent = 0LL;
     luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header._M_left = &luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header;
     luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header._M_right = &luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_header;
     luabind::detail::allocate_class_id(luabind::type_id const&)::registered._M_t._M_impl._M_node_count = 0LL;
-    __cxa_guard_release(&`guard variable for'luabind::detail::allocate_class_id(luabind::type_id const&)::registered);
+    __cxa_guard_release(&`guard variable for luabind::detail::allocate_class_id(luabind::type_id const&)::registered);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<luabind::type_id,unsigned long>::~map,
       &luabind::detail::allocate_class_id(luabind::type_id const&)::registered,

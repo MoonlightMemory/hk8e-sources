@@ -163,8 +163,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfRatingCategory *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -228,7 +228,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfRatingCategory *
         (std::initializer_list<std::pair<const std::string,data::PerfRatingCategory> >)__PAIR128__(8LL, v2 + 384),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::PerfRatingCategory>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PerfRatingCategory>::~map,
         &data::enumStrToVal(std::string const&,data::PerfRatingCategory &)::m,
@@ -543,8 +543,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfConfigPlatform *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -601,7 +601,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfConfigPlatform *
         (std::initializer_list<std::pair<const std::string,data::PerfConfigPlatform> >)__PAIR128__(7LL, v2 + 384),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::PerfConfigPlatform>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PerfConfigPlatform>::~map,
         &data::enumStrToVal(std::string const&,data::PerfConfigPlatform &)::m,
@@ -905,8 +905,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfOptionOverrideRu
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -935,7 +935,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfOptionOverrideRu
         (std::initializer_list<std::pair<const std::string,data::PerfOptionOverrideRule> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::PerfOptionOverrideRule>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m);
       e = (data::PerfOptionOverrideRule *)&data::enumStrToVal(std::string const&,data::PerfOptionOverrideRule &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PerfOptionOverrideRule>::~map,
@@ -1212,8 +1212,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfOptionTextType *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1242,7 +1242,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfOptionTextType *
         (std::initializer_list<std::pair<const std::string,data::PerfOptionTextType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::PerfOptionTextType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m);
       e = (data::PerfOptionTextType *)&data::enumStrToVal(std::string const&,data::PerfOptionTextType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PerfOptionTextType>::~map,
@@ -5273,8 +5273,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfItemValueType *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -5317,7 +5317,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PerfItemValueType *e
         (std::initializer_list<std::pair<const std::string,data::PerfItemValueType> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::PerfItemValueType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m);
       e = (data::PerfItemValueType *)&data::enumStrToVal(std::string const&,data::PerfItemValueType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PerfItemValueType>::~map,

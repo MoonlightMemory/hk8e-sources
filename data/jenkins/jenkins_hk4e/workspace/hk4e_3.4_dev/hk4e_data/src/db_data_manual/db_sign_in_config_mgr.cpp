@@ -1282,11 +1282,11 @@ const std::vector<unsigned int> *__fastcall data::DbSignInConfigMgr::findActiveS
   else
   {
 LABEL_22:
-    if ( !(_BYTE)`guard variable for'data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec
-      && __cxa_guard_acquire(&`guard variable for'data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec) )
+    if ( !(_BYTE)`guard variable for data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec
+      && __cxa_guard_acquire(&`guard variable for data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec) )
     {
       std::vector<unsigned int>::vector(&data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)const::empty_schedue_id_vec);
-      __cxa_guard_release(&`guard variable for'data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec);
+      __cxa_guard_release(&`guard variable for data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)::empty_schedue_id_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         &data::DbSignInConfigMgr::findActiveSignInSchedules(unsigned int)const::empty_schedue_id_vec,
@@ -1360,11 +1360,11 @@ const std::vector<unsigned int> *__fastcall data::DbSignInConfigMgr::findNextSig
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec
-      && __cxa_guard_acquire(&`guard variable for'data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec) )
+    if ( !(_BYTE)`guard variable for data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec
+      && __cxa_guard_acquire(&`guard variable for data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec) )
     {
       std::vector<unsigned int>::vector(&data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)const::empty_schedue_id_vec);
-      __cxa_guard_release(&`guard variable for'data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec);
+      __cxa_guard_release(&`guard variable for data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)::empty_schedue_id_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         &data::DbSignInConfigMgr::findNextSignInSchedules(unsigned int)const::empty_schedue_id_vec,

@@ -2893,12 +2893,12 @@ int32_t __fastcall common::milog::MiLog::writeLog(common::milog::MiLog *const th
   }
   common::milog::MiLog::getLogLevelInfo(this, head->log_level);
   clock_gettime(0, &head->create_time);
-  if ( !`guard variable for'common::milog::gettid(void)::tid[__readfsqword(0)] )
+  if ( !`guard variable for common::milog::gettid(void)::tid[__readfsqword(0)] )
   {
 LABEL_28:
     head = (common::milog::MiLogHead *)syscall(186LL);
     *(_QWORD *)((char *)&common::milog::gettid(void)::tid + __readfsqword(0)) = head;
-    `guard variable for'common::milog::gettid(void)::tid[__readfsqword(0)] = 1;
+    `guard variable for common::milog::gettid(void)::tid[__readfsqword(0)] = 1;
   }
   v11 = *(_QWORD *)((char *)&common::milog::gettid(void)::tid + __readfsqword(0));
   p_tid = (char *)&v4->tid;
@@ -4613,8 +4613,8 @@ const common::milog::LogLevelInfo *__fastcall common::milog::MiLog::getLogLevelI
   *(_DWORD *)(v3 + 2147450880) = -235802127;
   *(_DWORD *)(v3 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = level;
-  if ( !(_BYTE)`guard variable for'common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info
-    && __cxa_guard_acquire(&`guard variable for'common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info) )
+  if ( !(_BYTE)`guard variable for common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info
+    && __cxa_guard_acquire(&`guard variable for common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info) )
   {
     common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.level = 0;
     common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.name._M_dataplus._M_p = common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.name._anon_0._M_local_buf;
@@ -4634,7 +4634,7 @@ const common::milog::LogLevelInfo *__fastcall common::milog::MiLog::getLogLevelI
     common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.tail._anon_0._M_local_buf[0] = 0;
     common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.color = COLOR_DEFAULT;
     common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info.format = LOG_FORMAT_SYSTEM;
-    __cxa_guard_release(&`guard variable for'common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info);
+    __cxa_guard_release(&`guard variable for common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info);
     __cxa_atexit(
       (void (__fastcall *)(void *))common::milog::LogLevelInfo::~LogLevelInfo,
       &common::milog::MiLog::getLogLevelInfo(unsigned int)::default_info,
@@ -5508,9 +5508,9 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
     {
       std::ios_base::Init::Init(&std::__ioinit);
       __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-      if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+      if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       {
-        `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+        `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
         if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) )
         {

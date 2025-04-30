@@ -162,8 +162,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::KeyboardType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::KeyboardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::KeyboardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::KeyboardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::KeyboardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -199,7 +199,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::KeyboardType *e)
         (std::initializer_list<std::pair<const std::string,data::KeyboardType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::KeyboardType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::KeyboardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::KeyboardType &)::m);
       e = (data::KeyboardType *)&data::enumStrToVal(std::string const&,data::KeyboardType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::KeyboardType>::~map,
@@ -483,8 +483,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::InputActionGroupType
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -513,7 +513,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::InputActionGroupType
         (std::initializer_list<std::pair<const std::string,data::InputActionGroupType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::InputActionGroupType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m);
       e = (data::InputActionGroupType *)&data::enumStrToVal(std::string const&,data::InputActionGroupType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::InputActionGroupType>::~map,

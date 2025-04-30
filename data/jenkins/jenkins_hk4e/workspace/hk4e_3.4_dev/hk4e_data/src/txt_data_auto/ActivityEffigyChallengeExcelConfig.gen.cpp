@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::EffigyDifficulty &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::EffigyDifficulty &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::EffigyDifficulty &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::EffigyDifficulty &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -336,7 +336,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::EffigyDifficulty>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::EffigyDifficulty>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::EffigyDifficulty>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::EffigyDifficulty &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::EffigyDifficulty &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::EffigyDifficulty>::~unordered_map,
         &data::enumStrToVal(char const*,data::EffigyDifficulty &)::m,
@@ -631,8 +631,8 @@ const std::unordered_map<std::string,data::EffigyDifficulty> *__cdecl data::getE
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEffigyDifficultyNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEffigyDifficultyNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEffigyDifficultyNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEffigyDifficultyNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -677,7 +677,7 @@ const std::unordered_map<std::string,data::EffigyDifficulty> *__cdecl data::getE
       (const std::unordered_map<std::string,data::EffigyDifficulty>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::EffigyDifficulty>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::EffigyDifficulty>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getEffigyDifficultyNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEffigyDifficultyNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::EffigyDifficulty>::~unordered_map,
       &data::getEffigyDifficultyNameMap[abi:cxx11](void)::m,
@@ -763,8 +763,8 @@ const std::map<data::EffigyDifficulty,std::pair<std::string,std::string >> *__cd
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -827,7 +827,7 @@ const std::map<data::EffigyDifficulty,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::EffigyDifficulty,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::EffigyDifficulty> *)(v1 + 32),
       (const std::map<data::EffigyDifficulty,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::EffigyDifficulty,std::pair<std::string,std::string>>::~map,
       &data::getEffigyDifficultyEnumMap[abi:cxx11](void)::m,
@@ -1178,8 +1178,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::EffigyCondition &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::EffigyCondition &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::EffigyCondition &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::EffigyCondition &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1210,7 +1210,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::EffigyCondition>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::EffigyCondition>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::EffigyCondition>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::EffigyCondition &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::EffigyCondition &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::EffigyCondition>::~unordered_map,
         &data::enumStrToVal(char const*,data::EffigyCondition &)::m,
@@ -1500,8 +1500,8 @@ const std::unordered_map<std::string,data::EffigyCondition> *__cdecl data::getEf
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEffigyConditionNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEffigyConditionNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEffigyConditionNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEffigyConditionNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1539,7 +1539,7 @@ const std::unordered_map<std::string,data::EffigyCondition> *__cdecl data::getEf
       (const std::unordered_map<std::string,data::EffigyCondition>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::EffigyCondition>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::EffigyCondition>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getEffigyConditionNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEffigyConditionNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::EffigyCondition>::~unordered_map,
       &data::getEffigyConditionNameMap[abi:cxx11](void)::m,
@@ -1613,8 +1613,8 @@ const std::map<data::EffigyCondition,std::pair<std::string,std::string >> *__cde
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEffigyConditionEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEffigyConditionEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEffigyConditionEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEffigyConditionEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1666,7 +1666,7 @@ const std::map<data::EffigyCondition,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::EffigyCondition,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::EffigyCondition> *)(v1 + 32),
       (const std::map<data::EffigyCondition,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getEffigyConditionEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEffigyConditionEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::EffigyCondition,std::pair<std::string,std::string>>::~map,
       &data::getEffigyConditionEnumMap[abi:cxx11](void)::m,

@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FishStockType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FishStockType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FishStockType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FishStockType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::FishStockType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::FishStockType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::FishStockType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FishStockType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FishStockType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishStockType>::~unordered_map,
         &data::enumStrToVal(char const*,data::FishStockType &)::m,
@@ -624,8 +624,8 @@ const std::unordered_map<std::string,data::FishStockType> *__cdecl data::getFish
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishStockTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishStockTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishStockTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishStockTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -663,7 +663,7 @@ const std::unordered_map<std::string,data::FishStockType> *__cdecl data::getFish
       (const std::unordered_map<std::string,data::FishStockType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::FishStockType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::FishStockType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getFishStockTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishStockTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishStockType>::~unordered_map,
       &data::getFishStockTypeNameMap[abi:cxx11](void)::m,
@@ -737,8 +737,8 @@ const std::map<data::FishStockType,std::pair<std::string,std::string >> *__cdecl
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishStockTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishStockTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishStockTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishStockTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -790,7 +790,7 @@ const std::map<data::FishStockType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::FishStockType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::FishStockType> *)(v1 + 32),
       (const std::map<data::FishStockType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getFishStockTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishStockTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FishStockType,std::pair<std::string,std::string>>::~map,
       &data::getFishStockTypeEnumMap[abi:cxx11](void)::m,
@@ -1149,8 +1149,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FishSkillType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FishSkillType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FishSkillType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FishSkillType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1181,7 +1181,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::FishSkillType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::FishSkillType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::FishSkillType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FishSkillType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FishSkillType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishSkillType>::~unordered_map,
         &data::enumStrToVal(char const*,data::FishSkillType &)::m,
@@ -1471,8 +1471,8 @@ const std::unordered_map<std::string,data::FishSkillType> *__cdecl data::getFish
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishSkillTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishSkillTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishSkillTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishSkillTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1510,7 +1510,7 @@ const std::unordered_map<std::string,data::FishSkillType> *__cdecl data::getFish
       (const std::unordered_map<std::string,data::FishSkillType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::FishSkillType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::FishSkillType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getFishSkillTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishSkillTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishSkillType>::~unordered_map,
       &data::getFishSkillTypeNameMap[abi:cxx11](void)::m,
@@ -1584,8 +1584,8 @@ const std::map<data::FishSkillType,std::pair<std::string,std::string >> *__cdecl
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishSkillTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishSkillTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishSkillTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishSkillTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1637,7 +1637,7 @@ const std::map<data::FishSkillType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::FishSkillType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::FishSkillType> *)(v1 + 32),
       (const std::map<data::FishSkillType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getFishSkillTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishSkillTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FishSkillType,std::pair<std::string,std::string>>::~map,
       &data::getFishSkillTypeEnumMap[abi:cxx11](void)::m,
@@ -2001,8 +2001,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FishSkillCategory &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FishSkillCategory &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FishSkillCategory &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FishSkillCategory &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2026,7 +2026,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::FishSkillCategory>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::FishSkillCategory>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::FishSkillCategory>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FishSkillCategory &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FishSkillCategory &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishSkillCategory>::~unordered_map,
         &data::enumStrToVal(char const*,data::FishSkillCategory &)::m,
@@ -2311,8 +2311,8 @@ const std::unordered_map<std::string,data::FishSkillCategory> *__cdecl data::get
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishSkillCategoryNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishSkillCategoryNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishSkillCategoryNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishSkillCategoryNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2343,7 +2343,7 @@ const std::unordered_map<std::string,data::FishSkillCategory> *__cdecl data::get
       (const std::unordered_map<std::string,data::FishSkillCategory>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::FishSkillCategory>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::FishSkillCategory>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFishSkillCategoryNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishSkillCategoryNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FishSkillCategory>::~unordered_map,
       &data::getFishSkillCategoryNameMap[abi:cxx11](void)::m,
@@ -2415,8 +2415,8 @@ const std::map<data::FishSkillCategory,std::pair<std::string,std::string >> *__c
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2457,7 +2457,7 @@ const std::map<data::FishSkillCategory,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::FishSkillCategory,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::FishSkillCategory> *)(v1 + 48),
       (const std::map<data::FishSkillCategory,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FishSkillCategory,std::pair<std::string,std::string>>::~map,
       &data::getFishSkillCategoryEnumMap[abi:cxx11](void)::m,

@@ -693,11 +693,11 @@ bool __cdecl overrideDefault(Json::Value *jval)
 // Line 138: range 000000000CCEF853-000000000CCEF8B9
 std::map<int,std::any> *__cdecl getEmptyAnyMap()
 {
-  if ( !(_BYTE)`guard variable for'getEmptyAnyMap(void)::empty_any_map
-    && __cxa_guard_acquire(&`guard variable for'getEmptyAnyMap(void)::empty_any_map) )
+  if ( !(_BYTE)`guard variable for getEmptyAnyMap(void)::empty_any_map
+    && __cxa_guard_acquire(&`guard variable for getEmptyAnyMap(void)::empty_any_map) )
   {
     std::map<int,std::any>::map(&getEmptyAnyMap(void)::empty_any_map);
-    __cxa_guard_release(&`guard variable for'getEmptyAnyMap(void)::empty_any_map);
+    __cxa_guard_release(&`guard variable for getEmptyAnyMap(void)::empty_any_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<int,std::any>::~map,
       &getEmptyAnyMap(void)::empty_any_map,

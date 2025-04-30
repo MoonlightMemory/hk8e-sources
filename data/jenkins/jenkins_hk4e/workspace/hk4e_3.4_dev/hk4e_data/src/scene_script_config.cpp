@@ -6986,11 +6986,11 @@ const std::unordered_set<unsigned int> *__fastcall SceneScriptConfig::getRegionV
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)source_vision_type;
-  if ( !(_BYTE)`guard variable for'SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)::empty_set);
     source_vision_type = &SceneScriptConfig::getRegionVisonTypeExcludeSet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,

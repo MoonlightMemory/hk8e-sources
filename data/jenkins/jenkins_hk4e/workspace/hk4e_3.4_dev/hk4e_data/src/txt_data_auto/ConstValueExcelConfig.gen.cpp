@@ -490,8 +490,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 6240) = s;
   if ( *(_QWORD *)(v2 + 6240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ConstValueType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ConstValueType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ConstValueType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ConstValueType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -3154,7 +3154,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ConstValueType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ConstValueType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ConstValueType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ConstValueType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ConstValueType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ConstValueType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ConstValueType &)::m,
@@ -4004,8 +4004,8 @@ const std::unordered_map<std::string,data::ConstValueType> *__cdecl data::getCon
   v3[536863391] = -202116109;
   v3[536863392] = -202116109;
   v3[536863393] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getConstValueTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getConstValueTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getConstValueTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getConstValueTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6668,7 +6668,7 @@ const std::unordered_map<std::string,data::ConstValueType> *__cdecl data::getCon
       (const std::unordered_map<std::string,data::ConstValueType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ConstValueType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ConstValueType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getConstValueTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getConstValueTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ConstValueType>::~unordered_map,
       &data::getConstValueTypeNameMap[abi:cxx11](void)::m,
@@ -8330,26 +8330,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
                                                                  &boost::asio::error::misc_category,
                                                                  &data::ConfigWidgetCoinCollectFactory::instance_ptr);
       boost::asio::error::misc_category = misc_category;
-      v24 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v25 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v24 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v25 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v19) = v25 != 0;
-      v26 = (v25 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v25);
+      v26 = (v25 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v25);
       if ( (_BYTE)v26 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v19,
           v26);
       if ( !*v24 )
       {
-        v27 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v28 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v27 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v28 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v19) = v28 != 0;
-        v29 = (v28 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v28);
+        v29 = (v28 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v28);
         if ( (_BYTE)v29 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v19,
             v29);
         *v27 = 1;

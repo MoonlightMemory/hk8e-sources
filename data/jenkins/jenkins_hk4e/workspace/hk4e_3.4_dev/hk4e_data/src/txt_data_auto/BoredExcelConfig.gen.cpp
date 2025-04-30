@@ -307,8 +307,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 304) = s;
   if ( *(_QWORD *)(v2 + 304) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BoardEventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BoardEventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BoardEventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BoardEventType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -381,7 +381,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BoardEventType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::BoardEventType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::BoardEventType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BoardEventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BoardEventType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BoardEventType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BoardEventType &)::m,
@@ -678,8 +678,8 @@ const std::unordered_map<std::string,data::BoardEventType> *__cdecl data::getBoa
   v3[536862738] = -218103808;
   v3[536862739] = -202116109;
   v3[536862740] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBoardEventTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBoardEventTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBoardEventTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBoardEventTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -752,7 +752,7 @@ const std::unordered_map<std::string,data::BoardEventType> *__cdecl data::getBoa
       (const std::unordered_map<std::string,data::BoardEventType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::BoardEventType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::BoardEventType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getBoardEventTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBoardEventTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BoardEventType>::~unordered_map,
       &data::getBoardEventTypeNameMap[abi:cxx11](void)::m,
@@ -857,8 +857,8 @@ const std::map<data::BoardEventType,std::pair<std::string,std::string >> *__cdec
   v3[536862775] = -202116109;
   v3[536862776] = -202116109;
   v3[536862777] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBoardEventTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBoardEventTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBoardEventTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBoardEventTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -965,7 +965,7 @@ const std::map<data::BoardEventType,std::pair<std::string,std::string >> *__cdec
       (std::initializer_list<std::pair<const data::BoardEventType,std::pair<std::string,std::string > > >)__PAIR128__(9LL, v1 + 1072),
       (const std::less<data::BoardEventType> *)(v1 + 32),
       (const std::map<data::BoardEventType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getBoardEventTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBoardEventTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BoardEventType,std::pair<std::string,std::string>>::~map,
       &data::getBoardEventTypeEnumMap[abi:cxx11](void)::m,
@@ -1336,8 +1336,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::BoredActionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::BoredActionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::BoredActionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::BoredActionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1375,7 +1375,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::BoredActionType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::BoredActionType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::BoredActionType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::BoredActionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::BoredActionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::BoredActionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::BoredActionType &)::m,
@@ -1668,8 +1668,8 @@ const std::unordered_map<std::string,data::BoredActionType> *__cdecl data::getBo
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBoredActionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBoredActionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBoredActionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBoredActionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1707,7 +1707,7 @@ const std::unordered_map<std::string,data::BoredActionType> *__cdecl data::getBo
       (const std::unordered_map<std::string,data::BoredActionType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::BoredActionType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::BoredActionType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getBoredActionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBoredActionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::BoredActionType>::~unordered_map,
       &data::getBoredActionTypeNameMap[abi:cxx11](void)::m,
@@ -1781,8 +1781,8 @@ const std::map<data::BoredActionType,std::pair<std::string,std::string >> *__cde
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getBoredActionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getBoredActionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getBoredActionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getBoredActionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1834,7 +1834,7 @@ const std::map<data::BoredActionType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::BoredActionType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::BoredActionType> *)(v1 + 32),
       (const std::map<data::BoredActionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getBoredActionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getBoredActionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::BoredActionType,std::pair<std::string,std::string>>::~map,
       &data::getBoredActionTypeEnumMap[abi:cxx11](void)::m,

@@ -587,11 +587,11 @@ bool __cdecl std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,fals
         const std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false> *const this,
         std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::_CharT __ch)
 {
-  if ( !(_BYTE)`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul
-    && __cxa_guard_acquire(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul) )
+  if ( !(_BYTE)`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul
+    && __cxa_guard_acquire(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul) )
   {
     std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)const::__nul[0] = std::__detail::_RegexTranslator<std::regex_traits<char>,false,false>::_M_translate(&this->_M_translator, 0);
-    __cxa_guard_release(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul);
+    __cxa_guard_release(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)::__nul);
   }
   return std::__detail::_RegexTranslator<std::regex_traits<char>,false,false>::_M_translate(&this->_M_translator, __ch) != std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,false>::operator()(char)const::__nul[0];
 };
@@ -601,11 +601,11 @@ bool __cdecl std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true
         const std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true> *const this,
         std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::_CharT __ch)
 {
-  if ( !(_BYTE)`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul
-    && __cxa_guard_acquire(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul) )
+  if ( !(_BYTE)`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul
+    && __cxa_guard_acquire(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul) )
   {
     std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)const::__nul[0] = std::__detail::_RegexTranslatorBase<std::regex_traits<char>,false,true>::_M_translate(&this->_M_translator, 0);
-    __cxa_guard_release(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul);
+    __cxa_guard_release(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,false,true>::operator()(char)::__nul);
   }
   return std::__detail::_RegexTranslatorBase<std::regex_traits<char>,false,true>::_M_translate(
            &this->_M_translator,
@@ -617,11 +617,11 @@ bool __cdecl std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false
         const std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false> *const this,
         std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::_CharT __ch)
 {
-  if ( !(_BYTE)`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul
-    && __cxa_guard_acquire(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul) )
+  if ( !(_BYTE)`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul
+    && __cxa_guard_acquire(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul) )
   {
     std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)const::__nul[0] = std::__detail::_RegexTranslatorBase<std::regex_traits<char>,true,false>::_M_translate(&this->_M_translator, 0);
-    __cxa_guard_release(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul);
+    __cxa_guard_release(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,false>::operator()(char)::__nul);
   }
   return std::__detail::_RegexTranslatorBase<std::regex_traits<char>,true,false>::_M_translate(
            &this->_M_translator,
@@ -633,11 +633,11 @@ bool __cdecl std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>
         const std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true> *const this,
         std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::_CharT __ch)
 {
-  if ( !(_BYTE)`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul
-    && __cxa_guard_acquire(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul) )
+  if ( !(_BYTE)`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul
+    && __cxa_guard_acquire(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul) )
   {
     std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)const::__nul[0] = std::__detail::_RegexTranslatorBase<std::regex_traits<char>,true,true>::_M_translate(&this->_M_translator, 0);
-    __cxa_guard_release(&`guard variable for'std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul);
+    __cxa_guard_release(&`guard variable for std::__detail::_AnyMatcher<std::regex_traits<char>,false,true,true>::operator()(char)::__nul);
   }
   return std::__detail::_RegexTranslatorBase<std::regex_traits<char>,true,true>::_M_translate(
            &this->_M_translator,

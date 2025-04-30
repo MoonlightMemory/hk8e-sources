@@ -6861,11 +6861,11 @@ const std::set<data::GCGTagType> *__fastcall GCGGameExcelConfigMgr::getCardTagSe
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)card_id;
-  if ( !(_BYTE)`guard variable for'GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set
-    && __cxa_guard_acquire(&`guard variable for'GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set) )
+  if ( !(_BYTE)`guard variable for GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set
+    && __cxa_guard_acquire(&`guard variable for GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set) )
   {
     std::set<data::GCGTagType>::set((std::set<data::GCGTagType> *const)&GCGGameExcelConfigMgr::getCardTagSet(unsigned int)const::temp_tag_set);
-    __cxa_guard_release(&`guard variable for'GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set);
+    __cxa_guard_release(&`guard variable for GCGGameExcelConfigMgr::getCardTagSet(unsigned int)::temp_tag_set);
     card_id = &GCGGameExcelConfigMgr::getCardTagSet(unsigned int)const::temp_tag_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<data::GCGTagType>::~set,

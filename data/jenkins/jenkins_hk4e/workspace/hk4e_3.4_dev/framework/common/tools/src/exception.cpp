@@ -320,16 +320,16 @@ void __fastcall __noreturn _cxa_throw(void *a1, struct type_info *lptinfo, void 
   }
   v14 = (void **)((char *)MiException::last_frames + __readfsqword(0));
   *(size_t *)((char *)&MiException::last_size + __readfsqword(0)) = backtrace(v14, 30);
-  if ( !(_BYTE)`guard variable for'__cxa_throw::rethrow )
+  if ( !(_BYTE)`guard variable for __cxa_throw::rethrow )
   {
-    v14 = (void **)&`guard variable for'__cxa_throw::rethrow;
-    if ( __cxa_guard_acquire(&`guard variable for'__cxa_throw::rethrow) )
+    v14 = (void **)&`guard variable for __cxa_throw::rethrow;
+    if ( __cxa_guard_acquire(&`guard variable for __cxa_throw::rethrow) )
     {
       __cxa_throw::rethrow = (void (*const)(void *, void *, void (*)(void *)) volatile)dlsym(
                                                                                          (void *)0xFFFFFFFFFFFFFFFFLL,
                                                                                          "__cxa_throw");
-      v14 = (void **)&`guard variable for'__cxa_throw::rethrow;
-      __cxa_guard_release(&`guard variable for'__cxa_throw::rethrow);
+      v14 = (void **)&`guard variable for __cxa_throw::rethrow;
+      __cxa_guard_release(&`guard variable for __cxa_throw::rethrow);
     }
   }
   v15 = __cxa_throw::rethrow;

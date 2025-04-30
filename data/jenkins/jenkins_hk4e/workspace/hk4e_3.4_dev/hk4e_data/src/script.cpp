@@ -975,14 +975,14 @@ luabind::adl::object __cdecl LuaScript::loadLuaFileAsModule(
   v8[536862792] = -202116109;
   v8[536862793] = -202116109;
   v8[536862794] = -202116109;
-  if ( !(_BYTE)`guard variable for'LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require
-    && __cxa_guard_acquire(&`guard variable for'LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require) )
+  if ( !(_BYTE)`guard variable for LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require
+    && __cxa_guard_acquire(&`guard variable for LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require) )
   {
     std::basic_regex<char,std::regex_traits<char>>::basic_regex(
       (std::basic_regex<char,std::regex_traits<char> > *const)&LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require,
       "require\\s*\"(.*)\"",
       (std::basic_regex<char,std::regex_traits<char> >::flag_type)16);
-    __cxa_guard_release(&`guard variable for'LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require);
+    __cxa_guard_release(&`guard variable for LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::basic_regex<char,std::regex_traits<char>>::~basic_regex,
       (void *)&LuaScript::loadLuaFileAsModule(lua_State *,std::string const&,std::string&,LuaConfigMgr const&,std::map<unsigned int,std::string> &)::require,

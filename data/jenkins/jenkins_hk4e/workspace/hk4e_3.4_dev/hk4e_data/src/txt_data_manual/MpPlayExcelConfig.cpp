@@ -4875,11 +4875,11 @@ const std::vector<unsigned int> *__fastcall MpPlayExcelConfigMgr::getBattleWatch
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)mp_play_id;
-  if ( !(_BYTE)`guard variable for'MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec) )
+  if ( !(_BYTE)`guard variable for MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)const::empty_vec);
-    __cxa_guard_release(&`guard variable for'MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec);
+    __cxa_guard_release(&`guard variable for MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)::empty_vec);
     mp_play_id = &MpPlayExcelConfigMgr::getBattleWatcherIdByMpPlayId(unsigned int)const::empty_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
@@ -5023,11 +5023,11 @@ const std::unordered_set<unsigned int> *__fastcall MpPlayExcelConfigMgr::getBatt
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)mp_play_id;
-  if ( !(_BYTE)`guard variable for'MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set(&MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)::empty_set);
     mp_play_id = &MpPlayExcelConfigMgr::getBattleStatisticIdByMpPlayId(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,

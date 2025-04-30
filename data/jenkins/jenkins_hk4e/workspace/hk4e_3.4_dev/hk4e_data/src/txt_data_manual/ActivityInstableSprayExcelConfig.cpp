@@ -880,10 +880,10 @@ int32_t __cdecl ActivityInstableSprayExcelConfigMgr::rewriteConfig(
 const data::InstableSprayOverallExcelConfig *__cdecl ActivityInstableSprayExcelConfigMgr::getOverallConfig(
         const ActivityInstableSprayExcelConfigMgr *const this)
 {
-  if ( !(_BYTE)`guard variable for'ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy
-    && __cxa_guard_acquire(&`guard variable for'ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy) )
+  if ( !(_BYTE)`guard variable for ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy
+    && __cxa_guard_acquire(&`guard variable for ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy) )
   {
-    __cxa_guard_release(&`guard variable for'ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy);
+    __cxa_guard_release(&`guard variable for ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)::dummy);
     __cxa_atexit(
       (void (__fastcall *)(void *))data::InstableSprayOverallExcelConfig::~InstableSprayOverallExcelConfig,
       (void *)&ActivityInstableSprayExcelConfigMgr::getOverallConfig(void)const::dummy,

@@ -163,8 +163,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigWeatherType *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -228,7 +228,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigWeatherType *e
         (std::initializer_list<std::pair<const std::string,data::ConfigWeatherType> >)__PAIR128__(8LL, v2 + 384),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ConfigWeatherType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ConfigWeatherType>::~map,
         &data::enumStrToVal(std::string const&,data::ConfigWeatherType &)::m,
@@ -541,8 +541,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElemBallTriggerType 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -585,7 +585,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElemBallTriggerType 
         (std::initializer_list<std::pair<const std::string,data::ElemBallTriggerType> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ElemBallTriggerType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m);
       e = (data::ElemBallTriggerType *)&data::enumStrToVal(std::string const&,data::ElemBallTriggerType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ElemBallTriggerType>::~map,
@@ -2294,8 +2294,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigWeatherEffectC
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -2340,7 +2340,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigWeatherEffectC
                                                                                                      v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ConfigWeatherEffectControlType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m);
       e = (data::ConfigWeatherEffectControlType *)&data::enumStrToVal(std::string const&,data::ConfigWeatherEffectControlType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ConfigWeatherEffectControlType>::~map,

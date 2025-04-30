@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityBannerType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityBannerType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityBannerType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityBannerType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityBannerType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityBannerType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ActivityBannerType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityBannerType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityBannerType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityBannerType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityBannerType &)::m,
@@ -617,8 +617,8 @@ const std::unordered_map<std::string,data::ActivityBannerType> *__cdecl data::ge
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityBannerTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityBannerTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityBannerTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityBannerTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -649,7 +649,7 @@ const std::unordered_map<std::string,data::ActivityBannerType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::ActivityBannerType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ActivityBannerType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityBannerType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityBannerTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityBannerTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityBannerType>::~unordered_map,
       &data::getActivityBannerTypeNameMap[abi:cxx11](void)::m,
@@ -721,8 +721,8 @@ const std::map<data::ActivityBannerType,std::pair<std::string,std::string >> *__
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -763,7 +763,7 @@ const std::map<data::ActivityBannerType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::ActivityBannerType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ActivityBannerType> *)(v1 + 48),
       (const std::map<data::ActivityBannerType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityBannerType,std::pair<std::string,std::string>>::~map,
       &data::getActivityBannerTypeEnumMap[abi:cxx11](void)::m,

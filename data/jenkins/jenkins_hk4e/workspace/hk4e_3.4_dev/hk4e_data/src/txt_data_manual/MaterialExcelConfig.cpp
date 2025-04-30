@@ -3094,8 +3094,8 @@ LABEL_33:
       }
       if ( !material_config->stack_limit )
       {
-        if ( !(_BYTE)`guard variable for'MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec
-          && __cxa_guard_acquire(&`guard variable for'MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec) )
+        if ( !(_BYTE)`guard variable for MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec
+          && __cxa_guard_acquire(&`guard variable for MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec) )
         {
           *(_DWORD *)(((v2 + 320) >> 3) + 0x7FFF8000) = 0x4000000;
           if ( *(_BYTE *)(((v2 + 320) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 320) >> 3) + 0x7FFF8000) <= 3 )
@@ -3137,7 +3137,7 @@ LABEL_33:
             &MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)const::legacy_deprecated_material_id_vec,
             (std::initializer_list<unsigned int>)__PAIR128__(7LL, v2 + 320),
             (const std::vector<unsigned int>::allocator_type *)(v2 + 32));
-          __cxa_guard_release(&`guard variable for'MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec);
+          __cxa_guard_release(&`guard variable for MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)::legacy_deprecated_material_id_vec);
           __cxa_atexit(
             (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
             &MaterialExcelConfigMgr::checkMaterialExcelConfig(TxtConfigMgr const&)const::legacy_deprecated_material_id_vec,

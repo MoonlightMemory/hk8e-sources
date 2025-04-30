@@ -2424,8 +2424,8 @@ void __cdecl GCGCard::assignElementTypeByTagset(GCGCard *const this)
   v3[536862720] = -235802127;
   v3[536862721] = -234556943;
   v3[536862722] = -202116352;
-  if ( !(_BYTE)`guard variable for'GCGCard::assignElementTypeByTagset(void)::tag_to_element_map
-    && __cxa_guard_acquire(&`guard variable for'GCGCard::assignElementTypeByTagset(void)::tag_to_element_map) )
+  if ( !(_BYTE)`guard variable for GCGCard::assignElementTypeByTagset(void)::tag_to_element_map
+    && __cxa_guard_acquire(&`guard variable for GCGCard::assignElementTypeByTagset(void)::tag_to_element_map) )
   {
     __l._M_array = (std::initializer_list<std::pair<const data::GCGTagType,data::GCGEffectElementType> >::iterator)0x10000012DLL;
     __l._M_len = 0x20000012ELL;
@@ -2442,7 +2442,7 @@ void __cdecl GCGCard::assignElementTypeByTagset(GCGCard *const this)
       &__hf,
       &__eql,
       &__a);
-    __cxa_guard_release(&`guard variable for'GCGCard::assignElementTypeByTagset(void)::tag_to_element_map);
+    __cxa_guard_release(&`guard variable for GCGCard::assignElementTypeByTagset(void)::tag_to_element_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<data::GCGTagType,data::GCGEffectElementType>::~unordered_map,
       &GCGCard::assignElementTypeByTagset(void)::tag_to_element_map,

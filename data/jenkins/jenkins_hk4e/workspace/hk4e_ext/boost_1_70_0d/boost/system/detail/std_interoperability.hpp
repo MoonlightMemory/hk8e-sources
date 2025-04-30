@@ -449,11 +449,11 @@ const std::_V2::error_category *__cdecl boost::system::detail::to_std_category(
   v3[536862721] = -218959360;
   v3[536862722] = -218959360;
   v3[536862723] = -202178560;
-  if ( !(_BYTE)`guard variable for'boost::system::detail::to_std_category(boost::system::error_category const&)::map_
-    && __cxa_guard_acquire(&`guard variable for'boost::system::detail::to_std_category(boost::system::error_category const&)::map_) )
+  if ( !(_BYTE)`guard variable for boost::system::detail::to_std_category(boost::system::error_category const&)::map_
+    && __cxa_guard_acquire(&`guard variable for boost::system::detail::to_std_category(boost::system::error_category const&)::map_) )
   {
     std::map<boost::system::error_category const*,std::unique_ptr<boost::system::detail::std_category>>::map(&boost::system::detail::to_std_category(boost::system::error_category const&)::map_);
-    __cxa_guard_release(&`guard variable for'boost::system::detail::to_std_category(boost::system::error_category const&)::map_);
+    __cxa_guard_release(&`guard variable for boost::system::detail::to_std_category(boost::system::error_category const&)::map_);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<boost::system::error_category const*,std::unique_ptr<boost::system::detail::std_category>>::~map,
       &boost::system::detail::to_std_category(boost::system::error_category const&)::map_,

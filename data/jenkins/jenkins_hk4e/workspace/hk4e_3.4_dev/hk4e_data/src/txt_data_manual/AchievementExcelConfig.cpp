@@ -1557,11 +1557,11 @@ const std::unordered_set<unsigned int> *__fastcall AchievementExcelConfigMgr::ge
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)goal_id;
-  if ( !(_BYTE)`guard variable for'AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set
-    && __cxa_guard_acquire(&`guard variable for'AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set) )
+  if ( !(_BYTE)`guard variable for AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set
+    && __cxa_guard_acquire(&`guard variable for AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)const::dummy_set);
-    __cxa_guard_release(&`guard variable for'AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set);
+    __cxa_guard_release(&`guard variable for AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)::dummy_set);
     goal_id = &AchievementExcelConfigMgr::getAchievementSetByGoalId(unsigned int)const::dummy_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -1703,11 +1703,11 @@ const std::unordered_set<unsigned int> *__fastcall AchievementExcelConfigMgr::ge
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)id;
-  if ( !(_BYTE)`guard variable for'AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set
-    && __cxa_guard_acquire(&`guard variable for'AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set) )
+  if ( !(_BYTE)`guard variable for AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set
+    && __cxa_guard_acquire(&`guard variable for AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)const::dummy_set);
-    __cxa_guard_release(&`guard variable for'AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set);
+    __cxa_guard_release(&`guard variable for AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)::dummy_set);
     id = &AchievementExcelConfigMgr::getAchievementSetByWatcherId(unsigned int)const::dummy_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,

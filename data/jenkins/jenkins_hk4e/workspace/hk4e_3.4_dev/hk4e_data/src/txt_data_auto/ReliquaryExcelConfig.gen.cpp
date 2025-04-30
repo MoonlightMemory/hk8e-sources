@@ -303,8 +303,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 352) = s;
   if ( *(_QWORD *)(v2 + 352) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -398,7 +398,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReliquaryMainAffixName>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReliquaryMainAffixName &)::m,
@@ -701,8 +701,8 @@ const std::unordered_map<std::string,data::ReliquaryMainAffixName> *__cdecl data
   v3[536862747] = -202116109;
   v3[536862748] = -202116109;
   v3[536862749] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -803,7 +803,7 @@ const std::unordered_map<std::string,data::ReliquaryMainAffixName> *__cdecl data
       (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ReliquaryMainAffixName>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReliquaryMainAffixName>::~unordered_map,
       &data::getReliquaryMainAffixNameNameMap[abi:cxx11](void)::m,
@@ -928,8 +928,8 @@ const std::map<data::ReliquaryMainAffixName,std::pair<std::string,std::string >>
   v3[536862798] = -202116109;
   v3[536862799] = -202116109;
   v3[536862800] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1080,7 +1080,7 @@ const std::map<data::ReliquaryMainAffixName,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::ReliquaryMainAffixName,std::pair<std::string,std::string > > >)__PAIR128__(13LL, v1 + 1520),
       (const std::less<data::ReliquaryMainAffixName> *)(v1 + 32),
       (const std::map<data::ReliquaryMainAffixName,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReliquaryMainAffixName,std::pair<std::string,std::string>>::~map,
       &data::getReliquaryMainAffixNameEnumMap[abi:cxx11](void)::m,

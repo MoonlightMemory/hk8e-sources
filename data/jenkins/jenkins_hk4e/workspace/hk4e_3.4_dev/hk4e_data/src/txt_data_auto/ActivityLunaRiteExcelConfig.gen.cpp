@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::LunaRiteRegionType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::LunaRiteRegionType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::LunaRiteRegionType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::LunaRiteRegionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::LunaRiteRegionType &)::m,
@@ -619,8 +619,8 @@ const std::unordered_map<std::string,data::LunaRiteRegionType> *__cdecl data::ge
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::LunaRiteRegionType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::LunaRiteRegionType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::LunaRiteRegionType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::LunaRiteRegionType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::LunaRiteRegionType>::~unordered_map,
       &data::getLunaRiteRegionTypeNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::LunaRiteRegionType,std::pair<std::string,std::string >> *__
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::LunaRiteRegionType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::LunaRiteRegionType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::LunaRiteRegionType> *)(v1 + 32),
       (const std::map<data::LunaRiteRegionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::LunaRiteRegionType,std::pair<std::string,std::string>>::~map,
       &data::getLunaRiteRegionTypeEnumMap[abi:cxx11](void)::m,

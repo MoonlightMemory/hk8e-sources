@@ -375,11 +375,11 @@ const std::vector<unsigned int> *__fastcall CatalogExcelConfigMgr::getCollection
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)collection_type;
-  if ( !(_BYTE)`guard variable for'CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec) )
+  if ( !(_BYTE)`guard variable for CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)const::empty_vec);
-    __cxa_guard_release(&`guard variable for'CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec);
+    __cxa_guard_release(&`guard variable for CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)::empty_vec);
     collection_type = &CatalogExcelConfigMgr::getCollectionIdVecByType(unsigned int)const::empty_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,

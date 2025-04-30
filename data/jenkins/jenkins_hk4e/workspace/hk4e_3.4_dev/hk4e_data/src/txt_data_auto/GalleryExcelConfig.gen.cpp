@@ -345,8 +345,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 1072) = s;
   if ( *(_QWORD *)(v2 + 1072) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GalleryType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GalleryType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GalleryType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GalleryType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -755,7 +755,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GalleryType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GalleryType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GalleryType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GalleryType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GalleryType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GalleryType &)::m,
@@ -1123,8 +1123,8 @@ const std::unordered_map<std::string,data::GalleryType> *__cdecl data::getGaller
   v3[536862825] = -202116109;
   v3[536862826] = -202116109;
   v3[536862827] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1540,7 +1540,7 @@ const std::unordered_map<std::string,data::GalleryType> *__cdecl data::getGaller
       (const std::unordered_map<std::string,data::GalleryType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GalleryType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GalleryType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryType>::~unordered_map,
       &data::getGalleryTypeNameMap[abi:cxx11](void)::m,
@@ -1830,8 +1830,8 @@ const std::map<data::GalleryType,std::pair<std::string,std::string >> *__cdecl d
   v3[536863061] = -202116109;
   v3[536863062] = -202116109;
   v3[536863063] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2477,7 +2477,7 @@ const std::map<data::GalleryType,std::pair<std::string,std::string >> *__cdecl d
       (std::initializer_list<std::pair<const data::GalleryType,std::pair<std::string,std::string > > >)__PAIR128__(58LL, v1 + 6576),
       (const std::less<data::GalleryType> *)(v1 + 48),
       (const std::map<data::GalleryType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GalleryType,std::pair<std::string,std::string>>::~map,
       &data::getGalleryTypeEnumMap[abi:cxx11](void)::m,

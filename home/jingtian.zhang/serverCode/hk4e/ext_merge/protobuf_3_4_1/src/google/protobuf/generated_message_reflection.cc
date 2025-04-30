@@ -11072,8 +11072,8 @@ void __fastcall google::protobuf::internal::`anonymous namespace'::MetadataOwner
   unsigned __int64 i; // rbx
   __int64 v6; // r8
 
-  if ( (_BYTE)`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res
-    || !__cxa_guard_acquire(&`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res) )
+  if ( (_BYTE)`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res
+    || !__cxa_guard_acquire(&`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res) )
   {
     v2 = google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res;
     if ( !google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res )
@@ -11090,7 +11090,7 @@ void __fastcall google::protobuf::internal::`anonymous namespace'::MetadataOwner
       (google::protobuf::internal *)google::protobuf::internal::`anonymous namespace'::MetadataOwner::DeleteMetadata,
       a2);
     google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res = v2;
-    __cxa_guard_release(&`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res);
+    __cxa_guard_release(&`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res);
   }
   mInternal = v2[1].mInternal;
   if ( v2[2].mInternal != mInternal )
@@ -11302,8 +11302,8 @@ LABEL_3:
       while ( v13 != v31 );
     }
   }
-  if ( (_BYTE)`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res
-    || !__cxa_guard_acquire(&`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res) )
+  if ( (_BYTE)`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res
+    || !__cxa_guard_acquire(&`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res) )
   {
     v33 = google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res;
   }
@@ -11318,7 +11318,7 @@ LABEL_3:
       (google::protobuf::internal *)google::protobuf::internal::`anonymous namespace'::MetadataOwner::DeleteMetadata,
       (void (*)(void))v13);
     google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res = v33;
-    __cxa_guard_release(&`guard variable for'google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res);
+    __cxa_guard_release(&`guard variable for google::protobuf::internal::`anonymous namespace'::MetadataOwner::Instance(void)::res);
   }
   v34 = v47;
   google::protobuf::internal::Mutex::Lock(v33);

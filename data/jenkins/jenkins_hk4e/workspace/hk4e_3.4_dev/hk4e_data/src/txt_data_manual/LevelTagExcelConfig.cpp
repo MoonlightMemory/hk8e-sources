@@ -3764,11 +3764,11 @@ const std::vector<unsigned int> *__fastcall LevelTagExcelConfigMgr::getRelatedGr
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec
-      && __cxa_guard_acquire(&`guard variable for'LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec) )
+    if ( !(_BYTE)`guard variable for LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec
+      && __cxa_guard_acquire(&`guard variable for LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec) )
     {
       std::vector<unsigned int>::vector((std::vector<unsigned int> *const)&LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)const::empty_vec);
-      __cxa_guard_release(&`guard variable for'LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec);
+      __cxa_guard_release(&`guard variable for LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)::empty_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         (void *)&LevelTagExcelConfigMgr::getRelatedGroupIdVec(unsigned int)const::empty_vec,
@@ -3840,11 +3840,11 @@ const std::vector<unsigned int> *__fastcall LevelTagExcelConfigMgr::getLevelTagR
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec
-      && __cxa_guard_acquire(&`guard variable for'LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec) )
+    if ( !(_BYTE)`guard variable for LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec
+      && __cxa_guard_acquire(&`guard variable for LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec) )
     {
       std::vector<unsigned int>::vector((std::vector<unsigned int> *const)&LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)const::empty_vec);
-      __cxa_guard_release(&`guard variable for'LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec);
+      __cxa_guard_release(&`guard variable for LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)::empty_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         (void *)&LevelTagExcelConfigMgr::getLevelTagResetSeriesIdVec(unsigned int)const::empty_vec,

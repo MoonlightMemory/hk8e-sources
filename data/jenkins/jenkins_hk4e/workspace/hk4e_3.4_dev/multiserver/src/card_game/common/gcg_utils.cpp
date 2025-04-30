@@ -712,11 +712,11 @@ bool __cdecl GCGUtils::isDiceCostValid(
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map
-      && __cxa_guard_acquire(&`guard variable for'GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map) )
+    if ( !(_BYTE)`guard variable for GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map
+      && __cxa_guard_acquire(&`guard variable for GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGCostType,proto::GCGDiceSideType>((std::map<data::GCGCostType,proto::GCGDiceSideType> *)&GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map);
-      __cxa_guard_release(&`guard variable for'GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map);
+      __cxa_guard_release(&`guard variable for GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGCostType,proto::GCGDiceSideType>::~map,
         (void *)&GCGUtils::isDiceCostValid(std::map<data::GCGCostType,unsigned int>,std::map<proto::GCGDiceSideType,unsigned int>)::element_mapping_map,
@@ -3635,8 +3635,8 @@ const std::set<data::GCGTagType> *__cdecl GCGUtils::getAllWeaponTagSet()
   int v4; // [rsp+20h] [rbp-30h]
   int v5; // [rsp+24h] [rbp-2Ch]
 
-  if ( !(_BYTE)`guard variable for'GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set
-    && __cxa_guard_acquire(&`guard variable for'GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set) )
+  if ( !(_BYTE)`guard variable for GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set
+    && __cxa_guard_acquire(&`guard variable for GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set) )
   {
     __l._M_array = (std::initializer_list<data::GCGTagType>::iterator)0xC9000000C8LL;
     __l._M_len = 0xCB000000CALL;
@@ -3648,7 +3648,7 @@ const std::set<data::GCGTagType> *__cdecl GCGUtils::getAllWeaponTagSet()
       (std::initializer_list<data::GCGTagType>)__PAIR128__(6LL, &__l),
       &__comp,
       &__a);
-    __cxa_guard_release(&`guard variable for'GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set);
+    __cxa_guard_release(&`guard variable for GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<data::GCGTagType>::~set,
       &GCGUtils::getAllWeaponTagSet(void)::weapon_tag_set,

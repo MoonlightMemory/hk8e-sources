@@ -7,7 +7,7 @@ void __fastcall SpanContextGuard::SpanContextGuard(
 {
   std::_Deque_base<const jaegertracing::SpanContext*> *v2; // rbx
 
-  if ( !`guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
+  if ( !`guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
   {
     v2 = (std::_Deque_base<const jaegertracing::SpanContext*> *)((char *)&SpanContextGuardMgr::instance(void)::instance
                                                                + __readfsqword(0));
@@ -22,7 +22,7 @@ void __fastcall SpanContextGuard::SpanContextGuard(
     v2->_M_impl._M_finish._M_last = 0LL;
     v2->_M_impl._M_finish._M_node = 0LL;
     std::_Deque_base<jaegertracing::SpanContext const*>::_M_initialize_map(v2, 0LL);
-    `guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
+    `guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
     __cxa_thread_atexit((void (__fastcall *)(void *))SpanContextGuardMgr::~SpanContextGuardMgr, v2, &_dso_handle);
   }
   SpanContextGuardMgr::push(
@@ -35,7 +35,7 @@ void __fastcall SpanContextGuard::~SpanContextGuard(SpanContextGuard *const this
 {
   std::_Deque_base<const jaegertracing::SpanContext*> *v1; // rbx
 
-  if ( !`guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
+  if ( !`guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
   {
     v1 = (std::_Deque_base<const jaegertracing::SpanContext*> *)((char *)&SpanContextGuardMgr::instance(void)::instance
                                                                + __readfsqword(0));
@@ -50,7 +50,7 @@ void __fastcall SpanContextGuard::~SpanContextGuard(SpanContextGuard *const this
     v1->_M_impl._M_finish._M_last = 0LL;
     v1->_M_impl._M_finish._M_node = 0LL;
     std::_Deque_base<jaegertracing::SpanContext const*>::_M_initialize_map(v1, 0LL);
-    `guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
+    `guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
     __cxa_thread_atexit((void (__fastcall *)(void *))SpanContextGuardMgr::~SpanContextGuardMgr, v1, &_dso_handle);
   }
   SpanContextGuardMgr::pop((SpanContextGuardMgr *const)((char *)&SpanContextGuardMgr::instance(void)::instance
@@ -477,7 +477,7 @@ LABEL_13:
     v7->_M_impl._M_finish._M_last = 0LL;
     v7->_M_impl._M_finish._M_node = 0LL;
     std::_Deque_base<jaegertracing::SpanContext const*>::_M_initialize_map(v7, 0LL);
-    `guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
+    `guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] = 1;
     p_fini_func = (const jaegertracing::SpanContext *)v7;
     __cxa_thread_atexit((void (__fastcall *)(void *))SpanContextGuardMgr::~SpanContextGuardMgr, v7, &_dso_handle);
     goto LABEL_4;
@@ -486,7 +486,7 @@ LABEL_13:
     goto LABEL_5;
   p_fini_func = (const jaegertracing::SpanContext *)&this->span_ptr_;
   std::function<void ()(std::shared_ptr<jaegertracing::Span> &)>::operator()(&this->fini_func_, &this->span_ptr_);
-  if ( !`guard variable for'SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
+  if ( !`guard variable for SpanContextGuardMgr::instance(void)::instance[__readfsqword(0)] )
     goto LABEL_13;
 LABEL_4:
   SpanContextGuardMgr::pop((SpanContextGuardMgr *const)((char *)&SpanContextGuardMgr::instance(void)::instance

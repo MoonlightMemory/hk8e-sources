@@ -149,8 +149,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CenterPosType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CenterPosType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CenterPosType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CenterPosType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CenterPosType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -172,7 +172,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CenterPosType *e)
         (std::initializer_list<std::pair<const std::string,data::CenterPosType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CenterPosType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CenterPosType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CenterPosType &)::m);
       e = (data::CenterPosType *)&data::enumStrToVal(std::string const&,data::CenterPosType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CenterPosType>::~map,
@@ -434,8 +434,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::HeightPosType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::HeightPosType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::HeightPosType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::HeightPosType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::HeightPosType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -457,7 +457,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::HeightPosType *e)
         (std::initializer_list<std::pair<const std::string,data::HeightPosType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::HeightPosType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::HeightPosType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::HeightPosType &)::m);
       e = (data::HeightPosType *)&data::enumStrToVal(std::string const&,data::HeightPosType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::HeightPosType>::~map,

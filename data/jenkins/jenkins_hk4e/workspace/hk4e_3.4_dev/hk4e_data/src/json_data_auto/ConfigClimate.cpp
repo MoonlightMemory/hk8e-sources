@@ -193,8 +193,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::JsonClimateType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::JsonClimateType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::JsonClimateType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::JsonClimateType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::JsonClimateType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -307,7 +307,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::JsonClimateType *e)
         (std::initializer_list<std::pair<const std::string,data::JsonClimateType> >)__PAIR128__(15LL, v2 + 512),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::JsonClimateType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::JsonClimateType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::JsonClimateType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::JsonClimateType>::~map,
         &data::enumStrToVal(std::string const&,data::JsonClimateType &)::m,

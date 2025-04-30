@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::OpActivityBonusType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::OpActivityBonusType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::OpActivityBonusType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityBonusType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OpActivityBonusType &)::m,
@@ -612,8 +612,8 @@ const std::unordered_map<std::string,data::OpActivityBonusType> *__cdecl data::g
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -644,7 +644,7 @@ const std::unordered_map<std::string,data::OpActivityBonusType> *__cdecl data::g
       (const std::unordered_map<std::string,data::OpActivityBonusType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OpActivityBonusType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OpActivityBonusType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityBonusType>::~unordered_map,
       &data::getOpActivityBonusTypeNameMap[abi:cxx11](void)::m,
@@ -716,8 +716,8 @@ const std::map<data::OpActivityBonusType,std::pair<std::string,std::string >> *_
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -758,7 +758,7 @@ const std::map<data::OpActivityBonusType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::OpActivityBonusType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::OpActivityBonusType> *)(v1 + 48),
       (const std::map<data::OpActivityBonusType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OpActivityBonusType,std::pair<std::string,std::string>>::~map,
       &data::getOpActivityBonusTypeEnumMap[abi:cxx11](void)::m,
@@ -1120,8 +1120,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1145,7 +1145,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityBonusSourceType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OpActivityBonusSourceType &)::m,
@@ -1430,8 +1430,8 @@ const std::unordered_map<std::string,data::OpActivityBonusSourceType> *__cdecl d
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1462,7 +1462,7 @@ const std::unordered_map<std::string,data::OpActivityBonusSourceType> *__cdecl d
       (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OpActivityBonusSourceType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityBonusSourceType>::~unordered_map,
       &data::getOpActivityBonusSourceTypeNameMap[abi:cxx11](void)::m,
@@ -1534,8 +1534,8 @@ const std::map<data::OpActivityBonusSourceType,std::pair<std::string,std::string
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1576,7 +1576,7 @@ const std::map<data::OpActivityBonusSourceType,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::OpActivityBonusSourceType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::OpActivityBonusSourceType> *)(v1 + 48),
       (const std::map<data::OpActivityBonusSourceType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OpActivityBonusSourceType,std::pair<std::string,std::string>>::~map,
       &data::getOpActivityBonusSourceTypeEnumMap[abi:cxx11](void)::m,
@@ -1927,8 +1927,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OpActivityTrackType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityTrackType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OpActivityTrackType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OpActivityTrackType &)::m) )
     {
       data::enumStrToVal(char const*,data::OpActivityTrackType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::OpActivityTrackType &)::m._M_h._M_bucket_count = 0LL;
@@ -1938,7 +1938,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::OpActivityTrackType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::OpActivityTrackType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::OpActivityTrackType>::unordered_map(&data::enumStrToVal(char const*,data::OpActivityTrackType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OpActivityTrackType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OpActivityTrackType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityTrackType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OpActivityTrackType &)::m,
@@ -2196,8 +2196,8 @@ const std::unordered_map<std::string,data::OpActivityTrackType> *__cdecl data::g
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2221,7 +2221,7 @@ const std::unordered_map<std::string,data::OpActivityTrackType> *__cdecl data::g
       (const std::unordered_map<std::string,data::OpActivityTrackType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OpActivityTrackType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OpActivityTrackType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpActivityTrackType>::~unordered_map,
       &data::getOpActivityTrackTypeNameMap[abi:cxx11](void)::m,
@@ -2291,8 +2291,8 @@ const std::map<data::OpActivityTrackType,std::pair<std::string,std::string >> *_
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2322,7 +2322,7 @@ const std::map<data::OpActivityTrackType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::OpActivityTrackType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::OpActivityTrackType> *)(v1 + 48),
       (const std::map<data::OpActivityTrackType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OpActivityTrackType,std::pair<std::string,std::string>>::~map,
       &data::getOpActivityTrackTypeEnumMap[abi:cxx11](void)::m,

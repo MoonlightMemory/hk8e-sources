@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RegionSearchType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RegionSearchType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -320,7 +320,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RegionSearchType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::RegionSearchType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::RegionSearchType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RegionSearchType &)::m,
@@ -599,8 +599,8 @@ const std::unordered_map<std::string,data::RegionSearchType> *__cdecl data::getR
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -624,7 +624,7 @@ const std::unordered_map<std::string,data::RegionSearchType> *__cdecl data::getR
       (const std::unordered_map<std::string,data::RegionSearchType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RegionSearchType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RegionSearchType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchType>::~unordered_map,
       &data::getRegionSearchTypeNameMap[abi:cxx11](void)::m,
@@ -694,8 +694,8 @@ const std::map<data::RegionSearchType,std::pair<std::string,std::string >> *__cd
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -725,7 +725,7 @@ const std::map<data::RegionSearchType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::RegionSearchType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::RegionSearchType> *)(v1 + 48),
       (const std::map<data::RegionSearchType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RegionSearchType,std::pair<std::string,std::string>>::~map,
       &data::getRegionSearchTypeEnumMap[abi:cxx11](void)::m,
@@ -1081,8 +1081,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RegionSearchCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RegionSearchCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1106,7 +1106,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RegionSearchCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RegionSearchCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RegionSearchCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RegionSearchCondType &)::m,
@@ -1391,8 +1391,8 @@ const std::unordered_map<std::string,data::RegionSearchCondType> *__cdecl data::
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1423,7 +1423,7 @@ const std::unordered_map<std::string,data::RegionSearchCondType> *__cdecl data::
       (const std::unordered_map<std::string,data::RegionSearchCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RegionSearchCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RegionSearchCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchCondType>::~unordered_map,
       &data::getRegionSearchCondTypeNameMap[abi:cxx11](void)::m,
@@ -1495,8 +1495,8 @@ const std::map<data::RegionSearchCondType,std::pair<std::string,std::string >> *
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1537,7 +1537,7 @@ const std::map<data::RegionSearchCondType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::RegionSearchCondType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::RegionSearchCondType> *)(v1 + 48),
       (const std::map<data::RegionSearchCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RegionSearchCondType,std::pair<std::string,std::string>>::~map,
       &data::getRegionSearchCondTypeEnumMap[abi:cxx11](void)::m,
@@ -1901,8 +1901,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1919,7 +1919,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RegionSearchRecycleType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::RegionSearchRecycleType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::RegionSearchRecycleType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchRecycleType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RegionSearchRecycleType &)::m,
@@ -2198,8 +2198,8 @@ const std::unordered_map<std::string,data::RegionSearchRecycleType> *__cdecl dat
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2223,7 +2223,7 @@ const std::unordered_map<std::string,data::RegionSearchRecycleType> *__cdecl dat
       (const std::unordered_map<std::string,data::RegionSearchRecycleType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RegionSearchRecycleType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RegionSearchRecycleType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionSearchRecycleType>::~unordered_map,
       &data::getRegionSearchRecycleTypeNameMap[abi:cxx11](void)::m,
@@ -2293,8 +2293,8 @@ const std::map<data::RegionSearchRecycleType,std::pair<std::string,std::string >
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2324,7 +2324,7 @@ const std::map<data::RegionSearchRecycleType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::RegionSearchRecycleType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::RegionSearchRecycleType> *)(v1 + 48),
       (const std::map<data::RegionSearchRecycleType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RegionSearchRecycleType,std::pair<std::string,std::string>>::~map,
       &data::getRegionSearchRecycleTypeEnumMap[abi:cxx11](void)::m,

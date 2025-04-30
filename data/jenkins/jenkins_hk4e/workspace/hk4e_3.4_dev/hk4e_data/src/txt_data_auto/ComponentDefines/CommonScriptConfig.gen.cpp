@@ -291,8 +291,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RegionShape &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RegionShape &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RegionShape &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RegionShape &)::m) )
     {
       data::enumStrToVal(char const*,data::RegionShape &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::RegionShape &)::m._M_h._M_bucket_count = 0LL;
@@ -302,7 +302,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::RegionShape &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::RegionShape &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::RegionShape>::unordered_map(&data::enumStrToVal(char const*,data::RegionShape &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RegionShape &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RegionShape &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionShape>::~unordered_map,
         &data::enumStrToVal(char const*,data::RegionShape &)::m,
@@ -567,8 +567,8 @@ const std::unordered_map<std::string,data::RegionShape> *__cdecl data::getRegion
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionShapeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionShapeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionShapeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionShapeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -613,7 +613,7 @@ const std::unordered_map<std::string,data::RegionShape> *__cdecl data::getRegion
       (const std::unordered_map<std::string,data::RegionShape>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RegionShape>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RegionShape>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRegionShapeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionShapeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RegionShape>::~unordered_map,
       &data::getRegionShapeNameMap[abi:cxx11](void)::m,
@@ -699,8 +699,8 @@ const std::map<data::RegionShape,std::pair<std::string,std::string >> *__cdecl d
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRegionShapeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRegionShapeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRegionShapeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRegionShapeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -763,7 +763,7 @@ const std::map<data::RegionShape,std::pair<std::string,std::string >> *__cdecl d
       (std::initializer_list<std::pair<const data::RegionShape,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::RegionShape> *)(v1 + 32),
       (const std::map<data::RegionShape,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRegionShapeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRegionShapeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RegionShape,std::pair<std::string,std::string>>::~map,
       &data::getRegionShapeEnumMap[abi:cxx11](void)::m,
@@ -1108,8 +1108,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::EventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::EventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::EventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::EventType &)::m) )
     {
       data::enumStrToVal(char const*,data::EventType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::EventType &)::m._M_h._M_bucket_count = 0LL;
@@ -1119,7 +1119,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::EventType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::EventType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::EventType>::unordered_map(&data::enumStrToVal(char const*,data::EventType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::EventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::EventType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::EventType>::~unordered_map,
         &data::enumStrToVal(char const*,data::EventType &)::m,
@@ -1475,8 +1475,8 @@ const std::unordered_map<std::string,data::EventType> *__cdecl data::getEventTyp
   v3[536862957] = -202116109;
   v3[536862958] = -202116109;
   v3[536862959] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEventTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEventTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEventTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEventTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2403,7 +2403,7 @@ const std::unordered_map<std::string,data::EventType> *__cdecl data::getEventTyp
       (const std::unordered_map<std::string,data::EventType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::EventType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::EventType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getEventTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEventTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::EventType>::~unordered_map,
       &data::getEventTypeNameMap[abi:cxx11](void)::m,
@@ -2795,8 +2795,8 @@ const std::map<data::EventType,std::pair<std::string,std::string >> *__cdecl dat
   v3[536863481] = -202116109;
   v3[536863482] = -202116109;
   v3[536863483] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEventTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEventTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEventTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEventTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4245,7 +4245,7 @@ const std::map<data::EventType,std::pair<std::string,std::string >> *__cdecl dat
       (std::initializer_list<std::pair<const data::EventType,std::pair<std::string,std::string > > >)__PAIR128__(131LL, v1 + 14752),
       (const std::less<data::EventType> *)(v1 + 48),
       (const std::map<data::EventType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getEventTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEventTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::EventType,std::pair<std::string,std::string>>::~map,
       &data::getEventTypeEnumMap[abi:cxx11](void)::m,
@@ -5228,8 +5228,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GadgetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GadgetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GadgetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GadgetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -5260,7 +5260,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GadgetType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::GadgetType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::GadgetType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GadgetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GadgetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GadgetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GadgetType &)::m,
@@ -5552,8 +5552,8 @@ const std::unordered_map<std::string,data::GadgetType> *__cdecl data::getGadgetT
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGadgetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGadgetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGadgetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGadgetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -5591,7 +5591,7 @@ const std::unordered_map<std::string,data::GadgetType> *__cdecl data::getGadgetT
       (const std::unordered_map<std::string,data::GadgetType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GadgetType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GadgetType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGadgetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGadgetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GadgetType>::~unordered_map,
       &data::getGadgetTypeNameMap[abi:cxx11](void)::m,
@@ -5665,8 +5665,8 @@ const std::map<data::GadgetType,std::pair<std::string,std::string >> *__cdecl da
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGadgetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGadgetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGadgetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGadgetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -5718,7 +5718,7 @@ const std::map<data::GadgetType,std::pair<std::string,std::string >> *__cdecl da
       (std::initializer_list<std::pair<const data::GadgetType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::GadgetType> *)(v1 + 32),
       (const std::map<data::GadgetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGadgetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGadgetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GadgetType,std::pair<std::string,std::string>>::~map,
       &data::getGadgetTypeEnumMap[abi:cxx11](void)::m,
@@ -6069,8 +6069,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GroupKillPolicy &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GroupKillPolicy &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GroupKillPolicy &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GroupKillPolicy &)::m) )
     {
       data::enumStrToVal(char const*,data::GroupKillPolicy &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::GroupKillPolicy &)::m._M_h._M_bucket_count = 0LL;
@@ -6080,7 +6080,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::GroupKillPolicy &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::GroupKillPolicy &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::GroupKillPolicy>::unordered_map(&data::enumStrToVal(char const*,data::GroupKillPolicy &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GroupKillPolicy &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GroupKillPolicy &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupKillPolicy>::~unordered_map,
         &data::enumStrToVal(char const*,data::GroupKillPolicy &)::m,
@@ -6343,8 +6343,8 @@ const std::unordered_map<std::string,data::GroupKillPolicy> *__cdecl data::getGr
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupKillPolicyNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupKillPolicyNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupKillPolicyNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupKillPolicyNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -6389,7 +6389,7 @@ const std::unordered_map<std::string,data::GroupKillPolicy> *__cdecl data::getGr
       (const std::unordered_map<std::string,data::GroupKillPolicy>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GroupKillPolicy>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GroupKillPolicy>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGroupKillPolicyNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupKillPolicyNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupKillPolicy>::~unordered_map,
       &data::getGroupKillPolicyNameMap[abi:cxx11](void)::m,
@@ -6475,8 +6475,8 @@ const std::map<data::GroupKillPolicy,std::pair<std::string,std::string >> *__cde
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -6539,7 +6539,7 @@ const std::map<data::GroupKillPolicy,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::GroupKillPolicy,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::GroupKillPolicy> *)(v1 + 32),
       (const std::map<data::GroupKillPolicy,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GroupKillPolicy,std::pair<std::string,std::string>>::~map,
       &data::getGroupKillPolicyEnumMap[abi:cxx11](void)::m,
@@ -6882,8 +6882,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::PlatformRotType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::PlatformRotType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::PlatformRotType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::PlatformRotType &)::m) )
     {
       data::enumStrToVal(char const*,data::PlatformRotType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::PlatformRotType &)::m._M_h._M_bucket_count = 0LL;
@@ -6893,7 +6893,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::PlatformRotType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::PlatformRotType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::PlatformRotType>::unordered_map(&data::enumStrToVal(char const*,data::PlatformRotType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::PlatformRotType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::PlatformRotType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::PlatformRotType>::~unordered_map,
         &data::enumStrToVal(char const*,data::PlatformRotType &)::m,
@@ -7153,8 +7153,8 @@ const std::unordered_map<std::string,data::PlatformRotType> *__cdecl data::getPl
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPlatformRotTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPlatformRotTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPlatformRotTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPlatformRotTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7185,7 +7185,7 @@ const std::unordered_map<std::string,data::PlatformRotType> *__cdecl data::getPl
       (const std::unordered_map<std::string,data::PlatformRotType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::PlatformRotType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::PlatformRotType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPlatformRotTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPlatformRotTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::PlatformRotType>::~unordered_map,
       &data::getPlatformRotTypeNameMap[abi:cxx11](void)::m,
@@ -7257,8 +7257,8 @@ const std::map<data::PlatformRotType,std::pair<std::string,std::string >> *__cde
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7299,7 +7299,7 @@ const std::map<data::PlatformRotType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::PlatformRotType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::PlatformRotType> *)(v1 + 48),
       (const std::map<data::PlatformRotType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::PlatformRotType,std::pair<std::string,std::string>>::~map,
       &data::getPlatformRotTypeEnumMap[abi:cxx11](void)::m,
@@ -7660,8 +7660,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ExploreType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ExploreType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ExploreType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ExploreType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -7692,7 +7692,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ExploreType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ExploreType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ExploreType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ExploreType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ExploreType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ExploreType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ExploreType &)::m,
@@ -7984,8 +7984,8 @@ const std::unordered_map<std::string,data::ExploreType> *__cdecl data::getExplor
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getExploreTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getExploreTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getExploreTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getExploreTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -8023,7 +8023,7 @@ const std::unordered_map<std::string,data::ExploreType> *__cdecl data::getExplor
       (const std::unordered_map<std::string,data::ExploreType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ExploreType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ExploreType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getExploreTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getExploreTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ExploreType>::~unordered_map,
       &data::getExploreTypeNameMap[abi:cxx11](void)::m,
@@ -8097,8 +8097,8 @@ const std::map<data::ExploreType,std::pair<std::string,std::string >> *__cdecl d
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getExploreTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getExploreTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getExploreTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getExploreTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -8150,7 +8150,7 @@ const std::map<data::ExploreType,std::pair<std::string,std::string >> *__cdecl d
       (std::initializer_list<std::pair<const data::ExploreType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::ExploreType> *)(v1 + 32),
       (const std::map<data::ExploreType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getExploreTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getExploreTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ExploreType,std::pair<std::string,std::string>>::~map,
       &data::getExploreTypeEnumMap[abi:cxx11](void)::m,
@@ -8501,8 +8501,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m) )
     {
       data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m._M_h._M_bucket_count = 0LL;
@@ -8512,7 +8512,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::FatherChallengeProperty>::unordered_map(&data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FatherChallengeProperty>::~unordered_map,
         &data::enumStrToVal(char const*,data::FatherChallengeProperty &)::m,
@@ -8775,8 +8775,8 @@ const std::unordered_map<std::string,data::FatherChallengeProperty> *__cdecl dat
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -8821,7 +8821,7 @@ const std::unordered_map<std::string,data::FatherChallengeProperty> *__cdecl dat
       (const std::unordered_map<std::string,data::FatherChallengeProperty>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::FatherChallengeProperty>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::FatherChallengeProperty>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FatherChallengeProperty>::~unordered_map,
       &data::getFatherChallengePropertyNameMap[abi:cxx11](void)::m,
@@ -8907,8 +8907,8 @@ const std::map<data::FatherChallengeProperty,std::pair<std::string,std::string >
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -8971,7 +8971,7 @@ const std::map<data::FatherChallengeProperty,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::FatherChallengeProperty,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::FatherChallengeProperty> *)(v1 + 32),
       (const std::map<data::FatherChallengeProperty,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FatherChallengeProperty,std::pair<std::string,std::string>>::~map,
       &data::getFatherChallengePropertyEnumMap[abi:cxx11](void)::m,
@@ -9314,8 +9314,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m) )
     {
       data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m._M_h._M_bucket_count = 0LL;
@@ -9325,7 +9325,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::ChallengeEventMarkType>::unordered_map(&data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChallengeEventMarkType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChallengeEventMarkType &)::m,
@@ -9588,8 +9588,8 @@ const std::unordered_map<std::string,data::ChallengeEventMarkType> *__cdecl data
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -9634,7 +9634,7 @@ const std::unordered_map<std::string,data::ChallengeEventMarkType> *__cdecl data
       (const std::unordered_map<std::string,data::ChallengeEventMarkType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChallengeEventMarkType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChallengeEventMarkType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChallengeEventMarkType>::~unordered_map,
       &data::getChallengeEventMarkTypeNameMap[abi:cxx11](void)::m,
@@ -9720,8 +9720,8 @@ const std::map<data::ChallengeEventMarkType,std::pair<std::string,std::string >>
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -9784,7 +9784,7 @@ const std::map<data::ChallengeEventMarkType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::ChallengeEventMarkType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ChallengeEventMarkType> *)(v1 + 32),
       (const std::map<data::ChallengeEventMarkType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChallengeEventMarkType,std::pair<std::string,std::string>>::~map,
       &data::getChallengeEventMarkTypeEnumMap[abi:cxx11](void)::m,
@@ -10127,8 +10127,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MultistageStageType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MultistageStageType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MultistageStageType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MultistageStageType &)::m) )
     {
       data::enumStrToVal(char const*,data::MultistageStageType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::MultistageStageType &)::m._M_h._M_bucket_count = 0LL;
@@ -10138,7 +10138,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::MultistageStageType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::MultistageStageType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::MultistageStageType>::unordered_map(&data::enumStrToVal(char const*,data::MultistageStageType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MultistageStageType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MultistageStageType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MultistageStageType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MultistageStageType &)::m,
@@ -10411,8 +10411,8 @@ const std::unordered_map<std::string,data::MultistageStageType> *__cdecl data::g
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
   v3[536862759] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMultistageStageTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMultistageStageTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMultistageStageTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMultistageStageTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -10555,7 +10555,7 @@ const std::unordered_map<std::string,data::MultistageStageType> *__cdecl data::g
       (const std::unordered_map<std::string,data::MultistageStageType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::MultistageStageType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::MultistageStageType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMultistageStageTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMultistageStageTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MultistageStageType>::~unordered_map,
       &data::getMultistageStageTypeNameMap[abi:cxx11](void)::m,
@@ -10670,8 +10670,8 @@ const std::map<data::MultistageStageType,std::pair<std::string,std::string >> *_
   v3[536862833] = -202116109;
   v3[536862834] = -202116109;
   v3[536862835] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -10888,7 +10888,7 @@ const std::map<data::MultistageStageType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::MultistageStageType,std::pair<std::string,std::string > > >)__PAIR128__(19LL, v1 + 2208),
       (const std::less<data::MultistageStageType> *)(v1 + 48),
       (const std::map<data::MultistageStageType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MultistageStageType,std::pair<std::string,std::string>>::~map,
       &data::getMultistageStageTypeEnumMap[abi:cxx11](void)::m,
@@ -11303,8 +11303,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GroupIOType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GroupIOType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GroupIOType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GroupIOType &)::m) )
     {
       data::enumStrToVal(char const*,data::GroupIOType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::GroupIOType &)::m._M_h._M_bucket_count = 0LL;
@@ -11314,7 +11314,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::GroupIOType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::GroupIOType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::GroupIOType>::unordered_map(&data::enumStrToVal(char const*,data::GroupIOType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GroupIOType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GroupIOType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupIOType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GroupIOType &)::m,
@@ -11574,8 +11574,8 @@ const std::unordered_map<std::string,data::GroupIOType> *__cdecl data::getGroupI
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupIOTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupIOTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupIOTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupIOTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -11599,7 +11599,7 @@ const std::unordered_map<std::string,data::GroupIOType> *__cdecl data::getGroupI
       (const std::unordered_map<std::string,data::GroupIOType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GroupIOType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GroupIOType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGroupIOTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupIOTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupIOType>::~unordered_map,
       &data::getGroupIOTypeNameMap[abi:cxx11](void)::m,
@@ -11669,8 +11669,8 @@ const std::map<data::GroupIOType,std::pair<std::string,std::string >> *__cdecl d
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupIOTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupIOTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupIOTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupIOTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -11700,7 +11700,7 @@ const std::map<data::GroupIOType,std::pair<std::string,std::string >> *__cdecl d
       (std::initializer_list<std::pair<const data::GroupIOType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GroupIOType> *)(v1 + 48),
       (const std::map<data::GroupIOType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGroupIOTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupIOTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GroupIOType,std::pair<std::string,std::string>>::~map,
       &data::getGroupIOTypeEnumMap[abi:cxx11](void)::m,
@@ -12043,8 +12043,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FlowGroupSubType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FlowGroupSubType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FlowGroupSubType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FlowGroupSubType &)::m) )
     {
       data::enumStrToVal(char const*,data::FlowGroupSubType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::FlowGroupSubType &)::m._M_h._M_bucket_count = 0LL;
@@ -12054,7 +12054,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::FlowGroupSubType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::FlowGroupSubType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::FlowGroupSubType>::unordered_map(&data::enumStrToVal(char const*,data::FlowGroupSubType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FlowGroupSubType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FlowGroupSubType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FlowGroupSubType>::~unordered_map,
         &data::enumStrToVal(char const*,data::FlowGroupSubType &)::m,
@@ -12312,8 +12312,8 @@ const std::unordered_map<std::string,data::FlowGroupSubType> *__cdecl data::getF
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -12337,7 +12337,7 @@ const std::unordered_map<std::string,data::FlowGroupSubType> *__cdecl data::getF
       (const std::unordered_map<std::string,data::FlowGroupSubType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::FlowGroupSubType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::FlowGroupSubType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FlowGroupSubType>::~unordered_map,
       &data::getFlowGroupSubTypeNameMap[abi:cxx11](void)::m,
@@ -12407,8 +12407,8 @@ const std::map<data::FlowGroupSubType,std::pair<std::string,std::string >> *__cd
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -12438,7 +12438,7 @@ const std::map<data::FlowGroupSubType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::FlowGroupSubType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::FlowGroupSubType> *)(v1 + 48),
       (const std::map<data::FlowGroupSubType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FlowGroupSubType,std::pair<std::string,std::string>>::~map,
       &data::getFlowGroupSubTypeEnumMap[abi:cxx11](void)::m,
@@ -12781,8 +12781,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m) )
     {
       data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m._M_h._M_bucket_count = 0LL;
@@ -12792,7 +12792,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::CommonPlayerTipsType>::unordered_map(&data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CommonPlayerTipsType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CommonPlayerTipsType &)::m,
@@ -13052,8 +13052,8 @@ const std::unordered_map<std::string,data::CommonPlayerTipsType> *__cdecl data::
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -13084,7 +13084,7 @@ const std::unordered_map<std::string,data::CommonPlayerTipsType> *__cdecl data::
       (const std::unordered_map<std::string,data::CommonPlayerTipsType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CommonPlayerTipsType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CommonPlayerTipsType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CommonPlayerTipsType>::~unordered_map,
       &data::getCommonPlayerTipsTypeNameMap[abi:cxx11](void)::m,
@@ -13156,8 +13156,8 @@ const std::map<data::CommonPlayerTipsType,std::pair<std::string,std::string >> *
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -13198,7 +13198,7 @@ const std::map<data::CommonPlayerTipsType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::CommonPlayerTipsType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::CommonPlayerTipsType> *)(v1 + 48),
       (const std::map<data::CommonPlayerTipsType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CommonPlayerTipsType,std::pair<std::string,std::string>>::~map,
       &data::getCommonPlayerTipsTypeEnumMap[abi:cxx11](void)::m,
@@ -13549,8 +13549,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m) )
     {
       data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m._M_h._M_bucket_count = 0LL;
@@ -13560,7 +13560,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::unordered_map(&data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::~unordered_map,
         &data::enumStrToVal(char const*,data::FlowSuiteOperatePolicy &)::m,
@@ -13818,8 +13818,8 @@ const std::unordered_map<std::string,data::FlowSuiteOperatePolicy> *__cdecl data
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -13843,7 +13843,7 @@ const std::unordered_map<std::string,data::FlowSuiteOperatePolicy> *__cdecl data
       (const std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FlowSuiteOperatePolicy>::~unordered_map,
       &data::getFlowSuiteOperatePolicyNameMap[abi:cxx11](void)::m,
@@ -13913,8 +13913,8 @@ const std::map<data::FlowSuiteOperatePolicy,std::pair<std::string,std::string >>
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -13944,7 +13944,7 @@ const std::map<data::FlowSuiteOperatePolicy,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::FlowSuiteOperatePolicy,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::FlowSuiteOperatePolicy> *)(v1 + 48),
       (const std::map<data::FlowSuiteOperatePolicy,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FlowSuiteOperatePolicy,std::pair<std::string,std::string>>::~map,
       &data::getFlowSuiteOperatePolicyEnumMap[abi:cxx11](void)::m,
@@ -14285,8 +14285,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m) )
     {
       data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m._M_h._M_bucket_count = 0LL;
@@ -14296,7 +14296,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::GalleryProgressScoreUIType>::unordered_map(&data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryProgressScoreUIType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GalleryProgressScoreUIType &)::m,
@@ -14558,8 +14558,8 @@ const std::unordered_map<std::string,data::GalleryProgressScoreUIType> *__cdecl 
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -14611,7 +14611,7 @@ const std::unordered_map<std::string,data::GalleryProgressScoreUIType> *__cdecl 
       (const std::unordered_map<std::string,data::GalleryProgressScoreUIType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GalleryProgressScoreUIType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GalleryProgressScoreUIType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryProgressScoreUIType>::~unordered_map,
       &data::getGalleryProgressScoreUITypeNameMap[abi:cxx11](void)::m,
@@ -14702,8 +14702,8 @@ const std::map<data::GalleryProgressScoreUIType,std::pair<std::string,std::strin
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -14777,7 +14777,7 @@ const std::map<data::GalleryProgressScoreUIType,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::GalleryProgressScoreUIType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::GalleryProgressScoreUIType> *)(v1 + 48),
       (const std::map<data::GalleryProgressScoreUIType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GalleryProgressScoreUIType,std::pair<std::string,std::string>>::~map,
       &data::getGalleryProgressScoreUITypeEnumMap[abi:cxx11](void)::m,
@@ -15125,8 +15125,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m) )
     {
       data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m._M_h._M_bucket_count = 0LL;
@@ -15136,7 +15136,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::GalleryProgressScoreType>::unordered_map(&data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryProgressScoreType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GalleryProgressScoreType &)::m,
@@ -15394,8 +15394,8 @@ const std::unordered_map<std::string,data::GalleryProgressScoreType> *__cdecl da
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -15419,7 +15419,7 @@ const std::unordered_map<std::string,data::GalleryProgressScoreType> *__cdecl da
       (const std::unordered_map<std::string,data::GalleryProgressScoreType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GalleryProgressScoreType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GalleryProgressScoreType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GalleryProgressScoreType>::~unordered_map,
       &data::getGalleryProgressScoreTypeNameMap[abi:cxx11](void)::m,
@@ -15489,8 +15489,8 @@ const std::map<data::GalleryProgressScoreType,std::pair<std::string,std::string 
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -15520,7 +15520,7 @@ const std::map<data::GalleryProgressScoreType,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::GalleryProgressScoreType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GalleryProgressScoreType> *)(v1 + 48),
       (const std::map<data::GalleryProgressScoreType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GalleryProgressScoreType,std::pair<std::string,std::string>>::~map,
       &data::getGalleryProgressScoreTypeEnumMap[abi:cxx11](void)::m,

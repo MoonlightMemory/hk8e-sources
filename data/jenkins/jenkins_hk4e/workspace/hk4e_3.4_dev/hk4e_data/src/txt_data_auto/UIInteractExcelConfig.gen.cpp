@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::UIInteractType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::UIInteractType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::UIInteractType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::UIInteractType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -320,7 +320,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::UIInteractType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::UIInteractType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::UIInteractType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::UIInteractType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::UIInteractType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::UIInteractType>::~unordered_map,
         &data::enumStrToVal(char const*,data::UIInteractType &)::m,
@@ -605,8 +605,8 @@ const std::unordered_map<std::string,data::UIInteractType> *__cdecl data::getUII
   v3[536862723] = 61956;
   v3[536862724] = -218103808;
   v3[536862725] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getUIInteractTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getUIInteractTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getUIInteractTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getUIInteractTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -623,7 +623,7 @@ const std::unordered_map<std::string,data::UIInteractType> *__cdecl data::getUII
       (const std::unordered_map<std::string,data::UIInteractType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::UIInteractType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::UIInteractType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getUIInteractTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getUIInteractTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::UIInteractType>::~unordered_map,
       &data::getUIInteractTypeNameMap[abi:cxx11](void)::m,
@@ -686,8 +686,8 @@ const std::map<data::UIInteractType,std::pair<std::string,std::string >> *__cdec
   v3[536862725] = 62194;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getUIInteractTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getUIInteractTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getUIInteractTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getUIInteractTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -706,7 +706,7 @@ const std::map<data::UIInteractType,std::pair<std::string,std::string >> *__cdec
       (std::initializer_list<std::pair<const data::UIInteractType,std::pair<std::string,std::string > > >)__PAIR128__(1LL, v1 + 176),
       (const std::less<data::UIInteractType> *)(v1 + 32),
       (const std::map<data::UIInteractType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getUIInteractTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getUIInteractTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::UIInteractType,std::pair<std::string,std::string>>::~map,
       &data::getUIInteractTypeEnumMap[abi:cxx11](void)::m,

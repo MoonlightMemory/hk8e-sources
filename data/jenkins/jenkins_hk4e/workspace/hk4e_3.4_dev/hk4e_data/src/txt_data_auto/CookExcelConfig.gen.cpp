@@ -307,8 +307,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 272) = s;
   if ( *(_QWORD *)(v2 + 272) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CookFoodType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CookFoodType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CookFoodType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CookFoodType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -360,7 +360,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CookFoodType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CookFoodType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CookFoodType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CookFoodType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CookFoodType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookFoodType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CookFoodType &)::m,
@@ -659,8 +659,8 @@ const std::unordered_map<std::string,data::CookFoodType> *__cdecl data::getCookF
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookFoodTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookFoodTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookFoodTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookFoodTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -712,7 +712,7 @@ const std::unordered_map<std::string,data::CookFoodType> *__cdecl data::getCookF
       (const std::unordered_map<std::string,data::CookFoodType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CookFoodType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CookFoodType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCookFoodTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookFoodTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookFoodType>::~unordered_map,
       &data::getCookFoodTypeNameMap[abi:cxx11](void)::m,
@@ -803,8 +803,8 @@ const std::map<data::CookFoodType,std::pair<std::string,std::string >> *__cdecl 
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookFoodTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookFoodTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookFoodTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookFoodTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -878,7 +878,7 @@ const std::map<data::CookFoodType,std::pair<std::string,std::string >> *__cdecl 
       (std::initializer_list<std::pair<const data::CookFoodType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::CookFoodType> *)(v1 + 48),
       (const std::map<data::CookFoodType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCookFoodTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookFoodTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CookFoodType,std::pair<std::string,std::string>>::~map,
       &data::getCookFoodTypeEnumMap[abi:cxx11](void)::m,
@@ -1242,8 +1242,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CookMethodType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CookMethodType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CookMethodType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CookMethodType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1288,7 +1288,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CookMethodType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::CookMethodType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::CookMethodType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CookMethodType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CookMethodType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookMethodType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CookMethodType &)::m,
@@ -1583,8 +1583,8 @@ const std::unordered_map<std::string,data::CookMethodType> *__cdecl data::getCoo
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookMethodTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookMethodTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookMethodTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookMethodTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1629,7 +1629,7 @@ const std::unordered_map<std::string,data::CookMethodType> *__cdecl data::getCoo
       (const std::unordered_map<std::string,data::CookMethodType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::CookMethodType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::CookMethodType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getCookMethodTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookMethodTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookMethodType>::~unordered_map,
       &data::getCookMethodTypeNameMap[abi:cxx11](void)::m,
@@ -1715,8 +1715,8 @@ const std::map<data::CookMethodType,std::pair<std::string,std::string >> *__cdec
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookMethodTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookMethodTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookMethodTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookMethodTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1779,7 +1779,7 @@ const std::map<data::CookMethodType,std::pair<std::string,std::string >> *__cdec
       (std::initializer_list<std::pair<const data::CookMethodType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::CookMethodType> *)(v1 + 32),
       (const std::map<data::CookMethodType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getCookMethodTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookMethodTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CookMethodType,std::pair<std::string,std::string>>::~map,
       &data::getCookMethodTypeEnumMap[abi:cxx11](void)::m,
@@ -2130,8 +2130,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CookBonusType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CookBonusType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CookBonusType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CookBonusType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2162,7 +2162,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CookBonusType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CookBonusType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CookBonusType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CookBonusType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CookBonusType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookBonusType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CookBonusType &)::m,
@@ -2451,8 +2451,8 @@ const std::unordered_map<std::string,data::CookBonusType> *__cdecl data::getCook
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookBonusTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookBonusTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookBonusTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookBonusTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2483,7 +2483,7 @@ const std::unordered_map<std::string,data::CookBonusType> *__cdecl data::getCook
       (const std::unordered_map<std::string,data::CookBonusType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CookBonusType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CookBonusType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCookBonusTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookBonusTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CookBonusType>::~unordered_map,
       &data::getCookBonusTypeNameMap[abi:cxx11](void)::m,
@@ -2555,8 +2555,8 @@ const std::map<data::CookBonusType,std::pair<std::string,std::string >> *__cdecl
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCookBonusTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCookBonusTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCookBonusTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCookBonusTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2597,7 +2597,7 @@ const std::map<data::CookBonusType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::CookBonusType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::CookBonusType> *)(v1 + 48),
       (const std::map<data::CookBonusType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCookBonusTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCookBonusTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CookBonusType,std::pair<std::string,std::string>>::~map,
       &data::getCookBonusTypeEnumMap[abi:cxx11](void)::m,

@@ -790,11 +790,11 @@ const std::vector<int> *__cdecl ParentQuestScriptConfig::findQuestVar(
 {
   const QuestScriptConfig *script_data; // [rsp+18h] [rbp-8h]
 
-  if ( !(_BYTE)`guard variable for'ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec
-    && __cxa_guard_acquire(&`guard variable for'ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec) )
+  if ( !(_BYTE)`guard variable for ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec
+    && __cxa_guard_acquire(&`guard variable for ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec) )
   {
     std::vector<int>::vector(&ParentQuestScriptConfig::findQuestVar(unsigned int)const::dummy_vec);
-    __cxa_guard_release(&`guard variable for'ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec);
+    __cxa_guard_release(&`guard variable for ParentQuestScriptConfig::findQuestVar(unsigned int)::dummy_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<int>::~vector,
       &ParentQuestScriptConfig::findQuestVar(unsigned int)const::dummy_vec,

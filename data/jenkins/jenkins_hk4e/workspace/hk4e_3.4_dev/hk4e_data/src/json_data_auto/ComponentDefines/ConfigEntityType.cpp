@@ -415,8 +415,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::EntityType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::EntityType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::EntityType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::EntityType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::EntityType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -942,7 +942,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::EntityType *e)
         (std::initializer_list<std::pair<const std::string,data::EntityType> >)__PAIR128__(74LL, v2 + 1456),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::EntityType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::EntityType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::EntityType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::EntityType>::~map,
         &data::enumStrToVal(std::string const&,data::EntityType &)::m,
@@ -1499,8 +1499,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VehicleType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::VehicleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::VehicleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::VehicleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::VehicleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1529,7 +1529,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VehicleType *e)
         (std::initializer_list<std::pair<const std::string,data::VehicleType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::VehicleType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::VehicleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::VehicleType &)::m);
       e = (data::VehicleType *)&data::enumStrToVal(std::string const&,data::VehicleType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::VehicleType>::~map,
@@ -1859,8 +1859,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::EndureType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::EndureType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::EndureType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::EndureType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::EndureType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1994,7 +1994,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::EndureType *e)
         (std::initializer_list<std::pair<const std::string,data::EndureType> >)__PAIR128__(18LL, v2 + 560),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::EndureType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::EndureType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::EndureType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::EndureType>::~map,
         &data::enumStrToVal(std::string const&,data::EndureType &)::m,
@@ -2362,8 +2362,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TauntLevel *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::TauntLevel &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::TauntLevel &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::TauntLevel &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::TauntLevel &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -2462,7 +2462,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TauntLevel *e)
         (std::initializer_list<std::pair<const std::string,data::TauntLevel> >)__PAIR128__(13LL, v2 + 464),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::TauntLevel>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::TauntLevel &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::TauntLevel &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::TauntLevel>::~map,
         &data::enumStrToVal(std::string const&,data::TauntLevel &)::m,
@@ -4659,26 +4659,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::shared_ptr<data::ConfigFishingZoneFactory>::~shared_ptr,
         &data::ConfigFishingZoneFactory::instance_ptr,
         &_dso_handle);
-      v84 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v85 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v84 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v85 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v86) = v85 != 0;
-      v87 = (v85 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v85);
+      v87 = (v85 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v85);
       if ( (_BYTE)v87 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v86,
           v87);
       if ( !*v84 )
       {
-        v88 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v89 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v88 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v89 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v86) = v89 != 0;
-        v90 = (v89 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v89);
+        v90 = (v89 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v89);
         if ( (_BYTE)v90 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v86,
             v90);
         *v88 = 1;

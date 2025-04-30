@@ -149,8 +149,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ModifierTimeScale *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -172,7 +172,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ModifierTimeScale *e
         (std::initializer_list<std::pair<const std::string,data::ModifierTimeScale> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ModifierTimeScale>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m);
       e = (data::ModifierTimeScale *)&data::enumStrToVal(std::string const&,data::ModifierTimeScale &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ModifierTimeScale>::~map,
@@ -463,8 +463,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ModifierStacking *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ModifierStacking &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ModifierStacking &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ModifierStacking &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ModifierStacking &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -556,7 +556,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ModifierStacking *e)
         (std::initializer_list<std::pair<const std::string,data::ModifierStacking> >)__PAIR128__(12LL, v2 + 448),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ModifierStacking>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ModifierStacking &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ModifierStacking &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ModifierStacking>::~map,
         &data::enumStrToVal(std::string const&,data::ModifierStacking &)::m,
@@ -884,8 +884,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::UniqueModifierCond *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -907,7 +907,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::UniqueModifierCond *
         (std::initializer_list<std::pair<const std::string,data::UniqueModifierCond> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::UniqueModifierCond>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m);
       e = (data::UniqueModifierCond *)&data::enumStrToVal(std::string const&,data::UniqueModifierCond &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::UniqueModifierCond>::~map,

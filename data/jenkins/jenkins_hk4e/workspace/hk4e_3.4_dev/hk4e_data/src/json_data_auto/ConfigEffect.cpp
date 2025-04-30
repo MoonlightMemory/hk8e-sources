@@ -3396,8 +3396,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TokenForceEnqueueRea
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -3419,7 +3419,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::TokenForceEnqueueRea
         (std::initializer_list<std::pair<const std::string,data::TokenForceEnqueueReason> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::TokenForceEnqueueReason>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m);
       e = (data::TokenForceEnqueueReason *)&data::enumStrToVal(std::string const&,data::TokenForceEnqueueReason &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::TokenForceEnqueueReason>::~map,

@@ -289,8 +289,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::WeaponMaterialType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::WeaponMaterialType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::WeaponMaterialType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::WeaponMaterialType &)::m) )
     {
       data::enumStrToVal(char const*,data::WeaponMaterialType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::WeaponMaterialType &)::m._M_h._M_bucket_count = 0LL;
@@ -300,7 +300,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::WeaponMaterialType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::WeaponMaterialType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::WeaponMaterialType>::unordered_map(&data::enumStrToVal(char const*,data::WeaponMaterialType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::WeaponMaterialType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::WeaponMaterialType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::WeaponMaterialType>::~unordered_map,
         &data::enumStrToVal(char const*,data::WeaponMaterialType &)::m,
@@ -559,8 +559,8 @@ const std::unordered_map<std::string,data::WeaponMaterialType> *__cdecl data::ge
   v3[536862723] = 61956;
   v3[536862724] = -218103808;
   v3[536862725] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -577,7 +577,7 @@ const std::unordered_map<std::string,data::WeaponMaterialType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::WeaponMaterialType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::WeaponMaterialType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::WeaponMaterialType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::WeaponMaterialType>::~unordered_map,
       &data::getWeaponMaterialTypeNameMap[abi:cxx11](void)::m,
@@ -640,8 +640,8 @@ const std::map<data::WeaponMaterialType,std::pair<std::string,std::string >> *__
   v3[536862725] = 62194;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -660,7 +660,7 @@ const std::map<data::WeaponMaterialType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::WeaponMaterialType,std::pair<std::string,std::string > > >)__PAIR128__(1LL, v1 + 176),
       (const std::less<data::WeaponMaterialType> *)(v1 + 32),
       (const std::map<data::WeaponMaterialType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::WeaponMaterialType,std::pair<std::string,std::string>>::~map,
       &data::getWeaponMaterialTypeEnumMap[abi:cxx11](void)::m,
@@ -990,8 +990,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m) )
     {
       data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m._M_h._M_bucket_count = 0LL;
@@ -1001,7 +1001,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::WeaponEnhanceRuleType>::unordered_map(&data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::WeaponEnhanceRuleType>::~unordered_map,
         &data::enumStrToVal(char const*,data::WeaponEnhanceRuleType &)::m,
@@ -1259,8 +1259,8 @@ const std::unordered_map<std::string,data::WeaponEnhanceRuleType> *__cdecl data:
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1284,7 +1284,7 @@ const std::unordered_map<std::string,data::WeaponEnhanceRuleType> *__cdecl data:
       (const std::unordered_map<std::string,data::WeaponEnhanceRuleType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::WeaponEnhanceRuleType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::WeaponEnhanceRuleType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::WeaponEnhanceRuleType>::~unordered_map,
       &data::getWeaponEnhanceRuleTypeNameMap[abi:cxx11](void)::m,
@@ -1354,8 +1354,8 @@ const std::map<data::WeaponEnhanceRuleType,std::pair<std::string,std::string >> 
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1385,7 +1385,7 @@ const std::map<data::WeaponEnhanceRuleType,std::pair<std::string,std::string >> 
       (std::initializer_list<std::pair<const data::WeaponEnhanceRuleType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::WeaponEnhanceRuleType> *)(v1 + 48),
       (const std::map<data::WeaponEnhanceRuleType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::WeaponEnhanceRuleType,std::pair<std::string,std::string>>::~map,
       &data::getWeaponEnhanceRuleTypeEnumMap[abi:cxx11](void)::m,

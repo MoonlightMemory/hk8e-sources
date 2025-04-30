@@ -609,11 +609,11 @@ const std::map<unsigned int,unsigned int> *__fastcall CustomDungeonExcelConfigMg
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)limit_id;
-  if ( !(_BYTE)`guard variable for'CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map
-    && __cxa_guard_acquire(&`guard variable for'CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map) )
+  if ( !(_BYTE)`guard variable for CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map
+    && __cxa_guard_acquire(&`guard variable for CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map) )
   {
     std::map<unsigned int,unsigned int>::map((std::map<unsigned int,unsigned int> *const)&CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)const::empty_map);
-    __cxa_guard_release(&`guard variable for'CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map);
+    __cxa_guard_release(&`guard variable for CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)::empty_map);
     limit_id = &CustomDungeonExcelConfigMgr::getLimitConfig(unsigned int)const::empty_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<unsigned int,unsigned int>::~map,

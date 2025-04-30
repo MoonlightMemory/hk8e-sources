@@ -17807,21 +17807,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
       if ( *(_BYTE *)(((unsigned __int64)&boost::asio::error::misc_category >> 3) + 0x7FFF8000) )
         misc_category = (const boost::system::error_category *)__asan_report_store8();
       boost::asio::error::misc_category = misc_category;
-      v6 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v6 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v6 )
       {
-        v7 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v7 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+          __asan_report_store1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
         }
         *v7 = 1;
         v8 = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits + 9;

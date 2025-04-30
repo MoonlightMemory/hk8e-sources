@@ -83,11 +83,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGEffectDamageElementType,da
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGEffectDamageElementType,data::GCGEffectElementType>((std::map<data::GCGEffectDamageElementType,data::GCGEffectElementType> *)&GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGEffectDamageElementType,data::GCGEffectElementType>::~map,
         (void *)&GCGUtils::elementCover<data::GCGEffectElementType,data::GCGEffectDamageElementType>(data::GCGEffectDamageElementType)::element_map,
@@ -159,11 +159,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGTokenType,data::GCGEffectE
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGTokenType,data::GCGEffectElementType>((std::map<data::GCGTokenType,data::GCGEffectElementType> *)&GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<data::GCGEffectElementType> GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGTokenType,data::GCGEffectElementType>::~map,
         (void *)&GCGUtils::elementCover<data::GCGEffectElementType,data::GCGTokenType>(data::GCGTokenType)::element_map,
@@ -237,11 +237,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGEffectElementType,data::GC
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGEffectElementType,data::GCGTokenType>((std::map<data::GCGEffectElementType,data::GCGTokenType> *)&GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<data::GCGTokenType> GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGEffectElementType,data::GCGTokenType>::~map,
         (void *)&GCGUtils::elementCover<data::GCGTokenType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map,
@@ -315,11 +315,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGEffectDiceType,proto::GCGD
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGEffectDiceType,proto::GCGDiceSideType>((std::map<data::GCGEffectDiceType,proto::GCGDiceSideType> *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGEffectDiceType,proto::GCGDiceSideType>::~map,
         (void *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectDiceType>(data::GCGEffectDiceType)::element_map,
@@ -393,11 +393,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGEffectElementType,proto::G
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGEffectElementType,proto::GCGDiceSideType>((std::map<data::GCGEffectElementType,proto::GCGDiceSideType> *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGEffectElementType,proto::GCGDiceSideType>::~map,
         (void *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGEffectElementType>(data::GCGEffectElementType)::element_map,
@@ -862,11 +862,11 @@ std::_Rb_tree_const_iterator<std::pair<const data::GCGCostType,proto::GCGDiceSid
   *(_DWORD *)(v2 + 48) = from;
   if ( *(_DWORD *)(v2 + 48) )
   {
-    if ( !(_BYTE)`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map
-      && __cxa_guard_acquire(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map) )
+    if ( !(_BYTE)`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map
+      && __cxa_guard_acquire(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map) )
     {
       GCGUtils::getElementCoverMap<data::GCGCostType,proto::GCGDiceSideType>((std::map<data::GCGCostType,proto::GCGDiceSideType> *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map);
-      __cxa_guard_release(&`guard variable for'std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map);
+      __cxa_guard_release(&`guard variable for std::optional<proto::GCGDiceSideType> GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<data::GCGCostType,proto::GCGDiceSideType>::~map,
         (void *)&GCGUtils::elementCover<proto::GCGDiceSideType,data::GCGCostType>(data::GCGCostType)::element_map,

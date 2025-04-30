@@ -318,8 +318,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 432) = s;
   if ( *(_QWORD *)(v2 + 432) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::TreeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::TreeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::TreeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::TreeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -448,7 +448,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::TreeType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::TreeType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::TreeType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::TreeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::TreeType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::TreeType>::~unordered_map,
         &data::enumStrToVal(char const*,data::TreeType &)::m,
@@ -749,8 +749,8 @@ const std::unordered_map<std::string,data::TreeType> *__cdecl data::getTreeTypeN
   v3[536862754] = -202116109;
   v3[536862755] = -202116109;
   v3[536862756] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getTreeTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getTreeTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getTreeTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getTreeTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -879,7 +879,7 @@ const std::unordered_map<std::string,data::TreeType> *__cdecl data::getTreeTypeN
       (const std::unordered_map<std::string,data::TreeType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::TreeType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::TreeType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getTreeTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getTreeTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::TreeType>::~unordered_map,
       &data::getTreeTypeNameMap[abi:cxx11](void)::m,
@@ -1006,8 +1006,8 @@ const std::map<data::TreeType,std::pair<std::string,std::string >> *__cdecl data
   v3[536862821] = -202116109;
   v3[536862822] = -202116109;
   v3[536862823] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getTreeTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getTreeTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getTreeTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getTreeTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1202,7 +1202,7 @@ const std::map<data::TreeType,std::pair<std::string,std::string >> *__cdecl data
       (std::initializer_list<std::pair<const data::TreeType,std::pair<std::string,std::string > > >)__PAIR128__(17LL, v1 + 1968),
       (const std::less<data::TreeType> *)(v1 + 32),
       (const std::map<data::TreeType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getTreeTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getTreeTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::TreeType,std::pair<std::string,std::string>>::~map,
       &data::getTreeTypeEnumMap[abi:cxx11](void)::m,

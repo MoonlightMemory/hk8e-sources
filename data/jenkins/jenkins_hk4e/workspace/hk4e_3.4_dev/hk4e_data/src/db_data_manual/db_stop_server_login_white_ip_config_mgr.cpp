@@ -1062,21 +1062,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         &_dso_handle);
       ScriptUtil::ScriptUtil(&ScriptUtil::no_exception_instance, 0);
       ScriptUtil::ScriptUtil(&ScriptUtil::has_exception_instance, 1);
-      v10 = &`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id >> 3)
+      v10 = &`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id);
       }
       if ( !*v10 )
       {
-        v11 = &`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id >> 3)
+        v11 = &`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::ProtEntityType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::ProtEntityType>::id);
         }
         *v11 = 1;
         *(_BYTE *)(((v2 + 176) >> 3) + 0x7FFF8000) = 0;
@@ -1090,21 +1090,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::ProtEntityType>::id = class_id;
         *(_BYTE *)(((v2 + 176) >> 3) + 0x7FFF8000) = -8;
       }
-      v13 = &`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id >> 3)
+      v13 = &`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id);
       }
       if ( !*v13 )
       {
-        v14 = &`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id >> 3)
+        v14 = &`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id);
         }
         *v14 = 1;
         *(_BYTE *)(((v2 + 208) >> 3) + 0x7FFF8000) = 0;
@@ -1118,21 +1118,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<luabind::detail::null_type>::id = v15;
         *(_BYTE *)(((v2 + 208) >> 3) + 0x7FFF8000) = -8;
       }
-      v16 = &`guard variable for'luabind::detail::registered_class<data::EventType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id >> 3)
+      v16 = &`guard variable for luabind::detail::registered_class<data::EventType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::EventType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::EventType>::id);
       }
       if ( !*v16 )
       {
-        v17 = &`guard variable for'luabind::detail::registered_class<data::EventType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id >> 3)
+        v17 = &`guard variable for luabind::detail::registered_class<data::EventType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::EventType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::EventType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::EventType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::EventType>::id);
         }
         *v17 = 1;
         *(_BYTE *)(((v2 + 240) >> 3) + 0x7FFF8000) = 0;
@@ -1145,21 +1145,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::EventType>::id = v18;
         *(_BYTE *)(((v2 + 240) >> 3) + 0x7FFF8000) = -8;
       }
-      v19 = &`guard variable for'luabind::detail::registered_class<Event>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3)
+      v19 = &`guard variable for luabind::detail::registered_class<Event>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Event>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Event>::id);
       }
       if ( !*v19 )
       {
-        v20 = &`guard variable for'luabind::detail::registered_class<Event>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3)
+        v20 = &`guard variable for luabind::detail::registered_class<Event>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Event>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Event>::id);
         }
         *v20 = 1;
         *(_BYTE *)(((v2 + 272) >> 3) + 0x7FFF8000) = 0;
@@ -1170,21 +1170,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<Event>::id = v21;
         *(_BYTE *)(((v2 + 272) >> 3) + 0x7FFF8000) = -8;
       }
-      v22 = &`guard variable for'luabind::detail::registered_class<data::RegionShape>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id >> 3)
+      v22 = &`guard variable for luabind::detail::registered_class<data::RegionShape>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::RegionShape>::id);
       }
       if ( !*v22 )
       {
-        v23 = &`guard variable for'luabind::detail::registered_class<data::RegionShape>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id >> 3)
+        v23 = &`guard variable for luabind::detail::registered_class<data::RegionShape>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RegionShape>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::RegionShape>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::RegionShape>::id);
         }
         *v23 = 1;
         *(_BYTE *)(((v2 + 304) >> 3) + 0x7FFF8000) = 0;
@@ -1197,21 +1197,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::RegionShape>::id = v24;
         *(_BYTE *)(((v2 + 304) >> 3) + 0x7FFF8000) = -8;
       }
-      v25 = &`guard variable for'luabind::detail::registered_class<data::GadgetState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id >> 3)
+      v25 = &`guard variable for luabind::detail::registered_class<data::GadgetState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::GadgetState>::id);
       }
       if ( !*v25 )
       {
-        v26 = &`guard variable for'luabind::detail::registered_class<data::GadgetState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id >> 3)
+        v26 = &`guard variable for luabind::detail::registered_class<data::GadgetState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::GadgetState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::GadgetState>::id);
         }
         *v26 = 1;
         *(_BYTE *)(((v2 + 336) >> 3) + 0x7FFF8000) = 0;
@@ -1224,21 +1224,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::GadgetState>::id = v27;
         *(_BYTE *)(((v2 + 336) >> 3) + 0x7FFF8000) = -8;
       }
-      v28 = &`guard variable for'luabind::detail::registered_class<data::QuestState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id >> 3)
+      v28 = &`guard variable for luabind::detail::registered_class<data::QuestState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::QuestState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::QuestState>::id);
       }
       if ( !*v28 )
       {
-        v29 = &`guard variable for'luabind::detail::registered_class<data::QuestState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id >> 3)
+        v29 = &`guard variable for luabind::detail::registered_class<data::QuestState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::QuestState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::QuestState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::QuestState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::QuestState>::id);
         }
         *v29 = 1;
         *(_BYTE *)(((v2 + 368) >> 3) + 0x7FFF8000) = 0;
@@ -1251,21 +1251,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::QuestState>::id = v30;
         *(_BYTE *)(((v2 + 368) >> 3) + 0x7FFF8000) = -8;
       }
-      v31 = &`guard variable for'luabind::detail::registered_class<data::ElementType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id >> 3)
+      v31 = &`guard variable for luabind::detail::registered_class<data::ElementType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::ElementType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::ElementType>::id);
       }
       if ( !*v31 )
       {
-        v32 = &`guard variable for'luabind::detail::registered_class<data::ElementType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id >> 3)
+        v32 = &`guard variable for luabind::detail::registered_class<data::ElementType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ElementType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ElementType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::ElementType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::ElementType>::id);
         }
         *v32 = 1;
         *(_BYTE *)(((v2 + 400) >> 3) + 0x7FFF8000) = 0;
@@ -1278,21 +1278,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::ElementType>::id = v33;
         *(_BYTE *)(((v2 + 400) >> 3) + 0x7FFF8000) = -8;
       }
-      v34 = &`guard variable for'luabind::detail::registered_class<data::GadgetType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id >> 3)
+      v34 = &`guard variable for luabind::detail::registered_class<data::GadgetType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::GadgetType>::id);
       }
       if ( !*v34 )
       {
-        v35 = &`guard variable for'luabind::detail::registered_class<data::GadgetType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id >> 3)
+        v35 = &`guard variable for luabind::detail::registered_class<data::GadgetType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GadgetType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::GadgetType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::GadgetType>::id);
         }
         *v35 = 1;
         *(_BYTE *)(((v2 + 432) >> 3) + 0x7FFF8000) = 0;
@@ -1305,21 +1305,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::GadgetType>::id = v36;
         *(_BYTE *)(((v2 + 432) >> 3) + 0x7FFF8000) = -8;
       }
-      v37 = &`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3)
+      v37 = &`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id);
       }
       if ( !*v37 )
       {
-        v38 = &`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3)
+        v38 = &`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::FatherChallengeProperty>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::FatherChallengeProperty>::id);
         }
         *v38 = 1;
         *(_BYTE *)(((v2 + 464) >> 3) + 0x7FFF8000) = 0;
@@ -1333,21 +1333,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::FatherChallengeProperty>::id = v39;
         *(_BYTE *)(((v2 + 464) >> 3) + 0x7FFF8000) = -8;
       }
-      v40 = &`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3)
+      v40 = &`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id);
       }
       if ( !*v40 )
       {
-        v41 = &`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3)
+        v41 = &`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::GroupKillPolicy>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::GroupKillPolicy>::id);
         }
         *v41 = 1;
         *(_BYTE *)(((v2 + 496) >> 3) + 0x7FFF8000) = 0;
@@ -1361,21 +1361,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::GroupKillPolicy>::id = v42;
         *(_BYTE *)(((v2 + 496) >> 3) + 0x7FFF8000) = -8;
       }
-      v43 = &`guard variable for'luabind::detail::registered_class<data::StrikeType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id >> 3)
+      v43 = &`guard variable for luabind::detail::registered_class<data::StrikeType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::StrikeType>::id);
       }
       if ( !*v43 )
       {
-        v44 = &`guard variable for'luabind::detail::registered_class<data::StrikeType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id >> 3)
+        v44 = &`guard variable for luabind::detail::registered_class<data::StrikeType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::StrikeType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::StrikeType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::StrikeType>::id);
         }
         *v44 = 1;
         *(_BYTE *)(((v2 + 528) >> 3) + 0x7FFF8000) = 0;
@@ -1388,21 +1388,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::StrikeType>::id = v45;
         *(_BYTE *)(((v2 + 528) >> 3) + 0x7FFF8000) = -8;
       }
-      v46 = &`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id >> 3)
+      v46 = &`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id);
       }
       if ( !*v46 )
       {
-        v47 = &`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id >> 3)
+        v47 = &`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::SealBattleType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::SealBattleType>::id);
         }
         *v47 = 1;
         *(_BYTE *)(((v2 + 560) >> 3) + 0x7FFF8000) = 0;
@@ -1416,21 +1416,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::SealBattleType>::id = v48;
         *(_BYTE *)(((v2 + 560) >> 3) + 0x7FFF8000) = -8;
       }
-      v49 = &`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id >> 3)
+      v49 = &`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id);
       }
       if ( !*v49 )
       {
-        v50 = &`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id >> 3)
+        v50 = &`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GadgetBornType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GadgetBornType>::id);
         }
         *v50 = 1;
         *(_BYTE *)(((v2 + 592) >> 3) + 0x7FFF8000) = 0;
@@ -1444,21 +1444,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GadgetBornType>::id = v51;
         *(_BYTE *)(((v2 + 592) >> 3) + 0x7FFF8000) = -8;
       }
-      v52 = &`guard variable for'luabind::detail::registered_class<data::ClimateType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id >> 3)
+      v52 = &`guard variable for luabind::detail::registered_class<data::ClimateType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::ClimateType>::id);
       }
       if ( !*v52 )
       {
-        v53 = &`guard variable for'luabind::detail::registered_class<data::ClimateType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id >> 3)
+        v53 = &`guard variable for luabind::detail::registered_class<data::ClimateType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ClimateType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::ClimateType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::ClimateType>::id);
         }
         *v53 = 1;
         *(_BYTE *)(((v2 + 624) >> 3) + 0x7FFF8000) = 0;
@@ -1471,21 +1471,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::ClimateType>::id = v54;
         *(_BYTE *)(((v2 + 624) >> 3) + 0x7FFF8000) = -8;
       }
-      v55 = &`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3)
+      v55 = &`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id);
       }
       if ( !*v55 )
       {
-        v56 = &`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3)
+        v56 = &`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id);
         }
         *v56 = 1;
         *(_BYTE *)(((v2 + 656) >> 3) + 0x7FFF8000) = 0;
@@ -1499,21 +1499,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id = v57;
         *(_BYTE *)(((v2 + 656) >> 3) + 0x7FFF8000) = -8;
       }
-      v58 = &`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3)
+      v58 = &`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id);
       }
       if ( !*v58 )
       {
-        v59 = &`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3)
+        v59 = &`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id);
         }
         *v59 = 1;
         *(_BYTE *)(((v2 + 688) >> 3) + 0x7FFF8000) = 0;
@@ -1527,21 +1527,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id = v60;
         *(_BYTE *)(((v2 + 688) >> 3) + 0x7FFF8000) = -8;
       }
-      v61 = &`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3)
+      v61 = &`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id);
       }
       if ( !*v61 )
       {
-        v62 = &`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3)
+        v62 = &`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::BlossomRefreshType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::BlossomRefreshType>::id);
         }
         *v62 = 1;
         *(_BYTE *)(((v2 + 720) >> 3) + 0x7FFF8000) = 0;
@@ -1555,21 +1555,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::BlossomRefreshType>::id = v63;
         *(_BYTE *)(((v2 + 720) >> 3) + 0x7FFF8000) = -8;
       }
-      v64 = &`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3)
+      v64 = &`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id);
       }
       if ( !*v64 )
       {
-        v65 = &`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3)
+        v65 = &`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::BlossomScheduleState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::BlossomScheduleState>::id);
         }
         *v65 = 1;
         *(_BYTE *)(((v2 + 752) >> 3) + 0x7FFF8000) = 0;
@@ -1583,21 +1583,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::BlossomScheduleState>::id = v66;
         *(_BYTE *)(((v2 + 752) >> 3) + 0x7FFF8000) = -8;
       }
-      v67 = &`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3)
+      v67 = &`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id);
       }
       if ( !*v67 )
       {
-        v68 = &`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3)
+        v68 = &`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GroupLoadStrategy>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GroupLoadStrategy>::id);
         }
         *v68 = 1;
         *(_BYTE *)(((v2 + 784) >> 3) + 0x7FFF8000) = 0;
@@ -1611,21 +1611,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GroupLoadStrategy>::id = v69;
         *(_BYTE *)(((v2 + 784) >> 3) + 0x7FFF8000) = -8;
       }
-      v70 = &`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3)
+      v70 = &`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id);
       }
       if ( !*v70 )
       {
-        v71 = &`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3)
+        v71 = &`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GadgetPlayType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GadgetPlayType>::id);
         }
         *v71 = 1;
         *(_BYTE *)(((v2 + 816) >> 3) + 0x7FFF8000) = 0;
@@ -1639,21 +1639,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GadgetPlayType>::id = v72;
         *(_BYTE *)(((v2 + 816) >> 3) + 0x7FFF8000) = -8;
       }
-      v73 = &`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id >> 3)
+      v73 = &`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id);
       }
       if ( !*v73 )
       {
-        v74 = &`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id >> 3)
+        v74 = &`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::MonsterBornType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::MonsterBornType>::id);
         }
         *v74 = 1;
         *(_BYTE *)(((v2 + 848) >> 3) + 0x7FFF8000) = 0;
@@ -1667,21 +1667,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::MonsterBornType>::id = v75;
         *(_BYTE *)(((v2 + 848) >> 3) + 0x7FFF8000) = -8;
       }
-      v76 = &`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3)
+      v76 = &`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id);
       }
       if ( !*v76 )
       {
-        v77 = &`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3)
+        v77 = &`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::ScenePlayBattleState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::ScenePlayBattleState>::id);
         }
         *v77 = 1;
         *(_BYTE *)(((v2 + 880) >> 3) + 0x7FFF8000) = 0;
@@ -1695,21 +1695,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::ScenePlayBattleState>::id = v78;
         *(_BYTE *)(((v2 + 880) >> 3) + 0x7FFF8000) = -8;
       }
-      v79 = &`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3)
+      v79 = &`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id);
       }
       if ( !*v79 )
       {
-        v80 = &`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3)
+        v80 = &`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::ChallengeEventMarkType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::ChallengeEventMarkType>::id);
         }
         *v80 = 1;
         *(_BYTE *)(((v2 + 912) >> 3) + 0x7FFF8000) = 0;
@@ -1723,21 +1723,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::ChallengeEventMarkType>::id = v81;
         *(_BYTE *)(((v2 + 912) >> 3) + 0x7FFF8000) = -8;
       }
-      v82 = &`guard variable for'luabind::detail::registered_class<Vector3>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id >> 3)
+      v82 = &`guard variable for luabind::detail::registered_class<Vector3>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Vector3>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Vector3>::id);
       }
       if ( !*v82 )
       {
-        v83 = &`guard variable for'luabind::detail::registered_class<Vector3>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id >> 3)
+        v83 = &`guard variable for luabind::detail::registered_class<Vector3>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Vector3>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Vector3>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Vector3>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Vector3>::id);
         }
         *v83 = 1;
         *(_BYTE *)(((v2 + 944) >> 3) + 0x7FFF8000) = 0;
@@ -1748,21 +1748,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<Vector3>::id = v84;
         *(_BYTE *)(((v2 + 944) >> 3) + 0x7FFF8000) = -8;
       }
-      v85 = &`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id >> 3)
+      v85 = &`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id);
       }
       if ( !*v85 )
       {
-        v86 = &`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id >> 3)
+        v86 = &`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::VisionLevelType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::VisionLevelType>::id);
         }
         *v86 = 1;
         *(_BYTE *)(((v2 + 976) >> 3) + 0x7FFF8000) = 0;
@@ -1776,21 +1776,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::VisionLevelType>::id = v87;
         *(_BYTE *)(((v2 + 976) >> 3) + 0x7FFF8000) = -8;
       }
-      v88 = &`guard variable for'luabind::detail::registered_class<data::RouteType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id >> 3)
+      v88 = &`guard variable for luabind::detail::registered_class<data::RouteType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::RouteType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::RouteType>::id);
       }
       if ( !*v88 )
       {
-        v89 = &`guard variable for'luabind::detail::registered_class<data::RouteType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id >> 3)
+        v89 = &`guard variable for luabind::detail::registered_class<data::RouteType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::RouteType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::RouteType>::id);
         }
         *v89 = 1;
         *(_BYTE *)(((v2 + 1008) >> 3) + 0x7FFF8000) = 0;
@@ -1803,21 +1803,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::RouteType>::id = v90;
         *(_BYTE *)(((v2 + 1008) >> 3) + 0x7FFF8000) = -8;
       }
-      v91 = &`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id >> 3)
+      v91 = &`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id);
       }
       if ( !*v91 )
       {
-        v92 = &`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id >> 3)
+        v92 = &`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::RouteRecordMode>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::RouteRecordMode>::id);
         }
         *v92 = 1;
         *(_BYTE *)(((v2 + 1040) >> 3) + 0x7FFF8000) = 0;
@@ -1831,21 +1831,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::RouteRecordMode>::id = v93;
         *(_BYTE *)(((v2 + 1040) >> 3) + 0x7FFF8000) = -8;
       }
-      v94 = &`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3)
+      v94 = &`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id);
       }
       if ( !*v94 )
       {
-        v95 = &`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3)
+        v95 = &`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::MultistagePlayType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::MultistagePlayType>::id);
         }
         *v95 = 1;
         *(_BYTE *)(((v2 + 1072) >> 3) + 0x7FFF8000) = 0;
@@ -1859,21 +1859,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::MultistagePlayType>::id = v96;
         *(_BYTE *)(((v2 + 1072) >> 3) + 0x7FFF8000) = -8;
       }
-      v97 = &`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id >> 3)
+      v97 = &`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id);
       }
       if ( !*v97 )
       {
-        v98 = &`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id >> 3)
+        v98 = &`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::MultistageStageType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::MultistageStageType>::id);
         }
         *v98 = 1;
         *(_BYTE *)(((v2 + 1104) >> 3) + 0x7FFF8000) = 0;
@@ -1887,21 +1887,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::MultistageStageType>::id = v99;
         *(_BYTE *)(((v2 + 1104) >> 3) + 0x7FFF8000) = -8;
       }
-      v100 = &`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3)
+      v100 = &`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id);
       }
       if ( !*v100 )
       {
-        v101 = &`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3)
+        v101 = &`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id);
         }
         *v101 = 1;
         *(_BYTE *)(((v2 + 1136) >> 3) + 0x7FFF8000) = 0;
@@ -1915,21 +1915,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id = v102;
         *(_BYTE *)(((v2 + 1136) >> 3) + 0x7FFF8000) = -8;
       }
-      v103 = &`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3)
+      v103 = &`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id);
       }
       if ( !*v103 )
       {
-        v104 = &`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3)
+        v104 = &`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id);
         }
         *v104 = 1;
         *(_BYTE *)(((v2 + 1168) >> 3) + 0x7FFF8000) = 0;
@@ -1943,21 +1943,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id = v105;
         *(_BYTE *)(((v2 + 1168) >> 3) + 0x7FFF8000) = -8;
       }
-      v106 = &`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3)
+      v106 = &`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id);
       }
       if ( !*v106 )
       {
-        v107 = &`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3)
+        v107 = &`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::CommonPlayerTipsType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::CommonPlayerTipsType>::id);
         }
         *v107 = 1;
         *(_BYTE *)(((v2 + 1200) >> 3) + 0x7FFF8000) = 0;
@@ -1971,21 +1971,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::CommonPlayerTipsType>::id = v108;
         *(_BYTE *)(((v2 + 1200) >> 3) + 0x7FFF8000) = -8;
       }
-      v109 = &`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id >> 3)
+      v109 = &`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id);
       }
       if ( !*v109 )
       {
-        v110 = &`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id >> 3)
+        v110 = &`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GroupVariableType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GroupVariableType>::id);
         }
         *v110 = 1;
         *(_BYTE *)(((v2 + 1232) >> 3) + 0x7FFF8000) = 0;
@@ -1999,21 +1999,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GroupVariableType>::id = v111;
         *(_BYTE *)(((v2 + 1232) >> 3) + 0x7FFF8000) = -8;
       }
-      v112 = &`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3)
+      v112 = &`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id);
       }
       if ( !*v112 )
       {
-        v113 = &`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3)
+        v113 = &`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id);
         }
         *v113 = 1;
         *(_BYTE *)(((v2 + 1264) >> 3) + 0x7FFF8000) = 0;
@@ -2027,21 +2027,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id = v114;
         *(_BYTE *)(((v2 + 1264) >> 3) + 0x7FFF8000) = -8;
       }
-      v115 = &`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3)
+      v115 = &`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id);
       }
       if ( !*v115 )
       {
-        v116 = &`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3)
+        v116 = &`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id);
         }
         *v116 = 1;
         *(_BYTE *)(((v2 + 1296) >> 3) + 0x7FFF8000) = 0;
@@ -2055,21 +2055,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id = v117;
         *(_BYTE *)(((v2 + 1296) >> 3) + 0x7FFF8000) = -8;
       }
-      v118 = &`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3)
+      v118 = &`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id);
       }
       if ( !*v118 )
       {
-        v119 = &`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3)
+        v119 = &`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::GalleryStopReason>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::GalleryStopReason>::id);
         }
         *v119 = 1;
         *(_BYTE *)(((v2 + 1328) >> 3) + 0x7FFF8000) = 0;
@@ -2083,21 +2083,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::GalleryStopReason>::id = v120;
         *(_BYTE *)(((v2 + 1328) >> 3) + 0x7FFF8000) = -8;
       }
-      v121 = &`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3)
+      v121 = &`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id);
       }
       if ( !*v121 )
       {
-        v122 = &`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3)
+        v122 = &`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::GalleryProgressScoreType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::GalleryProgressScoreType>::id);
         }
         *v122 = 1;
         *(_BYTE *)(((v2 + 1360) >> 3) + 0x7FFF8000) = 0;
@@ -2111,21 +2111,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::GalleryProgressScoreType>::id = v123;
         *(_BYTE *)(((v2 + 1360) >> 3) + 0x7FFF8000) = -8;
       }
-      v124 = &`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3)
+      v124 = &`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id);
       }
       if ( !*v124 )
       {
-        v125 = &`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3)
+        v125 = &`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::AranaraCollectionType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::AranaraCollectionType>::id);
         }
         *v125 = 1;
         *(_BYTE *)(((v2 + 1392) >> 3) + 0x7FFF8000) = 0;
@@ -2139,21 +2139,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::AranaraCollectionType>::id = v126;
         *(_BYTE *)(((v2 + 1392) >> 3) + 0x7FFF8000) = -8;
       }
-      v127 = &`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3)
+      v127 = &`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id);
       }
       if ( !*v127 )
       {
-        v128 = &`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3)
+        v128 = &`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<proto::AranaraCollectionState>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<proto::AranaraCollectionState>::id);
         }
         *v128 = 1;
         *(_BYTE *)(((v2 + 1424) >> 3) + 0x7FFF8000) = 0;
@@ -2167,21 +2167,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<proto::AranaraCollectionState>::id = v129;
         *(_BYTE *)(((v2 + 1424) >> 3) + 0x7FFF8000) = -8;
       }
-      v130 = &`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3)
+      v130 = &`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id);
       }
       if ( !*v130 )
       {
-        v131 = &`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3)
+        v131 = &`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<data::ExhibitionPlayType>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<data::ExhibitionPlayType>::id);
         }
         *v131 = 1;
         *(_BYTE *)(((v2 + 1456) >> 3) + 0x7FFF8000) = 0;
@@ -2195,21 +2195,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         luabind::detail::registered_class<data::ExhibitionPlayType>::id = v132;
         *(_BYTE *)(((v2 + 1456) >> 3) + 0x7FFF8000) = -8;
       }
-      v133 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v133 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v133 )
       {
-        v134 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v134 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+          __asan_report_store1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
         }
         *v134 = 1;
         v135 = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits + 9;

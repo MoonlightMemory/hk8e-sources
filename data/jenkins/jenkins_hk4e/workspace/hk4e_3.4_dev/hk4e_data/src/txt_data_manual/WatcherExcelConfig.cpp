@@ -2013,11 +2013,11 @@ const std::unordered_set<unsigned int> *__fastcall WatcherExcelConfigMgr::getGCG
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)watcher_id;
-  if ( !(_BYTE)`guard variable for'WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)::empty_set);
     watcher_id = &WatcherExcelConfigMgr::getGCGChallengeIdSetByWatcherId(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -2206,26 +2206,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::unordered_set<std::string>::~unordered_set,
         (void *)&CurAvatarHurtBySpecificAbilityWatcherParam::ALLOW_ABILITY_NAME_SET[abi:cxx11],
         &_dso_handle);
-      v11 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v12 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v11 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v12 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v13) = v12 != 0;
-      v14 = (v12 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v12);
+      v14 = (v12 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v12);
       if ( (_BYTE)v14 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v13,
           v14);
       if ( !*v11 )
       {
-        v15 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v16 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v15 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v16 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v13) = v16 != 0;
-        v17 = (v16 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v16);
+        v17 = (v16 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v16);
         if ( (_BYTE)v17 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v13,
             v17);
         *v15 = 1;

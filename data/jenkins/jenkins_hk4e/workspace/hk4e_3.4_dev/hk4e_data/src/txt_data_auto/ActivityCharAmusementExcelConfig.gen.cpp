@@ -300,8 +300,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityCharAmusementStageType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityCharAmusementStageType &)::m,
@@ -613,8 +613,8 @@ const std::unordered_map<std::string,data::ActivityCharAmusementStageType> *__cd
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -647,7 +647,7 @@ const std::unordered_map<std::string,data::ActivityCharAmusementStageType> *__cd
       (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityCharAmusementStageType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityCharAmusementStageType>::~unordered_map,
       &data::getActivityCharAmusementStageTypeNameMap[abi:cxx11](void)::m,
@@ -719,8 +719,8 @@ const std::map<data::ActivityCharAmusementStageType,std::pair<std::string,std::s
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -761,7 +761,7 @@ const std::map<data::ActivityCharAmusementStageType,std::pair<std::string,std::s
       (std::initializer_list<std::pair<const data::ActivityCharAmusementStageType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ActivityCharAmusementStageType> *)(v1 + 48),
       (const std::map<data::ActivityCharAmusementStageType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityCharAmusementStageType,std::pair<std::string,std::string>>::~map,
       &data::getActivityCharAmusementStageTypeEnumMap[abi:cxx11](void)::m,
@@ -1123,8 +1123,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1150,7 +1150,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityCharAmusementLevelType &)::m,
@@ -1436,8 +1436,8 @@ const std::unordered_map<std::string,data::ActivityCharAmusementLevelType> *__cd
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1470,7 +1470,7 @@ const std::unordered_map<std::string,data::ActivityCharAmusementLevelType> *__cd
       (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityCharAmusementLevelType>::~unordered_map,
       &data::getActivityCharAmusementLevelTypeNameMap[abi:cxx11](void)::m,
@@ -1542,8 +1542,8 @@ const std::map<data::ActivityCharAmusementLevelType,std::pair<std::string,std::s
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1584,7 +1584,7 @@ const std::map<data::ActivityCharAmusementLevelType,std::pair<std::string,std::s
       (std::initializer_list<std::pair<const data::ActivityCharAmusementLevelType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ActivityCharAmusementLevelType> *)(v1 + 48),
       (const std::map<data::ActivityCharAmusementLevelType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityCharAmusementLevelType,std::pair<std::string,std::string>>::~map,
       &data::getActivityCharAmusementLevelTypeEnumMap[abi:cxx11](void)::m,

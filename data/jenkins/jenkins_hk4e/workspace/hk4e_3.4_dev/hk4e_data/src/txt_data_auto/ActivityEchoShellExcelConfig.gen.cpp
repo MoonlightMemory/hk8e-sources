@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::EchoShellType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::EchoShellType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::EchoShellType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::EchoShellType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -351,7 +351,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::EchoShellType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::EchoShellType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::EchoShellType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::EchoShellType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::EchoShellType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::EchoShellType>::~unordered_map,
         &data::enumStrToVal(char const*,data::EchoShellType &)::m,
@@ -646,8 +646,8 @@ const std::unordered_map<std::string,data::EchoShellType> *__cdecl data::getEcho
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEchoShellTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEchoShellTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEchoShellTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEchoShellTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -692,7 +692,7 @@ const std::unordered_map<std::string,data::EchoShellType> *__cdecl data::getEcho
       (const std::unordered_map<std::string,data::EchoShellType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::EchoShellType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::EchoShellType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getEchoShellTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEchoShellTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::EchoShellType>::~unordered_map,
       &data::getEchoShellTypeNameMap[abi:cxx11](void)::m,
@@ -778,8 +778,8 @@ const std::map<data::EchoShellType,std::pair<std::string,std::string >> *__cdecl
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getEchoShellTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getEchoShellTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getEchoShellTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getEchoShellTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -842,7 +842,7 @@ const std::map<data::EchoShellType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::EchoShellType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::EchoShellType> *)(v1 + 32),
       (const std::map<data::EchoShellType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getEchoShellTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getEchoShellTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::EchoShellType,std::pair<std::string,std::string>>::~map,
       &data::getEchoShellTypeEnumMap[abi:cxx11](void)::m,

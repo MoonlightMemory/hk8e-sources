@@ -295,8 +295,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RogueDiaryStageDifficultyType &)::m,
@@ -622,8 +622,8 @@ const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType> *__cde
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -663,7 +663,7 @@ const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType> *__cde
       (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryStageDifficultyType>::~unordered_map,
       &data::getRogueDiaryStageDifficultyTypeNameMap[abi:cxx11](void)::m,
@@ -737,8 +737,8 @@ const std::map<data::RogueDiaryStageDifficultyType,std::pair<std::string,std::st
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -790,7 +790,7 @@ const std::map<data::RogueDiaryStageDifficultyType,std::pair<std::string,std::st
       (std::initializer_list<std::pair<const data::RogueDiaryStageDifficultyType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::RogueDiaryStageDifficultyType> *)(v1 + 32),
       (const std::map<data::RogueDiaryStageDifficultyType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueDiaryStageDifficultyType,std::pair<std::string,std::string>>::~map,
       &data::getRogueDiaryStageDifficultyTypeEnumMap[abi:cxx11](void)::m,
@@ -1149,8 +1149,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1181,7 +1181,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RogueDiaryTiredType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RogueDiaryTiredType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RogueDiaryTiredType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryTiredType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RogueDiaryTiredType &)::m,
@@ -1476,8 +1476,8 @@ const std::unordered_map<std::string,data::RogueDiaryTiredType> *__cdecl data::g
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1515,7 +1515,7 @@ const std::unordered_map<std::string,data::RogueDiaryTiredType> *__cdecl data::g
       (const std::unordered_map<std::string,data::RogueDiaryTiredType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RogueDiaryTiredType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RogueDiaryTiredType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryTiredType>::~unordered_map,
       &data::getRogueDiaryTiredTypeNameMap[abi:cxx11](void)::m,
@@ -1589,8 +1589,8 @@ const std::map<data::RogueDiaryTiredType,std::pair<std::string,std::string >> *_
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1642,7 +1642,7 @@ const std::map<data::RogueDiaryTiredType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::RogueDiaryTiredType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::RogueDiaryTiredType> *)(v1 + 32),
       (const std::map<data::RogueDiaryTiredType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueDiaryTiredType,std::pair<std::string,std::string>>::~map,
       &data::getRogueDiaryTiredTypeEnumMap[abi:cxx11](void)::m,
@@ -2006,8 +2006,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2031,7 +2031,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RogueDiaryBuffType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RogueDiaryBuffType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RogueDiaryBuffType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryBuffType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RogueDiaryBuffType &)::m,
@@ -2321,8 +2321,8 @@ const std::unordered_map<std::string,data::RogueDiaryBuffType> *__cdecl data::ge
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2353,7 +2353,7 @@ const std::unordered_map<std::string,data::RogueDiaryBuffType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::RogueDiaryBuffType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RogueDiaryBuffType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RogueDiaryBuffType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryBuffType>::~unordered_map,
       &data::getRogueDiaryBuffTypeNameMap[abi:cxx11](void)::m,
@@ -2425,8 +2425,8 @@ const std::map<data::RogueDiaryBuffType,std::pair<std::string,std::string >> *__
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2467,7 +2467,7 @@ const std::map<data::RogueDiaryBuffType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::RogueDiaryBuffType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::RogueDiaryBuffType> *)(v1 + 48),
       (const std::map<data::RogueDiaryBuffType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueDiaryBuffType,std::pair<std::string,std::string>>::~map,
       &data::getRogueDiaryBuffTypeEnumMap[abi:cxx11](void)::m,
@@ -2831,8 +2831,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2856,7 +2856,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RogueDiaryBuffEffectType &)::m,
@@ -3146,8 +3146,8 @@ const std::unordered_map<std::string,data::RogueDiaryBuffEffectType> *__cdecl da
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3178,7 +3178,7 @@ const std::unordered_map<std::string,data::RogueDiaryBuffEffectType> *__cdecl da
       (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryBuffEffectType>::~unordered_map,
       &data::getRogueDiaryBuffEffectTypeNameMap[abi:cxx11](void)::m,
@@ -3250,8 +3250,8 @@ const std::map<data::RogueDiaryBuffEffectType,std::pair<std::string,std::string 
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3292,7 +3292,7 @@ const std::map<data::RogueDiaryBuffEffectType,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::RogueDiaryBuffEffectType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::RogueDiaryBuffEffectType> *)(v1 + 48),
       (const std::map<data::RogueDiaryBuffEffectType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueDiaryBuffEffectType,std::pair<std::string,std::string>>::~map,
       &data::getRogueDiaryBuffEffectTypeEnumMap[abi:cxx11](void)::m,
@@ -3659,8 +3659,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 272) = s;
   if ( *(_QWORD *)(v2 + 272) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -3712,7 +3712,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RogueDiaryResourceType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::RogueDiaryResourceType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::RogueDiaryResourceType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryResourceType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RogueDiaryResourceType &)::m,
@@ -4014,8 +4014,8 @@ const std::unordered_map<std::string,data::RogueDiaryResourceType> *__cdecl data
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4067,7 +4067,7 @@ const std::unordered_map<std::string,data::RogueDiaryResourceType> *__cdecl data
       (const std::unordered_map<std::string,data::RogueDiaryResourceType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::RogueDiaryResourceType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::RogueDiaryResourceType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RogueDiaryResourceType>::~unordered_map,
       &data::getRogueDiaryResourceTypeNameMap[abi:cxx11](void)::m,
@@ -4158,8 +4158,8 @@ const std::map<data::RogueDiaryResourceType,std::pair<std::string,std::string >>
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4233,7 +4233,7 @@ const std::map<data::RogueDiaryResourceType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::RogueDiaryResourceType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::RogueDiaryResourceType> *)(v1 + 48),
       (const std::map<data::RogueDiaryResourceType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RogueDiaryResourceType,std::pair<std::string,std::string>>::~map,
       &data::getRogueDiaryResourceTypeEnumMap[abi:cxx11](void)::m,

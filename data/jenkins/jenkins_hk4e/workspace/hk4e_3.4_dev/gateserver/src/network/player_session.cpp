@@ -2550,14 +2550,14 @@ void __cdecl PlayerSession::encryptFirstPacketData(PlayerSession *const this, ch
   *(_DWORD *)(v5 + 2147450884) = -202178560;
   ServiceBox::findService<GateserverService>();
   GateserverService::getConfig((GateserverService *const)(v3 + 32));
-  if ( !(_BYTE)`guard variable for'PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key
-    && __cxa_guard_acquire(&`guard variable for'PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key) )
+  if ( !(_BYTE)`guard variable for PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key
+    && __cxa_guard_acquire(&`guard variable for PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key) )
   {
     v6 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v3 + 32));
     Config::getServerSecretKey[abi:cxx11](
       &PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key,
       v6);
-    __cxa_guard_release(&`guard variable for'PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key);
+    __cxa_guard_release(&`guard variable for PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       &PlayerSession::encryptFirstPacketData(char *,unsigned int)::first_packet_secret_key,

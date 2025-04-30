@@ -307,8 +307,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::RefreshType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::RefreshType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::RefreshType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::RefreshType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -353,7 +353,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::RefreshType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::RefreshType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::RefreshType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::RefreshType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::RefreshType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::RefreshType>::~unordered_map,
         &data::enumStrToVal(char const*,data::RefreshType &)::m,
@@ -650,8 +650,8 @@ const std::unordered_map<std::string,data::RefreshType> *__cdecl data::getRefres
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRefreshTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRefreshTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRefreshTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRefreshTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -696,7 +696,7 @@ const std::unordered_map<std::string,data::RefreshType> *__cdecl data::getRefres
       (const std::unordered_map<std::string,data::RefreshType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::RefreshType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::RefreshType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getRefreshTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRefreshTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::RefreshType>::~unordered_map,
       &data::getRefreshTypeNameMap[abi:cxx11](void)::m,
@@ -782,8 +782,8 @@ const std::map<data::RefreshType,std::pair<std::string,std::string >> *__cdecl d
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getRefreshTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getRefreshTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getRefreshTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getRefreshTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -846,7 +846,7 @@ const std::map<data::RefreshType,std::pair<std::string,std::string >> *__cdecl d
       (std::initializer_list<std::pair<const data::RefreshType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::RefreshType> *)(v1 + 32),
       (const std::map<data::RefreshType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getRefreshTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getRefreshTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::RefreshType,std::pair<std::string,std::string>>::~map,
       &data::getRefreshTypeEnumMap[abi:cxx11](void)::m,

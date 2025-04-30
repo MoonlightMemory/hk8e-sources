@@ -295,8 +295,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::~unordered_map,
         &data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_CATEGORY &)::m,
@@ -617,8 +617,8 @@ const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY> *__cdec
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY> *__cdec
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_CATEGORY>::~unordered_map,
       &data::getHIDE_AND_SEEK_SKILL_CATEGORYNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::HIDE_AND_SEEK_SKILL_CATEGORY,std::pair<std::string,std::str
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::HIDE_AND_SEEK_SKILL_CATEGORY,std::pair<std::string,std::str
       (std::initializer_list<std::pair<const data::HIDE_AND_SEEK_SKILL_CATEGORY,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::HIDE_AND_SEEK_SKILL_CATEGORY> *)(v1 + 32),
       (const std::map<data::HIDE_AND_SEEK_SKILL_CATEGORY,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HIDE_AND_SEEK_SKILL_CATEGORY,std::pair<std::string,std::string>>::~map,
       &data::getHIDE_AND_SEEK_SKILL_CATEGORYEnumMap[abi:cxx11](void)::m,
@@ -1142,8 +1142,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1174,7 +1174,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::~unordered_map,
         &data::enumStrToVal(char const*,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY &)::m,
@@ -1460,8 +1460,8 @@ const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY> *__
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1501,7 +1501,7 @@ const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY> *__
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::~unordered_map,
       &data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYNameMap[abi:cxx11](void)::m,
@@ -1575,8 +1575,8 @@ const std::map<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY,std::pair<std::string,std:
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1628,7 +1628,7 @@ const std::map<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY,std::pair<std::string,std:
       (std::initializer_list<std::pair<const data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY> *)(v1 + 32),
       (const std::map<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY,std::pair<std::string,std::string>>::~map,
       &data::getHIDE_AND_SEEK_SKILL_SUB_CATEGORYEnumMap[abi:cxx11](void)::m,

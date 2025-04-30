@@ -576,11 +576,11 @@ GCGGameMgr *__cdecl GCGService::getThreadLocalGameMgr(GCGService *const this)
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
-  if ( !(_BYTE)`guard variable for'GCGService::getThreadLocalGameMgr(void)::empty_game_mgr
-    && __cxa_guard_acquire(&`guard variable for'GCGService::getThreadLocalGameMgr(void)::empty_game_mgr) )
+  if ( !(_BYTE)`guard variable for GCGService::getThreadLocalGameMgr(void)::empty_game_mgr
+    && __cxa_guard_acquire(&`guard variable for GCGService::getThreadLocalGameMgr(void)::empty_game_mgr) )
   {
     GCGGameMgr::GCGGameMgr(&GCGService::getThreadLocalGameMgr(void)::empty_game_mgr);
-    __cxa_guard_release(&`guard variable for'GCGService::getThreadLocalGameMgr(void)::empty_game_mgr);
+    __cxa_guard_release(&`guard variable for GCGService::getThreadLocalGameMgr(void)::empty_game_mgr);
     v1 = &GCGService::getThreadLocalGameMgr(void)::empty_game_mgr;
     __cxa_atexit(
       (void (__fastcall *)(void *))GCGGameMgr::~GCGGameMgr,

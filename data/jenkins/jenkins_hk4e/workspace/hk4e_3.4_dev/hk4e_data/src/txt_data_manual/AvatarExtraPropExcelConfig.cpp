@@ -318,8 +318,8 @@ int32_t __cdecl AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(
               (const __gnu_cxx::__normal_iterator<const data::ExtraPropConfig*,std::vector<data::ExtraPropConfig> > *)(v2 + 192)) )
     {
       extra_prop = __gnu_cxx::__normal_iterator<data::ExtraPropConfig const*,std::vector<data::ExtraPropConfig>>::operator*((const __gnu_cxx::__normal_iterator<const data::ExtraPropConfig*,std::vector<data::ExtraPropConfig> > *const)(v2 + 160));
-      if ( !(_BYTE)`guard variable for'AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET
-        && __cxa_guard_acquire(&`guard variable for'AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET) )
+      if ( !(_BYTE)`guard variable for AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET
+        && __cxa_guard_acquire(&`guard variable for AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET) )
       {
         *(_WORD *)(((v2 + 224) >> 3) + 0x7FFF8000) = 1024;
         if ( *(_BYTE *)(((v2 + 224) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 224) >> 3) + 0x7FFF8000) <= 3 )
@@ -343,7 +343,7 @@ int32_t __cdecl AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(
           (std::initializer_list<data::FightPropType>)__PAIR128__(3LL, v2 + 224),
           (const std::less<data::FightPropType> *)(v2 + 48),
           (const std::set<data::FightPropType>::allocator_type *)(v2 + 64));
-        __cxa_guard_release(&`guard variable for'AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET);
+        __cxa_guard_release(&`guard variable for AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET);
         __cxa_atexit(
           (void (__fastcall *)(void *))std::set<data::FightPropType>::~set,
           (void *)&AvatarExtraPropExcelConfigMgr::checkExtraPropExcelConfig(TxtConfigMgr const&)::VALID_FIGHT_PROP_TYPE_SET,

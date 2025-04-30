@@ -1503,8 +1503,8 @@ LABEL_219:
     __asan_report_load8(&this->_M_weak_this._M_refcount);
   }
   this->ssl_ctx_.handle_ = 0LL;
-  if ( !(_BYTE)`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init
-    && __cxa_guard_acquire(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init) )
+  if ( !(_BYTE)`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init
+    && __cxa_guard_acquire(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init) )
   {
     thread_idxb = (std::__shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init,(__gnu_cxx::_Lock_policy)2>::element_type *)operator new(1uLL);
     boost::asio::ssl::detail::openssl_init_base::instance(void)::init._M_ptr = thread_idxb;
@@ -1532,7 +1532,7 @@ LABEL_219:
           {
             v64[1]._vptr__Sp_counted_base = (int (**)(...))thread_idxb;
             boost::asio::ssl::detail::openssl_init_base::instance(void)::init._M_refcount._M_pi = v64;
-            __cxa_guard_release(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
+            __cxa_guard_release(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
             __cxa_atexit(
               (void (__fastcall *)(void *))std::shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init>::~shared_ptr,
               &boost::asio::ssl::detail::openssl_init_base::instance(void)::init,
@@ -1597,7 +1597,7 @@ LABEL_240:
       goto LABEL_154;
     }
     ioc = (boost::asio::io_context *)__asan_report_load4(&v60->_M_use_count);
-    __cxa_guard_abort(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
+    __cxa_guard_abort(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
 LABEL_237:
     common::minet::http_client::HttpClient::~HttpClient(this);
     __asan_handle_no_return(this);

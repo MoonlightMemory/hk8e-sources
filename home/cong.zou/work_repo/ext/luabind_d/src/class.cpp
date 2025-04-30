@@ -851,9 +851,9 @@ void __cdecl GLOBAL__sub_I_class_cpp()
 
   std::ios_base::Init::Init(&std::__ioinit);
   __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-  if ( !`guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id )
+  if ( !`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id )
   {
-    `guard variable for'luabind::detail::registered_class<luabind::detail::null_type>::id = 1;
+    `guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id = 1;
     cls.id = (const std::type_info *)&`typeinfo for'luabind::detail::null_type;
     luabind::detail::registered_class<luabind::detail::null_type>::id = luabind::detail::allocate_class_id(&cls);
   }

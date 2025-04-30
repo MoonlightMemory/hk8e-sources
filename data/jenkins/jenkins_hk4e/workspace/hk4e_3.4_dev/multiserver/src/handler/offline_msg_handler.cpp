@@ -5080,8 +5080,8 @@ __int64 __fastcall OfflineMsgHandler::checkSocialOfflineMsgData(
   *(_DWORD *)(v6 + 2147450880) = -235802127;
   *(_DWORD *)(v6 + 2147450884) = -202116348;
   *(_DWORD *)(v4 + 32) = uid;
-  if ( !(_BYTE)`guard variable for'OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set
-    && __cxa_guard_acquire(&`guard variable for'OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set) )
+  if ( !(_BYTE)`guard variable for OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set
+    && __cxa_guard_acquire(&`guard variable for OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set) )
   {
     __for_end.it_ = (void *const *)0x2300000022LL;
     std::allocator<unsigned int>::allocator(&__a);
@@ -5090,7 +5090,7 @@ __int64 __fastcall OfflineMsgHandler::checkSocialOfflineMsgData(
       (std::initializer_list<unsigned int>)__PAIR128__(2LL, &__for_end),
       &__comp,
       &__a);
-    __cxa_guard_release(&`guard variable for'OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set);
+    __cxa_guard_release(&`guard variable for OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,
       &OfflineMsgHandler::checkSocialOfflineMsgData(unsigned int,proto::OfflineMsgRedisData const&,proto::OfflineMsgBin const&)::social_related_offline_msg_type_set,
@@ -7859,8 +7859,8 @@ __int64 __fastcall OfflineMsgHandler::checkRemoveInvalidMapMarksOp(
   v5[536862721] = -234556943;
   v5[536862722] = -202116352;
   *(_DWORD *)(v3 + 48) = uid;
-  if ( !(_BYTE)`guard variable for'OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map
-    && __cxa_guard_acquire(&`guard variable for'OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map) )
+  if ( !(_BYTE)`guard variable for OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map
+    && __cxa_guard_acquire(&`guard variable for OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map) )
   {
     __l._M_array = (std::initializer_list<std::pair<float const,OfflineMsgHandler::checkRemoveInvalidMapMarksOp(uint32_t,const proto::RemoveInvalidMapMarksOp&)::SceneMapMarkCoordinateRange> >::iterator)0xC606600040400000LL;
     __l._M_len = 0xC5EA600045F6E000LL;
@@ -7878,7 +7878,7 @@ __int64 __fastcall OfflineMsgHandler::checkRemoveInvalidMapMarksOp(
       &__hf,
       &__eql,
       &__a);
-    __cxa_guard_release(&`guard variable for'OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map);
+    __cxa_guard_release(&`guard variable for OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<float,OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::SceneMapMarkCoordinateRange,std::hash<float>,std::equal_to<float>,std::allocator<std::pair<float const,OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::SceneMapMarkCoordinateRange>>>::~unordered_map,
       (void *)&OfflineMsgHandler::checkRemoveInvalidMapMarksOp(unsigned int,proto::RemoveInvalidMapMarksOp const&)::config_scene_coordinate_range_map,

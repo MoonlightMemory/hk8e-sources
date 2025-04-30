@@ -388,8 +388,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 1968) = s;
   if ( *(_QWORD *)(v2 + 1968) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ShopType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ShopType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ShopType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ShopType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1190,7 +1190,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ShopType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ShopType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ShopType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ShopType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ShopType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ShopType &)::m,
@@ -1657,8 +1657,8 @@ const std::unordered_map<std::string,data::ShopType> *__cdecl data::getShopTypeN
   v3[536862927] = -202116109;
   v3[536862928] = -202116109;
   v3[536862929] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2466,7 +2466,7 @@ const std::unordered_map<std::string,data::ShopType> *__cdecl data::getShopTypeN
       (const std::unordered_map<std::string,data::ShopType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ShopType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ShopType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getShopTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopType>::~unordered_map,
       &data::getShopTypeNameMap[abi:cxx11](void)::m,
@@ -2929,8 +2929,8 @@ const std::map<data::ShopType,std::pair<std::string,std::string >> *__cdecl data
   v3[536863383] = -202116109;
   v3[536863384] = -202116109;
   v3[536863385] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4192,7 +4192,7 @@ const std::map<data::ShopType,std::pair<std::string,std::string >> *__cdecl data
       (std::initializer_list<std::pair<const data::ShopType,std::pair<std::string,std::string > > >)__PAIR128__(114LL, v1 + 12848),
       (const std::less<data::ShopType> *)(v1 + 48),
       (const std::map<data::ShopType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getShopTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ShopType,std::pair<std::string,std::string>>::~map,
       &data::getShopTypeEnumMap[abi:cxx11](void)::m,
@@ -5088,8 +5088,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ShopRefreshType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ShopRefreshType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ShopRefreshType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ShopRefreshType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -5120,7 +5120,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ShopRefreshType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ShopRefreshType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ShopRefreshType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ShopRefreshType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ShopRefreshType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopRefreshType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ShopRefreshType &)::m,
@@ -5410,8 +5410,8 @@ const std::unordered_map<std::string,data::ShopRefreshType> *__cdecl data::getSh
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopRefreshTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopRefreshTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopRefreshTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopRefreshTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -5449,7 +5449,7 @@ const std::unordered_map<std::string,data::ShopRefreshType> *__cdecl data::getSh
       (const std::unordered_map<std::string,data::ShopRefreshType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ShopRefreshType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ShopRefreshType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getShopRefreshTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopRefreshTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopRefreshType>::~unordered_map,
       &data::getShopRefreshTypeNameMap[abi:cxx11](void)::m,
@@ -5523,8 +5523,8 @@ const std::map<data::ShopRefreshType,std::pair<std::string,std::string >> *__cde
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -5576,7 +5576,7 @@ const std::map<data::ShopRefreshType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::ShopRefreshType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::ShopRefreshType> *)(v1 + 32),
       (const std::map<data::ShopRefreshType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ShopRefreshType,std::pair<std::string,std::string>>::~map,
       &data::getShopRefreshTypeEnumMap[abi:cxx11](void)::m,
@@ -5954,8 +5954,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 464) = s;
   if ( *(_QWORD *)(v2 + 464) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ShopPrecondition &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ShopPrecondition &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ShopPrecondition &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ShopPrecondition &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -6091,7 +6091,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ShopPrecondition>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ShopPrecondition>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ShopPrecondition>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ShopPrecondition &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ShopPrecondition &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopPrecondition>::~unordered_map,
         &data::enumStrToVal(char const*,data::ShopPrecondition &)::m,
@@ -6392,8 +6392,8 @@ const std::unordered_map<std::string,data::ShopPrecondition> *__cdecl data::getS
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
   v3[536862759] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopPreconditionNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopPreconditionNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopPreconditionNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopPreconditionNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6536,7 +6536,7 @@ const std::unordered_map<std::string,data::ShopPrecondition> *__cdecl data::getS
       (const std::unordered_map<std::string,data::ShopPrecondition>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ShopPrecondition>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ShopPrecondition>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getShopPreconditionNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopPreconditionNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ShopPrecondition>::~unordered_map,
       &data::getShopPreconditionNameMap[abi:cxx11](void)::m,
@@ -6651,8 +6651,8 @@ const std::map<data::ShopPrecondition,std::pair<std::string,std::string >> *__cd
   v3[536862833] = -202116109;
   v3[536862834] = -202116109;
   v3[536862835] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getShopPreconditionEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getShopPreconditionEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getShopPreconditionEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getShopPreconditionEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6869,7 +6869,7 @@ const std::map<data::ShopPrecondition,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::ShopPrecondition,std::pair<std::string,std::string > > >)__PAIR128__(19LL, v1 + 2208),
       (const std::less<data::ShopPrecondition> *)(v1 + 48),
       (const std::map<data::ShopPrecondition,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getShopPreconditionEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getShopPreconditionEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ShopPrecondition,std::pair<std::string,std::string>>::~map,
       &data::getShopPreconditionEnumMap[abi:cxx11](void)::m,

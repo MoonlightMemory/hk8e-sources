@@ -559,11 +559,11 @@ ActivityThreadLocal *__cdecl ActivityService::getActivityThreadLocal(ActivitySer
   uint32_t *v4; // rdx
   common::milog::MiLogStream v6; // [rsp+10h] [rbp-30h] BYREF
 
-  if ( !(_BYTE)`guard variable for'ActivityService::getActivityThreadLocal(void)::empty_thread_local
-    && __cxa_guard_acquire(&`guard variable for'ActivityService::getActivityThreadLocal(void)::empty_thread_local) )
+  if ( !(_BYTE)`guard variable for ActivityService::getActivityThreadLocal(void)::empty_thread_local
+    && __cxa_guard_acquire(&`guard variable for ActivityService::getActivityThreadLocal(void)::empty_thread_local) )
   {
     ActivityThreadLocal::ActivityThreadLocal(&ActivityService::getActivityThreadLocal(void)::empty_thread_local);
-    __cxa_guard_release(&`guard variable for'ActivityService::getActivityThreadLocal(void)::empty_thread_local);
+    __cxa_guard_release(&`guard variable for ActivityService::getActivityThreadLocal(void)::empty_thread_local);
     __cxa_atexit(
       (void (__fastcall *)(void *))ActivityThreadLocal::~ActivityThreadLocal,
       &ActivityService::getActivityThreadLocal(void)::empty_thread_local,
@@ -627,11 +627,11 @@ std::vector<ActivityThreadLocal>::reference __fastcall ActivityService::getActiv
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = thread_index;
-  if ( !(_BYTE)`guard variable for'ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local
-    && __cxa_guard_acquire(&`guard variable for'ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local) )
+  if ( !(_BYTE)`guard variable for ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local
+    && __cxa_guard_acquire(&`guard variable for ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local) )
   {
     ActivityThreadLocal::ActivityThreadLocal(&ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local);
-    __cxa_guard_release(&`guard variable for'ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local);
+    __cxa_guard_release(&`guard variable for ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local);
     __cxa_atexit(
       (void (__fastcall *)(void *))ActivityThreadLocal::~ActivityThreadLocal,
       &ActivityService::getActivityThreadLocal(unsigned int)::empty_thread_local,

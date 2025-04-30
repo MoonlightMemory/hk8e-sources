@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::AvatarRenameType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::AvatarRenameType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::AvatarRenameType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::AvatarRenameType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -320,7 +320,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::AvatarRenameType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::AvatarRenameType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::AvatarRenameType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::AvatarRenameType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::AvatarRenameType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarRenameType>::~unordered_map,
         &data::enumStrToVal(char const*,data::AvatarRenameType &)::m,
@@ -604,8 +604,8 @@ const std::unordered_map<std::string,data::AvatarRenameType> *__cdecl data::getA
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -629,7 +629,7 @@ const std::unordered_map<std::string,data::AvatarRenameType> *__cdecl data::getA
       (const std::unordered_map<std::string,data::AvatarRenameType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::AvatarRenameType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::AvatarRenameType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarRenameType>::~unordered_map,
       &data::getAvatarRenameTypeNameMap[abi:cxx11](void)::m,
@@ -699,8 +699,8 @@ const std::map<data::AvatarRenameType,std::pair<std::string,std::string >> *__cd
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -730,7 +730,7 @@ const std::map<data::AvatarRenameType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::AvatarRenameType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::AvatarRenameType> *)(v1 + 48),
       (const std::map<data::AvatarRenameType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::AvatarRenameType,std::pair<std::string,std::string>>::~map,
       &data::getAvatarRenameTypeEnumMap[abi:cxx11](void)::m,

@@ -1290,11 +1290,11 @@ const data::ActivityIslandPartyOverallExcelConfig *__cdecl ActivityIslandPartyEx
   v4[536862720] = -235802127;
   v4[536862721] = -218959360;
   v4[536862722] = -202116352;
-  if ( !(_BYTE)`guard variable for'ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy
-    && __cxa_guard_acquire(&`guard variable for'ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy) )
+  if ( !(_BYTE)`guard variable for ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy
+    && __cxa_guard_acquire(&`guard variable for ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy) )
   {
     data::ActivityIslandPartyOverallExcelConfig::ActivityIslandPartyOverallExcelConfig((data::ActivityIslandPartyOverallExcelConfig *const)&ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)const::dummy);
-    __cxa_guard_release(&`guard variable for'ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy);
+    __cxa_guard_release(&`guard variable for ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)::dummy);
     v1 = &ActivityIslandPartyExcelConfigMgr::getOverallConfig(void)const::dummy;
     __cxa_atexit(
       (void (__fastcall *)(void *))data::ActivityIslandPartyOverallExcelConfig::~ActivityIslandPartyOverallExcelConfig,

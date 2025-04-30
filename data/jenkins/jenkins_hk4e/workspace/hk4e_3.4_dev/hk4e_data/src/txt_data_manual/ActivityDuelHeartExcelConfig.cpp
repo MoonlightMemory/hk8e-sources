@@ -677,11 +677,11 @@ const std::set<data::DuelHeartDifficultyType> *__fastcall ActivityDuelHeartExcel
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)level_id;
-  if ( !(_BYTE)`guard variable for'ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set) )
   {
     std::set<data::DuelHeartDifficultyType>::set(&ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)::empty_set);
     level_id = &ActivityDuelHeartExcelConfigMgr::getLevelDifficultySet(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<data::DuelHeartDifficultyType>::~set,

@@ -227,8 +227,8 @@ boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_objec
   boost::operator<<<boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>,boost::throw_line_,int>(
     v5,
     &v8);
-  if ( !(_BYTE)`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep
-    && __cxa_guard_acquire(&`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep) )
+  if ( !(_BYTE)`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep
+    && __cxa_guard_acquire(&`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep) )
   {
     p = (boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_> *)operator new(0x38uLL);
     boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>::clone_impl(
@@ -240,7 +240,7 @@ boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_objec
     boost::exception_ptr::exception_ptr(
       &boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep,
       &ptr);
-    __cxa_guard_release(&`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep);
+    __cxa_guard_release(&`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep);
     __cxa_atexit(
       (void (__fastcall *)(void *))boost::exception_ptr::~exception_ptr,
       &boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_alloc_>(void)::ep,
@@ -326,8 +326,8 @@ boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_objec
   boost::operator<<<boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>,boost::throw_line_,int>(
     v5,
     &v8);
-  if ( !(_BYTE)`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep
-    && __cxa_guard_acquire(&`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep) )
+  if ( !(_BYTE)`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep
+    && __cxa_guard_acquire(&`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep) )
   {
     p = (boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_> *)operator new(0x38uLL);
     boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>::clone_impl(
@@ -339,7 +339,7 @@ boost::exception_ptr __cdecl boost::exception_detail::get_static_exception_objec
     boost::exception_ptr::exception_ptr(
       &boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep,
       &ptr);
-    __cxa_guard_release(&`guard variable for'boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep);
+    __cxa_guard_release(&`guard variable for boost::exception_ptr boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep);
     __cxa_atexit(
       (void (__fastcall *)(void *))boost::exception_ptr::~exception_ptr,
       &boost::exception_detail::get_static_exception_object<boost::exception_detail::bad_exception_>(void)::ep,

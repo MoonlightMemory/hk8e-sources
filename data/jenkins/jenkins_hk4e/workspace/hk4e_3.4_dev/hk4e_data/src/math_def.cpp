@@ -7286,14 +7286,14 @@ std::shared_ptr<BaseDFNode> __cdecl BaseDFNode::createNodeFromStr(const std::str
   v4[536862726] = -218959118;
   v4[536862728] = -218959118;
   v4[536862730] = -202116109;
-  if ( !(_BYTE)`guard variable for'BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg
-    && __cxa_guard_acquire(&`guard variable for'BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg) )
+  if ( !(_BYTE)`guard variable for BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg
+    && __cxa_guard_acquire(&`guard variable for BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg) )
   {
     std::basic_regex<char,std::regex_traits<char>>::basic_regex(
       &BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg,
       "^%",
       (std::basic_regex<char,std::regex_traits<char> >::flag_type)16);
-    __cxa_guard_release(&`guard variable for'BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg);
+    __cxa_guard_release(&`guard variable for BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::basic_regex<char,std::regex_traits<char>>::~basic_regex,
       &BaseDFNode::createNodeFromStr(std::string const&)::dyn_reg,

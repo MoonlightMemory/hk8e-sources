@@ -961,12 +961,12 @@ TothemoonThreadLocal *__cdecl TothemoonService::getThreadLocal(TothemoonService 
   common::milog::MiLogStream v8; // [rsp+10h] [rbp-30h] BYREF
 
   thisa = this;
-  if ( !(_BYTE)`guard variable for'TothemoonService::getThreadLocal(void)::empty_thread_local )
+  if ( !(_BYTE)`guard variable for TothemoonService::getThreadLocal(void)::empty_thread_local )
   {
-    this = (TothemoonService *const)&`guard variable for'TothemoonService::getThreadLocal(void)::empty_thread_local;
-    if ( __cxa_guard_acquire(&`guard variable for'TothemoonService::getThreadLocal(void)::empty_thread_local) )
+    this = (TothemoonService *const)&`guard variable for TothemoonService::getThreadLocal(void)::empty_thread_local;
+    if ( __cxa_guard_acquire(&`guard variable for TothemoonService::getThreadLocal(void)::empty_thread_local) )
     {
-      __cxa_guard_release(&`guard variable for'TothemoonService::getThreadLocal(void)::empty_thread_local);
+      __cxa_guard_release(&`guard variable for TothemoonService::getThreadLocal(void)::empty_thread_local);
       this = (TothemoonService *const)TothemoonThreadLocal::~TothemoonThreadLocal;
       __cxa_atexit(
         (void (__fastcall *)(void *))TothemoonThreadLocal::~TothemoonThreadLocal,
@@ -1036,10 +1036,10 @@ std::vector<TothemoonThreadLocal>::reference __fastcall TothemoonService::getThr
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v2 + 32) = thread_index;
-  if ( !(_BYTE)`guard variable for'TothemoonService::getThreadLocal(unsigned int)::empty_thread_local
-    && __cxa_guard_acquire(&`guard variable for'TothemoonService::getThreadLocal(unsigned int)::empty_thread_local) )
+  if ( !(_BYTE)`guard variable for TothemoonService::getThreadLocal(unsigned int)::empty_thread_local
+    && __cxa_guard_acquire(&`guard variable for TothemoonService::getThreadLocal(unsigned int)::empty_thread_local) )
   {
-    __cxa_guard_release(&`guard variable for'TothemoonService::getThreadLocal(unsigned int)::empty_thread_local);
+    __cxa_guard_release(&`guard variable for TothemoonService::getThreadLocal(unsigned int)::empty_thread_local);
     __cxa_atexit(
       (void (__fastcall *)(void *))TothemoonThreadLocal::~TothemoonThreadLocal,
       &TothemoonService::getThreadLocal(unsigned int)::empty_thread_local,

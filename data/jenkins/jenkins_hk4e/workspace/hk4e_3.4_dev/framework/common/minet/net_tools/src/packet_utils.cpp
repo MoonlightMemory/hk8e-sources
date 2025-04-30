@@ -837,9 +837,9 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
       (void (__fastcall *)(void *))common::tools::ObjectPool<common::minet::Packet>::~ObjectPool,
       &common::minet::PacketUtils::packet_pool_,
       &_dso_handle);
-    if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+    if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       goto LABEL_3;
-    `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+    `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
     if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                    + 0x7FFF8000) )
     {

@@ -788,11 +788,11 @@ Quaternion __cdecl Quaternion::inverseAndMod(const Quaternion *const this)
       (const char (*)[10])"mod is 0!");
     common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 64));
     *(_DWORD *)(((v2 + 64) >> 3) + 0x7FFF8000) = -117901064;
-    if ( !(_BYTE)`guard variable for'Quaternion::inverseAndMod(void)::q
-      && __cxa_guard_acquire(&`guard variable for'Quaternion::inverseAndMod(void)::q) )
+    if ( !(_BYTE)`guard variable for Quaternion::inverseAndMod(void)::q
+      && __cxa_guard_acquire(&`guard variable for Quaternion::inverseAndMod(void)::q) )
     {
       Quaternion::Quaternion(&Quaternion::inverseAndMod(void)const::q, 0.0, 0.0, 0.0, 1.0);
-      __cxa_guard_release(&`guard variable for'Quaternion::inverseAndMod(void)::q);
+      __cxa_guard_release(&`guard variable for Quaternion::inverseAndMod(void)::q);
     }
     v5 = *(_QWORD *)&Quaternion::inverseAndMod(void)const::q.z;
     v6 = *(_QWORD *)&Quaternion::inverseAndMod(void)const::q.x;

@@ -4974,9 +4974,9 @@ LABEL_3:
     opentracing::v3::propagation_error_category((opentracing::v3 *)&std::ios_base::Init::~Init);
     opentracing::v3::propagation_error_category((opentracing::v3 *)&std::ios_base::Init::~Init);
     opentracing::v3::propagation_error_category((opentracing::v3 *)&std::ios_base::Init::~Init);
-    if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+    if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
     {
-      `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+      `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
       if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) )
       {
@@ -4989,9 +4989,9 @@ LABEL_11:
       common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits
                                                                            + 9;
     }
-    if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
+    if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
       goto LABEL_3;
-    `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
+    `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
     if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                    + 0x7FFF8000) )
     {

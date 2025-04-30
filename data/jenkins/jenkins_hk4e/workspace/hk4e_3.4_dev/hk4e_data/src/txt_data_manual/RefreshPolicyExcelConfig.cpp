@@ -805,11 +805,11 @@ const std::vector<unsigned int> *__fastcall RefreshPolicyExcelConfigMgr::getTime
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)refresh_id;
-  if ( !(_BYTE)`guard variable for'RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector
-    && __cxa_guard_acquire(&`guard variable for'RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector) )
+  if ( !(_BYTE)`guard variable for RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector
+    && __cxa_guard_acquire(&`guard variable for RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector) )
   {
     std::vector<unsigned int>::vector(&RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)const::dummy_vector);
-    __cxa_guard_release(&`guard variable for'RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector);
+    __cxa_guard_release(&`guard variable for RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)::dummy_vector);
     refresh_id = &RefreshPolicyExcelConfigMgr::getTimePointsById(unsigned int)const::dummy_vector;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,

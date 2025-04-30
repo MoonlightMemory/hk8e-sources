@@ -159,8 +159,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CutsceneType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -203,7 +203,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneType *e)
         (std::initializer_list<std::pair<const std::string,data::CutsceneType> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CutsceneType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneType &)::m);
       e = (data::CutsceneType *)&data::enumStrToVal(std::string const&,data::CutsceneType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CutsceneType>::~map,
@@ -506,8 +506,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneInitPosType 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -557,7 +557,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneInitPosType 
         (std::initializer_list<std::pair<const std::string,data::CutsceneInitPosType> >)__PAIR128__(6LL, v2 + 368),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CutsceneInitPosType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m);
       e = (data::CutsceneInitPosType *)&data::enumStrToVal(std::string const&,data::CutsceneInitPosType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CutsceneInitPosType>::~map,
@@ -4106,8 +4106,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneIndexType *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -4136,7 +4136,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CutsceneIndexType *e
         (std::initializer_list<std::pair<const std::string,data::CutsceneIndexType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CutsceneIndexType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m);
       e = (data::CutsceneIndexType *)&data::enumStrToVal(std::string const&,data::CutsceneIndexType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CutsceneIndexType>::~map,
@@ -4861,8 +4861,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigVideoEventType
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -4884,7 +4884,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ConfigVideoEventType
         (std::initializer_list<std::pair<const std::string,data::ConfigVideoEventType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ConfigVideoEventType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m);
       e = (data::ConfigVideoEventType *)&data::enumStrToVal(std::string const&,data::ConfigVideoEventType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ConfigVideoEventType>::~map,

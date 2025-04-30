@@ -518,11 +518,11 @@ const std::unordered_set<unsigned int> *__fastcall SceneExcelConfigMgr::getAllSc
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)scene_type;
-  if ( !(_BYTE)`guard variable for'SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set) )
+  if ( !(_BYTE)`guard variable for SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set
+    && __cxa_guard_acquire(&`guard variable for SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set((std::unordered_set<unsigned int> *const)&SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)const::empty_set);
-    __cxa_guard_release(&`guard variable for'SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set);
+    __cxa_guard_release(&`guard variable for SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)::empty_set);
     scene_type = &SceneExcelConfigMgr::getAllSceneIdBySceneType(data::SceneType)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,

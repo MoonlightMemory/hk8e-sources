@@ -69,12 +69,12 @@ std::string *__fastcall common::tools::RandomUtils::randSimpleString[abi:cxx11](
   char v5[31]; // [rsp+0h] [rbp-20h] BYREF
   char v6; // [rsp+1Fh] [rbp-1h] BYREF
 
-  if ( !(_BYTE)`guard variable for'common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen
-    && __cxa_guard_acquire(&`guard variable for'common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen) )
+  if ( !(_BYTE)`guard variable for common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen
+    && __cxa_guard_acquire(&`guard variable for common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen) )
   {
     common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen._eng = &common::tools::RandomUtils::rand_genatator_;
     common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen._dist = (boost::random::variate_generator<std::mersenne_twister_engine<long unsigned int,32,624,397,31,2567483615,11,4294967295,7,2636928640,15,4022730752,18,1812433253>&,boost::random::uniform_smallint<int> >::distribution_type)0x7A00000061LL;
-    __cxa_guard_release(&`guard variable for'common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen);
+    __cxa_guard_release(&`guard variable for common::tools::RandomUtils::randSimpleString[abi:cxx11](unsigned int)::gen);
   }
   v2 = alloca(len + 32LL - (len & 0x1F) + 88);
   __asan_alloca_poison(((unsigned __int64)&v6 & 0xFFFFFFFFFFFFFFE0LL) + 32, len);
@@ -119,9 +119,9 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
       &common::tools::RandomUtils::rand_genatator_,
       0x1571uLL);
     common::tools::RandomUtils::init();
-    if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+    if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       goto LABEL_3;
-    `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+    `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
     if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                    + 0x7FFF8000) )
     {

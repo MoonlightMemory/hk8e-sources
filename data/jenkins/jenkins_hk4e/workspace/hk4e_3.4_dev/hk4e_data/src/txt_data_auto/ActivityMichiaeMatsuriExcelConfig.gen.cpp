@@ -287,8 +287,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 128) = s;
   if ( *(_QWORD *)(v2 + 128) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m) )
     {
       data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m._M_h._M_buckets = 0LL;
       data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m._M_h._M_bucket_count = 0LL;
@@ -298,7 +298,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
       data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m._M_h._M_rehash_policy._M_next_resize = 0LL;
       data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m._M_h._M_single_bucket = 0LL;
       std::unordered_map<std::string,data::ActivityMichiaeInteractType>::unordered_map(&data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m);
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityMichiaeInteractType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityMichiaeInteractType &)::m,
@@ -559,8 +559,8 @@ const std::unordered_map<std::string,data::ActivityMichiaeInteractType> *__cdecl
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -605,7 +605,7 @@ const std::unordered_map<std::string,data::ActivityMichiaeInteractType> *__cdecl
       (const std::unordered_map<std::string,data::ActivityMichiaeInteractType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityMichiaeInteractType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ActivityMichiaeInteractType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityMichiaeInteractType>::~unordered_map,
       &data::getActivityMichiaeInteractTypeNameMap[abi:cxx11](void)::m,
@@ -691,8 +691,8 @@ const std::map<data::ActivityMichiaeInteractType,std::pair<std::string,std::stri
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -755,7 +755,7 @@ const std::map<data::ActivityMichiaeInteractType,std::pair<std::string,std::stri
       (std::initializer_list<std::pair<const data::ActivityMichiaeInteractType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ActivityMichiaeInteractType> *)(v1 + 32),
       (const std::map<data::ActivityMichiaeInteractType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityMichiaeInteractType,std::pair<std::string,std::string>>::~map,
       &data::getActivityMichiaeInteractTypeEnumMap[abi:cxx11](void)::m,
@@ -1109,8 +1109,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1136,7 +1136,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MichiaeMatsuriRadarMarkType &)::m,
@@ -1419,8 +1419,8 @@ const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType> *__cdecl
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1451,7 +1451,7 @@ const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType> *__cdecl
       (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MichiaeMatsuriRadarMarkType>::~unordered_map,
       &data::getMichiaeMatsuriRadarMarkTypeNameMap[abi:cxx11](void)::m,
@@ -1523,8 +1523,8 @@ const std::map<data::MichiaeMatsuriRadarMarkType,std::pair<std::string,std::stri
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1565,7 +1565,7 @@ const std::map<data::MichiaeMatsuriRadarMarkType,std::pair<std::string,std::stri
       (std::initializer_list<std::pair<const data::MichiaeMatsuriRadarMarkType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::MichiaeMatsuriRadarMarkType> *)(v1 + 48),
       (const std::map<data::MichiaeMatsuriRadarMarkType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MichiaeMatsuriRadarMarkType,std::pair<std::string,std::string>>::~map,
       &data::getMichiaeMatsuriRadarMarkTypeEnumMap[abi:cxx11](void)::m,

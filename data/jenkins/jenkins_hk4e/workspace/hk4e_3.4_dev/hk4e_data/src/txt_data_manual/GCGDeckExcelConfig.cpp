@@ -335,11 +335,11 @@ const std::map<data::GCGTagType,unsigned int> *__fastcall GCGDeckExcelConfigMgr:
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)card_id;
-  if ( !(_BYTE)`guard variable for'GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map
-    && __cxa_guard_acquire(&`guard variable for'GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map) )
+  if ( !(_BYTE)`guard variable for GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map
+    && __cxa_guard_acquire(&`guard variable for GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map) )
   {
     std::map<data::GCGTagType,unsigned int>::map((std::map<data::GCGTagType,unsigned int> *const)&GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)const::temp_map);
-    __cxa_guard_release(&`guard variable for'GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map);
+    __cxa_guard_release(&`guard variable for GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)::temp_map);
     card_id = &GCGDeckExcelConfigMgr::getCardRelatedTagCountMap(unsigned int)const::temp_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GCGTagType,unsigned int>::~map,

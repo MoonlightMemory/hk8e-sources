@@ -1276,7 +1276,7 @@ LABEL_7:
       goto LABEL_8;
     v8 = *(_QWORD *)(v53 + 80);
     v4 = *(_QWORD *)(v53 + 88);
-    if ( !(_BYTE)`guard variable for'boost::beast::http::detail::get_field_table(void)::tab )
+    if ( !(_BYTE)`guard variable for boost::beast::http::detail::get_field_table(void)::tab )
       goto LABEL_20;
 LABEL_107:
     v15 = v4;
@@ -1577,10 +1577,10 @@ LABEL_14:
 LABEL_19:
     __asan_report_load4(v12);
 LABEL_20:
-    if ( __cxa_guard_acquire(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab) )
+    if ( __cxa_guard_acquire(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab) )
     {
       boost::beast::http::detail::field_table::field_table(&boost::beast::http::detail::get_field_table(void)::tab);
-      __cxa_guard_release(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab);
+      __cxa_guard_release(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab);
     }
     goto LABEL_107;
   }

@@ -1578,11 +1578,11 @@ const std::vector<unsigned int> *__fastcall data::DbOpActivityConfigMgr::findAct
   else
   {
 LABEL_22:
-    if ( !(_BYTE)`guard variable for'data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec
-      && __cxa_guard_acquire(&`guard variable for'data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec) )
+    if ( !(_BYTE)`guard variable for data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec
+      && __cxa_guard_acquire(&`guard variable for data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec) )
     {
       std::vector<unsigned int>::vector(&data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)const::empty_schedue_id_vec);
-      __cxa_guard_release(&`guard variable for'data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec);
+      __cxa_guard_release(&`guard variable for data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)::empty_schedue_id_vec);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
         &data::DbOpActivityConfigMgr::findActiveOpActivitySchedules(unsigned int)const::empty_schedue_id_vec,

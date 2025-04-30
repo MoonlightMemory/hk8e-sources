@@ -1061,14 +1061,14 @@ boost::beast::string_view __fastcall boost::beast::http::basic_fields<std::alloc
       "const string_view boost::beast::http::basic_fields<Allocator>::operator[](boost::beast::http::field) const [with A"
       "llocator = std::allocator<char>; boost::beast::string_view = boost::basic_string_view<char, std::char_traits<char> >]");
   }
-  if ( !(_BYTE)`guard variable for'boost::beast::http::detail::get_field_table(void)::tab )
+  if ( !(_BYTE)`guard variable for boost::beast::http::detail::get_field_table(void)::tab )
   {
-    this = (const boost::beast::http::basic_fields<std::allocator<char> > *const)&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab;
-    if ( __cxa_guard_acquire(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab) )
+    this = (const boost::beast::http::basic_fields<std::allocator<char> > *const)&`guard variable for boost::beast::http::detail::get_field_table(void)::tab;
+    if ( __cxa_guard_acquire(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab) )
     {
       boost::beast::http::detail::field_table::field_table(&boost::beast::http::detail::get_field_table(void)::tab);
-      this = (const boost::beast::http::basic_fields<std::allocator<char> > *const)&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab;
-      __cxa_guard_release(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab);
+      this = (const boost::beast::http::basic_fields<std::allocator<char> > *const)&`guard variable for boost::beast::http::detail::get_field_table(void)::tab;
+      __cxa_guard_release(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab);
     }
   }
   if ( (unsigned __int16)name > xref )
@@ -1157,13 +1157,13 @@ void __fastcall boost::beast::http::basic_fields<std::allocator<char>>::set(
   {
     ptr = value->sv_.ptr_;
     len = value->sv_.len_;
-    if ( (_BYTE)`guard variable for'boost::beast::http::detail::get_field_table(void)::tab )
+    if ( (_BYTE)`guard variable for boost::beast::http::detail::get_field_table(void)::tab )
       goto LABEL_4;
   }
-  if ( __cxa_guard_acquire(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab) )
+  if ( __cxa_guard_acquire(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab) )
   {
     boost::beast::http::detail::field_table::field_table(&boost::beast::http::detail::get_field_table(void)::tab);
-    __cxa_guard_release(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab);
+    __cxa_guard_release(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab);
   }
 LABEL_4:
   if ( (unsigned __int16)name > xref )
@@ -1207,11 +1207,11 @@ std::size_t __fastcall boost::beast::http::basic_fields<std::allocator<char>>::e
       "std::size_t boost::beast::http::basic_fields<Allocator>::erase(boost::beast::http::field) [with Allocator = std::a"
       "llocator<char>; std::size_t = long unsigned int]");
   }
-  if ( !(_BYTE)`guard variable for'boost::beast::http::detail::get_field_table(void)::tab
-    && __cxa_guard_acquire(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab) )
+  if ( !(_BYTE)`guard variable for boost::beast::http::detail::get_field_table(void)::tab
+    && __cxa_guard_acquire(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab) )
   {
     boost::beast::http::detail::field_table::field_table(&boost::beast::http::detail::get_field_table(void)::tab);
-    __cxa_guard_release(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab);
+    __cxa_guard_release(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab);
   }
   if ( (unsigned __int16)name > xref )
   {
@@ -2821,11 +2821,11 @@ void __fastcall boost::beast::http::basic_fields<std::allocator<char>>::set_chun
   v4[536862865] = -202116109;
   v4[536862866] = -202116109;
   v4[536862867] = -202116109;
-  if ( !(_BYTE)`guard variable for'boost::beast::http::detail::get_field_table(void)::tab
-    && __cxa_guard_acquire(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab) )
+  if ( !(_BYTE)`guard variable for boost::beast::http::detail::get_field_table(void)::tab
+    && __cxa_guard_acquire(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab) )
   {
     boost::beast::http::detail::field_table::field_table(&boost::beast::http::detail::get_field_table(void)::tab);
-    __cxa_guard_release(&`guard variable for'boost::beast::http::detail::get_field_table(void)::tab);
+    __cxa_guard_release(&`guard variable for boost::beast::http::detail::get_field_table(void)::tab);
   }
   boost::beast::http::basic_fields<std::allocator<char>>::find(
     (const boost::beast::http::basic_fields<std::allocator<char> > *const)(v3 + 32),

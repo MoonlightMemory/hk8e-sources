@@ -149,8 +149,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonInputTy
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -172,7 +172,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonInputTy
         (std::initializer_list<std::pair<const std::string,data::QTEStepButtonInputType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::QTEStepButtonInputType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m);
       e = (data::QTEStepButtonInputType *)&data::enumStrToVal(std::string const&,data::QTEStepButtonInputType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepButtonInputType>::~map,
@@ -440,8 +440,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCameraPosType
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -470,7 +470,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCameraPosType
         (std::initializer_list<std::pair<const std::string,data::QTEStepCameraPosType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::QTEStepCameraPosType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m);
       e = (data::QTEStepCameraPosType *)&data::enumStrToVal(std::string const&,data::QTEStepCameraPosType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepCameraPosType>::~map,
@@ -741,8 +741,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCameraTargetT
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -764,7 +764,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCameraTargetT
         (std::initializer_list<std::pair<const std::string,data::QTEStepCameraTargetType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::QTEStepCameraTargetType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m);
       e = (data::QTEStepCameraTargetType *)&data::enumStrToVal(std::string const&,data::QTEStepCameraTargetType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepCameraTargetType>::~map,
@@ -1032,8 +1032,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCondType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1062,7 +1062,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepCondType *e)
         (std::initializer_list<std::pair<const std::string,data::QTEStepCondType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::QTEStepCondType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m);
       e = (data::QTEStepCondType *)&data::enumStrToVal(std::string const&,data::QTEStepCondType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepCondType>::~map,
@@ -1362,8 +1362,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepActionType *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -1455,7 +1455,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepActionType *e
         (std::initializer_list<std::pair<const std::string,data::QTEStepActionType> >)__PAIR128__(12LL, v2 + 448),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::QTEStepActionType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepActionType>::~map,
         &data::enumStrToVal(std::string const&,data::QTEStepActionType &)::m,
@@ -9124,8 +9124,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonStyleTy
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -9154,7 +9154,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonStyleTy
         (std::initializer_list<std::pair<const std::string,data::QTEStepButtonStyleType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::QTEStepButtonStyleType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m);
       e = (data::QTEStepButtonStyleType *)&data::enumStrToVal(std::string const&,data::QTEStepButtonStyleType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepButtonStyleType>::~map,
@@ -9431,8 +9431,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonSlideDi
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -9470,7 +9470,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::QTEStepButtonSlideDi
                                                                                                    v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::QTEStepButtonSlideDirectType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m);
       e = (data::QTEStepButtonSlideDirectType *)&data::enumStrToVal(std::string const&,data::QTEStepButtonSlideDirectType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::QTEStepButtonSlideDirectType>::~map,
@@ -13599,26 +13599,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::shared_ptr<data::ConfigQTEStepPowerBarComponentFactory>::~shared_ptr,
         &data::ConfigQTEStepPowerBarComponentFactory::instance_ptr,
         &_dso_handle);
-      v42 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v43 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v42 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v43 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v44) = v43 != 0;
-      v45 = (v43 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v43);
+      v45 = (v43 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v43);
       if ( (_BYTE)v45 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v44,
           v45);
       if ( !*v42 )
       {
-        v46 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v47 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v46 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v47 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v44) = v47 != 0;
-        v48 = (v47 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v47);
+        v48 = (v47 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v47);
         if ( (_BYTE)v48 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v44,
             v48);
         *v46 = 1;

@@ -2146,18 +2146,18 @@ LABEL_3:
                             (void (__fastcall *)(void *))common::tools::perf::MemoryPerfRecorder::~MemoryPerfRecorder,
                             &common::tools::perf::MemoryPerf::recorder,
                             &_dso_handle);
-                          if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+                          if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
                             goto LABEL_24;
-                          `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+                          `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
                           if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                                          + 0x7FFF8000) )
                           {
                             common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits
                                                                                                  + 9;
 LABEL_24:
-                            if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
+                            if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
                               goto LABEL_3;
-                            `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
+                            `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
                             if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                                            + 0x7FFF8000) )
                             {

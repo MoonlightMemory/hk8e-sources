@@ -300,8 +300,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -325,7 +325,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DungeonEntrySatisfiedConditionType &)::m,
@@ -606,8 +606,8 @@ const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType> *
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -638,7 +638,7 @@ const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType> *
       (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DungeonEntrySatisfiedConditionType>::~unordered_map,
       &data::getDungeonEntrySatisfiedConditionTypeNameMap[abi:cxx11](void)::m,
@@ -710,8 +710,8 @@ const std::map<data::DungeonEntrySatisfiedConditionType,std::pair<std::string,st
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -752,7 +752,7 @@ const std::map<data::DungeonEntrySatisfiedConditionType,std::pair<std::string,st
       (std::initializer_list<std::pair<const data::DungeonEntrySatisfiedConditionType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::DungeonEntrySatisfiedConditionType> *)(v1 + 48),
       (const std::map<data::DungeonEntrySatisfiedConditionType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DungeonEntrySatisfiedConditionType,std::pair<std::string,std::string>>::~map,
       &data::getDungeonEntrySatisfiedConditionTypeEnumMap[abi:cxx11](void)::m,
@@ -1121,8 +1121,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 416) = s;
   if ( *(_QWORD *)(v2 + 416) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::DungunEntryType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::DungunEntryType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::DungunEntryType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::DungunEntryType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1244,7 +1244,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::DungunEntryType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::DungunEntryType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::DungunEntryType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::DungunEntryType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::DungunEntryType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::DungunEntryType>::~unordered_map,
         &data::enumStrToVal(char const*,data::DungunEntryType &)::m,
@@ -1551,8 +1551,8 @@ const std::unordered_map<std::string,data::DungunEntryType> *__cdecl data::getDu
   v3[536862754] = -202116109;
   v3[536862755] = -202116109;
   v3[536862756] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDungunEntryTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDungunEntryTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDungunEntryTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDungunEntryTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1681,7 +1681,7 @@ const std::unordered_map<std::string,data::DungunEntryType> *__cdecl data::getDu
       (const std::unordered_map<std::string,data::DungunEntryType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::DungunEntryType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::DungunEntryType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getDungunEntryTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDungunEntryTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::DungunEntryType>::~unordered_map,
       &data::getDungunEntryTypeNameMap[abi:cxx11](void)::m,
@@ -1808,8 +1808,8 @@ const std::map<data::DungunEntryType,std::pair<std::string,std::string >> *__cde
   v3[536862821] = -202116109;
   v3[536862822] = -202116109;
   v3[536862823] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2004,7 +2004,7 @@ const std::map<data::DungunEntryType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::DungunEntryType,std::pair<std::string,std::string > > >)__PAIR128__(17LL, v1 + 1968),
       (const std::less<data::DungunEntryType> *)(v1 + 32),
       (const std::map<data::DungunEntryType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::DungunEntryType,std::pair<std::string,std::string>>::~map,
       &data::getDungunEntryTypeEnumMap[abi:cxx11](void)::m,

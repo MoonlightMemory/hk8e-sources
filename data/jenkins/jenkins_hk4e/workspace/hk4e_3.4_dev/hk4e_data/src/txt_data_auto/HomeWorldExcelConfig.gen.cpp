@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeployType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeployType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FurnitureDeployType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FurnitureDeployType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -351,7 +351,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::FurnitureDeployType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::FurnitureDeployType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::FurnitureDeployType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeployType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FurnitureDeployType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FurnitureDeployType>::~unordered_map,
         &data::enumStrToVal(char const*,data::FurnitureDeployType &)::m,
@@ -651,8 +651,8 @@ const std::unordered_map<std::string,data::FurnitureDeployType> *__cdecl data::g
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -697,7 +697,7 @@ const std::unordered_map<std::string,data::FurnitureDeployType> *__cdecl data::g
       (const std::unordered_map<std::string,data::FurnitureDeployType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::FurnitureDeployType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::FurnitureDeployType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FurnitureDeployType>::~unordered_map,
       &data::getFurnitureDeployTypeNameMap[abi:cxx11](void)::m,
@@ -783,8 +783,8 @@ const std::map<data::FurnitureDeployType,std::pair<std::string,std::string >> *_
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -847,7 +847,7 @@ const std::map<data::FurnitureDeployType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::FurnitureDeployType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::FurnitureDeployType> *)(v1 + 32),
       (const std::map<data::FurnitureDeployType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FurnitureDeployType,std::pair<std::string,std::string>>::~map,
       &data::getFurnitureDeployTypeEnumMap[abi:cxx11](void)::m,
@@ -1217,8 +1217,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 464) = s;
   if ( *(_QWORD *)(v2 + 464) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1354,7 +1354,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::SpeicalFurnitureType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::SpeicalFurnitureType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::SpeicalFurnitureType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::SpeicalFurnitureType>::~unordered_map,
         &data::enumStrToVal(char const*,data::SpeicalFurnitureType &)::m,
@@ -1658,8 +1658,8 @@ const std::unordered_map<std::string,data::SpeicalFurnitureType> *__cdecl data::
   v3[536862755] = -202116109;
   v3[536862756] = -202116109;
   v3[536862757] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1795,7 +1795,7 @@ const std::unordered_map<std::string,data::SpeicalFurnitureType> *__cdecl data::
       (const std::unordered_map<std::string,data::SpeicalFurnitureType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::SpeicalFurnitureType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::SpeicalFurnitureType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::SpeicalFurnitureType>::~unordered_map,
       &data::getSpeicalFurnitureTypeNameMap[abi:cxx11](void)::m,
@@ -1925,8 +1925,8 @@ const std::map<data::SpeicalFurnitureType,std::pair<std::string,std::string >> *
   v3[536862827] = -202116109;
   v3[536862828] = -202116109;
   v3[536862829] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2132,7 +2132,7 @@ const std::map<data::SpeicalFurnitureType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::SpeicalFurnitureType,std::pair<std::string,std::string > > >)__PAIR128__(18LL, v1 + 2096),
       (const std::less<data::SpeicalFurnitureType> *)(v1 + 48),
       (const std::map<data::SpeicalFurnitureType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::SpeicalFurnitureType,std::pair<std::string,std::string>>::~map,
       &data::getSpeicalFurnitureTypeEnumMap[abi:cxx11](void)::m,
@@ -2565,8 +2565,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 432) = s;
   if ( *(_QWORD *)(v2 + 432) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2697,7 +2697,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::~unordered_map,
         &data::enumStrToVal(char const*,data::FurnitureDeploySurfaceType &)::m,
@@ -3001,8 +3001,8 @@ const std::unordered_map<std::string,data::FurnitureDeploySurfaceType> *__cdecl 
   v3[536862754] = -202116109;
   v3[536862755] = -202116109;
   v3[536862756] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -3131,7 +3131,7 @@ const std::unordered_map<std::string,data::FurnitureDeploySurfaceType> *__cdecl 
       (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::FurnitureDeploySurfaceType>::~unordered_map,
       &data::getFurnitureDeploySurfaceTypeNameMap[abi:cxx11](void)::m,
@@ -3258,8 +3258,8 @@ const std::map<data::FurnitureDeploySurfaceType,std::pair<std::string,std::strin
   v3[536862821] = -202116109;
   v3[536862822] = -202116109;
   v3[536862823] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -3454,7 +3454,7 @@ const std::map<data::FurnitureDeploySurfaceType,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::FurnitureDeploySurfaceType,std::pair<std::string,std::string > > >)__PAIR128__(17LL, v1 + 1968),
       (const std::less<data::FurnitureDeploySurfaceType> *)(v1 + 32),
       (const std::map<data::FurnitureDeploySurfaceType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::FurnitureDeploySurfaceType,std::pair<std::string,std::string>>::~map,
       &data::getFurnitureDeploySurfaceTypeEnumMap[abi:cxx11](void)::m,
@@ -3865,8 +3865,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GroupRecordType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GroupRecordType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GroupRecordType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GroupRecordType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -3904,7 +3904,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GroupRecordType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GroupRecordType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GroupRecordType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GroupRecordType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GroupRecordType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupRecordType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GroupRecordType &)::m,
@@ -4204,8 +4204,8 @@ const std::unordered_map<std::string,data::GroupRecordType> *__cdecl data::getGr
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupRecordTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupRecordTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupRecordTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupRecordTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -4250,7 +4250,7 @@ const std::unordered_map<std::string,data::GroupRecordType> *__cdecl data::getGr
       (const std::unordered_map<std::string,data::GroupRecordType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GroupRecordType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GroupRecordType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGroupRecordTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupRecordTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GroupRecordType>::~unordered_map,
       &data::getGroupRecordTypeNameMap[abi:cxx11](void)::m,
@@ -4336,8 +4336,8 @@ const std::map<data::GroupRecordType,std::pair<std::string,std::string >> *__cde
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -4400,7 +4400,7 @@ const std::map<data::GroupRecordType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::GroupRecordType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::GroupRecordType> *)(v1 + 32),
       (const std::map<data::GroupRecordType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GroupRecordType,std::pair<std::string,std::string>>::~map,
       &data::getGroupRecordTypeEnumMap[abi:cxx11](void)::m,
@@ -4749,8 +4749,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -4783,7 +4783,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeWorldLimitShopCondType &)::m,
@@ -5072,8 +5072,8 @@ const std::unordered_map<std::string,data::HomeWorldLimitShopCondType> *__cdecl 
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -5104,7 +5104,7 @@ const std::unordered_map<std::string,data::HomeWorldLimitShopCondType> *__cdecl 
       (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldLimitShopCondType>::~unordered_map,
       &data::getHomeWorldLimitShopCondTypeNameMap[abi:cxx11](void)::m,
@@ -5176,8 +5176,8 @@ const std::map<data::HomeWorldLimitShopCondType,std::pair<std::string,std::strin
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -5218,7 +5218,7 @@ const std::map<data::HomeWorldLimitShopCondType,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::HomeWorldLimitShopCondType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::HomeWorldLimitShopCondType> *)(v1 + 48),
       (const std::map<data::HomeWorldLimitShopCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeWorldLimitShopCondType,std::pair<std::string,std::string>>::~map,
       &data::getHomeWorldLimitShopCondTypeEnumMap[abi:cxx11](void)::m,
@@ -5582,8 +5582,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -5607,7 +5607,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeWorldAreaType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeWorldAreaType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HomeWorldAreaType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldAreaType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeWorldAreaType &)::m,
@@ -5890,8 +5890,8 @@ const std::unordered_map<std::string,data::HomeWorldAreaType> *__cdecl data::get
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -5915,7 +5915,7 @@ const std::unordered_map<std::string,data::HomeWorldAreaType> *__cdecl data::get
       (const std::unordered_map<std::string,data::HomeWorldAreaType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::HomeWorldAreaType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeWorldAreaType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldAreaType>::~unordered_map,
       &data::getHomeWorldAreaTypeNameMap[abi:cxx11](void)::m,
@@ -5985,8 +5985,8 @@ const std::map<data::HomeWorldAreaType,std::pair<std::string,std::string >> *__c
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6016,7 +6016,7 @@ const std::map<data::HomeWorldAreaType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::HomeWorldAreaType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::HomeWorldAreaType> *)(v1 + 48),
       (const std::map<data::HomeWorldAreaType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeWorldAreaType,std::pair<std::string,std::string>>::~map,
       &data::getHomeWorldAreaTypeEnumMap[abi:cxx11](void)::m,
@@ -6372,8 +6372,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -6397,7 +6397,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeAvatarEventType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeAvatarEventType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HomeAvatarEventType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeAvatarEventType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeAvatarEventType &)::m,
@@ -6682,8 +6682,8 @@ const std::unordered_map<std::string,data::HomeAvatarEventType> *__cdecl data::g
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6714,7 +6714,7 @@ const std::unordered_map<std::string,data::HomeAvatarEventType> *__cdecl data::g
       (const std::unordered_map<std::string,data::HomeAvatarEventType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::HomeAvatarEventType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeAvatarEventType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeAvatarEventType>::~unordered_map,
       &data::getHomeAvatarEventTypeNameMap[abi:cxx11](void)::m,
@@ -6786,8 +6786,8 @@ const std::map<data::HomeAvatarEventType,std::pair<std::string,std::string >> *_
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6828,7 +6828,7 @@ const std::map<data::HomeAvatarEventType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::HomeAvatarEventType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::HomeAvatarEventType> *)(v1 + 48),
       (const std::map<data::HomeAvatarEventType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeAvatarEventType,std::pair<std::string,std::string>>::~map,
       &data::getHomeAvatarEventTypeEnumMap[abi:cxx11](void)::m,
@@ -7192,8 +7192,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -7217,7 +7217,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeAvatarEventCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeAvatarEventCondType &)::m,
@@ -7502,8 +7502,8 @@ const std::unordered_map<std::string,data::HomeAvatarEventCondType> *__cdecl dat
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7534,7 +7534,7 @@ const std::unordered_map<std::string,data::HomeAvatarEventCondType> *__cdecl dat
       (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeAvatarEventCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeAvatarEventCondType>::~unordered_map,
       &data::getHomeAvatarEventCondTypeNameMap[abi:cxx11](void)::m,
@@ -7606,8 +7606,8 @@ const std::map<data::HomeAvatarEventCondType,std::pair<std::string,std::string >
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7648,7 +7648,7 @@ const std::map<data::HomeAvatarEventCondType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::HomeAvatarEventCondType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::HomeAvatarEventCondType> *)(v1 + 48),
       (const std::map<data::HomeAvatarEventCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeAvatarEventCondType,std::pair<std::string,std::string>>::~map,
       &data::getHomeAvatarEventCondTypeEnumMap[abi:cxx11](void)::m,
@@ -8007,8 +8007,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -8039,7 +8039,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeWorldFieldType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeWorldFieldType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::HomeWorldFieldType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldFieldType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeWorldFieldType &)::m,
@@ -8329,8 +8329,8 @@ const std::unordered_map<std::string,data::HomeWorldFieldType> *__cdecl data::ge
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -8368,7 +8368,7 @@ const std::unordered_map<std::string,data::HomeWorldFieldType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::HomeWorldFieldType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeWorldFieldType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::HomeWorldFieldType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldFieldType>::~unordered_map,
       &data::getHomeWorldFieldTypeNameMap[abi:cxx11](void)::m,
@@ -8442,8 +8442,8 @@ const std::map<data::HomeWorldFieldType,std::pair<std::string,std::string >> *__
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -8495,7 +8495,7 @@ const std::map<data::HomeWorldFieldType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::HomeWorldFieldType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::HomeWorldFieldType> *)(v1 + 32),
       (const std::map<data::HomeWorldFieldType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeWorldFieldType,std::pair<std::string,std::string>>::~map,
       &data::getHomeWorldFieldTypeEnumMap[abi:cxx11](void)::m,
@@ -8859,8 +8859,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -8877,7 +8877,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::~unordered_map,
         &data::enumStrToVal(char const*,data::HomeWorldWoodRefreshType &)::m,
@@ -9161,8 +9161,8 @@ const std::unordered_map<std::string,data::HomeWorldWoodRefreshType> *__cdecl da
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -9186,7 +9186,7 @@ const std::unordered_map<std::string,data::HomeWorldWoodRefreshType> *__cdecl da
       (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::HomeWorldWoodRefreshType>::~unordered_map,
       &data::getHomeWorldWoodRefreshTypeNameMap[abi:cxx11](void)::m,
@@ -9256,8 +9256,8 @@ const std::map<data::HomeWorldWoodRefreshType,std::pair<std::string,std::string 
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -9287,7 +9287,7 @@ const std::map<data::HomeWorldWoodRefreshType,std::pair<std::string,std::string 
       (std::initializer_list<std::pair<const data::HomeWorldWoodRefreshType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::HomeWorldWoodRefreshType> *)(v1 + 48),
       (const std::map<data::HomeWorldWoodRefreshType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::HomeWorldWoodRefreshType,std::pair<std::string,std::string>>::~map,
       &data::getHomeWorldWoodRefreshTypeEnumMap[abi:cxx11](void)::m,

@@ -3513,8 +3513,8 @@ LABEL_3:
     else
     {
       common::minet::http_client::HttpClient::spawn_attr.size_ = 0x100000LL;
-      v3 = `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-      if ( `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] )
+      v3 = `guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+      if ( `guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_[0] )
         goto LABEL_6;
     }
     *v3 = 1;
@@ -3524,36 +3524,36 @@ LABEL_3:
       &boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
       &_dso_handle);
 LABEL_6:
-    if ( !`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ )
+    if ( !`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ )
     {
-      `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ = 1;
+      `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ = 1;
       v2 = (std::ios_base::Init *)&boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_;
       __cxa_atexit(
         (void (__fastcall *)(void *))boost::asio::detail::tss_ptr<boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::context>::~tss_ptr,
         &boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_,
         &_dso_handle);
     }
-    if ( !`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id )
+    if ( !`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id )
     {
-      `guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id = 1;
+      `guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id = 1;
       v2 = (std::ios_base::Init *)&boost::asio::detail::service_base<boost::asio::detail::strand_service>::id;
       __cxa_atexit(
         (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::strand_service>::~service_id,
         &boost::asio::detail::service_base<boost::asio::detail::strand_service>::id,
         &_dso_handle);
     }
-    if ( !`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ )
+    if ( !`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ )
     {
-      `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ = 1;
+      `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ = 1;
       v2 = (std::ios_base::Init *)&boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_;
       __cxa_atexit(
         (void (__fastcall *)(void *))boost::asio::detail::tss_ptr<boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::context>::~tss_ptr,
         &boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_,
         &_dso_handle);
     }
-    if ( !`guard variable for'boost::asio::ssl::detail::openssl_init<true>::instance_ )
+    if ( !`guard variable for boost::asio::ssl::detail::openssl_init<true>::instance_ )
     {
-      `guard variable for'boost::asio::ssl::detail::openssl_init<true>::instance_ = 1;
+      `guard variable for boost::asio::ssl::detail::openssl_init<true>::instance_ = 1;
       if ( *(_WORD *)(((unsigned __int64)&boost::asio::ssl::detail::openssl_init<true>::instance_ >> 3) + 0x7FFF8000) )
       {
         v4 = (_BYTE *)__asan_report_store16(&boost::asio::ssl::detail::openssl_init<true>::instance_, v2);
@@ -3564,25 +3564,25 @@ LABEL_35:
           &boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
           &_dso_handle);
 LABEL_14:
-        if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] )
+        if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] )
         {
-          `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] = 1;
+          `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id[0] = 1;
           __cxa_atexit(
             (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::scheduler>::~service_id,
             &boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
             &_dso_handle);
         }
-        if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id )
+        if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id )
         {
-          `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id = 1;
+          `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id = 1;
           __cxa_atexit(
             (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::epoll_reactor>::~service_id,
             &boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
             &_dso_handle);
         }
-        if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+        if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
         {
-          `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+          `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
           if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                         + 0x7FFF8000) )
           {
@@ -3592,37 +3592,37 @@ LABEL_14:
           common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits
                                                                                + 9;
         }
-        v5 = `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>::id;
-        if ( `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>::id[0] )
+        v5 = `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>::id;
+        if ( `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::resolver_service<boost::asio::ip::tcp>>::id[0] )
         {
 LABEL_22:
-          if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::strand_executor_service>::id )
+          if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::strand_executor_service>::id )
           {
-            `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::strand_executor_service>::id = 1;
+            `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::strand_executor_service>::id = 1;
             __cxa_atexit(
               (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::strand_executor_service>::~service_id,
               &boost::asio::detail::execution_context_service_base<boost::asio::detail::strand_executor_service>::id,
               &_dso_handle);
           }
-          if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::id )
+          if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::id )
           {
-            `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::id = 1;
+            `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::id = 1;
             __cxa_atexit(
               (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::~service_id,
               &boost::asio::detail::execution_context_service_base<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>::id,
               &_dso_handle);
           }
-          if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::id )
+          if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::id )
           {
-            `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::id = 1;
+            `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::id = 1;
             __cxa_atexit(
               (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::~service_id,
               &boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::detail::chrono_time_traits<std::chrono::_V2::steady_clock,boost::asio::wait_traits<std::chrono::_V2::steady_clock>>>>::id,
               &_dso_handle);
           }
-          if ( !`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::id[0] )
+          if ( !`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::id[0] )
           {
-            `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::id[0] = 1;
+            `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::id[0] = 1;
             __cxa_atexit(
               (void (__fastcall *)(void *))boost::asio::detail::service_id<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::~service_id,
               &boost::asio::detail::execution_context_service_base<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>::id,
@@ -3644,8 +3644,8 @@ LABEL_37:
         &boost::asio::ssl::detail::openssl_init<true>::instance_,
         &_dso_handle);
     }
-    v4 = `guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-    if ( `guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] )
+    v4 = `guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+    if ( `guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_[0] )
       goto LABEL_14;
     goto LABEL_35;
   }

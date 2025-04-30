@@ -740,24 +740,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
                                                                  &boost::asio::error::misc_category,
                                                                  5LL);
       boost::asio::error::misc_category = misc_category;
-      v12 = &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3)
+      v12 = &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e);
+        __asan_report_load1(&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e);
       }
       if ( !*v12 )
       {
-        v13 = &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e;
-        v14 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3)
+        v13 = &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e;
+        v14 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v14 != 0;
         v15 = v14 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e & 7) >= v14;
+           && (char)((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e & 7) >= v14;
         if ( v15 )
           __asan_report_store1(
-            &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e,
+            &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e,
             v7,
             v15);
         *v13 = 1;
@@ -771,26 +771,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           (void *)&boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_alloc_>::e,
           &_dso_handle);
       }
-      v16 = &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e;
-      v17 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e >> 3)
+      v16 = &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e;
+      v17 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e >> 3)
                      + 0x7FFF8000);
       LOBYTE(v7) = v17 != 0;
       if ( v17 != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e & 7) >= v17 )
+        && (char)((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e & 7) >= v17 )
       {
-        __asan_report_load1(&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e);
+        __asan_report_load1(&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e);
       }
       if ( !*v16 )
       {
-        v18 = &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e;
-        v19 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e >> 3)
+        v18 = &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e;
+        v19 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v19 != 0;
         v20 = v19 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e & 7) >= v19;
+           && (char)((unsigned __int64)&`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e & 7) >= v19;
         if ( v20 )
           __asan_report_store1(
-            &`guard variable for'boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e,
+            &`guard variable for boost::exception_detail::exception_ptr_static_exception_object<boost::exception_detail::bad_exception_>::e,
             v7,
             v20);
         *v18 = 1;
@@ -815,24 +815,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
       if ( *(_BYTE *)(((unsigned __int64)&boost::container::piecewise_construct >> 3) + 0x7FFF8000) )
         __asan_report_store8(&boost::container::piecewise_construct, v7);
       boost::container::piecewise_construct = v21;
-      v22 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+      v22 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_);
       }
       if ( !*v22 )
       {
-        v23 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
-        v24 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
+        v23 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_;
+        v24 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v24 != 0;
         v25 = v24 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v24;
+           && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_ & 7) >= v24;
         if ( v25 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
+            &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
             v7,
             v25);
         *v23 = 1;
@@ -843,24 +843,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::call_stack<boost::asio::detail::thread_context,boost::asio::detail::thread_info_base>::top_,
           &_dso_handle);
       }
-      v26 = `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_;
-      if ( *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3)
+      v26 = `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_;
+      if ( *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_);
+        __asan_report_load1(`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_);
       }
       if ( !*v26 )
       {
-        v27 = `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_;
-        v28 = *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3)
+        v27 = `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_;
+        v28 = *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v28 != 0;
         v29 = v28 != 0
-           && (char)((unsigned __int64)`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ & 7) >= v28;
+           && (char)((unsigned __int64)`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_ & 7) >= v28;
         if ( v29 )
           __asan_report_store1(
-            `guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_,
+            `guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_,
             v7,
             v29);
         *v27 = 1;
@@ -871,24 +871,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::call_stack<boost::asio::detail::strand_service::strand_impl,unsigned char>::top_,
           &_dso_handle);
       }
-      v30 = &`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3)
+      v30 = &`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id);
       }
       if ( !*v30 )
       {
-        v31 = &`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id;
-        v32 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3)
+        v31 = &`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id;
+        v32 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v32 != 0;
         v33 = v32 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id & 7) >= v32;
+           && (char)((unsigned __int64)&`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id & 7) >= v32;
         if ( v33 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::service_base<boost::asio::detail::strand_service>::id,
+            &`guard variable for boost::asio::detail::service_base<boost::asio::detail::strand_service>::id,
             v7,
             v33);
         *v31 = 1;
@@ -899,24 +899,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::service_base<boost::asio::detail::strand_service>::id,
           &_dso_handle);
       }
-      v34 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3)
+      v34 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_);
       }
       if ( !*v34 )
       {
-        v35 = &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_;
-        v36 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3)
+        v35 = &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_;
+        v36 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v36 != 0;
         v37 = v36 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ & 7) >= v36;
+           && (char)((unsigned __int64)&`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_ & 7) >= v36;
         if ( v37 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_,
+            &`guard variable for boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_,
             v7,
             v37);
         *v35 = 1;
@@ -927,24 +927,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::call_stack<boost::asio::detail::strand_executor_service::strand_impl,unsigned char>::top_,
           &_dso_handle);
       }
-      v38 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+      v38 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
+        __asan_report_load1(&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_);
       }
       if ( !*v38 )
       {
-        v39 = &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
-        v40 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
+        v39 = &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_;
+        v40 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v40 != 0;
         v41 = v40 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v40;
+           && (char)((unsigned __int64)&`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_ & 7) >= v40;
         if ( v41 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
+            &`guard variable for boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
             v7,
             v41);
         *v39 = 1;
@@ -954,24 +954,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::posix_global_impl<boost::asio::system_context>::instance_,
           &_dso_handle);
       }
-      v42 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v42 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v42 )
       {
-        v43 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v44 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v43 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v44 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v44 != 0;
         v45 = v44 != 0
-           && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v44;
+           && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v44;
         if ( v45 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v7,
             v45);
         *v43 = 1;
@@ -981,24 +981,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           __asan_report_store8(&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero, v7);
         common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = v46;
       }
-      v47 = `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-      if ( *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+      v47 = `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+      if ( *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
+        __asan_report_load1(`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id);
       }
       if ( !*v47 )
       {
-        v48 = `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
-        v49 = *(_BYTE *)(((unsigned __int64)`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
+        v48 = `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id;
+        v49 = *(_BYTE *)(((unsigned __int64)`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v49 != 0;
         v50 = v49 != 0
-           && (char)((unsigned __int64)`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v49;
+           && (char)((unsigned __int64)`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id & 7) >= v49;
         if ( v50 )
           __asan_report_store1(
-            `guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
+            `guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
             v7,
             v50);
         *v48 = 1;
@@ -1009,24 +1009,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::scheduler>::id,
           &_dso_handle);
       }
-      v51 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+      v51 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
+        __asan_report_load1(&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id);
       }
       if ( !*v51 )
       {
-        v52 = &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
-        v53 = *(_BYTE *)(((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
+        v52 = &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id;
+        v53 = *(_BYTE *)(((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v53 != 0;
         v54 = v53 != 0
-           && (char)((unsigned __int64)&`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v53;
+           && (char)((unsigned __int64)&`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id & 7) >= v53;
         if ( v54 )
           __asan_report_store1(
-            &`guard variable for'boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
+            &`guard variable for boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
             v7,
             v54);
         *v52 = 1;
@@ -1037,24 +1037,24 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
           &boost::asio::detail::execution_context_service_base<boost::asio::detail::epoll_reactor>::id,
           &_dso_handle);
       }
-      v55 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+      v55 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero);
       }
       if ( !*v55 )
       {
-        v56 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
-        v57 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
+        v56 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero;
+        v57 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v7) = v57 != 0;
         v58 = v57 != 0
-           && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v57;
+           && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero & 7) >= v57;
         if ( v58 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero,
             v7,
             v58);
         *v56 = 1;

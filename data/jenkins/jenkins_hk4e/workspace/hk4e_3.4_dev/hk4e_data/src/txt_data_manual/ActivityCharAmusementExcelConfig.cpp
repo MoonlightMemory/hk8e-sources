@@ -1447,11 +1447,11 @@ const std::vector<unsigned int> *__fastcall ActivityCharAmusementExcelConfigMgr:
   v5[536862728] = -202116352;
   *(_DWORD *)(v3 + 64) = (_DWORD)schedule_id;
   *(_DWORD *)(v3 + 80) = level_id;
-  if ( !(_BYTE)`guard variable for'ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec) )
+  if ( !(_BYTE)`guard variable for ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)const::empty_vec);
-    __cxa_guard_release(&`guard variable for'ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec);
+    __cxa_guard_release(&`guard variable for ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)::empty_vec);
     schedule_id = &ActivityCharAmusementExcelConfigMgr::getSameTypeLevelIdVec(unsigned int,unsigned int)const::empty_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,
@@ -1582,11 +1582,11 @@ const std::map<unsigned int,unsigned int> *__fastcall ActivityCharAmusementExcel
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)schedule_id;
-  if ( !(_BYTE)`guard variable for'ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map
-    && __cxa_guard_acquire(&`guard variable for'ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map) )
+  if ( !(_BYTE)`guard variable for ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map
+    && __cxa_guard_acquire(&`guard variable for ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map) )
   {
     std::map<unsigned int,unsigned int>::map(&ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)const::empty_map);
-    __cxa_guard_release(&`guard variable for'ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map);
+    __cxa_guard_release(&`guard variable for ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)::empty_map);
     schedule_id = &ActivityCharAmusementExcelConfigMgr::getLevelWeightMap(unsigned int)const::empty_map;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<unsigned int,unsigned int>::~map,

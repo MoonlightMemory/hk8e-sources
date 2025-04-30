@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 272) = s;
   if ( *(_QWORD *)(v2 + 272) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::OpenStateCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::OpenStateCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::OpenStateCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::OpenStateCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -358,7 +358,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::OpenStateCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::OpenStateCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::OpenStateCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::OpenStateCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::OpenStateCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpenStateCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::OpenStateCondType &)::m,
@@ -656,8 +656,8 @@ const std::unordered_map<std::string,data::OpenStateCondType> *__cdecl data::get
   v3[536862734] = -218103808;
   v3[536862735] = -202116109;
   v3[536862736] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -716,7 +716,7 @@ const std::unordered_map<std::string,data::OpenStateCondType> *__cdecl data::get
       (const std::unordered_map<std::string,data::OpenStateCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::OpenStateCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::OpenStateCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::OpenStateCondType>::~unordered_map,
       &data::getOpenStateCondTypeNameMap[abi:cxx11](void)::m,
@@ -807,8 +807,8 @@ const std::map<data::OpenStateCondType,std::pair<std::string,std::string >> *__c
   v3[536862762] = -218103808;
   v3[536862763] = -202116109;
   v3[536862764] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -893,7 +893,7 @@ const std::map<data::OpenStateCondType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::OpenStateCondType,std::pair<std::string,std::string > > >)__PAIR128__(7LL, v1 + 864),
       (const std::less<data::OpenStateCondType> *)(v1 + 48),
       (const std::map<data::OpenStateCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::OpenStateCondType,std::pair<std::string,std::string>>::~map,
       &data::getOpenStateCondTypeEnumMap[abi:cxx11](void)::m,

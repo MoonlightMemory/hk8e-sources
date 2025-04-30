@@ -205,8 +205,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionBtnType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ActionBtnType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionBtnType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ActionBtnType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ActionBtnType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -333,7 +333,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionBtnType *e)
         (std::initializer_list<std::pair<const std::string,data::ActionBtnType> >)__PAIR128__(17LL, v2 + 528),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ActionBtnType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionBtnType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ActionBtnType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ActionBtnType>::~map,
         &data::enumStrToVal(std::string const&,data::ActionBtnType &)::m,
@@ -679,8 +679,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionSlotType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ActionSlotType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionSlotType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ActionSlotType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ActionSlotType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -751,7 +751,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ActionSlotType *e)
         (std::initializer_list<std::pair<const std::string,data::ActionSlotType> >)__PAIR128__(9LL, v2 + 400),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ActionSlotType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ActionSlotType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ActionSlotType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ActionSlotType>::~map,
         &data::enumStrToVal(std::string const&,data::ActionSlotType &)::m,
@@ -1186,8 +1186,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PlayModeType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::PlayModeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::PlayModeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::PlayModeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::PlayModeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1468,7 +1468,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::PlayModeType *e)
         (std::initializer_list<std::pair<const std::string,data::PlayModeType> >)__PAIR128__(39LL, v2 + 896),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::PlayModeType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::PlayModeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::PlayModeType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::PlayModeType>::~map,
         &data::enumStrToVal(std::string const&,data::PlayModeType &)::m,

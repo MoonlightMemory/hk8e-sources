@@ -377,15 +377,15 @@ int32_t __cdecl SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig *securi
   v3[536862784] = -218959118;
   v3[536862786] = -218103808;
   v3[536862787] = -202116109;
-  if ( !(_BYTE)`guard variable for'SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]
-    && __cxa_guard_acquire(&`guard variable for'SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]) )
+  if ( !(_BYTE)`guard variable for SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]
+    && __cxa_guard_acquire(&`guard variable for SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]) )
   {
     std::allocator<char>::allocator(v1 + 32);
     std::string::basic_string<std::allocator<char>>(
       (std::string *const)&SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11],
       "../crc",
       (const std::allocator<char> *)(v1 + 32));
-    __cxa_guard_release(&`guard variable for'SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]);
+    __cxa_guard_release(&`guard variable for SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11]);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       (void *)&SecurityUtilsHelper::loadSegmentCRCConfig(SecurityConfig &)::crc_dir[abi:cxx11],
@@ -2591,8 +2591,8 @@ int32_t __cdecl SecurityUtils::loadSecurityConfig(
   v4[536862912] = -202116109;
   v4[536862913] = -202116109;
   v4[536862914] = -202116109;
-  if ( !(_BYTE)`guard variable for'SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map
-    && __cxa_guard_acquire(&`guard variable for'SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map) )
+  if ( !(_BYTE)`guard variable for SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map
+    && __cxa_guard_acquire(&`guard variable for SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map) )
   {
     if ( *(char *)(((v2 + 928) >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)(((v2 + 959) >> 3) + 0x7FFF8000) != 0
@@ -3110,7 +3110,7 @@ int32_t __cdecl SecurityUtils::loadSecurityConfig(
       (const std::unordered_map<std::string,std::function<int(const common::tools::PTree&,SecurityConfig&)>>::hasher *)(v2 + 656),
       (const std::unordered_map<std::string,std::function<int(const common::tools::PTree&,SecurityConfig&)>>::key_equal *)(v2 + 672),
       (const std::unordered_map<std::string,std::function<int(const common::tools::PTree&,SecurityConfig&)>>::allocator_type *)(v2 + 688));
-    __cxa_guard_release(&`guard variable for'SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map);
+    __cxa_guard_release(&`guard variable for SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,std::function<int ()(common::tools::PTree const&,SecurityConfig &)>>::~unordered_map,
       (void *)&SecurityUtils::loadSecurityConfig(common::tools::PTree const&,SecurityConfig &)::ptree_reader_map,
@@ -11692,21 +11692,21 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
       std::error_code::error_code((std::error_code *const)&opentracing::v3::key_not_found_error, 4, v5);
       v6 = (const std::_V2::error_category *)opentracing::v3::propagation_error_category((opentracing::v3 *)&opentracing::v3::key_not_found_error);
       std::error_code::error_code((std::error_code *const)&opentracing::v3::lookup_key_not_supported_error, 5, v6);
-      v7 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v7 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+        __asan_report_load1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
       }
       if ( !*v7 )
       {
-        v8 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v8 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
+          __asan_report_store1(&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero);
         }
         *v8 = 1;
         v9 = common::tools::StringStream<common::tools::FixedBuffer<16384>>::digits + 9;

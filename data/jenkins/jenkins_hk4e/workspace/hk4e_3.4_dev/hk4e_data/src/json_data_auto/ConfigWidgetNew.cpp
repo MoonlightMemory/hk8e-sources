@@ -142,8 +142,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetEventType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::WidgetEventType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetEventType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::WidgetEventType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetEventType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -158,7 +158,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetEventType *e)
         (std::initializer_list<std::pair<const std::string,data::WidgetEventType> >)__PAIR128__(1LL, v2 + 272),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::WidgetEventType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetEventType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetEventType &)::m);
       e = (data::WidgetEventType *)&data::enumStrToVal(std::string const&,data::WidgetEventType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::WidgetEventType>::~map,
@@ -408,8 +408,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CollectorType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CollectorType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CollectorType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CollectorType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CollectorType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -424,7 +424,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CollectorType *e)
         (std::initializer_list<std::pair<const std::string,data::CollectorType> >)__PAIR128__(1LL, v2 + 272),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CollectorType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CollectorType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CollectorType &)::m);
       e = (data::CollectorType *)&data::enumStrToVal(std::string const&,data::CollectorType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CollectorType>::~map,
@@ -678,8 +678,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetOccupyTag *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -701,7 +701,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetOccupyTag *e)
         (std::initializer_list<std::pair<const std::string,data::WidgetOccupyTag> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::WidgetOccupyTag>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m);
       e = (data::WidgetOccupyTag *)&data::enumStrToVal(std::string const&,data::WidgetOccupyTag &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::WidgetOccupyTag>::~map,
@@ -960,8 +960,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetBusinessType *
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -983,7 +983,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetBusinessType *
         (std::initializer_list<std::pair<const std::string,data::WidgetBusinessType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::WidgetBusinessType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m);
       e = (data::WidgetBusinessType *)&data::enumStrToVal(std::string const&,data::WidgetBusinessType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::WidgetBusinessType>::~map,
@@ -1251,8 +1251,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetSkillReplaceTy
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1281,7 +1281,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::WidgetSkillReplaceTy
         (std::initializer_list<std::pair<const std::string,data::WidgetSkillReplaceType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::WidgetSkillReplaceType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m);
       e = (data::WidgetSkillReplaceType *)&data::enumStrToVal(std::string const&,data::WidgetSkillReplaceType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::WidgetSkillReplaceType>::~map,
@@ -12455,8 +12455,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ScanCameraType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ScanCameraType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ScanCameraType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ScanCameraType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ScanCameraType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -12478,7 +12478,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ScanCameraType *e)
         (std::initializer_list<std::pair<const std::string,data::ScanCameraType> >)__PAIR128__(2LL, v2 + 304),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ScanCameraType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ScanCameraType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ScanCameraType &)::m);
       e = (data::ScanCameraType *)&data::enumStrToVal(std::string const&,data::ScanCameraType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ScanCameraType>::~map,
@@ -18927,8 +18927,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreateSeverGadgetOpT
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -18957,7 +18957,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CreateSeverGadgetOpT
         (std::initializer_list<std::pair<const std::string,data::CreateSeverGadgetOpType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CreateSeverGadgetOpType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m);
       e = (data::CreateSeverGadgetOpType *)&data::enumStrToVal(std::string const&,data::CreateSeverGadgetOpType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CreateSeverGadgetOpType>::~map,

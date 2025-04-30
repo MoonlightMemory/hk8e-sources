@@ -3263,12 +3263,12 @@ LABEL_3:
     else
     {
       common::minet::Coroutine::size_stack.size_ = 0x200000LL;
-      if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+      if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       {
 LABEL_8:
-        if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
+        if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero )
           goto LABEL_3;
-        `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
+        `guard variable for common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero = 1;
         if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero >> 3)
                        + 0x7FFF8000) )
         {
@@ -3280,7 +3280,7 @@ LABEL_13:
         __asan_report_store8(&common::tools::StringStream<common::tools::FixedBuffer<4096>>::zero, &std::__ioinit);
         JUMPOUT(0x19AF4CCFLL);
       }
-      `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+      `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
       if ( !*(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000) )
       {

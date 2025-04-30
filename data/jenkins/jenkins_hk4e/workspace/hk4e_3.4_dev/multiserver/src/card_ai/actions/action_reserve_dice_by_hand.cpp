@@ -913,8 +913,8 @@ int32_t __cdecl BT::ActionReserveDiceByHand::tryUsePayCardCost(
   v7[536862721] = -234556943;
   v7[536862722] = -234556924;
   v7[536862723] = -202116352;
-  if ( !(_BYTE)`guard variable for'BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec
-    && __cxa_guard_acquire(&`guard variable for'BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec) )
+  if ( !(_BYTE)`guard variable for BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec
+    && __cxa_guard_acquire(&`guard variable for BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec) )
   {
     __l.log_ = (common::milog::MiLog *)0xC0000000BLL;
     __l.ostr_ptr_._M_ptr = (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)0xE0000000DLL;
@@ -925,7 +925,7 @@ int32_t __cdecl BT::ActionReserveDiceByHand::tryUsePayCardCost(
       &BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec,
       (std::initializer_list<data::GCGCostType>)__PAIR128__(8LL, &__l),
       &__a);
-    __cxa_guard_release(&`guard variable for'BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec);
+    __cxa_guard_release(&`guard variable for BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<data::GCGCostType>::~vector,
       &BT::ActionReserveDiceByHand::tryUsePayCardCost(std::map<data::GCGCostType,unsigned int> const&,unsigned int &,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>,std::map&<proto::GCGDiceSideType,unsigned int,std::less<proto>,std::allocator<std::pair<proto const,unsigned int>>>)::need_check_cost_vec,

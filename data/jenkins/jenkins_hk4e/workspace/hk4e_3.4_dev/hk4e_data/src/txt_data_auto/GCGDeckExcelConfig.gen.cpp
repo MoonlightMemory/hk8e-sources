@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -320,7 +320,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGDeckUnlockCondition>::~unordered_map,
         &data::enumStrToVal(char const*,data::GCGDeckUnlockCondition &)::m,
@@ -604,8 +604,8 @@ const std::unordered_map<std::string,data::GCGDeckUnlockCondition> *__cdecl data
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -629,7 +629,7 @@ const std::unordered_map<std::string,data::GCGDeckUnlockCondition> *__cdecl data
       (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GCGDeckUnlockCondition>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGDeckUnlockCondition>::~unordered_map,
       &data::getGCGDeckUnlockConditionNameMap[abi:cxx11](void)::m,
@@ -699,8 +699,8 @@ const std::map<data::GCGDeckUnlockCondition,std::pair<std::string,std::string >>
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -730,7 +730,7 @@ const std::map<data::GCGDeckUnlockCondition,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::GCGDeckUnlockCondition,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GCGDeckUnlockCondition> *)(v1 + 48),
       (const std::map<data::GCGDeckUnlockCondition,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GCGDeckUnlockCondition,std::pair<std::string,std::string>>::~map,
       &data::getGCGDeckUnlockConditionEnumMap[abi:cxx11](void)::m,
@@ -1086,8 +1086,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1111,7 +1111,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GCGCardFaceType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::GCGCardFaceType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::GCGCardFaceType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGCardFaceType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GCGCardFaceType &)::m,
@@ -1399,8 +1399,8 @@ const std::unordered_map<std::string,data::GCGCardFaceType> *__cdecl data::getGC
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1424,7 +1424,7 @@ const std::unordered_map<std::string,data::GCGCardFaceType> *__cdecl data::getGC
       (const std::unordered_map<std::string,data::GCGCardFaceType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GCGCardFaceType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GCGCardFaceType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGCardFaceType>::~unordered_map,
       &data::getGCGCardFaceTypeNameMap[abi:cxx11](void)::m,
@@ -1494,8 +1494,8 @@ const std::map<data::GCGCardFaceType,std::pair<std::string,std::string >> *__cde
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1525,7 +1525,7 @@ const std::map<data::GCGCardFaceType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::GCGCardFaceType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GCGCardFaceType> *)(v1 + 48),
       (const std::map<data::GCGCardFaceType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GCGCardFaceType,std::pair<std::string,std::string>>::~map,
       &data::getGCGCardFaceTypeEnumMap[abi:cxx11](void)::m,
@@ -1879,8 +1879,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1906,7 +1906,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::~unordered_map,
         &data::enumStrToVal(char const*,data::GCGCardFaceReceiveCondition &)::m,
@@ -2192,8 +2192,8 @@ const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition> *__cdecl
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2217,7 +2217,7 @@ const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition> *__cdecl
       (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GCGCardFaceReceiveCondition>::~unordered_map,
       &data::getGCGCardFaceReceiveConditionNameMap[abi:cxx11](void)::m,
@@ -2287,8 +2287,8 @@ const std::map<data::GCGCardFaceReceiveCondition,std::pair<std::string,std::stri
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2318,7 +2318,7 @@ const std::map<data::GCGCardFaceReceiveCondition,std::pair<std::string,std::stri
       (std::initializer_list<std::pair<const data::GCGCardFaceReceiveCondition,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GCGCardFaceReceiveCondition> *)(v1 + 48),
       (const std::map<data::GCGCardFaceReceiveCondition,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GCGCardFaceReceiveCondition,std::pair<std::string,std::string>>::~map,
       &data::getGCGCardFaceReceiveConditionEnumMap[abi:cxx11](void)::m,

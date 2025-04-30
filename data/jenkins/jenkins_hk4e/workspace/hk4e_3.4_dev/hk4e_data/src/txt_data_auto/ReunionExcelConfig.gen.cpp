@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReunionPrivilegeType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReunionPrivilegeType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ReunionPrivilegeType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionPrivilegeType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReunionPrivilegeType &)::m,
@@ -612,8 +612,8 @@ const std::unordered_map<std::string,data::ReunionPrivilegeType> *__cdecl data::
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -644,7 +644,7 @@ const std::unordered_map<std::string,data::ReunionPrivilegeType> *__cdecl data::
       (const std::unordered_map<std::string,data::ReunionPrivilegeType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ReunionPrivilegeType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReunionPrivilegeType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionPrivilegeType>::~unordered_map,
       &data::getReunionPrivilegeTypeNameMap[abi:cxx11](void)::m,
@@ -716,8 +716,8 @@ const std::map<data::ReunionPrivilegeType,std::pair<std::string,std::string >> *
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -758,7 +758,7 @@ const std::map<data::ReunionPrivilegeType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::ReunionPrivilegeType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ReunionPrivilegeType> *)(v1 + 48),
       (const std::map<data::ReunionPrivilegeType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReunionPrivilegeType,std::pair<std::string,std::string>>::~map,
       &data::getReunionPrivilegeTypeEnumMap[abi:cxx11](void)::m,
@@ -1117,8 +1117,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1149,7 +1149,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReunionGuideOpType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReunionGuideOpType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ReunionGuideOpType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionGuideOpType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReunionGuideOpType &)::m,
@@ -1439,8 +1439,8 @@ const std::unordered_map<std::string,data::ReunionGuideOpType> *__cdecl data::ge
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1478,7 +1478,7 @@ const std::unordered_map<std::string,data::ReunionGuideOpType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::ReunionGuideOpType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReunionGuideOpType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ReunionGuideOpType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionGuideOpType>::~unordered_map,
       &data::getReunionGuideOpTypeNameMap[abi:cxx11](void)::m,
@@ -1552,8 +1552,8 @@ const std::map<data::ReunionGuideOpType,std::pair<std::string,std::string >> *__
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1605,7 +1605,7 @@ const std::map<data::ReunionGuideOpType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::ReunionGuideOpType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::ReunionGuideOpType> *)(v1 + 32),
       (const std::map<data::ReunionGuideOpType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReunionGuideOpType,std::pair<std::string,std::string>>::~map,
       &data::getReunionGuideOpTypeEnumMap[abi:cxx11](void)::m,
@@ -1972,8 +1972,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2018,7 +2018,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReunionGuideOpenType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ReunionGuideOpenType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReunionGuideOpenType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionGuideOpenType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReunionGuideOpenType &)::m,
@@ -2312,8 +2312,8 @@ const std::unordered_map<std::string,data::ReunionGuideOpenType> *__cdecl data::
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2365,7 +2365,7 @@ const std::unordered_map<std::string,data::ReunionGuideOpenType> *__cdecl data::
       (const std::unordered_map<std::string,data::ReunionGuideOpenType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ReunionGuideOpenType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReunionGuideOpenType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionGuideOpenType>::~unordered_map,
       &data::getReunionGuideOpenTypeNameMap[abi:cxx11](void)::m,
@@ -2456,8 +2456,8 @@ const std::map<data::ReunionGuideOpenType,std::pair<std::string,std::string >> *
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2531,7 +2531,7 @@ const std::map<data::ReunionGuideOpenType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::ReunionGuideOpenType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::ReunionGuideOpenType> *)(v1 + 48),
       (const std::map<data::ReunionGuideOpenType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReunionGuideOpenType,std::pair<std::string,std::string>>::~map,
       &data::getReunionGuideOpenTypeEnumMap[abi:cxx11](void)::m,
@@ -2895,8 +2895,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ReunionJumpType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ReunionJumpType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ReunionJumpType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ReunionJumpType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2941,7 +2941,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ReunionJumpType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ReunionJumpType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ReunionJumpType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ReunionJumpType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ReunionJumpType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionJumpType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ReunionJumpType &)::m,
@@ -3235,8 +3235,8 @@ const std::unordered_map<std::string,data::ReunionJumpType> *__cdecl data::getRe
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionJumpTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionJumpTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionJumpTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionJumpTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3288,7 +3288,7 @@ const std::unordered_map<std::string,data::ReunionJumpType> *__cdecl data::getRe
       (const std::unordered_map<std::string,data::ReunionJumpType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ReunionJumpType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ReunionJumpType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionJumpTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionJumpTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ReunionJumpType>::~unordered_map,
       &data::getReunionJumpTypeNameMap[abi:cxx11](void)::m,
@@ -3379,8 +3379,8 @@ const std::map<data::ReunionJumpType,std::pair<std::string,std::string >> *__cde
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3454,7 +3454,7 @@ const std::map<data::ReunionJumpType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::ReunionJumpType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::ReunionJumpType> *)(v1 + 48),
       (const std::map<data::ReunionJumpType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ReunionJumpType,std::pair<std::string,std::string>>::~map,
       &data::getReunionJumpTypeEnumMap[abi:cxx11](void)::m,

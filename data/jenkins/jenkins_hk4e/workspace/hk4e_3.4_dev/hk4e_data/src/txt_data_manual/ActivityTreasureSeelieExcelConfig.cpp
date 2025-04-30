@@ -1348,11 +1348,11 @@ const std::set<unsigned int> *__fastcall ActivityTreasureSeelieExcelConfigMgr::g
   v4[536862723] = -218959360;
   v4[536862725] = -202116109;
   *(_DWORD *)(v2 + 48) = (_DWORD)schedule_id;
-  if ( !(_BYTE)`guard variable for'ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set) )
   {
     std::set<unsigned int>::set((std::set<unsigned int> *const)&ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)::empty_set);
     schedule_id = &ActivityTreasureSeelieExcelConfigMgr::getOpenDaySetByScheduleId(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::set<unsigned int>::~set,

@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::LocalizationAssetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::LocalizationAssetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::LocalizationAssetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::LocalizationAssetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -336,7 +336,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::LocalizationAssetType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::LocalizationAssetType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::LocalizationAssetType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::LocalizationAssetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::LocalizationAssetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::LocalizationAssetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::LocalizationAssetType &)::m,
@@ -631,8 +631,8 @@ const std::unordered_map<std::string,data::LocalizationAssetType> *__cdecl data:
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -677,7 +677,7 @@ const std::unordered_map<std::string,data::LocalizationAssetType> *__cdecl data:
       (const std::unordered_map<std::string,data::LocalizationAssetType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::LocalizationAssetType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::LocalizationAssetType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::LocalizationAssetType>::~unordered_map,
       &data::getLocalizationAssetTypeNameMap[abi:cxx11](void)::m,
@@ -763,8 +763,8 @@ const std::map<data::LocalizationAssetType,std::pair<std::string,std::string >> 
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -827,7 +827,7 @@ const std::map<data::LocalizationAssetType,std::pair<std::string,std::string >> 
       (std::initializer_list<std::pair<const data::LocalizationAssetType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::LocalizationAssetType> *)(v1 + 32),
       (const std::map<data::LocalizationAssetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::LocalizationAssetType,std::pair<std::string,std::string>>::~map,
       &data::getLocalizationAssetTypeEnumMap[abi:cxx11](void)::m,

@@ -429,11 +429,11 @@ const GCGSpecifyData *__fastcall GCGStatistics::getStatisticSpecifyData(
   v5[536862722] = -202116352;
   *(_DWORD *)(v3 + 32) = controller_id;
   *(_DWORD *)(v3 + 48) = statistic_type;
-  if ( !(_BYTE)`guard variable for'GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data
-    && __cxa_guard_acquire(&`guard variable for'GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data) )
+  if ( !(_BYTE)`guard variable for GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data
+    && __cxa_guard_acquire(&`guard variable for GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data) )
   {
     GCGSpecifyData::GCGSpecifyData((GCGSpecifyData *const)&GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)const::empty_specify_data);
-    __cxa_guard_release(&`guard variable for'GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data);
+    __cxa_guard_release(&`guard variable for GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)::empty_specify_data);
     __cxa_atexit(
       (void (__fastcall *)(void *))GCGSpecifyData::~GCGSpecifyData,
       (void *)&GCGStatistics::getStatisticSpecifyData(proto::GCGControllerValue,proto::GCGStatisticSpecifyItemType)const::empty_specify_data,
@@ -516,11 +516,11 @@ const GCGSpecifyData *__fastcall GCGStatistics::getStatisticCommonData(
   v4[536862721] = -234556943;
   v4[536862722] = -202116352;
   *(_DWORD *)(v2 + 48) = statistic_type;
-  if ( !(_BYTE)`guard variable for'GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data
-    && __cxa_guard_acquire(&`guard variable for'GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data) )
+  if ( !(_BYTE)`guard variable for GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data
+    && __cxa_guard_acquire(&`guard variable for GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data) )
   {
     GCGSpecifyData::GCGSpecifyData((GCGSpecifyData *const)&GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)const::empty_specify_data);
-    __cxa_guard_release(&`guard variable for'GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data);
+    __cxa_guard_release(&`guard variable for GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)::empty_specify_data);
     __cxa_atexit(
       (void (__fastcall *)(void *))GCGSpecifyData::~GCGSpecifyData,
       (void *)&GCGStatistics::getStatisticCommonData(proto::GCGStatisticCommonItemType)const::empty_specify_data,

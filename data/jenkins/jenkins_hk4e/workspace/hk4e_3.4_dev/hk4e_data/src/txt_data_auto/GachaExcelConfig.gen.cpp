@@ -301,8 +301,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GachaType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GachaType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GachaType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GachaType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -368,7 +368,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GachaType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GachaType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GachaType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GachaType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GachaType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GachaType &)::m,
@@ -671,8 +671,8 @@ const std::unordered_map<std::string,data::GachaType> *__cdecl data::getGachaTyp
   v3[536862726] = -234556924;
   v3[536862737] = -202116109;
   v3[536862738] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -738,7 +738,7 @@ const std::unordered_map<std::string,data::GachaType> *__cdecl data::getGachaTyp
       (const std::unordered_map<std::string,data::GachaType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GachaType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GachaType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGachaTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaType>::~unordered_map,
       &data::getGachaTypeNameMap[abi:cxx11](void)::m,
@@ -829,8 +829,8 @@ const std::map<data::GachaType,std::pair<std::string,std::string >> *__cdecl dat
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -926,7 +926,7 @@ const std::map<data::GachaType,std::pair<std::string,std::string >> *__cdecl dat
       (std::initializer_list<std::pair<const data::GachaType,std::pair<std::string,std::string > > >)__PAIR128__(8LL, v1 + 960),
       (const std::less<data::GachaType> *)(v1 + 32),
       (const std::map<data::GachaType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGachaTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GachaType,std::pair<std::string,std::string>>::~map,
       &data::getGachaTypeEnumMap[abi:cxx11](void)::m,
@@ -1292,8 +1292,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GachaItemParentType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GachaItemParentType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GachaItemParentType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GachaItemParentType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1324,7 +1324,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GachaItemParentType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::GachaItemParentType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::GachaItemParentType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GachaItemParentType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GachaItemParentType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaItemParentType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GachaItemParentType &)::m,
@@ -1614,8 +1614,8 @@ const std::unordered_map<std::string,data::GachaItemParentType> *__cdecl data::g
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1653,7 +1653,7 @@ const std::unordered_map<std::string,data::GachaItemParentType> *__cdecl data::g
       (const std::unordered_map<std::string,data::GachaItemParentType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GachaItemParentType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GachaItemParentType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaItemParentType>::~unordered_map,
       &data::getGachaItemParentTypeNameMap[abi:cxx11](void)::m,
@@ -1727,8 +1727,8 @@ const std::map<data::GachaItemParentType,std::pair<std::string,std::string >> *_
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1780,7 +1780,7 @@ const std::map<data::GachaItemParentType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::GachaItemParentType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::GachaItemParentType> *)(v1 + 32),
       (const std::map<data::GachaItemParentType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GachaItemParentType,std::pair<std::string,std::string>>::~map,
       &data::getGachaItemParentTypeEnumMap[abi:cxx11](void)::m,
@@ -2142,8 +2142,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GachaItemType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GachaItemType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GachaItemType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GachaItemType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2202,7 +2202,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GachaItemType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::GachaItemType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::GachaItemType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GachaItemType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GachaItemType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaItemType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GachaItemType &)::m,
@@ -2501,8 +2501,8 @@ const std::unordered_map<std::string,data::GachaItemType> *__cdecl data::getGach
   v3[536862726] = -234556924;
   v3[536862737] = -202116109;
   v3[536862738] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaItemTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaItemTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaItemTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaItemTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2568,7 +2568,7 @@ const std::unordered_map<std::string,data::GachaItemType> *__cdecl data::getGach
       (const std::unordered_map<std::string,data::GachaItemType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::GachaItemType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::GachaItemType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getGachaItemTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaItemTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaItemType>::~unordered_map,
       &data::getGachaItemTypeNameMap[abi:cxx11](void)::m,
@@ -2659,8 +2659,8 @@ const std::map<data::GachaItemType,std::pair<std::string,std::string >> *__cdecl
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaItemTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaItemTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaItemTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaItemTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2756,7 +2756,7 @@ const std::map<data::GachaItemType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::GachaItemType,std::pair<std::string,std::string > > >)__PAIR128__(8LL, v1 + 960),
       (const std::less<data::GachaItemType> *)(v1 + 32),
       (const std::map<data::GachaItemType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getGachaItemTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaItemTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GachaItemType,std::pair<std::string,std::string>>::~map,
       &data::getGachaItemTypeEnumMap[abi:cxx11](void)::m,
@@ -3130,8 +3130,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -3176,7 +3176,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GachaGuaranteeType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GachaGuaranteeType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GachaGuaranteeType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaGuaranteeType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GachaGuaranteeType &)::m,
@@ -3470,8 +3470,8 @@ const std::unordered_map<std::string,data::GachaGuaranteeType> *__cdecl data::ge
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3523,7 +3523,7 @@ const std::unordered_map<std::string,data::GachaGuaranteeType> *__cdecl data::ge
       (const std::unordered_map<std::string,data::GachaGuaranteeType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GachaGuaranteeType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GachaGuaranteeType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaGuaranteeType>::~unordered_map,
       &data::getGachaGuaranteeTypeNameMap[abi:cxx11](void)::m,
@@ -3614,8 +3614,8 @@ const std::map<data::GachaGuaranteeType,std::pair<std::string,std::string >> *__
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3689,7 +3689,7 @@ const std::map<data::GachaGuaranteeType,std::pair<std::string,std::string >> *__
       (std::initializer_list<std::pair<const data::GachaGuaranteeType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::GachaGuaranteeType> *)(v1 + 48),
       (const std::map<data::GachaGuaranteeType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GachaGuaranteeType,std::pair<std::string,std::string>>::~map,
       &data::getGachaGuaranteeTypeEnumMap[abi:cxx11](void)::m,
@@ -4050,8 +4050,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -4068,7 +4068,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaGuaranteeResetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::GachaGuaranteeResetType &)::m,
@@ -4347,8 +4347,8 @@ const std::unordered_map<std::string,data::GachaGuaranteeResetType> *__cdecl dat
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4372,7 +4372,7 @@ const std::unordered_map<std::string,data::GachaGuaranteeResetType> *__cdecl dat
       (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::GachaGuaranteeResetType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::GachaGuaranteeResetType>::~unordered_map,
       &data::getGachaGuaranteeResetTypeNameMap[abi:cxx11](void)::m,
@@ -4442,8 +4442,8 @@ const std::map<data::GachaGuaranteeResetType,std::pair<std::string,std::string >
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4473,7 +4473,7 @@ const std::map<data::GachaGuaranteeResetType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::GachaGuaranteeResetType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::GachaGuaranteeResetType> *)(v1 + 48),
       (const std::map<data::GachaGuaranteeResetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::GachaGuaranteeResetType,std::pair<std::string,std::string>>::~map,
       &data::getGachaGuaranteeResetTypeEnumMap[abi:cxx11](void)::m,

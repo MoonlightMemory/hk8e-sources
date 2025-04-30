@@ -7453,11 +7453,11 @@ const std::string *__cdecl DropExcelConfigMgr::getChestDropCategory(
   *(_BYTE *)(((unsigned __int64)&v2[8] >> 3) + 0x7FFF8000) = -8;
   if ( v7 )
   {
-    if ( !(_BYTE)`guard variable for'DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str
-      && __cxa_guard_acquire(&`guard variable for'DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str) )
+    if ( !(_BYTE)`guard variable for DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str
+      && __cxa_guard_acquire(&`guard variable for DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str) )
     {
       std::string::basic_string(&DropExcelConfigMgr::getChestDropCategory(std::string const&)const::empty_str);
-      __cxa_guard_release(&`guard variable for'DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str);
+      __cxa_guard_release(&`guard variable for DropExcelConfigMgr::getChestDropCategory(std::string const&)::empty_str);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         &DropExcelConfigMgr::getChestDropCategory(std::string const&)const::empty_str,

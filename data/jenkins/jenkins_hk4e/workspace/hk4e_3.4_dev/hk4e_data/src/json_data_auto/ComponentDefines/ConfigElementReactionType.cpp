@@ -282,8 +282,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElementReactionType 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -557,7 +557,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElementReactionType 
         (std::initializer_list<std::pair<const std::string,data::ElementReactionType> >)__PAIR128__(38LL, v2 + 880),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::ElementReactionType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ElementReactionType>::~map,
         &data::enumStrToVal(std::string const&,data::ElementReactionType &)::m,
@@ -970,8 +970,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElementReactionSourc
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -1007,7 +1007,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::ElementReactionSourc
         (std::initializer_list<std::pair<const std::string,data::ElementReactionSourceType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::ElementReactionSourceType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m);
       e = (data::ElementReactionSourceType *)&data::enumStrToVal(std::string const&,data::ElementReactionSourceType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::ElementReactionSourceType>::~map,

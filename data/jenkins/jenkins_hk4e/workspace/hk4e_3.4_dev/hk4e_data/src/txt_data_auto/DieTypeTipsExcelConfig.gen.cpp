@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::PlayerDieType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::PlayerDieType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::PlayerDieType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::PlayerDieType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -351,7 +351,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::PlayerDieType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::PlayerDieType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::PlayerDieType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::PlayerDieType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::PlayerDieType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::PlayerDieType>::~unordered_map,
         &data::enumStrToVal(char const*,data::PlayerDieType &)::m,
@@ -645,8 +645,8 @@ const std::unordered_map<std::string,data::PlayerDieType> *__cdecl data::getPlay
   v3[536862725] = 61956;
   v3[536862733] = -202116109;
   v3[536862734] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPlayerDieTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPlayerDieTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPlayerDieTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPlayerDieTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -698,7 +698,7 @@ const std::unordered_map<std::string,data::PlayerDieType> *__cdecl data::getPlay
       (const std::unordered_map<std::string,data::PlayerDieType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::PlayerDieType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::PlayerDieType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPlayerDieTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPlayerDieTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::PlayerDieType>::~unordered_map,
       &data::getPlayerDieTypeNameMap[abi:cxx11](void)::m,
@@ -789,8 +789,8 @@ const std::map<data::PlayerDieType,std::pair<std::string,std::string >> *__cdecl
   v3[536862743] = 62194;
   v3[536862757] = -202116109;
   v3[536862758] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -864,7 +864,7 @@ const std::map<data::PlayerDieType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::PlayerDieType,std::pair<std::string,std::string > > >)__PAIR128__(6LL, v1 + 752),
       (const std::less<data::PlayerDieType> *)(v1 + 48),
       (const std::map<data::PlayerDieType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::PlayerDieType,std::pair<std::string,std::string>>::~map,
       &data::getPlayerDieTypeEnumMap[abi:cxx11](void)::m,

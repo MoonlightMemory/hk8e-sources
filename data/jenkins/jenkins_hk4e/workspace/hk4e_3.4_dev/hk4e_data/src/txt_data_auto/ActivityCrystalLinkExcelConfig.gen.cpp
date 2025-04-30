@@ -295,8 +295,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CrystalLinkDifficultyType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CrystalLinkDifficultyType &)::m,
@@ -621,8 +621,8 @@ const std::unordered_map<std::string,data::CrystalLinkDifficultyType> *__cdecl d
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -653,7 +653,7 @@ const std::unordered_map<std::string,data::CrystalLinkDifficultyType> *__cdecl d
       (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CrystalLinkDifficultyType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CrystalLinkDifficultyType>::~unordered_map,
       &data::getCrystalLinkDifficultyTypeNameMap[abi:cxx11](void)::m,
@@ -725,8 +725,8 @@ const std::map<data::CrystalLinkDifficultyType,std::pair<std::string,std::string
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -767,7 +767,7 @@ const std::map<data::CrystalLinkDifficultyType,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::CrystalLinkDifficultyType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::CrystalLinkDifficultyType> *)(v1 + 48),
       (const std::map<data::CrystalLinkDifficultyType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CrystalLinkDifficultyType,std::pair<std::string,std::string>>::~map,
       &data::getCrystalLinkDifficultyTypeEnumMap[abi:cxx11](void)::m,

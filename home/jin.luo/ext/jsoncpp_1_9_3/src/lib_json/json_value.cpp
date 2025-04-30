@@ -5,19 +5,19 @@ void __fastcall __noreturn Json::Value::nullSingleton()
 {
   struct _Unwind_Exception *v0; // rbp
 
-  __cxa_guard_abort(&`guard variable for'Json::Value::nullSingleton(void)::nullStatic);
+  __cxa_guard_abort(&`guard variable for Json::Value::nullSingleton(void)::nullStatic);
   _Unwind_Resume(v0);
 };
 
 // Line 71: range 00000000152D34E0-00000000152D3558
 void *__fastcall Json::Value::nullSingleton(Json::Value *this)
 {
-  if ( (_BYTE)`guard variable for'Json::Value::nullSingleton(void)::nullStatic )
+  if ( (_BYTE)`guard variable for Json::Value::nullSingleton(void)::nullStatic )
     return &Json::Value::nullSingleton(void)::nullStatic;
-  if ( __cxa_guard_acquire(&`guard variable for'Json::Value::nullSingleton(void)::nullStatic) )
+  if ( __cxa_guard_acquire(&`guard variable for Json::Value::nullSingleton(void)::nullStatic) )
   {
     Json::Value::Value(&Json::Value::nullSingleton(void)::nullStatic, 0LL);
-    __cxa_guard_release(&`guard variable for'Json::Value::nullSingleton(void)::nullStatic);
+    __cxa_guard_release(&`guard variable for Json::Value::nullSingleton(void)::nullStatic);
     __cxa_atexit(
       (void (__fastcall *)(void *))Json::Value::~Value,
       &Json::Value::nullSingleton(void)::nullStatic,

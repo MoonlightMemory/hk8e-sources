@@ -507,8 +507,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VoicePersonality *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::VoicePersonality &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::VoicePersonality &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::VoicePersonality &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::VoicePersonality &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -544,7 +544,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VoicePersonality *e)
         (std::initializer_list<std::pair<const std::string,data::VoicePersonality> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::VoicePersonality>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::VoicePersonality &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::VoicePersonality &)::m);
       e = (data::VoicePersonality *)&data::enumStrToVal(std::string const&,data::VoicePersonality &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::VoicePersonality>::~map,
@@ -833,8 +833,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VoicePositioning *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::VoicePositioning &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::VoicePositioning &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::VoicePositioning &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::VoicePositioning &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -877,7 +877,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::VoicePositioning *e)
         (std::initializer_list<std::pair<const std::string,data::VoicePositioning> >)__PAIR128__(5LL, v2 + 336),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::VoicePositioning>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::VoicePositioning &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::VoicePositioning &)::m);
       e = (data::VoicePositioning *)&data::enumStrToVal(std::string const&,data::VoicePositioning &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::VoicePositioning>::~map,

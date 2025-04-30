@@ -5623,12 +5623,12 @@ unsigned __int8 __cdecl GetEdgeFlags(const Vector3f *va, const dynamic_array<Vec
   v5 = v3 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116348;
-  if ( !(_BYTE)`guard variable for'GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr
-    && __cxa_guard_acquire(&`guard variable for'GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr) )
+  if ( !(_BYTE)`guard variable for GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr
+    && __cxa_guard_acquire(&`guard variable for GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr) )
   {
     *(float *)v2.m128i_i32 = Sqr<float>(&MAGIC_EDGE_DISTANCE);
     LODWORD(GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr) = _mm_cvtsi128_si32(v2);
-    __cxa_guard_release(&`guard variable for'GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr);
+    __cxa_guard_release(&`guard variable for GetEdgeFlags(Vector3f const&,dynamic_array<Vector3f,false,4ul> const&)::thrSqr);
   }
   npoly = dynamic_array<Vector3f,false,4ul>::size(poly);
   flags = 0;

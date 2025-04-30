@@ -305,8 +305,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 240) = s;
   if ( *(_QWORD *)(v2 + 240) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CardFortuneType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CardFortuneType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CardFortuneType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CardFortuneType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -351,7 +351,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CardFortuneType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::CardFortuneType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::CardFortuneType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CardFortuneType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CardFortuneType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CardFortuneType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CardFortuneType &)::m,
@@ -646,8 +646,8 @@ const std::unordered_map<std::string,data::CardFortuneType> *__cdecl data::getCa
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCardFortuneTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCardFortuneTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCardFortuneTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCardFortuneTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -692,7 +692,7 @@ const std::unordered_map<std::string,data::CardFortuneType> *__cdecl data::getCa
       (const std::unordered_map<std::string,data::CardFortuneType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::CardFortuneType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::CardFortuneType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getCardFortuneTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCardFortuneTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CardFortuneType>::~unordered_map,
       &data::getCardFortuneTypeNameMap[abi:cxx11](void)::m,
@@ -778,8 +778,8 @@ const std::map<data::CardFortuneType,std::pair<std::string,std::string >> *__cde
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -842,7 +842,7 @@ const std::map<data::CardFortuneType,std::pair<std::string,std::string >> *__cde
       (std::initializer_list<std::pair<const data::CardFortuneType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::CardFortuneType> *)(v1 + 32),
       (const std::map<data::CardFortuneType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CardFortuneType,std::pair<std::string,std::string>>::~map,
       &data::getCardFortuneTypeEnumMap[abi:cxx11](void)::m,
@@ -1193,8 +1193,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardQualityType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardQualityType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardQualityType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardQualityType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1225,7 +1225,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardQualityType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardQualityType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ChessCardQualityType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardQualityType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardQualityType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardQualityType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardQualityType &)::m,
@@ -1514,8 +1514,8 @@ const std::unordered_map<std::string,data::ChessCardQualityType> *__cdecl data::
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1546,7 +1546,7 @@ const std::unordered_map<std::string,data::ChessCardQualityType> *__cdecl data::
       (const std::unordered_map<std::string,data::ChessCardQualityType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ChessCardQualityType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardQualityType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardQualityType>::~unordered_map,
       &data::getChessCardQualityTypeNameMap[abi:cxx11](void)::m,
@@ -1618,8 +1618,8 @@ const std::map<data::ChessCardQualityType,std::pair<std::string,std::string >> *
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1660,7 +1660,7 @@ const std::map<data::ChessCardQualityType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::ChessCardQualityType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ChessCardQualityType> *)(v1 + 48),
       (const std::map<data::ChessCardQualityType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardQualityType,std::pair<std::string,std::string>>::~map,
       &data::getChessCardQualityTypeEnumMap[abi:cxx11](void)::m,
@@ -2019,8 +2019,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -2058,7 +2058,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChessCardType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardType &)::m,
@@ -2351,8 +2351,8 @@ const std::unordered_map<std::string,data::ChessCardType> *__cdecl data::getChes
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2390,7 +2390,7 @@ const std::unordered_map<std::string,data::ChessCardType> *__cdecl data::getChes
       (const std::unordered_map<std::string,data::ChessCardType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChessCardType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardType>::~unordered_map,
       &data::getChessCardTypeNameMap[abi:cxx11](void)::m,
@@ -2464,8 +2464,8 @@ const std::map<data::ChessCardType,std::pair<std::string,std::string >> *__cdecl
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2517,7 +2517,7 @@ const std::map<data::ChessCardType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::ChessCardType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::ChessCardType> *)(v1 + 32),
       (const std::map<data::ChessCardType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardType,std::pair<std::string,std::string>>::~map,
       &data::getChessCardTypeEnumMap[abi:cxx11](void)::m,
@@ -2881,8 +2881,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardTargetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardTargetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardTargetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardTargetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2906,7 +2906,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardTargetType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardTargetType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ChessCardTargetType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardTargetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardTargetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardTargetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardTargetType &)::m,
@@ -3191,8 +3191,8 @@ const std::unordered_map<std::string,data::ChessCardTargetType> *__cdecl data::g
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3223,7 +3223,7 @@ const std::unordered_map<std::string,data::ChessCardTargetType> *__cdecl data::g
       (const std::unordered_map<std::string,data::ChessCardTargetType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ChessCardTargetType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardTargetType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardTargetType>::~unordered_map,
       &data::getChessCardTargetTypeNameMap[abi:cxx11](void)::m,
@@ -3295,8 +3295,8 @@ const std::map<data::ChessCardTargetType,std::pair<std::string,std::string >> *_
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3337,7 +3337,7 @@ const std::map<data::ChessCardTargetType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::ChessCardTargetType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ChessCardTargetType> *)(v1 + 48),
       (const std::map<data::ChessCardTargetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardTargetType,std::pair<std::string,std::string>>::~map,
       &data::getChessCardTargetTypeEnumMap[abi:cxx11](void)::m,
@@ -3694,8 +3694,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -3733,7 +3733,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardNumericalModificationType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardNumericalModificationType &)::m,
@@ -4024,8 +4024,8 @@ const std::unordered_map<std::string,data::ChessCardNumericalModificationType> *
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -4070,7 +4070,7 @@ const std::unordered_map<std::string,data::ChessCardNumericalModificationType> *
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardNumericalModificationType>::~unordered_map,
       &data::getChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m,
@@ -4156,8 +4156,8 @@ const std::map<data::ChessCardNumericalModificationType,std::pair<std::string,st
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -4220,7 +4220,7 @@ const std::map<data::ChessCardNumericalModificationType,std::pair<std::string,st
       (std::initializer_list<std::pair<const data::ChessCardNumericalModificationType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::ChessCardNumericalModificationType> *)(v1 + 32),
       (const std::map<data::ChessCardNumericalModificationType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardNumericalModificationType,std::pair<std::string,std::string>>::~map,
       &data::getChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m,
@@ -4574,8 +4574,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -4599,7 +4599,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardNumericalModificationMode &)::m,
@@ -4880,8 +4880,8 @@ const std::unordered_map<std::string,data::ChessCardNumericalModificationMode> *
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -4912,7 +4912,7 @@ const std::unordered_map<std::string,data::ChessCardNumericalModificationMode> *
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardNumericalModificationMode>::~unordered_map,
       &data::getChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m,
@@ -4984,8 +4984,8 @@ const std::map<data::ChessCardNumericalModificationMode,std::pair<std::string,st
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -5026,7 +5026,7 @@ const std::map<data::ChessCardNumericalModificationMode,std::pair<std::string,st
       (std::initializer_list<std::pair<const data::ChessCardNumericalModificationMode,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::ChessCardNumericalModificationMode> *)(v1 + 48),
       (const std::map<data::ChessCardNumericalModificationMode,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardNumericalModificationMode,std::pair<std::string,std::string>>::~map,
       &data::getChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m,
@@ -5409,8 +5409,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 560) = s;
   if ( *(_QWORD *)(v2 + 560) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardEffectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardEffectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardEffectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardEffectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -5595,7 +5595,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardEffectType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChessCardEffectType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardEffectType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardEffectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardEffectType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardEffectType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardEffectType &)::m,
@@ -5907,8 +5907,8 @@ const std::unordered_map<std::string,data::ChessCardEffectType> *__cdecl data::g
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6100,7 +6100,7 @@ const std::unordered_map<std::string,data::ChessCardEffectType> *__cdecl data::g
       (const std::unordered_map<std::string,data::ChessCardEffectType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ChessCardEffectType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardEffectType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardEffectType>::~unordered_map,
       &data::getChessCardEffectTypeNameMap[abi:cxx11](void)::m,
@@ -6261,8 +6261,8 @@ const std::map<data::ChessCardEffectType,std::pair<std::string,std::string >> *_
   v3[536862873] = -202116109;
   v3[536862874] = -202116109;
   v3[536862875] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6556,7 +6556,7 @@ const std::map<data::ChessCardEffectType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::ChessCardEffectType,std::pair<std::string,std::string > > >)__PAIR128__(26LL, v1 + 2992),
       (const std::less<data::ChessCardEffectType> *)(v1 + 48),
       (const std::map<data::ChessCardEffectType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardEffectType,std::pair<std::string,std::string>>::~map,
       &data::getChessCardEffectTypeEnumMap[abi:cxx11](void)::m,
@@ -7016,8 +7016,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ChessCardTag &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardTag &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ChessCardTag &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ChessCardTag &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -7083,7 +7083,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ChessCardTag>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ChessCardTag>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ChessCardTag>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ChessCardTag &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ChessCardTag &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardTag>::~unordered_map,
         &data::enumStrToVal(char const*,data::ChessCardTag &)::m,
@@ -7388,8 +7388,8 @@ const std::unordered_map<std::string,data::ChessCardTag> *__cdecl data::getChess
   v3[536862738] = -218103808;
   v3[536862739] = -202116109;
   v3[536862740] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTagNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTagNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTagNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTagNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -7462,7 +7462,7 @@ const std::unordered_map<std::string,data::ChessCardTag> *__cdecl data::getChess
       (const std::unordered_map<std::string,data::ChessCardTag>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ChessCardTag>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ChessCardTag>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTagNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTagNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ChessCardTag>::~unordered_map,
       &data::getChessCardTagNameMap[abi:cxx11](void)::m,
@@ -7567,8 +7567,8 @@ const std::map<data::ChessCardTag,std::pair<std::string,std::string >> *__cdecl 
   v3[536862775] = -202116109;
   v3[536862776] = -202116109;
   v3[536862777] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getChessCardTagEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getChessCardTagEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getChessCardTagEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getChessCardTagEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -7675,7 +7675,7 @@ const std::map<data::ChessCardTag,std::pair<std::string,std::string >> *__cdecl 
       (std::initializer_list<std::pair<const data::ChessCardTag,std::pair<std::string,std::string > > >)__PAIR128__(9LL, v1 + 1072),
       (const std::less<data::ChessCardTag> *)(v1 + 32),
       (const std::map<data::ChessCardTag,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getChessCardTagEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getChessCardTagEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ChessCardTag,std::pair<std::string,std::string>>::~map,
       &data::getChessCardTagEnumMap[abi:cxx11](void)::m,

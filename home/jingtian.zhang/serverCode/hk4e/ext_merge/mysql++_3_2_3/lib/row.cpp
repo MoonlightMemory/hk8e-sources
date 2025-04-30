@@ -732,13 +732,13 @@ mysqlpp::String *__fastcall mysqlpp::Row::operator[](
     return mysqlpp::Row::at(this, v7, v11, v8, v9, v10, a7);
   if ( this->exceptions_ )
     mysqlpp::Row::operator[]();
-  if ( !(_BYTE)`guard variable for'mysqlpp::Row::operator[](char const*)::empty )
+  if ( !(_BYTE)`guard variable for mysqlpp::Row::operator[](char const*)::empty )
   {
-    if ( __cxa_guard_acquire(&`guard variable for'mysqlpp::Row::operator[](char const*)::empty) )
+    if ( __cxa_guard_acquire(&`guard variable for mysqlpp::Row::operator[](char const*)::empty) )
     {
       mysqlpp::Row::operator[](char const*)const::empty = 0LL;
       qword_1FB66B58 = 0LL;
-      __cxa_guard_release(&`guard variable for'mysqlpp::Row::operator[](char const*)::empty);
+      __cxa_guard_release(&`guard variable for mysqlpp::Row::operator[](char const*)::empty);
       __cxa_atexit(
         (void (__fastcall *)(void *))mysqlpp::String::~String,
         &mysqlpp::Row::operator[](char const*)const::empty,

@@ -300,8 +300,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CoopTaskCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CoopTaskCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CoopTaskCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CoopTaskCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -360,7 +360,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CoopTaskCondType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CoopTaskCondType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CoopTaskCondType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CoopTaskCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CoopTaskCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopTaskCondType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CoopTaskCondType &)::m,
@@ -659,8 +659,8 @@ const std::unordered_map<std::string,data::CoopTaskCondType> *__cdecl data::getC
   v3[536862734] = -218103808;
   v3[536862735] = -202116109;
   v3[536862736] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -719,7 +719,7 @@ const std::unordered_map<std::string,data::CoopTaskCondType> *__cdecl data::getC
       (const std::unordered_map<std::string,data::CoopTaskCondType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CoopTaskCondType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CoopTaskCondType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopTaskCondType>::~unordered_map,
       &data::getCoopTaskCondTypeNameMap[abi:cxx11](void)::m,
@@ -810,8 +810,8 @@ const std::map<data::CoopTaskCondType,std::pair<std::string,std::string >> *__cd
   v3[536862762] = -218103808;
   v3[536862763] = -202116109;
   v3[536862764] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -896,7 +896,7 @@ const std::map<data::CoopTaskCondType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::CoopTaskCondType,std::pair<std::string,std::string > > >)__PAIR128__(7LL, v1 + 864),
       (const std::less<data::CoopTaskCondType> *)(v1 + 48),
       (const std::map<data::CoopTaskCondType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CoopTaskCondType,std::pair<std::string,std::string>>::~map,
       &data::getCoopTaskCondTypeEnumMap[abi:cxx11](void)::m,
@@ -1262,8 +1262,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1280,7 +1280,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MainCoopValueUIType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::MainCoopValueUIType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::MainCoopValueUIType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MainCoopValueUIType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MainCoopValueUIType &)::m,
@@ -1559,8 +1559,8 @@ const std::unordered_map<std::string,data::MainCoopValueUIType> *__cdecl data::g
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1584,7 +1584,7 @@ const std::unordered_map<std::string,data::MainCoopValueUIType> *__cdecl data::g
       (const std::unordered_map<std::string,data::MainCoopValueUIType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::MainCoopValueUIType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::MainCoopValueUIType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MainCoopValueUIType>::~unordered_map,
       &data::getMainCoopValueUITypeNameMap[abi:cxx11](void)::m,
@@ -1654,8 +1654,8 @@ const std::map<data::MainCoopValueUIType,std::pair<std::string,std::string >> *_
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1685,7 +1685,7 @@ const std::map<data::MainCoopValueUIType,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::MainCoopValueUIType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::MainCoopValueUIType> *)(v1 + 48),
       (const std::map<data::MainCoopValueUIType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MainCoopValueUIType,std::pair<std::string,std::string>>::~map,
       &data::getMainCoopValueUITypeEnumMap[abi:cxx11](void)::m,
@@ -2043,8 +2043,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CoopCGType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CoopCGType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CoopCGType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CoopCGType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2068,7 +2068,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CoopCGType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CoopCGType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CoopCGType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CoopCGType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CoopCGType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopCGType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CoopCGType &)::m,
@@ -2355,8 +2355,8 @@ const std::unordered_map<std::string,data::CoopCGType> *__cdecl data::getCoopCGT
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopCGTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopCGTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopCGTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopCGTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2387,7 +2387,7 @@ const std::unordered_map<std::string,data::CoopCGType> *__cdecl data::getCoopCGT
       (const std::unordered_map<std::string,data::CoopCGType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::CoopCGType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::CoopCGType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCoopCGTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopCGTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopCGType>::~unordered_map,
       &data::getCoopCGTypeNameMap[abi:cxx11](void)::m,
@@ -2459,8 +2459,8 @@ const std::map<data::CoopCGType,std::pair<std::string,std::string >> *__cdecl da
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopCGTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopCGTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopCGTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopCGTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2501,7 +2501,7 @@ const std::map<data::CoopCGType,std::pair<std::string,std::string >> *__cdecl da
       (std::initializer_list<std::pair<const data::CoopCGType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::CoopCGType> *)(v1 + 48),
       (const std::map<data::CoopCGType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getCoopCGTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopCGTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CoopCGType,std::pair<std::string,std::string>>::~map,
       &data::getCoopCGTypeEnumMap[abi:cxx11](void)::m,
@@ -2860,8 +2860,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::CoopPointType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::CoopPointType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::CoopPointType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::CoopPointType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2892,7 +2892,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::CoopPointType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::CoopPointType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::CoopPointType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::CoopPointType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::CoopPointType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopPointType>::~unordered_map,
         &data::enumStrToVal(char const*,data::CoopPointType &)::m,
@@ -3182,8 +3182,8 @@ const std::unordered_map<std::string,data::CoopPointType> *__cdecl data::getCoop
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopPointTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopPointTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopPointTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopPointTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -3221,7 +3221,7 @@ const std::unordered_map<std::string,data::CoopPointType> *__cdecl data::getCoop
       (const std::unordered_map<std::string,data::CoopPointType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::CoopPointType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::CoopPointType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getCoopPointTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopPointTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::CoopPointType>::~unordered_map,
       &data::getCoopPointTypeNameMap[abi:cxx11](void)::m,
@@ -3295,8 +3295,8 @@ const std::map<data::CoopPointType,std::pair<std::string,std::string >> *__cdecl
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getCoopPointTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getCoopPointTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getCoopPointTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getCoopPointTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -3348,7 +3348,7 @@ const std::map<data::CoopPointType,std::pair<std::string,std::string >> *__cdecl
       (std::initializer_list<std::pair<const data::CoopPointType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::CoopPointType> *)(v1 + 32),
       (const std::map<data::CoopPointType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getCoopPointTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getCoopPointTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::CoopPointType,std::pair<std::string,std::string>>::~map,
       &data::getCoopPointTypeEnumMap[abi:cxx11](void)::m,

@@ -176,8 +176,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopCondType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CoopCondType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopCondType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CoopCondType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CoopCondType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -262,7 +262,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopCondType *e)
         (std::initializer_list<std::pair<const std::string,data::CoopCondType> >)__PAIR128__(11LL, v2 + 448),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CoopCondType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopCondType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CoopCondType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CoopCondType>::~map,
         &data::enumStrToVal(std::string const&,data::CoopCondType &)::m,
@@ -589,8 +589,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopTemperamentType 
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -626,7 +626,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopTemperamentType 
         (std::initializer_list<std::pair<const std::string,data::CoopTemperamentType> >)__PAIR128__(4LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CoopTemperamentType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m);
       e = (data::CoopTemperamentType *)&data::enumStrToVal(std::string const&,data::CoopTemperamentType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CoopTemperamentType>::~map,
@@ -928,8 +928,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopActionType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CoopActionType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopActionType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CoopActionType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CoopActionType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -1000,7 +1000,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopActionType *e)
         (std::initializer_list<std::pair<const std::string,data::CoopActionType> >)__PAIR128__(9LL, v2 + 400),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::CoopActionType>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopActionType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CoopActionType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CoopActionType>::~map,
         &data::enumStrToVal(std::string const&,data::CoopActionType &)::m,
@@ -1315,8 +1315,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopNodeType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::CoopNodeType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopNodeType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::CoopNodeType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::CoopNodeType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1366,7 +1366,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::CoopNodeType *e)
         (std::initializer_list<std::pair<const std::string,data::CoopNodeType> >)__PAIR128__(6LL, v2 + 368),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::CoopNodeType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::CoopNodeType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::CoopNodeType &)::m);
       e = (data::CoopNodeType *)&data::enumStrToVal(std::string const&,data::CoopNodeType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::CoopNodeType>::~map,

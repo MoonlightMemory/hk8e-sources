@@ -928,8 +928,8 @@ int32_t __cdecl ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasic
   v5[536862757] = -218959118;
   v5[536862759] = -218959118;
   v5[536862761] = -202116109;
-  if ( !(_BYTE)`guard variable for'ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec
-    && __cxa_guard_acquire(&`guard variable for'ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec) )
+  if ( !(_BYTE)`guard variable for ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec
+    && __cxa_guard_acquire(&`guard variable for ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec) )
   {
     if ( *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v3 + 544) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v3 + 544, txt_config_mgr);
@@ -951,7 +951,7 @@ int32_t __cdecl ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasic
       &ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec,
       __l,
       (const std::vector<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::allocator_type *)(v3 + 32));
-    __cxa_guard_release(&`guard variable for'ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec);
+    __cxa_guard_release(&`guard variable for ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec);
     txt_config_mgr = (const TxtConfigMgr *)&ActivityHideAndSeekExcelConfigMgr::checkActivityHideAndSeekBasicConfig(TxtConfigMgr const&)::slot_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<data::HIDE_AND_SEEK_SKILL_SUB_CATEGORY>::~vector,

@@ -172,8 +172,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::AudioVoiceTrigger *e
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 64, e);
@@ -244,7 +244,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::AudioVoiceTrigger *e
         (std::initializer_list<std::pair<const std::string,data::AudioVoiceTrigger> >)__PAIR128__(9LL, v2 + 400),
         (const std::less<std::string > *)(v2 + 32),
         (const std::map<std::string,data::AudioVoiceTrigger>::allocator_type *)(v2 + 48));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::AudioVoiceTrigger>::~map,
         &data::enumStrToVal(std::string const&,data::AudioVoiceTrigger &)::m,

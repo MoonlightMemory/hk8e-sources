@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MistTrialClientSyncType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::MistTrialClientSyncType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::MistTrialClientSyncType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MistTrialClientSyncType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MistTrialClientSyncType &)::m,
@@ -619,8 +619,8 @@ const std::unordered_map<std::string,data::MistTrialClientSyncType> *__cdecl dat
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::MistTrialClientSyncType> *__cdecl dat
       (const std::unordered_map<std::string,data::MistTrialClientSyncType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::MistTrialClientSyncType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::MistTrialClientSyncType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MistTrialClientSyncType>::~unordered_map,
       &data::getMistTrialClientSyncTypeNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::MistTrialClientSyncType,std::pair<std::string,std::string >
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::MistTrialClientSyncType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::MistTrialClientSyncType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::MistTrialClientSyncType> *)(v1 + 32),
       (const std::map<data::MistTrialClientSyncType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MistTrialClientSyncType,std::pair<std::string,std::string>>::~map,
       &data::getMistTrialClientSyncTypeEnumMap[abi:cxx11](void)::m,
@@ -1150,8 +1150,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 352) = s;
   if ( *(_QWORD *)(v2 + 352) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1245,7 +1245,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::MistTrialStatisticType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::MistTrialStatisticType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::MistTrialStatisticType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::MistTrialStatisticType>::~unordered_map,
         &data::enumStrToVal(char const*,data::MistTrialStatisticType &)::m,
@@ -1548,8 +1548,8 @@ const std::unordered_map<std::string,data::MistTrialStatisticType> *__cdecl data
   v3[536862747] = -202116109;
   v3[536862748] = -202116109;
   v3[536862749] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1650,7 +1650,7 @@ const std::unordered_map<std::string,data::MistTrialStatisticType> *__cdecl data
       (const std::unordered_map<std::string,data::MistTrialStatisticType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::MistTrialStatisticType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::MistTrialStatisticType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::MistTrialStatisticType>::~unordered_map,
       &data::getMistTrialStatisticTypeNameMap[abi:cxx11](void)::m,
@@ -1775,8 +1775,8 @@ const std::map<data::MistTrialStatisticType,std::pair<std::string,std::string >>
   v3[536862798] = -202116109;
   v3[536862799] = -202116109;
   v3[536862800] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1927,7 +1927,7 @@ const std::map<data::MistTrialStatisticType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::MistTrialStatisticType,std::pair<std::string,std::string > > >)__PAIR128__(13LL, v1 + 1520),
       (const std::less<data::MistTrialStatisticType> *)(v1 + 32),
       (const std::map<data::MistTrialStatisticType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::MistTrialStatisticType,std::pair<std::string,std::string>>::~map,
       &data::getMistTrialStatisticTypeEnumMap[abi:cxx11](void)::m,

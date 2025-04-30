@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityGroupLinkType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityGroupLinkType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ActivityGroupLinkType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityGroupLinkType &)::m,
@@ -615,8 +615,8 @@ const std::unordered_map<std::string,data::ActivityGroupLinkType> *__cdecl data:
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -640,7 +640,7 @@ const std::unordered_map<std::string,data::ActivityGroupLinkType> *__cdecl data:
       (const std::unordered_map<std::string,data::ActivityGroupLinkType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ActivityGroupLinkType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityGroupLinkType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkType>::~unordered_map,
       &data::getActivityGroupLinkTypeNameMap[abi:cxx11](void)::m,
@@ -710,8 +710,8 @@ const std::map<data::ActivityGroupLinkType,std::pair<std::string,std::string >> 
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -741,7 +741,7 @@ const std::map<data::ActivityGroupLinkType,std::pair<std::string,std::string >> 
       (std::initializer_list<std::pair<const data::ActivityGroupLinkType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::ActivityGroupLinkType> *)(v1 + 48),
       (const std::map<data::ActivityGroupLinkType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityGroupLinkType,std::pair<std::string,std::string>>::~map,
       &data::getActivityGroupLinkTypeEnumMap[abi:cxx11](void)::m,
@@ -1095,8 +1095,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 176) = s;
   if ( *(_QWORD *)(v2 + 176) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1115,7 +1115,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityGroupLinkRewardType &)::m,
@@ -1397,8 +1397,8 @@ const std::unordered_map<std::string,data::ActivityGroupLinkRewardType> *__cdecl
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1422,7 +1422,7 @@ const std::unordered_map<std::string,data::ActivityGroupLinkRewardType> *__cdecl
       (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkRewardType>::~unordered_map,
       &data::getActivityGroupLinkRewardTypeNameMap[abi:cxx11](void)::m,
@@ -1492,8 +1492,8 @@ const std::map<data::ActivityGroupLinkRewardType,std::pair<std::string,std::stri
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1523,7 +1523,7 @@ const std::map<data::ActivityGroupLinkRewardType,std::pair<std::string,std::stri
       (std::initializer_list<std::pair<const data::ActivityGroupLinkRewardType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::ActivityGroupLinkRewardType> *)(v1 + 48),
       (const std::map<data::ActivityGroupLinkRewardType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityGroupLinkRewardType,std::pair<std::string,std::string>>::~map,
       &data::getActivityGroupLinkRewardTypeEnumMap[abi:cxx11](void)::m,
@@ -1878,8 +1878,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 352) = s;
   if ( *(_QWORD *)(v2 + 352) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -1975,7 +1975,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityGroupLinkPlayType &)::m,
@@ -2283,8 +2283,8 @@ const std::unordered_map<std::string,data::ActivityGroupLinkPlayType> *__cdecl d
   v3[536862747] = -202116109;
   v3[536862748] = -202116109;
   v3[536862749] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -2385,7 +2385,7 @@ const std::unordered_map<std::string,data::ActivityGroupLinkPlayType> *__cdecl d
       (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityGroupLinkPlayType>::~unordered_map,
       &data::getActivityGroupLinkPlayTypeNameMap[abi:cxx11](void)::m,
@@ -2510,8 +2510,8 @@ const std::map<data::ActivityGroupLinkPlayType,std::pair<std::string,std::string
   v3[536862798] = -202116109;
   v3[536862799] = -202116109;
   v3[536862800] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -2662,7 +2662,7 @@ const std::map<data::ActivityGroupLinkPlayType,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::ActivityGroupLinkPlayType,std::pair<std::string,std::string > > >)__PAIR128__(13LL, v1 + 1520),
       (const std::less<data::ActivityGroupLinkPlayType> *)(v1 + 32),
       (const std::map<data::ActivityGroupLinkPlayType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityGroupLinkPlayType,std::pair<std::string,std::string>>::~map,
       &data::getActivityGroupLinkPlayTypeEnumMap[abi:cxx11](void)::m,

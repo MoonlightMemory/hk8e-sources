@@ -8385,11 +8385,11 @@ const std::unordered_map<unsigned int,MonsterScriptConfig> *__fastcall GroupScri
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = monster_pool_id;
-  if ( !(_BYTE)`guard variable for'GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP
-    && __cxa_guard_acquire(&`guard variable for'GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP) )
+  if ( !(_BYTE)`guard variable for GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP
+    && __cxa_guard_acquire(&`guard variable for GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP) )
   {
     std::unordered_map<unsigned int,MonsterScriptConfig>::unordered_map((std::unordered_map<unsigned int,MonsterScriptConfig> *const)&GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)const::EMPTY_MAP);
-    __cxa_guard_release(&`guard variable for'GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP);
+    __cxa_guard_release(&`guard variable for GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)::EMPTY_MAP);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<unsigned int,MonsterScriptConfig>::~unordered_map,
       (void *)&GroupScriptConfig::queryMonstersConfigByPoolId(unsigned int)const::EMPTY_MAP,

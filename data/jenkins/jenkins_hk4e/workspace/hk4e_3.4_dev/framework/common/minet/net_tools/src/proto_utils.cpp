@@ -5355,9 +5355,9 @@ LABEL_260:
     (void (__fastcall *)(void *))std::vector<std::string>::~vector,
     &ProtoUtils::TamperUtils::stringVector[abi:cxx11],
     &_dso_handle);
-  if ( `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+  if ( `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
     goto LABEL_8;
-  `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+  `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
   if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                 + 0x7FFF8000) )
   {

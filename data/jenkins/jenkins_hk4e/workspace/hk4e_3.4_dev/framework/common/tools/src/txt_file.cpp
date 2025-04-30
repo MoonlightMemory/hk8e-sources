@@ -38,8 +38,8 @@ const std::string *__fastcall common::tools::TxtFile::Row::at(
   v3 = v2 >> 3;
   *(_DWORD *)(v3 + 2147450880) = -235802127;
   *(_DWORD *)(v3 + 2147450888) = -202116109;
-  if ( !(_BYTE)`guard variable for'common::tools::TxtFile::Row::at(std::string const&)::empty_str
-    && __cxa_guard_acquire(&`guard variable for'common::tools::TxtFile::Row::at(std::string const&)::empty_str) )
+  if ( !(_BYTE)`guard variable for common::tools::TxtFile::Row::at(std::string const&)::empty_str
+    && __cxa_guard_acquire(&`guard variable for common::tools::TxtFile::Row::at(std::string const&)::empty_str) )
   {
     common::tools::TxtFile::Row::at(std::string const&)const::empty_str._M_dataplus._M_p = common::tools::TxtFile::Row::at(std::string const&)const::empty_str._anon_0._M_local_buf;
     std::string::_M_construct<char const*>(
@@ -47,7 +47,7 @@ const std::string *__fastcall common::tools::TxtFile::Row::at(
       byte_1B5CCA60,
       byte_1B5CCA60,
       v9);
-    __cxa_guard_release(&`guard variable for'common::tools::TxtFile::Row::at(std::string const&)::empty_str);
+    __cxa_guard_release(&`guard variable for common::tools::TxtFile::Row::at(std::string const&)::empty_str);
     __cxa_atexit(
       (void (__fastcall *)(void *))&std::string::~string,
       &common::tools::TxtFile::Row::at(std::string const&)const::empty_str,
@@ -1392,9 +1392,9 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
     {
       std::ios_base::Init::Init(&std::__ioinit);
       __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-      if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+      if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       {
-        `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+        `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
         if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) )
         {

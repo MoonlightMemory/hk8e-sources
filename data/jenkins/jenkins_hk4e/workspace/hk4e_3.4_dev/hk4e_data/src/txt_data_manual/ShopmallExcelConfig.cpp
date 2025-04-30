@@ -9993,11 +9993,11 @@ ConfigProductInfo *__fastcall ShopmallExcelConfigMgr::findProductIdByConfigId[ab
       (const char (*)[29])" not in config_2_product_map");
     common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v5 + 256));
     *(_DWORD *)(((v5 + 256) >> 3) + 0x7FFF8000) = -117901064;
-    if ( !(_BYTE)`guard variable for'ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str
-      && __cxa_guard_acquire(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str) )
+    if ( !(_BYTE)`guard variable for ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str
+      && __cxa_guard_acquire(&`guard variable for ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str) )
     {
       std::string::basic_string(&ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)const::empty_str);
-      __cxa_guard_release(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str);
+      __cxa_guard_release(&`guard variable for ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)::empty_str);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         &ShopmallExcelConfigMgr::findProductIdByConfigId[abi:cxx11](bool,unsigned int,bool,unsigned int)const::empty_str,
@@ -10127,11 +10127,11 @@ const std::string *__cdecl ShopmallExcelConfigMgr::findProductIdByEntitlementId(
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str
-      && __cxa_guard_acquire(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str) )
+    if ( !(_BYTE)`guard variable for ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str
+      && __cxa_guard_acquire(&`guard variable for ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str) )
     {
       std::string::basic_string(&ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)const::empty_str);
-      __cxa_guard_release(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str);
+      __cxa_guard_release(&`guard variable for ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)::empty_str);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         &ShopmallExcelConfigMgr::findProductIdByEntitlementId(std::string const&)const::empty_str,
@@ -10197,11 +10197,11 @@ const std::string *__cdecl ShopmallExcelConfigMgr::findProductIdByCatalogItemId(
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str
-      && __cxa_guard_acquire(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str) )
+    if ( !(_BYTE)`guard variable for ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str
+      && __cxa_guard_acquire(&`guard variable for ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str) )
     {
       std::string::basic_string(&ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)const::empty_str);
-      __cxa_guard_release(&`guard variable for'ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str);
+      __cxa_guard_release(&`guard variable for ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)::empty_str);
       __cxa_atexit(
         (void (__fastcall *)(void *))&std::string::~string,
         &ShopmallExcelConfigMgr::findProductIdByCatalogItemId(std::string const&)const::empty_str,

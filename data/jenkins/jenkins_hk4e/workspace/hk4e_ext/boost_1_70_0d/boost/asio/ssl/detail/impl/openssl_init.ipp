@@ -20,8 +20,8 @@ std::shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init> __cdecl bo
   struct _Unwind_Exception *v14; // rbx
 
   v1 = (std::__shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init,(__gnu_cxx::_Lock_policy)2>::element_type *)v0;
-  if ( !(_BYTE)`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init
-    && __cxa_guard_acquire(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init) )
+  if ( !(_BYTE)`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init
+    && __cxa_guard_acquire(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init) )
   {
     v4 = (std::__shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init,(__gnu_cxx::_Lock_policy)2>::element_type *)operator new(1uLL);
     boost::asio::ssl::detail::openssl_init_base::instance(void)::init._M_ptr = v4;
@@ -49,7 +49,7 @@ std::shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init> __cdecl bo
           {
             v5[1]._vptr__Sp_counted_base = (int (**)(...))v4;
             boost::asio::ssl::detail::openssl_init_base::instance(void)::init._M_refcount._M_pi = v5;
-            __cxa_guard_release(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
+            __cxa_guard_release(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
             __cxa_atexit(
               (void (__fastcall *)(void *))std::shared_ptr<boost::asio::ssl::detail::openssl_init_base::do_init>::~shared_ptr,
               &boost::asio::ssl::detail::openssl_init_base::instance(void)::init,
@@ -117,8 +117,8 @@ LABEL_27:
   {
     __asan_report_load4(&result._M_ptr[8]);
     v14 = v13;
-    __cxa_guard_abort(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
-    __asan_handle_no_return(&`guard variable for'boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
+    __cxa_guard_abort(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
+    __asan_handle_no_return(&`guard variable for boost::asio::ssl::detail::openssl_init_base::instance(void)::init);
     _Unwind_Resume(v14);
   }
   ++*(_DWORD *)result._M_ptr[8].gap0;

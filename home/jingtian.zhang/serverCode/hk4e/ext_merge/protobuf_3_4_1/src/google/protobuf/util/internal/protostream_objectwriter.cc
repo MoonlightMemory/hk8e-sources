@@ -34,12 +34,12 @@ void __fastcall google::protobuf::util::converter::ProtoStreamObjectWriter::Prot
   this->_vptr_ObjectWriter = (int (**)(...))off_1A185898;
   this->master_type_ = type;
   this->current_.ptr_ = 0LL;
-  if ( !(_BYTE)`guard variable for'google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults
-    && __cxa_guard_acquire(&`guard variable for'google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults) )
+  if ( !(_BYTE)`guard variable for google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults
+    && __cxa_guard_acquire(&`guard variable for google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults) )
   {
     google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults[2] = 0;
     *(_WORD *)google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults = 0;
-    __cxa_guard_release(&`guard variable for'google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults);
+    __cxa_guard_release(&`guard variable for google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults);
   }
   this->options_ = *(google::protobuf::util::converter::ProtoStreamObjectWriter::Options *)google::protobuf::util::converter::ProtoStreamObjectWriter::Options::Defaults(void)::defaults;
 };

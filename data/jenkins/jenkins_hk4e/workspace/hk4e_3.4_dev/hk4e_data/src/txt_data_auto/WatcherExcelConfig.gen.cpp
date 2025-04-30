@@ -297,8 +297,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::AvatarFilterType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::AvatarFilterType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::AvatarFilterType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::AvatarFilterType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -329,7 +329,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::AvatarFilterType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::AvatarFilterType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::AvatarFilterType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::AvatarFilterType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::AvatarFilterType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarFilterType>::~unordered_map,
         &data::enumStrToVal(char const*,data::AvatarFilterType &)::m,
@@ -619,8 +619,8 @@ const std::unordered_map<std::string,data::AvatarFilterType> *__cdecl data::getA
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -658,7 +658,7 @@ const std::unordered_map<std::string,data::AvatarFilterType> *__cdecl data::getA
       (const std::unordered_map<std::string,data::AvatarFilterType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::AvatarFilterType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::AvatarFilterType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::AvatarFilterType>::~unordered_map,
       &data::getAvatarFilterTypeNameMap[abi:cxx11](void)::m,
@@ -732,8 +732,8 @@ const std::map<data::AvatarFilterType,std::pair<std::string,std::string >> *__cd
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -785,7 +785,7 @@ const std::map<data::AvatarFilterType,std::pair<std::string,std::string >> *__cd
       (std::initializer_list<std::pair<const data::AvatarFilterType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::AvatarFilterType> *)(v1 + 32),
       (const std::map<data::AvatarFilterType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::AvatarFilterType,std::pair<std::string,std::string>>::~map,
       &data::getAvatarFilterTypeEnumMap[abi:cxx11](void)::m,
@@ -1144,8 +1144,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::WatcherPredicateType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::WatcherPredicateType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::WatcherPredicateType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::WatcherPredicateType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1176,7 +1176,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::WatcherPredicateType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::WatcherPredicateType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::WatcherPredicateType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::WatcherPredicateType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::WatcherPredicateType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::WatcherPredicateType>::~unordered_map,
         &data::enumStrToVal(char const*,data::WatcherPredicateType &)::m,
@@ -1466,8 +1466,8 @@ const std::unordered_map<std::string,data::WatcherPredicateType> *__cdecl data::
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -1505,7 +1505,7 @@ const std::unordered_map<std::string,data::WatcherPredicateType> *__cdecl data::
       (const std::unordered_map<std::string,data::WatcherPredicateType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::WatcherPredicateType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::WatcherPredicateType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::WatcherPredicateType>::~unordered_map,
       &data::getWatcherPredicateTypeNameMap[abi:cxx11](void)::m,
@@ -1579,8 +1579,8 @@ const std::map<data::WatcherPredicateType,std::pair<std::string,std::string >> *
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -1632,7 +1632,7 @@ const std::map<data::WatcherPredicateType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::WatcherPredicateType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::WatcherPredicateType> *)(v1 + 32),
       (const std::map<data::WatcherPredicateType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::WatcherPredicateType,std::pair<std::string,std::string>>::~map,
       &data::getWatcherPredicateTypeEnumMap[abi:cxx11](void)::m,
@@ -1998,8 +1998,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::PushTipsType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::PushTipsType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::PushTipsType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::PushTipsType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2023,7 +2023,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::PushTipsType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::PushTipsType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::PushTipsType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::PushTipsType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::PushTipsType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::PushTipsType>::~unordered_map,
         &data::enumStrToVal(char const*,data::PushTipsType &)::m,
@@ -2310,8 +2310,8 @@ const std::unordered_map<std::string,data::PushTipsType> *__cdecl data::getPushT
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPushTipsTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPushTipsTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPushTipsTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPushTipsTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2342,7 +2342,7 @@ const std::unordered_map<std::string,data::PushTipsType> *__cdecl data::getPushT
       (const std::unordered_map<std::string,data::PushTipsType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::PushTipsType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::PushTipsType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPushTipsTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPushTipsTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::PushTipsType>::~unordered_map,
       &data::getPushTipsTypeNameMap[abi:cxx11](void)::m,
@@ -2414,8 +2414,8 @@ const std::map<data::PushTipsType,std::pair<std::string,std::string >> *__cdecl 
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPushTipsTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPushTipsTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPushTipsTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPushTipsTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2456,7 +2456,7 @@ const std::map<data::PushTipsType,std::pair<std::string,std::string >> *__cdecl 
       (std::initializer_list<std::pair<const data::PushTipsType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::PushTipsType> *)(v1 + 48),
       (const std::map<data::PushTipsType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPushTipsTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPushTipsTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::PushTipsType,std::pair<std::string,std::string>>::~map,
       &data::getPushTipsTypeEnumMap[abi:cxx11](void)::m,
@@ -2823,8 +2823,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 272) = s;
   if ( *(_QWORD *)(v2 + 272) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::PushTipsCodexType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::PushTipsCodexType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::PushTipsCodexType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::PushTipsCodexType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2876,7 +2876,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::PushTipsCodexType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::PushTipsCodexType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::PushTipsCodexType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::PushTipsCodexType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::PushTipsCodexType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::PushTipsCodexType>::~unordered_map,
         &data::enumStrToVal(char const*,data::PushTipsCodexType &)::m,
@@ -3174,8 +3174,8 @@ const std::unordered_map<std::string,data::PushTipsCodexType> *__cdecl data::get
   v3[536862734] = -218103808;
   v3[536862735] = -202116109;
   v3[536862736] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3234,7 +3234,7 @@ const std::unordered_map<std::string,data::PushTipsCodexType> *__cdecl data::get
       (const std::unordered_map<std::string,data::PushTipsCodexType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::PushTipsCodexType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::PushTipsCodexType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::PushTipsCodexType>::~unordered_map,
       &data::getPushTipsCodexTypeNameMap[abi:cxx11](void)::m,
@@ -3325,8 +3325,8 @@ const std::map<data::PushTipsCodexType,std::pair<std::string,std::string >> *__c
   v3[536862762] = -218103808;
   v3[536862763] = -202116109;
   v3[536862764] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -3411,7 +3411,7 @@ const std::map<data::PushTipsCodexType,std::pair<std::string,std::string >> *__c
       (std::initializer_list<std::pair<const data::PushTipsCodexType,std::pair<std::string,std::string > > >)__PAIR128__(7LL, v1 + 864),
       (const std::less<data::PushTipsCodexType> *)(v1 + 48),
       (const std::map<data::PushTipsCodexType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::PushTipsCodexType,std::pair<std::string,std::string>>::~map,
       &data::getPushTipsCodexTypeEnumMap[abi:cxx11](void)::m,

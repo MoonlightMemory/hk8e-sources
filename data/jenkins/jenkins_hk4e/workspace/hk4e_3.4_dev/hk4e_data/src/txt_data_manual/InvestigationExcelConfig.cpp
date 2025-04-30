@@ -2284,11 +2284,11 @@ const std::vector<unsigned int> *__fastcall InvestigationExcelConfigMgr::getInve
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)investigation_id;
-  if ( !(_BYTE)`guard variable for'InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec
-    && __cxa_guard_acquire(&`guard variable for'InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec) )
+  if ( !(_BYTE)`guard variable for InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec
+    && __cxa_guard_acquire(&`guard variable for InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec) )
   {
     std::vector<unsigned int>::vector(&InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)const::dummy_vec);
-    __cxa_guard_release(&`guard variable for'InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec);
+    __cxa_guard_release(&`guard variable for InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)::dummy_vec);
     investigation_id = &InvestigationExcelConfigMgr::getInvestigationTargetVec(unsigned int)const::dummy_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,

@@ -45,11 +45,11 @@ void __cdecl common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp 
 // Line 30: range 0000000016240FA3-0000000016241018
 common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo> *__cdecl common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance()
 {
-  if ( !(_BYTE)`guard variable for'common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst
-    && __cxa_guard_acquire(&`guard variable for'common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst) )
+  if ( !(_BYTE)`guard variable for common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst
+    && __cxa_guard_acquire(&`guard variable for common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst) )
   {
     common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::Factory(&common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst);
-    __cxa_guard_release(&`guard variable for'common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst);
+    __cxa_guard_release(&`guard variable for common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst);
     __cxa_atexit(
       (void (__fastcall *)(void *))common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::~Factory,
       &common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo>::instance(void)::inst,
@@ -61,11 +61,11 @@ common::tools::Factory<CardEffectBase,data::ChessCardEffectType,CardInfo> *__cde
 // Line 30: range 0000000016249685-00000000162496FA
 common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo> *__cdecl common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance()
 {
-  if ( !(_BYTE)`guard variable for'common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst
-    && __cxa_guard_acquire(&`guard variable for'common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst) )
+  if ( !(_BYTE)`guard variable for common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst
+    && __cxa_guard_acquire(&`guard variable for common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst) )
   {
     common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::Factory(&common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst);
-    __cxa_guard_release(&`guard variable for'common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst);
+    __cxa_guard_release(&`guard variable for common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst);
     __cxa_atexit(
       (void (__fastcall *)(void *))common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::~Factory,
       &common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,IrodoriChessCardInfo>::instance(void)::inst,
@@ -77,11 +77,11 @@ common::tools::Factory<IrodoriChessEffectBase,data::IrodoriChessCardEffectType,I
 // Line 30: range 000000001441858D-0000000014418602
 common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp&,Player&,unsigned int> *__cdecl common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance()
 {
-  if ( !(_BYTE)`guard variable for'common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst
-    && __cxa_guard_acquire(&`guard variable for'common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst) )
+  if ( !(_BYTE)`guard variable for common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst
+    && __cxa_guard_acquire(&`guard variable for common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst) )
   {
     common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::Factory(&common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst);
-    __cxa_guard_release(&`guard variable for'common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst);
+    __cxa_guard_release(&`guard variable for common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst);
     __cxa_atexit(
       (void (__fastcall *)(void *))common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::~Factory,
       &common::tools::Factory<WidgetBase,std::type_index,PlayerWidgetComp &,Player &,unsigned int>::instance(void)::inst,

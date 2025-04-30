@@ -1178,8 +1178,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RouteType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::RouteType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::RouteType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::RouteType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::RouteType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1208,7 +1208,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RouteType *e)
         (std::initializer_list<std::pair<const std::string,data::RouteType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::RouteType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::RouteType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::RouteType &)::m);
       e = (data::RouteType *)&data::enumStrToVal(std::string const&,data::RouteType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::RouteType>::~map,
@@ -1485,8 +1485,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RotType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::RotType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::RotType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::RotType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::RotType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1515,7 +1515,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RotType *e)
         (std::initializer_list<std::pair<const std::string,data::RotType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::RotType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::RotType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::RotType &)::m);
       e = (data::RotType *)&data::enumStrToVal(std::string const&,data::RotType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::RotType>::~map,
@@ -1792,8 +1792,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RotAngleType *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::RotAngleType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::RotAngleType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::RotAngleType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::RotAngleType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -1822,7 +1822,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RotAngleType *e)
         (std::initializer_list<std::pair<const std::string,data::RotAngleType> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::RotAngleType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::RotAngleType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::RotAngleType &)::m);
       e = (data::RotAngleType *)&data::enumStrToVal(std::string const&,data::RotAngleType &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::RotAngleType>::~map,
@@ -2942,8 +2942,8 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RouteRecordMode *e)
   }
   else
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 80, e);
@@ -2972,7 +2972,7 @@ bool __cdecl data::enumStrToVal(const std::string *s, data::RouteRecordMode *e)
         (std::initializer_list<std::pair<const std::string,data::RouteRecordMode> >)__PAIR128__(3LL, v2 + 320),
         (const std::less<std::string > *)(v2 + 48),
         (const std::map<std::string,data::RouteRecordMode>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m);
       e = (data::RouteRecordMode *)&data::enumStrToVal(std::string const&,data::RouteRecordMode &)::m;
       __cxa_atexit(
         (void (__fastcall *)(void *))std::map<std::string,data::RouteRecordMode>::~map,

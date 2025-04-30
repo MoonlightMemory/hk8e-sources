@@ -302,8 +302,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -327,7 +327,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardType &)::m,
@@ -610,8 +610,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardType> *__cdecl data::
   v3[536862722] = -234556927;
   v3[536862723] = 61956;
   v3[536862726] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -635,7 +635,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardType> *__cdecl data::
       (const std::unordered_map<std::string,data::IrodoriChessCardType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::IrodoriChessCardType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardType>::~unordered_map,
       &data::getIrodoriChessCardTypeNameMap[abi:cxx11](void)::m,
@@ -705,8 +705,8 @@ const std::map<data::IrodoriChessCardType,std::pair<std::string,std::string >> *
   v3[536862729] = 62194;
   v3[536862734] = -202116109;
   v3[536862735] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -736,7 +736,7 @@ const std::map<data::IrodoriChessCardType,std::pair<std::string,std::string >> *
       (std::initializer_list<std::pair<const data::IrodoriChessCardType,std::pair<std::string,std::string > > >)__PAIR128__(2LL, v1 + 304),
       (const std::less<data::IrodoriChessCardType> *)(v1 + 48),
       (const std::map<data::IrodoriChessCardType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardTypeEnumMap[abi:cxx11](void)::m,
@@ -1085,8 +1085,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1119,7 +1119,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardQualityType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardQualityType &)::m,
@@ -1406,8 +1406,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardQualityType> *__cdecl
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1438,7 +1438,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardQualityType> *__cdecl
       (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardQualityType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardQualityType>::~unordered_map,
       &data::getIrodoriChessCardQualityTypeNameMap[abi:cxx11](void)::m,
@@ -1510,8 +1510,8 @@ const std::map<data::IrodoriChessCardQualityType,std::pair<std::string,std::stri
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -1552,7 +1552,7 @@ const std::map<data::IrodoriChessCardQualityType,std::pair<std::string,std::stri
       (std::initializer_list<std::pair<const data::IrodoriChessCardQualityType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::IrodoriChessCardQualityType> *)(v1 + 48),
       (const std::map<data::IrodoriChessCardQualityType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardQualityType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardQualityTypeEnumMap[abi:cxx11](void)::m,
@@ -1914,8 +1914,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -1941,7 +1941,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardTargetType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardTargetType &)::m,
@@ -2226,8 +2226,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardTargetType> *__cdecl 
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2258,7 +2258,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardTargetType> *__cdecl 
       (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardTargetType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardTargetType>::~unordered_map,
       &data::getIrodoriChessCardTargetTypeNameMap[abi:cxx11](void)::m,
@@ -2330,8 +2330,8 @@ const std::map<data::IrodoriChessCardTargetType,std::pair<std::string,std::strin
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -2372,7 +2372,7 @@ const std::map<data::IrodoriChessCardTargetType,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::IrodoriChessCardTargetType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::IrodoriChessCardTargetType> *)(v1 + 48),
       (const std::map<data::IrodoriChessCardTargetType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardTargetType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardTargetTypeEnumMap[abi:cxx11](void)::m,
@@ -2732,8 +2732,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -2794,7 +2794,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardEffectType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardEffectType &)::m,
@@ -3093,8 +3093,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardEffectType> *__cdecl 
   v3[536862726] = -234556924;
   v3[536862737] = -202116109;
   v3[536862738] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -3160,7 +3160,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardEffectType> *__cdecl 
       (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::IrodoriChessCardEffectType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardEffectType>::~unordered_map,
       &data::getIrodoriChessCardEffectTypeNameMap[abi:cxx11](void)::m,
@@ -3251,8 +3251,8 @@ const std::map<data::IrodoriChessCardEffectType,std::pair<std::string,std::strin
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -3348,7 +3348,7 @@ const std::map<data::IrodoriChessCardEffectType,std::pair<std::string,std::strin
       (std::initializer_list<std::pair<const data::IrodoriChessCardEffectType,std::pair<std::string,std::string > > >)__PAIR128__(8LL, v1 + 960),
       (const std::less<data::IrodoriChessCardEffectType> *)(v1 + 32),
       (const std::map<data::IrodoriChessCardEffectType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardEffectType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardEffectTypeEnumMap[abi:cxx11](void)::m,
@@ -3720,8 +3720,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 352) = s;
   if ( *(_QWORD *)(v2 + 352) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -3808,7 +3808,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardTag>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardTag>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardTag>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardTag>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardTag &)::m,
@@ -4105,8 +4105,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardTag> *__cdecl data::g
   v3[536862728] = -234556924;
   v3[536862744] = -202116109;
   v3[536862745] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -4200,7 +4200,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardTag> *__cdecl data::g
       (const std::unordered_map<std::string,data::IrodoriChessCardTag>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardTag>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::IrodoriChessCardTag>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardTag>::~unordered_map,
       &data::getIrodoriChessCardTagNameMap[abi:cxx11](void)::m,
@@ -4306,8 +4306,8 @@ const std::map<data::IrodoriChessCardTag,std::pair<std::string,std::string >> *_
   v3[536862792] = -202116109;
   v3[536862793] = -202116109;
   v3[536862794] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -4447,7 +4447,7 @@ const std::map<data::IrodoriChessCardTag,std::pair<std::string,std::string >> *_
       (std::initializer_list<std::pair<const data::IrodoriChessCardTag,std::pair<std::string,std::string > > >)__PAIR128__(12LL, v1 + 1408),
       (const std::less<data::IrodoriChessCardTag> *)(v1 + 32),
       (const std::map<data::IrodoriChessCardTag,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardTag,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardTagEnumMap[abi:cxx11](void)::m,
@@ -4831,8 +4831,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -4870,7 +4870,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationType &)::m,
@@ -5161,8 +5161,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardNumericalModification
   v3[536862731] = -218103808;
   v3[536862732] = -202116109;
   v3[536862733] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -5207,7 +5207,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardNumericalModification
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationType>::~unordered_map,
       &data::getIrodoriChessCardNumericalModificationTypeNameMap[abi:cxx11](void)::m,
@@ -5293,8 +5293,8 @@ const std::map<data::IrodoriChessCardNumericalModificationType,std::pair<std::st
   v3[536862750] = -218103808;
   v3[536862751] = -202116109;
   v3[536862752] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -5357,7 +5357,7 @@ const std::map<data::IrodoriChessCardNumericalModificationType,std::pair<std::st
       (std::initializer_list<std::pair<const data::IrodoriChessCardNumericalModificationType,std::pair<std::string,std::string > > >)__PAIR128__(5LL, v1 + 624),
       (const std::less<data::IrodoriChessCardNumericalModificationType> *)(v1 + 32),
       (const std::map<data::IrodoriChessCardNumericalModificationType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardNumericalModificationType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardNumericalModificationTypeEnumMap[abi:cxx11](void)::m,
@@ -5711,8 +5711,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -5736,7 +5736,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriChessCardNumericalModificationMode &)::m,
@@ -6017,8 +6017,8 @@ const std::unordered_map<std::string,data::IrodoriChessCardNumericalModification
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6049,7 +6049,7 @@ const std::unordered_map<std::string,data::IrodoriChessCardNumericalModification
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriChessCardNumericalModificationMode>::~unordered_map,
       &data::getIrodoriChessCardNumericalModificationModeNameMap[abi:cxx11](void)::m,
@@ -6121,8 +6121,8 @@ const std::map<data::IrodoriChessCardNumericalModificationMode,std::pair<std::st
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -6163,7 +6163,7 @@ const std::map<data::IrodoriChessCardNumericalModificationMode,std::pair<std::st
       (std::initializer_list<std::pair<const data::IrodoriChessCardNumericalModificationMode,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::IrodoriChessCardNumericalModificationMode> *)(v1 + 48),
       (const std::map<data::IrodoriChessCardNumericalModificationMode,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriChessCardNumericalModificationMode,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriChessCardNumericalModificationModeEnumMap[abi:cxx11](void)::m,
@@ -6522,8 +6522,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -6554,7 +6554,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriMasterLevelType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriMasterLevelType &)::m,
@@ -6844,8 +6844,8 @@ const std::unordered_map<std::string,data::IrodoriMasterLevelType> *__cdecl data
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -6883,7 +6883,7 @@ const std::unordered_map<std::string,data::IrodoriMasterLevelType> *__cdecl data
       (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::IrodoriMasterLevelType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriMasterLevelType>::~unordered_map,
       &data::getIrodoriMasterLevelTypeNameMap[abi:cxx11](void)::m,
@@ -6957,8 +6957,8 @@ const std::map<data::IrodoriMasterLevelType,std::pair<std::string,std::string >>
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -7010,7 +7010,7 @@ const std::map<data::IrodoriMasterLevelType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::IrodoriMasterLevelType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::IrodoriMasterLevelType> *)(v1 + 32),
       (const std::map<data::IrodoriMasterLevelType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriMasterLevelType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriMasterLevelTypeEnumMap[abi:cxx11](void)::m,
@@ -7374,8 +7374,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 208) = s;
   if ( *(_QWORD *)(v2 + 208) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -7399,7 +7399,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriMasterMedalType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriMasterMedalType &)::m,
@@ -7684,8 +7684,8 @@ const std::unordered_map<std::string,data::IrodoriMasterMedalType> *__cdecl data
   v3[536862723] = -234556924;
   v3[536862727] = -218103808;
   v3[536862728] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7716,7 +7716,7 @@ const std::unordered_map<std::string,data::IrodoriMasterMedalType> *__cdecl data
       (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::hasher *)(v1 + 32),
       (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::key_equal *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriMasterMedalType>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriMasterMedalType>::~unordered_map,
       &data::getIrodoriMasterMedalTypeNameMap[abi:cxx11](void)::m,
@@ -7788,8 +7788,8 @@ const std::map<data::IrodoriMasterMedalType,std::pair<std::string,std::string >>
   v3[536862739] = -218103808;
   v3[536862740] = -202116109;
   v3[536862741] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 80) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 80, v0);
@@ -7830,7 +7830,7 @@ const std::map<data::IrodoriMasterMedalType,std::pair<std::string,std::string >>
       (std::initializer_list<std::pair<const data::IrodoriMasterMedalType,std::pair<std::string,std::string > > >)__PAIR128__(3LL, v1 + 416),
       (const std::less<data::IrodoriMasterMedalType> *)(v1 + 48),
       (const std::map<data::IrodoriMasterMedalType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 64));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriMasterMedalType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriMasterMedalTypeEnumMap[abi:cxx11](void)::m,
@@ -8189,8 +8189,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 224) = s;
   if ( *(_QWORD *)(v2 + 224) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 96, e);
@@ -8228,7 +8228,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::hasher *)(v2 + 32),
         (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::key_equal *)(v2 + 48),
         (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::allocator_type *)(v2 + 64));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriPoetryEntityType>::~unordered_map,
         &data::enumStrToVal(char const*,data::IrodoriPoetryEntityType &)::m,
@@ -8521,8 +8521,8 @@ const std::unordered_map<std::string,data::IrodoriPoetryEntityType> *__cdecl dat
   v3[536862724] = -234556924;
   v3[536862730] = -202116109;
   v3[536862731] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -8560,7 +8560,7 @@ const std::unordered_map<std::string,data::IrodoriPoetryEntityType> *__cdecl dat
       (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::IrodoriPoetryEntityType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::IrodoriPoetryEntityType>::~unordered_map,
       &data::getIrodoriPoetryEntityTypeNameMap[abi:cxx11](void)::m,
@@ -8634,8 +8634,8 @@ const std::map<data::IrodoriPoetryEntityType,std::pair<std::string,std::string >
   v3[536862735] = -218959118;
   v3[536862745] = -202116109;
   v3[536862746] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -8687,7 +8687,7 @@ const std::map<data::IrodoriPoetryEntityType,std::pair<std::string,std::string >
       (std::initializer_list<std::pair<const data::IrodoriPoetryEntityType,std::pair<std::string,std::string > > >)__PAIR128__(4LL, v1 + 512),
       (const std::less<data::IrodoriPoetryEntityType> *)(v1 + 32),
       (const std::map<data::IrodoriPoetryEntityType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::IrodoriPoetryEntityType,std::pair<std::string,std::string>>::~map,
       &data::getIrodoriPoetryEntityTypeEnumMap[abi:cxx11](void)::m,

@@ -1053,11 +1053,11 @@ std::vector<unsigned int> *__fastcall ActivitySumoExcelConfigMgr::findScheduleSt
   v5[536862727] = -218959118;
   v5[536862729] = -202116109;
   *(_DWORD *)(v3 + 48) = schedule_id;
-  if ( !(_BYTE)`guard variable for'ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec
-    && __cxa_guard_acquire(&`guard variable for'ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec) )
+  if ( !(_BYTE)`guard variable for ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec
+    && __cxa_guard_acquire(&`guard variable for ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec) )
   {
     std::vector<unsigned int>::vector(&ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)const::empty_vec);
-    __cxa_guard_release(&`guard variable for'ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec);
+    __cxa_guard_release(&`guard variable for ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)::empty_vec);
     this = &ActivitySumoExcelConfigMgr::findScheduleStageIdVec(unsigned int)const::empty_vec;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::vector<unsigned int>::~vector,

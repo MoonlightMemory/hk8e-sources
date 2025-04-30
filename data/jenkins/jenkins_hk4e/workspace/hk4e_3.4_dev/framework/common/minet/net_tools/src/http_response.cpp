@@ -1367,9 +1367,9 @@ void __fastcall __static_initialization_and_destruction_0(int __initialize_p, in
     {
       std::ios_base::Init::Init(&std::__ioinit);
       __cxa_atexit((void (__fastcall *)(void *))&std::ios_base::Init::~Init, &std::__ioinit, &_dso_handle);
-      if ( !`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
+      if ( !`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero )
       {
-        `guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
+        `guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero = 1;
         if ( *(_BYTE *)(((unsigned __int64)&common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                       + 0x7FFF8000) )
         {

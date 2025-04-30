@@ -2211,21 +2211,21 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
     __asan_before_dynamic_init("src_merge/merge_merge_main.cpp");
     if ( __priority == 0xFFFF )
     {
-      v2 = &`guard variable for'luabind::detail::registered_class<Robot *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id >> 3)
+      v2 = &`guard variable for luabind::detail::registered_class<Robot *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Robot *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Robot *>::id);
       }
       if ( !*v2 )
       {
-        v3 = &`guard variable for'luabind::detail::registered_class<Robot *>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id >> 3)
+        v3 = &`guard variable for luabind::detail::registered_class<Robot *>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Robot *>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Robot *>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Robot *>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Robot *>::id);
         }
         *v3 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Robot *);
@@ -2234,21 +2234,21 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
           v4 = __asan_report_store8();
         luabind::detail::registered_class<Robot *>::id = v4;
       }
-      v5 = &`guard variable for'luabind::detail::registered_class<Entity>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id >> 3)
+      v5 = &`guard variable for luabind::detail::registered_class<Entity>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Entity>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Entity>::id);
       }
       if ( !*v5 )
       {
-        v6 = &`guard variable for'luabind::detail::registered_class<Entity>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id >> 3)
+        v6 = &`guard variable for luabind::detail::registered_class<Entity>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Entity>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Entity>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Entity>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Entity>::id);
         }
         *v6 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Entity);
@@ -2257,21 +2257,21 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
           v7 = __asan_report_store8();
         luabind::detail::registered_class<Entity>::id = v7;
       }
-      v8 = &`guard variable for'luabind::detail::registered_class<Monster>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id >> 3)
+      v8 = &`guard variable for luabind::detail::registered_class<Monster>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Monster>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Monster>::id);
       }
       if ( !*v8 )
       {
-        v9 = &`guard variable for'luabind::detail::registered_class<Monster>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id >> 3)
+        v9 = &`guard variable for luabind::detail::registered_class<Monster>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Monster>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Monster>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Monster>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Monster>::id);
         }
         *v9 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Monster);
@@ -2319,21 +2319,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
     __asan_before_dynamic_init("src_merge/merge_merge_main.cpp");
     if ( __priority == 0xFFFF )
     {
-      v2 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3)
+      v2 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id);
       }
       if ( !*v2 )
       {
-        v3 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3)
+        v3 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Quest>>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id);
         }
         *v3 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Quest>);
@@ -2343,21 +2343,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v4 = __asan_report_store8();
         luabind::detail::registered_class<std::shared_ptr<Quest>>::id = v4;
       }
-      v5 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3)
+      v5 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id);
       }
       if ( !*v5 )
       {
-        v6 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3)
+        v6 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Avatar>>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id);
         }
         *v6 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Avatar>);
@@ -2367,21 +2367,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v7 = __asan_report_store8();
         luabind::detail::registered_class<std::shared_ptr<Avatar>>::id = v7;
       }
-      v8 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3)
+      v8 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id);
       }
       if ( !*v8 )
       {
-        v9 = &`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3)
+        v9 = &`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<std::shared_ptr<Monster>>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id);
         }
         *v9 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Monster>);
@@ -2391,21 +2391,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v10 = __asan_report_store8();
         luabind::detail::registered_class<std::shared_ptr<Monster>>::id = v10;
       }
-      v11 = &`guard variable for'luabind::detail::registered_class<Scene *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id >> 3)
+      v11 = &`guard variable for luabind::detail::registered_class<Scene *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Scene *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Scene *>::id);
       }
       if ( !*v11 )
       {
-        v12 = &`guard variable for'luabind::detail::registered_class<Scene *>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id >> 3)
+        v12 = &`guard variable for luabind::detail::registered_class<Scene *>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Scene *>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Scene *>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Scene *>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Scene *>::id);
         }
         *v12 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Scene *);
@@ -2414,21 +2414,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v13 = __asan_report_store8();
         luabind::detail::registered_class<Scene *>::id = v13;
       }
-      v14 = &`guard variable for'luabind::detail::registered_class<Player *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id >> 3)
+      v14 = &`guard variable for luabind::detail::registered_class<Player *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<Player *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<Player *>::id);
       }
       if ( !*v14 )
       {
-        v15 = &`guard variable for'luabind::detail::registered_class<Player *>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id >> 3)
+        v15 = &`guard variable for luabind::detail::registered_class<Player *>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<Player *>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<Player *>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<Player *>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<Player *>::id);
         }
         *v15 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Player *);
@@ -2437,21 +2437,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v16 = __asan_report_store8();
         luabind::detail::registered_class<Player *>::id = v16;
       }
-      v17 = &`guard variable for'luabind::detail::registered_class<RobotReporter *>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id >> 3)
+      v17 = &`guard variable for luabind::detail::registered_class<RobotReporter *>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<RobotReporter *>::id);
       }
       if ( !*v17 )
       {
-        v18 = &`guard variable for'luabind::detail::registered_class<RobotReporter *>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id >> 3)
+        v18 = &`guard variable for luabind::detail::registered_class<RobotReporter *>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<RobotReporter *>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<RobotReporter *>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<RobotReporter *>::id);
         }
         *v18 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'RobotReporter *);
@@ -2460,21 +2460,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v19 = __asan_report_store8();
         luabind::detail::registered_class<RobotReporter *>::id = v19;
       }
-      v20 = &`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3)
+      v20 = &`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id);
       }
       if ( !*v20 )
       {
-        v21 = &`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3)
+        v21 = &`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id);
         }
         *v21 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'common::tools::TxtFile::Row const*);
@@ -2484,21 +2484,21 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           v22 = __asan_report_store8();
         luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id = v22;
       }
-      v23 = &`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id;
-      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3)
+      v23 = &`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id;
+      if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3)
                     + 0x7FFF8000) != 0
-        && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3) + 0x7FFF8000) )
+        && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3) + 0x7FFF8000) )
       {
-        __asan_report_load1(&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id);
+        __asan_report_load1(&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id);
       }
       if ( !*v23 )
       {
-        v24 = &`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id;
-        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3)
+        v24 = &`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id;
+        if ( *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3)
                       + 0x7FFF8000) != 0
-          && (char)((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3) + 0x7FFF8000) )
+          && (char)((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id & 7) >= *(_BYTE *)(((unsigned __int64)&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3) + 0x7FFF8000) )
         {
-          __asan_report_store1(&`guard variable for'luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id);
+          __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id);
         }
         *v24 = 1;
         luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::auto_ptr<common::tools::TxtFile>);

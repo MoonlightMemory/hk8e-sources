@@ -298,8 +298,8 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
   *(_QWORD *)(v2 + 288) = s;
   if ( *(_QWORD *)(v2 + 288) )
   {
-    if ( !(_BYTE)`guard variable for'data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m
-      && __cxa_guard_acquire(&`guard variable for'data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m) )
+    if ( !(_BYTE)`guard variable for data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m
+      && __cxa_guard_acquire(&`guard variable for data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m) )
     {
       if ( *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) <= 3 )
         __asan_report_store4(v2 + 112, e);
@@ -358,7 +358,7 @@ __int64 __fastcall data::enumStrToVal(const char *s, unsigned __int64 e)
         (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::hasher *)(v2 + 48),
         (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::key_equal *)(v2 + 64),
         (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::allocator_type *)(v2 + 80));
-      __cxa_guard_release(&`guard variable for'data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m);
+      __cxa_guard_release(&`guard variable for data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityWindFieldShowType>::~unordered_map,
         &data::enumStrToVal(char const*,data::ActivityWindFieldShowType &)::m,
@@ -662,8 +662,8 @@ const std::unordered_map<std::string,data::ActivityWindFieldShowType> *__cdecl d
   v3[536862726] = -234556924;
   v3[536862737] = -202116109;
   v3[536862738] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 96) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 96, v0);
@@ -729,7 +729,7 @@ const std::unordered_map<std::string,data::ActivityWindFieldShowType> *__cdecl d
       (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::hasher *)(v1 + 48),
       (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::key_equal *)(v1 + 64),
       (const std::unordered_map<std::string,data::ActivityWindFieldShowType>::allocator_type *)(v1 + 80));
-    __cxa_guard_release(&`guard variable for'data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_map<std::string,data::ActivityWindFieldShowType>::~unordered_map,
       &data::getActivityWindFieldShowTypeNameMap[abi:cxx11](void)::m,
@@ -820,8 +820,8 @@ const std::map<data::ActivityWindFieldShowType,std::pair<std::string,std::string
   v3[536862769] = -202116109;
   v3[536862770] = -202116109;
   v3[536862771] = -202116109;
-  if ( !(_BYTE)`guard variable for'data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m
-    && __cxa_guard_acquire(&`guard variable for'data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m) )
+  if ( !(_BYTE)`guard variable for data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m
+    && __cxa_guard_acquire(&`guard variable for data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m) )
   {
     if ( *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) != 0 && *(_BYTE *)(((v1 + 64) >> 3) + 0x7FFF8000) <= 3 )
       __asan_report_store4(v1 + 64, v0);
@@ -917,7 +917,7 @@ const std::map<data::ActivityWindFieldShowType,std::pair<std::string,std::string
       (std::initializer_list<std::pair<const data::ActivityWindFieldShowType,std::pair<std::string,std::string > > >)__PAIR128__(8LL, v1 + 960),
       (const std::less<data::ActivityWindFieldShowType> *)(v1 + 32),
       (const std::map<data::ActivityWindFieldShowType,std::pair<std::string,std::string >>::allocator_type *)(v1 + 48));
-    __cxa_guard_release(&`guard variable for'data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m);
+    __cxa_guard_release(&`guard variable for data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m);
     __cxa_atexit(
       (void (__fastcall *)(void *))std::map<data::ActivityWindFieldShowType,std::pair<std::string,std::string>>::~map,
       &data::getActivityWindFieldShowTypeEnumMap[abi:cxx11](void)::m,

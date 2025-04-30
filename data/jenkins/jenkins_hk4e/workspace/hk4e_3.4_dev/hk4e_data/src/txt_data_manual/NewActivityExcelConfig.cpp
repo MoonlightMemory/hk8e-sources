@@ -2232,11 +2232,11 @@ const std::unordered_set<unsigned int> *__fastcall NewActivityExcelConfigMgr::ge
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)activity_id;
-  if ( !(_BYTE)`guard variable for'NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty
-    && __cxa_guard_acquire(&`guard variable for'NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty) )
+  if ( !(_BYTE)`guard variable for NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty
+    && __cxa_guard_acquire(&`guard variable for NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty) )
   {
     std::unordered_set<unsigned int>::unordered_set(&NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)const::empty);
-    __cxa_guard_release(&`guard variable for'NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty);
+    __cxa_guard_release(&`guard variable for NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)::empty);
     activity_id = &NewActivityExcelConfigMgr::getActivityCondSet(unsigned int)const::empty;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -2303,11 +2303,11 @@ const std::unordered_set<unsigned int> *__fastcall NewActivityExcelConfigMgr::ge
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)cond_id;
-  if ( !(_BYTE)`guard variable for'NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set
-    && __cxa_guard_acquire(&`guard variable for'NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set) )
+  if ( !(_BYTE)`guard variable for NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set
+    && __cxa_guard_acquire(&`guard variable for NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set) )
   {
     std::unordered_set<unsigned int>::unordered_set(&NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)const::empty_set);
-    __cxa_guard_release(&`guard variable for'NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set);
+    __cxa_guard_release(&`guard variable for NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)::empty_set);
     cond_id = &NewActivityExcelConfigMgr::getActivitySetByCondId(unsigned int)const::empty_set;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -2861,11 +2861,11 @@ const std::unordered_set<unsigned int> *__fastcall NewActivityExcelConfigMgr::fi
   v4[536862722] = -218959360;
   v4[536862723] = -202116352;
   *(_DWORD *)(v2 + 48) = (_DWORD)activity_id;
-  if ( !(_BYTE)`guard variable for'NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty
-    && __cxa_guard_acquire(&`guard variable for'NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty) )
+  if ( !(_BYTE)`guard variable for NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty
+    && __cxa_guard_acquire(&`guard variable for NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty) )
   {
     std::unordered_set<unsigned int>::unordered_set(&NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)const::empty);
-    __cxa_guard_release(&`guard variable for'NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty);
+    __cxa_guard_release(&`guard variable for NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)::empty);
     activity_id = &NewActivityExcelConfigMgr::findNewActivityWatcherSet(unsigned int)const::empty;
     __cxa_atexit(
       (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
@@ -3021,11 +3021,11 @@ const std::unordered_set<unsigned int> *__fastcall NewActivityExcelConfigMgr::ge
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = -8;
   if ( v7 )
   {
-    if ( !(_BYTE)`guard variable for'NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set
-      && __cxa_guard_acquire(&`guard variable for'NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set) )
+    if ( !(_BYTE)`guard variable for NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set
+      && __cxa_guard_acquire(&`guard variable for NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set) )
     {
       std::unordered_set<unsigned int>::unordered_set(&NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)const::empty_activity_id_set);
-      __cxa_guard_release(&`guard variable for'NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set);
+      __cxa_guard_release(&`guard variable for NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)::empty_activity_id_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
         &NewActivityExcelConfigMgr::getTalkIdRelatedActivityIds(unsigned int)const::empty_activity_id_set,
@@ -3103,11 +3103,11 @@ const std::unordered_set<unsigned int> *__fastcall NewActivityExcelConfigMgr::ge
   *(_BYTE *)(((v3 + 128) >> 3) + 0x7FFF8000) = -8;
   if ( v7 )
   {
-    if ( !(_BYTE)`guard variable for'NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set
-      && __cxa_guard_acquire(&`guard variable for'NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set) )
+    if ( !(_BYTE)`guard variable for NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set
+      && __cxa_guard_acquire(&`guard variable for NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set) )
     {
       std::unordered_set<unsigned int>::unordered_set(&NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)const::empty_activity_id_set);
-      __cxa_guard_release(&`guard variable for'NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set);
+      __cxa_guard_release(&`guard variable for NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)::empty_activity_id_set);
       __cxa_atexit(
         (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
         &NewActivityExcelConfigMgr::getGroupConfigRelatedActivityIds(unsigned int,unsigned int)const::empty_activity_id_set,
@@ -20285,26 +20285,26 @@ void __cdecl __static_initialization_and_destruction_0(int __initialize_p, int _
         (void (__fastcall *)(void *))std::unordered_set<unsigned int>::~unordered_set,
         &NewActivityExcelConfigMgr::dynamic_group_check_cond_white_set,
         &_dso_handle);
-      v10 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-      v11 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+      v10 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+      v11 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                      + 0x7FFF8000);
       LOBYTE(v12) = v11 != 0;
-      v13 = (v11 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v11);
+      v13 = (v11 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v11);
       if ( (_BYTE)v13 )
         __asan_report_load1(
-          &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+          &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
           v12,
           v13);
       if ( !*v10 )
       {
-        v14 = &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
-        v15 = *(_BYTE *)(((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
+        v14 = &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero;
+        v15 = *(_BYTE *)(((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero >> 3)
                        + 0x7FFF8000);
         LOBYTE(v12) = v15 != 0;
-        v16 = (v15 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v15);
+        v16 = (v15 != 0) & (unsigned __int8)((char)((unsigned __int64)&`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero & 7) >= v15);
         if ( (_BYTE)v16 )
           __asan_report_store1(
-            &`guard variable for'common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
+            &`guard variable for common::tools::StringStream<common::tools::FixedBuffer<16384>>::zero,
             v12,
             v16);
         *v14 = 1;

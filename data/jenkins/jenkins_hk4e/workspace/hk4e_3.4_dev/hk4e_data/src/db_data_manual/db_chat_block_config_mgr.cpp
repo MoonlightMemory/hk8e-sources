@@ -267,7 +267,7 @@ int32_t __cdecl data::DbChatBlockConfigMgr::loadDbChatBlockConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     std::set<unsigned int>::set((std::set<unsigned int> *const)(v2 + 560));

@@ -948,7 +948,7 @@ int32_t __cdecl DbLocalConfigMgr::loadDbLoginRewardConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<t_login_reward_config> *)(v3 + 112);
@@ -1783,7 +1783,7 @@ int32_t __cdecl DbLocalConfigMgr::loadAnnounceConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<t_announce_config> *)(v3 + 240);
@@ -3069,7 +3069,7 @@ int32_t __cdecl DbLocalConfigMgr::loadDbQuestionnaireMailConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     std::set<unsigned int>::set((std::set<unsigned int> *const)(v3 + 544));
@@ -6254,7 +6254,7 @@ int32_t __cdecl DbLocalConfigMgr::loadDbTextmapConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<t_textmap_config> *)(v3 + 352);

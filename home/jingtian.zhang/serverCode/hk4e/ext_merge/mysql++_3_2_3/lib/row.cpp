@@ -706,7 +706,7 @@ void __fastcall __noreturn mysqlpp::Row::field_num()
   mysqlpp::BadFieldName::BadFieldName(exception, v0);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadFieldName,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadFieldName,
     (void (__fastcall *)(void *))mysqlpp::BadFieldName::~BadFieldName);
 };
 
@@ -758,7 +758,7 @@ void __fastcall __noreturn mysqlpp::Row::operator[]()
   mysqlpp::BadFieldName::BadFieldName(exception, v0);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadFieldName,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadFieldName,
     (void (__fastcall *)(void *))mysqlpp::BadFieldName::~BadFieldName);
 };
 

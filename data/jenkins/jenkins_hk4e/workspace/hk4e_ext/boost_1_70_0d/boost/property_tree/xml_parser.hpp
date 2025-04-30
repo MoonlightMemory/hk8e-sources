@@ -78,13 +78,13 @@ void __fastcall boost::property_tree::xml_parser::read_xml<boost::property_tree:
   *(_QWORD *)(v7 + 544) = 0LL;
   *(_QWORD *)(v7 + 552) = 0LL;
   *(_QWORD *)(v7 + 560) = 0LL;
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[1] >> 3) + 0x7FFF8000) )
   {
 LABEL_14:
     __asan_report_load8();
     goto LABEL_15;
   }
-  v10 = (std::locale::_Impl *)`VTT for'std::ifstream[1];
+  v10 = (std::locale::_Impl *)`VTT for`std::ifstream[1];
   *(_QWORD *)(v7 + 48) = v10;
   if ( *(_BYTE *)(((unsigned __int64)&v10[-1]._M_facets_size >> 3) + 0x7FFF8000) )
   {
@@ -93,7 +93,7 @@ LABEL_15:
     goto LABEL_16;
   }
   v11 = (unsigned __int64)&v8[v10[-1]._M_facets_size - 656];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[2] >> 3) + 0x7FFF8000) )
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[2] >> 3) + 0x7FFF8000) )
   {
 LABEL_16:
     __asan_report_load8();
@@ -105,7 +105,7 @@ LABEL_17:
     __asan_report_store8();
     goto LABEL_18;
   }
-  *(_QWORD *)v11 = `VTT for'std::ifstream[2];
+  *(_QWORD *)v11 = `VTT for`std::ifstream[2];
   *(_QWORD *)(v7 + 56) = 0LL;
   v12 = *(std::locale::_Impl **)(v7 + 48);
   if ( !*(_BYTE *)(((unsigned __int64)&v12[-1]._M_facets_size >> 3) + 0x7FFF8000) )
@@ -179,7 +179,7 @@ LABEL_29:
     std::__basic_file<char>::~__basic_file(v7 + 168);
     *(_QWORD *)(v7 + 64) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v7 + 120));
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[1] >> 3) + 0x7FFF8000) )
     {
       __asan_report_load8();
 LABEL_33:
@@ -188,12 +188,12 @@ LABEL_34:
       __asan_report_load8();
       goto LABEL_35;
     }
-    v20 = (std::locale::_Impl *)`VTT for'std::ifstream[1];
+    v20 = (std::locale::_Impl *)`VTT for`std::ifstream[1];
     *(_QWORD *)(v7 + 48) = v20;
     if ( *(_BYTE *)(((unsigned __int64)&v20[-1]._M_facets_size >> 3) + 0x7FFF8000) )
       goto LABEL_33;
     v21 = (unsigned __int64)&v8[v20[-1]._M_facets_size - 656];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[2] >> 3) + 0x7FFF8000) )
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[2] >> 3) + 0x7FFF8000) )
       goto LABEL_34;
     if ( !*(_BYTE *)((v21 >> 3) + 0x7FFF8000) )
       break;
@@ -202,7 +202,7 @@ LABEL_35:
     __cxa_begin_catch(v19);
     __cxa_end_catch();
   }
-  *(_QWORD *)v21 = `VTT for'std::ifstream[2];
+  *(_QWORD *)v21 = `VTT for`std::ifstream[2];
   *(_QWORD *)(v7 + 56) = 0LL;
   *(_QWORD *)(v7 + 304) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v7 + 304));

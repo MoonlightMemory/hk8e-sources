@@ -326,7 +326,7 @@ void __fastcall __noreturn boost::CV::simple_exception_policy<unsigned short,(un
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::gregorian::bad_weekday>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::gregorian::bad_weekday>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::gregorian::bad_weekday>::~wrapexcept);
 };
 
@@ -362,6 +362,6 @@ void __fastcall __noreturn boost::CV::simple_exception_policy<unsigned short,(un
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::gregorian::bad_day_of_year>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::gregorian::bad_day_of_year>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::gregorian::bad_day_of_year>::~wrapexcept);
 };

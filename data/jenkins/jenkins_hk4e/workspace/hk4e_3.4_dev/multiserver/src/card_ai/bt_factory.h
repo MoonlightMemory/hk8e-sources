@@ -1041,7 +1041,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenCandidateOnst
       this,
       0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenCandidateOnstageCharacter);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenCandidateOnstageCharacter);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1116,7 +1116,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenChangeCharact
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionGenChangeCharacterPlan>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenChangeCharacterPlan);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenChangeCharacterPlan);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1194,7 +1194,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenChangeToCanAt
       this,
       0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenChangeToCanAttackCharacter);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenChangeToCanAttackCharacter);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1269,7 +1269,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenCharacterPlan
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionGenCharacterPlan>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenCharacterPlan);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenCharacterPlan);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1344,7 +1344,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenPlayCardPlan>
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionGenPlayCardPlan>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenPlayCardPlan);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenPlayCardPlan);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1419,7 +1419,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionGenRebootPlan>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionGenRebootPlan>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionGenRebootPlan);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionGenRebootPlan);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1494,7 +1494,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionRedraw>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionRedraw>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionRedraw);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionRedraw);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1569,7 +1569,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionRerollDice>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionRerollDice>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionRerollDice);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionRerollDice);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1644,7 +1644,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionReserveDiceByHan
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionReserveDiceByHand>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionReserveDiceByHand);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionReserveDiceByHand);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1719,7 +1719,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionReserveDiceByRol
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionReserveDiceByRole>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionReserveDiceByRole);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionReserveDiceByRole);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1794,7 +1794,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionReserveHandCardB
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionReserveHandCardByTag>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionReserveHandCardByTag);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionReserveHandCardByTag);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1869,7 +1869,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionSelectOnstage>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionSelectOnstage>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionSelectOnstage);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionSelectOnstage);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -1944,7 +1944,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ActionSortAndExecPlan>
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ActionSortAndExecPlan>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ActionSortAndExecPlan);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ActionSortAndExecPlan);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2019,7 +2019,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::AssignNode<double>>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::AssignNode<double>>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::AssignNode<double>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::AssignNode<double>);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2094,7 +2094,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::AssignNode<int>>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::AssignNode<int>>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::AssignNode<int>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::AssignNode<int>);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2169,7 +2169,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::AssignNode<std::string
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::AssignNode<std::string>>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::AssignNode<std::string>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::AssignNode<std::string>);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2244,7 +2244,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::AssignNode<std::vector
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::AssignNode<std::vector<double>>>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::AssignNode<std::vector<double>>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::AssignNode<std::vector<double>>);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2319,7 +2319,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::AssignNode<std::vector
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::AssignNode<std::vector<int>>>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::AssignNode<std::vector<int>>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::AssignNode<std::vector<int>>);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2394,7 +2394,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ConditionCheckIsAction
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ConditionCheckIsActionPhase>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ConditionCheckIsActionPhase);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ConditionCheckIsActionPhase);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2469,7 +2469,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ConditionCheckIsDrawPh
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ConditionCheckIsDrawPhase>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ConditionCheckIsDrawPhase);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ConditionCheckIsDrawPhase);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2544,7 +2544,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ConditionCheckIsReroll
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ConditionCheckIsRerollPhase>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ConditionCheckIsRerollPhase);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ConditionCheckIsRerollPhase);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2622,7 +2622,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ConditionCheckIsSelect
       this,
       0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ConditionCheckIsSelectOnstageCharacterPhase);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ConditionCheckIsSelectOnstageCharacterPhase);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2697,7 +2697,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::DoPassNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::DoPassNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::DoPassNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::DoPassNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2772,7 +2772,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::ForceSuccessNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::ForceSuccessNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::ForceSuccessNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::ForceSuccessNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2847,7 +2847,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::SelectorNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::SelectorNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::SelectorNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::SelectorNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2922,7 +2922,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::SequenceNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::SequenceNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::SequenceNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::SequenceNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -2997,7 +2997,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::SubtreeNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::SubtreeNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::SubtreeNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::SubtreeNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);
@@ -3072,7 +3072,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerNode<BT::SwitchNode>(
     std::string::basic_string(v2 + 32, node_name);
     BT::BehaviorTreeFactory::createBuilder<BT::SwitchNode>((BT::NodeBuilder *)(v2 + 64), this, 0LL);
     std::allocator<char>::allocator(&__a);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::SwitchNode);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::SwitchNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v2 + 96), v8, &__a);
     std::allocator<char>::~allocator(&__a);
     v9 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);

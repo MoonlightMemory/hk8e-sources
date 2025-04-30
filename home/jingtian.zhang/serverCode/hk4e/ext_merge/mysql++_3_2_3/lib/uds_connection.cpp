@@ -27,7 +27,7 @@ void __fastcall __noreturn mysqlpp::UnixDomainSocketConnection::connect()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::ConnectionFailed,
     (void (__fastcall *)(void *))mysqlpp::ConnectionFailed::~ConnectionFailed);
 };
 

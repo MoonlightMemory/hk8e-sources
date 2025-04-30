@@ -434,7 +434,7 @@ LABEL_117:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(v47);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_118;
   }

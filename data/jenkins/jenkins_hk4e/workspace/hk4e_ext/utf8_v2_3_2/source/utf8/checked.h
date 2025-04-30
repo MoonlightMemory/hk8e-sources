@@ -193,7 +193,7 @@ __int64 __fastcall utf8::next<__gnu_cxx::__normal_iterator<char const*,std::stri
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'utf8::invalid_code_point,
+      (struct type_info *)&`typeinfo for`utf8::invalid_code_point,
       (void (__fastcall *)(void *))utf8::invalid_code_point::~invalid_code_point);
   }
   if ( v6 <= 5 )
@@ -212,7 +212,7 @@ __int64 __fastcall utf8::next<__gnu_cxx::__normal_iterator<char const*,std::stri
       __asan_handle_no_return(v9);
       _cxa_throw(
         v9,
-        (struct type_info *)&`typeinfo for'utf8::invalid_utf8,
+        (struct type_info *)&`typeinfo for`utf8::invalid_utf8,
         (void (__fastcall *)(void *))utf8::invalid_utf8::~invalid_utf8);
     }
     if ( v6 == 1 )
@@ -226,7 +226,7 @@ __int64 __fastcall utf8::next<__gnu_cxx::__normal_iterator<char const*,std::stri
       __asan_handle_no_return(v8);
       _cxa_throw(
         v8,
-        (struct type_info *)&`typeinfo for'utf8::not_enough_room,
+        (struct type_info *)&`typeinfo for`utf8::not_enough_room,
         (void (__fastcall *)(void *))utf8::not_enough_room::~not_enough_room);
     }
   }

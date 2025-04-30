@@ -1584,7 +1584,7 @@ Const::Direction __cdecl RefinedPathGenerator::AxisVectorToDirection(const ToThe
     }
     *v4 = "Wrong axis";
     __asan_handle_no_return(v2);
-    _cxa_throw(v4, (struct type_info *)&`typeinfo for'char const*, 0LL);
+    _cxa_throw(v4, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   return 3;
 };

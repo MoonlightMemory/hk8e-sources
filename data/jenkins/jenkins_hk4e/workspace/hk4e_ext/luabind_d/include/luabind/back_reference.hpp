@@ -6,8 +6,8 @@ const luabind::wrap_base *__cdecl luabind::detail::get_back_reference_aux0<Avata
   if ( p )
     return (const luabind::wrap_base *)__dynamic_cast(
                                          p,
-                                         (const struct __class_type_info *)&`typeinfo for'Avatar,
-                                         (const struct __class_type_info *)&`typeinfo for'luabind::wrap_base,
+                                         (const struct __class_type_info *)&`typeinfo for`Avatar,
+                                         (const struct __class_type_info *)&`typeinfo for`luabind::wrap_base,
                                          -2LL);
   else
     return 0LL;
@@ -19,8 +19,8 @@ const luabind::wrap_base *__cdecl luabind::detail::get_back_reference_aux0<Monst
   if ( p )
     return (const luabind::wrap_base *)__dynamic_cast(
                                          p,
-                                         (const struct __class_type_info *)&`typeinfo for'Monster,
-                                         (const struct __class_type_info *)&`typeinfo for'luabind::wrap_base,
+                                         (const struct __class_type_info *)&`typeinfo for`Monster,
+                                         (const struct __class_type_info *)&`typeinfo for`luabind::wrap_base,
                                          -2LL);
   else
     return 0LL;

@@ -34,7 +34,7 @@ void **__fastcall google::protobuf::internal::RepeatedPtrFieldBase::InternalExte
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           this->arena_,
-          (const std::type_info *)&`typeinfo for'char,
+          (const std::type_info *)&`typeinfo for`char,
           8LL * v7 + 8);
       Aligned = (google::protobuf::internal::RepeatedPtrFieldBase::Rep *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                                            &arena->impl_,

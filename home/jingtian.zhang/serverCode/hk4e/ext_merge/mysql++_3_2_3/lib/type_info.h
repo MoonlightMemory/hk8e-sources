@@ -82,7 +82,7 @@ const unsigned __int8 *__fastcall mysqlpp::mysql_ti_sql_type_info_lookup::operat
       operator delete(v14);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+      (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
       (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
   }
   return (const unsigned __int8 *)&v2._M_node[1]._M_parent;

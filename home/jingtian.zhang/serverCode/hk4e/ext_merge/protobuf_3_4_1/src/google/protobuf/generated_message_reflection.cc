@@ -6449,7 +6449,7 @@ LABEL_17:
   if ( arena )
   {
     if ( arena->hooks_cookie_ )
-      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
     AlignedAndAddCleanup = (std::string *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                             &arena->impl_,
                                             0x20uLL,

@@ -388,7 +388,7 @@ bool __cdecl __noreturn luabind::detail::throw_error_policy<bool>::handle_error(
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -427,7 +427,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -449,7 +449,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
          (luabind::detail::by_value<std::string >)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for'std::string);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for`std::string);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -846,7 +846,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::index_proxy<luabi
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -860,7 +860,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::index_proxy<luabi
          (luabind::detail::by_value<int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`int);
     luabind::detail::throw_error_policy<int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<int>::get();
@@ -922,7 +922,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -936,7 +936,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
          (luabind::detail::by_value<unsigned int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'unsigned int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`unsigned int);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<unsigned int>::get();
@@ -1021,7 +1021,7 @@ int __cdecl __noreturn luabind::detail::throw_error_policy<int>::handle_error(
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -1885,7 +1885,7 @@ float __cdecl luabind::detail::object_cast_aux<float,luabind::adl::index_proxy<l
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<float>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -1899,7 +1899,7 @@ float __cdecl luabind::detail::object_cast_aux<float,luabind::adl::index_proxy<l
          (luabind::detail::by_value<float>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'float);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`float);
     luabind::detail::throw_error_policy<float>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<float>::get();
@@ -1961,7 +1961,7 @@ bool __cdecl luabind::detail::object_cast_aux<bool,luabind::adl::index_proxy<lua
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<bool>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -1975,7 +1975,7 @@ bool __cdecl luabind::detail::object_cast_aux<bool,luabind::adl::index_proxy<lua
          (luabind::detail::by_value<bool>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'bool);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`bool);
     luabind::detail::throw_error_policy<bool>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<bool>::get();
@@ -2247,7 +2247,7 @@ unsigned __int64 __cdecl __noreturn luabind::detail::throw_error_policy<unsigned
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -2479,7 +2479,7 @@ boost::optional<luabind::adl::object> *__cdecl luabind::detail::object_cast_aux<
     {
       luabind::type_id::type_id(
         (luabind::type_id *const)(v6 + 96),
-        (const std::type_info *)&`typeinfo for'luabind::adl::object);
+        (const std::type_info *)&`typeinfo for`luabind::adl::object);
       if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
         || *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 15) >> 3) + 0x7FFF8000) != 0
         && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 15) >> 3)
@@ -2497,7 +2497,7 @@ boost::optional<luabind::adl::object> *__cdecl luabind::detail::object_cast_aux<
   }
   else
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 15) >> 3)
@@ -2592,7 +2592,7 @@ boost::optional<std::string > *__cdecl luabind::detail::object_cast_aux<std::str
     }
     else
     {
-      luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for'std::string);
+      luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for`std::string);
       if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
         || *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 31) >> 3) + 0x7FFF8000) != 0
         && (((unsigned __int8)retstr + 39) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 31) >> 3)
@@ -2610,7 +2610,7 @@ boost::optional<std::string > *__cdecl luabind::detail::object_cast_aux<std::str
   }
   else
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 31) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 39) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->m_storage.dummy_.aligner_ + 31) >> 3)
@@ -2706,7 +2706,7 @@ boost::optional<unsigned int> __cdecl luabind::detail::object_cast_aux<unsigned 
     }
     else
     {
-      luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'unsigned int);
+      luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`unsigned int);
       v8 = luabind::detail::nothrow_error_policy<unsigned int>::handle_error(
              interpreter,
              (const luabind::type_id *)(v5 + 96));
@@ -2716,7 +2716,7 @@ boost::optional<unsigned int> __cdecl luabind::detail::object_cast_aux<unsigned 
   }
   else
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     v8 = luabind::detail::nothrow_error_policy<unsigned int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   result = v8;
@@ -2772,7 +2772,7 @@ data::EventType __cdecl luabind::detail::object_cast_aux<data::EventType,luabind
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::EventType>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -2787,7 +2787,7 @@ data::EventType __cdecl luabind::detail::object_cast_aux<data::EventType,luabind
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::EventType);
+      (const std::type_info *)&`typeinfo for`data::EventType);
     luabind::detail::throw_error_policy<data::EventType>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<data::EventType>::get();
@@ -2850,7 +2850,7 @@ data::GadgetState __cdecl luabind::detail::object_cast_aux<data::GadgetState,lua
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::GadgetState>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -2865,7 +2865,7 @@ data::GadgetState __cdecl luabind::detail::object_cast_aux<data::GadgetState,lua
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::GadgetState);
+      (const std::type_info *)&`typeinfo for`data::GadgetState);
     luabind::detail::throw_error_policy<data::GadgetState>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -2930,7 +2930,7 @@ data::GadgetType __cdecl luabind::detail::object_cast_aux<data::GadgetType,luabi
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::GadgetType>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -2945,7 +2945,7 @@ data::GadgetType __cdecl luabind::detail::object_cast_aux<data::GadgetType,luabi
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::GadgetType);
+      (const std::type_info *)&`typeinfo for`data::GadgetType);
     luabind::detail::throw_error_policy<data::GadgetType>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3010,7 +3010,7 @@ data::PlatformRotType __cdecl luabind::detail::object_cast_aux<data::PlatformRot
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::PlatformRotType>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -3025,7 +3025,7 @@ data::PlatformRotType __cdecl luabind::detail::object_cast_aux<data::PlatformRot
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::PlatformRotType);
+      (const std::type_info *)&`typeinfo for`data::PlatformRotType);
     luabind::detail::throw_error_policy<data::PlatformRotType>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3090,7 +3090,7 @@ data::RegionShape __cdecl luabind::detail::object_cast_aux<data::RegionShape,lua
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::RegionShape>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -3105,7 +3105,7 @@ data::RegionShape __cdecl luabind::detail::object_cast_aux<data::RegionShape,lua
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::RegionShape);
+      (const std::type_info *)&`typeinfo for`data::RegionShape);
     luabind::detail::throw_error_policy<data::RegionShape>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3170,7 +3170,7 @@ data::VisionLevelType __cdecl luabind::detail::object_cast_aux<data::VisionLevel
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<data::VisionLevelType>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -3185,7 +3185,7 @@ data::VisionLevelType __cdecl luabind::detail::object_cast_aux<data::VisionLevel
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'data::VisionLevelType);
+      (const std::type_info *)&`typeinfo for`data::VisionLevelType);
     luabind::detail::throw_error_policy<data::VisionLevelType>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3249,7 +3249,7 @@ double __cdecl luabind::detail::object_cast_aux<double,luabind::adl::iterator_pr
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<double>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::unwrap<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(
@@ -3263,7 +3263,7 @@ double __cdecl luabind::detail::object_cast_aux<double,luabind::adl::iterator_pr
          (luabind::detail::by_value<double>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'double);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`double);
     luabind::detail::throw_error_policy<double>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<double>::get();
@@ -3325,7 +3325,7 @@ float __cdecl luabind::detail::object_cast_aux<float,luabind::adl::iterator_prox
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<float>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::unwrap<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(
@@ -3339,7 +3339,7 @@ float __cdecl luabind::detail::object_cast_aux<float,luabind::adl::iterator_prox
          (luabind::detail::by_value<float>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'float);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`float);
     luabind::detail::throw_error_policy<float>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<float>::get();
@@ -3401,7 +3401,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::iterator_proxy<lu
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::unwrap<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(
@@ -3415,7 +3415,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::iterator_proxy<lu
          (luabind::detail::by_value<int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`int);
     luabind::detail::throw_error_policy<int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<int>::get();
@@ -3477,7 +3477,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::object,luabind::d
   interpreter = luabind::value_wrapper_traits<luabind::adl::object>::interpreter(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::object>::unwrap(interpreter, value_wrapper);
@@ -3489,7 +3489,7 @@ int __cdecl luabind::detail::object_cast_aux<int,luabind::adl::object,luabind::d
          (luabind::detail::by_value<int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`int);
     luabind::detail::throw_error_policy<int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<int>::get();
@@ -3551,7 +3551,7 @@ luabind::adl::object __cdecl luabind::detail::object_cast_aux<luabind::adl::obje
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>((const luabind::adl::iterator_proxy<luabind::detail::basic_access> *)a2);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(_WORD *)(((unsigned __int64)value_wrapper >> 3) + 0x7FFF8000) )
       __asan_report_store16();
     luabind::detail::throw_error_policy<luabind::adl::object>::handle_error((lua_State_0 *)value_wrapper, 0LL);
@@ -3568,7 +3568,7 @@ luabind::adl::object __cdecl luabind::detail::object_cast_aux<luabind::adl::obje
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'luabind::adl::object);
+      (const std::type_info *)&`typeinfo for`luabind::adl::object);
     if ( *(_WORD *)(((unsigned __int64)value_wrapper >> 3) + 0x7FFF8000) )
       __asan_report_store16();
     luabind::detail::throw_error_policy<luabind::adl::object>::handle_error(
@@ -3638,7 +3638,7 @@ proto::GadgetBornType __cdecl luabind::detail::object_cast_aux<proto::GadgetBorn
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<proto::GadgetBornType>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -3653,7 +3653,7 @@ proto::GadgetBornType __cdecl luabind::detail::object_cast_aux<proto::GadgetBorn
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'proto::GadgetBornType);
+      (const std::type_info *)&`typeinfo for`proto::GadgetBornType);
     luabind::detail::throw_error_policy<proto::GadgetBornType>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3718,7 +3718,7 @@ proto::GroupLoadStrategy __cdecl luabind::detail::object_cast_aux<proto::GroupLo
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<proto::GroupLoadStrategy>::handle_error(
       0LL,
       (const luabind::type_id *)(v5 + 64));
@@ -3735,7 +3735,7 @@ proto::GroupLoadStrategy __cdecl luabind::detail::object_cast_aux<proto::GroupLo
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v5 + 96),
-      (const std::type_info *)&`typeinfo for'proto::GroupLoadStrategy);
+      (const std::type_info *)&`typeinfo for`proto::GroupLoadStrategy);
     luabind::detail::throw_error_policy<proto::GroupLoadStrategy>::handle_error(
       interpreter,
       (const luabind::type_id *)(v5 + 96));
@@ -3799,7 +3799,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -3821,7 +3821,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
          (luabind::detail::by_value<std::string >)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for'std::string);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for`std::string);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -3901,7 +3901,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
   interpreter = luabind::value_wrapper_traits<luabind::adl::object>::interpreter(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -3921,7 +3921,7 @@ std::string *__cdecl luabind::detail::object_cast_aux<std::string,luabind::adl::
          (luabind::detail::by_value<std::string >)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for'std::string);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 96), (const std::type_info *)&`typeinfo for`std::string);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 31) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_anon_0._M_allocated_capacity
@@ -4001,7 +4001,7 @@ std::vector<luabind::adl::object> *__cdecl luabind::detail::object_cast_aux<std:
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4027,7 +4027,7 @@ std::vector<luabind::adl::object> *__cdecl luabind::detail::object_cast_aux<std:
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v6 + 96),
-      (const std::type_info *)&`typeinfo for'std::vector<luabind::adl::object>);
+      (const std::type_info *)&`typeinfo for`std::vector<luabind::adl::object>);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4106,7 +4106,7 @@ std::vector<std::string> *__cdecl luabind::detail::object_cast_aux<std::vector<s
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4132,7 +4132,7 @@ std::vector<std::string> *__cdecl luabind::detail::object_cast_aux<std::vector<s
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v6 + 96),
-      (const std::type_info *)&`typeinfo for'std::vector<std::string>);
+      (const std::type_info *)&`typeinfo for`std::vector<std::string>);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4211,7 +4211,7 @@ std::vector<unsigned int> *__cdecl luabind::detail::object_cast_aux<std::vector<
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v6 + 64), (const std::type_info *)&`typeinfo for`void);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4237,7 +4237,7 @@ std::vector<unsigned int> *__cdecl luabind::detail::object_cast_aux<std::vector<
   {
     luabind::type_id::type_id(
       (luabind::type_id *const)(v6 + 96),
-      (const std::type_info *)&`typeinfo for'std::vector<unsigned int>);
+      (const std::type_info *)&`typeinfo for`std::vector<unsigned int>);
     if ( *(char *)(((unsigned __int64)retstr >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3) + 0x7FFF8000) != 0
       && (((unsigned __int8)retstr + 23) & 7) >= *(_BYTE *)((((unsigned __int64)&retstr->_M_impl._M_end_of_storage + 7) >> 3)
@@ -4316,7 +4316,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
   interpreter = luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::interpreter<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::iterator_proxy<luabind::detail::basic_access>>::unwrap<luabind::adl::iterator_proxy<luabind::detail::basic_access>>(
@@ -4330,7 +4330,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
          (luabind::detail::by_value<unsigned int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'unsigned int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`unsigned int);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<unsigned int>::get();
@@ -4392,7 +4392,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
   interpreter = luabind::value_wrapper_traits<luabind::adl::object>::interpreter(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::object>::unwrap(interpreter, value_wrapper);
@@ -4404,7 +4404,7 @@ unsigned int __cdecl luabind::detail::object_cast_aux<unsigned int,luabind::adl:
          (luabind::detail::by_value<unsigned int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'unsigned int);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`unsigned int);
     luabind::detail::throw_error_policy<unsigned int>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<unsigned int>::get();
@@ -4470,7 +4470,7 @@ data::EventType __cdecl __noreturn luabind::detail::throw_error_policy<data::Eve
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4486,7 +4486,7 @@ data::GadgetState __cdecl __noreturn luabind::detail::throw_error_policy<data::G
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4502,7 +4502,7 @@ data::GadgetType __cdecl __noreturn luabind::detail::throw_error_policy<data::Ga
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4518,7 +4518,7 @@ data::PlatformRotType __cdecl __noreturn luabind::detail::throw_error_policy<dat
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4534,7 +4534,7 @@ data::RegionShape __cdecl __noreturn luabind::detail::throw_error_policy<data::R
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4550,7 +4550,7 @@ data::VisionLevelType __cdecl __noreturn luabind::detail::throw_error_policy<dat
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4566,7 +4566,7 @@ double __cdecl __noreturn luabind::detail::throw_error_policy<double>::handle_er
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4582,7 +4582,7 @@ float __cdecl __noreturn luabind::detail::throw_error_policy<float>::handle_erro
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4601,7 +4601,7 @@ luabind::adl::object __cdecl __noreturn luabind::detail::throw_error_policy<luab
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4617,7 +4617,7 @@ proto::GadgetBornType __cdecl __noreturn luabind::detail::throw_error_policy<pro
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4633,7 +4633,7 @@ proto::GroupLoadStrategy __cdecl __noreturn luabind::detail::throw_error_policy<
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4650,7 +4650,7 @@ std::string *__cdecl __noreturn luabind::detail::throw_error_policy<std::string>
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4667,7 +4667,7 @@ std::vector<luabind::adl::object> *__cdecl __noreturn luabind::detail::throw_err
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4684,7 +4684,7 @@ std::vector<std::string> *__cdecl __noreturn luabind::detail::throw_error_policy
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4701,7 +4701,7 @@ std::vector<unsigned int> *__cdecl __noreturn luabind::detail::throw_error_polic
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -4717,7 +4717,7 @@ unsigned int __cdecl __noreturn luabind::detail::throw_error_policy<unsigned int
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'luabind::cast_failed,
+    (struct type_info *)&`typeinfo for`luabind::cast_failed,
     (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
 };
 
@@ -5425,7 +5425,7 @@ unsigned __int64 __cdecl luabind::detail::object_cast_aux<unsigned long,luabind:
   interpreter = luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::interpreter<luabind::adl::object>(value_wrapper);
   if ( !interpreter )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for'void);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 64), (const std::type_info *)&`typeinfo for`void);
     luabind::detail::throw_error_policy<unsigned long>::handle_error(0LL, (const luabind::type_id *)(v5 + 64));
   }
   luabind::value_wrapper_traits<luabind::adl::index_proxy<luabind::adl::object>>::unwrap<luabind::adl::object>(
@@ -5439,7 +5439,7 @@ unsigned __int64 __cdecl luabind::detail::object_cast_aux<unsigned long,luabind:
          (luabind::detail::by_value<long unsigned int>)-1,
          (int)interpreter) < 0 )
   {
-    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for'unsigned long);
+    luabind::type_id::type_id((luabind::type_id *const)(v5 + 96), (const std::type_info *)&`typeinfo for`unsigned long);
     luabind::detail::throw_error_policy<unsigned long>::handle_error(interpreter, (const luabind::type_id *)(v5 + 96));
   }
   luabind::detail::decorated_type<unsigned long>::get();

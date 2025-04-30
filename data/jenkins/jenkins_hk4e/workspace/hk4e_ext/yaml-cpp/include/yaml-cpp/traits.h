@@ -78,13 +78,13 @@ LABEL_11:
     operator delete(anonymous3);
   anonymous1 = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&anonymous2);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
                 + 0x7FFF8000) )
   {
     __asan_report_load8();
     goto LABEL_31;
   }
-  v8 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
+  v8 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
   vars30[0] = v8;
   if ( *(_BYTE *)(((unsigned __int64)(v8 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -93,7 +93,7 @@ LABEL_31:
     goto LABEL_32;
   }
   v9 = (unsigned __int64)vars30 + *(_QWORD *)(v8 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_32:
@@ -106,15 +106,15 @@ LABEL_33:
     __asan_report_store8();
     goto LABEL_34;
   }
-  *(_QWORD *)v9 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4] >> 3)
+  *(_QWORD *)v9 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_34:
     __asan_report_load8();
     goto LABEL_35;
   }
-  v10 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
+  v10 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
   anonymous0 = v10;
   if ( *(_BYTE *)(((unsigned __int64)(v10 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -123,7 +123,7 @@ LABEL_35:
     goto LABEL_36;
   }
   v11 = (unsigned __int64)&anonymous0 + *(_QWORD *)(v10 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_36:
@@ -136,15 +136,15 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  *(_QWORD *)v11 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2] >> 3)
+  *(_QWORD *)v11 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_38:
     __asan_report_load8();
     goto LABEL_39;
   }
-  v12 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
+  v12 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
   vars30[0] = v12;
   if ( *(_BYTE *)(((unsigned __int64)(v12 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -153,7 +153,7 @@ LABEL_39:
     goto LABEL_40;
   }
   v13 = (unsigned __int64)vars30 + *(_QWORD *)(v12 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_40:
@@ -166,7 +166,7 @@ LABEL_41:
   }
   if ( *(_BYTE *)((v13 >> 3) + 0x7FFF8000) )
     goto LABEL_41;
-  *(_QWORD *)v13 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
+  *(_QWORD *)v13 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   vars30[1] = 0LL;
   anonymous4 = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&anonymous4);
@@ -252,13 +252,13 @@ LABEL_11:
     operator delete(anonymous3);
   anonymous1 = (__int64)&`vtable for std::streambuf + 16;
   std::locale::~locale(&anonymous2);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1] >> 3)
                 + 0x7FFF8000) )
   {
     __asan_report_load8();
     goto LABEL_31;
   }
-  v8 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
+  v8 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
   vars30[0] = v8;
   if ( *(_BYTE *)(((unsigned __int64)(v8 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -267,7 +267,7 @@ LABEL_31:
     goto LABEL_32;
   }
   v9 = (unsigned __int64)vars30 + *(_QWORD *)(v8 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_32:
@@ -280,15 +280,15 @@ LABEL_33:
     __asan_report_store8();
     goto LABEL_34;
   }
-  *(_QWORD *)v9 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4] >> 3)
+  *(_QWORD *)v9 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_34:
     __asan_report_load8();
     goto LABEL_35;
   }
-  v10 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
+  v10 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
   anonymous0 = v10;
   if ( *(_BYTE *)(((unsigned __int64)(v10 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -297,7 +297,7 @@ LABEL_35:
     goto LABEL_36;
   }
   v11 = (unsigned __int64)&anonymous0 + *(_QWORD *)(v10 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_36:
@@ -310,15 +310,15 @@ LABEL_37:
     __asan_report_store8();
     goto LABEL_38;
   }
-  *(_QWORD *)v11 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2] >> 3)
+  *(_QWORD *)v11 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_38:
     __asan_report_load8();
     goto LABEL_39;
   }
-  v12 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
+  v12 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
   vars30[0] = v12;
   if ( *(_BYTE *)(((unsigned __int64)(v12 - 24) >> 3) + 0x7FFF8000) )
   {
@@ -327,7 +327,7 @@ LABEL_39:
     goto LABEL_40;
   }
   v13 = (unsigned __int64)vars30 + *(_QWORD *)(v12 - 24);
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3] >> 3)
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3] >> 3)
                 + 0x7FFF8000) )
   {
 LABEL_40:
@@ -340,7 +340,7 @@ LABEL_41:
   }
   if ( *(_BYTE *)((v13 >> 3) + 0x7FFF8000) )
     goto LABEL_41;
-  *(_QWORD *)v13 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
+  *(_QWORD *)v13 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   vars30[1] = 0LL;
   anonymous4 = (__int64)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)&anonymous4);

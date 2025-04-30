@@ -255,7 +255,7 @@ LABEL_47:
     __asan_handle_no_return(exception + 16);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   v11 = *text;
@@ -730,7 +730,7 @@ LABEL_51:
     __asan_handle_no_return(exception + 16);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   v20 = i - (_QWORD)text;
@@ -850,7 +850,7 @@ LABEL_91:
       __asan_handle_no_return(v45 + 16);
       _cxa_throw(
         (void *)v45,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     v35 = &this->boost::property_tree::detail::rapidxml::memory_pool<char>;
@@ -1043,7 +1043,7 @@ LABEL_163:
               __asan_handle_no_return(v55 + 16);
               _cxa_throw(
                 (void *)v55,
-                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
             }
             *(_QWORD *)v3 = v44 + 1;
@@ -1111,7 +1111,7 @@ LABEL_194:
               __asan_handle_no_return(v63 + 16);
               _cxa_throw(
                 (void *)v63,
-                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
             }
             v61 = (char **)((char *)&v35->m_begin + 1);
@@ -1415,7 +1415,7 @@ LABEL_373:
                                                           __asan_handle_no_return(v129 + 16);
                                                           _cxa_throw(
                                                             (void *)v129,
-                                                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                                         }
 LABEL_371:
@@ -1485,7 +1485,7 @@ LABEL_323:
                                               __asan_handle_no_return(v131 + 16);
                                               _cxa_throw(
                                                 (void *)v131,
-                                                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                             }
                                           }
@@ -2046,7 +2046,7 @@ LABEL_613:
                                       __asan_handle_no_return(v211 + 16);
                                       _cxa_throw(
                                         (void *)v211,
-                                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                     }
 LABEL_611:
@@ -2122,7 +2122,7 @@ LABEL_575:
                               __asan_handle_no_return(v213 + 16);
                               _cxa_throw(
                                 (void *)v213,
-                                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                             }
                             v169 = __asan_report_store1(v137, v171);
@@ -2226,7 +2226,7 @@ LABEL_556:
                                     __asan_handle_no_return(v191 + 16);
                                     _cxa_throw(
                                       (void *)v191,
-                                      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                   }
 LABEL_554:
@@ -2315,7 +2315,7 @@ LABEL_659:
                   __asan_handle_no_return(v227 + 16);
                   _cxa_throw(
                     (void *)v227,
-                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                 }
                 *(_QWORD *)(v4 + 8) = v61;
@@ -2448,7 +2448,7 @@ LABEL_145:
       __asan_handle_no_return(v246 + 16);
       _cxa_throw(
         (void *)v246,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     *(_QWORD *)v3 = (char *)v235 + 1;
@@ -2478,7 +2478,7 @@ LABEL_145:
     __asan_handle_no_return(v244 + 16);
     _cxa_throw(
       (void *)v244,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *(_QWORD *)v3 = (char *)v235 + 1;
@@ -2982,7 +2982,7 @@ LABEL_51:
     __asan_handle_no_return(exception + 16);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   v20 = i - (_QWORD)text;
@@ -3102,7 +3102,7 @@ LABEL_91:
       __asan_handle_no_return(v45 + 16);
       _cxa_throw(
         (void *)v45,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     v35 = &this->boost::property_tree::detail::rapidxml::memory_pool<char>;
@@ -3295,7 +3295,7 @@ LABEL_163:
               __asan_handle_no_return(v55 + 16);
               _cxa_throw(
                 (void *)v55,
-                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
             }
             *(_QWORD *)v3 = v44 + 1;
@@ -3363,7 +3363,7 @@ LABEL_194:
               __asan_handle_no_return(v63 + 16);
               _cxa_throw(
                 (void *)v63,
-                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
             }
             v61 = (char **)((char *)&v35->m_begin + 1);
@@ -3667,7 +3667,7 @@ LABEL_373:
                                                           __asan_handle_no_return(v129 + 16);
                                                           _cxa_throw(
                                                             (void *)v129,
-                                                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                                         }
 LABEL_371:
@@ -3737,7 +3737,7 @@ LABEL_323:
                                               __asan_handle_no_return(v131 + 16);
                                               _cxa_throw(
                                                 (void *)v131,
-                                                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                             }
                                           }
@@ -4298,7 +4298,7 @@ LABEL_613:
                                       __asan_handle_no_return(v211 + 16);
                                       _cxa_throw(
                                         (void *)v211,
-                                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                     }
 LABEL_611:
@@ -4374,7 +4374,7 @@ LABEL_575:
                               __asan_handle_no_return(v213 + 16);
                               _cxa_throw(
                                 (void *)v213,
-                                (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                 (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                             }
                             v169 = __asan_report_store1(v137, v171);
@@ -4478,7 +4478,7 @@ LABEL_556:
                                     __asan_handle_no_return(v191 + 16);
                                     _cxa_throw(
                                       (void *)v191,
-                                      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                   }
 LABEL_554:
@@ -4567,7 +4567,7 @@ LABEL_659:
                   __asan_handle_no_return(v227 + 16);
                   _cxa_throw(
                     (void *)v227,
-                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                 }
                 *(_QWORD *)(v4 + 8) = v61;
@@ -4700,7 +4700,7 @@ LABEL_145:
       __asan_handle_no_return(v246 + 16);
       _cxa_throw(
         (void *)v246,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     *(_QWORD *)v3 = (char *)v235 + 1;
@@ -4730,7 +4730,7 @@ LABEL_145:
     __asan_handle_no_return(v244 + 16);
     _cxa_throw(
       (void *)v244,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *(_QWORD *)v3 = (char *)v235 + 1;
@@ -4954,7 +4954,7 @@ LABEL_39:
                       __asan_handle_no_return(exception + 16);
                       _cxa_throw(
                         (void *)exception,
-                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                     }
 LABEL_32:
@@ -4997,7 +4997,7 @@ LABEL_56:
                       __asan_handle_no_return(v23 + 16);
                       _cxa_throw(
                         (void *)v23,
-                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                     }
                     if ( v20[1] == 62 )
@@ -5078,7 +5078,7 @@ LABEL_93:
           __asan_handle_no_return(v34 + 16);
           _cxa_throw(
             (void *)v34,
-            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
         }
         if ( v30[2] == 62 )
@@ -5192,7 +5192,7 @@ LABEL_150:
         __asan_handle_no_return(v56 + 16);
         _cxa_throw(
           (void *)v56,
-          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
       }
       if ( v47[2] == 62 )
@@ -5355,7 +5355,7 @@ LABEL_71:
         __asan_handle_no_return(v76 + 16);
         _cxa_throw(
           (void *)v76,
-          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
       }
     }
@@ -5410,7 +5410,7 @@ LABEL_190:
       __asan_handle_no_return(v74 + 16);
       _cxa_throw(
         (void *)v74,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     if ( v69 == 91 )
@@ -5445,7 +5445,7 @@ LABEL_207:
             __asan_handle_no_return(v72 + 16);
             _cxa_throw(
               (void *)v72,
-              (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+              (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
               (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
           }
           if ( v71 == 91 )
@@ -5634,7 +5634,7 @@ LABEL_39:
                       __asan_handle_no_return(exception + 16);
                       _cxa_throw(
                         (void *)exception,
-                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                     }
 LABEL_32:
@@ -5677,7 +5677,7 @@ LABEL_56:
                       __asan_handle_no_return(v23 + 16);
                       _cxa_throw(
                         (void *)v23,
-                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                     }
                     if ( v20[1] == 62 )
@@ -5747,7 +5747,7 @@ LABEL_71:
           __asan_handle_no_return(v80 + 16);
           _cxa_throw(
             (void *)v80,
-            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
         }
       }
@@ -5804,7 +5804,7 @@ LABEL_104:
         __asan_handle_no_return(v38 + 16);
         _cxa_throw(
           (void *)v38,
-          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
       }
       if ( v30[2] == 62 )
@@ -5987,7 +5987,7 @@ LABEL_170:
     __asan_handle_no_return(v60 + 16);
     _cxa_throw(
       (void *)v60,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   if ( v51[2] != 62 )
@@ -6166,7 +6166,7 @@ LABEL_210:
       __asan_handle_no_return(v78 + 16);
       _cxa_throw(
         (void *)v78,
-        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
     }
     if ( v73 == 91 )
@@ -6201,7 +6201,7 @@ LABEL_227:
             __asan_handle_no_return(v76 + 16);
             _cxa_throw(
               (void *)v76,
-              (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+              (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
               (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
           }
           if ( v75 == 91 )
@@ -6437,7 +6437,7 @@ LABEL_80:
         __asan_handle_no_return(exception + 16);
         _cxa_throw(
           (void *)exception,
-          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
       }
       *(_QWORD *)(v7 + 80) = 0LL;
@@ -6866,7 +6866,7 @@ LABEL_302:
                           __asan_handle_no_return(v101 + 16);
                           _cxa_throw(
                             (void *)v101,
-                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                         }
 LABEL_300:
@@ -6939,7 +6939,7 @@ LABEL_264:
                   __asan_handle_no_return(v102 + 16);
                   _cxa_throw(
                     (void *)v102,
-                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                 }
                 __asan_report_store1(j, v32);
@@ -7044,7 +7044,7 @@ LABEL_245:
                         __asan_handle_no_return(v82 + 16);
                         _cxa_throw(
                           (void *)v82,
-                          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                       }
 LABEL_243:
@@ -7417,7 +7417,7 @@ LABEL_41:
     __asan_handle_no_return(v20 + 16);
     _cxa_throw(
       (void *)v20,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *text = (char *)(v13 + 1);
@@ -8236,7 +8236,7 @@ LABEL_311:
                                   __asan_handle_no_return(exception + 16);
                                   _cxa_throw(
                                     (void *)exception,
-                                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                 }
 LABEL_309:
@@ -8308,7 +8308,7 @@ LABEL_273:
                           __asan_handle_no_return(v100 + 16);
                           _cxa_throw(
                             (void *)v100,
-                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                         }
                         __asan_report_store1(v37, v40);
@@ -8413,7 +8413,7 @@ LABEL_254:
                                 __asan_handle_no_return(v77 + 16);
                                 _cxa_throw(
                                   (void *)v77,
-                                  (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                  (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                   (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                               }
 LABEL_252:
@@ -8589,7 +8589,7 @@ LABEL_89:
                         __asan_handle_no_return(v30 + 16);
                         _cxa_throw(
                           (void *)v30,
-                          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                       }
 LABEL_87:
@@ -8710,7 +8710,7 @@ LABEL_50:
     __asan_handle_no_return(v25 + 16);
     _cxa_throw(
       (void *)v25,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *text = (char *)(v18 + 1);
@@ -9529,7 +9529,7 @@ LABEL_311:
                                   __asan_handle_no_return(exception + 16);
                                   _cxa_throw(
                                     (void *)exception,
-                                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                 }
 LABEL_309:
@@ -9601,7 +9601,7 @@ LABEL_273:
                           __asan_handle_no_return(v100 + 16);
                           _cxa_throw(
                             (void *)v100,
-                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                         }
                         __asan_report_store1(v37, v40);
@@ -9706,7 +9706,7 @@ LABEL_254:
                                 __asan_handle_no_return(v77 + 16);
                                 _cxa_throw(
                                   (void *)v77,
-                                  (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                  (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                   (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                               }
 LABEL_252:
@@ -9882,7 +9882,7 @@ LABEL_89:
                         __asan_handle_no_return(v30 + 16);
                         _cxa_throw(
                           (void *)v30,
-                          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                       }
 LABEL_87:
@@ -10003,7 +10003,7 @@ LABEL_50:
     __asan_handle_no_return(v25 + 16);
     _cxa_throw(
       (void *)v25,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *text = (char *)(v18 + 1);
@@ -10227,7 +10227,7 @@ LABEL_80:
         __asan_handle_no_return(exception + 16);
         _cxa_throw(
           (void *)exception,
-          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
       }
       *(_QWORD *)(v7 + 80) = 0LL;
@@ -10656,7 +10656,7 @@ LABEL_302:
                           __asan_handle_no_return(v101 + 16);
                           _cxa_throw(
                             (void *)v101,
-                            (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                            (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                             (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                         }
 LABEL_300:
@@ -10729,7 +10729,7 @@ LABEL_264:
                   __asan_handle_no_return(v102 + 16);
                   _cxa_throw(
                     (void *)v102,
-                    (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                    (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                     (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                 }
                 __asan_report_store1(j, v32);
@@ -10834,7 +10834,7 @@ LABEL_245:
                         __asan_handle_no_return(v82 + 16);
                         _cxa_throw(
                           (void *)v82,
-                          (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                          (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                           (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                       }
 LABEL_243:
@@ -11209,7 +11209,7 @@ LABEL_41:
     __asan_handle_no_return(v20 + 16);
     _cxa_throw(
       (void *)v20,
-      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
   }
   *text = (char *)(v13 + 1);

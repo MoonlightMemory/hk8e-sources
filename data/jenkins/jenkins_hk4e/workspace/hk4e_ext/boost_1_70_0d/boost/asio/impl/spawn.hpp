@@ -230,7 +230,7 @@ void __cdecl boost::asio::detail::coro_async_result<boost::asio::executor_binder
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'boost::system::system_error,
+      (struct type_info *)&`typeinfo for`boost::system::system_error,
       (void (__fastcall *)(void *))boost::system::system_error::~system_error);
   }
 };

@@ -1686,7 +1686,7 @@ int32_t __cdecl ConfigCCGConditionCardFetchVarImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -1697,7 +1697,7 @@ int32_t __cdecl ConfigCCGConditionCardFetchVarImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigCCGConditionCardFetchVarImpl::checkCondition(this, cur_skill, context, v7);
@@ -1718,10 +1718,10 @@ int32_t __cdecl ConfigCCGConditionCardFetchVarImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -1960,7 +1960,7 @@ int32_t __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -1971,7 +1971,7 @@ int32_t __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCharacterCheckAttachCardImpl::checkCondition(this, cur_skill, context, v7);
@@ -1992,10 +1992,10 @@ int32_t __cdecl ConfigGCGConditionCharacterCheckAttachCardImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -2368,7 +2368,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -2379,7 +2379,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterCampImpl::checkCondition(this, cur_skill, context, v7);
@@ -2400,10 +2400,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterCampImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -2967,7 +2967,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -2978,7 +2978,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterPositionImpl::checkCondition(this, cur_skill, context, v7);
@@ -2999,10 +2999,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterPositionImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -5937,7 +5937,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGSkill> const&>(&context->cur_context);
     std::shared_ptr<GCGSkill const>::shared_ptr<GCGSkill,void>(&v20, v4);
@@ -5948,7 +5948,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGSkill const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurSkillHasTagImpl::checkCondition(this, cur_skill, context, v7);
@@ -5969,10 +5969,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasTagImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -6263,7 +6263,7 @@ int32_t __cdecl ConfigGCGConditionCurCardHasTagImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -6274,7 +6274,7 @@ int32_t __cdecl ConfigGCGConditionCurCardHasTagImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCardHasTagImpl::checkCondition(this, cur_skill, context, v7);
@@ -6295,10 +6295,10 @@ int32_t __cdecl ConfigGCGConditionCurCardHasTagImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -6588,7 +6588,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -6599,7 +6599,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCardAttachToCardIDImpl::checkCondition(this, cur_skill, context, v7);
@@ -6620,10 +6620,10 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIDImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -7024,7 +7024,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -7035,7 +7035,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCardAttachToCardObjectImpl::checkCondition(this, cur_skill, context, v7);
@@ -7056,10 +7056,10 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardObjectImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -7559,7 +7559,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::checkConditio
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -7570,7 +7570,7 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::checkConditio
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCardAttachToCardIsTargetImpl::checkCondition(this, cur_skill, context, v7);
@@ -7591,10 +7591,10 @@ int32_t __cdecl ConfigGCGConditionCurCardAttachToCardIsTargetImpl::checkConditio
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -8174,7 +8174,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardCampImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -8185,7 +8185,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardCampImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCardCampImpl::checkCondition(this, cur_skill, context, v7);
@@ -8206,10 +8206,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardCampImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -8707,7 +8707,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGSkill> const&>(&context->cur_context);
     std::shared_ptr<GCGSkill const>::shared_ptr<GCGSkill,void>(&v20, v4);
@@ -8718,7 +8718,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGSkill const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurSkillUsedImpl::checkCondition(this, cur_skill, context, v7);
@@ -8739,10 +8739,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillUsedImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -9237,7 +9237,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -9248,7 +9248,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterHurtNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -9269,10 +9269,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHurtNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -11270,7 +11270,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGSkill> const&>(&context->cur_context);
     std::shared_ptr<GCGSkill const>::shared_ptr<GCGSkill,void>(&v20, v4);
@@ -11281,7 +11281,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGSkill const> const&>(&context->cur_context);
       return ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -11302,10 +11302,10 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillRoundUsedNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -11530,7 +11530,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGSkill> const&>(&context->cur_context);
     std::shared_ptr<GCGSkill const>::shared_ptr<GCGSkill,void>(&v20, v4);
@@ -11541,7 +11541,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGSkill const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurSkillHasSkillIDImpl::checkCondition(this, cur_skill, context, v7);
@@ -11562,10 +11562,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurSkillHasSkillIDImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -11803,7 +11803,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::checkCondition
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -11814,7 +11814,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::checkCondition
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterHasCardIDImpl::checkCondition(this, cur_skill, context, v7);
@@ -11835,10 +11835,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterHasCardIDImpl::checkCondition
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -12167,7 +12167,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -12178,7 +12178,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCardHasCardIDImpl::checkCondition(this, cur_skill, context, v7);
@@ -12199,10 +12199,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardHasCardIDImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -13269,7 +13269,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterHpNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -13280,7 +13280,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterHpNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCharacterHpNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -13301,10 +13301,10 @@ int32_t __cdecl ConfigGCGConditionCurCharacterHpNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -13622,7 +13622,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -13633,7 +13633,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCharacterEnergyNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -13654,10 +13654,10 @@ int32_t __cdecl ConfigGCGConditionCurCharacterEnergyNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -15643,7 +15643,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::checkCondition
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGSkill> const&>(&context->cur_context);
     std::shared_ptr<GCGSkill const>::shared_ptr<GCGSkill,void>(&v20, v4);
@@ -15654,7 +15654,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::checkCondition
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGSkill const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGSkill const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGSkill const> const&>(&context->cur_context);
       return ConfigGCGConditionFetchCurSkillOriginCostNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -15675,10 +15675,10 @@ int32_t __cdecl ConfigGCGConditionFetchCurSkillOriginCostNumImpl::checkCondition
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGSkill const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGSkill const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -15901,7 +15901,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::checkConditi
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -15912,7 +15912,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::checkConditi
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCardSetDamageElementImpl::checkCondition(this, cur_skill, context, v7);
@@ -15933,10 +15933,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardSetDamageElementImpl::checkConditi
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -16177,7 +16177,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -16188,7 +16188,7 @@ int32_t __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -16209,10 +16209,10 @@ int32_t __cdecl ConfigGCGConditionFetchCurCardAbsorbDiceNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -16696,7 +16696,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -16707,7 +16707,7 @@ int32_t __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCurCharacterNotChargedNumImpl::checkCondition(this, cur_skill, context, v7);
@@ -16728,10 +16728,10 @@ int32_t __cdecl ConfigGCGConditionCurCharacterNotChargedNumImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -19043,7 +19043,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardTypeImpl::checkCondition(
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -19054,7 +19054,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardTypeImpl::checkCondition(
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCardTypeImpl::checkCondition(this, cur_skill, context, v7);
@@ -19075,10 +19075,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCardTypeImpl::checkCondition(
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -19535,7 +19535,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImp
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -19550,7 +19550,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImp
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImpl::checkCondition(
@@ -19575,10 +19575,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterBeingHurtDamageElementTypeImp
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;
@@ -19934,7 +19934,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::ch
   common::milog::MiLogStream v21; // [rsp+60h] [rbp-30h] BYREF
 
   v3 = std::any::type(&context->cur_context);
-  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard>) )
+  if ( std::type_info::operator==(v3, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard>) )
   {
     v4 = std::any_cast<std::shared_ptr<GCGCard> const&>(&context->cur_context);
     std::shared_ptr<GCGCard const>::shared_ptr<GCGCard,void>(&v20, v4);
@@ -19945,7 +19945,7 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::ch
   else
   {
     v6 = std::any::type(&context->cur_context);
-    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'std::shared_ptr<GCGCard const>) )
+    if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`std::shared_ptr<GCGCard const>) )
     {
       v7 = std::any_cast<std::shared_ptr<GCGCard const> const&>(&context->cur_context);
       return ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::checkCondition(this, cur_skill, context, v7);
@@ -19966,10 +19966,10 @@ int32_t __cdecl ConfigGCGConditionCheckCurCharacterModifiedAssignTagCardImpl::ch
       val = (char *)std::type_info::name(v9);
       v10 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v8, (const char *const *)&val);
       v11 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v10, (const char (*)[13])" need type: ");
-      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard>);
+      v17 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard>);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&v17);
       v13 = common::milog::MiLogStream::operator<<<char [5],(char *[5])0>(v12, (const char (*)[5])off_1BC79980);
-      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGCard const>);
+      v18 = (char *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGCard const>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&v18);
       common::milog::MiLogStream::~MiLogStream(&v21);
       return -1;

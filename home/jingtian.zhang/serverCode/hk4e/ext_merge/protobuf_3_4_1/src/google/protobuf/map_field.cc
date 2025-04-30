@@ -146,7 +146,7 @@ void __fastcall google::protobuf::internal::MapFieldBase::SyncRepeatedFieldWithM
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           this->arena_,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::Message>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::Message>,
           0x18uLL);
       AlignedAndAddCleanup = (google::protobuf::RepeatedPtrField<google::protobuf::Message> *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                                 &arena->impl_,
@@ -683,7 +683,7 @@ LABEL_46:
           if ( p_impl[1].blocks_lock_.mInternal )
             google::protobuf::Arena::OnArenaAllocation(
               v11->alloc_.arena_,
-              (const std::type_info *)&`typeinfo for'unsigned char,
+              (const std::type_info *)&`typeinfo for`unsigned char,
               0x20uLL);
           Aligned = (google::protobuf::Map<google::protobuf::MapKey,google::protobuf::MapValueRef>::InnerMap::Node *)google::protobuf::internal::ArenaImpl::AllocateAligned(p_impl, 0x20uLL);
         }
@@ -816,7 +816,7 @@ LABEL_60:
             if ( arena->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 arena,
-                (const std::type_info *)&`typeinfo for'unsigned char,
+                (const std::type_info *)&`typeinfo for`unsigned char,
                 0x38uLL);
             v68 = (std::_Rb_tree<google::protobuf::MapKey*,google::protobuf::MapKey*,std::_Identity<google::protobuf::MapKey*>,google::protobuf::Map<google::protobuf::MapKey,google::protobuf::MapValueRef>::InnerMap::KeyCompare,google::protobuf::Map<google::protobuf::MapKey,google::protobuf::MapValueRef>::MapAllocator<google::protobuf::MapKey*> > *)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 0x38uLL);
           }
@@ -938,7 +938,7 @@ LABEL_9:
       if ( v27->hooks_cookie_ )
       {
         v83 = *(google::protobuf::Arena **)v6;
-        google::protobuf::Arena::OnArenaAllocation(v27, (const std::type_info *)&`typeinfo for'unsigned char, 0x20uLL);
+        google::protobuf::Arena::OnArenaAllocation(v27, (const std::type_info *)&`typeinfo for`unsigned char, 0x20uLL);
         v27 = v83;
       }
       v28 = (google::protobuf::MapKey *)google::protobuf::internal::ArenaImpl::AllocateAligned(&v27->impl_, 0x20uLL);
@@ -2042,7 +2042,7 @@ google::protobuf::Map<google::protobuf::MapKey,google::protobuf::MapValueRef>::I
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           this->arena_,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::Message>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::Message>,
           0x18uLL);
       AlignedAndAddCleanup = (google::protobuf::RepeatedPtrField<google::protobuf::Message> *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                                 &arena->impl_,
@@ -3886,7 +3886,7 @@ LABEL_124:
             if ( p_impl[1].blocks_lock_.mInternal )
               google::protobuf::Arena::OnArenaAllocation(
                 v37->alloc_.arena_,
-                (const std::type_info *)&`typeinfo for'unsigned char,
+                (const std::type_info *)&`typeinfo for`unsigned char,
                 0x20uLL);
             Aligned = (google::protobuf::Map<google::protobuf::MapKey,google::protobuf::MapValueRef>::InnerMap::Node *)google::protobuf::internal::ArenaImpl::AllocateAligned(p_impl, 0x20uLL);
           }
@@ -4021,7 +4021,7 @@ LABEL_139:
               if ( arena->hooks_cookie_ )
                 google::protobuf::Arena::OnArenaAllocation(
                   arena,
-                  (const std::type_info *)&`typeinfo for'unsigned char,
+                  (const std::type_info *)&`typeinfo for`unsigned char,
                   0x38uLL);
               v120 = (google::protobuf::internal::ArenaImpl *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                                 &arena->impl_,
@@ -4168,7 +4168,7 @@ LABEL_56:
       if ( v67[1].blocks_lock_.mInternal )
         google::protobuf::Arena::OnArenaAllocation(
           v2->map_.arena_,
-          (const std::type_info *)&`typeinfo for'unsigned char,
+          (const std::type_info *)&`typeinfo for`unsigned char,
           0x20uLL);
       v68 = (google::protobuf::MapKey *)google::protobuf::internal::ArenaImpl::AllocateAligned(v67, 0x20uLL);
       v69 = v2->map_.arena_;

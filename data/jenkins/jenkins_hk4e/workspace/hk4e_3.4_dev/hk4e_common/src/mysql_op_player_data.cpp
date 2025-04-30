@@ -757,7 +757,7 @@ int32_t __cdecl MysqlOpPlayerData::selectPlayerUidByAccount(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<TablePlayerUid>::empty((const std::vector<TablePlayerUid> *const)(v4 + 224)) )
@@ -1007,7 +1007,7 @@ int32_t __cdecl MysqlOpPlayerData::selectPlayerUidByUid(uint32_t uid, TablePlaye
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<TablePlayerUid>::empty((const std::vector<TablePlayerUid> *const)(v3 + 160)) )
@@ -1565,7 +1565,7 @@ int32_t __cdecl MysqlOpPlayerData::getPlayerUidCount(uint32_t *count)
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<mysqlpp::Row>::size((const std::vector<mysqlpp::Row> *const)(v1 + 600)) == 1 )
@@ -1825,7 +1825,7 @@ __int64 __fastcall MysqlOpPlayerData::selectPlayerDataByUid(
           __asan_handle_no_return(exception);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'std::logic_error,
+            (struct type_info *)&`typeinfo for`std::logic_error,
             (void (__fastcall *)(void *))&std::logic_error::~logic_error);
         }
         if ( std::vector<TablePlayerData>::empty((const std::vector<TablePlayerData> *const)(v3 + 160)) )
@@ -2185,7 +2185,7 @@ int32_t __cdecl MysqlOpPlayerData::selectPlayerJsonAndExtraBinDataByUid(
           __asan_handle_no_return(exception);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'std::logic_error,
+            (struct type_info *)&`typeinfo for`std::logic_error,
             (void (__fastcall *)(void *))&std::logic_error::~logic_error);
         }
         if ( std::vector<TablePlayerJsonAndExtraBinData>::empty((const std::vector<TablePlayerJsonAndExtraBinData> *const)(v3 + 160)) )
@@ -3871,7 +3871,7 @@ int32_t __cdecl MysqlOpPlayerData::selectBlockData(
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       v6 = 0;
@@ -4086,7 +4086,7 @@ int32_t __cdecl MysqlOpPlayerData::selectAllBlockData(uint32_t uid, std::vector<
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       v13 = *(unsigned __int8 *)(((v2 + 80) >> 3) + 0x7FFF8000);

@@ -1505,7 +1505,7 @@ LABEL_308:
                                       __asan_handle_no_return(exception + 16);
                                       _cxa_throw(
                                         (void *)exception,
-                                        (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                        (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                         (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                     }
                                   }
@@ -1721,7 +1721,7 @@ LABEL_381:
                                     __asan_handle_no_return(v107 + 16);
                                     _cxa_throw(
                                       (void *)v107,
-                                      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                   }
                                 }
@@ -1939,7 +1939,7 @@ LABEL_234:
                                     __asan_handle_no_return(v73 + 16);
                                     _cxa_throw(
                                       (void *)v73,
-                                      (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                                      (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                                       (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
                                   }
                                 }
@@ -2170,7 +2170,7 @@ LABEL_161:
                 __asan_handle_no_return(v56 + 16);
                 _cxa_throw(
                   (void *)v56,
-                  (struct type_info *)&`typeinfo for'boost::property_tree::detail::rapidxml::parse_error,
+                  (struct type_info *)&`typeinfo for`boost::property_tree::detail::rapidxml::parse_error,
                   (void (__fastcall *)(void *))boost::property_tree::detail::rapidxml::parse_error::~parse_error);
               }
             }

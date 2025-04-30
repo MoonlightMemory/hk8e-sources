@@ -24,7 +24,7 @@ std::shared_ptr<LuaScriptMgr> __cdecl common::minet::CoroutineContext::get<std::
   v4 = (unsigned __int64)v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116352;
-  std::type_index::type_index(v2 + 4, (const std::type_info *)&`typeinfo for'std::shared_ptr<LuaScriptMgr>);
+  std::type_index::type_index(v2 + 4, (const std::type_info *)&`typeinfo for`std::shared_ptr<LuaScriptMgr>);
   if ( !common::tools::MiscUtils::isContains<std::map<std::type_index,std::any>,std::type_index>(v1, v2 + 4) )
   {
     std::shared_ptr<LuaScriptMgr>::shared_ptr((std::shared_ptr<LuaScriptMgr> *const)this, 0LL);
@@ -99,7 +99,7 @@ volatile signed __int32 *__fastcall common::minet::CoroutineContext::get<std::sh
   v5 = v4 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116352;
-  *(_QWORD *)(v4 + 32) = &`typeinfo for'std::shared_ptr<MonitorReportUtils::Context>;
+  *(_QWORD *)(v4 + 32) = &`typeinfo for`std::shared_ptr<MonitorReportUtils::Context>;
   M_parent = (std::_Rb_tree_node<std::pair<const std::type_index,std::any> > *)(v4 + 32);
   if ( !common::tools::MiscUtils::isContains<std::map<std::type_index,std::any>,std::type_index>(
           &this->container_,
@@ -278,7 +278,7 @@ LABEL_55:
     __asan_handle_no_return(v25);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'std::bad_any_cast,
+      (struct type_info *)&`typeinfo for`std::bad_any_cast,
       (void (__fastcall *)(void *))std::bad_any_cast::~bad_any_cast);
   }
   ++*(_DWORD *)(v20 + 8);
@@ -345,7 +345,7 @@ volatile signed __int32 *__fastcall common::minet::CoroutineContext::get<std::sh
   v5 = v4 >> 3;
   *(_DWORD *)(v5 + 2147450880) = -235802127;
   *(_DWORD *)(v5 + 2147450884) = -202116352;
-  *(_QWORD *)(v4 + 32) = &`typeinfo for'std::shared_ptr<StatLogUtils::Context>;
+  *(_QWORD *)(v4 + 32) = &`typeinfo for`std::shared_ptr<StatLogUtils::Context>;
   M_parent = (std::_Rb_tree_node<std::pair<const std::type_index,std::any> > *)(v4 + 32);
   if ( !common::tools::MiscUtils::isContains<std::map<std::type_index,std::any>,std::type_index>(
           &this->container_,
@@ -524,7 +524,7 @@ LABEL_55:
     __asan_handle_no_return(v25);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'std::bad_any_cast,
+      (struct type_info *)&`typeinfo for`std::bad_any_cast,
       (void (__fastcall *)(void *))std::bad_any_cast::~bad_any_cast);
   }
   ++*(_DWORD *)(v20 + 8);

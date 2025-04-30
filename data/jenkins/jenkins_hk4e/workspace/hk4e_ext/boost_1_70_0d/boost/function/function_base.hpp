@@ -867,7 +867,7 @@ void __fastcall boost::detail::function::functor_manager<boost::algorithm::detai
     }
     else
     {
-      out_buffer->members.obj_ptr = &`typeinfo for'boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>;
+      out_buffer->members.obj_ptr = &`typeinfo for`boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>;
       in_buffer = (const boost::detail::function::function_buffer *)&out_buffer->data[8];
       if ( *(char *)(((unsigned __int64)&out_buffer->data[8] >> 3) + 0x7FFF8000) >= 0 )
       {
@@ -1031,7 +1031,7 @@ LABEL_61:
   {
     if ( !*(_BYTE *)(((unsigned __int64)out_buffer >> 3) + 0x7FFF8000) )
     {
-      out_buffer->members.obj_ptr = &`typeinfo for'boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>;
+      out_buffer->members.obj_ptr = &`typeinfo for`boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>;
       v7 = (boost::detail::function::function_buffer *)&out_buffer->data[8];
       if ( *(char *)(((unsigned __int64)&out_buffer->data[8] >> 3) + 0x7FFF8000) >= 0 )
       {

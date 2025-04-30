@@ -26070,10 +26070,10 @@ int32_t __cdecl JsonConfigMgr::rewriteWidgetConfig(JsonConfigMgr *const this, HK
   v4[536862757] = -202116109;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 384),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetOneoffGatherPointDetector);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetOneoffGatherPointDetector);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 392),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetClientDetector);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetClientDetector);
   __la._M_array = (std::initializer_list<std::type_index>::iterator)(v2 + 384);
   __la._M_len = 2LL;
   std::allocator<std::type_index>::allocator((std::allocator<std::type_index> *const)(v2 + 80));
@@ -26280,28 +26280,28 @@ LABEL_36:
   v25[1] = 0;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1120),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyAnchorPoint);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyAnchorPoint);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1128),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyBonfire);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyBonfire);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1136),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyLunchBox);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyLunchBox);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1144),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyMiracleRing);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyMiracleRing);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1152),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetLightStone);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetLightStone);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1160),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyHitTree);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyHitTree);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1168),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetWeatherWizard);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetWeatherWizard);
   std::type_index::type_index(
     (std::type_index *const)(v2 + 1176),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetCoinCollect);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetCoinCollect);
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 1;
   *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) = 1;
   *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) = 1;
@@ -28420,7 +28420,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
           else
           {
             v56 = std::any::type((const std::any *const)(v2 + 1376));
-            if ( std::type_info::operator==(v56, (const std::type_info *)&`typeinfo for'data::ConfigAbility) )
+            if ( std::type_info::operator==(v56, (const std::type_info *)&`typeinfo for`data::ConfigAbility) )
             {
               __asan_unpoison_stack_memory(v2 + 4832, 640LL);
               if ( *(char *)(((v2 + 4832) >> 3) + 0x7FFF8000) < 0
@@ -28449,7 +28449,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
               v57 = std::any::type((const std::any *const)(v2 + 1376));
               if ( std::type_info::operator==(
                      v57,
-                     (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbility>) )
+                     (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbility>) )
               {
                 *(_WORD *)(((v2 + 1408) >> 3) + 0x7FFF8000) = 0;
                 if ( *(_WORD *)(((v2 + 1408) >> 3) + 0x7FFF8000) )
@@ -28485,7 +28485,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                 v61 = std::any::type((const std::any *const)(v2 + 1376));
                 if ( std::type_info::operator==(
                        v61,
-                       (const std::type_info *)&`typeinfo for'std::unordered_map<std::string,std::shared_ptr<data::ConfigAbility>>) )
+                       (const std::type_info *)&`typeinfo for`std::unordered_map<std::string,std::shared_ptr<data::ConfigAbility>>) )
                 {
                   v62 = ((v2 + 3920) >> 3) + 2147450880;
                   *(_DWORD *)v62 = 0;
@@ -28541,7 +28541,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                   v65 = std::any::type((const std::any *const)(v2 + 1376));
                   if ( std::type_info::operator==(
                          v65,
-                         (const std::type_info *)&`typeinfo for'data::ConfigAbilityModifier) )
+                         (const std::type_info *)&`typeinfo for`data::ConfigAbilityModifier) )
                   {
                     __asan_unpoison_stack_memory(v2 + 5600, 896LL);
                     if ( *(char *)(((v2 + 5600) >> 3) + 0x7FFF8000) < 0
@@ -28572,7 +28572,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                     v66 = std::any::type((const std::any *const)(v2 + 1376));
                     if ( std::type_info::operator==(
                            v66,
-                           (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityModifier>) )
+                           (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityModifier>) )
                     {
                       *(_WORD *)(((v2 + 1472) >> 3) + 0x7FFF8000) = 0;
                       if ( *(_WORD *)(((v2 + 1472) >> 3) + 0x7FFF8000) )
@@ -28608,7 +28608,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                       v70 = std::any::type((const std::any *const)(v2 + 1376));
                       if ( std::type_info::operator==(
                              v70,
-                             (const std::type_info *)&`typeinfo for'std::unordered_map<std::string,std::shared_ptr<data::ConfigAbilityModifier>>) )
+                             (const std::type_info *)&`typeinfo for`std::unordered_map<std::string,std::shared_ptr<data::ConfigAbilityModifier>>) )
                       {
                         v71 = ((v2 + 4016) >> 3) + 2147450880;
                         *(_DWORD *)v71 = 0;
@@ -28664,7 +28664,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                         v74 = std::any::type((const std::any *const)(v2 + 1376));
                         if ( std::type_info::operator==(
                                v74,
-                               (const std::type_info *)&`typeinfo for'data::ConfigAbilityAction) )
+                               (const std::type_info *)&`typeinfo for`data::ConfigAbilityAction) )
                         {
                           v75 = ((v2 + 4624) >> 3) + 2147450880;
                           *(_DWORD *)v75 = 0;
@@ -28705,7 +28705,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                           v77 = std::any::type((const std::any *const)(v2 + 1376));
                           if ( std::type_info::operator==(
                                  v77,
-                                 (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityAction>) )
+                                 (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityAction>) )
                           {
                             *(_WORD *)(((v2 + 1536) >> 3) + 0x7FFF8000) = 0;
                             if ( *(_WORD *)(((v2 + 1536) >> 3) + 0x7FFF8000) )
@@ -28741,7 +28741,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                             v81 = std::any::type((const std::any *const)(v2 + 1376));
                             if ( std::type_info::operator==(
                                    v81,
-                                   (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
+                                   (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
                             {
                               v82 = ((v2 + 1920) >> 3) + 2147450880;
                               *(_WORD *)v82 = 0;
@@ -28793,7 +28793,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                               v85 = std::any::type((const std::any *const)(v2 + 1376));
                               if ( std::type_info::operator==(
                                      v85,
-                                     (const std::type_info *)&`typeinfo for'data::ConfigAbilityMixin) )
+                                     (const std::type_info *)&`typeinfo for`data::ConfigAbilityMixin) )
                               {
                                 *(_DWORD *)(((v2 + 3200) >> 3) + 0x7FFF8000) = 0;
                                 if ( *(char *)(((v2 + 3200) >> 3) + 0x7FFF8000) < 0
@@ -28824,7 +28824,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                 v86 = std::any::type((const std::any *const)(v2 + 1376));
                                 if ( std::type_info::operator==(
                                        v86,
-                                       (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityMixin>) )
+                                       (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityMixin>) )
                                 {
                                   *(_WORD *)(((v2 + 1600) >> 3) + 0x7FFF8000) = 0;
                                   if ( *(_WORD *)(((v2 + 1600) >> 3) + 0x7FFF8000) )
@@ -28860,7 +28860,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                   v90 = std::any::type((const std::any *const)(v2 + 1376));
                                   if ( std::type_info::operator==(
                                          v90,
-                                         (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityMixin>>) )
+                                         (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityMixin>>) )
                                   {
                                     v91 = ((v2 + 1984) >> 3) + 2147450880;
                                     *(_WORD *)v91 = 0;
@@ -28912,7 +28912,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                     v94 = std::any::type((const std::any *const)(v2 + 1376));
                                     if ( std::type_info::operator==(
                                            v94,
-                                           (const std::type_info *)&`typeinfo for'data::ConfigAbilityPredicate) )
+                                           (const std::type_info *)&`typeinfo for`data::ConfigAbilityPredicate) )
                                     {
                                       *(_DWORD *)(((v2 + 3392) >> 3) + 0x7FFF8000) = 0;
                                       if ( *(char *)(((v2 + 3392) >> 3) + 0x7FFF8000) < 0
@@ -28943,7 +28943,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                       v95 = std::any::type((const std::any *const)(v2 + 1376));
                                       if ( std::type_info::operator==(
                                              v95,
-                                             (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityPredicate>) )
+                                             (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityPredicate>) )
                                       {
                                         *(_WORD *)(((v2 + 1664) >> 3) + 0x7FFF8000) = 0;
                                         if ( *(_WORD *)(((v2 + 1664) >> 3) + 0x7FFF8000) )
@@ -28980,7 +28980,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                         v99 = std::any::type((const std::any *const)(v2 + 1376));
                                         if ( std::type_info::operator==(
                                                v99,
-                                               (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>) )
+                                               (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>) )
                                         {
                                           v100 = ((v2 + 2048) >> 3) + 2147450880;
                                           *(_WORD *)v100 = 0;
@@ -29032,7 +29032,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                           v103 = std::any::type((const std::any *const)(v2 + 1376));
                                           if ( std::type_info::operator==(
                                                  v103,
-                                                 (const std::type_info *)&`typeinfo for'std::vector<data::DynamicFloat>) )
+                                                 (const std::type_info *)&`typeinfo for`std::vector<data::DynamicFloat>) )
                                           {
                                             v104 = ((v2 + 2112) >> 3) + 2147450880;
                                             *(_WORD *)v104 = 0;
@@ -29085,7 +29085,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                             v107 = std::any::type((const std::any *const)(v2 + 1376));
                                             if ( std::type_info::operator==(
                                                    v107,
-                                                   (const std::type_info *)&`typeinfo for'std::unordered_map<std::string,data::DynamicFloat>) )
+                                                   (const std::type_info *)&`typeinfo for`std::unordered_map<std::string,data::DynamicFloat>) )
                                             {
                                               v108 = ((v2 + 4112) >> 3) + 2147450880;
                                               *(_DWORD *)v108 = 0;
@@ -29142,7 +29142,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                               v111 = std::any::type((const std::any *const)(v2 + 1376));
                                               if ( std::type_info::operator==(
                                                      v111,
-                                                     (const std::type_info *)&`typeinfo for'std::vector<data::DynamicInt>) )
+                                                     (const std::type_info *)&`typeinfo for`std::vector<data::DynamicInt>) )
                                               {
                                                 v112 = ((v2 + 2176) >> 3) + 2147450880;
                                                 *(_WORD *)v112 = 0;
@@ -29194,7 +29194,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                 v115 = std::any::type((const std::any *const)(v2 + 1376));
                                                 if ( std::type_info::operator==(
                                                        v115,
-                                                       (const std::type_info *)&`typeinfo for'std::unordered_map<std::string,data::DynamicInt>) )
+                                                       (const std::type_info *)&`typeinfo for`std::unordered_map<std::string,data::DynamicInt>) )
                                                 {
                                                   v116 = ((v2 + 4208) >> 3) + 2147450880;
                                                   *(_DWORD *)v116 = 0;
@@ -29251,7 +29251,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                   v119 = std::any::type((const std::any *const)(v2 + 1376));
                                                   if ( std::type_info::operator==(
                                                          v119,
-                                                         (const std::type_info *)&`typeinfo for'std::vector<data::DynamicString>) )
+                                                         (const std::type_info *)&`typeinfo for`std::vector<data::DynamicString>) )
                                                   {
                                                     v120 = ((v2 + 2240) >> 3) + 2147450880;
                                                     *(_WORD *)v120 = 0;
@@ -29304,7 +29304,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                     v123 = std::any::type((const std::any *const)(v2 + 1376));
                                                     if ( std::type_info::operator==(
                                                            v123,
-                                                           (const std::type_info *)&`typeinfo for'std::unordered_map<std::string,data::DynamicString>) )
+                                                           (const std::type_info *)&`typeinfo for`std::unordered_map<std::string,data::DynamicString>) )
                                                     {
                                                       v124 = ((v2 + 4304) >> 3) + 2147450880;
                                                       *(_DWORD *)v124 = 0;
@@ -29361,7 +29361,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                       v127 = std::any::type((const std::any *const)(v2 + 1376));
                                                       if ( std::type_info::operator==(
                                                              v127,
-                                                             (const std::type_info *)&`typeinfo for'data::DynamicFloat) )
+                                                             (const std::type_info *)&`typeinfo for`data::DynamicFloat) )
                                                       {
                                                         *(_DWORD *)(((v2 + 3584) >> 3) + 0x7FFF8000) = 0;
                                                         if ( *(char *)(((v2 + 3584) >> 3) + 0x7FFF8000) < 0
@@ -29420,7 +29420,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                         v131 = std::any::type((const std::any *const)(v2 + 1376));
                                                         if ( std::type_info::operator==(
                                                                v131,
-                                                               (const std::type_info *)&`typeinfo for'data::DynamicInt) )
+                                                               (const std::type_info *)&`typeinfo for`data::DynamicInt) )
                                                         {
                                                           v132 = ((v2 + 3840) >> 3) + 2147450880;
                                                           *(_DWORD *)v132 = 0;
@@ -29484,7 +29484,7 @@ int32_t __cdecl JsonConfigMgr::checkAbilityConfig(JsonConfigMgr *const this)
                                                           v138 = std::any::type((const std::any *const)(v2 + 1376));
                                                           if ( std::type_info::operator==(
                                                                  v138,
-                                                                 (const std::type_info *)&`typeinfo for'data::DynamicString) )
+                                                                 (const std::type_info *)&`typeinfo for`data::DynamicString) )
                                                           {
                                                             v139 = ((v2 + 4512) >> 3) + 2147450880;
                                                             *(_DWORD *)v139 = 0;
@@ -29774,7 +29774,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleAbilityConfigMember(const JsonConfigMg
   v5[536862738] = -202116109;
   v5[536862739] = -202116109;
   v6 = std::any::type(member);
-  if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for'data::WatcherSystemMixin) )
+  if ( std::type_info::operator==(v6, (const std::type_info *)&`typeinfo for`data::WatcherSystemMixin) )
   {
     if ( *(char *)(((v3 + 288) >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)(((v3 + 391) >> 3) + 0x7FFF8000) != 0
@@ -29788,7 +29788,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleAbilityConfigMember(const JsonConfigMg
     goto LABEL_41;
   }
   v7 = std::any::type(member);
-  if ( std::type_info::operator==(v7, (const std::type_info *)&`typeinfo for'data::ServerFinishWatcherMixin) )
+  if ( std::type_info::operator==(v7, (const std::type_info *)&`typeinfo for`data::ServerFinishWatcherMixin) )
   {
     if ( *(char *)(((v3 + 192) >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)(((v3 + 255) >> 3) + 0x7FFF8000) != 0
@@ -29802,7 +29802,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleAbilityConfigMember(const JsonConfigMg
     goto LABEL_41;
   }
   v8 = std::any::type(member);
-  if ( std::type_info::operator==(v8, (const std::type_info *)&`typeinfo for'data::DoWatcherSystemAction) )
+  if ( std::type_info::operator==(v8, (const std::type_info *)&`typeinfo for`data::DoWatcherSystemAction) )
   {
     if ( *(char *)(((v3 + 432) >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)(((v3 + 575) >> 3) + 0x7FFF8000) != 0
@@ -29816,7 +29816,7 @@ int32_t __cdecl JsonConfigMgr::checkSingleAbilityConfigMember(const JsonConfigMg
     goto LABEL_41;
   }
   v9 = std::any::type(member);
-  if ( std::type_info::operator==(v9, (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityMixin>) )
+  if ( std::type_info::operator==(v9, (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityMixin>) )
   {
     if ( *(_WORD *)(((v3 + 32) >> 3) + 0x7FFF8000) )
       __asan_report_store16();
@@ -29861,7 +29861,7 @@ LABEL_40:
   v14 = std::any::type(member);
   if ( !std::type_info::operator==(
           v14,
-          (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityAction>) )
+          (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityAction>) )
     goto LABEL_40;
   if ( *(_WORD *)(((v3 + 128) >> 3) + 0x7FFF8000) )
     __asan_report_store16();
@@ -41070,7 +41070,7 @@ void __cdecl JsonConfigMgr::checkAndParsePredicateStringToHash(JsonConfigMgr *co
   v5 = std::any::type(member);
   if ( std::type_info::operator==(
          v5,
-         (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityPredicate>) )
+         (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityPredicate>) )
   {
     v6 = std::any_cast<std::shared_ptr<data::ConfigAbilityPredicate> &>(member);
     std::shared_ptr<data::ConfigAbilityPredicate>::shared_ptr(
@@ -41089,14 +41089,14 @@ void __cdecl JsonConfigMgr::checkAndParsePredicateStringToHash(JsonConfigMgr *co
     v7 = std::any::type(member);
     if ( std::type_info::operator==(
            v7,
-           (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>) )
+           (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>) )
     {
       __for_range = std::any_cast<std::vector<std::shared_ptr<data::ConfigAbilityPredicate>> &>(member);
       if ( *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) )
-        __asan_report_store8(v2 + 32, &`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>);
+        __asan_report_store8(v2 + 32, &`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>);
       *(std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>::iterator *)(v2 + 32) = std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>::begin(__for_range);
       if ( *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) )
-        __asan_report_store8(v2 + 64, &`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>);
+        __asan_report_store8(v2 + 64, &`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>);
       *(std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>::iterator *)(v2 + 64) = std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>::end(__for_range);
       while ( __gnu_cxx::operator!=<std::shared_ptr<data::ConfigAbilityPredicate> *,std::vector<std::shared_ptr<data::ConfigAbilityPredicate>>>(
                 (const __gnu_cxx::__normal_iterator<std::shared_ptr<data::ConfigAbilityPredicate>*,std::vector<std::shared_ptr<data::ConfigAbilityPredicate>> > *)(v2 + 32),
@@ -42702,7 +42702,7 @@ void __cdecl JsonConfigMgr::parseMiscAbilityStringToHash(void)::{lambda(std::any
   v4[536862732] = -218959118;
   v4[536862734] = -202116109;
   v5 = std::any::type(member);
-  if ( !std::type_info::operator!=(v5, (const std::type_info *)&`typeinfo for'std::string) )
+  if ( !std::type_info::operator!=(v5, (const std::type_info *)&`typeinfo for`std::string) )
   {
     if ( *(char *)(((unsigned __int64)&v2[1] >> 3) + 0x7FFF8000) < 0
       || *(_BYTE *)((((unsigned __int64)&v2[1]._anon_0._M_allocated_capacity + 15) >> 3) + 0x7FFF8000) != 0

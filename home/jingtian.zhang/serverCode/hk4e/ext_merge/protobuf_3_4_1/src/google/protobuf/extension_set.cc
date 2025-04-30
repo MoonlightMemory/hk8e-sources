@@ -707,7 +707,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddInt32(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<int>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<int>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -718,7 +718,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddInt32(
       v13 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v12 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v13[1] = Aligned;
       *Aligned = arena;
@@ -928,7 +928,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddInt64(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<long>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<long>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -939,7 +939,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddInt64(
       v13 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v12 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v13[1] = Aligned;
       *Aligned = arena;
@@ -1149,7 +1149,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddUInt32(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned int>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned int>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -1160,7 +1160,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddUInt32(
       v13 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v12 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v13[1] = Aligned;
       *Aligned = arena;
@@ -1370,7 +1370,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddUInt64(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned long>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned long>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -1381,7 +1381,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddUInt64(
       v13 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v12 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v13[1] = Aligned;
       *Aligned = arena;
@@ -1593,7 +1593,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddFloat(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<float>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<float>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -1604,7 +1604,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddFloat(
       v12 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v11 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v12[1] = Aligned;
       *Aligned = arena;
@@ -1816,7 +1816,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddDouble(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<double>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<double>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -1827,7 +1827,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddDouble(
       v12 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v11 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v12[1] = Aligned;
       *Aligned = arena;
@@ -2037,7 +2037,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddBool(
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<bool>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<bool>,
           0x10uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -2048,7 +2048,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::AddBool(
       v13 = AlignedAndAddCleanup;
       AlignedAndAddCleanup[1] = 0LL;
       if ( !v12 )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
       Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
       v13[1] = Aligned;
       *Aligned = arena;
@@ -2135,7 +2135,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<double>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<double>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<double>>;
         goto LABEL_7;
@@ -2146,7 +2146,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<float>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<float>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<float>>;
         goto LABEL_7;
@@ -2159,7 +2159,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<long>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<long>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<long>>;
         goto LABEL_7;
@@ -2172,7 +2172,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned long>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned long>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<unsigned long>>;
         goto LABEL_7;
@@ -2186,7 +2186,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<int>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<int>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<int>>;
         goto LABEL_7;
@@ -2198,7 +2198,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned int>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned int>,
             0x10uLL);
         v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<unsigned int>>;
         goto LABEL_7;
@@ -2209,7 +2209,7 @@ void *__fastcall google::protobuf::internal::ExtensionSet::MutableRawRepeatedFie
           if ( arena->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               arena,
-              (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<bool>,
+              (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<bool>,
               0x10uLL);
           v10 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedField<bool>>;
 LABEL_7:
@@ -2222,7 +2222,7 @@ LABEL_7:
           v13 = AlignedAndAddCleanup;
           *AlignedAndAddCleanup = 0LL;
           if ( !v12 )
-            google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+            google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
           Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
           v13[1] = Aligned;
           *Aligned = arena;
@@ -2246,7 +2246,7 @@ LABEL_12:
         if ( v17->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             this->arena_,
-            (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<std::string>,
+            (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<std::string>,
             0x18uLL);
         v18 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedPtrField<std::string>>;
         goto LABEL_17;
@@ -2258,7 +2258,7 @@ LABEL_12:
           if ( v17->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               this->arena_,
-              (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
+              (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
               0x18uLL);
           v18 = google::protobuf::internal::arena_destruct_object<google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>>;
 LABEL_17:
@@ -2491,7 +2491,7 @@ std::string *__fastcall google::protobuf::internal::ExtensionSet::MutableString[
     if ( arena )
     {
       if ( arena->hooks_cookie_ )
-        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+        google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
                                0x20uLL,
@@ -2668,7 +2668,7 @@ std::string *__fastcall google::protobuf::internal::ExtensionSet::AddString[abi:
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<std::string>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<std::string>,
           0x18uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -2719,7 +2719,7 @@ LABEL_17:
   {
 LABEL_12:
     if ( v14->hooks_cookie_ )
-      google::protobuf::Arena::OnArenaAllocation(v14, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+      google::protobuf::Arena::OnArenaAllocation(v14, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
     result = (std::string *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                               &v14->impl_,
                               0x20uLL,
@@ -3201,7 +3201,7 @@ google::protobuf::MessageLite *__fastcall google::protobuf::internal::ExtensionS
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
+          (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
           0x18uLL);
       AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &arena->impl_,
@@ -3720,7 +3720,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( arena->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<double>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<double>,
                 0x10uLL);
             AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                      &arena->impl_,
@@ -3731,7 +3731,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v59 = AlignedAndAddCleanup;
             AlignedAndAddCleanup[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`char, 8uLL);
             Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);
             v59[1] = Aligned;
             *Aligned = arena;
@@ -3752,7 +3752,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v53->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<float>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<float>,
                 0x10uLL);
             v54 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v53->impl_,
@@ -3763,7 +3763,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v55 = v54;
             v54[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v53, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v53, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v56 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v53->impl_, 8uLL);
             v55[1] = v56;
             *v56 = v53;
@@ -3786,7 +3786,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v69->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<long>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<long>,
                 0x10uLL);
             v70 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v69->impl_,
@@ -3797,7 +3797,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v71 = v70;
             v70[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v69, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v69, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v72 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v69->impl_, 8uLL);
             v71[1] = v72;
             *v72 = v69;
@@ -3820,7 +3820,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v61->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned long>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned long>,
                 0x10uLL);
             v62 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v61->impl_,
@@ -3831,7 +3831,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v63 = v62;
             v62[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v61, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v61, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v64 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v61->impl_, 8uLL);
             v63[1] = v64;
             *v64 = v61;
@@ -3854,7 +3854,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v16->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<int>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<int>,
                 0x10uLL);
             v17 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v16->impl_,
@@ -3865,7 +3865,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v19 = v17;
             v17[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v16, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v16, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v20 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v16->impl_, 8uLL);
             v19[1] = v20;
             *v20 = v16;
@@ -3887,7 +3887,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v65->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<unsigned int>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<unsigned int>,
                 0x10uLL);
             v66 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v65->impl_,
@@ -3898,7 +3898,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v67 = v66;
             v66[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v65, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v65, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v68 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v65->impl_, 8uLL);
             v67[1] = v68;
             *v68 = v65;
@@ -3919,7 +3919,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v49->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<bool>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<bool>,
                 0x10uLL);
             v50 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v49->impl_,
@@ -3930,7 +3930,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v51 = v50;
             v50[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v49, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v49, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v52 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v49->impl_, 8uLL);
             v51[1] = v52;
             *v52 = v49;
@@ -3952,7 +3952,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v36->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 v36,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<std::string>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<std::string>,
                 0x18uLL);
             v37 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v36->impl_,
@@ -3979,7 +3979,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v27->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
                 0x18uLL);
             v28 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v27->impl_,
@@ -4005,7 +4005,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             if ( v45->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 this->arena_,
-                (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedField<int>,
+                (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedField<int>,
                 0x10uLL);
             v46 = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                     &v45->impl_,
@@ -4016,7 +4016,7 @@ void __fastcall google::protobuf::internal::ExtensionSet::InternalExtensionMerge
             v47 = v46;
             v46[1] = 0LL;
             if ( !v18 )
-              google::protobuf::Arena::OnArenaAllocation(v45, (const std::type_info *)&`typeinfo for'char, 8uLL);
+              google::protobuf::Arena::OnArenaAllocation(v45, (const std::type_info *)&`typeinfo for`char, 8uLL);
             v48 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v45->impl_, 8uLL);
             v47[1] = v48;
             *v48 = v45;

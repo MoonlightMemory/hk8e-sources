@@ -577,7 +577,7 @@ void __cdecl luabind::detail::make_instance<std::shared_ptr<Avatar>>(lua_State_0
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -640,7 +640,7 @@ void __cdecl luabind::detail::make_instance<std::shared_ptr<Monster>>(lua_State_
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -703,7 +703,7 @@ void __cdecl luabind::detail::make_instance<std::shared_ptr<Quest>>(lua_State_0 
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -767,7 +767,7 @@ void __fastcall luabind::detail::make_instance<Player *>(lua_State_0 *L, Player 
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -831,7 +831,7 @@ void __fastcall luabind::detail::make_instance<Robot *>(lua_State_0 *L, Robot *p
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -895,7 +895,7 @@ void __fastcall luabind::detail::make_instance<RobotReporter *>(lua_State_0 *L, 
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -959,7 +959,7 @@ void __fastcall luabind::detail::make_instance<Scene *>(lua_State_0 *L, Scene *p
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);
@@ -1030,7 +1030,7 @@ void __fastcall luabind::detail::make_instance<common::tools::TxtFile::Row const
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::runtime_error,
+      (struct type_info *)&`typeinfo for`std::runtime_error,
       (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
   }
   instance = (luabind::detail::object_rep *)luabind::detail::push_new_instance(L, cls);

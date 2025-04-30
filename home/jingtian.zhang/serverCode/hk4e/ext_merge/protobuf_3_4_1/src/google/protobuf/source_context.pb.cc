@@ -441,8 +441,8 @@ void __fastcall google::protobuf::SourceContext::MergeFrom(
 
   v2 = (const google::protobuf::SourceContext *)__dynamic_cast(
                                                   from,
-                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::SourceContext,
+                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::SourceContext,
                                                   0LL);
   if ( v2 )
     google::protobuf::SourceContext::MergeFrom(this, v2);

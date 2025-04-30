@@ -463,7 +463,7 @@ void __fastcall __noreturn mysqlpp::Query::exec()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
     (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
 };
 
@@ -692,7 +692,7 @@ void __fastcall __noreturn mysqlpp::Query::execute()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
     (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
 };
 
@@ -1446,7 +1446,7 @@ void __fastcall mysqlpp::Query::proc(
           *(_QWORD *)exception = &`vtable for mysqlpp::BadParamCount + 2;
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'mysqlpp::BadParamCount,
+            (struct type_info *)&`typeinfo for`mysqlpp::BadParamCount,
             (void (__fastcall *)(void *))mysqlpp::BadParamCount::~BadParamCount);
         }
         p_template_defaults = &this->template_defaults;
@@ -1738,7 +1738,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store(
           *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+            (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
             (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
         }
       }
@@ -1811,7 +1811,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store_next(mysqlpp::Query *this, cons
       *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+        (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
         (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
     }
   }
@@ -1849,7 +1849,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::store_next(mysqlpp::Query *this, cons
         *(_QWORD *)v5->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
         _cxa_throw(
           v5,
-          (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+          (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
           (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
       }
     }
@@ -1889,7 +1889,7 @@ void __fastcall __noreturn mysqlpp::Query::store_next()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
     (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
 };
 
@@ -2118,7 +2118,7 @@ mysqlpp::Query *__fastcall mysqlpp::Query::use(
           *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadQuery + 2;
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'mysqlpp::BadQuery,
+            (struct type_info *)&`typeinfo for`mysqlpp::BadQuery,
             (void (__fastcall *)(void *))mysqlpp::BadQuery::~BadQuery);
         }
       }

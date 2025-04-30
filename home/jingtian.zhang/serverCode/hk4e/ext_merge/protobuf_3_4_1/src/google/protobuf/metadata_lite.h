@@ -479,7 +479,7 @@ google::protobuf::UnknownFieldSet *__fastcall google::protobuf::internal::Intern
     if ( hint->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         hint,
-        (const std::type_info *)&`typeinfo for'google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet,google::protobuf::internal::InternalMetadataWithArena>::Container,
+        (const std::type_info *)&`typeinfo for`google::protobuf::internal::InternalMetadataWithArenaBase<google::protobuf::UnknownFieldSet,google::protobuf::internal::InternalMetadataWithArena>::Container,
         0x10uLL);
     result = (google::protobuf::UnknownFieldSet *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                     &hint->impl_,

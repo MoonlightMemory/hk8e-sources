@@ -213,7 +213,7 @@ void __noreturn mysqlpp::SQLQueryParms::operator[]()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ObjectNotInitialized + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::ObjectNotInitialized,
+    (struct type_info *)&`typeinfo for`mysqlpp::ObjectNotInitialized,
     (void (__fastcall *)(void *))mysqlpp::ObjectNotInitialized::~ObjectNotInitialized);
 };
 
@@ -382,7 +382,7 @@ void __noreturn mysqlpp::SQLQueryParms::operator[]()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ObjectNotInitialized + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::ObjectNotInitialized,
+    (struct type_info *)&`typeinfo for`mysqlpp::ObjectNotInitialized,
     (void (__fastcall *)(void *))mysqlpp::ObjectNotInitialized::~ObjectNotInitialized);
 };
 

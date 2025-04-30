@@ -7,8 +7,8 @@ const proto::DebugNotify *__fastcall google::protobuf::internal::DynamicCastToGe
   if ( from )
     return (const proto::DebugNotify *)__dynamic_cast(
                                          from,
-                                         (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                         (const struct __class_type_info *)&`typeinfo for'proto::DebugNotify,
+                                         (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                         (const struct __class_type_info *)&`typeinfo for`proto::DebugNotify,
                                          0LL);
   else
     return 0LL;
@@ -21,8 +21,8 @@ const proto::PacketHead *__fastcall google::protobuf::internal::DynamicCastToGen
   if ( from )
     return (const proto::PacketHead *)__dynamic_cast(
                                         from,
-                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                        (const struct __class_type_info *)&`typeinfo for'proto::PacketHead,
+                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                        (const struct __class_type_info *)&`typeinfo for`proto::PacketHead,
                                         0LL);
   else
     return 0LL;

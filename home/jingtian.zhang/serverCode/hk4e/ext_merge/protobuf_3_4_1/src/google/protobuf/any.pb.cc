@@ -465,8 +465,8 @@ void __fastcall google::protobuf::Any::MergeFrom(
 
   v2 = (const google::protobuf::Any *)__dynamic_cast(
                                         from,
-                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Any,
+                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Any,
                                         0LL);
   if ( v2 )
     google::protobuf::Any::MergeFrom(this, v2);

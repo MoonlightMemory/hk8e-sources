@@ -152,7 +152,7 @@ int32_t __cdecl data::DbAntiOfflineWhitelistConfigMgr::loadAntiOfflineWhitelistC
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<data::t_anti_offline_whitelist_config> *)(v2 + 160);
@@ -464,7 +464,7 @@ int32_t __cdecl data::DbClientWatchdogUidListConfigMgr::loadClientWatchdogUidLis
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<data::t_client_watchdog_uid_list_config> *)(v2 + 160);

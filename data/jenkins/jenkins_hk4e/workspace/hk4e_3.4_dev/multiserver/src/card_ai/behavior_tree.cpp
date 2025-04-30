@@ -128,14 +128,14 @@ void __cdecl BT::applyRecursiveVisitor(
     std::function<void ()(BT::TreeNode const*,int)>::operator()(visitor, root_node_ptr, level);
     if ( __dynamic_cast(
            root_node_ptr,
-           (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-           (const struct __class_type_info *)&`typeinfo for'BT::ControlNode,
+           (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+           (const struct __class_type_info *)&`typeinfo for`BT::ControlNode,
            0LL) )
     {
       control_ptr = (const BT::ControlNode *)__dynamic_cast(
                                                root_node_ptr,
-                                               (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-                                               (const struct __class_type_info *)&`typeinfo for'BT::ControlNode,
+                                               (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+                                               (const struct __class_type_info *)&`typeinfo for`BT::ControlNode,
                                                0LL);
       if ( control_ptr )
       {
@@ -187,14 +187,14 @@ void __cdecl BT::applyRecursiveVisitor(
     }
     else if ( __dynamic_cast(
                 root_node_ptr,
-                (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-                (const struct __class_type_info *)&`typeinfo for'BT::DecoratorNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::DecoratorNode,
                 0LL) )
     {
       if ( __dynamic_cast(
              root_node_ptr,
-             (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-             (const struct __class_type_info *)&`typeinfo for'BT::DecoratorNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::DecoratorNode,
              0LL) )
       {
         BT::DecoratorNode::getChild((const BT::DecoratorNode *const)(v3 + 64));
@@ -300,14 +300,14 @@ void __cdecl BT::applyRecursiveVisitor(
     std::function<void ()(BT::TreeNode const*,int)>::operator()(visitor, root_node_ptr, level);
     if ( __dynamic_cast(
            root_node_ptr,
-           (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-           (const struct __class_type_info *)&`typeinfo for'BT::ControlNode,
+           (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+           (const struct __class_type_info *)&`typeinfo for`BT::ControlNode,
            0LL) )
     {
       control_ptr = (BT::ControlNode *)__dynamic_cast(
                                          root_node_ptr,
-                                         (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-                                         (const struct __class_type_info *)&`typeinfo for'BT::ControlNode,
+                                         (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+                                         (const struct __class_type_info *)&`typeinfo for`BT::ControlNode,
                                          0LL);
       if ( control_ptr )
       {
@@ -359,14 +359,14 @@ void __cdecl BT::applyRecursiveVisitor(
     }
     else if ( __dynamic_cast(
                 root_node_ptr,
-                (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-                (const struct __class_type_info *)&`typeinfo for'BT::DecoratorNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::DecoratorNode,
                 0LL) )
     {
       if ( __dynamic_cast(
              root_node_ptr,
-             (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-             (const struct __class_type_info *)&`typeinfo for'BT::DecoratorNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::DecoratorNode,
              0LL) )
       {
         BT::DecoratorNode::getChild((BT::DecoratorNode *const)(v3 + 64));
@@ -616,14 +616,14 @@ void __cdecl BT::BehaviorTree::printCurrentState(void)::{lambda(BT::TreeNode con
     }
     else if ( __dynamic_cast(
                 node_ptr,
-                (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-                (const struct __class_type_info *)&`typeinfo for'BT::SubtreeNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+                (const struct __class_type_info *)&`typeinfo for`BT::SubtreeNode,
                 0LL) )
     {
       if ( __dynamic_cast(
              node_ptr,
-             (const struct __class_type_info *)&`typeinfo for'BT::TreeNode,
-             (const struct __class_type_info *)&`typeinfo for'BT::SubtreeNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::TreeNode,
+             (const struct __class_type_info *)&`typeinfo for`BT::SubtreeNode,
              0LL) )
       {
         common::milog::MiLogStream::create(

@@ -5696,11 +5696,11 @@ void __cdecl luabind::class_<Event,luabind::detail::unspecified,luabind::detail:
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Event>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<Event>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'Event);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`Event);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -5752,11 +5752,11 @@ void __cdecl luabind::class_<Vector3,luabind::detail::unspecified,luabind::detai
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Vector3>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<Vector3>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'Vector3);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`Vector3);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -5808,12 +5808,12 @@ void __cdecl luabind::class_<data::AranaraCollectionType,luabind::detail::unspec
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::AranaraCollectionType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::AranaraCollectionType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::AranaraCollectionType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::AranaraCollectionType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -5865,11 +5865,11 @@ void __cdecl luabind::class_<data::BlossomRefreshType,luabind::detail::unspecifi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::BlossomRefreshType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::BlossomRefreshType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::BlossomRefreshType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::BlossomRefreshType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -5921,12 +5921,12 @@ void __cdecl luabind::class_<data::ChallengeEventMarkType,luabind::detail::unspe
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::ChallengeEventMarkType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::ChallengeEventMarkType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::ChallengeEventMarkType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::ChallengeEventMarkType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -5978,11 +5978,11 @@ void __cdecl luabind::class_<data::ClimateType,luabind::detail::unspecified,luab
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::ClimateType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::ClimateType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::ClimateType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::ClimateType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6034,12 +6034,12 @@ void __cdecl luabind::class_<data::CommonPlayerTipsType,luabind::detail::unspeci
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::CommonPlayerTipsType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::CommonPlayerTipsType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::CommonPlayerTipsType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::CommonPlayerTipsType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6091,11 +6091,11 @@ void __cdecl luabind::class_<data::ElementType,luabind::detail::unspecified,luab
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::ElementType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::ElementType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::ElementType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::ElementType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6147,11 +6147,11 @@ void __cdecl luabind::class_<data::EventType,luabind::detail::unspecified,luabin
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::EventType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::EventType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::EventType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::EventType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6203,11 +6203,11 @@ void __cdecl luabind::class_<data::ExhibitionPlayType,luabind::detail::unspecifi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::ExhibitionPlayType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::ExhibitionPlayType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::ExhibitionPlayType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::ExhibitionPlayType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6259,12 +6259,12 @@ void __cdecl luabind::class_<data::FatherChallengeProperty,luabind::detail::unsp
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::FatherChallengeProperty>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::FatherChallengeProperty>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::FatherChallengeProperty);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::FatherChallengeProperty);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6316,12 +6316,12 @@ void __cdecl luabind::class_<data::FlowSuiteOperatePolicy,luabind::detail::unspe
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::FlowSuiteOperatePolicy>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::FlowSuiteOperatePolicy);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::FlowSuiteOperatePolicy);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6373,11 +6373,11 @@ void __cdecl luabind::class_<data::GadgetState,luabind::detail::unspecified,luab
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::GadgetState>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::GadgetState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::GadgetState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::GadgetState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6429,11 +6429,11 @@ void __cdecl luabind::class_<data::GadgetType,luabind::detail::unspecified,luabi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::GadgetType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::GadgetType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::GadgetType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::GadgetType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6485,12 +6485,12 @@ void __cdecl luabind::class_<data::GalleryProgressScoreType,luabind::detail::uns
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::GalleryProgressScoreType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::GalleryProgressScoreType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::GalleryProgressScoreType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::GalleryProgressScoreType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6542,12 +6542,12 @@ void __cdecl luabind::class_<data::GalleryProgressScoreUIType,luabind::detail::u
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::GalleryProgressScoreUIType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::GalleryProgressScoreUIType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::GalleryProgressScoreUIType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6599,11 +6599,11 @@ void __cdecl luabind::class_<data::GroupKillPolicy,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::GroupKillPolicy>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::GroupKillPolicy>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::GroupKillPolicy);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::GroupKillPolicy);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6655,11 +6655,11 @@ void __cdecl luabind::class_<data::MultistageStageType,luabind::detail::unspecif
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::MultistageStageType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::MultistageStageType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::MultistageStageType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::MultistageStageType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6711,11 +6711,11 @@ void __cdecl luabind::class_<data::QuestState,luabind::detail::unspecified,luabi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::QuestState>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::QuestState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::QuestState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::QuestState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6767,11 +6767,11 @@ void __cdecl luabind::class_<data::RegionShape,luabind::detail::unspecified,luab
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::RegionShape>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::RegionShape>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::RegionShape);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::RegionShape);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6823,11 +6823,11 @@ void __cdecl luabind::class_<data::RouteRecordMode,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::RouteRecordMode>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::RouteRecordMode>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::RouteRecordMode);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::RouteRecordMode);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6879,11 +6879,11 @@ void __cdecl luabind::class_<data::RouteType,luabind::detail::unspecified,luabin
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::RouteType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::RouteType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::RouteType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::RouteType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6935,11 +6935,11 @@ void __cdecl luabind::class_<data::StrikeType,luabind::detail::unspecified,luabi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::StrikeType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::StrikeType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::StrikeType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::StrikeType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -6991,11 +6991,11 @@ void __cdecl luabind::class_<data::VisionLevelType,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<data::VisionLevelType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<data::VisionLevelType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'data::VisionLevelType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`data::VisionLevelType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7047,12 +7047,12 @@ void __cdecl luabind::class_<proto::AranaraCollectionState,luabind::detail::unsp
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::AranaraCollectionState>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::AranaraCollectionState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::AranaraCollectionState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::AranaraCollectionState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7104,14 +7104,14 @@ void __cdecl luabind::class_<proto::BeginCameraSceneLookNotify_KeepRotType,luabi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::BeginCameraSceneLookNotify_KeepRotType>::id;
   luabind::type_id::type_id(
     v1 + 4,
-    (const std::type_info *)&`typeinfo for'proto::BeginCameraSceneLookNotify_KeepRotType);
+    (const std::type_info *)&`typeinfo for`proto::BeginCameraSceneLookNotify_KeepRotType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7163,12 +7163,12 @@ void __cdecl luabind::class_<proto::BlossomScheduleState,luabind::detail::unspec
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::BlossomScheduleState>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::BlossomScheduleState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::BlossomScheduleState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::BlossomScheduleState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7220,11 +7220,11 @@ void __cdecl luabind::class_<proto::GadgetBornType,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GadgetBornType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GadgetBornType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GadgetBornType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GadgetBornType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7276,11 +7276,11 @@ void __cdecl luabind::class_<proto::GadgetGuestBanDrop,luabind::detail::unspecif
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GadgetGuestBanDrop>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GadgetGuestBanDrop);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GadgetGuestBanDrop);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7332,11 +7332,11 @@ void __cdecl luabind::class_<proto::GadgetPlayType,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GadgetPlayType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GadgetPlayType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GadgetPlayType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GadgetPlayType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7388,11 +7388,11 @@ void __cdecl luabind::class_<proto::GalleryStopReason,luabind::detail::unspecifi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GalleryStopReason>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GalleryStopReason>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GalleryStopReason);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GalleryStopReason);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7444,11 +7444,11 @@ void __cdecl luabind::class_<proto::GroupLoadStrategy,luabind::detail::unspecifi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GroupLoadStrategy>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GroupLoadStrategy>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GroupLoadStrategy);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GroupLoadStrategy);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7500,11 +7500,11 @@ void __cdecl luabind::class_<proto::GroupVariableType,luabind::detail::unspecifi
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::GroupVariableType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::GroupVariableType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::GroupVariableType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::GroupVariableType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7556,12 +7556,12 @@ void __cdecl luabind::class_<proto::InBattleMechanicusCardChallengeState,luabind
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::InBattleMechanicusCardChallengeState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::InBattleMechanicusCardChallengeState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::InBattleMechanicusCardChallengeState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7613,11 +7613,11 @@ void __cdecl luabind::class_<proto::MonsterBornType,luabind::detail::unspecified
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::MonsterBornType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::MonsterBornType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::MonsterBornType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::MonsterBornType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7669,12 +7669,12 @@ void __cdecl luabind::class_<proto::MonsterGuestBanDrop,luabind::detail::unspeci
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::MonsterGuestBanDrop>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::MonsterGuestBanDrop);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::MonsterGuestBanDrop);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7726,11 +7726,11 @@ void __cdecl luabind::class_<proto::MultistagePlayType,luabind::detail::unspecif
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::MultistagePlayType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::MultistagePlayType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::MultistagePlayType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::MultistagePlayType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7782,11 +7782,11 @@ void __cdecl luabind::class_<proto::ProtEntityType,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::ProtEntityType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::ProtEntityType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::ProtEntityType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::ProtEntityType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7838,12 +7838,12 @@ void __cdecl luabind::class_<proto::ScenePlayBattleState,luabind::detail::unspec
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::ScenePlayBattleState>::id >> 3)
                 + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::ScenePlayBattleState>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::ScenePlayBattleState);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::ScenePlayBattleState);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;
@@ -7895,11 +7895,11 @@ void __cdecl luabind::class_<proto::SealBattleType,luabind::detail::unspecified,
                 + 0x7FFF8000) )
     __asan_report_load8();
   wrapper_id = luabind::detail::registered_class<luabind::detail::null_type>::id;
-  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for'luabind::detail::null_type);
+  luabind::type_id::type_id(v1 + 8, (const std::type_info *)&`typeinfo for`luabind::detail::null_type);
   if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<proto::SealBattleType>::id >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   v4 = luabind::detail::registered_class<proto::SealBattleType>::id;
-  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for'proto::SealBattleType);
+  luabind::type_id::type_id(v1 + 4, (const std::type_info *)&`typeinfo for`proto::SealBattleType);
   luabind::detail::class_base::init(this, v1 + 4, v4, v1 + 8, wrapper_id);
   *(_BYTE *)(((unsigned __int64)&v1[4] >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((unsigned __int64)&v1[8] >> 3) + 0x7FFF8000) = -8;

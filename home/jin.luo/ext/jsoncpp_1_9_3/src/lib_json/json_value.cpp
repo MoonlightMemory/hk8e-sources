@@ -176,7 +176,7 @@ void __fastcall __noreturn Json::throwRuntimeError(const Json::String *msg)
   Json::RuntimeError::RuntimeError(exception, (__int64)msg);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'Json::RuntimeError,
+    (struct type_info *)&`typeinfo for`Json::RuntimeError,
     (void (__fastcall *)(void *))Json::RuntimeError::~RuntimeError);
 };
 
@@ -189,7 +189,7 @@ void __fastcall __noreturn Json::throwLogicError(const Json::String *msg)
   Json::LogicError::LogicError(exception, (__int64)msg);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'Json::LogicError,
+    (struct type_info *)&`typeinfo for`Json::LogicError,
     (void (__fastcall *)(void *))Json::LogicError::~LogicError);
 };
 

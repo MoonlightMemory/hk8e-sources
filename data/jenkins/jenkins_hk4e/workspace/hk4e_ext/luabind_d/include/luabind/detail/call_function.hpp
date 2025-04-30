@@ -269,7 +269,7 @@ void __cdecl luabind::detail::proxy_function_caller<luabind::adl::object,boost::
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'luabind::error,
+        (struct type_info *)&`typeinfo for`luabind::error,
         (void (__fastcall *)(void *))luabind::error::~error);
     }
     v8 = lua_gettop(L) - top;
@@ -363,7 +363,7 @@ void __cdecl luabind::detail::proxy_function_caller<luabind::adl::object,boost::
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'luabind::error,
+        (struct type_info *)&`typeinfo for`luabind::error,
         (void (__fastcall *)(void *))luabind::error::~error);
     }
     v8 = lua_gettop(L) - top;
@@ -459,7 +459,7 @@ void __cdecl luabind::detail::proxy_function_caller<luabind::adl::object,boost::
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'luabind::error,
+        (struct type_info *)&`typeinfo for`luabind::error,
         (void (__fastcall *)(void *))luabind::error::~error);
     }
     v8 = lua_gettop(L) - top;
@@ -558,7 +558,7 @@ void __cdecl luabind::detail::proxy_function_caller<std::string,boost::tuples::t
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'luabind::error,
+        (struct type_info *)&`typeinfo for`luabind::error,
         (void (__fastcall *)(void *))luabind::error::~error);
     }
     v8 = lua_gettop(L) - top;
@@ -660,7 +660,7 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'luabind::error,
+      (struct type_info *)&`typeinfo for`luabind::error,
       (void (__fastcall *)(void *))luabind::error::~error);
   }
   v10 = lua_gettop(L) - top;
@@ -679,13 +679,13 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     v12 = (luabind::cast_failed *)__cxa_allocate_exception(0x18uLL);
     luabind::type_id::type_id(
       (luabind::type_id *const)v4 - 8,
-      (const std::type_info *)&`typeinfo for'luabind::adl::object);
+      (const std::type_info *)&`typeinfo for`luabind::adl::object);
     luabind::cast_failed::cast_failed(v12, L, (const luabind::type_id *)v4 - 8);
     *(_BYTE *)(((unsigned __int64)(v4 - 64) >> 3) + 0x7FFF8000) = -8;
     __asan_handle_no_return(v12);
     _cxa_throw(
       v12,
-      (struct type_info *)&`typeinfo for'luabind::cast_failed,
+      (struct type_info *)&`typeinfo for`luabind::cast_failed,
       (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
   }
   luabind::detail::decorated_type<luabind::adl::object>::get();
@@ -788,7 +788,7 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'luabind::error,
+      (struct type_info *)&`typeinfo for`luabind::error,
       (void (__fastcall *)(void *))luabind::error::~error);
   }
   v9 = lua_gettop(L) - top;
@@ -804,13 +804,13 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     v11 = (luabind::cast_failed *)__cxa_allocate_exception(0x18uLL);
     luabind::type_id::type_id(
       (luabind::type_id *const)v4 - 8,
-      (const std::type_info *)&`typeinfo for'luabind::adl::object);
+      (const std::type_info *)&`typeinfo for`luabind::adl::object);
     luabind::cast_failed::cast_failed(v11, L, (const luabind::type_id *)v4 - 8);
     *(_BYTE *)(((unsigned __int64)(v4 - 64) >> 3) + 0x7FFF8000) = -8;
     __asan_handle_no_return(v11);
     _cxa_throw(
       v11,
-      (struct type_info *)&`typeinfo for'luabind::cast_failed,
+      (struct type_info *)&`typeinfo for`luabind::cast_failed,
       (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
   }
   luabind::detail::decorated_type<luabind::adl::object>::get();
@@ -913,7 +913,7 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'luabind::error,
+      (struct type_info *)&`typeinfo for`luabind::error,
       (void (__fastcall *)(void *))luabind::error::~error);
   }
   v9 = lua_gettop(L) - top;
@@ -929,13 +929,13 @@ luabind::adl::object __cdecl luabind::detail::proxy_function_caller<luabind::adl
     v11 = (luabind::cast_failed *)__cxa_allocate_exception(0x18uLL);
     luabind::type_id::type_id(
       (luabind::type_id *const)v4 - 8,
-      (const std::type_info *)&`typeinfo for'luabind::adl::object);
+      (const std::type_info *)&`typeinfo for`luabind::adl::object);
     luabind::cast_failed::cast_failed(v11, L, (const luabind::type_id *)v4 - 8);
     *(_BYTE *)(((unsigned __int64)(v4 - 64) >> 3) + 0x7FFF8000) = -8;
     __asan_handle_no_return(v11);
     _cxa_throw(
       v11,
-      (struct type_info *)&`typeinfo for'luabind::cast_failed,
+      (struct type_info *)&`typeinfo for`luabind::cast_failed,
       (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
   }
   luabind::detail::decorated_type<luabind::adl::object>::get();
@@ -1039,7 +1039,7 @@ std::string *__cdecl luabind::detail::proxy_function_caller<std::string,boost::t
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'luabind::error,
+      (struct type_info *)&`typeinfo for`luabind::error,
       (void (__fastcall *)(void *))luabind::error::~error);
   }
   v10 = lua_gettop(L) - top;
@@ -1057,13 +1057,13 @@ std::string *__cdecl luabind::detail::proxy_function_caller<std::string,boost::t
          (int)L) < 0 )
   {
     v11 = (luabind::cast_failed *)__cxa_allocate_exception(0x18uLL);
-    luabind::type_id::type_id((luabind::type_id *const)v4 - 8, (const std::type_info *)&`typeinfo for'std::string);
+    luabind::type_id::type_id((luabind::type_id *const)v4 - 8, (const std::type_info *)&`typeinfo for`std::string);
     luabind::cast_failed::cast_failed(v11, L, (const luabind::type_id *)v4 - 8);
     *(_BYTE *)(((unsigned __int64)(v4 - 64) >> 3) + 0x7FFF8000) = -8;
     __asan_handle_no_return(v11);
     _cxa_throw(
       v11,
-      (struct type_info *)&`typeinfo for'luabind::cast_failed,
+      (struct type_info *)&`typeinfo for`luabind::cast_failed,
       (void (__fastcall *)(void *))luabind::cast_failed::~cast_failed);
   }
   luabind::detail::decorated_type<std::string>::get();

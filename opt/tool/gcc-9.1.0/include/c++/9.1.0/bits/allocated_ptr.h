@@ -28,13 +28,13 @@ LABEL_12:
   }
   if ( !common::tools::perf::MemoryPerf::is_record )
     goto LABEL_18;
-  v6 = &`typeinfo for'common::minet::KcpSession + 1;
-  if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpSession + 1) >> 3) + 0x7FFF8000) )
+  v6 = &`typeinfo for`common::minet::KcpSession + 1;
+  if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpSession + 1) >> 3) + 0x7FFF8000) )
     goto LABEL_12;
-  v4 = (void **)*(&`typeinfo for'common::minet::KcpSession + 1);
+  v4 = (void **)*(&`typeinfo for`common::minet::KcpSession + 1);
   v6 = v4;
   v8 = *(_BYTE *)(((unsigned __int64)v4 >> 3) + 0x7FFF8000);
-  if ( v8 > (*(_BYTE *)(&`typeinfo for'common::minet::KcpSession + 1) & 7) || !v8 )
+  if ( v8 > (*(_BYTE *)(&`typeinfo for`common::minet::KcpSession + 1) & 7) || !v8 )
   {
     if ( *(_BYTE *)v4 != 42 )
       goto LABEL_8;
@@ -80,7 +80,7 @@ LABEL_24:
     __asan_handle_no_return(v12);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'std::bad_alloc,
+      (struct type_info *)&`typeinfo for`std::bad_alloc,
       (void (__fastcall *)(void *))&std::bad_alloc::~bad_alloc);
   }
   *(_QWORD *)(a1 + 8) = v10;

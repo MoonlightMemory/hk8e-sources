@@ -53,9 +53,9 @@ _QWORD *__fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(__int64 a1, __int64 a
 
   v4 = (const std::string *)a2;
   if ( *(_BYTE *)(a2 + 32) )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'std::string;
+    v5 = (const std::type_info *)&`typeinfo for`std::string;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   M_p = (char)v4[1]._M_dataplus._M_p;
@@ -103,7 +103,7 @@ _QWORD *__fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(__int64 a1, __int64 a
     M_p = mysqlpp::null_str[abi:cxx11]._M_dataplus._M_p;
 LABEL_3:
     M_string_length = mysqlpp::null_str[abi:cxx11]._M_string_length;
-    v7 = (const std::type_info *)&`typeinfo for'void;
+    v7 = (const std::type_info *)&`typeinfo for`void;
     goto LABEL_4;
   }
   M_p = mysqlpp::String::data((const mysqlpp::String *const)a2);
@@ -111,9 +111,9 @@ LABEL_3:
     goto LABEL_3;
   M_string_length = mysqlpp::String::length((const mysqlpp::String *const)a2);
   if ( *(_BYTE *)(a2 + 16) )
-    v7 = (const std::type_info *)&`typeinfo for'void;
+    v7 = (const std::type_info *)&`typeinfo for`void;
   else
-    v7 = (const std::type_info *)&`typeinfo for'mysqlpp::String;
+    v7 = (const std::type_info *)&`typeinfo for`mysqlpp::String;
 LABEL_4:
   v11 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v7);
   v8 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
@@ -275,9 +275,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<char,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'char;
+    v5 = (const std::type_info *)&`typeinfo for`char;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -332,9 +332,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<signed char>,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'mysqlpp::tiny_int<signed char>;
+    v5 = (const std::type_info *)&`typeinfo for`mysqlpp::tiny_int<signed char>;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -373,7 +373,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(__int64 a1, mysqlpp::tin
   mysqlpp::stream2string<mysqlpp::tiny_int<unsigned char>>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'mysqlpp::tiny_int<unsigned char>);
+          (const std::type_info *)&`typeinfo for`mysqlpp::tiny_int<unsigned char>);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -427,9 +427,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<mysqlpp::tiny_int<unsigned char>,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'mysqlpp::tiny_int<unsigned char>;
+    v5 = (const std::type_info *)&`typeinfo for`mysqlpp::tiny_int<unsigned char>;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -468,7 +468,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<short>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'short);
+          (const std::type_info *)&`typeinfo for`short);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -522,9 +522,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<short,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'short;
+    v5 = (const std::type_info *)&`typeinfo for`short;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -563,7 +563,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<unsigned short>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'unsigned short);
+          (const std::type_info *)&`typeinfo for`unsigned short);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -617,9 +617,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<unsigned short,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'unsigned short;
+    v5 = (const std::type_info *)&`typeinfo for`unsigned short;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -658,7 +658,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<int>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'int);
+          (const std::type_info *)&`typeinfo for`int);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -712,9 +712,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<int,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'int;
+    v5 = (const std::type_info *)&`typeinfo for`int;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -753,7 +753,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<unsigned int>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'unsigned int);
+          (const std::type_info *)&`typeinfo for`unsigned int);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -807,9 +807,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<unsigned int,mysqlpp::NullIsNull>>(&v14, &object);
   }
   if ( object.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'unsigned int;
+    v5 = (const std::type_info *)&`typeinfo for`unsigned int;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -848,7 +848,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<long>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'long);
+          (const std::type_info *)&`typeinfo for`long);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -903,9 +903,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<long,mysqlpp::NullIsNull>>(&v14, &v13);
   }
   if ( v13.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'long;
+    v5 = (const std::type_info *)&`typeinfo for`long;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -944,7 +944,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<unsigned long>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'unsigned long);
+          (const std::type_info *)&`typeinfo for`unsigned long);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -999,9 +999,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<unsigned long,mysqlpp::NullIsNull>>(&v14, &v13);
   }
   if ( v13.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'unsigned long;
+    v5 = (const std::type_info *)&`typeinfo for`unsigned long;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -1040,7 +1040,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<long long>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'long long);
+          (const std::type_info *)&`typeinfo for`long long);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -1095,9 +1095,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<long long,mysqlpp::NullIsNull>>(&v14, &v13);
   }
   if ( v13.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'long long;
+    v5 = (const std::type_info *)&`typeinfo for`long long;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -1136,7 +1136,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
   mysqlpp::stream2string<unsigned long long>(&v11, &object);
   v3 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'unsigned long long);
+          (const std::type_info *)&`typeinfo for`unsigned long long);
   v4 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v4->type_.num_ = v3;
   M_string_length = v11._M_string_length;
@@ -1191,9 +1191,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<unsigned long long,mysqlpp::NullIsNull>>(&v14, &v13);
   }
   if ( v13.is_null )
-    v5 = (const std::type_info *)&`typeinfo for'void;
+    v5 = (const std::type_info *)&`typeinfo for`void;
   else
-    v5 = (const std::type_info *)&`typeinfo for'unsigned long long;
+    v5 = (const std::type_info *)&`typeinfo for`unsigned long long;
   v6 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v5);
   v7 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v7->data_ = 0LL;
@@ -1314,7 +1314,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     v53[0] = 48;
     __beg = (char *)v53;
     length = 1LL;
-    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for'float;
+    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for`float;
     v11._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -1352,7 +1352,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v38 = (const char *)((*(_BYTE *)`typeinfo for'float[1] == 42) + `typeinfo for'float[1]);
+      v38 = (const char *)((*(_BYTE *)`typeinfo for`float[1] == 42) + `typeinfo for`float[1]);
       v39 = strlen(v38);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v38, v39);
       exception = (char *)__cxa_allocate_exception(0x28uLL);
@@ -1368,7 +1368,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
         operator delete(v9);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     M_parent = (unsigned __int8)v11._M_node[1]._M_parent;
@@ -1446,7 +1446,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     {
       std::string::_M_assign(&pd, v63);
     }
-    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for'float;
+    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for`float;
     v25._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -1482,7 +1482,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v43 = (const char *)((*(_BYTE *)`typeinfo for'float[1] == 42) + `typeinfo for'float[1]);
+      v43 = (const char *)((*(_BYTE *)`typeinfo for`float[1] == 42) + `typeinfo for`float[1]);
       v44 = strlen(v43);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v43, v44);
       v45 = (char *)__cxa_allocate_exception(0x28uLL);
@@ -1498,7 +1498,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
         operator delete(v5);
       _cxa_throw(
         v45,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     v46 = (unsigned __int8)v25._M_node[1]._M_parent;
@@ -1653,7 +1653,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
   *(_BYTE *)(a1 + 16) = 0;
   if ( v22 > 3.4028235e38 || (_BYTE)v24 )
   {
-    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for'void;
+    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for`void;
     v25._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -1691,7 +1691,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v95 = 0LL;
       std::ios::init(v97, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v50 = (const char *)((**((_BYTE **)&`typeinfo for'void + 1) == 42) + *((_QWORD *)&`typeinfo for'void + 1));
+      v50 = (const char *)((**((_BYTE **)&`typeinfo for`void + 1) == 42) + *((_QWORD *)&`typeinfo for`void + 1));
       v51 = strlen(v50);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v50, v51);
       exception = (char *)__cxa_allocate_exception(0x28uLL);
@@ -1707,7 +1707,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
         operator delete(v21);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     M_parent = (unsigned __int8)v25._M_node[1]._M_parent;
@@ -1784,7 +1784,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     {
       std::string::_M_assign(&pd, v77);
     }
-    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for'float;
+    __k.counted_ = (mysqlpp::SQLBuffer *)`typeinfo for`float;
     v37._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -1820,7 +1820,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v95 = 0LL;
       std::ios::init(v97, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v55 = (const char *)((*(_BYTE *)`typeinfo for'float[1] == 42) + `typeinfo for'float[1]);
+      v55 = (const char *)((*(_BYTE *)`typeinfo for`float[1] == 42) + `typeinfo for`float[1]);
       v56 = strlen(v55);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v55, v56);
       __cxa_allocate_exception(0x28uLL);
@@ -1981,7 +1981,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     v53[0] = 48;
     __beg = (char *)v53;
     length = 1LL;
-    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for'double;
+    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for`double;
     v11._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -2019,7 +2019,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v38 = (const char *)((**((_BYTE **)&`typeinfo for'double + 1) == 42) + *((_QWORD *)&`typeinfo for'double + 1));
+      v38 = (const char *)((**((_BYTE **)&`typeinfo for`double + 1) == 42) + *((_QWORD *)&`typeinfo for`double + 1));
       v39 = strlen(v38);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v38, v39);
       exception = (char *)__cxa_allocate_exception(0x28uLL);
@@ -2035,7 +2035,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
         operator delete(v9);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     M_parent = (unsigned __int8)v11._M_node[1]._M_parent;
@@ -2113,7 +2113,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
     {
       std::string::_M_assign(&pd, v63);
     }
-    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for'double;
+    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for`double;
     v25._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -2149,7 +2149,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
       v81 = 0LL;
       std::ios::init(v83, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v43 = (const char *)((**((_BYTE **)&`typeinfo for'double + 1) == 42) + *((_QWORD *)&`typeinfo for'double + 1));
+      v43 = (const char *)((**((_BYTE **)&`typeinfo for`double + 1) == 42) + *((_QWORD *)&`typeinfo for`double + 1));
       v44 = strlen(v43);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v43, v44);
       v45 = (char *)__cxa_allocate_exception(0x28uLL);
@@ -2165,7 +2165,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapter 
         operator delete(v5);
       _cxa_throw(
         v45,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     v46 = (unsigned __int8)v25._M_node[1]._M_parent;
@@ -2315,7 +2315,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
   *(_QWORD *)(a1 + 8) = 0LL;
   if ( a3 > 1.797693134862316e308 || a2 )
   {
-    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for'void;
+    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for`void;
     v24._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -2353,7 +2353,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v93 = 0LL;
       std::ios::init(v95, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v49 = (const char *)((**((_BYTE **)&`typeinfo for'void + 1) == 42) + *((_QWORD *)&`typeinfo for'void + 1));
+      v49 = (const char *)((**((_BYTE **)&`typeinfo for`void + 1) == 42) + *((_QWORD *)&`typeinfo for`void + 1));
       v50 = strlen(v49);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v49, v50);
       exception = (char *)__cxa_allocate_exception(0x28uLL);
@@ -2369,7 +2369,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
         operator delete(v22);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
         (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
     }
     M_parent = (unsigned __int8)v24._M_node[1]._M_parent;
@@ -2446,7 +2446,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     {
       std::string::_M_assign(&pd, v75);
     }
-    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for'double;
+    __k.counted_ = (mysqlpp::SQLBuffer *)&`typeinfo for`double;
     v36._M_node = std::_Rb_tree<std::type_info const*,std::pair<std::type_info const* const,unsigned char>,std::_Select1st<std::pair<std::type_info const* const,unsigned char>>,mysqlpp::type_info_cmp,std::allocator<std::pair<std::type_info const* const,unsigned char>>>::find(
                     &mysqlpp::mysql_type_info::lookups.map_._M_t,
                     (const std::type_info *const *)&__k)._M_node;
@@ -2482,7 +2482,7 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
       v93 = 0LL;
       std::ios::init(v95, &__k.refs_);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, "Failed to find MySQL C API type ID for ", 39LL);
-      v54 = (const char *)((**((_BYTE **)&`typeinfo for'double + 1) == 42) + *((_QWORD *)&`typeinfo for'double + 1));
+      v54 = (const char *)((**((_BYTE **)&`typeinfo for`double + 1) == 42) + *((_QWORD *)&`typeinfo for`double + 1));
       v55 = strlen(v54);
       std::__ostream_insert<char,std::char_traits<char>>(&__k, v54, v55);
       __cxa_allocate_exception(0x28uLL);
@@ -2611,9 +2611,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Date,mysqlpp::NullIsNull>>(pd, a2);
   }
   if ( a2->is_null )
-    v6 = (const std::type_info *)&`typeinfo for'void;
+    v6 = (const std::type_info *)&`typeinfo for`void;
   else
-    v6 = (const std::type_info *)&`typeinfo for'mysqlpp::Date;
+    v6 = (const std::type_info *)&`typeinfo for`mysqlpp::Date;
   v7 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v6);
   v8 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   M_string_length = pd[0]._M_string_length;
@@ -2702,9 +2702,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<mysqlpp::DateTime,mysqlpp::NullIsNull>>(pd, a2);
   }
   if ( a2->is_null )
-    v6 = (const std::type_info *)&`typeinfo for'void;
+    v6 = (const std::type_info *)&`typeinfo for`void;
   else
-    v6 = (const std::type_info *)&`typeinfo for'mysqlpp::DateTime;
+    v6 = (const std::type_info *)&`typeinfo for`mysqlpp::DateTime;
   v7 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v6);
   v8 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   M_string_length = pd[0]._M_string_length;
@@ -2793,9 +2793,9 @@ void __fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     mysqlpp::stream2string<mysqlpp::Null<mysqlpp::Time,mysqlpp::NullIsNull>>(pd, a2);
   }
   if ( a2->is_null )
-    v6 = (const std::type_info *)&`typeinfo for'void;
+    v6 = (const std::type_info *)&`typeinfo for`void;
   else
-    v6 = (const std::type_info *)&`typeinfo for'mysqlpp::Time;
+    v6 = (const std::type_info *)&`typeinfo for`mysqlpp::Time;
   v7 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](&mysqlpp::mysql_type_info::lookups, v6);
   v8 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   M_string_length = pd[0]._M_string_length;
@@ -2827,7 +2827,7 @@ size_t *__fastcall mysqlpp::SQLTypeAdapter::SQLTypeAdapter(mysqlpp::SQLTypeAdapt
 
   v2 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'void);
+          (const std::type_info *)&`typeinfo for`void);
   v3 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v3->data_ = 0LL;
   v4 = v3;
@@ -2911,7 +2911,7 @@ mysqlpp::SQLTypeAdapter *__fastcall mysqlpp::SQLTypeAdapter::assign(
 
   v2 = *mysqlpp::mysql_ti_sql_type_info_lookup::operator[](
           &mysqlpp::mysql_type_info::lookups,
-          (const std::type_info *)&`typeinfo for'void);
+          (const std::type_info *)&`typeinfo for`void);
   v3 = (mysqlpp::SQLBuffer *)operator new(0x18uLL);
   v3->data_ = 0LL;
   v4 = v3;
@@ -2964,7 +2964,7 @@ __int64 __fastcall mysqlpp::SQLTypeAdapter::at(
     mysqlpp::BadIndex::BadIndex(exception, "Not enough chars in SQLTypeAdapter", bad_index, v3);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::BadIndex,
+      (struct type_info *)&`typeinfo for`mysqlpp::BadIndex,
       (void (__fastcall *)(void *))mysqlpp::BadIndex::~BadIndex);
   }
   return (unsigned __int8)this->buffer_.counted_->data_[bad_index];
@@ -2980,7 +2980,7 @@ void __fastcall __noreturn mysqlpp::SQLTypeAdapter::at()
   mysqlpp::BadIndex::BadIndex(exception, "SQLTypeAdapter buffer not initialized", v0, -1);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadIndex,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadIndex,
     (void (__fastcall *)(void *))mysqlpp::BadIndex::~BadIndex);
 };
 

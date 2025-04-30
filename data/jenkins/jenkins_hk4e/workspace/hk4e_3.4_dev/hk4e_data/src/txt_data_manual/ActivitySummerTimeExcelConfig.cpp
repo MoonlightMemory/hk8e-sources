@@ -587,7 +587,7 @@ LABEL_28:
         {
           v40 = std::any::type(&watcher_config_ptr->param);
           if ( std::type_info::operator!=(
-                 (const std::type_info *const)&`typeinfo for'GroupSummerTimeSprintBoatReachPointsWatcherParam,
+                 (const std::type_info *const)&`typeinfo for`GroupSummerTimeSprintBoatReachPointsWatcherParam,
                  v40) )
           {
             *(_DWORD *)(((v3 + 688) >> 3) + 0x7FFF8000) = 0;

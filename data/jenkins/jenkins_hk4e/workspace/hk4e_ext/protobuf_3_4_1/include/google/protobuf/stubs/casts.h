@@ -26,8 +26,8 @@ const proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -77,8 +77,8 @@ const proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -128,8 +128,8 @@ const proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_Unaccept
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_UnacceptGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_UnacceptGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -179,8 +179,8 @@ const proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -230,8 +230,8 @@ const proto::ActivityBin::ActivityBin_CondStateMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_CondStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_CondStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -281,8 +281,8 @@ const proto::ActivityBin::ActivityBin_QuestContentMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_QuestContentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_QuestContentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -332,8 +332,8 @@ const proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -383,8 +383,8 @@ const proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -434,8 +434,8 @@ const proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_Gi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -485,8 +485,8 @@ const proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -536,8 +536,8 @@ const proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -587,8 +587,8 @@ const proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -638,8 +638,8 @@ const proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -689,8 +689,8 @@ const proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -740,8 +740,8 @@ const proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -791,8 +791,8 @@ const proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -842,8 +842,8 @@ const proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -893,8 +893,8 @@ const proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -944,8 +944,8 @@ const proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -995,8 +995,8 @@ const proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1046,8 +1046,8 @@ const proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1097,8 +1097,8 @@ const proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1148,8 +1148,8 @@ const proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1199,8 +1199,8 @@ const proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectio
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1250,8 +1250,8 @@ const proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_LevelOpenTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_LevelOpenTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1301,8 +1301,8 @@ const proto::AvatarBin::AvatarBin_BuffMapEntry *__cdecl google::protobuf::intern
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_BuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_BuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1352,8 +1352,8 @@ const proto::AvatarBin::AvatarBin_DepotMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_DepotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_DepotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1403,8 +1403,8 @@ const proto::AvatarBin::AvatarBin_SkillMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1454,8 +1454,8 @@ const proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1505,8 +1505,8 @@ const proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionIn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1556,8 +1556,8 @@ const proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_Expedition
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1607,8 +1607,8 @@ const proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionIn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1658,8 +1658,8 @@ const proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_Expediti
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1709,8 +1709,8 @@ const proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1760,8 +1760,8 @@ const proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1811,8 +1811,8 @@ const proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1862,8 +1862,8 @@ const proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1913,8 +1913,8 @@ const proto::AvatarInfo::AvatarInfo_FightPropMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -1964,8 +1964,8 @@ const proto::AvatarInfo::AvatarInfo_PropMapEntry *__cdecl google::protobuf::inte
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2015,8 +2015,8 @@ const proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2066,8 +2066,8 @@ const proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2117,8 +2117,8 @@ const proto::AvatarInfo::AvatarInfo_SkillMapEntry *__cdecl google::protobuf::int
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2168,8 +2168,8 @@ const proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2219,8 +2219,8 @@ const proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2270,8 +2270,8 @@ const proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSki
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2321,8 +2321,8 @@ const proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLev
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2372,8 +2372,8 @@ const proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2423,8 +2423,8 @@ const proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2474,8 +2474,8 @@ const proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2525,8 +2525,8 @@ const proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2576,8 +2576,8 @@ const proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2627,8 +2627,8 @@ const proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicN
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2678,8 +2678,8 @@ const proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2729,8 +2729,8 @@ const proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2780,8 +2780,8 @@ const proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2831,8 +2831,8 @@ const proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2882,8 +2882,8 @@ const proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2933,8 +2933,8 @@ const proto::BlockBin::BlockBin_GroupMapEntry *__cdecl google::protobuf::interna
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlockBin::BlockBin_GroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlockBin::BlockBin_GroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -2984,8 +2984,8 @@ const proto::BlockBin::BlockBin_GroupProductMapEntry *__cdecl google::protobuf::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlockBin::BlockBin_GroupProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlockBin::BlockBin_GroupProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3035,8 +3035,8 @@ const proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3086,8 +3086,8 @@ const proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_GadgetCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_GadgetCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3137,8 +3137,8 @@ const proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3188,8 +3188,8 @@ const proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3239,8 +3239,8 @@ const proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3290,8 +3290,8 @@ const proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3341,8 +3341,8 @@ const proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3392,8 +3392,8 @@ const proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3443,8 +3443,8 @@ const proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3494,8 +3494,8 @@ const proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3545,8 +3545,8 @@ const proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3596,8 +3596,8 @@ const proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3647,8 +3647,8 @@ const proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3698,8 +3698,8 @@ const proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3749,8 +3749,8 @@ const proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3800,8 +3800,8 @@ const proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3851,8 +3851,8 @@ const proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3902,8 +3902,8 @@ const proto::CoopChapter::CoopChapter_SeenEndingMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CoopChapter::CoopChapter_SeenEndingMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CoopChapter::CoopChapter_SeenEndingMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -3953,8 +3953,8 @@ const proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4004,8 +4004,8 @@ const proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4055,8 +4055,8 @@ const proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4106,8 +4106,8 @@ const proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickS
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4157,8 +4157,8 @@ const proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4208,8 +4208,8 @@ const proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4259,8 +4259,8 @@ const proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4310,8 +4310,8 @@ const proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4361,8 +4361,8 @@ const proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_Play
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_PlayerStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_PlayerStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4412,8 +4412,8 @@ const proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_Strength
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4463,8 +4463,8 @@ const proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4514,8 +4514,8 @@ const proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4565,8 +4565,8 @@ const proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4616,8 +4616,8 @@ const proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4667,8 +4667,8 @@ const proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4718,8 +4718,8 @@ const proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4769,8 +4769,8 @@ const proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4820,8 +4820,8 @@ const proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4871,8 +4871,8 @@ const proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4922,8 +4922,8 @@ const proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -4973,8 +4973,8 @@ const proto::EntityPropNotify::EntityPropNotify_PropMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityPropNotify::EntityPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityPropNotify::EntityPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5024,8 +5024,8 @@ const proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRendere
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRenderersEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRenderersEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5075,8 +5075,8 @@ const proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_Co
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_CombatThreatInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_CombatThreatInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5126,8 +5126,8 @@ const proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5177,8 +5177,8 @@ const proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5228,8 +5228,8 @@ const proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5279,8 +5279,8 @@ const proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerN
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5330,8 +5330,8 @@ const proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5381,8 +5381,8 @@ const proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5432,8 +5432,8 @@ const proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameIn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5483,8 +5483,8 @@ const proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleIn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5534,8 +5534,8 @@ const proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5585,8 +5585,8 @@ const proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5636,8 +5636,8 @@ const proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5687,8 +5687,8 @@ const proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5738,8 +5738,8 @@ const proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5789,8 +5789,8 @@ const proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5840,8 +5840,8 @@ const proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5891,8 +5891,8 @@ const proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5942,8 +5942,8 @@ const proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -5993,8 +5993,8 @@ const proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6044,8 +6044,8 @@ const proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6095,8 +6095,8 @@ const proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6146,8 +6146,8 @@ const proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6197,8 +6197,8 @@ const proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6248,8 +6248,8 @@ const proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6299,8 +6299,8 @@ const proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6350,8 +6350,8 @@ const proto::GCGPhase::GCGPhase_AllowControllerMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPhase::GCGPhase_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPhase::GCGPhase_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6401,8 +6401,8 @@ const proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6452,8 +6452,8 @@ const proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6503,8 +6503,8 @@ const proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6554,8 +6554,8 @@ const proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6605,8 +6605,8 @@ const proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6656,8 +6656,8 @@ const proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6707,8 +6707,8 @@ const proto::GCGSettleData::GCGSettleData_ScoreMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_ScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_ScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6758,8 +6758,8 @@ const proto::GCGSettleData::GCGSettleData_UidMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_UidMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_UidMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6809,8 +6809,8 @@ const proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6860,8 +6860,8 @@ const proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6911,8 +6911,8 @@ const proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -6962,8 +6962,8 @@ const proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNum
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7013,8 +7013,8 @@ const proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7064,8 +7064,8 @@ const proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7115,8 +7115,8 @@ const proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7166,8 +7166,8 @@ const proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7217,8 +7217,8 @@ const proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7268,8 +7268,8 @@ const proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7319,8 +7319,8 @@ const proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7370,8 +7370,8 @@ const proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7421,8 +7421,8 @@ const proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7472,8 +7472,8 @@ const proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7523,8 +7523,8 @@ const proto::GachaStageBin::GachaStageBin_TargetNumMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaStageBin::GachaStageBin_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaStageBin::GachaStageBin_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7574,8 +7574,8 @@ const proto::GachaStageData::GachaStageData_TargetNumMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaStageData::GachaStageData_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaStageData::GachaStageData_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7625,8 +7625,8 @@ const proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetCh
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7676,8 +7676,8 @@ const proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetCh
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7727,8 +7727,8 @@ const proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7778,8 +7778,8 @@ const proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7829,8 +7829,8 @@ const proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7880,8 +7880,8 @@ const proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7931,8 +7931,8 @@ const proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -7982,8 +7982,8 @@ const proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarCon
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ElementReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ElementReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8033,8 +8033,8 @@ const proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarCon
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8084,8 +8084,8 @@ const proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarCon
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_SkillConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_SkillConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8135,8 +8135,8 @@ const proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarCo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8186,8 +8186,8 @@ const proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationRel
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationReliquaryMapConfig_ReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationReliquaryMapConfig_ReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8237,8 +8237,8 @@ const proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8288,8 +8288,8 @@ const proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8339,8 +8339,8 @@ const proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8390,8 +8390,8 @@ const proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8441,8 +8441,8 @@ const proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_TransactionStatusMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_TransactionStatusMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8492,8 +8492,8 @@ const proto::GivingRecord::GivingRecord_MaterialCntMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GivingRecord::GivingRecord_MaterialCntMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GivingRecord::GivingRecord_MaterialCntMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8543,8 +8543,8 @@ const proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8594,8 +8594,8 @@ const proto::GroupBin::GroupBin_BossDieInfoMapEntry *__cdecl google::protobuf::i
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_BossDieInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_BossDieInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8645,8 +8645,8 @@ const proto::GroupBin::GroupBin_GadgetMapEntry *__cdecl google::protobuf::intern
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_GadgetMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_GadgetMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8696,8 +8696,8 @@ const proto::GroupBin::GroupBin_MonsterMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_MonsterMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_MonsterMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8747,8 +8747,8 @@ const proto::GroupBin::GroupBin_TriggerMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_TriggerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_TriggerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8798,8 +8798,8 @@ const proto::GroupBin::GroupBin_VariableMapEntry *__cdecl google::protobuf::inte
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_VariableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_VariableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8849,8 +8849,8 @@ const proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8900,8 +8900,8 @@ const proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -8951,8 +8951,8 @@ const proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9002,8 +9002,8 @@ const proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9053,8 +9053,8 @@ const proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9104,8 +9104,8 @@ const proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9155,8 +9155,8 @@ const proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9206,8 +9206,8 @@ const proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9257,8 +9257,8 @@ const proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9308,8 +9308,8 @@ const proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9359,8 +9359,8 @@ const proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSubFurnitureCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSubFurnitureCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9410,8 +9410,8 @@ const proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9461,8 +9461,8 @@ const proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9512,8 +9512,8 @@ const proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBin_ItemCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBin_ItemCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9563,8 +9563,8 @@ const proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9614,8 +9614,8 @@ const proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingP
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingPointsNotify_PlayerBuildingPointsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingPointsNotify_PlayerBuildingPointsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9665,8 +9665,8 @@ const proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNotify_PlayerConfirmedCardMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNotify_PlayerConfirmedCardMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9716,8 +9716,8 @@ const proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9767,8 +9767,8 @@ const proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9818,8 +9818,8 @@ const proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9869,8 +9869,8 @@ const proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9920,8 +9920,8 @@ const proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -9971,8 +9971,8 @@ const proto::MainCoop::MainCoop_NormalVarMapEntry *__cdecl google::protobuf::int
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_NormalVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_NormalVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10022,8 +10022,8 @@ const proto::MainCoop::MainCoop_SeenEndingMapEntry *__cdecl google::protobuf::in
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_SeenEndingMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_SeenEndingMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10073,8 +10073,8 @@ const proto::MainCoop::MainCoop_TempVarMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_TempVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_TempVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10124,8 +10124,8 @@ const proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchU
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchUnitMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchUnitMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10175,8 +10175,8 @@ const proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10226,8 +10226,8 @@ const proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDel
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10277,8 +10277,8 @@ const proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_Del
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10328,8 +10328,8 @@ const proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMateri
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10379,8 +10379,8 @@ const proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10430,8 +10430,8 @@ const proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_Delete
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_DeleteMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_DeleteMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10481,8 +10481,8 @@ const proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_Return
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_ReturnItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_ReturnItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10532,8 +10532,8 @@ const proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataReco
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10583,8 +10583,8 @@ const proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10634,8 +10634,8 @@ const proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10685,8 +10685,8 @@ const proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_Leve
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_LevelInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_LevelInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10736,8 +10736,8 @@ const proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameR
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10787,8 +10787,8 @@ const proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10838,8 +10838,8 @@ const proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10889,8 +10889,8 @@ const proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivit
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivityGiveFlower_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivityGiveFlower_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10940,8 +10940,8 @@ const proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlower
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlowerActivityGiveFlowerContext_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlowerActivityGiveFlowerContext_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -10991,8 +10991,8 @@ const proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11042,8 +11042,8 @@ const proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11093,8 +11093,8 @@ const proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11144,8 +11144,8 @@ const proto::ParentQuest::ParentQuest_TimeVarMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ParentQuest::ParentQuest_TimeVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ParentQuest::ParentQuest_TimeVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11195,8 +11195,8 @@ const proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11246,8 +11246,8 @@ const proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_AcceptFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_AcceptFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11297,8 +11297,8 @@ const proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_UnacceptFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_UnacceptFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11348,8 +11348,8 @@ const proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11399,8 +11399,8 @@ const proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11450,8 +11450,8 @@ const proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_Fl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11501,8 +11501,8 @@ const proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFlowerRsp_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFlowerRsp_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11552,8 +11552,8 @@ const proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_Flow
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11603,8 +11603,8 @@ const proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11654,8 +11654,8 @@ const proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11705,8 +11705,8 @@ const proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11756,8 +11756,8 @@ const proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11807,8 +11807,8 @@ const proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11858,8 +11858,8 @@ const proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11909,8 +11909,8 @@ const proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -11960,8 +11960,8 @@ const proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12011,8 +12011,8 @@ const proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12062,8 +12062,8 @@ const proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12113,8 +12113,8 @@ const proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_Activi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12164,8 +12164,8 @@ const proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12215,8 +12215,8 @@ const proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12266,8 +12266,8 @@ const proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12317,8 +12317,8 @@ const proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12368,8 +12368,8 @@ const proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12419,8 +12419,8 @@ const proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12470,8 +12470,8 @@ const proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12521,8 +12521,8 @@ const proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12572,8 +12572,8 @@ const proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12623,8 +12623,8 @@ const proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12674,8 +12674,8 @@ const proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12725,8 +12725,8 @@ const proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12776,8 +12776,8 @@ const proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12827,8 +12827,8 @@ const proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12878,8 +12878,8 @@ const proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12929,8 +12929,8 @@ const proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -12980,8 +12980,8 @@ const proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13031,8 +13031,8 @@ const proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13082,8 +13082,8 @@ const proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13133,8 +13133,8 @@ const proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13184,8 +13184,8 @@ const proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVers
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13235,8 +13235,8 @@ const proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13286,8 +13286,8 @@ const proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13337,8 +13337,8 @@ const proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13388,8 +13388,8 @@ const proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13439,8 +13439,8 @@ const proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13490,8 +13490,8 @@ const proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13541,8 +13541,8 @@ const proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13592,8 +13592,8 @@ const proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13643,8 +13643,8 @@ const proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_Retcod
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_RetcodeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_RetcodeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13694,8 +13694,8 @@ const proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13745,8 +13745,8 @@ const proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13796,8 +13796,8 @@ const proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13847,8 +13847,8 @@ const proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13898,8 +13898,8 @@ const proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -13949,8 +13949,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14000,8 +14000,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCount
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14051,8 +14051,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14102,8 +14102,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14153,8 +14153,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14204,8 +14204,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14255,8 +14255,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14306,8 +14306,8 @@ const proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14357,8 +14357,8 @@ const proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14408,8 +14408,8 @@ const proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14459,8 +14459,8 @@ const proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14510,8 +14510,8 @@ const proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14561,8 +14561,8 @@ const proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14612,8 +14612,8 @@ const proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14663,8 +14663,8 @@ const proto::Quest::Quest_LackedNpcMapEntry *__cdecl google::protobuf::internal:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::Quest::Quest_LackedNpcMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::Quest::Quest_LackedNpcMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14714,8 +14714,8 @@ const proto::Quest::Quest_LackedPlaceMapEntry *__cdecl google::protobuf::interna
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::Quest::Quest_LackedPlaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::Quest::Quest_LackedPlaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14765,8 +14765,8 @@ const proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14816,8 +14816,8 @@ const proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14867,8 +14867,8 @@ const proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFil
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFilterStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFilterStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14918,8 +14918,8 @@ const proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_Reli
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_ReliquaryFilterStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_ReliquaryFilterStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -14969,8 +14969,8 @@ const proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15020,8 +15020,8 @@ const proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15071,8 +15071,8 @@ const proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15122,8 +15122,8 @@ const proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15173,8 +15173,8 @@ const proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15224,8 +15224,8 @@ const proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15275,8 +15275,8 @@ const proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15326,8 +15326,8 @@ const proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15377,8 +15377,8 @@ const proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChal
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15428,8 +15428,8 @@ const proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15479,8 +15479,8 @@ const proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewardIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewardIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15530,8 +15530,8 @@ const proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15581,8 +15581,8 @@ const proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15632,8 +15632,8 @@ const proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15683,8 +15683,8 @@ const proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15734,8 +15734,8 @@ const proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15785,8 +15785,8 @@ const proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15836,8 +15836,8 @@ const proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15887,8 +15887,8 @@ const proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15938,8 +15938,8 @@ const proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -15989,8 +15989,8 @@ const proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16040,8 +16040,8 @@ const proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16091,8 +16091,8 @@ const proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16142,8 +16142,8 @@ const proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16193,8 +16193,8 @@ const proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16244,8 +16244,8 @@ const proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16295,8 +16295,8 @@ const proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16346,8 +16346,8 @@ const proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloon
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloonInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloonInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16397,8 +16397,8 @@ const proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16448,8 +16448,8 @@ const proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16499,8 +16499,8 @@ const proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16550,8 +16550,8 @@ const proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInfo_PlayerScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInfo_PlayerScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16601,8 +16601,8 @@ const proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16652,8 +16652,8 @@ const proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16703,8 +16703,8 @@ const proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftData
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftDataReq_GiveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftDataReq_GiveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16754,8 +16754,8 @@ const proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftData
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_GiveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_GiveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16805,8 +16805,8 @@ const proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftData
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_HaveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_HaveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16856,8 +16856,8 @@ const proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16907,8 +16907,8 @@ const proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriend
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriendFlowerDataReq_GiveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriendFlowerDataReq_GiveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -16958,8 +16958,8 @@ const proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriend
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_GiveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_GiveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17009,8 +17009,8 @@ const proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriend
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_HaveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_HaveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17060,8 +17060,8 @@ const proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17111,8 +17111,8 @@ const proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgress
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17162,8 +17162,8 @@ const proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17213,8 +17213,8 @@ const proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17264,8 +17264,8 @@ const proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17315,8 +17315,8 @@ const proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17366,8 +17366,8 @@ const proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17417,8 +17417,8 @@ const proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17468,8 +17468,8 @@ const proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17519,8 +17519,8 @@ const proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17570,8 +17570,8 @@ const proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17621,8 +17621,8 @@ const proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17672,8 +17672,8 @@ const proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17723,8 +17723,8 @@ const proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17774,8 +17774,8 @@ const proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17825,8 +17825,8 @@ const proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17876,8 +17876,8 @@ const proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17927,8 +17927,8 @@ const proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -17978,8 +17978,8 @@ const proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18029,8 +18029,8 @@ const proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18080,8 +18080,8 @@ const proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18131,8 +18131,8 @@ const proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_Fragment
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_FragmentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_FragmentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18182,8 +18182,8 @@ const proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_Fragme
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_FragmentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_FragmentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18233,8 +18233,8 @@ const proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18284,8 +18284,8 @@ const proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18335,8 +18335,8 @@ const proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18386,8 +18386,8 @@ const proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18437,8 +18437,8 @@ const proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLe
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18488,8 +18488,8 @@ const proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_CampLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_CampLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18539,8 +18539,8 @@ const proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettleInfo_AnimalCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettleInfo_AnimalCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18590,8 +18590,8 @@ const proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18641,8 +18641,8 @@ const proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_St
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_StoreIncomeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_StoreIncomeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18692,8 +18692,8 @@ const proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18743,8 +18743,8 @@ const proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18794,8 +18794,8 @@ const proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevel
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18845,8 +18845,8 @@ const proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18896,8 +18896,8 @@ const proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18947,8 +18947,8 @@ const proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -18998,8 +18998,8 @@ const proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19049,8 +19049,8 @@ const proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_Search
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_SearchTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_SearchTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19100,8 +19100,8 @@ const proto::Weapon::Weapon_AffixMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::Weapon::Weapon_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::Weapon::Weapon_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19151,8 +19151,8 @@ const proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19202,8 +19202,8 @@ const proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19253,8 +19253,8 @@ const proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19304,8 +19304,8 @@ const proto::WeaponBin::WeaponBin_AffixMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponBin::WeaponBin_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponBin::WeaponBin_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19355,8 +19355,8 @@ const proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19406,8 +19406,8 @@ const proto::WorldBin::WorldBin_SceneMapEntry *__cdecl google::protobuf::interna
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WorldBin::WorldBin_SceneMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WorldBin::WorldBin_SceneMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19457,8 +19457,8 @@ const proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19508,8 +19508,8 @@ const proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_Pla
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_PlatformUidListEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_PlatformUidListEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19559,8 +19559,8 @@ proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AISnapshotEntityData::AISnapshotEntityData_HittingAvatarsEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19610,8 +19610,8 @@ proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGiftNumM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_AcceptGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19661,8 +19661,8 @@ proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_UnacceptGiftNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_UnacceptGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityAcceptGiftResultInfo::ActivityAcceptGiftResultInfo_UnacceptGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19712,8 +19712,8 @@ proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_ActivityPushTipsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19763,8 +19763,8 @@ proto::ActivityBin::ActivityBin_CondStateMapEntry *__cdecl google::protobuf::int
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_CondStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_CondStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19814,8 +19814,8 @@ proto::ActivityBin::ActivityBin_QuestContentMapEntry *__cdecl google::protobuf::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityBin::ActivityBin_QuestContentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityBin::ActivityBin_QuestContentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19865,8 +19865,8 @@ proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityCoinInfoNotify::ActivityCoinInfoNotify_ActivityCoinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19916,8 +19916,8 @@ proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityFriendGiftWishData::ActivityFriendGiftWishData_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -19967,8 +19967,8 @@ proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_GiftNumM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGetCanGiveFriendGiftRsp::ActivityGetCanGiveFriendGiftRsp_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20018,8 +20018,8 @@ proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiftDataBin::ActivityGiftDataBin_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20069,8 +20069,8 @@ proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveFriendGiftReq::ActivityGiveFriendGiftReq_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20120,8 +20120,8 @@ proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveSocialData::ActivityGiveSocialData_HaveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20171,8 +20171,8 @@ proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityGiveSocialData::ActivityGiveSocialData_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20222,8 +20222,8 @@ proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityInfo::ActivityInfo_ActivityCoinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20273,8 +20273,8 @@ proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityInfo::ActivityInfo_WishGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20324,8 +20324,8 @@ proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityRecvGiftBin::ActivityRecvGiftBin_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20375,8 +20375,8 @@ proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivityRecvGiftData::ActivityRecvGiftData_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20426,8 +20426,8 @@ proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ActivitySetGiftWishReq::ActivitySetGiftWishReq_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20477,8 +20477,8 @@ proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry *__cdecl google::protobuf::i
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiSkillCdInfo::AiSkillCdInfo_SkillCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20528,8 +20528,8 @@ proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiSkillCdInfo::AiSkillCdInfo_SkillGroupCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20579,8 +20579,8 @@ proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry *__cdecl google::protobuf::in
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AiThreatInfo::AiThreatInfo_AiThreatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20630,8 +20630,8 @@ proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AllShareCDDataNotify::AllShareCDDataNotify_ShareCdInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20681,8 +20681,8 @@ proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AranaraCollectionSuite::AranaraCollectionSuite_CollectionIdStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20732,8 +20732,8 @@ proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectionMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AranaraCollectionSuiteBin::AranaraCollectionSuiteBin_StateCollectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20783,8 +20783,8 @@ proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_LevelO
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_LevelOpenTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ArenaChallengeActivityDetailInfo::ArenaChallengeActivityDetailInfo_LevelOpenTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20834,8 +20834,8 @@ proto::AvatarBin::AvatarBin_BuffMapEntry *__cdecl google::protobuf::internal::do
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_BuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_BuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20885,8 +20885,8 @@ proto::AvatarBin::AvatarBin_DepotMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_DepotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_DepotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20936,8 +20936,8 @@ proto::AvatarBin::AvatarBin_SkillMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarBin::AvatarBin_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarBin::AvatarBin_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -20987,8 +20987,8 @@ proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarDataNotify::AvatarDataNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21038,8 +21038,8 @@ proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionAllDataRsp::AvatarExpeditionAllDataRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21089,8 +21089,8 @@ proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionCallBackRsp::AvatarExpeditionCallBackRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21140,8 +21140,8 @@ proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionDataNotify::AvatarExpeditionDataNotify_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21191,8 +21191,8 @@ proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionGetRewardRsp::AvatarExpeditionGetRewardRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21242,8 +21242,8 @@ proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarExpeditionStartRsp::AvatarExpeditionStartRsp_ExpeditionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21293,8 +21293,8 @@ proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFetterDataNotify::AvatarFetterDataNotify_FetterInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21344,8 +21344,8 @@ proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFightPropNotify::AvatarFightPropNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21395,8 +21395,8 @@ proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarFightPropUpdateNotify::AvatarFightPropUpdateNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21446,8 +21446,8 @@ proto::AvatarInfo::AvatarInfo_FightPropMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21497,8 +21497,8 @@ proto::AvatarInfo::AvatarInfo_PropMapEntry *__cdecl google::protobuf::internal::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21548,8 +21548,8 @@ proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21599,8 +21599,8 @@ proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry *__cdecl google::protobuf::inte
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21650,8 +21650,8 @@ proto::AvatarInfo::AvatarInfo_SkillMapEntry *__cdecl google::protobuf::internal:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarInfo::AvatarInfo_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarInfo::AvatarInfo_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21701,8 +21701,8 @@ proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarPropNotify::AvatarPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21752,8 +21752,8 @@ proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotBin::AvatarSkillDepotBin_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21803,8 +21803,8 @@ proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSkillExtr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21854,8 +21854,8 @@ proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLevelMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillDepotChangeNotify::AvatarSkillDepotChangeNotify_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21905,8 +21905,8 @@ proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarSkillInfoNotify::AvatarSkillInfoNotify_SkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -21956,8 +21956,8 @@ proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarTeamAllDataNotify::AvatarTeamAllDataNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22007,8 +22007,8 @@ proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarTeamUpdateNotify::AvatarTeamUpdateNotify_AvatarTeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22058,8 +22058,8 @@ proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarUpgradeRsp::AvatarUpgradeRsp_CurFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22109,8 +22109,8 @@ proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::AvatarUpgradeRsp::AvatarUpgradeRsp_OldFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22160,8 +22160,8 @@ proto::BackupGroupBin::BackupGroupBin_VariableMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BackupGroupBin::BackupGroupBin_VariableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BackupGroupBin::BackupGroupBin_VariableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22211,8 +22211,8 @@ proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicNumMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingAcceptAllGivePicRsp::BlessingAcceptAllGivePicRsp_AcceptPicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22262,8 +22262,8 @@ proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingActivityDetailInfo::BlessingActivityDetailInfo_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22313,8 +22313,8 @@ proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingFriendPicData::BlessingFriendPicData_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22364,8 +22364,8 @@ proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingRedeemRewardRsp::BlessingRedeemRewardRsp_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22415,8 +22415,8 @@ proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingScheduleBin::BlessingScheduleBin_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22466,8 +22466,8 @@ proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlessingSocialData::BlessingSocialData_PicNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22517,8 +22517,8 @@ proto::BlockBin::BlockBin_GroupMapEntry *__cdecl google::protobuf::internal::dow
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlockBin::BlockBin_GroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlockBin::BlockBin_GroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22568,8 +22568,8 @@ proto::BlockBin::BlockBin_GroupProductMapEntry *__cdecl google::protobuf::intern
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BlockBin::BlockBin_GroupProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BlockBin::BlockBin_GroupProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22619,8 +22619,8 @@ proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BossChestInfo::BossChestInfo_UidDiscountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22670,8 +22670,8 @@ proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_Gadget
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_GadgetCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BounceConjuringGallerySettleInfo::BounceConjuringGallerySettleInfo_GadgetCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22721,8 +22721,8 @@ proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfoMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BounceConjuringSettleNotify::BounceConjuringSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22772,8 +22772,8 @@ proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::BrickBreakerDetailInfo::BrickBreakerDetailInfo_SkillInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22823,8 +22823,8 @@ proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChannellerSlabBuffSchemeBin::ChannellerSlabBuffSchemeBin_SlotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22874,8 +22874,8 @@ proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChannellerSlabBuffSchemeInfo::ChannellerSlabBuffSchemeInfo_SlotMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22925,8 +22925,8 @@ proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionReq::CheckGameVersionReq_NextResVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -22976,8 +22976,8 @@ proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionReq::CheckGameVersionReq_ResVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23027,8 +23027,8 @@ proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionRsp::CheckGameVersionRsp_NextResVersionResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23078,8 +23078,8 @@ proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CheckGameVersionRsp::CheckGameVersionRsp_ResVersionResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23129,8 +23129,8 @@ proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessMysteryInfo::ChessMysteryInfo_DetailInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23180,8 +23180,8 @@ proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23231,8 +23231,8 @@ proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessScheduleBin::ChessScheduleBin_DailyObtainedExpMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23282,8 +23282,8 @@ proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClearRoguelikeCurseNotify::ClearRoguelikeCurseNotify_ClearCurseMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23333,8 +23333,8 @@ proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_CrcVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23384,8 +23384,8 @@ proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConfigMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_NextResVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23435,8 +23435,8 @@ proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ClientVersionSyncNotify::ClientVersionSyncNotify_ResVersionConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23486,8 +23486,8 @@ proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CodexTypeData::CodexTypeData_WeaponMaxPromoteLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23537,8 +23537,8 @@ proto::CoopChapter::CoopChapter_SeenEndingMapEntry *__cdecl google::protobuf::in
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CoopChapter::CoopChapter_SeenEndingMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CoopChapter::CoopChapter_SeenEndingMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23588,8 +23588,8 @@ proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CoopProgressBin::CoopProgressBin_MainCoopMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23639,8 +23639,8 @@ proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstract::CustomDungeonAbstract_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23690,8 +23690,8 @@ proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstractBin::CustomDungeonAbstractBin_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23741,8 +23741,8 @@ proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickStatist
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickStatisticsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::CustomDungeonAbstractMuipData::CustomDungeonAbstractMuipData_BrickStatisticsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23792,8 +23792,8 @@ proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23843,8 +23843,8 @@ proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientPlatformMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23894,8 +23894,8 @@ proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientSilenceMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23945,8 +23945,8 @@ proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DataVersionConfig::DataVersionConfig_ClientSilencePlatformMd5Entry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -23996,8 +23996,8 @@ proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_PlayerStat
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_PlayerStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonCandidateTeamInfoNotify::DungeonCandidateTeamInfoNotify_PlayerStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24047,8 +24047,8 @@ proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_StrengthenPoin
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonChallengeFinishNotify::DungeonChallengeFinishNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24098,8 +24098,8 @@ proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonDataNotify::DungeonDataNotify_DungeonDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24149,8 +24149,8 @@ proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonGroupRecordBin::DungeonGroupRecordBin_ChestOpenMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24200,8 +24200,8 @@ proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonPlayerDieNotify::DungeonPlayerDieNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24251,8 +24251,8 @@ proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonProductBin::DungeonProductBin_SceneProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24302,8 +24302,8 @@ proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonSettleNotify::DungeonSettleNotify_SettleShowEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24353,8 +24353,8 @@ proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::DungeonSettleNotify::DungeonSettleNotify_StrengthenPointDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24404,8 +24404,8 @@ proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EnterCustomDungeonRsp::EnterCustomDungeonRsp_RoomCostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24455,8 +24455,8 @@ proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EnterRoguelikeDungeonNotify::EnterRoguelikeDungeonNotify_CellInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24506,8 +24506,8 @@ proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityFightPropNotify::EntityFightPropNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24557,8 +24557,8 @@ proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityFightPropUpdateNotify::EntityFightPropUpdateNotify_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24608,8 +24608,8 @@ proto::EntityPropNotify::EntityPropNotify_PropMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityPropNotify::EntityPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityPropNotify::EntityPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24659,8 +24659,8 @@ proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRenderersEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRenderersEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EntityRendererChangedInfo::EntityRendererChangedInfo_ChangedRenderersEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24710,8 +24710,8 @@ proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_CombatTh
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_CombatThreatInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EvtAiSyncCombatThreatInfoNotify::EvtAiSyncCombatThreatInfoNotify_CombatThreatInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24761,8 +24761,8 @@ proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::EvtAiSyncSkillCdNotify::EvtAiSyncSkillCdNotify_AiCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24812,8 +24812,8 @@ proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FallPlayerInfo::FallPlayerInfo_BallCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24863,8 +24863,8 @@ proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FallSettleInfo::FallSettleInfo_FlowerRingCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24914,8 +24914,8 @@ proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerNumMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FineGrainedPlayerNumRsp::FineGrainedPlayerNumRsp_FineGrainedPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -24965,8 +24965,8 @@ proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FishingGallerySettleInfo::FishingGallerySettleInfo_FishMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25016,8 +25016,8 @@ proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSectionIn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_DungeonSectionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25067,8 +25067,8 @@ proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameInfoMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairActivityDetailInfo::FleurFairActivityDetailInfo_MinigameInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25118,8 +25118,8 @@ proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleInfoMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairBalloonSettleNotify::FleurFairBalloonSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25169,8 +25169,8 @@ proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairFallSettleNotify::FleurFairFallSettleNotify_SettleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25220,8 +25220,8 @@ proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25271,8 +25271,8 @@ proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairMusicBin::FleurFairMusicBin_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25322,8 +25322,8 @@ proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairMusicGameInfo::FleurFairMusicGameInfo_MusicRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25373,8 +25373,8 @@ proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairScheduleBin::FleurFairScheduleBin_DungeonSectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25424,8 +25424,8 @@ proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairScheduleBin::FleurFairScheduleBin_MinigameMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25475,8 +25475,8 @@ proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeDataNotify::ForgeDataNotify_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25526,8 +25526,8 @@ proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeGetQueueDataRsp::ForgeGetQueueDataRsp_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25577,8 +25577,8 @@ proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ForgeQueueDataNotify::ForgeQueueDataNotify_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25628,8 +25628,8 @@ proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGAttackCostInfo::GCGAttackCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25679,8 +25679,8 @@ proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry *__cdecl google::protobuf::in
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGDuelExtra::GCGDuelExtra_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25730,8 +25730,8 @@ proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgAddDice::GCGMsgAddDice_BeforeDiceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25781,8 +25781,8 @@ proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry *__cdecl google::protobuf::inte
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgAddDice::GCGMsgAddDice_DiceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25832,8 +25832,8 @@ proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgPVEIntentionInfo::GCGMsgPVEIntentionInfo_IntentionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25883,8 +25883,8 @@ proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgPhaseChange::GCGMsgPhaseChange_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25934,8 +25934,8 @@ proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgSkillLimitsChange::GCGMsgSkillLimitsChange_CardLimitsChangeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -25985,8 +25985,8 @@ proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGMsgUpdateController::GCGMsgUpdateController_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26036,8 +26036,8 @@ proto::GCGPhase::GCGPhase_AllowControllerMapEntry *__cdecl google::protobuf::int
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPhase::GCGPhase_AllowControllerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPhase::GCGPhase_AllowControllerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26087,8 +26087,8 @@ proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayCardCostInfo::GCGPlayCardCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26138,8 +26138,8 @@ proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerBriefBin::GCGPlayerBriefBin_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26189,8 +26189,8 @@ proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerBriefData::GCGPlayerBriefData_CardFaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26240,8 +26240,8 @@ proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGPlayerField::GCGPlayerField_ModifyZoneMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26291,8 +26291,8 @@ proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSelectOnStageCostInfo::GCGSelectOnStageCostInfo_CostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26342,8 +26342,8 @@ proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_ChallengeProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26393,8 +26393,8 @@ proto::GCGSettleData::GCGSettleData_ScoreMapEntry *__cdecl google::protobuf::int
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_ScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_ScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26444,8 +26444,8 @@ proto::GCGSettleData::GCGSettleData_UidMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSettleData::GCGSettleData_UidMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSettleData::GCGSettleData_UidMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26495,8 +26495,8 @@ proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_CardTokenChangeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26546,8 +26546,8 @@ proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_HpInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26597,8 +26597,8 @@ proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GCGSkillPreviewInfo::GCGSkillPreviewInfo_ReactionInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26648,8 +26648,8 @@ proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNumMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityDetailInfo::GachaActivityDetailInfo_HaveRewardRobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26699,8 +26699,8 @@ proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityDetailInfo::GachaActivityDetailInfo_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26750,8 +26750,8 @@ proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityPercentNotify::GachaActivityPercentNotify_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26801,8 +26801,8 @@ proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityTakeRewardReq::GachaActivityTakeRewardReq_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26852,8 +26852,8 @@ proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaActivityTakeRewardRsp::GachaActivityTakeRewardRsp_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26903,8 +26903,8 @@ proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaGuaranteeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -26954,8 +26954,8 @@ proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaItemParentTypeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27005,8 +27005,8 @@ proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaItemTypeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27056,8 +27056,8 @@ proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaRecordBin::GachaRecordBin_GachaUpDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27107,8 +27107,8 @@ proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaScheduleBin::GachaScheduleBin_HaveRewardRobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27158,8 +27158,8 @@ proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaScheduleBin::GachaScheduleBin_RobotNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27209,8 +27209,8 @@ proto::GachaStageBin::GachaStageBin_TargetNumMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaStageBin::GachaStageBin_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaStageBin::GachaStageBin_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27260,8 +27260,8 @@ proto::GachaStageData::GachaStageData_TargetNumMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GachaStageData::GachaStageData_TargetNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GachaStageData::GachaStageData_TargetNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27311,8 +27311,8 @@ proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetChainLev
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetChainLevelChangeNotify::GadgetChainLevelChangeNotify_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27362,8 +27362,8 @@ proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetChainLev
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetChainLevelUpdateNotify::GadgetChainLevelUpdateNotify_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27413,8 +27413,8 @@ proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetFishPoolBin::GadgetFishPoolBin_CachedFishMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27464,8 +27464,8 @@ proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GadgetGeneralRewardBin::GadgetGeneralRewardBin_QualifyInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27515,8 +27515,8 @@ proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryBalloonScoreNotify::GalleryBalloonScoreNotify_UidScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27566,8 +27566,8 @@ proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryFallCatchNotify::GalleryFallCatchNotify_BallCatchCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27617,8 +27617,8 @@ proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GalleryFallScoreNotify::GalleryFallScoreNotify_UidBriefMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27668,8 +27668,8 @@ proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_El
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ElementReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ElementReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27719,8 +27719,8 @@ proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_Re
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_ReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27770,8 +27770,8 @@ proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_Sk
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_SkillConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationAvatarConfig::GameplayRecommendationAvatarConfig_SkillConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27821,8 +27821,8 @@ proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarConfigMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationConfig::GameplayRecommendationConfig_AvatarConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27872,8 +27872,8 @@ proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationReliquary
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationReliquaryMapConfig_ReliquaryConfigMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GameplayRecommendationReliquaryMapConfig::GameplayRecommendationReliquaryMapConfig_ReliquaryConfigMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27923,8 +27923,8 @@ proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GeneralRewardBin::GeneralRewardBin_DropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -27974,8 +27974,8 @@ proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetBindGmUidRsp::GetBindGmUidRsp_GmUidMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28025,8 +28025,8 @@ proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedNpcMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28076,8 +28076,8 @@ proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetQuestLackingResourceRsp::GetQuestLackingResourceRsp_LackedPlaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28127,8 +28127,8 @@ proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_Transa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_TransactionStatusMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GetRedisMailTransactionStatusRsp::GetRedisMailTransactionStatusRsp_TransactionStatusMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28178,8 +28178,8 @@ proto::GivingRecord::GivingRecord_MaterialCntMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GivingRecord::GivingRecord_MaterialCntMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GivingRecord::GivingRecord_MaterialCntMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28229,8 +28229,8 @@ proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GivingRecordBin::GivingRecordBin_MaterialCntMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28280,8 +28280,8 @@ proto::GroupBin::GroupBin_BossDieInfoMapEntry *__cdecl google::protobuf::interna
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_BossDieInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_BossDieInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28331,8 +28331,8 @@ proto::GroupBin::GroupBin_GadgetMapEntry *__cdecl google::protobuf::internal::do
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_GadgetMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_GadgetMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28382,8 +28382,8 @@ proto::GroupBin::GroupBin_MonsterMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_MonsterMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_MonsterMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28433,8 +28433,8 @@ proto::GroupBin::GroupBin_TriggerMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_TriggerMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_TriggerMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28484,8 +28484,8 @@ proto::GroupBin::GroupBin_VariableMapEntry *__cdecl google::protobuf::internal::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBin::GroupBin_VariableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBin::GroupBin_VariableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28535,8 +28535,8 @@ proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupBossChestBin::GroupBossChestBin_BossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28586,8 +28586,8 @@ proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupProductBin::GroupProductBin_GadgetOneOffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28637,8 +28637,8 @@ proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupProductBin::GroupProductBin_MonsterOneOffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28688,8 +28688,8 @@ proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::GroupSuiteNotify::GroupSuiteNotify_GroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28739,8 +28739,8 @@ proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::H5ActivityIdsNotify::H5ActivityIdsNotify_H5ActivityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28790,8 +28790,8 @@ proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HachiActivityDetailInfo::HachiActivityDetailInfo_StageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28841,8 +28841,8 @@ proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HachiScheduleBin::HachiScheduleBin_StageBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28892,8 +28892,8 @@ proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HiderSlotSkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28943,8 +28943,8 @@ proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekScheduleBin::HideAndSeekScheduleBin_HunterSlotSkillMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -28994,8 +28994,8 @@ proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HideAndSeekStageInfo::HideAndSeekStageInfo_BattleInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29045,8 +29045,8 @@ proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSubFurni
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSubFurnitureCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeCustomFurnitureInfoNotify::HomeCustomFurnitureInfoNotify_UsedSubFurnitureCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29096,8 +29096,8 @@ proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeExchangeWoodReq::HomeExchangeWoodReq_MaterialCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29147,8 +29147,8 @@ proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeGroupRecordCompBin::HomeGroupRecordCompBin_GroupRecordMapBinEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29198,8 +29198,8 @@ proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBin_Item
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBin_ItemCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::HomeModuleUsedActivityItemDataBin::HomeModuleUsedActivityItemDataBin_ItemCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29249,8 +29249,8 @@ proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleChessInfo::InBattleChessInfo_PlayerInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29300,8 +29300,8 @@ proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingPointsN
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingPointsNotify_PlayerBuildingPointsMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleMechanicusBuildingPointsNotify::InBattleMechanicusBuildingPointsNotify_PlayerBuildingPointsMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29351,8 +29351,8 @@ proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNotify_Pl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNotify_PlayerConfirmedCardMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::InBattleMechanicusCardResultNotify::InBattleMechanicusCardResultNotify_PlayerConfirmedCardMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29402,8 +29402,8 @@ proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::IrodoriFlowerShelfBin::IrodoriFlowerShelfBin_UsedFlowerCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29453,8 +29453,8 @@ proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ItemCdGroupTimeNotify::ItemCdGroupTimeNotify_ItemCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29504,8 +29504,8 @@ proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ItemGivingReq::ItemGivingReq_ItemGuidCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29555,8 +29555,8 @@ proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::LanternRiteScheduleBin::LanternRiteScheduleBin_SalvageTrackingMarkMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29606,8 +29606,8 @@ proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::LunchBoxData::LunchBoxData_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29657,8 +29657,8 @@ proto::MainCoop::MainCoop_NormalVarMapEntry *__cdecl google::protobuf::internal:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_NormalVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_NormalVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29708,8 +29708,8 @@ proto::MainCoop::MainCoop_SeenEndingMapEntry *__cdecl google::protobuf::internal
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_SeenEndingMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_SeenEndingMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29759,8 +29759,8 @@ proto::MainCoop::MainCoop_TempVarMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MainCoop::MainCoop_TempVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MainCoop::MainCoop_TempVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29810,8 +29810,8 @@ proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchUnitMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchUnitMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MatchserverWorkloadInfoNotify::MatchserverWorkloadInfoNotify_MatchUnitMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29861,8 +29861,8 @@ proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteBin::MaterialDeleteBin_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29912,8 +29912,8 @@ proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDelete_De
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteInfo_CountDownDelete::MaterialDeleteInfo_CountDownDelete_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -29963,8 +29963,8 @@ proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_DelayWeek
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteInfo_DelayWeekCountDownDelete::MaterialDeleteInfo_DelayWeekCountDownDelete_DeleteTimeNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30014,8 +30014,8 @@ proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMaterialMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_DeleteMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30065,8 +30065,8 @@ proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnNotify::MaterialDeleteReturnNotify_ReturnItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30116,8 +30116,8 @@ proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_DeleteMateri
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_DeleteMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_DeleteMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30167,8 +30167,8 @@ proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_ReturnItemMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_ReturnItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MaterialDeleteReturnRecordBin::MaterialDeleteReturnRecordBin_ReturnItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30218,8 +30218,8 @@ proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataRecordMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30269,8 +30269,8 @@ proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResultMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResultMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MistTrialSettleNotify::MistTrialSettleNotify_ExhibitionListDataResultMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30320,8 +30320,8 @@ proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MonsterSummonTagNotify::MonsterSummonTagNotify_SummonTagMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30371,8 +30371,8 @@ proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_LevelInfoM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_LevelInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MoonfinTrialActivityDetailInfo::MoonfinTrialActivityDetailInfo_LevelInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30422,8 +30422,8 @@ proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameRecordM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MusicGameActivityDetailInfo::MusicGameActivityDetailInfo_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30473,8 +30473,8 @@ proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::MusicGameScheduleBin::MusicGameScheduleBin_MusicGameRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30524,8 +30524,8 @@ proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpActivityGiveGift::OfflineOpActivityGiveGift_GiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30575,8 +30575,8 @@ proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivityGiveF
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivityGiveFlower_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpPlantFlowerActivityGiveFlower::OfflineOpPlantFlowerActivityGiveFlower_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30626,8 +30626,8 @@ proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlowerActivi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlowerActivityGiveFlowerContext_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OfflineOpPlantFlowerActivityGiveFlowerContext::OfflineOpPlantFlowerActivityGiveFlowerContext_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30677,8 +30677,8 @@ proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OnlinePlayerNumRsp::OnlinePlayerNumRsp_GameserverPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30728,8 +30728,8 @@ proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OpenStateChangeNotify::OpenStateChangeNotify_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30779,8 +30779,8 @@ proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::OpenStateUpdateNotify::OpenStateUpdateNotify_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30830,8 +30830,8 @@ proto::ParentQuest::ParentQuest_TimeVarMapEntry *__cdecl google::protobuf::inter
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ParentQuest::ParentQuest_TimeVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ParentQuest::ParentQuest_TimeVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30881,8 +30881,8 @@ proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ParentQuestRandomInfoBin::ParentQuestRandomInfoBin_QuestIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30932,8 +30932,8 @@ proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_Acce
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_AcceptFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_AcceptFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -30983,8 +30983,8 @@ proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_Unac
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_UnacceptFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerAcceptFlowerResultInfo::PlantFlowerAcceptFlowerResultInfo_UnacceptFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31034,8 +31034,8 @@ proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFlowerNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_UsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31085,8 +31085,8 @@ proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFlowerNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerActivityDetailInfo::PlantFlowerActivityDetailInfo_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31136,8 +31136,8 @@ proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_FlowerNu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerFriendFlowerWishData::PlantFlowerFriendFlowerWishData_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31187,8 +31187,8 @@ proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFlowerRs
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFlowerRsp_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerGetCanGiveFriendFlowerRsp::PlantFlowerGetCanGiveFriendFlowerRsp_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31238,8 +31238,8 @@ proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_FlowerNumM
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerGiveFriendFlowerReq::PlantFlowerGiveFriendFlowerReq_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31289,8 +31289,8 @@ proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerRecvFlowerData::PlantFlowerRecvFlowerData_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31340,8 +31340,8 @@ proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNumMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerRecvFlowerDataBin::PlantFlowerRecvFlowerDataBin_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31391,8 +31391,8 @@ proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNumMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_ActivityUsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31442,8 +31442,8 @@ proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerScheduleBin::PlantFlowerScheduleBin_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31493,8 +31493,8 @@ proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSetFlowerWishReq::PlantFlowerSetFlowerWishReq_FlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31544,8 +31544,8 @@ proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerShelfDataBin::PlantFlowerShelfDataBin_UsedFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31595,8 +31595,8 @@ proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSocialData::PlantFlowerSocialData_HaveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31646,8 +31646,8 @@ proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlantFlowerSocialData::PlantFlowerSocialData_WishFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31697,8 +31697,8 @@ proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlatformPlayerNumRsp::PlatformPlayerNumRsp_PlatformPlayerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31748,8 +31748,8 @@ proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerActivityCompBin::PlayerActivityCompBin_ActivityBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31799,8 +31799,8 @@ proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySoci
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerActivitySocialRedisData::PlayerActivitySocialRedisData_ActivitySocialDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31850,8 +31850,8 @@ proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerAvatarCompBin::PlayerAvatarCompBin_AvatarTeamBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31901,8 +31901,8 @@ proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerAvatarCompBin::PlayerAvatarCompBin_TeamMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -31952,8 +31952,8 @@ proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBasicCompBin::PlayerBasicCompBin_OpenStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32003,8 +32003,8 @@ proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_InitialSectionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32054,8 +32054,8 @@ proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RecentUsedSectionIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32105,8 +32105,8 @@ proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerBlossomCompBin::PlayerBlossomCompBin_RefreshDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32156,8 +32156,8 @@ proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCityCompBin::PlayerCityCompBin_CityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32207,8 +32207,8 @@ proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCombatForceRsp::PlayerCombatForceRsp_PlayerCombatForceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32258,8 +32258,8 @@ proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCookCompBin::PlayerCookCompBin_CompoundQueBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32309,8 +32309,8 @@ proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerCookCompBin::PlayerCookCompBin_RecipeDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32360,8 +32360,8 @@ proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDailyTaskCompBin::PlayerDailyTaskCompBin_TaskVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32411,8 +32411,8 @@ proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDataNotify::PlayerDataNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32462,8 +32462,8 @@ proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonCompBin::PlayerDungeonCompBin_SerialBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32513,8 +32513,8 @@ proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDailyMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32564,8 +32564,8 @@ proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonDurableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32615,8 +32615,8 @@ proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntry *__c
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerDungeonRecordBin::PlayerDungeonRecordBin_DungeonRandomMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32666,8 +32666,8 @@ proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerExtraBinData::PlayerExtraBinData_AntiOfflineDataMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32717,8 +32717,8 @@ proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerForgeCompBin::PlayerForgeCompBin_ForgeQueueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32768,8 +32768,8 @@ proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerGachaCompBin::PlayerGachaCompBin_GachaRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32819,8 +32819,8 @@ proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerGivingCompBin::PlayerGivingCompBin_GivingRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32870,8 +32870,8 @@ proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerHomeAuditModuleData::PlayerHomeAuditModuleData_AuditSceneVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32921,8 +32921,8 @@ proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerItemCompBin::PlayerItemCompBin_ItemCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -32972,8 +32972,8 @@ proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerItemCompBin::PlayerItemCompBin_OutputControlRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33023,8 +33023,8 @@ proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginBlockInfoNotify::PlayerLoginBlockInfoNotify_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33074,8 +33074,8 @@ proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginRsp::PlayerLoginRsp_AbilityHashMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33125,8 +33125,8 @@ proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerLoginRsp::PlayerLoginRsp_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33176,8 +33176,8 @@ proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_ActionSeqMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33227,8 +33227,8 @@ proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_NewWaitAddMailMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33278,8 +33278,8 @@ proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMailCompBin::PlayerMailCompBin_WaitAddMailMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33329,8 +33329,8 @@ proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_RetcodeMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_RetcodeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerMemH5ActivityDataResult::PlayerMemH5ActivityDataResult_RetcodeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33380,8 +33380,8 @@ proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerOfflineOpBin::PlayerOfflineOpBin_IndexMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33431,8 +33431,8 @@ proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerPropNotify::PlayerPropNotify_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33482,8 +33482,8 @@ proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerQuestCompBin::PlayerQuestCompBin_LastDungeonSettleMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33533,8 +33533,8 @@ proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerRechargeCompBin::PlayerRechargeCompBin_FinishedOrderMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33584,8 +33584,8 @@ proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerRechargeCompBin::PlayerRechargeCompBin_WaitMarkDbMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33635,8 +33635,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_ChestOpenNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33686,8 +33686,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCountMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_DailyGadgetDropCategoryCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33737,8 +33737,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_DungeonProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33788,8 +33788,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetChainLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33839,8 +33839,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_GadgetInteractNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33890,8 +33890,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_SceneBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33941,8 +33941,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_SubfieldDropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -33992,8 +33992,8 @@ proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSceneCompBin::PlayerSceneCompBin_WorldProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34043,8 +34043,8 @@ proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerShareCDCompBin::PlayerShareCDCompBin_ShareCdInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34094,8 +34094,8 @@ proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34145,8 +34145,8 @@ proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerTowerCompBin::PlayerTowerCompBin_DailyLevelBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34196,8 +34196,8 @@ proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerTowerCompBin::PlayerTowerCompBin_TowerMonthlySummaryMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34247,8 +34247,8 @@ proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerUgcCompBin::PlayerUgcCompBin_UgcBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34298,8 +34298,8 @@ proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerWatcherCompBin::PlayerWatcherCompBin_GlobalWatcherProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34349,8 +34349,8 @@ proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerWidgetCompBin::PlayerWidgetCompBin_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34400,8 +34400,8 @@ proto::Quest::Quest_LackedNpcMapEntry *__cdecl google::protobuf::internal::down_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::Quest::Quest_LackedNpcMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::Quest::Quest_LackedNpcMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34451,8 +34451,8 @@ proto::Quest::Quest_LackedPlaceMapEntry *__cdecl google::protobuf::internal::dow
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::Quest::Quest_LackedPlaceMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::Quest::Quest_LackedPlaceMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34502,8 +34502,8 @@ proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVarMapEn
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::QuestUpdateQuestTimeVarNotify::QuestUpdateQuestTimeVarNotify_TimeVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34553,8 +34553,8 @@ proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RefreshBackgroundAvatarRsp::RefreshBackgroundAvatarRsp_HpFullTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34604,8 +34604,8 @@ proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFilterSta
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFilterStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ReliquaryFilterStateNotify::ReliquaryFilterStateNotify_ReliquaryFilterStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34655,8 +34655,8 @@ proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_ReliquaryF
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_ReliquaryFilterStateMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ReliquaryFilterStateSaveNotify::ReliquaryFilterStateSaveNotify_ReliquaryFilterStateMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34706,8 +34706,8 @@ proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ResendRedisMailReq::ResendRedisMailReq_MailBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34757,8 +34757,8 @@ proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34808,8 +34808,8 @@ proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueCellBin::RogueCellBin_DiffMonsterPoolMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34859,8 +34859,8 @@ proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueDungeonBin::RogueDungeonBin_RogueCellBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34910,8 +34910,8 @@ proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_ExploredCellTypeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -34961,8 +34961,8 @@ proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry *__cdecl google::
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_FinishChallengeBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35012,8 +35012,8 @@ proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelExploreCellCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35063,8 +35063,8 @@ proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelFinishAllChallengeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35114,8 +35114,8 @@ proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RogueStageBin::RogueStageBin_LevelTimeCostMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35165,8 +35165,8 @@ proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChallengeC
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RoguelikeDungeonSettleInfo::RoguelikeDungeonSettleInfo_FinishedChallengeCellNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35216,8 +35216,8 @@ proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::RoguelikeMiscBin::RoguelikeMiscBin_ChosenCardTypeCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35267,8 +35267,8 @@ proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewardIdMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewardIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SalesmanActivityDetailInfo::SalesmanActivityDetailInfo_SelectedRewardIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35318,8 +35318,8 @@ proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SalesmanScheduleBin::SalesmanScheduleBin_SelectedRewardIdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35369,8 +35369,8 @@ proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveBlockDataReq::SaveBlockDataReq_BlockInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35420,8 +35420,8 @@ proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveBlockDataRsp::SaveBlockDataRsp_BlockSuccSaveMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35471,8 +35471,8 @@ proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveMainCoopReq::SaveMainCoopReq_NormalVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35522,8 +35522,8 @@ proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SaveMainCoopReq::SaveMainCoopReq_TempVarMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35573,8 +35573,8 @@ proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaCompBin::SceneAreaCompBin_AreaMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35624,8 +35624,8 @@ proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry *__cdecl google::protobuf
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaCompBin::SceneAreaCompBin_CityMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35675,8 +35675,8 @@ proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAreaWeatherNotify::SceneAreaWeatherNotify_WeatherValueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35726,8 +35726,8 @@ proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAvatarInfo::SceneAvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35777,8 +35777,8 @@ proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneAvatarInfo::SceneAvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35828,8 +35828,8 @@ proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry *__cde
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneBlockGroupCompBin::SceneBlockGroupCompBin_BackupGroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35879,8 +35879,8 @@ proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneBossChestBin::SceneBossChestBin_GroupBossChestMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35930,8 +35930,8 @@ proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_AiThreatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -35981,8 +35981,8 @@ proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36032,8 +36032,8 @@ proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEntityAiInfo::SceneEntityAiInfo_SkillGroupCdMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36083,8 +36083,8 @@ proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneEnvAnimalCompBin::SceneEnvAnimalCompBin_ZoneInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36134,8 +36134,8 @@ proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloonInfoMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloonInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBalloonInfo::SceneGalleryBalloonInfo_ScenePlayerBalloonInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36185,8 +36185,8 @@ proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountMapEntr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBrokenFloorInfo::SceneGalleryBrokenFloorInfo_FallCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36236,8 +36236,8 @@ proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryBulletInfo::SceneGalleryBulletInfo_HitCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36287,8 +36287,8 @@ proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryFallInfo::SceneGalleryFallInfo_ScenePlayerFallInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36338,8 +36338,8 @@ proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInfo_Play
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInfo_PlayerScoreMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneGalleryHomeSeekFurnitureInfo::SceneGalleryHomeSeekFurnitureInfo_PlayerScoreMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36389,8 +36389,8 @@ proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry *__cdecl google::pro
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneMonsterInfo::SceneMonsterInfo_SummonTagMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36440,8 +36440,8 @@ proto::SceneProductBin::SceneProductBin_GroupProductMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneProductBin::SceneProductBin_GroupProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneProductBin::SceneProductBin_GroupProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36491,8 +36491,8 @@ proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry *__cdecl google::protobuf:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneWeaponInfo::SceneWeaponInfo_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36542,8 +36542,8 @@ proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftDataReq_Gi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftDataReq_GiveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataReq::ServerActivityGetFriendGiftDataReq_GiveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36593,8 +36593,8 @@ proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_Gi
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_GiveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_GiveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36644,8 +36644,8 @@ proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_Ha
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_HaveGiftNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerActivityGetFriendGiftDataRsp::ServerActivityGetFriendGiftDataRsp_HaveGiftNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36695,8 +36695,8 @@ proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerCheckUgcUpdateReq::ServerCheckUgcUpdateReq_UgcGuidVersionMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36746,8 +36746,8 @@ proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriendFlower
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriendFlowerDataReq_GiveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataReq::ServerPlantFlowerGetFriendFlowerDataReq_GiveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36797,8 +36797,8 @@ proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlower
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_GiveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_GiveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36848,8 +36848,8 @@ proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlower
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_HaveFlowerNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ServerPlantFlowerGetFriendFlowerDataRsp::ServerPlantFlowerGetFriendFlowerDataRsp_HaveFlowerNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36899,8 +36899,8 @@ proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FailProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -36950,8 +36950,8 @@ proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgressMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgressMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetQuestContentProgressOp::SetQuestContentProgressOp_FinishProgressMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37001,8 +37001,8 @@ proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SetSceneWeatherAreaReq::SetSceneWeatherAreaReq_WeatherValueMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37052,8 +37052,8 @@ proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_FightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37103,8 +37103,8 @@ proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry *__cdecl google::protobuf::in
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_PropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37154,8 +37154,8 @@ proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_ProudSkillExtraLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37205,8 +37205,8 @@ proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry *__cdecl google::protob
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::ShowAvatarInfo::ShowAvatarInfo_SkillLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37256,8 +37256,8 @@ proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry *__cdecl google::protobu
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SubfieldDropBin::SubfieldDropBin_DropNumMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37307,8 +37307,8 @@ proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SummerTimeDetailInfo::SummerTimeDetailInfo_StageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37358,8 +37358,8 @@ proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry *__cdecl go
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SummerTimeScheduleBin::SummerTimeScheduleBin_StageBinMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37409,8 +37409,8 @@ proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::SumoActivityDetailInfo::SumoActivityDetailInfo_SumoStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37460,8 +37460,8 @@ proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAllDataRsp::TowerAllDataRsp_FloorOpenTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37511,8 +37511,8 @@ proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAllDataRsp::TowerAllDataRsp_SkipFloorGrantedRewardItemMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37562,8 +37562,8 @@ proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry *__cdecl 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37613,8 +37613,8 @@ proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_AvatarRecordMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37664,8 +37664,8 @@ proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerCurLevelRecordBin::TowerCurLevelRecordBin_TowerBuffMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37715,8 +37715,8 @@ proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMapEntry 
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_AvatarRevealCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37766,8 +37766,8 @@ proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_EnergySkillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37817,8 +37817,8 @@ proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry *__cdecl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_KillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37868,8 +37868,8 @@ proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_NormalSkillCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37919,8 +37919,8 @@ proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFightStatisticBin::TowerFightStatisticBin_TakeDamageCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -37970,8 +37970,8 @@ proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerFloorRecord::TowerFloorRecord_PassedLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38021,8 +38021,8 @@ proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_FragmentMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_FragmentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapBonusChallengeBin::TreasureMapBonusChallengeBin_FragmentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38072,8 +38072,8 @@ proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_FragmentMapE
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_FragmentMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapBonusChallengeInfo::TreasureMapBonusChallengeInfo_FragmentMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38123,8 +38123,8 @@ proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry *__cdecl goo
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::TreasureMapRegionBin::TreasureMapRegionBin_DoneGroupMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38174,8 +38174,8 @@ proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEntry *_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_CampStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38225,8 +38225,8 @@ proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_HuntingStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38276,8 +38276,8 @@ proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMapEntry
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageActivityDetailInfo::VintageActivityDetailInfo_PresentStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38327,8 +38327,8 @@ proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLevelMap
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageCampChallengeStageData::VintageCampChallengeStageData_CampLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38378,8 +38378,8 @@ proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_CampLe
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_CampLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageCampChallengeStageDataBin::VintageCampChallengeStageDataBin_CampLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38429,8 +38429,8 @@ proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettleInfo_
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettleInfo_AnimalCountMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageHuntingSecondStageSettleInfo::VintageHuntingSecondStageSettleInfo_AnimalCountMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38480,8 +38480,8 @@ proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry *__cd
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketDealInfo::VintageMarketDealInfo_TraderItemInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38531,8 +38531,8 @@ proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_StoreInc
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_StoreIncomeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketFinishStorePlayRsp::VintageMarketFinishStorePlayRsp_StoreIncomeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38582,8 +38582,8 @@ proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageMarketInfo::VintageMarketInfo_BargainInfoMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38633,8 +38633,8 @@ proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintagePresentStageData::VintagePresentStageData_PresentLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38684,8 +38684,8 @@ proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevelMapEnt
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintagePresentStageDataBin::VintagePresentStageDataBin_PresentLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38735,8 +38735,8 @@ proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry *__cdecl google:
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_CampStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38786,8 +38786,8 @@ proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry *__cdecl googl
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_DividendResMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38837,8 +38837,8 @@ proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_HuntingStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38888,8 +38888,8 @@ proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::VintageScheduleBin::VintageScheduleBin_PresentStageMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38939,8 +38939,8 @@ proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_SearchTimeMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_SearchTimeMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WaterSpiritActivityDetailInfo::WaterSpiritActivityDetailInfo_SearchTimeMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -38990,8 +38990,8 @@ proto::Weapon::Weapon_AffixMapEntry *__cdecl google::protobuf::internal::down_ca
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::Weapon::Weapon_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::Weapon::Weapon_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39041,8 +39041,8 @@ proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry *__cdecl google::prot
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenReq::WeaponAwakenReq_AffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39092,8 +39092,8 @@ proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenRsp::WeaponAwakenRsp_CurAffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39143,8 +39143,8 @@ proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry *__cdecl google::p
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponAwakenRsp::WeaponAwakenRsp_OldAffixLevelMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39194,8 +39194,8 @@ proto::WeaponBin::WeaponBin_AffixMapEntry *__cdecl google::protobuf::internal::d
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WeaponBin::WeaponBin_AffixMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WeaponBin::WeaponBin_AffixMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39245,8 +39245,8 @@ proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry *__cdecl google
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WidgetLunchBoxBin::WidgetLunchBoxBin_SlotMaterialMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39296,8 +39296,8 @@ proto::WorldBin::WorldBin_SceneMapEntry *__cdecl google::protobuf::internal::dow
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WorldBin::WorldBin_SceneMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WorldBin::WorldBin_SceneMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39347,8 +39347,8 @@ proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry *__cdecl google::proto
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto::WorldDataNotify::WorldDataNotify_WorldPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39398,8 +39398,8 @@ proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_PlatformU
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-          (const struct __class_type_info *)&`typeinfo for'proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_PlatformUidListEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+          (const struct __class_type_info *)&`typeinfo for`proto_security::GameHeartBeatNotifyRequest::GameHeartBeatNotifyRequest_PlatformUidListEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39449,8 +39449,8 @@ const proto::BackupGroupBin::BackupGroupBin_VariableMapEntry *__cdecl google::pr
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::BackupGroupBin::BackupGroupBin_VariableMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::BackupGroupBin::BackupGroupBin_VariableMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39500,8 +39500,8 @@ const proto::SceneProductBin::SceneProductBin_GroupProductMapEntry *__cdecl goog
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::SceneProductBin::SceneProductBin_GroupProductMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::SceneProductBin::SceneProductBin_GroupProductMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39551,8 +39551,8 @@ const proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry *
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::PlayerSocialCompBin::PlayerSocialCompBin_FriendRemarkNameMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39602,8 +39602,8 @@ const proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMa
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::FleurFairGallerySettleInfo::FleurFairGallerySettleInfo_EnergyStatMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39653,8 +39653,8 @@ const proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry *__cdecl g
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ChessMysteryInfo::ChessMysteryInfo_EntrancePointMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39704,8 +39704,8 @@ const proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry *__
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::TowerAvatarRecordBin::TowerAvatarRecordBin_CurFightPropMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);
@@ -39755,8 +39755,8 @@ const proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry *__cdec
   if ( f
     && !__dynamic_cast(
           f,
-          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageLite,
-          (const struct __class_type_info *)&`typeinfo for'proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry,
+          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageLite,
+          (const struct __class_type_info *)&`typeinfo for`proto::ResendRedisMailRsp::ResendRedisMailRsp_ResendStatusMapEntry,
           0LL) )
   {
     __asan_handle_no_return(f);

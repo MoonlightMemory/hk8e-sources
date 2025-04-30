@@ -756,7 +756,7 @@ std::vector<std::string> *__cdecl getAllDynamicKeyFromDynamicFloat[abi:cxx11](
   if ( std::any::has_value(&dynamic_float->impl) )
   {
     v5 = std::any::type(&dynamic_float->impl);
-    if ( !std::type_info::operator!=(v5, (const std::type_info *)&`typeinfo for'std::shared_ptr<BaseDFNode>) )
+    if ( !std::type_info::operator!=(v5, (const std::type_info *)&`typeinfo for`std::shared_ptr<BaseDFNode>) )
     {
       if ( *(_WORD *)(((v2 + 48) >> 3) + 0x7FFF8000) )
         __asan_report_store16();

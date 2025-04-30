@@ -50,7 +50,7 @@ void __noreturn luabind::get_main_thread()
   std::runtime_error::runtime_error(exception, "Unable to get main thread, luabind::open() not called?");
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::runtime_error,
+    (struct type_info *)&`typeinfo for`std::runtime_error,
     (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
 };
 
@@ -125,6 +125,6 @@ void __noreturn luabind::open()
   std::runtime_error::runtime_error(exception, "luabind::open() must be called with the main thread lua_State*");
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::runtime_error,
+    (struct type_info *)&`typeinfo for`std::runtime_error,
     (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
 };

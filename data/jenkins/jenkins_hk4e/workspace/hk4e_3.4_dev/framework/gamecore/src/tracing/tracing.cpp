@@ -1300,13 +1300,13 @@ LABEL_29:
                     v2 = v64 + 1;
                     if ( !common::tools::perf::MemoryPerf::is_record )
                       goto LABEL_48;
-                    p_vptr__Sp_counted_base = &`typeinfo for'common::tools::MiTimer + 1;
-                    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::tools::MiTimer + 1) >> 3) + 0x7FFF8000) )
+                    p_vptr__Sp_counted_base = &`typeinfo for`common::tools::MiTimer + 1;
+                    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::tools::MiTimer + 1) >> 3) + 0x7FFF8000) )
                     {
-                      *(_QWORD *)&expired_seconds = *(&`typeinfo for'common::tools::MiTimer + 1);
+                      *(_QWORD *)&expired_seconds = *(&`typeinfo for`common::tools::MiTimer + 1);
                       p_vptr__Sp_counted_base = *(void ***)&expired_seconds;
                       v19 = *(_BYTE *)((*(_QWORD *)&expired_seconds >> 3) + 0x7FFF8000LL);
-                      if ( v19 > (*(_BYTE *)(&`typeinfo for'common::tools::MiTimer + 1) & 7) || !v19 )
+                      if ( v19 > (*(_BYTE *)(&`typeinfo for`common::tools::MiTimer + 1) & 7) || !v19 )
                       {
                         if ( **(_BYTE **)&expired_seconds != 42 )
                         {
@@ -2420,7 +2420,7 @@ LABEL_75:
       exception = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
       YAML::BadInsert::BadInsert(exception);
       __asan_handle_no_return(exception);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
     }
     goto LABEL_76;
   }
@@ -2510,7 +2510,7 @@ LABEL_99:
       v33 = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
       YAML::BadInsert::BadInsert(v33);
       __asan_handle_no_return(v33);
-      _cxa_throw(v33, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+      _cxa_throw(v33, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
     }
     goto LABEL_100;
   }
@@ -2600,7 +2600,7 @@ LABEL_123:
       v40 = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
       YAML::BadInsert::BadInsert(v40);
       __asan_handle_no_return(v40);
-      _cxa_throw(v40, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+      _cxa_throw(v40, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
     }
     goto LABEL_124;
   }
@@ -2675,7 +2675,7 @@ LABEL_147:
       v46 = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
       YAML::BadInsert::BadInsert(v46);
       __asan_handle_no_return(v46);
-      _cxa_throw(v46, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+      _cxa_throw(v46, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
     }
     goto LABEL_148;
   }
@@ -2755,7 +2755,7 @@ LABEL_173:
       v52 = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
       YAML::BadInsert::BadInsert(v52);
       __asan_handle_no_return(v52);
-      _cxa_throw(v52, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+      _cxa_throw(v52, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
     }
     goto LABEL_174;
   }
@@ -3694,8 +3694,8 @@ LABEL_90:
       goto LABEL_96;
     v32 = __dynamic_cast(
             v31,
-            (const struct __class_type_info *)&`typeinfo for'opentracing::v3::Span,
-            (const struct __class_type_info *)&`typeinfo for'jaegertracing::Span,
+            (const struct __class_type_info *)&`typeinfo for`opentracing::v3::Span,
+            (const struct __class_type_info *)&`typeinfo for`jaegertracing::Span,
             0LL);
     if ( !v32 )
       goto LABEL_96;
@@ -5323,8 +5323,8 @@ LABEL_20:
   if ( v13 )
     v13 = __dynamic_cast(
             v13,
-            (const struct __class_type_info *)&`typeinfo for'opentracing::v3::SpanContext,
-            (const struct __class_type_info *)&`typeinfo for'jaegertracing::SpanContext,
+            (const struct __class_type_info *)&`typeinfo for`opentracing::v3::SpanContext,
+            (const struct __class_type_info *)&`typeinfo for`jaegertracing::SpanContext,
             0LL);
   if ( *(_BYTE *)((a1 >> 3) + 0x7FFF8000) )
   {

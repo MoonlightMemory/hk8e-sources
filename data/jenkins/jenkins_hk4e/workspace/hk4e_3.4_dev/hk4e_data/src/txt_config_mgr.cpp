@@ -8350,11 +8350,11 @@ std::pair<int,ItemIndexKey> __cdecl TxtConfigMgr::getItemIndexKey(const TxtConfi
     item_type = item_config_ptr->item_type;
     if ( item_type == ITEM_RELIQUARY )
     {
-      v7 = &`typeinfo for'data::ItemConfig;
+      v7 = &`typeinfo for`data::ItemConfig;
       v8 = (const data::ReliquaryExcelConfig *)__dynamic_cast(
                                                  item_config_ptr,
-                                                 (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                                 (const struct __class_type_info *)&`typeinfo for'data::ReliquaryExcelConfig,
+                                                 (const struct __class_type_info *)&`typeinfo for`data::ItemConfig,
+                                                 (const struct __class_type_info *)&`typeinfo for`data::ReliquaryExcelConfig,
                                                  0LL);
       reliquary_config_ptr = v8;
       if ( v8 )
@@ -8374,11 +8374,11 @@ std::pair<int,ItemIndexKey> __cdecl TxtConfigMgr::getItemIndexKey(const TxtConfi
     }
     else if ( item_type == ITEM_WEAPON )
     {
-      v7 = &`typeinfo for'data::ItemConfig;
+      v7 = &`typeinfo for`data::ItemConfig;
       v11 = (const data::WeaponExcelConfig *)__dynamic_cast(
                                                item_config_ptr,
-                                               (const struct __class_type_info *)&`typeinfo for'data::ItemConfig,
-                                               (const struct __class_type_info *)&`typeinfo for'data::WeaponExcelConfig,
+                                               (const struct __class_type_info *)&`typeinfo for`data::ItemConfig,
+                                               (const struct __class_type_info *)&`typeinfo for`data::WeaponExcelConfig,
                                                0LL);
       weapon_config_ptr = v11;
       if ( v11 )

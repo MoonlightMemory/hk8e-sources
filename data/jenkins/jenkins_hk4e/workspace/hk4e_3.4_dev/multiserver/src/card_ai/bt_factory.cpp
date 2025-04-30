@@ -207,7 +207,7 @@ int32_t __cdecl BT::BehaviorTreeFactory::registerSimpleAction(
       (BT::BehaviorTreeFactory::registerSimpleAction::<lambda(const string&, const BT::NodeConfigure&)> *)&v14);
     BT::BehaviorTreeFactory::registerSimpleAction(std::string const&,std::function<BT::NodeStatus ()(BT::TreeNode const&)> const&)::{lambda(std::string const&,BT::NodeConfigure const&)#1}::~NodeConfigure((BT::BehaviorTreeFactory::registerSimpleAction::<lambda(const string&, const BT::NodeConfigure&)> *const)&v14);
     std::allocator<char>::allocator(&__a);
-    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for'BT::SimpleActionNode);
+    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for`BT::SimpleActionNode);
     std::string::basic_string<std::allocator<char>>((std::string *const)(v3 + 96), v9, &__a);
     std::allocator<char>::~allocator(&__a);
     v10 = std::unordered_map<std::string,BT::TreeNodeRegisterInfo>::operator[](&this->node_register_umap_, node_name);

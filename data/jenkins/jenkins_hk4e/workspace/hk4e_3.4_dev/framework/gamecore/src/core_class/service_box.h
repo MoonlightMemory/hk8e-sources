@@ -60,7 +60,7 @@ int32_t __cdecl ServiceBox::addService<DispatchService>()
     if ( *(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
       v4 = __asan_report_load8(*(_QWORD *)v4 + 104LL);
     *(_DWORD *)(v0 + 48) = (*(__int64 (__fastcall **)(unsigned __int64))v5)(v4);
-    *(_QWORD *)(v0 + 64) = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'DispatchService);
+    *(_QWORD *)(v0 + 64) = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`DispatchService);
     __y._M_node = std::map<unsigned int,std::shared_ptr<ServiceBase>>::find(
                     &ServiceBox::service_map,
                     (const std::map<unsigned int,std::shared_ptr<ServiceBase>>::key_type *)(v0 + 48))._M_node;
@@ -150,7 +150,7 @@ DispatchService *__cdecl ServiceBox::initStaticServicePtr<DispatchService>()
   v2[536862722] = -218959360;
   v2[536862723] = -202178560;
   service_ptr = 0LL;
-  *(_QWORD *)(v0 + 32) = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'DispatchService);
+  *(_QWORD *)(v0 + 32) = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`DispatchService);
   *(std::map<long unsigned int,unsigned int>::iterator *)(v0 + 64) = std::map<unsigned long,unsigned int>::find(
                                                                        &ServiceBox::tid_to_type_map,
                                                                        (const std::map<long unsigned int,unsigned int>::key_type *)(v0 + 32));
@@ -179,7 +179,7 @@ DispatchService *__cdecl ServiceBox::initStaticServicePtr<DispatchService>()
         "../framework/gamecore/src/core_class/service_box.h",
         "initStaticServicePtr",
         170);
-      v5 = std::type_info::name((const std::type_info *const)&`typeinfo for'DispatchService);
+      v5 = std::type_info::name((const std::type_info *const)&`typeinfo for`DispatchService);
       common::milog::MiLogStream::operator()(&v11, "can not find service typeid=%s", v5);
       common::milog::MiLogStream::~MiLogStream(&v11);
       v3 = 0LL;
@@ -190,8 +190,8 @@ DispatchService *__cdecl ServiceBox::initStaticServicePtr<DispatchService>()
       if ( v6 )
         v7 = (DispatchService *)__dynamic_cast(
                                   v6,
-                                  (const struct __class_type_info *)&`typeinfo for'ServiceBase,
-                                  (const struct __class_type_info *)&`typeinfo for'DispatchService,
+                                  (const struct __class_type_info *)&`typeinfo for`ServiceBase,
+                                  (const struct __class_type_info *)&`typeinfo for`DispatchService,
                                   0LL);
       else
         v7 = 0LL;

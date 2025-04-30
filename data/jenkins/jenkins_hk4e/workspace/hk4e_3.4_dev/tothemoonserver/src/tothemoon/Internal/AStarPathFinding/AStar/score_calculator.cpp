@@ -389,7 +389,7 @@ LABEL_27:
         }
         *v22 = "Invalid from type";
         __asan_handle_no_return(v20);
-        _cxa_throw(v22, (struct type_info *)&`typeinfo for'char const*, 0LL);
+        _cxa_throw(v22, (struct type_info *)&`typeinfo for`char const*, 0LL);
       }
       v12 = std::vector<int>::operator[]((std::vector<int> *const)(v7 + 32), 1uLL);
       v13 = v12;
@@ -544,7 +544,7 @@ LABEL_20:
     }
     *v23 = "Invalid from type";
     __asan_handle_no_return(v21);
-    _cxa_throw(v23, (struct type_info *)&`typeinfo for'char const*, 0LL);
+    _cxa_throw(v23, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   v11 = std::vector<int>::operator[]((std::vector<int> *const)(v8 + 64), 0LL);
   v12 = v11;
@@ -1768,7 +1768,7 @@ LABEL_22:
       }
       *v19 = "Invalid from type for get node g value";
       __asan_handle_no_return(v17);
-      _cxa_throw(v19, (struct type_info *)&`typeinfo for'char const*, 0LL);
+      _cxa_throw(v19, (struct type_info *)&`typeinfo for`char const*, 0LL);
     }
     v11 = std::__shared_ptr_access<AStarInfo,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<AStarInfo,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 32));
     v12 = &v11->g;

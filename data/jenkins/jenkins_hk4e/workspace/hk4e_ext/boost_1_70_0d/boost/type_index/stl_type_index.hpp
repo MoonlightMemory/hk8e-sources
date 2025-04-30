@@ -41,7 +41,7 @@ boost::typeindex::stl_type_index __cdecl boost::typeindex::stl_type_index::type_
 
   boost::typeindex::stl_type_index::stl_type_index(
     &v1,
-    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for'boost::_bi::bind_t<int,boost::_mfi::mf1<int,common::minet::AServerMgr<GateserverSession>,common::minet::AServerSession *>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::arg<1>>>);
+    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for`boost::_bi::bind_t<int,boost::_mfi::mf1<int,common::minet::AServerMgr<GateserverSession>,common::minet::AServerSession *>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::arg<1>>>);
   return v1;
 };
 
@@ -52,7 +52,7 @@ boost::typeindex::stl_type_index __cdecl boost::typeindex::stl_type_index::type_
 
   boost::typeindex::stl_type_index::stl_type_index(
     &v1,
-    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for'boost::_bi::bind_t<int,boost::_mfi::mf1<int,common::minet::AServerMgr<HttpSession>,common::minet::AServerSession *>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::arg<1>>>);
+    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for`boost::_bi::bind_t<int,boost::_mfi::mf1<int,common::minet::AServerMgr<HttpSession>,common::minet::AServerSession *>,boost::_bi::list2<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::arg<1>>>);
   return v1;
 };
 
@@ -63,7 +63,7 @@ boost::typeindex::stl_type_index __cdecl boost::typeindex::stl_type_index::type_
 
   boost::typeindex::stl_type_index::stl_type_index(
     &v1,
-    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for'boost::_bi::bind_t<int,boost::_mfi::mf2<int,common::minet::AServerMgr<GateserverSession>,common::minet::AServerSession *,unsigned int>,boost::_bi::list3<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::arg<1>,boost::arg<2>>>);
+    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for`boost::_bi::bind_t<int,boost::_mfi::mf2<int,common::minet::AServerMgr<GateserverSession>,common::minet::AServerSession *,unsigned int>,boost::_bi::list3<boost::_bi::value<common::minet::AServerMgr<GateserverSession>*>,boost::arg<1>,boost::arg<2>>>);
   return v1;
 };
 
@@ -74,7 +74,7 @@ boost::typeindex::stl_type_index __cdecl boost::typeindex::stl_type_index::type_
 
   boost::typeindex::stl_type_index::stl_type_index(
     &v1,
-    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for'boost::_bi::bind_t<int,boost::_mfi::mf2<int,common::minet::AServerMgr<HttpSession>,common::minet::AServerSession *,unsigned int>,boost::_bi::list3<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::arg<1>,boost::arg<2>>>);
+    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for`boost::_bi::bind_t<int,boost::_mfi::mf2<int,common::minet::AServerMgr<HttpSession>,common::minet::AServerSession *,unsigned int>,boost::_bi::list3<boost::_bi::value<common::minet::AServerMgr<HttpSession>*>,boost::arg<1>,boost::arg<2>>>);
   return v1;
 };
 
@@ -102,7 +102,7 @@ boost::typeindex::stl_type_index __cdecl boost::typeindex::stl_type_index::type_
   *(_DWORD *)(v2 + 2147450884) = -202116352;
   boost::typeindex::stl_type_index::stl_type_index(
     (boost::typeindex::stl_type_index *const)(v0 + 32),
-    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for'boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>);
+    (const boost::typeindex::stl_type_index::type_info_t *)&`typeinfo for`boost::algorithm::detail::token_finderF<boost::algorithm::detail::is_any_ofF<char>>);
   if ( *(_BYTE *)(((v0 + 32) >> 3) + 0x7FFF8000) )
     __asan_report_load8();
   result.data_ = *(const boost::typeindex::stl_type_index::type_info_t **)(v0 + 32);

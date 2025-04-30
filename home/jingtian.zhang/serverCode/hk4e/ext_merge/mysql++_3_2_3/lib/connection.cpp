@@ -265,7 +265,7 @@ LABEL_5:
       *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::ConnectionFailed,
         (void (__fastcall *)(void *))mysqlpp::ConnectionFailed::~ConnectionFailed);
     }
   }
@@ -332,8 +332,8 @@ unsigned __int64 __fastcall mysqlpp::Connection::count_rows(mysqlpp::Connection 
   if ( v33 )
   {
     v24 = (const mysqlpp::String *)mysqlpp::Row::at(v31, 0LL);
-    v4 = (mysqlpp::Query *)((**((_BYTE **)&`typeinfo for'unsigned long long + 1) == 42)
-                          + *((_QWORD *)&`typeinfo for'unsigned long long + 1));
+    v4 = (mysqlpp::Query *)((**((_BYTE **)&`typeinfo for`unsigned long long + 1) == 42)
+                          + *((_QWORD *)&`typeinfo for`unsigned long long + 1));
     v25 = mysqlpp::String::do_conv<unsigned long long>(v24, v4->baseclass_0);
     v5 = v31;
     v6 = v25;
@@ -865,7 +865,7 @@ __int64 __fastcall mysqlpp::Connection::select_db(mysqlpp::Connection *this, con
       *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::DBSelectionFailed + 2;
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::DBSelectionFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::DBSelectionFailed,
         (void (__fastcall *)(void *))mysqlpp::DBSelectionFailed::~DBSelectionFailed);
     }
     return 0;
@@ -902,7 +902,7 @@ void __fastcall __noreturn mysqlpp::Connection::select_db()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::DBSelectionFailed + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::DBSelectionFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::DBSelectionFailed,
     (void (__fastcall *)(void *))mysqlpp::DBSelectionFailed::~DBSelectionFailed);
 };
 
@@ -1061,7 +1061,7 @@ void __fastcall __noreturn mysqlpp::Connection::set_option()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::BadOption + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadOption,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadOption,
     (void (__fastcall *)(void *))mysqlpp::BadOption::~BadOption);
 };
 
@@ -1096,7 +1096,7 @@ bool __fastcall mysqlpp::Connection::shutdown(mysqlpp::Connection *this)
       *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
+        (struct type_info *)&`typeinfo for`mysqlpp::ConnectionFailed,
         (void (__fastcall *)(void *))mysqlpp::ConnectionFailed::~ConnectionFailed);
     }
     return 0;
@@ -1120,7 +1120,7 @@ void __fastcall __noreturn mysqlpp::Connection::shutdown()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::ConnectionFailed,
     (void (__fastcall *)(void *))mysqlpp::ConnectionFailed::~ConnectionFailed);
 };
 

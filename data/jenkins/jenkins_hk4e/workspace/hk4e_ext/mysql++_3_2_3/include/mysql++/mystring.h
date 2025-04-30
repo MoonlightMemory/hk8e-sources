@@ -19,7 +19,7 @@ float __cdecl mysqlpp::String::conv<float>(const mysqlpp::String *const this, fl
 {
   const char *v2; // rdx
 
-  v2 = std::type_info::name((const std::type_info *const)&`typeinfo for'float);
+  v2 = std::type_info::name((const std::type_info *const)&`typeinfo for`float);
   return mysqlpp::String::do_conv<double>(this, v2);
 };
 
@@ -49,7 +49,7 @@ mysqlpp::tiny_int<signed char> __cdecl mysqlpp::String::conv<mysqlpp::tiny_int<s
   v4 = v2 >> 3;
   *(_DWORD *)(v4 + 2147450880) = -235802127;
   *(_DWORD *)(v4 + 2147450884) = -202116351;
-  v5 = std::type_info::name((const std::type_info *const)&`typeinfo for'mysqlpp::tiny_int<signed char>);
+  v5 = std::type_info::name((const std::type_info *const)&`typeinfo for`mysqlpp::tiny_int<signed char>);
   v6 = mysqlpp::String::do_conv<unsigned long>(this, v5);
   mysqlpp::tiny_int<signed char>::tiny_int((mysqlpp::tiny_int<signed char> *const)(v2 + 32), v6);
   if ( *(char *)(((v2 + 32) >> 3) + 0x7FFF8000) < 0 )
@@ -72,7 +72,7 @@ unsigned int __cdecl mysqlpp::String::conv<unsigned int>(const mysqlpp::String *
 {
   const char *v2; // rdx
 
-  v2 = std::type_info::name((const std::type_info *const)&`typeinfo for'unsigned int);
+  v2 = std::type_info::name((const std::type_info *const)&`typeinfo for`unsigned int);
   return mysqlpp::String::do_conv<unsigned long>(this, v2);
 };
 
@@ -176,15 +176,15 @@ double __cdecl mysqlpp::String::do_conv<double>(const mysqlpp::String *const thi
           __asan_report_load1(v2 + 32);
         if ( *(_BYTE *)(v2 + 32) != 46 )
           goto LABEL_54;
-        v12 = &`typeinfo for'float;
+        v12 = &`typeinfo for`float;
         if ( !std::type_info::operator!=(
-                (const std::type_info *const)&`typeinfo for'double,
-                (const std::type_info *)&`typeinfo for'float) )
+                (const std::type_info *const)&`typeinfo for`double,
+                (const std::type_info *)&`typeinfo for`float) )
           goto LABEL_54;
-        v12 = &`typeinfo for'double;
+        v12 = &`typeinfo for`double;
         if ( !std::type_info::operator!=(
-                (const std::type_info *const)&`typeinfo for'double,
-                (const std::type_info *)&`typeinfo for'double) )
+                (const std::type_info *const)&`typeinfo for`double,
+                (const std::type_info *)&`typeinfo for`double) )
           goto LABEL_54;
         if ( *(char *)(((v2 + 32) >> 3) + 0x7FFF8000) < 0 )
           __asan_report_store1(v2 + 32, v12);
@@ -252,7 +252,7 @@ LABEL_62:
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::BadConversion,
+      (struct type_info *)&`typeinfo for`mysqlpp::BadConversion,
       (void (__fastcall *)(void *))mysqlpp::BadConversion::~BadConversion);
   }
   v23 = 0.0;
@@ -374,15 +374,15 @@ unsigned __int64 __cdecl mysqlpp::String::do_conv<unsigned long>(
           __asan_report_load1(v3 + 32);
         if ( *(_BYTE *)(v3 + 32) != 46 )
           goto LABEL_54;
-        v13 = &`typeinfo for'float;
+        v13 = &`typeinfo for`float;
         if ( !std::type_info::operator!=(
-                (const std::type_info *const)&`typeinfo for'unsigned long,
-                (const std::type_info *)&`typeinfo for'float) )
+                (const std::type_info *const)&`typeinfo for`unsigned long,
+                (const std::type_info *)&`typeinfo for`float) )
           goto LABEL_54;
-        v13 = &`typeinfo for'double;
+        v13 = &`typeinfo for`double;
         if ( !std::type_info::operator!=(
-                (const std::type_info *const)&`typeinfo for'unsigned long,
-                (const std::type_info *)&`typeinfo for'double) )
+                (const std::type_info *const)&`typeinfo for`unsigned long,
+                (const std::type_info *)&`typeinfo for`double) )
           goto LABEL_54;
         if ( *(char *)(((v3 + 32) >> 3) + 0x7FFF8000) < 0 )
           __asan_report_store1(v3 + 32, v13);
@@ -450,7 +450,7 @@ LABEL_62:
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::BadConversion,
+      (struct type_info *)&`typeinfo for`mysqlpp::BadConversion,
       (void (__fastcall *)(void *))mysqlpp::BadConversion::~BadConversion);
   }
   v2 = 0LL;

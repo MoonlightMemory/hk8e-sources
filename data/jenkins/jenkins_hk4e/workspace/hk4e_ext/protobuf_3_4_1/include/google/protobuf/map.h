@@ -491,7 +491,7 @@ google::protobuf::Map<unsigned int,std::string >::MapAllocator<google::protobuf:
         *(_BYTE *)(v18 + 6) = -8;
       }
       v23 = google::protobuf::internal::AlignUpTo8(v22);
-      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'unsigned char, v23);
+      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`unsigned char, v23);
       result = (google::protobuf::Map<unsigned int,std::string >::MapAllocator<google::protobuf::Map<unsigned int,std::string >::InnerMap::Node>::pointer)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, v23);
     }
     else
@@ -646,7 +646,7 @@ google::protobuf::Map<unsigned int,std::string >::MapAllocator<std::_Rb_tree_nod
         *(_BYTE *)(v18 + 6) = -8;
       }
       v23 = google::protobuf::internal::AlignUpTo8(v22);
-      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'unsigned char, v23);
+      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`unsigned char, v23);
       result = (google::protobuf::Map<unsigned int,std::string >::MapAllocator<std::_Rb_tree_node<unsigned int*> >::pointer)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, v23);
     }
     else
@@ -801,7 +801,7 @@ google::protobuf::Map<unsigned int,std::string >::MapAllocator<std::set<unsigned
         *(_BYTE *)(v18 + 6) = -8;
       }
       v23 = google::protobuf::internal::AlignUpTo8(v22);
-      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'unsigned char, v23);
+      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`unsigned char, v23);
       result = (google::protobuf::Map<unsigned int,std::string >::MapAllocator<std::set<unsigned int*,google::protobuf::Map<unsigned int,std::string >::InnerMap::KeyCompare,google::protobuf::Map<unsigned int,std::string >::MapAllocator<unsigned int*> > >::pointer)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, v23);
     }
     else
@@ -956,7 +956,7 @@ google::protobuf::Map<unsigned int,std::string >::MapAllocator<void*>::pointer _
         *(_BYTE *)(v18 + 6) = -8;
       }
       v23 = google::protobuf::internal::AlignUpTo8(v22);
-      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'unsigned char, v23);
+      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`unsigned char, v23);
       result = (google::protobuf::Map<unsigned int,std::string >::MapAllocator<void*>::pointer)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                                                                  &arena->impl_,
                                                                                                  v23);
@@ -12011,7 +12011,7 @@ LABEL_13:
       }
       google::protobuf::Arena::OnArenaAllocation(
         arena,
-        (const std::type_info *)&`typeinfo for'unsigned char,
+        (const std::type_info *)&`typeinfo for`unsigned char,
         8 * new_num_buckets);
       goto LABEL_13;
     }
@@ -12377,7 +12377,7 @@ LABEL_155:
                                               }
                                               google::protobuf::Arena::OnArenaAllocation(
                                                 (const google::protobuf::Arena *const)v2,
-                                                (const std::type_info *)&`typeinfo for'unsigned char,
+                                                (const std::type_info *)&`typeinfo for`unsigned char,
                                                 0x38uLL);
 LABEL_159:
                                               v55 = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(
@@ -14078,7 +14078,7 @@ LABEL_13:
         Aligned = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 0x38uLL);
         goto LABEL_14;
       }
-      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'unsigned char, 0x38uLL);
+      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`unsigned char, 0x38uLL);
       goto LABEL_13;
     }
   }
@@ -17205,7 +17205,7 @@ LABEL_27:
           goto LABEL_28;
         }
       }
-      google::protobuf::Arena::OnArenaAllocation(v16, (const std::type_info *)&`typeinfo for'unsigned char, 0x18uLL);
+      google::protobuf::Arena::OnArenaAllocation(v16, (const std::type_info *)&`typeinfo for`unsigned char, 0x18uLL);
       goto LABEL_27;
     }
   }
@@ -17290,7 +17290,7 @@ LABEL_84:
 LABEL_81:
         google::protobuf::Arena::OnArenaAllocation(
           (const google::protobuf::Arena *const)elements,
-          (const std::type_info *)&`typeinfo for'unsigned char,
+          (const std::type_info *)&`typeinfo for`unsigned char,
           8uLL);
         goto LABEL_60;
       }
@@ -17756,7 +17756,7 @@ google::protobuf::Map<unsigned int,std::string >::value_type *__cdecl google::pr
         *(_BYTE *)(v17 + 6) = -8;
       }
       v25 = google::protobuf::internal::AlignUpTo8(0x28uLL);
-      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'unsigned char, v25);
+      google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`unsigned char, v25);
       Aligned = (google::protobuf::Map<unsigned int,std::string >::value_type *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                                                   &arena->impl_,
                                                                                   v25);
@@ -18285,7 +18285,7 @@ LABEL_125:
                   }
                   google::protobuf::Arena::OnArenaAllocation(
                     (const google::protobuf::Arena *const)arena,
-                    (const std::type_info *)&`typeinfo for'unsigned char,
+                    (const std::type_info *)&`typeinfo for`unsigned char,
                     0x38uLL);
                   goto LABEL_125;
                 }

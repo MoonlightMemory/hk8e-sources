@@ -1575,11 +1575,11 @@ LABEL_41:
                             *(_QWORD *)(v6 + 64) = M_ptr;
                             if ( !M_ptr )
                               goto LABEL_70;
-                            M_object = (boost::asio::io_context *)&`typeinfo for'common::minet::http_client::HttpClient;
+                            M_object = (boost::asio::io_context *)&`typeinfo for`common::minet::http_client::HttpClient;
                             v24 = __dynamic_cast(
                                     M_ptr,
-                                    (const struct __class_type_info *)&`typeinfo for'common::minet::http_client::HttpClient,
-                                    (const struct __class_type_info *)&`typeinfo for'common::minet::http_client::SslClient,
+                                    (const struct __class_type_info *)&`typeinfo for`common::minet::http_client::HttpClient,
+                                    (const struct __class_type_info *)&`typeinfo for`common::minet::http_client::SslClient,
                                     0LL);
                             if ( !v24 )
                               goto LABEL_70;
@@ -2568,7 +2568,7 @@ LABEL_102:
     __asan_handle_no_return(v53);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'boost::system::system_error,
+      (struct type_info *)&`typeinfo for`boost::system::system_error,
       (void (__fastcall *)(void *))boost::system::system_error::~system_error);
   }
 LABEL_94:
@@ -3073,8 +3073,8 @@ LABEL_25:
     goto LABEL_30;
   v14 = __dynamic_cast(
           M_ptr,
-          (const struct __class_type_info *)&`typeinfo for'common::minet::http_client::HttpClient,
-          (const struct __class_type_info *)&`typeinfo for'common::minet::http_client::SslClient,
+          (const struct __class_type_info *)&`typeinfo for`common::minet::http_client::HttpClient,
+          (const struct __class_type_info *)&`typeinfo for`common::minet::http_client::SslClient,
           0LL);
   if ( !v14 )
     goto LABEL_30;

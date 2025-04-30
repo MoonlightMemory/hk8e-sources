@@ -303,7 +303,7 @@ int32_t __cdecl data::DbGameplayRecommendationConfigMgr::loadDbGameplayRecommend
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<data::t_gameplay_recommendation_config>::size((const std::vector<data::t_gameplay_recommendation_config> *const)(v3 + 160)) <= 1 )

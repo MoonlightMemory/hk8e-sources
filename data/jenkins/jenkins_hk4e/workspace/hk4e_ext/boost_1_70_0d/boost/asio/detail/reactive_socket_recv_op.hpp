@@ -2182,7 +2182,7 @@ LABEL_135:
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>,
+        (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>,
         (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
     }
     if ( *(_BYTE *)((v45 >> 3) + 0x7FFF8000) )
@@ -2218,7 +2218,7 @@ LABEL_145:
     __asan_handle_no_return(v48);
     _cxa_throw(
       v48,
-      (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>,
+      (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>,
       (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
   }
   if ( *(_BYTE *)((v30 >> 3) + 0x7FFF8000) )

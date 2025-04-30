@@ -25,7 +25,7 @@ void __cdecl __noreturn boost::throw_exception<boost::asio::bad_executor>(const 
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
 };
 
@@ -53,7 +53,7 @@ void __cdecl __noreturn boost::throw_exception<boost::asio::invalid_service_owne
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::invalid_service_owner>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::invalid_service_owner>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::invalid_service_owner>::~wrapexcept);
 };
 
@@ -81,7 +81,7 @@ void __cdecl __noreturn boost::throw_exception<boost::asio::service_already_exis
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::service_already_exists>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::service_already_exists>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::service_already_exists>::~wrapexcept);
 };
 
@@ -108,7 +108,7 @@ void __cdecl __noreturn boost::throw_exception<boost::condition_error>(const boo
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::condition_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::condition_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::condition_error>::~wrapexcept);
 };
 
@@ -136,7 +136,7 @@ void __cdecl __noreturn boost::throw_exception<boost::gregorian::bad_day_of_mont
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::gregorian::bad_day_of_month>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::gregorian::bad_day_of_month>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::gregorian::bad_day_of_month>::~wrapexcept);
 };
 
@@ -163,7 +163,7 @@ void __cdecl __noreturn boost::throw_exception<boost::gregorian::bad_month>(cons
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::gregorian::bad_month>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::gregorian::bad_month>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::gregorian::bad_month>::~wrapexcept);
 };
 
@@ -190,7 +190,7 @@ void __cdecl __noreturn boost::throw_exception<boost::gregorian::bad_year>(const
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::gregorian::bad_year>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::gregorian::bad_year>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::gregorian::bad_year>::~wrapexcept);
 };
 
@@ -216,7 +216,7 @@ void __cdecl __noreturn boost::throw_exception<boost::lock_error>(const boost::l
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::lock_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::lock_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::lock_error>::~wrapexcept);
 };
 
@@ -243,7 +243,7 @@ void __cdecl __noreturn boost::throw_exception<boost::system::system_error>(cons
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::system::system_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::system::system_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::system::system_error>::~wrapexcept);
 };
 
@@ -270,7 +270,7 @@ void __cdecl __noreturn boost::throw_exception<boost::thread_resource_error>(con
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::thread_resource_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::thread_resource_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::thread_resource_error>::~wrapexcept);
 };
 
@@ -297,7 +297,7 @@ void __cdecl __noreturn boost::throw_exception<std::invalid_argument>(const std:
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<std::invalid_argument>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<std::invalid_argument>,
     (void (__fastcall *)(void *))boost::wrapexcept<std::invalid_argument>::~wrapexcept);
 };
 
@@ -323,7 +323,7 @@ void __cdecl __noreturn boost::throw_exception<std::length_error>(const std::len
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<std::length_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<std::length_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<std::length_error>::~wrapexcept);
 };
 
@@ -349,7 +349,7 @@ void __cdecl __noreturn boost::throw_exception<std::runtime_error>(const std::ru
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<std::runtime_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<std::runtime_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<std::runtime_error>::~wrapexcept);
 };
 
@@ -373,7 +373,7 @@ void __fastcall __noreturn boost::throw_exception<boost::bad_function_call>(cons
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::bad_function_call>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::bad_function_call>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::bad_function_call>::~wrapexcept);
 };
 
@@ -487,7 +487,7 @@ LABEL_11:
   __asan_handle_no_return(&v14);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<boost::property_tree::xml_parser::xml_parser_error>::~wrapexcept);
 };
 
@@ -582,7 +582,7 @@ LABEL_10:
         __asan_handle_no_return(&v14);
         _cxa_throw(
           (void *)exception,
-          (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::property_tree::ptree_bad_path>,
+          (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::property_tree::ptree_bad_path>,
           (void (__fastcall *)(void *))boost::wrapexcept<boost::property_tree::ptree_bad_path>::~wrapexcept);
       }
 LABEL_8:
@@ -624,7 +624,7 @@ void __fastcall __noreturn boost::exception_detail::throw_exception_<std::runtim
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<std::runtime_error>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<std::runtime_error>,
     (void (__fastcall *)(void *))boost::wrapexcept<std::runtime_error>::~wrapexcept);
 };
 
@@ -650,6 +650,6 @@ void __cdecl __noreturn boost::throw_exception<std::out_of_range>(const std::out
   __asan_handle_no_return(v2);
   _cxa_throw(
     v2,
-    (struct type_info *)&`typeinfo for'boost::wrapexcept<std::out_of_range>,
+    (struct type_info *)&`typeinfo for`boost::wrapexcept<std::out_of_range>,
     (void (__fastcall *)(void *))boost::wrapexcept<std::out_of_range>::~wrapexcept);
 };

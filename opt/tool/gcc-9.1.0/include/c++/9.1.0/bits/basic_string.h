@@ -8332,7 +8332,7 @@ void __fastcall __noreturn mysqlpp::SQLStream::SQLStream()
 
   if ( retaddr != v2 )
     operator delete(retaddr);
-  std::ostringstream::~ostringstream(v0, &`VTT for'mysqlpp::SQLStream + 1);
+  std::ostringstream::~ostringstream(v0, &`VTT for`mysqlpp::SQLStream + 1);
   *(_QWORD *)(v0 + 120) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base(v3);
   _Unwind_Resume(v1);

@@ -714,7 +714,7 @@ void __fastcall google::protobuf::Map<google::protobuf::MapKey,google::protobuf:
     if ( arena->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         arena,
-        (const std::type_info *)&`typeinfo for'unsigned char,
+        (const std::type_info *)&`typeinfo for`unsigned char,
         8 * new_num_buckets);
     Aligned = google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, v2);
   }
@@ -849,7 +849,7 @@ LABEL_12:
               {
                 google::protobuf::Arena::OnArenaAllocation(
                   v48,
-                  (const std::type_info *)&`typeinfo for'unsigned char,
+                  (const std::type_info *)&`typeinfo for`unsigned char,
                   0x38uLL);
                 M_right = 0LL;
               }
@@ -1085,7 +1085,7 @@ LABEL_39:
             {
               google::protobuf::Arena::OnArenaAllocation(
                 v75,
-                (const std::type_info *)&`typeinfo for'unsigned char,
+                (const std::type_info *)&`typeinfo for`unsigned char,
                 0x38uLL);
               v40 = 0LL;
             }

@@ -97,13 +97,13 @@ void __cdecl boost::asio::executor::on_work_finished(const boost::asio::executor
 // Line 267: range 000000000C6AFFD4-000000000C6AFFE0
 boost::asio::executor::type_id_result_type __cdecl boost::asio::executor::type_id<boost::asio::io_context::executor_type>()
 {
-  return (boost::asio::executor::type_id_result_type)&`typeinfo for'boost::asio::io_context::executor_type;
+  return (boost::asio::executor::type_id_result_type)&`typeinfo for`boost::asio::io_context::executor_type;
 };
 
 // Line 267: range 000000000C70715D-000000000C707169
 boost::asio::executor::type_id_result_type __cdecl boost::asio::executor::type_id<boost::asio::io_context::strand>()
 {
-  return (boost::asio::executor::type_id_result_type)&`typeinfo for'boost::asio::io_context::strand;
+  return (boost::asio::executor::type_id_result_type)&`typeinfo for`boost::asio::io_context::strand;
 };
 
 // Line 295: range 000000000C64AF74-000000000C64AFF8

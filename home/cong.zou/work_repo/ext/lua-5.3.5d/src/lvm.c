@@ -2031,7 +2031,7 @@ LABEL_289:
           }
           else if ( !luaV_tonumber_(v6 + 1, &nlimit) )
           {
-            luaG_runerror(L, "'for' limit must be a number");
+            luaG_runerror(L, "'for` limit must be a number");
           }
           v6[1].value_.n = nlimit;
           v6[1].tt_ = 3;
@@ -2041,7 +2041,7 @@ LABEL_289:
           }
           else if ( !luaV_tonumber_(v6 + 2, nstep) )
           {
-            luaG_runerror(L, "'for' step must be a number");
+            luaG_runerror(L, "'for` step must be a number");
           }
           v6[2].value_.n = nstep[0];
           v6[2].tt_ = 3;
@@ -2051,7 +2051,7 @@ LABEL_289:
           }
           else if ( !luaV_tonumber_(v6, &ninit) )
           {
-            luaG_runerror(L, "'for' initial value must be a number");
+            luaG_runerror(L, "'for` initial value must be a number");
           }
           v6->value_.n = ninit - nstep[0];
           v6->tt_ = 3;

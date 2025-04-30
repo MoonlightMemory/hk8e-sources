@@ -2228,7 +2228,7 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<Robot *>::id);
         }
         *v3 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Robot *);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`Robot *);
         v4 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Robot *>::id >> 3) + 0x7FFF8000) )
           v4 = __asan_report_store8();
@@ -2251,7 +2251,7 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<Entity>::id);
         }
         *v6 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Entity);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`Entity);
         v7 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Entity>::id >> 3) + 0x7FFF8000) )
           v7 = __asan_report_store8();
@@ -2274,7 +2274,7 @@ void __cdecl __static_initialization_and_destruction_1(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<Monster>::id);
         }
         *v9 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Monster);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`Monster);
         v10 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Monster>::id >> 3) + 0x7FFF8000) )
           v10 = __asan_report_store8();
@@ -2336,7 +2336,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Quest>>::id);
         }
         *v3 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Quest>);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`std::shared_ptr<Quest>);
         v4 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<std::shared_ptr<Quest>>::id >> 3)
                       + 0x7FFF8000) )
@@ -2360,7 +2360,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Avatar>>::id);
         }
         *v6 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Avatar>);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`std::shared_ptr<Avatar>);
         v7 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<std::shared_ptr<Avatar>>::id >> 3)
                       + 0x7FFF8000) )
@@ -2384,7 +2384,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::shared_ptr<Monster>>::id);
         }
         *v9 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::shared_ptr<Monster>);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`std::shared_ptr<Monster>);
         v10 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<std::shared_ptr<Monster>>::id >> 3)
                       + 0x7FFF8000) )
@@ -2408,7 +2408,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<Scene *>::id);
         }
         *v12 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Scene *);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`Scene *);
         v13 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Scene *>::id >> 3) + 0x7FFF8000) )
           v13 = __asan_report_store8();
@@ -2431,7 +2431,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<Player *>::id);
         }
         *v15 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'Player *);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`Player *);
         v16 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<Player *>::id >> 3) + 0x7FFF8000) )
           v16 = __asan_report_store8();
@@ -2454,7 +2454,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<RobotReporter *>::id);
         }
         *v18 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'RobotReporter *);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`RobotReporter *);
         v19 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<RobotReporter *>::id >> 3) + 0x7FFF8000) )
           v19 = __asan_report_store8();
@@ -2477,7 +2477,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id);
         }
         *v21 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'common::tools::TxtFile::Row const*);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`common::tools::TxtFile::Row const*);
         v22 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<common::tools::TxtFile::Row const*>::id >> 3)
                       + 0x7FFF8000) )
@@ -2501,7 +2501,7 @@ void __cdecl __static_initialization_and_destruction_2(int __initialize_p, int _
           __asan_report_store1(&`guard variable for luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id);
         }
         *v24 = 1;
-        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for'std::auto_ptr<common::tools::TxtFile>);
+        luabind::type_id::type_id(&cls, (const std::type_info *)&`typeinfo for`std::auto_ptr<common::tools::TxtFile>);
         v25 = luabind::detail::allocate_class_id(&cls);
         if ( *(_BYTE *)(((unsigned __int64)&luabind::detail::registered_class<std::auto_ptr<common::tools::TxtFile>>::id >> 3)
                       + 0x7FFF8000) )

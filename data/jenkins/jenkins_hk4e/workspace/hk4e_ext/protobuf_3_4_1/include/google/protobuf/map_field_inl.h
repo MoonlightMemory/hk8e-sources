@@ -801,7 +801,7 @@ LABEL_47:
     {
       __asan_report_load8();
 LABEL_49:
-      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'unsigned char, 0x18uLL);
+      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`unsigned char, 0x18uLL);
       goto LABEL_24;
     }
     if ( arena->hooks_cookie_ )
@@ -868,7 +868,7 @@ LABEL_76:
 LABEL_77:
       __asan_report_load8();
 LABEL_78:
-      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'unsigned char, 8uLL);
+      google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`unsigned char, 8uLL);
 LABEL_57:
       other = (const google::protobuf::internal::MapField<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0> *)8;
       v19 = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(&arena->impl_, 8uLL);

@@ -146,7 +146,7 @@ bool __cdecl BT::Blackboard::get<BT::BlackboardInnerPhaseType>(
   {
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
-    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'BT::BlackboardInnerPhaseType, v7) )
+    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`BT::BlackboardInnerPhaseType, v7) )
     {
       v8 = std::any_cast<BT::BlackboardInnerPhaseType>(any_val);
       if ( *(_BYTE *)(((unsigned __int64)value >> 3) + 0x7FFF8000) != 0
@@ -173,7 +173,7 @@ bool __cdecl BT::Blackboard::get<BT::BlackboardInnerPhaseType>(
       val = (char *)std::type_info::name(v12);
       v13 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&val);
       v14 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v13, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'BT::BlackboardInnerPhaseType);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`BT::BlackboardInnerPhaseType);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v14, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v20);
       v6 = 0;
@@ -241,7 +241,7 @@ bool __cdecl BT::Blackboard::get<int>(const BT::Blackboard *const this, const st
   {
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
-    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'int, v7) )
+    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`int, v7) )
     {
       v8 = std::any_cast<int>(any_val);
       if ( *(_BYTE *)(((unsigned __int64)value >> 3) + 0x7FFF8000) != 0
@@ -268,7 +268,7 @@ bool __cdecl BT::Blackboard::get<int>(const BT::Blackboard *const this, const st
       val = (char *)std::type_info::name(v12);
       v13 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v11, (const char *const *)&val);
       v14 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v13, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'int);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`int);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v14, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v20);
       v6 = 0;
@@ -340,7 +340,7 @@ bool __cdecl BT::Blackboard::get<std::map<proto::GCGDiceSideType,unsigned int>>(
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
     if ( std::type_info::operator==(
-           (const std::type_info *const)&`typeinfo for'std::map<proto::GCGDiceSideType,unsigned int>,
+           (const std::type_info *const)&`typeinfo for`std::map<proto::GCGDiceSideType,unsigned int>,
            v7) )
     {
       std::any_cast<std::map<proto::GCGDiceSideType,unsigned int>>(&v20, any_val);
@@ -364,7 +364,7 @@ bool __cdecl BT::Blackboard::get<std::map<proto::GCGDiceSideType,unsigned int>>(
       val = (char *)std::type_info::name(v11);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v10, (const char *const *)&val);
       v13 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v12, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::map<proto::GCGDiceSideType,unsigned int>);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::map<proto::GCGDiceSideType,unsigned int>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v19);
       v6 = 0;
@@ -435,7 +435,7 @@ bool __cdecl BT::Blackboard::get<std::map<unsigned int,unsigned int>>(
   {
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
-    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'std::map<unsigned int,unsigned int>, v7) )
+    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`std::map<unsigned int,unsigned int>, v7) )
     {
       std::any_cast<std::map<unsigned int,unsigned int>>(&v20, any_val);
       std::map<unsigned int,unsigned int>::operator=(value, &v20);
@@ -458,7 +458,7 @@ bool __cdecl BT::Blackboard::get<std::map<unsigned int,unsigned int>>(
       val = (char *)std::type_info::name(v11);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v10, (const char *const *)&val);
       v13 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v12, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::map<unsigned int,unsigned int>);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::map<unsigned int,unsigned int>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v19);
       v6 = 0;
@@ -529,7 +529,7 @@ bool __cdecl BT::Blackboard::get<std::shared_ptr<BT::ActionPlanMgr>>(
   {
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
-    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'std::shared_ptr<BT::ActionPlanMgr>, v7) )
+    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`std::shared_ptr<BT::ActionPlanMgr>, v7) )
     {
       std::any_cast<std::shared_ptr<BT::ActionPlanMgr>>(&__any);
       std::shared_ptr<BT::ActionPlanMgr>::operator=(value, (std::shared_ptr<BT::ActionPlanMgr> *)&__any);
@@ -552,7 +552,7 @@ bool __cdecl BT::Blackboard::get<std::shared_ptr<BT::ActionPlanMgr>>(
       val = (char *)std::type_info::name(v11);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v10, (const char *const *)&val);
       v13 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v12, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<BT::ActionPlanMgr>);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<BT::ActionPlanMgr>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v20);
       v6 = 0;
@@ -623,7 +623,7 @@ bool __cdecl BT::Blackboard::get<std::shared_ptr<GCGAIController>>(
   {
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
-    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGAIController>, v7) )
+    if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGAIController>, v7) )
     {
       std::any_cast<std::shared_ptr<GCGAIController>>(&__any);
       std::shared_ptr<GCGAIController>::operator=(value, (std::shared_ptr<GCGAIController> *)&__any);
@@ -646,7 +646,7 @@ bool __cdecl BT::Blackboard::get<std::shared_ptr<GCGAIController>>(
       val = (char *)std::type_info::name(v11);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v10, (const char *const *)&val);
       v13 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v12, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<GCGAIController>);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<GCGAIController>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v20);
       v6 = 0;
@@ -718,7 +718,7 @@ bool __cdecl BT::Blackboard::get<std::vector<BT::CandidateOnstageCharacterInfo>>
     any_val = &std::__detail::_Node_const_iterator<std::pair<std::string const,std::any>,false,true>::operator->((const std::__detail::_Node_const_iterator<std::pair<const std::string,std::any>,false,true> *const)(v3 + 32))->second;
     v7 = std::any::type(any_val);
     if ( std::type_info::operator==(
-           (const std::type_info *const)&`typeinfo for'std::vector<BT::CandidateOnstageCharacterInfo>,
+           (const std::type_info *const)&`typeinfo for`std::vector<BT::CandidateOnstageCharacterInfo>,
            v7) )
     {
       std::any_cast<std::vector<BT::CandidateOnstageCharacterInfo>>(&__x, any_val);
@@ -742,7 +742,7 @@ bool __cdecl BT::Blackboard::get<std::vector<BT::CandidateOnstageCharacterInfo>>
       val = (char *)std::type_info::name(v11);
       v12 = common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v10, (const char *const *)&val);
       v13 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(v12, (const char (*)[12])" need type:");
-      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for'std::vector<BT::CandidateOnstageCharacterInfo>);
+      __y._M_cur = (std::__detail::_Node_iterator_base<std::pair<const std::string,std::any>,true>::__node_type *)std::type_info::name((const std::type_info *const)&`typeinfo for`std::vector<BT::CandidateOnstageCharacterInfo>);
       common::milog::MiLogStream::operator<<<char const*,(char const**)0>(v13, (const char *const *)&__y);
       common::milog::MiLogStream::~MiLogStream(&v20);
       v6 = 0;

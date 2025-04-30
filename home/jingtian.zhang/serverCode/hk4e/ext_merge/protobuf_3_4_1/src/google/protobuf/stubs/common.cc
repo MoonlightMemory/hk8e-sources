@@ -809,7 +809,7 @@ LABEL_7:
   *(_BYTE *)(v16 + v15) = 0;
   _cxa_throw(
     v11,
-    (struct type_info *)&`typeinfo for'google::protobuf::FatalException,
+    (struct type_info *)&`typeinfo for`google::protobuf::FatalException,
     (void (__fastcall *)(void *))google::protobuf::FatalException::~FatalException);
 };
 

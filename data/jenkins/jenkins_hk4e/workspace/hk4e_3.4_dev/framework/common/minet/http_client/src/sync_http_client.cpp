@@ -445,7 +445,7 @@ LABEL_116:
           __asan_handle_no_return(v58);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'boost::system::system_error,
+            (struct type_info *)&`typeinfo for`boost::system::system_error,
             (void (__fastcall *)(void *))boost::system::system_error::~system_error);
         }
         v48 = *(_QWORD *)(v7 + 72);
@@ -1620,7 +1620,7 @@ LABEL_125:
           __asan_handle_no_return(v64);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'boost::system::system_error,
+            (struct type_info *)&`typeinfo for`boost::system::system_error,
             (void (__fastcall *)(void *))boost::system::system_error::~system_error);
         }
         v56 = *(_QWORD *)(v7 + 72);
@@ -1937,7 +1937,7 @@ LABEL_33:
         __asan_handle_no_return(v27);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'boost::system::system_error,
+          (struct type_info *)&`typeinfo for`boost::system::system_error,
           (void (__fastcall *)(void *))boost::system::system_error::~system_error);
       }
       v25 = ((__int64 (__fastcall *)(__int64 (__fastcall ***)(boost::asio::error::detail::ssl_category *__hidden), const char *))boost::asio::error::get_ssl_category(void)::instance[6])(

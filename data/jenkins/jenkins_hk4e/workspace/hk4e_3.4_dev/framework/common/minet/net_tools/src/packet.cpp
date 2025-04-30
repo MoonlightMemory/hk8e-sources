@@ -3515,7 +3515,7 @@ LABEL_110:
   {
     goto LABEL_58;
   }
-  google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'unsigned char, 0x18uLL);
+  google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`unsigned char, 0x18uLL);
 LABEL_58:
   *(_QWORD *)&key = 24LL;
   Aligned = (google::protobuf::Map<unsigned int,unsigned int>::InnerMap::Node *)google::protobuf::internal::ArenaImpl::AllocateAligned(
@@ -3600,7 +3600,7 @@ LABEL_141:
 LABEL_136:
         google::protobuf::Arena::OnArenaAllocation(
           (const google::protobuf::Arena *const)p_ext_map,
-          (const std::type_info *)&`typeinfo for'unsigned char,
+          (const std::type_info *)&`typeinfo for`unsigned char,
           8uLL);
         goto LABEL_120;
       }
@@ -4089,7 +4089,7 @@ LABEL_110:
   {
     goto LABEL_58;
   }
-  google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'unsigned char, 0x18uLL);
+  google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`unsigned char, 0x18uLL);
 LABEL_58:
   *(_QWORD *)&service_type = 24LL;
   Aligned = (google::protobuf::Map<unsigned int,unsigned int>::InnerMap::Node *)google::protobuf::internal::ArenaImpl::AllocateAligned(
@@ -4174,7 +4174,7 @@ LABEL_141:
 LABEL_136:
         google::protobuf::Arena::OnArenaAllocation(
           (const google::protobuf::Arena *const)p_service_app_id_map,
-          (const std::type_info *)&`typeinfo for'unsigned char,
+          (const std::type_info *)&`typeinfo for`unsigned char,
           8uLL);
         goto LABEL_120;
       }

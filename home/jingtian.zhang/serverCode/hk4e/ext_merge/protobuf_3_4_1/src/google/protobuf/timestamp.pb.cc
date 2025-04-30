@@ -255,7 +255,7 @@ google::protobuf::Timestamp *__fastcall google::protobuf::Timestamp::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::Timestamp,
+        (const std::type_info *)&`typeinfo for`google::protobuf::Timestamp,
         0x20uLL);
     Aligned = (google::protobuf::Timestamp *)google::protobuf::internal::ArenaImpl::AllocateAligned(&a2->impl_, 0x20uLL);
     google::protobuf::Timestamp::Timestamp(Aligned, a2);
@@ -526,8 +526,8 @@ void __fastcall google::protobuf::Timestamp::MergeFrom(
 
   v2 = (const google::protobuf::Timestamp *)__dynamic_cast(
                                               from,
-                                              (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                              (const struct __class_type_info *)&`typeinfo for'google::protobuf::Timestamp,
+                                              (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                              (const struct __class_type_info *)&`typeinfo for`google::protobuf::Timestamp,
                                               0LL);
   if ( v2 )
     google::protobuf::Timestamp::MergeFrom(this, v2);

@@ -45,7 +45,7 @@ bool __fastcall mysqlpp::SQLBuffer::quote_q(const mysqlpp::SQLBuffer *const this
                                                                    0,
                                                                    0)].c_type_
                      + 1);
-  v3 = (const char *)*(&`typeinfo for'mysqlpp::DateTime + 1);
+  v3 = (const char *)*(&`typeinfo for`mysqlpp::DateTime + 1);
   return (v2 != v3 && (*v2 == 42 || strcmp(v2, v3))
        || (data = this->data_) == 0LL
        || this->length_ <= 4

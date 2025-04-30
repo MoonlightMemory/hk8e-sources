@@ -115,7 +115,7 @@ LABEL_33:
 LABEL_34:
     __asan_report_load8(v8);
   }
-  v9 = (char *)&`typeinfo for'void;
+  v9 = (char *)&`typeinfo for`void;
 LABEL_16:
   v10 = v9 + 8;
   if ( *(_BYTE *)(((unsigned __int64)(v9 + 8) >> 3) + 0x7FFF8000) )
@@ -321,7 +321,7 @@ LABEL_33:
 LABEL_34:
     __asan_report_load8(v8);
   }
-  v9 = (char *)&`typeinfo for'void;
+  v9 = (char *)&`typeinfo for`void;
 LABEL_16:
   v10 = v9 + 8;
   if ( *(_BYTE *)(((unsigned __int64)(v9 + 8) >> 3) + 0x7FFF8000) )

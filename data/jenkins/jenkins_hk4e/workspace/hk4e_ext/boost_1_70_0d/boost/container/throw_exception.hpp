@@ -10,7 +10,7 @@ void __cdecl __noreturn boost::container::throw_bad_alloc()
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::bad_alloc,
+    (struct type_info *)&`typeinfo for`std::bad_alloc,
     (void (__fastcall *)(void *))&std::bad_alloc::~bad_alloc);
 };
 
@@ -24,6 +24,6 @@ void __cdecl __noreturn boost::container::throw_length_error(const char *str)
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::length_error,
+    (struct type_info *)&`typeinfo for`std::length_error,
     (void (__fastcall *)(void *))&std::length_error::~length_error);
 };

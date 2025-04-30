@@ -146,8 +146,8 @@ bool __cdecl TowerFloor::operator==(const TowerFloor *const this, const BaseSwit
   if ( rhs )
     v2 = (const TowerFloor *)__dynamic_cast(
                                rhs,
-                               (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                               (const struct __class_type_info *)&`typeinfo for'TowerFloor,
+                               (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                               (const struct __class_type_info *)&`typeinfo for`TowerFloor,
                                0LL);
   else
     v2 = 0LL;
@@ -530,8 +530,8 @@ bool __cdecl Dungeon::operator==(const Dungeon *const this, const BaseSwitch *rh
   if ( rhs )
     v2 = (const Dungeon *)__dynamic_cast(
                             rhs,
-                            (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                            (const struct __class_type_info *)&`typeinfo for'Dungeon,
+                            (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                            (const struct __class_type_info *)&`typeinfo for`Dungeon,
                             0LL);
   else
     v2 = 0LL;
@@ -823,8 +823,8 @@ bool __cdecl CustomDungeonId::operator==(const CustomDungeonId *const this, cons
   if ( rhs )
     v2 = (const CustomDungeonId *)__dynamic_cast(
                                     rhs,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                    (const struct __class_type_info *)&`typeinfo for'CustomDungeonId,
+                                    (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                    (const struct __class_type_info *)&`typeinfo for`CustomDungeonId,
                                     0LL);
   else
     v2 = 0LL;
@@ -1174,8 +1174,8 @@ bool __cdecl Recharge::operator==(const Recharge *const this, const BaseSwitch *
   if ( rhs )
     v2 = (const Recharge *)__dynamic_cast(
                              rhs,
-                             (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                             (const struct __class_type_info *)&`typeinfo for'Recharge,
+                             (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                             (const struct __class_type_info *)&`typeinfo for`Recharge,
                              0LL);
   else
     v2 = 0LL;
@@ -1475,8 +1475,8 @@ bool __cdecl Shop::operator==(const Shop *const this, const BaseSwitch *rhs)
   if ( rhs )
     v2 = (const Shop *)__dynamic_cast(
                          rhs,
-                         (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                         (const struct __class_type_info *)&`typeinfo for'Shop,
+                         (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                         (const struct __class_type_info *)&`typeinfo for`Shop,
                          0LL);
   else
     v2 = 0LL;
@@ -1743,8 +1743,8 @@ bool __cdecl DailyTask::operator==(const DailyTask *const this, const BaseSwitch
   if ( rhs )
     v2 = (const DailyTask *)__dynamic_cast(
                               rhs,
-                              (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                              (const struct __class_type_info *)&`typeinfo for'DailyTask,
+                              (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                              (const struct __class_type_info *)&`typeinfo for`DailyTask,
                               0LL);
   else
     v2 = 0LL;
@@ -1978,8 +1978,8 @@ bool __cdecl RandTask::operator==(const RandTask *const this, const BaseSwitch *
   if ( rhs )
     v2 = (const RandTask *)__dynamic_cast(
                              rhs,
-                             (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                             (const struct __class_type_info *)&`typeinfo for'RandTask,
+                             (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                             (const struct __class_type_info *)&`typeinfo for`RandTask,
                              0LL);
   else
     v2 = 0LL;
@@ -2213,8 +2213,8 @@ bool __cdecl ForgeSwitch::operator==(const ForgeSwitch *const this, const BaseSw
   if ( rhs )
     v2 = (const ForgeSwitch *)__dynamic_cast(
                                 rhs,
-                                (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                (const struct __class_type_info *)&`typeinfo for'ForgeSwitch,
+                                (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                (const struct __class_type_info *)&`typeinfo for`ForgeSwitch,
                                 0LL);
   else
     v2 = 0LL;
@@ -2448,8 +2448,8 @@ bool __cdecl CookSwitch::operator==(const CookSwitch *const this, const BaseSwit
   if ( rhs )
     v2 = (const CookSwitch *)__dynamic_cast(
                                rhs,
-                               (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                               (const struct __class_type_info *)&`typeinfo for'CookSwitch,
+                               (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                               (const struct __class_type_info *)&`typeinfo for`CookSwitch,
                                0LL);
   else
     v2 = 0LL;
@@ -2683,8 +2683,8 @@ bool __cdecl CombineSwitch::operator==(const CombineSwitch *const this, const Ba
   if ( rhs )
     v2 = (const CombineSwitch *)__dynamic_cast(
                                   rhs,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                  (const struct __class_type_info *)&`typeinfo for'CombineSwitch,
+                                  (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                  (const struct __class_type_info *)&`typeinfo for`CombineSwitch,
                                   0LL);
   else
     v2 = 0LL;
@@ -2918,8 +2918,8 @@ bool __cdecl WeaponSwitch::operator==(const WeaponSwitch *const this, const Base
   if ( rhs )
     v2 = (const WeaponSwitch *)__dynamic_cast(
                                  rhs,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                 (const struct __class_type_info *)&`typeinfo for'WeaponSwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`WeaponSwitch,
                                  0LL);
   else
     v2 = 0LL;
@@ -3153,8 +3153,8 @@ bool __cdecl ReliquarySwitch::operator==(const ReliquarySwitch *const this, cons
   if ( rhs )
     v2 = (const ReliquarySwitch *)__dynamic_cast(
                                     rhs,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                    (const struct __class_type_info *)&`typeinfo for'ReliquarySwitch,
+                                    (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                    (const struct __class_type_info *)&`typeinfo for`ReliquarySwitch,
                                     0LL);
   else
     v2 = 0LL;
@@ -3388,8 +3388,8 @@ bool __cdecl ItemSwitch::operator==(const ItemSwitch *const this, const BaseSwit
   if ( rhs )
     v2 = (const ItemSwitch *)__dynamic_cast(
                                rhs,
-                               (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                               (const struct __class_type_info *)&`typeinfo for'ItemSwitch,
+                               (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                               (const struct __class_type_info *)&`typeinfo for`ItemSwitch,
                                0LL);
   else
     v2 = 0LL;
@@ -3623,8 +3623,8 @@ bool __cdecl AvatarSwitch::operator==(const AvatarSwitch *const this, const Base
   if ( rhs )
     v2 = (const AvatarSwitch *)__dynamic_cast(
                                  rhs,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                 (const struct __class_type_info *)&`typeinfo for'AvatarSwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`AvatarSwitch,
                                  0LL);
   else
     v2 = 0LL;
@@ -3869,8 +3869,8 @@ bool __cdecl CityReputationSwitch::operator==(const CityReputationSwitch *const 
   if ( rhs )
     v2 = (const CityReputationSwitch *)__dynamic_cast(
                                          rhs,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                         (const struct __class_type_info *)&`typeinfo for'CityReputationSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`CityReputationSwitch,
                                          0LL);
   else
     v2 = 0LL;
@@ -4137,8 +4137,8 @@ bool __cdecl MpPlaySwitch::operator==(const MpPlaySwitch *const this, const Base
   if ( rhs )
     v2 = (const MpPlaySwitch *)__dynamic_cast(
                                  rhs,
-                                 (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                 (const struct __class_type_info *)&`typeinfo for'MpPlaySwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                 (const struct __class_type_info *)&`typeinfo for`MpPlaySwitch,
                                  0LL);
   else
     v2 = 0LL;
@@ -4604,8 +4604,8 @@ bool __cdecl OfferingSwitch::operator==(const OfferingSwitch *const this, const 
   if ( rhs )
     v2 = (const OfferingSwitch *)__dynamic_cast(
                                    rhs,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                   (const struct __class_type_info *)&`typeinfo for'OfferingSwitch,
+                                   (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                   (const struct __class_type_info *)&`typeinfo for`OfferingSwitch,
                                    0LL);
   else
     v2 = 0LL;
@@ -4839,8 +4839,8 @@ bool __cdecl RoutineSwitch::operator==(const RoutineSwitch *const this, const Ba
   if ( rhs )
     v2 = (const RoutineSwitch *)__dynamic_cast(
                                   rhs,
-                                  (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                  (const struct __class_type_info *)&`typeinfo for'RoutineSwitch,
+                                  (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                  (const struct __class_type_info *)&`typeinfo for`RoutineSwitch,
                                   0LL);
   else
     v2 = 0LL;
@@ -5074,8 +5074,8 @@ bool __cdecl ActivitySaleSwitch::operator==(const ActivitySaleSwitch *const this
   if ( rhs )
     v2 = (const ActivitySaleSwitch *)__dynamic_cast(
                                        rhs,
-                                       (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                       (const struct __class_type_info *)&`typeinfo for'ActivitySaleSwitch,
+                                       (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                       (const struct __class_type_info *)&`typeinfo for`ActivitySaleSwitch,
                                        0LL);
   else
     v2 = 0LL;
@@ -5657,8 +5657,8 @@ bool __cdecl HomeModuleSwitch::operator==(const HomeModuleSwitch *const this, co
   if ( rhs )
     v2 = (const HomeModuleSwitch *)__dynamic_cast(
                                      rhs,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                     (const struct __class_type_info *)&`typeinfo for'HomeModuleSwitch,
+                                     (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                     (const struct __class_type_info *)&`typeinfo for`HomeModuleSwitch,
                                      0LL);
   else
     v2 = 0LL;
@@ -5895,8 +5895,8 @@ bool __cdecl HomeFurnitureMakeSwitch::operator==(const HomeFurnitureMakeSwitch *
   if ( rhs )
     v2 = (const HomeFurnitureMakeSwitch *)__dynamic_cast(
                                             rhs,
-                                            (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                            (const struct __class_type_info *)&`typeinfo for'HomeFurnitureMakeSwitch,
+                                            (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                            (const struct __class_type_info *)&`typeinfo for`HomeFurnitureMakeSwitch,
                                             0LL);
   else
     v2 = 0LL;
@@ -6130,8 +6130,8 @@ bool __cdecl HomeLimitedShop::operator==(const HomeLimitedShop *const this, cons
   if ( rhs )
     v2 = (const HomeLimitedShop *)__dynamic_cast(
                                     rhs,
-                                    (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                    (const struct __class_type_info *)&`typeinfo for'HomeLimitedShop,
+                                    (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                    (const struct __class_type_info *)&`typeinfo for`HomeLimitedShop,
                                     0LL);
   else
     v2 = 0LL;
@@ -6365,8 +6365,8 @@ bool __cdecl GadgetInteractSwitch::operator==(const GadgetInteractSwitch *const 
   if ( rhs )
     v2 = (const GadgetInteractSwitch *)__dynamic_cast(
                                          rhs,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                         (const struct __class_type_info *)&`typeinfo for'GadgetInteractSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`GadgetInteractSwitch,
                                          0LL);
   else
     v2 = 0LL;
@@ -6660,8 +6660,8 @@ bool __cdecl RandomQuestTemplateSwitch::operator==(const RandomQuestTemplateSwit
   if ( rhs )
     v2 = (const RandomQuestTemplateSwitch *)__dynamic_cast(
                                               rhs,
-                                              (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                              (const struct __class_type_info *)&`typeinfo for'RandomQuestTemplateSwitch,
+                                              (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                              (const struct __class_type_info *)&`typeinfo for`RandomQuestTemplateSwitch,
                                               0LL);
   else
     v2 = 0LL;
@@ -7013,8 +7013,8 @@ bool __cdecl MinorsRegister::operator==(const MinorsRegister *const this, const 
   if ( rhs )
     v2 = (const MinorsRegister *)__dynamic_cast(
                                    rhs,
-                                   (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                   (const struct __class_type_info *)&`typeinfo for'MinorsRegister,
+                                   (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                   (const struct __class_type_info *)&`typeinfo for`MinorsRegister,
                                    0LL);
   else
     v2 = 0LL;
@@ -7248,8 +7248,8 @@ bool __cdecl MatchLimitSwitch::operator==(const MatchLimitSwitch *const this, co
   if ( rhs )
     v2 = (const MatchLimitSwitch *)__dynamic_cast(
                                      rhs,
-                                     (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                     (const struct __class_type_info *)&`typeinfo for'MatchLimitSwitch,
+                                     (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                     (const struct __class_type_info *)&`typeinfo for`MatchLimitSwitch,
                                      0LL);
   else
     v2 = 0LL;
@@ -7494,8 +7494,8 @@ bool __cdecl NicknameAuditSwitch::operator==(const NicknameAuditSwitch *const th
   if ( rhs )
     v2 = (const NicknameAuditSwitch *)__dynamic_cast(
                                         rhs,
-                                        (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                        (const struct __class_type_info *)&`typeinfo for'NicknameAuditSwitch,
+                                        (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                        (const struct __class_type_info *)&`typeinfo for`NicknameAuditSwitch,
                                         0LL);
   else
     v2 = 0LL;
@@ -7774,8 +7774,8 @@ bool __cdecl SignatureAuditSwitch::operator==(const SignatureAuditSwitch *const 
   if ( rhs )
     v2 = (const SignatureAuditSwitch *)__dynamic_cast(
                                          rhs,
-                                         (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                         (const struct __class_type_info *)&`typeinfo for'SignatureAuditSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                         (const struct __class_type_info *)&`typeinfo for`SignatureAuditSwitch,
                                          0LL);
   else
     v2 = 0LL;
@@ -8221,8 +8221,8 @@ bool __cdecl HomeAuditBeforeReleaseSwitch::operator==(
   if ( rhs )
     v2 = (const HomeAuditBeforeReleaseSwitch *)__dynamic_cast(
                                                  rhs,
-                                                 (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                                 (const struct __class_type_info *)&`typeinfo for'HomeAuditBeforeReleaseSwitch,
+                                                 (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                                 (const struct __class_type_info *)&`typeinfo for`HomeAuditBeforeReleaseSwitch,
                                                  0LL);
   else
     v2 = 0LL;
@@ -9740,8 +9740,8 @@ bool __cdecl KeyValueMapSwitch::operator==(const KeyValueMapSwitch *const this, 
   if ( rhs )
     v2 = (char *)__dynamic_cast(
                    rhs,
-                   (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                   (const struct __class_type_info *)&`typeinfo for'KeyValueMapSwitch,
+                   (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                   (const struct __class_type_info *)&`typeinfo for`KeyValueMapSwitch,
                    0LL);
   else
     v2 = 0LL;
@@ -10049,8 +10049,8 @@ bool __cdecl ValueSetSwitch::operator==(const ValueSetSwitch *const this, const 
   if ( rhs )
     v2 = (char *)__dynamic_cast(
                    rhs,
-                   (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                   (const struct __class_type_info *)&`typeinfo for'ValueSetSwitch,
+                   (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                   (const struct __class_type_info *)&`typeinfo for`ValueSetSwitch,
                    0LL);
   else
     v2 = 0LL;
@@ -10971,8 +10971,8 @@ bool __cdecl AnchorPointSwitch::operator==(const AnchorPointSwitch *const this, 
   if ( rhs )
     v2 = (const AnchorPointSwitch *)__dynamic_cast(
                                       rhs,
-                                      (const struct __class_type_info *)&`typeinfo for'BaseSwitch,
-                                      (const struct __class_type_info *)&`typeinfo for'AnchorPointSwitch,
+                                      (const struct __class_type_info *)&`typeinfo for`BaseSwitch,
+                                      (const struct __class_type_info *)&`typeinfo for`AnchorPointSwitch,
                                       0LL);
   else
     v2 = 0LL;

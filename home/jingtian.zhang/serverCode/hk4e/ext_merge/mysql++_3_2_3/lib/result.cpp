@@ -432,7 +432,7 @@ void __fastcall __noreturn mysqlpp::ResultBase::field_num()
   mysqlpp::BadFieldName::BadFieldName(exception, *v0);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadFieldName,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadFieldName,
     (void (__fastcall *)(void *))mysqlpp::BadFieldName::~BadFieldName);
 };
 
@@ -719,7 +719,7 @@ mysqlpp::UseQueryResult *__fastcall mysqlpp::UseQueryResult::fetch_row(
     *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::UseQueryError + 2;
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+      (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
       (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
   }
   this->exceptions_ = 1;
@@ -744,7 +744,7 @@ void __noreturn mysqlpp::UseQueryResult::fetch_row()
   *(_QWORD *)exception->baseclass_0 = &`vtable for mysqlpp::UseQueryError + 2;
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+    (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
     (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
 };
 

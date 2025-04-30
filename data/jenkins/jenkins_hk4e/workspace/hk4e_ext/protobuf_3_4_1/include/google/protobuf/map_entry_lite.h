@@ -1247,7 +1247,7 @@ LABEL_4:
     }
     google::protobuf::Arena::OnArenaAllocation(
       arena,
-      (const std::type_info *)&`typeinfo for'proto::PacketHead::PacketHead_ExtMapEntry,
+      (const std::type_info *)&`typeinfo for`proto::PacketHead::PacketHead_ExtMapEntry,
       0x30uLL);
     goto LABEL_4;
   }
@@ -1294,7 +1294,7 @@ LABEL_4:
     }
     google::protobuf::Arena::OnArenaAllocation(
       arena,
-      (const std::type_info *)&`typeinfo for'proto::PacketHead::PacketHead_ServiceAppIdMapEntry,
+      (const std::type_info *)&`typeinfo for`proto::PacketHead::PacketHead_ServiceAppIdMapEntry,
       0x30uLL);
     goto LABEL_4;
   }
@@ -1399,7 +1399,7 @@ LABEL_21:
 LABEL_22:
   google::protobuf::Arena::OnArenaAllocation(
     v3,
-    (const std::type_info *)&`typeinfo for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
+    (const std::type_info *)&`typeinfo for`google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
     0x40uLL);
 LABEL_4:
   Aligned = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(&v3->impl_, 0x40uLL);
@@ -1514,7 +1514,7 @@ LABEL_21:
 LABEL_22:
   google::protobuf::Arena::OnArenaAllocation(
     v3,
-    (const std::type_info *)&`typeinfo for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
+    (const std::type_info *)&`typeinfo for`google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
     0x40uLL);
 LABEL_4:
   Aligned = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(&v3->impl_, 0x40uLL);
@@ -1631,7 +1631,7 @@ LABEL_6:
     }
     google::protobuf::Arena::OnArenaAllocation(
       arena,
-      (const std::type_info *)&`typeinfo for'proto::PacketHead::PacketHead_ServiceAppIdMapEntry,
+      (const std::type_info *)&`typeinfo for`proto::PacketHead::PacketHead_ServiceAppIdMapEntry,
       0x30uLL);
     goto LABEL_6;
   }

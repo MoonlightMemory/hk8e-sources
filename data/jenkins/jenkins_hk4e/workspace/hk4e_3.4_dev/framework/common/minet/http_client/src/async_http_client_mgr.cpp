@@ -1782,14 +1782,14 @@ LABEL_54:
               timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
               if ( !common::tools::perf::MemoryPerf::is_record )
                 goto LABEL_73;
-              v33 = &`typeinfo for'common::minet::http_client::SslClient + 1;
-              if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::http_client::SslClient + 1) >> 3)
+              v33 = &`typeinfo for`common::minet::http_client::SslClient + 1;
+              if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::http_client::SslClient + 1) >> 3)
                              + 0x7FFF8000) )
               {
-                v13._M_node = (std::_Rb_tree_const_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(&`typeinfo for'common::minet::http_client::SslClient + 1);
+                v13._M_node = (std::_Rb_tree_const_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(&`typeinfo for`common::minet::http_client::SslClient + 1);
                 v33 = (void **)v13._M_node;
                 v34 = *(_BYTE *)(((unsigned __int64)v13._M_node >> 3) + 0x7FFF8000);
-                if ( v34 > (*(_BYTE *)(&`typeinfo for'common::minet::http_client::SslClient + 1) & 7) || !v34 )
+                if ( v34 > (*(_BYTE *)(&`typeinfo for`common::minet::http_client::SslClient + 1) & 7) || !v34 )
                 {
                   if ( LOBYTE(v13._M_node->_M_color) != 42 )
                   {
@@ -1931,14 +1931,14 @@ LABEL_98:
           timeout = (common::minet::http_client::HttpClient *)(v29 + 16);
           if ( !common::tools::perf::MemoryPerf::is_record )
             goto LABEL_117;
-          v43 = &`typeinfo for'common::minet::http_client::HttpClient + 1;
-          if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::http_client::HttpClient + 1) >> 3)
+          v43 = &`typeinfo for`common::minet::http_client::HttpClient + 1;
+          if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::http_client::HttpClient + 1) >> 3)
                          + 0x7FFF8000) )
           {
-            v13._M_node = (std::_Rb_tree_const_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(&`typeinfo for'common::minet::http_client::HttpClient + 1);
+            v13._M_node = (std::_Rb_tree_const_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(&`typeinfo for`common::minet::http_client::HttpClient + 1);
             v43 = (void **)v13._M_node;
             v44 = *(_BYTE *)(((unsigned __int64)v13._M_node >> 3) + 0x7FFF8000);
-            if ( v44 > (*(_BYTE *)(&`typeinfo for'common::minet::http_client::HttpClient + 1) & 7) || !v44 )
+            if ( v44 > (*(_BYTE *)(&`typeinfo for`common::minet::http_client::HttpClient + 1) & 7) || !v44 )
             {
               if ( LOBYTE(v13._M_node->_M_color) != 42 )
               {

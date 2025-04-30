@@ -2750,10 +2750,10 @@ LABEL_26:
   p_M_refcount = (common::minet::KcpConnMgrBase *)&p_type->_M_weak_this._M_refcount;
   if ( !common::tools::perf::MemoryPerf::is_record )
     goto LABEL_32;
-  p_vptr_KcpServerMgrBase = &`typeinfo for'common::minet::KcpConnMgrBase + 1;
-  if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
+  p_vptr_KcpServerMgrBase = &`typeinfo for`common::minet::KcpConnMgrBase + 1;
+  if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
     goto LABEL_26;
-  s = (std::__weak_count<(__gnu_cxx::_Lock_policy)2> *)*(&`typeinfo for'common::minet::KcpConnMgrBase + 1);
+  s = (std::__weak_count<(__gnu_cxx::_Lock_policy)2> *)*(&`typeinfo for`common::minet::KcpConnMgrBase + 1);
   p_vptr_KcpServerMgrBase = (void **)&s->_M_pi;
   v12 = *(_BYTE *)(((unsigned __int64)s >> 3) + 0x7FFF8000);
   v13.gap0[0] = (unsigned __int8)s & 7;
@@ -2934,12 +2934,12 @@ LABEL_122:
     }
     if ( common::tools::perf::MemoryPerf::is_record )
     {
-      if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
-        __asan_report_load8(&`typeinfo for'common::minet::KcpConnMgrBase + 1);
-      v52 = (const char *)*(&`typeinfo for'common::minet::KcpConnMgrBase + 1);
+      if ( *(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
+        __asan_report_load8(&`typeinfo for`common::minet::KcpConnMgrBase + 1);
+      v52 = (const char *)*(&`typeinfo for`common::minet::KcpConnMgrBase + 1);
       v53 = *(_BYTE *)(((unsigned __int64)v52 >> 3) + 0x7FFF8000);
-      if ( v53 <= (*(_BYTE *)(&`typeinfo for'common::minet::KcpConnMgrBase + 1) & 7) && v53 )
-        __asan_report_load1(*(&`typeinfo for'common::minet::KcpConnMgrBase + 1));
+      if ( v53 <= (*(_BYTE *)(&`typeinfo for`common::minet::KcpConnMgrBase + 1) & 7) && v53 )
+        __asan_report_load1(*(&`typeinfo for`common::minet::KcpConnMgrBase + 1));
       if ( *v52 == 42 )
         ++v52;
       type._M_dataplus._M_p = type._anon_0._M_local_buf;
@@ -2974,13 +2974,13 @@ LABEL_146:
   }
   if ( common::tools::perf::MemoryPerf::is_record )
   {
-    v26 = &`typeinfo for'common::minet::KcpConnMgrBase + 1;
-    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
+    v26 = &`typeinfo for`common::minet::KcpConnMgrBase + 1;
+    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpConnMgrBase + 1) >> 3) + 0x7FFF8000) )
     {
-      M_ptr = (std::__weak_ptr<common::minet::KcpServerMgrBase,(__gnu_cxx::_Lock_policy)2>::element_type *)*(&`typeinfo for'common::minet::KcpConnMgrBase + 1);
+      M_ptr = (std::__weak_ptr<common::minet::KcpServerMgrBase,(__gnu_cxx::_Lock_policy)2>::element_type *)*(&`typeinfo for`common::minet::KcpConnMgrBase + 1);
       v26 = (void **)&M_ptr->_vptr_KcpServerMgrBase;
       v28 = *(_BYTE *)(((unsigned __int64)M_ptr >> 3) + 0x7FFF8000);
-      if ( v28 > (*(_BYTE *)(&`typeinfo for'common::minet::KcpConnMgrBase + 1) & 7) || !v28 )
+      if ( v28 > (*(_BYTE *)(&`typeinfo for`common::minet::KcpConnMgrBase + 1) & 7) || !v28 )
       {
         if ( LOBYTE(M_ptr->_vptr_KcpServerMgrBase) != 42 )
           goto LABEL_63;

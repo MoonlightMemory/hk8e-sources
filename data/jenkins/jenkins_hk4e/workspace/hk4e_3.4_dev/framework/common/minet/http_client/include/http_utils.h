@@ -68,13 +68,13 @@ int32_t __fastcall common::minet::http_client::HttpUtils::serializeMessage<false
   *(_QWORD *)(v2 + 432) = 0LL;
   *(_QWORD *)(v2 + 440) = 0LL;
   *(_QWORD *)(v2 + 448) = 0LL;
-  v6 = (char *)&`VTT for'std::ostringstream + 8;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
+  v6 = (char *)&`VTT for`std::ostringstream + 8;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 8) >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8(v6);
     goto LABEL_11;
   }
-  v7 = *((_QWORD *)&`VTT for'std::ostringstream + 1);
+  v7 = *((_QWORD *)&`VTT for`std::ostringstream + 1);
   *(_QWORD *)(v2 + 80) = v7;
   v6 = (char *)(v7 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v7 - 24) >> 3) + 0x7FFF8000) )
@@ -84,8 +84,8 @@ LABEL_11:
     goto LABEL_12;
   }
   v8 = (unsigned __int64)&v3[*(_QWORD *)(v7 - 24) - 912];
-  v9 = (char *)&`VTT for'std::ostringstream + 16;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 16) >> 3) + 0x7FFF8000) )
+  v9 = (char *)&`VTT for`std::ostringstream + 16;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_12:
     v8 = (unsigned __int64)v9;
@@ -98,7 +98,7 @@ LABEL_13:
     __asan_report_store8(v8, m);
     goto LABEL_14;
   }
-  *(_QWORD *)v8 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
+  *(_QWORD *)v8 = *((_QWORD *)&`VTT for`std::ostringstream + 2);
   v10 = *(_QWORD *)(v2 + 80);
   v8 = v10 - 24;
   if ( *(_BYTE *)(((unsigned __int64)(v10 - 24) >> 3) + 0x7FFF8000) )
@@ -206,13 +206,13 @@ LABEL_35:
     operator delete(v18);
   *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)(v2 + 144));
-  v19 = (char *)&`VTT for'std::ostringstream + 8;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
+  v19 = (char *)&`VTT for`std::ostringstream + 8;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 8) >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8(v19);
     goto LABEL_45;
   }
-  v20 = *((_QWORD *)&`VTT for'std::ostringstream + 1);
+  v20 = *((_QWORD *)&`VTT for`std::ostringstream + 1);
   *(_QWORD *)(v2 + 80) = v20;
   v19 = (char *)(v20 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v20 - 24) >> 3) + 0x7FFF8000) )
@@ -222,8 +222,8 @@ LABEL_45:
     goto LABEL_46;
   }
   v21 = (unsigned __int64)&v3[*(_QWORD *)(v20 - 24) - 912];
-  v22 = (char *)&`VTT for'std::ostringstream + 16;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 16) >> 3) + 0x7FFF8000) )
+  v22 = (char *)&`VTT for`std::ostringstream + 16;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_46:
     v21 = (unsigned __int64)v22;
@@ -238,7 +238,7 @@ LABEL_47:
   }
   if ( *(_BYTE *)((v21 >> 3) + 0x7FFF8000) )
     goto LABEL_47;
-  *(_QWORD *)v21 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
+  *(_QWORD *)v21 = *((_QWORD *)&`VTT for`std::ostringstream + 2);
   *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v2 + 192));
   f.self = (boost::beast::detail::variant<boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> > >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::asio::const_buffer> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::asio::const_buffer>&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&> > *)(v2 + 824);
@@ -349,13 +349,13 @@ int32_t __fastcall common::minet::http_client::HttpUtils::serializeMessage<true,
   *(_QWORD *)(v2 + 432) = 0LL;
   *(_QWORD *)(v2 + 440) = 0LL;
   *(_QWORD *)(v2 + 448) = 0LL;
-  v6 = (char *)&`VTT for'std::ostringstream + 8;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
+  v6 = (char *)&`VTT for`std::ostringstream + 8;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 8) >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8(v6);
     goto LABEL_11;
   }
-  v7 = *((_QWORD *)&`VTT for'std::ostringstream + 1);
+  v7 = *((_QWORD *)&`VTT for`std::ostringstream + 1);
   *(_QWORD *)(v2 + 80) = v7;
   v6 = (char *)(v7 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v7 - 24) >> 3) + 0x7FFF8000) )
@@ -365,8 +365,8 @@ LABEL_11:
     goto LABEL_12;
   }
   v8 = (unsigned __int64)&v3[*(_QWORD *)(v7 - 24) - 912];
-  v9 = (char *)&`VTT for'std::ostringstream + 16;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 16) >> 3) + 0x7FFF8000) )
+  v9 = (char *)&`VTT for`std::ostringstream + 16;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_12:
     v8 = (unsigned __int64)v9;
@@ -379,7 +379,7 @@ LABEL_13:
     __asan_report_store8(v8, m);
     goto LABEL_14;
   }
-  *(_QWORD *)v8 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
+  *(_QWORD *)v8 = *((_QWORD *)&`VTT for`std::ostringstream + 2);
   v10 = *(_QWORD *)(v2 + 80);
   v8 = v10 - 24;
   if ( *(_BYTE *)(((unsigned __int64)(v10 - 24) >> 3) + 0x7FFF8000) )
@@ -487,13 +487,13 @@ LABEL_35:
     operator delete(v18);
   *(_QWORD *)(v2 + 88) = (char *)&`vtable for std::streambuf + 16;
   std::locale::~locale((std::locale *)(v2 + 144));
-  v19 = (char *)&`VTT for'std::ostringstream + 8;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 8) >> 3) + 0x7FFF8000) )
+  v19 = (char *)&`VTT for`std::ostringstream + 8;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 8) >> 3) + 0x7FFF8000) )
   {
     __asan_report_load8(v19);
     goto LABEL_45;
   }
-  v20 = *((_QWORD *)&`VTT for'std::ostringstream + 1);
+  v20 = *((_QWORD *)&`VTT for`std::ostringstream + 1);
   *(_QWORD *)(v2 + 80) = v20;
   v19 = (char *)(v20 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v20 - 24) >> 3) + 0x7FFF8000) )
@@ -503,8 +503,8 @@ LABEL_45:
     goto LABEL_46;
   }
   v21 = (unsigned __int64)&v3[*(_QWORD *)(v20 - 24) - 912];
-  v22 = (char *)&`VTT for'std::ostringstream + 16;
-  if ( *(_BYTE *)((((unsigned __int64)&`VTT for'std::ostringstream + 16) >> 3) + 0x7FFF8000) )
+  v22 = (char *)&`VTT for`std::ostringstream + 16;
+  if ( *(_BYTE *)((((unsigned __int64)&`VTT for`std::ostringstream + 16) >> 3) + 0x7FFF8000) )
   {
 LABEL_46:
     v21 = (unsigned __int64)v22;
@@ -519,7 +519,7 @@ LABEL_47:
   }
   if ( *(_BYTE *)((v21 >> 3) + 0x7FFF8000) )
     goto LABEL_47;
-  *(_QWORD *)v21 = *((_QWORD *)&`VTT for'std::ostringstream + 2);
+  *(_QWORD *)v21 = *((_QWORD *)&`VTT for`std::ostringstream + 2);
   *(_QWORD *)(v2 + 192) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v2 + 192));
   f.self = (boost::beast::detail::variant<boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> > >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::asio::const_buffer> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::asio::const_buffer>&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::beast::detail::buffers_ref<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::basic_fields<std::allocator<char> >::writer::field_range,boost::beast::http::chunk_crlf> >,boost::beast::http::detail::chunk_size,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::beast::http::chunk_crlf,boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&>,boost::beast::buffers_prefix_view<const boost::beast::buffers_suffix<boost::beast::buffers_cat_view<boost::asio::const_buffer,boost::asio::const_buffer,boost::beast::http::chunk_crlf> >&> > *)(v2 + 824);

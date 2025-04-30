@@ -1291,7 +1291,7 @@ int32_t __cdecl MysqlOpPlayerPsnOnlineIdData::selectPlayerPsnOnlineIdDataByPsnId
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v6 = 0;
@@ -1656,7 +1656,7 @@ int32_t __cdecl MysqlOpPlayerPsnOnlineIdData::selectPlayerPsnOnlineIdDataByOnlin
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v6 = 0;

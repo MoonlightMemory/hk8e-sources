@@ -157,7 +157,7 @@ void __cdecl AbilityPropExcelConfigMgr::checkConfig(TxtConfigMgr const&)::{lambd
   const std::string *prop_key; // [rsp+18h] [rbp-8h]
 
   v2 = std::any::type(member);
-  if ( std::type_info::operator==(v2, (const std::type_info *)&`typeinfo for'std::string) )
+  if ( std::type_info::operator==(v2, (const std::type_info *)&`typeinfo for`std::string) )
   {
     prop_key = std::any_cast<std::string const&>(member);
     if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )

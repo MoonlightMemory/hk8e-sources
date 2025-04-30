@@ -394,7 +394,7 @@ void __fastcall __noreturn mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     operator delete(__beg);
   _cxa_throw(
     v18,
-    (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
     (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
 };
 
@@ -429,7 +429,7 @@ void __fastcall __noreturn mysqlpp::SQLTypeAdapter::SQLTypeAdapter(
     operator delete(__beg);
   _cxa_throw(
     v18,
-    (struct type_info *)&`typeinfo for'mysqlpp::TypeLookupFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::TypeLookupFailed,
     (void (__fastcall *)(void *))mysqlpp::TypeLookupFailed::~TypeLookupFailed);
 };
 

@@ -111,7 +111,7 @@ void __fastcall luabind::detail::class_rep::class_rep(luabind::detail::class_rep
 {
   this->m_name = a3;
   this->m_bases._M_impl._M_start = 0LL;
-  this->m_type.id = (const std::type_info *)&`typeinfo for'luabind::detail::null_type;
+  this->m_type.id = (const std::type_info *)&`typeinfo for`luabind::detail::null_type;
   this->m_bases._M_impl._M_finish = 0LL;
   this->m_bases._M_impl._M_end_of_storage = 0LL;
   this->m_self_ref.L = 0LL;

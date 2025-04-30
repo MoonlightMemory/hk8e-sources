@@ -379,7 +379,7 @@ LABEL_99:
     __asan_handle_no_return(v46);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'boost::system::system_error,
+      (struct type_info *)&`typeinfo for`boost::system::system_error,
       (void (__fastcall *)(void *))boost::system::system_error::~system_error);
   }
   retstr->index_ = *(_QWORD *)(v8 + 336);

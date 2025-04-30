@@ -702,7 +702,7 @@ int32_t __cdecl data::DbLuaShellConfigMgr::loadDbLuaShellConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( i = 0; i < std::vector<TableLuaShellConfig>::size((const std::vector<TableLuaShellConfig> *const)(v3 + 96)); ++i )

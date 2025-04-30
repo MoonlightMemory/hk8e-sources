@@ -74,11 +74,11 @@ unsigned __int64 __fastcall mysqlpp::String::do_conv<unsigned long long>(
     return 0LL;
   std::ios_base::ios_base((std::ios_base *)v43);
   v45 = 0LL;
-  v3 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
+  v3 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[2];
   v47 = 0LL;
   v43[0] = (__int64)&`vtable for std::ios + 16;
   v46 = 0;
-  v4 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
+  v4 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[3];
   v48 = 0LL;
   v5 = v4;
   v26 = v4;
@@ -89,17 +89,17 @@ unsigned __int64 __fastcall mysqlpp::String::do_conv<unsigned long long>(
   *(__int64 *)((char *)&v34 + v6) = v5;
   v35 = 0LL;
   std::ios::init((char *)&v34 + *(_QWORD *)(v3 - 24), 0LL);
-  v7 = (std::locale::_Impl *)`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
+  v7 = (std::locale::_Impl *)`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[4];
   M_facets_size = v7[-1]._M_facets_size;
   v36._M_impl = v7;
   v27 = v7;
-  v9 = (std::locale::_Impl *)`VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
+  v9 = (std::locale::_Impl *)`VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[5];
   v10 = (std::locale::_Impl **)((char *)&v36._M_impl + M_facets_size);
   *v10 = v9;
   v28 = v9;
   std::ios::init(v10, 0LL);
-  v29 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
-  v30 = `VTT for'std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
+  v29 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[1];
+  v30 = `VTT for`std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>>[6];
   *(__int64 *)((char *)&v34 + *(_QWORD *)(v29 - 24)) = v30;
   memset(&v37[1], 0, 48);
   v34 = (__int64)&`vtable for std::basic_stringstream<char,std::char_traits<char>,std::allocator<char>> + 24;
@@ -129,20 +129,20 @@ unsigned __int64 __fastcall mysqlpp::String::do_conv<unsigned long long>(
       goto LABEL_4;
     if ( LOBYTE(c._M_impl) == 46 )
     {
-      v19 = (const char *)*((_QWORD *)&`typeinfo for'unsigned long long + 1);
-      v20 = (const char *)`typeinfo for'float[1];
+      v19 = (const char *)*((_QWORD *)&`typeinfo for`unsigned long long + 1);
+      v20 = (const char *)`typeinfo for`float[1];
       if ( v19 != v20 )
       {
         if ( *v19 == 42 )
         {
-          if ( *((const char **)&`typeinfo for'double + 1) == v19 )
+          if ( *((const char **)&`typeinfo for`double + 1) == v19 )
             goto LABEL_13;
         }
         else
         {
-          if ( !strcmp(*((const char **)&`typeinfo for'unsigned long long + 1), v20) )
+          if ( !strcmp(*((const char **)&`typeinfo for`unsigned long long + 1), v20) )
             goto LABEL_13;
-          v25 = (const char *)*((_QWORD *)&`typeinfo for'double + 1);
+          v25 = (const char *)*((_QWORD *)&`typeinfo for`double + 1);
           if ( v19 == v25 || !strcmp(v19, v25) )
             goto LABEL_13;
         }
@@ -166,7 +166,7 @@ LABEL_13:
     mysqlpp::BadConversion::BadConversion(exception, type_name, v23, 0LL, v22);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::BadConversion,
+      (struct type_info *)&`typeinfo for`mysqlpp::BadConversion,
       (void (__fastcall *)(void *))mysqlpp::BadConversion::~BadConversion);
   }
   if ( (v44 & 2) == 0 )

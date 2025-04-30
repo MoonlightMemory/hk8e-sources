@@ -4901,7 +4901,7 @@ LABEL_21:
           goto LABEL_22;
 LABEL_16:
         if ( arena->hooks_cookie_ )
-          google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+          google::protobuf::Arena::OnArenaAllocation(arena, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
         AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                  &arena->impl_,
                                  0x20uLL,
@@ -5008,7 +5008,7 @@ LABEL_41:
         if ( v37->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v37,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto,
             0xE8uLL);
         v31 = (google::protobuf::DescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                      &v37->impl_,
@@ -5071,7 +5071,7 @@ LABEL_56:
         if ( v48->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v48,
-            (const std::type_info *)&`typeinfo for'google::protobuf::EnumDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::EnumDescriptorProto,
             0x40uLL);
         v42 = (google::protobuf::EnumDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                          &v48->impl_,
@@ -5134,7 +5134,7 @@ LABEL_71:
         if ( v58->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v58,
-            (const std::type_info *)&`typeinfo for'google::protobuf::ServiceDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::ServiceDescriptorProto,
             0x40uLL);
         v52 = (google::protobuf::ServiceDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                             &v58->impl_,
@@ -5197,7 +5197,7 @@ LABEL_86:
         if ( v69->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v69,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
             0x58uLL);
         v63 = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                           &v69->impl_,
@@ -5494,7 +5494,7 @@ LABEL_11:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
             0x58uLL);
         AlignedAndAddCleanup = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                            &arena->impl_,
@@ -5545,7 +5545,7 @@ LABEL_25:
             if ( v24->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 v24,
-                (const std::type_info *)&`typeinfo for'google::protobuf::OneofDescriptorProto,
+                (const std::type_info *)&`typeinfo for`google::protobuf::OneofDescriptorProto,
                 0x28uLL);
             v18 = (google::protobuf::OneofDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                               &v24->impl_,
@@ -5617,7 +5617,7 @@ LABEL_55:
         if ( v46->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v46,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto,
             0xE8uLL);
         v32 = (google::protobuf::DescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                      &v46->impl_,
@@ -5680,7 +5680,7 @@ LABEL_46:
         if ( v42->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v42,
-            (const std::type_info *)&`typeinfo for'google::protobuf::EnumDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::EnumDescriptorProto,
             0x40uLL);
         v36 = (google::protobuf::EnumDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                          &v42->impl_,
@@ -5743,7 +5743,7 @@ LABEL_74:
         if ( v61->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v61,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ExtensionRange,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ExtensionRange,
             0x28uLL);
         enum_type_count = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                               &v61->impl_,
@@ -5826,7 +5826,7 @@ LABEL_89:
         if ( v72->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v72,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
             0x58uLL);
         v66 = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                           &v72->impl_,
@@ -5880,7 +5880,7 @@ LABEL_103:
               v99 = a2->reserved_range_.arena_;
               google::protobuf::Arena::OnArenaAllocation(
                 v85,
-                (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ReservedRange,
+                (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ReservedRange,
                 0x20uLL);
               v85 = v99;
             }
@@ -5950,7 +5950,7 @@ LABEL_118:
             if ( v93->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 v93,
-                (const std::type_info *)&`typeinfo for'std::string,
+                (const std::type_info *)&`typeinfo for`std::string,
                 0x20uLL);
             v94 = (google::protobuf::DescriptorProto_ExtensionRange *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                         &v93->impl_,
@@ -6827,7 +6827,7 @@ LABEL_11:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::EnumValueDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::EnumValueDescriptorProto,
             0x30uLL);
         AlignedAndAddCleanup = (google::protobuf::EnumValueDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                &arena->impl_,
@@ -6979,7 +6979,7 @@ LABEL_11:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::MethodDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::MethodDescriptorProto,
             0x40uLL);
         AlignedAndAddCleanup = (google::protobuf::MethodDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                             &arena->impl_,

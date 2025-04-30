@@ -302,7 +302,7 @@ LABEL_80:
             if ( arena->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 arena,
-                (const std::type_info *)&`typeinfo for'google::protobuf::Field,
+                (const std::type_info *)&`typeinfo for`google::protobuf::Field,
                 0x60uLL);
             Aligned = (google::protobuf::Field *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                    &arena->impl_,
@@ -642,7 +642,7 @@ LABEL_149:
             if ( v98->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 v98,
-                (const std::type_info *)&`typeinfo for'google::protobuf::Option,
+                (const std::type_info *)&`typeinfo for`google::protobuf::Option,
                 0x28uLL);
             v96 = (google::protobuf::Option *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                 &v98->impl_,
@@ -700,7 +700,7 @@ LABEL_85:
           goto LABEL_86;
 LABEL_74:
         if ( v54->hooks_cookie_ )
-          google::protobuf::Arena::OnArenaAllocation(v54, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+          google::protobuf::Arena::OnArenaAllocation(v54, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
         AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                  &v54->impl_,
                                  0x20uLL,
@@ -989,7 +989,7 @@ LABEL_48:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::EnumValue,
+            (const std::type_info *)&`typeinfo for`google::protobuf::EnumValue,
             0x38uLL);
         Aligned = (google::protobuf::EnumValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                    &arena->impl_,

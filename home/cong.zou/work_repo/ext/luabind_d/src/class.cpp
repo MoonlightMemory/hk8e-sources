@@ -85,8 +85,8 @@ void __fastcall luabind::detail::class_registration::class_registration(
   this->m_static_constants._M_t._M_impl._M_header._M_right = &this->m_static_constants._M_t._M_impl._M_header;
   this->m_static_constants._M_t._M_impl._M_node_count = 0LL;
   this->m_bases._M_impl._M_end_of_storage = 0LL;
-  this->m_type.id = (const std::type_info *)&`typeinfo for'luabind::detail::null_type;
-  this->m_wrapper_type.id = (const std::type_info *)&`typeinfo for'luabind::detail::null_type;
+  this->m_type.id = (const std::type_info *)&`typeinfo for`luabind::detail::null_type;
+  this->m_wrapper_type.id = (const std::type_info *)&`typeinfo for`luabind::detail::null_type;
   this->m_casts._M_impl._M_start = 0LL;
   this->m_casts._M_impl._M_finish = 0LL;
   this->m_casts._M_impl._M_end_of_storage = 0LL;
@@ -854,7 +854,7 @@ void __cdecl GLOBAL__sub_I_class_cpp()
   if ( !`guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id )
   {
     `guard variable for luabind::detail::registered_class<luabind::detail::null_type>::id = 1;
-    cls.id = (const std::type_info *)&`typeinfo for'luabind::detail::null_type;
+    cls.id = (const std::type_info *)&`typeinfo for`luabind::detail::null_type;
     luabind::detail::registered_class<luabind::detail::null_type>::id = luabind::detail::allocate_class_id(&cls);
   }
 };

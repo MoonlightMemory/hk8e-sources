@@ -321,9 +321,9 @@ std::shared_ptr<data::ConfigWidgetToyAnchorPoint> __cdecl WidgetJsonNewConfig::f
   v4[536862723] = -202116352;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 64),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyAnchorPoint);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyAnchorPoint);
   if ( *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 32, &`typeinfo for'data::ConfigWidgetToyAnchorPoint);
+    __asan_report_store8(v2 + 32, &`typeinfo for`data::ConfigWidgetToyAnchorPoint);
   *(std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::const_iterator *)(v2 + 32) = std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::find((const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>> *const)(v1 + 176), (const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::key_type *)(v2 + 64));
   *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 0;
@@ -394,9 +394,9 @@ std::shared_ptr<data::ConfigWidgetToyBonfire> __cdecl WidgetJsonNewConfig::findW
   v4[536862723] = -202116352;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 64),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyBonfire);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyBonfire);
   if ( *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 32, &`typeinfo for'data::ConfigWidgetToyBonfire);
+    __asan_report_store8(v2 + 32, &`typeinfo for`data::ConfigWidgetToyBonfire);
   *(std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::const_iterator *)(v2 + 32) = std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::find((const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>> *const)(v1 + 176), (const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::key_type *)(v2 + 64));
   *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 0;
@@ -467,9 +467,9 @@ std::shared_ptr<data::ConfigWidgetToyLunchBox> __cdecl WidgetJsonNewConfig::find
   v4[536862723] = -202116352;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 64),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyLunchBox);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyLunchBox);
   if ( *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 32, &`typeinfo for'data::ConfigWidgetToyLunchBox);
+    __asan_report_store8(v2 + 32, &`typeinfo for`data::ConfigWidgetToyLunchBox);
   *(std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::const_iterator *)(v2 + 32) = std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::find((const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>> *const)(v1 + 176), (const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::key_type *)(v2 + 64));
   *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 0;
@@ -540,9 +540,9 @@ std::shared_ptr<data::ConfigWidgetToyMiracleRing> __cdecl WidgetJsonNewConfig::f
   v4[536862723] = -202116352;
   std::type_index::type_index(
     (std::type_index *const)(v2 + 64),
-    (const std::type_info *)&`typeinfo for'data::ConfigWidgetToyMiracleRing);
+    (const std::type_info *)&`typeinfo for`data::ConfigWidgetToyMiracleRing);
   if ( *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 32, &`typeinfo for'data::ConfigWidgetToyMiracleRing);
+    __asan_report_store8(v2 + 32, &`typeinfo for`data::ConfigWidgetToyMiracleRing);
   *(std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::const_iterator *)(v2 + 32) = std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::find((const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>> *const)(v1 + 176), (const std::unordered_map<std::type_index,std::shared_ptr<data::ConfigBaseWidgetToy>>::key_type *)(v2 + 64));
   *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
   *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 0;

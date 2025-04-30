@@ -282,7 +282,7 @@ google::protobuf::DoubleValue *__fastcall google::protobuf::DoubleValue::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::DoubleValue,
+        (const std::type_info *)&`typeinfo for`google::protobuf::DoubleValue,
         0x20uLL);
     Aligned = (google::protobuf::DoubleValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                  &a2->impl_,
@@ -481,8 +481,8 @@ void __fastcall google::protobuf::DoubleValue::MergeFrom(
 
   v2 = (const google::protobuf::DoubleValue *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::DoubleValue,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::DoubleValue,
                                                 0LL);
   if ( v2 )
     google::protobuf::DoubleValue::MergeFrom(this, v2);
@@ -818,7 +818,7 @@ google::protobuf::FloatValue *__fastcall google::protobuf::FloatValue::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::FloatValue,
+        (const std::type_info *)&`typeinfo for`google::protobuf::FloatValue,
         0x18uLL);
     Aligned = (google::protobuf::FloatValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                 &a2->impl_,
@@ -1017,8 +1017,8 @@ void __fastcall google::protobuf::FloatValue::MergeFrom(
 
   v2 = (const google::protobuf::FloatValue *)__dynamic_cast(
                                                from,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::FloatValue,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::FloatValue,
                                                0LL);
   if ( v2 )
     google::protobuf::FloatValue::MergeFrom(this, v2);
@@ -1350,7 +1350,7 @@ google::protobuf::Int64Value *__fastcall google::protobuf::Int64Value::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::Int64Value,
+        (const std::type_info *)&`typeinfo for`google::protobuf::Int64Value,
         0x20uLL);
     Aligned = (google::protobuf::Int64Value *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                 &a2->impl_,
@@ -1553,8 +1553,8 @@ void __fastcall google::protobuf::Int64Value::MergeFrom(
 
   v2 = (const google::protobuf::Int64Value *)__dynamic_cast(
                                                from,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Int64Value,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Int64Value,
                                                0LL);
   if ( v2 )
     google::protobuf::Int64Value::MergeFrom(this, v2);
@@ -1886,7 +1886,7 @@ google::protobuf::UInt64Value *__fastcall google::protobuf::UInt64Value::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::UInt64Value,
+        (const std::type_info *)&`typeinfo for`google::protobuf::UInt64Value,
         0x20uLL);
     Aligned = (google::protobuf::UInt64Value *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                  &a2->impl_,
@@ -2087,8 +2087,8 @@ void __fastcall google::protobuf::UInt64Value::MergeFrom(
 
   v2 = (const google::protobuf::UInt64Value *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::UInt64Value,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::UInt64Value,
                                                 0LL);
   if ( v2 )
     google::protobuf::UInt64Value::MergeFrom(this, v2);
@@ -2421,7 +2421,7 @@ google::protobuf::Int32Value *__fastcall google::protobuf::Int32Value::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::Int32Value,
+        (const std::type_info *)&`typeinfo for`google::protobuf::Int32Value,
         0x18uLL);
     Aligned = (google::protobuf::Int32Value *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                 &a2->impl_,
@@ -2641,8 +2641,8 @@ void __fastcall google::protobuf::Int32Value::MergeFrom(
 
   v2 = (const google::protobuf::Int32Value *)__dynamic_cast(
                                                from,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Int32Value,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Int32Value,
                                                0LL);
   if ( v2 )
     google::protobuf::Int32Value::MergeFrom(this, v2);
@@ -2975,7 +2975,7 @@ google::protobuf::UInt32Value *__fastcall google::protobuf::UInt32Value::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::UInt32Value,
+        (const std::type_info *)&`typeinfo for`google::protobuf::UInt32Value,
         0x18uLL);
     Aligned = (google::protobuf::UInt32Value *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                  &a2->impl_,
@@ -3181,8 +3181,8 @@ void __fastcall google::protobuf::UInt32Value::MergeFrom(
 
   v2 = (const google::protobuf::UInt32Value *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::UInt32Value,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::UInt32Value,
                                                 0LL);
   if ( v2 )
     google::protobuf::UInt32Value::MergeFrom(this, v2);
@@ -3512,7 +3512,7 @@ google::protobuf::BoolValue *__fastcall google::protobuf::BoolValue::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::BoolValue,
+        (const std::type_info *)&`typeinfo for`google::protobuf::BoolValue,
         0x18uLL);
     Aligned = (google::protobuf::BoolValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(&a2->impl_, 0x18uLL);
     google::protobuf::BoolValue::BoolValue(Aligned, a2);
@@ -3695,8 +3695,8 @@ void __fastcall google::protobuf::BoolValue::MergeFrom(
 
   v2 = (const google::protobuf::BoolValue *)__dynamic_cast(
                                               from,
-                                              (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                              (const struct __class_type_info *)&`typeinfo for'google::protobuf::BoolValue,
+                                              (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                              (const struct __class_type_info *)&`typeinfo for`google::protobuf::BoolValue,
                                               0LL);
   if ( v2 )
     google::protobuf::BoolValue::MergeFrom(this, v2);
@@ -4031,7 +4031,7 @@ google::protobuf::StringValue *__fastcall google::protobuf::StringValue::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::StringValue,
+        (const std::type_info *)&`typeinfo for`google::protobuf::StringValue,
         0x20uLL);
     Aligned = (google::protobuf::StringValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                  &a2->impl_,
@@ -4257,8 +4257,8 @@ void __fastcall google::protobuf::StringValue::MergeFrom(
 
   v2 = (const google::protobuf::StringValue *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::StringValue,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::StringValue,
                                                 0LL);
   if ( v2 )
     google::protobuf::StringValue::MergeFrom(this, v2);
@@ -4583,7 +4583,7 @@ google::protobuf::BytesValue *__fastcall google::protobuf::BytesValue::New(
     if ( a2->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         a2,
-        (const std::type_info *)&`typeinfo for'google::protobuf::BytesValue,
+        (const std::type_info *)&`typeinfo for`google::protobuf::BytesValue,
         0x20uLL);
     Aligned = (google::protobuf::BytesValue *)google::protobuf::internal::ArenaImpl::AllocateAligned(
                                                 &a2->impl_,
@@ -4780,8 +4780,8 @@ void __fastcall google::protobuf::BytesValue::MergeFrom(
 
   v2 = (const google::protobuf::BytesValue *)__dynamic_cast(
                                                from,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                               (const struct __class_type_info *)&`typeinfo for'google::protobuf::BytesValue,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                               (const struct __class_type_info *)&`typeinfo for`google::protobuf::BytesValue,
                                                0LL);
   if ( v2 )
     google::protobuf::BytesValue::MergeFrom(this, v2);

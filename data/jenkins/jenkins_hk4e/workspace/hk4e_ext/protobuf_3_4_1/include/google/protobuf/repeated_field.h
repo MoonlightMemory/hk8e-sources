@@ -111,7 +111,7 @@ proto::RegionSimpleInfo *__cdecl google::protobuf::internal::GenericTypeHandler<
   if ( arena )
   {
     n = google::protobuf::internal::AlignUpTo8(0x38uLL);
-    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'proto::RegionSimpleInfo, n);
+    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`proto::RegionSimpleInfo, n);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,
                              n,
@@ -168,7 +168,7 @@ proto::ExclusiveRuleInfo *__cdecl google::protobuf::internal::GenericTypeHandler
   if ( arena )
   {
     n = google::protobuf::internal::AlignUpTo8(0x30uLL);
-    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'proto::ExclusiveRuleInfo, n);
+    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`proto::ExclusiveRuleInfo, n);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,
                              n,
@@ -229,7 +229,7 @@ proto::FungusTrainingMonsterPreviewDetail *__cdecl google::protobuf::internal::G
     n = google::protobuf::internal::AlignUpTo8(0x30uLL);
     google::protobuf::Arena::AllocHook(
       arena,
-      (const std::type_info *)&`typeinfo for'proto::FungusTrainingMonsterPreviewDetail,
+      (const std::type_info *)&`typeinfo for`proto::FungusTrainingMonsterPreviewDetail,
       n);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,
@@ -289,7 +289,7 @@ proto::IrodoriChessEntranceInfo *__cdecl google::protobuf::internal::GenericType
   if ( arena )
   {
     n = google::protobuf::internal::AlignUpTo8(0x30uLL);
-    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'proto::IrodoriChessEntranceInfo, n);
+    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`proto::IrodoriChessEntranceInfo, n);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,
                              n,
@@ -348,7 +348,7 @@ proto::IrodoriChessMonsterInfo *__cdecl google::protobuf::internal::GenericTypeH
   if ( arena )
   {
     n = google::protobuf::internal::AlignUpTo8(0x38uLL);
-    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for'proto::IrodoriChessMonsterInfo, n);
+    google::protobuf::Arena::AllocHook(arena, (const std::type_info *)&`typeinfo for`proto::IrodoriChessMonsterInfo, n);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,
                              n,

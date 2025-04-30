@@ -3525,7 +3525,7 @@ int32_t __cdecl LoginHandler::asyncQueryPlayerStatus(
   opentracing::v3::string_view::string_view(&operation_name, "asyncQueryPlayerStatus");
   v9 = std::__shared_ptr<TracingMgr,(__gnu_cxx::_Lock_policy)2>::get(&ResourceBox::tracing_mgr_ptr);
   SpanProxy::SpanProxy((SpanProxy *const)(v3 + 160), v9, operation_name, v8, 0, (const int *)(v3 + 64));
-  v10 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+  v10 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
   v11 = std::any::type(p_context);
   if ( v10 == std::type_info::hash_code(v11) )
   {
@@ -3606,7 +3606,7 @@ int32_t __cdecl LoginHandler::asyncQueryPlayerStatus(
       "./src/service/login_handler.cpp",
       "asyncQueryPlayerStatus",
       655);
-    v12 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+    v12 = std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
     v13 = std::any::type(p_context);
     v14 = std::type_info::name(v13);
     common::milog::MiLogStream::operator()(
@@ -3738,7 +3738,7 @@ int32_t __cdecl LoginHandler::asyncQueryPlayerStatusCallback(
     0,
     (std::function<void(std::shared_ptr<jaegertracing::Span>&)> *)&in_str);
   std::function<void ()(std::shared_ptr<jaegertracing::Span> &)>::~function((std::function<void(std::shared_ptr<jaegertracing::Span>&)> *const)&in_str);
-  v11 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+  v11 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
   v12 = std::any::type(p_context);
   if ( v11 == std::type_info::hash_code(v12) )
   {
@@ -3920,7 +3920,7 @@ LABEL_15:
       "./src/service/login_handler.cpp",
       "asyncQueryPlayerStatusCallback",
       698);
-    v13 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+    v13 = std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
     v14 = std::any::type(p_context);
     v15 = std::type_info::name(v14);
     common::milog::MiLogStream::operator()(
@@ -5781,7 +5781,7 @@ int32_t __cdecl LoginHandler::asyncQueryTransferTargetStatus(
   v5[536862721] = -234556927;
   v5[536862722] = -219021312;
   v5[536862723] = -202178560;
-  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+  v6 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
   v7 = std::any::type(p_context);
   if ( v6 == std::type_info::hash_code(v7) )
   {
@@ -5885,7 +5885,7 @@ int32_t __cdecl LoginHandler::asyncQueryTransferTargetStatus(
       "./src/service/login_handler.cpp",
       "asyncQueryTransferTargetStatus",
       1088);
-    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+    v8 = std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
     v9 = std::any::type(p_context);
     v10 = std::type_info::name(v9);
     common::milog::MiLogStream::operator()(&v23, "bad any_cast from any.type=%s to type=%s", v10, v8);
@@ -6011,7 +6011,7 @@ __int64 __fastcall LoginHandler::asyncQueryTransferTargetStatusCallback(
   v6[536862737] = -202116109;
   v6[536862738] = -202116109;
   *(_DWORD *)(v4 + 112) = retcode;
-  v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+  v7 = std::type_info::hash_code((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
   v8 = std::any::type(p_context);
   if ( v7 == std::type_info::hash_code(v8) )
   {
@@ -6387,7 +6387,7 @@ __int64 __fastcall LoginHandler::asyncQueryTransferTargetStatusCallback(
       "./src/service/login_handler.cpp",
       "asyncQueryTransferTargetStatusCallback",
       1115);
-    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for'std::shared_ptr<proto::PlayerStatusRedisData>);
+    v9 = std::type_info::name((const std::type_info *const)&`typeinfo for`std::shared_ptr<proto::PlayerStatusRedisData>);
     v10 = std::any::type(p_context);
     v11 = std::type_info::name(v10);
     common::milog::MiLogStream::operator()(&v75, "bad any_cast from any.type=%s to type=%s", v11, v9);

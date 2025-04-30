@@ -705,7 +705,7 @@ LABEL_7:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &this->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_7;
@@ -902,7 +902,7 @@ LABEL_12:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &this->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_12;
@@ -965,7 +965,7 @@ LABEL_13:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &this->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_13;
@@ -1044,7 +1044,7 @@ LABEL_12:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &this->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_12;
@@ -1065,7 +1065,7 @@ LABEL_14:
     __asan_handle_no_return(v8);
     _cxa_throw(
       v7,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   if ( !this->m_pNode )
@@ -1085,7 +1085,7 @@ LABEL_14:
     __asan_handle_no_return(v10);
     _cxa_throw(
       v9,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   result = *(_DWORD *)(v2 + 32);
@@ -1131,7 +1131,7 @@ LABEL_15:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &this->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_15;
@@ -1142,7 +1142,7 @@ LABEL_17:
     v9 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v9, &this->m_invalidKey);
     __asan_handle_no_return(v9);
-    _cxa_throw(v9, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v9, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_17;
@@ -1211,7 +1211,7 @@ LABEL_54:
     v16 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v16, &this->m_invalidKey);
     __asan_handle_no_return(v16);
-    _cxa_throw(v16, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v16, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_54;
@@ -1276,7 +1276,7 @@ LABEL_37:
     __asan_handle_no_return(v18);
     _cxa_throw(
       v17,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<std::string>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<std::string>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<std::string>::~TypedBadConversion);
   }
   if ( *(char *)(((unsigned __int64)this >> 3) + 0x7FFF8000) < 0 )
@@ -1286,7 +1286,7 @@ LABEL_66:
     v19 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v19, &this->m_invalidKey);
     __asan_handle_no_return(v19);
-    _cxa_throw(v19, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v19, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !this->m_isValid )
     goto LABEL_66;
@@ -2533,7 +2533,7 @@ LABEL_78:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_79;
   }
@@ -2954,7 +2954,7 @@ LABEL_78:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_79;
   }
@@ -3375,7 +3375,7 @@ LABEL_78:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_79;
   }
@@ -3860,7 +3860,7 @@ LABEL_51:
     exception = (YAML::BadInsert *)__cxa_allocate_exception(0x40uLL);
     YAML::BadInsert::BadInsert(exception);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadInsert, YAML::BadInsert::~BadInsert);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadInsert, YAML::BadInsert::~BadInsert);
   }
 LABEL_52:
   v87 = v85;

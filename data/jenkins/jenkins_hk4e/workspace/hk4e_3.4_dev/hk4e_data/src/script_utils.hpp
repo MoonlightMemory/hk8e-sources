@@ -73,7 +73,7 @@ int32_t __cdecl ScriptUtil::getTableValue<bool>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -128,7 +128,7 @@ int32_t __cdecl ScriptUtil::getTableValue<bool>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -260,7 +260,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::EventType>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -315,7 +315,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::EventType>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -448,7 +448,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::GadgetState>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -503,7 +503,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::GadgetState>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -636,7 +636,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::GadgetType>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -691,7 +691,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::GadgetType>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -824,7 +824,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::PlatformRotType>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -879,7 +879,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::PlatformRotType>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -1012,7 +1012,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::RegionShape>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -1067,7 +1067,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::RegionShape>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -1200,7 +1200,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::VisionLevelType>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -1255,7 +1255,7 @@ int32_t __cdecl ScriptUtil::getTableValue<data::VisionLevelType>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -1389,7 +1389,7 @@ int32_t __cdecl ScriptUtil::getTableValue<float>(
       __asan_handle_no_return(v5 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v12 = -1;
@@ -1444,7 +1444,7 @@ int32_t __cdecl ScriptUtil::getTableValue<float>(
         __asan_handle_no_return(v5 + 320);
         _cxa_throw(
           v17,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v12 = -1;
@@ -1578,7 +1578,7 @@ int32_t __cdecl ScriptUtil::getTableValue<proto::GadgetBornType>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -1633,7 +1633,7 @@ int32_t __cdecl ScriptUtil::getTableValue<proto::GadgetBornType>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -1766,7 +1766,7 @@ int32_t __cdecl ScriptUtil::getTableValue<proto::GroupLoadStrategy>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -1821,7 +1821,7 @@ int32_t __cdecl ScriptUtil::getTableValue<proto::GroupLoadStrategy>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -1953,7 +1953,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::string>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -2008,7 +2008,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::string>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -2150,7 +2150,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<std::string>>(
       __asan_handle_no_return(v4 + 320);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -2205,7 +2205,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<std::string>>(
         __asan_handle_no_return(v4 + 384);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -2726,7 +2726,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<luabind::adl::object>>(
       __asan_handle_no_return(v4 + 320);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -2781,7 +2781,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<luabind::adl::object>>(
         __asan_handle_no_return(v4 + 384);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -2927,7 +2927,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<unsigned int>>(
       __asan_handle_no_return(v4 + 320);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -2982,7 +2982,7 @@ int32_t __cdecl ScriptUtil::getTableValue<std::vector<unsigned int>>(
         __asan_handle_no_return(v4 + 384);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -17705,7 +17705,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsVector<int>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -17824,7 +17824,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsVector<luabind::adl::object>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -17940,7 +17940,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsVector<std::string>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -18063,7 +18063,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsVector<unsigned int>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -18200,7 +18200,7 @@ int32_t __cdecl ScriptUtil::getTableValue<unsigned long>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -18255,7 +18255,7 @@ int32_t __cdecl ScriptUtil::getTableValue<unsigned long>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -19058,7 +19058,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsSet<std::string>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v3 = -1;
@@ -19225,7 +19225,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsSet<unsigned int>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v3 = -1;
@@ -19401,7 +19401,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsMap<int,unsigned int>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -19554,7 +19554,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsMap<std::string,float>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -19705,7 +19705,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsMap<std::string,luabind::adl::object>
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -19858,7 +19858,7 @@ int32_t __cdecl ScriptUtil::getTableValueAsMap<unsigned int,luabind::adl::object
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -20013,7 +20013,7 @@ int32_t __cdecl ScriptUtil::getTableValue<int>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -20068,7 +20068,7 @@ int32_t __cdecl ScriptUtil::getTableValue<int>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;
@@ -20553,7 +20553,7 @@ int32_t __cdecl ScriptUtil::getTableArrayAsVector<double>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -20679,7 +20679,7 @@ int32_t __cdecl ScriptUtil::getTableArrayAsVector<luabind::adl::object>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -20807,7 +20807,7 @@ int32_t __cdecl ScriptUtil::getTableArrayAsVector<std::string>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v10 = -1;
@@ -21394,7 +21394,7 @@ int32_t __cdecl ScriptUtil::getTableValue<unsigned int>(
       __asan_handle_no_return(v4 + 256);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::invalid_argument,
+        (struct type_info *)&`typeinfo for`std::invalid_argument,
         (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
     }
     v11 = -1;
@@ -21449,7 +21449,7 @@ int32_t __cdecl ScriptUtil::getTableValue<unsigned int>(
         __asan_handle_no_return(v4 + 320);
         _cxa_throw(
           v16,
-          (struct type_info *)&`typeinfo for'std::invalid_argument,
+          (struct type_info *)&`typeinfo for`std::invalid_argument,
           (void (__fastcall *)(void *))&std::invalid_argument::~invalid_argument);
       }
       v11 = -1;

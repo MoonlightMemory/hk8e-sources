@@ -537,7 +537,7 @@ google::protobuf::internal::ExtensionSet::Extension *__fastcall google::protobuf
     if ( arena->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         arena,
-        (const std::type_info *)&`typeinfo for'google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
+        (const std::type_info *)&`typeinfo for`google::protobuf::RepeatedPtrField<google::protobuf::MessageLite>,
         0x18uLL);
     AlignedAndAddCleanup = google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                              &arena->impl_,

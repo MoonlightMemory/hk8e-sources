@@ -255,7 +255,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v46->_M_use_count;
     }
@@ -456,7 +456,7 @@ LABEL_139:
     v59 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v59, (const std::string *)(v6 + 72));
     __asan_handle_no_return(v59);
-    _cxa_throw(v59, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v59, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( *(_BYTE *)(((v6 + 120) >> 3) + 0x7FFF8000) )
   {
@@ -475,7 +475,7 @@ LABEL_145:
     __asan_handle_no_return(v61);
     _cxa_throw(
       v60,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<bool>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<bool>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<bool>::~TypedBadConversion);
   }
   if ( !*(_QWORD *)(v6 + 120) )
@@ -495,7 +495,7 @@ LABEL_145:
     __asan_handle_no_return(v63);
     _cxa_throw(
       v62,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<bool>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<bool>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<bool>::~TypedBadConversion);
   }
   v34 = *(_BYTE *)(v6 + 48);
@@ -601,7 +601,7 @@ LABEL_24:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &v4[1].m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( *(_BYTE *)(((unsigned __int64)&v4[1].m_pNode >> 3) + 0x7FFF8000) )
   {
@@ -620,7 +620,7 @@ LABEL_30:
     __asan_handle_no_return(v16);
     _cxa_throw(
       v15,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<bool>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<bool>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<bool>::~TypedBadConversion);
   }
   if ( !v4[1].m_pNode )
@@ -640,7 +640,7 @@ LABEL_30:
     __asan_handle_no_return(v18);
     _cxa_throw(
       v17,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<bool>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<bool>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<bool>::~TypedBadConversion);
   }
   M_pi = (char)v4->m_pMemory._M_refcount._M_pi;
@@ -933,7 +933,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v46->_M_use_count;
     }
@@ -1135,7 +1135,7 @@ LABEL_139:
     v58 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v58, (const std::string *)(v6 + 88));
     __asan_handle_no_return(v58);
-    _cxa_throw(v58, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v58, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( *(_BYTE *)(((v6 + 136) >> 3) + 0x7FFF8000) )
   {
@@ -1154,7 +1154,7 @@ LABEL_145:
     __asan_handle_no_return(v60);
     _cxa_throw(
       v59,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<double>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<double>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<double>::~TypedBadConversion);
   }
   if ( !*(_QWORD *)(v6 + 136) )
@@ -1286,7 +1286,7 @@ LABEL_164:
     v64 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v64, (const std::string *)(v6 + 88));
     __asan_handle_no_return(v64);
-    _cxa_throw(v64, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v64, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   v61 = 0;
 LABEL_150:
@@ -1305,7 +1305,7 @@ LABEL_150:
     __asan_handle_no_return(v67);
     _cxa_throw(
       v66,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<double>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<double>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<double>::~TypedBadConversion);
   }
   defaultValueb = *(double *)(v6 + 48);
@@ -1588,7 +1588,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v46->_M_use_count;
     }
@@ -2057,7 +2057,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v46->_M_use_count;
     }
@@ -2535,7 +2535,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v47->_M_use_count;
     }
@@ -2737,7 +2737,7 @@ LABEL_139:
     v59 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v59, (const std::string *)(v6 + 72));
     __asan_handle_no_return(v59);
-    _cxa_throw(v59, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v59, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( *(_BYTE *)(((v6 + 120) >> 3) + 0x7FFF8000) )
   {
@@ -2756,7 +2756,7 @@ LABEL_145:
     __asan_handle_no_return(v61);
     _cxa_throw(
       v60,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   if ( !*(_QWORD *)(v6 + 120) )
@@ -2776,7 +2776,7 @@ LABEL_145:
     __asan_handle_no_return(v63);
     _cxa_throw(
       v62,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   v35 = *(_DWORD *)(v6 + 48);
@@ -2897,7 +2897,7 @@ LABEL_24:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, (const std::string *)(v4 + 56));
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( *(_BYTE *)(((v4 + 104) >> 3) + 0x7FFF8000) )
   {
@@ -2916,7 +2916,7 @@ LABEL_43:
     __asan_handle_no_return(v21);
     _cxa_throw(
       v20,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   if ( !*(_QWORD *)(v4 + 104) )
@@ -2928,7 +2928,7 @@ LABEL_47:
     v22 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(v22, (const std::string *)(v4 + 56));
     __asan_handle_no_return(v22);
-    _cxa_throw(v22, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(v22, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !*(_BYTE *)(v4 + 48) )
     goto LABEL_47;
@@ -2980,7 +2980,7 @@ LABEL_37:
       v25 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
       YAML::InvalidNode::InvalidNode(v25, (const std::string *)(v4 + 56));
       __asan_handle_no_return(v25);
-      _cxa_throw(v25, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+      _cxa_throw(v25, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
     }
     v23 = *(_QWORD *)(v4 + 104);
     if ( v23 )
@@ -3029,7 +3029,7 @@ LABEL_39:
     __asan_handle_no_return(v27);
     _cxa_throw(
       v26,
-      (struct type_info *)&`typeinfo for'YAML::TypedBadConversion<int>,
+      (struct type_info *)&`typeinfo for`YAML::TypedBadConversion<int>,
       (void (__fastcall *)(void *))YAML::TypedBadConversion<int>::~TypedBadConversion);
   }
   v9 = *(_DWORD *)(v4 + 32);
@@ -3311,7 +3311,7 @@ LABEL_105:
         }
         *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
         __asan_handle_no_return(M_p);
-        _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+        _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
       }
       ++v46->_M_use_count;
     }
@@ -3740,7 +3740,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }
@@ -4194,7 +4194,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }
@@ -4648,7 +4648,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }
@@ -5213,7 +5213,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }
@@ -5667,7 +5667,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }
@@ -6121,7 +6121,7 @@ LABEL_82:
       }
       *(_QWORD *)exception = &`vtable for YAML::BadSubscript + 2;
       __asan_handle_no_return(M_p);
-      _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
+      _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::BadSubscript, YAML::BadSubscript::~BadSubscript);
     }
     goto LABEL_83;
   }

@@ -8920,7 +8920,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::bad_alloc_>::~clone_impl);
 };
 
@@ -8935,7 +8935,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::bad_exception_>::~clone_impl);
 };
 
@@ -8952,7 +8952,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>::~clone_impl);
 };
 
@@ -8969,7 +8969,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>::~clone_impl);
 };
 
@@ -8986,7 +8986,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>::~clone_impl);
 };
 
@@ -9003,7 +9003,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>::~clone_impl);
 };
 
@@ -9020,7 +9020,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>::~clone_impl);
 };
 
@@ -9037,7 +9037,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>::~clone_impl);
 };
 
@@ -9054,7 +9054,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>::~clone_impl);
 };
 
@@ -9071,7 +9071,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>::~clone_impl);
 };
 
@@ -9088,7 +9088,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>::~clone_impl);
 };
 
@@ -9105,7 +9105,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>::~clone_impl);
 };
 
@@ -9122,7 +9122,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>::~clone_impl);
 };
 
@@ -9139,7 +9139,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>::~clone_impl);
 };
 
@@ -9156,7 +9156,7 @@ void __cdecl __noreturn boost::exception_detail::clone_impl<boost::exception_det
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>::~clone_impl);
 };
 
@@ -9188,7 +9188,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>::~clone_impl);
 };
 
@@ -9220,7 +9220,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_year>>::~clone_impl);
 };
 
@@ -9252,7 +9252,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_weekday>>::~clone_impl);
 };
 
@@ -9284,7 +9284,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 64);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::ptree_bad_path>>::~clone_impl);
 };
 
@@ -9316,7 +9316,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 128);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::property_tree::xml_parser::xml_parser_error>>::~clone_impl);
 };
 
@@ -9348,7 +9348,7 @@ void __fastcall __noreturn boost::exception_detail::clone_impl<boost::exception_
   __asan_handle_no_return(exception + 56);
   _cxa_throw(
     (void *)exception,
-    (struct type_info *)&`typeinfo for'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>,
+    (struct type_info *)&`typeinfo for`boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>,
     (void (__fastcall *)(void *))boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>::~clone_impl);
 };
 
@@ -9747,7 +9747,7 @@ void __cdecl boost::wrapexcept<boost::asio::bad_executor>::wrapexcept(
   boost::exception_detail::clone_base::clone_base((boost::exception_detail::clone_base *const)this->gap30);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::bad_executor> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::bad_executor> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::bad_executor> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9779,7 +9779,7 @@ void __cdecl boost::wrapexcept<boost::asio::invalid_service_owner>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::invalid_service_owner> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::invalid_service_owner> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::invalid_service_owner> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9813,7 +9813,7 @@ void __cdecl boost::wrapexcept<boost::asio::service_already_exists>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::service_already_exists> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::service_already_exists> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::asio::service_already_exists> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9847,7 +9847,7 @@ void __cdecl boost::wrapexcept<boost::bad_function_call>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::bad_function_call>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::bad_function_call> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::bad_function_call> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::bad_function_call> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9880,7 +9880,7 @@ void __cdecl boost::wrapexcept<boost::condition_error>::wrapexcept(
   + 13);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::condition_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::condition_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::condition_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9913,7 +9913,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_day_of_month>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_day_of_month> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_day_of_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9947,7 +9947,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_month>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_month> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_month> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_month> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -9981,7 +9981,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_year>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_year> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_year> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::gregorian::bad_year> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10014,7 +10014,7 @@ void __cdecl boost::wrapexcept<boost::lock_error>::wrapexcept(
   + 13);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::lock_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::lock_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::lock_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10047,7 +10047,7 @@ void __cdecl boost::wrapexcept<boost::system::system_error>::wrapexcept(
   + 13);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::system::system_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::system::system_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::system::system_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10081,7 +10081,7 @@ void __cdecl boost::wrapexcept<boost::thread_resource_error>::wrapexcept(
   + 13);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::thread_resource_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<boost::thread_resource_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<boost::thread_resource_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10115,7 +10115,7 @@ void __cdecl boost::wrapexcept<std::invalid_argument>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::invalid_argument> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<std::invalid_argument> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<std::invalid_argument> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10148,7 +10148,7 @@ void __cdecl boost::wrapexcept<std::length_error>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::length_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<std::length_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<std::length_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10181,7 +10181,7 @@ void __cdecl boost::wrapexcept<std::out_of_range>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::out_of_range>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::out_of_range> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<std::out_of_range> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<std::out_of_range> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10214,7 +10214,7 @@ void __cdecl boost::wrapexcept<std::runtime_error>::wrapexcept(
   + 7);
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>::clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::runtime_error> + 1,
+    (const void **const)&`VTT for`boost::wrapexcept<std::runtime_error> + 1,
     x);
   v2 = (char *)&`vtable for boost::wrapexcept<std::runtime_error> + 24;
   if ( *(_BYTE *)(((unsigned __int64)this >> 3) + 0x7FFF8000) )
@@ -10582,7 +10582,7 @@ void __cdecl boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept(
   *v3 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::bad_executor>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::bad_executor> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::bad_executor> + 1);
   boost::exception_detail::clone_base::~clone_base((boost::exception_detail::clone_base *const)this->gap30);
 };
 
@@ -10612,7 +10612,7 @@ void __cdecl boost::wrapexcept<boost::asio::invalid_service_owner>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::invalid_service_owner> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::invalid_service_owner> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::asio::invalid_service_owner>
   + 7);
@@ -10660,7 +10660,7 @@ void __cdecl boost::wrapexcept<boost::asio::service_already_exists>::~wrapexcept
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::asio::service_already_exists>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::asio::service_already_exists> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::asio::service_already_exists> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::asio::service_already_exists>
   + 7);
@@ -10691,7 +10691,7 @@ void __cdecl boost::wrapexcept<boost::condition_error>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::condition_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::condition_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::condition_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::condition_error>
   + 13);
@@ -10739,7 +10739,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_day_of_month>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_day_of_month> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_day_of_month> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_day_of_month>
   + 7);
@@ -10779,7 +10779,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_month>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_month>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_month> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_month> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_month>
   + 7);
@@ -10818,7 +10818,7 @@ void __cdecl boost::wrapexcept<boost::gregorian::bad_year>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::gregorian::bad_year>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::gregorian::bad_year> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::gregorian::bad_year> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::gregorian::bad_year>
   + 7);
@@ -10848,7 +10848,7 @@ void __cdecl boost::wrapexcept<boost::lock_error>::~wrapexcept(boost::wrapexcept
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::lock_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::lock_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::lock_error>
   + 13);
@@ -10887,7 +10887,7 @@ void __cdecl boost::wrapexcept<boost::system::system_error>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::system::system_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::system::system_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::system::system_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::system::system_error>
   + 13);
@@ -10935,7 +10935,7 @@ void __cdecl boost::wrapexcept<boost::thread_resource_error>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::thread_resource_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<boost::thread_resource_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<boost::thread_resource_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<boost::thread_resource_error>
   + 13);
@@ -10974,7 +10974,7 @@ void __cdecl boost::wrapexcept<std::invalid_argument>::~wrapexcept(
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::invalid_argument>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::invalid_argument> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<std::invalid_argument> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::invalid_argument>
   + 7);
@@ -11011,7 +11011,7 @@ void __cdecl boost::wrapexcept<std::length_error>::~wrapexcept(boost::wrapexcept
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::length_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::length_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<std::length_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::length_error>
   + 7);
@@ -11048,7 +11048,7 @@ void __cdecl boost::wrapexcept<std::runtime_error>::~wrapexcept(boost::wrapexcep
   *(_QWORD *)v3->baseclass_0 = v4;
   boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error>>::~clone_impl(
     this,
-    (const void **const)&`VTT for'boost::wrapexcept<std::runtime_error> + 1);
+    (const void **const)&`VTT for`boost::wrapexcept<std::runtime_error> + 1);
   boost::exception_detail::clone_base::~clone_base(
     (boost::exception_detail::clone_base *const)&this->boost::exception_detail::error_info_injector<std::runtime_error>
   + 7);

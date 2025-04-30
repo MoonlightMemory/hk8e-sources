@@ -112,7 +112,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<TableLuaShellConfig>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -249,7 +249,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_activity_sched
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -372,7 +372,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_anti_offline_w
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -501,7 +501,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_battle_pass_sc
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -631,7 +631,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_chat_block_con
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -754,7 +754,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_client_watchdo
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -885,7 +885,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_cmd_frequency_
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1015,7 +1015,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_feature_switch
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1146,7 +1146,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_gacha_newbie_u
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1270,7 +1270,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_gacha_schedule
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1413,7 +1413,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_gameplay_recom
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1557,7 +1557,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_h5_activity_sc
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1699,7 +1699,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_live_schedule_
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1832,7 +1832,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_mail_block_tag
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -1955,7 +1955,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_mtp_blacklist_
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2086,7 +2086,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_mtp_whitelist_
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2217,7 +2217,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_op_activity_sc
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2348,7 +2348,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_rebate_config>
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2481,7 +2481,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_red_point_conf
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2614,7 +2614,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_register_black
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2746,7 +2746,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_security_libra
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -2878,7 +2878,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_sign_in_schedu
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3008,7 +3008,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<data::t_stop_server_lo
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3128,7 +3128,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_announce_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3268,7 +3268,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_anti_cheat_client_ch
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3398,7 +3398,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_area_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3525,7 +3525,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_authkey_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3653,7 +3653,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_bind_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3775,7 +3775,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_channel_id_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -3905,7 +3905,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_client_channel_id_co
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4039,7 +4039,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_client_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4175,7 +4175,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_client_region_config
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4299,7 +4299,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_deploy_textmap_confi
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4443,7 +4443,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_inject_fix_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4571,7 +4571,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_login_reward_config>
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4712,7 +4712,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_login_white_ip_confi
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4853,7 +4853,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_questionnaire_mail_c
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -4983,7 +4983,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_region_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -5109,7 +5109,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_rsakey_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -5237,7 +5237,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_sdk_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -5371,7 +5371,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_security_file_config
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }
@@ -5492,7 +5492,7 @@ void __cdecl mysqlpp::Query::storein_sequence<std::vector<t_textmap_config>>(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'mysqlpp::UseQueryError,
+        (struct type_info *)&`typeinfo for`mysqlpp::UseQueryError,
         (void (__fastcall *)(void *))mysqlpp::UseQueryError::~UseQueryError);
     }
   }

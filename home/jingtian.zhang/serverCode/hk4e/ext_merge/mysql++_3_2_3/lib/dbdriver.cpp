@@ -762,7 +762,7 @@ void __fastcall __noreturn mysqlpp::DBDriver::set_option_impl(
       operator delete(M_p);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'mysqlpp::BadOption,
+      (struct type_info *)&`typeinfo for`mysqlpp::BadOption,
       (void (__fastcall *)(void *))mysqlpp::BadOption::~BadOption);
   }
   __cxa_bad_typeid();

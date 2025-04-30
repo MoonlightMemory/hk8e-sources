@@ -587,8 +587,8 @@ LABEL_177:
   if ( !v13 )
   {
     *(_QWORD *)(v2 + 96) = &`vtable for boost::bad_lexical_cast + 2;
-    *(_QWORD *)(v2 + 104) = &`typeinfo for'boost::iterator_range<char const*>;
-    *(_QWORD *)(v2 + 112) = &`typeinfo for'int;
+    *(_QWORD *)(v2 + 104) = &`typeinfo for`boost::iterator_range<char const*>;
+    *(_QWORD *)(v2 + 112) = &`typeinfo for`int;
     exception = (unsigned __int64)__cxa_allocate_exception(0x48uLL);
     v86 = *((_QWORD *)v3 - 7);
     v87 = *((_QWORD *)v3 - 6);
@@ -676,7 +676,7 @@ LABEL_177:
     __asan_handle_no_return(&v85);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::bad_lexical_cast>,
+      (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::bad_lexical_cast>,
       boost::wrapexcept<boost::bad_lexical_cast>::~wrapexcept);
   }
   if ( v89 == (char *)v2 )

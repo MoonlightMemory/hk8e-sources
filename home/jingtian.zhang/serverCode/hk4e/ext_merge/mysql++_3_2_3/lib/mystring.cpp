@@ -21,7 +21,7 @@ void __fastcall __noreturn mysqlpp::String::at()
   mysqlpp::BadIndex::BadIndex(exception, "String", v0, v3);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'mysqlpp::BadIndex,
+    (struct type_info *)&`typeinfo for`mysqlpp::BadIndex,
     (void (__fastcall *)(void *))mysqlpp::BadIndex::~BadIndex);
 };
 
@@ -336,8 +336,8 @@ std::ostream *__fastcall mysqlpp::operator<<(std::ostream *this, mysqlpp::String
 
   if ( __dynamic_cast(
          this,
-         (const struct __class_type_info *)&`typeinfo for'std::ostream,
-         (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+         (const struct __class_type_info *)&`typeinfo for`std::ostream,
+         (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
          0LL) )
   {
     v2 = mysqlpp::String::length(a2);

@@ -502,7 +502,7 @@ LABEL_100:
     __asan_handle_no_return(v40);
     _cxa_throw(
       (void *)token,
-      (struct type_info *)&`typeinfo for'boost::system::system_error,
+      (struct type_info *)&`typeinfo for`boost::system::system_error,
       (void (__fastcall *)(void *))boost::system::system_error::~system_error);
   }
   *(__m128i *)retstr = _mm_load_si128((const __m128i *)(v8 + 160));
@@ -927,7 +927,7 @@ LABEL_68:
     __asan_handle_no_return(v35);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'boost::system::system_error,
+      (struct type_info *)&`typeinfo for`boost::system::system_error,
       (void (__fastcall *)(void *))boost::system::system_error::~system_error);
   }
 LABEL_60:

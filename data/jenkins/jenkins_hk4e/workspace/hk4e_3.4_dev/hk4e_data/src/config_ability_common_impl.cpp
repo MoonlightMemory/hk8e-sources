@@ -302,7 +302,7 @@ int32_t __cdecl data::DynamicFloat::getHashValue(const data::DynamicFloat *const
   v3[536862726] = -202116109;
   std::shared_ptr<BaseDFNode>::shared_ptr((std::shared_ptr<BaseDFNode> *const)(v1 + 96), 0LL);
   v4 = std::any::type(&this->impl);
-  if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for'std::shared_ptr<BaseDFNode>, v4) )
+  if ( std::type_info::operator==((const std::type_info *const)&`typeinfo for`std::shared_ptr<BaseDFNode>, v4) )
   {
     if ( *(_WORD *)(((v1 + 128) >> 3) + 0x7FFF8000) )
       __asan_report_store16(v1 + 128);
@@ -686,7 +686,7 @@ void __cdecl data::ConfigAbilityAction::getAllSubActions(void)::{lambda(std::any
   v5 = std::any::type(member);
   if ( std::type_info::operator==(
          v5,
-         (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
+         (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
   {
     action_vec = std::any_cast<std::vector<std::shared_ptr<data::ConfigAbilityAction>> &>(member);
     if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -700,7 +700,7 @@ void __cdecl data::ConfigAbilityAction::getAllSubActions(void)::{lambda(std::any
     v6 = std::any::type(member);
     if ( std::type_info::operator==(
            v6,
-           (const std::type_info *)&`typeinfo for'std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
+           (const std::type_info *)&`typeinfo for`std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
     {
       actions_vec = std::any_cast<std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>> &>(member);
       if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -837,7 +837,7 @@ void __cdecl data::ConfigAbilityMixin::getAllSubActions(void)::{lambda(std::any 
   v5 = std::any::type(member);
   if ( std::type_info::operator==(
          v5,
-         (const std::type_info *)&`typeinfo for'std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
+         (const std::type_info *)&`typeinfo for`std::vector<std::shared_ptr<data::ConfigAbilityAction>>) )
   {
     action_vec = std::any_cast<std::vector<std::shared_ptr<data::ConfigAbilityAction>> &>(member);
     if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -851,7 +851,7 @@ void __cdecl data::ConfigAbilityMixin::getAllSubActions(void)::{lambda(std::any 
     v6 = std::any::type(member);
     if ( std::type_info::operator==(
            v6,
-           (const std::type_info *)&`typeinfo for'std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
+           (const std::type_info *)&`typeinfo for`std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>>) )
     {
       actions_vec = std::any_cast<std::vector<std::vector<std::shared_ptr<data::ConfigAbilityAction>>> &>(member);
       if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -879,7 +879,7 @@ void __cdecl data::ConfigAbilityMixin::getAllSubActions(void)::{lambda(std::any 
       v10 = std::any::type(member);
       if ( std::type_info::operator==(
              v10,
-             (const std::type_info *)&`typeinfo for'std::shared_ptr<data::ConfigAbilityAction>) )
+             (const std::type_info *)&`typeinfo for`std::shared_ptr<data::ConfigAbilityAction>) )
       {
         config_action_ptr = std::any_cast<std::shared_ptr<data::ConfigAbilityAction> &>(member);
         if ( *(_BYTE *)(((unsigned __int64)__closure >> 3) + 0x7FFF8000) )
@@ -906,7 +906,7 @@ void __cdecl data::ConfigAbilityMixin::getAllSubActions(void)::{lambda(std::any 
         v14 = std::any::type(member);
         if ( std::type_info::operator==(
                v14,
-               (const std::type_info *)&`typeinfo for'std::vector<data::ConfigAbilityStateToActions>) )
+               (const std::type_info *)&`typeinfo for`std::vector<data::ConfigAbilityStateToActions>) )
         {
           __for_range = std::any_cast<std::vector<data::ConfigAbilityStateToActions> &>(member);
           if ( *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) )

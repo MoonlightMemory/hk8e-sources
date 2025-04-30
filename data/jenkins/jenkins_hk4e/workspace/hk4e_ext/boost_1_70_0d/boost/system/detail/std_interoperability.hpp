@@ -212,8 +212,8 @@ LABEL_38:
   if ( v21 )
     v22 = (const boost::system::detail::std_category *)__dynamic_cast(
                                                          v21,
-                                                         (const struct __class_type_info *)&`typeinfo for'std::_V2::error_category,
-                                                         (const struct __class_type_info *)&`typeinfo for'boost::system::detail::std_category,
+                                                         (const struct __class_type_info *)&`typeinfo for`std::_V2::error_category,
+                                                         (const struct __class_type_info *)&`typeinfo for`boost::system::detail::std_category,
                                                          0LL);
   else
     v22 = 0LL;
@@ -359,8 +359,8 @@ LABEL_38:
   if ( v21 )
     v22 = (const boost::system::detail::std_category *)__dynamic_cast(
                                                          v21,
-                                                         (const struct __class_type_info *)&`typeinfo for'std::_V2::error_category,
-                                                         (const struct __class_type_info *)&`typeinfo for'boost::system::detail::std_category,
+                                                         (const struct __class_type_info *)&`typeinfo for`std::_V2::error_category,
+                                                         (const struct __class_type_info *)&`typeinfo for`boost::system::detail::std_category,
                                                          0LL);
   else
     v22 = 0LL;

@@ -994,7 +994,7 @@ int32_t __cdecl MysqlOpOrder::selectRecentUnfinishedOrder(uint32_t uid, std::vec
           __asan_handle_no_return(exception);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'std::logic_error,
+            (struct type_info *)&`typeinfo for`std::logic_error,
             (void (__fastcall *)(void *))&std::logic_error::~logic_error);
         }
         v5 = 0;
@@ -1220,7 +1220,7 @@ __int64 __fastcall MysqlOpOrder::selectOrder(uint32_t order_id, TableOrderData *
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       if ( std::vector<TableOrderData>::size((const std::vector<TableOrderData> *const)(v3 + 192)) )
@@ -1481,7 +1481,7 @@ __int64 __fastcall MysqlOpOrder::selectOrderByUid(
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       v7 = 0;
@@ -1716,7 +1716,7 @@ int32_t __cdecl MysqlOpOrder::selectOrderByTradeNo(const std::string *trade_no, 
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       if ( std::vector<TableOrderData>::size((const std::vector<TableOrderData> *const)(v3 + 224)) )

@@ -18484,7 +18484,7 @@ void __cdecl __noreturn std::__throw_bad_variant_access(const char *__what)
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::bad_variant_access,
+    (struct type_info *)&`typeinfo for`std::bad_variant_access,
     (void (__fastcall *)(void *))std::bad_variant_access::~bad_variant_access);
 };
 

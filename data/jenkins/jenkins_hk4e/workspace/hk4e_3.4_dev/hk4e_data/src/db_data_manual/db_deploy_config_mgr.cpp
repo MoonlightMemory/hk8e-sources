@@ -1750,7 +1750,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbRegionConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_region_config>::size((const std::vector<t_region_config> *const)(v3 + 48)); ++idx )
@@ -3160,7 +3160,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbClientConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_client_config>::size((const std::vector<t_client_config> *const)(v3 + 48)); ++idx )
@@ -3748,7 +3748,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbClientRegionConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -4376,7 +4376,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbClientBindConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     std::set<std::string>::set((std::set<std::string> *const)(v2 + 720));
@@ -5009,7 +5009,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbLoginWhiteIpConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -5655,7 +5655,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbDeployTextmapConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -6185,7 +6185,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbAreaConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_area_config>::size((const std::vector<t_area_config> *const)(v3 + 32)); ++idx )
@@ -6486,7 +6486,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbAuthkeyConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_authkey_config>::size((const std::vector<t_authkey_config> *const)(v3 + 48)); ++idx )
@@ -6826,7 +6826,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbRsakeyConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_rsakey_config>::size((const std::vector<t_rsakey_config> *const)(v3 + 48)); ++idx )
@@ -7298,7 +7298,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbSdkConfig(DbDeployConfigMgr *const this
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0; idx < std::vector<t_sdk_config>::size((const std::vector<t_sdk_config> *const)(v3 + 48)); ++idx )
@@ -7759,7 +7759,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbChannelIdConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -8288,7 +8288,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbAntiCheatClientChannelIdConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -9122,7 +9122,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbClientChannelIdConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;
@@ -10724,7 +10724,7 @@ int32_t __cdecl DbDeployConfigMgr::loadDbSecurityFileConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( idx = 0;

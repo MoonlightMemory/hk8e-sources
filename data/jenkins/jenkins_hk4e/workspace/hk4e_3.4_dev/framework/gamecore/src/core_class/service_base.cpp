@@ -153,13 +153,13 @@ LABEL_23:
   v2 = (common::tools::TimerMgr *)(v0 + 16);
   if ( common::tools::perf::MemoryPerf::is_record )
   {
-    v10 = &`typeinfo for'common::tools::TimerMgr + 1;
-    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::tools::TimerMgr + 1) >> 3) + 0x7FFF8000) )
+    v10 = &`typeinfo for`common::tools::TimerMgr + 1;
+    if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::tools::TimerMgr + 1) >> 3) + 0x7FFF8000) )
     {
-      v1 = (unsigned __int64)*(&`typeinfo for'common::tools::TimerMgr + 1);
+      v1 = (unsigned __int64)*(&`typeinfo for`common::tools::TimerMgr + 1);
       v10 = (void **)v1;
       v11 = *(_BYTE *)((v1 >> 3) + 0x7FFF8000);
-      if ( v11 > (*(_BYTE *)(&`typeinfo for'common::tools::TimerMgr + 1) & 7) || !v11 )
+      if ( v11 > (*(_BYTE *)(&`typeinfo for`common::tools::TimerMgr + 1) & 7) || !v11 )
       {
         if ( *(_BYTE *)v1 != 42 )
           goto LABEL_15;

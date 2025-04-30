@@ -1512,7 +1512,7 @@ uint32_t __fastcall common::tools::TimeUtils::getDaysOfMonth(time_t stamp, time_
                               __asan_handle_no_return(exception);
                               _cxa_throw(
                                 exception,
-                                (struct type_info *)&`typeinfo for'boost::wrapexcept<std::out_of_range>,
+                                (struct type_info *)&`typeinfo for`boost::wrapexcept<std::out_of_range>,
                                 (void (__fastcall *)(void *))boost::wrapexcept<std::out_of_range>::~wrapexcept);
                             }
                             *(_QWORD *)(v2 + 160) = v2 + 176;

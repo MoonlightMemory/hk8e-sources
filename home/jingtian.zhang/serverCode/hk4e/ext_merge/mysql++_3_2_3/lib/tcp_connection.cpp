@@ -109,7 +109,7 @@ void __fastcall __noreturn mysqlpp::TCPConnection::connect(
   *(_QWORD *)v14 = &`vtable for mysqlpp::ConnectionFailed + 2;
   _cxa_throw(
     v14,
-    (struct type_info *)&`typeinfo for'mysqlpp::ConnectionFailed,
+    (struct type_info *)&`typeinfo for`mysqlpp::ConnectionFailed,
     (void (__fastcall *)(void *))mysqlpp::ConnectionFailed::~ConnectionFailed);
 };
 

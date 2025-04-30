@@ -91,13 +91,13 @@ std::ostream *__fastcall mysqlpp::operator<<(std::ostream *this, mysqlpp::SQLTyp
     || (v2 = 0LL,
         (v3 = (const mysqlpp::Query *)__dynamic_cast(
                                         this,
-                                        (const struct __class_type_info *)&`typeinfo for'std::ostream,
-                                        (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+                                        (const struct __class_type_info *)&`typeinfo for`std::ostream,
+                                        (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
                                         0LL)) == 0LL)
     && (v2 = (const mysqlpp::SQLStream *)__dynamic_cast(
                                            this,
-                                           (const struct __class_type_info *)&`typeinfo for'std::ostream,
-                                           (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+                                           (const struct __class_type_info *)&`typeinfo for`std::ostream,
+                                           (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
                                            0LL)) == 0LL )
   {
     v7 = mysqlpp::SQLTypeAdapter::length(a2);
@@ -161,13 +161,13 @@ std::ostream *__fastcall mysqlpp::operator<<(mysqlpp::quote_only_type1 o, const 
   if ( o.ostr
     && (__dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
           0LL)
      || __dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
           0LL)) )
   {
     if ( mysqlpp::SQLTypeAdapter::quote_q(in) )
@@ -204,13 +204,13 @@ __int64 __fastcall mysqlpp::operator<<(std::ostream *this, mysqlpp::SQLTypeAdapt
 
   if ( __dynamic_cast(
          this,
-         (const struct __class_type_info *)&`typeinfo for'std::ostream,
-         (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+         (const struct __class_type_info *)&`typeinfo for`std::ostream,
+         (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
          0LL)
     || __dynamic_cast(
          this,
-         (const struct __class_type_info *)&`typeinfo for'std::ostream,
-         (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+         (const struct __class_type_info *)&`typeinfo for`std::ostream,
+         (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
          0LL) )
   {
     v2 = mysqlpp::SQLTypeAdapter::length(a2);
@@ -380,13 +380,13 @@ std::ostream *__fastcall mysqlpp::operator<<(mysqlpp::quote_double_only_type1 o,
   if ( o.ostr
     && (__dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
           0LL)
      || __dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
           0LL)) )
   {
     if ( mysqlpp::SQLTypeAdapter::quote_q(in) )
@@ -495,8 +495,8 @@ __int64 __fastcall mysqlpp::operator<<(std::ostream *this, mysqlpp::SQLTypeAdapt
     goto LABEL_9;
   v2 = (const mysqlpp::Query *)__dynamic_cast(
                                  this,
-                                 (const struct __class_type_info *)&`typeinfo for'std::ostream,
-                                 (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+                                 (const struct __class_type_info *)&`typeinfo for`std::ostream,
+                                 (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
                                  0LL);
   if ( v2 )
   {
@@ -514,8 +514,8 @@ __int64 __fastcall mysqlpp::operator<<(std::ostream *this, mysqlpp::SQLTypeAdapt
   }
   v9 = (const mysqlpp::SQLStream *)__dynamic_cast(
                                      this,
-                                     (const struct __class_type_info *)&`typeinfo for'std::ostream,
-                                     (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+                                     (const struct __class_type_info *)&`typeinfo for`std::ostream,
+                                     (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
                                      0LL);
   if ( !v9 )
   {
@@ -591,13 +591,13 @@ std::ostream *__fastcall mysqlpp::operator<<(mysqlpp::do_nothing_type1 o, const 
   if ( !o.ostr
     || !__dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::Query,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::Query,
           0LL)
     && !__dynamic_cast(
           o.ostr,
-          (const struct __class_type_info *)&`typeinfo for'std::ostream,
-          (const struct __class_type_info *)&`typeinfo for'mysqlpp::SQLStream,
+          (const struct __class_type_info *)&`typeinfo for`std::ostream,
+          (const struct __class_type_info *)&`typeinfo for`mysqlpp::SQLStream,
           0LL) )
   {
     return (std::ostream *)mysqlpp::operator<<(o.ostr, (mysqlpp::SQLTypeAdapter *)in);

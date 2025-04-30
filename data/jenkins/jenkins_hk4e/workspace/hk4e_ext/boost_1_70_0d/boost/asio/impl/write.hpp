@@ -694,7 +694,7 @@ LABEL_196:
                                                                                                                       __asan_report_store_n(exception, 56LL);
                                                                                                                     boost::exception_detail::enable_both<boost::asio::bad_executor>(exception, (const boost::asio::bad_executor *)(v7 + 64));
                                                                                                                     __asan_handle_no_return(exception);
-                                                                                                                    _cxa_throw(exception, (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>, (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
+                                                                                                                    _cxa_throw(exception, (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>, (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
                                                                                                                   }
                                                                                                                   if ( *(_BYTE *)((v71 >> 3) + 0x7FFF8000) )
                                                                                                                   {
@@ -933,7 +933,7 @@ LABEL_246:
                                                                                                                           __asan_report_store_n(v76, 56LL);
                                                                                                                         boost::exception_detail::enable_both<boost::asio::bad_executor>(v76, (const boost::asio::bad_executor *)(v7 + 64));
                                                                                                                         __asan_handle_no_return(v76);
-                                                                                                                        _cxa_throw(v76, (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>, (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
+                                                                                                                        _cxa_throw(v76, (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>, (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
                                                                                                                       }
 LABEL_206:
                                                                                                                       __asan_report_load1(v64);

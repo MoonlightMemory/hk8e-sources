@@ -622,7 +622,7 @@ LABEL_72:
         }
         *v42 = "UnKnown Direction";
         __asan_handle_no_return(v40);
-        _cxa_throw(v42, (struct type_info *)&`typeinfo for'char const*, 0LL);
+        _cxa_throw(v42, (struct type_info *)&`typeinfo for`char const*, 0LL);
       }
       v28 = (float *)std::min<float>(&this->p1.x, &this->p3.x);
       v29 = v28;

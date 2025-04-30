@@ -466,7 +466,7 @@ ToTheMoonVector3 __cdecl ToTheMoonVector3::Normalize(const ToTheMoonVector3 *con
     }
     *v4 = "Can't normalize a zero vector3";
     __asan_handle_no_return(v2);
-    _cxa_throw(v4, (struct type_info *)&`typeinfo for'char const*, 0LL);
+    _cxa_throw(v4, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   if ( *(_BYTE *)(((unsigned __int64)&this->z >> 3) + 0x7FFF8000) != 0
     && (char)((((_BYTE)this + 8) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&this->z >> 3) + 0x7FFF8000) )
@@ -2120,7 +2120,7 @@ LABEL_9:
         }
         *v3 = "Wrong direction for get vector3";
         __asan_handle_no_return(v1);
-        _cxa_throw(v3, (struct type_info *)&`typeinfo for'char const*, 0LL);
+        _cxa_throw(v3, (struct type_info *)&`typeinfo for`char const*, 0LL);
       }
       Up = Geometry::CommonAxis::GetLeft();
     }

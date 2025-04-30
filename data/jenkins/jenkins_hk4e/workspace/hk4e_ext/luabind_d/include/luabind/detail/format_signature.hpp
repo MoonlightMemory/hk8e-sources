@@ -23,7 +23,7 @@ void __cdecl luabind::detail::type_to_string<Event,void>::get(lua_State_0 *L)
   v3[536862720] = -235802127;
   v3[536862721] = -218959360;
   v3[536862723] = -202116109;
-  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for'Event);
+  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for`Event);
   if ( *(char *)(((v1 + 64) >> 3) + 0x7FFF8000) < 0
     || *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) != 0
     && (char)((v1 + 95) & 7) >= *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) )
@@ -70,7 +70,7 @@ void __cdecl luabind::detail::type_to_string<Vector3,void>::get(lua_State_0 *L)
   v3[536862720] = -235802127;
   v3[536862721] = -218959360;
   v3[536862723] = -202116109;
-  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for'Vector3);
+  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for`Vector3);
   if ( *(char *)(((v1 + 64) >> 3) + 0x7FFF8000) < 0
     || *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) != 0
     && (char)((v1 + 95) & 7) >= *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) )
@@ -117,7 +117,7 @@ void __cdecl luabind::detail::type_to_string<data::EventType,void>::get(lua_Stat
   v3[536862720] = -235802127;
   v3[536862721] = -218959360;
   v3[536862723] = -202116109;
-  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for'data::EventType);
+  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for`data::EventType);
   if ( *(char *)(((v1 + 64) >> 3) + 0x7FFF8000) < 0
     || *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) != 0
     && (char)((v1 + 95) & 7) >= *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) )
@@ -164,7 +164,7 @@ void __cdecl luabind::detail::type_to_string<float,void>::get(lua_State_0 *L)
   v3[536862720] = -235802127;
   v3[536862721] = -218959360;
   v3[536862723] = -202116109;
-  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for'float);
+  luabind::type_id::type_id((luabind::type_id *const)(v1 + 32), (const std::type_info *)&`typeinfo for`float);
   if ( *(char *)(((v1 + 64) >> 3) + 0x7FFF8000) < 0
     || *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) != 0
     && (char)((v1 + 95) & 7) >= *(_BYTE *)(((v1 + 95) >> 3) + 0x7FFF8000) )

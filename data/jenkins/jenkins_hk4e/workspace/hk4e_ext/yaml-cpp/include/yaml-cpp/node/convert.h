@@ -144,7 +144,7 @@ LABEL_15:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &node->m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   if ( !node->m_isValid )
     goto LABEL_15;
@@ -201,7 +201,7 @@ LABEL_23:
       v14 = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
       YAML::InvalidNode::InvalidNode(v14, &node->m_invalidKey);
       __asan_handle_no_return(v14);
-      _cxa_throw(v14, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+      _cxa_throw(v14, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
     }
     m_pNode = (unsigned __int64)node->m_pNode;
     if ( m_pNode )

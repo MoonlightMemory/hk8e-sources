@@ -577,7 +577,7 @@ bool __cdecl MysqlOpHomeData::isHomeUidExist(uint32_t uid)
           __asan_handle_no_return(exception);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'std::logic_error,
+            (struct type_info *)&`typeinfo for`std::logic_error,
             (void (__fastcall *)(void *))&std::logic_error::~logic_error);
         }
         v6 = !std::vector<TableHomeData>::empty((const std::vector<TableHomeData> *const)(v1 + 160));
@@ -853,7 +853,7 @@ __int64 __fastcall MysqlOpHomeData::selectHomeDataByUid(uint32_t uid, TableHomeD
           __asan_handle_no_return(exception);
           _cxa_throw(
             exception,
-            (struct type_info *)&`typeinfo for'std::logic_error,
+            (struct type_info *)&`typeinfo for`std::logic_error,
             (void (__fastcall *)(void *))&std::logic_error::~logic_error);
         }
         if ( std::vector<TableHomeData>::empty((const std::vector<TableHomeData> *const)(v3 + 160)) )

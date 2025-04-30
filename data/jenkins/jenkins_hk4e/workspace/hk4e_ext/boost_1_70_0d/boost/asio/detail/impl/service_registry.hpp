@@ -368,7 +368,7 @@ void __cdecl boost::asio::detail::service_registry::init_key_from_id<boost::asio
 {
   if ( *(_BYTE *)(((unsigned __int64)key >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>;
+  key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::deadline_timer_service<boost::asio::time_traits<boost::posix_time::ptime>>>;
   if ( *(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   key->id_ = 0LL;
@@ -381,7 +381,7 @@ void __cdecl boost::asio::detail::service_registry::init_key_from_id<boost::asio
 {
   if ( *(_BYTE *)(((unsigned __int64)key >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::epoll_reactor>;
+  key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::epoll_reactor>;
   if ( *(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   key->id_ = 0LL;
@@ -394,7 +394,7 @@ void __cdecl boost::asio::detail::service_registry::init_key_from_id<boost::asio
 {
   if ( *(_BYTE *)(((unsigned __int64)key >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>;
+  key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::reactive_socket_service<boost::asio::ip::tcp>>;
   if ( *(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   key->id_ = 0LL;
@@ -407,7 +407,7 @@ void __cdecl boost::asio::detail::service_registry::init_key_from_id<boost::asio
 {
   if ( *(_BYTE *)(((unsigned __int64)key >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::scheduler>;
+  key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::scheduler>;
   if ( *(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   key->id_ = 0LL;
@@ -420,7 +420,7 @@ void __cdecl boost::asio::detail::service_registry::init_key_from_id<boost::asio
 {
   if ( *(_BYTE *)(((unsigned __int64)key >> 3) + 0x7FFF8000) )
     __asan_report_store8();
-  key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::strand_service>;
+  key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::strand_service>;
   if ( *(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     __asan_report_store8();
   key->id_ = 0LL;
@@ -440,7 +440,7 @@ void __fastcall boost::asio::detail::service_registry::init_key_from_id<boost::a
   }
   else
   {
-    key->type_info_ = (const std::type_info *)&`typeinfo for'boost::asio::detail::typeid_wrapper<boost::asio::detail::strand_executor_service>;
+    key->type_info_ = (const std::type_info *)&`typeinfo for`boost::asio::detail::typeid_wrapper<boost::asio::detail::strand_executor_service>;
     p_id = &key->id_;
     if ( !*(_BYTE *)(((unsigned __int64)&key->id_ >> 3) + 0x7FFF8000) )
     {

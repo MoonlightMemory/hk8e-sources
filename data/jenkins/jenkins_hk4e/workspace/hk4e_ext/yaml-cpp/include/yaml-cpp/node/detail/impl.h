@@ -94,7 +94,7 @@ LABEL_27:
     exception = (YAML::InvalidNode *)__cxa_allocate_exception(0x40uLL);
     YAML::InvalidNode::InvalidNode(exception, &v26.m_invalidKey);
     __asan_handle_no_return(exception);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`YAML::InvalidNode, YAML::InvalidNode::~InvalidNode);
   }
   ++v8->_M_use_count;
 LABEL_9:

@@ -890,7 +890,7 @@ int32_t __cdecl data::DbGachaConfigMgr::loadDbGachaScheduleConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     google::protobuf::util::Status::Status((google::protobuf::util::Status *const)(v3 + 1264));
@@ -1907,7 +1907,7 @@ int32_t __cdecl data::DbGachaConfigMgr::loadDbGachaNewbieUrlConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     __for_range = (std::vector<data::t_gacha_newbie_url_config> *)(v3 + 112);

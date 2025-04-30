@@ -940,7 +940,7 @@ boost::context::detail::fiber_activation_record *__fastcall boost::context::deta
     __asan_handle_no_return(exception, M_value, v16);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::system_error,
+      (struct type_info *)&`typeinfo for`std::system_error,
       (void (__fastcall *)(void *))&std::system_error::~system_error);
   }
   if ( *(_BYTE *)(((unsigned __int64)&v7->uctx.uc_stack >> 3) + 0x7FFF8000) )
@@ -1078,7 +1078,7 @@ boost::context::detail::fiber_activation_record *__fastcall boost::context::deta
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::system_error,
+      (struct type_info *)&`typeinfo for`std::system_error,
       (void (__fastcall *)(void *))&std::system_error::~system_error);
   }
   if ( *(_BYTE *)(((unsigned __int64)&v7->uctx.uc_stack >> 3) + 0x7FFF8000) )
@@ -1437,7 +1437,7 @@ boost::context::fiber __cdecl boost::context::fiber::resume(boost::context::fibe
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'boost::context::detail::forced_unwind,
+      (struct type_info *)&`typeinfo for`boost::context::detail::forced_unwind,
       (void (__fastcall *)(void *))boost::context::detail::forced_unwind::~forced_unwind);
   }
   v11 = boost::context::detail::fiber_activation_record::current(v9);

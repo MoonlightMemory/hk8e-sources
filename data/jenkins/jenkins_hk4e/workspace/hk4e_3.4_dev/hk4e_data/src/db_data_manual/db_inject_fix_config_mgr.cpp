@@ -213,7 +213,7 @@ int32_t __cdecl data::DbInjectFixConfigMgr::loadDbInjectFixConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     for ( i = 0; i < std::vector<t_inject_fix_config>::size((const std::vector<t_inject_fix_config> *const)(v2 + 64)); ++i )

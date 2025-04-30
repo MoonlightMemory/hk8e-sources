@@ -45,7 +45,7 @@ boost::context::stack_context __cdecl boost::context::basic_fixedsize_stack<boos
     __asan_handle_no_return(exception);
     _cxa_throw(
       exception,
-      (struct type_info *)&`typeinfo for'std::bad_alloc,
+      (struct type_info *)&`typeinfo for`std::bad_alloc,
       (void (__fastcall *)(void *))&std::bad_alloc::~bad_alloc);
   }
   *(_QWORD *)(v1 + 32) = 0LL;

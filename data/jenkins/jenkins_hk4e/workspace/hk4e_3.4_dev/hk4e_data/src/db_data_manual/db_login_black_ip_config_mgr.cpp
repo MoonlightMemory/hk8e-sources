@@ -166,7 +166,7 @@ int32_t __cdecl data::DbLoginBlackIpConfigMgr::selectIpByIp(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<mysqlpp::Row>::empty((const std::vector<mysqlpp::Row> *const)(v3 + 344)) )

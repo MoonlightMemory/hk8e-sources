@@ -31,6 +31,6 @@ void __cdecl __noreturn std::__throw_regex_error(std::regex_constants::error_typ
   __asan_handle_no_return(exception);
   _cxa_throw(
     exception,
-    (struct type_info *)&`typeinfo for'std::regex_error,
+    (struct type_info *)&`typeinfo for`std::regex_error,
     (void (__fastcall *)(void *))&std::regex_error::~regex_error);
 };

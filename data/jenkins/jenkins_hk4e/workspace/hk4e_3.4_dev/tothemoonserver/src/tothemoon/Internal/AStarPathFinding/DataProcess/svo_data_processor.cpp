@@ -1563,7 +1563,7 @@ IntVector3 __cdecl SVODataProcessor::ChildrenReferIndex(int childrenIndex)
       }
       *v3 = "wrong children index";
       __asan_handle_no_return(v1);
-      _cxa_throw(v3, (struct type_info *)&`typeinfo for'char const*, 0LL);
+      _cxa_throw(v3, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   return v6;
 };
@@ -3462,7 +3462,7 @@ int __cdecl SVODataProcessor::DirectionToNeighborIndex(Const::Direction dir)
       }
       *v4 = "Wrong Direction";
       __asan_handle_no_return(v2);
-      _cxa_throw(v4, (struct type_info *)&`typeinfo for'char const*, 0LL);
+      _cxa_throw(v4, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   return result;
 };
@@ -4207,7 +4207,7 @@ IntVector3 __cdecl SVODataProcessor::ChildrenPosIndex(int childrenIndex)
       }
       *v3 = "wrong children index";
       __asan_handle_no_return(v1);
-      _cxa_throw(v3, (struct type_info *)&`typeinfo for'char const*, 0LL);
+      _cxa_throw(v3, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   return v6;
 };

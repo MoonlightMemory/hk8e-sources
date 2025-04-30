@@ -177,7 +177,7 @@ __int64 __fastcall MysqlOpMisc::selectLoginBlackUidConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<TableLoginBlackUidConfig>::size((const std::vector<TableLoginBlackUidConfig> *const)(v3 + 256)) )
@@ -1045,7 +1045,7 @@ int32_t __cdecl MysqlOpMisc::selectActivityData(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<TableActivityData>::empty((const std::vector<TableActivityData> *const)(v4 + 96)) )
@@ -2745,7 +2745,7 @@ std::string *__fastcall MysqlOpMisc::selectPlayerFeatureBlockEndTime[abi:cxx11](
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<FeatureBlockConfig>::size((const std::vector<FeatureBlockConfig> *const)(v3 + 224)) )
@@ -3360,7 +3360,7 @@ std::vector<std::pair<unsigned int,std::string >> *__fastcall MysqlOpMisc::selec
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<FeatureBlockConfig>::size((const std::vector<FeatureBlockConfig> *const)(v2 + 288)) )
@@ -3602,7 +3602,7 @@ int32_t __cdecl MysqlOpMisc::selectLoginBlackUidConfigBatch(
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       v5 = 0;
@@ -3799,7 +3799,7 @@ int32_t __cdecl MysqlOpMisc::selectCancelAccountUidConfigBatch(
         __asan_handle_no_return(exception);
         _cxa_throw(
           exception,
-          (struct type_info *)&`typeinfo for'std::logic_error,
+          (struct type_info *)&`typeinfo for`std::logic_error,
           (void (__fastcall *)(void *))&std::logic_error::~logic_error);
       }
       v5 = 0;
@@ -4010,7 +4010,7 @@ __int64 __fastcall MysqlOpMisc::selectPlayerFreatureBlockConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<FeatureBlockConfig>::size((const std::vector<FeatureBlockConfig> *const)(v4 + 256)) )
@@ -4214,7 +4214,7 @@ int32_t __cdecl MysqlOpMisc::selectRedPointConfigCount(uint32_t *red_point_confi
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<mysqlpp::Row>::size((const std::vector<mysqlpp::Row> *const)(v3 + 712)) == 1 )
@@ -4432,7 +4432,7 @@ int32_t __cdecl MysqlOpMisc::selectAllRedPointConfigData(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     if ( std::vector<DbRedPointConfig>::size(red_point_config_vec) <= 0x64 )
@@ -4715,7 +4715,7 @@ int32_t __cdecl MysqlOpMisc::insertRedPointConfigData(const DbRedPointConfig *re
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v7 = 0;
@@ -4900,7 +4900,7 @@ int32_t __cdecl MysqlOpMisc::deleteRedPointConfigData(uint32_t id, std::string *
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v7 = 0;
@@ -5177,7 +5177,7 @@ int32_t __cdecl MysqlOpMisc::updateRedPointConfigData(const DbRedPointConfig *re
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v7 = 0;
@@ -5412,7 +5412,7 @@ int32_t __cdecl MysqlOpMisc::insertGameplayRecommendationConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     inserted = mysqlpp::Query::insert_id((mysqlpp::Query *const)(v3 + 1248));
@@ -5605,7 +5605,7 @@ int32_t __cdecl MysqlOpMisc::selectGameplayRecommendationConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v8 = 0;
@@ -5808,7 +5808,7 @@ int32_t __cdecl MysqlOpMisc::deleteGameplayRecommendationConfig(
       __asan_handle_no_return(exception);
       _cxa_throw(
         exception,
-        (struct type_info *)&`typeinfo for'std::logic_error,
+        (struct type_info *)&`typeinfo for`std::logic_error,
         (void (__fastcall *)(void *))&std::logic_error::~logic_error);
     }
     v17 = mysqlpp::SimpleResult::rows((const mysqlpp::SimpleResult *const)(v3 + 624));

@@ -439,7 +439,7 @@ LABEL_16:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FileDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FileDescriptorProto,
             0xD8uLL);
         AlignedAndAddCleanup = (google::protobuf::FileDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                           &arena->impl_,
@@ -613,8 +613,8 @@ void __fastcall google::protobuf::FileDescriptorSet::MergeFrom(
 
   v2 = (const google::protobuf::FileDescriptorSet *)__dynamic_cast(
                                                       from,
-                                                      (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                      (const struct __class_type_info *)&`typeinfo for'google::protobuf::FileDescriptorSet,
+                                                      (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                      (const struct __class_type_info *)&`typeinfo for`google::protobuf::FileDescriptorSet,
                                                       0LL);
   if ( v2 )
     google::protobuf::FileDescriptorSet::MergeFrom(this, v2);
@@ -1511,7 +1511,7 @@ LABEL_129:
           if ( arena->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               arena,
-              (const std::type_info *)&`typeinfo for'std::string,
+              (const std::type_info *)&`typeinfo for`std::string,
               0x20uLL);
           AlignedAndAddCleanup = (std::string *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                   &arena->impl_,
@@ -1566,7 +1566,7 @@ LABEL_153:
           if ( v91->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               v91,
-              (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto,
+              (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto,
               0xE8uLL);
           v45 = (google::protobuf::DescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                        &v91->impl_,
@@ -1633,7 +1633,7 @@ LABEL_147:
           if ( v87->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               v87,
-              (const std::type_info *)&`typeinfo for'google::protobuf::EnumDescriptorProto,
+              (const std::type_info *)&`typeinfo for`google::protobuf::EnumDescriptorProto,
               0x40uLL);
           v14 = (google::protobuf::EnumDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                            &v87->impl_,
@@ -1702,7 +1702,7 @@ LABEL_141:
           if ( v83->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               v83,
-              (const std::type_info *)&`typeinfo for'google::protobuf::ServiceDescriptorProto,
+              (const std::type_info *)&`typeinfo for`google::protobuf::ServiceDescriptorProto,
               0x40uLL);
           v38 = (google::protobuf::ServiceDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                               &v83->impl_,
@@ -1771,7 +1771,7 @@ LABEL_135:
           if ( v79->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               v79,
-              (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+              (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
               0x58uLL);
           v31 = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                             &v79->impl_,
@@ -2642,8 +2642,8 @@ void __fastcall google::protobuf::FileDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::FileDescriptorProto *)__dynamic_cast(
                                                         from,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::FileDescriptorProto,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::FileDescriptorProto,
                                                         0LL);
   if ( v2 )
     google::protobuf::FileDescriptorProto::MergeFrom(this, v2);
@@ -3686,8 +3686,8 @@ void __fastcall google::protobuf::DescriptorProto_ExtensionRange::MergeFrom(
 
   v2 = (const google::protobuf::DescriptorProto_ExtensionRange *)__dynamic_cast(
                                                                    from,
-                                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ExtensionRange,
+                                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ExtensionRange,
                                                                    0LL);
   if ( v2 )
     google::protobuf::DescriptorProto_ExtensionRange::MergeFrom(this, v2);
@@ -4266,8 +4266,8 @@ void __fastcall google::protobuf::DescriptorProto_ReservedRange::MergeFrom(
 
   v2 = (const google::protobuf::DescriptorProto_ReservedRange *)__dynamic_cast(
                                                                   from,
-                                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ReservedRange,
+                                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ReservedRange,
                                                                   0LL);
   if ( v2 )
     google::protobuf::DescriptorProto_ReservedRange::MergeFrom(this, v2);
@@ -5132,7 +5132,7 @@ LABEL_107:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
             0x58uLL);
         AlignedAndAddCleanup = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                            &arena->impl_,
@@ -5182,7 +5182,7 @@ LABEL_131:
         if ( v85->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v85,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto,
             0xE8uLL);
         v54 = (google::protobuf::DescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                      &v85->impl_,
@@ -5249,7 +5249,7 @@ LABEL_113:
         if ( v73->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v73,
-            (const std::type_info *)&`typeinfo for'google::protobuf::EnumDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::EnumDescriptorProto,
             0x40uLL);
         v47 = (google::protobuf::EnumDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                          &v73->impl_,
@@ -5318,7 +5318,7 @@ LABEL_125:
         if ( v81->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v81,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ExtensionRange,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ExtensionRange,
             0x28uLL);
         v40 = (google::protobuf::DescriptorProto_ExtensionRange *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                     &v81->impl_,
@@ -5387,7 +5387,7 @@ LABEL_101:
         if ( v65->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v65,
-            (const std::type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
             0x58uLL);
         AlignedAndAddCleanup = (google::protobuf::FieldDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                            &v65->impl_,
@@ -5488,7 +5488,7 @@ LABEL_137:
         if ( v89->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v89,
-            (const std::type_info *)&`typeinfo for'google::protobuf::OneofDescriptorProto,
+            (const std::type_info *)&`typeinfo for`google::protobuf::OneofDescriptorProto,
             0x28uLL);
         v25 = (google::protobuf::OneofDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                           &v89->impl_,
@@ -5557,7 +5557,7 @@ LABEL_119:
         if ( v77->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             v77,
-            (const std::type_info *)&`typeinfo for'google::protobuf::DescriptorProto_ReservedRange,
+            (const std::type_info *)&`typeinfo for`google::protobuf::DescriptorProto_ReservedRange,
             0x20uLL);
         v17 = (google::protobuf::DescriptorProto_ReservedRange *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                    &v77->impl_,
@@ -5627,7 +5627,7 @@ LABEL_143:
       if ( v93 )
       {
         if ( v93->hooks_cookie_ )
-          google::protobuf::Arena::OnArenaAllocation(v93, (const std::type_info *)&`typeinfo for'std::string, 0x20uLL);
+          google::protobuf::Arena::OnArenaAllocation(v93, (const std::type_info *)&`typeinfo for`std::string, 0x20uLL);
         v94 = (std::string *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                &v93->impl_,
                                0x20uLL,
@@ -6236,8 +6236,8 @@ void __fastcall google::protobuf::DescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::DescriptorProto *)__dynamic_cast(
                                                     from,
-                                                    (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                    (const struct __class_type_info *)&`typeinfo for'google::protobuf::DescriptorProto,
+                                                    (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                    (const struct __class_type_info *)&`typeinfo for`google::protobuf::DescriptorProto,
                                                     0LL);
   if ( v2 )
     google::protobuf::DescriptorProto::MergeFrom(this, v2);
@@ -7053,7 +7053,7 @@ LABEL_38:
           if ( arena->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               arena,
-              (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+              (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
               0x60uLL);
           AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                             &arena->impl_,
@@ -7254,8 +7254,8 @@ void __fastcall google::protobuf::ExtensionRangeOptions::MergeFrom(
 
   v2 = (const google::protobuf::ExtensionRangeOptions *)__dynamic_cast(
                                                           from,
-                                                          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                          (const struct __class_type_info *)&`typeinfo for'google::protobuf::ExtensionRangeOptions,
+                                                          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                          (const struct __class_type_info *)&`typeinfo for`google::protobuf::ExtensionRangeOptions,
                                                           0LL);
   if ( v2 )
     google::protobuf::ExtensionRangeOptions::MergeFrom(this, v2);
@@ -8414,8 +8414,8 @@ void __fastcall google::protobuf::FieldDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::FieldDescriptorProto *)__dynamic_cast(
                                                          from,
-                                                         (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                         (const struct __class_type_info *)&`typeinfo for'google::protobuf::FieldDescriptorProto,
+                                                         (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                         (const struct __class_type_info *)&`typeinfo for`google::protobuf::FieldDescriptorProto,
                                                          0LL);
   if ( v2 )
     google::protobuf::FieldDescriptorProto::MergeFrom(this, v2);
@@ -9146,8 +9146,8 @@ void __fastcall google::protobuf::OneofDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::OneofDescriptorProto *)__dynamic_cast(
                                                          from,
-                                                         (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                         (const struct __class_type_info *)&`typeinfo for'google::protobuf::OneofDescriptorProto,
+                                                         (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                         (const struct __class_type_info *)&`typeinfo for`google::protobuf::OneofDescriptorProto,
                                                          0LL);
   if ( v2 )
     google::protobuf::OneofDescriptorProto::MergeFrom(this, v2);
@@ -9645,7 +9645,7 @@ LABEL_36:
               if ( arena->hooks_cookie_ )
                 google::protobuf::Arena::OnArenaAllocation(
                   arena,
-                  (const std::type_info *)&`typeinfo for'google::protobuf::EnumValueDescriptorProto,
+                  (const std::type_info *)&`typeinfo for`google::protobuf::EnumValueDescriptorProto,
                   0x30uLL);
               AlignedAndAddCleanup = (google::protobuf::EnumValueDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                      &arena->impl_,
@@ -9945,8 +9945,8 @@ void __fastcall google::protobuf::EnumDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::EnumDescriptorProto *)__dynamic_cast(
                                                         from,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::EnumDescriptorProto,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::EnumDescriptorProto,
                                                         0LL);
   if ( v2 )
     google::protobuf::EnumDescriptorProto::MergeFrom(this, v2);
@@ -10681,8 +10681,8 @@ void __fastcall google::protobuf::EnumValueDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::EnumValueDescriptorProto *)__dynamic_cast(
                                                              from,
-                                                             (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                             (const struct __class_type_info *)&`typeinfo for'google::protobuf::EnumValueDescriptorProto,
+                                                             (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                             (const struct __class_type_info *)&`typeinfo for`google::protobuf::EnumValueDescriptorProto,
                                                              0LL);
   if ( v2 )
     google::protobuf::EnumValueDescriptorProto::MergeFrom(this, v2);
@@ -11195,7 +11195,7 @@ LABEL_36:
               if ( arena->hooks_cookie_ )
                 google::protobuf::Arena::OnArenaAllocation(
                   arena,
-                  (const std::type_info *)&`typeinfo for'google::protobuf::MethodDescriptorProto,
+                  (const std::type_info *)&`typeinfo for`google::protobuf::MethodDescriptorProto,
                   0x40uLL);
               AlignedAndAddCleanup = (google::protobuf::MethodDescriptorProto *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                   &arena->impl_,
@@ -11498,8 +11498,8 @@ void __fastcall google::protobuf::ServiceDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::ServiceDescriptorProto *)__dynamic_cast(
                                                            from,
-                                                           (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                           (const struct __class_type_info *)&`typeinfo for'google::protobuf::ServiceDescriptorProto,
+                                                           (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                           (const struct __class_type_info *)&`typeinfo for`google::protobuf::ServiceDescriptorProto,
                                                            0LL);
   if ( v2 )
     google::protobuf::ServiceDescriptorProto::MergeFrom(this, v2);
@@ -12361,8 +12361,8 @@ void __fastcall google::protobuf::MethodDescriptorProto::MergeFrom(
 
   v2 = (const google::protobuf::MethodDescriptorProto *)__dynamic_cast(
                                                           from,
-                                                          (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                          (const struct __class_type_info *)&`typeinfo for'google::protobuf::MethodDescriptorProto,
+                                                          (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                          (const struct __class_type_info *)&`typeinfo for`google::protobuf::MethodDescriptorProto,
                                                           0LL);
   if ( v2 )
     google::protobuf::MethodDescriptorProto::MergeFrom(this, v2);
@@ -13165,7 +13165,7 @@ LABEL_113:
               if ( arena->hooks_cookie_ )
                 google::protobuf::Arena::OnArenaAllocation(
                   arena,
-                  (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+                  (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
                   0x60uLL);
               AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                 &arena->impl_,
@@ -14150,8 +14150,8 @@ void __fastcall google::protobuf::FileOptions::MergeFrom(
 
   v2 = (const google::protobuf::FileOptions *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::FileOptions,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::FileOptions,
                                                 0LL);
   if ( v2 )
     google::protobuf::FileOptions::MergeFrom(this, v2);
@@ -15017,7 +15017,7 @@ LABEL_31:
       if ( arena->hooks_cookie_ )
         google::protobuf::Arena::OnArenaAllocation(
           arena,
-          (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+          (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
           0x60uLL);
       AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                         &arena->impl_,
@@ -15264,8 +15264,8 @@ void __fastcall google::protobuf::MessageOptions::MergeFrom(
 
   v2 = (const google::protobuf::MessageOptions *)__dynamic_cast(
                                                    from,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::MessageOptions,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::MessageOptions,
                                                    0LL);
   if ( v2 )
     google::protobuf::MessageOptions::MergeFrom(this, v2);
@@ -15773,7 +15773,7 @@ LABEL_85:
             if ( arena->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 arena,
-                (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+                (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
                 0x60uLL);
             AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                               &arena->impl_,
@@ -16317,8 +16317,8 @@ void __fastcall google::protobuf::FieldOptions::MergeFrom(
 
   v2 = (const google::protobuf::FieldOptions *)__dynamic_cast(
                                                  from,
-                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::FieldOptions,
+                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::FieldOptions,
                                                  0LL);
   if ( v2 )
     google::protobuf::FieldOptions::MergeFrom(this, v2);
@@ -16819,7 +16819,7 @@ LABEL_38:
           if ( arena->hooks_cookie_ )
             google::protobuf::Arena::OnArenaAllocation(
               arena,
-              (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+              (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
               0x60uLL);
           AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                             &arena->impl_,
@@ -17019,8 +17019,8 @@ void __fastcall google::protobuf::OneofOptions::MergeFrom(
 
   v2 = (const google::protobuf::OneofOptions *)__dynamic_cast(
                                                  from,
-                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::OneofOptions,
+                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::OneofOptions,
                                                  0LL);
   if ( v2 )
     google::protobuf::OneofOptions::MergeFrom(this, v2);
@@ -17567,7 +17567,7 @@ LABEL_39:
     if ( arena->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         arena,
-        (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+        (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
         0x60uLL);
     AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                       &arena->impl_,
@@ -17778,8 +17778,8 @@ void __fastcall google::protobuf::EnumOptions::MergeFrom(
 
   v2 = (const google::protobuf::EnumOptions *)__dynamic_cast(
                                                 from,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                (const struct __class_type_info *)&`typeinfo for'google::protobuf::EnumOptions,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                (const struct __class_type_info *)&`typeinfo for`google::protobuf::EnumOptions,
                                                 0LL);
   if ( v2 )
     google::protobuf::EnumOptions::MergeFrom(this, v2);
@@ -18284,7 +18284,7 @@ LABEL_45:
               if ( arena->hooks_cookie_ )
                 google::protobuf::Arena::OnArenaAllocation(
                   arena,
-                  (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+                  (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
                   0x60uLL);
               AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                 &arena->impl_,
@@ -18502,8 +18502,8 @@ void __fastcall google::protobuf::EnumValueOptions::MergeFrom(
 
   v2 = (const google::protobuf::EnumValueOptions *)__dynamic_cast(
                                                      from,
-                                                     (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                     (const struct __class_type_info *)&`typeinfo for'google::protobuf::EnumValueOptions,
+                                                     (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                     (const struct __class_type_info *)&`typeinfo for`google::protobuf::EnumValueOptions,
                                                      0LL);
   if ( v2 )
     google::protobuf::EnumValueOptions::MergeFrom(this, v2);
@@ -19020,7 +19020,7 @@ LABEL_46:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+            (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
             0x60uLL);
         AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                           &arena->impl_,
@@ -19211,8 +19211,8 @@ void __fastcall google::protobuf::ServiceOptions::MergeFrom(
 
   v2 = (const google::protobuf::ServiceOptions *)__dynamic_cast(
                                                    from,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::ServiceOptions,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::ServiceOptions,
                                                    0LL);
   if ( v2 )
     google::protobuf::ServiceOptions::MergeFrom(this, v2);
@@ -19788,7 +19788,7 @@ LABEL_36:
     if ( arena->hooks_cookie_ )
       google::protobuf::Arena::OnArenaAllocation(
         arena,
-        (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+        (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
         0x60uLL);
     AlignedAndAddCleanup = (google::protobuf::UninterpretedOption *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                       &arena->impl_,
@@ -20020,8 +20020,8 @@ void __fastcall google::protobuf::MethodOptions::MergeFrom(
 
   v2 = (const google::protobuf::MethodOptions *)__dynamic_cast(
                                                   from,
-                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                  (const struct __class_type_info *)&`typeinfo for'google::protobuf::MethodOptions,
+                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                  (const struct __class_type_info *)&`typeinfo for`google::protobuf::MethodOptions,
                                                   0LL);
   if ( v2 )
     google::protobuf::MethodOptions::MergeFrom(this, v2);
@@ -20609,8 +20609,8 @@ void __fastcall google::protobuf::UninterpretedOption_NamePart::MergeFrom(
 
   v2 = (const google::protobuf::UninterpretedOption_NamePart *)__dynamic_cast(
                                                                  from,
-                                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::UninterpretedOption_NamePart,
+                                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::UninterpretedOption_NamePart,
                                                                  0LL);
   if ( v2 )
     google::protobuf::UninterpretedOption_NamePart::MergeFrom(this, v2);
@@ -21170,7 +21170,7 @@ LABEL_57:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::UninterpretedOption_NamePart,
+            (const std::type_info *)&`typeinfo for`google::protobuf::UninterpretedOption_NamePart,
             0x28uLL);
         AlignedAndAddCleanup = (google::protobuf::UninterpretedOption_NamePart *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                    &arena->impl_,
@@ -21599,8 +21599,8 @@ void __fastcall google::protobuf::UninterpretedOption::MergeFrom(
 
   v2 = (const google::protobuf::UninterpretedOption *)__dynamic_cast(
                                                         from,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                        (const struct __class_type_info *)&`typeinfo for'google::protobuf::UninterpretedOption,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                        (const struct __class_type_info *)&`typeinfo for`google::protobuf::UninterpretedOption,
                                                         0LL);
   if ( v2 )
     google::protobuf::UninterpretedOption::MergeFrom(this, v2);
@@ -22397,7 +22397,7 @@ LABEL_17:
             if ( arena->hooks_cookie_ )
               google::protobuf::Arena::OnArenaAllocation(
                 arena,
-                (const std::type_info *)&`typeinfo for'std::string,
+                (const std::type_info *)&`typeinfo for`std::string,
                 0x20uLL);
             AlignedAndAddCleanup = (std::string *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                     &arena->impl_,
@@ -22864,8 +22864,8 @@ void __fastcall google::protobuf::SourceCodeInfo_Location::MergeFrom(
 
   v2 = (const google::protobuf::SourceCodeInfo_Location *)__dynamic_cast(
                                                             from,
-                                                            (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                            (const struct __class_type_info *)&`typeinfo for'google::protobuf::SourceCodeInfo_Location,
+                                                            (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                            (const struct __class_type_info *)&`typeinfo for`google::protobuf::SourceCodeInfo_Location,
                                                             0LL);
   if ( v2 )
     google::protobuf::SourceCodeInfo_Location::MergeFrom(this, v2);
@@ -23379,7 +23379,7 @@ LABEL_16:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::SourceCodeInfo_Location,
+            (const std::type_info *)&`typeinfo for`google::protobuf::SourceCodeInfo_Location,
             0x70uLL);
         AlignedAndAddCleanup = (google::protobuf::SourceCodeInfo_Location *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                               &arena->impl_,
@@ -23550,8 +23550,8 @@ void __fastcall google::protobuf::SourceCodeInfo::MergeFrom(
 
   v2 = (const google::protobuf::SourceCodeInfo *)__dynamic_cast(
                                                    from,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                   (const struct __class_type_info *)&`typeinfo for'google::protobuf::SourceCodeInfo,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                   (const struct __class_type_info *)&`typeinfo for`google::protobuf::SourceCodeInfo,
                                                    0LL);
   if ( v2 )
     google::protobuf::SourceCodeInfo::MergeFrom(this, v2);
@@ -24414,8 +24414,8 @@ void __fastcall google::protobuf::GeneratedCodeInfo_Annotation::MergeFrom(
 
   v2 = (const google::protobuf::GeneratedCodeInfo_Annotation *)__dynamic_cast(
                                                                  from,
-                                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                                 (const struct __class_type_info *)&`typeinfo for'google::protobuf::GeneratedCodeInfo_Annotation,
+                                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                                 (const struct __class_type_info *)&`typeinfo for`google::protobuf::GeneratedCodeInfo_Annotation,
                                                                  0LL);
   if ( v2 )
     google::protobuf::GeneratedCodeInfo_Annotation::MergeFrom(this, v2);
@@ -24864,7 +24864,7 @@ LABEL_16:
         if ( arena->hooks_cookie_ )
           google::protobuf::Arena::OnArenaAllocation(
             arena,
-            (const std::type_info *)&`typeinfo for'google::protobuf::GeneratedCodeInfo_Annotation,
+            (const std::type_info *)&`typeinfo for`google::protobuf::GeneratedCodeInfo_Annotation,
             0x40uLL);
         AlignedAndAddCleanup = (google::protobuf::GeneratedCodeInfo_Annotation *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                                    &arena->impl_,
@@ -25039,8 +25039,8 @@ void __fastcall google::protobuf::GeneratedCodeInfo::MergeFrom(
 
   v2 = (const google::protobuf::GeneratedCodeInfo *)__dynamic_cast(
                                                       from,
-                                                      (const struct __class_type_info *)&`typeinfo for'google::protobuf::Message,
-                                                      (const struct __class_type_info *)&`typeinfo for'google::protobuf::GeneratedCodeInfo,
+                                                      (const struct __class_type_info *)&`typeinfo for`google::protobuf::Message,
+                                                      (const struct __class_type_info *)&`typeinfo for`google::protobuf::GeneratedCodeInfo,
                                                       0LL);
   if ( v2 )
     google::protobuf::GeneratedCodeInfo::MergeFrom(this, v2);

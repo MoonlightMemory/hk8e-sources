@@ -1032,7 +1032,7 @@ LABEL_25:
     }
     *v14 = "Wrong block index diff";
     __asan_handle_no_return(v12);
-    _cxa_throw(v14, (struct type_info *)&`typeinfo for'char const*, 0LL);
+    _cxa_throw(v14, (struct type_info *)&`typeinfo for`char const*, 0LL);
   }
   if ( z_diff )
     goto LABEL_25;

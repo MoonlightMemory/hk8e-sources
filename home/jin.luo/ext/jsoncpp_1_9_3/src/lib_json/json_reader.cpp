@@ -1618,8 +1618,8 @@ LABEL_6:
   v46[27] = 0LL;
   v46[0] = (__int64)&`vtable for std::ios + 16;
   v47 = 0;
-  v8 = `VTT for'std::istringstream[1];
-  v27 = `VTT for'std::istringstream[2];
+  v8 = `VTT for`std::istringstream[1];
+  v27 = `VTT for`std::istringstream[2];
   v9 = *(_QWORD *)(v8 - 24);
   v39 = v8;
   *(__int64 *)((char *)&v39 + v9) = v27;
@@ -5051,8 +5051,8 @@ LABEL_6:
   v46[27] = 0LL;
   v46[0] = (__int64)&`vtable for std::ios + 16;
   v47 = 0;
-  v8 = `VTT for'std::istringstream[1];
-  v27 = `VTT for'std::istringstream[2];
+  v8 = `VTT for`std::istringstream[1];
+  v27 = `VTT for`std::istringstream[2];
   v9 = *(_QWORD *)(v8 - 24);
   v39 = v8;
   *(__int64 *)((char *)&v39 + v9) = v27;

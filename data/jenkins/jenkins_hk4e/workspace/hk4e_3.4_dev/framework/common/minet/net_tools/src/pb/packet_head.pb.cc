@@ -498,7 +498,7 @@ LABEL_47:
                 }
                 google::protobuf::Arena::OnArenaAllocation(
                   v16,
-                  (const std::type_info *)&`typeinfo for'unsigned char,
+                  (const std::type_info *)&`typeinfo for`unsigned char,
                   0x40uLL);
                 goto LABEL_38;
               }
@@ -536,7 +536,7 @@ LABEL_52:
 LABEL_53:
     google::protobuf::Arena::OnArenaAllocation(
       Aligned,
-      (const std::type_info *)&`typeinfo for'google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
+      (const std::type_info *)&`typeinfo for`google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
       0x30uLL);
   AlignedAndAddCleanup = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                              &Aligned->impl_,
@@ -595,7 +595,7 @@ LABEL_62:
       Aligned = (google::protobuf::Arena *)google::protobuf::internal::ArenaImpl::AllocateAligned(&v19->impl_, 0x40uLL);
       goto LABEL_71;
     }
-    google::protobuf::Arena::OnArenaAllocation(v19, (const std::type_info *)&`typeinfo for'unsigned char, 0x40uLL);
+    google::protobuf::Arena::OnArenaAllocation(v19, (const std::type_info *)&`typeinfo for`unsigned char, 0x40uLL);
     goto LABEL_62;
   }
 LABEL_68:
@@ -765,7 +765,7 @@ LABEL_124:
                 }
                 google::protobuf::Arena::OnArenaAllocation(
                   v33,
-                  (const std::type_info *)&`typeinfo for'unsigned char,
+                  (const std::type_info *)&`typeinfo for`unsigned char,
                   0x40uLL);
                 goto LABEL_115;
               }
@@ -803,7 +803,7 @@ LABEL_129:
 LABEL_130:
     google::protobuf::Arena::OnArenaAllocation(
       Aligned,
-      (const std::type_info *)&`typeinfo for'google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
+      (const std::type_info *)&`typeinfo for`google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
       0x30uLL);
   v29 = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                             &Aligned->impl_,
@@ -862,7 +862,7 @@ LABEL_139:
       v37 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v36->impl_, 0x40uLL);
       goto LABEL_148;
     }
-    google::protobuf::Arena::OnArenaAllocation(v36, (const std::type_info *)&`typeinfo for'unsigned char, 0x40uLL);
+    google::protobuf::Arena::OnArenaAllocation(v36, (const std::type_info *)&`typeinfo for`unsigned char, 0x40uLL);
     goto LABEL_139;
   }
 LABEL_145:
@@ -1124,7 +1124,7 @@ LABEL_47:
                 }
                 google::protobuf::Arena::OnArenaAllocation(
                   v17,
-                  (const std::type_info *)&`typeinfo for'unsigned char,
+                  (const std::type_info *)&`typeinfo for`unsigned char,
                   0x40uLL);
                 goto LABEL_38;
               }
@@ -1162,7 +1162,7 @@ LABEL_52:
 LABEL_53:
     google::protobuf::Arena::OnArenaAllocation(
       Aligned,
-      (const std::type_info *)&`typeinfo for'google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
+      (const std::type_info *)&`typeinfo for`google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
       0x30uLL);
   AlignedAndAddCleanup = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                              &Aligned->impl_,
@@ -1221,7 +1221,7 @@ LABEL_62:
       Aligned = (google::protobuf::Arena *)google::protobuf::internal::ArenaImpl::AllocateAligned(&v21->impl_, 0x40uLL);
       goto LABEL_71;
     }
-    google::protobuf::Arena::OnArenaAllocation(v21, (const std::type_info *)&`typeinfo for'unsigned char, 0x40uLL);
+    google::protobuf::Arena::OnArenaAllocation(v21, (const std::type_info *)&`typeinfo for`unsigned char, 0x40uLL);
     goto LABEL_62;
   }
 LABEL_68:
@@ -1410,7 +1410,7 @@ LABEL_123:
 LABEL_124:
     google::protobuf::Arena::OnArenaAllocation(
       arena,
-      (const std::type_info *)&`typeinfo for'google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
+      (const std::type_info *)&`typeinfo for`google::protobuf::Map<unsigned int,unsigned int>::InnerMap,
       0x30uLL);
   v31 = (google::protobuf::Map<unsigned int,unsigned int>::InnerMap *)google::protobuf::internal::ArenaImpl::AllocateAlignedAndAddCleanup(
                                                                         &arena->impl_,
@@ -1469,7 +1469,7 @@ LABEL_133:
       v39 = google::protobuf::internal::ArenaImpl::AllocateAligned(&v38->impl_, 0x40uLL);
       goto LABEL_142;
     }
-    google::protobuf::Arena::OnArenaAllocation(v38, (const std::type_info *)&`typeinfo for'unsigned char, 0x40uLL);
+    google::protobuf::Arena::OnArenaAllocation(v38, (const std::type_info *)&`typeinfo for`unsigned char, 0x40uLL);
     goto LABEL_133;
   }
 LABEL_139:
@@ -6694,7 +6694,7 @@ LABEL_34:
 LABEL_35:
     google::protobuf::Arena::OnArenaAllocation(
       (const google::protobuf::Arena *const)arena,
-      (const std::type_info *)&`typeinfo for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
+      (const std::type_info *)&`typeinfo for`google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ExtMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
       0x40uLL);
 LABEL_21:
     Aligned = (unsigned __int64)google::protobuf::internal::ArenaImpl::AllocateAligned(
@@ -7062,7 +7062,7 @@ LABEL_144:
 LABEL_113:
               google::protobuf::Arena::OnArenaAllocation(
                 (const google::protobuf::Arena *const)arena,
-                (const std::type_info *)&`typeinfo for'google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
+                (const std::type_info *)&`typeinfo for`google::protobuf::internal::MapEntryImpl<proto::PacketHead::PacketHead_ServiceAppIdMapEntry,google::protobuf::Message,unsigned int,unsigned int,(google::protobuf::internal::WireFormatLite::FieldType)13,(google::protobuf::internal::WireFormatLite::FieldType)13,0>::MapEntryWrapper,
                 0x40uLL);
               goto LABEL_99;
             }

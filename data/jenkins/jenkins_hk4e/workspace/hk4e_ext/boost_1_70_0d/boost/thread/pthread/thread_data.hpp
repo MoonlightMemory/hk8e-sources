@@ -160,7 +160,7 @@ void __cdecl boost::detail::interruption_checker::check_for_interruption(
     *((_BYTE *)v4 + 305) = 0;
     exception = __cxa_allocate_exception(1uLL);
     __asan_handle_no_return(1LL);
-    _cxa_throw(exception, (struct type_info *)&`typeinfo for'boost::thread_interrupted, 0LL);
+    _cxa_throw(exception, (struct type_info *)&`typeinfo for`boost::thread_interrupted, 0LL);
   }
 };
 

@@ -53,8 +53,8 @@ LABEL_11:
   v6 = *(const void **)v5;
   result = (const std::ctype<char> *)__dynamic_cast(
                                        *(const void **)v5,
-                                       (const struct __class_type_info *)&`typeinfo for'std::locale::facet,
-                                       (const struct __class_type_info *)&`typeinfo for'std::ctype<char>,
+                                       (const struct __class_type_info *)&`typeinfo for`std::locale::facet,
+                                       (const struct __class_type_info *)&`typeinfo for`std::ctype<char>,
                                        0LL);
   if ( !result )
   {

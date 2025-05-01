@@ -3635,71 +3635,51 @@ std::vector<GameThreadLocal>::reference __fastcall GameserverService::getGameThr
 };
 
 // Line 1006: range 000000001759D3B6-000000001759D5EB
-int32_t __cdecl GameserverService::setPacketGameThreadIndex(
-        GameserverService *const this,
-        common::minet::PacketPtr *p_packet_ptr)
-{
-  unsigned __int64 v2; // rax
-  _BYTE *v3; // rdx
-  common::minet::Packet *v4; // rbx
-  unsigned __int64 v5; // rdx
-  unsigned __int64 v7; // rax
-  _BYTE *v8; // rdx
-  common::milog::MiLogStream *v9; // rbx
-  std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v10; // rax
-  common::milog::MiLogStream *v11; // rax
-  common::milog::MiLogStream *v12; // rbx
-  std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v13; // rax
-  unsigned __int16 CmdId; // [rsp+1Ah] [rbp-36h] BYREF
-  unsigned int val; // [rsp+1Ch] [rbp-34h] BYREF
-  common::milog::MiLogStream v16; // [rsp+20h] [rbp-30h] BYREF
+int32_t GameserverService::setPacketGameThreadIndex(GameserverService *const this, common::minet::PacketPtr *p_packet_ptr) {
+  unsigned int thread_index = 0;
 
-  v2 = ZTWN11ThreadLocal17is_in_work_threadE();
-  v3 = (_BYTE *)v2;
-  if ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) != 0 && (char)(v2 & 7) >= *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
-    __asan_report_load1(v2);
-  if ( *v3 )
-  {
-    v4 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
-    v5 = ZTWN11ThreadLocal17work_thread_indexE();
-    if ( *(_BYTE *)((v5 >> 3) + 0x7FFF8000) != 0 && (char)((v5 & 7) + 3) >= *(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
-      __asan_report_load4();
-LABEL_6:
-    common::minet::Packet::setGameThreadIndex(v4, *(_DWORD *)v5);
-    return 0;
+  // 检查是否在工作线程中
+  if (ThreadLocal::is_in_work_thread()) {
+      thread_index = ThreadLocal::work_thread_index;
   }
-  v7 = ZTWN11ThreadLocal23is_in_async_work_threadE();
-  v8 = (_BYTE *)v7;
-  if ( *(_BYTE *)((v7 >> 3) + 0x7FFF8000) != 0 && (char)(v7 & 7) >= *(_BYTE *)((v7 >> 3) + 0x7FFF8000) )
-    __asan_report_load1(v7);
-  if ( *v8 )
-  {
-    v4 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
-    v5 = ZTWN11ThreadLocal26work_thread_index_in_asyncE();
-    if ( *(_BYTE *)((v5 >> 3) + 0x7FFF8000) != 0 && (char)((v5 & 7) + 3) >= *(_BYTE *)((v5 >> 3) + 0x7FFF8000) )
-      __asan_report_load4();
-    goto LABEL_6;
+  // 如果不在工作线程中，检查是否在异步工作线程中
+  else if (ThreadLocal::is_in_async_work_thread()) {
+      thread_index = ThreadLocal::work_thread_index_in_async;
   }
-  common::milog::MiLogStream::create(
-    &v16,
-    &common::milog::MiLogDefault::default_log_obj_,
-    4u,
-    "./src/gameserver_service.cpp",
-    "setPacketGameThreadIndex",
-    1017);
-  v9 = common::milog::MiLogStream::operator<<<char [30],(char *[30])0>(
-         &v16,
-         (const char (*)[30])"packet in unknown thread,uid:");
-  v10 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
-  val = common::minet::Packet::getUserId(v10);
-  v11 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v9, &val);
-  v12 = common::milog::MiLogStream::operator<<<char [8],(char *[8])0>(v11, (const char (*)[8])"cmd_id:");
-  v13 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)p_packet_ptr);
-  CmdId = common::minet::Packet::getCmdId(v13);
-  common::milog::MiLogStream::operator<<<unsigned short,(unsigned short *)0>(v12, &CmdId);
-  common::milog::MiLogStream::~MiLogStream(&v16);
-  return -1;
-};
+  // 如果既不在工作线程也不在异步工作线程中
+  else {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          4u, // 日志级别
+          "./src/gameserver_service.cpp",
+          "setPacketGameThreadIndex",
+          1017
+      );
+
+      // 记录用户 ID 和命令 ID
+      common::milog::MiLogStream::operator<<<char [30],(char *[30])0>(
+          &log_stream,
+          "packet in unknown thread,uid:"
+      );
+      uint32_t user_id = common::minet::Packet::getUserId(p_packet_ptr.get());
+      common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(&log_stream, &user_id);
+
+      common::milog::MiLogStream::operator<<<char [8],(char *[8])0>(&log_stream, "cmd_id:");
+      uint16_t cmd_id = common::minet::Packet::getCmdId(p_packet_ptr.get());
+      common::milog::MiLogStream::operator<<<unsigned short,(unsigned short *)0>(&log_stream, &cmd_id);
+
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return -1; // 返回错误码
+  }
+
+  // 设置数据包的游戏线程索引
+  common::minet::Packet *packet = p_packet_ptr.get();
+  common::minet::Packet::setGameThreadIndex(packet, thread_index);
+
+  return 0; // 成功返回
+}
 
 // Line 1022: range 000000001759D5EC-000000001759D869
 uint32_t __cdecl GameserverService::getTargetUidFromLogin(

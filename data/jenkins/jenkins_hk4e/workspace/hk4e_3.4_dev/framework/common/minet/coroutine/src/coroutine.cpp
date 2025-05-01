@@ -1976,7 +1976,7 @@ LABEL_145:
     __asan_handle_no_return(v79);
     _cxa_throw(
       (void *)exception,
-      (struct type_info *)&`typeinfo for`boost::context::detail::forced_unwind,
+      (struct type_info *)&`typeinfo for'boost::context::detail::forced_unwind,
       (void (__fastcall *)(void *))boost::context::detail::forced_unwind::~forced_unwind);
   }
   v64 = *(_QWORD *)v63;

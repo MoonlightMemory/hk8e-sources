@@ -2937,101 +2937,63 @@ void __cdecl Player::monitorPlayerBin(Player *const this, const std::string *bin
 };
 
 // Line 710: range 000000001713485C-0000000017134B6C
-int32_t __cdecl Player::internalSaveToDb(Player *const this)
-{
-  unsigned __int64 v1; // rbx
-  __int64 v2; // rax
-  unsigned __int64 v3; // r12
-  PlayerBasicComp *BasicComp; // rax
-  google::protobuf::uint32 PlayerStatId; // eax
-  proto::PlayerData *v6; // rdx
-  common::milog::MiLogStream *v7; // rdx
-  int32_t v8; // r14d
-  int v9; // eax
-  uint32_t uid; // eax
-  common::milog::MiLogStream *v11; // rdx
-  int32_t result; // eax
-  common::milog::MiLogStream v13; // [rsp+20h] [rbp-B0h] BYREF
-  char v14[144]; // [rsp+40h] [rbp-90h] BYREF
-  std::pair<unsigned int,unsigned int> last_gate_session; // 0:rsi.8
+int32_t Player::internalSaveToDb() {
+  // 创建栈空间并初始化变量
+  char buffer[96]; // 假设的栈缓冲区
+  proto::SavePlayerDataReq req; // 对应反汇编中的 SavePlayerDataReq 对象
 
-  v1 = (unsigned __int64)v14;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v2 = __asan_stack_malloc_1(96LL);
-    if ( v2 )
-      v1 = v2;
+  // 获取玩家的基本组件
+  PlayerBasicComp* basicComp = this->getBasicComp();
+  if (!basicComp) {
+      return -1; // 如果获取失败，直接返回错误码
   }
-  *(_QWORD *)v1 = 1102416563LL;
-  *(_QWORD *)(v1 + 8) = "1 32 32 7 req:711";
-  *(_QWORD *)(v1 + 16) = Player::internalSaveToDb;
-  v3 = v1 >> 3;
-  *(_DWORD *)(v3 + 2147450880) = -235802127;
-  *(_DWORD *)(v3 + 2147450888) = -202116109;
-  proto::SavePlayerDataReq::SavePlayerDataReq((proto::SavePlayerDataReq *const)(v1 + 32));
-  BasicComp = Player::getBasicComp(this);
-  PlayerStatId = PlayerBasicComp::getPlayerStatId(BasicComp);
-  proto::SavePlayerDataReq::set_save_stat_id((proto::SavePlayerDataReq *const)(v1 + 32), PlayerStatId);
-  v6 = proto::SavePlayerDataReq::mutable_player_data((proto::SavePlayerDataReq *const)(v1 + 32));
-  if ( Player::toBin(this, v6) )
-  {
-    common::milog::MiLogStream::create(
-      &v13,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "./src/player/player.cpp",
-      "internalSaveToDb",
-      716);
-    v7 = common::milog::MiLogStream::operator<<<char [12],(char *[12])0>(&v13, (const char (*)[12])"toBin fails");
-    operator<<(v7, this);
-    common::milog::MiLogStream::~MiLogStream(&v13);
-    v8 = -1;
+
+  // 设置保存的玩家状态 ID
+  google::protobuf::uint32 playerStatId = basicComp->getPlayerStatId();
+  req.set_save_stat_id(playerStatId);
+
+  // 调用 toBin 方法将玩家数据序列化到 req 中
+  proto::PlayerData* playerData = req.mutable_player_data();
+  if (this->toBin(playerData) != 0) {
+      // 记录日志：toBin 失败
+      common::milog::MiLogStream logStream;
+      logStream.create(
+          &common::milog::MiLogDefault::default_log_obj_,
+          4u,
+          "./src/player/player.cpp",
+          "internalSaveToDb",
+          716
+      );
+      logStream << "toBin fails";
+      logStream << this;
+      logStream.~MiLogStream();
+      return -1; // 返回错误码
   }
-  else
-  {
-    v9 = *(unsigned __int8 *)(((unsigned __int64)&this->uid_ >> 3) + 0x7FFF8000);
-    if ( (_BYTE)v9 != 0 && (char)v9 <= 3 )
-      __asan_report_load4(&this->uid_);
-    uid = this->uid_;
-    if ( *(_BYTE *)(((unsigned __int64)&this->last_gate_session_ >> 3) + 0x7FFF8000) )
-      __asan_report_load8();
-    last_gate_session = this->last_gate_session_;
-    if ( Player::saveToDb(uid, last_gate_session, (proto::SavePlayerDataReq *)(v1 + 32)) )
-    {
-      common::milog::MiLogStream::create(
-        &v13,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "./src/player/player.cpp",
-        "internalSaveToDb",
-        722);
-      v11 = common::milog::MiLogStream::operator<<<char [27],(char *[27])0>(
-              &v13,
-              (const char (*)[27])"work thread saveToDb fails");
-      operator<<(v11, this);
-      common::milog::MiLogStream::~MiLogStream(&v13);
-      v8 = -1;
-    }
-    else
-    {
-      v8 = 0;
-    }
+
+  // 读取玩家 UID 和最后的网关会话信息
+  uint32_t uid = this->uid_;
+  std::pair<unsigned int, unsigned int> lastGateSession = this->last_gate_session_;
+
+  // 调用 saveToDb 方法保存数据到数据库
+  if (this->saveToDb(uid, lastGateSession, &req) != 0) {
+      // 记录日志：work thread saveToDb 失败
+      common::milog::MiLogStream logStream;
+      logStream.create(
+          &common::milog::MiLogDefault::default_log_obj_,
+          4u,
+          "./src/player/player.cpp",
+          "internalSaveToDb",
+          722
+      );
+      logStream << "work thread saveToDb fails";
+      logStream << this;
+      logStream.~MiLogStream();
+      return -1; // 返回错误码
   }
-  proto::SavePlayerDataReq::~SavePlayerDataReq((proto::SavePlayerDataReq *const)(v1 + 32));
-  result = v8;
-  if ( v14 == (char *)v1 )
-  {
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8000) = 0;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8008) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v1 = 1172321806LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8008) = -168430091;
-  }
-  return result;
-};
+
+  // 正常流程结束，返回成功
+  return 0;
+}
 
 // Line 730: range 0000000017134B6E-000000001713541E
 // local variable allocation has failed, the output may be wrong!
@@ -3249,186 +3211,90 @@ int32_t __cdecl Player::internalAsyncSaveToDb(Player *const this)
 };
 
 // Line 779: range 0000000017135420-0000000017135C58
-int32_t __cdecl Player::toBin(Player *const this, proto::PlayerData *data)
+int32_t Player::toBin(Player *const this, proto::PlayerData *data)
 {
-  int32_t v2; // r14d
-  unsigned __int64 v3; // r13
-  __int64 v4; // rax
-  _DWORD *v5; // rbx
-  common::milog::MiLogStream *v6; // r14
-  int v7; // r15d
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v8; // rdx
-  bool *p_is_open_compress; // rax
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v10; // rax
-  char v11; // al
-  unsigned int v12; // r15d
-  __int64 v13; // rsi
-  int32_t result; // eax
-  unsigned int val; // [rsp+20h] [rbp-460h] BYREF
-  uint32_t before_length; // [rsp+24h] [rbp-45Ch]
-  std::string *bin_str; // [rsp+30h] [rbp-450h]
-  std::string *extra_bin_str; // [rsp+38h] [rbp-448h]
-  std::string *before_login_bin_str; // [rsp+40h] [rbp-440h]
-  std::string v20; // [rsp+50h] [rbp-430h] BYREF
-  common::milog::MiLogStream v21; // [rsp+70h] [rbp-410h] BYREF
-  char v22[1008]; // [rsp+90h] [rbp-3F0h] BYREF
+    common::tools::TimeUtils::Timer timer;
+    timer.start();
 
-  v3 = (unsigned __int64)v22;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v4 = __asan_stack_malloc_4(960LL);
-    if ( v4 )
-      v3 = v4;
-  }
-  *(_QWORD *)v3 = 1102416563LL;
-  *(_QWORD *)(v3 + 8) = "5 32 16 9 timer:782 64 16 14 config_ptr:804 96 40 20 before_login_bin:787 176 96 13 extra_bin:78"
-                        "6 304 520 12 data_bin:785";
-  *(_QWORD *)(v3 + 16) = Player::toBin;
-  v5 = (_DWORD *)(v3 >> 3);
-  v5[536862720] = -235802127;
-  v5[536862721] = -219021312;
-  v5[536862722] = -219021312;
-  v5[536862724] = -218959360;
-  v5[536862725] = 62194;
-  v5[536862728] = -219021312;
-  v5[536862729] = 62194;
-  v5[536862745] = -218103808;
-  v5[536862746] = -202116109;
-  v5[536862747] = -202116109;
-  v5[536862748] = -202116109;
-  v5[536862749] = -202116109;
-  common::tools::TimeUtils::Timer::Timer((common::tools::TimeUtils::Timer *const)(v3 + 32));
-  proto::PlayerDataBin::PlayerDataBin((proto::PlayerDataBin *const)(v3 + 304));
-  proto::PlayerExtraBinData::PlayerExtraBinData((proto::PlayerExtraBinData *const)(v3 + 176));
-  proto::PlayerBeforeLoginBinData::PlayerBeforeLoginBinData((proto::PlayerBeforeLoginBinData *const)(v3 + 96));
-  if ( Player::fillPlayerDataProto(
-         this,
-         data,
-         (proto::PlayerDataBin *)(v3 + 304),
-         (proto::PlayerExtraBinData *)(v3 + 176),
-         (proto::PlayerBeforeLoginBinData *)(v3 + 96)) )
-  {
+    std::shared_ptr<Config> config_ptr = ServiceBox::findService<GameserverService>()->getConfig();
+    proto::PlayerDataBin data_bin;
+    proto::PlayerExtraBinData extra_bin;
+    proto::PlayerBeforeLoginBinData before_login_bin;
+
+    // 填充数据到各个 proto 对象中
+    if (this->fillPlayerDataProto(data, &data_bin, &extra_bin, &before_login_bin))
+    {
+        common::milog::MiLogStream log_stream;
+        common::milog::MiLogStream::create(
+            &log_stream,
+            &common::milog::MiLogDefault::default_log_obj_,
+            4u,
+            "./src/player/player.cpp",
+            "toBin",
+            791);
+        common::milog::MiLogStream::operator<<<char [33],(char *[33])0>(
+            &log_stream,
+            (const char (*)[33])"fillPlayerDataProto failed, uid:");
+        common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(&log_stream, &this->uid_);
+        common::milog::MiLogStream::~MiLogStream(&log_stream);
+        return -1;
+    }
+
+    // 序列化二进制数据
+    std::string *bin_str = proto::PlayerData::mutable_bin(data);     // 获取 bin 字段
+    std::string *extra_bin_str = proto::PlayerData::mutable_extra_bin_data(data);
+    std::string *before_login_bin_str = proto::PlayerData::mutable_before_login_bin_data(data);
+
+    google::protobuf::MessageLite::SerializeToString(&data_bin, bin_str);
+    google::protobuf::MessageLite::SerializeToString(&extra_bin, extra_bin_str);
+    google::protobuf::MessageLite::SerializeToString(&before_login_bin, before_login_bin_str);
+
+    uint32_t before_length = bin_str->length();  // 记录压缩前长度
+
+    // 判断是否启用压缩
+    bool is_compress_enabled = config_ptr->is_open_compress && before_length > config_ptr->min_compress_size;
+
+    if (is_compress_enabled)
+    {
+        std::string compressed;
+        common::tools::ZlibUtil::compressWithPad(&compressed, bin_str, -1);  // 使用 zlib 压缩
+        *bin_str = compressed;  // 覆盖原始数据为压缩后的内容
+    }
+
+    // 日志记录压缩信息
+    common::milog::MiLogStream log_stream;
     common::milog::MiLogStream::create(
-      &v21,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "./src/player/player.cpp",
-      "toBin",
-      791);
-    v6 = common::milog::MiLogStream::operator<<<char [33],(char *[33])0>(
-           &v21,
-           (const char (*)[33])"fillPlayerDataProto failed, uid:");
-    val = Player::getUid(this);
-    common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v6, &val);
-    common::milog::MiLogStream::~MiLogStream(&v21);
-    v2 = -1;
-    v7 = 0;
-  }
-  else
-  {
-    bin_str = proto::PlayerData::mutable_bin[abi:cxx11](data);
-    extra_bin_str = proto::PlayerData::mutable_extra_bin_data[abi:cxx11](data);
-    before_login_bin_str = proto::PlayerData::mutable_before_login_bin_data[abi:cxx11](data);
-    google::protobuf::MessageLite::SerializeToString((const google::protobuf::MessageLite *const)(v3 + 304), bin_str);
-    google::protobuf::MessageLite::SerializeToString(
-      (const google::protobuf::MessageLite *const)(v3 + 176),
-      extra_bin_str);
-    google::protobuf::MessageLite::SerializeToString(
-      (const google::protobuf::MessageLite *const)(v3 + 96),
-      before_login_bin_str);
-    before_length = std::string::length(bin_str);
-    ServiceBox::findService<GameserverService>();
-    GameserverService::getConfig((GameserverService *const)(v3 + 64));
-    v8 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v3 + 64));
-    p_is_open_compress = &v8->is_open_compress;
-    if ( *(_BYTE *)(((unsigned __int64)p_is_open_compress >> 3) + 0x7FFF8000) != 0
-      && ((unsigned __int8)p_is_open_compress & 7) >= *(_BYTE *)(((unsigned __int64)p_is_open_compress >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load1(p_is_open_compress);
-    }
-    if ( !v8->is_open_compress )
-      goto LABEL_13;
-    v10 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v3 + 64));
-    if ( *(_BYTE *)(((unsigned __int64)&v10->min_compress_size >> 3) + 0x7FFF8000) != 0
-      && *(_BYTE *)(((unsigned __int64)&v10->min_compress_size >> 3) + 0x7FFF8000) <= 3 )
-    {
-      __asan_report_load4(&v10->min_compress_size);
-    }
-    if ( before_length > v10->min_compress_size )
-      v11 = 1;
-    else
-LABEL_13:
-      v11 = 0;
-    if ( v11 )
-    {
-      common::tools::ZlibUtil::compressWithPad(&v20, bin_str, -1);
-      std::string::operator=(bin_str, &v20);
-      std::string::~string(&v20);
-      common::milog::MiLogStream::create(
-        &v21,
+        &log_stream,
         &common::milog::MiLogDefault::default_log_obj_,
         1u,
         "./src/player/player.cpp",
         "toBin",
         808);
-      v12 = common::tools::TimeUtils::Timer::time((const common::tools::TimeUtils::Timer *const)(v3 + 32));
-      v13 = std::string::length(bin_str);
-      if ( *(_BYTE *)(((unsigned __int64)&this->uid_ >> 3) + 0x7FFF8000) != 0
-        && *(_BYTE *)(((unsigned __int64)&this->uid_ >> 3) + 0x7FFF8000) <= 3 )
-      {
-        __asan_report_load4(&this->uid_);
-      }
-      common::milog::MiLogStream::operator()(
-        &v21,
-        "uid=%u bin compress before=%u after=%lu,time_cost=%u.",
+
+    uint32_t time_cost = timer.time();
+    uint32_t after_length = bin_str->length();
+    proto::PlayerData::set_uid(data, this->uid_);
+    proto::PlayerData::set_last_login_time(data, this->getBasicComp()->getCurLoginTime());
+    proto::PlayerData::set_level(data, this->getBasicComp()->getLevel());
+
+    common::milog::MiLogStream::operator()(
+        &log_stream,
+        "uid=%u bin compress before=%u after=%lu, time_cost=%u.",
         this->uid_,
         before_length,
-        v13,
-        v12);
-      common::milog::MiLogStream::~MiLogStream(&v21);
-    }
-    Player::monitorPlayerBin(this, bin_str);
-    std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)(v3 + 64));
-    v7 = 1;
-  }
-  proto::PlayerBeforeLoginBinData::~PlayerBeforeLoginBinData((proto::PlayerBeforeLoginBinData *const)(v3 + 96));
-  proto::PlayerExtraBinData::~PlayerExtraBinData((proto::PlayerExtraBinData *const)(v3 + 176));
-  proto::PlayerDataBin::~PlayerDataBin((proto::PlayerDataBin *const)(v3 + 304));
-  common::tools::TimeUtils::Timer::~Timer((common::tools::TimeUtils::Timer *const)(v3 + 32));
-  if ( v7 == 1 )
-    v2 = 0;
-  result = v2;
-  if ( v22 == (char *)v3 )
-  {
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0LL;
-    *(_DWORD *)((v3 >> 3) + 0x7FFF8008) = 0;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8010) = 0LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8020) = 0LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8064) = 0LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF806C) = 0LL;
-    *(_DWORD *)((v3 >> 3) + 0x7FFF8074) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v3 = 1172321806LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8038) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8040) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8048) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8050) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8058) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8060) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8068) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8070) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return result;
-};
+        after_length,
+        time_cost);
+
+    common::milog::MiLogStream::~MiLogStream(&log_stream);
+
+    // 监控玩家数据大小
+    this->monitorPlayerBin(this, bin_str);
+
+    // 清理临时对象
+    std::shared_ptr<Config>::~shared_ptr(&config_ptr);
+
+    return 0;
+}
 
 // Line 822: range 0000000017135C5A-0000000017136589
 int32_t __cdecl Player::asyncSaveToDb(common::minet::PacketPtr *p_packet_ptr, std::any *p_context)
@@ -6014,367 +5880,272 @@ int32_t __cdecl Player::saveToDb(Player *const this)
 };
 
 // Line 1507: range 000000001713C3F2-000000001713C861
-int32_t __cdecl Player::savePlayerDataToDB(Player *const this)
-{
-  unsigned __int64 v1; // rbx
-  __int64 v2; // rax
-  unsigned __int64 v3; // r12
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v4; // rdx
-  bool *p_is_async_save; // rax
-  common::milog::MiLogStream *v6; // rdx
-  int32_t v7; // r14d
-  common::milog::MiLogStream *v8; // rdx
-  __int64 v9; // rsi
-  __int64 v10; // rdx
-  uint64_t NowMs; // rax
-  common::milog::MiLogStream *v12; // rax
-  common::milog::MiLogStream *v13; // rax
-  common::milog::MiLogStream *v14; // rax
-  int32_t result; // eax
-  common::milog::MiLogStream v16; // [rsp+10h] [rbp-90h] BYREF
-  char v17[112]; // [rsp+30h] [rbp-70h] BYREF
+#include <memory>
+#include <string>
+#include "common/milog/MiLog.h"
+#include "gameserver/service/gameserver_service.h"
+#include "config/config.h"
+#include "common/tools/TimeUtils.h"
 
-  v1 = (unsigned __int64)v17;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v2 = __asan_stack_malloc_0(64LL);
-    if ( v2 )
-      v1 = v2;
-  }
-  *(_QWORD *)v1 = 1102416563LL;
-  *(_QWORD *)(v1 + 8) = "1 32 16 15 config_ptr:1516";
-  *(_QWORD *)(v1 + 16) = Player::savePlayerDataToDB;
-  v3 = v1 >> 3;
-  *(_DWORD *)(v3 + 2147450880) = -235802127;
-  *(_DWORD *)(v3 + 2147450884) = -202178560;
-  if ( *(_BYTE *)(((unsigned __int64)&this->login_state_ >> 3) + 0x7FFF8000) != 0
-    && (char)((((_BYTE)this - 60) & 7) + 3) >= *(_BYTE *)(((unsigned __int64)&this->login_state_ >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load4(&this->login_state_);
-  }
-  if ( this->login_state_ == Login )
-  {
-    if ( *(_BYTE *)(((unsigned __int64)&this->data_version_ >> 3) + 0x7FFF8000) != 0
-      && *(_BYTE *)(((unsigned __int64)&this->data_version_ >> 3) + 0x7FFF8000) <= 3 )
-    {
-      __asan_report_load4(&this->data_version_);
+int32_t Player::savePlayerDataToDB() {
+    uint64_t v1; // 栈变量指针
+    char buffer[64]; // 用于栈分配的临时缓冲区
+
+    // 初始化栈变量
+    v1 = reinterpret_cast<uint64_t>(buffer);
+    if (_asan_option_detect_stack_use_after_return) {
+        v1 = __asan_stack_malloc_0(64);
     }
-    ++this->data_version_;
-  }
-  ServiceBox::findService<GameserverService>();
-  GameserverService::getConfig((GameserverService *const)(v1 + 32));
-  v4 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v1 + 32));
-  p_is_async_save = &v4->is_async_save;
-  if ( *(_BYTE *)(((unsigned __int64)p_is_async_save >> 3) + 0x7FFF8000) != 0
-    && ((unsigned __int8)p_is_async_save & 7) >= *(_BYTE *)(((unsigned __int64)p_is_async_save >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load1(p_is_async_save);
-  }
-  if ( v4->is_async_save )
-  {
-    if ( Player::internalAsyncSaveToDb(this) )
-    {
-      common::milog::MiLogStream::create(
-        &v16,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "./src/player/player.cpp",
-        "savePlayerDataToDB",
-        1521);
-      v6 = common::milog::MiLogStream::operator<<<char [28],(char *[28])0>(
-             &v16,
-             (const char (*)[28])"internalAsyncSaveToDb falis");
-      operator<<(v6, this);
-      common::milog::MiLogStream::~MiLogStream(&v16);
-      v7 = -1;
-      goto LABEL_22;
+    *reinterpret_cast<uint64_t*>(v1) = 1102416563LL;
+    *reinterpret_cast<uint64_t*>(v1 + 8) = reinterpret_cast<uint64_t>("1 32 16 15 config_ptr:1516");
+    *reinterpret_cast<uint64_t*>(v1 + 16) = reinterpret_cast<uint64_t>(Player::savePlayerDataToDB);
+    *reinterpret_cast<uint32_t*>(v1 >> 3) = -235802127;
+    *reinterpret_cast<uint32_t*>(v1 >> 3 + 4) = -202178560;
+
+    int32_t result = -1; // 默认返回值为失败
+
+    // 检查玩家登录状态
+    if (*reinterpret_cast<int8_t*>(((reinterpret_cast<uint64_t>(&this->login_state_) >> 3) + 0x7FFF8000)) != 0 &&
+        (((reinterpret_cast<uint8_t>(this) - 60) & 7) + 3) >= *reinterpret_cast<int8_t*>(((reinterpret_cast<uint64_t>(&this->login_state_) >> 3) + 0x7FFF8000))) {
+        __asan_report_load4(&this->login_state_);
     }
-  }
-  else if ( Player::internalSaveToDb(this) )
-  {
-    common::milog::MiLogStream::create(
-      &v16,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "./src/player/player.cpp",
-      "savePlayerDataToDB",
-      1529);
-    v8 = common::milog::MiLogStream::operator<<<char [23],(char *[23])0>(
-           &v16,
-           (const char (*)[23])"internalSaveToDb falis");
-    operator<<(v8, this);
-    common::milog::MiLogStream::~MiLogStream(&v16);
-    v7 = -1;
-    goto LABEL_22;
-  }
-  v9 = ((_BYTE)this - 124) & 7;
-  v10 = (*(_BYTE *)(((unsigned __int64)&this->is_need_save_ >> 3) + 0x7FFF8000) != 0) & (unsigned __int8)((char)v9 >= *(_BYTE *)(((unsigned __int64)&this->is_need_save_ >> 3) + 0x7FFF8000));
-  if ( (_BYTE)v10 )
-    __asan_report_store1(&this->is_need_save_, v9, v10);
-  this->is_need_save_ = 0;
-  NowMs = common::tools::TimeUtils::getNowMs();
-  if ( *(_BYTE *)(((unsigned __int64)&this->last_save_time_ms_ >> 3) + 0x7FFF8000) )
-    NowMs = __asan_report_store8(&this->last_save_time_ms_, v9);
-  this->last_save_time_ms_ = NowMs;
-  common::milog::MiLogStream::create(
-    &v16,
-    &common::milog::MiLogDefault::default_log_obj_,
-    1u,
-    "./src/player/player.cpp",
-    "savePlayerDataToDB",
-    1537);
-  v12 = common::milog::MiLogStream::operator<<<char [53],(char *[53])0>(
-          &v16,
-          (const char (*)[53])"[DATA_VERSION] save to db from player, data_version:");
-  v13 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v12, &this->data_version_);
-  v14 = common::milog::MiLogStream::operator<<<char [7],(char *[7])0>(v13, (const char (*)[7])", uid:");
-  common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v14, &this->uid_);
-  common::milog::MiLogStream::~MiLogStream(&v16);
-  v7 = 0;
-LABEL_22:
-  std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)(v1 + 32));
-  result = v7;
-  if ( v17 == (char *)v1 )
-  {
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0LL;
-  }
-  else
-  {
-    *(_QWORD *)v1 = 1172321806LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return result;
-};
+
+    if (this->login_state_ == Login) {
+        // 如果登录状态为 Login，则递增数据版本号
+        if (*reinterpret_cast<int8_t*>(((reinterpret_cast<uint64_t>(&this->data_version_) >> 3) + 0x7FFF8000)) != 0 &&
+            *reinterpret_cast<int8_t*>(((reinterpret_cast<uint64_t>(&this->data_version_) >> 3) + 0x7FFF8000)) <= 3) {
+            __asan_report_load4(&this->data_version_);
+        }
+        ++this->data_version_;
+    }
+
+    // 获取配置服务
+    ServiceBox::findService<GameserverService>();
+    std::shared_ptr<Config> config_ptr;
+    GameserverService::getConfig(config_ptr);
+
+    auto* config = std::__shared_ptr_access<Config>::operator->(config_ptr.get());
+    bool is_async_save = config->is_async_save;
+
+    if (is_async_save) {
+        // 异步保存到数据库
+        if (this->internalAsyncSaveToDb()) {
+            common::milog::MiLogStream log_stream;
+            common::milog::MiLogStream::create(
+                &log_stream,
+                &common::milog::MiLogDefault::default_log_obj_,
+                4u,
+                "./src/player/player.cpp",
+                "savePlayerDataToDB",
+                1521
+            );
+            common::milog::MiLogStream::operator<<<char[28], (char*[28])0>(
+                &log_stream,
+                "internalAsyncSaveToDb fails"
+            );
+            operator<<<Player*>(&log_stream, this);
+            common::milog::MiLogStream::~MiLogStream(&log_stream);
+            result = -1;
+        } else {
+            result = 0;
+        }
+    } else {
+        // 同步保存到数据库
+        if (this->internalSaveToDb()) {
+            common::milog::MiLogStream log_stream;
+            common::milog::MiLogStream::create(
+                &log_stream,
+                &common::milog::MiLogDefault::default_log_obj_,
+                4u,
+                "./src/player/player.cpp",
+                "savePlayerDataToDB",
+                1529
+            );
+            common::milog::MiLogStream::operator<<<char[23], (char*[23])0>(
+                &log_stream,
+                "internalSaveToDb fails"
+            );
+            operator<<<Player*>(&log_stream, this);
+            common::milog::MiLogStream::~MiLogStream(&log_stream);
+            result = -1;
+        } else {
+            result = 0;
+        }
+    }
+
+    // 更新保存标志和时间戳
+    if (result == 0) {
+        this->is_need_save_ = false;
+
+        uint64_t now_ms = common::tools::TimeUtils::getNowMs();
+        this->last_save_time_ms_ = now_ms;
+
+        // 记录日志
+        common::milog::MiLogStream log_stream;
+        common::milog::MiLogStream::create(
+            &log_stream,
+            &common::milog::MiLogDefault::default_log_obj_,
+            1u,
+            "./src/player/player.cpp",
+            "savePlayerDataToDB",
+            1537
+        );
+        auto* log_msg = common::milog::MiLogStream::operator<<<char[53], (char*[53])0>(
+            &log_stream,
+            "[DATA_VERSION] save to db from player, data_version:"
+        );
+        log_msg = common::milog::MiLogStream::operator<<<unsigned int, unsigned int*>(
+            log_msg,
+            &this->data_version_
+        );
+        log_msg = common::milog::MiLogStream::operator<<<char[7], (char*[7])0>(
+            log_msg,
+            ", uid:"
+        );
+        common::milog::MiLogStream::operator<<<unsigned int, unsigned int*>(
+            log_msg,
+            &this->uid_
+        );
+        common::milog::MiLogStream::~MiLogStream(&log_stream);
+    }
+
+    // 清理资源
+    std::shared_ptr<Config>::~shared_ptr(config_ptr);
+
+    if (buffer == reinterpret_cast<char*>(v1)) {
+        *reinterpret_cast<uint64_t*>((v1 >> 3) + 0x7FFF8000) = 0LL;
+    } else {
+        *reinterpret_cast<uint64_t*>(v1) = 1172321806LL;
+        *reinterpret_cast<uint64_t*>((v1 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
+    }
+
+    return result;
+}
 
 // Line 1542: range 000000001713C862-000000001713D0F0
-__int64 __fastcall Player::saveToDb(
-        uint32_t uid,
-        std::pair<unsigned int,unsigned int> gate_session,
-        proto::SavePlayerDataReq *req)
-{
-  unsigned int v3; // r14d
-  unsigned __int64 v4; // r13
-  __int64 v5; // rax
-  _DWORD *v6; // r12
-  const proto::PlayerData *v7; // rax
-  const std::string *v8; // rax
-  unsigned __int64 v9; // r15
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v10; // rdx
-  uint32_t *p_max_bin_len; // rax
-  const proto::PlayerData *v12; // rax
-  google::protobuf::uint32 v13; // eax
-  int v14; // r15d
-  common::minet::Packet *v15; // rax
-  common::minet::Packet *v16; // rcx
-  common::minet::Packet *v17; // rcx
-  GameserverService *v18; // r15
-  common::minet::PacketPtr v19; // rdi
-  common::milog::MiLogStream *v20; // rax
-  common::milog::MiLogStream *v21; // rax
-  common::milog::MiLogStream *v22; // r15
-  const proto::PlayerData *v23; // rax
-  int v24; // r15d
-  common::minet::Packet *v25; // rax
-  common::minet::Packet *v26; // rcx
-  common::minet::Packet *v27; // rcx
-  GameserverService *v28; // r15
-  unsigned __int64 v29; // rdx
-  GameserverService *v30; // r15
-  NetworkMgrBase *v31; // r15
-  uint32_t v32; // r8d
-  __int64 result; // rax
-  unsigned int val; // [rsp+2Ch] [rbp-144h] BYREF
-  std::shared_ptr<common::minet::Packet> p_packet_ptr; // [rsp+30h] [rbp-140h] BYREF
-  common::milog::MiLogStream v37; // [rsp+40h] [rbp-130h] BYREF
-  char v38[272]; // [rsp+60h] [rbp-110h] BYREF
+#include <memory>
+#include <string>
+#include <utility>
+#include "proto/save_player_data.pb.h"
+#include "common/milog/MiLog.h"
+#include "gameserver/service/gameserver_service.h"
+#include "network/network_mgr_base.h"
+#include "config/config.h"
 
-  v4 = (unsigned __int64)v38;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v5 = __asan_stack_malloc_2(224LL);
-    if ( v5 )
-      v4 = v5;
-  }
-  *(_QWORD *)v4 = 1102416563LL;
-  *(_QWORD *)(v4 + 8) = "5 48 4 8 uid:1541 64 8 17 gate_session:1541 96 16 15 config_ptr:1546 128 16 15 packet_ptr:1567 1"
-                        "60 32 8 rsp:1549";
-  *(_QWORD *)(v4 + 16) = Player::saveToDb;
-  v6 = (_DWORD *)(v4 >> 3);
-  v6[536862720] = -235802127;
-  v6[536862721] = -234556943;
-  v6[536862722] = -218959360;
-  v6[536862723] = -219021312;
-  v6[536862724] = -219021312;
-  v6[536862726] = -202116109;
-  *(_DWORD *)(v4 + 48) = uid;
-  *(std::pair<unsigned int,unsigned int> *)(v4 + 64) = gate_session;
-  ServiceBox::findService<GameserverService>();
-  GameserverService::getConfig((GameserverService *const)(v4 + 96));
-  v7 = proto::SavePlayerDataReq::player_data(req);
-  v8 = proto::PlayerData::bin[abi:cxx11](v7);
-  v9 = std::string::length(v8);
-  v10 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 96));
-  p_max_bin_len = &v10->max_bin_len;
-  if ( *(_BYTE *)(((unsigned __int64)p_max_bin_len >> 3) + 0x7FFF8000) != 0
-    && (char)(((unsigned __int8)p_max_bin_len & 7) + 3) >= *(_BYTE *)(((unsigned __int64)p_max_bin_len >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load4(p_max_bin_len);
-  }
-  if ( v9 <= v10->max_bin_len )
-  {
-    common::minet::PacketUtils::createPacket<proto::SavePlayerDataReq>((const proto::SavePlayerDataReq *)(v4 + 128));
-    if ( std::operator==<common::minet::Packet>(0LL, (const std::shared_ptr<common::minet::Packet> *)(v4 + 128)) )
-    {
-      common::milog::MiLogStream::create(
-        &v37,
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/player/player.cpp",
-        "saveToDb",
-        1570);
-      common::milog::MiLogStream::operator()(&v37, "create packet failed");
-      common::milog::MiLogStream::~MiLogStream(&v37);
-      v3 = -1;
-      v24 = 0;
+int64_t Player::saveToDb(uint32_t uid, std::pair<unsigned int, unsigned int> gate_session, proto::SavePlayerDataReq* req) {
+    uint32_t v3 = -1; // 返回值，默认为失败
+    char buffer[224]; // 用于栈分配的临时缓冲区
+    std::shared_ptr<common::minet::Packet> packet_ptr;
+    proto::SavePlayerDataRsp rsp;
+
+    // 初始化局部变量
+    *reinterpret_cast<uint32_t*>(buffer + 48) = uid;
+    *reinterpret_cast<std::pair<unsigned int, unsigned int>*>(buffer + 64) = gate_session;
+
+    // 获取配置服务
+    ServiceBox::findService<GameserverService>();
+    std::shared_ptr<Config> config_ptr;
+    GameserverService::getConfig(config_ptr);
+
+    // 检查 player_data 的 bin 长度是否超出限制
+    const proto::PlayerData* player_data = proto::SavePlayerDataReq::player_data(req);
+    const std::string* bin_data = proto::PlayerData::bin(player_data);
+    size_t bin_length = std::string::length(bin_data);
+
+    auto* config = std::__shared_ptr_access<Config>::operator->(config_ptr.get());
+    if (bin_length > config->max_bin_len) {
+        // 如果超出限制，构造 SavePlayerDataRsp 并返回
+        proto::SavePlayerDataRsp::SavePlayerDataRsp(&rsp);
+        proto::SavePlayerDataRsp::set_retcode(&rsp, 0);
+        proto::SavePlayerDataRsp::set_data_version(&rsp, proto::PlayerData::data_version(player_data));
+
+        common::minet::PacketUtils::createPacket<proto::SavePlayerDataRsp>(&packet_ptr, &rsp);
+        if (!packet_ptr) {
+            common::milog::MiLogStream log_stream;
+            common::milog::MiLogStream::create(
+                &log_stream,
+                &common::milog::MiLogDefault::default_log_obj_,
+                3u,
+                "./src/player/player.cpp",
+                "saveToDb",
+                1555
+            );
+            common::milog::MiLogStream::operator()(&log_stream, "create packet failed");
+            common::milog::MiLogStream::~MiLogStream(&log_stream);
+            return -1;
+        }
+
+        // 设置 Packet 的用户信息
+        auto* packet = std::__shared_ptr_access<common::minet::Packet>::operator->(packet_ptr.get());
+        common::minet::Packet::setUserId(packet, uid);
+        common::minet::Packet::setUserSessionId(packet, gate_session.second);
+        common::minet::Packet::setServiceAppId(packet, 2u, gate_session.first);
+
+        // 发送 Packet 到游戏服务线程
+        GameserverService* gameserver_service = ServiceBox::findService<GameserverService>();
+        gameserver_service->setPacketGameThreadIndex(packet_ptr);
+
+        // 推送 Packet 到服务
+        ServiceBox::pushPacketToService(packet_ptr);
+
+        // 记录日志
+        common::milog::MiLogStream log_stream;
+        common::milog::MiLogStream::create(
+            &log_stream,
+            &common::milog::MiLogDefault::default_log_obj_,
+            6u,
+            "./src/player/player.cpp",
+            "saveToDb",
+            1563
+        );
+        common::milog::MiLogStream::operator()(
+            &log_stream,
+            "make fake SavePlayerDataRsp for uid: %u, data_version: %u",
+            uid,
+            proto::PlayerData::data_version(player_data)
+        );
+        common::milog::MiLogStream::~MiLogStream(&log_stream);
+
+        // 清理资源
+        proto::SavePlayerDataRsp::~SavePlayerDataRsp(&rsp);
+        return 0;
     }
-    else
-    {
-      v25 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      common::minet::Packet::setUserId(v25, *(_DWORD *)(v4 + 48));
-      v26 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      if ( *(_BYTE *)(((v4 + 68) >> 3) + 0x7FFF8000) != 0
-        && (char)(((v4 - 32 + 100) & 7) + 3) >= *(_BYTE *)(((v4 + 68) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_load4(v4 + 68);
-      }
-      common::minet::Packet::setUserSessionId(v26, *(_DWORD *)(v4 + 68));
-      v27 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      if ( *(_BYTE *)(((v4 + 64) >> 3) + 0x7FFF8000) != 0
-        && (char)(((v4 - 32 + 96) & 7) + 3) >= *(_BYTE *)(((v4 + 64) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_load4(v4 + 64);
-      }
-      common::minet::Packet::setServiceAppId(v27, 2u, *(_DWORD *)(v4 + 64));
-      v28 = ServiceBox::findService<GameserverService>();
-      std::shared_ptr<common::minet::Packet>::shared_ptr(
-        &p_packet_ptr,
-        (const std::shared_ptr<common::minet::Packet> *)(v4 + 128));
-      ServiceBase::setPacketSource(v28, (common::minet::PacketPtr)__PAIR128__(v29, &p_packet_ptr));
-      std::shared_ptr<common::minet::Packet>::~shared_ptr(&p_packet_ptr);
-      v30 = ServiceBox::findService<GameserverService>();
-      std::shared_ptr<common::minet::Packet>::shared_ptr(
-        &p_packet_ptr,
-        (const std::shared_ptr<common::minet::Packet> *)(v4 + 128));
-      GameserverService::setPacketGameThreadIndex(v30, &p_packet_ptr);
-      std::shared_ptr<common::minet::Packet>::~shared_ptr(&p_packet_ptr);
-      v31 = std::__shared_ptr_access<NetworkMgrBase,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<NetworkMgrBase,(__gnu_cxx::_Lock_policy)2,false,false> *const)&ResourceBox::network_mgr_ptr);
-      std::shared_ptr<common::minet::Packet>::shared_ptr(
-        &p_packet_ptr,
-        (const std::shared_ptr<common::minet::Packet> *)(v4 + 128));
-      NetworkMgrBase::sendPacketToTargetService(v31, (common::minet::PacketPtr)__PAIR128__(5LL, &p_packet_ptr), 0, v32);
-      std::shared_ptr<common::minet::Packet>::~shared_ptr(&p_packet_ptr);
-      v24 = 1;
+
+    // 创建 Packet 并发送到目标服务
+    common::minet::PacketUtils::createPacket<proto::SavePlayerDataReq>(&packet_ptr, req);
+    if (!packet_ptr) {
+        common::milog::MiLogStream log_stream;
+        common::milog::MiLogStream::create(
+            &log_stream,
+            &common::milog::MiLogDefault::default_log_obj_,
+            3u,
+            "./src/player/player.cpp",
+            "saveToDb",
+            1570
+        );
+        common::milog::MiLogStream::operator()(&log_stream, "create packet failed");
+        common::milog::MiLogStream::~MiLogStream(&log_stream);
+        return -1;
     }
-    std::shared_ptr<common::minet::Packet>::~shared_ptr((std::shared_ptr<common::minet::Packet> *const)(v4 + 128));
-    if ( v24 == 1 )
-      goto LABEL_24;
-  }
-  else
-  {
-    proto::SavePlayerDataRsp::SavePlayerDataRsp((proto::SavePlayerDataRsp *const)(v4 + 160));
-    proto::SavePlayerDataRsp::set_retcode((proto::SavePlayerDataRsp *const)(v4 + 160), 0);
-    v12 = proto::SavePlayerDataReq::player_data(req);
-    v13 = proto::PlayerData::data_version(v12);
-    proto::SavePlayerDataRsp::set_data_version((proto::SavePlayerDataRsp *const)(v4 + 160), v13);
-    common::minet::PacketUtils::createPacket<proto::SavePlayerDataRsp>((const proto::SavePlayerDataRsp *)(v4 + 128));
-    if ( std::operator==<common::minet::Packet>(0LL, (const std::shared_ptr<common::minet::Packet> *)(v4 + 128)) )
-    {
-      common::milog::MiLogStream::create(
-        &v37,
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/player/player.cpp",
-        "saveToDb",
-        1555);
-      common::milog::MiLogStream::operator()(&v37, "create packet failed");
-      common::milog::MiLogStream::~MiLogStream(&v37);
-      v3 = -1;
-      v14 = 0;
-    }
-    else
-    {
-      v15 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      common::minet::Packet::setUserId(v15, *(_DWORD *)(v4 + 48));
-      v16 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      if ( *(_BYTE *)(((v4 + 68) >> 3) + 0x7FFF8000) != 0
-        && (char)(((v4 - 32 + 100) & 7) + 3) >= *(_BYTE *)(((v4 + 68) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_load4(v4 + 68);
-      }
-      common::minet::Packet::setUserSessionId(v16, *(_DWORD *)(v4 + 68));
-      v17 = std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<common::minet::Packet,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v4 + 128));
-      if ( *(_BYTE *)(((v4 + 64) >> 3) + 0x7FFF8000) != 0
-        && (char)(((v4 - 32 + 96) & 7) + 3) >= *(_BYTE *)(((v4 + 64) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_load4(v4 + 64);
-      }
-      common::minet::Packet::setServiceAppId(v17, 2u, *(_DWORD *)(v4 + 64));
-      v18 = ServiceBox::findService<GameserverService>();
-      std::shared_ptr<common::minet::Packet>::shared_ptr(
-        &p_packet_ptr,
-        (const std::shared_ptr<common::minet::Packet> *)(v4 + 128));
-      GameserverService::setPacketGameThreadIndex(v18, &p_packet_ptr);
-      std::shared_ptr<common::minet::Packet>::~shared_ptr(&p_packet_ptr);
-      v19._M_refcount._M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)(v4 + 128);
-      std::shared_ptr<common::minet::Packet>::shared_ptr(
-        &p_packet_ptr,
-        (const std::shared_ptr<common::minet::Packet> *)(v4 + 128));
-      v19._M_ptr = (std::__shared_ptr<common::minet::Packet,(__gnu_cxx::_Lock_policy)2>::element_type *)&p_packet_ptr;
-      ServiceBox::pushPacketToService(v19);
-      std::shared_ptr<common::minet::Packet>::~shared_ptr(&p_packet_ptr);
-      common::milog::MiLogStream::create(
-        &v37,
-        &common::milog::MiLogDefault::default_log_obj_,
-        6u,
-        "./src/player/player.cpp",
-        "saveToDb",
-        1563);
-      v20 = common::milog::MiLogStream::operator<<<char [37],(char *[37])0>(
-              &v37,
-              (const char (*)[37])"make fake SavePlayerDataRsp for uid:");
-      v21 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v20, (const unsigned int *)(v4 + 48));
-      v22 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(v21, (const char (*)[16])", data_version:");
-      v23 = proto::SavePlayerDataReq::player_data(req);
-      val = proto::PlayerData::data_version(v23);
-      common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v22, &val);
-      common::milog::MiLogStream::~MiLogStream(&v37);
-      v14 = 1;
-    }
-    std::shared_ptr<common::minet::Packet>::~shared_ptr((std::shared_ptr<common::minet::Packet> *const)(v4 + 128));
-    proto::SavePlayerDataRsp::~SavePlayerDataRsp((proto::SavePlayerDataRsp *const)(v4 + 160));
-    if ( v14 == 1 )
-LABEL_24:
-      v3 = 0;
-  }
-  std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)(v4 + 96));
-  result = v3;
-  if ( v38 == (char *)v4 )
-  {
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8008) = 0LL;
-    *(_DWORD *)((v4 >> 3) + 0x7FFF8010) = 0;
-    *(_DWORD *)((v4 >> 3) + 0x7FFF8018) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v4 = 1172321806LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v4 >> 3) + 0x7FFF8018) = -168430091;
-  }
-  return result;
-};
+
+    // 设置 Packet 的用户信息
+    auto* packet = std::__shared_ptr_access<common::minet::Packet>::operator->(packet_ptr.get());
+    common::minet::Packet::setUserId(packet, uid);
+    common::minet::Packet::setUserSessionId(packet, gate_session.second);
+    common::minet::Packet::setServiceAppId(packet, 2u, gate_session.first);
+
+    // 发送 Packet 到游戏服务线程
+    GameserverService* gameserver_service = ServiceBox::findService<GameserverService>();
+    gameserver_service->setPacketGameThreadIndex(packet_ptr);
+
+    // 发送 Packet 到目标服务
+    NetworkMgrBase* network_mgr = std::__shared_ptr_access<NetworkMgrBase>::operator->(&ResourceBox::network_mgr_ptr);
+    network_mgr->sendPacketToTargetService(packet_ptr, 5u, 0);
+
+    // 清理资源
+    std::shared_ptr<Config>::~shared_ptr(config_ptr);
+    return 0;
+}
 
 // Line 1587: range 000000001713D0F2-000000001713D452
 __int64 __fastcall Player::disconnectSession(Player *const this, uint32_t reason)

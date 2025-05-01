@@ -2617,6 +2617,69 @@ LABEL_143:
 
 // Line 311: range 0000000014E5744E-0000000014E58F9B
 // local variable allocation has failed, the output may be wrong!
+// Memory layout 关键成员偏移确认
+/*
+struct ServiceBase {
+    // ...
+    std::__shared_ptr<NetworkMgrBase> network_mgr_;
+    std::_Vector_base<std::unique_ptr<common::tools::SafeQueue<std::shared_ptr<common::minet::Packet>>> packet_queue_vec_;
+    pthread_mutex_t mutex_;
+    
+    int pushPacket(common::minet::PacketPtr packet_ptr, ...) {
+        // 网络相关初始化和检查
+        if (packet_ptr->_vptr_Packet == 0) { ... }
+        
+        // 获取当前应用ID
+        ResourceBox::cur_app_id;  
+        
+        // 从虚函数表获取workThread地址
+        work_thread = this->_vptr_ServiceBase[13]; 
+
+        // 检查 cmd name 和 service status
+        if (status_._M_i != STATUS_RUN) { throw  }
+
+        // 设置 app id 到 packet       
+        common::minet::Packet::setServiceAppId(packet_ptr, ...); 
+
+        // 找队列
+        auto queue_idx = getQueueIndex(); 
+        if (packet_vec.size() <= queue_idx) { error } 
+
+        // 互斥锁保护
+        pthread_mutex_lock(packet_queue.mutex_);
+        try {
+            // 执行push操作
+            // 调用 loop_func_
+            constexpr uint32_t max_threads = MAX_THREADS;         
+            for (uint32_t i = 0; i < max_threads; ++i) {
+                thread_vec_.emplace_back(workThread, this, i);
+            }
+        } finally {
+            pthread_mutex_unlock(mutex_);
+        }
+
+        return result;
+    }
+}
+*/
+/*
+ServiceBase::pushPacket
+├── 验证 Packet 不为空
+│   └── 如果 packet 为空, 记录日志并返回0xFFFFFFFF
+├── 检查服务状态是否为 STATUS_INIT_2
+│   └── 如果不是`STATUS_INIT_2`,记录日志并抛异常
+├── 获取workThread函数指针
+│   └── 通过虚函数表+10获取`loopFunc`地址
+├── 检查 packet_queue_vec_ 是否有足够空间
+│   └── 如果队列满，记录uid/cmd/queue_size等并返回错误
+├── 获取对应线程的packet queue指针
+│   └── 包括各种mutex lock/unlock操作防止并发问题
+├── 执行以下某一项：
+│   ├── SafeQueue::push(packetQueue)
+│   │   └── 实际推送packet到队列
+│   └── 或者异常处理逻辑（如果找到合适的队列）
+└── 最终 auto return 0LL
+*/
 __int64 __fastcall ServiceBase::pushPacket(
         ServiceBase *const this,
         common::minet::PacketPtr packet_ptr,

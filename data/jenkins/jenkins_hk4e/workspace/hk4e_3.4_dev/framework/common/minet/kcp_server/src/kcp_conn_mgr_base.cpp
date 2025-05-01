@@ -883,10 +883,10 @@ common::minet::KcpConnMgrBase *__fastcall common::minet::KcpConnMgrBase::createS
             v46 = (common::minet::KcpSession *)(v5 + 16);
             if ( !common::tools::perf::MemoryPerf::is_record )
               goto LABEL_32;
-            v14 = &`typeinfo for`common::minet::KcpSession + 1;
-            if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpSession + 1) >> 3) + 0x7FFF8000) )
+            v14 = &`typeinfo for'common::minet::KcpSession + 1;
+            if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpSession + 1) >> 3) + 0x7FFF8000) )
             {
-              s = (unsigned __int64)*(&`typeinfo for`common::minet::KcpSession + 1);
+              s = (unsigned __int64)*(&`typeinfo for'common::minet::KcpSession + 1);
               v14 = (void **)s;
               v15 = *(_BYTE *)((s >> 3) + 0x7FFF8000);
               v16.gap0[0] = s & 7;
@@ -970,14 +970,14 @@ LABEL_61:
                               free(v23);
                               goto LABEL_62;
                             }
-                            v24 = &`typeinfo for`common::minet::KcpSession + 1;
-                            if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for`common::minet::KcpSession + 1) >> 3)
+                            v24 = &`typeinfo for'common::minet::KcpSession + 1;
+                            if ( !*(_BYTE *)(((unsigned __int64)(&`typeinfo for'common::minet::KcpSession + 1) >> 3)
                                            + 0x7FFF8000) )
                             {
-                              p_type = (void **)*(&`typeinfo for`common::minet::KcpSession + 1);
+                              p_type = (void **)*(&`typeinfo for'common::minet::KcpSession + 1);
                               v24 = p_type;
                               v26 = *(_BYTE *)(((unsigned __int64)p_type >> 3) + 0x7FFF8000);
-                              if ( v26 > (*(_BYTE *)(&`typeinfo for`common::minet::KcpSession + 1) & 7) || !v26 )
+                              if ( v26 > (*(_BYTE *)(&`typeinfo for'common::minet::KcpSession + 1) & 7) || !v26 )
                               {
                                 if ( *(_BYTE *)p_type != 42 )
                                   goto LABEL_59;

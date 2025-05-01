@@ -3485,7 +3485,7 @@ LABEL_214:
             __asan_handle_no_return(exception);
             _cxa_throw(
               exception,
-              (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>,
+              (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>,
               (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
           }
           *(_BYTE *)(v26 + 168) = 42;
@@ -3689,7 +3689,7 @@ LABEL_227:
             __asan_handle_no_return(v86);
             _cxa_throw(
               v86,
-              (struct type_info *)&`typeinfo for`boost::wrapexcept<boost::asio::bad_executor>,
+              (struct type_info *)&`typeinfo for'boost::wrapexcept<boost::asio::bad_executor>,
               (void (__fastcall *)(void *))boost::wrapexcept<boost::asio::bad_executor>::~wrapexcept);
           }
           v84 = **(_QWORD **)&n[24];
@@ -4336,7 +4336,7 @@ LABEL_417:
             __asan_handle_no_return(v154);
             _cxa_throw(
               v150,
-              (struct type_info *)&`typeinfo for`boost::system::system_error,
+              (struct type_info *)&`typeinfo for'boost::system::system_error,
               (void (__fastcall *)(void *))boost::system::system_error::~system_error);
           }
 LABEL_261:

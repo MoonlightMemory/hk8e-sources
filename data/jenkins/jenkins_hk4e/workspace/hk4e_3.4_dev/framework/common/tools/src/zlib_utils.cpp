@@ -816,7 +816,7 @@ LABEL_128:
                               __asan_handle_no_return(exception);
                               _cxa_throw(
                                 exception,
-                                (struct type_info *)&`typeinfo for`std::runtime_error,
+                                (struct type_info *)&`typeinfo for'std::runtime_error,
                                 (void (__fastcall *)(void *))&std::runtime_error::~runtime_error);
                             }
                             v73._M_dataplus._M_p = v73._anon_0._M_local_buf;

@@ -1,632 +1,183 @@
 // File: /data/jenkins/jenkins_hk4e/workspace/hk4e_3.4_dev/framework/gamecore/src/core_class/service_box.cpp
 
 // Line 24: range 0000000014E3EA66-0000000014E3EC81
-std::_Rb_tree_node_base::_Base_ptr *__fastcall ServiceBox::findServiceBase(
-        std::_Rb_tree_node_base::_Base_ptr *p_M_parent,
-        uint32_t type)
+std::_Rb_tree_node_base::_Base_ptr* __fastcall ServiceBox::findServiceBase(
+  std::_Rb_tree_node_base::_Base_ptr *p_M_parent, 
+  uint32_t type)
 {
-  std::_Rb_tree_node_base::_Base_ptr *v2; // rbp
-  unsigned __int64 v3; // rbx
-  unsigned __int64 v4; // r12
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::shared_ptr<ServiceBase> >,std::_Select1st<std::pair<unsigned int const,std::shared_ptr<ServiceBase> > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::shared_ptr<ServiceBase> > > >::iterator v5; // rax
-  std::_Rb_tree_node_base::_Base_ptr M_parent; // rax
-  volatile signed __int32 *v7; // rax
-  __int64 v8; // rax
-  volatile signed __int32 *v9; // rdi
-  char v10; // dl
-  __int64 v11; // rax
-  char v13; // cl
-  _BYTE v14[104]; // [rsp+0h] [rbp-68h] BYREF
-
-  v2 = p_M_parent;
-  v3 = (unsigned __int64)v14;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v11 = __asan_stack_malloc_0(64LL);
-    if ( v11 )
-      v3 = v11;
+  // 栈上变量声明和初始化
+  std::_Rb_tree_node_base::_Base_ptr *v2 = p_M_parent;
+  unsigned __int64 v3 = (unsigned __int64)&v14;  // 假设 v14 是局部缓冲区
+  if (_asan_option_detect_stack_use_after_return) {
+      // 使用 ASAN 分配栈内存
+      v3 = __asan_stack_malloc_0(64LL);
   }
+
+  // 初始化调试信息
   *(_QWORD *)v3 = 1102416563LL;
   *(_QWORD *)(v3 + 8) = "1 32 4 7 type:23";
-  *(_QWORD *)(v3 + 16) = ServiceBox::findServiceBase;
-  v4 = v3 >> 3;
-  *(_DWORD *)(v4 + 2147450880) = -235802127;
-  *(_DWORD *)(v4 + 2147450884) = -202116348;
   *(_DWORD *)(v3 + 32) = type;
-  v5._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::shared_ptr<ServiceBase>>,std::_Select1st<std::pair<unsigned int const,std::shared_ptr<ServiceBase>>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::shared_ptr<ServiceBase>>>>::find(
-                 &ServiceBox::service_map._M_t,
-                 (const unsigned int *)(v3 + 32))._M_node;
-  if ( (std::_Rb_tree_header *)v5._M_node == &ServiceBox::service_map._M_t._M_impl.std::_Rb_tree_header )
-  {
-    if ( *(_BYTE *)(((unsigned __int64)p_M_parent >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store8(p_M_parent);
-    }
-    else
-    {
-      *p_M_parent++ = 0LL;
-      if ( !*(_BYTE *)(((unsigned __int64)(v2 + 1) >> 3) + 0x7FFF8000) )
-      {
-        v2[1] = 0LL;
-        goto LABEL_17;
+
+  // 在 service_map 中查找指定类型的服务
+  auto it = ServiceBox::service_map.find(type);
+
+  if (it == ServiceBox::service_map.end()) {
+      // 如果未找到对应服务，清空返回指针
+      if (*(_BYTE *)(((unsigned __int64)p_M_parent >> 3) + 0x7FFF8000)) {
+          __asan_report_store8(p_M_parent);
+      } else {
+          *p_M_parent++ = 0LL;
+          if (!*(_BYTE *)(((unsigned __int64)(v2 + 1) >> 3) + 0x7FFF8000)) {
+              v2[1] = 0LL;
+          }
       }
-    }
-    __asan_report_store8(p_M_parent);
-    goto LABEL_22;
+  } else {
+      // 获取找到的节点并设置到输出参数中
+      std::_Rb_tree_node_base::_Base_ptr node = it->second.get();
+      
+      if (*(_BYTE *)(((unsigned __int64)&node >> 3) + 0x7FFF8000)) {
+          __asan_report_load8(&node);
+      }
+
+      if (!*(_BYTE *)(((unsigned __int64)v2 >> 3) + 0x7FFF8000)) {
+          *v2 = node;
+      }
+
+      // 处理引用计数增加（线程安全）
+      volatile signed int *ref_count = reinterpret_cast<volatile signed int *>((unsigned __int64)node._M_node + 8);
+      if (&_pthread_key_create) {
+          if (!*(_BYTE *)(((unsigned __int64)ref_count >> 3) + 0x7FFF8000)) {
+              _InterlockedAdd(ref_count, 1u);  // Windows 上的原子加操作
+          }
+      } else {
+          ++*ref_count;
+      }
   }
-  p_M_parent = &v5._M_node[1]._M_parent;
-  if ( *(_BYTE *)(((unsigned __int64)&v5._M_node[1]._M_parent >> 3) + 0x7FFF8000) )
-  {
-LABEL_22:
-    __asan_report_load8(p_M_parent);
-    goto LABEL_23;
+
+  // 清理局部变量栈信息
+  if (((char*)v14) != (_BYTE*)v3) {
+      *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0LL;
+  } else {
+      *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
   }
-  M_parent = v5._M_node[1]._M_parent;
-  if ( *(_BYTE *)(((unsigned __int64)v2 >> 3) + 0x7FFF8000) )
-  {
-LABEL_23:
-    __asan_report_store8(v2);
-    goto LABEL_24;
-  }
-  *v2 = M_parent;
-  v7 = (volatile signed __int32 *)(p_M_parent + 1);
-  if ( *(_BYTE *)(((unsigned __int64)(p_M_parent + 1) >> 3) + 0x7FFF8000) )
-  {
-LABEL_24:
-    v9 = v7;
-    __asan_report_load8(v7);
-    goto LABEL_25;
-  }
-  v8 = (__int64)p_M_parent[1];
-  v9 = (volatile signed __int32 *)(v2 + 1);
-  if ( *(_BYTE *)(((unsigned __int64)(v2 + 1) >> 3) + 0x7FFF8000) )
-  {
-LABEL_25:
-    __asan_report_store8(v9);
-    goto LABEL_26;
-  }
-  v2[1] = (std::_Rb_tree_node_base::_Base_ptr)v8;
-  if ( !v8 )
-    goto LABEL_17;
-  v9 = (volatile signed __int32 *)(v8 + 8);
-  if ( !&_pthread_key_create )
-    goto LABEL_27;
-  v10 = *(_BYTE *)(((unsigned __int64)v9 >> 3) + 0x7FFF8000);
-  if ( (char)(((unsigned __int8)v9 & 7) + 3) < v10 || !v10 )
-  {
-    _InterlockedAdd(v9, 1u);
-    goto LABEL_17;
-  }
-LABEL_26:
-  v8 = __asan_report_store4(v9);
-LABEL_27:
-  v13 = *(_BYTE *)(((unsigned __int64)(v8 + 8) >> 3) + 0x7FFF8000);
-  if ( (char)(((v8 + 8) & 7) + 3) >= v13 && v13 )
-  {
-    __asan_report_load4(v8 + 8);
-    goto LABEL_31;
-  }
-  ++*(_DWORD *)(v8 + 8);
-LABEL_17:
-  if ( v14 != (_BYTE *)v3 )
-  {
-LABEL_31:
-    *(_QWORD *)v3 = 1172321806LL;
-    *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    return v2;
-  }
-  *(_QWORD *)((v3 >> 3) + 0x7FFF8000) = 0LL;
+
   return v2;
-};
+}
 
 // Line 37: range 0000000014E3EC86-0000000014E3EF6F
-std::_Rb_tree_node_base::_Base_ptr *__fastcall ServiceBox::findPacketTargetService(
-        unsigned __int64 a1,
-        uint32_t target_service)
-{
-  unsigned __int64 v2; // rbp
-  unsigned __int64 v4; // rbx
-  const char *v5; // rsi
-  unsigned __int64 v6; // r12
-  __int64 v7; // rax
-  std::_Rb_tree_iterator<std::pair<unsigned int const,std::shared_ptr<ServiceBase> > >::_Base_ptr M_node; // rdx
-  std::_Rb_tree_node_base::_Base_ptr *p_M_left; // rdi
-  volatile signed __int32 *v11; // rax
-  __int64 M_left; // rax
-  volatile signed __int32 *v13; // rdi
-  char v14; // dl
-  char v15; // cl
-  struct _Unwind_Exception *v16; // rax
-  struct _Unwind_Exception *v17; // rbx
-  common::milog::MiLogStream v18; // [rsp+0h] [rbp-88h] BYREF
-  char v19[104]; // [rsp+20h] [rbp-68h] BYREF
+std::_Rb_tree_node_base::_Base_ptr* ServiceBox::findPacketTargetService(uint32_t target_service) {
+  // 检查 service_map 是否为空
+  if (ServiceBox::service_map.empty()) {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          3u, // 日志级别
+          "src/core_class/service_box.cpp",
+          "findPacketTargetService",
+          40
+      );
+      common::milog::MiLogStream::operator()(&log_stream, "service_map is empty");
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return nullptr; // 返回空指针表示未找到服务
+  }
 
-  v2 = a1;
-  v4 = (unsigned __int64)v19;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v7 = __asan_stack_malloc_0(64LL);
-    if ( v7 )
-      v4 = v7;
+  // 在 service_map 中查找目标服务
+  auto it = ServiceBox::service_map.find(target_service);
+  if (it == ServiceBox::service_map.end()) {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          3u, // 日志级别
+          "src/core_class/service_box.cpp",
+          "findPacketTargetService",
+          48
+      );
+      common::milog::MiLogStream::operator()(
+          &log_stream,
+          "can not find service=%u in service_map",
+          target_service
+      );
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return nullptr; // 返回空指针表示未找到服务
   }
-  v5 = (const char *)(v4 + 64);
-  *(_QWORD *)v4 = 1102416563LL;
-  *(_QWORD *)(v4 + 8) = "1 32 4 17 target_service:36";
-  *(_QWORD *)(v4 + 16) = ServiceBox::findPacketTargetService;
-  v6 = v4 >> 3;
-  *(_DWORD *)(v6 + 2147450880) = -235802127;
-  *(_DWORD *)(v6 + 2147450884) = -202116348;
-  *(_DWORD *)(v4 + 32) = target_service;
-  if ( *(_BYTE *)(((unsigned __int64)&ServiceBox::service_map._M_t._M_impl._M_node_count >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load8(&ServiceBox::service_map._M_t._M_impl._M_node_count);
+
+  // 获取服务的共享指针
+  std::shared_ptr<ServiceBase> service_ptr = it->second;
+
+  // 增加引用计数（线程安全）
+  if (service_ptr) {
+      service_ptr->incrementRefCount();
   }
-  else
-  {
-    if ( ServiceBox::service_map._M_t._M_impl._M_node_count )
-      goto LABEL_16;
-    common::milog::MiLogStream::MiLogStream(
-      &v18,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "src/core_class/service_box.cpp",
-      "findPacketTargetService",
-      40);
-    v5 = "service_map is empty";
-    common::milog::MiLogStream::operator()(&v18, "service_map is empty");
-  }
-  common::milog::MiLogStream::~MiLogStream(&v18);
-  if ( *(_BYTE *)((a1 >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_store8(a1);
-  }
-  else
-  {
-    *(_QWORD *)a1 = 0LL;
-    a1 += 8LL;
-    if ( !*(_BYTE *)(((v2 + 8) >> 3) + 0x7FFF8000) )
-    {
-      *(_QWORD *)(v2 + 8) = 0LL;
-      goto LABEL_11;
-    }
-  }
-  __asan_report_store8(a1);
-LABEL_16:
-  M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::shared_ptr<ServiceBase>>,std::_Select1st<std::pair<unsigned int const,std::shared_ptr<ServiceBase>>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::shared_ptr<ServiceBase>>>>::find(
-             &ServiceBox::service_map._M_t,
-             (const unsigned int *)v5 - 8)._M_node;
-  if ( M_node == (std::_Rb_tree_iterator<std::pair<unsigned int const,std::shared_ptr<ServiceBase> > >::_Base_ptr)&ServiceBox::service_map._M_t._M_impl.std::_Rb_tree_header )
-  {
-    p_M_left = &ServiceBox::service_map._M_t._M_impl._M_header._M_left;
-    if ( *(_BYTE *)(((unsigned __int64)&ServiceBox::service_map._M_t._M_impl._M_header._M_left >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(p_M_left);
-      goto LABEL_29;
-    }
-    M_node = ServiceBox::service_map._M_t._M_impl._M_header._M_left;
-  }
-  p_M_left = &M_node[1]._M_parent;
-  if ( *(_BYTE *)(((unsigned __int64)&M_node[1]._M_parent >> 3) + 0x7FFF8000) )
-  {
-LABEL_29:
-    __asan_report_load8(p_M_left);
-    goto LABEL_30;
-  }
-  if ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
-  {
-LABEL_30:
-    __asan_report_store8(v2);
-    goto LABEL_31;
-  }
-  *(_QWORD *)v2 = M_node[1]._M_parent;
-  v11 = (volatile signed __int32 *)&M_node[1]._M_left;
-  if ( *(_BYTE *)(((unsigned __int64)&M_node[1]._M_left >> 3) + 0x7FFF8000) )
-  {
-LABEL_31:
-    v13 = v11;
-    __asan_report_load8(v11);
-    goto LABEL_32;
-  }
-  M_left = (__int64)M_node[1]._M_left;
-  v13 = (volatile signed __int32 *)(v2 + 8);
-  if ( *(_BYTE *)(((v2 + 8) >> 3) + 0x7FFF8000) )
-  {
-LABEL_32:
-    __asan_report_store8(v13);
-    goto LABEL_33;
-  }
-  *(_QWORD *)(v2 + 8) = M_left;
-  if ( !M_left )
-    goto LABEL_11;
-  v13 = (volatile signed __int32 *)(M_left + 8);
-  if ( !&_pthread_key_create )
-    goto LABEL_34;
-  v14 = *(_BYTE *)(((unsigned __int64)v13 >> 3) + 0x7FFF8000);
-  if ( (char)(((unsigned __int8)v13 & 7) + 3) < v14 || !v14 )
-  {
-    _InterlockedAdd(v13, 1u);
-    goto LABEL_11;
-  }
-LABEL_33:
-  M_left = __asan_report_store4(v13);
-LABEL_34:
-  v15 = *(_BYTE *)(((unsigned __int64)(M_left + 8) >> 3) + 0x7FFF8000);
-  if ( (char)(((M_left + 8) & 7) + 3) >= v15 && v15 )
-  {
-    __asan_report_load4(M_left + 8);
-    v17 = v16;
-    common::milog::MiLogStream::~MiLogStream(&v18);
-    __asan_handle_no_return(&v18);
-    _Unwind_Resume(v17);
-  }
-  ++*(_DWORD *)(M_left + 8);
-LABEL_11:
-  if ( v19 == (char *)v4 )
-  {
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0LL;
-  }
-  else
-  {
-    *(_QWORD *)v4 = 1172321806LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return (std::_Rb_tree_node_base::_Base_ptr *)v2;
-};
+
+  // 返回服务的基类指针
+  return reinterpret_cast<std::_Rb_tree_node_base::_Base_ptr*>(service_ptr.get());
+}
 
 // Line 57: range 0000000014E3EF74-0000000014E3F5EC
-__int64 __fastcall ServiceBox::pushPacketToService(common::minet::PacketPtr packet_ptr)
-{
-  unsigned __int64 M_ptr; // rbx
-  unsigned __int64 v2; // rbp
-  unsigned __int64 v3; // r12
-  int (**vptr_Packet)(...); // rax
-  char v5; // dl
-  __int64 v6; // rcx
-  __int64 v7; // r8
-  __int64 v8; // r9
-  ServiceBase *v9; // rdi
-  __int64 v10; // rax
-  unsigned __int64 p_M_use_count; // rdx
-  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *v12; // rax
-  unsigned int v13; // eax
-  __int64 v14; // rax
-  unsigned int v15; // r15d
-  __int64 v16; // rcx
-  __int64 v17; // r8
-  __int64 v18; // r9
-  __int64 v19; // rax
-  unsigned __int64 v20; // rdi
-  __int64 v21; // rdx
-  char v22; // dl
-  char v23; // si
-  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *v24; // rbx
-  _Atomic_word *v25; // rdi
-  char v26; // dl
-  signed __int32 M_use_count; // eax
-  volatile signed __int32 *v28; // rdi
-  char v29; // dl
-  signed __int32 v30; // eax
-  char v32; // dl
-  volatile signed __int32 *p_M_weak_count; // rdi
-  char v34; // dl
-  signed __int32 M_weak_count; // eax
-  char v36; // dl
-  char v37; // dl
-  volatile signed __int32 *v38; // rdi
-  char v39; // dl
-  signed __int32 v40; // eax
-  unsigned __int64 v41; // rdi
-  char v42; // dl
-  struct _Unwind_Exception *v43; // rbx
-  int (**v44)(...); // [rsp+0h] [rbp-A8h] BYREF
-  std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *v45; // [rsp+8h] [rbp-A0h]
-  common::milog::MiLogStream v46; // [rsp+10h] [rbp-98h] BYREF
-  char v47[120]; // [rsp+30h] [rbp-78h] BYREF
+int32_t ServiceBox::pushPacketToService(common::minet::PacketPtr packet_ptr) {
+  if (!packet_ptr) {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          3u, // 日志级别
+          "src/core_class/service_box.cpp",
+          "pushPacketToService",
+          60
+      );
+      common::milog::MiLogStream::operator()(&log_stream, "packet_ptr is null");
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return -1;
+  }
 
-  M_ptr = (unsigned __int64)packet_ptr._M_ptr;
-  v2 = (unsigned __int64)v47;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v14 = __asan_stack_malloc_0(64LL);
-    if ( v14 )
-      v2 = v14;
+  uint32_t service_type = packet_ptr->getServiceType();
+  std::shared_ptr<ServiceBase> base_ptr = ServiceBox::findPacketTargetService(service_type);
+
+  if (!base_ptr) {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          3u, // 日志级别
+          "src/core_class/service_box.cpp",
+          "pushPacketToService",
+          68
+      );
+      common::milog::MiLogStream::operator()(
+          &log_stream,
+          "can not find service=%u for packet cmd_id=%u",
+          service_type,
+          packet_ptr->getCmdId()
+      );
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return -1;
   }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "1 32 16 11 base_ptr:65";
-  *(_QWORD *)(v2 + 16) = ServiceBox::pushPacketToService;
-  v3 = v2 >> 3;
-  *(_DWORD *)(v3 + 2147450880) = -235802127;
-  *(_DWORD *)(v3 + 2147450884) = -202178560;
-  if ( *(_BYTE *)(((unsigned __int64)packet_ptr._M_ptr >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load8(packet_ptr._M_ptr);
-    goto LABEL_18;
+
+  int32_t result = base_ptr->pushPacket(packet_ptr);
+  if (result != 0) {
+      common::milog::MiLogStream log_stream;
+      common::milog::MiLogStream::create(
+          &log_stream,
+          &common::milog::MiLogDefault::default_log_obj_,
+          3u, // 日志级别
+          "src/core_class/service_box.cpp",
+          "pushPacketToService",
+          75
+      );
+      common::milog::MiLogStream::operator()(
+          &log_stream,
+          "failed to push packet to service=%u, cmd_id=%u",
+          service_type,
+          packet_ptr->getCmdId()
+      );
+      common::milog::MiLogStream::~MiLogStream(&log_stream);
+      return -1;
   }
-  vptr_Packet = packet_ptr._M_ptr->_vptr_Packet;
-  if ( !packet_ptr._M_ptr->_vptr_Packet )
-  {
-LABEL_18:
-    common::milog::MiLogStream::MiLogStream(
-      &v46,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "src/core_class/service_box.cpp",
-      "pushPacketToService",
-      60);
-    common::milog::MiLogStream::operator()(&v46, "packet_ptr is null");
-    common::milog::MiLogStream::~MiLogStream(&v46);
-    v15 = -1;
-    goto LABEL_49;
-  }
-  v5 = *(_BYTE *)(((unsigned __int64)(vptr_Packet + 32) >> 3) + 0x7FFF8000);
-  if ( v5 && v5 <= 3 )
-  {
-    __asan_report_load4(vptr_Packet + 32);
-LABEL_20:
-    common::milog::MiLogStream::MiLogStream(
-      &v46,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "src/core_class/service_box.cpp",
-      "pushPacketToService",
-      68);
-    if ( *(_BYTE *)((M_ptr >> 3) + 0x7FFF8000) )
-    {
-      v20 = M_ptr;
-      __asan_report_load8(M_ptr);
-    }
-    else
-    {
-      v19 = *(_QWORD *)M_ptr;
-      v20 = *(_QWORD *)M_ptr + 8LL;
-      v21 = *(unsigned __int8 *)((v20 >> 3) + 0x7FFF8000);
-      if ( !(_BYTE)v21 || (char)v21 > 1 )
-      {
-        v20 = v19 + 256;
-        v22 = *(_BYTE *)(((unsigned __int64)(v19 + 256) >> 3) + 0x7FFF8000);
-        if ( !v22 || v22 > 3 )
-        {
-          common::milog::MiLogStream::operator()(
-            &v46,
-            "can not find service=%u for packet cmd_id=%u",
-            *(unsigned int *)(v19 + 256),
-            *(unsigned __int16 *)(v19 + 8));
-LABEL_29:
-          common::milog::MiLogStream::~MiLogStream(&v46);
-          v15 = -1;
-          goto LABEL_43;
-        }
-LABEL_28:
-        __asan_report_load4(v20);
-        goto LABEL_29;
-      }
-    }
-    __asan_report_load2(v20, &common::milog::MiLogDefault::default_log_obj_, v21, v16, v17, v18);
-    goto LABEL_28;
-  }
-  ServiceBox::findPacketTargetService(v2 + 32, *((_DWORD *)vptr_Packet + 64));
-  v9 = *(ServiceBase **)(v2 + 32);
-  if ( !v9 )
-    goto LABEL_20;
-  if ( *(_BYTE *)((M_ptr >> 3) + 0x7FFF8000) )
-  {
-    v10 = __asan_report_load8(M_ptr);
-    goto LABEL_31;
-  }
-  v44 = *(int (***)(...))M_ptr;
-  v10 = M_ptr + 8;
-  p_M_use_count = (M_ptr + 8) >> 3;
-  if ( *(_BYTE *)(p_M_use_count + 0x7FFF8000) )
-  {
-LABEL_31:
-    __asan_report_load8(v10);
-LABEL_32:
-    v9 = (ServiceBase *)p_M_use_count;
-    v12 = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)__asan_report_store4(p_M_use_count);
-    goto LABEL_33;
-  }
-  v12 = *(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> **)(M_ptr + 8);
-  v45 = v12;
-  if ( !v12 )
-  {
-LABEL_14:
-    v13 = ServiceBase::pushPacket(v9, (common::minet::PacketPtr)__PAIR128__(p_M_use_count, &v44), v6, v7, v8);
-    goto LABEL_37;
-  }
-  p_M_use_count = (unsigned __int64)&v12->_M_use_count;
-  if ( &_pthread_key_create )
-  {
-    v6 = *(unsigned __int8 *)((p_M_use_count >> 3) + 0x7FFF8000);
-    if ( (char)((p_M_use_count & 7) + 3) < (char)v6 || !(_BYTE)v6 )
-    {
-      _InterlockedAdd((volatile signed __int32 *)p_M_use_count, 1u);
-      goto LABEL_14;
-    }
-    goto LABEL_32;
-  }
-LABEL_33:
-  v6 = (__int64)&v12->_M_use_count;
-  v23 = *(_BYTE *)(((unsigned __int64)&v12->_M_use_count >> 3) + 0x7FFF8000);
-  p_M_use_count = (((_BYTE)v12 + 8) & 7u) + 3;
-  if ( (char)((((_BYTE)v12 + 8) & 7) + 3) < v23 || !v23 )
-  {
-    ++v12->_M_use_count;
-    goto LABEL_14;
-  }
-  __asan_report_load4(&v12->_M_use_count);
-LABEL_37:
-  v15 = v13;
-  v24 = v45;
-  if ( v45 )
-  {
-    v25 = &v45->_M_use_count;
-    if ( &_pthread_key_create )
-    {
-      v26 = *(_BYTE *)(((unsigned __int64)v25 >> 3) + 0x7FFF8000);
-      if ( (char)(((unsigned __int8)v25 & 7) + 3) < v26 || !v26 )
-      {
-        M_use_count = _InterlockedExchangeAdd(v25, 0xFFFFFFFF);
-        goto LABEL_42;
-      }
-      __asan_report_store4(v25);
-    }
-    v32 = *(_BYTE *)(((unsigned __int64)&v24->_M_use_count >> 3) + 0x7FFF8000);
-    if ( (char)((((_BYTE)v24 + 8) & 7) + 3) >= v32 && v32 )
-    {
-      __asan_report_load4(&v24->_M_use_count);
-      goto LABEL_57;
-    }
-    M_use_count = v24->_M_use_count;
-    v24->_M_use_count = M_use_count - 1;
-LABEL_42:
-    if ( M_use_count != 1 )
-      goto LABEL_43;
-LABEL_57:
-    if ( *(_BYTE *)(((unsigned __int64)v24 >> 3) + 0x7FFF8000) )
-    {
-      p_M_weak_count = (volatile signed __int32 *)v24;
-      __asan_report_load8(v24);
-    }
-    else
-    {
-      p_M_weak_count = (volatile signed __int32 *)(v24->_vptr__Sp_counted_base + 2);
-      if ( !*(_BYTE *)(((unsigned __int64)p_M_weak_count >> 3) + 0x7FFF8000) )
-      {
-        (*((void (__fastcall **)(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *))v24->_vptr__Sp_counted_base + 2))(v24);
-        p_M_weak_count = &v24->_M_weak_count;
-        if ( !&_pthread_key_create )
-          goto LABEL_70;
-        v34 = *(_BYTE *)(((unsigned __int64)p_M_weak_count >> 3) + 0x7FFF8000);
-        if ( (char)(((unsigned __int8)p_M_weak_count & 7) + 3) < v34 || !v34 )
-        {
-          M_weak_count = _InterlockedExchangeAdd(p_M_weak_count, 0xFFFFFFFF);
-          goto LABEL_63;
-        }
-LABEL_69:
-        __asan_report_store4(p_M_weak_count);
-LABEL_70:
-        v36 = *(_BYTE *)(((unsigned __int64)&v24->_M_weak_count >> 3) + 0x7FFF8000);
-        if ( (char)((((_BYTE)v24 + 12) & 7) + 3) >= v36 && v36 )
-        {
-          __asan_report_load4(&v24->_M_weak_count);
-          goto LABEL_74;
-        }
-        M_weak_count = v24->_M_weak_count;
-        v24->_M_weak_count = M_weak_count - 1;
-LABEL_63:
-        if ( M_weak_count != 1 )
-          goto LABEL_43;
-        if ( !*(_BYTE *)(((unsigned __int64)v24 >> 3) + 0x7FFF8000) )
-        {
-          v28 = (volatile signed __int32 *)(v24->_vptr__Sp_counted_base + 3);
-          if ( !*(_BYTE *)(((unsigned __int64)v28 >> 3) + 0x7FFF8000) )
-          {
-            (*((void (__fastcall **)(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *))v24->_vptr__Sp_counted_base + 3))(v24);
-            goto LABEL_43;
-          }
-LABEL_75:
-          __asan_report_load8(v28);
-          goto LABEL_76;
-        }
-LABEL_74:
-        v28 = (volatile signed __int32 *)v24;
-        __asan_report_load8(v24);
-        goto LABEL_75;
-      }
-    }
-    __asan_report_load8(p_M_weak_count);
-    goto LABEL_69;
-  }
-LABEL_43:
-  v24 = *(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> **)(v2 + 40);
-  if ( !v24 )
-    goto LABEL_49;
-  v28 = &v24->_M_use_count;
-  if ( !&_pthread_key_create )
-    goto LABEL_77;
-  v29 = *(_BYTE *)(((unsigned __int64)v28 >> 3) + 0x7FFF8000);
-  if ( (char)(((unsigned __int8)v28 & 7) + 3) < v29 || !v29 )
-  {
-    v30 = _InterlockedExchangeAdd(v28, 0xFFFFFFFF);
-    goto LABEL_48;
-  }
-LABEL_76:
-  __asan_report_store4(v28);
-LABEL_77:
-  v37 = *(_BYTE *)(((unsigned __int64)&v24->_M_use_count >> 3) + 0x7FFF8000);
-  if ( (char)((((_BYTE)v24 + 8) & 7) + 3) >= v37 && v37 )
-  {
-    __asan_report_load4(&v24->_M_use_count);
-    goto LABEL_81;
-  }
-  v30 = v24->_M_use_count;
-  v24->_M_use_count = v30 - 1;
-LABEL_48:
-  if ( v30 != 1 )
-    goto LABEL_49;
-LABEL_81:
-  if ( *(_BYTE *)(((unsigned __int64)v24 >> 3) + 0x7FFF8000) )
-  {
-    v38 = (volatile signed __int32 *)v24;
-    __asan_report_load8(v24);
-    goto LABEL_92;
-  }
-  v38 = (volatile signed __int32 *)(v24->_vptr__Sp_counted_base + 2);
-  if ( *(_BYTE *)(((unsigned __int64)v38 >> 3) + 0x7FFF8000) )
-  {
-LABEL_92:
-    __asan_report_load8(v38);
-    goto LABEL_93;
-  }
-  (*((void (__fastcall **)(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *))v24->_vptr__Sp_counted_base + 2))(v24);
-  v38 = &v24->_M_weak_count;
-  if ( !&_pthread_key_create )
-    goto LABEL_94;
-  v39 = *(_BYTE *)(((unsigned __int64)v38 >> 3) + 0x7FFF8000);
-  if ( (char)(((unsigned __int8)v38 & 7) + 3) < v39 || !v39 )
-  {
-    v40 = _InterlockedExchangeAdd(v38, 0xFFFFFFFF);
-    goto LABEL_87;
-  }
-LABEL_93:
-  __asan_report_store4(v38);
-LABEL_94:
-  v42 = *(_BYTE *)(((unsigned __int64)&v24->_M_weak_count >> 3) + 0x7FFF8000);
-  if ( (char)((((_BYTE)v24 + 12) & 7) + 3) >= v42 && v42 )
-  {
-    __asan_report_load4(&v24->_M_weak_count);
-LABEL_98:
-    v41 = (unsigned __int64)v24;
-    __asan_report_load8(v24);
-LABEL_99:
-    v43 = (struct _Unwind_Exception *)__asan_report_load8(v41);
-    common::milog::MiLogStream::~MiLogStream(&v46);
-    __asan_handle_no_return(&v46);
-    _Unwind_Resume(v43);
-  }
-  v40 = v24->_M_weak_count;
-  v24->_M_weak_count = v40 - 1;
-LABEL_87:
-  if ( v40 != 1 )
-    goto LABEL_49;
-  if ( *(_BYTE *)(((unsigned __int64)v24 >> 3) + 0x7FFF8000) )
-    goto LABEL_98;
-  v41 = (unsigned __int64)(v24->_vptr__Sp_counted_base + 3);
-  if ( *(_BYTE *)((v41 >> 3) + 0x7FFF8000) )
-    goto LABEL_99;
-  (*((void (__fastcall **)(std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *))v24->_vptr__Sp_counted_base + 3))(v24);
-LABEL_49:
-  if ( v47 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return v15;
-};
+
+  return 0;
+}
 
 // Line 78: range 0000000014E3F5F2-0000000014E3FC6A
 __int64 __fastcall ServiceBox::forcePushPacketToService(common::minet::PacketPtr packet_ptr)

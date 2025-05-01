@@ -1653,10 +1653,10 @@ LABEL_91:
   *(_QWORD *)(v88 + 680) = 0LL;
   *(_QWORD *)(v88 + 688) = 0LL;
   *(_QWORD *)(v88 + 696) = 0LL;
-  v28 = (__m128i *)&`VTT for`std::ofstream[1];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[1] >> 3) + 0x7FFF8000) )
+  v28 = (__m128i *)&`VTT for'std::ofstream[1];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
     goto LABEL_91;
-  v30 = `VTT for`std::ofstream[1];
+  v30 = `VTT for'std::ofstream[1];
   *(_QWORD *)(v88 + 192) = v30;
   v28 = (__m128i *)(v30 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v30 - 24) >> 3) + 0x7FFF8000) )
@@ -1666,15 +1666,15 @@ LABEL_92:
     goto LABEL_93;
   }
   v31 = (unsigned __int64)&v4[*(_QWORD *)(v30 - 24) - 576];
-  v32 = &`VTT for`std::ofstream[2];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[2] >> 3) + 0x7FFF8000) )
+  v32 = &`VTT for'std::ofstream[2];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[2] >> 3) + 0x7FFF8000) )
   {
 LABEL_93:
     v31 = (unsigned __int64)v32;
     __asan_report_load8(v32);
     goto LABEL_94;
   }
-  p_mutex = (std::mutex *)`VTT for`std::ofstream[2];
+  p_mutex = (std::mutex *)`VTT for'std::ofstream[2];
   if ( *(_BYTE *)((v31 >> 3) + 0x7FFF8000) )
   {
 LABEL_94:
@@ -1764,26 +1764,26 @@ LABEL_178:
               std::__basic_file<char>::~__basic_file(v88 + 304);
               *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::streambuf + 16;
               std::locale::~locale((std::locale *)(v88 + 256));
-              v73 = &`VTT for`std::ofstream[1];
-              if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[1] >> 3) + 0x7FFF8000) )
+              v73 = &`VTT for'std::ofstream[1];
+              if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
               {
 LABEL_185:
                 __asan_report_load8(v73);
               }
               else
               {
-                v77 = `VTT for`std::ofstream[1];
+                v77 = `VTT for'std::ofstream[1];
                 *(_QWORD *)(v88 + 192) = v77;
                 v73 = (_QWORD *)(v77 - 24);
                 if ( !*(_BYTE *)(((unsigned __int64)(v77 - 24) >> 3) + 0x7FFF8000) )
                 {
                   v75 = (unsigned __int64)&v4[*(_QWORD *)(v77 - 24) - 576];
-                  v74 = &`VTT for`std::ofstream[2];
-                  if ( !*(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[2] >> 3) + 0x7FFF8000) )
+                  v74 = &`VTT for'std::ofstream[2];
+                  if ( !*(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[2] >> 3) + 0x7FFF8000) )
                   {
                     if ( !*(_BYTE *)((v75 >> 3) + 0x7FFF8000) )
                     {
-                      *(_QWORD *)v75 = `VTT for`std::ofstream[2];
+                      *(_QWORD *)v75 = `VTT for'std::ofstream[2];
                       *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ios + 16;
                       std::ios_base::~ios_base((std::ios_base *)(v88 + 440));
                       v78 = *(char **)(v88 + 48);
@@ -1978,8 +1978,8 @@ LABEL_117:
     std::__basic_file<char>::~__basic_file(v88 + 304);
     *(_QWORD *)(v88 + 200) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v88 + 256));
-    v53 = &`VTT for`std::ofstream[1];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[1] >> 3) + 0x7FFF8000) )
+    v53 = &`VTT for'std::ofstream[1];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
     {
       __asan_report_load8(v53);
 LABEL_131:
@@ -1989,14 +1989,14 @@ LABEL_132:
       __asan_report_load8(v50);
       goto LABEL_133;
     }
-    v54 = `VTT for`std::ofstream[1];
+    v54 = `VTT for'std::ofstream[1];
     *(_QWORD *)(v88 + 192) = v54;
     v53 = (_QWORD *)(v54 - 24);
     if ( *(_BYTE *)(((unsigned __int64)(v54 - 24) >> 3) + 0x7FFF8000) )
       goto LABEL_131;
     v51 = (unsigned __int64)&v4[*(_QWORD *)(v54 - 24) - 576];
-    v50 = &`VTT for`std::ofstream[2];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[2] >> 3) + 0x7FFF8000) )
+    v50 = &`VTT for'std::ofstream[2];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[2] >> 3) + 0x7FFF8000) )
       goto LABEL_132;
     if ( !*(_BYTE *)((v51 >> 3) + 0x7FFF8000) )
       break;
@@ -2005,7 +2005,7 @@ LABEL_133:
     __cxa_begin_catch(v52);
     __cxa_end_catch();
   }
-  *(_QWORD *)v51 = `VTT for`std::ofstream[2];
+  *(_QWORD *)v51 = `VTT for'std::ofstream[2];
   *(_QWORD *)(v88 + 440) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v88 + 440));
   v55 = *(char **)(v88 + 48);

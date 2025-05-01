@@ -294,10 +294,10 @@ LABEL_37:
   *(_QWORD *)(v3 + 584) = 0LL;
   *(_QWORD *)(v3 + 592) = 0LL;
   *(_QWORD *)(v3 + 600) = 0LL;
-  v9 = (__m128i *)&`VTT for`std::ofstream[1];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[1] >> 3) + 0x7FFF8000) )
+  v9 = (__m128i *)&`VTT for'std::ofstream[1];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
     goto LABEL_37;
-  v2 = `VTT for`std::ofstream[1];
+  v2 = `VTT for'std::ofstream[1];
   *(_QWORD *)(v3 + 96) = v2;
   v9 = (__m128i *)(v2 - 24);
   if ( *(_BYTE *)(((v2 - 24) >> 3) + 0x7FFF8000) )
@@ -307,8 +307,8 @@ LABEL_38:
     goto LABEL_39;
   }
   v11 = (unsigned __int64)&v4[*(_QWORD *)(v2 - 24) - 576];
-  v12 = (char *)&`VTT for`std::ofstream[2];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[2] >> 3) + 0x7FFF8000) )
+  v12 = (char *)&`VTT for'std::ofstream[2];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[2] >> 3) + 0x7FFF8000) )
   {
 LABEL_39:
     v11 = (unsigned __int64)v12;
@@ -321,7 +321,7 @@ LABEL_40:
     __asan_report_store8(v11);
     goto LABEL_41;
   }
-  *(_QWORD *)v11 = `VTT for`std::ofstream[2];
+  *(_QWORD *)v11 = `VTT for'std::ofstream[2];
   v13 = *(_QWORD *)(v3 + 96);
   v11 = v13 - 24;
   if ( !*(_BYTE *)(((unsigned __int64)(v13 - 24) >> 3) + 0x7FFF8000) )
@@ -480,8 +480,8 @@ LABEL_73:
     std::__basic_file<char>::~__basic_file(v3 + 208);
     *(_QWORD *)(v3 + 104) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v3 + 160));
-    v29 = (char *)&`VTT for`std::ofstream[1];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[1] >> 3) + 0x7FFF8000) )
+    v29 = (char *)&`VTT for'std::ofstream[1];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[1] >> 3) + 0x7FFF8000) )
     {
 LABEL_80:
       __asan_report_load8(v29);
@@ -492,14 +492,14 @@ LABEL_82:
       __asan_report_load8(v30);
       goto LABEL_83;
     }
-    v33 = `VTT for`std::ofstream[1];
+    v33 = `VTT for'std::ofstream[1];
     *(_QWORD *)(v3 + 96) = v33;
     v29 = (char *)(v33 - 24);
     if ( *(_BYTE *)(((unsigned __int64)(v33 - 24) >> 3) + 0x7FFF8000) )
       goto LABEL_81;
     v31 = (unsigned __int64)&v4[*(_QWORD *)(v33 - 24) - 576];
-    v30 = (char *)&`VTT for`std::ofstream[2];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ofstream[2] >> 3) + 0x7FFF8000) )
+    v30 = (char *)&`VTT for'std::ofstream[2];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ofstream[2] >> 3) + 0x7FFF8000) )
       goto LABEL_82;
     if ( !*(_BYTE *)((v31 >> 3) + 0x7FFF8000) )
       break;
@@ -508,7 +508,7 @@ LABEL_83:
     __cxa_begin_catch(v32);
     __cxa_end_catch();
   }
-  *(_QWORD *)v31 = `VTT for`std::ofstream[2];
+  *(_QWORD *)v31 = `VTT for'std::ofstream[2];
   *(_QWORD *)(v3 + 344) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v3 + 344));
   v34 = *(char **)(v3 + 32);
@@ -694,10 +694,10 @@ LABEL_37:
   *(_QWORD *)(v4 + 608) = 0LL;
   *(_QWORD *)(v4 + 616) = 0LL;
   *(_QWORD *)(v4 + 624) = 0LL;
-  v10 = (__m128i *)&`VTT for`std::ifstream[1];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[1] >> 3) + 0x7FFF8000) )
+  v10 = (__m128i *)&`VTT for'std::ifstream[1];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
     goto LABEL_37;
-  v12 = `VTT for`std::ifstream[1];
+  v12 = `VTT for'std::ifstream[1];
   *(_QWORD *)(v4 + 112) = v12;
   v10 = (__m128i *)(v12 - 24);
   if ( *(_BYTE *)(((unsigned __int64)(v12 - 24) >> 3) + 0x7FFF8000) )
@@ -707,8 +707,8 @@ LABEL_38:
     goto LABEL_39;
   }
   v13 = (unsigned __int64)&v5[*(_QWORD *)(v12 - 24) - 656];
-  v14 = (char *)&`VTT for`std::ifstream[2];
-  if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[2] >> 3) + 0x7FFF8000) )
+  v14 = (char *)&`VTT for'std::ifstream[2];
+  if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[2] >> 3) + 0x7FFF8000) )
   {
 LABEL_39:
     v13 = (unsigned __int64)v14;
@@ -721,7 +721,7 @@ LABEL_40:
     __asan_report_store8(v13);
     goto LABEL_41;
   }
-  *(_QWORD *)v13 = `VTT for`std::ifstream[2];
+  *(_QWORD *)v13 = `VTT for'std::ifstream[2];
   *(_QWORD *)(v4 + 120) = 0LL;
   v15 = *(_QWORD *)(v4 + 112);
   v13 = v15 - 24;
@@ -857,8 +857,8 @@ LABEL_68:
     std::__basic_file<char>::~__basic_file(v4 + 232);
     *(_QWORD *)(v4 + 128) = (char *)&`vtable for std::streambuf + 16;
     std::locale::~locale((std::locale *)(v4 + 184));
-    v33 = (char *)&`VTT for`std::ifstream[1];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[1] >> 3) + 0x7FFF8000) )
+    v33 = (char *)&`VTT for'std::ifstream[1];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[1] >> 3) + 0x7FFF8000) )
     {
 LABEL_75:
       __asan_report_load8(v33);
@@ -869,14 +869,14 @@ LABEL_77:
       __asan_report_load8(v34);
       goto LABEL_78;
     }
-    v37 = `VTT for`std::ifstream[1];
+    v37 = `VTT for'std::ifstream[1];
     *(_QWORD *)(v4 + 112) = v37;
     v33 = (char *)(v37 - 24);
     if ( *(_BYTE *)(((unsigned __int64)(v37 - 24) >> 3) + 0x7FFF8000) )
       goto LABEL_76;
     v35 = (unsigned __int64)&v5[*(_QWORD *)(v37 - 24) - 656];
-    v34 = (char *)&`VTT for`std::ifstream[2];
-    if ( *(_BYTE *)(((unsigned __int64)&`VTT for`std::ifstream[2] >> 3) + 0x7FFF8000) )
+    v34 = (char *)&`VTT for'std::ifstream[2];
+    if ( *(_BYTE *)(((unsigned __int64)&`VTT for'std::ifstream[2] >> 3) + 0x7FFF8000) )
       goto LABEL_77;
     if ( !*(_BYTE *)((v35 >> 3) + 0x7FFF8000) )
       break;
@@ -885,7 +885,7 @@ LABEL_78:
     __cxa_begin_catch(v36);
     __cxa_end_catch();
   }
-  *(_QWORD *)v35 = `VTT for`std::ifstream[2];
+  *(_QWORD *)v35 = `VTT for'std::ifstream[2];
   *(_QWORD *)(v4 + 120) = 0LL;
   *(_QWORD *)(v4 + 368) = (char *)&`vtable for std::ios + 16;
   std::ios_base::~ios_base((std::ios_base *)(v4 + 368));

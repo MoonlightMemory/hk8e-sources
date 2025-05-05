@@ -1,1063 +1,276 @@
 // File: /data/jenkins/jenkins_hk4e/workspace/hk4e_3.4_dev/framework/common/minet/net_tools/src/proto_utils.cpp
 
 // Line 86: range 000000000C7FF0F6-000000000C7FF276
-int32_t __cdecl ProtoUtils::init()
-{
-  google::protobuf::MessageFactory *v0; // rdi
-  int32_t inited; // ebx
-  std::size_t *p_M_node_count; // rdi
-  common::milog::MiLogStream v4; // [rsp+0h] [rbp-28h] BYREF
+int32_t ProtoUtils::init() {
+  // 如果已经初始化过，直接返回
+  if (ProtoUtils::is_init_) {
+      common::milog::MiLogStream log_stream;
+      log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 3u, "src/proto_utils.cpp", "init", 90);
+      log_stream << "class is inited before, skip this call";
+      log_stream.~MiLogStream();
+      return 0;
+  }
 
-  if ( ProtoUtils::is_init_ )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v4,
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "src/proto_utils.cpp",
-      "init",
-      90);
-    common::milog::MiLogStream::operator()(&v4, "class is inited before, skip this call");
-    common::milog::MiLogStream::~MiLogStream(&v4);
-    return 0;
+  // 初始化 retcode 映射表
+  if (ProtoUtils::initRetcodeMap()) {
+      return -1;
   }
-  if ( ProtoUtils::initRetcodeMap() )
-    return -1;
-  if ( ProtoUtils::initCmdIdConfigMap() )
-    return -1;
-  inited = ProtoUtils::initCmdData();
-  if ( inited )
-    return -1;
-  google::protobuf::MessageFactory::generated_factory(v0);
-  ProtoUtils::is_init_ = 1;
-  if ( ProtoUtils::is_show_init_log_ )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v4,
-      &common::milog::MiLogDefault::default_log_obj_,
-      2u,
-      "src/proto_utils.cpp",
-      "init",
-      114);
-    p_M_node_count = &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count >> 3)
-                  + 0x7FFF8000) )
-    {
-      __asan_report_load8(p_M_node_count);
-    }
-    else
-    {
-      p_M_node_count = &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count;
-      if ( !*(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count >> 3)
-                     + 0x7FFF8000) )
-      {
-        common::milog::MiLogStream::operator()(
-          &v4,
-          "init succ with cmd_num=%lu, retcode_num=%lu",
-          ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count,
-          ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_node_count);
-LABEL_14:
-        common::milog::MiLogStream::~MiLogStream(&v4);
-        return inited;
-      }
-    }
-    __asan_report_load8(p_M_node_count);
-    goto LABEL_14;
+
+  // 初始化 cmd_id 配置映射表
+  if (ProtoUtils::initCmdIdConfigMap()) {
+      return -1;
   }
+
+  // 初始化命令数据
+  int32_t inited = ProtoUtils::initCmdData();
+  if (inited) {
+      return -1;
+  }
+
+  // 调用 protobuf 的 generated_factory 方法
+  google::protobuf::MessageFactory::generated_factory(nullptr);
+
+  // 标记为已初始化
+  ProtoUtils::is_init_ = true;
+
+  // 如果需要显示初始化日志，打印日志
+  if (ProtoUtils::is_show_init_log_) {
+      common::milog::MiLogStream log_stream;
+      log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 2u, "src/proto_utils.cpp", "init", 114);
+      log_stream << "init succ with cmd_num=" 
+                << ProtoUtils::cmd_to_name_map_.size() 
+                << ", retcode_num=" 
+                << ProtoUtils::retcode_to_name_map_.size();
+      log_stream.~MiLogStream();
+  }
+
   return inited;
+}
+
+struct CmdIdConfig
+{
+    uint32_t begin_cmd_id;
+    uint32_t end_cmd_id;
 };
 
-// Line 122: range 000000000C7FDB40-000000000C7FEA72
-int32_t __cdecl ProtoUtils::initCmdIdConfigMap()
+enum CmdIdConfigType
 {
-  unsigned __int64 v0; // rbp
-  __int64 v1; // rdi
-  unsigned __int64 v2; // r12
-  std::_Rb_tree_node_base::_Base_ptr M_parent; // r13
-  std::_Rb_tree_node_base *v4; // r14
-  _DWORD *v5; // r15
-  const google::protobuf::DescriptorPool *v6; // rax
-  char v7; // cl
-  __int64 v8; // rax
-  int32_t v9; // ebx
-  unsigned __int64 p_value_count; // rdi
-  char v12; // dl
-  char v13; // al
-  int v14; // eax
-  size_t v15; // rdx
-  bool v16; // al
-  std::_Rb_tree_node_base::_Base_ptr *p_M_parent; // rdi
-  std::_Rb_tree<std::string,std::pair<const std::string,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<const std::string,ProtoUtils::CmdIdConfig> >,std::less<std::string >,std::allocator<std::pair<const std::string,ProtoUtils::CmdIdConfig> > >::iterator v18; // rax
-  std::_Rb_tree<std::string,std::pair<const std::string,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<const std::string,ProtoUtils::CmdIdConfig> >,std::less<std::string >,std::allocator<std::pair<const std::string,ProtoUtils::CmdIdConfig> > >::iterator v19; // r9
-  unsigned __int64 v20; // rdx
-  size_t *v21; // rcx
-  size_t *v22; // rdi
-  size_t v23; // rcx
-  int v24; // eax
-  __int64 v25; // r14
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::iterator v26; // rax
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::iterator v27; // r9
-  std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr v28; // rsi
-  char v29; // r8
-  char *v30; // rdi
-  char *v31; // rdi
-  char *v32; // rdi
-  char *v33; // rdi
-  unsigned __int64 v34; // rax
-  char *v35; // rdi
-  char *v36; // rdi
-  unsigned __int64 v37; // rax
-  char *v38; // rsi
-  std::map<std::string,ProtoUtils::CmdIdConfig> *M_left; // rax
-  unsigned __int64 p_M_node_count; // rax
-  unsigned __int64 v41; // rax
-  std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr v42; // rdi
-  std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr v43; // rax
-  unsigned __int64 v44; // rax
-  char v45; // cl
-  google::protobuf::EnumDescriptor *options; // rax
-  char v47; // cl
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::iterator v48; // r9
-  char v49; // di
-  char v50; // r8
-  __int64 v51; // r13
-  __int64 v52; // rax
-  unsigned int v53; // r12d
-  unsigned int v54; // r14d
-  char v55; // cl
-  __int64 v56; // rdx
-  char v57; // cl
-  __int64 v58; // rdi
-  char v59; // cl
-  __int64 v60; // rbp
-  unsigned __int64 v61; // rdi
-  char v62; // dl
-  char v63; // dl
-  std::tuple<const std::string&> *v64; // [rsp+0h] [rbp-288h]
-  google::protobuf::EnumDescriptor *enum_ptr; // [rsp+8h] [rbp-280h]
-  std::_Rb_tree_iterator<std::pair<const std::string,ProtoUtils::CmdIdConfig> >::_Base_ptr M_node; // [rsp+10h] [rbp-278h]
-  uint32_t value_count; // [rsp+1Ch] [rbp-26Ch]
-  unsigned __int64 v68; // [rsp+20h] [rbp-268h]
-  std::_Rb_tree_iterator<std::pair<const std::string,ProtoUtils::CmdIdConfig> >::_Base_ptr __pos; // [rsp+30h] [rbp-258h]
-  std::tuple<> v70; // [rsp+4Fh] [rbp-239h] BYREF
-  common::milog::MiLogStream v71; // [rsp+50h] [rbp-238h] BYREF
-  char v72[536]; // [rsp+70h] [rbp-218h] BYREF
+    CMD_ID_CONFIG_INVALID = 0,
+    CMD_ID_CONFIG_BEGIN   = 1,
+    CMD_ID_CONFIG_END     = 2
+};
 
-  v68 = (unsigned __int64)v72;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v1 = 480LL;
-    v8 = __asan_stack_malloc_3(480LL);
-    if ( v8 )
-      v68 = v8;
-  }
-  *(_QWORD *)v68 = 1102416563LL;
-  *(_QWORD *)(v68 + 8) = "9 48 4 19 last_enum_value:134 64 4 8 type:155 80 8 6 __size 112 8 7 __osize 144 32 27 last_enum"
-                         "_file_key_name:132 208 32 18 last_enum_name:133 272 32 8 name:143 336 32 17 file_key_name:154 4"
-                         "00 48 11 tmp_map:209";
-  *(_QWORD *)(v68 + 16) = ProtoUtils::initCmdIdConfigMap;
-  v5 = (_DWORD *)(v68 >> 3);
-  v5[536862720] = -235802127;
-  v5[536862721] = -234556943;
-  v5[536862722] = -234881024;
-  v5[536862723] = -234881024;
-  v5[536862724] = 62194;
-  v5[536862725] = -219021312;
-  v5[536862726] = 62194;
-  v5[536862727] = -219021312;
-  v5[536862728] = 62194;
-  v5[536862729] = -219021312;
-  v5[536862730] = 62194;
-  v5[536862731] = -219021312;
-  v5[536862732] = 62194;
-  v5[536862734] = -202116109;
-  v6 = (const google::protobuf::DescriptorPool *)google::protobuf::DescriptorPool::generated_pool((google::protobuf::DescriptorPool *)v1);
-  enum_ptr = (google::protobuf::EnumDescriptor *)google::protobuf::DescriptorPool::FindEnumTypeByName(
-                                                   v6,
-                                                   &ProtoConst::cmd_id_config[abi:cxx11]);
-  if ( !enum_ptr )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v71,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "src/proto_utils.cpp",
-      "initCmdIdConfigMap",
-      127);
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoConst::cmd_id_config[abi:cxx11] >> 3) + 0x7FFF8000) )
-      __asan_report_load8(&ProtoConst::cmd_id_config[abi:cxx11]);
-    else
-      common::milog::MiLogStream::operator()(
-        &v71,
-        "can not find enum %s in proto file",
-        ProtoConst::cmd_id_config[abi:cxx11]._M_dataplus._M_p);
-    common::milog::MiLogStream::~MiLogStream(&v71);
-    v9 = -1;
-    goto LABEL_9;
-  }
-  *(_QWORD *)(v68 + 144) = v68 + 160;
-  *(_QWORD *)(v68 + 152) = 0LL;
-  *(_BYTE *)(v68 + 160) = 0;
-  *(_QWORD *)(v68 + 208) = v68 + 224;
-  *(_QWORD *)(v68 + 216) = 0LL;
-  *(_BYTE *)(v68 + 224) = 0;
-  *(_DWORD *)(v68 + 48) = 0;
-  p_value_count = (unsigned __int64)&enum_ptr->value_count_;
-  v12 = *(_BYTE *)(((unsigned __int64)&enum_ptr->value_count_ >> 3) + 0x7FFF8000);
-  if ( (char)((((_BYTE)enum_ptr + 44) & 7) + 3) >= v12 && v12 )
-  {
-    __asan_report_load4(p_value_count);
-    goto LABEL_16;
-  }
-  value_count = enum_ptr->value_count_;
-  v0 = 0LL;
-  M_parent = 0LL;
-  while ( (unsigned int)v0 < value_count )
-  {
-    p_value_count = (unsigned __int64)&enum_ptr->values_;
-    if ( *(_BYTE *)(((unsigned __int64)&enum_ptr->values_ >> 3) + 0x7FFF8000) )
+static std::map<std::string, CmdIdConfig> cmd_id_config_map_;
+
+// Line 122: range 000000000C7FDB40-000000000C7FEA72
+/*
+该函数用于初始化命令 ID 与 proto 文件之间的映射关系（cmd_id_config_map_），以便后续能够通过命令 ID 快速查找对应的 proto 文件和消息定义。
+
+首先获取 protobuf 的枚举描述符。
+然后遍历每个枚举值，解析其命名格式（是否以 _BEGIN 或 _END 结尾）。
+将有效的枚举信息插入到 cmd_id_config_map_ 中。
+最后检查是否有冲突的 cmd_id 范围，并记录日志。
+ */
+int32_t ProtoUtils::initCmdIdConfigMap()
+{
+    const google::protobuf::DescriptorPool* pool = google::protobuf::DescriptorPool::generated_pool();
+    if (!pool)
     {
-LABEL_16:
-      __asan_report_load8(p_value_count);
-LABEL_17:
-      __asan_report_load8(p_value_count);
-LABEL_18:
-      __asan_report_load8(p_value_count);
-      goto LABEL_19;
+        LOG_ERROR << "Failed to get generated DescriptorPool";
+        return -1;
     }
-    v2 = (unsigned __int64)&enum_ptr->values_[(int)v0];
-    p_value_count = v2;
-    if ( *(_BYTE *)((v2 >> 3) + 0x7FFF8000) )
-      goto LABEL_17;
-    v37 = *(_QWORD *)v2;
-    *(_QWORD *)(v68 + 272) = v68 + 288;
-    p_value_count = v37;
-    if ( *(_BYTE *)((v37 >> 3) + 0x7FFF8000) )
-      goto LABEL_18;
-    p_value_count = v37 + 8;
-    if ( !*(_BYTE *)(((v37 + 8) >> 3) + 0x7FFF8000) )
+
+    const google::protobuf::EnumDescriptor* enumDesc = pool->FindEnumTypeByName(ProtoConst::cmd_id_config);
+    if (!enumDesc)
     {
-      std::string::_M_construct<char *>(
-        (std::string *const)(v68 + 272),
-        *(char **)v37,
-        (char *)(*(_QWORD *)(v37 + 8) + *(_QWORD *)v37),
-        (std::forward_iterator_tag)v7);
-      goto LABEL_20;
+        LOG_ERROR << "Can't find enum: " << ProtoConst::cmd_id_config;
+        return -1;
     }
-LABEL_19:
-    __asan_report_load8(p_value_count);
-LABEL_20:
-    v13 = *(_BYTE *)(((v2 + 16) >> 3) + 0x7FFF8000);
-    if ( v13 && v13 <= 3 )
+
+    uint32_t valueCount = enumDesc->value_count();
+    std::string lastFileName;
+    std::string lastName;
+    uint32_t lastValue = 0;
+
+    std::map<std::string, CmdIdConfig> tmpMap; // 临时存储结构
+
+    for (uint32_t i = 0; i < valueCount; ++i)
     {
-      __asan_report_load4(v2 + 16);
-LABEL_25:
-      common::milog::MiLogStream::MiLogStream(
-        &v71,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "initCmdIdConfigMap",
-        149);
-      common::milog::MiLogStream::operator()(&v71, "invalid %s=%d", *(const char **)(v68 + 272), (unsigned int)v2);
-      common::milog::MiLogStream::~MiLogStream(&v71);
-      goto LABEL_73;
-    }
-    v2 = *(unsigned int *)(v2 + 16);
-    if ( (v2 & 0x80000000) != 0LL )
-      goto LABEL_25;
-    *(_QWORD *)(v68 + 336) = v68 + 352;
-    *(_QWORD *)(v68 + 344) = 0LL;
-    *(_BYTE *)(v68 + 352) = 0;
-    if ( ProtoUtils::splitCmdIdConfigName(
-           (const std::string *)(v68 + 272),
-           (std::string *)(v68 + 336),
-           (ProtoUtils::CmdIdConfigType *)(v68 + 64)) )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v71,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "initCmdIdConfigMap",
-        158);
-      common::milog::MiLogStream::operator()(&v71, "invalid enum name %s", *(const char **)(v68 + 272));
-      common::milog::MiLogStream::~MiLogStream(&v71);
-      goto LABEL_71;
-    }
-    v14 = *(_DWORD *)(v68 + 64);
-    if ( v14 == 1 )
-    {
-      if ( (_DWORD)M_parent )
-      {
-        common::milog::MiLogStream::MiLogStream(
-          &v71,
-          &common::milog::MiLogDefault::default_log_obj_,
-          4u,
-          "src/proto_utils.cpp",
-          "initCmdIdConfigMap",
-          168);
-        common::milog::MiLogStream::operator()(
-          &v71,
-          "miss END for %s=%u",
-          *(const char **)(v68 + 208),
-          *(unsigned int *)(v68 + 48));
-        common::milog::MiLogStream::~MiLogStream(&v71);
-        goto LABEL_71;
-      }
-      std::string::_M_assign(v68 + 144, v68 + 336);
-      std::string::_M_assign(v68 + 208, v68 + 272);
-      *(_DWORD *)(v68 + 48) = v2;
-      M_parent = (std::_Rb_tree_node_base::_Base_ptr)*(unsigned int *)(v68 + 64);
-      goto LABEL_85;
-    }
-    if ( v14 != 2 )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v71,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "initCmdIdConfigMap",
-        203);
-      common::milog::MiLogStream::operator()(&v71, "invalid enum type=%u", *(unsigned int *)(v68 + 64));
-      common::milog::MiLogStream::~MiLogStream(&v71);
-      goto LABEL_71;
-    }
-    if ( (_DWORD)M_parent != 1
-      || ((v15 = *(_QWORD *)(v68 + 152), v15 == *(_QWORD *)(v68 + 344))
-        ? (!v15
-         ? (v16 = 1)
-         : (v16 = memcmp(*(const void **)(v68 + 144), *(const void **)(v68 + 336), v15) == 0))
-        : (v16 = 0),
-          !v16 || (unsigned int)v2 <= *(_DWORD *)(v68 + 48)) )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v71,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "initCmdIdConfigMap",
-        184);
-      goto LABEL_70;
-    }
-    p_M_parent = &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-    {
-      __asan_report_load8(p_M_parent);
-LABEL_57:
-      v18._M_node = (std::_Rb_tree_iterator<std::pair<const std::string,ProtoUtils::CmdIdConfig> >::_Base_ptr)__asan_report_load8(p_M_parent);
-LABEL_58:
-      v21 = (size_t *)(v68 + 112);
-LABEL_39:
-      v22 = v21;
-      if ( *(_BYTE *)(((unsigned __int64)v21 >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_load8(v21);
-      }
-      else
-      {
-        v23 = *v21;
-        v22 = (size_t *)v20;
-        if ( !*(_BYTE *)((v20 >> 3) + 0x7FFF8000) )
+        const google::protobuf::EnumValueDescriptor* valueDesc = enumDesc->value(i);
+        if (!valueDesc)
         {
-          if ( v23 )
-          {
-            v24 = memcmp(*(const void **)(v68 + 336), *(const void **)&v18._M_node[1]._M_color, v23);
-            if ( v24 )
+            LOG_ERROR << "Invalid enum value at index: " << i;
+            return -1;
+        }
+
+        std::string fullName = valueDesc->name();
+        std::string fileKeyName;
+        CmdIdConfigType type;
+
+        if (splitCmdIdConfigName(&fullName, &fileKeyName, &type))
+        {
+            LOG_ERROR << "Invalid enum name: " << fullName;
+            return -1;
+        }
+
+        uint32_t cmdId = valueDesc->number();
+
+        if (type == CMD_ID_CONFIG_BEGIN)
+        {
+            if (!lastName.empty())
             {
-LABEL_46:
-              if ( v24 >= 0 )
-                goto LABEL_63;
-              goto LABEL_47;
+                LOG_ERROR << "Miss END for: " << lastName << "=" << lastValue;
+                return -1;
             }
-          }
-          v25 = (char *)v4 - (char *)M_parent;
-          if ( v25 <= 0x7FFFFFFF )
-          {
-            if ( v25 < (__int64)0xFFFFFFFF80000000LL )
-              v24 = 0x80000000;
-            else
-              v24 = v25;
-            goto LABEL_46;
-          }
-LABEL_61:
-          v24 = 0x7FFFFFFF;
-          goto LABEL_46;
+
+            lastFileName = fileKeyName;
+            lastName = fullName;
+            lastValue = cmdId;
         }
-      }
-      __asan_report_load8(v22);
-      goto LABEL_61;
-    }
-    M_parent = (std::_Rb_tree_node_base::_Base_ptr)&ProtoUtils::cmd_id_config_map_[abi:cxx11];
-    v18._M_node = std::_Rb_tree<std::string,std::pair<std::string const,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<std::string const,ProtoUtils::CmdIdConfig>>,std::less<std::string>,std::allocator<std::pair<std::string const,ProtoUtils::CmdIdConfig>>>::_M_lower_bound(
-                    &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<std::string,std::pair<const std::string,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<const std::string,ProtoUtils::CmdIdConfig> >,std::less<std::string >,std::allocator<std::pair<const std::string,ProtoUtils::CmdIdConfig> > >::_Link_type)ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header,
-                    (const std::string *)(v68 + 336))._M_node;
-    M_node = v18._M_node;
-    __pos = v18._M_node;
-    if ( (std::_Rb_tree_header *)v18._M_node != &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-    {
-      v20 = (unsigned __int64)&v18._M_node[1];
-      v4 = *(std::_Rb_tree_node_base **)(v68 + 344);
-      *(_QWORD *)(v68 + 80) = v4;
-      p_M_parent = &v18._M_node[1]._M_parent;
-      if ( *(_BYTE *)(((unsigned __int64)&v18._M_node[1]._M_parent >> 3) + 0x7FFF8000) )
-        goto LABEL_57;
-      M_parent = v18._M_node[1]._M_parent;
-      *(_QWORD *)(v68 + 112) = M_parent;
-      if ( v4 > M_parent )
-        goto LABEL_58;
-      v21 = (size_t *)(v68 + 80);
-      goto LABEL_39;
-    }
-LABEL_47:
-    *(_QWORD *)(v68 + 112) = v68 + 336;
-    M_node = std::_Rb_tree<std::string,std::pair<std::string const,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<std::string const,ProtoUtils::CmdIdConfig>>,std::less<std::string>,std::allocator<std::pair<std::string const,ProtoUtils::CmdIdConfig>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<std::string const&>,std::tuple<>>(
-               &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t,
-               (std::_Rb_tree<std::string,std::pair<const std::string,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<const std::string,ProtoUtils::CmdIdConfig> >,std::less<std::string >,std::allocator<std::pair<const std::string,ProtoUtils::CmdIdConfig> > >::const_iterator)__pos,
-               &std::piecewise_construct,
-               (std::tuple<const std::string&> *)(v68 + 112),
-               &v70,
-               (const std::piecewise_construct_t *)v19._M_node,
-               v64,
-               (std::tuple<> *)enum_ptr)._M_node;
-LABEL_63:
-    v4 = (std::_Rb_tree_iterator<std::pair<const std::string,ProtoUtils::CmdIdConfig> >::_Base_ptr)((char *)M_node + 72);
-    if ( *(_BYTE *)(((unsigned __int64)&M_node[2]._M_left >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(&M_node[2]._M_left);
-LABEL_70:
-      common::milog::MiLogStream::operator()(
-        &v71,
-        "miss BEGIN config for %s=%u, or begin end value error",
-        *(const char **)(v68 + 272),
-        (unsigned int)v2);
-      common::milog::MiLogStream::~MiLogStream(&v71);
-LABEL_71:
-      v30 = *(char **)(v68 + 336);
-      if ( v30 != (char *)(v68 + 352) )
-        operator delete(v30);
-LABEL_73:
-      v31 = *(char **)(v68 + 272);
-      if ( v31 != (char *)(v68 + 288) )
-        operator delete(v31);
-      v9 = -1;
-      goto LABEL_76;
-    }
-    v26._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_lower_bound(
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > > *const)&M_node[2],
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::_Link_type)M_node[2]._M_left,
-                    (std::_Rb_tree_iterator<std::pair<const std::string,ProtoUtils::CmdIdConfig> >::_Base_ptr)((char *)M_node + 72),
-                    (const unsigned int *)(v68 + 48))._M_node;
-    v28 = v26._M_node;
-    if ( v4 == v26._M_node )
-      goto LABEL_68;
-    v27._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(unsigned int *)(v68 + 48);
-    v29 = *(_BYTE *)(((unsigned __int64)&v26._M_node[1] >> 3) + 0x7FFF8000);
-    if ( (char)(((LOBYTE(v26._M_node) + 32) & 7) + 3) < v29 || !v29 )
-    {
-      if ( LODWORD(v27._M_node) >= v26._M_node[1]._M_color )
-        goto LABEL_81;
-LABEL_68:
-      *(_QWORD *)(v68 + 112) = v68 + 48;
-      v26._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                      (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > > *const)&M_node[2],
-                      (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::const_iterator)v26._M_node,
-                      &std::piecewise_construct,
-                      (std::tuple<unsigned int const&> *)(v68 + 112),
-                      &v70,
-                      (const std::piecewise_construct_t *)v27._M_node,
-                      (std::tuple<unsigned int const&> *)v64,
-                      (std::tuple<> *)enum_ptr)._M_node;
-      goto LABEL_81;
-    }
-    v26._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)__asan_report_load4(&v26._M_node[1]);
-LABEL_81:
-    v34 = (unsigned __int64)(&v26._M_node[1]._M_color + 1);
-    v7 = *(_BYTE *)((v34 >> 3) + 0x7FFF8000);
-    if ( (char)((v34 & 7) + 3) >= v7 && v7 )
-    {
-      __asan_report_store4(v34, v28);
-    }
-    else
-    {
-      *(_DWORD *)v34 = v2;
-      if ( !ProtoUtils::is_show_init_log_ )
-      {
-        M_parent = 0LL;
-        goto LABEL_85;
-      }
-    }
-    common::milog::MiLogStream::MiLogStream(
-      &v71,
-      &common::milog::MiLogDefault::default_log_obj_,
-      1u,
-      "src/proto_utils.cpp",
-      "initCmdIdConfigMap",
-      194);
-    common::milog::MiLogStream::operator()(
-      &v71,
-      "add cmd_id config %u->%u for %s.proto",
-      *(unsigned int *)(v68 + 48),
-      (unsigned int)v2,
-      *(const char **)(v68 + 336));
-    common::milog::MiLogStream::~MiLogStream(&v71);
-    M_parent = 0LL;
-LABEL_85:
-    v35 = *(char **)(v68 + 336);
-    if ( v35 != (char *)(v68 + 352) )
-      operator delete(v35);
-    v36 = *(char **)(v68 + 272);
-    if ( v36 != (char *)(v68 + 288) )
-      operator delete(v36);
-    v0 = (unsigned int)(v0 + 1);
-  }
-  v38 = (char *)(v68 + 480);
-  *(_DWORD *)(v68 + 408) = 0;
-  *(_QWORD *)(v68 + 416) = 0LL;
-  *(_QWORD *)(v68 + 424) = v68 + 408;
-  *(_QWORD *)(v68 + 432) = v68 + 408;
-  *(_QWORD *)(v68 + 440) = 0LL;
-  if ( !*(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_left >> 3)
-                 + 0x7FFF8000) )
-  {
-    M_left = (std::map<std::string,ProtoUtils::CmdIdConfig> *)ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_left;
-    goto LABEL_121;
-  }
-  p_M_node_count = __asan_report_load8(&ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl._M_header._M_left);
-LABEL_102:
-  v41 = __asan_report_load8(p_M_node_count);
-LABEL_103:
-  __asan_report_load4(v41);
-LABEL_104:
-  v42 = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)v0;
-  __asan_report_load4(v0);
-LABEL_105:
-  v43 = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)__asan_report_load4(v42);
-LABEL_106:
-  v44 = (unsigned __int64)(&v43[1]._M_color + 1);
-  v45 = *(_BYTE *)((v44 >> 3) + 0x7FFF8000);
-  if ( (char)((v44 & 7) + 3) < v45 || !v45 )
-  {
-    *(_DWORD *)v44 = (_DWORD)v4;
-    options = (google::protobuf::EnumDescriptor *)std::_Rb_tree_increment((const std::_Rb_tree_node_base *)v2);
-    goto LABEL_109;
-  }
-  __asan_report_store4(v44, v38);
-  while ( 1 )
-  {
-    M_left = (std::map<std::string,ProtoUtils::CmdIdConfig> *)std::_Rb_tree_increment((std::_Rb_tree_node_base *)enum_ptr);
-LABEL_121:
-    enum_ptr = (google::protobuf::EnumDescriptor *)M_left;
-    if ( M_left == (std::map<std::string,ProtoUtils::CmdIdConfig> *)&ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-      break;
-    p_M_node_count = (unsigned __int64)&M_left[1]._M_t._M_impl._M_node_count;
-    if ( *(_BYTE *)((p_M_node_count >> 3) + 0x7FFF8000) )
-      goto LABEL_102;
-    options = (google::protobuf::EnumDescriptor *)enum_ptr[1].options_;
-LABEL_109:
-    v38 = (char *)enum_ptr;
-    v2 = (unsigned __int64)options;
-    if ( options != (google::protobuf::EnumDescriptor *)&enum_ptr[1].file_ )
-    {
-      v41 = (unsigned __int64)&options->options_ + 4;
-      v47 = *(_BYTE *)((v41 >> 3) + 0x7FFF8000);
-      if ( (char)((v41 & 7) + 3) >= v47 && v47 )
-        goto LABEL_103;
-      LODWORD(v4) = *(_DWORD *)(v2 + 36);
-      v0 = v2 + 32;
-      v43 = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_lower_bound(
-              (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > > *const)(v68 + 400),
-              *(std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::_Link_type *)(v68 + 416),
-              (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::_Base_ptr)(v68 + 408),
-              (const unsigned int *)(v2 + 32))._M_node;
-      v38 = (char *)v43;
-      if ( v43 == (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)(v68 + 408) )
-      {
-LABEL_118:
-        *(_QWORD *)(v68 + 112) = v0;
-        v43 = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > > *const)(v68 + 400),
-                (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::const_iterator)v43,
-                &std::piecewise_construct,
-                (std::tuple<unsigned int const&> *)(v68 + 112),
-                &v70,
-                (const std::piecewise_construct_t *)v48._M_node,
-                (std::tuple<unsigned int const&> *)v64,
-                (std::tuple<> *)enum_ptr)._M_node;
-        goto LABEL_106;
-      }
-      v49 = *(_BYTE *)((v0 >> 3) + 0x7FFF8000);
-      if ( (char)((v0 & 7) + 3) < v49 || !v49 )
-      {
-        v48._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(unsigned int *)(v2 + 32);
-        v42 = v43 + 1;
-        v50 = *(_BYTE *)(((unsigned __int64)&v43[1] >> 3) + 0x7FFF8000);
-        if ( (char)((((_BYTE)v43 + 32) & 7) + 3) < v50 || !v50 )
+        else if (type == CMD_ID_CONFIG_END)
         {
-          if ( LODWORD(v48._M_node) >= v43[1]._M_color )
-            goto LABEL_106;
-          goto LABEL_118;
-        }
-        goto LABEL_105;
-      }
-      goto LABEL_104;
-    }
-  }
-  v51 = *(_QWORD *)(v68 + 424);
-  v52 = v51;
-  v53 = 0;
-  v54 = 0;
-  while ( 1 )
-  {
-    v58 = v52;
-    if ( v52 == v68 + 408 )
-      goto LABEL_146;
-    if ( v51 != v52 )
-    {
-      v59 = *(_BYTE *)(((unsigned __int64)(v52 + 32) >> 3) + 0x7FFF8000);
-      if ( (char)(((v52 + 32) & 7) + 3) >= v59 && v59 )
-      {
-        v58 = v52 + 32;
-        __asan_report_load4(v52 + 32);
-LABEL_136:
-        v60 = v58;
-        common::milog::MiLogStream::MiLogStream(
-          &v71,
-          &common::milog::MiLogDefault::default_log_obj_,
-          4u,
-          "src/proto_utils.cpp",
-          "initCmdIdConfigMap",
-          229);
-        v61 = v58 + 36;
-        v62 = *(_BYTE *)((v61 >> 3) + 0x7FFF8000);
-        if ( (char)(((v60 + 36) & 7) + 3) >= v62 && v62 )
-        {
-          __asan_report_load4(v61);
+            if (lastFileName != fileKeyName || cmdId <= lastValue)
+            {
+                LOG_ERROR << "Begin/End config error for: " << fullName << "=" << cmdId;
+                return -1;
+            }
+
+            CmdIdConfig config;
+            config.begin_cmd_id = lastValue;
+            config.end_cmd_id = cmdId;
+
+            auto it = tmpMap.find(fileKeyName);
+            if (it != tmpMap.end())
+            {
+                LOG_ERROR << "Conflict cmd_id config: " << it->second.begin_cmd_id << "->" << it->second.end_cmd_id
+                          << " and " << lastValue << "->" << cmdId;
+                return -1;
+            }
+
+            tmpMap[fileKeyName] = config;
+
+            if (is_show_init_log_)
+            {
+                LOG_INFO << "Add cmd_id config: " << lastValue << "->" << cmdId << " for " << fileKeyName << ".proto";
+            }
+
+            lastFileName.clear();
+            lastName.clear();
+            lastValue = 0;
         }
         else
         {
-          v61 = v60 + 32;
-          v63 = *(_BYTE *)(((unsigned __int64)(v60 + 32) >> 3) + 0x7FFF8000);
-          if ( (char)(((v60 + 32) & 7) + 3) < v63 || !v63 )
-          {
-            common::milog::MiLogStream::operator()(
-              &v71,
-              "find conflict cmd_id config with %u->%u and %u->%u",
-              v54,
-              v53,
-              *(unsigned int *)(v60 + 32),
-              *(unsigned int *)(v60 + 36));
-LABEL_143:
-            common::milog::MiLogStream::~MiLogStream(&v71);
-            v9 = -1;
-            goto LABEL_147;
-          }
+            LOG_ERROR << "Invalid enum type: " << static_cast<uint32_t>(type);
+            return -1;
         }
-        __asan_report_load4(v61);
-        goto LABEL_143;
-      }
-      if ( *(_DWORD *)(v52 + 32) <= v53 )
-        goto LABEL_136;
     }
-    v55 = *(_BYTE *)(((unsigned __int64)(v52 + 32) >> 3) + 0x7FFF8000);
-    if ( (char)(((v52 + 32) & 7) + 3) >= v55 )
+
+    if (!lastFileName.empty())
     {
-      if ( v55 )
-        break;
+        LOG_ERROR << "Miss END for: " << lastName << "=" << lastValue;
+        return -1;
     }
-    v54 = *(_DWORD *)(v52 + 32);
-    v56 = v52 + 36;
-    v57 = *(_BYTE *)(((unsigned __int64)(v52 + 36) >> 3) + 0x7FFF8000);
-    if ( (char)(((v52 + 36) & 7) + 3) >= v57 && v57 )
-      goto LABEL_145;
-    v53 = *(_DWORD *)(v52 + 36);
-    v52 = std::_Rb_tree_increment((std::_Rb_tree_node_base *)v52);
-  }
-  __asan_report_load4(v52 + 32);
-LABEL_145:
-  __asan_report_load4(v56);
-LABEL_146:
-  v9 = 0;
-LABEL_147:
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_erase(
-    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > > *const)(v68 + 400),
-    *(std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::_Link_type *)(v68 + 416));
-LABEL_76:
-  v32 = *(char **)(v68 + 208);
-  if ( v32 != (char *)(v68 + 224) )
-    operator delete(v32);
-  v33 = *(char **)(v68 + 144);
-  if ( v33 != (char *)(v68 + 160) )
-    operator delete(v33);
-LABEL_9:
-  if ( v72 == (char *)v68 )
-  {
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8008) = 0LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8010) = 0LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8018) = 0LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8020) = 0LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8028) = 0LL;
-    *(_DWORD *)((v68 >> 3) + 0x7FFF8030) = 0;
-    *(_DWORD *)((v68 >> 3) + 0x7FFF8038) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v68 = 1172321806LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v68 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v68 >> 3) + 0x7FFF8038) = -168430091;
-  }
-  return v9;
-};
+
+    // 插入最终 map
+    for (const auto& pair : tmpMap)
+    {
+        cmd_id_config_map_[pair.first] = pair.second;
+    }
+
+    return 0;
+}
 
 // Line 244: range 000000000C7FEA78-000000000C7FF0F0
-int32_t __cdecl ProtoUtils::initRetcodeMap()
-{
-  __int64 v0; // rbp
-  __int64 v1; // rdi
-  uint32_t i; // r12d
-  std::_Rb_tree_node_base::_Base_ptr M_parent; // r13
-  char *v4; // rbx
-  const google::protobuf::DescriptorPool *v5; // rax
-  const google::protobuf::EnumDescriptor *EnumTypeByName; // rax
-  char v7; // cl
-  const google::protobuf::EnumDescriptor *v8; // r14
-  std::_Rb_tree_node_base::_Base_ptr *p_value_count; // rdi
-  char v10; // dl
-  __int64 v11; // rax
-  int32_t result; // eax
-  std::_Rb_tree_iterator<std::pair<int const,std::string > >::_Base_ptr v13; // rcx
-  std::_Rb_tree_iterator<std::pair<int const,std::string > >::_Base_ptr v14; // rax
-  std::_Rb_tree_iterator<std::pair<int const,std::string > >::_Base_ptr M_node; // rdi
-  int v16; // r15d
-  std::_Rb_tree_node_base::_Base_ptr *p_M_parent; // rdi
-  std::_Rb_tree<std::string,std::pair<const std::string,int>,std::_Select1st<std::pair<const std::string,int> >,std::less<std::string >,std::allocator<std::pair<const std::string,int> > >::iterator v18; // rax
-  std::_Rb_tree<std::string,std::pair<const std::string,int>,std::_Select1st<std::pair<const std::string,int> >,std::less<std::string >,std::allocator<std::pair<const std::string,int> > >::iterator v19; // r9
-  unsigned __int64 v20; // rdx
-  size_t *v21; // rcx
-  size_t *v22; // rdi
-  const void *v23; // rsi
-  size_t v24; // rcx
-  int v25; // eax
-  char *v26; // rdi
-  std::_Rb_tree_node_base::_Base_ptr *v27; // rax
-  char v28; // al
-  std::_Rb_tree<int,std::pair<int const,std::string >,std::_Select1st<std::pair<int const,std::string > >,std::less<int>,std::allocator<std::pair<int const,std::string > > >::iterator v29; // rax
-  char v30; // si
-  const char **p_file; // rdi
-  std::tuple<int const&> *v32; // [rsp+0h] [rbp-148h]
-  std::tuple<> *__args_2; // [rsp+8h] [rbp-140h]
-  std::_Rb_tree_iterator<std::pair<const std::string,int> >::_Base_ptr __pos; // [rsp+10h] [rbp-138h]
-  uint32_t value_count; // [rsp+1Ch] [rbp-12Ch]
-  unsigned __int64 v36; // [rsp+20h] [rbp-128h]
-  _DWORD *v37; // [rsp+28h] [rbp-120h]
-  std::tuple<> v38; // [rsp+4Fh] [rbp-F9h] BYREF
-  char v39[248]; // [rsp+50h] [rbp-F8h] BYREF
+int32_t ProtoUtils::initRetcodeMap() {
+  // 获取生成的 protobuf DescriptorPool
+  const google::protobuf::DescriptorPool* descriptor_pool = google::protobuf::DescriptorPool::generated_pool();
+  if (!descriptor_pool) {
+      common::milog::MiLogStream log_stream;
+      log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 4u, "src/proto_utils.cpp", "initRetcodeMap", 249);
+      log_stream << "generated_pool failed";
+      log_stream.~MiLogStream();
+      return -1;
+  }
 
-  v36 = (unsigned __int64)v39;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v1 = 192LL;
-    v11 = __asan_stack_malloc_2(192LL);
-    if ( v11 )
-      v36 = v11;
+  // 查找 retcode 枚举类型
+  const google::protobuf::EnumDescriptor* enum_descriptor = descriptor_pool->FindEnumTypeByName(ProtoConst::retcode);
+  if (!enum_descriptor) {
+      common::milog::MiLogStream log_stream;
+      log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 4u, "src/proto_utils.cpp", "initRetcodeMap", 249);
+      log_stream << "can not find enum " << ProtoConst::retcode << " in proto file";
+      log_stream.~MiLogStream();
+      return -1;
   }
-  v4 = (char *)(v36 + 192);
-  *(_QWORD *)v36 = 1102416563LL;
-  *(_QWORD *)(v36 + 8) = "4 48 4 9 value:260 64 8 6 __size 96 8 7 __osize 128 32 8 name:259";
-  *(_QWORD *)(v36 + 16) = ProtoUtils::initRetcodeMap;
-  v37 = (_DWORD *)(v36 >> 3);
-  v37[536862720] = -235802127;
-  v37[536862721] = -234556943;
-  v37[536862722] = -218959360;
-  v37[536862723] = -218959360;
-  v37[536862725] = -202116109;
-  v5 = (const google::protobuf::DescriptorPool *)google::protobuf::DescriptorPool::generated_pool((google::protobuf::DescriptorPool *)v1);
-  EnumTypeByName = google::protobuf::DescriptorPool::FindEnumTypeByName(v5, &ProtoConst::retcode[abi:cxx11]);
-  v8 = EnumTypeByName;
-  if ( !EnumTypeByName )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      (common::milog::MiLogStream *const)(v36 + 128),
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "src/proto_utils.cpp",
-      "initRetcodeMap",
-      249);
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoConst::retcode[abi:cxx11] >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(&ProtoConst::retcode[abi:cxx11]);
-    }
-    else
-    {
-      v4 = (char *)(v36 + 192);
-      common::milog::MiLogStream::operator()(
-        (common::milog::MiLogStream *const)(v36 + 128),
-        "can not find enum %s in proto file",
-        ProtoConst::retcode[abi:cxx11]._M_dataplus._M_p);
-    }
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)v4 - 2);
-    result = -1;
-    goto LABEL_63;
+
+  // 遍历枚举值并初始化映射表
+  uint32_t value_count = enum_descriptor->value_count();
+  for (uint32_t i = 0; i < value_count; ++i) {
+      const google::protobuf::EnumValueDescriptor* enum_value = enum_descriptor->value(i);
+      if (!enum_value) {
+          common::milog::MiLogStream log_stream;
+          log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 4u, "src/proto_utils.cpp", "initRetcodeMap", 260);
+          log_stream << "invalid enum value at index " << i;
+          log_stream.~MiLogStream();
+          return -1;
+      }
+
+      int retcode = enum_value->number();
+      std::string name = enum_value->name();
+
+      // 插入到 retcode_to_name_map_ 中
+      auto it = ProtoUtils::retcode_to_name_map_.find(retcode);
+      if (it == ProtoUtils::retcode_to_name_map_.end()) {
+          ProtoUtils::retcode_to_name_map_[retcode] = name;
+      } else {
+          common::milog::MiLogStream log_stream;
+          log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 4u, "src/proto_utils.cpp", "initRetcodeMap", 270);
+          log_stream << "find repeat retcode=" << retcode << " in msg '" << name << "'";
+          log_stream.~MiLogStream();
+          return -1;
+      }
+
+      // 插入到 retcode_to_value_map_ 中
+      auto it2 = ProtoUtils::retcode_to_value_map_.find(name);
+      if (it2 == ProtoUtils::retcode_to_value_map_.end()) {
+          ProtoUtils::retcode_to_value_map_[name] = retcode;
+      } else {
+          common::milog::MiLogStream log_stream;
+          log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 4u, "src/proto_utils.cpp", "initRetcodeMap", 280);
+          log_stream << "find repeat name=" << name << " with retcode=" << retcode;
+          log_stream.~MiLogStream();
+          return -1;
+      }
   }
-  p_value_count = (std::_Rb_tree_node_base::_Base_ptr *)&EnumTypeByName->value_count_;
-  v10 = *(_BYTE *)(((unsigned __int64)&EnumTypeByName->value_count_ >> 3) + 0x7FFF8000);
-  if ( (char)((((_BYTE)EnumTypeByName + 44) & 7) + 3) >= v10 && v10 )
-  {
-    __asan_report_load4(p_value_count);
-    goto LABEL_13;
+
+  // 如果需要显示初始化日志，打印日志
+  if (ProtoUtils::is_show_init_log_) {
+      common::milog::MiLogStream log_stream;
+      log_stream.init(&common::milog::MiLogDefault::default_log_obj_, 1u, "src/proto_utils.cpp", "initRetcodeMap", 269);
+      log_stream << "load " << value_count << " Retcode values from proto file";
+      log_stream.~MiLogStream();
   }
-  value_count = EnumTypeByName->value_count_;
-  for ( i = 0; i < value_count; ++i )
-  {
-    p_value_count = (std::_Rb_tree_node_base::_Base_ptr *)&v8->values_;
-    if ( *(_BYTE *)(((unsigned __int64)&v8->values_ >> 3) + 0x7FFF8000) )
-    {
-LABEL_13:
-      __asan_report_load8(p_value_count);
-LABEL_14:
-      __asan_report_load8(p_value_count);
-LABEL_15:
-      __asan_report_load8(p_value_count);
-LABEL_16:
-      __asan_report_load8(p_value_count);
-LABEL_17:
-      __asan_report_load4(p_value_count);
-LABEL_18:
-      __asan_report_load8(p_value_count);
-LABEL_19:
-      v14 = (std::_Rb_tree_iterator<std::pair<int const,std::string > >::_Base_ptr)__asan_report_load4(v13);
-LABEL_20:
-      M_node = v14;
-      goto LABEL_21;
-    }
-    v0 = (__int64)&v8->values_[i];
-    p_value_count = (std::_Rb_tree_node_base::_Base_ptr *)v0;
-    if ( *(_BYTE *)(((unsigned __int64)v0 >> 3) + 0x7FFF8000) )
-      goto LABEL_14;
-    v27 = *(std::_Rb_tree_node_base::_Base_ptr **)v0;
-    *(_QWORD *)(v36 + 128) = v36 + 144;
-    p_value_count = v27;
-    if ( *(_BYTE *)(((unsigned __int64)v27 >> 3) + 0x7FFF8000) )
-      goto LABEL_15;
-    p_value_count = v27 + 1;
-    if ( *(_BYTE *)(((unsigned __int64)(v27 + 1) >> 3) + 0x7FFF8000) )
-      goto LABEL_16;
-    std::string::_M_construct<char *>(
-      (std::string *const)(v36 + 128),
-      (char *)*v27,
-      (char *)*v27 + (_QWORD)v27[1],
-      (std::forward_iterator_tag)v7);
-    p_value_count = (std::_Rb_tree_node_base::_Base_ptr *)(v0 + 16);
-    v28 = *(_BYTE *)(((unsigned __int64)(v0 + 16) >> 3) + 0x7FFF8000);
-    if ( v28 && v28 <= 3 )
-      goto LABEL_17;
-    *(_DWORD *)(v36 + 48) = *(_DWORD *)(v0 + 16);
-    p_value_count = &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-      goto LABEL_18;
-    v0 = (__int64)&ProtoUtils::retcode_to_name_map_[abi:cxx11];
-    v29._M_node = std::_Rb_tree<int,std::pair<int const,std::string>,std::_Select1st<std::pair<int const,std::string>>,std::less<int>,std::allocator<std::pair<int const,std::string>>>::_M_lower_bound(
-                    &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<int,std::pair<int const,std::string >,std::_Select1st<std::pair<int const,std::string > >,std::less<int>,std::allocator<std::pair<int const,std::string > > >::_Link_type)ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl._M_header,
-                    (const int *)(v36 + 48))._M_node;
-    M_node = v29._M_node;
-    if ( (std::_Rb_tree_header *)v29._M_node == &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-    {
-LABEL_59:
-      *(_QWORD *)(v36 + 96) = v36 + 48;
-      v14 = std::_Rb_tree<int,std::pair<int const,std::string>,std::_Select1st<std::pair<int const,std::string>>,std::less<int>,std::allocator<std::pair<int const,std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<int const&>,std::tuple<>>(
-              &ProtoUtils::retcode_to_name_map_[abi:cxx11]._M_t,
-              (std::_Rb_tree<int,std::pair<int const,std::string >,std::_Select1st<std::pair<int const,std::string > >,std::less<int>,std::allocator<std::pair<int const,std::string > > >::const_iterator)v29._M_node,
-              &std::piecewise_construct,
-              (std::tuple<int const&> *)(v36 + 96),
-              &v38,
-              (const std::piecewise_construct_t *)v29._M_node,
-              v32,
-              __args_2)._M_node;
-      goto LABEL_20;
-    }
-    v13 = v29._M_node + 1;
-    v30 = *(_BYTE *)(((unsigned __int64)&v29._M_node[1] >> 3) + 0x7FFF8000);
-    if ( (char)(((LOBYTE(v29._M_node) + 32) & 7) + 3) >= v30 && v30 )
-      goto LABEL_19;
-    if ( *(_DWORD *)(v36 + 48) < v29._M_node[1]._M_color )
-      goto LABEL_59;
-LABEL_21:
-    std::string::_M_assign(&M_node[1]._M_parent, v36 + 128);
-    v16 = *(_DWORD *)(v36 + 48);
-    p_M_parent = &ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-    {
-      __asan_report_load8(p_M_parent);
-LABEL_36:
-      v18._M_node = (std::_Rb_tree_iterator<std::pair<const std::string,int> >::_Base_ptr)__asan_report_load8(p_M_parent);
-      goto LABEL_37;
-    }
-    v0 = (__int64)&ProtoUtils::retcode_to_value_map_[abi:cxx11];
-    v18._M_node = std::_Rb_tree<std::string,std::pair<std::string const,int>,std::_Select1st<std::pair<std::string const,int>>,std::less<std::string>,std::allocator<std::pair<std::string const,int>>>::_M_lower_bound(
-                    &ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<std::string,std::pair<const std::string,int>,std::_Select1st<std::pair<const std::string,int> >,std::less<std::string >,std::allocator<std::pair<const std::string,int> > >::_Link_type)ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t._M_impl._M_header,
-                    (const std::string *)(v36 + 128))._M_node;
-    __args_2 = (std::tuple<> *)v18._M_node;
-    __pos = v18._M_node;
-    if ( (std::_Rb_tree_header *)v18._M_node == &ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-      goto LABEL_34;
-    v20 = (unsigned __int64)&v18._M_node[1];
-    v0 = *(_QWORD *)(v36 + 136);
-    *(_QWORD *)(v36 + 64) = v0;
-    p_M_parent = &v18._M_node[1]._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&v18._M_node[1]._M_parent >> 3) + 0x7FFF8000) )
-      goto LABEL_36;
-    M_parent = v18._M_node[1]._M_parent;
-    *(_QWORD *)(v36 + 96) = M_parent;
-    if ( v0 <= (unsigned __int64)M_parent )
-    {
-      v21 = (size_t *)(v36 + 64);
-      goto LABEL_26;
-    }
-LABEL_37:
-    v21 = (size_t *)(v36 + 96);
-LABEL_26:
-    v22 = v21;
-    v23 = (const void *)((unsigned __int64)v21 >> 3);
-    if ( *(_BYTE *)(((unsigned __int64)v21 >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(v21);
-LABEL_39:
-      __asan_report_load8(v22);
-LABEL_40:
-      v25 = 0x7FFFFFFF;
-      goto LABEL_33;
-    }
-    v24 = *v21;
-    v22 = (size_t *)v20;
-    if ( *(_BYTE *)((v20 >> 3) + 0x7FFF8000) )
-      goto LABEL_39;
-    v23 = *(const void **)&v18._M_node[1]._M_color;
-    if ( !v24 || (v25 = memcmp(*(const void **)(v36 + 128), v23, v24)) == 0 )
-    {
-      v0 -= (__int64)M_parent;
-      if ( v0 > 0x7FFFFFFF )
-        goto LABEL_40;
-      if ( v0 < (__int64)0xFFFFFFFF80000000LL )
-        v25 = 0x80000000;
-      else
-        v25 = v0;
-    }
-LABEL_33:
-    if ( v25 < 0 )
-    {
-LABEL_34:
-      *(_QWORD *)(v36 + 96) = v36 + 128;
-      v23 = __pos;
-      __args_2 = (std::tuple<> *)std::_Rb_tree<std::string,std::pair<std::string const,int>,std::_Select1st<std::pair<std::string const,int>>,std::less<std::string>,std::allocator<std::pair<std::string const,int>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<std::string const&>,std::tuple<>>(
-                                   &ProtoUtils::retcode_to_value_map_[abi:cxx11]._M_t,
-                                   (std::_Rb_tree<std::string,std::pair<const std::string,int>,std::_Select1st<std::pair<const std::string,int> >,std::less<std::string >,std::allocator<std::pair<const std::string,int> > >::const_iterator)__pos,
-                                   &std::piecewise_construct,
-                                   (std::tuple<const std::string&> *)(v36 + 96),
-                                   &v38,
-                                   (const std::piecewise_construct_t *)v19._M_node,
-                                   (std::tuple<const std::string&> *)v32,
-                                   __args_2)._M_node;
-    }
-    v7 = *(_BYTE *)(((unsigned __int64)&__args_2[64] >> 3) + 0x7FFF8000);
-    if ( (char)((((_BYTE)__args_2 + 64) & 7) + 3) >= v7 && v7 )
-    {
-      __asan_report_store4(&__args_2[64], v23);
-      break;
-    }
-    *(_DWORD *)__args_2[64].gap0 = v16;
-    v26 = *(char **)(v36 + 128);
-    if ( v26 != (char *)(v36 + 144) )
-      operator delete(v26);
-  }
-  if ( !ProtoUtils::is_show_init_log_ )
-  {
-    result = 0;
-    goto LABEL_63;
-  }
-  common::milog::MiLogStream::MiLogStream(
-    (common::milog::MiLogStream *const)(v36 + 128),
-    &common::milog::MiLogDefault::default_log_obj_,
-    1u,
-    "src/proto_utils.cpp",
-    "initRetcodeMap",
-    269);
-  p_file = (const char **)&v8->file_;
-  if ( *(_BYTE *)(((unsigned __int64)&v8->file_ >> 3) + 0x7FFF8000) )
-  {
-    __asan_report_load8(p_file);
-    goto LABEL_70;
-  }
-  p_file = (const char **)v8->file_;
-  if ( *(_BYTE *)(((unsigned __int64)p_file >> 3) + 0x7FFF8000) )
-  {
-LABEL_70:
-    __asan_report_load8(p_file);
-    goto LABEL_71;
-  }
-  p_file = (const char **)*p_file;
-  if ( !*(_BYTE *)(((unsigned __int64)p_file >> 3) + 0x7FFF8000) )
-  {
-    v4 = (char *)(v36 + 192);
-    common::milog::MiLogStream::operator()(
-      (common::milog::MiLogStream *const)(v36 + 128),
-      "load %u Retcode value from %s",
-      value_count,
-      *p_file);
-    goto LABEL_72;
-  }
-LABEL_71:
-  __asan_report_load8(p_file);
-LABEL_72:
-  common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)v4 - 2);
-  result = 0;
-LABEL_63:
-  if ( v39 == (char *)v36 )
-  {
-    *(_QWORD *)((v36 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v36 >> 3) + 0x7FFF8008) = 0LL;
-    *(_DWORD *)((v36 >> 3) + 0x7FFF8014) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v36 = 1172321806LL;
-    *(_QWORD *)((v36 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v36 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v36 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return result;
-};
+
+  return 0;
+}
 
 // Line 276: range 000000000C7FC1EA-000000000C7FC245
-int32_t __cdecl ProtoUtils::initCmdData()
-{
-  int32_t v0; // ebx
-  std::function<int(const std::string&)> v2; // [rsp+0h] [rbp-28h] BYREF
+int32_t ProtoUtils::initCmdData() {
+  // 定义一个 lambda 函数，用于处理每个 proto 文件
+  std::function<int(const std::string&)> callback = [](const std::string& file_name) -> int {
+      // 实际逻辑由开发者补充
+      return 0; // 假设默认返回 0 表示成功
+  };
 
-  std::function<int ()(std::string const&)>::function<ProtoUtils::initCmdData(void)::{lambda(std::string const&)#1},void,void>(
-    &v2,
-    (ProtoUtils::initCmdData::<lambda(const string&)>)v2._M_functor._M_unused._M_object);
-  v0 = ProtoUtils::foreachProtoFile(v2);
-  if ( v2._M_manager )
-    v2._M_manager((std::_Any_data *)&v2, (const std::_Any_data *)&v2, __destroy_functor);
-  return v0;
-};
+  // 调用 foreachProtoFile 遍历所有 proto 文件并应用回调函数
+  int32_t result = ProtoUtils::foreachProtoFile(callback);
+
+  // 如果回调函数有管理器（manager），调用其管理器释放资源
+  if (callback._M_manager) {
+      callback._M_manager((std::_Any_data*)&callback, (const std::_Any_data*)&callback, __destroy_functor);
+  }
+
+  return result;
+}
 
 // Line 292: range 000000000C7FC060-000000000C7FC1E5
 __int64 __fastcall ProtoUtils::foreachProtoFile(google::protobuf::DescriptorPool *a1)
@@ -1127,840 +340,146 @@ LABEL_10:
   return 0LL;
 };
 
-// Line 345: range 000000000C7FF27C-000000000C80014E
-int32_t __fastcall ProtoUtils::addCmdProtoFile(const std::string *file_name)
-{
-  std::string *M_parent; // r12
-  __int64 v2; // rax
-  __int64 FileByName; // rax
-  __int64 v4; // r14
-  char v5; // dl
-  int32_t v6; // ebx
-  __int64 v8; // rax
-  unsigned __int64 v9; // rbp
-  std::_Rb_tree<std::string,std::pair<const std::string,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<const std::string,ProtoUtils::CmdIdConfig> >,std::less<std::string >,std::allocator<std::pair<const std::string,ProtoUtils::CmdIdConfig> > >::iterator v10; // rax
-  uint32_t v11; // r15d
-  ProtoCmdType CmdTypeByName; // eax
-  std::forward_iterator_tag v13; // cl
-  std::forward_iterator_tag v14; // cl
-  const google::protobuf::EnumValueDescriptor *EnumValueByName; // r13
-  char v16; // al
-  const google::protobuf::EnumValueDescriptor *v17; // rax
-  std::forward_iterator_tag v18; // cl
-  const google::protobuf::EnumValueDescriptor *v19; // r13
-  char v20; // al
-  const google::protobuf::EnumValueDescriptor *v21; // rax
-  std::forward_iterator_tag v22; // cl
-  const google::protobuf::EnumValueDescriptor *v23; // r13
-  char v24; // al
-  const google::protobuf::EnumValueDescriptor *v25; // r13
-  char v26; // al
-  std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *M_ptr; // r13
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string >,std::_Select1st<std::pair<unsigned int const,std::string > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string > > >::iterator v28; // rax
-  std::_Rb_tree_iterator<std::pair<unsigned int const,std::string > >::_Base_ptr M_node; // rdi
-  std::_Rb_tree_iterator<std::pair<unsigned int const,std::string > >::_Base_ptr v30; // rcx
-  char v31; // si
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string >,std::_Select1st<std::pair<unsigned int const,std::string > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string > > >::iterator v32; // rax
-  char *v33; // rdi
-  std::_Rb_tree_node_base::_Base_ptr *p_M_parent; // rdi
-  std::_Rb_tree<std::string,std::pair<const std::string,unsigned int>,std::_Select1st<std::pair<const std::string,unsigned int> >,std::less<std::string >,std::allocator<std::pair<const std::string,unsigned int> > >::iterator v35; // rax
-  std::_Rb_tree<std::string,std::pair<const std::string,unsigned int>,std::_Select1st<std::pair<const std::string,unsigned int> >,std::less<std::string >,std::allocator<std::pair<const std::string,unsigned int> > >::iterator v36; // r9
-  unsigned __int64 v37; // rdx
-  size_t *v38; // rcx
-  size_t *v39; // rdi
-  std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr v40; // rsi
-  size_t v41; // rcx
-  int v42; // eax
-  __int64 v43; // r13
-  std::_Rb_tree_node_base::_Base_ptr *v44; // rdi
-  char v45; // dl
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::iterator v46; // rax
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::iterator v47; // r9
-  char v48; // cl
-  uint32_t *v49; // rax
-  std::_Rb_tree_node_base::_Base_ptr *v50; // rdi
-  char v51; // cl
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,const google::protobuf::Descriptor*>,std::_Select1st<std::pair<unsigned int const,const google::protobuf::Descriptor*> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,const google::protobuf::Descriptor*> > >::iterator v52; // rax
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,const google::protobuf::Descriptor*>,std::_Select1st<std::pair<unsigned int const,const google::protobuf::Descriptor*> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,const google::protobuf::Descriptor*> > >::iterator v53; // r9
-  std::_Rb_tree_iterator<std::pair<unsigned int const,const google::protobuf::Descriptor*> >::_Base_ptr v54; // r8
-  char v55; // cl
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,const google::protobuf::Descriptor*>,std::_Select1st<std::pair<unsigned int const,const google::protobuf::Descriptor*> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,const google::protobuf::Descriptor*> > >::iterator v56; // rax
-  std::_Rb_tree_node_base::_Base_ptr *v57; // rdi
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType> > >::iterator v58; // rax
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType> > >::iterator v59; // r9
-  char v60; // cl
-  unsigned __int64 v61; // rax
-  char v62; // cl
-  unsigned __int64 v63; // rdi
-  std::tuple<unsigned int const&> *v64; // [rsp+0h] [rbp-188h]
-  std::tuple<> *is_allow_client; // [rsp+8h] [rbp-180h]
-  uint32_t enet_channel_id; // [rsp+10h] [rbp-178h]
-  uint32_t msg_count; // [rsp+14h] [rbp-174h]
-  std::_Rb_tree_iterator<std::pair<const std::string,unsigned int> >::_Base_ptr v68; // [rsp+18h] [rbp-170h]
-  std::_Rb_tree_iterator<std::pair<const std::string,unsigned int> >::_Base_ptr __pos; // [rsp+20h] [rbp-168h]
-  ProtoUtils::CmdIdConfig *cmd_id_config; // [rsp+28h] [rbp-160h]
-  int v71; // [rsp+30h] [rbp-158h]
-  uint32_t cmd_msg_count; // [rsp+34h] [rbp-154h]
-  unsigned __int64 v73; // [rsp+38h] [rbp-150h]
-  const std::string *file_namea; // [rsp+40h] [rbp-148h]
-  _DWORD *v75; // [rsp+50h] [rbp-138h]
-  std::tuple<> v76; // [rsp+6Fh] [rbp-119h] BYREF
-  common::milog::MiLogStream v77; // [rsp+70h] [rbp-118h] BYREF
-  char v78[248]; // [rsp+90h] [rbp-F8h] BYREF
+static std::map<std::string, CmdIdConfig> cmd_id_config_map_;
+static std::map<uint32_t, std::string> cmd_to_name_map_;
+static std::map<std::string, uint32_t> name_to_cmd_map_;
+static std::map<uint32_t, uint32_t> cmd_to_channel_map_;
+static std::map<uint32_t, const google::protobuf::Descriptor*> cmd_to_desc_map_;
+static std::map<uint32_t, ProtoCmdType> cmd_to_type_map_;
 
-  file_namea = file_name;
-  v73 = (unsigned __int64)v78;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    file_name = (const std::string *)192;
-    v8 = __asan_stack_malloc_2(192LL);
-    if ( v8 )
-      v73 = v8;
+static std::set<uint32_t> allow_client_cmd_set_;
+static std::set<uint32_t> reliable_cmd_set_;
+
+// Line 345: range 000000000C7FF27C-000000000C80014E
+int32_t ProtoUtils::addCmdProtoFile(const std::string* file_name) {
+  // 初始化局部变量
+  int32_t result = 0;
+  uint32_t cmd_msg_count = 0;
+  const google::protobuf::DescriptorPool* pool = google::protobuf::DescriptorPool::generated_pool();
+  
+  // 查找指定文件名的 proto 文件描述符
+  const google::protobuf::FileDescriptor* file_desc = pool->FindFileByName(*file_name);
+  if (!file_desc) {
+      LOG_ERROR << "file ptr is null";
+      return -1;
   }
-  *(_QWORD *)v73 = 1102416563LL;
-  *(_QWORD *)(v73 + 8) = "4 48 4 10 cmd_id:387 64 8 6 __size 96 8 7 __osize 128 32 17 file_key_name:362";
-  *(_QWORD *)(v73 + 16) = ProtoUtils::addCmdProtoFile;
-  v75 = (_DWORD *)(v73 >> 3);
-  v75[536862720] = -235802127;
-  v75[536862721] = -234556943;
-  v75[536862722] = -218959360;
-  v75[536862723] = -218959360;
-  v75[536862725] = -202116109;
-  v2 = google::protobuf::DescriptorPool::generated_pool((google::protobuf::DescriptorPool *)file_name);
-  FileByName = google::protobuf::DescriptorPool::FindFileByName(v2, file_namea);
-  v4 = FileByName;
-  if ( !FileByName )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v77,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "src/proto_utils.cpp",
-      "addCmdProtoFile",
-      350);
-    common::milog::MiLogStream::operator()(&v77, "file ptr is null");
-    common::milog::MiLogStream::~MiLogStream(&v77);
-    v6 = -1;
-    goto LABEL_7;
+
+  // 获取该文件中定义的消息数量
+  uint32_t msg_count = file_desc->message_type_count();
+  if (msg_count == 0) {
+      return 0;
   }
-  v5 = *(_BYTE *)(((unsigned __int64)(FileByName + 44) >> 3) + 0x7FFF8000);
-  if ( (char)(((FileByName + 44) & 7) + 3) >= v5 && v5 )
-  {
-    __asan_report_load4(FileByName + 44);
+
+  // 构造用于查找 cmd_id_config 的 key（去除路径和扩展名）
+  std::string file_key_name;
+  getFileKeyName(&file_key_name, file_name);
+
+  // 查找当前文件对应的 CmdIdConfig（BEGIN/END 范围）
+  auto config_it = cmd_id_config_map_.find(file_key_name);
+  if (config_it == cmd_id_config_map_.end()) {
+      LOG_ERROR << "can not find cmd_id config for " << *file_name;
+      return -1;
   }
-  else
-  {
-    msg_count = *(_DWORD *)(FileByName + 44);
-    if ( !msg_count )
-    {
-      v6 = 0;
-      goto LABEL_7;
-    }
-  }
-  ProtoUtils::getFileKeyName((std::string *)(v73 + 128), file_namea);
-  v9 = (unsigned __int64)&ProtoUtils::cmd_id_config_map_[abi:cxx11];
-  v10._M_node = std::_Rb_tree<std::string,std::pair<std::string const,ProtoUtils::CmdIdConfig>,std::_Select1st<std::pair<std::string const,ProtoUtils::CmdIdConfig>>,std::less<std::string>,std::allocator<std::pair<std::string const,ProtoUtils::CmdIdConfig>>>::find(
-                  &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t,
-                  (const std::string *)(v73 + 128))._M_node;
-  if ( (std::_Rb_tree_header *)v10._M_node == &ProtoUtils::cmd_id_config_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v77,
-      &common::milog::MiLogDefault::default_log_obj_,
-      4u,
-      "src/proto_utils.cpp",
-      "addCmdProtoFile",
-      366);
-    if ( *(_BYTE *)(((unsigned __int64)file_namea >> 3) + 0x7FFF8000) )
-      __asan_report_load8(file_namea);
-    else
-      common::milog::MiLogStream::operator()(&v77, "can not find cmd_id config for %s", file_namea->_M_dataplus._M_p);
-    common::milog::MiLogStream::~MiLogStream(&v77);
-    v6 = -1;
-    goto LABEL_80;
-  }
-  cmd_id_config = (ProtoUtils::CmdIdConfig *)&v10._M_node[2];
-  v11 = 0;
-  cmd_msg_count = 0;
-  while ( v11 < msg_count )
-  {
-    v63 = v4 + 104;
-    if ( *(_BYTE *)(((unsigned __int64)(v4 + 104) >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(v63);
-LABEL_21:
-      CmdTypeByName = (unsigned int)__asan_report_load8(v63);
-      goto LABEL_22;
-    }
-    v9 = *(_QWORD *)(v4 + 104) + 144LL * (int)v11;
-    v63 = v9;
-    if ( *(_BYTE *)((v9 >> 3) + 0x7FFF8000) )
-      goto LABEL_21;
-    M_parent = *(std::string **)v9;
-    CmdTypeByName = ProtoUtils::getCmdTypeByName(*(const std::string **)v9);
-LABEL_22:
-    HIDWORD(v64) = CmdTypeByName;
-    if ( CmdTypeByName == PROTO_CMD_NONE )
-      goto LABEL_147;
-    *(_DWORD *)(v73 + 48) = 0;
-    v77.log_ = (common::milog::MiLog *)&v77.ostr_ptr_._M_refcount;
-    std::string::_M_construct<char const*>((std::string *const)&v77, "CMD_ID", "", v13);
-    EnumValueByName = google::protobuf::Descriptor::FindEnumValueByName(
-                        (const google::protobuf::Descriptor *const)v9,
-                        (const std::string *)&v77);
-    if ( (std::__shared_count<(__gnu_cxx::_Lock_policy)2> *)v77.log_ != &v77.ostr_ptr_._M_refcount )
-      operator delete(v77.log_);
-    if ( !EnumValueByName )
-      goto LABEL_30;
-    v16 = *(_BYTE *)(((unsigned __int64)&EnumValueByName->number_ >> 3) + 0x7FFF8000);
-    if ( v16 && v16 <= 3 )
-    {
-      __asan_report_load4(&EnumValueByName->number_);
-LABEL_30:
-      common::milog::MiLogStream::MiLogStream(
-        &v77,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "addCmdProtoFile",
-        387);
-      if ( !*(_BYTE *)(((unsigned __int64)M_parent >> 3) + 0x7FFF8000) )
-      {
-        common::milog::MiLogStream::operator()(
-          &v77,
-          "can not find %s in message %s",
-          "CMD_ID",
-          M_parent->_M_dataplus._M_p);
-LABEL_79:
-        common::milog::MiLogStream::~MiLogStream(&v77);
-        v6 = -1;
-        goto LABEL_80;
+  const CmdIdConfig& cmd_id_config = config_it->second;
+
+  // 遍历所有 message 定义
+  for (uint32_t i = 0; i < msg_count; ++i) {
+      const google::protobuf::Descriptor* msg_desc = file_desc->message_type(i);
+      if (!msg_desc) continue;
+
+      // 获取 CMD_ID 枚举值
+      const google::protobuf::EnumValueDescriptor* enum_cmd_id = Descriptor::FindEnumValueByName<google::protobuf::EnumValueDescriptor>(msg_desc, "CMD_ID");
+      if (!enum_cmd_id) {
+          LOG_ERROR << "can not find CMD_ID in message: " << msg_desc->name();
+          return -1;
       }
-LABEL_78:
-      __asan_report_load8(M_parent);
-      goto LABEL_79;
-    }
-    *(_DWORD *)(v73 + 48) = EnumValueByName->number_;
-    v77.log_ = (common::milog::MiLog *)&v77.ostr_ptr_._M_refcount;
-    std::string::_M_construct<char const*>((std::string *const)&v77, &byte_19E8CB2F[-15], byte_19E8CB2F, v14);
-    v17 = google::protobuf::Descriptor::FindEnumValueByName(
-            (const google::protobuf::Descriptor *const)v9,
-            (const std::string *)&v77);
-    v19 = v17;
-    if ( (std::__shared_count<(__gnu_cxx::_Lock_policy)2> *)v77.log_ != &v77.ostr_ptr_._M_refcount )
-      operator delete(v77.log_);
-    if ( !v19 )
-      goto LABEL_41;
-    v20 = *(_BYTE *)(((unsigned __int64)&v19->number_ >> 3) + 0x7FFF8000);
-    if ( v20 && v20 <= 3 )
-    {
-      __asan_report_load4(&v19->number_);
-LABEL_41:
-      LODWORD(is_allow_client) = 0;
-      goto LABEL_39;
-    }
-    LODWORD(is_allow_client) = v19->number_;
-LABEL_39:
-    v77.log_ = (common::milog::MiLog *)&v77.ostr_ptr_._M_refcount;
-    std::string::_M_construct<char const*>((std::string *const)&v77, &byte_19E8CBAF[-15], byte_19E8CBAF, v18);
-    v21 = google::protobuf::Descriptor::FindEnumValueByName(
-            (const google::protobuf::Descriptor *const)v9,
-            (const std::string *)&v77);
-    v23 = v21;
-    if ( (std::__shared_count<(__gnu_cxx::_Lock_policy)2> *)v77.log_ != &v77.ostr_ptr_._M_refcount )
-      operator delete(v77.log_);
-    if ( !v23 )
-      goto LABEL_50;
-    v24 = *(_BYTE *)(((unsigned __int64)&v23->number_ >> 3) + 0x7FFF8000);
-    if ( v24 && v24 <= 3 )
-    {
-      __asan_report_load4(&v23->number_);
-LABEL_50:
-      enet_channel_id = 0;
-      goto LABEL_48;
-    }
-    enet_channel_id = v23->number_;
-LABEL_48:
-    v77.log_ = (common::milog::MiLog *)&v77.ostr_ptr_._M_refcount;
-    std::string::_M_construct<char const*>((std::string *const)&v77, &byte_19E8CBF0[-16], byte_19E8CBF0, v22);
-    v25 = google::protobuf::Descriptor::FindEnumValueByName(
-            (const google::protobuf::Descriptor *const)v9,
-            (const std::string *)&v77);
-    if ( (std::__shared_count<(__gnu_cxx::_Lock_policy)2> *)v77.log_ != &v77.ostr_ptr_._M_refcount )
-      operator delete(v77.log_);
-    if ( v25 )
-    {
-      v26 = *(_BYTE *)(((unsigned __int64)&v25->number_ >> 3) + 0x7FFF8000);
-      if ( !v26 || v26 > 3 )
-      {
-        HIDWORD(is_allow_client) = v25->number_;
-        goto LABEL_57;
+      uint32_t cmd_id = enum_cmd_id->number();
+
+      // 检查是否重复注册 cmd_id
+      if (cmd_to_name_map_.find(cmd_id) != cmd_to_name_map_.end()) {
+          LOG_ERROR << "find repeat cmd_id=" << cmd_id << " in msg: " << msg_desc->name();
+          return -1;
       }
-      __asan_report_load4(&v25->number_);
-    }
-    HIDWORD(is_allow_client) = 0;
-LABEL_57:
-    M_ptr = (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)&ProtoUtils::cmd_to_name_map_[abi:cxx11];
-    if ( &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header != (std::_Rb_tree_header *)std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string>,std::_Select1st<std::pair<unsigned int const,std::string>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string>>>::find(&ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t, (const unsigned int *)(v73 + 48))._M_node )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v77,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "addCmdProtoFile",
-        395);
-      if ( !*(_BYTE *)(((unsigned __int64)M_parent >> 3) + 0x7FFF8000) )
-      {
-        common::milog::MiLogStream::operator()(
-          &v77,
-          "find repeat cmd_id=%u in msg'%s'",
-          *(unsigned int *)(v73 + 48),
-          M_parent->_M_dataplus._M_p);
-        goto LABEL_79;
+
+      // 检查 cmd_id 是否在配置范围内
+      if (!CmdIdConfig::isCmdIdValid(&cmd_id_config, cmd_id)) {
+          LOG_ERROR << "invalid " << msg_desc->name() << "::CMD_ID=" << cmd_id << ", please check CmdIdConfig";
+          return -1;
       }
-      goto LABEL_78;
-    }
-    if ( !ProtoUtils::CmdIdConfig::isCmdIdValid(cmd_id_config, *(_DWORD *)(v73 + 48)) )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v77,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "addCmdProtoFile",
-        402);
-      if ( !*(_BYTE *)(((unsigned __int64)M_parent >> 3) + 0x7FFF8000) )
-      {
-        common::milog::MiLogStream::operator()(
-          &v77,
-          "invalid %s::CMD_ID=%u, please check CmdIdConfig",
-          M_parent->_M_dataplus._M_p,
-          *(unsigned int *)(v73 + 48));
-        goto LABEL_79;
+
+      // 获取其他字段（如 is_allow_client、enet_channel_id 等）
+      const google::protobuf::EnumValueDescriptor* enum_is_allow_client = Descriptor::FindEnumValueByName<google::protobuf::EnumValueDescriptor>(msg_desc, "is_allow_client");
+      const google::protobuf::EnumValueDescriptor* enum_enet_reliable = Descriptor::FindEnumValueByName<google::protobuf::EnumValueDescriptor>(msg_desc, "enet_is_reliable");
+      const google::protobuf::EnumValueDescriptor* enum_enet_channel_id = Descriptor::FindEnumValueByName<google::protobuf::EnumValueDescriptor>(msg_desc, "enet_channel_id");
+
+      uint32_t is_allow_client = enum_is_allow_client ? enum_is_allow_client->number() : 0;
+      uint32_t enet_reliable = enum_enet_reliable ? enum_enet_reliable->number() : 0;
+      uint32_t enet_channel_id = enum_enet_channel_id ? enum_enet_channel_id->number() : 0;
+
+      if (enet_reliable > 1 || is_allow_client > 1 || enet_channel_id > 4) {
+          LOG_ERROR << "invalid is_allow_client=" << is_allow_client 
+                    << ", enet_is_reliable=" << enet_reliable 
+                    << ", enet_channel_id=" << enet_channel_id 
+                    << " in msg " << msg_desc->name();
+          return -1;
       }
-      goto LABEL_78;
-    }
-    if ( HIDWORD(is_allow_client) > 1 || (unsigned int)is_allow_client > 1 || enet_channel_id > 4 )
-    {
-      common::milog::MiLogStream::MiLogStream(
-        &v77,
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "src/proto_utils.cpp",
-        "addCmdProtoFile",
-        407);
-      if ( !*(_BYTE *)(((unsigned __int64)M_parent >> 3) + 0x7FFF8000) )
-      {
-        common::milog::MiLogStream::operator()(
-          &v77,
-          "invalid is_allow_client=%u, enet_is_reliable=%u, enet_channel_id=%u in msg %s",
-          (unsigned int)is_allow_client,
-          HIDWORD(is_allow_client),
-          enet_channel_id,
-          M_parent->_M_dataplus._M_p);
-        goto LABEL_79;
+
+      // 注册到全局 map 中
+      cmd_to_name_map_[cmd_id] = msg_desc->name();
+      name_to_cmd_map_[std::string("proto.") + msg_desc->name()] = cmd_id;
+
+      cmd_to_channel_map_[cmd_id] = enet_channel_id;
+
+      cmd_to_desc_map_[cmd_id] = msg_desc;
+
+      ProtoCmdType cmd_type = getCmdTypeByName(msg_desc->name());
+      cmd_to_type_map_[cmd_id] = cmd_type;
+
+      if (is_allow_client) {
+          allow_client_cmd_set_.insert(cmd_id);
       }
-      goto LABEL_78;
-    }
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-    {
-      __asan_report_load8(&ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent);
-LABEL_83:
-      v32._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,std::string > >::_Base_ptr)__asan_report_load4(v30);
-      goto LABEL_84;
-    }
-    M_ptr = (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)&ProtoUtils::cmd_to_name_map_[abi:cxx11];
-    v28._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string>,std::_Select1st<std::pair<unsigned int const,std::string>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string>>>::_M_lower_bound(
-                    &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string >,std::_Select1st<std::pair<unsigned int const,std::string > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string > > >::_Link_type)ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl._M_header,
-                    (const unsigned int *)(v73 + 48))._M_node;
-    M_node = v28._M_node;
-    if ( (std::_Rb_tree_header *)v28._M_node != &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-    {
-      v30 = v28._M_node + 1;
-      v31 = *(_BYTE *)(((unsigned __int64)&v28._M_node[1] >> 3) + 0x7FFF8000);
-      if ( (char)(((LOBYTE(v28._M_node) + 32) & 7) + 3) >= v31 && v31 )
-        goto LABEL_83;
-      if ( *(_DWORD *)(v73 + 48) >= v28._M_node[1]._M_color )
-        goto LABEL_85;
-    }
-    *(_QWORD *)(v73 + 96) = v73 + 48;
-    v32._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string>,std::_Select1st<std::pair<unsigned int const,std::string>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                    &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string >,std::_Select1st<std::pair<unsigned int const,std::string > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string > > >::const_iterator)v28._M_node,
-                    &std::piecewise_construct,
-                    (std::tuple<unsigned int const&> *)(v73 + 96),
-                    &v76,
-                    (const std::piecewise_construct_t *)v28._M_node,
-                    v64,
-                    is_allow_client)._M_node;
-LABEL_84:
-    M_node = v32._M_node;
-LABEL_85:
-    std::string::_M_assign(&M_node[1]._M_parent, M_parent);
-    v71 = *(_DWORD *)(v73 + 48);
-    std::operator+<char>((std::string *)&v77, "proto.", M_parent);
-    p_M_parent = &ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-    {
-      __asan_report_load8(p_M_parent);
-LABEL_100:
-      v35._M_node = (std::_Rb_tree_iterator<std::pair<const std::string,unsigned int> >::_Base_ptr)__asan_report_load8(p_M_parent);
-      goto LABEL_101;
-    }
-    v35._M_node = std::_Rb_tree<std::string,std::pair<std::string const,unsigned int>,std::_Select1st<std::pair<std::string const,unsigned int>>,std::less<std::string>,std::allocator<std::pair<std::string const,unsigned int>>>::_M_lower_bound(
-                    &ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t,
-                    (std::_Rb_tree<std::string,std::pair<const std::string,unsigned int>,std::_Select1st<std::pair<const std::string,unsigned int> >,std::less<std::string >,std::allocator<std::pair<const std::string,unsigned int> > >::_Link_type)ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t._M_impl._M_header,
-                    (const std::string *)&v77)._M_node;
-    v68 = v35._M_node;
-    __pos = v35._M_node;
-    if ( (std::_Rb_tree_header *)v35._M_node == &ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-      goto LABEL_98;
-    v37 = (unsigned __int64)&v35._M_node[1];
-    M_ptr = v77.ostr_ptr_._M_ptr;
-    *(_QWORD *)(v73 + 64) = v77.ostr_ptr_._M_ptr;
-    p_M_parent = &v35._M_node[1]._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&v35._M_node[1]._M_parent >> 3) + 0x7FFF8000) )
-      goto LABEL_100;
-    M_parent = (std::string *)v35._M_node[1]._M_parent;
-    *(_QWORD *)(v73 + 96) = M_parent;
-    if ( M_ptr <= (std::__shared_ptr<common::tools::StringStream<common::tools::FixedBuffer<16384> >,(__gnu_cxx::_Lock_policy)2>::element_type *)M_parent )
-    {
-      v38 = (size_t *)(v73 + 64);
-      goto LABEL_90;
-    }
-LABEL_101:
-    v38 = (size_t *)(v73 + 96);
-LABEL_90:
-    v39 = v38;
-    v40 = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)((unsigned __int64)v38 >> 3);
-    if ( *(_BYTE *)(((unsigned __int64)v38 >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_load8(v38);
-LABEL_103:
-      __asan_report_load8(v39);
-LABEL_104:
-      v42 = 0x7FFFFFFF;
-      goto LABEL_97;
-    }
-    v41 = *v38;
-    v39 = (size_t *)v37;
-    if ( *(_BYTE *)((v37 >> 3) + 0x7FFF8000) )
-      goto LABEL_103;
-    v40 = *(std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr *)&v35._M_node[1]._M_color;
-    if ( !v41 || (v42 = memcmp(v77.log_, v40, v41)) == 0 )
-    {
-      v43 = (char *)M_ptr - (char *)M_parent;
-      if ( v43 > 0x7FFFFFFF )
-        goto LABEL_104;
-      if ( v43 < (__int64)0xFFFFFFFF80000000LL )
-        v42 = 0x80000000;
-      else
-        v42 = v43;
-    }
-LABEL_97:
-    if ( v42 < 0 )
-    {
-LABEL_98:
-      *(_QWORD *)(v73 + 96) = &v77;
-      v40 = __pos;
-      v68 = std::_Rb_tree<std::string,std::pair<std::string const,unsigned int>,std::_Select1st<std::pair<std::string const,unsigned int>>,std::less<std::string>,std::allocator<std::pair<std::string const,unsigned int>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<std::string&&>,std::tuple<>>(
-              &ProtoUtils::name_to_cmd_map_[abi:cxx11]._M_t,
-              (std::_Rb_tree<std::string,std::pair<const std::string,unsigned int>,std::_Select1st<std::pair<const std::string,unsigned int> >,std::less<std::string >,std::allocator<std::pair<const std::string,unsigned int> > >::const_iterator)__pos,
-              &std::piecewise_construct,
-              (std::tuple<std::string&&> *)(v73 + 96),
-              &v76,
-              (const std::piecewise_construct_t *)v36._M_node,
-              (std::tuple<std::string&&> *)v64,
-              is_allow_client)._M_node;
-    }
-    M_parent = (std::string *)&v68[2];
-    v44 = (std::_Rb_tree_node_base::_Base_ptr *)&v68[2];
-    v45 = *(_BYTE *)(((unsigned __int64)&v68[2] >> 3) + 0x7FFF8000);
-    if ( (char)((((_BYTE)v68 + 64) & 7) + 3) >= v45 && v45 )
-    {
-      __asan_report_store4(v44, v40);
-LABEL_117:
-      __asan_report_load8(v44);
-LABEL_118:
-      v46._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)__asan_report_load4(v44);
-      goto LABEL_119;
-    }
-    LODWORD(M_parent->_M_dataplus._M_p) = v71;
-    if ( (std::__shared_count<(__gnu_cxx::_Lock_policy)2> *)v77.log_ != &v77.ostr_ptr_._M_refcount )
-      operator delete(v77.log_);
-    v44 = &ProtoUtils::cmd_to_channel_map_._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_to_channel_map_._M_t._M_impl._M_header._M_parent >> 3)
-                  + 0x7FFF8000) )
-      goto LABEL_117;
-    M_parent = (std::string *)&ProtoUtils::cmd_to_channel_map_;
-    v46._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_lower_bound(
-                    &ProtoUtils::cmd_to_channel_map_._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::_Link_type)ProtoUtils::cmd_to_channel_map_._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::cmd_to_channel_map_._M_t._M_impl._M_header,
-                    (const unsigned int *)(v73 + 48))._M_node;
-    v40 = v46._M_node;
-    if ( (std::_Rb_tree_header *)v46._M_node == &ProtoUtils::cmd_to_channel_map_._M_t._M_impl.std::_Rb_tree_header )
-      goto LABEL_115;
-    v47._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,unsigned int> >::_Base_ptr)*(unsigned int *)(v73 + 48);
-    v44 = (std::_Rb_tree_node_base::_Base_ptr *)&v46._M_node[1];
-    v48 = *(_BYTE *)(((unsigned __int64)&v46._M_node[1] >> 3) + 0x7FFF8000);
-    if ( (char)(((LOBYTE(v46._M_node) + 32) & 7) + 3) >= v48 && v48 )
-      goto LABEL_118;
-    if ( LODWORD(v47._M_node) < v46._M_node[1]._M_color )
-    {
-LABEL_115:
-      *(_QWORD *)(v73 + 96) = v73 + 48;
-      v46._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                      &ProtoUtils::cmd_to_channel_map_._M_t,
-                      (std::_Rb_tree<unsigned int,std::pair<unsigned int const,unsigned int>,std::_Select1st<std::pair<unsigned int const,unsigned int> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,unsigned int> > >::const_iterator)v46._M_node,
-                      &std::piecewise_construct,
-                      (std::tuple<unsigned int const&> *)(v73 + 96),
-                      &v76,
-                      (const std::piecewise_construct_t *)v47._M_node,
-                      v64,
-                      is_allow_client)._M_node;
-    }
-LABEL_119:
-    v49 = (uint32_t *)(&v46._M_node[1]._M_color + 1);
-    v50 = (std::_Rb_tree_node_base::_Base_ptr *)v49;
-    v51 = *(_BYTE *)(((unsigned __int64)v49 >> 3) + 0x7FFF8000);
-    if ( (char)(((unsigned __int8)v49 & 7) + 3) >= v51 && v51 )
-    {
-      __asan_report_store4(v49, v40);
-LABEL_128:
-      __asan_report_load8(v50);
-LABEL_129:
-      v56._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,const google::protobuf::Descriptor*> >::_Base_ptr)__asan_report_load4(v50);
-      goto LABEL_130;
-    }
-    *v49 = enet_channel_id;
-    v50 = &ProtoUtils::cmd_to_desc_map_._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_to_desc_map_._M_t._M_impl._M_header._M_parent >> 3) + 0x7FFF8000) )
-      goto LABEL_128;
-    M_parent = (std::string *)&ProtoUtils::cmd_to_desc_map_;
-    v52._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,google::protobuf::Descriptor const*>,std::_Select1st<std::pair<unsigned int const,google::protobuf::Descriptor const*>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,google::protobuf::Descriptor const*>>>::_M_lower_bound(
-                    &ProtoUtils::cmd_to_desc_map_._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,const google::protobuf::Descriptor*>,std::_Select1st<std::pair<unsigned int const,const google::protobuf::Descriptor*> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,const google::protobuf::Descriptor*> > >::_Link_type)ProtoUtils::cmd_to_desc_map_._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::cmd_to_desc_map_._M_t._M_impl._M_header,
-                    (const unsigned int *)(v73 + 48))._M_node;
-    v54 = v52._M_node;
-    v40 = v52._M_node;
-    if ( (std::_Rb_tree_header *)v52._M_node != &ProtoUtils::cmd_to_desc_map_._M_t._M_impl.std::_Rb_tree_header )
-    {
-      v53._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,const google::protobuf::Descriptor*> >::_Base_ptr)*(unsigned int *)(v73 + 48);
-      v50 = (std::_Rb_tree_node_base::_Base_ptr *)&v52._M_node[1];
-      v55 = *(_BYTE *)(((unsigned __int64)&v52._M_node[1] >> 3) + 0x7FFF8000);
-      if ( (char)(((LOBYTE(v52._M_node) + 32) & 7) + 3) >= v55 && v55 )
-        goto LABEL_129;
-      if ( LODWORD(v53._M_node) >= v52._M_node[1]._M_color )
-        goto LABEL_131;
-    }
-    *(_QWORD *)(v73 + 96) = v73 + 48;
-    v56._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,google::protobuf::Descriptor const*>,std::_Select1st<std::pair<unsigned int const,google::protobuf::Descriptor const*>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,google::protobuf::Descriptor const*>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                    &ProtoUtils::cmd_to_desc_map_._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,const google::protobuf::Descriptor*>,std::_Select1st<std::pair<unsigned int const,const google::protobuf::Descriptor*> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,const google::protobuf::Descriptor*> > >::const_iterator)v52._M_node,
-                    &std::piecewise_construct,
-                    (std::tuple<unsigned int const&> *)(v73 + 96),
-                    &v76,
-                    (const std::piecewise_construct_t *)v53._M_node,
-                    v64,
-                    is_allow_client)._M_node;
-LABEL_130:
-    v54 = v56._M_node;
-LABEL_131:
-    v57 = &v54[1]._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&v54[1]._M_parent >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store8(v57, v40);
-LABEL_139:
-      __asan_report_load8(v57);
-LABEL_140:
-      v58._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,ProtoCmdType> >::_Base_ptr)__asan_report_load4(v57);
-      goto LABEL_141;
-    }
-    v54[1]._M_parent = (std::_Rb_tree_node_base::_Base_ptr)v9;
-    v57 = &ProtoUtils::cmd_to_type_map_._M_t._M_impl._M_header._M_parent;
-    if ( *(_BYTE *)(((unsigned __int64)&ProtoUtils::cmd_to_type_map_._M_t._M_impl._M_header._M_parent >> 3) + 0x7FFF8000) )
-      goto LABEL_139;
-    v9 = (unsigned __int64)&ProtoUtils::cmd_to_type_map_;
-    v58._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType>>>::_M_lower_bound(
-                    &ProtoUtils::cmd_to_type_map_._M_t,
-                    (std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType> > >::_Link_type)ProtoUtils::cmd_to_type_map_._M_t._M_impl._M_header._M_parent,
-                    &ProtoUtils::cmd_to_type_map_._M_t._M_impl._M_header,
-                    (const unsigned int *)(v73 + 48))._M_node;
-    v40 = v58._M_node;
-    if ( (std::_Rb_tree_header *)v58._M_node == &ProtoUtils::cmd_to_type_map_._M_t._M_impl.std::_Rb_tree_header )
-      goto LABEL_137;
-    v59._M_node = (std::_Rb_tree_iterator<std::pair<unsigned int const,ProtoCmdType> >::_Base_ptr)*(unsigned int *)(v73 + 48);
-    v57 = (std::_Rb_tree_node_base::_Base_ptr *)&v58._M_node[1];
-    v60 = *(_BYTE *)(((unsigned __int64)&v58._M_node[1] >> 3) + 0x7FFF8000);
-    if ( (char)(((LOBYTE(v58._M_node) + 32) & 7) + 3) >= v60 && v60 )
-      goto LABEL_140;
-    if ( LODWORD(v59._M_node) < v58._M_node[1]._M_color )
-    {
-LABEL_137:
-      *(_QWORD *)(v73 + 96) = v73 + 48;
-      v58._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&,std::tuple<unsigned int const&>,std::tuple<>>(
-                      &ProtoUtils::cmd_to_type_map_._M_t,
-                      (std::_Rb_tree<unsigned int,std::pair<unsigned int const,ProtoCmdType>,std::_Select1st<std::pair<unsigned int const,ProtoCmdType> >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,ProtoCmdType> > >::const_iterator)v58._M_node,
-                      &std::piecewise_construct,
-                      (std::tuple<unsigned int const&> *)(v73 + 96),
-                      &v76,
-                      (const std::piecewise_construct_t *)v59._M_node,
-                      v64,
-                      is_allow_client)._M_node;
-    }
-LABEL_141:
-    v61 = (unsigned __int64)(&v58._M_node[1]._M_color + 1);
-    v62 = *(_BYTE *)((v61 >> 3) + 0x7FFF8000);
-    if ( (char)((v61 & 7) + 3) >= v62 && v62 )
-    {
-      __asan_report_store4(v61, v40);
-LABEL_153:
-      std::_Rb_tree<unsigned int,unsigned int,std::_Identity<unsigned int>,std::less<unsigned int>,std::allocator<unsigned int>>::_M_insert_unique<unsigned int const&>(
-        &ProtoUtils::allow_client_cmd_set_._M_t,
-        (const unsigned int *)(v73 + 48));
-      goto LABEL_144;
-    }
-    *(_DWORD *)v61 = HIDWORD(v64);
-    if ( (_DWORD)is_allow_client )
-      goto LABEL_153;
-LABEL_144:
-    if ( HIDWORD(is_allow_client) )
-      std::_Rb_tree<unsigned int,unsigned int,std::_Identity<unsigned int>,std::less<unsigned int>,std::allocator<unsigned int>>::_M_insert_unique<unsigned int const&>(
-        &ProtoUtils::reliable_cmd_set_._M_t,
-        (const unsigned int *)(v73 + 48));
-    ++cmd_msg_count;
-LABEL_147:
-    ++v11;
+      if (enet_reliable) {
+          reliable_cmd_set_.insert(cmd_id);
+      }
+
+      ++cmd_msg_count;
   }
-  if ( ProtoUtils::is_show_init_log_ )
-  {
-    common::milog::MiLogStream::MiLogStream(
-      &v77,
-      &common::milog::MiLogDefault::default_log_obj_,
-      1u,
-      "src/proto_utils.cpp",
-      "addCmdProtoFile",
-      432);
-    if ( *(_BYTE *)(((unsigned __int64)file_namea >> 3) + 0x7FFF8000) )
-      __asan_report_load8(file_namea);
-    else
-      common::milog::MiLogStream::operator()(
-        &v77,
-        "add %u cmd message from %s",
-        cmd_msg_count,
-        file_namea->_M_dataplus._M_p);
-    common::milog::MiLogStream::~MiLogStream(&v77);
-    v6 = 0;
+
+  // 打印初始化日志
+  if (is_show_init_log_) {
+      LOG_INFO << "add " << cmd_msg_count << " cmd message from " << *file_name;
   }
-  else
-  {
-    v6 = 0;
-  }
-LABEL_80:
-  v33 = *(char **)(v73 + 128);
-  if ( v33 != (char *)(v73 + 144) )
-    operator delete(v33);
-LABEL_7:
-  if ( v78 == (char *)v73 )
-  {
-    *(_QWORD *)((v73 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v73 >> 3) + 0x7FFF8008) = 0LL;
-    *(_DWORD *)((v73 >> 3) + 0x7FFF8014) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v73 = 1172321806LL;
-    *(_QWORD *)((v73 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v73 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v73 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return v6;
-};
+
+  return result;
+}
 
 // Line 439: range 000000000C7FAA88-000000000C7FAE3F
-int32_t __fastcall ProtoUtils::splitCmdIdConfigName(
-        const std::string *enum_name,
-        std::string *file_key_name,
-        ProtoUtils::CmdIdConfigType *type)
+int32_t ProtoUtils::splitCmdIdConfigName(
+  const std::string& enum_name,
+  std::string* file_key_name,
+  CmdIdConfigType* type)
 {
-  std::string::size_type M_string_length; // r12
-  std::string::size_type i; // r13
-  char v5; // r14
-  char v9; // dl
-  const char *v10; // rsi
-  _BYTE *M_p; // rdi
-  char v12; // al
-  __int64 v13; // rdx
-  char v14; // dl
-  unsigned __int64 v16; // rax
-  unsigned __int64 p_M_string_length; // rdi
-  std::string::size_type M_allocated_capacity; // rax
-  std::string::size_type v19; // rdi
-  char v20; // al
-  std::string::size_type v21; // rdx
-  char v22; // al
-  __int64 v23; // rdx
-  __int64 v24; // rdx
-  std::string::size_type pos; // [rsp+8h] [rbp-60h]
-  common::milog::MiLogStream v26; // [rsp+10h] [rbp-58h] BYREF
+  size_t beginPos = enum_name.rfind("_BEGIN");
+  size_t endPos = enum_name.rfind("_END");
 
-  if ( std::string::rfind(enum_name, "_BEGIN", -1LL, 6LL) != -1 )
+  if (beginPos != std::string::npos && beginPos + 6 == enum_name.size())
   {
-    v9 = *(_BYTE *)(((unsigned __int64)type >> 3) + 0x7FFF8000);
-    if ( (char)(((unsigned __int8)type & 7) + 3) < v9 || !v9 )
-    {
       *type = CMD_ID_CONFIG_BEGIN;
-      v10 = "_BEGIN";
-      pos = std::string::rfind(enum_name, "_BEGIN", -1LL, 6LL);
-      goto LABEL_5;
-    }
-    __asan_report_store4(type, "_BEGIN");
+      *file_key_name = enum_name.substr(0, beginPos);
+      return 0;
   }
-  if ( std::string::rfind(enum_name, "_END", -1LL, 4LL) != -1 )
+  else if (endPos != std::string::npos && endPos + 4 == enum_name.size())
   {
-    v14 = *(_BYTE *)(((unsigned __int64)type >> 3) + 0x7FFF8000);
-    if ( (char)(((unsigned __int8)type & 7) + 3) < v14 || !v14 )
-    {
       *type = CMD_ID_CONFIG_END;
-      v10 = "_END";
-      pos = std::string::rfind(enum_name, "_END", -1LL, 4LL);
-LABEL_5:
-      if ( *(_BYTE *)(((unsigned __int64)&file_key_name->_M_string_length >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store8(&file_key_name->_M_string_length, v10);
-      }
-      else
-      {
-        file_key_name->_M_string_length = 0LL;
-        if ( !*(_BYTE *)(((unsigned __int64)file_key_name >> 3) + 0x7FFF8000) )
-        {
-          M_p = file_key_name->_M_dataplus._M_p;
-          v12 = *(_BYTE *)(((unsigned __int64)file_key_name->_M_dataplus._M_p >> 3) + 0x7FFF8000);
-          v13 = (__int64)file_key_name->_M_dataplus._M_p & 7;
-          if ( v12 > (char)v13 || !v12 )
-          {
-            *M_p = 0;
-            for ( i = 0LL; ; ++i )
-            {
-              if ( pos <= i )
-                return 0;
-              M_p = enum_name;
-              if ( *(_BYTE *)(((unsigned __int64)enum_name >> 3) + 0x7FFF8000) )
-              {
-LABEL_23:
-                v16 = __asan_report_load8(M_p);
-              }
-              else
-              {
-                v16 = (unsigned __int64)&enum_name->_M_dataplus._M_p[i];
-                p_M_string_length = v16;
-                v24 = *(unsigned __int8 *)((v16 >> 3) + 0x7FFF8000);
-                if ( (char)v24 <= (char)((LOBYTE(enum_name->_M_dataplus._M_p) + i) & 7) && (_BYTE)v24 )
-                {
-                  __asan_report_load1(v16, v10, v24);
-LABEL_45:
-                  __asan_report_load8(p_M_string_length);
-LABEL_46:
-                  __asan_report_load8(p_M_string_length);
-LABEL_47:
-                  __asan_report_load8(p_M_string_length);
-                  goto LABEL_48;
-                }
-              }
-              v5 = *(_BYTE *)v16;
-              if ( (unsigned __int8)(*(_BYTE *)v16 - 65) <= 0x19u )
-                v5 += 32;
-              p_M_string_length = (unsigned __int64)&file_key_name->_M_string_length;
-              if ( *(_BYTE *)(((unsigned __int64)&file_key_name->_M_string_length >> 3) + 0x7FFF8000) )
-                goto LABEL_45;
-              M_string_length = file_key_name->_M_string_length;
-              type = (ProtoUtils::CmdIdConfigType *)(M_string_length + 1);
-              p_M_string_length = (unsigned __int64)file_key_name;
-              if ( *(_BYTE *)(((unsigned __int64)file_key_name >> 3) + 0x7FFF8000) )
-                goto LABEL_46;
-              if ( (std::string::$CFBEC286C7F52157F7E59FC354047095 *)file_key_name->_M_dataplus._M_p != &file_key_name->_anon_0 )
-              {
-                p_M_string_length = (unsigned __int64)&file_key_name->_anon_0;
-                if ( !*(_BYTE *)(((unsigned __int64)&file_key_name->_anon_0 >> 3) + 0x7FFF8000) )
-                {
-                  M_allocated_capacity = file_key_name->_anon_0._M_allocated_capacity;
-                  goto LABEL_31;
-                }
-                goto LABEL_47;
-              }
-LABEL_48:
-              M_allocated_capacity = 15LL;
-LABEL_31:
-              if ( (unsigned __int64)type > M_allocated_capacity )
-              {
-                v10 = (const char *)M_string_length;
-                std::string::_M_mutate(file_key_name, M_string_length, 0LL, 0LL, 1LL);
-              }
-              v19 = (std::string::size_type)file_key_name;
-              if ( *(_BYTE *)(((unsigned __int64)file_key_name >> 3) + 0x7FFF8000) )
-              {
-                __asan_report_load8(file_key_name);
-LABEL_50:
-                __asan_report_store1(v19, v10, v21);
-LABEL_51:
-                __asan_report_store8(v19, v10);
-LABEL_52:
-                __asan_report_store1(v19, v10, v23);
-                return 0;
-              }
-              M_string_length += (std::string::size_type)file_key_name->_M_dataplus._M_p;
-              v19 = M_string_length;
-              v20 = *(_BYTE *)((M_string_length >> 3) + 0x7FFF8000);
-              v21 = M_string_length & 7;
-              if ( v20 <= (char)v21 && v20 )
-                goto LABEL_50;
-              *(_BYTE *)M_string_length = v5;
-              v19 = (std::string::size_type)&file_key_name->_M_string_length;
-              if ( *(_BYTE *)(((unsigned __int64)&file_key_name->_M_string_length >> 3) + 0x7FFF8000) )
-                goto LABEL_51;
-              file_key_name->_M_string_length = (std::string::size_type)type;
-              type = (ProtoUtils::CmdIdConfigType *)((char *)type + (unsigned __int64)file_key_name->_M_dataplus._M_p);
-              v19 = (std::string::size_type)type;
-              v22 = *(_BYTE *)(((unsigned __int64)type >> 3) + 0x7FFF8000);
-              v23 = (unsigned __int8)type & 7;
-              if ( v22 <= (char)v23 && v22 )
-                goto LABEL_52;
-              *(_BYTE *)type = 0;
-            }
-          }
-LABEL_22:
-          __asan_report_store1(M_p, v10, v13);
-          goto LABEL_23;
-        }
-      }
-      M_p = file_key_name;
-      __asan_report_load8(file_key_name);
-      goto LABEL_22;
-    }
-    __asan_report_store4(type, "_END");
+      *file_key_name = enum_name.substr(0, endPos);
+      return 0;
   }
-  common::milog::MiLogStream::MiLogStream(
-    &v26,
-    &common::milog::MiLogDefault::default_log_obj_,
-    4u,
-    "src/proto_utils.cpp",
-    "splitCmdIdConfigName",
-    455);
-  if ( *(_BYTE *)(((unsigned __int64)enum_name >> 3) + 0x7FFF8000) )
-    __asan_report_load8(enum_name);
   else
-    common::milog::MiLogStream::operator()(&v26, "invalid CmdIdConfig enum name %s", enum_name->_M_dataplus._M_p);
-  common::milog::MiLogStream::~MiLogStream(&v26);
-  return -1;
-};
+  {
+      LOG_ERROR << "Invalid CmdIdConfig enum name: " << enum_name;
+      return -1;
+  }
+}
 
 // Line 479: range 000000000C7FD764-000000000C7FD93A
 std::string *__fastcall ProtoUtils::getFileKeyName(std::string *retstr, const std::string *full_name)
@@ -2290,47 +809,18 @@ LABEL_39:
 };
 
 // Line 538: range 000000000C7FC24A-000000000C7FC31C
-const std::string *__fastcall ProtoUtils::getCmdName[abi:cxx11](uint32_t cmd_id)
-{
-  unsigned __int64 v1; // rbx
-  unsigned __int64 v2; // rbp
-  std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string >,std::_Select1st<std::pair<unsigned int const,std::string > >,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string > > >::iterator v3; // rax
-  const std::string *result; // rax
-  __int64 v5; // rax
-  _BYTE v6[104]; // [rsp+0h] [rbp-68h] BYREF
-
-  v1 = (unsigned __int64)v6;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v5 = __asan_stack_malloc_0(64LL);
-    if ( v5 )
-      v1 = v5;
+const std::string& ProtoUtils::getCmdName(uint32_t cmd_id) {
+  // 查找 cmd_id 对应的命令名称
+  auto it = ProtoUtils::cmd_to_name_map_.find(cmd_id);
+  
+  // 如果未找到对应的 cmd_id，则返回默认命令名称
+  if (it == ProtoUtils::cmd_to_name_map_.end()) {
+      return ProtoUtils::default_cmd_name;
   }
-  *(_QWORD *)v1 = 1102416563LL;
-  *(_QWORD *)(v1 + 8) = "1 32 4 10 cmd_id:537";
-  *(_QWORD *)(v1 + 16) = ProtoUtils::getCmdName[abi:cxx11];
-  v2 = v1 >> 3;
-  *(_DWORD *)(v2 + 2147450880) = -235802127;
-  *(_DWORD *)(v2 + 2147450884) = -202116348;
-  *(_DWORD *)(v1 + 32) = cmd_id;
-  v3._M_node = std::_Rb_tree<unsigned int,std::pair<unsigned int const,std::string>,std::_Select1st<std::pair<unsigned int const,std::string>>,std::less<unsigned int>,std::allocator<std::pair<unsigned int const,std::string>>>::find(
-                 &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t,
-                 (const unsigned int *)(v1 + 32))._M_node;
-  if ( (std::_Rb_tree_header *)v3._M_node == &ProtoUtils::cmd_to_name_map_[abi:cxx11]._M_t._M_impl.std::_Rb_tree_header )
-    result = &ProtoUtils::default_cmd_name_[abi:cxx11];
-  else
-    result = (const std::string *)&v3._M_node[1]._M_parent;
-  if ( v6 == (_BYTE *)v1 )
-  {
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0LL;
-  }
-  else
-  {
-    *(_QWORD *)v1 = 1172321806LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return result;
-};
+  
+  // 返回找到的命令名称
+  return it->second;
+}
 
 // Line 549: range 000000000C7FCCFC-000000000C7FCD42
 uint32_t __fastcall ProtoUtils::getCmdId(const std::string *cmd_name)

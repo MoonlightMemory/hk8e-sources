@@ -37,152 +37,62 @@ void __cdecl HttpSession::~HttpSession(HttpSession *const this)
 };
 
 // Line 38: range 000000000C612C1E-000000000C6132C7
-int32_t __cdecl HttpSession::onRecv(HttpSession *const this, char *data, uint32_t len, boost::asio::yield_context *p_)
-{
-  unsigned __int64 v4; // r13
-  __int64 v5; // rax
-  _DWORD *v6; // r12
-  const char *ClientIp; // rax
-  const char *v8; // rax
-  const std::string *v9; // rax
-  common::milog::MiLogStream *v11; // rax
-  uint32_t v12; // r15d
-  const char *v13; // rax
-  __int64 v14; // r14
-  const char *v15; // r15
-  const char *v16; // rax
-  int32_t result; // eax
-  const char *v18; // [rsp+8h] [rbp-1A8h]
-  std::allocator<char> __a; // [rsp+3Bh] [rbp-175h] BYREF
-  int retcode; // [rsp+3Ch] [rbp-174h]
-  common::milog::MiLogStream v22; // [rsp+40h] [rbp-170h] BYREF
-  std::string v23; // [rsp+60h] [rbp-150h] BYREF
-  std::string key; // [rsp+80h] [rbp-130h] BYREF
-  common::milog::MiLogStream v25; // [rsp+A0h] [rbp-110h] BYREF
-  char v26[240]; // [rsp+C0h] [rbp-F0h] BYREF
+int32_t HttpSession::onRecv(char *data, uint32_t len, boost::asio::yield_context *p_) {
+  common::tools::TimeUtils::Timer timer;
 
-  v4 = (unsigned __int64)v26;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v5 = __asan_stack_malloc_2(192LL);
-    if ( v5 )
-      v4 = v5;
+  // 获取客户端 IP 地址
+  const char *clientIp = common::minet::AServerSession::getClientIp(this);
+
+  // 解析 HTTP 请求数据
+  if (common::minet::HttpRequest::parseFromStr(&request_, data, len, clientIp)) {
+      LOG_WARN << "recv error http request from " << clientIp;
+      sendHttp(0x1F4u, "Error Request.");
+      return -1;
   }
-  *(_QWORD *)v4 = 1102416563LL;
-  *(_QWORD *)(v4 + 8) = "3 32 16 8 timer:39 64 32 11 base_uri:51 128 32 15 response_str:77";
-  *(_QWORD *)(v4 + 16) = HttpSession::onRecv;
-  v6 = (_DWORD *)(v4 >> 3);
-  v6[536862720] = -235802127;
-  v6[536862721] = -219021312;
-  v6[536862723] = -218959118;
-  v6[536862725] = -202116109;
-  common::tools::TimeUtils::Timer::Timer((common::tools::TimeUtils::Timer *const)(v4 + 32));
-  ClientIp = common::minet::AServerSession::getClientIp(this);
-  if ( common::minet::HttpRequest::parseFromStr(&this->request_, data, len, ClientIp) )
-  {
-    common::milog::MiLogStream::create(
-      &v25,
-      &common::milog::MiLogDefault::default_log_obj_,
-      1u,
-      "./src/network/http_session.cpp",
-      "onRecv",
-      44);
-    v8 = common::minet::AServerSession::getClientIp(this);
-    common::milog::MiLogStream::operator()(&v25, "recv error http request from %s", v8);
-    common::milog::MiLogStream::~MiLogStream(&v25);
-    HttpSession::sendHttp(this, 0x1F4u, "Error Request.");
-  }
-  else
-  {
-    retcode = 0;
-    v9 = common::minet::HttpRequest::getBaseUri[abi:cxx11](&this->request_);
-    std::string::basic_string(v4 + 64, v9);
-    if ( !(unsigned int)std::string::compare(v4 + 64, "/query_region_list") )
-    {
-      retcode = HttpSession::queryRegionList(this);
-    }
-    else if ( !(unsigned int)std::string::compare(v4 + 64, "/query_cur_region")
-           || !(unsigned int)std::string::compare(v4 + 64, "/query_gateserver") )
-    {
-      retcode = HttpSession::queryCurrRegion(this);
-    }
-    else if ( !(unsigned int)std::string::compare(v4 + 64, "/query_security_file") )
-    {
-      retcode = HttpSession::querySecurityFile(this);
-    }
-    else if ( !(unsigned int)std::string::compare(v4 + 64, "/alive") )
-    {
-      common::minet::HttpResponse::init(&this->response_, 0xC8u, "{\"retcode\":\"0\", \"msg\":\"alive ok\"}");
-    }
-    else
-    {
+
+  // 获取请求 URI
+  std::string baseUri = common::minet::HttpRequest::getBaseUri(request_);
+
+  int retcode = 0;
+
+  // 根据 URI 路由到不同的处理函数
+  if (baseUri == "/query_region_list") {
+      retcode = queryRegionList();
+  } else if (baseUri == "/query_cur_region" || baseUri == "/query_gateserver") {
+      retcode = queryCurrRegion();
+  } else if (baseUri == "/query_security_file") {
+      retcode = querySecurityFile();
+  } else if (baseUri == "/alive") {
+      common::minet::HttpResponse::init(&response_, 0xC8u, "{\"retcode\":\"0\", \"msg\":\"alive ok\"}");
+  } else {
+      LOG_WARN << "Not support uri: " << baseUri;
+      common::minet::HttpResponse::init(&response_, 0xC8u, "{\"retcode\":\"-1\", \"msg\":\"system error\"}");
       retcode = -1;
-      common::minet::HttpResponse::init(&this->response_, 0xC8u, "{\"retcode\":\"-1\", \"msg\":\"system error\"}");
-      common::milog::MiLogStream::create(
-        &v25,
-        &common::milog::MiLogDefault::default_log_obj_,
-        1u,
-        "./src/network/http_session.cpp",
-        "onRecv",
-        73);
-      v11 = common::milog::MiLogStream::operator<<<char [17],(char *[17])0>(
-              &v25,
-              (const char (*)[17])"Not support uri:");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v11, (const std::string *)(v4 + 64));
-      common::milog::MiLogStream::~MiLogStream(&v25);
-    }
-    common::minet::HttpResponse::parseToStr[abi:cxx11]((std::string *)(v4 + 128), &this->response_);
-    v12 = std::string::length(v4 + 128);
-    v13 = (const char *)std::string::c_str(v4 + 128);
-    common::minet::AServerSession::send(this, v13, v12);
-    common::milog::MiLogStream::create(
-      &v22,
-      &common::milog::MiLogDefault::default_log_obj_,
-      1u,
-      "./src/network/http_session.cpp",
-      "onRecv",
-      80);
-    v14 = (unsigned int)common::tools::TimeUtils::Timer::time((const common::tools::TimeUtils::Timer *const)(v4 + 32));
-    v18 = (const char *)std::string::c_str(v4 + 64);
-    std::allocator<char>::allocator(&__a);
-    std::string::basic_string<std::allocator<char>>(&key, off_19DE5CE0, &__a);
-    common::minet::HttpRequest::getPara((std::string *)&v25, &this->request_, &key);
-    v15 = (const char *)std::string::c_str(&v25);
-    common::minet::HttpRequest::getIp[abi:cxx11](&v23, &this->request_);
-    v16 = (const char *)std::string::c_str(&v23);
-    common::milog::MiLogStream::operator()(
-      &v22,
-      "client_ip=%s, uid=%s, uri=%s, retcode=%d, timecost=%dus",
-      v16,
-      v15,
-      v18,
-      (unsigned int)retcode,
-      v14);
-    std::string::~string(&v23);
-    std::string::~string(&v25);
-    std::string::~string(&key);
-    std::allocator<char>::~allocator(&__a);
-    common::milog::MiLogStream::~MiLogStream(&v22);
-    std::string::~string((void *)(v4 + 128));
-    std::string::~string((void *)(v4 + 64));
   }
-  common::tools::TimeUtils::Timer::~Timer((common::tools::TimeUtils::Timer *const)(v4 + 32));
-  result = 1;
-  if ( v26 == (char *)v4 )
-  {
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0LL;
-    *(_DWORD *)((v4 >> 3) + 0x7FFF800C) = 0;
-    *(_DWORD *)((v4 >> 3) + 0x7FFF8014) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v4 = 1172321806LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v4 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  return result;
-};
+
+  // 将响应对象转换为字符串
+  std::string responseStr;
+  common::minet::HttpResponse::parseToStr(&responseStr, &response_);
+
+  // 发送响应
+  common::minet::AServerSession::send(this, responseStr.c_str(), static_cast<uint32_t>(responseStr.length()));
+
+  // 记录日志
+  std::string uid;
+  std::string ip;
+  std::string key = "uid";
+
+  common::minet::HttpRequest::getPara(&uid, &request_, &key);
+  common::minet::HttpRequest::getIp(&ip, &request_);
+
+  LOG_INFO << "client_ip=" << ip
+           << ", uid=" << uid
+           << ", uri=" << baseUri
+           << ", retcode=" << retcode
+           << ", timecost=" << timer.time() << "us";
+
+  return 1;
+}
 
 // Line 87: range 000000000C6132C8-000000000C6132DA
 int32_t __cdecl HttpSession::onConnect(HttpSession *const this, boost::asio::yield_context *p_)
@@ -242,381 +152,97 @@ int32_t __cdecl HttpSession::sendHttp(HttpSession *const this, uint16_t status, 
 };
 
 // Line 110: range 000000000C61348A-000000000C6142D9
-int32_t __cdecl HttpSession::queryRegionList(HttpSession *const this)
-{
-  unsigned __int64 v1; // r13
-  __int64 v2; // rax
-  _DWORD *v3; // r12
-  std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::element_type *v4; // rdx
-  char v5; // cl
-  common::minet::HttpRequest *p_request; // rsi
-  __int64 v7; // rcx
-  common::milog::MiLogStream *v8; // rax
-  const data::DbRegionConfig **v9; // rax
-  const data::DbRegionConfig **v12; // rax
-  common::milog::MiLogStream *v13; // rax
-  common::milog::MiLogStream *v14; // rax
-  common::milog::MiLogStream *v15; // rax
-  common::milog::MiLogStream *v16; // rax
-  common::milog::MiLogStream *v17; // rax
-  bool v18; // al
-  common::milog::MiLogStream *v19; // rax
-  common::milog::MiLogStream *v20; // rax
-  common::milog::MiLogStream *v21; // rax
-  common::milog::MiLogStream *v22; // rax
-  common::milog::MiLogStream *v23; // rax
-  common::milog::MiLogStream *v24; // rax
-  common::milog::MiLogStream *v25; // rax
-  common::milog::MiLogStream *v26; // rax
-  common::milog::MiLogStream *v27; // rax
-  common::milog::MiLogStream *v28; // rax
-  common::milog::MiLogStream *v29; // rax
-  common::milog::MiLogStream *v30; // rax
-  common::milog::MiLogStream *v31; // rax
-  common::milog::MiLogStream *v32; // r14
-  common::milog::MiLogStream *v33; // rax
-  common::milog::MiLogStream *v34; // rax
-  const char *v35; // rax
-  int32_t v36; // r14d
-  int32_t result; // eax
-  std::allocator<char> __a; // [rsp+1Fh] [rbp-2F1h] BYREF
-  std::vector<const data::DbRegionConfig*>::iterator __for_begin; // [rsp+20h] [rbp-2F0h] BYREF
-  std::vector<const data::DbRegionConfig*>::iterator __for_end; // [rsp+28h] [rbp-2E8h] BYREF
-  const DbDeployConfigMgr *db_deploy_config_mgr; // [rsp+30h] [rbp-2E0h]
-  const data::DbClientConfig *client_config_ptr; // [rsp+38h] [rbp-2D8h]
-  std::vector<const data::DbRegionConfig*> *__for_range; // [rsp+40h] [rbp-2D0h]
-  std::vector<const data::DbRegionConfig*> *__for_range_0; // [rsp+48h] [rbp-2C8h]
-  const data::DbRegionConfig *region_config_ptr_0; // [rsp+50h] [rbp-2C0h]
-  const data::DbRegionConfig *region_config_ptr; // [rsp+58h] [rbp-2B8h]
-  std::string key; // [rsp+60h] [rbp-2B0h] BYREF
-  char v48[656]; // [rsp+80h] [rbp-290h] BYREF
+int32_t HttpSession::queryRegionList() {
+  std::shared_ptr<Config> config = ServiceBox::findService<DispatchService>()->getConfig();
+  const DbDeployConfigMgr* db_deploy_config_mgr = &config->db_deploy_config_mgr;
 
-  v1 = (unsigned __int64)v48;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v2 = __asan_stack_malloc_4(608LL);
-    if ( v2 )
-      v1 = v2;
+  proto::QueryRegionListHttpRsp response;
+  std::string version = common::minet::HttpRequest::getPara(&request_, "version");
+  uint32_t channel_id = getChannelId();
+
+  // 判断是否禁止首次分发
+  if (config->is_forbid_first_dispatch) {
+      response.set_retcode(8);
+      LOG_INFO << "query_region_list is forbidden in this dispatch";
+      sendResponse(response, version);
+      return 8;
   }
-  *(_QWORD *)v1 = 1102416563LL;
-  *(_QWORD *)(v1 + 8) = "9 48 4 14 channel_id:117 64 16 14 config_ptr:112 96 24 21 region_config_vec:140 160 32 11 versio"
-                        "n:116 224 32 8 body:200 288 32 13 proto_str:216 352 32 14 psn_region:137 416 40 10 status:204 49"
-                        "6 72 19 region_list_rsp:114";
-  *(_QWORD *)(v1 + 16) = HttpSession::queryRegionList;
-  v3 = (_DWORD *)(v1 >> 3);
-  v3[536862720] = -235802127;
-  v3[536862721] = -234556943;
-  v3[536862722] = -219021312;
-  v3[536862723] = -234881024;
-  v3[536862724] = -218959118;
-  v3[536862726] = -218959118;
-  v3[536862728] = -218959118;
-  v3[536862730] = -218959118;
-  v3[536862732] = -218959118;
-  v3[536862734] = -218959360;
-  v3[536862735] = 62194;
-  v3[536862737] = -218103808;
-  v3[536862738] = -202116109;
-  ServiceBox::findService<DispatchService>();
-  DispatchService::getConfig((DispatchService *const)(v1 + 64));
-  db_deploy_config_mgr = &std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v1 + 64))->db_deploy_config_mgr;
-  proto::QueryRegionListHttpRsp::QueryRegionListHttpRsp((proto::QueryRegionListHttpRsp *const)(v1 + 496));
-  std::allocator<char>::allocator(&__a);
-  std::string::basic_string<std::allocator<char>>(&key, "version", &__a);
-  p_request = &this->request_;
-  common::minet::HttpRequest::getPara((std::string *)(v1 + 160), &this->request_, &key);
-  std::string::~string(&key);
-  std::allocator<char>::~allocator(&__a);
-  *(_DWORD *)(v1 + 48) = HttpSession::getChannelId(this);
-  v4 = std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<Config,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v1 + 64));
-  v5 = *(_BYTE *)(((unsigned __int64)&v4->is_forbid_first_dispatch >> 3) + 0x7FFF8000);
-  LOBYTE(p_request) = v5 != 0;
-  v7 = (v5 != 0) & (unsigned __int8)((((unsigned __int8)v4 + 124) & 7) >= v5);
-  if ( (_BYTE)v7 )
-    __asan_report_load1(&v4->is_forbid_first_dispatch, p_request, v4, v7);
-  if ( v4->is_forbid_first_dispatch )
-  {
-    proto::QueryRegionListHttpRsp::set_retcode((proto::QueryRegionListHttpRsp *const)(v1 + 496), 8);
-    common::milog::MiLogStream::create(
-      (common::milog::MiLogStream *)&key,
-      &common::milog::MiLogDefault::default_log_obj_,
-      1u,
-      "./src/network/http_session.cpp",
-      "queryRegionList",
-      124);
-    common::milog::MiLogStream::operator<<<char [48],(char *[48])0>(
-      (common::milog::MiLogStream *const)&key,
-      (const char (*)[48])"query_region_list is forbidden in this dispatch");
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
+
+  const data::DbClientConfig* client_config = DbDeployConfigMgr::findDbClientConfig(db_deploy_config_mgr, version);
+  if (!client_config) {
+      response.set_retcode(-1);
+      LOG_WARN << "Not found client_version: " << version;
+      sendResponse(response, version);
+      return -1;
   }
-  else
-  {
-    client_config_ptr = DbDeployConfigMgr::findDbClientConfig(db_deploy_config_mgr, (const std::string *)(v1 + 160));
-    if ( client_config_ptr )
-    {
-      HttpSession::getPsnRegion[abi:cxx11]((std::string *)(v1 + 352), this);
-      std::vector<data::DbRegionConfig const*>::vector((std::vector<const data::DbRegionConfig*> *const)(v1 + 96));
-      DbDeployConfigMgr::findBindRegionConfigVec(
-        db_deploy_config_mgr,
-        (const std::string *)(v1 + 160),
-        *(_DWORD *)(v1 + 48),
-        (std::vector<const data::DbRegionConfig*> *)(v1 + 96));
-      __for_range = (std::vector<const data::DbRegionConfig*> *)(v1 + 96);
-      __for_begin._M_current = std::vector<data::DbRegionConfig const*>::begin((std::vector<const data::DbRegionConfig*> *const)(v1 + 96))._M_current;
-      __for_end._M_current = std::vector<data::DbRegionConfig const*>::end(__for_range)._M_current;
-      while ( __gnu_cxx::operator!=<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>(
-                &__for_begin,
-                &__for_end) )
-      {
-        v9 = __gnu_cxx::__normal_iterator<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>::operator*(&__for_begin);
-        if ( *(_BYTE *)(((unsigned __int64)v9 >> 3) + 0x7FFF8000) )
-          v9 = (const data::DbRegionConfig **)__asan_report_load8(v9);
-        region_config_ptr = *v9;
-        if ( region_config_ptr )
-        {
-          if ( !HttpSession::isPsPlatform(this)
-            || HttpSession::canPsnRegionLogin(this, (const std::string *)(v1 + 352), region_config_ptr) )
-          {
-            HttpSession::addRegionSimpleInfoOnRegionListRsp(
-              this,
-              (proto::QueryRegionListHttpRsp *)(v1 + 496),
-              region_config_ptr);
+
+  std::string psn_region = getPsnRegion();
+  std::vector<const data::DbRegionConfig*> region_config_vec;
+  DbDeployConfigMgr::findBindRegionConfigVec(db_deploy_config_mgr, version, channel_id, region_config_vec);
+
+  for (const auto* region_config : region_config_vec) {
+      if (!region_config) continue;
+
+      if (!isPsPlatform() || canPsnRegionLogin(psn_region, region_config)) {
+          addRegionSimpleInfoOnRegionListRsp(&response, region_config);
+      }
+  }
+
+  // 如果是 PS 平台且未找到区域，则使用默认配置
+  if (isPsPlatform() && !psn_region.empty() && response.region_list_size() == 0) {
+      for (const auto* region_config : region_config_vec) {
+          if (region_config && region_config->psn_region_set.count("DEFAULT")) {
+              addRegionSimpleInfoOnRegionListRsp(&response, region_config);
+              LOG_INFO << "Using default psn_region: " << psn_region
+                       << ", version: " << version
+                       << ", channel_id: " << channel_id;
+              break;
           }
-        }
-        __gnu_cxx::__normal_iterator<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>::operator++(&__for_begin);
       }
-      if ( HttpSession::isPsPlatform(this)
-        && (unsigned __int8)std::string::empty(v1 + 352) != 1
-        && !proto::QueryRegionListHttpRsp::region_list_size((const proto::QueryRegionListHttpRsp *const)(v1 + 496)) )
-      {
-        __for_range_0 = (std::vector<const data::DbRegionConfig*> *)(v1 + 96);
-        __for_begin._M_current = std::vector<data::DbRegionConfig const*>::begin((std::vector<const data::DbRegionConfig*> *const)(v1 + 96))._M_current;
-        __for_end._M_current = std::vector<data::DbRegionConfig const*>::end(__for_range_0)._M_current;
-        while ( __gnu_cxx::operator!=<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>(
-                  &__for_begin,
-                  &__for_end) )
-        {
-          v12 = __gnu_cxx::__normal_iterator<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>::operator*(&__for_begin);
-          if ( *(_BYTE *)(((unsigned __int64)v12 >> 3) + 0x7FFF8000) )
-            v12 = (const data::DbRegionConfig **)__asan_report_load8(v12);
-          region_config_ptr_0 = *v12;
-          if ( region_config_ptr_0
-            && common::tools::MiscUtils::isContains<std::set<std::string> const,char [8]>(
-                 &region_config_ptr_0->psn_region_set,
-                 (const char (*)[8])"DEFAULT") )
-          {
-            HttpSession::addRegionSimpleInfoOnRegionListRsp(
-              this,
-              (proto::QueryRegionListHttpRsp *)(v1 + 496),
-              region_config_ptr_0);
-            common::milog::MiLogStream::create(
-              (common::milog::MiLogStream *)&key,
-              &common::milog::MiLogDefault::default_log_obj_,
-              1u,
-              "./src/network/http_session.cpp",
-              "queryRegionList",
-              170);
-            v13 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(
-                    (common::milog::MiLogStream *const)&key,
-                    (const char (*)[13])byte_19DE5FE0);
-            v14 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                    v13,
-                    (const std::string *)(v1 + 352));
-            v15 = common::milog::MiLogStream::operator<<<char [32],(char *[32])0>(
-                    v14,
-                    (const char (*)[32])byte_19DE6020);
-            v16 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                    v15,
-                    (const std::string *)(v1 + 160));
-            v17 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(
-                    v16,
-                    (const char (*)[13])" channel_id:");
-            common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v17, (const unsigned int *)(v1 + 48));
-            common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
-            break;
-          }
-          __gnu_cxx::__normal_iterator<data::DbRegionConfig const**,std::vector<data::DbRegionConfig const*>>::operator++(&__for_begin);
-        }
+  }
+
+  // 设置客户端密钥和其他信息
+  response.set_client_secret_key(client_config->client_secret_key());
+  response.set_client_custom_config_encrypted(client_config->client_custom_config_str_encrypted());
+  response.set_enable_login_pc(DbDeployConfigMgr::enablePcLogin(db_deploy_config_mgr, channel_id));
+
+  int ret_code = 0;
+  if (response.region_list_size() == 0) {
+      ret_code = -1;
+      response.set_retcode(ret_code);
+      LOG_WARN << "Not found binded region for client_version: " << version
+               << ", channel_id: " << channel_id
+               << ", psn_region: " << psn_region;
+  } else {
+      response.set_retcode(0);
+  }
+
+  // 序列化并发送响应
+  std::string body;
+  if (version == "Sub_PS4CB1.0.4") {
+      google::protobuf::util::Status status;
+      google::protobuf::util::MessageToJsonString(response, &body);
+      if (!status.ok()) {
+          LOG_WARN << "MessageToJsonString fails, version: " << version;
       }
-      proto::QueryRegionListHttpRsp::set_client_secret_key(
-        (proto::QueryRegionListHttpRsp *const)(v1 + 496),
-        &client_config_ptr->client_secret_key);
-      proto::QueryRegionListHttpRsp::set_client_custom_config_encrypted(
-        (proto::QueryRegionListHttpRsp *const)(v1 + 496),
-        &client_config_ptr->client_custom_config_str_encrypted);
-      v18 = DbDeployConfigMgr::enablePcLogin(db_deploy_config_mgr, *(_DWORD *)(v1 + 48));
-      proto::QueryRegionListHttpRsp::set_enable_login_pc((proto::QueryRegionListHttpRsp *const)(v1 + 496), v18);
-      if ( proto::QueryRegionListHttpRsp::region_list_size((const proto::QueryRegionListHttpRsp *const)(v1 + 496)) )
-      {
-        proto::QueryRegionListHttpRsp::set_retcode((proto::QueryRegionListHttpRsp *const)(v1 + 496), 0);
+  } else {
+      if (response.SerializeToString(&body)) {
+          std::string base64_body;
+          common::tools::StringUtils::base64Encode(&base64_body, &body);
+          body = base64_body;
+      } else {
+          LOG_WARN << "region_list_rsp.SerializeToString fails, version: " << version;
       }
-      else
-      {
-        proto::QueryRegionListHttpRsp::set_retcode((proto::QueryRegionListHttpRsp *const)(v1 + 496), -1);
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)&key,
-          &common::milog::MiLogDefault::default_log_obj_,
-          3u,
-          "./src/network/http_session.cpp",
-          "queryRegionList",
-          188);
-        v19 = common::milog::MiLogStream::operator<<<char [45],(char *[45])0>(
-                (common::milog::MiLogStream *const)&key,
-                (const char (*)[45])"Not found binded region for client_version: ");
-        v20 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v19, (const std::string *)(v1 + 160));
-        v21 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(v20, (const char (*)[14])" channel_id: ");
-        v22 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(
-                v21,
-                (const unsigned int *)(v1 + 48));
-        v23 = common::milog::MiLogStream::operator<<<char [14],(char *[14])0>(v22, (const char (*)[14])" psn_region: ");
-        common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v23, (const std::string *)(v1 + 352));
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
-      }
-      std::vector<data::DbRegionConfig const*>::~vector((std::vector<const data::DbRegionConfig*> *const)(v1 + 96));
-      std::string::~string((void *)(v1 + 352));
-    }
-    else
-    {
-      proto::QueryRegionListHttpRsp::set_retcode((proto::QueryRegionListHttpRsp *const)(v1 + 496), -1);
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)&key,
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/network/http_session.cpp",
-        "queryRegionList",
-        133);
-      v8 = common::milog::MiLogStream::operator<<<char [27],(char *[27])0>(
-             (common::milog::MiLogStream *const)&key,
-             (const char (*)[27])"Not found client_version: ");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v8, (const std::string *)(v1 + 160));
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
-    }
   }
-  std::string::basic_string(v1 + 224);
-  if ( std::operator==<char>("Sub_PS4CB1.0.4", (const std::string *)(v1 + 160)) )
-  {
-    google::protobuf::util::MessageToJsonString(
-      (google::protobuf::util::Status *)(v1 + 416),
-      (const google::protobuf::Message *)(v1 + 496),
-      (std::string *)(v1 + 224));
-    if ( google::protobuf::util::Status::ok((const google::protobuf::util::Status *const)(v1 + 416)) )
-    {
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)&key,
-        &common::milog::MiLogDefault::default_log_obj_,
-        1u,
-        "./src/network/http_session.cpp",
-        "queryRegionList",
-        207);
-      v24 = common::milog::MiLogStream::operator<<<char [10],(char *[10])0>(
-              (common::milog::MiLogStream *const)&key,
-              (const char (*)[10])"version: ");
-      v25 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v24, (const std::string *)(v1 + 160));
-      v26 = common::milog::MiLogStream::operator<<<char [8],(char *[8])0>(v25, (const char (*)[8])" body: ");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v26, (const std::string *)(v1 + 224));
-    }
-    else
-    {
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)&key,
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/network/http_session.cpp",
-        "queryRegionList",
-        211);
-      v27 = common::milog::MiLogStream::operator<<<char [37],(char *[37])0>(
-              (common::milog::MiLogStream *const)&key,
-              (const char (*)[37])"MessageToJsonString fails, version: ");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v27, (const std::string *)(v1 + 160));
-    }
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
-    google::protobuf::util::Status::~Status((google::protobuf::util::Status *const)(v1 + 416));
-  }
-  else
-  {
-    std::string::basic_string(v1 + 288);
-    if ( google::protobuf::MessageLite::SerializeToString(
-           (const google::protobuf::MessageLite *const)(v1 + 496),
-           (std::string *)(v1 + 288)) )
-    {
-      common::tools::StringUtils::base64Encode(&key, (const std::string *)(v1 + 288));
-      std::string::operator=(v1 + 224, &key);
-      std::string::~string(&key);
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v1 + 352),
-        &common::milog::MiLogDefault::default_log_obj_,
-        1u,
-        "./src/network/http_session.cpp",
-        "queryRegionList",
-        221);
-      v28 = common::milog::MiLogStream::operator<<<char [10],(char *[10])0>(
-              (common::milog::MiLogStream *const)(v1 + 352),
-              (const char (*)[10])"version: ");
-      v29 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v28, (const std::string *)(v1 + 160));
-      v30 = common::milog::MiLogStream::operator<<<char [13],(char *[13])0>(v29, (const char (*)[13])" channel_id:");
-      v31 = common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v30, (const unsigned int *)(v1 + 48));
-      v32 = common::milog::MiLogStream::operator<<<char [8],(char *[8])0>(v31, (const char (*)[8])" body: ");
-      google::protobuf::Message::ShortDebugString[abi:cxx11](&key, (google::protobuf::Message *)(v1 + 496));
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v32, &key);
-      std::string::~string(&key);
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v1 + 352));
-    }
-    else
-    {
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)&key,
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/network/http_session.cpp",
-        "queryRegionList",
-        225);
-      v33 = common::milog::MiLogStream::operator<<<char [10],(char *[10])0>(
-              (common::milog::MiLogStream *const)&key,
-              (const char (*)[10])"version: ");
-      v34 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v33, (const std::string *)(v1 + 160));
-      common::milog::MiLogStream::operator<<<char [40],(char *[40])0>(
-        v34,
-        (const char (*)[40])"region_list_rsp.SerializeToString fails");
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)&key);
-    }
-    std::string::~string((void *)(v1 + 288));
-  }
-  v35 = (const char *)std::string::c_str(v1 + 224);
-  common::minet::HttpResponse::init(&this->response_, 0xC8u, v35);
-  v36 = proto::QueryRegionListHttpRsp::retcode((const proto::QueryRegionListHttpRsp *const)(v1 + 496));
-  std::string::~string((void *)(v1 + 224));
-  std::string::~string((void *)(v1 + 160));
-  proto::QueryRegionListHttpRsp::~QueryRegionListHttpRsp((proto::QueryRegionListHttpRsp *const)(v1 + 496));
-  std::shared_ptr<Config>::~shared_ptr((std::shared_ptr<Config> *const)(v1 + 64));
-  result = v36;
-  if ( v48 == (char *)v1 )
-  {
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8008) = 0LL;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8010) = 0;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8018) = 0;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8020) = 0;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8028) = 0;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8030) = 0;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8038) = 0LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8044) = 0LL;
-  }
-  else
-  {
-    *(_QWORD *)v1 = 1172321806LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8038) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v1 >> 3) + 0x7FFF8040) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v1 >> 3) + 0x7FFF8048) = -168430091;
-  }
-  return result;
-};
+
+  common::minet::HttpResponse::init(&this->response_, 0xC8u, body.c_str());
+  LOG_INFO << "client_ip=" << getClientIp()
+           << ", uri=" << request_.uri()
+           << ", retcode=" << ret_code
+           << ", timecost=XXXus";
+
+  return ret_code;
+}
 
 // Line 235: range 000000000C6142DA-000000000C614938
 int32_t __cdecl HttpSession::queryCurrRegion(HttpSession *const this)

@@ -11390,287 +11390,473 @@ int32_t __cdecl JsonConfigMgr::loadAllAvatarConfig(JsonConfigMgr *const this, HK
   return ret;
 };
 
-// Line 1324: range 000000000F2569FE-000000000F2576E1
-int32_t __cdecl JsonConfigMgr::loadAllMonsterConfig(JsonConfigMgr *const this, HK4EDesignConfig *config)
-{
-  unsigned __int64 v2; // r13
-  __int64 v3; // rax
-  _DWORD *v4; // r12
-  char *v5; // rsi
-  unsigned int first; // ecx
-  char v7; // al
-  const std::string *p_combat_config; // rdi
-  std::string *p_monster_json_base_dir; // rsi
-  unsigned __int64 v10; // rax
-  common::milog::MiLogStream *v11; // rax
-  common::milog::MiLogStream *v12; // rax
-  common::milog::MiLogStream *v13; // rax
-  common::milog::MiLogStream *v14; // rax
-  data::ConfigCombat *p_combat; // rdx
-  std::shared_ptr<data::ConfigMonster> *v16; // r8
-  common::milog::MiLogStream *v17; // rax
-  common::milog::MiLogStream *v18; // rax
-  std::pair<std::__detail::_Node_iterator<std::pair<unsigned int const,std::shared_ptr<data::ConfigMonster> >,false,false>,bool> v19; // rax
-  common::milog::MiLogStream *v20; // rax
-  common::milog::MiLogStream *v21; // rax
-  unsigned __int64 v22; // rax
-  int32_t ret; // [rsp+1Ch] [rbp-2B4h]
-  data::MonsterExcelConfigMap *__for_range; // [rsp+28h] [rbp-2A8h]
-  std::__detail::_Node_iterator<std::pair<unsigned int const,data::MonsterExcelConfig>,false,false>::reference p; // [rsp+30h] [rbp-2A0h]
-  char v29[656]; // [rsp+40h] [rbp-290h] BYREF
+#include <unordered_map>
+#include <memory>
+#include <string>
+#include <vector>
 
-  v2 = (unsigned __int64)v29;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_4(608LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "11 32 4 15 monster_id:1329 48 8 16 __for_begin:1327 80 8 14 __for_end:1327 112 16 23 config_mons"
-                        "ter_ptr:1340 144 32 24 monster_config_path:1331 208 32 9 <unknown> 272 32 9 <unknown> 336 32 9 <"
-                        "unknown> 400 32 9 <unknown> 464 32 9 <unknown> 528 40 9 root:1333";
-  *(_QWORD *)(v2 + 16) = JsonConfigMgr::loadAllMonsterConfig;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = 61956;
-  v4[536862721] = -234881024;
-  v4[536862722] = 62194;
-  v4[536862722] = -234881024;
-  v4[536862723] = 62194;
-  v4[536862724] = 62194;
-  v4[536862725] = -219021312;
-  v4[536862726] = 62194;
-  v4[536862727] = -219021312;
-  v4[536862728] = 62194;
-  v4[536862729] = -219021312;
-  v4[536862730] = 62194;
-  v4[536862731] = -219021312;
-  v4[536862732] = 62194;
-  v4[536862733] = -219021312;
-  v4[536862734] = 62194;
-  v4[536862735] = -219021312;
-  v4[536862736] = 62194;
-  v4[536862737] = -218103808;
-  v4[536862738] = -202116109;
-  ret = 0;
-  __for_range = &config->txt_config_mgr.monster_config_mgr.monster_excel_config_map;
-  if ( *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 48, config);
-  *(std::unordered_map<unsigned int,data::MonsterExcelConfig>::iterator *)(v2 + 48) = std::unordered_map<unsigned int,data::MonsterExcelConfig>::begin(__for_range);
-  if ( *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) )
-    __asan_report_store8(v2 + 80, config);
-  *(std::unordered_map<unsigned int,data::MonsterExcelConfig>::iterator *)(v2 + 80) = std::unordered_map<unsigned int,data::MonsterExcelConfig>::end(__for_range);
-  while ( 1 )
-  {
-    v5 = (char *)(v2 + 80);
-    if ( !std::__detail::operator!=<std::pair<unsigned int const,data::MonsterExcelConfig>,false>(
-            (const std::__detail::_Node_iterator_base<std::pair<unsigned int const,data::MonsterExcelConfig>,false> *)(v2 + 48),
-            (const std::__detail::_Node_iterator_base<std::pair<unsigned int const,data::MonsterExcelConfig>,false> *)(v2 + 80)) )
-      break;
-    p = std::__detail::_Node_iterator<std::pair<unsigned int const,data::MonsterExcelConfig>,false,false>::operator*((const std::__detail::_Node_iterator<std::pair<unsigned int const,data::MonsterExcelConfig>,false,false> *const)(v2 + 48));
-    *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) = 4;
-    if ( *(_BYTE *)(((unsigned __int64)p >> 3) + 0x7FFF8000) != 0
-      && *(_BYTE *)(((unsigned __int64)p >> 3) + 0x7FFF8000) <= 3 )
-    {
-      __asan_report_load4(p);
-    }
-    first = p->first;
-    v7 = *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000);
-    if ( v7 != 0 && v7 <= 3 )
-    {
-      LOBYTE(v5) = v7 != 0;
-      __asan_report_store4(v2 + 32, v5);
-    }
-    *(_DWORD *)(v2 + 32) = first;
-    *(_DWORD *)(((v2 + 144) >> 3) + 0x7FFF8000) = 0;
-    *(_DWORD *)(((v2 + 208) >> 3) + 0x7FFF8000) = 0;
-    p_combat_config = &p->second.combat_config;
-    p_monster_json_base_dir = &config->monster_json_base_dir;
-    if ( *(char *)(((v2 + 208) >> 3) + 0x7FFF8000) < 0
-      || *(_BYTE *)(((v2 + 239) >> 3) + 0x7FFF8000) != 0
-      && (char)((v2 - 17) & 7) >= *(_BYTE *)(((v2 + 239) >> 3) + 0x7FFF8000) )
-    {
-      p_monster_json_base_dir = (std::string *)32;
-      p_combat_config = (const std::string *)(v2 + 208);
-      __asan_report_store_n(v2 + 208, 32LL);
-    }
-    std::operator+<char>((std::string *)(v2 + 208), p_monster_json_base_dir, p_combat_config);
-    if ( *(char *)(((v2 + 144) >> 3) + 0x7FFF8000) < 0
-      || *(_BYTE *)(((v2 + 175) >> 3) + 0x7FFF8000) != 0
-      && (char)((v2 - 81) & 7) >= *(_BYTE *)(((v2 + 175) >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store_n(v2 + 144, 32LL);
-    }
-    std::operator+<char>((std::string *)(v2 + 144), (std::string *)(v2 + 208), ".json");
-    std::string::~string((void *)(v2 + 208));
-    *(_DWORD *)(((v2 + 208) >> 3) + 0x7FFF8000) = -117901064;
-    std::string::operator=(&JsonConfigMgr::cur_load_json_file_name_[abi:cxx11], v2 + 144);
-    v10 = ((v2 + 528) >> 3) + 2147450880;
-    *(_DWORD *)v10 = 0;
-    *(_BYTE *)(v10 + 4) = 0;
-    Json::Value::Value(v2 + 528, 0LL);
-    if ( !parseJsonFile((const std::string *)(v2 + 144), (Json::Value *)(v2 + 528)) )
-    {
-      *(_DWORD *)(((v2 + 272) >> 3) + 0x7FFF8000) = 0;
-      if ( *(char *)(((v2 + 272) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 303) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 + 47) & 7) >= *(_BYTE *)(((v2 + 303) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 272, 32LL);
-      }
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v2 + 272),
-        &common::milog::MiLogDefault::default_log_obj_,
-        4u,
-        "./src/json_config_mgr.cpp",
-        "loadAllMonsterConfig",
-        1336);
-      v11 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(
-              (common::milog::MiLogStream *const)(v2 + 272),
-              (const char (*)[16])"[CONFIG_ERROR] ");
-      v12 = common::milog::MiLogStream::operator<<<char [27],(char *[27])0>(
-              v11,
-              (const char (*)[27])"parseJsonFile fails, path:");
-      common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v12, (const std::string *)(v2 + 144));
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 272));
-      *(_DWORD *)(((v2 + 272) >> 3) + 0x7FFF8000) = -117901064;
-      ret = -1;
-    }
-    else
-    {
-      *(_WORD *)(((v2 + 112) >> 3) + 0x7FFF8000) = 0;
-      if ( *(_WORD *)(((v2 + 112) >> 3) + 0x7FFF8000) )
-        __asan_report_store16();
-      data::ConfigMonster::parseFromJson((const Json::Value *)(v2 + 112));
-      if ( std::operator==<data::ConfigMonster>((const std::shared_ptr<data::ConfigMonster> *)(v2 + 112), 0LL) )
-      {
-        *(_DWORD *)(((v2 + 336) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 336) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 367) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 + 111) & 7) >= *(_BYTE *)(((v2 + 367) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 336, 32LL);
-        }
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 336),
-          &common::milog::MiLogDefault::default_log_obj_,
-          4u,
-          "./src/json_config_mgr.cpp",
-          "loadAllMonsterConfig",
-          1343);
-        v13 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(
-                (common::milog::MiLogStream *const)(v2 + 336),
-                (const char (*)[16])"[CONFIG_ERROR] ");
-        v14 = common::milog::MiLogStream::operator<<<char [27],(char *[27])0>(
-                v13,
-                (const char (*)[27])"parseFromJson fails, path:");
-        common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v14, (const std::string *)(v2 + 144));
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 336));
-        *(_DWORD *)(((v2 + 336) >> 3) + 0x7FFF8000) = -117901064;
-        ret = -1;
-      }
-      else
-      {
-        p_combat = &std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 112))->combat;
-        if ( JsonConfigMgr::assignAttackIdToAllConfigAttackInfoInConfigCombat(this, p_combat) )
-        {
-          *(_DWORD *)(((v2 + 400) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 400) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 431) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 81) & 7) >= *(_BYTE *)(((v2 + 431) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 400, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 400),
-            &common::milog::MiLogDefault::default_log_obj_,
-            4u,
-            "./src/json_config_mgr.cpp",
-            "loadAllMonsterConfig",
-            1349);
-          v17 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(
-                  (common::milog::MiLogStream *const)(v2 + 400),
-                  (const char (*)[16])"[CONFIG_ERROR] ");
-          v18 = common::milog::MiLogStream::operator<<<char [68],(char *[68])0>(
-                  v17,
-                  (const char (*)[68])"assignAttackIdToAllConfigAttackInfoInConfigCombat fail, monster_id:");
-          common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v18, (const unsigned int *)(v2 + 32));
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 400));
-          *(_DWORD *)(((v2 + 400) >> 3) + 0x7FFF8000) = -117901064;
-          ret = -1;
-        }
-        v19 = std::unordered_map<unsigned int,std::shared_ptr<data::ConfigMonster>>::emplace<unsigned int &,std::shared_ptr<data::ConfigMonster>&>(
-                &this->config_monster_map_,
-                (unsigned int *)(v2 + 32),
-                (std::shared_ptr<data::ConfigMonster> *)(v2 + 112),
-                (unsigned int *)&this->config_monster_map_,
-                v16);
-        if ( !v19.second )
-        {
-          *(_DWORD *)(((v2 + 464) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 464) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 495) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 17) & 7) >= *(_BYTE *)(((v2 + 495) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 464, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 464),
-            &common::milog::MiLogDefault::default_log_obj_,
-            4u,
-            "./src/json_config_mgr.cpp",
-            "loadAllMonsterConfig",
-            1354);
-          v20 = common::milog::MiLogStream::operator<<<char [16],(char *[16])0>(
-                  (common::milog::MiLogStream *const)(v2 + 464),
-                  (const char (*)[16])"[CONFIG_ERROR] ");
-          v21 = common::milog::MiLogStream::operator<<<char [22],(char *[22])0>(
-                  v20,
-                  (const char (*)[22])"duplicate monster_id:");
-          common::milog::MiLogStream::operator<<<unsigned int,(unsigned int *)0>(v21, (const unsigned int *)(v2 + 32));
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 464));
-          *(_DWORD *)(((v2 + 464) >> 3) + 0x7FFF8000) = -117901064;
-          ret = -1;
-        }
-      }
-      std::shared_ptr<data::ConfigMonster>::~shared_ptr((std::shared_ptr<data::ConfigMonster> *const)(v2 + 112));
-    }
-    Json::Value::~Value((Json::Value_0 *const)(v2 + 528));
-    std::string::~string((void *)(v2 + 144));
-    *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) = -8;
-    *(_DWORD *)(((v2 + 144) >> 3) + 0x7FFF8000) = -117901064;
-    v22 = ((v2 + 528) >> 3) + 2147450880;
-    *(_DWORD *)v22 = -117901064;
-    *(_BYTE *)(v22 + 4) = -8;
-    *(_WORD *)(((v2 + 112) >> 3) + 0x7FFF8000) = -1800;
-    std::__detail::_Node_iterator<std::pair<unsigned int const,data::MonsterExcelConfig>,false,false>::operator++((std::__detail::_Node_iterator<std::pair<unsigned int const,data::MonsterExcelConfig>,false,false> *const)(v2 + 48));
-  }
-  if ( v29 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8044) = 0LL;
-    memset(
-      (void *)((unsigned __int64)(v4 + 536862722) & 0xFFFFFFFFFFFFFFF8LL),
-      0,
-      8LL * ((((_DWORD)v4 + 2147450880 - (((_DWORD)v4 + 2147450888) & 0xFFFFFFF8) + 76) & 0xFFFFFFF8) >> 3));
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8038) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8040) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8048) = -168430091;
-  }
-  return ret;
+class JsonConfigMgr {
+public:
+    static bool isInSimplePolygon(const data::Point2D* point, const std::vector<data::Point2D>* polygon_point_vec);
+    
+    static void testCheckInPolygon(const std::string* message, const std::vector<data::Point2D>* polygon_point_vec);
+    
+    template<typename MapType, typename ValueType, typename MemberPtr>
+    static int32_t insertToHashMap(MapType* hash_map, 
+                                  const std::string* key, 
+                                  ValueType* value, 
+                                  std::string* member);
+    
+    HK4EDesignConfig* getConfig();
+    const HK4EDesignConfig* getConfig() const;
+    
+    int32_t loadAllJson(HK4EDesignConfig* config);
+    int32_t rewriteConfig(HK4EDesignConfig* config);
+    int32_t checkConfig(HK4EDesignConfig* config);
+    
+    int32_t loadAllMonsterConfig(HK4EDesignConfig* config);
+    // 其他 load 函数...
 };
+
+// 实现 isInSimplePolygon 函数
+bool JsonConfigMgr::isInSimplePolygon(const data::Point2D* point, const std::vector<data::Point2D>* polygon_point_vec)
+{
+    bool inside = false;
+    size_t size = polygon_point_vec->size();
+    
+    if (size == 0) {
+        return false;
+    }
+    
+    size_t i = 0;
+    size_t j = size - 1;
+    
+    while (i < size) {
+        const auto& point0 = (*polygon_point_vec)[i];
+        const auto& point1 = (*polygon_point_vec)[j];
+        
+        if (point1.y <= point->y) {
+            if (point->y > point0.y) {
+                float dy = point->y - point0.y;
+                float cross_product = (point1.x - point0.x) * dy;
+                float compare_val = (point1.y - point0.y) * (point->x - point0.x);
+                
+                if (cross_product > compare_val) {
+                    inside = !inside;
+                }
+            }
+        } else {
+            if (point->y <= point0.y) {
+                float dy = point->y - point0.y;
+                float cross_product = (point1.x - point0.x) * dy;
+                float compare_val = (point1.y - point0.y) * (point->x - point0.x);
+                
+                if (cross_product > compare_val) {
+                    inside = !inside;
+                }
+            }
+        }
+        
+        j = i++;
+    }
+    
+    return inside;
+}
+
+// 实现 testCheckInPolygon 函数
+void JsonConfigMgr::testCheckInPolygon(const std::string* message, const std::vector<data::Point2D>* polygon_point_vec)
+{
+    common::tools::TimeUtils::Timer timer;
+    InteriorCheckablePolygon polygon;
+    
+    if (polygon.initByPointVec(polygon_point_vec)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] initByPointVec fail";
+        return;
+    }
+    
+    unsigned int init_time = timer.time();
+    
+    if (polygon_point_vec->empty()) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] polygon_point_vec is empty";
+        return;
+    }
+    
+    // 计算边界框
+    float min_x = (*polygon_point_vec)[0].x;
+    float max_x = (*polygon_point_vec)[0].x;
+    float min_y = (*polygon_point_vec)[0].y;
+    float max_y = (*polygon_point_vec)[0].y;
+    
+    for (size_t i = 1; i < polygon_point_vec->size(); ++i) {
+        const auto& pt = (*polygon_point_vec)[i];
+        min_x = std::min(min_x, pt.x);
+        max_x = std::max(max_x, pt.x);
+        min_y = std::min(min_y, pt.y);
+        max_y = std::max(max_y, pt.y);
+    }
+    
+    const size_t num_tests = 1000000; // 0xF4240
+    
+    // 生成随机测试点
+    std::vector<data::Point2D> random_points(num_tests);
+    for (auto& point : random_points) {
+        point.x = common::tools::RandomUtils::rand(min_x, max_x);
+        point.y = common::tools::RandomUtils::rand(min_y, max_y);
+    }
+    
+    // 测试旧算法
+    timer.reset();
+    std::vector<bool> cmp_results(num_tests);
+    for (size_t i = 0; i < num_tests; ++i) {
+        cmp_results[i] = JsonConfigMgr::isInSimplePolygon(&random_points[i], polygon_point_vec);
+    }
+    unsigned int time_old = timer.time();
+    
+    // 测试新算法
+    timer.reset();
+    std::vector<bool> results(num_tests);
+    for (size_t i = 0; i < num_tests; ++i) {
+        Vector2 vec2(&random_points[i]);
+        results[i] = polygon.isPointInsidePolygon(&vec2);
+    }
+    unsigned int time_new = timer.time();
+    
+    // 统计相同结果数量
+    size_t same_count = 0;
+    for (size_t i = 0; i < num_tests; ++i) {
+        if (cmp_results[i] == results[i]) {
+            same_count++;
+        }
+    }
+    
+    // 输出统计结果
+    common::milog::MiLogStream log;
+    log << *message 
+        << " point_num:" << polygon_point_vec->size()
+        << " same_count:" << same_count << "/" << num_tests
+        << " t0:" << init_time
+        << " t1:" << time_old
+        << " t2:" << time_new;
+}
+
+// 模板函数实现
+template<typename MapType, typename ValueType, typename MemberPtr>
+int32_t JsonConfigMgr::insertToHashMap(MapType* hash_map, 
+                                      const std::string* key, 
+                                      ValueType* value, 
+                                      std::string* member)
+{
+    int32_t hash_code = getStringHash(key);
+    
+    auto iter = hash_map->find(hash_code);
+    if (iter != hash_map->end()) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] duplicate hash_code:" << hash_code
+            << " new_key:" << *key
+            << " old_key:" << *(std::string*)((char*)&iter->second + (uint64_t)member);
+        return -1;
+    }
+    
+    hash_map->emplace(hash_code, *value);
+    return 0;
+}
+
+// 获取配置
+HK4EDesignConfig* JsonConfigMgr::getConfig()
+{
+    return reinterpret_cast<HK4EDesignConfig*>(&this->config_regional_play_map_);
+}
+
+const HK4EDesignConfig* JsonConfigMgr::getConfig() const
+{
+    return reinterpret_cast<const HK4EDesignConfig*>(&this->config_regional_play_map_);
+}
+
+// 加载所有 JSON
+int32_t JsonConfigMgr::loadAllJson(HK4EDesignConfig* config)
+{
+    if (loadScenePoint(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadScenePoint fails";
+        return -1;
+    }
+    if (loadSceneRoute(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadSceneRoute fails";
+        return -1;
+    }
+    if (loadSceneEnvironmentZone(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadSceneEnvironmentZone fails";
+        return -1;
+    }
+    if (loadAllAbilityConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllAbilityConfig fails";
+        return -1;
+    }
+    if (loadGlobalCombatConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadGlobalCombatConfig fails";
+        return -1;
+    }
+    if (loadAllAvatarConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllAvatarConfig fails";
+        return -1;
+    }
+    if (loadAllMonsterConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllMonsterConfig fails";
+        return -1;
+    }
+    if (loadAllGadgetConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllGadgetConfig fails";
+        return -1;
+    }
+    if (loadAllTalentConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllTalentConfig fails";
+        return -1;
+    }
+    if (loadLevelEntityConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadLevelEntityConfig fails";
+        return -1;
+    }
+    if (loadWeatherAreaConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadWeatherAreaConfig fails";
+        return -1;
+    }
+    if (loadOpenAreaPointConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadOpenAreaPointConfig fails";
+        return -1;
+    }
+    if (loadNpcBornConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadNpcBornConfig fails";
+        return -1;
+    }
+    if (loadClimateConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadClimateConfig fails";
+        return -1;
+    }
+    if (loadClimateAreaConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadClimateAreaConfig fails";
+        return -1;
+    }
+    if (loadPolygonConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadPolygonConfig fails";
+        return -1;
+    }
+    if (loadWorldAreaJsonConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadWorldAreaJsonConfig fails";
+        return -1;
+    }
+    if (loadAllAbilityGroupConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllAbilityGroupConfig fails";
+        return -1;
+    }
+    if (loadWidgetConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadWidgetConfig fails";
+        return -1;
+    }
+    if (loadLevelLayoutJsonConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadLevelLayoutJsonConfig fails";
+        return -1;
+    }
+    if (loadSceneHomeConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadSceneHomeConfig fails";
+        return -1;
+    }
+    if (loadWidgetNewConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadWidgetNewConfig fails";
+        return -1;
+    }
+    if (loadHomeFurnitureSuite(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadHomeFurnitureSuite fails";
+        return -1;
+    }
+    if (loadHomeFishpondConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadHomeFishpondConfig fails";
+        return -1;
+    }
+    if (loadHomeFurnitureGroupConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadHomeFurnitureGroupConfig fails";
+        return -1;
+    }
+    if (loadHomeSceneAutoGenConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadHomeSceneAutoGenConfig fails";
+        return -1;
+    }
+    if (loadAllCustomDungeonConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadAllCustomDungeonConfig fails";
+        return -1;
+    }
+    if (loadRegionalPlayConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadRegionalPlayConfig fails";
+        return -1;
+    }
+    if (loadDeathZoneConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadDeathZoneConfig fails";
+        return -1;
+    }
+    if (loadSGVRegisterConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadSGVRegisterConfig fails";
+        return -1;
+    }
+    if (loadHomeFishtankConfig(this, config)) {
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] loadHomeFishtankConfig fails";
+        return -1;
+    }
+    
+    return 0;
+}
+
+// 重写配置
+int32_t JsonConfigMgr::rewriteConfig(HK4EDesignConfig* config)
+{
+    int32_t ret = 0;
+    
+    if (rewriteWeatherAreaConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteWeatherAreaConfig fails";
+    }
+    if (rewriteScenePointConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteScenePointConfig fails";
+    }
+    if (rewriteNpcBornConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteNpcBornConfig fails";
+    }
+    if (rewriteMonsterConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteMonsterConfig fails";
+    }
+    if (rewriteClimateAreaConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteClimateAreaConfig fails";
+    }
+    if (rewritePolygonConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewritePolygonConfig fails";
+    }
+    if (rewriteWidgetConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteWidgetConfig fails";
+    }
+    if (rewriteCoopConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteCoopConfig fails";
+    }
+    if (rewriteHomeModuleConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteHomeModuleConfig fails";
+    }
+    if (rewriteRegionalPlayConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteRegionalPlayConfig fails";
+    }
+    if (rewriteDeathZoneConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteDeathZoneConfig fails";
+    }
+    if (rewriteGlobalCombatAntiCheatAttackTagWhiteListConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteGlobalCombatAntiCheatAttackTagWhiteListConfig fails";
+    }
+    if (rewriteGlobalCombatConfig(this, config)) {
+        ret = -1;
+        common::milog::MiLogStream log;
+        log << "[CONFIG_ERROR] rewriteGlobalCombatConfig fails";
+    }
+    
+    return ret;
+}
+
+// 加载所有怪物配置
+int32_t JsonConfigMgr::loadAllMonsterConfig(HK4EDesignConfig* config)
+{
+    int32_t ret = 0;
+    
+    auto& excel_config_map = config->txt_config_mgr.monster_config_mgr.monster_excel_config_map;
+    
+    for (const auto& pair : excel_config_map) {
+        uint32_t monster_id = pair.first;
+        const auto& excel_config = pair.second;
+        
+        std::string monster_config_path = config->monster_json_base_dir + excel_config.combat_config + ".json";
+        JsonConfigMgr::cur_load_json_file_name_ = monster_config_path;
+        
+        Json::Value root;
+        if (!parseJsonFile(monster_config_path, &root)) {
+            common::milog::MiLogStream log;
+            log << "[CONFIG_ERROR] parseJsonFile fails, path:" << monster_config_path;
+            ret = -1;
+            continue;
+        }
+        
+        std::shared_ptr<data::ConfigMonster> config_monster_ptr = data::ConfigMonster::parseFromJson(&root);
+        if (!config_monster_ptr) {
+            common::milog::MiLogStream log;
+            log << "[CONFIG_ERROR] parseFromJson fails, path:" << monster_config_path;
+            ret = -1;
+            continue;
+        }
+        
+        auto combat_ptr = config_monster_ptr->combat;
+        if (JsonConfigMgr::assignAttackIdToAllConfigAttackInfoInConfigCombat(this, combat_ptr)) {
+            common::milog::MiLogStream log;
+            log << "[CONFIG_ERROR] assignAttackIdToAllConfigAttackInfoInConfigCombat fail, monster_id:" << monster_id;
+            ret = -1;
+        }
+        
+        auto emplace_result = this->config_monster_map_.emplace(monster_id, config_monster_ptr);
+        if (!emplace_result.second) {
+            common::milog::MiLogStream log;
+            log << "[CONFIG_ERROR] duplicate monster_id:" << monster_id;
+            ret = -1;
+        }
+    }
+    
+    return ret;
+}
 
 // Line 1363: range 000000000F2576E2-000000000F259CD7
 int32_t __cdecl JsonConfigMgr::loadAllGadgetConfig(JsonConfigMgr *const this, HK4EDesignConfig *config)

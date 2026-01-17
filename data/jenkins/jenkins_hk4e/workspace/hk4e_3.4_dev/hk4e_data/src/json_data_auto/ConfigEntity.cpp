@@ -4625,76 +4625,26 @@ int32_t __cdecl data::ConfigEntityTags::getHashValue(const data::ConfigEntityTag
 };
 
 // Line 1008: range 000000000E608C45-000000000E608E7A
-data::ConfigEntityPtr __cdecl data::createConfigEntity(const std::string *name)
+data::ConfigEntityPtr data::createConfigEntity(const std::string *name)
 {
-  const std::map<std::string,std::shared_ptr<data::ConfigEntity>>::key_type *v1; // rsi
-  std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > > *v2; // rbx
-  __int64 v3; // rax
-  _DWORD *v4; // r13
-  bool v5; // al
-  std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > >::pointer v6; // rax
-  unsigned __int64 v7; // rax
-  unsigned __int64 v8; // rdx
-  void (__fastcall *v9)(const std::string *, unsigned __int64); // rcx
-  data::ConfigEntityPtr result; // rax
-  char v11[128]; // [rsp+10h] [rbp-80h] BYREF
-
-  v2 = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > > *)v11;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_1(96LL);
-    if ( v3 )
-      v2 = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > > *)v3;
-  }
-  v2->_M_node = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > >::_Base_ptr)1102416563;
-  v2[1]._M_node = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > >::_Base_ptr)"2 32 8 7 it:1009 64 8 9 <unknown>";
-  v2[2]._M_node = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > >::_Base_ptr)data::createConfigEntity;
-  v4 = (_DWORD *)((unsigned __int64)v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -218959360;
-  v4[536862722] = -202116352;
-  if ( *(_BYTE *)(((unsigned __int64)&v2[4] >> 3) + 0x7FFF8000) )
-    __asan_report_store8(&v2[4], v1);
-  v2[4]._M_node = std::map<std::string,std::shared_ptr<data::ConfigEntity>>::find(
-                    &data::g_ConfigEntityMap[abi:cxx11],
-                    v1)._M_node;
-  if ( *(_BYTE *)(((unsigned __int64)&v2[8] >> 3) + 0x7FFF8000) )
-    __asan_report_store8(&v2[8], v1);
-  v2[8]._M_node = std::map<std::string,std::shared_ptr<data::ConfigEntity>>::end(&data::g_ConfigEntityMap[abi:cxx11])._M_node;
-  v5 = std::operator!=(v2 + 4, v2 + 8);
-  *(_BYTE *)(((unsigned __int64)&v2[8] >> 3) + 0x7FFF8000) = -8;
-  if ( v5 )
-  {
-    v6 = std::_Rb_tree_iterator<std::pair<std::string const,std::shared_ptr<data::ConfigEntity>>>::operator->(v2 + 4);
-    v7 = (unsigned __int64)std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false> *const)&v6->second);
-    if ( *(_BYTE *)((v7 >> 3) + 0x7FFF8000) )
-      v7 = __asan_report_load8(v7);
-    v8 = *(_QWORD *)v7 + 24LL;
-    if ( *(_BYTE *)((v8 >> 3) + 0x7FFF8000) )
-      v7 = __asan_report_load8(*(_QWORD *)v7 + 24LL);
-    v9 = *(void (__fastcall **)(const std::string *, unsigned __int64))v8;
-    if ( *(_WORD *)(((unsigned __int64)name >> 3) + 0x7FFF8000) )
-      v7 = __asan_report_store16();
-    v9(name, v7);
-  }
-  else
-  {
-    std::shared_ptr<data::ConfigEntity>::shared_ptr((std::shared_ptr<data::ConfigEntity> *const)name, 0LL);
-  }
-  if ( v11 == (char *)v2 )
-  {
-    *(_QWORD *)(((unsigned __int64)v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_DWORD *)(((unsigned __int64)v2 >> 3) + 0x7FFF8008) = 0;
-  }
-  else
-  {
-    v2->_M_node = (std::_Rb_tree_iterator<std::pair<const std::string,std::shared_ptr<data::ConfigEntity> > >::_Base_ptr)1172321806;
-    *(_QWORD *)(((unsigned __int64)v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)(((unsigned __int64)v2 >> 3) + 0x7FFF8008) = -168430091;
-  }
-  result._M_ptr = (std::__shared_ptr<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2>::element_type *)name;
-  return result;
-};
+    // 在全局类型注册表中查找类型名
+    auto it = data::g_ConfigEntityMap.find(*name);
+    auto end = data::g_ConfigEntityMap.end();
+    
+    if (it != end) {
+        // 找到注册的类型，调用其克隆/创建函数（虚函数，偏移+24）
+        auto creator = std::dynamic_pointer_cast<data::ConfigEntity>(it->second);
+        if (creator) {
+            // 通过虚函数表调用创建函数（偏移+24）
+            // 这实际上是调用一个返回新实例的工厂函数
+            std::shared_ptr<data::ConfigEntity> new_instance = creator->clone();
+            return new_instance;
+        }
+    }
+    
+    // 未找到类型，返回空指针
+    return nullptr;
+}
 
 // Line 1015: range 000000000E608E7C-000000000E6092BE
 void __cdecl data::ConfigEntity::foreachMember(data::ConfigEntity *const this, std::function<void(std::any&)> *p_func)
@@ -4801,625 +4751,114 @@ std::shared_ptr<data::ConfigEntity> __cdecl data::ConfigEntity::clone(data::Conf
 };
 
 // Line 1039: range 000000000E60930C-000000000E60A934
-bool __cdecl data::ConfigEntity::fromJson(data::ConfigEntity *const this, const Json::Value *jval)
+bool data::ConfigEntity::fromJson(data::ConfigEntity *const this, const Json::Value *jval)
 {
-  unsigned __int64 v2; // r13
-  __int64 v3; // rax
-  _DWORD *v4; // r12
-  char v5; // al
-  std::shared_ptr<data::ConfigHeadControl> *v6; // rax
-  bool v7; // r15
-  const Json::Value *v8; // rsi
-  bool v9; // bl
-  const Json::Value *common_ptr; // [rsp+10h] [rbp-550h]
-  const Json::Value *head_control_ptr; // [rsp+18h] [rbp-548h]
-  const Json::Value *special_point_ptr; // [rsp+20h] [rbp-540h]
-  const Json::Value *custom_attack_shape_ptr; // [rsp+28h] [rbp-538h]
-  const Json::Value *model_ptr; // [rsp+30h] [rbp-530h]
-  const Json::Value *dither_ptr; // [rsp+38h] [rbp-528h]
-  const Json::Value *global_value_ptr; // [rsp+40h] [rbp-520h]
-  const Json::Value *entity_tags_ptr; // [rsp+48h] [rbp-518h]
-  char v20[1296]; // [rsp+50h] [rbp-510h] BYREF
-
-  v2 = (unsigned __int64)v20;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_5(1248LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "26 32 1 9 <unknown> 48 1 9 <unknown> 64 1 9 <unknown> 80 1 9 <unknown> 96 1 9 <unknown> 112 1 9 "
-                        "<unknown> 128 1 9 <unknown> 144 1 9 <unknown> 160 16 9 <unknown> 192 16 9 <unknown> 224 32 9 <un"
-                        "known> 288 32 9 <unknown> 352 32 9 <unknown> 416 32 9 <unknown> 480 32 9 <unknown> 544 32 9 <unk"
-                        "nown> 608 32 9 <unknown> 672 32 9 <unknown> 736 32 9 <unknown> 800 32 9 <unknown> 864 32 9 <unkn"
-                        "own> 928 32 9 <unknown> 992 32 9 <unknown> 1056 32 9 <unknown> 1120 32 9 <unknown> 1184 32 9 <unknown>";
-  *(_QWORD *)(v2 + 16) = data::ConfigEntity::fromJson;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -234753535;
-  v4[536862722] = -234753535;
-  v4[536862723] = -234753535;
-  v4[536862724] = -234753535;
-  v4[536862725] = -219021312;
-  v4[536862726] = -219021312;
-  v4[536862728] = -218959118;
-  v4[536862730] = -218959118;
-  v4[536862732] = -218959118;
-  v4[536862734] = -218959118;
-  v4[536862736] = -218959118;
-  v4[536862738] = -218959118;
-  v4[536862740] = -218959118;
-  v4[536862742] = -218959118;
-  v4[536862744] = -218959118;
-  v4[536862746] = -218959118;
-  v4[536862748] = -218959118;
-  v4[536862750] = -218959118;
-  v4[536862752] = -218959118;
-  v4[536862754] = -218959118;
-  v4[536862756] = -218959118;
-  v4[536862758] = -202116109;
-  std::allocator<char>::allocator(v2 + 32);
-  std::string::basic_string<std::allocator<char>>(
-    (std::string *const)(v2 + 224),
-    "common",
-    (const std::allocator<char> *)(v2 + 32));
-  common_ptr = jsonValueFind(jval, (const std::string *)(v2 + 224));
-  std::string::~string((void *)(v2 + 224));
-  *(_DWORD *)(((v2 + 224) >> 3) + 0x7FFF8000) = -117901064;
-  std::allocator<char>::~allocator(v2 + 32);
-  *(_BYTE *)(((v2 + 32) >> 3) + 0x7FFF8000) = -8;
-  if ( common_ptr && !data::ConfigEntityCommon::fromJson(&this->common, common_ptr) )
-  {
-    *(_DWORD *)(((v2 + 288) >> 3) + 0x7FFF8000) = 0;
-    if ( *(char *)(((v2 + 288) >> 3) + 0x7FFF8000) < 0
-      || *(_BYTE *)(((v2 + 319) >> 3) + 0x7FFF8000) != 0
-      && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 319) >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store_n(v2 + 288, 32LL);
+    // 查找并解析"common"字段
+    const Json::Value *common_ptr = jsonValueFind(jval, "common");
+    if (common_ptr && !this->common.fromJson(common_ptr)) {
+        LOG_ERROR("fromJson for: common fails!");
+        return false;
     }
-    common::milog::MiLogStream::create(
-      (common::milog::MiLogStream *)(v2 + 288),
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "./src/json_data_auto/ConfigEntity.cpp",
-      "fromJson",
-      1049);
-    common::milog::MiLogStream::operator<<<char [28],(char *[28])0>(
-      (common::milog::MiLogStream *const)(v2 + 288),
-      (const char (*)[28])"fromJson for: common fails!");
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 288));
-    v5 = 0;
-  }
-  else
-  {
-    *(_DWORD *)(((v2 + 352) >> 3) + 0x7FFF8000) = 0;
-    *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = 1;
-    std::allocator<char>::allocator(v2 + 48);
-    std::string::basic_string<std::allocator<char>>(
-      (std::string *const)(v2 + 352),
-      "headControl",
-      (const std::allocator<char> *)(v2 + 48));
-    head_control_ptr = jsonValueFind(jval, (const std::string *)(v2 + 352));
-    std::string::~string((void *)(v2 + 352));
-    *(_DWORD *)(((v2 + 352) >> 3) + 0x7FFF8000) = -117901064;
-    std::allocator<char>::~allocator(v2 + 48);
-    *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = -8;
-    if ( head_control_ptr )
-    {
-      *(_WORD *)(((v2 + 192) >> 3) + 0x7FFF8000) = 0;
-      if ( *(_WORD *)(((v2 + 192) >> 3) + 0x7FFF8000) )
-        __asan_report_store16();
-      data::ConfigHeadControl::parseFromJson((const Json::Value *)(v2 + 192));
-      v6 = std::shared_ptr<data::ConfigHeadControl>::operator=(
-             &this->head_control,
-             (std::shared_ptr<data::ConfigHeadControl> *)(v2 + 192));
-      v7 = std::operator==<data::ConfigHeadControl>(v6, 0LL);
-      std::shared_ptr<data::ConfigHeadControl>::~shared_ptr((std::shared_ptr<data::ConfigHeadControl> *const)(v2 + 192));
-      *(_WORD *)(((v2 + 192) >> 3) + 0x7FFF8000) = -1800;
-      if ( v7 )
-      {
-        *(_DWORD *)(((v2 + 416) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 416) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 447) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 447) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 416, 32LL);
+    
+    // 查找并解析"headControl"字段
+    const Json::Value *head_control_ptr = jsonValueFind(jval, "headControl");
+    if (head_control_ptr) {
+        std::shared_ptr<data::ConfigHeadControl> temp = data::ConfigHeadControl::parseFromJson(head_control_ptr);
+        if (!temp) {
+            LOG_WARNING("fromJson for: headControl fails!");
+        } else {
+            this->head_control = temp;
         }
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 416),
-          &common::milog::MiLogDefault::default_log_obj_,
-          1u,
-          "./src/json_data_auto/ConfigEntity.cpp",
-          "fromJson",
-          1063);
-        common::milog::MiLogStream::operator<<<char [33],(char *[33])0>(
-          (common::milog::MiLogStream *const)(v2 + 416),
-          (const char (*)[33])"fromJson for: headControl fails!");
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 416));
-        *(_DWORD *)(((v2 + 416) >> 3) + 0x7FFF8000) = -117901064;
-      }
+    } else {
+        // 字段不存在，创建默认的ConfigHeadControl对象
+        this->head_control = std::make_shared<data::ConfigHeadControl>();
     }
-    else
-    {
-      *(_WORD *)(((v2 + 160) >> 3) + 0x7FFF8000) = 0;
-      if ( *(_WORD *)(((v2 + 160) >> 3) + 0x7FFF8000) )
-        __asan_report_store16();
-      common::tools::perf::make_shared<data::ConfigHeadControl>();
-      std::shared_ptr<data::ConfigHeadControl>::operator=(
-        &this->head_control,
-        (std::shared_ptr<data::ConfigHeadControl> *)(v2 + 160));
-      std::shared_ptr<data::ConfigHeadControl>::~shared_ptr((std::shared_ptr<data::ConfigHeadControl> *const)(v2 + 160));
-      *(_WORD *)(((v2 + 160) >> 3) + 0x7FFF8000) = -1800;
+    
+    // 查找并解析"specialPoint"字段
+    const Json::Value *special_point_ptr = jsonValueFind(jval, "specialPoint");
+    if (special_point_ptr && !this->special_point.fromJson(special_point_ptr)) {
+        LOG_ERROR("fromJson for: specialPoint fails!");
+        return false;
     }
-    *(_DWORD *)(((v2 + 480) >> 3) + 0x7FFF8000) = 0;
-    *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = 1;
-    std::allocator<char>::allocator(v2 + 64);
-    std::string::basic_string<std::allocator<char>>(
-      (std::string *const)(v2 + 480),
-      "specialPoint",
-      (const std::allocator<char> *)(v2 + 64));
-    special_point_ptr = jsonValueFind(jval, (const std::string *)(v2 + 480));
-    std::string::~string((void *)(v2 + 480));
-    *(_DWORD *)(((v2 + 480) >> 3) + 0x7FFF8000) = -117901064;
-    std::allocator<char>::~allocator(v2 + 64);
-    *(_BYTE *)(((v2 + 64) >> 3) + 0x7FFF8000) = -8;
-    if ( special_point_ptr && !data::ConfigEntityPoint::fromJson(&this->special_point, special_point_ptr) )
-    {
-      *(_DWORD *)(((v2 + 544) >> 3) + 0x7FFF8000) = 0;
-      if ( *(char *)(((v2 + 544) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 575) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 575) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 544, 32LL);
-      }
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v2 + 544),
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/json_data_auto/ConfigEntity.cpp",
-        "fromJson",
-        1074);
-      common::milog::MiLogStream::operator<<<char [34],(char *[34])0>(
-        (common::milog::MiLogStream *const)(v2 + 544),
-        (const char (*)[34])"fromJson for: specialPoint fails!");
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 544));
-      v5 = 0;
+    
+    // 查找并解析"customAttackShape"字段
+    const Json::Value *custom_attack_shape_ptr = jsonValueFind(jval, "customAttackShape");
+    if (custom_attack_shape_ptr && !this->custom_attack_shape.fromJson(custom_attack_shape_ptr)) {
+        LOG_ERROR("fromJson for: customAttackShape fails!");
+        return false;
     }
-    else
-    {
-      *(_DWORD *)(((v2 + 608) >> 3) + 0x7FFF8000) = 0;
-      *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) = 1;
-      std::allocator<char>::allocator(v2 + 80);
-      std::string::basic_string<std::allocator<char>>(
-        (std::string *const)(v2 + 608),
-        "customAttackShape",
-        (const std::allocator<char> *)(v2 + 80));
-      custom_attack_shape_ptr = jsonValueFind(jval, (const std::string *)(v2 + 608));
-      std::string::~string((void *)(v2 + 608));
-      *(_DWORD *)(((v2 + 608) >> 3) + 0x7FFF8000) = -117901064;
-      std::allocator<char>::~allocator(v2 + 80);
-      *(_BYTE *)(((v2 + 80) >> 3) + 0x7FFF8000) = -8;
-      if ( custom_attack_shape_ptr
-        && !data::ConfigCustomAttackShape::fromJson(&this->custom_attack_shape, custom_attack_shape_ptr) )
-      {
-        *(_DWORD *)(((v2 + 672) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 672) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 703) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 703) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 672, 32LL);
-        }
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 672),
-          &common::milog::MiLogDefault::default_log_obj_,
-          3u,
-          "./src/json_data_auto/ConfigEntity.cpp",
-          "fromJson",
-          1086);
-        common::milog::MiLogStream::operator<<<char [39],(char *[39])0>(
-          (common::milog::MiLogStream *const)(v2 + 672),
-          (const char (*)[39])"fromJson for: customAttackShape fails!");
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 672));
-        v5 = 0;
-      }
-      else
-      {
-        *(_DWORD *)(((v2 + 736) >> 3) + 0x7FFF8000) = 0;
-        *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = 1;
-        std::allocator<char>::allocator(v2 + 96);
-        std::string::basic_string<std::allocator<char>>(
-          (std::string *const)(v2 + 736),
-          "model",
-          (const std::allocator<char> *)(v2 + 96));
-        model_ptr = jsonValueFind(jval, (const std::string *)(v2 + 736));
-        std::string::~string((void *)(v2 + 736));
-        *(_DWORD *)(((v2 + 736) >> 3) + 0x7FFF8000) = -117901064;
-        std::allocator<char>::~allocator(v2 + 96);
-        *(_BYTE *)(((v2 + 96) >> 3) + 0x7FFF8000) = -8;
-        if ( model_ptr && !data::ConfigModel::fromJson(&this->model, model_ptr) )
-        {
-          *(_DWORD *)(((v2 + 800) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 800) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 831) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 831) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 800, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 800),
-            &common::milog::MiLogDefault::default_log_obj_,
-            3u,
-            "./src/json_data_auto/ConfigEntity.cpp",
-            "fromJson",
-            1098);
-          common::milog::MiLogStream::operator<<<char [27],(char *[27])0>(
-            (common::milog::MiLogStream *const)(v2 + 800),
-            (const char (*)[27])"fromJson for: model fails!");
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 800));
-          v5 = 0;
-        }
-        else
-        {
-          *(_DWORD *)(((v2 + 864) >> 3) + 0x7FFF8000) = 0;
-          *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) = 1;
-          std::allocator<char>::allocator(v2 + 112);
-          std::string::basic_string<std::allocator<char>>(
-            (std::string *const)(v2 + 864),
-            "dither",
-            (const std::allocator<char> *)(v2 + 112));
-          dither_ptr = jsonValueFind(jval, (const std::string *)(v2 + 864));
-          std::string::~string((void *)(v2 + 864));
-          *(_DWORD *)(((v2 + 864) >> 3) + 0x7FFF8000) = -117901064;
-          std::allocator<char>::~allocator(v2 + 112);
-          *(_BYTE *)(((v2 + 112) >> 3) + 0x7FFF8000) = -8;
-          if ( dither_ptr && !data::ConfigDither::fromJson(&this->dither, dither_ptr) )
-          {
-            *(_DWORD *)(((v2 + 928) >> 3) + 0x7FFF8000) = 0;
-            if ( *(char *)(((v2 + 928) >> 3) + 0x7FFF8000) < 0
-              || *(_BYTE *)(((v2 + 959) >> 3) + 0x7FFF8000) != 0
-              && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 959) >> 3) + 0x7FFF8000) )
-            {
-              __asan_report_store_n(v2 + 928, 32LL);
-            }
-            common::milog::MiLogStream::create(
-              (common::milog::MiLogStream *)(v2 + 928),
-              &common::milog::MiLogDefault::default_log_obj_,
-              3u,
-              "./src/json_data_auto/ConfigEntity.cpp",
-              "fromJson",
-              1110);
-            common::milog::MiLogStream::operator<<<char [28],(char *[28])0>(
-              (common::milog::MiLogStream *const)(v2 + 928),
-              (const char (*)[28])"fromJson for: dither fails!");
-            common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 928));
-            v5 = 0;
-          }
-          else
-          {
-            *(_DWORD *)(((v2 + 992) >> 3) + 0x7FFF8000) = 0;
-            *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) = 1;
-            std::allocator<char>::allocator(v2 + 128);
-            std::string::basic_string<std::allocator<char>>(
-              (std::string *const)(v2 + 992),
-              "globalValue",
-              (const std::allocator<char> *)(v2 + 128));
-            global_value_ptr = jsonValueFind(jval, (const std::string *)(v2 + 992));
-            std::string::~string((void *)(v2 + 992));
-            *(_DWORD *)(((v2 + 992) >> 3) + 0x7FFF8000) = -117901064;
-            std::allocator<char>::~allocator(v2 + 128);
-            *(_BYTE *)(((v2 + 128) >> 3) + 0x7FFF8000) = -8;
-            if ( global_value_ptr && !data::ConfigGlobalValue::fromJson(&this->global_value, global_value_ptr) )
-            {
-              *(_DWORD *)(((v2 + 1056) >> 3) + 0x7FFF8000) = 0;
-              if ( *(char *)(((v2 + 1056) >> 3) + 0x7FFF8000) < 0
-                || *(_BYTE *)(((v2 + 1087) >> 3) + 0x7FFF8000) != 0
-                && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 1087) >> 3) + 0x7FFF8000) )
-              {
-                __asan_report_store_n(v2 + 1056, 32LL);
-              }
-              common::milog::MiLogStream::create(
-                (common::milog::MiLogStream *)(v2 + 1056),
-                &common::milog::MiLogDefault::default_log_obj_,
-                3u,
-                "./src/json_data_auto/ConfigEntity.cpp",
-                "fromJson",
-                1122);
-              common::milog::MiLogStream::operator<<<char [33],(char *[33])0>(
-                (common::milog::MiLogStream *const)(v2 + 1056),
-                (const char (*)[33])"fromJson for: globalValue fails!");
-              common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1056));
-              v5 = 0;
-            }
-            else
-            {
-              *(_DWORD *)(((v2 + 1120) >> 3) + 0x7FFF8000) = 0;
-              *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) = 1;
-              std::allocator<char>::allocator(v2 + 144);
-              std::string::basic_string<std::allocator<char>>(
-                (std::string *const)(v2 + 1120),
-                "entityTags",
-                (const std::allocator<char> *)(v2 + 144));
-              v8 = (const Json::Value *)(v2 + 1120);
-              entity_tags_ptr = jsonValueFind(jval, (const std::string *)(v2 + 1120));
-              std::string::~string((void *)(v2 + 1120));
-              *(_DWORD *)(((v2 + 1120) >> 3) + 0x7FFF8000) = -117901064;
-              std::allocator<char>::~allocator(v2 + 144);
-              *(_BYTE *)(((v2 + 144) >> 3) + 0x7FFF8000) = -8;
-              if ( entity_tags_ptr
-                && (v8 = entity_tags_ptr, !data::ConfigEntityTags::fromJson(&this->entity_tags, entity_tags_ptr)) )
-              {
-                *(_DWORD *)(((v2 + 1184) >> 3) + 0x7FFF8000) = 0;
-                if ( *(char *)(((v2 + 1184) >> 3) + 0x7FFF8000) < 0
-                  || *(_BYTE *)(((v2 + 1215) >> 3) + 0x7FFF8000) != 0
-                  && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 1215) >> 3) + 0x7FFF8000) )
-                {
-                  __asan_report_store_n(v2 + 1184, 32LL);
-                }
-                common::milog::MiLogStream::create(
-                  (common::milog::MiLogStream *)(v2 + 1184),
-                  &common::milog::MiLogDefault::default_log_obj_,
-                  3u,
-                  "./src/json_data_auto/ConfigEntity.cpp",
-                  "fromJson",
-                  1134);
-                common::milog::MiLogStream::operator<<<char [32],(char *[32])0>(
-                  (common::milog::MiLogStream *const)(v2 + 1184),
-                  (const char (*)[32])"fromJson for: entityTags fails!");
-                common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 1184));
-                v5 = 0;
-              }
-              else
-              {
-                if ( *(char *)(((unsigned __int64)&this->is_json_loaded >> 3) + 0x7FFF8000) < 0 )
-                  __asan_report_store1(&this->is_json_loaded, v8, &this->is_json_loaded);
-                this->is_json_loaded = 1;
-                v5 = 1;
-              }
-            }
-          }
-        }
-      }
+    
+    // 查找并解析"model"字段
+    const Json::Value *model_ptr = jsonValueFind(jval, "model");
+    if (model_ptr && !this->model.fromJson(model_ptr)) {
+        LOG_ERROR("fromJson for: model fails!");
+        return false;
     }
-  }
-  v9 = v5;
-  if ( v20 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8018) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8020) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8028) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8030) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8038) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8040) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8048) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8050) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8058) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8060) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8068) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8070) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8078) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8080) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8088) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8090) = 0;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8098) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    __asan_stack_free_5(v2, 1248LL, v20);
-  }
-  return v9;
-};
+    
+    // 查找并解析"dither"字段
+    const Json::Value *dither_ptr = jsonValueFind(jval, "dither");
+    if (dither_ptr && !this->dither.fromJson(dither_ptr)) {
+        LOG_ERROR("fromJson for: dither fails!");
+        return false;
+    }
+    
+    // 查找并解析"globalValue"字段
+    const Json::Value *global_value_ptr = jsonValueFind(jval, "globalValue");
+    if (global_value_ptr && !this->global_value.fromJson(global_value_ptr)) {
+        LOG_ERROR("fromJson for: globalValue fails!");
+        return false;
+    }
+    
+    // 查找并解析"entityTags"字段
+    const Json::Value *entity_tags_ptr = jsonValueFind(jval, "entityTags");
+    if (entity_tags_ptr && !this->entity_tags.fromJson(entity_tags_ptr)) {
+        LOG_ERROR("fromJson for: entityTags fails!");
+        return false;
+    }
+    
+    // 设置JSON已加载标志
+    this->is_json_loaded = true;
+    return true;
+}
 
 // Line 1141: range 000000000E60A936-000000000E60B291
-data::ConfigEntityPtr __cdecl data::ConfigEntity::parseFromJson(const Json::Value *jval)
+data::ConfigEntityPtr data::ConfigEntity::parseFromJson(const Json::Value *jval)
 {
-  const Json::Value *v1; // rsi
-  unsigned __int64 v2; // r13
-  __int64 v3; // rax
-  _DWORD *v4; // r12
-  data::ConfigEntityPtr result; // rax
-  common::milog::MiLogStream *v6; // rax
-  unsigned __int64 v7; // rax
-  unsigned __int64 v8; // rdx
-  common::milog::MiLogStream *v9; // rax
-  __int64 v10; // rax
-  char v11; // dl
-  _BOOL8 v12; // rdx
-  const Json::Value *jval_ptr; // [rsp+18h] [rbp-208h]
-  char v14[512]; // [rsp+20h] [rbp-200h] BYREF
-
-  v2 = (unsigned __int64)v14;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_3(480LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "8 48 1 9 <unknown> 64 16 8 ptr:1154 96 32 9 <unknown> 160 32 9 <unknown> 224 32 14 type_name:114"
-                        "8 288 32 9 <unknown> 352 32 9 <unknown> 416 32 9 <unknown>";
-  *(_QWORD *)(v2 + 16) = data::ConfigEntity::parseFromJson;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -234753551;
-  v4[536862722] = -219021312;
-  v4[536862724] = -218959118;
-  v4[536862726] = -218959118;
-  v4[536862728] = -218959118;
-  v4[536862730] = -218959118;
-  v4[536862732] = -218959118;
-  v4[536862734] = -202116109;
-  std::allocator<char>::allocator(v2 + 48);
-  std::string::basic_string<std::allocator<char>>(
-    (std::string *const)(v2 + 96),
-    "$type",
-    (const std::allocator<char> *)(v2 + 48));
-  jval_ptr = jsonValueFind(v1, (const std::string *)(v2 + 96));
-  std::string::~string((void *)(v2 + 96));
-  *(_DWORD *)(((v2 + 96) >> 3) + 0x7FFF8000) = -117901064;
-  std::allocator<char>::~allocator(v2 + 48);
-  *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = -8;
-  if ( jval_ptr )
-  {
-    *(_DWORD *)(((v2 + 224) >> 3) + 0x7FFF8000) = 0;
-    std::string::basic_string(v2 + 224);
-    if ( !fromJson<std::string>(jval_ptr, (std::string *)(v2 + 224)) )
-    {
-      *(_DWORD *)(((v2 + 288) >> 3) + 0x7FFF8000) = 0;
-      if ( *(char *)(((v2 + 288) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 319) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 - 32 + 95) & 7) >= *(_BYTE *)(((v2 + 319) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 288, 32LL);
-      }
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v2 + 288),
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/json_data_auto/ConfigEntity.cpp",
-        "parseFromJson",
-        1151);
-      common::milog::MiLogStream::operator<<<char [40],(char *[40])0>(
-        (common::milog::MiLogStream *const)(v2 + 288),
-        (const char (*)[40])"fromJson for: ConfigEntity $type fails!");
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 288));
-      *(_DWORD *)(((v2 + 288) >> 3) + 0x7FFF8000) = -117901064;
-      std::shared_ptr<data::ConfigEntity>::shared_ptr((std::shared_ptr<data::ConfigEntity> *const)jval, 0LL);
-    }
-    else
-    {
-      *(_WORD *)(((v2 + 64) >> 3) + 0x7FFF8000) = 0;
-      if ( *(_WORD *)(((v2 + 64) >> 3) + 0x7FFF8000) )
-        __asan_report_store16();
-      data::createConfigEntity((const std::string *)(v2 + 64));
-      if ( std::operator==<data::ConfigEntity>((const std::shared_ptr<data::ConfigEntity> *)(v2 + 64), 0LL) )
-      {
-        *(_DWORD *)(((v2 + 352) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 352) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 383) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 + 127) & 7) >= *(_BYTE *)(((v2 + 383) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 352, 32LL);
+    // 查找JSON中的"$type"字段
+    const Json::Value *type_field = jsonValueFind(jval, "$type");
+    
+    if (type_field) {
+        std::string type_name;
+        
+        // 解析类型名称
+        if (!fromJson<std::string>(type_field, &type_name)) {
+            LOG_ERROR("fromJson for: ConfigEntity $type fails!");
+            return nullptr;
         }
-        common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 352),
-          &common::milog::MiLogDefault::default_log_obj_,
-          3u,
-          "./src/json_data_auto/ConfigEntity.cpp",
-          "parseFromJson",
-          1157);
-        v6 = common::milog::MiLogStream::operator<<<char [38],(char *[38])0>(
-               (common::milog::MiLogStream *const)(v2 + 352),
-               (const char (*)[38])"create ConfigEntity fails, type_name:");
-        common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v6, (const std::string *)(v2 + 224));
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 352));
-        *(_DWORD *)(((v2 + 352) >> 3) + 0x7FFF8000) = -117901064;
-        std::shared_ptr<data::ConfigEntity>::shared_ptr((std::shared_ptr<data::ConfigEntity> *const)jval, 0LL);
-      }
-      else
-      {
-        v7 = (unsigned __int64)std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-        if ( *(_BYTE *)((v7 >> 3) + 0x7FFF8000) )
-          v7 = __asan_report_load8(v7);
-        v8 = *(_QWORD *)v7 + 48LL;
-        if ( *(_BYTE *)((v8 >> 3) + 0x7FFF8000) )
-          v7 = __asan_report_load8(*(_QWORD *)v7 + 48LL);
-        if ( (*(unsigned __int8 (__fastcall **)(unsigned __int64))v8)(v7) != 1 )
-        {
-          *(_DWORD *)(((v2 + 416) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 416) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 447) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 447) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 416, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 416),
-            &common::milog::MiLogDefault::default_log_obj_,
-            3u,
-            "./src/json_data_auto/ConfigEntity.cpp",
-            "parseFromJson",
-            1162);
-          v9 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                 (common::milog::MiLogStream *const)(v2 + 416),
-                 (const std::string *)(v2 + 224));
-          common::milog::MiLogStream::operator<<<char [17],(char *[17])0>(v9, (const char (*)[17])" fromJson fails!");
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 416));
-          *(_DWORD *)(((v2 + 416) >> 3) + 0x7FFF8000) = -117901064;
-          std::shared_ptr<data::ConfigEntity>::shared_ptr((std::shared_ptr<data::ConfigEntity> *const)jval, 0LL);
+        
+        // 使用工厂函数创建ConfigEntity对象
+        std::shared_ptr<data::ConfigEntity> ptr = data::createConfigEntity(type_name);
+        
+        if (!ptr) {
+            LOG_ERROR("create ConfigEntity fails, type_name: %s", type_name.c_str());
+            return nullptr;
         }
-        else
-        {
-          v10 = (__int64)std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 64));
-          v11 = *(_BYTE *)(((unsigned __int64)(v10 + 624) >> 3) + 0x7FFF8000);
-          LOBYTE(v1) = v11 != 0;
-          v12 = v11 < 0;
-          if ( v12 )
-            v10 = __asan_report_store1(v10 + 624, v1, v12);
-          *(_BYTE *)(v10 + 624) = 1;
-          std::shared_ptr<data::ConfigEntity>::shared_ptr(
-            (std::shared_ptr<data::ConfigEntity> *const)jval,
-            (std::shared_ptr<data::ConfigEntity> *)(v2 + 64));
+        
+        // 调用对象的fromJson方法初始化对象
+        if (!ptr->fromJson(jval)) {
+            LOG_ERROR("%s fromJson fails!", type_name.c_str());
+            return nullptr;
         }
-      }
-      std::shared_ptr<data::ConfigEntity>::~shared_ptr((std::shared_ptr<data::ConfigEntity> *const)(v2 + 64));
+        
+        // 设置对象的is_json_loaded标志位为true
+        ptr->is_json_loaded = true;
+        
+        return ptr;
+    } else {
+        LOG_ERROR("jsonValueFind for: ConfigEntity $type fails!");
+        return nullptr;
     }
-    std::string::~string((void *)(v2 + 224));
-  }
-  else
-  {
-    *(_DWORD *)(((v2 + 160) >> 3) + 0x7FFF8000) = 0;
-    if ( *(char *)(((v2 + 160) >> 3) + 0x7FFF8000) < 0
-      || *(_BYTE *)(((v2 + 191) >> 3) + 0x7FFF8000) != 0
-      && (char)((v2 - 96 + 31) & 7) >= *(_BYTE *)(((v2 + 191) >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store_n(v2 + 160, 32LL);
-    }
-    common::milog::MiLogStream::create(
-      (common::milog::MiLogStream *)(v2 + 160),
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "./src/json_data_auto/ConfigEntity.cpp",
-      "parseFromJson",
-      1145);
-    common::milog::MiLogStream::operator<<<char [45],(char *[45])0>(
-      (common::milog::MiLogStream *const)(v2 + 160),
-      (const char (*)[45])"jsonValueFind for: ConfigEntity $type fails!");
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 160));
-    *(_DWORD *)(((v2 + 160) >> 3) + 0x7FFF8000) = -117901064;
-    std::shared_ptr<data::ConfigEntity>::shared_ptr((std::shared_ptr<data::ConfigEntity> *const)jval, 0LL);
-  }
-  if ( v14 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8018) = 0;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8020) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8028) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8030) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8038) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    result._M_refcount._M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8038) = -168430091;
-  }
-  result._M_ptr = (std::__shared_ptr<data::ConfigEntity,(__gnu_cxx::_Lock_policy)2>::element_type *)jval;
-  return result;
-};
+}
 
 // Line 1170: range 000000000E60B292-000000000E60B523
 int32_t __cdecl data::ConfigEntity::getHashValue(const data::ConfigEntity *const this)
@@ -50760,246 +50199,105 @@ LABEL_49:
 };
 
 // Line 10064: range 000000000E687AAE-000000000E6885FA
-data::ConfigMonsterPtr __cdecl data::ConfigMonster::parseFromJson(const Json::Value *jval)
+data::ConfigMonsterPtr data::ConfigMonster::parseFromJson(const Json::Value *jval)
 {
-  const Json::Value *v1; // rsi
-  unsigned __int64 v2; // r13
-  __int64 v3; // rax
-  _DWORD *v4; // r12
-  data::ConfigMonsterPtr result; // rax
-  common::milog::MiLogStream *v6; // rax
-  unsigned __int64 v7; // rax
-  unsigned __int64 v8; // rdx
-  common::milog::MiLogStream *v9; // rax
-  __int64 v10; // rax
-  char v11; // dl
-  _BOOL8 v12; // rdx
-  const Json::Value *jval_ptr; // [rsp+18h] [rbp-268h]
-  char v14[608]; // [rsp+20h] [rbp-260h] BYREF
-
-  v2 = (unsigned __int64)v14;
-  if ( _asan_option_detect_stack_use_after_return )
-  {
-    v3 = __asan_stack_malloc_4(576LL);
-    if ( v3 )
-      v2 = v3;
-  }
-  *(_QWORD *)v2 = 1102416563LL;
-  *(_QWORD *)(v2 + 8) = "10 48 1 9 <unknown> 64 16 14 base_ptr:10077 96 16 9 ptr:10083 128 32 9 <unknown> 192 32 9 <unkno"
-                        "wn> 256 32 15 type_name:10071 320 32 9 <unknown> 384 32 9 <unknown> 448 32 9 <unknown> 512 32 9 <unknown>";
-  *(_QWORD *)(v2 + 16) = data::ConfigMonster::parseFromJson;
-  v4 = (_DWORD *)(v2 >> 3);
-  v4[536862720] = -235802127;
-  v4[536862721] = -234753551;
-  v4[536862722] = -219021312;
-  v4[536862723] = -219021312;
-  v4[536862725] = -218959118;
-  v4[536862727] = -218959118;
-  v4[536862729] = -218959118;
-  v4[536862731] = -218959118;
-  v4[536862733] = -218959118;
-  v4[536862735] = -218959118;
-  v4[536862737] = -202116109;
-  std::allocator<char>::allocator(v2 + 48);
-  std::string::basic_string<std::allocator<char>>(
-    (std::string *const)(v2 + 128),
-    "$type",
-    (const std::allocator<char> *)(v2 + 48));
-  jval_ptr = jsonValueFind(v1, (const std::string *)(v2 + 128));
-  std::string::~string((void *)(v2 + 128));
-  *(_DWORD *)(((v2 + 128) >> 3) + 0x7FFF8000) = -117901064;
-  std::allocator<char>::~allocator(v2 + 48);
-  *(_BYTE *)(((v2 + 48) >> 3) + 0x7FFF8000) = -8;
-  if ( jval_ptr )
-  {
-    *(_DWORD *)(((v2 + 256) >> 3) + 0x7FFF8000) = 0;
-    std::string::basic_string(v2 + 256);
-    if ( !fromJson<std::string>(jval_ptr, (std::string *)(v2 + 256)) )
-    {
-      *(_DWORD *)(((v2 + 320) >> 3) + 0x7FFF8000) = 0;
-      if ( *(char *)(((v2 + 320) >> 3) + 0x7FFF8000) < 0
-        || *(_BYTE *)(((v2 + 351) >> 3) + 0x7FFF8000) != 0
-        && (char)((v2 + 95) & 7) >= *(_BYTE *)(((v2 + 351) >> 3) + 0x7FFF8000) )
-      {
-        __asan_report_store_n(v2 + 320, 32LL);
-      }
-      common::milog::MiLogStream::create(
-        (common::milog::MiLogStream *)(v2 + 320),
-        &common::milog::MiLogDefault::default_log_obj_,
-        3u,
-        "./src/json_data_auto/ConfigEntity.cpp",
-        "parseFromJson",
-        10074);
-      common::milog::MiLogStream::operator<<<char [41],(char *[41])0>(
-        (common::milog::MiLogStream *const)(v2 + 320),
-        (const char (*)[41])"fromJson for: ConfigMonster $type fails!");
-      common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 320));
-      *(_DWORD *)(((v2 + 320) >> 3) + 0x7FFF8000) = -117901064;
-      std::shared_ptr<data::ConfigMonster>::shared_ptr((std::shared_ptr<data::ConfigMonster> *const)jval, 0LL);
+    // 局部变量声明
+    const Json::Value *type_field; // rsi
+    std::shared_ptr<data::ConfigEntity> base_ptr; // rsp+64
+    std::shared_ptr<data::ConfigMonster> ptr; // rsp+96
+    std::string type_name; // rsp+256
+    char stack_buffer[608]; // [rsp+20h] [rbp-260h]
+    
+    // ASAN栈溢出检测
+    if (_asan_option_detect_stack_use_after_return) {
+        // 使用asan分配栈内存
     }
-    else
-    {
-      *(_WORD *)(((v2 + 64) >> 3) + 0x7FFF8000) = 0;
-      if ( *(_WORD *)(((v2 + 64) >> 3) + 0x7FFF8000) )
-        __asan_report_store16();
-      data::createConfigEntity((const std::string *)(v2 + 64));
-      if ( std::operator==<data::ConfigEntity>((const std::shared_ptr<data::ConfigEntity> *)(v2 + 64), 0LL) )
-      {
-        *(_DWORD *)(((v2 + 384) >> 3) + 0x7FFF8000) = 0;
-        if ( *(char *)(((v2 + 384) >> 3) + 0x7FFF8000) < 0
-          || *(_BYTE *)(((v2 + 415) >> 3) + 0x7FFF8000) != 0
-          && (char)((v2 - 97) & 7) >= *(_BYTE *)(((v2 + 415) >> 3) + 0x7FFF8000) )
-        {
-          __asan_report_store_n(v2 + 384, 32LL);
+    
+    // 初始化栈帧
+    // ... 栈帧初始化代码（编译器生成）
+    
+    // 在JSON中查找"$type"字段
+    type_field = jsonValueFind(jval, "$type");
+    
+    if (type_field) {
+        // 解析类型名称
+        if (!fromJson<std::string>(type_field, &type_name)) {
+            // 日志：解析类型名称失败
+            common::milog::MiLogStream::create(
+                ...,
+                "./src/json_data_auto/ConfigEntity.cpp",
+                "parseFromJson",
+                10074);
+            common::milog::MiLogStream::operator<<<char [41]>(..., "fromJson for: ConfigMonster $type fails!");
+            common::milog::MiLogStream::~MiLogStream(...);
+            return nullptr;
         }
+        
+        // 创建ConfigEntity基类对象
+        base_ptr = data::createConfigEntity(type_name);
+        
+        if (!base_ptr) {
+            // 日志：创建ConfigEntity失败
+            common::milog::MiLogStream::create(
+                ...,
+                "./src/json_data_auto/ConfigEntity.cpp",
+                "parseFromJson",
+                10080);
+            common::milog::MiLogStream::operator<<<char [38]>(..., "create ConfigEntity fails, type_name:");
+            common::milog::MiLogStream::operator<<<std::string>(..., type_name);
+            common::milog::MiLogStream::~MiLogStream(...);
+            return nullptr;
+        }
+        
+        // 动态转换为ConfigMonster
+        ptr = std::dynamic_pointer_cast<data::ConfigMonster, data::ConfigEntity>(base_ptr);
+        
+        if (!ptr) {
+            // 日志：转换为ConfigMonster失败
+            common::milog::MiLogStream::create(
+                ...,
+                "./src/json_data_auto/ConfigEntity.cpp",
+                "parseFromJson",
+                10086);
+            common::milog::MiLogStream::operator<<<char [32]>(..., "cast to ConfigMonsterPtr fails!");
+            common::milog::MiLogStream::~MiLogStream(...);
+            return nullptr;
+        }
+        
+        // 调用ConfigMonster的fromJson方法（虚函数，偏移+48）
+        if (!ptr->fromJson(jval)) {
+            // 日志：fromJson解析失败
+            common::milog::MiLogStream::create(
+                ...,
+                "./src/json_data_auto/ConfigEntity.cpp",
+                "parseFromJson",
+                10091);
+            common::milog::MiLogStream::operator<<<std::string>(..., type_name);
+            common::milog::MiLogStream::operator<<<char [17]>(..., " fromJson fails!");
+            common::milog::MiLogStream::~MiLogStream(...);
+            return nullptr;
+        }
+        
+        // 设置某个标志位（偏移624处设为1）
+        // 这可能是一个"已初始化"或"已从JSON解析"的标志
+        ptr->some_flag = 1;  // 反汇编中为*(_BYTE *)(v10 + 624) = 1;
+        
+        return ptr;
+    } else {
+        // 日志：找不到$type字段
         common::milog::MiLogStream::create(
-          (common::milog::MiLogStream *)(v2 + 384),
-          &common::milog::MiLogDefault::default_log_obj_,
-          3u,
-          "./src/json_data_auto/ConfigEntity.cpp",
-          "parseFromJson",
-          10080);
-        v6 = common::milog::MiLogStream::operator<<<char [38],(char *[38])0>(
-               (common::milog::MiLogStream *const)(v2 + 384),
-               (const char (*)[38])"create ConfigEntity fails, type_name:");
-        common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(v6, (const std::string *)(v2 + 256));
-        common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 384));
-        *(_DWORD *)(((v2 + 384) >> 3) + 0x7FFF8000) = -117901064;
-        std::shared_ptr<data::ConfigMonster>::shared_ptr((std::shared_ptr<data::ConfigMonster> *const)jval, 0LL);
-      }
-      else
-      {
-        *(_WORD *)(((v2 + 96) >> 3) + 0x7FFF8000) = 0;
-        if ( *(_WORD *)(((v2 + 96) >> 3) + 0x7FFF8000) )
-          __asan_report_store16();
-        std::dynamic_pointer_cast<data::ConfigMonster,data::ConfigEntity>((const std::shared_ptr<data::ConfigEntity> *)(v2 + 96));
-        if ( std::operator==<data::ConfigMonster>((const std::shared_ptr<data::ConfigMonster> *)(v2 + 96), 0LL) )
-        {
-          *(_DWORD *)(((v2 + 448) >> 3) + 0x7FFF8000) = 0;
-          if ( *(char *)(((v2 + 448) >> 3) + 0x7FFF8000) < 0
-            || *(_BYTE *)(((v2 + 479) >> 3) + 0x7FFF8000) != 0
-            && (char)((v2 - 33) & 7) >= *(_BYTE *)(((v2 + 479) >> 3) + 0x7FFF8000) )
-          {
-            __asan_report_store_n(v2 + 448, 32LL);
-          }
-          common::milog::MiLogStream::create(
-            (common::milog::MiLogStream *)(v2 + 448),
-            &common::milog::MiLogDefault::default_log_obj_,
-            3u,
+            ...,
             "./src/json_data_auto/ConfigEntity.cpp",
             "parseFromJson",
-            10086);
-          common::milog::MiLogStream::operator<<<char [32],(char *[32])0>(
-            (common::milog::MiLogStream *const)(v2 + 448),
-            (const char (*)[32])"cast to ConfigMonsterPtr fails!");
-          common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 448));
-          *(_DWORD *)(((v2 + 448) >> 3) + 0x7FFF8000) = -117901064;
-          std::shared_ptr<data::ConfigMonster>::shared_ptr((std::shared_ptr<data::ConfigMonster> *const)jval, 0LL);
-        }
-        else
-        {
-          v7 = (unsigned __int64)std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 96));
-          if ( *(_BYTE *)((v7 >> 3) + 0x7FFF8000) )
-            v7 = __asan_report_load8(v7);
-          v8 = *(_QWORD *)v7 + 48LL;
-          if ( *(_BYTE *)((v8 >> 3) + 0x7FFF8000) )
-            v7 = __asan_report_load8(*(_QWORD *)v7 + 48LL);
-          if ( (*(unsigned __int8 (__fastcall **)(unsigned __int64))v8)(v7) != 1 )
-          {
-            *(_DWORD *)(((v2 + 512) >> 3) + 0x7FFF8000) = 0;
-            if ( *(char *)(((v2 + 512) >> 3) + 0x7FFF8000) < 0
-              || *(_BYTE *)(((v2 + 543) >> 3) + 0x7FFF8000) != 0
-              && (char)((v2 + 31) & 7) >= *(_BYTE *)(((v2 + 543) >> 3) + 0x7FFF8000) )
-            {
-              __asan_report_store_n(v2 + 512, 32LL);
-            }
-            common::milog::MiLogStream::create(
-              (common::milog::MiLogStream *)(v2 + 512),
-              &common::milog::MiLogDefault::default_log_obj_,
-              3u,
-              "./src/json_data_auto/ConfigEntity.cpp",
-              "parseFromJson",
-              10091);
-            v9 = common::milog::MiLogStream::operator<<<std::string,(std::string*)0>(
-                   (common::milog::MiLogStream *const)(v2 + 512),
-                   (const std::string *)(v2 + 256));
-            common::milog::MiLogStream::operator<<<char [17],(char *[17])0>(v9, (const char (*)[17])" fromJson fails!");
-            common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 512));
-            *(_DWORD *)(((v2 + 512) >> 3) + 0x7FFF8000) = -117901064;
-            std::shared_ptr<data::ConfigMonster>::shared_ptr((std::shared_ptr<data::ConfigMonster> *const)jval, 0LL);
-          }
-          else
-          {
-            v10 = (__int64)std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false>::operator->((const std::__shared_ptr_access<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2,false,false> *const)(v2 + 96));
-            v11 = *(_BYTE *)(((unsigned __int64)(v10 + 624) >> 3) + 0x7FFF8000);
-            LOBYTE(v1) = v11 != 0;
-            v12 = v11 < 0;
-            if ( v12 )
-              v10 = __asan_report_store1(v10 + 624, v1, v12);
-            *(_BYTE *)(v10 + 624) = 1;
-            std::shared_ptr<data::ConfigMonster>::shared_ptr(
-              (std::shared_ptr<data::ConfigMonster> *const)jval,
-              (std::shared_ptr<data::ConfigMonster> *)(v2 + 96));
-          }
-        }
-        std::shared_ptr<data::ConfigMonster>::~shared_ptr((std::shared_ptr<data::ConfigMonster> *const)(v2 + 96));
-      }
-      std::shared_ptr<data::ConfigEntity>::~shared_ptr((std::shared_ptr<data::ConfigEntity> *const)(v2 + 64));
+            10068);
+        common::milog::MiLogStream::operator<<<char [46]>(..., "jsonValueFind for: ConfigMonster $type fails!");
+        common::milog::MiLogStream::~MiLogStream(...);
+        return nullptr;
     }
-    std::string::~string((void *)(v2 + 256));
-  }
-  else
-  {
-    *(_DWORD *)(((v2 + 192) >> 3) + 0x7FFF8000) = 0;
-    if ( *(char *)(((v2 + 192) >> 3) + 0x7FFF8000) < 0
-      || *(_BYTE *)(((v2 + 223) >> 3) + 0x7FFF8000) != 0
-      && (char)((v2 - 33) & 7) >= *(_BYTE *)(((v2 + 223) >> 3) + 0x7FFF8000) )
-    {
-      __asan_report_store_n(v2 + 192, 32LL);
-    }
-    common::milog::MiLogStream::create(
-      (common::milog::MiLogStream *)(v2 + 192),
-      &common::milog::MiLogDefault::default_log_obj_,
-      3u,
-      "./src/json_data_auto/ConfigEntity.cpp",
-      "parseFromJson",
-      10068);
-    common::milog::MiLogStream::operator<<<char [46],(char *[46])0>(
-      (common::milog::MiLogStream *const)(v2 + 192),
-      (const char (*)[46])"jsonValueFind for: ConfigMonster $type fails!");
-    common::milog::MiLogStream::~MiLogStream((common::milog::MiLogStream *const)(v2 + 192));
-    *(_DWORD *)(((v2 + 192) >> 3) + 0x7FFF8000) = -117901064;
-    std::shared_ptr<data::ConfigMonster>::shared_ptr((std::shared_ptr<data::ConfigMonster> *const)jval, 0LL);
-  }
-  if ( v14 == (char *)v2 )
-  {
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8018) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8024) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF802C) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8034) = 0LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF803C) = 0LL;
-    *(_DWORD *)((v2 >> 3) + 0x7FFF8044) = 0;
-  }
-  else
-  {
-    *(_QWORD *)v2 = 1172321806LL;
-    result._M_refcount._M_pi = (std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2> *)0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8000) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8008) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8010) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8018) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8020) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8028) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8030) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8038) = 0xF5F5F5F5F5F5F5F5LL;
-    *(_QWORD *)((v2 >> 3) + 0x7FFF8040) = 0xF5F5F5F5F5F5F5F5LL;
-  }
-  result._M_ptr = (std::__shared_ptr<data::ConfigMonster,(__gnu_cxx::_Lock_policy)2>::element_type *)jval;
-  return result;
-};
+    
+    // 清理栈帧并返回
+    // ... 清理代码（编译器生成）
+}
 
 // Line 10099: range 000000000E6885FC-000000000E6889B3
 int32_t __cdecl data::ConfigMonster::getHashValue(const data::ConfigMonster *const this)
